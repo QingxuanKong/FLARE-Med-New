@@ -1,0 +1,49 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.tmp
+*.swp
+
+# Virtual environments
+.venv/
+.env/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Dataset and cache directories
+MedRAG/src/corpus/
+MedRAG/src/data/corpus/
+datasets/
+*.jsonl
+*.jsonl.gz
+MIRAGE/retrieved_snippets_10k/
+
+# Lucene/pyserini index files
+*/index/*
+*/index
+**/bm25/
+**/bm25/*
+
+# Hugging Face cache
+~/.cache/huggingface/
+.cache/
+huggingface_cache/
+
+# Pyserini logs and error outputs
+*.log
+*.error
+nohup.out
+
+# VSCode / PyCharm / IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# AWS credentials (just in case)
+.aws/
