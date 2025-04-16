@@ -1,5 +1,6 @@
 from src.medrag import MedRAG
 import os
+import torch, gc
 
 # Example question (from MMLU-style prompt)
 question = "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral"
@@ -15,7 +16,8 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 db_dir = os.path.join(current_dir, "src/data/corpus")
 
 medrag = MedRAG(
-    llm_name="meta-llama/Meta-Llama-3-70B-Instruct",  # or path to local model
+    # llm_name="axiong/PMC_LLaMA_13B",  # or path to local model
+    llm_name="meta-llama/Llama-3.1-8B-Instruct",  # or path to local model
     rag=True,
     retriever_name="RRF-4",
     corpus_name="Textbooks",  # Must match folder in corpus/

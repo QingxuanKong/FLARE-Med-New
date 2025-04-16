@@ -11,6 +11,7 @@ import openai
 from transformers import StoppingCriteria, StoppingCriteriaList
 import tiktoken
 import sys
+import gc
 
 sys.path.append("src")
 from .utils import RetrievalSystem, DocExtracter
@@ -174,11 +175,15 @@ class MedRAG:
                 )
                 self.max_length = 2048
                 self.context_length = 1024
+            
+            gc.collect()
+            torch.cuda.empty_cache()
+
             self.model = transformers.pipeline(
                 "text-generation",
                 model=self.llm_name,
-                # torch_dtype=torch.float16,
-                torch_dtype=torch.bfloat16,
+                torch_dtype=torch.float16,
+                # torch_dtype=torch.bfloat16,
                 device_map="auto",
                 model_kwargs={"cache_dir": self.cache_dir},
             )
@@ -227,7 +232,6 @@ class MedRAG:
                     ),
                 )
             if "llama-3" in self.llm_name.lower():
-                print("generating ...")
                 response = self.model(
                     prompt,
                     do_sample=True,
@@ -243,7 +247,6 @@ class MedRAG:
                     stopping_criteria=stopping_criteria,
                     **kwargs,
                 )
-                print("finishing ...")
             else:
                 response = self.model(
                     prompt,
