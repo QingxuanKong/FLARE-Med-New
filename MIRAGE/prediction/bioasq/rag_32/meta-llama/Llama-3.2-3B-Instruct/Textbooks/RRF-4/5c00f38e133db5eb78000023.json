@@ -1,0 +1,206 @@
+{
+    "id": "5c00f38e133db5eb78000023",
+    "question": "Does vesatolimod inhibit TLR7?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To determine if vesatolimod inhibits TLR7, we need to analyze the provided documents and look for any information about vesatolimod and its interaction with TLR7.\\n\\nAccording to document [8] (Title: Immunology_Janeway), imiquimod is a drug that activates TLR-7, but it is not approved as an adjuvant for vaccines.\\n\\nThis information suggests that imiquimod has an agonist effect on TLR-7, rather than an inhibitory effect.\\n\\nTherefore, based on the provided information, it is unlikely that vesatolimod inhibits TLR7.\\n\\nHence, the correct answer is B. no.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_3171",
+            "title": "Immunology_Janeway",
+            "content": "many of the signaling functions of MyD88 and IRAK4 molecules are shared with IL1 family receptors. Thus, at least part of the immune defect in patients with inherited abnormalities in these molecules may be attributed to aberrant signaling by IL1 family members. Note also that NEMO deficiency, which impairs Bcell class switching (see Section 139), also impairs TLR and IL1 receptor family signaling through its block of normal NF\u03baB activation. Immunodeficiency associated with defects in NEMO therefore affects both adaptive and innate immune function. Interestingly, increased viral infections are not typical in patients with MyD88 mutations, despite this protein\u2019s role in signaling by each of the nucleic acidsensing TLRs except TLR3 (for example, TLR7, TLR8, and TLR9). This indicates that activation of interferon regulating factors (IRFs) that induce interferon responses downstream of these TLRs remains intact despite the defects in MyD88."
+        },
+        {
+            "id": "InternalMed_Harrison_25126",
+            "title": "InternalMed_Harrison",
+            "content": "Studies of highly targeted experimental therapies for SLE are in progress. They include targeting (1) activated B lymphocytes with anti-CD22 or TACI-Ig, (2) inhibition of IFN-\u03b1, (3) inhibition of B/T cell second signal coactivation with CTLA-Ig, (4) inhibition of innate immune activation via TLR7 or TLR7 and 9, (5) induction of regulatory T cells with peptides from immunoglobulins or autoantigens; (6) suppression of T cells, B cells, and monocyte/macrophages with laquinimod; and (7) inhibition of lymphocyte activation by blockade of Jak/Stat. A few studies have used vigorous untargeted immunosuppression with high-dose cyclophosphamide plus anti-T cell strategies, with rescue by transplantation of autologous hematopoietic stem cells forthetreatmentofsevereandrefractory SLE. OneU.S.report showed an estimated mortality rate over 5 years of 15% and sustained remission in 50%. It is hoped that in the next edition of this text, we will be able to recommend more effective and less toxic"
+        },
+        {
+            "id": "Immunology_Janeway_492",
+            "title": "Immunology_Janeway",
+            "content": "by TLR-7. Mice lacking TLR-7 have impaired immune responses to viruses such as influenza. In abnormal settings, TLR-7 may be activated by self-derived ssRNA. Normally, extracellular RNases degrade the ssRNA released from apoptotic cells during tissue injury. But in a mouse model of lupus nephritis, an inflammatory condition of the kidney, TLR-7 recognition of self ssRNA was observed to contribute to disease. Several studies have identified polymorphisms in the human TLR-7 gene that are associated with increased risk of the autoimmune disease systemic lupus erythematosus, suggesting a potential role in this disease. The role for TLR-8 has not been established as clearly from mouse model systems as for TLR-7. TLR-9 recognizes unmethylated CpG dinucleotides. In mammalian genomes, CpG dinucleotides in genomic DNA are heavily methylated on the cytosine by DNA methyltransferases. But in the genomes of bacteria and many viruses, CpG dinucleotides remain unmethylated and represent another"
+        },
+        {
+            "id": "Pathology_Robbins_899",
+            "title": "Pathology_Robbins",
+            "content": "Type I interferons. Blood cells show a striking molecular signature that indicates exposure to interferon-\u03b1 (IFN\u03b1), a type I interferon that is produced mainly by plasmacytoid DCs. Some studies have shown that such cells from SLE patients produce abnormally large amounts of IFN-\u03b1. TLR signals. Studies in animal models have shown that TLRs that recognize DNA and RNA, notably the DNA-recognizing TLR9 and the RNA-recognizing TLR7, produce signals that activate B cells specific for self nuclear antigens. Other cytokines that may play a role in unregulated B-cell activation include the TNF family member BAFF, which promotes survival of B cells. In some patients and animal models, increased production of BAFF has been reported, and this has led to modest success of an antibody that blocks BAFF as a therapy for SLE."
+        },
+        {
+            "id": "InternalMed_Harrison_20899",
+            "title": "InternalMed_Harrison",
+            "content": "cells and tissues. Bacterial peptidoglycan and lipopeptides elicit responses in animals that are generally similar to those induced by LPS, although they interact with different TLRs. Having numerous TLR-based receptor complexes (10 different TLRs have been identified in humans) allows animals to recognize many conserved microbial molecules; others include lipopeptides (TLR2/1, TLR2/6), flagellin (TLR5), undermethylated DNA CpG sequences (TLR9), single-stranded RNA (TLR7, 8), and double-stranded RNA (TLR3). The ability of some TLRs to serve as receptors for host ligands (e.g., hyaluronans, heparan sulfate, saturated fatty acids, high-mobility group box 1) raises the possibility that they also play a role in producing noninfectious sepsis-like states. Other host pattern-recognition proteins that are important for sensing microbes include the intracellular NOD1 and NOD2 proteins, which recognize discrete fragments of bacterial peptidoglycan; the inflammasome, which senses some pathogens"
+        },
+        {
+            "id": "InternalMed_Harrison_25001",
+            "title": "InternalMed_Harrison",
+            "content": "such as bacterial endotoxin, to normal mice leads to the production of a number of autoantibodies, including those to DNA and IgG (rheumatoid factor). A variety of genetic modifications resulting in hyperresponsiveness of B cells also can lead to the production of autoantibodies and, in animals of appropriate genetic background, a lupus-like syndrome. Moreover, excess B cell activating factor (BAFF), a B cell survival factor, can cause T cell\u2013independent B cell activation and the development of autoimmunity. SLE can also be induced in mice through exuberant dendritic cell activation, through a redundancy of TLR7 on the Y chromosome (as in BXSB-Yaa mice), or through exposure to CpG, a ligand for TLR9. The ensuing induction of inflammatory mediators can cause a switch from the production of nonpathogenic IgM auto-antibodies to the production of pathogenic IgG autoantibodies in the absence of antigen-specific T cell help. Aberrant selection of the B or T cell repertoire at the time of"
+        },
+        {
+            "id": "Immunology_Janeway_491",
+            "title": "Immunology_Janeway",
+            "content": "TLR-7, TLR-8, and TLR-9, like TLR-3, are endosomal nucleotide sensors involved in the recognition of viruses. TLR-7 and TLR-9 are expressed by plasmacytoid dendritic cells, B cells, and eosinophils; TLR-8 is expressed primarily by monocytes and macrophages. TLR-7 and TLR-8 are activated by single-stranded RNA (ssRNA), which is a component of healthy mammalian cells, but it is normally confined to the nucleus and cytoplasm and is not present in endosomes. Many virus genomes, for example, those of orthomyxoviruses (such as influenza) and flaviviruses (such as West Nile virus), consist of ssRNA. When extracellular particles of these viruses are endocytosed by macrophages or dendritic cells, they are uncoated in the acidic environment of endosomes and lysosomes, exposing the ssRNA genome for recognition by TLR-7. Mice lacking TLR-7 have impaired immune responses to viruses such as influenza. In abnormal settings, TLR-7 may be activated by self-derived ssRNA. Normally, extracellular RNases"
+        },
+        {
+            "id": "Immunology_Janeway_4221",
+            "title": "Immunology_Janeway",
+            "content": "Many adjuvants seem to work by triggering the innate viral and bacterial sensor pathways in APCs, via TLRs and proteins of the NOD-like receptor family such as NLRP3 (see Chapter 3), and thereby activating them to initiate an adaptive immune response. The TLR-4 agonist lipopolysaccharide (LPS) has adjuvant effects, but its use is limited by its toxicity. Small amounts of injected LPS can induce a state of shock and systemic inflammation that mimics Gram-negative sepsis, raising the question whether its adjuvant effect can be separated from its toxic effects. Monophosphoryl lipid A, an LPS derivative and TLR-4 ligand, partly achieves this, retaining adjuvant effects but being associated with much lower toxicity than LPS. Both unmethylated CpG DNA, which activates TLR-9, and imiquimod, a small-molecule drug that acts as a TLR-7 agonist, can provide adjuvant activity experimentally, but neither is approved as an adjuvant in human vaccines."
+        },
+        {
+            "id": "Immunology_Janeway_4695",
+            "title": "Immunology_Janeway",
+            "content": "Imd (immunodeficiency) signaling pathway A defense against Gram-negative bacteria in insects that results in the production of antimicrobial peptides such as diptericin, attacin, and cecropin. imiquimod Drug (aldara) approved for treatment of basal cell carcinoma, genital warts, and actinic keratoses known to activate TLR-7, although not approved as an adjuvant for vaccines. immature B cells B cells that have rearranged a heavyand a light-chain V-region gene and express surface IgM, but have not yet matured sufficiently to express surface IgD as well. immediate hypersensitivity reactions Allergic reactions that occur within seconds to minutes of encounter with antigen, caused largely by activation of mast cells or basophils."
+        },
+        {
+            "id": "Surgery_Schwartz_214",
+            "title": "Surgery_Schwartz",
+            "content": "of a ligand-binding domain, char-acterized by multiple leucine-rich repeats (LRRs), and a carboxy-terminal, intracellular Toll/interleukin (IL) 1 recep-tor (TIR) domain. The LRR domains recognize bacterial and viral PAMPs in the extracellular environment (TLR1, TLR2, TLR4, TLR5, TLR6, and TLR11) or in the endolysosomes (TLR3, TLR7, TLR8, TLR9, and TLR10). While the role of TLRs in sepsis has been well described, more recent data indi-cate that a subset of the TLRs\u2014TLR4 in particular\u2014also rec-ognize DAMPs released from injured cells and tissues.51 Among the DAMP ligands for surface TLR are HMGB1, HSPs, S100 proteins, and several others. Endosomal TLR ligands include mtDNA and other mitochondrial proteins.What we know about TLR signaling events has largely been derived from the TLR-mediated response to bacterial pathogens. However, it is largely accepted that the intracellu-lar adaptors required for signal transmission by TLRs are con-served and utilized for \u201cdamage\u201d sensing of"
+        },
+        {
+            "id": "InternalMed_Harrison_24479",
+            "title": "InternalMed_Harrison",
+            "content": "Source: Adapted from O Takeuchi, S Akira: Cell 140:805, 2010, with permission. Introduction to the Immune System FIGUrE 372e-1 Overview of major TLR signaling pathways. All TLRs signal through MyD88, with the exception of TLR3. TLR4 and the TLR2 subfamily (TLR1, TLR2, TLR6) also engage TIRAP. TLR3 signals through TRIF. TRIF is also used in conjunction with TRAM in the TLR4-MyD88independent pathway. Dashed arrows indicate translocation into the nucleus. dsRNA, double-strand RNA; IFN, interferon; IRF3, interferon regulatory factor 3; LPS, lipopolysaccharide; MAPK, mitogen-activated protein kinases; NF-\u03baB, nuclear factor-\u03baB; ssRNA, single-strand RNA; TLR, Toll-like receptor. (Adapted from D van Duin et al: Trends Immunol 27:49, 2006, with permission.) TLRs TLR2 (heterodimer with TLR1 or 6) Env of HIV; core protein of HCV; components of Mycobacterium tuberculosis; Helicobacter pylori, Lewis Ag Muramyl dipeptide of peptidoglycan of bacteria"
+        },
+        {
+            "id": "InternalMed_Harrison_24468",
+            "title": "InternalMed_Harrison",
+            "content": "TLRs have been identified in humans, and 13 TLRs have been identified in mice (Tables 372e-4 and 372e-5). Upon ligation, TLRs activate a series of intracellular events that lead to the killing of bacteria-and viral-infected cells as well as to the recruitment and ultimate activation of antigen-specific T and B lymphocytes (Fig. 372e-1). Importantly, signaling by massive"
+        },
+        {
+            "id": "InternalMed_Harrison_9565",
+            "title": "InternalMed_Harrison",
+            "content": "In addition to their role in MyD88-mediated signaling, some TLRs (e.g., TLR3 and TLR4) can activate signal transduction via a MyD88-independent pathway involving TIR domain\u2013containing, adapter-inducing IFN-\u03b2 (TRIF) and the TRIF-related adapter molecule (TRAM). Signaling through TRIF and TRAM activates the production of both NF-\u03baB-dependent cytokines/chemokines and type 1 IFNs. CHAPTER 145e Molecular Mechanisms of Microbial Pathogenesis Anti-viral compounds, Inflammation, immune regulation, survival, proliferation"
+        },
+        {
+            "id": "Immunology_Janeway_502",
+            "title": "Immunology_Janeway",
+            "content": "that is attached to the other TLR-4 subunit. The MD-2 protein binds off to one side of the TLR-4 LRR region. Panel c: schematic illustration of relative orientation of LPS binding to MD-2 and TLR-4. Structures courtesy of Jie-Oh Lee."
+        },
+        {
+            "id": "InternalMed_Harrison_24484",
+            "title": "InternalMed_Harrison",
+            "content": "production (Table 372e-7). Thus, DCs are important bridges between early (innate) and later (adaptive) immunity. DCs also modulate and determinethetypes ofimmuneresponsesinducedbypathogensviatheTLRs expressedonDCs(TLR7\u20139onplasmacytoidDCs,TLR4onmonocytoid DCs) and via the TLR adapter proteins that are induced to associate with TLRs (Fig. 372e-1, Table 372e-4). In addition, other PRRs, such as C-type lectins, NLRs, and mannose receptors, upon ligation by pathogenproducts,activatecellsoftheadaptiveimmunesystemand,likeTLR stimulation, by a variety of factors, determine the type and quality of the adaptive immune response that is triggered (Table 372e-4)."
+        },
+        {
+            "id": "Immunology_Janeway_748",
+            "title": "Immunology_Janeway",
+            "content": "Beutler, B., and Rietschel, E.T.: Innate immune sensing and its roots: the story of endotoxin. Nat. Rev. Immunol. 2003, 3:169\u2013176. Diebold, S.S., Kaisho, T., Hemmi, H., Akira, S., and Reis e Sousa, C..: Innate antiviral responses by means of TLR7\u2011mediated recognition of single\u2011stranded RNA. Science 2004, 303:1529\u20131531. Heil, F., Hemmi, H., Hochrein, H., Ampenberger, F., Kirschning, C., Akira, S., Lipford, G., Wagner, H., and Bauer, S.: Species\u2011specific recognition of single\u2011stranded RNA via Toll\u2011like receptor 7 and 8. Science 2004, 303:1526\u20131529. Hoebe, K., Georgel, P., Rutschmann, S., Du, X., Mudd, S., Crozat, K., Sovath, S., Shamel, L., Hartung, T., Z\u00e4hringer, U., et al.: CD36 is a sensor of diacylglycerides. Nature 2005, 433:523\u2013527. Jin, M.S., Kim, S.E., Heo, J.Y., Lee, M.E., Kim, H.M., Paik, S.G., Lee, H., and Lee, J.O.: Crystal structure of the TLR1\u2011TLR2 heterodimer induced by binding of a tri\u2011acylated lipopeptide. Cell 2007, 130:1071\u20131082."
+        },
+        {
+            "id": "InternalMed_Harrison_25017",
+            "title": "InternalMed_Harrison",
+            "content": "In autoimmune thrombocytopenic purpura, opsonization of platelets targets them for elimination by phagocytes. Likewise, in autoimmune hemolytic anemia, binding of immunoglobulin to red cell membranes leads to phagocytosis and lysis of the opsonized cell. Goodpasture\u2019s syndrome, a disease characterized by lung hemorrhage and severe glomerulonephritis, represents an example of antibody binding leading to local activation of complement and neutrophil accumulation and activation. The autoantibody in this disease binds to the \u03b13 chain of type IV collagen in the basement membrane. In SLE, activation of the complement cascade at sites of immunoglobulin deposition in renal glomeruli is considered to be a major mechanism of renal damage. Moreover, the DNAand RNA-containing immune complexes in SLE activate TLR9 and TLR7, respectively, in dendritic cells and promote a proinflammatory, immunogenic milieu conducive to amplification of the autoimmune response."
+        },
+        {
+            "id": "InternalMed_Harrison_24480",
+            "title": "InternalMed_Harrison",
+            "content": "TLRs TLR2 (heterodimer with TLR1 or 6) Env of HIV; core protein of HCV; components of Mycobacterium tuberculosis; Helicobacter pylori, Lewis Ag Muramyl dipeptide of peptidoglycan of bacteria Mannosylated lipoarabinomannans from bacillus Calmette-Gu\u00e9rin and M. tuberculosis Low IL-12p70 TH1 High IL-10 TH2 IL-6 T regulatory IL-12p70 TH1 IFN-\u03b1 IL-6 High IL-12p70 TH1 Intermediate IL-10 IL-6 High IL-12p70 TH1 Low IL-12p70 TH2 High IL-12p70 TH1 IFN-\u03b1 IL-6 High IL-12p70 TH1 Low IL-10 IL-6 IFN-\u03b1 ?? ?? H. pylori, Lewis Ag TH2 Suppresses IL-12p70 T regulatory Suppresses TLR signaling in DCs Induces IL-10 in DCs Weak T cell response (tolerogenic?) Suppresses IL-12 and TLR signaling in DCs Weak T cell response? (tolerogenic?)"
+        },
+        {
+            "id": "Pharmacology_Katzung_6188",
+            "title": "Pharmacology_Katzung",
+            "content": "Ustekinumab is a human IgG1 monoclonal antibody that binds to the p40 subunit of IL-12 and IL-23 cytokines. It blocks IL-12 and IL-23 from binding to their receptors, therefore inhibiting receptor-mediated signaling in lymphocytes. Ustekinumab is indicated for adult patients with moderate to severe plaque psoriasis either alone or with methotrexate. The advantage of ustekinumab over antiTNF-\u03b1 drugs for psoriasis is faster and longer-term improvement in symptoms along with very infrequent dosing. Vedolizumab is a humanized monoclonal antibody that targets the \u03b14\u03b27 integrin in the gastrointestinal tract. It does not appear to induce systemic immunosuppression of other \u03b14\u03b27 integrin-binding antibodies such as natalizumab because it does not bind to the majority of \u03b14\u03b27 integrin on lymphocytes. It has been recommended for approval for the treatment of adults with Crohn\u2019s disease and ulcerative colitis."
+        },
+        {
+            "id": "Immunology_Janeway_2059",
+            "title": "Immunology_Janeway",
+            "content": "internal bacterial constituent that can activate the antigen-presenting function of dendritic cells. Similarly, some viruses are recognized by TLRs inside the dendritic cell via double-stranded RNA produced during viral replication."
+        },
+        {
+            "id": "Immunology_Janeway_518",
+            "title": "Immunology_Janeway",
+            "content": "In contrast to TLR-3, TLR-7, TLR-8, and TLR-9 signal uniquely through MyD88. For TLR-7 and TLR-9 signaling in plasmacytoid dendritic cells, the MyD88 TIR domain recruits the IRAK1/IRAK4 complex as described above. Here, the IRAK complex carries out a distinct function beyond recruiting TRAFs that generate a signaling scaffold. In these cells, IRAK1 can also physically associate with IRF7, which is highly expressed by plasmacytoid dendritic cells. This allows IRF7 to become phosphorylated by IRAK1, leading to induction of type I interferons (see Fig. 3.16). Not all IRF factors regulate type I interferon genes; IRF5, for example, plays a role in the induction of pro-inflammatory cytokines."
+        },
+        {
+            "id": "Immunology_Janeway_517",
+            "title": "Immunology_Janeway",
+            "content": "their carboxy termini. They then move to the nucleus as active transcription factors. Of the nine IRF family members, IRF3 and IRF7 are particularly important for TLR signaling and expression of antiviral type I interferons. For TLR-3, expressed by macrophages and conventional dendritic cells, the cytoplasmic TIR domain interacts with the adaptor protein TRIF. TRIF interacts with the E3 ubiquitin ligase TRAF3, which, like TRAF6, generates a polyubiquitin scaffold. In TLR-3 signaling, this scaffold recruits a multiprotein complex containing the kinases IKK\u03b5 and TBK1, which phosphorylate IRF3 (Fig. 3.16). TLR-4 also triggers this pathway by binding TRIF, but the IRF3 response induced by TLR-4 is relatively weak compared with that induced by TLR-3, and its functional role in vivo remains elusive. In contrast to TLR-3, TLR-7, TLR-8, and TLR-9 signal uniquely through MyD88. For TLR-7 and TLR-9 signaling in plasmacytoid dendritic cells, the MyD88 TIR domain recruits the IRAK1/IRAK4 complex"
+        },
+        {
+            "id": "Immunology_Janeway_519",
+            "title": "Immunology_Janeway",
+            "content": "The collective ability of TLRs to activate both IRFs and NF\u03baB means that they can stimulate either antiviral or antibacterial responses as needed. In human IRAK4 deficiency, for example, no extra susceptibility to viral infections has been noted. This would suggest that IRF activation is not impaired and the production of antiviral interferons is not affected. TLRs are expressed by different types of cells involved in innate immunity and by some stromal and epithelial cells, and the responses generated will differ in some respects depending on what type of cell is being activated. 3-8 The NOD-like receptors are intracellular sensors of bacterial infection and cellular damage."
+        },
+        {
+            "id": "Immunology_Janeway_539",
+            "title": "Immunology_Janeway",
+            "content": "For inflammasome activation to produce inflammatory cytokines, a priming step must first occur in which cells induce and translate the mRNAs that encode the pro-forms of IL-1\u03b2, IL-18, or other cytokines. This priming step can result from TLR signaling, which may help ensure that inflammasome activation proceeds primarily during infections. For example, the TLR-3 agonist poly I:C (see Section 3-5) can be used experimentally to prime cells for subsequent triggering of the inflammasome."
+        },
+        {
+            "id": "Immunology_Janeway_737",
+            "title": "Immunology_Janeway",
+            "content": "Having introduced immunology with a consideration of innate immune function, we next turn our attention to the adaptive immune response, beginning with an explanation of the structure and function of the antigen receptors expressed by lymphocytes. Questions. 3.1 Matching: Match the Toll-like receptor (TLR) to its ligand: A. TLR-2:TLR-1 or i. ssRNA TLR-2:TLR-6 B. TLR-3 ii. Lipopolysaccharide C. TLR-4 iii. Lipoteichoic acid and di-/triacyl lipoproteins D. TLR-5 iv. dsRNA E. TLR-7 v. Flagellin F. TLR-9 vi. Unmethylated CpG DNA 3.2 Matching: Match the hereditary disorder to the gene affected: A. Chronic granulomatous i. NOD2 disease B. X-linked hypohidrotic ii. IKK\u03b3 (NEMO) ectodermal dysplasia and immunodeficiency C. Crohn\u2019s disease iii. Jak3 D. X-linked SCID iv. NAPDH oxidase E. SCID (not X-linked) v. NLRP3 F. Familial cold vi. \u03b3c inflammatory syndrome 3.3 Multiple Choice: Which of the following does not occur during an inflammatory response? A. Local blood clotting"
+        },
+        {
+            "id": "Pharmacology_Katzung_2240",
+            "title": "Pharmacology_Katzung",
+            "content": "conductances that slow neuronal discharge. Depending on the type of neuron, this effect is mediated by either \u03b11 or \u03b2 receptors. Facilitation of excitatory synaptic transmission is in accordance with many of the behavioral processes thought to involve noradrenergic pathways, eg, attention and arousal."
+        },
+        {
+            "id": "Pharmacology_Katzung_601",
+            "title": "Pharmacology_Katzung",
+            "content": "B. Presynaptic Regulation"
+        },
+        {
+            "id": "Pharmacology_Katzung_4566",
+            "title": "Pharmacology_Katzung",
+            "content": "Danazol, an isoxazole derivative of ethisterone (17\u03b1-ethinyltestosterone) with weak progestational, androgenic, and glucocorticoid activities, is used to suppress ovarian function. Danazol inhibits the midcycle surge of LH and FSH and can prevent the compensatory increase in LH and FSH following castration in animals, but it does not significantly lower or suppress basal LH or FSH levels in normal women (Figure 40\u20135). Danazol binds to androgen, progesterone, and glucocorticoid receptors and can translocate the androgen receptor into the nucleus to initiate androgen-specific RNA synthesis. It does not bind to intracellular estrogen receptors, but it does bind to sex hormone\u2013 binding and corticosteroid-binding globulins. It inhibits P450scc (the cholesterol side chain\u2013cleaving enzyme), 3\u03b2-hydroxysteroid dehydrogenase, 17\u03b1-hydroxysteroid dehydrogenase, P450c17 (17\u03b1-hydroxylase), P450c11 (11\u03b2-hydroxylase), and P450c21 (21\u03b2-hydroxylase). However, it does not inhibit aromatase, the enzyme"
+        },
+        {
+            "id": "InternalMed_Harrison_25197",
+            "title": "InternalMed_Harrison",
+            "content": "How might microbes or their products be involved in the initiating events of RA? The immune system is alerted to the presence of microbial infections through Toll-like receptors (TLRs). There are 10 TLRsinhumansthatrecognizeavarietyofmicrobialproducts,including bacterial cell-surface lipopolysaccharides and heat-shock proteins (TLR4), lipoproteins (TLR2), double-strand RNA viruses (TLR3), and unmethylated CpG DNA from bacteria (TLR9). TLR2, -3, and -4 are abundantly expressed by synovial fibroblasts in early RA and, when bound by their ligands, upregulate production of proinflammatory cytokines. Although such events could amplify inflammatory pathways in RA, a specific role for TLRs in disease pathogenesis has not been elucidated."
+        },
+        {
+            "id": "Pharmacology_Katzung_2243",
+            "title": "Pharmacology_Katzung",
+            "content": "potassium channels. Some cell types are slowly excited by 5-HT owing to its blockade of potassium channels via 5-HT2 or 5-HT4 receptors. Both excitatory and inhibitory actions can occur on the same neuron. 5-HT has been implicated in the regulation of virtually all brain functions, including perception, mood, anxiety, pain, sleep, appetite, temperature, neuroendocrine control, and aggression. Given the broad roles of 5-HT in CNS function and the rich molecular diversity of 5-HT receptors, it is not surprising that many therapeutic agents target the 5-HT system (see Chapters 16, 29, 30, and 32)."
+        },
+        {
+            "id": "Pharmacology_Katzung_2238",
+            "title": "Pharmacology_Katzung",
+            "content": "B. Norepinephrine"
+        },
+        {
+            "id": "Immunology_Janeway_3800",
+            "title": "Immunology_Janeway",
+            "content": "monocyte or dendritic cell autoreactive B-cell survival Increased autoantibodies BAFF BAFF-R BCMA TACI dsDNA immune complex ssRNA apoptotic cellnecrotic cell IFN-\u02dcIFN-\u02dcplasmacytoid dendritic cell MyD88TLR-7 TLR-9 Nucleic acid-containing immune complexes generated from dying cells activate plasmacytoid DCs to produce IFN-\u02dcIFN-\u02dcstimulates myeloid cells to produce BAFF, which enhances the survival and autoantibody production of autoreactive B cells Fig. 15.25 Defective clearance of nucleic acid-containing immune complexes activates overproduction of BAFF and type I interferons that can cause SLE."
+        }
+    ],
+    "scores": [
+        0.026483924507639922,
+        0.019801980198019802,
+        0.01951265943270512,
+        0.018957771787960466,
+        0.018524871355060035,
+        0.018436703483432453,
+        0.018283519786274835,
+        0.01793400286944046,
+        0.017806267806267807,
+        0.017412370353546824,
+        0.016608391608391608,
+        0.016405517610820944,
+        0.015753259295026557,
+        0.015669515669515667,
+        0.015390513747398402,
+        0.014983109948785005,
+        0.014823717948717948,
+        0.013130081300813008,
+        0.012987560615644107,
+        0.012701612903225808,
+        0.011844863731656184,
+        0.011500330469266358,
+        0.011211180124223601,
+        0.010653067006658166,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009615384615384616,
+        0.009615384615384616
+    ]
+}

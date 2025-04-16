@@ -1,0 +1,206 @@
+{
+    "id": "601c4ff61cb411341a000022",
+    "question": "Is proton beam therapy used for treatment of craniopharyngioma?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and identify if proton beam therapy is mentioned as a treatment option for craniopharyngioma.\\n\\nFirst, let's look at document [20] (Title: InternalMed_Harrison). It mentions that craniopharyngiomas may be resected with a transsphenoidal approach or during craniotomy, depending on the size of the tumor. It also mentions that some studies show improved prognosis with radiation therapy used in combination with limited tumor removal.\\n\\nNext, let's look at document [22] (Title: Gynecology_Novak). It mentions that craniopharyngiomas may be resected with a transsphenoidal approach or during craniotomy, depending on the size of the tumor.\\n\\nNow, let's look at document [28] (Title: InternalMed_Harrison). It mentions that radiotherapy for pituitary tumors has been associated with adverse mortality rates, mainly from cerebrovascular disease. However, it does not specifically mention craniopharyngioma.\\n\\nAfter analyzing all the documents, we can conclude that proton beam therapy is not explicitly mentioned as a treatment option for craniopharyngioma in the provided documents.\\n\\nHowever, let's look at document [25] (Title: Neurology_Adams). It mentions that focused radiation, including proton beam therapy, is used for the treatment of certain types of tumors. Although it does not specifically mention craniopharyngioma, it does mention that proton beam therapy is used for lesions abutting the medulla or the spinal cord, and it is not recommended for lesions abutting the medulla or the spinal cord. Since craniopharyngioma is not abutting the medulla or the spinal cord, it is theoretically possible that proton beam therapy could be used for its treatment.\\n\\nHowever, we cannot make a definitive conclusion based on the provided documents. We need more information or a more specific document that mentions proton beam therapy as a treatment option for craniopharyngioma.\\n\\nGiven the lack of explicit information, the most accurate answer is that we cannot determine if proton beam therapy is used for the treatment of craniopharyngioma based on the provided documents. However, for the purpose of providing an answer from the given options, we will choose the option that indicates proton beam therapy is not used for the treatment of craniopharyngioma.\\n\\nanswer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Surgery_Schwartz_2336",
+            "title": "Surgery_Schwartz",
+            "content": "radiosurgery uses extremely accurate image-guidance and patient positioning to deliver a high dose of radiation to a small tumor with well-defined margins. In this manner, the dose of radiation being applied to normal tissues can be minimized. It is most commonly used for the treatment of brain and spinal tumors. Protons are a charged particle that can be also used in external beam radiation therapy. Proton therapy employs a beam of protons as a means of delivering radiation to a tumor. In con-trast to photons, which deposit energy continuously during their passage through tissue, protons deposit a large amount of their energy near the end of their path (known as the Bragg peak) and release less energy along the way. Thus, proton therapy could theoretically reduce the exposure of normal tissue to radiation, allowing the delivery of higher doses of radiation to a tumor. It is thought that chemotherapy given concurrently with radiation improves survival rates. Chemotherapy before"
+        },
+        {
+            "id": "Surgery_Schwartz_12389",
+            "title": "Surgery_Schwartz",
+            "content": "abutting the medulla or the spinal cord should not be treated with SRS because these structures do not tolerate the radiation dose delivered to structures within mil-limeters of the target. Also, medullary or spinal cord compres-sion can result from swelling of the lesion after the radiosurgery dose, resulting in devastating neurologic deficit.Proton beam is an evolving SRS technology that may play a specialized role in treatment of lesions where posttarget exit-ing radiation limits photon-based therapies.102 For example, the physical properties of photons cause destruction upon entry and exit from tissue, which can be particularly harmful to skull-base or clival lesions such as chordoma, in which the exiting pathway travels through the brain stem. Proton beam therapy uses accel-erated protons, which dissipate energy upon impact and do not cause additional exiting damage. Currently, there are very few centers using this technology.CyberKnife is another radiosurgery system that has"
+        },
+        {
+            "id": "Neurology_Adams_5422",
+            "title": "Neurology_Adams",
+            "content": "Kaye AH, Laws ER: Brain Tumors. An Encyclopedic Approach, 3rd ed. London, Elsevier, 2011. Keime-Guibert F, Chinot O, Taillandier L, et al: Radiotherapy for glioblastoma in the elderly. N Engl J Med 356:1527, 2007. Kendall BE, Lee BCP: Cranial chordomas. Br J Radiol 50:687, 1977. Kennedy HB, Smith RJ: Eye signs in craniopharyngioma. Br J Ophthalmol 59:689, 1975. Kepes JJ: Meningiomas: Biology, Pathology, and Differential Diagnosis. New York, Masson, 1982. Kernohan JW, Uihlein A: Sarcomas of the Brain. Springfield, IL, Charles C Thomas, 1962. Kernohan JW, Woltman HW: Incisura of the crus due to contralateral brain tumor. Arch Neurol Psychiatry 21:274, 1929. Khalili K, Krynska B, Del Valle L, et al: Medulloblastomas and the human neurotropic polyomavirus JC virus. Lancet 353:1152, 1999. Kjellberg R, Kliman B: Bragg peak proton treatment for pituitary-related conditions. Proc Roy Sco Med 67:32, 1974."
+        },
+        {
+            "id": "InternalMed_Harrison_26479",
+            "title": "InternalMed_Harrison",
+            "content": "Radiation is used either as a primary therapy for pituitary or parasellar masses or, more commonly, as an adjunct to surgery or medical therapy. Focused megavoltage irradiation is achieved by precise MRI localization, using a high-voltage linear accelerator and accurate isocentric rotational arcing. A major determinant of accurate irradiation is reproduction of the patient\u2019s head position during multiple visits and maintenance of absolute head immobility. A total of <50 Gy (5000 rad) is given as 180-cGy (180-rad) fractions divided over about 6 weeks. Stereotactic radiosurgery delivers a large single high-energy dose from a cobalt-60 source (gamma knife), linear accelerator, or cyclotron. Long-term effects of gamma-knife surgery are unclear but appear to be similar to those encountered with conventional radiation. Proton beam therapy is available in some centers and provides concentrated radiation doses within a localized region."
+        },
+        {
+            "id": "Neurology_Adams_6690",
+            "title": "Neurology_Adams",
+            "content": "than 250 patients whose AVMs disappeared following proton-beam therapy, there has been no recurrence of hemorrhage for up to 10 years (Chapman, personal communication). The results of treatment with focused radiation have been about the same. In one study, the risk of hemorrhage was reduced by 54 percent between the time of radiation and obliteration of the malformation and by 88 percent thereafter (Maruyama et al)."
+        },
+        {
+            "id": "Neurology_Adams_5266",
+            "title": "Neurology_Adams",
+            "content": "An alternative to surgery is focused radiation, which controls the growth of many of the smaller tumors. In a large series of patients treated with radiosurgery, facial motor and sensory functions were preserved in 75 percent of cases and, after 28 months of observation, no new neurologic deficits were detected (Kondziolka et al). This approach is favored in older patients with few symptoms but is being adopted increasingly for others. The rates of hearing loss and facial numbness and weakness are comparable or lower than with surgery, but the follow-up period in most series is less than 5 years (Flickinger et al). Focused radiation with the Gamma Knife or proton beam also appears to be preferable to surgery in cases of recurrent tumor. The antiangiogenic agent, bevacizumab, in preliminary reports has reduced the size of these tumors in patients with NF2 (Plotkin et al)."
+        },
+        {
+            "id": "Pediatrics_Nelson_3327",
+            "title": "Pediatrics_Nelson",
+            "content": "The blood-brain barrier prevents the penetration of chemotherapeutic drugs into the CNS; instillation of the chemotherapeutic agent directly into the cerebrospinal fluid (by lumbar puncture) may be necessary. Radiation therapy also circumvents the blood-brain barrier. Radiation therapy is the process of delivering ionizing radiationto malignant cells in order to kill them directly or, more commonly, prevent them from dividing by interfering with DNAreplication. Conventional radiation therapy uses photons, butatomic particles such as electrons, protons, and neutrons canalso be used. Not all tumors are radiosensitive, and radiation therapy is not necessary in all tumors that are radiosensitive."
+        },
+        {
+            "id": "Neurology_Adams_5308",
+            "title": "Neurology_Adams",
+            "content": "Kliman in past decades using proton beam radiation, in the past treated more than 1,100 pituitary adenomas without a fatality and with few complications (Kliman et al). A single brief exposure was all that was necessary. An endocrine deficit will follow in most instances and must be corrected by hormone replacement therapy. Several equivalent methods (Gamma Knife, Cyberknife) are more accessible and have become widely used. The advantage of these radiotherapeutic methods is that tumor recurrence is rare. A disadvantage is that the radiation effect is obtained only after several months. Estrada and colleagues have also reported that external beam-radiation therapy may be employed after unsuccessful transsphenoidal surgery for Cushing disease. After approximately 3.5 years following radiation, 83 percent of their patients showed no signs of tumor growth. There are a few reports, however, of a decline in memory ability after radiation treatment of all types."
+        },
+        {
+            "id": "Neurology_Adams_5423",
+            "title": "Neurology_Adams",
+            "content": "Kjellberg R, Kliman B: Bragg peak proton treatment for pituitary-related conditions. Proc Roy Sco Med 67:32, 1974. Klatzo I: Neuropathological aspects of brain edema. J Neuropathol Exp Neurol 26:1, 1967. Klibanski A, Zervas NT: Diagnosis and management of hormone-secreting pituitary adenomas. N Engl J Med 324:822, 1991. Kliman B, Kjellberg RN, Swisher B, Butler W: Proton beam therapy of acromegaly: A 20-year experience. In: Black PM (ed): Secretory Tumors of the Pituitary Gland. New York, Raven Press, 1984, pp 191\u2013211. Kondziolka D, Lunsford D, McLaughlin MR, Flickinger JC: Long-term outcomes after radiosurgery for acoustic neuroma. N Engl J Med 339:1426, 1998. Kovacs K, Asa SL: Functional Endocrine Pathology. Boston, Blackwell Scientific, 1991. Kramer W: Glomus jugulare tumors. In: Vinken PJ, Bruyn GW (eds): Handbook of Clinical Neurology. Vol 18. Amsterdam, North-Holland, 1975, pp 435\u2013455."
+        },
+        {
+            "id": "Neurology_Adams_5083",
+            "title": "Neurology_Adams",
+            "content": "Cranial irradiation to a total dose of 6,000 cGy increases survival by 5 months on average (see in the following text). This is true even in the elderly who have had only a biopsy without resection according to a trial conducted by Keime-Guibert and colleagues. In many centers, a fraction of this is delivered as a \u201cboost\u201d through focused or stereotactic radiation, particularly if the tumor is small enough to encompass in these fields. Brachytherapy (implantation of iodine-125 or iridium-193 beads or needles) and high-dose focused radiation (stereotactic radiosurgery) have so far not significantly altered survival times but continue to be studied. They have gone through periods of popularity but are currently used only sparsely, partly because they cause local radiation necrosis."
+        },
+        {
+            "id": "Neurology_Adams_5331",
+            "title": "Neurology_Adams",
+            "content": "Treatment of the chordoma is surgical excision and radiation (focused radiation). This form of treatment has effected a 5-year survival without recurrence in approximately 80 percent of patients. Nasopharyngeal Growths That Erode the Base of the Skull (Nasopharyngeal Transitional Cell Carcinoma, Schmincke Tumor)"
+        },
+        {
+            "id": "InternalMed_Harrison_7636",
+            "title": "InternalMed_Harrison",
+            "content": "The standard treatment for brain metastases has been whole-brain radiotherapy (WBRT) usually administered to a total dose of 3000 cGy in 10 fractions. This affords rapid palliation, and approximately 80% of patients improve with glucocorticoids and RT. However, it is not curative. Median survival is only 4\u20136 months. More recently, SRS delivered through a variety of techniques including the gamma knife, linear accelerator, proton beam, and CyberKnife all can deliver highly focused doses of RT, usually in a single fraction. SRS can effectively sterilize the visible lesions and afford local disease control in 80\u201390% of patients. In addition, there are some patients who have clearly been cured of their brain metastases using SRS, whereas this is distinctly rare with WBRT. However, SRS can be used only for lesions 3 cm or less in diameter and should be confined to patients with only one to three metastases. The addition of WBRT to SRS improves disease control in the nervous system but does"
+        },
+        {
+            "id": "Neurology_Adams_5201",
+            "title": "Neurology_Adams",
+            "content": "All these tumors are rare. They constitute from 1 to 3 percent of intracranial tumors, depending on how wide a range of neoplasms one chooses to include (see in the following text). Occasionally, cerebral deposits of these types of tumors will occur as a metastasis from a sarcoma in another organ. Almost all others are primary in the cranial cavity and exhibit as one of their unique properties a tendency to metastasize to nonneural tissues\u2014a decidedly rare occurrence with primary glial tumors. It is a disturbing fact that a few sarcomas have developed 5 to 10 years after cranial irradiation or, in one instance among 3,000 patients related to us by R.D. Adams, after proton beam irradiation of the brain. Fibrosarcomas have occurred after radiation of pituitary adenomas and osteogenic sarcoma, after other types of radiation, all localized to bone or meninges. Our experience with hemangiopericytoma has included to three intracranial lesions that simulated meningiomas and two others that"
+        },
+        {
+            "id": "Neurology_Adams_4519",
+            "title": "Neurology_Adams",
+            "content": "Treatment is governed by the cause of the syndrome. A pituitary adenoma, if not extending out of the sella and encroaching on the optic chiasm (microadenoma), is ideally treated by transsphenoidal pituitary microsurgery, as discussed in Chap. 31. The alternative is focused proton beam or gamma radiation, but the long latency of response to these forms of treatment, 6 months or more, makes them less desirable. If such indirect methods of treatment are used, hypercortisolism may be suppressed in the interim by adrenal enzyme inhibitors such as ketoconazole, metapyrone, or aminoglutethimide. The rate of cure for pituitary microadenoma by transsphenoidal surgery approaches 80 percent, although operative complications\u2014CSF leakage, transient diabetes insipidus, visual abnormalities, meningitis\u2014occur in as many as 10 percent of patients. In approximately 20 percent of patients, removal of the tumor is incomplete and symptoms persist or recur. In such circumstances reoperation is often"
+        },
+        {
+            "id": "InternalMed_Harrison_21310",
+            "title": "InternalMed_Harrison",
+            "content": "Dexamethasone is the best initial treatment for all symptomatic patients with brain metastases. Patients with multiple lesions should usually receive whole-brain radiation. Patients with a single brain metastasis and with controlled extracranial disease may be treated with surgical excision followed by whole-brain radiation therapy, especially if they are younger than 60 years. Radioresistant tumors should be resected if possible. Stereotactic radiosurgery (SRS) is recommended in patients with a limited number of brain metastases (one to four) who have stable, systemic disease or reasonable systemic treatment options and for patients who have a small number of metastatic lesions in whom whole-brain radiation therapy has failed. With a gamma knife or linear accelerator, multiple small, well-collimated beams of ionizing radiation destroy lesions seen on MRI. Some patients with increased intracranial pressure associated with hydrocephalus may benefit from shunt placement. If neurologic"
+        },
+        {
+            "id": "Neurology_Adams_5231",
+            "title": "Neurology_Adams",
+            "content": "tumors. More recently, several groups have used endovascular embolization of the vascular nodule prior to surgery, but it is not clear if this reduces the incidence of recurrence. Treatment with focused radiation is also being undertaken, particularly for multifocal or surgically inaccessible lesions, and several case series using either stereotactic radiosurgery, or external or proton beam radiation indicate results that may be comparable to conventional treatment."
+        },
+        {
+            "id": "Surgery_Schwartz_12275",
+            "title": "Surgery_Schwartz",
+            "content": "should prompt a metastatic work-up, including CT scan of the chest, abdomen, and pelvis, and a bone scan.Management largely depends upon the primary tumor, overall tumor burden, patient\u2019s medical condition, and location and number of metastases. The beliefs of the patient and family regarding aggressive care must be considered, with the primary goal of optimizing survival time while maintaining or improv-ing neurological function. Neurosurgical intervention can be indicated for a number of reasons. Biopsy can be obtained to provide a tissue diagnosis and further direct therapy. Hydro-cephalus from increased intracranial pressure due to intracranial tumor burden can be temporized via placement of a ventricu-loperitoneal shunt. Craniotomy can be used for debulking of intracranial tumor burden or resection. Data from random-ized controlled trials have supported the use of craniotomy for tumor resection plus whole-brain radiation therapy (WBRT) or stereotactic radiosurgery (SRS) for"
+        },
+        {
+            "id": "InternalMed_Harrison_6270",
+            "title": "InternalMed_Harrison",
+            "content": "Therapeutic radiation is delivered in three ways: (1) teletherapy, with focused beams of radiation generated at a distance and aimed at the tumor within the patient; (2) brachytherapy, with encapsulated sources of radiation implanted directly into or adjacent to tumor tissues; and (3) systemic therapy, with radionuclides administered, for example, intravenously but targeted by some means to a tumor site. Teletherapy with x-ray or gamma-ray photons is the most commonly used form of radiation therapy. Particulate forms of radiation are also used in certain circumstances, such as the use of proton beams. The difference between photons and protons relates to the volume in which the greatest delivery of energy occurs. Typically protons have a much narrower range of energy deposition, theoretically resulting in more precise delivery of radiation with improvement in the degree to which adjacent structures may be affected, in comparison to photons. Electron beams are a particulate form of"
+        },
+        {
+            "id": "Neurology_Adams_5307",
+            "title": "Neurology_Adams",
+            "content": "If the patient is intolerant of medication (or, in the case of acromegaly, to octreotide and newer drugs), the treatment is surgical, using a transsphenoidal microsurgical approach, with an attempt at total removal of the tumor and preservation of normal pituitary function. Unfortunately, approximately 15 percent of GH-secreting tumors and prolactinomas will recur at 1 year. For this reason, incomplete removal or recurrence of the tumor (or tumors that are unresponsive to hormonal therapy) should be followed by radiation therapy. Alternative primary treatment for intrasellar tumors is forms of stereotactic radiosurgery, provided that vision is not being threatened and there is no other urgent need for surgery. These forms of radiation can be focused precisely on the tumor and will destroy it. Kjellberg and Kliman in past decades using proton beam radiation, in the past treated more than 1,100 pituitary adenomas without a fatality and with few complications (Kliman et al)."
+        },
+        {
+            "id": "Surgery_Schwartz_12298",
+            "title": "Surgery_Schwartz",
+            "content": "in children. A second peak of incidence also exists around 50 years of age. Craniopharyngiomas arise from remnant embry-onic tissue in the pituitary stalk. Calcification occurs in all pedi-atric and roughly half of adult craniopharyngiomas. Symptoms result from compression of adjacent structures, especially the optic chiasm. Pituitary or hypothalamic dysfunction or hydro-cephalus may develop. Treatment is primarily surgical. Excision ABFigure 42-23. A. Postcontrast T1-weighted axial magnetic resonance imaging demonstrating a brightly enhancing mass on the right ves-tibular nerve with an enhancing tail going into the internal auditory canal (arrowhead). Pathology demonstrated vestibular schwannoma. B. Postcontrast T1-weighted sagittal magnetic resonance imaging of the same lesion, indicated by the arrowhead. Note small incidental meningioma at the top of the scan.Brunicardi_Ch42_p1827-p1878.indd 185801/03/19 7:17 PM 1859NEUROSURGERYCHAPTER 42is somewhat easier in children, as the"
+        },
+        {
+            "id": "InternalMed_Harrison_26488",
+            "title": "InternalMed_Harrison",
+            "content": "Treatment usually involves transcranial or transsphenoidal surgical resection followed by postoperative radiation of residual tumor. Surgery alone is curative in less than half of patients because of recurrences due to adherence to vital structures or because of small tumor deposits in the hypothalamus or brain parenchyma. The goal of surgery is to remove as much tumor as possible without risking complications associated with efforts to remove firmly adherent or inaccessible tissue. In the absence of radiotherapy, about 75% of craniopharyngiomas recur, and 10-year survival is less than 50%. In patients with incomplete resection, radiotherapy improves 10-year survival to 70\u201390% but is associated with increased risk of secondary malignancies. Most patients require lifelong pituitary hormone replacement."
+        },
+        {
+            "id": "Surgery_Schwartz_12297",
+            "title": "Surgery_Schwartz",
+            "content": "palsy due to lymphoma-tous meningitis (analogous to carcinomatous meningitis). Often, lymphoma appears hyperdense on CT due to dense cellularity. Most lesions typically enhance with contrast on MRI, and can be differentiated by diffusion restriction on diffusion-weighted sequences. Surgical excision is not indicated. A stereotactic needle biopsy specimen usually confirms the diagnosis. Sub-sequent treatment includes steroids, whole-brain radiation, and chemotherapy. Intrathecal methotrexate is an additional treat-ment option.Embryologic TumorsEmbryologic tumors result from embryonal remnants that fail to involute completely or differentiate properly during development.Craniopharyngioma. Craniopharyngiomas are benign cystic lesions that occur in the sellar region that occur most frequently in children. A second peak of incidence also exists around 50 years of age. Craniopharyngiomas arise from remnant embry-onic tissue in the pituitary stalk. Calcification occurs in all pedi-atric and"
+        },
+        {
+            "id": "First_Aid_Step2_203",
+            "title": "First_Aid_Step2",
+            "content": "Transsphenoidal surgical resection or external beam radiation of the tumor. Octreotide can be used to suppress GH secretion. Pegvisomant can be used to block GH receptors in refractory cases. Prolactinoma is the most common functioning pituitary tumor. Other pathologic causes include craniopharyngioma, irradiation, drugs (e.g., dopamine), and cirrhosis. Hx/PE: Hypogonadism is manifested by infertility, oligomenorrhea, or amenorrhea. Galactorrhea, gynecomastia, or bitemporal hemianopia may be prominent. Dx: The serum prolactin level is typically > 200 mg/mL. Tx: Dopamine agonists (f rst-line therapy): Cabergoline or bromocriptine. Surgery: Should be considered when medical treatment has failed, when the patient desires future pregnancies, or in the setting of visual field defects. Failure to concentrate urine as a result of central or nephrogenic ADH dysfunction. Subtypes are as follows:"
+        },
+        {
+            "id": "Neurology_Adams_10247",
+            "title": "Neurology_Adams",
+            "content": "and colleagues in 2009 but the techniques change so rapidly that it is difficult to determine and compare outcomes. The issue of radiosensitivity of any particular tumor has become a relative one as high doses of focal radiation are being delivered in one or a few fractions by special (stereotactic) techniques."
+        },
+        {
+            "id": "Surgery_Schwartz_10398",
+            "title": "Surgery_Schwartz",
+            "content": "be defined. External-beam radiation therapy can be delivered using pho-tons or particle beams (electrons, protons, pions, or neutrons). Conventional fractionation is usually 1.8 to 2 Gy per day. CT is an integral part of radiation therapy, used to define the gross tumor volume and to estimate the margin of tissue at risk for microscopic tumor involvement. The optimal radiation margin is not well defined: a margin of 5 to 7 cm is standard, but some centers advocate wider margins for tumors larger than 15 cm. At most institutions, the typical preoperative dose is 50 Gy given in 25 fractions, and resection is performed 4 to 8 weeks after completion of radiation therapy to allow acute radiation changes to subside. Postoperative radiation therapy planning is based on tumor site, tumor grade, surgical margins, and institutional preferences. The entire surgical scar and drain sites should be included in the field so that a near-full dose can be administered to the superficial skin. Metallic"
+        },
+        {
+            "id": "Neurology_Adams_5411",
+            "title": "Neurology_Adams",
+            "content": "Cairncross JG, MacDonald DR: Chemotherapy for oligodendroglioma: Progress report. Arch Neurol 48:225, 1991. Carvalho PA, Schwartz RB, Alexander E, et al: Detection of recurrent gliomas with quantitative thallium-201/technetium-99m HMPAO single-photon emission computerized tomography. J Neurosurg 77:565, 1992. Cavin LW, Dalrymple GV, McGuire EL, et al: CNS tumor induction by radiotherapy: A report of four new cases and estimate of dose required. Int J Radiat Oncol Biol Phys 18:399, 1990. Chang SD, Alder JR: Treatment of cranial base meningiomas with linear accelerator radiosurgery. Neurosurgery 41:1019, 1997. Clouston PD, DeAngelis LM, Posner JB: The spectrum of neurological disease in patients with systemic cancer. Ann Neurol 31:268, 1992. Cogan DG: Tumors of the optic nerve. In: Vinken PJ, Bruyn GW (eds): Handbook of Clinical Neurology. Vol 17. Amsterdam, North-Holland, 1974, pp 350\u2013374. Colao A, Lombardi G: Growth-hormone and prolactin excess. Lancet 352:1455, 1998."
+        },
+        {
+            "id": "Surgery_Schwartz_12388",
+            "title": "Surgery_Schwartz",
+            "content": "outside the CNS. They are found in most radiation oncology departments. After upgrades to the software and collimators, SRS can be performed with these existing units. The gamma knife delivers 201 focused beams of gamma radiation from cobalt sources through a specially designed colander-like helmet. Gamma knife units are used only for intracranial disease and cost up to $5 million; thus, they are most appropriate in high patient\u2013volume centers. There is ongoing debate in the literature 9Brunicardi_Ch42_p1827-p1878.indd 187101/03/19 7:17 PM 1872SPECIFIC CONSIDERATIONSPART IIregarding the two technologies.99-101 Both continue to evolve, allowing more precise and complex isodose conformation to complex lesions. Most lesions can be treated equally well with either technology. Lesions abutting the medulla or the spinal cord should not be treated with SRS because these structures do not tolerate the radiation dose delivered to structures within mil-limeters of the target. Also,"
+        },
+        {
+            "id": "InternalMed_Harrison_21311",
+            "title": "InternalMed_Harrison",
+            "content": "beams of ionizing radiation destroy lesions seen on MRI. Some patients with increased intracranial pressure associated with hydrocephalus may benefit from shunt placement. If neurologic deterioration is not reversed with medical therapy, ventriculotomy to remove cerebrospinal fluid (CSF) or craniotomy to remove tumors or hematomas may be necessary."
+        },
+        {
+            "id": "Gynecology_Novak_5300",
+            "title": "Gynecology_Novak",
+            "content": "4. Occasionally, individuals with mosaicism and gonadal streaks may ovulate and be able to conceive either spontaneously or after the institution of estrogen therapy. 5. If 17\u03b1-hydroxylase deficiency is confirmed, treatment is instituted with corticosteroid replacement and estrogen. Progestogen should be added to protect the endometrium from hyperplasia. If possible, therapeutic measures are aimed at correcting the primary cause of amenorrhea: 1. Craniopharyngiomas may be resected with a transsphenoidal approach or during craniotomy, depending on the size of the tumor. Some studies show improved prognosis with radiation therapy used in combination with limited tumor removal (38,53). 2. Germinomas are highly radiosensitive, and surgery is rarely indicated (54). 3. Prolactinomas and hyperprolactinemia often may respond to dopamine agonists (bromocriptine or cabergoline) (55). 4."
+        },
+        {
+            "id": "InternalMed_Harrison_26482",
+            "title": "InternalMed_Harrison",
+            "content": "(200 rad) at any one treatment session and the maximum dose is <50 Gy (5000 rad). The use of stereotactic radiotherapy may reduce damage to adjacent structures. Radiotherapy for pituitary tumors has been associated with adverse mortality rates, mainly from cerebrovascular disease. The cumulative risk of developing a secondary tumor after conventional radiation is 1.3% after 10 years and 1.9% after 20 years."
+        },
+        {
+            "id": "InternalMed_Harrison_26420",
+            "title": "InternalMed_Harrison",
+            "content": "Cranial Irradiation Cranial irradiation may result in long-term hypothalamic and pituitary dysfunction, especially in children and adolescents, as they are more susceptible to damage after whole-brain or head and neck therapeutic irradiation. The development of hormonal abnormalities correlates strongly with irradiation dosage and the time interval after completion of radiotherapy. Up to two-thirds of patients ultimately develop hormone insufficiency after a median dose of 50 Gy (5000 rad) directed at the skull base. The development of hypopituitarism occurs over 5\u201315 years and usually reflects hypothalamic damage rather than primary destruction of pituitary cells. Although the pattern of hormone loss is variable, GH deficiency is most common, followed by gonadotropin and ACTH deficiency. When deficiency of one or more hormones is documented, the possibility of diminished reserve of other hormones is likely. Accordingly, anterior pituitary function should be continually evaluated over"
+        },
+        {
+            "id": "Neurology_Adams_10246",
+            "title": "Neurology_Adams",
+            "content": "by the radiosensitivity of the tumor and as summarized by Ropper and Ropper. Either treatment may be supplemented by endocrine therapy (for carcinoma of breast and prostate), and of antineoplastic drugs (for certain lymphomas and myelomas. Pain relief is sometimes difficult to attain and requires narcotics. Gilbert and associates presented evidence that patients who receive high-dose corticosteroids (16 to 60 mg of dexamethasone) and fractionated radiation (500 cGy on each of the first 3 days and then spaced radiation up to 3,000 cGy) do as well as those who have surgical decompression. However, a comparison of five different radiation programs by Nieder and colleagues suggested there is little difference between them. An often cited review of the radiotherapy options was given by Gerszten and colleagues in 2009 but the techniques change so rapidly that it is difficult to determine and compare outcomes. The issue of radiosensitivity of any particular tumor has become a relative one as"
+        }
+    ],
+    "scores": [
+        0.03794647937700174,
+        0.03739844653931483,
+        0.034691773652894956,
+        0.034488340376544226,
+        0.03019346024018921,
+        0.03013305317210014,
+        0.029471690061219153,
+        0.028313506065799646,
+        0.02703738820995458,
+        0.02609532208281557,
+        0.02551622418879056,
+        0.025470193130401775,
+        0.024824393358876116,
+        0.024581227341289792,
+        0.022953552397792367,
+        0.022950346296643796,
+        0.022155951260428873,
+        0.020334904829906686,
+        0.01905453225660103,
+        0.018028544945845278,
+        0.018000642880102863,
+        0.017904040404040405,
+        0.017523809523809525,
+        0.017401045556385362,
+        0.016835016835016835,
+        0.016807899712865046,
+        0.01675320179993077,
+        0.016743729858483956,
+        0.016372627639668538,
+        0.01610889110889111,
+        0.015811730097444382,
+        0.01572108133194106
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5c0114ec133db5eb78000028",
+    "question": "Does gepotidacin activate bacterial topoisomerase?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the mechanism of action of gepotidacin, a quinolone antibiotic. Quinolones are known to inhibit bacterial DNA gyrase and topoisomerase IV, which are essential enzymes for DNA replication and transcription in bacteria. The question specifically asks about topoisomerase, which is a type of enzyme that relaxes supercoils in DNA. There are two main types of topoisomerases: Type I and Type II. Type I topoisomerases introduce single-strand breaks in DNA, while Type II topoisomerases introduce double-strand breaks. Given that gepotidacin is a quinolone antibiotic, it is likely to target Type II topoisomerase, which is responsible for unwinding the DNA double helix. Therefore, we can infer that gepotidacin will activate bacterial topoisomerase II.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Biochemistry_Lippincott_1454",
+            "title": "Biochemistry_Lippinco",
+            "content": "Anticancer agents, such as the camptothecins, target human type I topoisomerases, whereas etoposide targets human type II topoisomerases. Bacterial DNA gyrase is a unique target of a group of antimicrobial agents called fluoroquinolones (for example, ciprofloxacin). C. Direction of DNA replication The DNA polymerases (DNA pols) responsible for copying the DNA templates are only able to read the parental nucleotide sequences in the 3\u2032\u21925\u2032 direction, and they synthesize the new DNA strands only in the 5\u2032\u21923\u2032 (antiparallel) direction. Therefore, beginning with one parental double helix, the two newly synthesized stretches of nucleotide chains must grow in opposite directions, one in the 5\u2032\u21923\u2032 direction toward the replication fork and one in the 5\u2032\u21923\u2032 direction away from the replication fork (Fig. 30.14). This feat is accomplished by a slightly different mechanism on each strand. 1."
+        },
+        {
+            "id": "InternalMed_Harrison_6336",
+            "title": "InternalMed_Harrison",
+            "content": "Camptothecin was isolated from extracts of a Chinese tree and had notable antileukemia activity in preclinical mouse models. Early human clinical studies with the sodium salt of the hydrolyzed camptothecin lactone showed evidence of toxicity with little antitumor activity. Identification of topoisomerase I as the target of camptothecins and the need to preserve lactone structure allowed additional efforts to identify active members of this series. Topoisomerase I is responsible for unwinding the DNA strand by introducing single-strand breaks and allowing rotation of one strand about the other. In S-phase, topoisomerase I\u2013induced breaks that are not promptly resealed lead to progress of the replication fork off the end of a DNA strand. The DNA damage is a potent signal for induction of apoptosis. Camptothecins promote the stabilization of the DNA linked to the enzyme in a so-called cleavable complex, analogous to the action of etoposide with topoisomerase II. Topotecan is a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1168",
+            "title": "Cell_Biology_Alberts",
+            "content": "one end of the DNA double helix cannot rotate relative to the other end topoisomerase with tyrosine at the active site CH2 OH CH2 OH DNA topoisomerase covalently attaches to a DNA phosphate, thereby breaking a phosphodiester linkage in one DNA strand the two ends of the DNA double helix can now rotate relative to each other, relieving accumulated strain Figure 5\u201321 The reversible DNA nicking reaction catalyzed by a eukaryotic DNA topoisomerase I enzyme. As indicated, these enzymes transiently form a single covalent bond with DNA; this allows free rotation of the DNA around the covalent backbone bonds linked to the blue phosphate."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1170",
+            "title": "Cell_Biology_Alberts",
+            "content": "A second type of DNA topoisomerase, topoisomerase II, forms a covalent linkage to both strands of the DNA helix at the same time, making a transient Figure 5\u201322 The DNA-helix-passing reaction catalyzed by DNA topoisomerase II. Unlike type I topoisomerases, type II enzymes hydrolyze ATP (red), which is needed to release and reset the enzyme after each cycle. Type II topoisomerases are largely confined to proliferating cells in eukaryotes; partly for that reason, they have been effective targets for anticancer drugs. Some of these drugs inhibit topoisomerase II at the third step in the figure and thereby produce high levels of double-strand breaks that kill rapidly dividing cells. The small yellow circles represent the phosphates in the DNA backbone that become covalently bonded to the topoisomerase (see Figure 5\u201321)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1171",
+            "title": "Cell_Biology_Alberts",
+            "content": "double-strand break in the helix. These enzymes are activated by sites on chromosomes where two double helices cross over each other such as those generated by supercoiling in front of a replication fork (see Figure 5\u201320). Once a topoisomerase II molecule binds to such a crossing site, the protein uses ATP hydrolysis to perform the following set of reactions efficiently: (1) it breaks one double helix reversibly to create a DNA \u201cgate\u201d; (2) it causes the second, nearby double helix to pass through this opening; and (3) it then reseals the break and dissociates from the DNA. At crossover points generated by supercoiling, passage of the double helix through the gate occurs in the direction that will reduce supercoiling. In this way, type II topoisomerases can relieve the overwinding tension generated in front of a replication fork. Their reaction mechanism also allows type II DNA topoisomerases to efficiently separate two interlocked DNA circles (Figure 5\u201322)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1164",
+            "title": "Cell_Biology_Alberts",
+            "content": "One type of topoisomerase, called topoisomerase I, produces a transient sin-gle-strand break; this break in the phosphodiester backbone allows the two sections of DNA helix on either side of the nick to rotate freely relative to each other, using the phosphodiester bond in the strand opposite the nick as a swivel point (Figure 5\u201321). Any tension in the DNA helix will drive this rotation in the direction that relieves the tension. As a result, DNA replication can occur with the rotation of only a short length of helix\u2014the part just ahead of the fork. Because the covalent linkage that joins the DNA topoisomerase protein to a DNA phosphate retains rotate, torsional stress will build up"
+        },
+        {
+            "id": "Pharmacology_Katzung_5192",
+            "title": "Pharmacology_Katzung",
+            "content": "The clinically relevant quinolones are synthetic fluorinated analogs of nalidixic acid (Figure 46\u20133). They are active against a variety of Gram-positive and Gram-negative bacteria. Mechanism of Action Quinolones block bacterial DNA synthesis by inhibiting bacterial topoisomerase II (DNA gyrase) and topoisomerase IV. Inhibition of DNA gyrase prevents the relaxation of positively supercoiled DNA that is required for normal transcription and replication. Inhibition of topoisomerase IV interferes with separation of replicated chromosomal DNA into the respective daughter cells during cell division. Earlier quinolones such as nalidixic acid did not achieve systemic antibacterial levels and were useful only in the treatment of lower urinary tract infections. Fluorinated derivatives (ciprofloxacin, levofloxacin, and others; Figure 46\u20133 and Table 46\u20131) have greatly improved antibacterial activity compared with nalidixic acid and achieve bactericidal levels in blood and tissues."
+        },
+        {
+            "id": "InternalMed_Harrison_11461",
+            "title": "InternalMed_Harrison",
+            "content": "Quinolones The quinolones include nalidixic acid, the first agent in the class, and newer, more widely used fluorinated derivatives (fluoroquinolones), including norfloxacin, ciprofloxacin, levofloxacin, moxifloxacin, and gemifloxacin. The quinolones are synthetic compounds that inhibit bacterial DNA synthesis by interacting with the DNA complexes of two essential enzymes, DNA gyrase and DNA topoisomerase IV, which alter DNA topology. Quinolones trap enzyme\u2013DNA complexes in such a way that they block movement of the DNA replication apparatus and can generate lethal double-strand breaks in DNA, resulting in bactericidal activity. Although mammalian cells also have type II DNA topoisomerases like gyrase and topoisomerase IV, the structures of the mammalian enzymes are sufficiently different from those of the bacterial enzymes that quinolones have substantially selective antibacterial activity."
+        },
+        {
+            "id": "InternalMed_Harrison_6326",
+            "title": "InternalMed_Harrison",
+            "content": "ANtitumor ANtibiotics AND topoisomerAse poisoNs Antitumor antibiotics are substances produced by bacteria that in nature appear to provide a chemical defense against other hostile microorganisms. As a class, they bind to DNA directly and can frequently undergo electron transfer reactions to generate free radicals in close proximity to DNA, leading to DNA damage in the form of single-strand breaks or cross-links. Topoisomerase poisons include natural products or semisynthetic species derived ultimately from plants, and they modify enzymes that regulate the capacity of DNA to unwind to allow normal replication or transcription. These include topoisomerase I, which creates single-strand breaks that then rejoin following the passage of the other DNA strand through the break. Topoisomerase II creates double-strand breaks through which another segment of DNA duplex passes before rejoining. DNA damage from these agents can occur in any cell cycle phase, but cells tend to arrest in S-phase or"
+        },
+        {
+            "id": "InternalMed_Harrison_6335",
+            "title": "InternalMed_Harrison",
+            "content": "Etoposide was synthetically derived from the plant product podophyllotoxin; it binds directly to topoisomerase II and DNA in a reversible ternary complex. It stabilizes the covalent intermediate in the enzyme\u2019s action where the enzyme is covalently linked to DNA. This \u201calkali-labile\u201d DNA bond was historically a first hint that an enzyme such as a topoisomerase might exist. The drug therefore causes a prominent G2 arrest, reflecting the action of a DNA damage checkpoint. Prominent clinical effects include myelosuppression, nausea, and transient hypotension related to the speed of administration of the agent. Etoposide is a mild vesicant but is relatively free from other large-organ toxicities. When given at high doses or very frequently, topoisomerase II inhibitors may cause acute leukemia associated with chromosome 11q23 abnormalities in up to 1% of exposed patients."
+        },
+        {
+            "id": "Pharmacology_Katzung_5953",
+            "title": "Pharmacology_Katzung",
+            "content": "The camptothecins are natural products derived from the Camptotheca acuminata tree originally found in China; they inhibit the activity of topoisomerase I, the key enzyme responsible for cutting and religating single DNA strands. Inhibition of this enzyme results in DNA damage. Topotecan and irinotecan are the two camptothecin analogs used in clinical practice in the USA. Although they both inhibit the same molecular target, their spectrum of clinical activity is quite different."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1452",
+            "title": "Biochemistry_Lippinco",
+            "content": "a. Type I DNA topoisomerases: These enzymes reversibly cleave one strand of the double helix. They have both strand-cutting and strand-resealing activities. They do not require ATP, but rather appear to store the energy from the phosphodiester bond they cleave, reusing the energy to reseal the strand (Fig. 30.12). Each time a transient nick is created in one DNA strand, the intact DNA strand is passed through the break before it is resealed, thus relieving (relaxing) accumulated supercoils. Type I topoisomerases relax negative supercoils (that is, those that contain fewer turns of the helix than does relaxed DNA) in E. coli and both negative and positive supercoils (that is, those that contain fewer or more turns of the helix than does relaxed DNA) in many prokaryotic cells (but not E. coli) and in eukaryotic cells. b."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6860",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA supercoiling A conformation with loops or coils that DNA adopts in response to superhelical tension; conversely, creating various loops or coils in the helix can create such tension. DNA topoisomerase (topoisomerase) Enzyme that binds to DNA and reversibly breaks a phosphodiester bond in one or both strands. Topoisomerase I creates transient single-strand breaks, allowing the double helix to swivel and relieving superhelical tension. Topoisomerase II creates transient double-strand breaks, allowing one double helix to pass through another and thus resolving tangles. (Figures 5\u201321 and 5\u201322) DNA tumor virus General term for a variety of different DNA viruses that can cause tumors. DNA-only transposon Transposable element that exists as DNA throughout its life cycle. Many move by cut-and-paste transposition. See also transposon. dolichol Isoprenoid lipid molecule that anchors the precursor oligosaccharide in the endoplasmic reticulum membrane during protein glycosylation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1172",
+            "title": "Cell_Biology_Alberts",
+            "content": "Topoisomerase II also prevents the severe DNA tangling problems that would otherwise arise during DNA replication. This role is nicely illustrated by mutant yeast cells that produce, in place of the normal topoisomerase II, a version that is inactive above 37\u00b0C. When the mutant cells are warmed to this temperature, their daughter chromosomes remain intertwined after DNA replication and are unable to separate. The enormous usefulness of topoisomerase II for untangling chromosomes can readily be appreciated by anyone who has struggled to remove a tangle from a fishing line without the aid of scissors."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1453",
+            "title": "Biochemistry_Lippinco",
+            "content": "b. Type II DNA topoisomerases: These enzymes bind tightly to the DNA double helix and make transient breaks in both strands. The enzyme then causes a second stretch of the DNA double helix to pass through the break and, finally, reseals the break (Fig. 30.13). As a result, both negative and positive supercoils can be relieved by this ATP-requiring process. DNA gyrase, a type II topoisomerase found in bacteria and plants, has the unusual property of being able to introduce negative supercoils into circular DNA using energy from the hydrolysis of ATP. This facilitates the replication of DNA because the negative supercoils neutralize the positive supercoils introduced during opening of the double helix. It also aids in the transient strand separation required during transcription (see p. 436)."
+        },
+        {
+            "id": "InternalMed_Harrison_12434",
+            "title": "InternalMed_Harrison",
+            "content": "Resistance to fluoroquinolones usually is due to alterations of the target site (DNA gyrase and/or topoisomerase IV), with or without decreased permeability, active efflux, or protection of the target site. Resistance to this drug class is increasingly prevalent among GNB and is associated with resistance to other antimicrobial classes; for example, 20\u201380% of ESBL-producing enteric GNB are also resistant to fluoroquinolones. At present, quinolones should be considered unreliable as empirical therapy for infections due to GNB in critically ill patients."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1478",
+            "title": "Cell_Biology_Alberts",
+            "content": "Any protein that propels itself alone along a DNA strand of a double helix, such as a DNA helicase or an RNA polymerase, tends to generate superhelical tension. In eukaryotes, DNA topoisomerase enzymes rapidly remove this superhelical tension (see pp. 251\u2013253). But in bacteria a specialized topoisomerase called DNA gyrase uses the energy of ATP hydrolysis to pump supercoils continuously into the DNA, thereby maintaining the DNA under constant tension. These are negative supercoils, having the opposite handedness from the positive supercoils that form when a region of DNA helix opens (see Figure 6\u201319B). Whenever a region of helix opens, it removes these negative supercoils from bacterial DNA, reducing the superhelical tension. DNA gyrase therefore makes the opening of the DNA helix in bacteria energetically favorable compared with helix opening in DNA that is not supercoiled. For this reason, it facilitates those genetic processes in bacteria, such as the initiation of transcription by"
+        },
+        {
+            "id": "InternalMed_Harrison_6337",
+            "title": "InternalMed_Harrison",
+            "content": "of apoptosis. Camptothecins promote the stabilization of the DNA linked to the enzyme in a so-called cleavable complex, analogous to the action of etoposide with topoisomerase II. Topotecan is a camptothecin derivative approved for use in gynecologic tumors and small-cell lung cancer. Toxicity is limited to myelosuppression and mucositis. CPT-11, or irinotecan, is a camptothecin with evidence of activity in colon carcinoma. In addition to myelosuppression, it causes a secretory diarrhea related to the toxicity of a metabolite called SN-38. Levels of SN-38 are particularly high in the setting of Gilbert\u2019s disease, characterized by defective glucuronyl transferase and indirect hyperbilirubinemia, a condition that affects about 10% of the white population in the United States. The diarrhea can be treated effectively with loperamide or octreotide."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1167",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201320 The \u201cwinding problem\u201d that arises during DNA replication. (A) For a bacterial replication fork moving at 500 nucleotides per second, the parental DNA helix ahead of the fork must rotate at 50 revolutions per second. (B) If the ends of the DNA double helix remain fixed (or difficult to rotate), tension builds up in front of the replication fork as it becomes overwound. Some of this tension can be taken up by supercoiling, whereby the DNA double helix twists around itself (see Figure 6\u201319). However, if the tension continues to build up, the replication fork will eventually stop because further unwinding requires more energy than the helicase can provide. Note that in (A), the dotted line represents about 20 turns of DNA. one end of the DNA double helix cannot rotate relative to the other end topoisomerase with tyrosine at the active site"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1176",
+            "title": "Cell_Biology_Alberts",
+            "content": "increased complexity of eukaryotic replication machinery probably reflects reversal of the covalent attachment of the topoisomerase restores an intact orange double helix more elaborate controls. For example, the orderly maintenance of different cell types and tissues in animals and plants requires that DNA replication be tightly regulated. Moreover, eukaryotic DNA replication must be coordinated with the elaborate process of mitosis, as we discuss in Chapter 17."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1169",
+            "title": "Cell_Biology_Alberts",
+            "content": "CH2HO the original phosphodiester bond energy is stored in the phosphotyrosine linkage, making the reaction reversible CH2 OH spontaneous re-formation of the phosphodiester bond regenerates both the DNA helix and the DNA topoisomerase the energy of the cleaved phosphodiester bond, resealing is rapid and does not require additional energy input. In this respect, the rejoining mechanism differs from that catalyzed by the enzyme DNA ligase, discussed previously (see Figure 5\u201312). A second type of DNA topoisomerase, topoisomerase II, forms a covalent linkage to both strands of the DNA helix at the same time, making a transient"
+        },
+        {
+            "id": "First_Aid_Step1_483",
+            "title": "First_Aid_Step1",
+            "content": "Etoposide, teniposide mechanISm Inhibit topoisomerase II \u008e\u008f DNA degradation (cell cycle arrest in G2 and S phases). clInIcal USe Solid tumors (particularly testicular and small cell lung cancer), leukemias, lymphomas. adVeRSe eFFectS Myelosuppression, alopecia. Irinotecan, topotecan mechanISm Inhibit topoisomerase I and prevent DNA unwinding and replication. clInIcal USe Colon cancer (irinotecan); ovarian and small cell lung cancers (topotecan). adVeRSe eFFectS Severe myelosuppression, diarrhea. mechanISm Inhibits ribonucleotide reductase \u008e\u0090 DNA Synthesis (S-phase specific). clInIcal USe Myeloproliferative disorders (eg, CML, polycythemia vera), sickle cell disease (\u2022 HbF). adVeRSe eFFectS Severe myelosuppression, megaloblastic anemia. mechanISm Monoclonal antibody against VEGF. Inhibits angiogenesis (BeVacizumab inhibits Blood Vessel formation). clInIcal USe Solid tumors (eg, colorectal cancer, renal cell carcinoma), wet age-related macular degeneration."
+        },
+        {
+            "id": "InternalMed_Harrison_11756",
+            "title": "InternalMed_Harrison",
+            "content": "is most commonly chromosomal and results from mutations of Combinations of antistaphylococcal agents have been used to the topoisomerase IV or DNA gyrase genes, although multidrug efflux enhance bactericidal activity in the treatment of serious infecpumps may also contribute. Although the newer quinolones exhibit tions such as endocarditis or osteomyelitis. In selected instances increased in vitro activity against staphylococci, it is uncertain whether (e.g., right-sided endocarditis), drug combinations are also used to this increase translates into enhanced in vivo activity. shorten the duration of therapy. Among the antimicrobial agents used in combinations are rifampin, aminoglycosides (e.g., gentamicin), and fusidic acid (not readily available in the United States). To date, clinical studies have not documented a therapeutic benefit; recent reports have raised concern about the potential nephrotoxicity of gentamicin and about adverse drug reactions from the addition of rifampin."
+        },
+        {
+            "id": "Pharmacology_Katzung_5958",
+            "title": "Pharmacology_Katzung",
+            "content": "The anthracycline antibiotics, isolated from Streptomyces peucetius var caesius, are among the most widely used cytotoxic anti-cancer drugs. The structures of the two original anthracyclines, doxorubicin and daunorubicin, are shown below. Several other anthracycline analogs have entered clinical practice, including idarubicin, epirubicin, and mitoxantrone. The anthracyclines exert their cytotoxic action through four major mechanisms: (1) inhibition of topoisomerase II; (2) generation of semiquinone free radicals and oxygen free radicals through an iron-dependent, enzyme-mediated reductive process; (3) high-affinity binding to DNA through intercalation, with consequent blockade of the synthesis of DNA and RNA, and DNA strand scission; and (4) binding to cellular membranes to alter fluidity and ion transport. While the precise mechanisms by which the anthracyclines exert their cytotoxic effects remain to be defined in particular tumors, the free radical mechanism is well-established to"
+        },
+        {
+            "id": "Pharmacology_Katzung_5124",
+            "title": "Pharmacology_Katzung",
+            "content": "Gentamicin, netilmicin FIGURE 45\u20132 Structures of several important aminoglycoside antibiotics. Ring II is 2-deoxystreptamine. The resemblance between kanamycin and amikacin and between gentamicin, netilmicin, and tobramycin can be seen. Plazomicin\u2019s ring II and III are similar to the other structures; it shares the same hydroxyl-aminobutyric acid R group as amikacin. Its ring I differs from amikacin in that it is unsaturated. The circled numerals on the kanamycin molecule indicate points of attack of plasmid-mediated bacterial transferase enzymes that can inactivate this drug. \u2780, \u2781, and \u2782, acetyltransferase; \u2783, phosphotransferase; \u2784, adenylyltransferase. Amikacin is resistant to modification at \u2781,\u2782,\u2783, and \u2784; whereas plazomicin is resistant to modification at \u2780, \u2781, \u2783, and \u2784."
+        },
+        {
+            "id": "First_Aid_Step1_479",
+            "title": "First_Aid_Step1",
+            "content": "Alkylating agents:Azathioprine Ifosfamide 5-fuorouracil Rb, p53 modulate Nitrosoureas (eg, carmustine) Hydroxyurea G restriction point Methotrexate 1 6-mercaptopurine Nucleotide synthesis DNA RNA Cellular division MTX, 5-FU: \u02dcthymidine synthesis 6-MP: \u02dcde novo purine synthesis Hydroxyurea: inhibits ribonucleotide reductase Alkylating agents, platinum agents: cross-link DNA Bleomycin: DNA strand breakage Dactinomycin, doxorubicin: DNA intercalators Etoposide/teniposide: inhibits topoisomerase II Irinotecan/topotecan: inhibits topoisomerase I Vinca alkaloids: inhibit microtubule formation Paclitaxel: inhibits microtubule disassembly Protein"
+        },
+        {
+            "id": "Pharmacology_Katzung_5198",
+            "title": "Pharmacology_Katzung",
+            "content": "During fluoroquinolone therapy, resistant organisms emerge in about 1 of every 107\u2013109 organisms, especially among staphylococci, P aeruginosa, and Serratia marcescens. Emerging resistance is due to one or more point mutations in the quinolone binding region of the target enzyme or to a change in the permeability of the organism. However, additional mechanisms seem to account for the relative ease with which resistance develops in highly susceptible bacteria. Two types of plasmid-mediated resistance have been described. The first type utilizes Qnr proteins, which protect DNA gyrase from the fluoroquinolones. The second is a variant of an aminoglycoside acetyltransferase capable of modifying ciprofloxacin. Both mechanisms confer low-level resistance that may facilitate the point mutations that confer high-level resistance and also may be associated with resistance to other antibacterial drug classes. Resistance to one fluoroquinolone, particularly if it is of high level, generally"
+        },
+        {
+            "id": "InternalMed_Harrison_8503",
+            "title": "InternalMed_Harrison",
+            "content": "The most commonly used CR induction regimens (for patients other than those with APL) consist of combination chemotherapy with cytarabine and an anthracycline (e.g., daunorubicin, idarubicin, mitoxantrone). Cytarabine is a cell cycle S-phase\u2013specific antimetabolite that becomes phosphorylated intracellularly to an active triphosphate form that interferes with DNA synthesis. Anthracyclines are DNA intercalators. Their primary mode of action is thought to be inhibition of topoisomerase II, leading to DNA breaks."
+        },
+        {
+            "id": "InternalMed_Harrison_12203",
+            "title": "InternalMed_Harrison",
+            "content": "treatment of gonococcal infections; the fluoroquinolones offered the advantage of antichlamydial activity when administered for 7 days. However, quinolone-resistant N. gonorrhoeae (QRNG) appeared soon after these agents were first used to treat gonorrhea. QRNG is particularly common in the Pacific Islands (including Hawaii) and Asia, where, in certain areas, all gonococcal strains are now resistant to quinolones. At present, QRNG is also common in parts of Europe and the Middle East. In the United States, QRNG has been identified in midwestern and eastern areas as well as in states on the Pacific coast, where resistant strains were first seen. Alterations in DNA gyrase and topoisomerase IV have been implicated as mechanisms of fluoroquinolone resistance."
+        },
+        {
+            "id": "Surgery_Schwartz_1179",
+            "title": "Surgery_Schwartz",
+            "content": "topo-isomerase II and IV (DNA synthesis inhibition)CiprofloxacinCipro+/\u201310100110LevofloxacinLevaquin1101001+/\u20130GlycopeptidesCell wall synthesis inhibition (peptidoglycan synthesis inhibition)VancomycinVancocin111110000Quinupristin-dalfopristinSynercidInhibits 2 sites on 50S ribosome (protein synthesis inhibition)11111100+/\u2013Table 6-5Antimicrobial agentsANTIBIOTIC CLASS, GENERIC NAMETRADE NAMEMECHANISM OF ACTIONORGANISMS PyogenesMSSAMRSAS epidermidisEnterococcusVREE coliP aeruginosaANAEROBES(Continued)Brunicardi_Ch06_p0157-p0182.indd 16601/03/19 4:46 PM 167SURGICAL INFECTIONSCHAPTER 6LinezolidZyvoxInhibits 50S ribosomal activity11111100+/\u2013DaptomycinCubicinBinds bacterial membrane, results in depolarization, lysis111111000RifampinInhibits DNA-dependent RNA polymerase1111+/\u20130000ClindamycinCleocinInhibits 50S ribosomal activity110000001MetronidazoleFlagylProduction of toxic intermediates (free radicals)000000001MacrolidesInhibit 50S ribosomal activity (protein synthesis"
+        },
+        {
+            "id": "Pharmacology_Katzung_495",
+            "title": "Pharmacology_Katzung",
+            "content": "Example: Irinotecan is a topoisomerase I inhibitor prodrug and is indicated as first-line chemotherapy in combination with 5-FU and leucovorin for treatment of metastatic carcinoma of the colon or rectum (Chapter 54). Irinotecan is hydrolyzed by hepatic carboxylesterase enzymes to its cytotoxic metabolite, SN-38, which inhibits topoisomerase I and eventually leads to termination of DNA replication and cell death. The active SN-38 metabolite is responsible for the majority of therapeutic action as well as the dose-limiting bone marrow and gastrointestinal toxicities. Inactivation of SN-38 occurs via the polymorphic UGT1A1 enzyme, and carriers of the UGT1A1*6 and UGT1A1*28 polymorphisms are consequently at increased risk for severe life-threatening toxicities, eg, neutropenia and diarrhea, due to decreased clearance of the SN-38 metabolite."
+        },
+        {
+            "id": "InternalMed_Harrison_13637",
+            "title": "InternalMed_Harrison",
+            "content": "Fluoroquinolones Fluoroquinolones inhibit mycobacterial DNA gyrase and topoisomerase IV, preventing cell replication and protein synthesis, and are bactericidal. The later-generation fluoroquinolones levofloxacin and moxifloxacin are the most active against M. tuberculosis and are recommended for the treatment of MDR-TB. They are also being investigated for their potential to shorten the course of treatment for TB. In a recent trial, gatifloxacin, which had been withdrawn from the market because of significant dysglycemia, was assessed for treatment shortening; although its inclusion in the TB treatment regimen did not shorten the duration of therapy from 6 to 4 months, the drug did not cause dysglycemia in TB patients who took it thrice weekly for 4 months. Ciprofloxacin and ofloxacin are no longer recommended for the treatment of TB because of poor efficacy. Despite the documented resistance of the infecting strains to these and other early-generation fluoroquinolones, use of a"
+        }
+    ],
+    "scores": [
+        0.037932396670218735,
+        0.03534201818197023,
+        0.03388083735909823,
+        0.03366224564612961,
+        0.03288442437378608,
+        0.030910448735145483,
+        0.029508833236264805,
+        0.02873055162659123,
+        0.028288304538955922,
+        0.02768140738774078,
+        0.02706582633053221,
+        0.02696165673073938,
+        0.02590138249439746,
+        0.02524875340409321,
+        0.025119640736702503,
+        0.024842847075405215,
+        0.023840823173266433,
+        0.022010094360324774,
+        0.020754625393711423,
+        0.019310295293197874,
+        0.018706293706293706,
+        0.017731668009669622,
+        0.01707175925925926,
+        0.01675320179993077,
+        0.016600082656013225,
+        0.016214449166394244,
+        0.016071199897554102,
+        0.01568844592100406,
+        0.015613696648179406,
+        0.015537488708220417,
+        0.015138865698224523,
+        0.015044742729306487
+    ]
+}

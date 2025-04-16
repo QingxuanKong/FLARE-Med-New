@@ -1,0 +1,208 @@
+{
+    "id": "0023",
+    "question": "A 62-year-old patient has been hospitalized for a week due to a stroke. One week into the hospitalization, he develops a fever and purulent cough. His vitals include: heart rate 88/min, respiratory rate 20/min, temperature 38.4\u00b0C (101.1\u00b0F), and blood pressure 110/85 mm Hg. On physical examination, he has basal crackles on the right side of the chest. Chest radiography shows a new consolidation on the same side. Complete blood count is as follows:\nHemoglobin 16 mg/dL\nHematocrit 50%\nLeukocyte count 8,900/mm3\nNeutrophils 72%\nBands 4%\nEosinophils 2%\nBasophils 0%\nLymphocytes 17%\nMonocytes 5%\nPlatelet count 280,000/mm3\nWhat is the most likely causal microorganism?",
+    "options": {
+        "A": "Streptococcus pneumoniae",
+        "B": "Mycobacterium tuberculosis",
+        "C": "Haemophilus influenzae",
+        "D": "Staphylococcus aureus"
+    },
+    "answer": "D",
+    "predict": "To determine the most likely causal microorganism, let's analyze the provided information step by step: 1. **Patient's symptoms and history**: The patient has developed a fever and purulent cough one week after being hospitalized for a stroke. This indicates a possible hospital-acquired infection. 2. **Vital signs**: The patient's temperature is elevated at 38.4\u00b0C (101.1\u00b0F), which suggests an infectious process. The respiratory rate is decreased at 20/min, which could indicate a respiratory infection. 3. **Physical examination findings**: Basal crackles on the right side of the chest and a new consolidation on the same side on chest radiography suggest a lower respiratory tract infection, such as pneumonia. 4. **Laboratory findings**: - Hemoglobin and hematocrit are within normal limits. - Leukocyte count is 8,900/mm3, which is slightly decreased. The presence of neutrophils (72%) is normal, but the band count (4%) is elevated, indicating a possible bacterial infection. - Eosinophils (2%) and basophils (0%) are within normal limits. - Lymphocytes (17%) are elevated, which could be a response to the infection. - Platelet count is normal. Based on these findings, the patient likely has a bacterial pneumonia. Among the provided options, **Staphylococcus aureus** is a common cause of hospital-acquired pneumonia, particularly in patients with underlying conditions such as stroke, which may impair the patient's immune system. **Step-by-step reasoning**: - **Streptococcus pneumoniae (A)** is a common cause of community-acquired pneumonia, but it is less likely given the patient's hospitalization and the lack of specific risk factors mentioned. - **Mycobacterium tuberculosis (B)** is a possibility in patients with underlying lung disease or immunocompromised states, but there is no specific indication of these conditions in the patient's history. - **Haemophilus influenzae (C)** is a cause of community-acquired pneumonia, particularly in children, but it is less likely in this case given the patient's age and the hospital-acquired nature of the infection. - **Staphylococcus aureus (D)** is a common cause of hospital-acquired pneumonia, particularly in patients with underlying conditions such as stroke, which may impair the patient's immune system. **Conclusion**: Based on the patient's hospitalization, symptoms, and laboratory findings, the most likely causal microorganism is **Staphylococcus aureus**. Here is the final answer in the required format: ```json { \"step_by_step_thinking\": \"The patient's hospitalization, fever, purulent cough, and physical examination findings suggest a bacterial infection. The slightly decreased leukocyte count with a normal neutrophil count and elevated lymphocyte count, along with the presence of basal crackles and consolidation on chest radiography, support the diagnosis of bacterial pneumonia. Staphylococcus aureus is a common cause of hospital-acquired pneumonia, particularly in patients with underlying conditions such as stroke.\", \"answer_choice\": \"D\" } ```",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_1673",
+            "title": "InternalMed_Harrison",
+            "content": "Fever >38.3\u00b0C (101\u00b0F) on at least two occasions 2. Illness duration of \u22653 weeks 3. 4. Diagnosis that remains uncertain after a thorough history-taking, physical examination, and the following obligatory investigations: determination of erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) level; platelet count; leukocyte count and differential; measurement of levels of hemoglobin, electrolytes, creatinine, total protein, alkaline phosphatase, alanine aminotransferase, aspartate aminotransferase, lactate dehydrogenase, creatine kinase, ferritin, antinuclear antibodies, and rheumatoid factor; protein electrophoresis; urinalysis; blood cultures (n = 3); urine culture; chest x-ray; abdominal ultrasonography; and tuberculin skin test (TST). The range of FUO etiologies has evolved over time as a result of changes in the spectrum of diseases causing FUO, the widespread Percentage of Cases Due to Indicated Cause"
+        },
+        {
+            "id": "InternalMed_Harrison_1704",
+            "title": "InternalMed_Harrison",
+            "content": "Fever \u02dc38.3\u00b0 C (101\u00b0 F) and illness lasting \u02dc3 weeks and no known immunocompromised state History and physical examination Stop antibiotic treatment and glucocorticoids Obligatory investigations: ESR and CRP, hemoglobin, platelet count, leukocyte count and differential, electrolytes, creatinine, total protein, protein electrophoresis, alkaline phosphatase, AST, ALT, LDH, creatine kinase, antinuclear antibodies, rheumatoid factor, urinalysis, blood cultures (n=3), urine culture, chest x-ray, abdominal ultrasonography, and tuberculin skin test"
+        },
+        {
+            "id": "Pharmacology_Katzung_5118",
+            "title": "Pharmacology_Katzung",
+            "content": "A 45-year-old man with no significant medical history was admitted to the intensive care unit (ICU) 10 days ago after suffering third-degree burns over 40% of his body. He had been relatively stable until the last 24 hours. Now, he is febrile (39.5\u00b0C [103.1\u00b0F]), and his white blood cell count has risen from 8500 to 20,000/mm3. He has also had an episode of hypo-tension (86/50 mmHg) that responded to a fluid bolus. Blood cultures were obtained at the time of his fever and results are pending. The ICU attending physician is concerned about a bloodstream infection and decides to treat with empiric com-bination therapy directed against Pseudomonas aeruginosa. The combination therapy includes tobramycin. The patient weighs 70 kg (154 lb) and has an estimated creatinine clear-ance of 90 mL/min. How should tobramycin be dosed using once-daily and conventional dosing strategies? How should each regimen be monitored for efficacy and toxicity?"
+        },
+        {
+            "id": "Pharmacology_Katzung_5601",
+            "title": "Pharmacology_Katzung",
+            "content": "A 65-year-old man undergoes cystoscopy because of the presence of microscopic hematuria in order to rule out urologic malignancy. The patient has mild dysuria and pyuria and empirically receives oral therapy with cip-rofloxacin for presumed urinary tract infection prior to the procedure and tolerates the procedure well. Approxi-mately 48 hours after the procedure, the patient presents to the emergency department with confusion, dysuria and chills. Physical exam reveals a blood pressure of 90/50, pulse of 120, temperature of 38.5\u00b0 C and respira-tory rate of 24. The patient is disoriented but the physical exam is otherwise unremarkable. Laboratory test shows WBC 24,000/mm3 and elevated serum lactate; urinalysis shows 300 WBC per high power field and 4+ bacteria. What possible organisms are likely to be responsible for the patient\u2019s symptoms? At this point, what antibiotic(s) would you choose for initial therapy of this potentially life-threatening infection?"
+        },
+        {
+            "id": "InternalMed_Harrison_13983",
+            "title": "InternalMed_Harrison",
+            "content": "Clinical Manifestations \u2022 acUte Q fever The symptoms of acute Q fever are nonspecific; common among them are fever, extreme fatigue, photophobia, and severe headache that is frequently retro-orbital. Other symptoms include chills, sweats, nausea, vomiting, and diarrhea, each occurring in 5\u201320% of cases. Cough develops in about half of patients with Q fever pneumonia. Neurologic manifestations of acute Q fever are uncommon; however, in one outbreak in the United Kingdom, 23% of 102 patients had neurologic signs and symptoms as the major manifestation. A nonspecific rash may be evident in 4\u201318% of patients. The WBC count is usually normal. Thrombocytopenia occurs in ~25% of patients, and reactive thrombocytosis (with platelet counts exceeding 106/\u03bcL) frequently develops during recovery. Chest radiography can show opacities similar to those seen in pneumonia caused by other pathogens, but multiple rounded opacities in patients in endemic areas suggest a diagnosis of Q fever pneumonia."
+        },
+        {
+            "id": "InternalMed_Harrison_20890",
+            "title": "InternalMed_Harrison",
+            "content": "Bacteremia Presence of bacteria in blood, as evidenced by positive blood cultures Signs of possibly harmful systemic Two or more of the following condi response tions: (1) fever (oral temperature >38\u00b0C [>100.4\u00b0F]) or hypothermia (<36\u00b0C [<96.8\u00b0F]); (2) tachypnea (>24 breaths/min); (3) tachycardia (heart rate >90 beats/min); (4) leukocytosis (>12,000/\u03bcL), leukopenia (<4000/\u03bcL), or >10% bands Sepsis (or severe sepsis) The harmful host response to infection; systemic response to proven or suspected infection plus some degree of organ hypofunction, i.e.: 1. Cardiovascular: Arterial systolic blood pressure \u226490 mmHg or mean arterial pressure \u226470 mmHg that responds to administration of IV fluid 2. Renal: Urine output <0.5 mL/kg per hour for 1 h despite adequate fluid resuscitation 3. Respiratory: PaO2/FIO2 \u2264250 or, if the lung is the only dysfunctional organ, \u2264200 4."
+        },
+        {
+            "id": "Pediatrics_Nelson_1941",
+            "title": "Pediatrics_Nelson",
+            "content": "It is particularly important to exclude other causes of fever, notably infection. It is appropriate to obtain blood and urine culturesand to perform a chest x-ray. In the acute phase, inflammatory parameters are elevated, including white blood cell count, C-reactive protein, and the ESR, which can be profoundlyelevated (often >80 mm/hr). Platelet counts may be inappropriately low or normal. A lumbar puncture, if performed toexclude infection, may reveal pleocytosis. Tests of hepatobiliary function may be abnormal. Greatly elevated platelet countsdevelop during the subacute phase. The development of coronary artery aneurysms is monitored by performing two-dimensional echocardiograms, usually during the acute phase, at 2 to3 weeks, and again at 6 to 8 weeks. More frequent echocardiograms and, potentially, coronary angiography are indicated forpatients who develop coronary artery abnormalities."
+        },
+        {
+            "id": "Pediatrics_Nelson_2116",
+            "title": "Pediatrics_Nelson",
+            "content": "Approximately 0.2% of well-appearing febrile children 3 to 36 months of age vaccinated against S. pneumoniae and H. influenzae and without localizing signs have occult bacteremia. Risk factors for occult bacteremia include temperature of 102.2\u00b0 F (39\u00b0 C) or greater, WBC count of 15,000/mm3 or more, and elevated absolute neutrophil count, band count, erythrocyte sedimentation rate, or C-reactive protein. No combination of demographic factors (socioeconomic status, race, gender, and age), clinical parameters, or laboratory tests in these children reliably predicts occult bacteremia. Occult bacteremia in otherwise healthy children is usually transient and self-limited but may progress to serious localizing infections. Well-appearing children usually are followed as Assess H and P for \u201clow risk\u201d status Age? <1 mo >1 mo Low risk Not low risk CBC with differential, blood culture, urine culture All parameters normal? No Yes"
+        },
+        {
+            "id": "Pharmacology_Katzung_4939",
+            "title": "Pharmacology_Katzung",
+            "content": "A 45-year-old man is brought to the local hospital emer-gency department by ambulance. His wife reports that he had been in his normal state of health until 3 days ago when he developed a fever and a productive cough. Dur-ing the last 24 hours he has complained of a headache and is increasingly confused. His wife reports that his medical history is significant only for hypertension, for which he takes hydrochlorothiazide and lisinopril, and that he is allergic to amoxicillin. She says that he developed a rash many years ago when prescribed amoxicillin for bron-chitis. In the emergency department, the man is febrile (38.7\u00b0C [101.7\u00b0F]), hypotensive (90/54 mmHg), tachypneic (36/min), and tachycardic (110/min). He has no signs of meningismus but is oriented only to person. A stat chest x-ray shows a left lower lung consolidation consistent with pneumonia. A CT scan is not concerning for lesions or elevated intracranial pressure. The plan is to start empiric antibiotics and perform a"
+        },
+        {
+            "id": "Pharmacology_Katzung_5664",
+            "title": "Pharmacology_Katzung",
+            "content": "Philip J. Rosenthal, MD A 5-year-old American girl presents with a 1-week history of intermittent chills, fever, and sweats. She had returned home 2 weeks earlier after leaving the USA for the first time to spend 3 weeks with her grandparents in Nigeria. She received all standard childhood immunizations, but no additional treat-ment before travel, since her parents have returned to their native Nigeria frequently without medical consequences. Three days ago, the child was seen in an outpatient clinic and diagnosed with a viral syndrome. Examination reveals a lethargic child, with a temperature of 39.8\u00b0C (103.6\u00b0F) and splenomegaly. She has no skin rash or lymphadenopathy. Ini-tial laboratory studies are remarkable for hematocrit 29.8%, platelets 45,000/mm3, creatinine 2.5 mg/dL (220 \u03bcmol/L), and mildly elevated bilirubin and transaminases. A blood smear shows ring forms of Plasmodium falciparum at 1.5% parasit-emia. What treatment should be started?"
+        },
+        {
+            "id": "Pharmacology_Katzung_2624",
+            "title": "Pharmacology_Katzung",
+            "content": "Helge Eilers, MD, & Spencer Yost, MD An elderly man with type 2 diabetes mellitus and ischemic pain in the lower extremity is scheduled for femoral-to-popliteal artery bypass surgery. He has a history of hyper-tension and coronary artery disease with symptoms of stable angina. He can walk only half a block before pain in his legs forces him to stop. He has a 50-pack-year smoking history but stopped 2 years ago. Medications include atenolol, atorvastatin, and hydrochlorothiazide. The nurse in the preoperative holding area obtains the following vital signs: temperature 36.8\u00b0C (98.2\u00b0F), blood pressure 168/100 mm Hg, heart rate 78 bpm, oxygen saturation by pulse oximeter 96% while breathing room air, and pain 5/10 in the right lower leg after walking into the hospital. What anesthetic agents will you choose for his anesthetic plan? Why? Does the choice of anesthetic make a difference?"
+        },
+        {
+            "id": "Pharmacology_Katzung_7019",
+            "title": "Pharmacology_Katzung",
+            "content": "Her social history is significant for alcohol use (three to four glasses of wine/night). Her vital signs include the following: temperature 99.8\u00b0F, blood pressure 132/64 mm Hg, pulse 78 bpm, and respiratory rate 15/min. On physical examination, she had left upper abdominal tenderness with evidence of hepatomegaly and mild scleral icterus. Laboratory data revealed the following: alanine aminotransferase, 527 IU/L (normal 10\u201335 IU/L); aspartate aminotransferase, 425 IU/L (normal < 35 IU/L); and bilirubin, 2.9 mg/dL (normal 0.1\u20130.3 mg/dL). What medications do OTC cold and flu preparations typically contain? Which of the OTC medications might have contrib-uted to the patient\u2019s current symptoms? KH, a 55-year-old woman, presents to the emergency department with nausea, vomiting, and complaints of new-onset flu symptoms over the past several days. Her past medical history is significant for allergic rhinitis and chronic lower back pain secondary to a work-related fall 2 years ago. Her"
+        },
+        {
+            "id": "Pharmacology_Katzung_5336",
+            "title": "Pharmacology_Katzung",
+            "content": "Sharon Safrin, MD A 35-year-old white woman who recently tested seropositive for both HIV and hepatitis B virus surface antigen is referred for evaluation. She is feeling well overall but reports a 25-pack-year smoking history. She drinks 3\u20134 beers per week and has no known medication allergies. She has a history of heroin use and is currently receiving methadone. Physical examination reveals normal vital signs and no abnormalities. White blood cell count is 5800 cells/mm3 with a normal differential, hemoglobin is 11.8 g/dL, all liver tests are within normal limits, CD4 cell count is 278 cells/mm3, and viral load (HIV RNA) is 110,000 copies/mL. What other laboratory tests should be ordered? Which antiretroviral medica-tions would you begin?"
+        },
+        {
+            "id": "Pharmacology_Katzung_5286",
+            "title": "Pharmacology_Katzung",
+            "content": "Harry W. Lampiris, MD, & Daniel S. Maddix, Pharm D The patient is a 37-year-old African-American man who lives in San Jose, California. He was recently incarcerated near Bakersfield, California and returned to Oakland about 3 months ago. He is currently experiencing one month of severe headache and double vision. He has a temperature of 38.6\u00b0C (101.5\u00b0F) and the physical exam reveals nuchal rigidity and right-sided sixth cranial nerve palsy. MRI of his brain is normal, and lumbar puncture reveals 330 WBC with 20% eosinophils, protein 75, and glucose 20. HIV test is negative, TB skin test is negative, CSF cryptococcal antigen is negative, and CSF gram stain is negative. Patient receives empiric therapy for bacterial meningitis with van-comycin and ceftriaxone, and is unimproved after 72 hours of treatment. After 3 days a white mold is identified growing from his CSF culture. What medical therapy would be most appropriate now?"
+        },
+        {
+            "id": "Pharmacology_Katzung_914",
+            "title": "Pharmacology_Katzung",
+            "content": "David Robertson, MD, & Italo Biaggioni, MD* A 38-year-old man has been experiencing palpitations and headaches. He enjoyed good health until 1 year ago when spells of rapid heartbeat began. These became more severe and were eventually accompanied by throbbing headaches and drenching sweats. Physical examination revealed a blood pressure of 150/90 mm Hg and heart rate of 88 bpm. During the physical examination, palpation of the abdomen elicited a sudden and typical episode, with a rise in blood pressure to 210/120 mm Hg, heart rate to 122 bpm, profuse sweating, and facial pallor. This was accompanied by severe headache. What is the likely cause of his episodes? What caused the blood pressure and heart rate to rise so high during the examination? What treatments might help this patient?"
+        },
+        {
+            "id": "Pharmacology_Katzung_1006",
+            "title": "Pharmacology_Katzung",
+            "content": "Neal L. Benowitz, MD A 35-year-old man presents with a blood pressure of 150/95 mm Hg. He has been generally healthy, is sedentary, drinks several cocktails per day, and does not smoke cigarettes. He has a family history of hypertension, and his father died of a myocardial infarction at age 55. Physical examination is remarkable only for moderate obesity. Total cholesterol is 220, and high-density lipoprotein (HDL) cholesterol level is 40 mg/dL. Fasting glucose is 105 mg/dL. Chest X-ray is normal. Electrocardiogram shows left ven-tricular enlargement. How would you treat this patient?"
+        },
+        {
+            "id": "Pharmacology_Katzung_1243",
+            "title": "Pharmacology_Katzung",
+            "content": "Tadalafil Cialis, Adcirca Cilostazol Generic, Pletal Pentoxifylline Generic, Trental Bertram G. Katzung, MD, PhD* A 55-year-old man noticed shortness of breath with exer-tion while on a camping vacation in a national park. He has a 15-year history of poorly controlled hypertension. The shortness of breath was accompanied by onset of swelling of the feet and ankles and increasing fatigue. On physical examination in the clinic, he is found to be mildly short of breath lying down but feels better sitting upright. Pulse is 100 bpm and regular, and blood pressure is 165/100 mm Hg. Crackles are noted at both lung bases, and his jugular venous pressure is elevated. The liver is enlarged, and there is 3+ edema of the ankles and feet. An echocardiogram shows an enlarged, poorly contracting heart with a left ven-tricular ejection fraction of about 30% (normal: 60%). The presumptive diagnosis is stage C, class III heart failure with reduced ejection fraction. What treatment is indicated?"
+        },
+        {
+            "id": "Pharmacology_Katzung_1490",
+            "title": "Pharmacology_Katzung",
+            "content": "Ramin Sam, MD, Harlan E. Ives, MD, PhD, & David Pearce, MD A 65-year-old man has a history of diabetes and chronic kidney disease with baseline creatinine of 2.2 mg/dL. Despite five different antihypertensive drugs, his clinic blood pres-sure is 176/92 mm Hg; he has mild dyspnea on exertion and 2\u20133+ edema on exam. He has been taking furosemide 80 mg twice a day for 1 year now. At the clinic visit, hydrochlorothi-azide 25 mg daily is added for better blood pressure control and also to treat symptoms and signs of fluid overload. Two weeks later, the patient presents to the emergency depart-ment with symptoms of weakness, anorexia, and generalized malaise. His blood pressure is now 91/58 mm Hg, and he has lost 15 kg in 2 weeks. His laboratory tests are signifi-cant for a serum creatinine of 10.8 mg/dL. What has led to the acute kidney injury? What is the reason for the weight loss? What precautions could have been taken to avoid this hospitalization?"
+        },
+        {
+            "id": "Pharmacology_Katzung_5216",
+            "title": "Pharmacology_Katzung",
+            "content": "Camille E. Beauduy, PharmD, & Lisa G. Winston, MD* A 60-year-old man presents to the emergency department with a 2-month history of fatigue, weight loss (10 kg), fevers, night sweats, and a productive cough. He is currently living with friends and has been intermittently homeless, spending time in shelters. He reports drinking about 6 beers per day. In the emergency department, a chest x-ray shows a right apical infiltrate. Given the high suspicion for pulmonary tuberculosis, the patient is placed in respiratory isolation. His first sputum smear shows many acid-fast bacilli, and an HIV test returns with a positive result. What drugs should be started for treatment of presumptive pulmonary tubercu-losis? Does the patient have a heightened risk of developing medication toxicity? If so, which medication(s) would be likely to cause toxicity?"
+        },
+        {
+            "id": "Pharmacology_Katzung_1130",
+            "title": "Pharmacology_Katzung",
+            "content": "Irbesartan Generic,Avapro Treatment of Angina Pectoris Bertram G. Katzung, MD, PhD* A 56-year-old woman presents in the office with a history of recent-onset chest discomfort when jogging or swimming vigorously. The pain is dull but poorly localized; it disap-pears after 5\u201310 minutes of rest. She has never smoked but has a history of hyperlipidemia (total cholesterol level of 245 mg/dL and low-density lipoprotein [LDL] of 160 mg/dL recorded 1 year ago) and admits that she has not been fol-lowing the recommended diet. Her father survived a \u201cheart attack\u201d at age 55, and an uncle died of some cardiac disease at age 60. On physical examination, the patient\u2019s blood pressure is 145/90 mm Hg, and her heart rate is 80 bpm. She is in no acute distress, and there are no other significant physical findings; an electrocardiogram is normal except for slight left ventricular hypertrophy. Assuming that a diagno-sis of stable effort angina is correct, what medical treatment should be implemented?"
+        },
+        {
+            "id": "InternalMed_Harrison_13954",
+            "title": "InternalMed_Harrison",
+            "content": "Pulmonary involvement is frequently prominent; 35% of patients have a hacking, nonproductive cough, and 23% of patients who undergo chest radiography have pulmonary densities due to interstitial pneumonia, pulmonary edema, and pleural effusions. Bibasilar rales are the most common pulmonary sign. Less common clinical manifestations include abdominal pain, confusion, stupor, seizures, ataxia, coma, and jaundice. Clinical laboratory studies frequently reveal anemia and leukopenia early in the course, leukocytosis late in the course, thrombocytopenia, hyponatremia, hypoalbuminemia, mildly increased serum hepatic aminotransferases, and prerenal azotemia. Complications can include respiratory failure, hematemesis, cerebral hemorrhage, and hemolysis. Severe illness necessitates the admission of 10% of hospitalized patients to an intensive care unit. Greater severity is generally associated with old age, underlying disease, and treatment with a sulfonamide; the case-fatality rate is 1%. In a"
+        },
+        {
+            "id": "InternalMed_Harrison_20218",
+            "title": "InternalMed_Harrison",
+            "content": "In addition to a suggestive history, the key to establishing a diagnosis of acute eosinophilic pneumonia is the presence of >25% eosinophilia on BAL fluid. While lung biopsies show eosinophilic infiltration with acute and organizing diffuse alveolar damage, it is generally not necessary to proceed to biopsy to establish a diagnosis. Although patients present with an elevated white blood cell count, in contrast to other pulmonary eosinophilic syndromes, acute eosinophilic pneumonia is often not associated with peripheral eosinophilia upon presentation. However, between 7 and 30 days of disease onset, peripheral eosinophilia often occurs with mean eosinophil counts of 1700. Erythrocyte sedimentation rate (ESR), C-reactive protein, and IgE levels are high but nonspecific, whereas HRCT is always abnormal with bilateral random patchy ground-glass or reticular opacities, and small pleural effusions in as many as two-thirds of patients. Pleural fluid is characterized by a high pH with marked"
+        },
+        {
+            "id": "Surgery_Schwartz_4748",
+            "title": "Surgery_Schwartz",
+            "content": "and fungi.Clinical Features and Diagnosis The typical presentation may include productive cough, fever (>38.9\u00b0C), chills, leuko-cytosis (>15,000 cells/mm3), weight loss, fatigue, malaise, pleu-ritic chest pain, and dyspnea. Lung abscesses may also present in a more indolent fashion, with weeks to months of cough, mal-aise, weight loss, low-grade fever, night sweats, leukocytosis, and anemia. After aspiration pneumonia, 1 to 2 weeks typically elapse before cavitation occurs; 40% to 75% of such patients produce putrid, foul-smelling sputum. Severe complications Brunicardi_Ch19_p0661-p0750.indd 70601/03/19 7:01 PM"
+        },
+        {
+            "id": "InternalMed_Harrison_13839",
+            "title": "InternalMed_Harrison",
+            "content": "Myocarditis appears to be common in both forms of relapsing fever and accounts for some deaths. Most commonly, myocarditis is evidenced by gallops on cardiac auscultation, a prolonged QTc interval, and cardiomegaly and pulmonary edema on chest radiography. General laboratory studies are not specific. Mild to moderate normocytic anemia is common, but frank hemolysis and hemoglobinuria do not develop. Leukocyte counts are usually in the normal range or only slightly elevated, and leukopenia can occur during the crisis. Platelet counts can fall below 50,000/\u00b5L. Laboratory evidence of hepatitis can be found, with elevated serum concentrations of unconjugated bilirubin and aminotransferases; the prothrombin and partial thromboplastin times may be moderately prolonged."
+        },
+        {
+            "id": "InternalMed_Harrison_20528",
+            "title": "InternalMed_Harrison",
+            "content": "SYNDROMES OF ILD WITH DIFFUSE ALVEOLAR HEMORRHAGE Clinical Manifestations The clinical onset is often abrupt, with cough, fever, and dyspnea. Severe respiratory distress requiring ventilatory support may be evident at initial presentation. Although hemoptysis is expected, it can be absent at the time of presentation in one-third of the cases. For patients without hemoptysis, new alveolar opacities, a falling hemoglobin level, and hemorrhagic BAL fluid point to the diagnosis. The chest radiograph is nonspecific and most commonly shows new patchy or diffuse alveolar opacities. Recurrent episodes of DAH may lead to pulmonary fibrosis, resulting in interstitial opacities on the chest radiograph. An elevated white blood cell count and falling hematocrit are common. Evidence for impaired renal function caused by focal segmental necrotizing glomerulonephritis, usually with crescent formation, also may be present. Varying degrees of hypoxemia may occur and are often severe enough to require"
+        },
+        {
+            "id": "Pharmacology_Katzung_808",
+            "title": "Pharmacology_Katzung",
+            "content": "A 68-year-old man presents with a complaint of light-headedness on standing that is worse after meals and in hot environments. Symptoms started about 4 years ago and have slowly progressed to the point that he is disabled. He has fainted several times but always recovers conscious-ness almost as soon as he falls. Review of symptoms reveals slight worsening of constipation, urinary retention out of proportion to prostate size, and decreased sweating. He is otherwise healthy with no history of hypertension, diabetes, or Parkinson\u2019s disease. Because of urinary retention, he was placed on the \u03b11 antagonist tamsulosin, but the fainting spells got worse. Physical examination revealed a blood pres-sure of 167/84 mm Hg supine and 106/55 mm Hg standing. There was an inadequate compensatory increase in heart rate (from 84 to 88 bpm), considering the degree of ortho-static hypotension. Physical examination is otherwise unre-markable with no evidence of peripheral neuropathy or parkinsonian"
+        },
+        {
+            "id": "InternalMed_Harrison_201",
+            "title": "InternalMed_Harrison",
+            "content": "The following three brief scenarios of a patient with hemoptysis demonstrate three distinct patterns: A 46-year-old man presents to his internist with a chief complaint of hemoptysis. An otherwise healthy nonsmoker, he is recovering from an apparent viral bronchitis. This presentation pattern suggests that the small amount of blood-streaked sputum is due to acute bronchitis, so that a chest x-ray provides sufficient reassurance that a more serious disorder is absent. In the second scenario, a 46-year-old patient who has the same chief complaint but with a 100-pack-year smoking history, a productive morning cough, and episodes of blood-streaked sputum fits the pattern of carcinoma of the lung. Consequently, along with the chest x-ray, the physician obtains a sputum cytology examination and refers this patient for a chest computed tomography (CT) scan."
+        },
+        {
+            "id": "InternalMed_Harrison_20223",
+            "title": "InternalMed_Harrison",
+            "content": "Almost 90% of patients have peripheral eosinophilia, with mean eosinophil counts of over 30% of total white blood cell count. BAL eosinophilia is also an important distinguishing feature with mean BAL eosinophil counts of close to 60%. Both peripheral and BAL eosinophilia are very responsive to treatment with corticosteroids. Other laboratory features of chronic eosinophilic pneumonia include increased ESR, C-reactive protein, platelets, and IgE. Lung biopsy is also often not required to establish a diagnosis, but may show accumulation of eosinophils and histiocytes in the lung parenchyma and interstitium, as well as cryptogenic organizing pneumonia, but with minimal fibrosis. Nonrespiratory manifestations are uncommon, but arthralgias, neuropathy, and skin and GI symptoms have all been reported; their presence may suggest EGPA or hypereosinophilic syndrome. Another similarity is the rapid response to corticosteroids with quick resolution of peripheral and BAL eosinophilia and"
+        },
+        {
+            "id": "InternalMed_Harrison_3641",
+            "title": "InternalMed_Harrison",
+            "content": "A 76-year-old woman presented with a several-month history of diarrhea, with marked worsening over the 2\u20133 weeks before admission (up to 12 stools a day). Review of systems was negative for fever, orthostatic dizziness, nausea and vomiting, or headache. Past medical history included hypertension, kidney stones, and hypercholesterolemia; medications included atenolol, spironolactone, and lovastatin. She also reliably consumed >2 L of liquid per day in management of the nephrolithiasis. The patient received 1 L of saline over the first 5 h of her hospital admission. On examination at hour 6, the heart rate was 72 sitting and 90 standing, and blood pressure was 105/50 mmHg lying and standing. Her jugular venous pressure (JVP) was indistinct with no peripheral edema. On abdominal examination, the patient had a slight increase in bowel sounds but a nontender abdomen and no organomegaly."
+        },
+        {
+            "id": "First_Aid_Step2_513",
+            "title": "First_Aid_Step2",
+            "content": "Imaging: CT of the chest and abdomen should be done early in the workup of a true FUO. Rule out drug fever. Invasive testing (marrow/liver biopsy) is generally low yield. Laparoscopy and colonoscopy are higher yield as second-line tests (after CT). Stop unnecessary medications. Give empiric antibiotics to severely ill patients until the etiology has been determined. Stop antibiotics if there is no response. Defned as a single oral temperature of \u2265 38.3\u00b0C (101\u00b0F) or a temperature of \u2265 38.0\u00b0C (100.4\u00b0F) for \u2265 1 hour in a neutropenic patient (i.e., an absolute neutrophil count of < 500 cells/mm3). Hx/PE: Common in cancer patients undergoing chemotherapy (neutropenic nadir 7\u201310 days postchemotherapy). Infammation may be minimal or absent. Dx: Send appropriate cultures, including blood, urine, sputum, and wound. Consider testing for viruses, fungi, and mycobacteria."
+        },
+        {
+            "id": "Pediatrics_Nelson_2313",
+            "title": "Pediatrics_Nelson",
+            "content": "Lymphocytosis is present in 75% to 85% of infants and young children but is not diagnostic. The white blood cell count may increase from 20,000 cells/mm3 to more than 50,000 cells/mm3, consisting primarily of mature lymphocytes. Physical examination and radiographic signs of segmental lung atelectasis may develop during pertussis, especially during the paroxysmal stage. Perihilar infiltrates are common and are similar to those seen in viral pneumonia. For a young child with classic pertussis, the diagnosis based on the pattern of illness is quite accurate. The paroxysmal stage is the most distinctive part of the syndrome. Other causes of per-tussis-like prolonged cough illnesses include Bordetella parapertussis, which causes a similar but milder illness and is not prevented by B. pertussis vaccination, Mycoplasma pneumoniae, Chlamydia pneumoniae and Chlamydophila pneumoniae, adenoviruses, and respiratory syncytial virus."
+        },
+        {
+            "id": "Pediatrics_Nelson_2342",
+            "title": "Pediatrics_Nelson",
+            "content": "The white blood cell (WBC) count with viral pneumonias is often normal or mildly elevated, with a predominance of lymphocytes, whereas with bacterial pneumonias the WBC count is elevated (>20,000/mm3) with a predominance of neutrophils. Mild eosinophilia is characteristic of infant C. trachomatis pneumonia. Blood cultures should be performed on hospitalized children to attempt to diagnose a bacterial cause of pneumonia. Blood cultures are positive in 10% to 20% of bacterial pneumonia and are considered to be confirmatory of the cause of pneumonia if positive for a recognized respiratory pathogen. Urinary antigen tests are especially useful for L. pneumophila (legionnaires\u2019 disease)."
+        }
+    ],
+    "scores": [
+        0.026042476042476042,
+        0.024844167654871782,
+        0.024738118608769715,
+        0.02418351040336634,
+        0.022461274236757645,
+        0.02232510604415256,
+        0.021780396350306295,
+        0.019873759150501682,
+        0.01951637471439452,
+        0.01899189918991899,
+        0.018978233495232956,
+        0.01869812145041503,
+        0.0186932215234102,
+        0.018575851393188854,
+        0.018543956043956044,
+        0.017699115044247787,
+        0.01702158481819499,
+        0.01675099138520443,
+        0.016361950185479597,
+        0.015712888236732697,
+        0.015617433414043584,
+        0.01526510212950891,
+        0.015104879160966712,
+        0.014868744872846595,
+        0.014867237217467633,
+        0.014605543710021322,
+        0.014021421616358325,
+        0.014012303485987697,
+        0.013900913900913902,
+        0.013827838827838827,
+        0.013811899482631191,
+        0.013791175511345104
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5d35b9ecb3a6380763000004",
+    "question": "Does deletion of cohesin change gene expression?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the role of cohesin in the cell cycle and gene expression. Cohesin is a protein complex that plays a crucial role in maintaining sister chromatid cohesion, which is essential for proper chromosome segregation during mitosis and meiosis. Deletion of cohesin would disrupt this process, leading to errors in chromosome segregation and potentially affecting gene expression. However, the question asks about the effect of deletion of cohesin on gene expression, not chromosome segregation. Gene expression is influenced by various factors, including transcriptional regulation, epigenetic modifications, and post-transcriptional processing. Deletion of cohesin itself does not directly affect these processes. Therefore, the deletion of cohesin would not necessarily change gene expression. However, it could lead to changes in gene expression due to the downstream effects of chromosome instability or other cellular processes affected by cohesin deletion. But, considering the specific context of the question, the most direct answer is that deletion of cohesin does not directly change gene expression.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5074",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Which cells in Figure Q17\u20131 are in the G1, S, G2, and M phases of the cell cycle? Explain the basis for your answer. b. Sketch the sorting distributions you would expect for cells that were treated with inhibitors that block the cell cycle in the G1, S, or M phase. Explain your reasoning. Figure Q17\u20131 analysis of Hoechst 33342 fluorescence in a population of cells sorted in a flow cytometer (problem 17\u20138). 17\u20139 The yeast cohesin subunit Scc1, which is essential for sister-chromatid cohesion, can be artificially regulated for expression at any point in the cell cycle. If expression is turned on at the beginning of S phase, all the cells divide satisfactorily and survive. By contrast, if Scc1 expression is turned on only after S phase is completed, the cells fail to divide and they die, even though Scc1 accumulates in the nucleus and interacts efficiently with chromosomes. Why do you suppose that cohesin must be present during S phase for cells to divide normally?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5023",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cohesins near the centromeres are protected from separase in meiosis I by a kinetochore-associated protein called shugoshin (from the Japanese word for \u201cguardian spirit\u201d). Shugoshin acts by recruiting a protein phosphatase that removes phosphates from centromeric cohesins. Cohesin phosphorylation is normally required for separase to cleave cohesin; thus, removal of this phosphorylation near the centromere prevents cohesin cleavage. Sister-chromatid pairs therefore remain linked through meiosis I, allowing their correct bi-orientation on the spindle in meiosis II. Shugoshin is inactivated after meiosis I. At the onset of anaphase II, APC/C activation triggers centromeric cohesin cleavage and sisterchromatid separation\u2014much as it does in mitosis. Following anaphase II, nuclear envelopes form around the chromosomes to produce four haploid nuclei, after which cytokinesis and other differentiation processes lead to the production of haploid gametes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4870",
+            "title": "Cell_Biology_Alberts",
+            "content": "Sister-chromatid cohesion depends on a large protein complex called cohesin, which is deposited at many locations along the length of each sister chromatid as the DNA is replicated in S phase. Two of the subunits of cohesin are members of a large family of proteins called SMC proteins (for Structural Maintenance of Chromosomes). Cohesin forms giant ringlike structures, and it has been proposed that these surround the two sister chromatids (Figure 17\u201319)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4873",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201319 Cohesin. Cohesin is a protein complex with four subunits. (a) Two subunits, smc1 and smc3, are coiled-coil proteins with an aTpase domain at one end; (B) two additional subunits, scc1 and scc3, connect the aTpase head domains, forming a ring structure that may encircle the sister chromatids as shown in (C). The aTpase domains are required for cohesin loading on the dna."
+        },
+        {
+            "id": "InternalMed_Harrison_6143",
+            "title": "InternalMed_Harrison",
+            "content": "chromosome structure (Fig. 102e-4). The transcriptional regulatory regions of active genes 102e-7 often contain a high frequency of CpG dinucleotides (referred to as CpG islands), which are normally unmethylated. Expression of these genes is controlled by transient association with repressor or activator proteins that regulate transcriptional activation. However, hypermethylation of promoter regions is a common mechanism by which tumor-suppressor loci are epigenetically silenced in cancer cells. Thus one allele may be inactivated by mutation or deletion (as occurs in loss of heterozygosity), while expression of the other allele is epigenetically silenced, usually by methylation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5552",
+            "title": "Cell_Biology_Alberts",
+            "content": "W.K. Cavenee et al., Nature 305:779\u2013784, 1983. With permission from Macmillan Publishers Ltd.) deletion or duplication, without the need for complete sequence information. The genome can be scanned for epigenetic changes. And finally, alterations in levels of gene expression can be systematically determined by analysis of mRNAs (see Figure 7\u20133). These approaches generally involve comparing cancer cells with normal controls\u2014ideally, noncancerous cells originating in the same tissue and from the same patient. Figure 20\u201322 The pathways leading to loss of tumor suppressor gene function in cancer involve both genetic and epigenetic changes. (A) As indicated, the changes that silence tumor suppressor genes can occur in any order. Both DNA methylation and the packaging of a gene into condensed chromatin can prevent its expression in a way that is inherited when a cell divides (see Figure 4\u201344)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1376",
+            "title": "Cell_Biology_Alberts",
+            "content": "\u2022 How does DNA replication contend with all the other processes that occur simultaneously on chromosomes, very early in development. The same strategy can also be used to inappropriately including DNA repair and gene express any specific gene in a tissue of interest; here, the triggered deletion joins transcription? a strong transcriptional promoter to the gene of interest. With this tool one can in principle determine the influence of any protein in any desired tissue of an intact \u2022 What is the basis for the low animal. frequency of errors in DNA replication observed in all cells? Is this the best that cells can do given the speed of replication and the limits of molecular The genomes of nearly all organisms contain mobile genetic elements that can move diffusion? Was this mutation rate from one position in the genome to another by either transpositional or conserva-selected in evolution to provide genetic variation?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4884",
+            "title": "Cell_Biology_Alberts",
+            "content": "removal of cohesin molecules along the chromosome arms. As a result, when the cell reaches metaphase, the sister chromatids appear in the microscope as compact, rodlike structures that are joined tightly at their centromeric regions and only loosely along their arms."
+        },
+        {
+            "id": "InternalMed_Harrison_6142",
+            "title": "InternalMed_Harrison",
+            "content": "Chromatin structure regulates the hierarchical order of sequential gene transcription that governs differentiation and tissue homeostasis. Disruption of chromatin remodeling (the process of modifying chromatin structure to control exposure of specific genes to transcriptional proteins, thereby controlling the expression of those genes) leads to aberrant gene expression and can induce proliferation of undifferentiated cells. Epigenetics is defined as changes that alter the pattern of gene expression that persist across at least one cell division but are not caused by changes in the DNA code. Epigenetic changes include alterations of chromatin structure mediated by methylation of cytosine residues in CpG dinucleotides, modification of histones by acetylation or methylation, or changes in higher-order chromosome structure (Fig. 102e-4). The transcriptional regulatory regions of active genes 102e-7 often contain a high frequency of CpG dinucleotides (referred to as CpG islands), which are"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2098",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) induction of synthesis of transcription activator A by a transient signal. (B) induction of synthesis of transcription repressor r by a transient signal. 7\u201312 Examine the two pedigrees shown in Figure Q7\u20133. One results from deletion of a maternally imprinted autosomal gene. The other pedigree results from deletion of a paternally imprinted autosomal gene. In both pedigrees, affected individuals (red symbols) are heterozygous for the deletion. These individuals are affected because one copy of the chromosome carries an imprinted, inactive gene, while the other carries a deletion of the gene. Dotted yellow symbols indicate individuals that carry the deleted locus, but do not display the mutant phenotype. Which pedigree is based on paternal imprinting and which on maternal imprinting? Explain your answer."
+        },
+        {
+            "id": "InternalMed_Harrison_26695",
+            "title": "InternalMed_Harrison",
+            "content": "to co-repressor proteins that inhibit gene transcription. Hormone binding dissociates the co-repressors and allows the recruitment of co-activators that enhance transcription. The discovery of TR interactions with co-repressors explains the fact that TR silences gene expression in the absence of hormone binding. Consequently, hormone deficiency has a profound effect on gene expression because it causes gene repression as well as loss of hormone-induced stimulation. This concept has been corroborated by the finding that targeted deletion of the TR genes in mice has a less pronounced phenotypic effect than hormone deficiency."
+        },
+        {
+            "id": "InternalMed_Harrison_4982",
+            "title": "InternalMed_Harrison",
+            "content": "Deletion refers to the loss of a chromosomal segment, which results in the presence of only a single copy of that region in an individual\u2019s genome. A deletion can be at the end of a chromosome (terminal), or it can be within the chromosome (interstitial). Deletions that are visible at the microscopic level in standard cytogenetic analysis are generally greater than 5 Mb in size. Smaller deletions have been identified by FISH and by chromosomal microarray. The clinical consequences of a deletion depend on the number and function of genes in the deleted region. Genes that cause a phenotype when a single copy is deleted are known as haploinsufficient genes (one copy is not sufficient), and it is estimated that less than 10% of genes are haploinsufficient. Genes associated with disease that are not haploinsufficient include genes for known recessive disorders, such as cystic fibrosis or Tay-Sachs disease."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2351",
+            "title": "Cell_Biology_Alberts",
+            "content": "loss-of-function mutation: either reduces or abolishes the activity of the gene. These are the most common class of mutations. Loss-of-function mutations are usually recessive\u2014the organism can usually function normally as long as it retains at least one normal copy of the affected gene. null mutation: a loss-of-function mutation that completely abolishes the activity of the gene. TWO GENES OR ONE? Given two mutations that produce the same phenotype, how can we tell whether they are mutations in the same gene? If the mutations are recessive (as they most often are), the answer can be found by a complementation test. COMPLEMENTATION: MUTATIONS IN TWO DIFFERENT GENES DELETION: deletes a segment of a chromosome"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5022",
+            "title": "Cell_Biology_Alberts",
+            "content": "Third, cohesion is removed in anaphase I only from chromosome arms and not from the regions near the centromeres, where the kinetochores are located. The loss of arm cohesion triggers homolog separation at the onset of anaphase I. This process depends on APC/C activation, which leads to securin destruction, separase activation, and cohesin cleavage along the arms (see Figure 17\u201338)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1951",
+            "title": "Cell_Biology_Alberts",
+            "content": "How is an entire chromosome transcriptionally inactivated? X-chromosome inactivation is initiated and spreads from a single site near the middle of the X chromosome, the X-inactivation center (XIC). Within the XIC is a transcribed 20,000-nucleotide lncRNA (called Xist), which is expressed solely from the inactive X chromosome. Xist RNA spreads from the XIC over the entire chromosome and directs gene silencing. Although we do not know exactly how this is accomplished, it likely involves recruitment of histone-modifying enzymes and other proteins to form a repressive form of chromatin analogous to that of Figure 7\u201345. Curiously, about 10% of the genes on the X chromosome (including Xist itself) escape this silencing and remain active."
+        },
+        {
+            "id": "InternalMed_Harrison_6044",
+            "title": "InternalMed_Harrison",
+            "content": "Gene silencing, an epigenetic change that leads to the loss of gene expression and occurs in conjunction with hypermethylation of the promoter and histone deacetylation, is another mechanism of tumor-suppressor gene inactivation. (An epigenetic modification refers to a change in the genome, heritable by cell progeny, that does not involve a change in the DNA sequence. The inactivation of the second X chromosome in female cells is an example of an epigenetic silencing that prevents gene expression from the inactivated chromosome.) During embryologic development, regions of chromosomes from one parent are silenced and gene expression proceeds from the chromosome of the other parent. For most genes, expression occurs from both alleles or randomly from one allele or the other. The preferential expression of a particular gene exclusively from the allele contributed by one parent is called parental imprinting and is thought to be regulated by covalent modifications of chromatin protein and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6291",
+            "title": "Cell_Biology_Alberts",
+            "content": "intrinsic to the individual chromosome. Elsewhere in the genome also, controls at the level of chromatin act in combination with other forms of regulation to govern the expression of each gene. Genes can be shut down completely, or switched on constitutively, or maintained in a labile state where they can be readily switched on or off according to changing circumstances."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2393",
+            "title": "Cell_Biology_Alberts",
+            "content": "There are several ways a gene of interest can be altered. In the simplest, the gene can simply be deleted from the genome, although in a diploid organism, this requires that both copies\u2014one on each chromosome homolog\u2014be deleted. Although somewhat counterintuitive, one of the best ways to discover the function of a gene is by observing the effects of not having it. Such \u201cgene knockouts\u201d are especially useful if the gene is not essential. Through reverse genetics, the gene in question (even if it is essential) can also be replaced by one that is expressed in the wrong tissue or at the wrong time in development; this type of manipulation often provides important clues to the gene\u2019s normal function. For example, a gene of interest can be modified to be expressed at will by the experimenter (Figure 8\u201352). Finally, genes can also be engineered so that they are expressed normally in most cell types and tissues but deleted in certain cell types or tissues selected by the experimenter (see"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1035",
+            "title": "Cell_Biology_Alberts",
+            "content": "A related approach in the search for the important mutations that contributed to human evolution likewise begins with DNA sequences that have been conserved during mammalian evolution, but rather than screening for accelerated changes in individual nucleotides, it focuses instead on chromosome sites that have experienced deletions in the 6 million years since our lineage diverged from that of chimpanzees. More than 500 such sequences\u2014conserved among other species but deleted in humans\u2014have been discovered. Each deletion removes an average of 95 nucleotides of DNA sequence. Only one of these deletions affects a protein-coding region: the rest are thought to alter regions that affect how nearby genes are expressed, an expectation that has been experimentally confirmed in a few cases. A large proportion of the presumed regulatory regions identified in this way lie near genes that affect neural function and/or near genes involved in steroid signaling, suggesting that changes in the"
+        },
+        {
+            "id": "InternalMed_Harrison_4789",
+            "title": "InternalMed_Harrison",
+            "content": "Mechanistically, DNA and histone modifications can result in the activation or silencing of gene expression (Fig. 82-7). DNA methylation involves the addition of a methyl group to cytosine residues. This is FIGURE 82-5 Copy number variations (CNV) encompass relatively large regions of the genome that have been duplicated or deleted. Chromosome 8 is shown with CNV detected by genomic hybridization. An increase in the signal strength indicates a duplication, a decrease reflects a deletion of the covered chromosomal regions. of the two X chromosome copies present in females."
+        },
+        {
+            "id": "Cell_Biology_Alberts_921",
+            "title": "Cell_Biology_Alberts",
+            "content": "related, often have different numbers of chromosomes; see Figure 4\u201314 for an extreme example. As we shall discuss below, detailed genome comparisons show that in many cases the changes in chromosome numbers have arisen through chromosome breakage-and-rejoining events, creating novel chromosomes, some of which must initially have contained abnormal numbers of centromeres\u2014either more than one, or none at all. Yet stable inheritance requires that each chromosome should contain one centromere, and one only. It seems that surplus centromeres must have been inactivated, and/or new centromeres created, so as to allow the rearranged chromosome sets to be stably maintained. The changes in centromere activity just discussed, once established, need to be perpetuated through subsequent cell generations. What could be the mechanism of this type of epigenetic inheritance?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2352",
+            "title": "Cell_Biology_Alberts",
+            "content": "COMPLEMENTATION: MUTATIONS IN TWO DIFFERENT GENES DELETION: deletes a segment of a chromosome TRANSLOCATION: breaks off a segment from one chromosome and attaches it to another gain-of-function mutation: increases the activity of the gene or makes it active in inappropriate circumstances; these mutations are usually dominant. dominant-negative mutation: dominant-acting mutation that blocks gene activity, causing a loss-of-function phenotype even in the presence of a normal copy of the gene. This phenomenon occurs when the mutant gene product interferes with the function of the normal gene product. suppressor mutation: suppresses the phenotypic effect of another mutation, so that the double mutant seems normal. An intragenic suppressor mutation lies within the gene affected by the frst mutation; an extragenic suppressor mutation lies in a second gene\u2014often one whose product interacts directly with the product of the frst."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1932",
+            "title": "Cell_Biology_Alberts",
+            "content": "Genomic imprinting is Based on DnA Methylation Mammalian cells are diploid, containing one set of genes inherited from the father and one set from the mother. The expression of a small minority of genes depends on whether they have been inherited from the mother or the father: when the paternally inherited gene copy is active, the maternally inherited gene copy is silent, or vice versa. This phenomenon is called genomic imprinting. Roughly 300 genes are imprinted in humans. Because only one copy of an imprinted gene is expressed, imprinting can \u201cunmask\u201d mutations that would normally be covered by the other, functional copy. For example, Angelman syndrome, a disorder of the nervous system in humans that causes reduced mental ability and severe speech impairment, results from a gene deletion on one chromosomal homolog and the silencing, by imprinting, of the intact gene on the other homolog."
+        },
+        {
+            "id": "Cell_Biology_Alberts_975",
+            "title": "Cell_Biology_Alberts",
+            "content": "The condensation of interphase chromosomes into mitotic chromosomes begins in early M phase, and it is intimately connected with the progression of the cell cycle. During M phase, gene expression shuts down, and specific modifications are made to histones that help to reorganize the chromatin as it compacts. Two classes of ring-shaped proteins, called cohesins and condensins, aid this compaction. How they help to produce the two separately folded chromatids of a mitotic chromosome will be discussed in Chapter 17, along with the details of the cell cycle. short region of 11 nm form of chromatin \u201cbeads-on-a-string\u201d chromatin fber of packed 30 nm NET RESULT: EACH DNA MOLECULE HAS BEEN PACKAGED INTO A MITOTIC CHROMOSOME THAT IS 10,000-FOLD SHORTER THAN ITS FULLY EXTENDED LENGTH 0.1 \u00b5m Figure 4\u201361 Chromatin packing. This model shows some of the many levels of chromatin packing postulated to give rise to the highly condensed mitotic chromosome."
+        },
+        {
+            "id": "InternalMed_Harrison_31420",
+            "title": "InternalMed_Harrison",
+            "content": "An autosomal dominant inheritance pattern with almost complete penetrance has been established, but each family member should be examined for the presence of the disease, since ~30% of those affected are unaware of involvement. FSHD1 is associated with deletions of tandem 3.3-kb repeats at 4q35. The deletion reduces the number of repeats to a fragment of <35 kb in most patients. Within these repeats lies the DUX4 gene, which usually is not expressed. In patients with FSHD1 these deletions in the setting of a specific polymorphism leads to hypomethylation of the region and toxic expression of the DUX4 gene. In patients with FSHD2, there is no deletion, but a mutation in SMCHD1. Interestingly, in the setting of the same polymorphism, there again is seen hypomethylation of the region and the permissive expression of the DUX4 gene. In both FSHD1 and FSHD2, there is overexpression of the DUX4 transcript."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5005",
+            "title": "Cell_Biology_Alberts",
+            "content": "Meiosis reduces the chromosome number by half using many of the same molecular machines and control systems that operate in mitosis. As in the mitotic cell cycle, the cell begins the meiotic program by duplicating its chromosomes in meiotic S phase, resulting in pairs of sister chromatids that are tightly linked along their entire lengths by cohesin complexes. Unlike mitosis, however, two successive rounds of chromosome segregation then occur (Figure 17\u201353). The first of these divisions (meiosis I) solves the problem, unique to meiosis, of segregating the homologs. The duplicated paternal and maternal homologs pair up alongside each other and become physically linked by the process of genetic recombination. These pairs of homologs, each containing a pair of sister chromatids, then line up on the first meiotic spindle. In the first meiotic anaphase, duplicated homo-logs rather than sister chromatids are pulled apart and segregated into the two daughter nuclei. Only in the second"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1087",
+            "title": "Cell_Biology_Alberts",
+            "content": "(Problem 4\u20139). Differently colored blocks indicate segments of the chromosomes that are homologous in DNA sequence. 4\u201310 Assuming that the 30-nm chromatin fiber contains about 20 nucleosomes (200 bp/nucleosome) per 50 nm of length, calculate the degree of compaction of DNA associated with this level of chromatin structure. What fraction of the 10,000-fold condensation that occurs at mitosis does this level of DNA packing represent? 4\u201311 In contrast to histone acetylation, which always correlates with gene activation, histone methylation can lead to either transcriptional activation or repression. How do you suppose that the same modification\u2014methylation\u2014can mediate different biological outcomes?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1926",
+            "title": "Cell_Biology_Alberts",
+            "content": "406 Chapter 7: Control of Gene expression Figure 7\u201345 Multiple mechanisms contribute to stable gene repression."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5547",
+            "title": "Cell_Biology_Alberts",
+            "content": "the chromosome carrying the remaining normal copy may be lost from the cell through errors in chromosome segregation; or the normal gene, along with neighboring genetic material, may be replaced by a mutant version through either a mitotic recombination event or a gene conversion that accompanies it (see p. 286). Figure 20\u201321 summarizes the range of ways in which the remaining good copy of a tumor suppressor gene can be lost through a DNA sequence change, using the Rb gene as an example. It is important to note that, except for the point mutation mechanism illustrated at the far right, these pathways all produce cells that carry only a single type of DNA sequence in the chromosomal region containing their Rb genes\u2014a sequence that is identical to the sequence in the original mutant chromosome."
+        },
+        {
+            "id": "InternalMed_Harrison_6040",
+            "title": "InternalMed_Harrison",
+            "content": "Solid tumors are generally highly aneuploid, containing an abnormal number of chromosomes; these chromosomes also exhibit structural alterations such as translocations, deletions, and amplifications. These abnormalities are collectively referred to as chromosomal instability (CIN). Normal cells possess several cell cycle checkpoints, essentially quality-control requirements that have to be met before subsequent events are allowed to take place. The mitotic checkpoint, which ensures proper chromosome attachment to the mitotic spindle before allowing the sister chromatids to separate, is altered in certain cancers. The molecular basis of CIN remains unclear, although a number of mitotic checkpoint genes are found mutated or abnormally expressed in various tumors. The exact effects of these changes on the mitotic checkpoint are unknown, and both weakening and overactivation of the checkpoint have been proposed. The identification of the cause of CIN"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2480",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many of these methods are being expanded to investigate gene function on a genome-wide scale. The generation of mutant libraries in which every gene in an organism has been systematically deleted, disrupted, or made controllable by the experimenter provides invaluable tools for exploring the role of each gene in the elaborate molecular collaboration that gives rise to life. Technologies such as RNA-seq and DNA microarrays can monitor the expression of tens of thousands of genes simultaneously, providing detailed, comprehensive snapshots of the dynamic patterns of gene expression that underlie complex cell processes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_909",
+            "title": "Cell_Biology_Alberts",
+            "content": "For example, in cells that are destined to give rise to red blood cells, a sequence called HS4 normally separates the active chromatin domain that contains the human \u03b2-globin locus from an adjacent region of silenced, condensed chromatin. If this sequence is deleted, the \u03b2-globin locus is invaded by condensed chromatin. This chromatin silences the genes it covers, and it spreads to a different extent in different cells, causing position effect variegation similar to that observed in Drosophila. As described in Chapter 7, the consequences are dire: the globin genes are poorly expressed, and individuals who carry such a deletion have a severe form of anemia."
+        }
+    ],
+    "scores": [
+        0.03615354577505189,
+        0.03025030525030525,
+        0.029572737959471688,
+        0.029484252443489924,
+        0.028413330339993513,
+        0.028030604537073886,
+        0.02710735374485158,
+        0.026724069695812126,
+        0.023425411343661627,
+        0.023390923390923392,
+        0.0229382686279238,
+        0.022088509316770186,
+        0.02134874928992576,
+        0.02047746697969703,
+        0.01887498286601989,
+        0.018624393624393623,
+        0.018575851393188854,
+        0.01852010631912887,
+        0.018137254901960782,
+        0.017941210279077895,
+        0.017284495439835245,
+        0.016893997092016895,
+        0.016616008105369808,
+        0.01637840670859539,
+        0.016203703703703703,
+        0.01613008130081301,
+        0.01593726283835062,
+        0.015826564739608216,
+        0.015814183345688165,
+        0.015551087984862818,
+        0.015331296992481203,
+        0.015235778009500637
+    ]
+}

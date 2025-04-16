@@ -1,0 +1,206 @@
+{
+    "id": "5c51f44c07ef653866000004",
+    "question": "Are Copy Number Variants (CNVs) depleted in regions of low mappability?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand what Copy Number Variants (CNVs) are and their relationship with regions of low mappability. CNVs are relatively large genomic regions that have been duplicated or deleted, and they can be found throughout the genome. Regions of low mappability refer to areas of the genome that are difficult to sequence accurately due to various factors such as repetitive DNA sequences, repetitive elements, or complex genomic structures. Considering the nature of CNVs and regions of low mappability, it is possible that CNVs might be depleted in regions of low mappability because these regions are often challenging to sequence accurately. However, the relationship between CNVs and regions of low mappability is not straightforward, and there is evidence to suggest that CNVs can occur in both mappable and non-mappable regions of the genome. Therefore, the answer to this question is not a simple yes or no, but rather a nuanced understanding of the complex relationship between CNVs and regions of low mappability.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1069",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have been focusing on mutations that affect a single gene, but these are not the only source of variation. Another source, perhaps even more important but missed for many years, lies in the many duplications and deletions of large blocks of human DNA. When one compares any individual human with the standard reference genome in the database, one will generally find roughly 100 differences involving gain or loss of long sequence blocks, totaling perhaps 3 million nucleotide pairs. Some of these copy number variations (CNVs) will be very common, presumably reflecting relatively ancient origins, while others will be present in only a small minority of people (Figure 4\u201380). On average, nearly half of the CNVs contain known genes. CNVs have been implicated in many human traits, including color blindness, infertility, hypertension, and a wide variety of disease susceptibilities. In retrospect, this type of variation is not surprising, given the prominent role of DNA addition and DNA loss"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2379",
+            "title": "Cell_Biology_Alberts",
+            "content": "Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors When we compare the sequences of multiple human genomes, we find that any two individuals will differ in roughly 1 nucleotide pair in 1000. Most of these variations are common and relatively harmless. When two sequence variants coexist in the population and both are common, the variants are called polymorphisms. The majority of polymorphisms are due to the substitution of a single nucleotide, called single-nucleotide polymorphisms or SNPs (Figure 8\u201350). The rest are due largely to insertions or deletions\u2014called indels when the change is small, or copy number variations (CNVs) when it is large. Although these common variants can be found throughout the genome, they are not scattered randomly\u2014or even independently. Instead, they tend to travel in groups called haplotype blocks\u2014combinations of polymorphisms that are inherited as a unit."
+        },
+        {
+            "id": "InternalMed_Harrison_4773",
+            "title": "InternalMed_Harrison",
+            "content": "coPy number variations Copy number variations (CNVs) are relatively large genomic regions (1 kb to several Mb) that have been duplicated or deleted on certain chromosomes (Fig. 82-5). It has been estimated that as many as 1500 CNVs, scattered throughout the genome, are present in an individual. When comparing the genomes of two individuals, approximately 0.4\u20130.8% of their genomes differ in terms of CNVs. Of note, de novo CNVs have been observed between monozygotic twins, who otherwise have identical genomes. Some CNVs have been associated with susceptibility or resistance to disease, and CNVs can be elevated in cancer cells."
+        },
+        {
+            "id": "InternalMed_Harrison_4958",
+            "title": "InternalMed_Harrison",
+            "content": "variations (CNVs) are disease causing (pathogenic) and which are likely benign polymorphisms. Although initially burdensome, the cytogenomics community has been curating these CNVs for almost a decade, and databases have been created reporting CNVs routinely seen in clinically normal individuals and those routinely seen in individuals with clinical abnormalities. Nevertheless, each copy number variant that is identified in an individual undergoing genomic testing must be evaluated for gene content and overlap with CNVs in other patients and in controls."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1083",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other sequence comparisons show that a great deal of the genetic complexity of present-day organisms is due to the expansion of ancient gene families. DNA duplication followed by sequence divergence has clearly been a major source of genetic novelty during evolution. On a more recent time scale, the genomes of any two humans will differ from each other both because of nucleotide substitutions (single-nucleotide polymorphisms, or SNPs) and because of inherited DNA gains and DNA losses that cause copy number variations (CNVs). Understanding the effects of these differences will improve both medicine and our understanding of human biology. Which statements are true? explain why or why not. How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication?"
+        },
+        {
+            "id": "Pathology_Robbins_8",
+            "title": "Pathology_Robbins",
+            "content": "Special structural regions of DNA, including telomeres (chromosome ends) and centromeres (chromosome \u201ctethers\u201d) Importantly, many genetic variations (polymorphisms) associated with diseases are located in non\u2013proteincoding regions of the genome. Thus, variation in gene regulation may prove to be more important in disease causation than structural changes in specific proteins. Another surprise that emerged from genome sequencing is that any two humans are typically >99.5% DNA-identical (and are 99% sequence-identical with chimpanzees)! Thus, individual variation, including differential susceptibility to diseases and environmental exposures, is encoded in <0.5% of our DNA (importantly, this still represents about 15 million base pairs). The two most common forms of DNA variation in the human genome are single-nucleotide polymorphisms (SNPs) and copy number variations (CNVs)."
+        },
+        {
+            "id": "InternalMed_Harrison_4789",
+            "title": "InternalMed_Harrison",
+            "content": "Mechanistically, DNA and histone modifications can result in the activation or silencing of gene expression (Fig. 82-7). DNA methylation involves the addition of a methyl group to cytosine residues. This is FIGURE 82-5 Copy number variations (CNV) encompass relatively large regions of the genome that have been duplicated or deleted. Chromosome 8 is shown with CNV detected by genomic hybridization. An increase in the signal strength indicates a duplication, a decrease reflects a deletion of the covered chromosomal regions. of the two X chromosome copies present in females."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1077",
+            "title": "Cell_Biology_Alberts",
+            "content": "While most of the SNPs and CNVs in the human genome sequence are thought to have little or no effect on phenotype, a subset of the genome sequence variations must be responsible for the heritable aspects of human individuality. We know that even a single nucleotide change that alters one amino acid in a protein can cause a serious disease, as for example in sickle-cell anemia, which is caused by such a mutation in hemoglobin (Movie 4.3). We also know that gene dosage\u2014a doubling or halving of the copy number of some genes\u2014can have a profound effect on development by altering the level of gene product, as can changes in regulatory DNA sequences. There is therefore every reason to suppose that some of the many differences between any two human beings will have substantial Figure 4\u201380 Detection of copy number variations on human chromosome 17."
+        },
+        {
+            "id": "InternalMed_Harrison_4957",
+            "title": "InternalMed_Harrison",
+            "content": "Array-based techniques (which we will now refer to as cytogenomic analysis) have proven superior to chromosome analysis in the identification of clinically significant deletions or duplications. It is estimated that for a deletion or duplication to be visualized by standard cytogenetics it must be minimally between 5 and 10 million base pairs in size. In almost all cases, deletions and duplications of this size contain multiple genes, and these deletions and duplications are disease causing. However, utilization of array-based cytogenomic testing, which can routinely identify deletions and duplications smaller than 50,000 base pairs, reveals that clinically normal individuals all have some deletions and duplications. This presents a dilemma for the analyst to discern which smaller copy number variations (CNVs) are disease causing (pathogenic) and which are likely benign polymorphisms. Although initially burdensome, the cytogenomics community has been curating these CNVs for almost a"
+        },
+        {
+            "id": "Pathology_Robbins_11",
+            "title": "Pathology_Robbins",
+            "content": "CNVs are a form of genetic variation consisting of different numbers of large contiguous stretches of DNA; these can range from 1000 base pairs to millions of base pairs. In some instances these loci are, like SNPs, biallelic and simply duplicated or deleted in a subset of the population. In other instances there are complex rearrangements of genomic material, with multiple alleles in the human population. CNVs are responsible for several million base pairs of sequence difference between any two individuals. Approximately 50% of CNVs involve gene-coding sequences; thus, CNVs may underlie a large portion of human phenotypic diversity."
+        },
+        {
+            "id": "Histology_Ross_410",
+            "title": "Histology_Ross",
+            "content": "The human genome encompasses the entire length of human DNA that contains the genetic information packaged in all 46 chromosomes. Sequencing of the human genome took about 13 years and was successfully completed in 2003 by the Human Genome Project. The human genome contains a 2.85-billion base pair consensus sequence of nucleotides, which are arranged in about 23,000 protein-coding genes. For years it was thought that genes were usually present in two copies in a genome. However, recent discoveries have revealed that large segments of DNA can vary in numbers of copies. Such copy number variations (CNVs) are widespread in the human genome and most likely lead to genetic imbalances. For instance, genes that were thought to always occur in two copies per genome have sometimes one, three, or more copies. A previous definition of a gene as a segment of DNA involved in producing a polypeptide chain has been recently updated to now read as being a union of genomic sequences encoding a"
+        },
+        {
+            "id": "Pathology_Robbins_9",
+            "title": "Pathology_Robbins",
+            "content": "The two most common forms of DNA variation in the human genome are single-nucleotide polymorphisms (SNPs) and copy number variations (CNVs). SNPs are variants at single nucleotide positions and are almost always biallelic (only two choices exist at a given site within the population, such as A or T). More than 6 million human SNPs have been identified, with many showing wide variation in frequency in different populations. The following features are worthy of note: SNPs occur across the genome\u2014within exons, introns, intergenic regions, and coding regions. Roughly 1% of SNPs occur in coding regions, which is about what would be expected by chance, because coding regions comprise about 1.5% of the genome. SNPs located in noncoding regions can occur in regulatory elements in the genome, thereby altering gene expression; in such instances the SNP may have a direct influence on disease susceptibility."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1078",
+            "title": "Cell_Biology_Alberts",
+            "content": "when 100 individuals were tested by a DNA microarray analysis that detects the copy number of DNA sequences throughout the entire length of this chromosome, the indicated distributions of DNA additions (green bars) and DNA losses (red bars) were observed compared with an arbitrary human reference sequence. The shortest red and green bars represent a single occurrence among the 200 chromosomes examined, whereas the longer bars indicate that the addition or loss was correspondingly more frequent. The results show preferred regions where the variations occur, and these tend to be in or near regions that already contain blocks of segmental duplications. many of the changes include known genes. (Adapted from J.l. Freeman et al., Genome Res. 16:949\u2013961, 2006. with permission from Cold Spring Harbor laboratory Press.) effects on human health, physiology, behavior, and physique. A major challenge in human genetics is to recognize those relatively few variations that are functionally important"
+        },
+        {
+            "id": "Neurology_Adams_7931",
+            "title": "Neurology_Adams",
+            "content": "These types of genetic changes do not appear to explain the majority of the various developmental diseases. The relatively novel concept of duplication or deletion of portions of genes, copy number variation, emerged as explanatory of some proportion of diseases such as autism as discussed further on. What is interesting about copy number variation is that they may give rise to several phenotypes of similar disorder, quite unlike conventional mendelian mutations. This indicates that copy number variants, like SNPs, probably are not usually directly causative of a condition but instead modulate other functions that express proteins. This is the situation for many of the forms of developmental abnormalities such as generic cognitive developmental delay, autism, and certain psychiatric diseases."
+        },
+        {
+            "id": "InternalMed_Harrison_31588",
+            "title": "InternalMed_Harrison",
+            "content": "The ability to catalog common genetic variants and assay them on array-based platforms and, more recently, to carry out whole-exome sequencing has allowed investigators to collect sample sizes sufficient to detect genetic risk loci for schizophrenia with genome-wide significance. Several of the identified genes are parts of molecular complexes, such as voltage-gated calcium channels (in particular, CACNA1C and CACNB2) and the postsynaptic density of excitatory synapses. As in ASDs, copy number variants, single-nucleotide polymorphisms, and small insertions and deletions are common in schizophrenia. Genes that promote risk for drug addiction have also begun to emerge from large family and population studies. The best-established susceptibility loci are regions on chromosomes 4 and 5 containing GABAA receptor gene clusters linked to alcoholism and the CHRNA5-A3-B4 nicotinic acetylcholine receptor gene cluster on chromosome 15 associated with nicotine and alcohol addiction."
+        },
+        {
+            "id": "InternalMed_Harrison_4982",
+            "title": "InternalMed_Harrison",
+            "content": "Deletion refers to the loss of a chromosomal segment, which results in the presence of only a single copy of that region in an individual\u2019s genome. A deletion can be at the end of a chromosome (terminal), or it can be within the chromosome (interstitial). Deletions that are visible at the microscopic level in standard cytogenetic analysis are generally greater than 5 Mb in size. Smaller deletions have been identified by FISH and by chromosomal microarray. The clinical consequences of a deletion depend on the number and function of genes in the deleted region. Genes that cause a phenotype when a single copy is deleted are known as haploinsufficient genes (one copy is not sufficient), and it is estimated that less than 10% of genes are haploinsufficient. Genes associated with disease that are not haploinsufficient include genes for known recessive disorders, such as cystic fibrosis or Tay-Sachs disease."
+        },
+        {
+            "id": "InternalMed_Harrison_14325",
+            "title": "InternalMed_Harrison",
+            "content": "Three noncoding RNA latency-associated transcripts (LATs) are found in the nuclei of latently infected neurons. Deletion mutants of the LAT region exhibit reduced efficiency in their later reactivation. Substitution of HSV-1 LATs for HSV-2 LATs induces an HSV-1 reactivation pattern. These data indicate that LATs apparently maintain\u2014 rather than establish\u2014latency. HSV-1 LATs promote the survival of acutely infected neurons, perhaps by inhibiting apoptotic pathways. LAT transcript abundance and low genome-copy number correlate with subnuclear positioning of HSV genomes around the centromere. Indeed, chromatization of HSV DNA appears to play a vital role in silencing expression of lytic replication genes. Highly expressed during latency, LAT-derived micro-RNA appears to silence expression of the key neurovirulence factor infected-cell protein 34.5 (ICP34.5) and to bind in an antisense configuration to the immediate-early protein ICP0 messenger RNA to prevent expression, which is vital to"
+        },
+        {
+            "id": "Obstentrics_Williams_1672",
+            "title": "Obstentrics_Williams",
+            "content": "A recent addition to the standard nomenclature is terminology to represent copy number variants identiied by chromosomal microarray anaysis, which is discussed on page 271. Copy number variant is another term for a microdeletion or microduplication of DNA too small to be visualized with a standard karyotype. The array designation begins with the abbreviation arr and the version of the genome build to which the nucleotide designations are aligned, such as GRCh38 for Genome Reference Consortium human build 38. his is followed by the number of the chromosome on which the abnormality is identified, by the p or q arm, and by the speciic bands in question. Array reports next include the afected base pair coordinates, thus conveying the exact size and location within the genome for every abnormality identiied-including copy number variants of uncertain signiicance . \u2022 Abnormalities of Chromosome Number"
+        },
+        {
+            "id": "InternalMed_Harrison_6032",
+            "title": "InternalMed_Harrison",
+            "content": "The second mechanism for activation of oncogenes is DNA sequence amplification, leading to overexpression of the gene product. This increase in DNA copy number may cause cytologically recognizable chromosome alterations referred to as homogeneous staining regions (HSRs) if integrated within chromosomes, or double minutes (dmins) if extrachromosomal. The recognition of DNA amplification is accomplished through various cytogenetic techniques such as comparative genomic hybridization (CGH) or fluorescence in situ hybridization (FISH), which allow the visualization of chromosomal aberrations using fluorescent dyes. In addition, noncytogenetic, microarray-based approaches are now available for identifying changes in copy number at high resolution. Newer short-tag\u2013based sequencing approaches have been used to evaluate amplifications. When paired with next-generation sequencing, this approach offers the highest degree of resolution and quantification available. With both microarray and"
+        },
+        {
+            "id": "InternalMed_Harrison_4955",
+            "title": "InternalMed_Harrison",
+            "content": "control and patient DNA are present in equal amounts or if one has a different copy number than the other. SNP platforms use arrays targeting SNPs that are distributed across the genome. SNP arrays vary in density of markers and in the technology used for genotyping, depending on the manufacturer of the array. SNP arrays were initially designed to determine genotypes at a biallelic, polymorphic base (e.g., CC, CT, or TT) and have been increasingly used in genome-wide association studies to identify disease susceptibility genes. SNP arrays were subsequently adapted to identify genomic deletions and duplications (Fig. 83e-2). SNP arrays, in addition to identifying copy number changes, can also detect regions of the genome that have an excess of homozygous genotypes and absence of heterozygous genotypes (e.g., CC and TT genotypes only, with no CT genotypes). Absence of heterozygosity is sometimes associated with uniparental disomy (discussed later in this chapter) but is also observed"
+        },
+        {
+            "id": "InternalMed_Harrison_31584",
+            "title": "InternalMed_Harrison",
+            "content": "in dizygotic twins and siblings, whereas first-degree relatives show about 50-fold increased risk compared with the general population. ASDs are also genetically heterogeneous. More than 100 known mutations account for up to 20% of cases, although none individually accounts for more than 1% (Table 465e-1). It appears that most cases result from complex genetic mechanisms, including inheritance of multiple genetic risk variants and epigenetic modifications. For example, up to 10% of patients with autism have large (>500 kb) de novo copy number variations scattered across the genome, suggesting that hundreds of different genes can influence autism risk."
+        },
+        {
+            "id": "Cell_Biology_Alberts_921",
+            "title": "Cell_Biology_Alberts",
+            "content": "related, often have different numbers of chromosomes; see Figure 4\u201314 for an extreme example. As we shall discuss below, detailed genome comparisons show that in many cases the changes in chromosome numbers have arisen through chromosome breakage-and-rejoining events, creating novel chromosomes, some of which must initially have contained abnormal numbers of centromeres\u2014either more than one, or none at all. Yet stable inheritance requires that each chromosome should contain one centromere, and one only. It seems that surplus centromeres must have been inactivated, and/or new centromeres created, so as to allow the rearranged chromosome sets to be stably maintained. The changes in centromere activity just discussed, once established, need to be perpetuated through subsequent cell generations. What could be the mechanism of this type of epigenetic inheritance?"
+        },
+        {
+            "id": "Obstentrics_Williams_1711",
+            "title": "Obstentrics_Williams",
+            "content": "Microdeletions and Microduplications. These chromosomal deletions or duplications-smaller than 3 to 5 million base pairs-are too small to be detected with standard karyotyping. However, prenatal chromosomal micro array analysis (CMA) , described later (p. 271), permits identification of syndromes associated with these microdeletion or duplications. When CMA is used, the region of DNA that is missing or duplicated is termed a genomic copy number variant. Despite the relatively small size, a microdeletion or duplication may involve a stretch of DNA that contains multiple genes-causing a contiguous gene syndrome, which can encompass serious but unrelated phenotypic abnormalities (Schmickel, 1986). In some cases, a micro duplication may involve the exact DNA region that causes a recognized microdeletion syndrome (Table 13-2). When a speciic microdeletion syndrome is suspected clinically, it is confirmed using either CMA or luorescence in situ hybridization."
+        },
+        {
+            "id": "Surgery_Schwartz_3398",
+            "title": "Surgery_Schwartz",
+            "content": "the genome needs to be sequenced multiple times to reach statistic significance and pass quality control. Therefore, whole-genome DNA sequencing is still considered to be costly for diagnosis as well as for research purposes. Under clinical settings, one of the most applied DNA sequencing technologies is whole-exome sequencing, i.e., using techniques to capture and analyze exons in all coding genes, given that most known diseases are due to mutations in spliced-in regions of coding genes. Whole-exome sequencing is mostly used for detecting single nucleotide vari-ants and is less reliable in detecting insertion-deletion variants or small copy number variants.BS-seq is commonly used to identify DNA methyla-tion on the genome (5-methylcytosine [5mC]). The process always involves a bisulfite treatment of DNA before library Brunicardi_Ch15_p0479-p0510.indd 49818/02/19 11:12 AM 499MOLECULAR BIOLOGY, THE ATOMIC THEORY OF DISEASE, AND PRECISION SURGERYCHAPTER 15construction, during which"
+        },
+        {
+            "id": "InternalMed_Harrison_25179",
+            "title": "InternalMed_Harrison",
+            "content": "2140 effect on risk; they also contribute to the risk for developing other autoimmune diseases, such as type 1 diabetes mellitus, systemic lupus erythematosus, and multiple sclerosis. Second, although most of the non-HLA associations are described in patients with anti-CCP antibody-positive disease, there are several risk loci that are unique to anti-CCP antibody-negative disease. Third, risk alleles vary among ethnic groups. And fourth, the risk loci mostly reside in genes encoding proteins involved in the regulation of the immune response. However, the risk alleles identified by GWAS only account at present for approximately 5% of the genetic risk, suggesting that rare variants or other classes of DNA variants, such as variants in copy number, maybeyetfoundthatsignificantlycontributetotheoverallriskmodel. Recently, imputation of SNP data from a GWAS meta-analysis shows amino acid substitutions in the MHC locus independently associated with the risk forRAareatposition11,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1035",
+            "title": "Cell_Biology_Alberts",
+            "content": "A related approach in the search for the important mutations that contributed to human evolution likewise begins with DNA sequences that have been conserved during mammalian evolution, but rather than screening for accelerated changes in individual nucleotides, it focuses instead on chromosome sites that have experienced deletions in the 6 million years since our lineage diverged from that of chimpanzees. More than 500 such sequences\u2014conserved among other species but deleted in humans\u2014have been discovered. Each deletion removes an average of 95 nucleotides of DNA sequence. Only one of these deletions affects a protein-coding region: the rest are thought to alter regions that affect how nearby genes are expressed, an expectation that has been experimentally confirmed in a few cases. A large proportion of the presumed regulatory regions identified in this way lie near genes that affect neural function and/or near genes involved in steroid signaling, suggesting that changes in the"
+        },
+        {
+            "id": "Psichiatry_DSM-5_321",
+            "title": "Psichiatry_DSM-5",
+            "content": "Environmental. A variety of nonspecific risk factors, such as advanced parental age, low birth weight, or fetal exposure to valproate, may contribute to risk of autism spectrum dis- order. Genetic and physiological. Heritability estimates for autism spectrum disorder have ranged from 37% to higher than 90%, based on twin concordance rates. Currently, as many as 15% of cases of autism spectrum disorder appear to be associated with a known genetic mutation, with different de novo copy number variants or de novo mutations in specific genes associated with the disorder in different families. However, even when an autism spectrum disorder is associated with a known genetic mutation, it does not appear to be fully penetrant. Risk for the remainder of cases appears to be polygenic, with perhaps hun- dreds of genetic loci making relatively small contributions."
+        },
+        {
+            "id": "InternalMed_Harrison_4823",
+            "title": "InternalMed_Harrison",
+            "content": "insertions anD Deletions Although many instances of insertions and deletions occur as a consequence of unequal crossing-over, there is also evidence for internal duplication, inversion, or deletion of DNA sequences. The fact that certain deletions or insertions appear to occur repeatedly as independent events indicates that specific regions within the DNA sequence predispose to these errors. For example, certain regions of the DMD gene, which encodes dystrophin, appear to be hot spots for deletions and result in muscular dystrophy (Chap. 462e). Some regions within the human genome are rearrangement hot spots and lead to CNVs."
+        },
+        {
+            "id": "First_Aid_Step1_33",
+            "title": "First_Aid_Step1",
+            "content": "Data are plotted either as histogram (one measure) or scatter plot (any two measures, as shown). In illustration: Cells in left lower quadrant \u229d for both CD8 and CD3. CD8-expressing cells also express CD3. Cells in left upper quadrant \u2295 for CD3 and 100 \u229d for CD8. 100 101 102 103 104 CD8 CD8 and CD3. and \u229d for CD3. In this example, right lower quadrant is empty because all Microarrays Thousands of nucleic acid sequences are arranged in grids on glass or silicon. DNA or RNA probes are hybridized to the chip, and a scanner detects the relative amounts of complementary binding. Used to profile gene expression levels of thousands of genes simultaneously to study certain diseases and treatments. Able to detect single nucleotide polymorphisms (SNPs) and copy number variations (CNVs) for a variety of applications including genotyping, clinical genetic testing, forensic analysis, cancer mutations, and genetic linkage analysis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1099",
+            "title": "Cell_Biology_Alberts",
+            "content": "green RE, krause J, briggs Aw et al. (2010) A draft sequence of the Neandertal genome. Science 328, 710\u2013722. International Human genome Sequencing Consortium (2001) Initial sequencing and analysis of the human genome. Nature 409, 860\u2013921. International Human genome Sequencing Consortium (2004) Finishing the euchromatic sequence of the human genome. Nature 431, 931\u2013945. kellis m, wold b, Snyder mP et al. (2014) Defining functional DNA elements in the human genome. Proc. Natl Acad. Sci. USA 111, 6131\u20136138. lander ES (2011) Initial impact of the sequencing of the human genome. Nature 470, 187\u2013197. lee C & Scherer Sw (2010) The clinical context of copy number variation in the human genome. Expert Rev. Mol. Med. 12, e8. mouse genome Sequencing Consortium (2002) Initial sequencing and comparative analysis of the mouse genome. Nature 420, 520\u2013562."
+        },
+        {
+            "id": "Pathology_Robbins_1484",
+            "title": "Pathology_Robbins",
+            "content": "In addition to alterations in DNA sequence, coding genes also can undergo structural variations, such as copy number changes\u2014amplifications or deletions\u2014or translocations that result in aberrant gain or loss of protein function. As with mutations, structural changes may occur in the germline, or be acquired in somatic tissues. In many instances, pathogenic germline alterations involve a contiguous portion of a chromosome rather than a single gene, such as in the 22q microdeletion syndrome, discussed later. With the widespread availability of next-generation sequencing technology for assessing DNA copy number variation at very high resolution genome wide, pathogenic structural alterations have now been discovered in common disorders such as autism. Cancers often contain somatically acquired structural alterations, including amplifications, deletions, and translocations. The so-called \u201cPhiladelphia chromosome\u201d\u2014translocation t(9;22) between the BCR and ABL genes in chronic myeloid"
+        },
+        {
+            "id": "Obstentrics_Williams_1784",
+            "title": "Obstentrics_Williams",
+            "content": "Arrays may be genome-wide or may be targeted to known genetic syndromes. Genome-wide arrays are typically used in research settings, for example, to identiY novel microdeletion syndromes in individuals with intellectual disability (Slavotinek, 200S). Targeted arrays are generally preferred prenatally because the likelihood of detecting a copy number variant of uncertain clinical signiicance is lower. In a systematic 1.28 cm A Actual size of chip Nonhybridized Thousands of identical nucleotide DNA strands on one cell B 500,000 cells on each chip C One cell on chip Labeled fetal DNA is presented to the cells"
+        }
+    ],
+    "scores": [
+        0.03896222955628897,
+        0.03846331661865643,
+        0.03826320705383891,
+        0.03758641944458327,
+        0.03593353600669144,
+        0.03575304531251791,
+        0.03363870877100896,
+        0.03175395398651212,
+        0.030951546254720422,
+        0.028096052304023688,
+        0.02668195718654434,
+        0.02549712672032628,
+        0.02433862433862434,
+        0.02411668103964052,
+        0.021774694494459537,
+        0.021229612868196836,
+        0.021130014047135947,
+        0.02034543325526932,
+        0.02004105647312029,
+        0.019931003158953003,
+        0.017684528428139817,
+        0.017559724325985956,
+        0.01680672268907563,
+        0.016421024295040044,
+        0.01563358778625954,
+        0.015592203898050975,
+        0.015575757575757576,
+        0.015455304928989139,
+        0.015443560271146479,
+        0.015359477124183007,
+        0.015265436318067897,
+        0.015141242937853107
+    ]
+}

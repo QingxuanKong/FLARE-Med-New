@@ -1,0 +1,206 @@
+{
+    "id": "5be49287133db5eb7800001e",
+    "question": "Is pembrolizumab effective against Ewing's sarcoma?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the relevant documents to find information about pembrolizumab's effectiveness against Ewing's sarcoma. Pembrolizumab is a checkpoint inhibitor that targets the PD-1/PD-L1 pathway. According to document [30], pembrolizumab has been shown to be effective in previously treated melanoma patients, giving a nearly 30% response rate. However, we need to find information about its effectiveness against Ewing's sarcoma. According to document [26], there is a randomized controlled trial evaluating pembrolizumab in patients with advanced gastrointestinal stromal tumor after failure of imatinib, but there is no specific information about Ewing's sarcoma. However, document [31] mentions that ongoing clinical trials are evaluating checkpoint blockade using antibodies to PD-L1 in treatment of Hodgkin\u2019s lymphoma, which is related to Ewing\u2019s sarcoma. Despite this, we cannot conclude that pembrolizumab is effective against Ewing's sarcoma based on the available information. We need to look for more specific information about Ewing's sarcoma. Document [26] mentions that pazopanib, an inhibitor of the vascular endothelial growth factor receptors, platelet-derived growth factor receptor (PDGFR), and c-kit, is effective in patients with advanced soft tissue sarcoma, including Ewing\u2019s sarcoma. However, it does not mention pembrolizumab. Document [31] does not provide information about pembrolizumab's effectiveness against Ewing\u2019s sarcoma. After reviewing the documents, we can conclude that there is no specific information about pembrolizumab's effectiveness against Ewing\u2019s sarcoma. Therefore, we cannot definitively say that pembrolizumab is effective against Ewing\u2019s sarcoma. However, considering the ongoing clinical trials evaluating checkpoint blockade using antibodies to PD-L1 in treatment of Hodgkin\u2019s lymphoma, which is related to Ewing\u2019s sarcoma, we can say that pembrolizumab may have potential effectiveness against Ewing\u2019s sarcoma in the future.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pediatrics_Nelson_3400",
+            "title": "Pediatrics_Nelson",
+            "content": "The current treatment of osteosarcoma involves neoadjuvant chemotherapy followed by surgery and adjuvant chemotherapy. Agents effective against osteosarcoma are doxorubicin, cisplatin, high-dose methotrexate, ifosfamide, and etoposide. The treatment for Ewing sarcoma is similar to that for osteosarcoma; preoperative chemotherapy is given, followed by local control measures, and then further chemotherapy. In contrast to osteosarcoma, Ewing sarcoma is radiation sensitive. Chemotherapy includes vincristine, cyclophosphamide, ifosfamide, etoposide, and doxorubicin."
+        },
+        {
+            "id": "InternalMed_Harrison_7692",
+            "title": "InternalMed_Harrison",
+            "content": "cyclophosphamide or ifosfamide, etoposide, vincristine, and dactinomycin are active drugs. Topotecan or irinotecan in combination with an alkylating agent is often used in relapsed patients. Targeted therapy with an anti-IGF-I receptor antibody in combination with an inhibitor of mammalian target of rapamycin (mTOR) appears to have promising activity in refractory cases. Local treatment for the primary tumor includes surgical resection, usually with limb salvage or radiation therapy. Patients with lesions below the elbow and below the mid-calf have a 5-year survival rate of 80% with effective treatment. Ewing\u2019s sarcoma at first presentation is a curable tumor, even in the presence of obvious metastatic disease, especially in children <11 years old."
+        },
+        {
+            "id": "InternalMed_Harrison_7678",
+            "title": "InternalMed_Harrison",
+            "content": "have selective activity in angiosarcomas, and vincristine, etoposide, and irinotecan are effective in rhabdomyosarcomas and Ewing\u2019s sarcomas. Pazopanib, an inhibitor of the vascular endothelial growth factor, platelet-derived growth factor (PDGF), and c-kit is now approved for patients with advanced soft tissue sarcomas excluding liposarcomas after failure of chemotherapy. Imatinib targets the KIT and PDGF tyrosine kinase activity and is standard therapy for advanced/metastatic GISTs and dermatofibrosarcoma protuberans. Imatinib is now also indicated as adjuvant therapy for completely resected primary GISTs. Three years of adjuvant imatinib appears to be superior to 1 year of therapy for high-risk GISTs, although the optimal treatment duration remains unknown."
+        },
+        {
+            "id": "InternalMed_Harrison_7676",
+            "title": "InternalMed_Harrison",
+            "content": "Chemotherapy is the mainstay of treatment for Ewing\u2019s primitive neuroectodermal tumors (PNET) and rhabdomyosarcomas. Meta-analysis of 14 randomized trials revealed a significant improvement in local control and disease-free survival in favor of doxorubicinbased chemotherapy. Overall survival improvement was 4% for all sites and 7% for the extremity site. An updated meta-analysis including four additional trials with doxorubicin and ifosfamide combination has reported a statistically significant 6% survival advantage in favor of chemotherapy. A chemotherapy regimen including an anthracycline and ifosfamide with growth factor support improved overall survival by 19% for high-risk (high-grade, \u22655 cm primary, or locally recurrent) extremity soft tissue sarcomas."
+        },
+        {
+            "id": "Pediatrics_Nelson_3402",
+            "title": "Pediatrics_Nelson",
+            "content": "For all children with sarcoma, presence or absence of metastatic disease at presentation is the most important prognostic factor. The outlook remains poor for patients who have distant metastasis from Ewing sarcoma, rhabdomyosarcoma, or osteosarcoma at diagnosis. Patients with localized rhabdomyosarcomas in favorable sites have an excellent prognosis when treated with surgery followed by vincristine and actinomycin. In patients with osteosarcoma and Ewing sarcoma, another important prognostic factor is the degree of tumor necrosis after preoperative chemotherapy. In general, patients whose tumor specimens show a high degree (>90%) of necrosis following preoperative chemotherapy have an event-free survival rate greater than 80%. Patients who still have large amounts of viable tumor after presurgical chemotherapy have a much worse prognosis. The cure rate for patients with localized osteosarcoma and Ewing sarcoma is approximately 60% to 70%. Patients who have lung metastasis at"
+        },
+        {
+            "id": "InternalMed_Harrison_7677",
+            "title": "InternalMed_Harrison",
+            "content": "Metastatic soft tissue sarcomas are largely incurable, but up to 20% of patients who achieve a complete response become long-term survivors. The therapeutic intent, therefore, is to produce a complete remission with chemotherapy (<10%) and/or surgery (30\u201340%). Surgical resection of metastases, whenever possible, is an integral part of the management. Some patients benefit from repeated surgical excision of metastases. The two most active chemotherapeutic agents are doxorubicin and ifosfamide. These drugs show a steep dose-response relationship in sarcomas. Gemcitabine with or without docetaxel has become an established second-line regimen and is particularly active in patients with undifferentiated pleomorphic sarcoma (UPS) and leiomyosarcomas. Dacarbazine also has some modest activity. Taxanes have selective activity in angiosarcomas, and vincristine, etoposide, and irinotecan are effective in rhabdomyosarcomas and Ewing\u2019s sarcomas. Pazopanib, an inhibitor of the vascular endothelial"
+        },
+        {
+            "id": "Pediatrics_Nelson_3403",
+            "title": "Pediatrics_Nelson",
+            "content": "after presurgical chemotherapy have a much worse prognosis. The cure rate for patients with localized osteosarcoma and Ewing sarcoma is approximately 60% to 70%. Patients who have lung metastasis at diagnosis have a cure rate of approximately 30% to 35%. Patients with metastases to other bones have a poor prognosis."
+        },
+        {
+            "id": "Pathology_Robbins_4886",
+            "title": "Pathology_Robbins",
+            "content": "Simple karyotype (15%\u201320% of sarcomas): Like many leukemias and lymphomas, sarcomas are often euploid tumors with a single or limited number of chromosomal changes that occur early in tumorigenesis and are specific enough to serve as diagnostic markers. Tumors with these features most commonly arise in younger patients and tend to have a monomorphic appearance microscopically. Examples include Ewing sarcoma, described earlier, and synovial sarcoma. In some cases, the oncogenic effect of these rearrangements is reasonably well understood. In others, the mechanisms are unknown. Oncogenic tumor-specific fusion proteins represent potential molecular targets for therapy."
+        },
+        {
+            "id": "Surgery_Schwartz_4850",
+            "title": "Surgery_Schwartz",
+            "content": "tumors. With Ewing\u2019s sarcoma, fever and malaise may also be present. Benign chest wall tumors tend to occur in younger patients (average age 26 years), whereas malignant tumors tend to be found in older patients (average age 40 years). Overall, between 50% and 80% of chest wall tumors are malignant.Evaluation and Management. Laboratory evaluations are useful in assessing chest wall masses for the following:1. Plasmacytoma. Serum protein electrophoresis demon-strates a single monoclonal spike, which is measuring the overproduction of one immunoglobulin from the malignant plasma cell clone.Chest wall massCT or MRI or bothDiagnosis is NOT clearPreoperative chemotherapyWide surgical excisionOsteosarcomaRhabdomyosarcomaNonrhabdomyosarcomaPNET/Ewing\u2019s sarcomaNonrhabdosarcoma Fibrosarcoma Malignant fibrous histiocytoma Liposarcoma Synovial cell sarcoma DesmoidNeedle biopsyor incisional biopsyFigure 19-39. Systematic approach for evaluating a chest wall mass for which the diagnosis is"
+        },
+        {
+            "id": "Surgery_Schwartz_10416",
+            "title": "Surgery_Schwartz",
+            "content": "recent phase 3 study, pazopanib showed efficacy against placebo in second or further line of therapy in patients with advanced soft tissue sarcoma.139 Inhibitors of the mammalian target of rapamycin pathway, including temsirolimus, everolimus, and ridaforolimus, have also shown activity against some soft tis-sue sarcomas (i.e., PEComas).140Olaratumab is a human antiplatelet-derived growth factor receptor \u03b1 monoclonal antibody that has antitumor activity in human sarcoma xenografts. Recently, a phase 1b and random-ized phase 2 study of olaratumab and doxorubicin versus doxo-rubicin alone has demonstrated improvements in both objective response rates (18.2% vs. 11.9%, P = 0.34) and median over-all survival (26.5 vs. 14.7 months [stratified hazard ratio 0.46, 0.30\u20130.71, P = 0.0003]). Additional studies are warranted for this promising combination of agents.141Benefits of Systemic Therapy. The use of adjuvant and neoad-juvant chemotherapy for soft tissue sarcomas remains controver-sial."
+        },
+        {
+            "id": "Surgery_Schwartz_10415",
+            "title": "Surgery_Schwartz",
+            "content": "being investigated for the treatment of soft tissue sarcomas. Among these are tyrosine kinase inhibitors (e.g., imatinib, suni-tinib, sorafenib, and dasatinib) that have been developed and approved for treatment of GIST. Clinical data accumulated in phase 2 trials also support the use of tyrosine kinase inhibitors (e.g., imatinib, sorafenib, and sunitinib) in the management of other advanced sarcomas.128 Anti\u2013vascular endothelial growth factor antibodies such as bevacizumab have demonstrated activity in patients with metastatic or unresectable angiosar-coma, solitary fibrous tumor, and epithelioid hemangioendo-thelioma.138 Pazopanib is an oral angiogenesis inhibitor that targets vascular endothelial growth factor receptors, platelet-derived growth factor receptor (PDGFR), and c-kit. In a recent phase 3 study, pazopanib showed efficacy against placebo in second or further line of therapy in patients with advanced soft tissue sarcoma.139 Inhibitors of the mammalian target of rapamycin"
+        },
+        {
+            "id": "Pharmacology_Katzung_6166",
+            "title": "Pharmacology_Katzung",
+            "content": "Nivolumab is approved for Hodgkin\u2019s lymphoma, renal cell carcinoma, non-small cell lung cancer, and melanoma. Pembrolizumab is approved for the treatment of head and neck cancer, melanoma (and ipilimumab-resistant melanoma), Merkel cell carcinoma, non-small cell lung cancer, and cancers in HIV-positive patients. Atezolizumab is approved for bladder cancer and is in late-stage clinical trials for several other cancer types."
+        },
+        {
+            "id": "Surgery_Schwartz_4869",
+            "title": "Surgery_Schwartz",
+            "content": "registry, J Surg Res. 2007;141(1):105-114.Table 19-24Classification of sarcomas by therapeutic responseTUMOR TYPECHEMOTHERAPY SENSITIVITYOsteosarcoma+Rhabdomyosarcoma+Primitive neuroectodermal tumor+Ewing\u2019s sarcoma+Malignant fibrous histiocytoma\u00b1Fibrosarcoma\u00b1Liposarcoma\u00b1Synovial sarcoma\u00b1sometimes in association with previous radiation, Paget\u2019s disease, or chemotherapy. Radiographically, the typical appearance consists of spicules of new periosteal bone formation producing a sunburst appearance. Osteosarcomas have a propensity to spread to the lungs, and up to one-third of patients present with metastatic disease. Osteosarcomas are potentially sensitive to chemotherapy. Currently, pre-operative chemotherapy is common. After chemotherapy, complete resection is performed with wide (4-cm) margins, followed by reconstruction. In patients presenting with lung metastases that are potentially amenable to surgical resection, induction chemotherapy may be given, followed by surgical resection"
+        },
+        {
+            "id": "Pathology_Robbins_4817",
+            "title": "Pathology_Robbins",
+            "content": "Fig.21.24 ).Theyhavescantcytoplasm,whichmayappearclearbecauseitisrichinglycogen.Homer-Wrightrosettes(roundgroupingsofcellswithacentralfibrillarycore)maybepresentandindicateagreaterdegreeofneuroectodermaldifferentiation.Thetumorcellsdonotproduceboneorcartilage. Ewing sarcomas are aggressive malignancies treated with neoadjuvant chemotherapy followed by surgical excision with or without radiation. With chemotherapy, 5-year survival of 75% and long-term cure in 50% of patients is possible. Giant cell tumor is so named because multinucleated osteoclast-type giant cells dominate the histology. It is a locally aggressive neoplasm that almost exclusively affects adults. Giant cell tumors arise in the epiphyses of long bones, most commonly the distal femur and proximal tibia. The typical location of these tumors near joints frequently causes arthritis-like symptoms. Occasionally, they present with pathologic fractures."
+        },
+        {
+            "id": "Pathology_Robbins_4815",
+            "title": "Pathology_Robbins",
+            "content": "Ewing sarcoma accounts for approximately 10% of primary malignant bone tumors and follows osteosarcoma as the second most common bone sarcoma in children. Of all bone sarcomas, Ewing sarcomas have the youngest average age at presentation (80% are younger than 20 years). Boys are affected slightly more frequently than girls, and there is a predilection for Caucasians. The tumors usually arise in the diaphysis of long tubular bones but 20% are extraskeletal. They present as painful enlarging masses, and the affected site is frequently tender, warm, and swollen. Plain radiographs show a destructive lytic tumor with permeative margins that extends into the surrounding soft tissues. The characteristic periosteal reaction produces layers of reactive bone deposited in an onion-skin fashion."
+        },
+        {
+            "id": "Surgery_Schwartz_10338",
+            "title": "Surgery_Schwartz",
+            "content": "sarcomas without identifiable genetic changes or expression profile signatures tend to occur in older patients and exhibit pleomorphic cytology and p53 dysfunction.21 Improved understanding of the molecular pathogenesis of sarcomas has revealed several potential targets against which investigators are working to develop subtype-specific targeted therapy.Translocation-Associated SarcomasTo date, translocations have been identified in 14 subtypes of soft tissue sarcoma, accounting for 20% to 30% of all sarcomas22 (Table 36-2). Translocations result in in-frame gene fusion, which in turn results in fused products encoding oncoproteins that function as transcriptional activators or repressors.23,24 The best characterized gene fusions are in Ewing\u2019s sarcoma (EWS-FLI1), clear cell sarcoma (EWS-ATF1), myxoid/round cell liposarcoma (TLS-CHOP), alveolar rhabdomyosarcoma (PAX3-FHKR), desmoplastic small round cell tumor (EWS-WT1), and synovial sarcoma (SS18-SSX). Fusion gene\u2013related sarcomas"
+        },
+        {
+            "id": "Surgery_Schwartz_4873",
+            "title": "Surgery_Schwartz",
+            "content": "is wide local excision with intraoperative frozen-section analysis of margins, fol-lowed by reconstruction. Local and systemic recurrence is frequent. Patient survival at 5 years is about 50% to 60%.6. Rhabdomyosarcoma. Rhabdomyosarcomas are rare tumors of the chest wall. Microscopically, they are a spindle cell tumor. The diagnosis often depends on immunohistochemi-cal staining for muscle markers. Rhabdomyosarcomas are sensitive to chemotherapy. Treatment consists of preopera-tive chemotherapy with subsequent surgical resection.Other Tumors of the Chest Wall1. Primitive neuroectodermal tumors (PNETs) and Ewing\u2019s sarcoma. PNETs (neuroblastomas, ganglioneuroblastomas, and ganglioneuromas) derive from primordial neural crest cells that migrate from the mantle layer of the developing spinal cord. Histologically, PNETs and Ewing\u2019s sarcomas are small, round cell tumors; both possess a translocation between the long arms of chromosomes 11 and 22 within their genetic makeup. They also share"
+        },
+        {
+            "id": "First_Aid_Step2_975",
+            "title": "First_Aid_Step2",
+            "content": "Presents as an asymptomatic, nontender, smooth abdominal mass. Abdominal pain, fever, hypertension, and microscopic or gross hematuria are seen. CBC, BUN, creatinine, and UA. Abdominal ultrasound. CT scans of the chest and abdomen are used to detect metastases. Local resection and nephrectomy with postsurgical chemotherapy and radiation depending on stage and histology. It is critical to distinguish between Ewing\u2019s sarcoma and osteosarcoma (see Table 2.13-10). An important aspect of every well-child visit. Commonly tested advice includes the following: T AB LE 2.1 3-1 0. Ewing\u2019s Sarcoma vs. Osteosarcoma"
+        },
+        {
+            "id": "Pathology_Robbins_4814",
+            "title": "Pathology_Robbins",
+            "content": "Ewing sarcoma is a malignant tumor composed of primitive round cells with varying degrees of neuroectodermal http://ebooksmedicine.net Fig.21.23Chondrosarcoma.(A)Nodulesofhyalineandmyxoidcartilagepermeatingthroughoutthemedullarycavity,growingthroughthecortex,andformingarelativelywell-circumscribedsofttissuemass.(B)Conventionalchondrosarcomaentrapsnativelamellarboneasaconfluentmassofcartilage. differentiation and a characteristic molecular signature (see later). Entities previously classified as primitive neuroectodermal tumor (PNET) and Askin tumor have been unified into the single category of Ewing sarcoma."
+        },
+        {
+            "id": "Pediatrics_Nelson_3397",
+            "title": "Pediatrics_Nelson",
+            "content": "Definitive diagnosis of osteosarcoma often is establishedby carefully placed needle biopsy. The presence of osteoidand immunohistochemical analysis confirms the diagnosisof osteosarcoma. The extent of the primary tumor shouldbe delineated carefully with magnetic resonance imaging(MRI) before starting chemotherapy. Osteosarcoma tends tometastasize to the lung, most commonly, and rarely to otherbones. Metastatic evaluation includes a chest CT scan and a bone scan. The diagnosis of Ewing sarcoma is established with immunohistochemical analysis and cytogenetic and molecular diagnostic studies of the biopsy material. Ewing sarcoma is characterized by a specific chromosomal translocation, t(11;22), which is seen in 95% of tumors. MRI of the primary lesion should be performed to delineate extent of the lesion and any associated soft tissue mass. Metastatic evaluation involves a bone scan, chest CT scan, and bone marrow aspiration and biopsy."
+        },
+        {
+            "id": "Pediatrics_Nelson_3392",
+            "title": "Pediatrics_Nelson",
+            "content": "In the United States, 850 to 900 children and adolescents under 20 years of age are diagnosed with soft tissue sarcomas each year; approximately 350 are rhabdomyosarcoma. The incidence of rhabdomyosarcoma peaks in children 2 to 6 years old and in adolescents. The early peak is associated with tumors in the genitourinary region, head, and neck; the later peak is associated with tumors in the extremities, trunk, and male genitourinary tract. Boys are affected 1.5 times more often than girls. Of the 650 to 700 U.S. children and adolescents under 20 years of age diagnosed with bone tumors each year, approximately two thirds have osteosarcoma and one third have Ewing sarcoma. Osteosarcoma most commonly affects adolescents; the peak incidence occurs during the period of maximum growth velocity. The incidence of Ewing sarcoma peaks between ages 10 and 20 years but may occur at any age. Ewing sarcoma affects primarily whites; it rarely occurs in African American children or Asian children."
+        },
+        {
+            "id": "Surgery_Schwartz_10417",
+            "title": "Surgery_Schwartz",
+            "content": "studies are warranted for this promising combination of agents.141Benefits of Systemic Therapy. The use of adjuvant and neoad-juvant chemotherapy for soft tissue sarcomas remains controver-sial. More than a dozen individual randomized trials of adjuvant chemotherapy have failed to demonstrate improvement in disease-free or overall survival for patients with soft tissue sarcoma. How-ever, several limitations of these individual trials may explain the lack of observed improvement. First, the chemotherapy regimens used were suboptimal, consisting of single-agent therapy (most commonly with doxorubicin) and insufficiently intensive dosing schedules. Second, the patient groups were not large enough to reveal clinically significant differences in survival rates. Finally, most studies included patients at low risk of metastasis and death, namely those with small (<5 cm) and low-grade tumors.The Sarcoma Meta-Analysis Collaboration analyzed 1568 patients from 14 trials of doxorubicin-based"
+        },
+        {
+            "id": "Surgery_Schwartz_4874",
+            "title": "Surgery_Schwartz",
+            "content": "cord. Histologically, PNETs and Ewing\u2019s sarcomas are small, round cell tumors; both possess a translocation between the long arms of chromosomes 11 and 22 within their genetic makeup. They also share a consistent pattern of proto-oncogene expression and have been found to express the product of the MIC2 gene. Ewing\u2019s sarcoma occurs in adolescents and young adults who present with progressive chest wall pain, but without the presence of a mass. Systemic symptoms of malaise and fever are often present. Laboratory studies reveal an ele-vated erythrocyte sedimentation rate and mild white blood cell elevation. Radiographically, the characteristic onion peel appearance is produced by multiple layers of perios-teum in the bone formation. Evidence of bony destruction is also common. The diagnosis can be made by a percutaneous needle biopsy or an incisional biopsy. These tumors have a strong propensity to metastasize to the lungs and skeleton; patient survival rates are thus only 50% or less"
+        },
+        {
+            "id": "Surgery_Schwartz_10542",
+            "title": "Surgery_Schwartz",
+            "content": "or refractory advanced soft tissue sarcoma: a phase II study from the European Organisation for Research and Treatment of Cancer-Soft Tissue and Bone Sarcoma Group (EORTC study 62043). J Clin Oncol. 2009;27:3126-3132. 141. Ganjoo KN. New developments in targeted therapy for soft tissue sarcoma. Curr Oncol Rep. 2010;12:261-265. 142. Tap WD, Jones RL, Van Tine BA, et al. Olaratumab and doxorubicin versus doxorubicin alone for treatment of soft-tissue sarcoma: an open-label phase 1b and randomised phase 2 trial. Lancet. 2016;388(10043):488-497. 143. Adjuvant chemotherapy for localised resectable soft-tissue sarcoma of adults: meta-analysis of individual data. Sarcoma Meta-Analysis Collaboration. Lancet. 1997;350(9092):1647-1654.Brunicardi_Ch36_p1567-p1598.indd 159301/03/19 6:38 PM 1594SPECIFIC CONSIDERATIONSPART II 144. Frustaci S, Gherlinzoni F, De Paoli A, et al. Adjuvant chemotherapy for adult soft tissue sarcomas of the extremities and girdles: results of the Italian randomized"
+        },
+        {
+            "id": "Pharmacology_Katzung_5872",
+            "title": "Pharmacology_Katzung",
+            "content": "In general, chemotherapy regimens with clinical activity against advanced disease may have curative potential following surgical resection of the primary tumor, provided the appropriate dose and schedule are administered. Adjuvant chemotherapy is effective in prolonging both disease-free survival (DFS) and overall survival (OS) in patients with breast cancer, colon cancer, gastric cancer, NSCLC, Wilms\u2019 tumor, anaplastic astrocytoma, and osteogenic sarcoma. Patients with primary malignant melanoma at high risk of local or systemic recurrence derive clinical benefit from adjuvant treatment with the biologic agent interferon \u03b1 (IFN-\u03b1), although this treatment must be given for 1 year\u2019s duration for maximal clinical efficacy. Finally, the antihormonal agents tamoxifen, anastrozole, and letrozole are effective in the adjuvant therapy of postmenopausal women with early-stage breast cancer whose breast tumors express the estrogen receptor (see Chapter 40 for additional details). However,"
+        },
+        {
+            "id": "InternalMed_Harrison_7690",
+            "title": "InternalMed_Harrison",
+            "content": "Ewing\u2019s sarcoma, which constitutes ~10\u201315% of all bone sarcomas, is common in adolescence and has a peak incidence in the second decade of life. It typically involves the diaphyseal region of long bones and also has an affinity for flat bones. The plain radiograph may show a characteristic \u201conion peel\u201d periosteal reaction with a generous soft tissue mass, which is better demonstrated by CT or MRI. This mass is composed of sheets of monotonous, small, round, blue cells and can be confused with lymphoma, embryonal rhabdomyosarcoma, and small-cell carcinoma. The presence of p30/32, the product of the mic-2 gene (which maps to the pseudoautosomal region of the X and Y chromosomes), is a cell-surface marker for Ewing\u2019s sarcoma (and other members of the Ewing\u2019s family of tumors, sometimes called PNETs). Most PNETs arise in soft tissues; they include peripheral neuroepithelioma, Askin\u2019s tumor (chest wall), and esthesioneuroblastoma. Glycogen-filled cytoplasm detected by staining with"
+        },
+        {
+            "id": "Surgery_Schwartz_10541",
+            "title": "Surgery_Schwartz",
+            "content": "in patients with advanced gastrointestinal stromal tumour after failure of imatinib: a randomised controlled trial. Lancet. 2006;368:1329-1338. 137. Jung S, Kasper B. Palifosfamide, a bifunctional alkylator for the treatment of sarcomas. Invest Drugs J. 2010;13(1):38-48. 138. Ryan CW, Merimsky O, Agulnik M, Blay JY, et al. PICASSO III: a phase III, placebo-controlled study of doxorubicin with or without palifosfamide in patients with metastatic soft tissue sarcoma. J Clin Oncol. 2016;34(32):3898-3905. 139. Agulnik M, Okuno S, Von Mehren M, et al. An open-label multicenter phase II study of bevacizumab for the treatment of angiosarcoma. J Clin Oncol. 2009;27:10522. 140. Sleijfer S, Ray-Coquard I, Papai Z, et al. Pazopanib, a multikinase angiogenesis inhibitor, in patients with relapsed or refractory advanced soft tissue sarcoma: a phase II study from the European Organisation for Research and Treatment of Cancer-Soft Tissue and Bone Sarcoma Group (EORTC study 62043). J Clin Oncol."
+        },
+        {
+            "id": "Surgery_Schwartz_10506",
+            "title": "Surgery_Schwartz",
+            "content": "are generally categorized into four groups: (a) fibrosarcoma, (b) Kaposi\u2019s sarcoma, (c) other \u201cspecified\u201d soft tissue sarcomas (e.g., synovial, angiosarcoma, hemangiopericy-toma, leiomyosarcoma, liposarcoma, and extraosseous Ewing\u2019s sarcoma), and (d) \u201cunspecified\u201d soft tissue sarcoma.261 The most common subtypes are synovial sarcoma, MPNST, and fibro-sarcoma. No single histology accounts for more than 15% of all cases.As with adult tumors, the evaluation of the soft tissue mass begins with a history and physical examination followed by imaging, which usually includes MRI. A CT scan of the chest is important for evaluation of metastatic disease. A core needle biopsy is generally required to establish a diagnosis. Surgery remains the primary treatment of nonrhabdomyosarcoma, and Brunicardi_Ch36_p1567-p1598.indd 158901/03/19 6:38 PM 1590SPECIFIC CONSIDERATIONSPART IIlocal control of large, high-grade tumors is improved with radia-tion therapy. The prognostic factors for children with"
+        },
+        {
+            "id": "First_Aid_Step1_813",
+            "title": "First_Aid_Step1",
+            "content": "Raised periosteum (creating a \u201cCodman triangle\u201d) Aggressive bone lesion (eg, osteosarcoma, Ewing 465 sarcoma, osteomyelitis) \u201cOnion skin\u201d periosteal reaction Ewing sarcoma (malignant small blue cell tumor) 465 Anti-IgG antibodies Rheumatoid arthritis (systemic inflammation, joint 466 pannus, boutonniere and swan neck deformities) Rhomboid crystals, \u2295 birefringent Pseudogout (calcium pyrophosphate dihydrate crystals) 467 Needle-shaped, \u229d birefringent crystals Gout (monosodium urate crystals) 467 \u008f uric acid levels Gout, Lesch-Nyhan syndrome, tumor lysis syndrome, 467 loop and thiazide diuretics \u201cBamboo spine\u201d on x-ray Ankylosing spondylitis (chronic inflammatory arthritis: 469 HLA-B27) Antinuclear antibodies (ANAs: anti-Smith and anti-SLE (type III hypersensitivity) 470 dsDNA) Anti-histone antibodies Drug-induced SLE (eg, hydralazine, isoniazid, 250 phenytoin, procainamide)"
+        },
+        {
+            "id": "InternalMed_Harrison_7689",
+            "title": "InternalMed_Harrison",
+            "content": "diagnosis is therefore influenced by clinical history and physical examination. A new onset of pain, signs of inflammation, and progressive increase in the size of the mass suggest malignancy. The histologic classification is complex, but most tumors fall within the classic category. Like other bone sarcomas, high-grade chondrosarcomas spread to the lungs. Most chondrosarcomas are resistant to chemotherapy, and surgical resection of primary or recurrent tumors, including pulmonary metastases, is the mainstay of therapy. This rule does not hold for two histologic variants. Dedifferentiated chondrosarcoma has a high-grade osteosarcoma or a malignant fibrous histiocytoma component that responds to chemotherapy. Mesenchymal chondrosarcoma, a rare variant composed of a small-cell element, also is responsive to systemic chemotherapy and is treated like Ewing\u2019s sarcoma."
+        },
+        {
+            "id": "Immunology_Janeway_4153",
+            "title": "Immunology_Janeway",
+            "content": "Another checkpoint involves the inhibitory receptor PD-1 and its ligands PD-L1 and PD-L2. PD-L1 is expressed on a wide variety of human tumors; in renal cell carcinoma, PD-L1 expression is associated with a poor prognosis. In mice, transfection of the gene encoding PD-L1 into tumor cells increased their growth in vivo and reduced their susceptibility to lysis by cytotoxic T cells. These effects were reversed by an antibody against PD-L1. In humans, the anti-PD-1 antibody pembrolizumab has been shown to be effective in previously treated melanoma patients, giving a nearly 30% response rate. It is FDA-approved for use following treatment with ipilimumab, or in patients with a BRAF mutation after treatment with ipilimumab and a B-raf inhibitor. Another anti-PD-1 antibody, nivolumab, is also approved for treatment of metastatic melanoma and is being considered for use in treatment of Hodgkin\u2019s lymphoma. Ongoing clinical trials are evaluating checkpoint blockade using antibodies to PD-L1"
+        },
+        {
+            "id": "Pediatrics_Nelson_3395",
+            "title": "Pediatrics_Nelson",
+            "content": "Tissue biopsy is needed for a definitive diagnosis of sarcomas. Selection of the biopsy site is important and has implications for future surgical resection and radiation therapy. Under light microscopy, rhabdomyosarcoma and Ewing sarcoma appear as small, round, blue cell tumors. Osteosarcomas are distinguishable by the presence of osteoid substance."
+        }
+    ],
+    "scores": [
+        0.03799704240303359,
+        0.03604129643733604,
+        0.0349542594670031,
+        0.03463612278851054,
+        0.03365078926452863,
+        0.03344370308242471,
+        0.03014140376546191,
+        0.025231369559900112,
+        0.02391877128719234,
+        0.02380984832259195,
+        0.0235268604425452,
+        0.022757923672693074,
+        0.021992821992821994,
+        0.02041327094810831,
+        0.018978233495232956,
+        0.01889483065953654,
+        0.018784128549650638,
+        0.018480667688639072,
+        0.018265221017514596,
+        0.017879948914431672,
+        0.017630683575626353,
+        0.017531813276059276,
+        0.017475875693336373,
+        0.0170995670995671,
+        0.01702919689260841,
+        0.017011197243755383,
+        0.01688515246508977,
+        0.01633333333333333,
+        0.016070737059506908,
+        0.016002016002016003,
+        0.015948659295971536,
+        0.015936507936507936
+    ]
+}

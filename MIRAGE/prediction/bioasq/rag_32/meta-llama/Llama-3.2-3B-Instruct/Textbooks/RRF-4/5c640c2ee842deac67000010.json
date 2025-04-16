@@ -1,0 +1,206 @@
+{
+    "id": "5c640c2ee842deac67000010",
+    "question": "Is there any role for HUWE1 in MYC signalling?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, let's analyze the provided documents and look for any information related to HUWE1 and MYC signaling. However, upon reviewing the documents, I couldn't find any direct information about the role of HUWE1 in MYC signaling. But, I can try to make an educated guess based on the general context of the documents. The documents discuss various signaling pathways and their role in cell growth, proliferation, and cancer. They also mention the involvement of different proteins and genes in these processes, such as MYC, Ras, and p53. While HUWE1 is not explicitly mentioned, it is a ubiquitin ligase that is involved in the regulation of protein stability and degradation. It is possible that HUWE1 may interact with proteins involved in MYC signaling, but without direct evidence, it's difficult to determine its specific role. Therefore, I will choose option B, no, as the most likely answer.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5040",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we discuss in Chapter 15, mitogens interact with cell-surface receptors to trigger multiple intracellular signaling pathways. One major pathway acts through the monomeric GTPase Ras, which leads to the activation of a mitogen-activated protein kinase (MAP kinase) cascade (see Figure 15\u201349). This leads to an increase in the production of transcription regulatory proteins, including Myc. Myc is thought to promote cell-cycle entry by several mechanisms, one of which is to increase the expression of genes encoding G1 cyclins (D cyclins), thereby increasing G1-Cdk (cyclin D\u2013Cdk4) activity. Myc also has a major role in stimulating the transcription of genes that increase cell growth."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5084",
+            "title": "Cell_Biology_Alberts",
+            "content": "Control of Cell Division and Cell Growth adhikary s & Eilers m (2005) Transcriptional regulation and transformation by myc proteins. Nat. Rev. Mol. Cell Biol. 6, 635\u2013645. Bertoli C, skotheim Jm & de Bruin Ra (2013) Control of cell cycle transcription during g1 and s phases. Nat. Rev. Mol. Cell Biol. 14, 518\u2013528. dick Fa & Rubin sm (2013) molecular mechanisms underlying RB protein function. Nat. Rev. Mol. Cell Biol. 14, 297\u2013306. Jackson sp & Bartek J (2009) The dna-damage response in human biology and disease. Nature 461, 1071\u20131078. Jorgensen p & Tyers m (2004) How cells coordinate growth and division. Curr. Biol. 14, R1014\u2013R1027. shimobayashi m & Hall mn (2014) making new contacts: the mTOR network in metabolism and signalling crosstalk. Nat. Rev. Mol. Cell Biol. 15, 155\u2013162. Turner JJ, Ewald JC & skotheim Jm (2012) Cell size control in yeast. Curr. Biol. 22, R350\u2013R359."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5734",
+            "title": "Cell_Biology_Alberts",
+            "content": "Zink D, Fischer Ah & Nickerson JA (2004) Nuclear structure in cancer cells. Nat. Rev. Cancer 4, 677\u2013687. Cancer-Critical Genes: How They Are Found and What They Do Berdasco M & Esteller M (2010) Aberrant epigenetic landscape in cancer: how cellular identity goes awry. Dev. Cell 19, 698\u2013711. Brognard J & hunter T (2011) Protein kinase signaling networks in cancer. Curr. Opin. Genet. Dev. 21, 4\u201311. Eilers M & Eisenman R (2008) Myc\u2019s broad reach. Genes Dev. 22, 2755\u20132766. Feinberg AP (2007) Phenotypic plasticity and the epigenetics of human disease. Nature 447, 433\u2013440. Garraway LA & Lander ES (2013) Lessons from the cancer genome. Cell 153, 17\u201337. Greaves M & Maley CC (2012) Clonal evolution in cancer. Nature 481, 306\u2013313. Junttila MR & Evan GI (2009) p53\u2014a Jack of all trades but master of none. Nat. Rev. Cancer 9, 821\u2013829."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5539",
+            "title": "Cell_Biology_Alberts",
+            "content": "As another example, the Myc protein, which acts in the nucleus to stimulate cell growth and division (see Chapter 17), generally contributes to cancer by being overproduced in its normal form. In some cases, the gene is amplified\u2014 that is, errors of DNA replication lead to the creation of large numbers of gene copies in a single cell. Or a point mutation can stabilize the protein, which normally turns over very rapidly. More commonly, the overproduction appears to be due to a change in a regulatory element that acts on the gene. For example, a chromosomal translocation can inappropriately bring powerful gene regulatory sequences next to the Myc protein-coding sequence, so as to produce unusually large amounts of Myc mRNA. Thus, in Burkitt\u2019s lymphoma, a translocation brings the Myc gene under the control of sequences that normally drive the expression of antibody genes in B lymphocytes. As a result, the mutant B cells tend to proliferate excessively and form a tumor. Different specific"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5059",
+            "title": "Cell_Biology_Alberts",
+            "content": "abnormal proliferation signals Cause Cell-Cycle arrest or apoptosis, Except in Cancer Cells Many of the components of mitogenic signaling pathways are encoded by genes that were originally identified as cancer-promoting genes, because mutations in them contribute to the development of cancer. The mutation of a single amino acid in the small GTPase Ras, for example, causes the protein to become permanently overactive, leading to constant stimulation of Ras-dependent signaling pathways, even in the absence of mitogenic stimulation. Similarly, mutations that cause an overexpression of Myc stimulate excessive cell growth and proliferation and thereby promote the development of cancer (discussed in Chapter 20)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4348",
+            "title": "Cell_Biology_Alberts",
+            "content": "Among the genes activated by \u03b2-catenin is Myc, which encodes a protein (Myc) that is an important regulator of cell growth and proliferation (discussed in Chapter 17). Mutations of the Apc gene occur in 80% of human colon cancers (discussed in Chapter 20). These mutations inhibit the protein\u2019s ability to bind \u03b2-catenin, so that \u03b2-catenin accumulates in the nucleus and stimulates the transcription of c-Myc and other Wnt target genes, even in the absence of Wnt signaling. The resulting uncontrolled cell growth and proliferation promote the development of cancer. Various secreted inhibitory proteins regulate Wnt signaling in development. Some bind to the LRP receptors and promote their down-regulation, whereas others compete with Frizzled receptors for secreted Wnts. In Drosophila at least, Wnts activate negative feedback loops, in which Wnt target genes encode proteins that help shut the response off; some of these proteins inhibit Dishevelled, and others are secreted inhibitors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5042",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201361 Mitogen stimulation of cell-cycle entry. as discussed in Chapter 15, mitogens bind to cell-surface receptors to initiate intracellular signaling pathways. One of the major pathways involves activation of the small gTpase Ras, which activates a map kinase cascade, leading to increased expression of numerous immediate early genes, including the gene encoding the transcription regulatory protein myc. myc increases the expression of many delayed-response genes, including some that lead to increased g1-Cdk activity (cyclin d\u2013 Cdk4), which triggers the phosphorylation of members of the Rb family of proteins. This inactivates the Rb proteins, freeing the gene regulatory protein E2F to activate the transcription of g1/s genes, including the genes for a g1/s-cyclin (cyclin E) and s-cyclin (cyclin a). The resulting g1/s-Cdk and s-Cdk activities further enhance Rb protein phosphorylation, forming a positive feedback loop. E2F proteins also stimulate the transcription of their own"
+        },
+        {
+            "id": "Pathoma_Husain_155",
+            "title": "Pathoma_Husain",
+            "content": "B. Classically presents as an extranodal mass in a child or young adult Fig. 6.17 Burkitt lymphoma. A, Involvement of jaw. B, 'Starry-sky' appearance. (A, Courtesy Mike Blyth) 1. African form usually involves the jaw (Fig. 6.17A). 2. Sporadic form usually involves the abdomen. C. Driven by translocations of c-myc (chromosome 8) 1. t(8;14) is most common, resulting in translocation of c-myc to the lg heavy chain locus on chromosome 14. 2. Overexpression of c-myc oncogene promotes cell growth. D. Characterized by high mitotic index and 'starry-sky' appearance on microscopy (Fig. 6.17B) VI. DIFFUSE LARGE B-CELL LYMPHOMA A. Neoplastic proliferation oflarge B cells (CD20+) that grow diffusely in sheets 1. Most common form of NHL 2. B. Arises sporadically or from transformation of a low-grade lymphoma (e.g., follicular lymphoma) 1. Presents in late adulthood as an enlarging lymph node or an extranodal mass I. BASIC PRINCIPLES"
+        },
+        {
+            "id": "Pathology_Robbins_1237",
+            "title": "Pathology_Robbins",
+            "content": "The ultimate consequence of signaling through oncoproteins such as RAS or ABL is inappropriate and continuous stimulation of nuclear transcription factors that drive the expression of growth-promoting genes. Growth autonomy may thus be a consequence of mutations affecting genes that regulate DNA transcription. A host of oncoproteins, including products of the MYC, MYB, JUN, FOS, and REL oncogenes, function as transcription factors that regulate the expression of growth-promoting genes, such as cyclins. Of these, MYC is involved most commonly in human tumors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5583",
+            "title": "Cell_Biology_Alberts",
+            "content": "Yet another form of stress that can activate the p53 pathway arises, it seems, when regulatory signals are so intense or uncoordinated as to drive the cell beyond its normal limits and into a danger zone where its mechanisms of control and coordination break down, as in an engine driven badly or too fast. The p53 concentration rises, for example, when Myc is overexpressed to oncogenic levels. All these circumstances call for desperate action, which may take either of two forms: the cell can block any further progress through the division cycle in order to take time out to repair or recover from the pathological condition; or it can accept that it must die, and do so in a way that minimizes damage to the organism. A good death, from this point of view, is a death by apoptosis. In apoptosis, stable, active p53"
+        },
+        {
+            "id": "Pathology_Robbins_1288",
+            "title": "Pathology_Robbins",
+            "content": "RAS signaling. Signals downstream of RAS upregulate the activity of glucose transporters and multiple glycolytic enzymes, thus increasing glycolysis; promote shunting of mitochondrial intermediates to pathways leading to lipid biosynthesis; and stimulate factors that are required for protein synthesis. MYC. As mentioned earlier, pro-growth pathways upregulate expression of the transcription factor MYC, which drives changes in gene expression that support anabolic metabolism and cell growth. Among the MYC-regulated genes are those for several glycolytic enzymes and glutaminase, which is required for mitochondrial utilization of glutamine, a key source of carbon moieties needed for biosynthesis of cellular building blocks."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4881",
+            "title": "Cell_Biology_Alberts",
+            "content": "What, then, triggers the activation of the M-Cdk stockpile? The crucial event is the activation of the protein phosphatase Cdc25, which removes the inhibitory phosphates that restrain M-Cdk (Figure 17\u201320). At the same time, the inhibitory activity of the kinase Wee1 is suppressed, further ensuring that M-Cdk activity increases. The mechanisms that unleash Cdc25 activity in early mitosis are not well understood. One possibility is that the S-Cdks that are active in G2 and early prophase stimulate Cdc25."
+        },
+        {
+            "id": "InternalMed_Harrison_6701",
+            "title": "InternalMed_Harrison",
+            "content": "Lung cancer cells harbor multiple chromosomal abnormalities, including mutations, amplifications, insertions, deletions, and translocations. One of the earliest sets of oncogenes found to be aberrant was the MYC family of transcription factors (MYC, MYCN, and MYCL). MYC is most frequently activated via gene amplification or transcriptional dysregulation in both SCLC and NSCLC. Currently, there are no MYC-specific drugs. Among lung cancer histologies, adenocarcinomas have been the most extensively catalogued for recurrent genomic gains and losses as well as for somatic mutations (Fig. 107-2). While multiple different kinds of aberrations have been found, a major class involves \u201cdriver mutations,\u201d which are mutations that occur in genes encoding signaling proteins that when aberrant, drive initiation and maintenance of tumor cells. Importantly, driver mutations can serve as potential Achilles\u2019 heels for tumors, if their gene products can be targeted"
+        },
+        {
+            "id": "Surgery_Schwartz_2091",
+            "title": "Surgery_Schwartz",
+            "content": "factor (EGF), transforming growth factor \u03b1 (TGF\u03b1), heparin-binding EGF-like growth factor, amphiregu-lin, and heregulin.11 Heterodimerization with HER2 potenti-ates recycling of receptors rather than degradation, enhances signal potency and duration, increases affinity for ligands, and increases catalytic activity.11HER2 can interact with different members of the HER fam-ily and activate mitogenic and antiapoptotic pathways (Fig. 10-7). The specificity and potency of the intracellular signals are affected by the identity of the ligand, the composition of the receptors, and the phosphotyrosine-binding proteins associated with the erbB molecules. The Rasand Shc-activated mitogen-activated protein kinase (MAPK) pathway is a target of all erbB ligands, which increase the transcriptional activity of early response genes such as c-myc, c-fos, and c-jun.12 MAPK-independent pathways such as the phosphoinositide-3 kinase (PI3K) pathway also are activated by most erbB dimers, although the"
+        },
+        {
+            "id": "Pathology_Robbins_119",
+            "title": "Pathology_Robbins",
+            "content": "Most signal transduction pathways ultimately influence cellular function by modulating gene transcription through the activation and nuclear localization of transcription factors. Conformational changes of transcription factors (e.g., following phosphorylation) can allow their translocation into the nucleus or can expose specific DNA or protein-binding motifs. Transcription factors may drive the expression of a relatively limited set of genes or may have much more widespread effects on gene expression. Among the transcription factors that regulate the expression of genes that are needed for growth are MYC and JUN, whereas a transcription factor that triggers the expression of genes that lead to growth arrest is p53. Transcription factors have a modular design, often containing domains that bind DNA and others that interact with other proteins, such as components of the RNA polymerase complex required for transcription."
+        },
+        {
+            "id": "InternalMed_Harrison_6124",
+            "title": "InternalMed_Harrison",
+            "content": "migrate into the nucleus, where they regulate gene transcription, thus completing the path from extracellular signals, such as growth factors, to a change in cell phenotype, such as induction of differentiation or cell proliferation. The nuclear targets of these processes include transcription factors (e.g., Myc, AP-1, and serum response factor) and the cell cycle machinery (CDKs and cyclins). Inhibitors of many of these pathways have been developed for the treatment of human cancers. Examples of inhibitors that are currently being evaluated in clinical trials are shown in purple type."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5572",
+            "title": "Cell_Biology_Alberts",
+            "content": "pathway, after three of its core components; this pathway serves to transmit signals for cell growth and cell division from the cell exterior into the heart of the cell. The third grouping consisted of genes in a pathway regulating responses to stress and DNA damage\u2014the p53 pathway. We shall have more to say about each of these pathways below."
+        },
+        {
+            "id": "Surgery_Schwartz_2092",
+            "title": "Surgery_Schwartz",
+            "content": "of early response genes such as c-myc, c-fos, and c-jun.12 MAPK-independent pathways such as the phosphoinositide-3 kinase (PI3K) pathway also are activated by most erbB dimers, although the potency and kinetics of activation may differ. Stimulation of the PI3K pathway through HER2 signaling also can lead to activation of survival molecule Akt, which suppresses apoptosis through mul-tiple mechanisms.The mutant rat neu gene was first recognized as an oncogene in neuroblastomas from carcinogen-treated rats.13 The HER2 gene is frequently amplified and the protein over-expressed in many cancers, including breast, ovarian, lung, gastric, and oral cancers. Overexpression of HER2 results in ligand-independent activation of HER2 kinase, which leads to mitogenic signaling. HER2 overexpression is associated with increased cell proliferation and anchorage-independent growth as well as resistance to proapoptotic stimuli. Further, overex-pression of HER2 increases cell migration and upregulates"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4440",
+            "title": "Cell_Biology_Alberts",
+            "content": "Pitulescu ME & Adams RH (2010) Eph/ephrin molecules\u2014a hub for signaling and endocytosis. Genes Dev. 24, 2480\u20132492. Qi M & Elion EA (2005) MAP kinase pathways. J. Cell Sci. 118, 3569\u20133572. Rawlings JS, Rosler KM & Harrison DA (2004) The JAK/STAT signaling pathway. J. Cell Sci. 117, 1281\u20131283. Roskoski R, Jr (2004) Src protein-tyrosine kinase structure and regulation. Biochem. Biophys. Res. Commun. 324, 1155\u20131164. Schwartz MA & Madhani HD (2004) Principles of MAP kinase signaling specificity in Saccharomyces cerevisiae. Annu. Rev. Genet. 38, 725\u2013748. Shaw RJ & Cantley LC (2006) Ras, PI(3)K and mTOR signalling controls tumour cell growth. Nature 44, 424\u2013430. Zoncu R, Efeyan A & Sabatini DM (2011) mTOR: from growth signal integration to cancer, diabetes and ageing. Nat. Rev. Mol. Cell Biol. 12, 21\u201335. Bray SJ (2006) Notch signalling: a simple pathway becomes complex. Nat. Rev. Mol. Cell Biol. 7, 678\u2013689."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5060",
+            "title": "Cell_Biology_Alberts",
+            "content": "Surprisingly, however, when a hyperactivated form of Ras or Myc is experimentally overproduced in most normal cells, the result is not excessive proliferation but the opposite: the cells undergo either permanent cell-cycle arrest or apoptosis. The normal cell seems able to detect abnormal mitogenic stimulation, and it responds by preventing further division. Such responses help prevent the survival and proliferation of cells with various cancer-promoting mutations. Although it is not known how a cell detects excessive mitogenic stimulation, such stimulation often leads to the production of a cell-cycle inhibitor protein called Arf, which binds and inhibits Mdm2. As discussed earlier, Mdm2 normally promotes p53 degradation. Activation of Arf therefore causes p53 levels to increase, inducing either cell-cycle arrest or apoptosis (Figure 17\u201363)."
+        },
+        {
+            "id": "InternalMed_Harrison_6097",
+            "title": "InternalMed_Harrison",
+            "content": "This pathway is regulated by a second product of the Ink4a locus, p14ARF (p19 in mice), which is encoded by an alternative reading frame of the same stretch of DNA that codes for p16Ink4a. Levels of ARF are upregulated by Myc and E2F, and ARF binds to mdm2 and rescues p53 from its inhibitory effect. This oncogene checkpoint leads to the death or senescence (an irreversible arrest in G1 of the cell cycle) of renegade cells that attempt to enter S phase without appropriate physiologic signals. Senescent cells have been identified in patients whose premalignant lesions harbor activated oncogenes, for instance, dysplastic nevi that encode an activated form of BRAF (see below), demonstrating that induction of senescence is a protective mechanism that operates in humans to prevent the outgrowth of neoplastic cells."
+        },
+        {
+            "id": "Pathology_Robbins_1232",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 Activated RAS stimulates downstream regulators of proliferation by several interconnected pathways that converge on the nucleus and alter the expression of genes that regulate growth, such as MYC. While details of the signaling cascades (some of which are illustrated in Fig. 6.18 ) downstream of RAS are not discussed here, an important point is that mutational activation of these signaling intermediates mimics the growth promoting effects of activated RAS. For example, BRAF, which lies in the so-called \u201cRAF/ERK/MAP kinase pathway\u201d is mutated in more than 60% of melanomas and is associated with unregulated cell proliferation. Mutations of phosphatidly inositol-3 kinase (PI3 kinase) in the PI3K/AKT pathway also occur with high frequency in some tumor types, with similary consequences."
+        },
+        {
+            "id": "InternalMed_Harrison_8556",
+            "title": "InternalMed_Harrison",
+            "content": "The constitutive activation of BCR-ABL1 results in autophosphorylation and activation of multiple downstream pathways that modify gene transcription, apoptosis, skeletal organization, and degradation of inhibitory proteins. These transduction pathways may involve RAS, mitogenactivated protein (MAP) kinases, signal transducers and activators of transcription (STAT), phosphatidylinositol-3-kinase (PI3k), MYC, and others. These interactions are mostly mediated through tyrosine phosphorylation and require binding of BCR-ABL1 to adapter proteins such as GRB-2, CRK, CRK-like (CRK-L) protein, and Src homology containing proteins (SHC). BCR-ABL1 TKIs bind to the BCR-ABL1 kinase domain (KD), preventing the activation of transformation pathways and inhibiting downstream signaling. As a result, proliferation of CML cells is inhibited and apoptosis induced, leading to the reemergence of normal hematopoiesis. A plethora of signaling pathways have been implicated in BCR-ABL1-mediated cellular"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6306",
+            "title": "Cell_Biology_Alberts",
+            "content": "J. kim et al., Cell 132:1049\u20131061, 2008.) expression of the transforming OSKM factors, including methods that leave no trace of foreign DNA in the reprogrammed cell. Variations of the original cocktail of transcription regulators can drive the conversion, with different specialized cell types having somewhat different requirements. Myc overexpression, for example, turns out not to be absolutely necessary, although it enhances the efficiency of the process. And differentiated cell types may express some of the required factors as part of their normal phenotype. For example, cells of the dermal papilla of hair follicles already express Sox2, Klf4, and Myc; to convert them into iPS cells, it is enough to force them artificially to express Oct4. Oct4, indeed, seems to have a central role and to be generally indispensable for the creation of iPS cells. Reprogramming involves a massive upheaval of the Gene Control System"
+        },
+        {
+            "id": "InternalMed_Harrison_6139",
+            "title": "InternalMed_Harrison",
+            "content": "The concepts of oncogene addiction and synthetic lethality have spurred new drug development targeting oncogeneand tumor-suppressor pathways. As discussed earlier in this chapter and outlined in Fig. 102e-3, cancer cells can become dependent on signaling pathways containing activated oncogenes; this can effect proliferation (i.e., mutated Kras, Braf, overexpressed Myc, or activated tyrosine kinases), DNA repair (loss of BRCA1 or BRCA2 gene function), survival (overexpression of Bcl-2 or NF-\u03baB), cell metabolism (as occurs when mutant Kras enhances glucose uptake and aerobic glycolysis), and perhaps angiogenesis (production of VEGF in response to HIF-2\u03b1 in RCC). In such cases, targeted inhibition of the pathway can lead to specific killing of the cancer cells. However, targeting defects in tumor-suppressor genes has been much more difficult, both because the target of mutation is often deleted and because it is much more difficult to restore normal function than to inhibit abnormal"
+        },
+        {
+            "id": "Pathology_Robbins_1259",
+            "title": "Pathology_Robbins",
+            "content": "ManyoncogenicDNAviruses,likeHPV,encodeproteins(e.g.,E7)thatbindRBandrenderitnonfunctional. TP53: Guardian of the Genome The p53-encoding tumor suppressor gene, TP53, is the most commonly mutated gene in human cancer. The p53 protein is a transcription factor that thwarts neoplastic transformation by three interlocking mechanisms: activation of temporary cell cycle arrest (termed quiescence), induction of permanent cell cycle arrest (termed senescence), or triggering of programmed cell death (termed apoptosis). If RB is a \u201csensor\u201d of external signals, p53 can be viewed as a central monitor of internal stress, directing the stressed cells toward one of these pathways. A variety of stresses trigger the p53 response pathways, including anoxia, inappropriate pro-growth stimuli (e.g., unbridled MYC or RAS activity), and DNA damage. By managing the DNA damage response, p53 plays a central role in maintaining the integrity of the genome, as discussed next."
+        },
+        {
+            "id": "Gynecology_Novak_503",
+            "title": "Gynecology_Novak",
+            "content": "The activated ER elicits a number of different genomic as well as nongenomic effects on intracellular signaling pathways. The classical steroid signaling pathway involves binding of the activated estrogen receptor to an estrogen responsive element (ERE) on the genome as homodimers and subsequent stimulation of transcription (27,28). The minimal consensus sequence for Table 6.1 Proto-Oncogenes hst, int-2 Ha-ras, N-ras, N-ras fgr, lck, src, yes cot, plm-1, mos, raf/mil jun, ets-1, ets-2,fos, gil 1,rel, ski, vav lyl-1, maf, myb, myc, L-myc, N-myc, evi-1 the ERE is a 13 bp palindromic inverted repeat (IR) and is defined as 5 -GGTCAnnnTGACC-3 . Genes that are regulated by activated ERs include early gene responses such as c-myc, c-fos, and d-jun, and genes encoding for growth factors such as insulin growth factor (IGF-1 and IGF-2), epidermal growth factor (EGF), transforming growth factor-\u03b1, and colony-stimulating factor (CSF-1). Table 6.2 Tumor Suppressor Genes"
+        },
+        {
+            "id": "Physiology_Levy_211",
+            "title": "Physiology_Levy",
+            "content": "proteins that regulate cell growth and division. Signaling pathways are characterized by (1) multiple, hierarchical steps; (2) amplification of the signal-receptor binding event, which magnifies the response; (3) activation of multiple pathways and regulation of multiple cellular functions; mechanisms, which minimize the response and provide tight regulatory control over these signaling pathways. A brief description of how cells communicate follows. Readers who desire a more in-depth presentation of this material are encouraged to consult one of the many cellular and molecular biology textbooks currently available."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6011",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201365 Overcoming Hippo repression increases organ size. (a) Livers from control and Yap-overexpressing mice. In these mice, hippo signaling is insufficient to block Yap. (B) adult heads from control and Yap-overexpressing flies. In the mutant flies, hippo signaling is unable to block Yap. (From J. Dong et al., Cell 130:1120\u20131133, 2007.With permission from elsevier.) Figure 21\u201364 Hippo pathway. hippo, a protein kinase, limits growth by phosphorylation and activation of the kinase Warts, which in turn phosphorylates and inactivates the transcriptional coactivator Yorkie (called Yap in vertebrates). When unphosphorylated, Yorkie/Yap drives tissue growth: it activates the transcription of the growth-promoting gene Myc, the cell-cycle progression gene Cyclin E, the antiapoptotic gene Diap, and the microrNa Bantam. hippo-induced phosphorylation of Yorkie/Yap blocks this effect."
+        },
+        {
+            "id": "InternalMed_Harrison_6036",
+            "title": "InternalMed_Harrison",
+            "content": "rearranged or deregulated by the chromosomal rearrangement. Translocations are particularly common in lymphoid tumors, probably because these cell types have the capability to rearrange their DNA to generate antigen receptors. Indeed, antigen receptor genes are commonly involved in the translocations, implying that an imperfect regulation of receptor gene rearrangement may be involved in the pathogenesis. An interesting example is Burkitt\u2019s lymphoma, a B cell tumor characterized by a reciprocal translocation between chromosomes 8 and 14. Molecular analysis of Burkitt\u2019s lymphomas demonstrated that the breakpoints occurred within or near the MYC locus on chromosome 8 and within the immunoglobulin heavy chain locus on chromosome 14, resulting in the transcriptional activation of MYC. Enhancer activation by translocation, although not universal, appears to play an important role in malignant progression. In addition to transcription factors and signal transduction molecules, translocation"
+        },
+        {
+            "id": "Pathology_Robbins_1222",
+            "title": "Pathology_Robbins",
+            "content": "Mutations in genes that regulate some or all of these cellular traits are seen in every cancer; accordingly, these traits form the basis of the following discussion of the molecular origins of cancer. Of note, by convention, gene symbols are italicized but their protein products are not (e.g., RB gene and RB protein, TP53 and p53, MYC and MYC). The self-sufficiency in growth that characterizes cancer cells generally stems from gain-of-function mutations that convert proto-oncogenes to oncogenes. Oncogenes encode proteins called oncoproteins that promote cell growth, even in the absence of normal growth-promoting signals. To appreciate how oncogenes drive inappropriate cell growth, it is helpful to review briefly the sequence of events that characterize normal cell proliferation (introduced in Chapter 1). Under physiologic conditions, cell proliferation can be readily resolved into the following steps: 1. Binding of a growth factor to its specific receptor on the cell membrane 2."
+        },
+        {
+            "id": "Pathology_Robbins_5184",
+            "title": "Pathology_Robbins",
+            "content": "Wnt pathway activation, most commonly associated with gain of function mutations in the gene for \u03b2-catenin; these have the most favorable prognosis of all of the genetic subtypes and are commonly classic-type tumors. Hedgehog pathway activation, most commonly associated with loss of function mutations in PTCH1, a negative regulator of the Hedgehog; these tumors have an intermediate prognosis, but the concomitant presence of TP53 mutation confers a very poor prognosis. MYC overexpression, due to MYC amplification as well as other changes that result in increased expression; these tumors have the poorest prognosis. Clinical trials are ongoing that seek to tailor therapy targeted to molecular alterations, with the goal of avoiding radiation therapy when possible."
+        }
+    ],
+    "scores": [
+        0.03617849366723556,
+        0.024891106505774672,
+        0.024765817407483088,
+        0.023657275550430054,
+        0.02331026049425259,
+        0.023307123014055887,
+        0.022494184114323697,
+        0.019523558368495078,
+        0.01906318082788671,
+        0.01890999910801891,
+        0.01871774687308668,
+        0.018295739348370928,
+        0.017185900248647065,
+        0.017038102084831058,
+        0.016809629219701163,
+        0.01672357327015539,
+        0.016465494620834426,
+        0.01634768740031898,
+        0.015901482544237205,
+        0.015898050596176896,
+        0.01542935137380571,
+        0.015376458112407211,
+        0.015356661391477639,
+        0.015343064015630388,
+        0.015258417942981703,
+        0.015162335878701314,
+        0.015079865489701555,
+        0.015043290043290043,
+        0.014946182588812671,
+        0.014932126696832578,
+        0.014537849418486022,
+        0.014314516129032258
+    ]
+}

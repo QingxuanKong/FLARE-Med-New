@@ -1,0 +1,206 @@
+{
+    "id": "5d371ec97bc3fee31f00000c",
+    "question": "Is CTCF bound at nucleosome free regions?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the role of CTCF and its relationship with nucleosomes. CTCF is a protein that binds to specific DNA sequences and plays a crucial role in regulating gene expression and chromatin structure. According to the provided documents, CTCF is involved in imprinting, where it binds to insulators and blocks communication between cis-regulatory sequences and the Igf2 gene. In the context of nucleosomes, we need to consider the relationship between CTCF and nucleosome-free regions. The documents suggest that CTCF is bound to insulators, which can be located near nucleosome-free regions. However, the direct relationship between CTCF and nucleosomes is not explicitly stated. Nevertheless, we can infer that CTCF is more likely to be bound to nucleosome-free regions, as it is involved in regulating gene expression and chromatin structure. Furthermore, the documents mention that nucleosomes can occupy any one of a number of positions relative to the DNA sequence in most chromosomal regions, which implies that nucleosome-free regions are possible. Therefore, based on the information provided, it is reasonable to conclude that CTCF is more likely to be bound to nucleosome-free regions.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_856",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although some DNA sequences bind more tightly than others to the nucleosome core (see Figure 4\u201325), the most important influence on nucleosome positioning appears to be the presence of other tightly bound proteins on the DNA. Some bound proteins favor the formation of a nucleosome adjacent to them. Others create obstacles that force the nucleosomes to move elsewhere. The exact positions of nucleosomes along a stretch of DNA therefore depend mainly on the presence and nature of other proteins bound to the DNA. And due to the presence of ATP-dependent chromatin remodeling complexes, the arrangement of nucleosomes on DNA can be highly dynamic, changing rapidly according to the needs of the cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1805",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201311 How nucleosomes effect the binding of transcription regulators. \u201cbreathing\u201d cis-regulatory sequence this open form occurs about 1/20th of the time (A) (B) compared to its affnity for naked DNA, a typical transcription regulator will bind with 20 times lower affnity if its cis-regulatory sequence is located near the end of a nucleosome a typical transcription regulator will bind with roughly 200-fold less affnity + + transcription regulatorhistone core + + + (C) if its cis-regulatory sequence is located in the middle of a nucleosome (D) one transcription regulator can destabilize the nucleosome, facilitating binding of another"
+        },
+        {
+            "id": "Cell_Biology_Alberts_849",
+            "title": "Cell_Biology_Alberts",
+            "content": "core. The bending requires a substantial compression of the minor groove of the DNA helix. Certain dinucleotides in the minor groove are especially easy to compress, and some nucleotide sequences bind the nucleosome more tightly than others (Figure 4\u201325). This probably explains some striking, but unusual, cases of very precise positioning of nucleosomes along a stretch of DNA. However, the sequence preference of nucleosomes must be weak enough to allow other factors to dominate, inasmuch as nucleosomes can occupy any one of a number of positions relative to the DNA sequence in most chromosomal regions. In addition to its histone fold, each of the core histones has an N-terminal amino acid \u201ctail,\u201d which extends out from the DNA\u2013histone core (see Figure 4\u201324D). These histone tails are subject to several different types of covalent modifications that in turn control critical aspects of chromatin structure and function, as we shall discuss shortly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1806",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cooperation among transcription regulators can become much greater when nucleosome remodeling complexes are involved. If one transcription regulator binds its cis-regulatory sequence and attracts a chromatin remodeling complex, the localized action of the remodeling complex can allow a second transcription regulator to efficiently bind nearby. Moreover, we have discussed how transcription regulators can work together in pairs; in reality, larger numbers often cooperate by repeated use of the same principles. A highly cooperative binding of transcription regulators to DNA probably explains why many sites in eukaryotic genomes that are bound by transcription regulators are \u201cnucleosome free.\u201d"
+        },
+        {
+            "id": "Cell_Biology_Alberts_860",
+            "title": "Cell_Biology_Alberts",
+            "content": "A.E. leschziner et al., Proc. Natl Acad. Sci. USA 104:4913\u20134918, 2007.) 192 Chapter 4: DNA, Chromosomes, and genomes How nucleosomes are organized into condensed arrays is unclear. The structure of a tetranucleosome (a complex of four nucleosomes) obtained by x-ray crystallography and high-resolution electron microscopy of reconstituted chromatin have been used to support a zigzag model for the stacking of nucleosomes in a 30-nm fiber (Figure 4\u201328). But cryoelectron microscopy of carefully prepared nuclei suggests that most regions of chromatin are less regularly structured."
+        },
+        {
+            "id": "Cell_Biology_Alberts_869",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201330 How the linker histone binds to the nucleosome. The position and structure of histone H1 is shown. The H1 core region constrains an additional 20 nucleotide pairs of DNA where it exits from the nucleosome core and is important for compacting chromatin. (A) Schematic, and (b) structure inferred for a single nucleosome from a structure determined by high-resolution electron microscopy of a reconstituted chromatin fiber (C). (b and C, adapted from F. Song et al., Science 344:376\u2013380, 2014.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_854",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA of nucleosome histone core of nucleosome (histone octamer) AA, TT, and TA dinucleotides preferred here (minor groove inside) (minor groove outside) Figure 4\u201325 The bending of DNA in a nucleosome. The DNA helix makes 1.7 tight turns around the histone octamer. This diagram illustrates how the minor groove is compressed on the inside of the turn. Owing to structural features of the DNA molecule, the indicated dinucleotides are preferentially accommodated in such a narrow minor groove, which helps to explain why certain DNA sequences will bind more tightly than others to the nucleosome core."
+        },
+        {
+            "id": "Cell_Biology_Alberts_868",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201329 A model for the role played by histone tails in the compaction of chromatin. (A) A schematic diagram shows the approximate exit points of the eight histone tails, one from each histone protein, that extend from each nucleosome. The actual structure is shown to its right. In the high-resolution structure of the nucleosome, the tails are largely unstructured, suggesting that they are highly flexible. (b) As indicated, the histone tails are thought to be involved in interactions between nucleosomes that help to pack them together. (A, PDb code: 1k X5.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_861",
+            "title": "Cell_Biology_Alberts",
+            "content": "What causes nucleosomes to stack so tightly on each other? Nucleosome-tonucleosome linkages that involve histone tails, most notably the H4 tail, constitute one important factor (Figure 4\u201329). Another important factor is an additional histone that is often present in a 1-to-1 ratio with nucleosome cores, known as Figure 4\u201328 A zigzag model for the 30histone H1. This so-called linker histone is larger than the individual core histones nm chromatin fiber. (A) The conformation of two of the four nucleosomes in a and it has been considerably less well conserved during evolution. A single his tetranucleosome, from a structure tone H1 molecule binds to each nucleosome, contacting both DNA and protein, determined by x-ray crystallography. and changing the path of the DNA as it exits from the nucleosome. This change in (b) Schematic of the entire tetranucleosome; the exit path of DNA is thought to help compact nucleosomal DNA (Figure 4\u201330). the fourth nucleosome is not visible, being stacked"
+        },
+        {
+            "id": "Cell_Biology_Alberts_851",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleosomes Have a Dynamic Structure, and Are Frequently Subjected to Changes Catalyzed by ATP-Dependent Chromatin Remodeling Complexes For many years biologists thought that, once formed in a particular position on DNA, a nucleosome would remain fixed in place because of the very tight association between its core histones and DNA. If true, this would pose problems for genetic readout mechanisms, which in principle require easy access to many specific DNA sequences. It would also hinder the rapid passage of the DNA transcription and replication machinery through chromatin. But kinetic experiments show that the DNA in an isolated nucleosome unwraps from each end at a rate of about four times per second, remaining exposed for 10 to 50 milliseconds before the partially unwrapped structure recloses. Thus, most of the DNA in an isolated nucleosome is in principle available for binding other proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_866",
+            "title": "Cell_Biology_Alberts",
+            "content": "The DNA in eukaryotes is tightly bound to an equal mass of histones, which form repeated arrays of DNA\u2013protein particles called nucleosomes. The nucleosome is composed of an octameric core of histone proteins around which the DNA double helix is wrapped. Nucleosomes are spaced at intervals of about 200 nucleotide pairs, and they are usually packed together (with the aid of histone H1 molecules) into quasi-regular arrays to form a 30-nm chromatin fiber. Even though compact, the structure of chromatin must be highly dynamic to allow access to the DNA. There is some spontaneous DNA unwrapping and rewrapping in the nucleosome itself; however, the general strategy for reversibly changing local chromatin structure features ATP-driven chromatin remodeling complexes. Cells contain a large set of such complexes, which are targeted to specific regions of chromatin at appropriate times. The remodeling complexes collaborate with histone chaperones to allow nucleosome cores to be repositioned,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1803",
+            "title": "Cell_Biology_Alberts",
+            "content": "We saw in Chapter 4 that nucleosome remodeling can alter the structure of the nucleosome, allowing transcription regulators access to the DNA. Even without remodeling, however, transcription regulators can still gain limited access to DNA in a nucleosome. The DNA at the end of a nucleosome \u201cbreathes,\u201d transiently exposing the DNA and allowing regulators to bind. This breathing happens at a much lower rate in the middle of the nucleosome; therefore, the positions where the DNA exits the nucleosome are much easier to occupy (Figure 7\u201311)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1804",
+            "title": "Cell_Biology_Alberts",
+            "content": "These properties of the nucleosome promote cooperative DNA binding by transcription regulators. If a regulatory protein enters the DNA of a nucleosome and prevents the DNA from tightly rewrapping around the nucleosome core, it will increase the affinity of a second transcription regulator for a nearby cis-regulatory sequence. If the two transcription regulators also interact with each other (as described above), the cooperative effect is even greater. In some cases, the combined action of the regulatory proteins can eventually displace the histone core of the nucleosome altogether. Figure 7\u201311 How nucleosomes effect the binding of transcription regulators."
+        },
+        {
+            "id": "Cell_Biology_Alberts_899",
+            "title": "Cell_Biology_Alberts",
+            "content": "The enzymes that add or remove modifications to histones in nucleosomes are part of multisubunit complexes. They can initially be brought to a particular region of chromatin by one of the sequence-specific DNA-binding proteins (transcription regulators) discussed in Chapters 6 and 7 (for a specific example,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1829",
+            "title": "Cell_Biology_Alberts",
+            "content": "in this chapter. For now, we can regard much of this DNA as \u201cspacer\u201d sequences that transcription regulators do not directly recognize. It is important to keep in mind that, like other regions of eukaryotic chromosomes, most of the DNA in gene control regions is packaged into nucleosomes and higher-order forms of chromatin, thereby compacting its overall length and altering its properties."
+        },
+        {
+            "id": "InternalMed_Harrison_6149",
+            "title": "InternalMed_Harrison",
+            "content": "Nucleosomes permits binding of multiple Nucleosomes gene expression."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1943",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201349 Mechanisms of imprinting. On chromosomes inherited from the female, a protein called CtCf binds to an insulator (see figure 7\u201324), blocking communication between cis-regulatory sequences (green) and the Igf2 gene (orange). Igf2 is therefore not expressed from the maternally inherited chromosome. Because of imprinting, the insulator on the male-derived chromosome is methylated (red circles); this inactivates the insulator by blocking the binding of the CtCf protein, and allows the cis-regulatory sequences to activate transcription of the Igf2 gene. in other examples of imprinting, methylation simply blocks gene expression by interfering with the binding of proteins required for a gene\u2019s transcription."
+        },
+        {
+            "id": "Cell_Biology_Alberts_846",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201321 Nucleosomes as seen in the electron microscope. (A) Chromatin isolated directly from an interphase nucleus appears in the electron microscope as a thread about 30 nm thick. (b) This electron micrograph shows a length of chromatin that has been experimentally unpacked, or decondensed, after isolation to show the nucleosomes. (A, courtesy of barbara Hamkalo; b, courtesy of victoria Foe.) core histones linker DNA of nucleosome \u201cbeads-on-a-string\u201d nucleosome includes form of chromatin ~200 nucleotide pairs of DNA"
+        },
+        {
+            "id": "Cell_Biology_Alberts_960",
+            "title": "Cell_Biology_Alberts",
+            "content": "How is most of the chromatin in each interphase chromosome condensed when its genes are not being expressed? A powerful extension of the chromosome conformation capture method described previously (see Figure 4\u201348), which exploits a high-throughput DNA sequencing technology called massive parallel sequencing (see Panel 8\u20131, pp. 478\u2013481), allows the connections between all of the different one-megabase (1 Mb) segments of the human genome to be mapped in human interphase chromosomes. The results reveal that most regions of our chromosomes are folded into a conformation referred to as a fractal globule: a knot-free arrangement that facilitates maximally dense packing while, at the same time, preserving the ability of the chromatin fiber to unfold and fold (Figure 4\u201355). Chromatin Can move to Specific Sites within the Nucleus to Alter gene Expression"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1087",
+            "title": "Cell_Biology_Alberts",
+            "content": "(Problem 4\u20139). Differently colored blocks indicate segments of the chromosomes that are homologous in DNA sequence. 4\u201310 Assuming that the 30-nm chromatin fiber contains about 20 nucleosomes (200 bp/nucleosome) per 50 nm of length, calculate the degree of compaction of DNA associated with this level of chromatin structure. What fraction of the 10,000-fold condensation that occurs at mitosis does this level of DNA packing represent? 4\u201311 In contrast to histone acetylation, which always correlates with gene activation, histone methylation can lead to either transcriptional activation or repression. How do you suppose that the same modification\u2014methylation\u2014can mediate different biological outcomes?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_841",
+            "title": "Cell_Biology_Alberts",
+            "content": "The structural organization of nucleosomes was determined after first isolating them from unfolded chromatin by digestion with particular enzymes (called nucleases) that break down DNA by cutting between the nucleosomes. After digestion for a short period, the exposed DNA between the nucleosome core particles, the linker DNA, is degraded. Each individual nucleosome core particle consists of a complex of eight histone proteins\u2014two molecules each of histones H2A, Figure 4\u201320 Chromatin. As illustrated, chromatin consists of DNA bound to both histone and non-histone proteins. The mass of histone protein present is about equal to the total mass of non-histone protein, but\u2014as schematically indicated here\u2014the latter class is composed of an enormous number of different species. In total, a chromosome is about one-third DNA and two-thirds protein by mass."
+        },
+        {
+            "id": "Cell_Biology_Alberts_867",
+            "title": "Cell_Biology_Alberts",
+            "content": "of such complexes, which are targeted to specific regions of chromatin at appropriate times. The remodeling complexes collaborate with histone chaperones to allow nucleosome cores to be repositioned, reconstituted with different histones, or completely removed to expose the underlying DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1802",
+            "title": "Cell_Biology_Alberts",
+            "content": "In general, transcription regulators bind to DNA in nucleosomes with lower affinity than they do to naked DNA. There are two reasons for this difference. First, the surface of the cis-regulatory sequence recognized by the transcription regulator may be facing inward on the nucleosome, toward the histone core, and therefore not be readily available to the regulatory protein. Second, even if the face of the cis-regulatory sequence is exposed on the outside of the nucleosome, many transcription regulators subtly alter the conformation of the DNA when they bind, and these changes are generally opposed by the tight wrapping of the DNA around the histone core. For example, many transcription regulators induce a bend or kink in the DNA when they bind."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1659",
+            "title": "Biochemistry_Lippinco",
+            "content": "Access to DNA: In eukaryotes, DNA is found complexed with histone and nonhistone proteins to form chromatin (see p. 425). Transcriptionally active, decondensed chromatin (euchromatin) differs from the more condensed, inactive form (heterochromatin) in a number of ways. Active chromatin contains histone proteins that have been covalently modified at their amino terminal ends by reversible methylation, acetylation, or phosphorylation (see p. 438 for a discussion of histone acetylation/deacetylation by histone acetyltransferase and histone deacetylase). Such modifications decrease the positive charge of these basic proteins, thereby decreasing the strength of their association with negatively charged DNA. This relaxes the nucleosome (see p. 425), allowing transcription factors access to specific regions on the DNA. Nucleosomes can also be repositioned, an ATP-requiring process that is part of chromatin remodeling. Another difference between transcriptionally active and inactive chromatin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_920",
+            "title": "Cell_Biology_Alberts",
+            "content": "The complexity of centromeric chromatin is not illustrated in these diagrams. The alpha satellite DNA that forms centromeric chromatin in humans is packaged into alternating blocks of chromatin. One block is formed from a long string of nucleosomes containing the CENP-A H3 variant histone; the other block contains nucleosomes that are specially marked with dimethyl lysine 4 on the normal H3 histone. Each block is more than a thousand nucleosomes long. This centromeric chromatin is flanked by pericentric heterochromatin, as shown. The pericentric chromatin contains methylated lysine 9 on its H3 histones, along with HP1 protein, and it is an example of \u201cclassical\u201d heterochromatin (see Figure 4\u201339)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_845",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201322 Structural organization of the nucleosome. A nucleosome contains a protein core made of eight histone molecules. In biochemical experiments, the nucleosome core particle can be released from isolated chromatin by digestion of the linker DNA with a nuclease, an enzyme that breaks down DNA. (The nuclease can degrade the exposed linker DNA but cannot attack the DNA wound tightly around the nucleosome core.) After dissociation of the isolated nucleosome into its protein core and DNA, the length of the DNA that was wound around the core can be determined. This length of 147 nucleotide pairs is sufficient to wrap 1.7 times around the histone core."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1480",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Higher levels of organization: Nucleosomes can be packed more tightly (stacked) to form a nucleofilament. This structure assumes the shape of a coil, often referred to as a 30-nm fiber. The fiber is organized into loops that are anchored by a nuclear scaffold containing several proteins. Additional levels of organization lead to the final chromosomal structure (Fig. 30.27). B. Nucleosome fate during DNA replication Parental nucleosomes are disassembled to allow access to DNA during replication. Once DNA is synthesized, nucleosomes form rapidly. Their histone proteins come both from de novo synthesis and from the transfer of parental histones. VI. DNA REPAIR"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6902",
+            "title": "Cell_Biology_Alberts",
+            "content": "high-performance liquid chromatography (HPLC) Type of chromatography that uses columns packed with tiny beads of matrix; the solution to be separated is pushed through under high pressure. histone One of a group of small abundant proteins, rich in arginine and lysine, that combine to form the nucleosome cores around which DNA is wrapped in eukaryotic chromosomes. (Figure 4\u201324) histone chaperone (chromatin assembly factor) Protein that binds free histones, releasing them once they have been incorporated into newly replicated chromatin. (Figure 4\u201327) histone H1 \u201cLinker\u201d (as opposed to \u201ccore\u201d) histone protein that binds to DNA where it exits from a nucleosome and helps package nucleosomes into the 30-nm chromatin fiber. (Figure 4\u201330)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_839",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleosomes Are a basic Unit of Eukaryotic Chromosome Structure The proteins that bind to the DNA to form eukaryotic chromosomes are traditionally divided into two classes: the histones and the non-histone chromosomal proteins, each contributing about the same mass to a chromosome as the DNA. The complex of both classes of protein with the nuclear DNA of eukaryotic cells is known as chromatin (Figure 4\u201320)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_913",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleosomes carrying histone variants have a distinctive character and are thought to be able to produce marks in chromatin that are unusually long-lasting. An important example is seen in the formation and inheritance of the specialized chromatin structure at the centromere, the region of each chromosome required for attachment to the mitotic spindle and orderly segregation of the duplicated copies of the genome into daughter cells each time a cell divides. In many complex organisms, including humans, each centromere is embedded in a stretch of special centromeric chromatin that persists throughout interphase, even though the centromere-mediated attachment to the spindle and movement of DNA occur only during mitosis. This chromatin contains a centromere-specific variant H3 histone, known as CENP-A (Centromere Protein-A; see Figure 4\u201335), plus additional proteins that pack the nucleosomes into particularly dense arrangements and form the kinetochore, the special structure required for"
+        },
+        {
+            "id": "Cell_Biology_Alberts_842",
+            "title": "Cell_Biology_Alberts",
+            "content": "H2B, H3, and H4\u2014and double-stranded DNA that is 147 nucleotide pairs long. The histone octamer forms a protein core around which the double-stranded DNA is wound (Figure 4\u201322). The region of linker DNA that separates each nucleosome core particle from the next can vary in length from a few nucleotide pairs up to about 80. (The term nucleosome technically refers to a nucleosome core particle plus one of its adjacent DNA linkers, but it is often used synonymously with nucleosome core particle.) On average, therefore, nucleosomes repeat at intervals of about 200 nucleotide pairs. For example, a diploid human cell with 6.4 \u00d7 109 nucleotide pairs contains approximately 30 million nucleosomes. The formation of nucleosomes converts a DNA molecule into a chromatin thread about one-third of its initial length. The Structure of the Nucleosome Core Particle Reveals How DNA Is Packaged"
+        },
+        {
+            "id": "Cell_Biology_Alberts_893",
+            "title": "Cell_Biology_Alberts",
+            "content": "Covalent modifications and Histone variants Act in Concert to Control Chromosome Functions The number of possible distinct markings on an individual nucleosome is in principle enormous, and this potential for diversity is still greater when we allow for nucleosomes that contain histone variants. However, the histone modifications are known to occur in coordinated sets. More than 15 such sets can be identified in mammalian cells. However, it is not yet clear how many different types of chromatin are functionally important in cells."
+        }
+    ],
+    "scores": [
+        0.03755473063011612,
+        0.03445891226408057,
+        0.034279521905354084,
+        0.03342962452281835,
+        0.03171970954989823,
+        0.03053307401133488,
+        0.030265155265155268,
+        0.03023454059932669,
+        0.02949251113649215,
+        0.028841798258293593,
+        0.028686121593348567,
+        0.028575073518597796,
+        0.028132548452745498,
+        0.02726690407849828,
+        0.02723775664782859,
+        0.025520855104785745,
+        0.025454368720275775,
+        0.024995601882394337,
+        0.02470241777275057,
+        0.023461823440984318,
+        0.023450988582567528,
+        0.023433583959899747,
+        0.022465482692051963,
+        0.02185427890592623,
+        0.02174361396959176,
+        0.021266799361199185,
+        0.02125819916517591,
+        0.021199653786414675,
+        0.021101309810211175,
+        0.021096601519395637,
+        0.020995617768529904,
+        0.020271906864085636
+    ]
+}

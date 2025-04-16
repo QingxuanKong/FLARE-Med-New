@@ -1,0 +1,206 @@
+{
+    "id": "5e46ece93f5415952900000e",
+    "question": "Is Rad4/XPC a DNA damage sensing protein?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the role of Rad4/XPC in the context of DNA damage response. Rad4/XPC is a protein that interacts with the Rad4/Rad5 complex, which is a DNA damage response complex. The Rad4/Rad5 complex is involved in the nucleotide excision repair pathway, which is a type of DNA repair pathway that excises damaged DNA. However, the question is whether Rad4/XPC is a DNA damage sensing protein. While Rad4/XPC is involved in the DNA damage response, its primary function is to act as a co-chaperone for the Rad4/Rad5 complex, which is involved in the excision of damaged DNA. Therefore, it is not a DNA damage sensing protein. Instead, it is a protein that helps to facilitate the repair of DNA damage. However, it is worth noting that the Rad4/Rad5 complex, which includes Rad4/XPC, is thought to play a role in sensing DNA damage, and the complex is activated in response to UV-induced DNA damage. Therefore, while Rad4/XPC is not a DNA damage sensing protein in the classical sense, it may have some role in sensing DNA damage through its interaction with the Rad4/Rad5 complex.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1305",
+            "title": "Cell_Biology_Alberts",
+            "content": "The loading of RecA or Rad52 onto the processed DNA ends and the subsequent strand-exchange reaction are also tightly controlled. Although these proteins alone can carry out these steps in vitro, a series of accessory proteins, including Rad52, is needed in eukaryotic cells to ensure that homologous recombination is efficient and accurate (Figure 5\u201351). There are many such accessory proteins, and exactly how they coordinate and control homologous recombination remains a mystery. We do know that the enzymes that catalyze recombinational repair are made at relatively high levels in eukaryotes and are dispersed throughout the nucleus in an inactive form. In response to DNA damage, they rapidly converge on the sites of DNA damage, become activated, and form \u201crepair factories\u201d where many lesions are apparently brought together and repaired (Figure 5\u201352)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1278",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA damage also results in an increased synthesis of some DNA repair enzymes. This response depends on special signaling proteins that sense DNA damage and up-regulate the appropriate DNA repair enzymes. The importance of this mechanism is revealed by the phenotype of humans who are born with defects in the gene that encodes the ATM protein. These individuals have the disease ataxia telangiectasia (AT ), the symptoms of which include neurodegeneration, a predisposition to cancer, and genome instability. The ATM protein is a large kinase needed to generate the intracellular signals that sound the alarm in response to many types of spontaneous DNA damage (see Figure 17\u201362), and individuals with defects in this protein therefore suffer from the effects of unrepaired DNA lesions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1312",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201352 Experiment demonstrating the rapid localization of repair proteins to DNA double-strand breaks. Human fibroblasts were x-irradiated to produce DNA double-strand breaks. Before the x-rays struck the cells, they were passed through a microscopic grid with x-ray-absorbing \u201cbars\u201d spaced 1 \u03bcm apart. This produced a striped pattern of DNA damage, allowing a comparison of damaged and undamaged DNA in the same nucleus. (A) Total DNA in a fibroblast nucleus stained with the dye DAPI. (B) Sites of new DNA synthesis due to repair of DNA damage, indicated by incorporation of BudR (a thymidine analog) and subsequent staining with fluorescently labeled antibodies to BudR (green)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1277",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA Damage Delays Progression of the Cell Cycle We have just seen that cells contain multiple enzyme systems that can recognize and repair many types of DNA damage (Movie 5.7). Because of the importance of maintaining intact, undamaged DNA from generation to generation, eukaryotic cells have an additional mechanism that maximizes the effectiveness of their DNA repair enzymes: they delay progression of the cell cycle until DNA repair is complete. As discussed in detail in Chapter 17, the orderly progression of the cell cycle is stopped if damaged DNA is detected, and it restarts when the damage has been repaired. Thus, in mammalian cells, the presence of DNA damage can block entry from G1 into S phase, it can slow S phase once it has begun, and it can block the transition from G2 phase to M phase. These delays facilitate DNA repair by providing the time needed for the repair to reach completion."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1307",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201351 Structure of a portion of the Rad52 protein. This doughnutshaped structure is composed of 11 subunits. Single-strand DNA has been modeled into the deep groove running along the protein surface. Rad52 helps load Rad51 onto single-strand DNA to form the nucleoprotein filament that carries out strand exchange. Rad52 also acts later to re-form the double helix and complete the homologous recombination reaction. (From"
+        },
+        {
+            "id": "InternalMed_Harrison_6266",
+            "title": "InternalMed_Harrison",
+            "content": "sensitive or more resistant to the biologic effects of radiation are not completely defined and critically involve DNA repair proteins that, in their physiologic role, protect against environmentally related DNA damage."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1308",
+            "title": "Cell_Biology_Alberts",
+            "content": "M.R. Singleton et al., Proc. Natl Acad. Sci. USA 99:13492\u201313497, 2002. With permission from National Academy of Sciences.) mutations in their genes lead to a greatly increased frequency of breast cancer. Because these mutations cause inefficient repair by homologous recombination, accumulation of DNA damage can, in a small proportion of cells, give rise to a cancer. Brca1 regulates an early step in broken-end processing; without it, such ends are not processed correctly for homologous recombination and instead are repaired inaccurately by the nonhomologous end-joining pathway (see Figure 5\u201345). Brca2 binds to the Rad51 protein, preventing its polymerization on DNA, and thereby maintaining it in an inactive form until it is needed. Normally, upon DNA damage, Brca2 helps to bring Rad51 protein rapidly to sites of damage and, once in place, to release it in its active form onto single-strand DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1283",
+            "title": "Cell_Biology_Alberts",
+            "content": "the damage, homologous recombination can repair many types of DNA damage. It is, for example, the main way to accurately repair double-strand breaks, as introduced in the previous section (see Figure 5\u201345B). Double-strand breaks can result from radiation and reactive chemicals, but most of the time they arise from DNA replication forks that become stalled or broken independently of any such external cause. Homologous recombination accurately corrects these accidents and, because they occur during nearly every round of DNA replication, this repair mechanism is essential for every proliferating cell. Homologous recombination is perhaps the most versatile DNA repair mechanism available to the cell; the \u201call-purpose\u201d nature of recombinational repair probably explains why its mechanism and the proteins that carry it out have been conserved in virtually all cells on Earth."
+        },
+        {
+            "id": "Histology_Ross_440",
+            "title": "Histology_Ross",
+            "content": "repair of DNA double-strand breaks. Together with RAD-51 protein, which is involved in the homologous recombination and repair of DNA, they maintain stability of the human genome. The defective BRCA proteins are unable to interact with RAD-51. By screening patients for mutations in these genes, much earlier detection of cancer can be accomplished. It is also now known why in some individuals p53 mu-tations make their tumors resistant to radiotherapy. DNA damage caused by therapeutic radiation procedures is de-tected by DNA-damage checkpoints, which cause cancer cells to be arrested in the cell cycle. However, these cells will not die because of the absence of functional p53, which triggers apoptosis."
+        },
+        {
+            "id": "InternalMed_Harrison_6095",
+            "title": "InternalMed_Harrison",
+            "content": "At the end of S phase, when the cell has exactly duplicated its DNA content, a second inventory is taken at the S checkpoint. Have all of the chromosomes been fully duplicated? Were any segments of DNA copied more than once? Do we have the right number of chromosomes and the right amount of DNA? If so, the cell proceeds to G2, in which the cell prepares for division by synthesizing mitotic spindle and other proteins needed to produce two daughter cells. When DNA damage is 1.DNA DAMAGE CHECKPOINT 2. ONCOGENE CHECKPOINT myc, E2F, EIA Induction of P14ARF Transcriptional activation of p53-responsive genes ATM/ATR chk1/chk2 mdm2 P14ARF mdm2 mdm2 P P P P P p53"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5052",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201362 How DNA damage arrests the cell cycle in G1. When dna is damaged, various protein kinases are recruited to the site of damage and initiate a signaling pathway that causes cell-cycle arrest. The first kinase at the damage site is either aTm or aTR, depending on the type of damage. additional protein kinases, called Chk1 and Chk2, are then recruited and activated, resulting in the phosphorylation of the transcription regulatory protein p53. mdm2 normally binds to p53 and promotes its ubiquitylation and destruction in proteasomes. phosphorylation of p53 blocks its binding to mdm2; as a result, p53 accumulates to high levels and stimulates transcription of numerous genes, including the gene that encodes the CkI protein p21. The p21 binds and inactivates g1/s-Cdk and s-Cdk complexes, arresting the cell in g1. In some cases, dna damage also induces either the phosphorylation of mdm2 or a decrease in mdm2 production, which causes a further increase in p53 (not shown)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5048",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA damage initiates a signaling pathway by activating one of a pair of related protein kinases called ATM and ATR, which associate with the site of damage and phosphorylate various target proteins, including two other protein kinases called Chk1 and Chk2. These various kinases phosphorylate other target proteins that lead to cell-cycle arrest. A major target is the gene regulatory protein p53, which stimulates transcription of the gene encoding p21, a CKI protein; p21 binds to G1/S-Cdk and S-Cdk complexes and inhibits their activities, thereby helping to block entry into the cell cycle (Figure 17\u201362 and Movie 17.8)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5047",
+            "title": "Cell_Biology_Alberts",
+            "content": "dna damage Blocks Cell division: The dna damage Response Progression through the cell cycle, and thus the rate of cell proliferation, is controlled not only by extracellular mitogens but also by other extracellular and intracellular signals. One of the most important influences is DNA damage, which can occur as a result of spontaneous chemical reactions in DNA, errors in DNA replication, or exposure to radiation or certain chemicals (discussed in Chapter 5). It is essential that damaged chromosomes are repaired before attempting to duplicate or segregate them. The cell-cycle control system can readily detect DNA damage and arrest the cycle at either of two transitions\u2014one at Start, which prevents entry into the cell cycle and into S phase, and one at the G2/M transition, which prevents entry into mitosis (see Figure 17\u201316)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1242",
+            "title": "Cell_Biology_Alberts",
+            "content": "The importance of DNA repair is evident from the large investment that cells make in the enzymes that carry it out: several percent of the coding capacity of most genomes is devoted solely to DNA repair functions. The importance of DNA repair is also demonstrated by the increased rate of mutation that follows the inactivation of a DNA repair gene. Many DNA repair proteins and the genes that encode them\u2014which we now know operate in a wide range of organisms, including humans\u2014were originally identified in bacteria by the isolation and characterization of mutants that displayed an increased mutation rate or an increased sensitivity to DNA-damaging agents."
+        },
+        {
+            "id": "Gynecology_Novak_537",
+            "title": "Gynecology_Novak",
+            "content": "The BRCA proteins are involved in DNA repair. If DNA is damaged, for example, by ionizing radiation or chemotherapy, the BRCA2 protein binds to the RAD51 protein, which is central for the repair of double-stranded breaks via homologous recombination. BRCA2 regulates the availability and activity of RAD51 in this key reaction. Phosphorylation of the BRCA2/RAD51 complex allows RAD51 to bind to the site of DNA damage and, in conjunction with several other proteins, mediates repair of DNA by homologous recombination. BRCA1 functions within a complex network of protein\u2013protein interactions, mediating DNA repair by homologous recombination and regulating transcription via the BRCA1-associated surveillance complex (BASC)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5049",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA damage activates p53 by an indirect mechanism. In undamaged cells, p53 is highly unstable and is present at very low concentrations. This is largely because it interacts with another protein, Mdm2, which acts as a ubiquitin ligase that targets p53 for destruction by proteasomes. Phosphorylation of p53 after DNA damage reduces its binding to Mdm2. This decreases p53 degradation, which results in a marked increase in p53 concentration in the cell. In addition, the decreased binding to Mdm2 enhances the ability of p53 to stimulate gene transcription (see Figure 17\u201362)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6805",
+            "title": "Cell_Biology_Alberts",
+            "content": "ATP (adenosine 5\u2032-triphosphate) Nucleoside triphosphate composed of adenine, ribose, and three phosphate groups. The principal carrier of chemical energy in cells. The terminal phosphate groups are highly reactive in the sense that their hydrolysis, or transfer to another molecule, takes place with the release of a large amount of free energy. (Figure 2\u201333) ATP synthase (F1Fo ATPase) Transmembrane enzyme complex in the inner membrane of mitochondria and the thylakoid membrane of chloroplasts. Catalyzes the formation of ATP from ADP and inorganic phosphate during oxidative phosphorylation and photosynthesis, respectively. Also present in the plasma membrane of bacteria. ATR (ataxia telangiectasia and Rad3 related protein) Protein kinase activated by DNA damage. If damage remains unrepaired, ATR helps initiate a signal cascade that culminates in cell cycle arrest. Related to ATM."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1250",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells have multiple pathways to repair their DNA using different enzymes that act upon different kinds of lesions. Figure 5\u201341 shows two of the most common pathways. In both, the damage is excised, the original DNA sequence is restored by a DNA polymerase that uses the undamaged strand as its template, and a remaining break in the double helix is sealed by DNA ligase (see Figure 5\u201312)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5051",
+            "title": "Cell_Biology_Alberts",
+            "content": "The DNA damage response can also be activated by problems that arise when a replication fork fails during DNA replication. When nucleotides are depleted, for example, replication forks stall during the elongation phase of DNA synthesis. To prevent the cell from attempting to segregate partially replicated chromosomes, the same mechanisms that respond to DNA damage detect the stalled replication forks and block entry into mitosis until the problems are resolved. A low level of DNA damage occurs in the normal life of any cell, and this damage accumulates in the cell\u2019s progeny if the DNA damage response is not functioning. Over the long term, the accumulation of genetic damage in cells lacking the DNA damage response leads to an increased frequency of cancer-promoting mutations. Indeed, mutations in the p53 gene occur in at least half of all human cancers (discussed in Chapter 20). This loss of p53 function allows the cancer cell stable, active p53"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5055",
+            "title": "Cell_Biology_Alberts",
+            "content": "damage response can lead to either cell-cycle arrest or cell death. DNA damage-induced apoptosis often depends on the activation of p53. Indeed, it is this apoptosis-promoting function of p53 that is apparently most important in protecting us against cancer."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1500",
+            "title": "Biochemistry_Lippinco",
+            "content": "C. Removal of pyrimidine dimers from DNA by nucleotide excision repair D. Removal of uracil from DNA by base excision repair Correct answer = C. The sensitivity to sunlight, extensive freckling on parts of the body exposed to the sun, and presence of skin cancer at a young age indicate that the patient most likely suffers from xeroderma pigmentosum (XP). These patients are deficient in any one of several XP proteins required for nucleotide excision repair of pyrimidine dimers in ultraviolet radiation\u2013 damaged DNA. Double-strand breaks are repaired by nonhomologous end joining (error prone) or homologous recombination (\u201cerror free\u201d). Methylation is not used for strand discrimination in eukaryotic mismatch repair. Uracil is removed from DNA molecules by a specific glycosylase in base excision repair, but a defect in this process does not cause XP."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5054",
+            "title": "Cell_Biology_Alberts",
+            "content": "What happens if DNA damage is so severe that repair is not possible? The answer differs in different organisms. Unicellular organisms such as budding yeast arrest their cell cycle to try to repair the damage, but the cycle resumes even if the repair cannot be completed. For a single-celled organism, life with mutations is apparently better than no life at all. In multicellular organisms, however, the health of the organism takes precedence over the life of an individual cell. Cells that divide with severe DNA damage threaten the life of the organism, since genetic damage can often lead to cancer and other diseases. Thus, animal cells with severe DNA damage do not attempt to continue division, but instead commit suicide by undergoing apoptosis. Thus, unless the DNA damage is repaired, the DNA damage response can lead to either cell-cycle arrest or cell death. DNA damage-induced apoptosis often depends on the activation of p53. Indeed, it is this apoptosis-promoting function of p53 that"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1294",
+            "title": "Cell_Biology_Alberts",
+            "content": "Strand Exchange Is Carried Out by the RecA/Rad51 Protein Of all the steps of homologous recombination, strand exchange is the most difficult to imagine. How does the invading single strand rapidly sample a DNA duplex for homology? Once the homology is found, how does the exchange occur? How is the inherent stability of the template double helix overcome? The answers to these questions came from biochemical and structural studies of the protein that carries out these feats, called RecA in E. coli and Rad51 in virtually all eukaryotic organisms. To catalyze strand exchange, RecA first binds cooperatively to the invading single strand, forming a protein\u2013DNA filament that forces the DNA into an unusual configuration: groups of three consecutive nucleotides are held as though they were in a conventional DNA double helix but, between adjacent triplets, the DNA backbone is untwisted and stretched out (Figure 5\u201349). This unusual protein\u2013DNA filament then binds to duplex DNA"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1497",
+            "title": "Biochemistry_Lippinco",
+            "content": "of positively charged histone (H) proteins. Two of each of histones H2A, H2B, H3, and H4 form an octameric structural core around which DNA is wrapped, creating a nucleosome. The DNA connecting the nucleosomes, called linker DNA, is bound to H1. Nucleosomes can be packed more tightly to form a nucleofilament. Additional levels of organization create a chromosome. Most DNA damage can be corrected by excision repair involving recognition and removal of the damage by repair proteins, followed by replacement by DNA pols and joining by ligase. Ultraviolet radiation can cause thymine dimers that are recognized and removed in E. coli by uvrABC proteins of nucleotide excision repair. Defects in the XP proteins needed for nucleotide excision repair of thymine dimers in humans result in xeroderma pigmentosum. Mismatched bases are repaired by a similar process of recognition and removal by Mut proteins in E. coli. The extent of methylation is used for strand identification in prokaryotes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1243",
+            "title": "Cell_Biology_Alberts",
+            "content": "Recent studies of the consequences of a diminished capacity for DNA repair in humans have linked many human diseases with decreased repair (Table 5\u20132). Thus, we saw previously that defects in a human gene whose product normally functions to repair the mismatched base pairs resulting from DNA replication errors can lead to an inherited predisposition to cancers of the colon and some other organs, reflecting an increased mutation rate. In another human disease, xeroderma pigmentosum (XP), the afflicted individuals have an extreme sensitivity to ultraviolet radiation because they are unable to repair certain DNA photo-products. This repair defect results in an increased mutation rate that leads to serious skin lesions and an increased susceptibility to skin cancers. Finally, mutations in the Brca1 and Brca2 genes compromise a type of DNA repair known as homologous recombination and are a cause of hereditary breast and ovarian cancer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2411",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201354 Transgenic mice engineered to express a mutant DNA helicase show premature aging. The helicase, encoded by the Xpd gene, is involved in both transcription and DNA repair. Compared with a wild-type mouse of the same age (A), a transgenic mouse that expresses a defective version of Xpd (B) exhibits many of the symptoms of premature aging, including osteoporosis, emaciation, early graying, infertility, and reduced life-span. The mutation in Xpd used here impairs the activity of the helicase and mimics a mutation that in humans causes trichothiodystrophy, a disorder characterized by brittle hair, skeletal abnormalities, and a very reduced life expectancy. These results indicate that an accumulation of DNA damage can contribute to the aging process in both humans and mice. (From J. de Boer et al., Science 296:1276\u20131279, 2002. With permission from AAAS.)"
+        },
+        {
+            "id": "Pathology_Robbins_1368",
+            "title": "Pathology_Robbins",
+            "content": "A group of autosomal recessive disorders comprising Bloom syndrome, ataxia-telangiectasia, and Fanconi anemia is characterized by hypersensitivity to DNA-damaging agents, such as ionizing radiation (in Bloom syndrome and ataxia-telangiectasia), or to DNA cross-linking agents, such as nitrogen mustard (in Fanconi anemia). Their phenotype is complex and includes, in addition to predisposition to cancer, features such as neural symptoms (in ataxiatelangiectasia), anemia (in Fanconi anemia), and developmental defects (in Bloom syndrome). The gene mutated in ataxia-telangiectasia is ATM, which encodes a protein kinase that is important in \u201csensing\u201d DNA damage caused by ionizing radiation and then directing p53 to initiate the DNA damage response, as described earlier."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1313",
+            "title": "Cell_Biology_Alberts",
+            "content": "(C) Localization of the Mre11 complex to damaged DNA as visualized by antibodies against the Mre11 subunit (red). Mre11 is a nuclease that processes damaged DNA in preparation for homologous recombination (see Figure 5\u201348). (A), (B), and (C) were processed 30 minutes after x-irradiation. (From B.E. Nelms et al., Science 280:590\u2013 592, 1998. With permission from AAAS.) Figure 5\u201353 Chromosome crossing-over occurs in meiosis. Meiosis is the process by which a diploid cell gives rise to four haploid germ cells, as described in detail in Chapter 17. Meiosis produces germ cells in which the paternal and maternal genetic information (red and blue) has been reassorted through chromosome crossovers. In addition, many short regions of gene conversion occur, as indicated."
+        },
+        {
+            "id": "Pathology_Robbins_1959",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 8.14 ). Damage to DNA caused by ionizing radiation that is not precisely repaired leads to mutations, which can manifest years or decades later as cancer. Ionizing radiation can cause many types of damage in DNA, including single-base damage, singleand double-strand breaks, and crosslinks between DNA and protein. In surviving cells, simple defects may be reparable by various enzyme repair systems contained in mammalian cells (see Chapter 6). These repair systems are linked to cell-cycle regulation through proteins such as ATM (ataxia-telangiectasia mutated) that initiate signal transduction after the damage, and p53, which can transiently arrest the cell cycle to allow for DNA repair or to trigger apoptosis of cells that are irreparable. However, double-strand breaks may persist without repair, or the repair of lesions may be imprecise (error prone), creating mutations. If cell-cycle checkpoints are not functioning (for instance, because of mutations in TP53), cells with abnormal"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1487",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. UV radiation and cancer: Pyrimidine dimers can be formed in the skin cells of humans exposed to UV radiation in unfiltered sunlight. In the rare genetic disease xeroderma pigmentosum (XP), the cells cannot repair the damaged DNA, resulting in extensive accumulation of mutations and, consequently, early and numerous skin cancers (Fig. 30.30). XP can be caused by defects in any of the several genes that code for the XP proteins required for NER of UV damage in humans. C. Base excision repair"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1260",
+            "title": "Cell_Biology_Alberts",
+            "content": "All of a cell\u2019s DNA is under constant surveillance for damage, and the repair mechanisms we have described act on all parts of the genome. However, cells have a way of directing DNA repair to the DNA sequences that are most urgently needed. They do this by linking RNA polymerase, the enzyme that transcribes DNA into RNA as the first step in gene expression, to the nucleotide excision repair pathway. As discussed above, this repair system can correct many different types of DNA damage. RNA polymerase stalls at DNA lesions and, through the use of coupling proteins, directs the excision repair machinery to these sites. In bacteria, where genes are relatively short, the stalled RNA polymerase can be dissociated from the DNA; the DNA is repaired, and the gene is transcribed again from the beginning. In eukaryotes, where genes can be enormously long, a more complex reaction is used to \u201cback up\u201d the RNA polymerase, repair the damage, and then restart the polymerase."
+        },
+        {
+            "id": "Pathology_Robbins_155",
+            "title": "Pathology_Robbins",
+            "content": "Embedded in the cell cycle are surveillance mechanisms primed to sense DNA or chromosomal damage. These quality-control checkpoints ensure that cells with genetic imperfections do not complete replication. Thus, the G1-S checkpoint monitors the integrity of DNA before irreversibly committing cellular resources to DNA replication. Later in the cell cycle, the G2-M check point ensures that there has been accurate DNA replication before the cell actually divides. When cells do detect DNA irregularities, checkpoint activation delays cell-cycle progression and triggers DNA repair mechanisms. If the genetic derangement is too severe to be repaired, the cells either undergo apoptosis or enter a nonreplicative state called senescence\u2014 primarily through p53-dependent mechanisms (see later). Enforcing the cell-cycle checkpoints is the job of CDK inhibitors (CDKIs); they accomplish this by modulating CDK-cyclin complex activity. There are several different CDKIs:"
+        }
+    ],
+    "scores": [
+        0.037203025754405164,
+        0.0338623228838721,
+        0.03231740183511852,
+        0.030113289720948466,
+        0.025954186000914974,
+        0.02568158193158193,
+        0.02551847082559222,
+        0.02476920513613115,
+        0.024661004813676567,
+        0.023977351046650053,
+        0.023668941321613075,
+        0.023083550768114528,
+        0.02266083952585675,
+        0.02246234317203398,
+        0.02236107086512766,
+        0.022124320895728192,
+        0.02138998119451425,
+        0.021287801787293583,
+        0.02079811214426599,
+        0.02001956707839061,
+        0.0196078431372549,
+        0.019551687654295376,
+        0.01936431183894033,
+        0.018205892088712344,
+        0.018070818070818073,
+        0.017973200673995025,
+        0.017905459175553078,
+        0.017837323608688758,
+        0.01759259259259259,
+        0.016807899712865046,
+        0.016584429824561403,
+        0.016433189655172414
+    ]
+}

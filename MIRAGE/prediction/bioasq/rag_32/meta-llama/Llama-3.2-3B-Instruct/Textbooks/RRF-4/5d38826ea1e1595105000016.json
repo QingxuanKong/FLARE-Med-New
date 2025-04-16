@@ -1,0 +1,206 @@
+{
+    "id": "5d38826ea1e1595105000016",
+    "question": "Is SATB1 positioned close to AT-rich sequences?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of SATB1 and its relationship with AT-rich sequences. SATB1 is a transcription factor that regulates gene expression by binding to specific DNA sequences. The question asks if SATB1 is positioned close to AT-rich sequences. According to Document [8] (Title: Cell_Biology_Alberts), SATB1 binds to AT-rich sequences. Therefore, we can conclude that SATB1 is positioned close to AT-rich sequences.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_959",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201354 The distribution of gene-rich regions of the human genome in an interphase nucleus. gene-rich regions have been visualized with a fluorescent probe that hybridizes to the Alu interspersed repeat, which is present in more than a million copies in the human genome (see page 292). For unknown reasons, these sequences cluster in chromosomal regions rich in genes. In this representation, regions enriched for the Alu sequence are green, regions depleted for these sequences are red, while the average regions are yellow. The gene-rich regions are seen to be largely absent in the DNA near the nuclear envelope. (From A. bolzer et al., PLoS Biol. 3:826\u2013842, 2005.) closely associated with the nuclear lamina, regardless of the chromosome examined. And DNA probes that preferentially stain gene-rich regions of human chromosomes produce a striking picture of the interphase nucleus that presumably reflects different average positions for active and inactive genes (Figure 4\u201354)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1023",
+            "title": "Cell_Biology_Alberts",
+            "content": "multispecies Sequence Comparisons Identify Conserved DNA Sequences of Unknown Function The mass of DNA sequence now in databases (hundreds of billions of nucleotide pairs) provides a rich resource that scientists can mine for many purposes. This information can be used not only to unscramble the evolutionary pathways that have led to modern organisms, but also to provide insights into how cells and organisms function. Perhaps the most remarkable discovery in this realm comes from the observation that a striking amount of DNA sequence that does not code for protein has been conserved during mammalian evolution (see Table 4\u20131, p. 184). This is most clearly revealed when we align and compare DNA synteny"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1443",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) On the basis of a comparison of 300 promoters, the frequencies of each of the four nucleotides at each position in the promoter are given. The consensus sequence, shown below the graph, reflects the most common nucleotide found at each position in the collection of promoters. These promoters are characterized by two hexameric DNA sequences\u2014the \u201335 sequence and the \u201310 sequence, named for their approximate location relative to the start point of transcription (designated +1). The sequence of nucleotides between the \u201335 and \u201310 hexamers shows no significant similarities among promoters."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1090",
+            "title": "Cell_Biology_Alberts",
+            "content": "4\u201314 Mobile pieces of DNA\u2014transposable elements\u2014 that insert themselves into chromosomes and accumulate during evolution make up more than 40% of the human genome. Transposable elements of four types\u2014long interspersed nuclear elements (LINEs), short interspersed nuclear elements (SINEs), long terminal repeat (LTR) retrotransposons, and DNA transposons\u2014are inserted more-or-less randomly throughout the human genome. These elements are conspicuously rare at the four homeobox gene clusters, HoxA, HoxB, HoxC, and HoxD, as illustrated for HoxD in Figure Q4\u20134, along with an equivalent region of chromosome 22, which lacks a Hox cluster. Each Hox cluster is about 100 kb in length and contains 9 to 11 genes, whose differential expression along the anteroposterior axis of the developing embryo establishes the basic body plan for humans (and for other animals). Why do you suppose that transposable elements are so rare in the Hox clusters?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1183",
+            "title": "Cell_Biology_Alberts",
+            "content": "The positions at which the DNA helix is first opened are called replication origins (Figure 5\u201323). In simple cells like those of bacteria or yeast, origins are specified by DNA sequences several hundred nucleotide pairs in length. This DNA contains both short sequences that attract initiator proteins and stretches of DNA that are especially easy to open. We saw in Figure 4\u20134 that an A-T base pair is held together by fewer hydrogen bonds than a G-C base pair. Therefore, DNA rich in A-T base pairs is relatively easy to pull apart, and regions of DNA enriched in A-T base pairs are typically found at replication origins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1837",
+            "title": "Cell_Biology_Alberts",
+            "content": "Activator proteins promote the Assembly of rnA polymerase at the Start point of transcription The cis-regulatory sequences to which eukaryotic transcription activator proteins bind were originally called enhancers because their presence \u201cenhanced\u201d the rate of transcription initiation. It came as a surprise when it was discovered that these sequences could be found tens of thousands of nucleotide pairs away from the promoter; as we have seen, DNA looping, which was not widely appreciated at the time, can now explain this initially puzzling observation. Once bound to DNA, how do assemblies of activator proteins increase the rate of transcription initiation? At most genes, mechanisms work in concert. Their function is both to attract and position RNA polymerase II at the promoter and to release it so that transcription can begin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1805",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201311 How nucleosomes effect the binding of transcription regulators. \u201cbreathing\u201d cis-regulatory sequence this open form occurs about 1/20th of the time (A) (B) compared to its affnity for naked DNA, a typical transcription regulator will bind with 20 times lower affnity if its cis-regulatory sequence is located near the end of a nucleosome a typical transcription regulator will bind with roughly 200-fold less affnity + + transcription regulatorhistone core + + + (C) if its cis-regulatory sequence is located in the middle of a nucleosome (D) one transcription regulator can destabilize the nucleosome, facilitating binding of another"
+        },
+        {
+            "id": "Cell_Biology_Alberts_984",
+            "title": "Cell_Biology_Alberts",
+            "content": "One very important approach to deciphering our genome is to search for DNA sequences that are closely similar between different species, on the principle that DNA sequences that have a function are much more likely to be conserved than those without a function. For example, humans and mice are thought to have diverged from a common mammalian ancestor about 80 \u00d7 106 years ago, which is long enough for the majority of nucleotides in their genomes to have been changed by random mutational events. Consequently, the only regions that will have remained closely similar in the two genomes are those in which mutations would have impaired function and put the animals carrying them at a disadvantage, resulting in their elimination from the population by natural selection. Such closely similar pieces of DNA sequence are known as conserved regions. In addition to revealing those DNA sequences that encode functionally important exons and RNA molecules, these conserved regions will include"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1519",
+            "title": "Biochemistry_Lippinco",
+            "content": "a. \u201335 Sequence: A consensus sequence (5\u2032-TTGACA-3\u2032), centered about 35 bases to the left of the transcription start site (see Fig. 31.7), is the initial point of contact for the holoenzyme, and a closed complex is formed. [Note: By convention, the regulatory sequences that control transcription are designated by the 5\u2032\u21923\u2032 nucleotide sequence on the coding strand. A base in the promoter region is assigned a negative number if it occurs prior to (to the left of, toward the 5\u2032-end of, or \u201cupstream\u201d of) the transcription start site. Therefore, the TTGACA sequence is centered at approximately base \u221235. The first base at the transcription start site is assigned a position of +1. There is no base designated \u201c0\u201d.] b."
+        },
+        {
+            "id": "Pathology_Robbins_120",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 DNA-binding domains permit specific binding to short DNA sequences. Whereas some transcription factor binding sites are found in promoters, close to the site where transcription starts, it is now appreciated that most transcription factors bind widely throughout genomes, including to long-range regulatory elements such as enhancers. Enhancers function by looping back to gene promoters, and therefore are spatially located close to the genes that they regulate, even though it terms of genomic sequence they may appear to be far Table 1.1 GrowthFactorsInvolvedinRegenerationandRepair away. These insights highlight the importance of chromatin organization in regulating gene expression, both normal and pathologic."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1829",
+            "title": "Cell_Biology_Alberts",
+            "content": "in this chapter. For now, we can regard much of this DNA as \u201cspacer\u201d sequences that transcription regulators do not directly recognize. It is important to keep in mind that, like other regions of eukaryotic chromosomes, most of the DNA in gene control regions is packaged into nucleosomes and higher-order forms of chromatin, thereby compacting its overall length and altering its properties."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1660",
+            "title": "Biochemistry_Lippinco",
+            "content": "regions on the DNA. Nucleosomes can also be repositioned, an ATP-requiring process that is part of chromatin remodeling. Another difference between transcriptionally active and inactive chromatin is the extent of methylation of cytosine bases in CG-rich regions (CpG islands) in the promoter region of many genes. Methylation is by methyltransferases that use S-adenosylmethionine as the methyl donor (Fig. 33.17). Transcriptionally active genes are less methylated (hypomethylated) than their inactive counterparts, suggesting that DNA hypermethylation silences gene expression. Modification of histones and methylation of DNA are epigenetic in that they are heritable changes in DNA that alter gene expression without altering the base sequence."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2303",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we discuss broadly how genes are identified in genome sequences and what clues we can discern about their roles from simply inspecting their sequences. Later in the chapter, we turn to the more difficult problem of experimentally determining gene function. How does one begin to make sense of a genome sequence? The first step is usually to translate in silico the entire genome into protein. There are six different reading frames for any piece of double-stranded DNA (three on each strand). We saw in Chapter 6 that a random sequence of nucleotides, read in frame, will PANeL 8\u20131: DNA Sequencing Methods"
+        },
+        {
+            "id": "Cell_Biology_Alberts_995",
+            "title": "Cell_Biology_Alberts",
+            "content": "have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5 humans and the great apes based on nucleotide sequence data. As indicated, the sequences of the genomes of all four millions of years before present species are estimated to differ from the sequence of the genome of their last common ancestor by a little over 1.5%. because changes occur independently on both diverging lineages, pairwise comparisons reveal twice the sequence divergence from the last common ancestor. For example, human\u2013orangutan comparisons typically show sequence 1.0 0.5 0.0 divergences of a little over 3%, while that have kept the sequences the same. Evidence for this view comes from the observation that the human and chimpanzee genomes are nearly identical even where there is no functional constraint on the nucleotide sequence\u2014such as in the third position of \u201csynonymous\u201d codons"
+        },
+        {
+            "id": "Cell_Biology_Alberts_994",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201362 A representation of the nucleotide sequence content of the sequenced human genome. The lINEs (long interspersed nuclear elements), SINEs (short interspersed nuclear elements), retroviral-like elements, and DNA-only transposons are mobile genetic elements that have multiplied in our genome by replicating themselves and inserting the new copies in different positions. These mobile genetic elements are discussed in Chapter 5 (see Table 5\u20133, p. 267). Simple sequence repeats are short nucleotide sequences (less than 14 nucleotide pairs) that are repeated again and again for long stretches. Segmental duplications are large blocks of DNA sequence (1000\u2013200,000 nucleotide pairs) that are present at two or more locations in the genome. The most highly repeated blocks of DNA in heterochromatin have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5"
+        },
+        {
+            "id": "Immunology_Janeway_2392",
+            "title": "Immunology_Janeway",
+            "content": "promote the accessibility to AID when they are being transcribed. Each switch region consists of many repeats of a G-rich sequence element on the non-template strand. For example, S\u03bc consists of about 150 repeats of the sequence (GAGCT)n(GGGGGT), where n is usually 3 but can be as many as 7. The sequences of the other switch regions (S\u03b3, S\u03b1, and S\u03b5) differ in exact sequence but all contain repeats of the GAGCT and GGGGGT sequences. It appears that movement of RNA polymerase through this highly repetitive region is occasionally halted\u2014called polymerase stalling. This may be caused by bubble-like structures, called R-loops, that form when the transcribed RNA displaces the non-template strand of the DNA double helix (see Fig. 10.21, third panel) due to having many G residues in tandem on one strand."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2235",
+            "title": "Cell_Biology_Alberts",
+            "content": "Sequence databases can be searched to find similar amino acid or nucleic acid sequences. Here, a search for proteins similar to the human cell-cycle regulatory protein Cdc2 (Query) locates maize Cdc2 (Sbjct), which is 68% identical to human Cdc2 in its amino acid sequence. The alignment begins at residue 57 of the Query protein, suggesting that the human protein has an N-terminal region that is absent from the maize protein. The green blocks indicate differences in sequence, and the yellow bar summarizes the similarities: when the two amino acid sequences are identical, the residue is shown; similar amino acid substitutions are indicated by a plus sign (+). Only one small gap has been introduced\u2014indicated by the red arrow at position 194 in the Query sequence\u2014to align the two sequences maximally. The alignment score (Score), which is expressed in two different types of units, takes into account penalties for substitutions and gaps; the higher the alignment score, the better the match."
+        },
+        {
+            "id": "Cell_Biology_Alberts_849",
+            "title": "Cell_Biology_Alberts",
+            "content": "core. The bending requires a substantial compression of the minor groove of the DNA helix. Certain dinucleotides in the minor groove are especially easy to compress, and some nucleotide sequences bind the nucleosome more tightly than others (Figure 4\u201325). This probably explains some striking, but unusual, cases of very precise positioning of nucleosomes along a stretch of DNA. However, the sequence preference of nucleosomes must be weak enough to allow other factors to dominate, inasmuch as nucleosomes can occupy any one of a number of positions relative to the DNA sequence in most chromosomal regions. In addition to its histone fold, each of the core histones has an N-terminal amino acid \u201ctail,\u201d which extends out from the DNA\u2013histone core (see Figure 4\u201324D). These histone tails are subject to several different types of covalent modifications that in turn control critical aspects of chromatin structure and function, as we shall discuss shortly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1444",
+            "title": "Cell_Biology_Alberts",
+            "content": "For convenience, the nucleotide sequence of a single strand of DNA is shown; in reality, promoters are double-stranded by the \u03c3 factor. These common features are often summarized in the form of a consensus sequence (Figure 6\u201312). A consensus nucleotide sequence is derived by comparing many sequences with the same basic function and tallying up the most common nucleotides found at each position. It therefore serves as a summary or \u201caverage\u201d of a large number of individual nucleotide sequences. A more accurate way of displaying the range of DNA sequences recognized by a protein is through the use of a sequence logo, which reveals the relative frequencies of each nucleotide at each position (Figure 6\u201312C)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_918",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201343 evidence for the plasticity of human centromere formation. (A) A series of A-T-rich alpha satellite DNA sequences is repeated many thousands of times at each human centromere (red), and is surrounded by pericentric heterochromatin (brown). However, due to an ancient chromosome breakage-and-rejoining event, some human chromosomes contain two blocks of alpha satellite DNA, each of which presumably functioned as a centromere in its original chromosome. Usually, chromosomes with two functional centromeres are not stably propagated because they attach improperly to the spindle and are broken apart during mitosis. In chromosomes that do survive, however, one of the centromeres has somehow become inactivated, even though it contains all the necessary DNA sequences. This allows the chromosome to be stably propagated. (b) In a small fraction (1/2000) of human births, extra chromosomes are observed in cells of the offspring. Some of these extra chromosomes, which have formed from a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1459",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201316 Consensus sequences found in the vicinity of eukaryotic RNA polymerase II start points. The name given to each consensus sequence (first column) and the general transcription factor that recognizes it (last column) are indicated. N indicates any nucleotide, and two nucleotides separated by a slash indicate an equal probability of either nucleotide at the indicated position. In reality, each consensus sequence is a shorthand representation of a histogram similar to that of Figure 6\u201312. For most RNA polymerase II transcription start points, only two or three of the four sequences are present. For example, many polymerase II promoters have a TATA box sequence, but those that do not typically have a \u201cstrong\u201d INR sequence. Although most of the DNA sequences that influence transcription initiation are located upstream of the transcription start point, a few, such as the DPE shown in the figure, are located in the transcribed region."
+        },
+        {
+            "id": "Cell_Biology_Alberts_507",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Human Genome Encodes a Complex Set of Proteins, Revealing That Much Remains Unknown The result of sequencing the human genome has been surprising, because it reveals that our chromosomes contain only about 21,000 protein-coding genes. Based on this number alone, we would appear to be no more complex than the tiny mustard weed, Arabidopsis, and only about 1.3-fold more complex than a nematode worm. The genome sequences also reveal that vertebrates have inherited nearly all of their protein domains from invertebrates\u2014with only 7% of identified human domains being vertebrate-specific. Each of our proteins is on average more complicated, however (Figure 3\u201317). Domain shuffling during vertebrate evolution has given rise to many novel"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1769",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u20133 Differences in RNA levels for two human genes in seven different tissues. to obtain the rnA data by the technique known as RNA-seq (see p. 447), rnA was collected from human cell lines grown in culture, derived from each of the seven indicated tissues. Millions of \u201csequence reads\u201d were obtained and mapped across the human genome by matching rnA sequences to the DnA sequence of the genome. At each position along the genome, the height of the colored trace is proportional to the number of sequence reads that match the genome sequence at that point. As seen in the figure, the exon sequences in transcribed genes are present at high levels, reflecting their presence in mature mrnAs. intron sequences are present at much lower levels and reflect pre-mrnA molecules that have not yet been spliced plus intron sequences that have been spliced out but not yet degraded. (A) the gene coding for \u201call-purpose\u201d actin, a major component of the cytoskeleton. note that the left-hand end of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1856",
+            "title": "Cell_Biology_Alberts",
+            "content": "Gene repression is especially important to animals and plants whose growth depends on elaborate and complex developmental programs. Misexpression of a single gene at a critical time can have disastrous consequences for the individual. For this reason, many of the genes encoding the most important developmental regulatory proteins are kept tightly repressed when they are not needed. sequence domain of actively Figure 7\u201324 Schematic diagram summarizing the properties of insulators and barrier sequences. (A) insulators directionally block the action of cis-regulatory sequences, whereas barrier sequences prevent the spread of heterochromatin. how barrier sequences likely function is depicted in figure 4\u201341. (B) insulator-binding proteins (purple) hold chromatin in loops, thereby favoring \u201ccorrect\u201d cis-regulatory sequence\u2013gene associations. thus, gene B is properly regulated, and gene B\u2019s cisregulatory sequences are prevented from influencing the transcription of gene A."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1034",
+            "title": "Cell_Biology_Alberts",
+            "content": "About 50 such sites were identified in one study, one-fourth of which were located near genes associated with neural development. The sequence exhibiting the most rapid change (18 changes between human and chimpanzee, compared to only two changes between chimpanzee and chicken) was examined further and found to encode a 118-nucleotide noncoding RNA molecule, HAR1F (human accelerated region 1F), that is produced in the human cerebral cortex at a critical time during brain development. The function of this HAR1F RNA is not yet known, but findings of this type are stimulating research studies that may shed light on crucial features of the human brain."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2462",
+            "title": "Cell_Biology_Alberts",
+            "content": "Chromatin immunoprecipitation can also be used to deduce the cis-regulatory sequences recognized by a given transcription regulator. Here, all the DNA sequences precipitated by the regulator are lined up (by computer) and features in common are tabulated to produce the spectrum of cis-regulatory sequences recognized by the protein (see Figure 7\u20139A). Chromatin immunoprecipitation is also used routinely to identify the positions along a genome that are bound by the various types of modified histones discussed in Chapter 4. In this case, antibodies specific to the particular histone modification are employed (see Figure 8\u201367). A variation of the technique can also be used to map positions of chromosomes that are in physical proximity (see Figure 4\u201348). Ribosome Profiling Reveals Which mRNAs Are Being Translated in the Cell"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1780",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription of each gene is, in turn, controlled by its own collection of cis-regulatory sequences. These typically lie near the gene, often in the intergenic region directly upstream from the transcription start point of the gene. Although a few genes are controlled by a single cis-regulatory sequence that is recognized by a single transcription regulator, the majority have complex arrangements of cis-regulatory sequences, each of which is recognized by a different transcription regulator. It is therefore the positions, identity, and arrangement of cis-regulatory sequences\u2014which are an important part of the information embedded in the genome\u2014that ultimately determine the time and place that each gene is transcribed. We begin our discussion by describing how transcription regulators recognize cis-regulatory sequences. the Sequence of nucleotides in the DnA Double helix Can Be read by proteins"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1089",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q4\u20133 Position effect on expression of the yeast Ade2 gene (Problem 4\u201313). The Ade2 gene codes for one of the enzymes of adenosine biosynthesis, and the absence of the Ade2 gene product leads to the accumulation of a red pigment. Therefore a colony of cells that express Ade2 is white, and one composed of cells in which the Ade2 gene is not expressed is red. gene is still located near telomeres. Explain why white sectors have formed near the rim of the red colony. Based on the patterns observed, what can you conclude about the propagation of the transcriptional state of the Ade2 gene from mother to daughter cells in this experiment?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1002",
+            "title": "Cell_Biology_Alberts",
+            "content": "slowly for sequences that are subject to strong functional constraints\u2014for example, the amino acid sequences of proteins that engage in specific interactions with large numbers of other proteins and whose structure is therefore highly constrained, or the nucleotide sequences that encode the RNA subunits of the ribosome, on which all protein synthesis depends."
+        },
+        {
+            "id": "First_Aid_Step1_9",
+            "title": "First_Aid_Step1",
+            "content": "Low glucose \u008e\u008f adenylate cyclase activity \u008e\u008f generation of cAMP from ATP \u008e activation of catabolite activator protein (CAP) \u008e\u2022 transcription. High lactose \u008e unbinds repressor protein from repressor/operator site \u008e\u2022 transcription. Binds CAP site, Lacl LacZ LacY LacACAP site Promoter Operator Repressor protein Lacoperon Bindsoperator, blockstranscription organization of a eukaryotic gene Exon Intron Exon Intron Exon Regulation of gene expression Silencer DNA locus where regulatory proteins (\u201crepressors\u201d) bind, decreasing expression of a gene on the same chromosome. Initial transcript is called heterogeneous nuclear RNA (hnRNA). hnRNA is then modified and becomes mRNA. The following processes occur in the nucleus: Capping of 5\u2032 end (addition of 7-methylguanosine cap) Polyadenylation of 3\u2032 end (\u2248 200 As) Splicing out of introns Capped, tailed, and spliced transcript is called mRNA. mRNA is transported out of nucleus to be translated in cytosol."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1587",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Shine-Dalgarno sequence: In Escherichia coli (E. coli), a purine-rich sequence of nucleotide bases, known as the Shine-Dalgarno (SD) sequence, is located six to ten bases upstream of the initiating AUG codon on the mRNA molecule (that is, near its 5\u2032-end). The 16S rRNA component of the small (30S) ribosomal subunit has a nucleotide sequence near its 3\u2032-end that is complementary to all or part of the SD sequence. Therefore, the 5\u2032-end of the mRNA and the 3\u2032-end of the 16S rRNA can form complementary base pairs, facilitating the positioning of the 30S subunit on the mRNA in close proximity to the initiating AUG codon (Fig. 32.10). 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6094",
+            "title": "Cell_Biology_Alberts",
+            "content": "21\u201314 The segmentation of somites in vertebrate embryos is thought to depend on oscillations in the expression of the Hes7 gene. Mathematical modeling explains these oscillations in terms of the delays in production of the unstable Hes7 protein, which acts as a transcription regulator to shut off its own expression. Once Hes7 decays, with a half-life of about 20 minutes, its transcription resumes. To test this model, you decide to reduce the total delay by removing one, two, or all three of the introns from the Hes7 gene in mice. Why do you expect that intron removal would reduce the delay? What would you predict would happen to the oscillation time, and somite formation, if the model were correct?"
+        }
+    ],
+    "scores": [
+        0.024657248333529003,
+        0.023052851419899097,
+        0.022824864712910252,
+        0.016443850267379677,
+        0.0163265306122449,
+        0.016146326080100915,
+        0.015938531877063754,
+        0.015874015748031496,
+        0.01547043938348286,
+        0.015438596491228071,
+        0.015093273035613341,
+        0.01497189575881451,
+        0.014870093974571588,
+        0.013620071684587814,
+        0.013531566472742944,
+        0.013393239195549852,
+        0.013333333333333332,
+        0.01286918988050038,
+        0.012543922620621907,
+        0.01227409638554217,
+        0.012121870024605587,
+        0.011984068238694441,
+        0.011892756546232222,
+        0.011673414304993253,
+        0.010882352941176471,
+        0.010725859646103989,
+        0.010555926916221033,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745
+    ]
+}

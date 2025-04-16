@@ -1,0 +1,206 @@
+{
+    "id": "5c52cde87e3cb0e23100000e",
+    "question": "Does allele phasing improve the phylogenetic utility of ultraconserved elements?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand what allele phasing is and how it relates to phylogenetic utility of ultraconserved elements.\\n\\nAllele phasing is the process of determining the order of alleles at a particular locus in a genome. In the context of ultraconserved elements, allele phasing can help to identify the original sequence of the element in different species and reconstruct its evolutionary history.\\n\\nUltraconserved elements are regions of the genome that are highly conserved across different species, suggesting that they have an important function. However, their original sequence may have been disrupted by recombination events, making it difficult to determine their true phylogenetic relationships.\\n\\nAllele phasing can help to resolve this issue by allowing researchers to reconstruct the original sequence of the ultraconserved element in different species and identify the most likely ancestral sequence. This, in turn, can improve the phylogenetic utility of these elements by providing a more accurate understanding of their evolutionary relationships and functions.\\n\\nTherefore, the answer to the question is that allele phasing can improve the phylogenetic utility of ultraconserved elements.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1030",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eric D. green.) for it to succeed in nature. Moreover, calculations based on population genetics reveal that just a tiny selective advantage\u2014less than a 0.1% difference in survival\u2014can be enough to strongly favor retaining a particular DNA sequence over evolutionary time spans. One should therefore not be surprised to find that many DNA sequences that are ultraconserved can be deleted from the mouse genome without any noticeable effect on that mouse in a laboratory."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1026",
+            "title": "Cell_Biology_Alberts",
+            "content": "Most of the noncoding conserved sequences discovered in this way turn out to be relatively short, containing between 50 and 200 nucleotide pairs. Among the most mysterious are the so-called \u201cultraconserved\u201d noncoding sequences, exemplified by more than 5000 DNA segments over 100 nucleotides long that are exactly the same in human, mouse, and rat. Most have undergone little or no change since mammalian and bird ancestors diverged about 300 million years ago. The strict conservation implies that even though the sequences do not encode proteins, each nevertheless has an important function maintained by purifying selection. The puzzle is to unravel what those functions are."
+        },
+        {
+            "id": "Cell_Biology_Alberts_997",
+            "title": "Cell_Biology_Alberts",
+            "content": "For much less closely related organisms, such as humans and chickens (which have evolved separately for about 300 million years), the sequence conservation found in genes is almost entirely due to purifying selection (that is, selection that eliminates individuals carrying mutations that interfere with important genetic functions), rather than to an inadequate time for mutations to occur. Phylogenetic Trees Constructed from a Comparison of DNA Sequences Trace the Relationships of All Organisms Phylogenetic trees based on molecular sequence data can be compared with the fossil record, and we get our best view of evolution by integrating the two approaches. The fossil record remains essential as a source of absolute dates, human\u2013chimpanzee comparisons show divergences of approximately 1.2%. (modified from F.C. Chen and w.H. li, Am. J. Hum. Genet. 68:444\u2013456, 2001.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1083",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other sequence comparisons show that a great deal of the genetic complexity of present-day organisms is due to the expansion of ancient gene families. DNA duplication followed by sequence divergence has clearly been a major source of genetic novelty during evolution. On a more recent time scale, the genomes of any two humans will differ from each other both because of nucleotide substitutions (single-nucleotide polymorphisms, or SNPs) and because of inherited DNA gains and DNA losses that cause copy number variations (CNVs). Understanding the effects of these differences will improve both medicine and our understanding of human biology. Which statements are true? explain why or why not. How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1082",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because of purifying selection, the comparison of the genome sequences of multiple related species is an especially powerful way to find DNA sequences with important functions. Although about 5% of the human genome has been conserved as a result of purifying selection, the function of the majority of this DNA (tens of thousands of multispecies conserved sequences) remains mysterious. Future experiments characterizing its functions should teach us many new lessons about vertebrate biology."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1081",
+            "title": "Cell_Biology_Alberts",
+            "content": "When one compares the genomes of two more distantly related organisms\u2014such as a human and a mouse, separated by about 80 million years\u2014one finds many more changes. Now the effects of natural selection can be clearly seen: through purifying selection, essential nucleotide sequences\u2014both in regulatory regions and in coding sequences (exons)\u2014have been highly conserved. In contrast, nonessential sequences (for example, much of the DNA in introns) have been altered to such an extent that one can no longer see any family resemblance."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1071",
+            "title": "Cell_Biology_Alberts",
+            "content": "The intraspecies variations that have been most extensively characterized, however, are single-nucleotide polymorphisms (SNPs). These are simply points in the genome sequence where one large fraction of the human population has one nucleotide, while another substantial fraction has another. To qualify as Figure 4\u201378 How founder effects determine the set of genetic variants in a population of individuals belonging to the same species. This example illustrates how a rare allele (red) can become established in an isolated population, even though the mutation that produced it has no selective advantage\u2014or is mildly deleterious."
+        },
+        {
+            "id": "Cell_Biology_Alberts_984",
+            "title": "Cell_Biology_Alberts",
+            "content": "One very important approach to deciphering our genome is to search for DNA sequences that are closely similar between different species, on the principle that DNA sequences that have a function are much more likely to be conserved than those without a function. For example, humans and mice are thought to have diverged from a common mammalian ancestor about 80 \u00d7 106 years ago, which is long enough for the majority of nucleotides in their genomes to have been changed by random mutational events. Consequently, the only regions that will have remained closely similar in the two genomes are those in which mutations would have impaired function and put the animals carrying them at a disadvantage, resulting in their elimination from the population by natural selection. Such closely similar pieces of DNA sequence are known as conserved regions. In addition to revealing those DNA sequences that encode functionally important exons and RNA molecules, these conserved regions will include"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1038",
+            "title": "Cell_Biology_Alberts",
+            "content": "The vast hoard of genomic sequence data now being accumulated can be explored in many other ways to reveal events that happened even hundreds of millions of years ago. For example, one can attempt to trace the origins of the regulatory elements in DNA that have played critical parts in vertebrate evolution. One such study began with the identification of nearly 3 million noncoding sequences, averaging 28 base pairs in length, that have been conserved in recent vertebrate evolution while being absent in more ancient ancestors. Each of these special non-coding sequences is likely to represent a functional innovation peculiar to a particular branch of the vertebrate family tree, and most of them are thought to consist of regulatory DNA that governs the expression of a neighboring gene. Given full genome sequences, one can identify the genes that lie closest and thus appear most likely to have fallen under the sway of these novel regulatory elements. By comparing many different species,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1091",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q4\u20134 Transposable elements and genes in 1-mb regions of chromosomes 2 and 22 (Problem 4\u201314). Blue lines that project upward indicate exons of known genes. Red lines that project downward indicate transposable elements; they are so numerous (constituting more than 40% of the human genome) that they merge into nearly a solid block outside the Hox clusters. (Adapted from E. lander et al., Nature 409:860\u2013921, 2001. with permission from macmillan Publishers ltd.) Armstrong l (2014) Epigenetics. New York: garland Science. Hartwell l, Hood l, goldberg ml et al. (2010) genetics: From genes to genomes, 4th ed. boston, mA: mcgraw Hill. Jobling m, Hollox E, Hurles m et al. (2014) Human Evolutionary genetics, 2nd ed. New York: garland Science. Strachan T & Read AP (2010) Human molecular genetics, 4th ed. New York: garland Science. The Structure and Function of DNA"
+        },
+        {
+            "id": "InternalMed_Harrison_4786",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 82 Principles of Human Genetics FIGURE 82-4 The origin of haplotypes is due to repeated recombination events occurring in multiple generations. Over time, this leads to distinct haplotypes. These haplotype blocks can often be characterized by genotyping selected Tag single-nucleotide polymorphisms (SNPs), an approach that facilitates performing genome-wide association studies (GWAS). because the complement of mRNAs transcribed by the cellular genome is called the transcriptome. Most studies of gene expression have focused on the regulatory DNA elements of genes that control transcription. However, it should be emphasized that gene expression requires a series of steps, including mRNA processing, protein translation, and posttranslational modifications, all of which are actively regulated (Fig. 82-2)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_991",
+            "title": "Cell_Biology_Alberts",
+            "content": "sequences and segments of existing genes. Over long periods of evolutionary time, DNA transposition events have profoundly affected genomes, so much so that nearly half of the DNA in the human genome consists of recognizable relics of past transposition events (Figure 4\u201362). Even more of our genome is thought to have been derived from transpositions that occurred so long ago (>108 years) that the sequences can no longer be traced to transposons."
+        },
+        {
+            "id": "InternalMed_Harrison_5177",
+            "title": "InternalMed_Harrison",
+            "content": "Alpha Diversity Alpha diversity is defined as the effective number of species present in a given sample. Communities that are compositionally more diverse (i.e., have more OTUs) or that are phylogenetically more diverse are defined as having greater alpha diversity. Alpha diversity can be measured by plotting the number of different types of SSU rRNA sequences identified at a given phylogenetic level (species, genera, etc.) in a sample as a function of the number of SSU rRNA gene reads collected. The most commonly used metrics of alpha diversity are Sobs (the number of species observed in a given number of sequences), Chao1 (a measure based on the number of species observed only once), the Shannon index (a measure of the number of bits of information gained by revealing the identity of a randomly chosen member of the community), and phylogenetic diversity (a measure of the total branch length of a phylogenetic tree encompassing a sample). Diversity estimators are particularly"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1032",
+            "title": "Cell_Biology_Alberts",
+            "content": "Given genome sequence information, we can tackle another intriguing question: What alterations in our DNA have made humans so different from other animals\u2014or for that matter, what makes any individual species so different from its relatives? For example, as soon as both the human and the chimpanzee genome sequences became available, scientists began searching for DNA sequence changes that might account for the striking differences between us and chimpanzees. With 3.2 billion nucleotide pairs to compare in the two species, this might seem an impossible task. But the job was made much easier by confining the search to 35,000 clearly defined multispecies conserved sequences (a total of about 5 million nucleotide pairs), representing parts of the genome that are most likely to be functionally important. Though these sequences are conserved strongly, they are not conserved perfectly, and when the version in one species is compared with that in another they are generally found to have"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1010",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201366 A phylogenetic tree showing the evolutionary relationships of some present-day mammals. The length of each line is proportional to the number of \u201cneutral substitutions\u201d\u2014that is, nucleotide changes at sites where there is assumed to be no purifying selection. (Adapted from g.m. Cooper et al., Genome Res. 15:901\u2013913, 2005. with permission from Cold Spring Harbor laboratory Press.) Good evidence for the loss of DNA sequences in small blocks during evolution can be obtained from a detailed comparison of regions of synteny in the human and mouse genomes. The comparative shrinkage of the mouse genome can be clearly seen from such comparisons, with the net loss of sequences scattered throughout the long stretches of DNA that are otherwise homologous (Figure 4\u201368)."
+        },
+        {
+            "id": "InternalMed_Harrison_5178",
+            "title": "InternalMed_Harrison",
+            "content": "of a randomly chosen member of the community), and phylogenetic diversity (a measure of the total branch length of a phylogenetic tree encompassing a sample). Diversity estimators are particularly sensitive to errors introduced during PCR and sequencing."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1080",
+            "title": "Cell_Biology_Alberts",
+            "content": "Comparisons of the nucleotide sequences of present-day genomes have revolutionized our understanding of gene and genome evolution. Because of the extremely high fidelity of DNA replication and DNA repair processes, random errors in maintaining the nucleotide sequences in genomes occur so rarely that only about one nucleotide in a thousand is altered in every million years in any particular eukaryotic line of descent. Not surprisingly, therefore, a comparison of human and chimpanzee chromosomes\u2014which are separated by about 6 million years of evolution\u2014 reveals very few changes. Not only are our genes essentially the same, but their order on each chromosome is almost identical. Although a substantial number of segmental duplications and segmental deletions have occurred in the past 6 million years, even the positions of the transposable elements that make up a major portion of our noncoding DNA are mostly unchanged."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1013",
+            "title": "Cell_Biology_Alberts",
+            "content": "About 90% of the two genomes can be aligned in this way. Note that while there is an identical order of the matched index sequences (red marks), there has been a net loss of DNA in the mouse lineage that is interspersed throughout the entire region. This type of net loss is typical for all such regions, and it accounts for the fact that the mouse genome contains 14% less DNA than does the human genome. (Adapted from mouse genome Sequencing Consortium, Nature 420:520\u2013562, 2002. with permission from macmillan Publishers ltd.) 10,000 nucleotide pairs of the mammalian genome. An extreme example is the puffer fish, Fugu rubripes (Figure 4\u201370), which has a tiny genome for a vertebrate (0.4 billion nucleotide pairs compared to 1 billion or more for many other fish). The small size of the Fugu genome is largely due to the small size of its introns. Specifically, Fugu introns, as well as other noncoding segments of the Fugu genome, lack the repetitive DNA that makes up a large portion of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1376",
+            "title": "Cell_Biology_Alberts",
+            "content": "\u2022 How does DNA replication contend with all the other processes that occur simultaneously on chromosomes, very early in development. The same strategy can also be used to inappropriately including DNA repair and gene express any specific gene in a tissue of interest; here, the triggered deletion joins transcription? a strong transcriptional promoter to the gene of interest. With this tool one can in principle determine the influence of any protein in any desired tissue of an intact \u2022 What is the basis for the low animal. frequency of errors in DNA replication observed in all cells? Is this the best that cells can do given the speed of replication and the limits of molecular The genomes of nearly all organisms contain mobile genetic elements that can move diffusion? Was this mutation rate from one position in the genome to another by either transpositional or conserva-selected in evolution to provide genetic variation?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1015",
+            "title": "Cell_Biology_Alberts",
+            "content": "While initially a mystery, we now have a simple explanation for such large differences in genome size between similar organisms: because all vertebrates experience a continuous process of DNA loss and DNA addition, the size of a genome merely depends on the balance between these opposing processes acting over millions of years. Suppose, for example, that in the lineage leading to Fugu, the rate of DNA addition happened to slow greatly. Over long periods of time, this would result in a major \u201ccleansing\u201d from this fish genome of those DNA sequences whose loss could be tolerated. The result is an unusually compact genome, relatively free of junk and clutter, but retaining through purifying selection the vertebrate DNA sequences that are functionally important. This makes Fugu, with its 400 million nucleotide pairs of DNA, a valuable resource for genome research aimed at understanding humans. we Can Infer the Sequence of Some Ancient genomes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2380",
+            "title": "Cell_Biology_Alberts",
+            "content": "To understand why such haplotype blocks exist, we need to consider our evolutionary history. It is thought that modern humans expanded from a relatively small population\u2014perhaps around 10,000 individuals\u2014that existed in Africa about 60,000 years ago. Among that small group of our ancestors, some individuals will have carried one set of genetic variants, others a different set. The chromosomes of a present-day human represent a shuffled combination of chromosome segments from different members of this small ancestral group of people. Because only about two thousand generations separate us from them, large segments of these ancestral chromosomes have passed from parent to child, unbroken by the crossover events that occur during meiosis. As described in Chapter 5, only a few crossovers occur between each set of homologous chromosomes during each meiosis (see Figure 5\u201353)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2379",
+            "title": "Cell_Biology_Alberts",
+            "content": "Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors When we compare the sequences of multiple human genomes, we find that any two individuals will differ in roughly 1 nucleotide pair in 1000. Most of these variations are common and relatively harmless. When two sequence variants coexist in the population and both are common, the variants are called polymorphisms. The majority of polymorphisms are due to the substitution of a single nucleotide, called single-nucleotide polymorphisms or SNPs (Figure 8\u201350). The rest are due largely to insertions or deletions\u2014called indels when the change is small, or copy number variations (CNVs) when it is large. Although these common variants can be found throughout the genome, they are not scattered randomly\u2014or even independently. Instead, they tend to travel in groups called haplotype blocks\u2014combinations of polymorphisms that are inherited as a unit."
+        },
+        {
+            "id": "Cell_Biology_Alberts_102",
+            "title": "Cell_Biology_Alberts",
+            "content": "Given the complete genome sequences of representative organisms from all three domains\u2014archaea, bacteria, and eukaryotes\u2014we can search systematically for homologies that span this enormous evolutionary divide. In this way we can begin to take stock of the common inheritance of all living things. There are considerable difficulties in this enterprise. For example, individual species have often lost some of the ancestral genes; other genes have almost certainly been acquired by horizontal transfer from another species and therefore are not truly ancestral, even though shared. In fact, genome comparisons strongly suggest that both lineage-specific gene loss and horizontal gene transfer, in some cases between evolutionarily distant species, have been major factors of evolution, at least among prokaryotes. Finally, in the course of 2 or 3 billion years, some genes that were initially shared will have changed beyond recognition through mutation."
+        },
+        {
+            "id": "InternalMed_Harrison_5152",
+            "title": "InternalMed_Harrison",
+            "content": "the SSU gene sequences present in different organisms in that domain to be accurately aligned and regions of nucleotide sequence variation to be identified. Pairwise comparisons of SSU ribosomal RNA (rRNA) genes from different microbes allow construction of a phylogenetic tree that represents an evolutionary map on which previously unknown organisms can be assigned a position. This approach, known as molecular phylogenetics, permits characterization of each organism on the basis of its evolutionary distance from other organisms. Different phylogenetic types (phylotypes) can be viewed as comprising branches on an evolutionary tree."
+        },
+        {
+            "id": "InternalMed_Harrison_5143",
+            "title": "InternalMed_Harrison",
+            "content": "Phylogenetic analysis Characterization of the evolutionary relationships between organisms and their gene products Phylogenetic tree A \u201ctree\u201d in which organisms are shown according to their relationships to hypothetical common ancestors. When built from molecular sequences, the branch lengths are proportional to the amount of evolutionary change separating each ancestor\u2013descendant pair. Phylotype A phylogenetic group of microbes, currently defined by a threshold percentage identity shared among their small-subunit rRNA genes (e.g., \u226597% for a species-level phylotype) Principal coordinates An ordination method for visualizing multivariate data based on the similarity/dissimilarity of the measured entities (e.g., visualization analysis of bacterial communities based on their UniFrac distances; see \u201cUniFrac,\u201d below)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_196",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Does this tree support or refute the hypothesis that the plant hemoglobins arose by horizontal gene transfer? b. Supposing that the plant hemoglobin genes were originally derived from a parasitic nematode, for example, what would you expect the phylogenetic tree to look like? 1\u201312 Rates of evolution appear to vary in different lineages. For example, the rate of evolution in the rat lineage is significantly higher than in the human lineage. These rate differences are apparent whether one looks at changes in nucleotide sequences that encode proteins and are subject to selective pressure or at changes in noncoding nucleotide sequences, which are not under obvious selection pressure. Can you offer one or more possible explanations for the slower rate of evolutionary change in the human lineage versus the rat lineage? Alberts B, Bray d, hopkin k et al. (2014) essential cell Biology, 4th ed. new york: Garland science."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1377",
+            "title": "Cell_Biology_Alberts",
+            "content": "tive site-specific recombination processes. In most cases, this movement is random and happens at a very low frequency. Mobile genetic elements include transposons, which move within a single cell (and its descendants), plus those viruses whose genomes can integrate into the genomes of their host cells. ways of repairing it. Are there still There are three classes of transposons: the DNA-only transposons, the retrovi other, undiscovered ways that cells ral-like retrotransposons, and the nonretroviral retrotransposons. All but the last have for repairing DNA? have close relatives among the viruses. Although viruses and transposable elements can be viewed as parasites, many of the new arrangements of DNA sequences that \u2022 Do the many \u201cdead\u201d transposons their site-specific recombination events produce have played an important part in in the human genome provide any creating the genetic variation crucial for the evolution of cells and organisms. benefits to humans?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1090",
+            "title": "Cell_Biology_Alberts",
+            "content": "4\u201314 Mobile pieces of DNA\u2014transposable elements\u2014 that insert themselves into chromosomes and accumulate during evolution make up more than 40% of the human genome. Transposable elements of four types\u2014long interspersed nuclear elements (LINEs), short interspersed nuclear elements (SINEs), long terminal repeat (LTR) retrotransposons, and DNA transposons\u2014are inserted more-or-less randomly throughout the human genome. These elements are conspicuously rare at the four homeobox gene clusters, HoxA, HoxB, HoxC, and HoxD, as illustrated for HoxD in Figure Q4\u20134, along with an equivalent region of chromosome 22, which lacks a Hox cluster. Each Hox cluster is about 100 kb in length and contains 9 to 11 genes, whose differential expression along the anteroposterior axis of the developing embryo establishes the basic body plan for humans (and for other animals). Why do you suppose that transposable elements are so rare in the Hox clusters?"
+        },
+        {
+            "id": "InternalMed_Harrison_9683",
+            "title": "InternalMed_Harrison",
+            "content": "Through the use of novel genomic tools such as high-throughput sequencing, the diversity of a microbial population can now be rapidly described with unprecedented resolution, with discrimination between isolates that have single-nucleotide differences across the entire genome and advancement beyond prior approaches that relied on phenotypes (such as antibiotic resistance testing) or genetic markers (such as multilocus sequence typing). The development of statistical methods grounded in molecular genetics and evolutionary theory has established analytical approaches that translate descriptions of microbial population diversity and structure into insights into the origin and history of pathogen spread. By linking phylogenetic reconstruction with epidemiologic and demographic data, genomic epidemiology provides the opportunity to track transmission from person to person, to infer transmission patterns of both pathogens and sequence elements that confer phenotypes of interest, and to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_994",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201362 A representation of the nucleotide sequence content of the sequenced human genome. The lINEs (long interspersed nuclear elements), SINEs (short interspersed nuclear elements), retroviral-like elements, and DNA-only transposons are mobile genetic elements that have multiplied in our genome by replicating themselves and inserting the new copies in different positions. These mobile genetic elements are discussed in Chapter 5 (see Table 5\u20133, p. 267). Simple sequence repeats are short nucleotide sequences (less than 14 nucleotide pairs) that are repeated again and again for long stretches. Segmental duplications are large blocks of DNA sequence (1000\u2013200,000 nucleotide pairs) that are present at two or more locations in the genome. The most highly repeated blocks of DNA in heterochromatin have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1061",
+            "title": "Cell_Biology_Alberts",
+            "content": "compared. For example, typical human and chimpanzee DNA sequences differ from one another by about 1%. In contrast, when the same region of the genome is sampled from two randomly chosen humans, the differences are typically about 0.1%. For more distantly related organisms, the interspecies differences outshine intraspecies variation even more dramatically. However, each \u201cfixed difference\u201d between the human and the chimpanzee (in other words, each difference that is now characteristic of all or nearly all individuals of each species) started out as a new mutation in a single individual. If the size of the interbreeding population in which the mutation occurred is N, the initial allele frequency for a new mutation would be 1/(2N) for a diploid organism. How does such a rare mutation become fixed in the population, and hence become a characteristic of the species rather than of a few scattered individuals?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1003",
+            "title": "Cell_Biology_Alberts",
+            "content": "Occasionally, rapid change is seen in a previously highly conserved sequence. As discussed later in this chapter, such episodes are especially interesting because they are thought to reflect periods of strong positive selection for mutations that have conferred a selective advantage in the particular lineage where the rapid change occurred. The pace at which molecular clocks run during evolution is determined not only by the degree of purifying selection, but also by the mutation rate. Most notably, in animals, although not in plants, clocks based on functionally unconstrained mitochondrial DNA sequences run much faster than clocks based on functionally unconstrained nuclear sequences, because the mutation rate in animal mitochondria is exceptionally high."
+        }
+    ],
+    "scores": [
+        0.034018832272211294,
+        0.030706131320855062,
+        0.028537377378041004,
+        0.02511939879196516,
+        0.024641459665304125,
+        0.023945112380588156,
+        0.023806071976803688,
+        0.0224544152685703,
+        0.021529290136193417,
+        0.02124898930921605,
+        0.01971184748336521,
+        0.01866630861369161,
+        0.018499573742540493,
+        0.018326616059071474,
+        0.01779500158177792,
+        0.0177750058470414,
+        0.017773253993109927,
+        0.01740314769975787,
+        0.01736367666617408,
+        0.01731893837156995,
+        0.016979382178782906,
+        0.01685159500693481,
+        0.016741071428571428,
+        0.016394544110730366,
+        0.016196721311475412,
+        0.01611875637104995,
+        0.01605126253013577,
+        0.015842564515130886,
+        0.015765765765765764,
+        0.015584415584415586,
+        0.015560966918097049,
+        0.015363786202024958
+    ]
+}

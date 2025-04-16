@@ -1,0 +1,206 @@
+{
+    "id": "6060df1e94d57fd879000047",
+    "question": "Is there an upper limit on the functional fraction of the human genome?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the information provided in the documents. The human genome consists of approximately 3.2 billion nucleotide pairs, and most of this is thought to be functionally unimportant. The regions that code for amino acid sequences of proteins (exons) are typically found in short segments (average size about 145 nucleotide pairs) and are interspersed with noncoding DNA (introns). The noncoding regions can be further divided into various functional classes, including regulatory RNAs, mobile genetic elements, and other noncoding segments. The human genome also contains many thousands of genes that encode RNA molecules that do not produce proteins but have other important functions. The size of a gene is also notable, with the average gene size being about 27,000 nucleotide pairs, and most of the remaining sequence in a gene consists of long stretches of noncoding DNA. The majority of human genes thus consist of a long string of alternating exons and introns, with most of the gene consisting of introns. Considering these points, it is clear that there is no clear upper limit on the functional fraction of the human genome, as it can be estimated that only about 2% of the genome is crucial information.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1404",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20132 Schematic depiction of a small portion of the human X chromosome. As summarized in the key, the known protein-coding genes (starting with Abcd1 and ending with F8) are shown in dark gray, with coding regions (exons) indicated by bars that extend above and below the central line. Noncoding RNAs with known functions are indicated by purple diamonds. Yellow triangles indicate positions within protein-coding regions where the Neanderthal genome sequences codes for a different amino acid than the human genome. The stretch of yellow triangles in the Txtl1 gene appear to have been positively selected for since the divergence of Homo sapiens from Neanderthals some 200,000 years ago. Note that most of the proteins are identical between us and our extinct relative. The blue histogram indicates the extent to which portions of the human genome are conserved with other vertebrate species. It is likely that additional genes, currently unrecognized, also lie within this portion of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_983",
+            "title": "Cell_Biology_Alberts",
+            "content": "A first obstacle in interpreting the sequence of the 3.2 billion nucleotide pairs in the human genome is the fact that much of it is probably functionally unimportant. The regions of the genome that code for the amino acid sequences of proteins (the exons) are typically found in short segments (average size about 145 nucleotide pairs), small islands in a sea of DNA whose exact nucleotide sequence is thought to be mostly of little consequence. This arrangement makes it difficult to identify all the exons in a stretch of DNA, and it is often hard too to determine exactly where a gene begins and ends."
+        },
+        {
+            "id": "Cell_Biology_Alberts_817",
+            "title": "Cell_Biology_Alberts",
+            "content": "The human genome (3.2 \u00d7 109 nucleotide pairs) is the totality of genetic information belonging to our species. Almost all of this genome is distributed over the 22 different autosomes and 2 sex chromosomes (see Figures 4\u201310 and 4\u201311) found within the nucleus. A minute fraction of the human genome (16,569 nucleotide pairs\u2014in multiple copies per cell) is found in the mitochondria (introduced in Chapter 1, and discussed in detail in Chapter 14). The term human genome sequence refers to the complete nucleotide sequence of DNA in the 24 nuclear chromosomes and the mitochondria. being diploid, a human somatic cell nucleus contains roughly twice the haploid amount of DNA, or 6.4 \u00d7 109 nucleotide pairs, when not duplicating its chromosomes in preparation for division. (Adapted from International Human genome Sequencing Consortium, Nature 409:860\u2013921, 2001. with permission from macmillan Publishers ltd.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1009",
+            "title": "Cell_Biology_Alberts",
+            "content": "An unexpected conclusion from a detailed comparison of the complete mouse and human genome sequences, confirmed by subsequent comparisons between the genomes of other vertebrates, is that small blocks of DNA sequence are being deleted from and added to genomes at a surprisingly rapid rate. Thus, if we assume that our common ancestor had a genome of human size (about 3.2 billion nucleotide pairs), mice would have lost a total of about 45% of that genome from accumulated deletions during the past 80 million years, while humans would have lost about 25%. However, substantial sequence gains from many small chromosome duplications and from the multiplication of transposons have compensated for these deletions. As a result, our genome size is thought to be practically unchanged from that of the last common ancestor of humans and mice, while the mouse genome is smaller by only about 0.3 billion nucleotides."
+        },
+        {
+            "id": "Cell_Biology_Alberts_984",
+            "title": "Cell_Biology_Alberts",
+            "content": "One very important approach to deciphering our genome is to search for DNA sequences that are closely similar between different species, on the principle that DNA sequences that have a function are much more likely to be conserved than those without a function. For example, humans and mice are thought to have diverged from a common mammalian ancestor about 80 \u00d7 106 years ago, which is long enough for the majority of nucleotides in their genomes to have been changed by random mutational events. Consequently, the only regions that will have remained closely similar in the two genomes are those in which mutations would have impaired function and put the animals carrying them at a disadvantage, resulting in their elimination from the population by natural selection. Such closely similar pieces of DNA sequence are known as conserved regions. In addition to revealing those DNA sequences that encode functionally important exons and RNA molecules, these conserved regions will include"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1099",
+            "title": "Cell_Biology_Alberts",
+            "content": "green RE, krause J, briggs Aw et al. (2010) A draft sequence of the Neandertal genome. Science 328, 710\u2013722. International Human genome Sequencing Consortium (2001) Initial sequencing and analysis of the human genome. Nature 409, 860\u2013921. International Human genome Sequencing Consortium (2004) Finishing the euchromatic sequence of the human genome. Nature 431, 931\u2013945. kellis m, wold b, Snyder mP et al. (2014) Defining functional DNA elements in the human genome. Proc. Natl Acad. Sci. USA 111, 6131\u20136138. lander ES (2011) Initial impact of the sequencing of the human genome. Nature 470, 187\u2013197. lee C & Scherer Sw (2010) The clinical context of copy number variation in the human genome. Expert Rev. Mol. Med. 12, e8. mouse genome Sequencing Consortium (2002) Initial sequencing and comparative analysis of the mouse genome. Nature 420, 520\u2013562."
+        },
+        {
+            "id": "Cell_Biology_Alberts_811",
+            "title": "Cell_Biology_Alberts",
+            "content": "Differences in the amount of DNA interspersed between genes, far more than differences in numbers of genes, account for the astonishing variations in genome size that we see when we compare one species with another (see Figure 1\u201332). For example, the human genome is 200 times larger than that of the yeast Saccharomyces cerevisiae, but 30 times smaller than that of some plants and amphibians and 200 times smaller than that of a species of amoeba. Moreover, because of differences in the amount of noncoding DNA, the genomes of closely related organisms (bony fish, for example) can vary several hundredfold in their DNA content, even though they contain roughly the same number of genes. Whatever the excess"
+        },
+        {
+            "id": "Cell_Biology_Alberts_821",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201316 Scale of the human genome. If drawn with a 1 mm space between each nucleotide pair, as in (A), the human genome would extend 3200 km (approximately 2000 miles), far enough to stretch across the center of Africa, the site of our human origins (red line in b). At this scale, there would be, on average, a protein-coding gene every 150 m. An average gene would extend for 30 m, but the coding sequences in this gene would add up to only just over a meter."
+        },
+        {
+            "id": "InternalMed_Harrison_4758",
+            "title": "InternalMed_Harrison",
+            "content": "In addition to the human genome, the genomes of numerous organisms have been sequenced completely (~4000) or partially (~10,000) (Genomes Online Database [GOLD]; Table 82-1). They include, among others, eukaryotes such as the mouse (Mus musculus), Chapter 82 Principles of Human Genetics Catalog of Published Genome-Wide Association Studies Office of Biotechnology Activities, National Institutes of Health American College of Medical Genetics and Genomics American Society of Human Genetics MITOMAP, a human mitochondrial genome database Dolan DNA Learning Center, Cold Spring Harbor Laboratories The Online Metabolic and Molecular Bases of Inherited Disease (OMMBID)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1407",
+            "title": "Cell_Biology_Alberts",
+            "content": "The problems that cells face in decoding genomes can be appreciated by considering a tiny portion of the human genome (Figure 6\u20132). The region illustrated represents less than 1/2000th of our genome and includes at least 48 genes that encode proteins and 6 genes for noncoding RNAs. When we consider the entire human genome, we can only marvel at the capacity of our cells to rapidly and accurately handle such large amounts of information."
+        },
+        {
+            "id": "InternalMed_Harrison_4756",
+            "title": "InternalMed_Harrison",
+            "content": "THE HUMAN GENOME Structure of the Human Genome \u2022 Human Genome Project The Human Genome Project was initiated in the mid-1980s as an ambitious effort to characterize the entire human genome. Although the prospect of determining the complete sequence of the human genome seemed daunting several years ago, technical advances in DNA sequencing and bioinformatics led to the completion of a draft human sequence in 2000 and the completion of the DNA sequence for the last of the human chromosomes in May 2006. Currently, facilitated by rapidly decreasing costs for comprehensive sequence analyses and improvement of bioinformatics pipelines for data analysis, the sequencing of whole genomes and exomes is used with increasing frequency in the clinical setting. The scope of a whole genome sequence analysis can be illustrated by the following analogy. Human DNA consists of ~3 billion base pairs (bp) of DNA per haploid genome, which is nearly 1000-fold greater than that of the Escherichia coli"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1015",
+            "title": "Cell_Biology_Alberts",
+            "content": "While initially a mystery, we now have a simple explanation for such large differences in genome size between similar organisms: because all vertebrates experience a continuous process of DNA loss and DNA addition, the size of a genome merely depends on the balance between these opposing processes acting over millions of years. Suppose, for example, that in the lineage leading to Fugu, the rate of DNA addition happened to slow greatly. Over long periods of time, this would result in a major \u201ccleansing\u201d from this fish genome of those DNA sequences whose loss could be tolerated. The result is an unusually compact genome, relatively free of junk and clutter, but retaining through purifying selection the vertebrate DNA sequences that are functionally important. This makes Fugu, with its 400 million nucleotide pairs of DNA, a valuable resource for genome research aimed at understanding humans. we Can Infer the Sequence of Some Ancient genomes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1387",
+            "title": "Cell_Biology_Alberts",
+            "content": "Estimates based on the frequency of breaks in primary human fibroblasts suggest that by age 70, each human somatic cell may carry some 2000 NHEJ-induced mutations due to inaccurate repair. If these mutations were distributed randomly around the genome, how many pro-tein-coding genes would you expect to be affected? Would you expect cell function to be compromised? Why or why not? (Assume that 2% of the genome\u20141.5% protein-coding and 0.5% regulatory\u2014is crucial information.) 5\u201314 Draw the structure of the double Holliday junction that would result from strand invasion by both ends of the broken duplex into the intact homologous duplex shown in Figure Q5\u20133. Label the left end of each strand in the Holliday junction 5\u02b9or 3\u02b9 so that the relationship to the parental and recombinant duplexes is clear. Indicate how DNA synthesis would be used to fill in any single-strand gaps in your double Holliday junction. (Problem 5\u201314)."
+        },
+        {
+            "id": "Histology_Ross_410",
+            "title": "Histology_Ross",
+            "content": "The human genome encompasses the entire length of human DNA that contains the genetic information packaged in all 46 chromosomes. Sequencing of the human genome took about 13 years and was successfully completed in 2003 by the Human Genome Project. The human genome contains a 2.85-billion base pair consensus sequence of nucleotides, which are arranged in about 23,000 protein-coding genes. For years it was thought that genes were usually present in two copies in a genome. However, recent discoveries have revealed that large segments of DNA can vary in numbers of copies. Such copy number variations (CNVs) are widespread in the human genome and most likely lead to genetic imbalances. For instance, genes that were thought to always occur in two copies per genome have sometimes one, three, or more copies. A previous definition of a gene as a segment of DNA involved in producing a polypeptide chain has been recently updated to now read as being a union of genomic sequences encoding a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_982",
+            "title": "Cell_Biology_Alberts",
+            "content": "As emphasized in Chapter 3, the recognition of sequence similarity has become a major tool for inferring gene and protein function. Although a sequence match does not guarantee similarity in function, it has proved to be an excellent clue. Thus, it is often possible to predict the function of genes in humans for which no biochemical or genetic information is available simply by comparing their nucleotide sequences with the sequences of genes that have been characterized in other more readily studied organisms. In general, the sequences of individual genes are much more tightly conserved than is overall genome structure. Features of genome organization such as genome size, number of chromosomes, order of genes along chromosomes, abundance and size of introns, and amount of repetitive DNA are found to differ greatly when comparing distant organisms, as does the number of genes that each organism contains."
+        },
+        {
+            "id": "Cell_Biology_Alberts_986",
+            "title": "Cell_Biology_Alberts",
+            "content": "The power of this method can be increased by including in such comparisons the genomes of large numbers of species whose genomes have been sequenced, such as rat, chicken, fish, dog, and chimpanzee, as well as mouse and human. By revealing in this way the results of a very long natural \u201cexperiment,\u201d lasting for hundreds of millions of years, such comparative DNA sequencing studies have highlighted the most interesting regions in our genome. The comparisons reveal that roughly 5% of the human genome consists of \u201cmultispecies conserved sequences.\u201d To our great surprise, only about one-third of these sequences code for proteins (see Table 4\u20131, p. 184). Many of the remaining conserved sequences consist of DNA containing clusters of protein-binding sites that are involved in gene regulation, while others produce RNA molecules that are not translated into protein but are important for other known purposes. But, even in the most intensively studied species, the function of the majority of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1073",
+            "title": "Cell_Biology_Alberts",
+            "content": "P. Forster and S. matsumura, Science 308:965\u2013966, 2005.) density of known genes a polymorphism, the variants must be common enough to give a reasonably high probability that the genomes of two randomly chosen individuals will differ at the given site; a probability of 1% is commonly chosen as the cutoff. Two human genomes sampled from the modern world population at random will differ at approximately 2.5 \u00d7 106 such sites (1 per 1300 nucleotide pairs). As will be described in the overview of genetics in Chapter 8, SNPs in the human genome can be extremely useful for genetic mapping analyses, in which one attempts to associate specific traits (phenotypes) with specific DNA sequences for medical or scientific purposes (see p. 493). But while useful as genetic markers, there is good evidence that most of these SNPs have little or no effect on human fitness. This is as expected, since deleterious variants will have been selected against during human evolution and, unlike SNPs, should"
+        },
+        {
+            "id": "Cell_Biology_Alberts_995",
+            "title": "Cell_Biology_Alberts",
+            "content": "have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5 humans and the great apes based on nucleotide sequence data. As indicated, the sequences of the genomes of all four millions of years before present species are estimated to differ from the sequence of the genome of their last common ancestor by a little over 1.5%. because changes occur independently on both diverging lineages, pairwise comparisons reveal twice the sequence divergence from the last common ancestor. For example, human\u2013orangutan comparisons typically show sequence 1.0 0.5 0.0 divergences of a little over 3%, while that have kept the sequences the same. Evidence for this view comes from the observation that the human and chimpanzee genomes are nearly identical even where there is no functional constraint on the nucleotide sequence\u2014such as in the third position of \u201csynonymous\u201d codons"
+        },
+        {
+            "id": "Cell_Biology_Alberts_168",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mouse Is the Predominant mammalian model organism Mammals have typically two times as many genes as Drosophila, a genome that is 16 times larger, and millions or billions of times as many cells in their adult bodies. In terms of genome size and function, cell biology, and molecular mechanisms, mammals are nevertheless a highly uniform group of organisms. Even anatomically, the differences among mammals are chiefly a matter of size and proportions; it is hard to think of a human body part that does not have a counterpart in elephants and mice, and vice versa. Evolution plays freely with quantitative features, but it does not readily change the logic of the structure."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1011",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA is added to genomes both by the spontaneous duplication of chromosomal segments that are typically tens of thousands of nucleotide pairs long (as will be discussed shortly) and by insertion of new copies of active transposons. Most transposition events are duplicative, because the original copy of the transposon stays where it was when a copy inserts at the new site; see, for example, Figure 5\u201363. Comparison of the DNA sequences derived from transposons in the human and the mouse readily reveals some of the sequence additions (Figure 4\u201369). It remains a mystery why all mammals have maintained genome sizes of roughly 3 billion nucleotide pairs that contain nearly identical sets of genes, even though only approximately 150 million nucleotide pairs appear to be under sequence-specific functional constraints. The Size of a vertebrate genome Reflects the Relative Rates of DNA Addition and DNA loss in a lineage"
+        },
+        {
+            "id": "Cell_Biology_Alberts_820",
+            "title": "Cell_Biology_Alberts",
+            "content": "and introns, with most of the gene consisting of introns. In contrast, the majority of genes from organisms with concise genomes lack introns. This accounts for the much smaller size of their genes (about one-twentieth that of human genes), as well as for the much higher fraction of coding DNA in their chromosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1066",
+            "title": "Cell_Biology_Alberts",
+            "content": "fixed is small (1/20,000), while the average time to fixation would be on the order of 800,000 years (assuming a 20-year generation time). Thus, while we know that the human population has grown enormously since the development of agriculture approximately 15,000 years ago, most of the present-day set of common human genetic variants reflects the mixture of variants that was already present long before this time, when the human population was still small."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1929",
+            "title": "Cell_Biology_Alberts",
+            "content": "During the course of evolution, more than three out of every four CGs have been lost in this way, leaving vertebrates with a remarkable deficiency of this dinucleotide. The CG sequences that remain are very unevenly distributed in the genome; they are present at 10 times their average density in selected regions, called CG islands, which average 1000 nucleotide pairs in length. The human genome contains roughly 20,000 CG islands and they usually include promoters of genes. For example, 60% of human protein-coding genes have promoters embedded in CG islands and these include virtually all the promoters of the so-called housekeeping genes\u2014those genes that code for the many proteins that are essential for cell viability and are therefore expressed in nearly all cells (Figure 7\u201346). Over evolutionary timescales, the CG islands were spared the accelerated mutation rate of bulk CG sequences because they remained unmethylated in the germ line (Figure 7\u201347)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2300",
+            "title": "Cell_Biology_Alberts",
+            "content": "The original \u201creference\u201d sequence of the human genome, completed in 2003, cost over $1 billion and required many scientists from around the world working together for 13 years. The enormous progress made in the past decade makes it possible for a single person to complete the sequence of an individual human genome in less than a day."
+        },
+        {
+            "id": "Pathology_Robbins_7",
+            "title": "Pathology_Robbins",
+            "content": "and machinery required for assembling cells, tissues, and organisms, it is the noncoding regions of the genome that provide the critical \u201carchitectural planning.\u201d The major classes of functional non\u2013protein-coding DNA sequences found in the human genome include ( Fig. 1.1 Noncoding regulatory RNAs. Of the 80% of the genome dedicated to regulatory functions, the vast majority is transcribed into RNAs\u2014micro-RNAs and long noncoding RNAs (described later)\u2014that are never translated into protein, but can regulate gene expression Mobile genetic elements (e.g., transposons). Remarkably, more than one-third of the human genome is composed of such \u201cjumping genes.\u201d These segments can cruise around the genome, and are implicated in gene regulation and chromatin organization. Special structural regions of DNA, including telomeres (chromosome ends) and centromeres (chromosome \u201ctethers\u201d)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_813",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA may do, it seems clear that it is not a great handicap for a eukaryotic cell to carry a large amount of it. How the genome is divided into chromosomes also differs from one eukaryotic species to the next. For example, while the cells of humans have 46 chromosomes, those of some small deer have only 6, while those of the common carp contain over 100. Even closely related species with similar genome sizes can have very different numbers and sizes of chromosomes (Figure 4\u201314). Thus, there is no simple relationship between chromosome number, complexity of the organism, and total genome size. Rather, the genomes and chromosomes of modern-day species have each been shaped by a unique history of seemingly random genetic events, acted on by poorly understood selection pressures over long evolutionary times. The Nucleotide Sequence of the Human genome Shows How Our genes Are Arranged"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2379",
+            "title": "Cell_Biology_Alberts",
+            "content": "Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors When we compare the sequences of multiple human genomes, we find that any two individuals will differ in roughly 1 nucleotide pair in 1000. Most of these variations are common and relatively harmless. When two sequence variants coexist in the population and both are common, the variants are called polymorphisms. The majority of polymorphisms are due to the substitution of a single nucleotide, called single-nucleotide polymorphisms or SNPs (Figure 8\u201350). The rest are due largely to insertions or deletions\u2014called indels when the change is small, or copy number variations (CNVs) when it is large. Although these common variants can be found throughout the genome, they are not scattered randomly\u2014or even independently. Instead, they tend to travel in groups called haplotype blocks\u2014combinations of polymorphisms that are inherited as a unit."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1084",
+            "title": "Cell_Biology_Alberts",
+            "content": "How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication? why are there so many different chromatin remodeling complexes in cells? what are their essential roles, and how do they get loaded onto chromatin at specific places and at specific times? How do chromosomal loops form during interphase, and what happens to these loops in condensed mitotic chromosomes? what genetic changes made us uniquely human? what further aspects of our recent evolutionary development can be reconstructed by sequencing DNA from remains of ancient hominids? How much of the enormous complexity that we find in cell biology is unnecessary, having evolved by random drift? 4\u20131 Human females have 23 different chromosomes, served DNA sequences facilitates the search for function-whereas human males have 24. ally important regions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_177",
+            "title": "Cell_Biology_Alberts",
+            "content": "What precisely do we mean when we speak of the human genome? Whose genome? On average, any two people taken at random differ in about one or two in every 1000 nucleotide pairs in their DNA sequence. The genome of the human species is, properly speaking, a very complex thing, embracing the entire pool of variant genes found in the human population. Knowledge of this variation is helping us to understand, for example, why some people are prone to one disease, others to another; why some respond well to a drug, others badly. It is also providing clues to our history\u2014the population movements and minglings of our ancestors, the infections they suffered, the diets they ate. All these things have left traces in the variant forms of genes that survive today in the human communities that populate the globe. To understand cells and organisms Will Require mathematics, computers, and Quantitative Information"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1013",
+            "title": "Cell_Biology_Alberts",
+            "content": "About 90% of the two genomes can be aligned in this way. Note that while there is an identical order of the matched index sequences (red marks), there has been a net loss of DNA in the mouse lineage that is interspersed throughout the entire region. This type of net loss is typical for all such regions, and it accounts for the fact that the mouse genome contains 14% less DNA than does the human genome. (Adapted from mouse genome Sequencing Consortium, Nature 420:520\u2013562, 2002. with permission from macmillan Publishers ltd.) 10,000 nucleotide pairs of the mammalian genome. An extreme example is the puffer fish, Fugu rubripes (Figure 4\u201370), which has a tiny genome for a vertebrate (0.4 billion nucleotide pairs compared to 1 billion or more for many other fish). The small size of the Fugu genome is largely due to the small size of its introns. Specifically, Fugu introns, as well as other noncoding segments of the Fugu genome, lack the repetitive DNA that makes up a large portion of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_823",
+            "title": "Cell_Biology_Alberts",
+            "content": "Research in the last decade has surprised biologists with the discovery that, in addition to 21,000 protein-coding genes, the human genome contains many thousands of genes that encode RNA molecules that do not produce proteins, but instead have a variety of other important functions. What is thus far known about these molecules will be presented in Chapters 6 and 7. Last, but not least, the nucleotide sequence of the human genome has revealed that the archive of information needed to produce a human seems to be in an alarming state of chaos. As one commentator described our genome, \u201cIn some ways it may resemble your garage/bedroom/refrigerator/life: highly individualistic, but unkempt; little evidence of organization; much accumulated clutter (referred to by the uninitiated as \u2018junk\u2019); virtually nothing ever discarded; and the few patently valuable items indiscriminately, apparently carelessly, scattered throughout.\u201d We shall discuss how this is thought to have come about in the final"
+        },
+        {
+            "id": "Cell_Biology_Alberts_819",
+            "title": "Cell_Biology_Alberts",
+            "content": "A second notable feature of the human genome is the large average gene size\u2014about 27,000 nucleotide pairs. As discussed above, a typical gene carries in its linear sequence of nucleotides the information for the linear sequence of the amino acids of a protein. Only about 1300 nucleotide pairs are required to encode a protein of average size (about 430 amino acids in humans). Most of the remaining sequence in a gene consists of long stretches of noncoding DNA that interrupt the relatively short segments of DNA that code for protein. As will be discussed in detail in Chapter 6, the coding sequences are called exons; the intervening (noncoding) sequences in genes are called introns (see Figure 4\u201315 and Table 4\u20131). The majority of human genes thus consist of a long string of alternating exons and introns, with most of the gene consisting of introns. In contrast, the majority of genes from organisms with concise genomes lack introns. This accounts for the much smaller size of their genes"
+        }
+    ],
+    "scores": [
+        0.0291827631157966,
+        0.02914152795545851,
+        0.02870063705399666,
+        0.028234518193064904,
+        0.0258809978915232,
+        0.02502920035938904,
+        0.02492331986311344,
+        0.024519044214250118,
+        0.023579780367110684,
+        0.02257046930342385,
+        0.022115466268758113,
+        0.021910745201212646,
+        0.020562662728561346,
+        0.020041800491214814,
+        0.019905853840417598,
+        0.019570646744559786,
+        0.018575851393188854,
+        0.018365835705607434,
+        0.018300118223273095,
+        0.017915457700403935,
+        0.01748358528019545,
+        0.01692624991110163,
+        0.016845434543454343,
+        0.016841369671558352,
+        0.016600082656013225,
+        0.01641810570381999,
+        0.016337285902503294,
+        0.0161509900990099,
+        0.016059757236227826,
+        0.01597542242703533,
+        0.015889896778229592,
+        0.015842564515130886
+    ]
+}

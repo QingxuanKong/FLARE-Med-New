@@ -1,0 +1,206 @@
+{
+    "id": "602c2ade1cb411341a000124",
+    "question": "Are TAMs good anticancer therapeutic targets?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the given documents and the concept of TAMs (Tumor-Associated Macrophages). TAMs are known to play a role in tumor progression and metastasis by promoting angiogenesis, immune evasion, and tumor growth. According to Document [3], targeting PD-1 or PDL-1 has shown activity against melanoma, RCC, and lung cancer, indicating that immune checkpoint inhibitors can be effective against certain types of cancer. However, the question is asking about TAMs specifically. Let's look for any information related to TAMs in the documents. In Document [3], it is mentioned that tumor-host interactions that suppress the immune response to the tumor include the interaction between tumor cells and immune suppressive cells, such as TAMs. However, there is no direct statement about the therapeutic potential of targeting TAMs. In Document [24], it is mentioned that the molecular analysis of an individual tumor can be used to design effective therapies. This includes targeting specific molecular features of cancer cells, such as their interaction with immune cells like TAMs. However, this does not directly address the therapeutic potential of targeting TAMs. In Document [25], it is mentioned that the development of combination therapies requires identifying multiple vulnerabilities in cancer cells and devising drugs that target each of these vulnerabilities. This could potentially include targeting TAMs, but again, there is no direct statement about the therapeutic potential of targeting TAMs. In Document [26], it is mentioned that molecular analysis of human tumors can be used to guide the use of targeted agents. This includes identifying specific molecular targets, such as those involved in tumor-host interactions. However, there is no mention of TAMs specifically. In Document [30], it is mentioned that patients can be genotyped for critical alleles that may affect drug metabolism, which could influence the efficacy and side effects of drugs given. This does not directly address the therapeutic potential of targeting TAMs. In Document [31], it is mentioned that the repertoire of precisely targeted anticancer drugs is rapidly increasing, and that the goal is to find synthetic lethality in cancer cells. This could potentially include targeting TAMs, but again, there is no direct statement about the therapeutic potential of targeting TAMs. Based on the available information, it is difficult to make a definitive statement about the therapeutic potential of targeting TAMs. However, considering the role of TAMs in tumor progression and metastasis, it is possible that targeting TAMs could be a promising therapeutic strategy. Therefore, the answer is: {\"answer_choice\": \"A. yes\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_6283",
+            "title": "InternalMed_Harrison",
+            "content": "CANCER CHEMOTHERAPY Principles The usefulness of any drug is governed by the extent to which a given dose causes a useful result (therapeutic effect; in the case of anticancer agents, toxicity to tumor cells) as opposed to a toxic effect to the host. The therapeutic index is the degree of separation between toxic and therapeutic doses. Really useful drugs have large therapeutic indices, and this usually occurs when the drug target is expressed in the disease-causing compartment as opposed to the normal compartment. Classically, selective toxicity of an agent for a tissue or cell type is governed by the differential expression of a drug\u2019s target in the \u201csensitive\u201d cell type or by differential drug accumulation into or elimination from compartments where greater or lesser toxicity is experienced, respectively. Currently used chemotherapeutic agents have the unfortunate property that their targets are present in both normal and tumor tissues. Therefore, they have relatively narrow"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5695",
+            "title": "Cell_Biology_Alberts",
+            "content": "Protein kinases have been relatively easy to inhibit with small molecules like imatinib, and many kinase inhibitors are being produced by pharmaceutical companies in the hope that they can be effective as drugs for some forms of cancer. Many cancers lack an oncogenic mutation in a protein kinase. But most tumors contain inappropriately activated signaling pathways, for which a target somewhere in the pathway can hopefully be found (Movie 20.7). As an example, Figure 20\u201344 displays some of the anticancer drugs and drug targets that are currently being tested for a pathway frequently activated in cancers. Many Cancers May Be Treatable by Enhancing the Immune Response Against the Specific Tumor"
+        },
+        {
+            "id": "InternalMed_Harrison_6284",
+            "title": "InternalMed_Harrison",
+            "content": "experienced, respectively. Currently used chemotherapeutic agents have the unfortunate property that their targets are present in both normal and tumor tissues. Therefore, they have relatively narrow therapeutic indices."
+        },
+        {
+            "id": "InternalMed_Harrison_6228",
+            "title": "InternalMed_Harrison",
+            "content": "FIGuRE 102e-13 Tumor-host interactions that suppress the immune response to the tumor. targeting PD-1 or PDL-1 have shown activity against melanoma, RCC, and lung cancer and continue to be evaluated against other malignancies as well. Combination approaches targeting more than one protein or involving other anticancer approaches (targeted agents, chemotherapy, radiation therapy) are also being explored and have shown promise in early studies. An important aspect of these approaches is balancing sufficient release of the negative control of the immune response to allow immune-mediated attack on the tumors while not allowing too much release and inducing severe autoimmune effects (such as against skin, thyroid, pituitary gland, or the gastrointestinal tract)."
+        },
+        {
+            "id": "Surgery_Schwartz_2294",
+            "title": "Surgery_Schwartz",
+            "content": "of molecular therapeutics. The basic principle of molecular therapeutics is to exploit the molecular differences between normal cells and cancer cells to develop targeted therapies. Thus, targeted therapies usually are directed at the processes involved in tumor growth rather than directly targeting the tumor cells. The ideal molecular target would be exclusively expressed in the cancer cells, be the driv-ing force of the proliferation of the cancer cells, and be critical to their survival. A large number of molecular targets are cur-rently being explored, both preclinically and in clinical trials. The major groups of targeted therapy agents are inhibitors of growth factor receptors, inhibitors of intracellular signal trans-duction, cell-cycle inhibitors, apoptosis-based therapies, and anti-angiogenic compounds.Protein kinases have come to the forefront as attrac-tive therapeutic targets with the success of imatinib mesylate (Gleevec) in treating chronic myelogenous leukemia and GI"
+        },
+        {
+            "id": "Surgery_Schwartz_2355",
+            "title": "Surgery_Schwartz",
+            "content": "the molecular mechanisms of anticancer drug-induced apoptosis. The contribution of molecular-level analysis to cancer chemotherapy. Cancer Chemother Phar-macol. 2002;50:343-352. 20. Igney FH, Krammer PH. Death and anti-death: tumour resis-tance to apoptosis. Nat Rev Cancer. 2002;2:277-288. 21. Levy JMM, Towers CG, Thorburn A. Targeting autophagy in cancer. Nat Rev Cancer. 2017;17:528-542. 22. Folkman J, Merler E, Abernathy C, Williams G. Isolation of a tumor factor responsible for angiogenesis. J Exp Med. 1971;133:275-288. 23. McCarty MF, Liu W, Fan F, et al. Promises and pitfalls of anti-angiogenic therapy in clinical trials. Trends Mol Med. 2003;9:53-58. 24. Soker S, Takashima S, Miao HQ, Neufeld G, Klagsbrun M. Neuropilin-1 is expressed by endothelial and tumor cells as an isoform-specific receptor for vascular endothelial growth factor. Cell. 1998;92:735-745. 25. Stacker SA, Achen MG, Jussila L, Baldwin ME, Alitalo K. Lymphangiogenesis and cancer metastasis. Nat Rev Cancer."
+        },
+        {
+            "id": "InternalMed_Harrison_6282",
+            "title": "InternalMed_Harrison",
+            "content": "products, loss of cell cycle inhibitors, or loss of cell death regulation, and have acquired the capacity to replicate chromosomes indefinitely, invade, metastasize, and evade the immune system. Targeted therapies seek to capitalize on the biology behind the aberrant cellular behavior as a basis for therapeutic effects. Hormonal therapies (the first form of targeted therapy) capitalize on the biochemical pathways underlying estrogen and androgen function and action as a therapeutic basis for approaching patients with tumors of breast, prostate, uterus, and ovarian origin. Biologic therapies are often macromolecules that have a particular target (e.g., antigrowth factor or cytokine antibodies) or may have the capacity to regulate growth 103e-5 of tumor cells or induce a host immune response to kill tumor cells. Thus, biologic therapies include not only antibodies but also cytokines and gene therapies."
+        },
+        {
+            "id": "InternalMed_Harrison_6830",
+            "title": "InternalMed_Harrison",
+            "content": "targeted inhibitors based specifically on the tumor\u2019s molecular profile. Furthermore, increased understanding of how to activate the immune system to drive antitumor immunity is proving to be a promising therapeutic strategy for some patients with advanced lung cancer. In Fig. 107-8, we propose an algorithm of the treatment approach for patient with stage IV NSCLC. However, the reality is that the majority of patients treated with targeted therapies or chemotherapy eventually develop resistance, which provides strong motivation for further research and enrollment of patients onto clinical trials in this rapidly evolving area. Marc E. Lippman"
+        },
+        {
+            "id": "Surgery_Schwartz_2297",
+            "title": "Surgery_Schwartz",
+            "content": "molecular therapeutics. Potential targets like HER2 can be targeted via dif-ferent strategies, such as transcriptional downregulation, targeting of mRNA, RNA inhibition, antisense strategies, direct inhibition of protein activity, and induction of immunity against the protein. Most of the compounds in development are monoclonal antibod-ies like trastuzumab or small-molecule kinase inhibitors like ima-tinib or vemurafanib. Some other agents, such as sunitinib, are multitargeted kinase inhibitors. Selected FDA-approved targeted therapies are listed in Table 10-11. Many of the promising path-ways, such as the PI3K/Akt/mTOR pathway, are being pursued as therapeutic targets with several drugs in development, targeting different aspects of the pathway (Fig. 10-15).148Development of molecularly targeted agents for clinical use presents several unique challenges. Once an appropriate compound is identified and confirmed to have activity in pre-clinical testing, predictive markers for activity"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5699",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 20\u201344 Some anticancer drugs and drug targets in the Ras\u2013MAP-kinase signaling pathway. Each of the signaling proteins in this diagram has been identified as a product of a cancer-critical gene, with the exception of Raf1 and Erk. This Ras\u2013 MAP-kinase signaling pathway is triggered by a variety of receptor tyrosine kinases (RTKs), including the EGF receptor (see Figures 15\u201347 and 15\u201349). Those drugs that are antibodies end in \u201cmab,\u201d while those that are small molecules end in \u201cnib.\u201d (Adapted from B. Vogelstein et al, Science 339:1546\u20131558, 2013.) defenses include the expression on the cancer cell surface of one or more proteins that bind to inhibitory receptors on activated T cells."
+        },
+        {
+            "id": "Pathology_Robbins_1381",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net EGFR inhibitors Aerobic glycolysis inhibitors Telomerase inhibitors Proapoptotic BH3 mimetics Selective anti-inflammatory drugs Sustaining proliferative signaling Inducing angiogenesis Activating invasion and metastasis Deregulating cellular energetics Resisting cell death Enabling replicative immortality Tumor-promoting inflammation Cyclin-dependent kinase inhibitors Immune activating anti-CTLA4 mAb Inhibitors of VEGF signaling MDM2 inhibitors Inhibitors of HGF/c-Met Evading growth suppressors Avoiding immune destruction Genome instability and mutation Fig. 6.31 Therapeutictargetingofthehallmarksofcancer.(From Hanahan D,Weiberg RA:The hallmarks of cancer: the next generation. Cell144:646, 2011.) Some of the major agents are presented in Table 6.5. A few comments on a handful of these are offered next."
+        },
+        {
+            "id": "Surgery_Schwartz_2298",
+            "title": "Surgery_Schwartz",
+            "content": "targeted agents for clinical use presents several unique challenges. Once an appropriate compound is identified and confirmed to have activity in pre-clinical testing, predictive markers for activity in the preclinical setting must be defined. Expression of a target may not be suf-ficient to predict response because the pathway of interest may not be activated or critical to the cancer\u2019s survival. Although in traditional phase 1 trials the goal is to identify the maximum tol-erated dosage, the maximum dosage of biologic agents may not be necessary to achieve the desired biologic effect. Thus, assays to verify modulation of the target need to be developed to deter-mine at what dosage the desired effect is achieved. When phases 2 and 3 clinical trials are initiated, biomarker modulation studies should be integrated into the trial to determine whether clinical response correlates with target modulation and thus to identify additional parameters that impact response. Rational dose"
+        },
+        {
+            "id": "Surgery_Schwartz_2293",
+            "title": "Surgery_Schwartz",
+            "content": "agents can be administered to inhibit tumor growth by blocking or antagonizing the naturally occurring sub-stance, such as with the estrogen antagonist tamoxifen. Other substances that block the synthesis of the natural hormone can be administered as alternatives. Aromatase inhibitors, for exam-ple, block the peripheral conversion of endogenous androgens to estrogens in postmenopausal women. Hormonal therapy pro-vides a highly tumor-specific form of therapy in sensitive tis-sues. In breast cancer, estrogen and progesterone receptor status is used to predict the success of hormonal therapy. Androgen receptor is also being pursued as a therapeutic target for breast cancer treatment.TARGETED THERAPYOver the past decade, increased understanding of cancer biol-ogy has fostered the emerging field of molecular therapeutics. The basic principle of molecular therapeutics is to exploit the molecular differences between normal cells and cancer cells to develop targeted therapies. Thus, targeted"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5677",
+            "title": "Cell_Biology_Alberts",
+            "content": "Radiotherapy and traditional cytotoxic drugs are rather weakly selective: they hurt normal cells as well as the cancer cells, and the safety margin is narrow. The dose often cannot be raised high enough to kill all the cancer cells, because this would kill the patient, and curative treatments, where achievable, generally require a combination of several cytotoxic agents. The side effects can be harsh and hard to endure. How can we do better?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5673",
+            "title": "Cell_Biology_Alberts",
+            "content": "In spite of these difficulties, effective cures using anticancer drugs (alone or in combination with other treatments) have already been found for some formerly highly lethal cancers, including Hodgkin\u2019s lymphoma, testicular cancer, choriocarcinoma, and some leukemias and other cancers of childhood. Even for types of cancer where a cure at present seems beyond our reach, there are treatments that will prolong life or at least relieve distress. But what prospect is there of doing better and finding cures for the most common forms of cancer, which still cause great suffering and so many deaths? Traditional Therapies Exploit the Genetic Instability and Loss of Cell-Cycle Checkpoint Responses in Cancer Cells"
+        },
+        {
+            "id": "Pathology_Robbins_3288",
+            "title": "Pathology_Robbins",
+            "content": "target. Much effort is currently being devoted to understanding the mechanisms of targeted drug resistance in order to develop strategies that prevent it from occurring. Immune checkpoint inhibitors produce responses in a subset of tumors, particularly those that are smoking related (perhaps because of a high burden of tumor"
+        },
+        {
+            "id": "InternalMed_Harrison_6229",
+            "title": "InternalMed_Harrison",
+            "content": "The explosion of information on tumor cell biology, metastasis, and tumor-host interactions (including angiogenesis and immune evasion by tumors) has ushered in a new era of rational targeted therapy for cancer. Furthermore, it has become clear that specific molecular factors detected in individual tumors (specific gene mutations, gene-expression profiles, microRNA expression, overexpression of specific proteins) can be used to tailor therapy and maximize antitumor effects. Robert G. Fenton contributed to this chapter in prior editions, and important material from those prior chapters has been included here."
+        },
+        {
+            "id": "Pharmacology_Katzung_5991",
+            "title": "Pharmacology_Katzung",
+            "content": "The use of specific cytotoxic and biologic agents for each of the main cancers is discussed in the following sections."
+        },
+        {
+            "id": "InternalMed_Harrison_6281",
+            "title": "InternalMed_Harrison",
+            "content": "Systemic cancer treatments are of four broad types. Conventional \u201ccytotoxic\u201d chemotherapy agents were historically derived by the empirical observation that these \u201csmall molecules\u201d (generally with molecular mass <1500 Da) could cause major regression of experimental tumors growing in animals. These agents mainly target DNA structure or segregation of DNA as chromosomes in mitosis. Targeted agents refer to small molecules or \u201cbiologics\u201d (generally macromolecules such as antibodies or cytokines) designed and developed to interact with a defined molecular target important in maintaining the malignant state or expressed by the tumor cells. As described in Chap. 102e, successful tumors have activated biochemical pathways that lead to uncontrolled proliferation through the action of, e.g., oncogene products, loss of cell cycle inhibitors, or loss of cell death regulation, and have acquired the capacity to replicate chromosomes indefinitely, invade, metastasize, and evade the immune system."
+        },
+        {
+            "id": "InternalMed_Harrison_6299",
+            "title": "InternalMed_Harrison",
+            "content": "Chemotherapy is routinely used in FASR \u201cconventional\u201d dose regimens. In general, TRAIL-R effects, primarily consisting of transient therapy regimens are predicated on the myelosuppression with or without gastro- intestinal toxicity (usually nausea), which are readily managed. \u201cHigh-dose\u201d chemo- observation that the dose-response curve for many anticancer agents is rather steep, increased therapeutic effect, although at the cost of potentially life-threatening com- plications that require intensive support, usually in the form of hematopoietic stem Cytochrome C PIGs, etc cell support from the patient (autologous) or from donors matched for histocompatibility loci (allogeneic), or pharmacologic \u201crescue\u201d strategies to repair the effect of Chapter 103e Principles of Cancer Treatment the high-dose chemotherapy on normal tissues. High-dose regimens have definite curative potential in defined clinical settings (Table 103e-3, D)."
+        },
+        {
+            "id": "Pharmacology_Katzung_5887",
+            "title": "Pharmacology_Katzung",
+            "content": "Dose intensity is one of the main factors limiting the ability of chemotherapy or radiation therapy to achieve cure. As described in Chapter 2, the dose-response curve in biologic systems is usually sigmoidal in shape, with a threshold, a linear phase, and a plateau phase. For chemotherapy, therapeutic selectivity is dependent on the difference between the dose-response curves of normal and tumor tissues. In experimental animal models, the dose-response curve is usually steep in the linear phase, and a reduction in dose when the tumor is in the linear phase of the dose-response curve almost always results in a loss in the capacity to cure the tumor effectively before a reduction in the antitumor activity is observed. Although complete remissions may continue to be observed with dose reductions down to as low as 20% of the optimal dose, residual tumor cells may not be entirely eliminated, thereby allowing for eventual relapse. Because toxicities are usually associated with anticancer"
+        },
+        {
+            "id": "InternalMed_Harrison_6174",
+            "title": "InternalMed_Harrison",
+            "content": "determine the ultimate outcome (Fig. 102e-6). Few drugs have been developed to attempt to directly target the process of metastasis, in part because the specifics of the critical steps in the process that would be potentially good targets for drugs are still being identified. However, a number of potential targets are known. HER2 can enhance the metastatic potential of breast cancer cells, and as discussed above, the monoclonal antibody trastuzumab, which targets HER2, improves survival in the adjuvant setting for HER2-positive breast cancer patients. Other potential targets that increase metastatic potential of cells in preclinical studies include HIF-1 and -2, transcription factors induced by hypoxia within tumors; growth factors (e.g., cMET and VEGFR); oncogenes (e.g., SRC); adhesion molecules (e.g., focal adhesion kinase [FAK]); ECM proteins (e.g., matrix metalloproteinases-1 and -2); and inflammatory molecules (e.g., COX-2)."
+        },
+        {
+            "id": "Pharmacology_Katzung_5882",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 54\u20131 Cell cycle effects of major classes of anti-cancer drugs. combination regimens were developed based on the known biochemical actions of available anti-cancer drugs rather than on their clinical efficacy. Such regimens were, however, largely ineffective. The era of effective combination chemotherapy began when a number of active drugs from different classes became available for use in combination in the treatment of the acute leukemias and lymphomas. Following this initial success with hematologic malignancies, combination chemotherapy was extended to the treatment of solid tumors."
+        },
+        {
+            "id": "InternalMed_Harrison_6221",
+            "title": "InternalMed_Harrison",
+            "content": "Several small-molecule inhibitors (SMIs) that target VEGFR tyrosine kinase activity but are also inhibitory to other kinases have also been approved to treat certain cancers. Sunitinib (see above and Table 102e-2) has activity directed against mutant c-Kit receptors (approved for GIST), but also targets VEGFR and PDGFR, and has shown significant antitumor activity against metastatic RCC, presumably on the basis of its antiangiogenic activity. Similarly, sorafenib, originally developed as a Raf kinase inhibitor but with potent activity against VEGFR and PDGFR, has activity against RCC, thyroid cancer, and hepatocellular cancer. Other inhibitors of VEGFR approved for the treatment of RCC include axitinib and pazopanib. The success in targeting tumor angiogenesis has led to enhanced enthusiasm for the development of drugs that target other aspects of the angiogenic process; some of these therapeutic approaches are outlined in Fig. 102e-12."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5721",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? Explain why or why not. What is required to enable a cancer cell to metastasize? how can the molecular analysis of an individual tumor be more effectively used to design effective therapies to kill it? Can we identify general features common to all cancer cells\u2014such as their production of misfolded, mutated proteins\u2014that can be used for the targeted destruction of many different types of cancers? Can sensitive and reliable blood tests be devised to detect cancers very early, before they have grown to a size where treatment with a single drug will generally be defeated by the survival of a preexisting resistant variant? how can the observed environmental effects on cancer rates be exploited to reduce avoidable cancers? Can new technologies be devised to reveal exactly how a quiescent micrometastasis converts to a full-blown metastatic tumor?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5714",
+            "title": "Cell_Biology_Alberts",
+            "content": "We Now have the Tools to Devise Combination Therapies Tailored to the Individual Patient Efficient, rational combination drug therapy requires three things. First, we have to identify multiple peculiarities of cancer cells that make them vulnerable in ways that normal cells are not. Second, we have to devise drugs (or other treatments) that target each of these vulnerabilities. Third, we have to match the combination of drugs to the specific set of peculiarities present in the cancer cells of the individual patient."
+        },
+        {
+            "id": "InternalMed_Harrison_6292",
+            "title": "InternalMed_Harrison",
+            "content": "Development of targeted agents may proceed quite differently. While phase 1\u20133 trials are still conducted, molecular analysis of human tumors may allow the precise definition of target expression in a patient\u2019s tumor that is necessary for or relevant to the drug\u2019s action. This information might then allow selection of patients expressing the drug target for participation in all trial phases. These patients may then have a greater chance of developing a useful response to the drug by virtue of expressing the target in the tumor. Clinical trials may be designed to incorporate an assessment of the behavior of the target in relation to the drug (pharmacodynamic studies). Ideally, the plasma concentration that affects the drug target is known, so escalation to MTD may not be necessary. Rather, the correlation of host toxicity while achieving an \u201coptimal biologic dose\u201d becomes a more relevant endpoint for phase 1 and early phase 2 trials with targeted agents."
+        },
+        {
+            "id": "Pharmacology_Katzung_5888",
+            "title": "Pharmacology_Katzung",
+            "content": "down to as low as 20% of the optimal dose, residual tumor cells may not be entirely eliminated, thereby allowing for eventual relapse. Because toxicities are usually associated with anticancer drugs, it is often appealing for clinicians to avoid acute toxicity by simply reducing the dose and/or by increasing the time interval between each cycle of treatment. However, such empiric modifications in dose represent a major cause of treatment failure, especially in patients with drug-sensitive tumors."
+        },
+        {
+            "id": "Pathology_Robbins_1378",
+            "title": "Pathology_Robbins",
+            "content": "A thorough understanding of how cancers \u201cmanipulate\u201d inflammatory cells to support their growth and survival remains elusive. However, the results from animal studies are intriguing and raise the possibility of therapies directed at tumor-induced inflammation and its downstream consequences. An example of one such intervention involves aspirin and other COX-2 inhibitors, use of which is associated with a decreased risk of colorectal cancer in several epidemiological studies. Important clinical considerations emerge from the principles presented in the foregoing discussion of the hallmarks of cancer: These hallmarks provide a road map for the development of new therapeutic agents for the treatment of cancer ( Fig. 6.31 ETIOLOGYOFCANCER:CARCINOGENICAGENTS"
+        },
+        {
+            "id": "InternalMed_Harrison_6366",
+            "title": "InternalMed_Harrison",
+            "content": "DiAgNosticAlly guiDeD therApy The basis for discovery of drugs of this type was the prior knowledge of the importance of the drugs\u2019 molecular target to drive tumors in different contexts. Figure 103e-4 summarizes how FDA-approved targeted agents act. In the case of diagnostically guided targeted chemotherapy, prior demonstration of a specific target is necessary to guide the rational use of the agent, while in the case of targeted agents directed at oncogenic pathways, specific diagnosis of pathway activation is not yet necessary or in some cases feasible, although this is an area of ongoing clinical research. Table 103e-5 lists currently approved targeted chemotherapy agents, with features of their use."
+        },
+        {
+            "id": "Surgery_Schwartz_2350",
+            "title": "Surgery_Schwartz",
+            "content": "PM 350BASIC CONSIDERATIONSPART Iwith response to certain agents. It is likely that in the near future all tumors can be tested and treatments individualized. Patients who will respond to conventional therapies can be treated with these regimens, whereas patients who will not respond will not, which spares them the toxicity. Instead, the latter patients can be offered novel therapies. Furthermore, with the advent of effec-tive immune-based therapies, it is likely that patients may be given treatments that can specifically target the alterations driv-ing tumor growth in combination with drugs that can enhance the anticancer immune response. Patients can be genotyped for critical alleles that may affect drug metabolism and thus, may influence the efficacy as well as the side effects of the drugs given. Finally, stratification of patients by gene expression pro-file for prognosis may assist in determining which patients are at higher risk of relapse so that patients whose tumors have less"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5715",
+            "title": "Cell_Biology_Alberts",
+            "content": "The first requirement is already partially met: we now have large catalogs of cancer-critical genes that are commonly mutated in cancer cells. The second requirement is harder, but attainable: we have described some remarkable recent successes, and for cancer researchers there is excitement in the air. It is becoming increasingly possible to use our growing knowledge of cell and molecular biology to design new drugs against designated targets. At the same time, efficient, high-throughput automated methods are available to screen large libraries of chemicals for any that may be effective against cells with a given cancer-related defect. In such searches, the goal is synthetic lethality: a cell death that occurs when and only when a particular drug is put together with a particular cancer cell abnormality. Through these and other approaches, the repertoire of precisely targeted anticancer drugs is rapidly increasing."
+        }
+    ],
+    "scores": [
+        0.030985879547973126,
+        0.02598103461568113,
+        0.02595766540191037,
+        0.025871955238234587,
+        0.02181092301622635,
+        0.021534569162652655,
+        0.021461642998040396,
+        0.02029739098704616,
+        0.019550907967907316,
+        0.018941043789375438,
+        0.018905117674810706,
+        0.01799202560021904,
+        0.01780392156862745,
+        0.017371033238080917,
+        0.017073525138041265,
+        0.016864591385004568,
+        0.016849557522123894,
+        0.01631124650926631,
+        0.016083376222336594,
+        0.01568844592100406,
+        0.015566323440339189,
+        0.015483339220534558,
+        0.015297202797202798,
+        0.014954658747414754,
+        0.014760348583877996,
+        0.014755658980325787,
+        0.014693264693264693,
+        0.014648033126293996,
+        0.014437469821342346,
+        0.014162077104642014,
+        0.013889558717144923,
+        0.01387699932417211
+    ]
+}

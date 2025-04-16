@@ -1,0 +1,206 @@
+{
+    "id": "5e371a1db5b409ea53000015",
+    "question": "Can Patient-derived organoids (PDOs) recapitulate patient responses in the clinic?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the concept of patient-derived organoids (PDOs) and their potential to recapitulate patient responses in the clinic. PDOs are three-dimensional cultures of cells derived from patient tissues, which can be used to study disease mechanisms and test new treatments. The key question is whether these PDOs can accurately reflect the complex interactions between the patient's cells and the tumor microenvironment, leading to responses similar to those observed in the clinic.\\n\\nDocument [11] (Title: InternalMed_Harrison) states that successful derivation of cultured stem cells (both embryonic and tissue stem cells) often requires the identification of necessary growth factors and culture conditions, mimicking the microenvironment or niche of the resident stem cells. This suggests that PDOs can potentially recapitulate the complex interactions between patient cells and the tumor microenvironment.\\n\\nDocument [12] (Title: Cell_Biology_Alberts) discusses the use of induced pluripotent stem cells (iPS cells) for drug discovery and analysis of genetic disease. The fact that iPS cells can be generated from a small sample of a patient's own tissue and can be used to test candidate drugs in vitro implies that PDOs may also be able to recapitulate patient responses.\\n\\nDocument [13] (Title: Pharmacology_Katzung) mentions the use of bioprinting to create three-dimensional structures, such as organoids, which can be used to study disease mechanisms and test new treatments. This technology is closely related to PDOs and suggests that they may be able to recapitulate patient responses.\\n\\nHowever, it is also important to consider the limitations of PDOs. Document [14] (Title: InternalMed_Harrison) notes that the establishment of cultured stem cells is often under dispute due to difficulties in assessing the characteristics of these cells. This suggests that PDOs may not always be able to accurately recapitulate patient responses.\\n\\nBased on the available information, the answer to the question is that PDOs may be able to recapitulate patient responses in the clinic, but with some limitations. Therefore, the correct answer is:\\n\\n\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_6903",
+            "title": "InternalMed_Harrison",
+            "content": "high-dose chemotheraPy including autologous Bone marrow transPlantation Autologous bone marrow transplantation combined with high doses of single agents can produce objective responses even in heavily pretreated patients. However, such responses are rarely durable and do not alter the clinical course for most patients with advanced metastatic disease."
+        },
+        {
+            "id": "InternalMed_Harrison_7731",
+            "title": "InternalMed_Harrison",
+            "content": "Patients with CUP should undergo a directed diagnostic search for the primary tumor on the basis of clinical and pathologic data. Subsets of patients have prognostically favorable disease, as defined by clinical or histologic criteria, and may substantially benefit from aggressive treatment and expect prolonged survival. However, for most patients who present with advanced CUP, the prognosis remains poor with early resistance to available cytotoxic therapy. The current focus has shifted away from empirical chemotherapeutic trials to understanding the metastatic phenotype, tissue of origin profiling, and evaluating molecular targets in CUP patients. paraneoplastic syndromes: endocrinologic/hematologic J. Larry Jameson, Dan L. Longo Neoplastic cells can produce a variety of products that can stimulate hormonal, hematologic, dermatologic, and neurologic responses. 121"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5707",
+            "title": "Cell_Biology_Alberts",
+            "content": "In clinical trials using such techniques, a substantial fraction of the patients can respond in a dramatic way, with their cancer being driven into remission for years, while the treatment fails to help others with the same type of cancer. One possible explanation is that, while most tumors express proteins that protect them from T-cell attack, these proteins are different for different tumors. Thus, while some tumors will respond dramatically when treated with an antibody that blocks a particular immunosuppressive agent, many others will not. If true, one can foresee an era of personalized immunotherapy, in which each patient\u2019s tumor is molecularly analyzed to determine its particular mechanisms of immunosuppression. The patient would then be treated with a specific cocktail of antibodies designed to remove these blocks (see Figure 20\u201345). Cancers Evolve Resistance to Therapies"
+        },
+        {
+            "id": "Pathology_Robbins_1360",
+            "title": "Pathology_Robbins",
+            "content": "To summarize, while the future appears very bright for cancer immunotherapy, important hurdles remain to be cleared. At present, response and resistance to immune checkpoint inhibitors are unpredictable, and new biomarkers are needed to better tailor therapies for individual patients. This will entail the development of new diagnostic tests to gauge both the host immune response and the likely means of immune evasion in individual cancers. There is reason to believe that immune checkpoint inhibitors may be more effective if given before the patient receives chemotherapy (which is immunosuppressive) or in combination with certain targeted therapies directed against tumor cells, and many well-designed clinical trials will need to be conducted before these questions are answered. Currently available immunotherapies are effective in some cancers but not others. Thus, there is a need for development of safe adaptive therapies that are"
+        },
+        {
+            "id": "Immunology_Janeway_4151",
+            "title": "Immunology_Janeway",
+            "content": "Since checkpoint blockade relies on activation of the patient\u2019s own immune system against tumors, its effects are not immediately evident, presenting a challenge in evaluating clinical responses to such therapy. Guidelines for evaluating clinical responses were based on the immediate effects of chemotherapeutic drugs or radiation, whereas checkpoint blockade requires more time for reversing immune inhibition and expanding tumor-specific T cells that then exert their effects within the tumor. Once such issues were considered, it became possible to design clinical trials that could document the effects of checkpoint blockade used in combination with traditional anticancer therapies."
+        },
+        {
+            "id": "InternalMed_Harrison_6607",
+            "title": "InternalMed_Harrison",
+            "content": "immune-based therapy (IL-2, ipilimumab, and anti-PD-1) is the durability of the responses achieved. Although the percentage of patients whose tumors regress following immunotherapy is lower than the response rate after targeted therapy (see below), the durability of immunotherapy-induced responses (>10 years in some cases) appears to be superior to responses after targeted therapy and suggests that many of these patients have been cured."
+        },
+        {
+            "id": "Immunology_Janeway_4146",
+            "title": "Immunology_Janeway",
+            "content": "16-19 Checkpoint blockade can augment immune responses to existing tumors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5720",
+            "title": "Cell_Biology_Alberts",
+            "content": "immunological approaches to cancer therapy. And, as we become better able to determine which genes are altered in the cells of any given tumor, we can begin to tailor treatments more accurately to each individual patient."
+        },
+        {
+            "id": "Immunology_Janeway_4236",
+            "title": "Immunology_Janeway",
+            "content": "One of the great future challenges in immunology is to be able to control the immune system so that unwanted immune responses can be suppressed and desirable responses elicited. Current methods of suppressing unwanted responses rely, to a great extent, on drugs that suppress adaptive immunity indiscriminately and are thus inherently flawed. We have seen in this book that the immune system can suppress its own responses in an antigen-specific manner and that, by studying these endogenous regulatory events, it has been possible to devise strategies to manipulate specific responses while sparing general immune competence. New treatments, including many monoclonal antibodies, have emerged as clinically important therapies to selectively suppress the responses that lead to allergy, autoimmunity, or the rejection of grafted organs. Similarly, as we understand more about tumors and infectious agents, better strategies to mobilize the immune system against cancer and infection are becoming"
+        },
+        {
+            "id": "InternalMed_Harrison_9114",
+            "title": "InternalMed_Harrison",
+            "content": "Partial and complete responses have been reported following nonmyeloablative allogeneic transplantation for some solid tumors, most notably renal cell cancers. The GVT effect, well documented in the treatment of hematologic malignancies, may apply to selected solid tumors under certain circumstances."
+        },
+        {
+            "id": "InternalMed_Harrison_5467",
+            "title": "InternalMed_Harrison",
+            "content": "5. The fifth strategy for tissue engineering involves the use of bioprinting. These technologies arose through the use of modified desktop inkjet printers over a decade ago. The inkjet cartridges were filled with a cell\u2013hydrogel combination instead of ink. A rudimentary three-dimensional elevator was lowered each time the cartridge deposited the cells and hydrogel, thus building miniature solid structures, such as two-chambered heart organoids, one layer at a time. More sophisticated bioprinters have now been built that have additional computer-aided design (CAD) and three-dimensional printing technologies. The information to print the organ can be personalized using the patient\u2019s own imaging studies that help to define the size and shape of the particular tissue (Video 92e-3, a modified inkjet printer shows the three-dimensional construction of a two-chambered heart and how the structure beats with the cardiomyocytes in synchrony). Bioprinting is a tool that allows a scale-up option"
+        },
+        {
+            "id": "InternalMed_Harrison_5304",
+            "title": "InternalMed_Harrison",
+            "content": "Successful derivation of cultured stem cells (both embryonic and tissue stem cells) often requires the identification of necessary growth factors and culture conditions, mimicking the microenvironment or niche of the resident stem cells. Recently, long-term maintenance of tissue stem cells in vitro is increasingly possible by growing them as three-dimensional (3D) organoids, which contain both stem cells and niche cells (Chap. 92e). For example, intestinal stem cells can now be cultured as \u201cepithelial mini-guts\u201d in the presence of R-spondin, epidermal growth factor (EGF), and noggin on Matrigel. Similarly, lung stem cells can be cultured as self-renewing \u201calveolospheres.\u201d A growing list of cultured stem cells, although not comprehensive, is shown in Table 88-1. Please note that the establishment of cultured stem cells is often under dispute due to the difficulties in assessing the characteristics of these cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5706",
+            "title": "Cell_Biology_Alberts",
+            "content": "or more\u2014far beyond expectations for comparable patients without this treatment. Even more promising are recent clinical trials using a combination of two antibodies, one against CTLA4 and the other against PD1, a second cell-surface receptor on T cells that normally restrains their activity."
+        },
+        {
+            "id": "Pharmacology_Katzung_246",
+            "title": "Pharmacology_Katzung",
+            "content": "In this chapter, we have dealt with receptors as molecules and shown how receptors can quantitatively account for the relation between dose or concentration of a drug and pharmacologic responses, at least in an idealized system. When faced with a patient who needs treatment, the prescriber must make a choice among a variety of possible drugs and devise a dosage regimen that is likely to produce maximal benefit and minimal toxicity. To make rational therapeutic decisions, the prescriber must understand how drug-receptor interactions underlie the relations between dose and response in patients, the nature and causes of variation in pharmacologic responsiveness, and the clinical implications of selectivity of drug action. A. Graded Dose-Response Relations"
+        },
+        {
+            "id": "InternalMed_Harrison_29671",
+            "title": "InternalMed_Harrison",
+            "content": "Experimental transplantation of human fetal dopaminergic neurons in patients with Parkinson\u2019s disease has shown that these transplanted cells can survive within the host striatum; however, some patients developed disabling dyskinesias, and this approach is no longer in clinical development. The possibility that iPSCs will be used in Parkinson\u2019s disease was strengthened by studies showing that they can be differentiated into dopaminergic neurons. The dopaminergic neurons were then shown to rescue the parkinsonian phenotype in a MPTP-induced primate model with excellent dopaminergic neuron survival function and lack of neural overgrowth. The correction of tau mutations in iPSC-derived neurons has been shown to reverse the toxic phenotype in dendrite retraction and cell death."
+        },
+        {
+            "id": "Pathology_Robbins_2894",
+            "title": "Pathology_Robbins",
+            "content": "Peripheral T Cell Lymphoma. This heterogeneous group of tumors makes up about 10% of adult NHLs. Although several rare distinctive subtypes fall under this heading, most tumors in this group are unclassifiable. In general, these are aggressive tumors that respond poorly to therapy. Moreover, because these are tumors of functional T cells, patients often suffer from symptoms related to tumor-derived inflammatory products, even when the tumor burden is relatively low. Before ending our review of lymphoid neoplasms, it is worthwhile pausing to summarize the manner in which common driver mutations in specific entities produce changes in cellular behavior that exemplify particular hallmarks of cancer ( Fig. 12.25 ). Such alterations not only highlight important pathogenic principles, but are increasingly the targets of effective therapies, such as antibodies that block PD-1 (Hodgkin lymphoma) and drugs that antagonize BCL2 (follicular lymphoma and other B cell tumors)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6332",
+            "title": "Cell_Biology_Alberts",
+            "content": "This approach to drug discovery\u2014where iPS cells are prepared from the individual patient, differentiated into the relevant cell type, and used to test candidate drugs in vitro\u2014would seem to represent a huge advance on the slow, costly traditional methods that involve administration of test compounds to large numbers of people. Figure 22\u201347 Use of iPS cells for drug discovery and for analysis and treatment of genetic disease. the left side of the diagram shows how differentiated cells that are generated from ipS cells derived from a patient with a genetic disease can be used for analysis of the disease mechanism and for discovery of therapeutic drugs. the right side of the diagram shows how the genetic defect might be repaired in the ipS cells, which could then be induced to differentiate in an appropriate way and grafted back into the patient without danger of immune rejection. (based on d.a. Robinton and G.Q. daley, Nature 481:295\u2013305, 2012)."
+        },
+        {
+            "id": "Immunology_Janeway_4003",
+            "title": "Immunology_Janeway",
+            "content": "these standard therapeutics have been joined by so-called biological therapeutics, or biologics, which are artificially produced versions of natural products, such as hormones, cytokines, and monoclonal antibodies, or derivatives of these such as engineered fusion proteins. These biologics possess extraordinary specificity, and though some have been used for decades, such as the hormone insulin in patients with type 1 diabetes, recent advances in cell biology and engineering have allowed for the introduction of a broad array of new biologics that allow for very precise manipulation of the immune system. Finally, long-standing efforts to deploy the power of the adaptive immune system against tumors have made major advances, and biologics that target negative regulators of immunity to stimulate protective responses against cancers have made a significant impact in clinical medicine. The categories of agents used to manipulate immune responses are listed in Fig. 16.1. This chapter will"
+        },
+        {
+            "id": "Pathology_Robbins_1466",
+            "title": "Pathology_Robbins",
+            "content": "in the realm of clinical research, but with many drugs that target the cancer epigenome moving into the clinic, it can be anticipated that tests directed at assessing the state of the epigenome that predict response to such agents are soon to follow."
+        },
+        {
+            "id": "InternalMed_Harrison_9069",
+            "title": "InternalMed_Harrison",
+            "content": "Although high-dose treatment regimens have typically been used in transplantation, the understanding that much of the antitumor effect of transplantation derives from an immunologically mediated GVT response has led investigators to ask if reduced-intensity conditioning regimens might be effective and more tolerable. Evidence for a GVT effect comes from studies showing that posttransplant relapse rates are lowest in patients who develop acute and chronic GVHD, higher in those without GVHD, and higher still in recipients of T cell\u2013depleted allogeneic or syngeneic marrow. The demonstration that complete remissions can be obtained in many patients who have relapsed after transplant by simply administering viable lymphocytes from the original donor further strengthens the argument for a potent GVT effect. Accordingly, a variety of reduced-intensity regimens have been studied, ranging from the very minimum required to achieve engraftment (e.g., fludarabine plus 200 cGy total-body"
+        },
+        {
+            "id": "Surgery_Schwartz_3347",
+            "title": "Surgery_Schwartz",
+            "content": "can be isolated from immunized patients and grown in vitro for use in cell-transfer therapies.Chemotherapy. The primary function of anticancer chemicals is to block different steps involved in cell growth and replica-tion. These chemicals often block a critical chemical reaction in a signal transduction pathway or during DNA replication or gene expression. For example, STI571, also known as Gleevec, is one of the first molecularly targeted drugs based on the changes that cancer causes in cells.18 STI571 offers promise for the treatment of chronic myeloid leukemia (CML) and may soon surpass interferon-\u03b3 as the standard treatment for the disease. In CML, STI571 is targeted at the Bcr-Abl kinase, an activated oncogene product in CML (Fig. 15-13). Bcr-Abl is an overly activated protein kinase resulting from a specific genetic abnor-mality generated by chromosomal translocation that is found in the cells of patients with CML. STI571-mediated inhibi-tion of Bcr-Abl kinase activity not only"
+        },
+        {
+            "id": "Surgery_Schwartz_14218",
+            "title": "Surgery_Schwartz",
+            "content": "Care. Discussion Paper. Institute of Medicine, October 2012.a means of increasing the safety of healthcare. There are meth-ods to accomplish medical team training that do not involve simulation, but high-fidelity patient simulation has proven to be highly effective in increasing health care team competency, and systematic reviews have given evidence based endorsement of this approach.138Simulation training for communication and other teamwork-pertinent nontechnical skills requires learners to be embed-ded in realistic scenarios pertinent to a healthcare team\u2019s 7actual clinical responsibilities where activities and interactions prompted by the simulated clinical circumstances can be prac-ticed and observed. The computer-driven high-fidelity manikin simulator serving as the \u201cpatient\u201d at the center of these activities can be monitored and controlled to demonstrate realistic physi-ology consistent with the clinical condition needed for the scenario.139 Software-driven, physiologic"
+        },
+        {
+            "id": "Immunology_Janeway_4145",
+            "title": "Immunology_Janeway",
+            "content": "cells are reinfused into the patient to induce an immune response specific to the PAP antigen. This treatment reduced the risk of death by 22% and improved survival by about 4 months relative to a placebo group. Other methods in clinical trials include loading dendritic cells ex vivo with DNA encoding the tumor antigen or with mRNA derived from tumor cells, and the use of apoptotic or necrotic tumor cells as sources of antigens."
+        },
+        {
+            "id": "InternalMed_Harrison_24657",
+            "title": "InternalMed_Harrison",
+            "content": "Cell-based therapies have been studied for many years, including ex vivo activation of NK cells for reinfusion into patients with malignancies and DC therapy of ex vivo priming of DCs for enhanced presentationofcancerantigens,withreinfusionofprimedDCsintothepatient. One such strategy for DC therapy has been approved by the FDA for treatment of advanced prostate cancer."
+        },
+        {
+            "id": "Pharmacology_Katzung_534",
+            "title": "Pharmacology_Katzung",
+            "content": "Discoveries in pharmacogenomics are increasing as new technologies for genotyping are being developed and as access to patient DNA samples along with drug response information has accelerated. Increasingly, pharmacogenomics discoveries will move beyond single SNPs to multiple SNPs that inform both adverse and therapeutic responses. It is hoped that prescriber-friendly predictive models incorporating SNPs and other biomarkers as well as information on demographics, comorbidities, epigenetic signatures, and concomitant medications will be developed to aid in drug and dose selection. CPIC guidelines and Food and Drug Administration-stimulated product label changes will contribute to the accelerated translation of discoveries to clinical practice. Altman RB, Whirl-Carrillo M, Klein TE: Challenges in the pharmacogenomic annotation of whole genomes. Clin Pharmacol Ther 2013;94:211. Bertilsson DL: Geographical/interracial differences in polymorphic drug oxidation."
+        },
+        {
+            "id": "Pathology_Robbins_171",
+            "title": "Pathology_Robbins",
+            "content": "More recently it has been possible to generate pluripotential cells, resembling ES cells, that are derived from the patient into whom they will be implanted. To accomplish this, a handful of genes have been identified whose products can\u2014remarkably\u2014reprogram somatic cells to achieve the \u201cstem-ness\u201d of ES cells. When such genes are introduced into fully differentiated cells (e.g., fibroblasts), induced pluripotent stem cells (iPS cells) are generated ( Fig. 1.22 ), albeit at low frequency. Because these cells are derived from the patient, their differentiated progeny (e.g., insulin-secreting \u03b2-cells in a patient with diabetes) can be engrafted without eliciting an immunologically mediated rejection reaction that would occur if the differentiated cells were derived from ES cells obtained from another donor."
+        },
+        {
+            "id": "InternalMed_Harrison_15924",
+            "title": "InternalMed_Harrison",
+            "content": "PDH is typically seen in immunocompromised individuals, who account for ~70% of cases. Common risk factors include AIDS (CD4+ T cell count, <200/\u03bcL), extremes of age, immunosuppressive medications administered for prevention or treatment of rejection following transplantation (e.g., prednisone, mycophenolate, calcineurin inhibitors, and biologic response modifiers), and methotrexate, anti-TNF-\u03b1 agents, or other biologic response modifiers given for inflammatory arthritis or Crohn\u2019s disease."
+        },
+        {
+            "id": "InternalMed_Harrison_25253",
+            "title": "InternalMed_Harrison",
+            "content": "Because some patients do not adequately respond to conventional DMARDS or biologic therapy, other therapeutic targets have been investigated to fill this gap. Recently, drug development in RA has focused attention on the intracellular signaling pathways that transduce the positive signals of cytokines and other inflammatory mediators that create the positive feedback loops in the immune response. These synthetic DMARDs aim to provide the same efficacy as biological therapies in an oral formulation."
+        },
+        {
+            "id": "Pediatrics_Nelson_125",
+            "title": "Pediatrics_Nelson",
+            "content": "Responses to open-ended questions often provide clues to underlying, unstated problems and identify the appropriate direction for further, more directed questions. Histories about developmental and behavioral problems are often vague and confusing; to reconcile apparent contradictions, the interviewer frequently must request clarification, more detail, or mere repetition. By summarizing an understanding of the information at frequent intervals and by recapitulating at the close of the visit, the interviewer and patient and family can ensure that they understand each other."
+        },
+        {
+            "id": "Pharmacology_Katzung_5605",
+            "title": "Pharmacology_Katzung",
+            "content": "4. What specific tests (eg, susceptibility testing) should be undertaken to identify patients who will not respond to treatment? 5. What adjunctive measures can be undertaken to eradicate the infection? For example, is surgery feasible for removal of devitalized tissue or foreign bodies\u2014or drainage of an abscess\u2014into which antimicrobial agents may be unable to penetrate? Is it possible to decrease the dosage of immunosuppressive therapy in patients who have undergone organ transplantation? Is it possible to reduce morbidity or mortality due to the infection by reducing host immunologic response to the infection (eg, by the use of corticosteroids for the treatment of severe Pneumocystis jiroveci pneumonia or meningitis due to Streptococcus pneumoniae)?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6328",
+            "title": "Cell_Biology_Alberts",
+            "content": "treatment transplantation of genetically with drugs matched healthy cells With the advent of iPS cells and direct transdifferentiation, at least one major hurdle has been surmounted, in principle at least: the problem of immune rejection. ES cells, because they are created from early embryos that generally come from unrelated donors, will never be genetically identical to the cells of the patient receiving the transplant. The transplanted cells and their progeny are therefore liable to rejection by the immune system. Both iPS and transdifferentiated cells, in contrast, can be generated from a small sample of the patient\u2019s own tissue and so should escape immune attack when transplanted back into the same individual."
+        },
+        {
+            "id": "Surgery_Schwartz_2125",
+            "title": "Surgery_Schwartz",
+            "content": "and in vivo. Similarly, in many solid tumor types only a small proportion of cells is clonogenic in culture and in vivo. If indeed tumor growth and metastasis are driven by a small population of cancer stem cells, this may alter our current approaches to cancer therapy. Currently available drugs can shrink metastatic tumors but often cannot eradicate them. The failure of these treatments usually is attributed to the acquisition of drug resistance by the cancer cells; however, the cancer stem cell hypothesis raises the possibility that existing therapies may simply fail to kill cancer stem cells effectively. Therapeutic approaches targeting stem cells specifically are under study.CANCER ETIOLOGYCancer GenomicsOne widely held opinion is that cancer is a genetic disease that arises from an accumulation of genomic alterations that leads to the selection of cells with increasingly aggressive behavior. These alterations may lead either to a gain of function by onco-genes or to a loss of"
+        }
+    ],
+    "scores": [
+        0.021022411181632495,
+        0.02063274330740226,
+        0.01805465191932336,
+        0.018031189083820662,
+        0.01686176142697882,
+        0.016558529332251957,
+        0.016443850267379677,
+        0.016339869281045753,
+        0.015584568336861915,
+        0.015432098765432098,
+        0.015406400453129424,
+        0.01529533004284862,
+        0.014772788096130172,
+        0.014563843236409607,
+        0.014495028780743067,
+        0.013963118108719726,
+        0.01388822374407356,
+        0.01384895533831704,
+        0.013814698839565298,
+        0.01380876674994322,
+        0.013624586795318503,
+        0.013038548752834465,
+        0.013020833333333332,
+        0.012846378721126529,
+        0.012361126910097449,
+        0.012178072111846946,
+        0.012025133612595695,
+        0.0104524862180012,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901
+    ]
+}

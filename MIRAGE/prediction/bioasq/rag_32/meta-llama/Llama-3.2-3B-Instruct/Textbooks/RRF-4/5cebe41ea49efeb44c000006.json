@@ -1,0 +1,206 @@
+{
+    "id": "5cebe41ea49efeb44c000006",
+    "question": "Is the process of DNA loop-extrusion independent of ATP?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine if the process of DNA loop-extrusion is independent of ATP, we need to consider the role of ATP in DNA helicases and their function in unwinding DNA double helix. According to Document [9], DNA helicases use the energy of ATP hydrolysis to propel themselves along a DNA single strand, thereby prying apart the helix. This indicates that ATP is required for the process of DNA helicase activity, which is essential for loop-extrusion. Additionally, Document [25] states that the formation of a DNA supercoil to compensate for the unwound DNA requires the energy from ATP hydrolysis, which is necessary for the process of DNA loop-extrusion. Based on these points, it can be inferred that the process of DNA loop-extrusion is not independent of ATP.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1140",
+            "title": "Cell_Biology_Alberts",
+            "content": "The two strands of DNA have opposite polarities, and, in principle, a helicase Figure 5\u201312 The reaction catalyzed by DNA ligase. This enzyme seals a broken phosphodiester bond. As shown, DNA ligase uses a molecule of ATP to activate the 5\u02b9 end at the nick (step 1) before forming the new bond (step 2). In this way, the energetically unfavorable nick-sealing reaction is driven by being coupled to the energetically favorable process of ATP hydrolysis. could unwind the DNA double helix by moving in the 5\u02b9-to-3\u02b9 direction along one 5\u02dc 3\u02dc strand or in the 3\u02b9-to-5\u02b9 direction along the other. In fact, both types of DNA helicase exist. In the best-understood replication systems in bacteria, a helicase moving 5\u02b9 to 3\u02b9 along the lagging-strand template appears to have the predominant role, for reasons that will become clear shortly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1297",
+            "title": "Cell_Biology_Alberts",
+            "content": "RecA hydrolyzes ATP, and the steps described above require that each RecA monomer along the filament be in the ATP-bound state. However, the searching itself does not require ATP hydrolysis; instead, the process occurs by simple molecular collision, allowing many potential sequences to be rapidly sampled. Once the strand-exchange reaction is completed, however, ATP hydrolysis is necessary to disassemble RecA from the complex of DNA molecules. At this point, repair DNA polymerases and DNA ligase can complete the repair process, as shown in Figure 5\u201348."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6859",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA polymerase Enzyme that synthesizes DNA by joining nucleotides together using a DNA template as a guide. DNA primase Enzyme that synthesizes a short strand of RNA on a DNA template, producing a primer for DNA synthesis. (Figure 5\u201310) DNA repair A set of processes for repairing the many accidental lesions that occur continually in DNA. DNA replication Process by which a copy of a DNA molecule is made. DNA supercoiling A conformation with loops or coils that DNA adopts in response to superhelical tension; conversely, creating various loops or coils in the helix can create such tension."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1142",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Sliding Ring Holds a Moving DNA Polymerase Onto the DNA On their own, most DNA polymerase molecules will synthesize only a short string of nucleotides before falling off the DNA template. The tendency to dissociate quickly from a DNA molecule allows a DNA polymerase molecule that has just Figure 5\u201313 An assay for DNA helicase enzymes. A short DNA fragment is annealed to a long DNA single strand to form a region of DNA double helix. The double helix is melted as the helicase runs along the DNA single strand, releasing the short DNA fragment in a reaction that requires the presence of both the helicase protein and ATP. The rapid stepwise movement of the helicase is powered by its ATP hydrolysis (shown schematically in Figure 3\u201375A). As indicated, many DNA helicases are composed of six subunits."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1300",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201349 Strand invasion catalyzed by the RecA protein. Our understanding of this reaction is based in part on structures determined by x-ray diffraction studies of RecA bound to singleand double-strand DNA. These DNA structures (shown without the RecA protein) are on the left side of the diagram. Starting at the top, ATP-bound RecA associates with single-strand DNA, holding it in an elongated form where groups of three bases are separated from each other by a stretched and twisted backbone. In the next step, the RecA-bound single strand then binds to duplex DNA, destabilizing it and allowing the single strand to sample its sequence through base-pairing, three bases at a time. If no match is found, the RecA-bound single strand of DNA rapidly dissociates and begins a new search. If an extensive match is found, the structure is disassembled through ATP hydrolysis, resulting in the dissociation of RecA and the exchange of one single strand of DNA for another, thereby forming a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1145",
+            "title": "Cell_Biology_Alberts",
+            "content": "How can a sliding clamp prevent the polymerase from dissociating without at the same time impeding the polymerase\u2019s rapid movement along the DNA molecule? The three-dimensional structure of the clamp protein, determined by x-ray diffraction, revealed it to be a large ring around the DNA double helix. One face of the ring binds to the back of the DNA polymerase, and the whole ring slides freely along the DNA as the polymerase moves. The assembly of the clamp around the DNA requires ATP hydrolysis by a special protein complex, the clamp loader, which hydrolyzes ATP as it loads the clamp on to a primer\u2013template junction (Figure 5\u201317)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_852",
+            "title": "Cell_Biology_Alberts",
+            "content": "For the chromatin in a cell, a further loosening of DNA\u2013histone contacts is clearly required, because eukaryotic cells contain a large variety of ATP-dependent chromatin remodeling complexes. These complexes include a subunit that hydrolyzes ATP (an ATPase evolutionarily related to the DNA helicases discussed in Chapter 5). This subunit binds both to the protein core of the nucleosome and to the double-stranded DNA that winds around it. By using the energy of ATP hydrolysis to move this DNA relative to the core, the protein complex changes the structure of a nucleosome temporarily, making the DNA less tightly bound to the histone core. Through repeated cycles of ATP hydrolysis that pull the nucleosome core along the DNA double helix, the remodeling complexes can catalyze nucleosome sliding. In this way, they can reposition nucleosomes to expose specific regions of DNA, thereby making them available to other proteins in the cell (Figure 4\u201326). In addition, by cooperating with a variety"
+        },
+        {
+            "id": "Cell_Biology_Alberts_707",
+            "title": "Cell_Biology_Alberts",
+            "content": "N. Kodera et al., Nature 468:72\u201376, 2010. With permission from Macmillan Publishers Ltd.) which walks along actin filaments (Figure 3\u201375B), and the kinesin proteins that walk along microtubules (both discussed in Chapter 16). These movements can be rapid: some of the motor proteins involved in DNA replication (the DNA helicases) propel themselves along a DNA strand at rates as high as 1000 nucleotides per second. Membrane-Bound Transporters Harness Energy to Pump Molecules Through Membranes We have thus far seen how proteins that undergo allosteric shape changes can act as microprocessors (Src family kinases), as assembly factors (EF-Tu), and as generators of mechanical force and motion (motor proteins). Allosteric proteins can also harness energy derived from ATP hydrolysis, ion gradients, or electron-transport processes to pump specific ions or small molecules across a membrane. We consider one example here that will be discussed in more detail in Chapter 11."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2263",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201327 The insertion of a DNA fragment into a bacterial plasmid with the enzyme DNA ligase. The plasmid is cut open with a restriction nuclease (in this case, one that produces staggered ends) and is mixed with the DNA fragment to be cloned (which has been prepared with the same restriction nuclease). DNA ligase and ATP are added. The staggered ends base-pair, and DNA ligase seals the nicks in the DNA backbone, producing a complete recombinant DNA molecule. In the accompanying micrographs, the inserted DNA is colored red. (Micrographs courtesy of Huntington Potter and David Dressler.) Figure 8\u201328 DNA ligase can join together any two DNA fragments in vitro to produce recombinant DNA molecules. ATP provides the energy necessary to reseal the sugar-phosphate backbone of DNA (see Figure 5\u201312)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1139",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA helicases were first isolated as proteins that hydrolyze ATP when they are bound to single strands of DNA. As described in Chapter 3, the hydrolysis of ATP can change the shape of a protein molecule in a cyclical manner that allows the protein to perform mechanical work. DNA helicases use this principle to propel themselves rapidly along a DNA single strand. When they encounter a region of double helix, they continue to move along their strand, thereby prying apart the helix at rates of up to 1000 nucleotide pairs per second (Figure 5\u201313 and Figure 5\u201314). The two strands of DNA have opposite polarities, and, in principle, a helicase"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1149",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201317 The regulated sliding clamp that holds DNA polymerase on the DNA. (A) The structure of the clamp protein from E. coli, as determined by x-ray crystallography, with a DNA helix added to indicate how the protein fits around DNA (Movie 5.3). (B) Schematic illustration showing how the clamp (with red and yellow subunits) is loaded onto DNA to serve as a tether for a moving DNA polymerase molecule. The structure of the clamp loader (dark green) resembles a screw nut, (A) (B) sliding clamp clamp loader 5\u02dcATPADPPi ATPATP+ DNA + DNA polymerase 3\u02dc5\u02dc5\u02dc3\u02dc3\u02dcRECYCLING OF RELEASED CLAMP LOADER ATP BINDING TO CLAMP LOADER OPENS SLIDING CLAMP DNA ENGAGED IN CLAMP ATP HYDROLYSIS LOCKS SLIDING CLAMP AROUND DNA AND RELEASES CLAMP LOADER DNA POLYMERASE BINDS TO SLIDING CLAMP + with its threads matching the grooves of double-stranded DNA. The loader binds to a free clamp molecule, forcing a gap in its ring of subunits so that this ring is able to slip around DNA. The clamp loader, thanks to"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1453",
+            "title": "Biochemistry_Lippinco",
+            "content": "b. Type II DNA topoisomerases: These enzymes bind tightly to the DNA double helix and make transient breaks in both strands. The enzyme then causes a second stretch of the DNA double helix to pass through the break and, finally, reseals the break (Fig. 30.13). As a result, both negative and positive supercoils can be relieved by this ATP-requiring process. DNA gyrase, a type II topoisomerase found in bacteria and plants, has the unusual property of being able to introduce negative supercoils into circular DNA using energy from the hydrolysis of ATP. This facilitates the replication of DNA because the negative supercoils neutralize the positive supercoils introduced during opening of the double helix. It also aids in the transient strand separation required during transcription (see p. 436)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1319",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201356 Simplified view of branch migration. In branch migration, base pairs are continually broken and formed as the branch point moves. Although branch migration can happen spontaneously on naked DNA molecules, the process is inefficient and the branch moves back and forth at random. In the cell, branch migration is carried out using specialized proteins and ATP hydrolysis to ensure that, as shown, the branch moves rapidly and in one direction. As shown in Figure 5\u201357, branch migrations often occur at Holliday junctions, where two branch-migration reactions are coupled."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1468",
+            "title": "Biochemistry_Lippinco",
+            "content": "H. Termination Replication termination in E. coli is mediated by sequence-specific binding of the protein Tus (terminus utilization substance) to replication termination (ter) sites on the DNA, stopping the movement of the replication fork. IV. EUKARYOTIC DNA REPLICATION The process of eukaryotic DNA replication closely follows that of prokaryotic DNA synthesis. Some differences, such as the multiple origins of replication in eukaryotic cells versus single origins of replication in prokaryotes, have already been noted. Eukaryotic origin recognition proteins, ssDNA-binding proteins, and ATP-dependent DNA helicases have been identified, and their functions are analogous to those of the prokaryotic proteins previously discussed. In contrast, RNA primers are removed by RNase H and flap endonuclease 1 (FEN1) rather than by a DNA pol (Fig. 30.21). A. Eukaryotic cell cycle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_329",
+            "title": "Cell_Biology_Alberts",
+            "content": "Note that the repetitive condensation reactions that produce macromolecules can be oriented in one of two ways, giving rise to either the head polymerization or the tail polymerization of monomers. In so-called head polymerization, the reactive bond required for the condensation reaction is carried on the end of the Figure 2\u201343 Synthesis of a polynucleotide, RNa or DNa, is a multistep process driven by aTP hydrolysis. in the first step, a nucleoside monophosphate is activated by the sequential transfer of the terminal phosphate groups from two aTp molecules. The high-energy intermediate formed\u2014a nucleoside triphosphate\u2014exists free in solution until it reacts with the growing end of an Rna or a Dna chain with release of pyrophosphate. hydrolysis of the latter to inorganic phosphate is highly favorable and helps to drive the overall reaction in the direction of polynucleotide synthesis. for details, see Chapter 5."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1478",
+            "title": "Cell_Biology_Alberts",
+            "content": "Any protein that propels itself alone along a DNA strand of a double helix, such as a DNA helicase or an RNA polymerase, tends to generate superhelical tension. In eukaryotes, DNA topoisomerase enzymes rapidly remove this superhelical tension (see pp. 251\u2013253). But in bacteria a specialized topoisomerase called DNA gyrase uses the energy of ATP hydrolysis to pump supercoils continuously into the DNA, thereby maintaining the DNA under constant tension. These are negative supercoils, having the opposite handedness from the positive supercoils that form when a region of DNA helix opens (see Figure 6\u201319B). Whenever a region of helix opens, it removes these negative supercoils from bacterial DNA, reducing the superhelical tension. DNA gyrase therefore makes the opening of the DNA helix in bacteria energetically favorable compared with helix opening in DNA that is not supercoiled. For this reason, it facilitates those genetic processes in bacteria, such as the initiation of transcription by"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1116",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u20134 DNA synthesis catalyzed by DNA polymerase. (A) DNA polymerase catalyzes the stepwise addition of a deoxyribonucleotide to the 3\u02b9-OH end of a polynucleotide chain, the growing primer strand that is paired to an existing template strand. The newly synthesized DNA strand therefore polymerizes in the 5\u02b9-to-3\u02b9 direction as shown also in the previous figure. Because each incoming deoxyribonucleoside triphosphate must pair with the template strand to be recognized by the DNA polymerase, this strand determines which of the four possible deoxyribonucleotides (A, C, G, or T) will be added. The reaction is driven by a large, favorable free-energy change, caused by the release of pyrophosphate and its subsequent hydrolysis to two molecules of inorganic phosphate. (B) Structure of DNA polymerase complexed wth DNA (orange), as determined by x-ray crystallography (Movie 5.1). The template DNA strand is the longer strand and the newly synthesized DNA is the shorter. (C) Schematic diagram"
+        },
+        {
+            "id": "Cell_Biology_Alberts_704",
+            "title": "Cell_Biology_Alberts",
+            "content": "How can the cell make such a series of conformational changes unidirectional? To force the entire cycle to proceed in one direction, it is enough to make any one of the changes in shape irreversible. Most proteins that are able to walk in one direction for long distances achieve this motion by coupling one of the conformational changes to the hydrolysis of an ATP molecule that is tightly bound to the protein. The mechanism is similar to the one just discussed that drives allosteric protein shape changes by GTP hydrolysis. Because ATP (or GTP) hydrolysis releases a great deal of free energy, it is very unlikely that the nucleotide-binding protein will undergo the reverse shape change needed for moving backward\u2014 since this would require that it also reverse the ATP hydrolysis by adding a phosphate molecule to ADP to form ATP."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1459",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. DNA polymerase III: DNA chain elongation is catalyzed by the multisubunit enzyme, DNA pol III. Using the 3\u2032-hydroxyl group of the RNA primer as the acceptor of the first deoxyribonucleotide, DNA pol III begins to add nucleotides along the single-stranded template that specifies the sequence of bases in the newly synthesized chain. DNA pol III is a highly processive enzyme (that is, it remains bound to the template strand as it moves along and does not diffuse away and then rebind before adding each new nucleotide). The processivity of DNA pol III is the result of the \u03b2 subunits of the holoenzyme forming a ring that encircles and moves along the template strand of the DNA, thus serving as a sliding DNA clamp. [Note: Clamp formation is facilitated by a protein complex, the clamp loader, and ATP hydrolysis.] The new (daughter) strand grows in the 5\u2032\u21923\u2032 direction, antiparallel to the parental strand (see Fig. 30.16). The nucleotide substrates are 5\u2032deoxyribonucleoside triphosphates."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1179",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA replication requires the cooperation of many proteins. These include (1) DNA polymerase and DNA primase to catalyze nucleoside triphosphate polymerization; (2) DNA helicases and single-strand DNA-binding (SSB) proteins to help in opening up the DNA helix so that it can be copied; (3) DNA ligase and an enzyme that degrades RNA primers to seal together the discontinuously synthesized lagging-strand DNA fragments; and (4) DNA topoisomerases to help to relieve helical winding and DNA tangling problems. Many of these proteins associate with each other at a replication fork to form a highly efficient \u201creplication machine,\u201d through which the activities and spatial movements of the individual components are coordinated."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1143",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201314 The structure of a DNA helicase. (A) Diagram of the protein 5\u02dc as a hexameric ring drawn to scale with a replication fork. (B) Detailed structure of the bacteriophage T7 replicative helicase, as determined by x-ray diffraction. Six identical subunits bind and hydrolyze ATP in an ordered fashion to propel this molecule, like a rotary engine, along a DNA single strand that passes through the central hole. Red indicates bound ATP molecules in the structure (Movie 5.2). (PDB code: 1E0J.) finished synthesizing one Okazaki fragment on the lagging strand to be recycled quickly, so as to begin the synthesis of the next Okazaki fragment on the same strand. This rapid dissociation, however, would make it difficult for the polymerase to synthesize the long DNA strands produced at a replication fork were it not for an accessory protein (called PCNA in eukaryotes) that functions as a regulated sliding clamp. This clamp keeps the polymerase firmly on the DNA when it is moving, but"
+        },
+        {
+            "id": "Cell_Biology_Alberts_713",
+            "title": "Cell_Biology_Alberts",
+            "content": "Large proteins formed from many domains are able to perform more elaborate functions than small, single-domain proteins. But large protein assemblies formed from many protein molecules linked together by noncovalent bonds perform the most impressive tasks. Now that it is possible to reconstruct most biological processes in cell-free systems in the laboratory, it is clear that each of the central processes in a cell\u2014such as DNA replication, protein synthesis, vesicle budding, or transmembrane signaling\u2014is catalyzed by a highly coordinated, linked set of 10 or more proteins. In most such protein machines, an energetically favorable reaction such as the hydrolysis of bound nucleoside triphosphates (ATP or GTP) drives an ordered series of conformational changes in one or more of the individual protein subunits, enabling the ensemble of proteins to move coordinately. In this way, each enzyme can be moved directly into position, as the machine catalyzes successive reactions in a series"
+        },
+        {
+            "id": "Cell_Biology_Alberts_323",
+            "title": "Cell_Biology_Alberts",
+            "content": "The nucleic acids (DNA and RNA), proteins, and polysaccharides are all polymers that are produced by the repeated addition of a monomer onto one end of a growing chain. The synthesis reactions for these three types of macromolecules are outlined in Figure 2\u201341. As indicated, the condensation step in each case depends on energy from nucleoside triphosphate hydrolysis. And yet, except for the nucleic acids, there are no phosphate groups left in the final product molecules. How are the reactions that release the energy of ATP hydrolysis coupled to polymer synthesis? For each type of macromolecule, an enzyme-catalyzed pathway exists which resembles that discussed previously for the synthesis of the amino acid glutamine (see Figure 2\u201335). The principle is exactly the same, in that the \u2013OH group that will"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1301",
+            "title": "Cell_Biology_Alberts",
+            "content": "If an extensive match is found, the structure is disassembled through ATP hydrolysis, resulting in the dissociation of RecA and the exchange of one single strand of DNA for another, thereby forming a heteroduplex. (PDB code: 3CMX.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_858",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201326 The nucleosome sliding catalyzed by ATP-dependent chromatin remodeling complexes. (A) Using the energy of ATP hydrolysis, the remodeling complex is thought to push on the DNA of its bound nucleosome and loosen its attachment to the nucleosome core. Each cycle of ATP binding, ATP hydrolysis, and release of the ADP and Pi products thereby moves the DNA with respect to the histone octamer in the direction of the arrow in this diagram. It requires many such cycles to produce the nucleosome sliding shown."
+        },
+        {
+            "id": "Cell_Biology_Alberts_851",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleosomes Have a Dynamic Structure, and Are Frequently Subjected to Changes Catalyzed by ATP-Dependent Chromatin Remodeling Complexes For many years biologists thought that, once formed in a particular position on DNA, a nucleosome would remain fixed in place because of the very tight association between its core histones and DNA. If true, this would pose problems for genetic readout mechanisms, which in principle require easy access to many specific DNA sequences. It would also hinder the rapid passage of the DNA transcription and replication machinery through chromatin. But kinetic experiments show that the DNA in an isolated nucleosome unwraps from each end at a rate of about four times per second, remaining exposed for 10 to 50 milliseconds before the partially unwrapped structure recloses. Thus, most of the DNA in an isolated nucleosome is in principle available for binding other proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1185",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genome of E. coli is contained in a single circular DNA molecule of 4.6 \u00d7 106 nucleotide pairs. DNA replication begins at a single origin of replication, and the two replication forks assembled there proceed (at approximately 1000 nucleotides per second) in opposite directions until they meet up roughly halfway around the chromosome (Figure 5\u201324). The only point at which E. coli can control DNA replication is initiation: once the forks have been assembled at the origin, they synthesize DNA at relatively constant speed until replication is finished. Therefore, it is not surprising that the initiation of DNA replication is highly regulated. The process begins when initiator proteins (in their ATP-bound state) bind in multiple copies to specific DNA sites located at the replication origin, wrapping the DNA around the proteins to form a large protein\u2013DNA complex that destabilizes the adjacent double helix. This complex then attracts two DNA helicases, each bound to a helicase loader,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1320",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201357 Enzyme-catalyzed branch movement at a Holliday junction by branch migration. In E. coli, a tetramer of the RuvA protein (green) and two hexamers of the RuvB protein (yellow) bind to the open form of the junction. The RuvB protein, which resembles the hexameric helicases used in DNA replication (Figure 5\u201314), uses the energy of ATP hydrolysis to spool DNA rapidly through the Holliday junction, extending the heteroduplex region as shown. The RuvA protein coordinates this movement, threading the DNA strands to avoid tangling. (PDB codes: 1IXR, 1C7Y.) from the two Holliday junctions are thereby swapped, creating two chromosomes that have crossed over."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1473",
+            "title": "Cell_Biology_Alberts",
+            "content": "loop, as is thought to exist in eukaryotic chromosomes), one large DNA supercoil will form to compensate for each 10 nucleotide pairs that are opened (unwound). The formation of this supercoil is energetically favorable because it restores a normal helical twist to the base-paired regions that remain, which would otherwise need to be overwound because of the fixed ends."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1114",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u20132 The DNA double helix acts as a template for its own duplication. Because the nucleotide A will pair successfully only with T, and G only with C, each strand of DNA can serve as a template to specify the sequence of nucleotides in its complementary strand by DNA base-pairing. In this way, a double-helical DNA molecule can be copied precisely. the DNA helix exposes the hydrogen-bond donor and acceptor groups on each DNA base for base-pairing with the appropriate incoming free nucleotide, aligning it for its enzyme-catalyzed polymerization into a new DNA chain. The first nucleotide-polymerizing enzyme, DNA polymerase, was discovered in 1957. The free nucleotides that serve as substrates for this enzyme were found to be deoxyribonucleoside triphosphates, and their polymerization into DNA required a single-strand DNA template. Figure 5\u20133 and Figure 5\u20134 illustrate the stepwise mechanism of this reaction. The DNA Replication Fork Is Asymmetrical"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2102",
+            "title": "Cell_Biology_Alberts",
+            "content": "Beckwith J (1987) the operon: an historical account. in Escherichia coli and Salmonella typhimurium: Cellular and Molecular Biology (neidhart fC, ingraham Jl, low KB et al. eds), vol. 2, pp. 1439\u20131443. washington, DC: ASM press. Gilbert w & M\u00fcller-hill B (1967) the lac operator is DnA. Proc. Natl. Acad. Sci. USA 58, 2415. Jacob f & Monod J (1961) Genetic regulatory mechanisms in the synthesis of proteins. J. Mol. Biol. 3, 318\u2013356. levine M, Cattoglio C & tjian r (2014) looping back to leap forward: transcription enters a new era. Cell 157, 13\u201325. narlikar GJ, Sundaramoorthy r & Owen-hughes t (2013) Mechanisms and functions of Atp-dependent chromatin-remodeling enzymes. Cell 154, 490\u2013503. ptashne M (2004) A Genetic Switch: phage and lambda revisited, 3rd ed. Cold Spring harbor, nY: Cold Spring harbor laboratory press. ptashne M (1967) Specific binding of the lambda phage repressor to lambda DnA. Nature 214, 232\u2013234."
+        },
+        {
+            "id": "Cell_Biology_Alberts_307",
+            "title": "Cell_Biology_Alberts",
+            "content": "energy stored in aTp is often harnessed to Join Two molecules Together We have previously discussed one way in which an energetically favorable reaction can be coupled to an energetically unfavorable reaction, X \u2192 Y, so as to enable it to occur. In that scheme, a second enzyme catalyzes the energetically favorable reaction Y \u2192 Z, pulling all of the X to Y in the process. But when the required product is Y and not Z, this mechanism is not useful."
+        }
+    ],
+    "scores": [
+        0.03591266741817496,
+        0.035077793532321974,
+        0.027318995066518387,
+        0.025035254596570647,
+        0.023342223651821176,
+        0.022571671109176523,
+        0.021252555235081627,
+        0.021143928738865447,
+        0.021098622130799622,
+        0.02048603423723347,
+        0.019655054644808746,
+        0.019334952363160844,
+        0.019203664552501762,
+        0.017475875693336373,
+        0.01739656606913244,
+        0.017193034238488784,
+        0.0167601683029453,
+        0.01633986928104575,
+        0.016202498698594484,
+        0.015998551074619657,
+        0.015946991712506693,
+        0.01566111881645862,
+        0.015440969287123133,
+        0.0153011704253497,
+        0.015257469802924348,
+        0.014961389961389961,
+        0.014961067853170189,
+        0.014756944444444444,
+        0.01473266902389371,
+        0.014508694741252881,
+        0.014198274132048966,
+        0.014130434782608696
+    ]
+}

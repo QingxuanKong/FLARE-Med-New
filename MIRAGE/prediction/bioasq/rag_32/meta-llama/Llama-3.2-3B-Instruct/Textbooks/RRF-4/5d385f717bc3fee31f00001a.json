@@ -1,0 +1,206 @@
+{
+    "id": "5d385f717bc3fee31f00001a",
+    "question": "Does the chromatin remodeling complex, RSC target H2A.Z nucleosomes?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of the RSC chromatin remodeling complex and its interaction with histone variants. The RSC complex is a type of ATP-dependent chromatin remodeling complex that plays a crucial role in various cellular processes, including transcription, DNA replication, and chromosome segregation. It is known to target specific histone variants for repositioning or removal. One of the histone variants that the RSC complex targets is H2A.Z. H2A.Z is a variant of the H2A histone, which is a component of nucleosomes. The RSC complex has been shown to interact with H2A.Z-containing nucleosomes and reposition them, which can affect gene expression and chromatin structure. Therefore, based on this understanding, it is likely that the chromatin remodeling complex, RSC, targets H2A.Z nucleosomes.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_859",
+            "title": "Cell_Biology_Alberts",
+            "content": "(b) The structure of a nucleosome-bound dimer of the two identical ATPase subunits (green) that slide nucleosomes back and forth in the ISw1 family of chromatin remodeling complexes. (C) The structure of a large chromatin remodeling complex, showing how it is thought to wrap around a nucleosome. modeled in green is the yeast RSC complex, which contains 15 subunits\u2014 including an ATPase and at least four subunits with domains that recognize specific covalently modified histones. (b, from l.R. Racki et al., Nature 462:1016\u20131021, 2009. with permission from macmillan Publishers ltd; C, adapted from A.E. leschziner et al., Proc. Natl Acad. Sci. USA 104:4913\u20134918, 2007.) 192 Chapter 4: DNA, Chromosomes, and genomes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_867",
+            "title": "Cell_Biology_Alberts",
+            "content": "of such complexes, which are targeted to specific regions of chromatin at appropriate times. The remodeling complexes collaborate with histone chaperones to allow nucleosome cores to be repositioned, reconstituted with different histones, or completely removed to expose the underlying DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_866",
+            "title": "Cell_Biology_Alberts",
+            "content": "The DNA in eukaryotes is tightly bound to an equal mass of histones, which form repeated arrays of DNA\u2013protein particles called nucleosomes. The nucleosome is composed of an octameric core of histone proteins around which the DNA double helix is wrapped. Nucleosomes are spaced at intervals of about 200 nucleotide pairs, and they are usually packed together (with the aid of histone H1 molecules) into quasi-regular arrays to form a 30-nm chromatin fiber. Even though compact, the structure of chromatin must be highly dynamic to allow access to the DNA. There is some spontaneous DNA unwrapping and rewrapping in the nucleosome itself; however, the general strategy for reversibly changing local chromatin structure features ATP-driven chromatin remodeling complexes. Cells contain a large set of such complexes, which are targeted to specific regions of chromatin at appropriate times. The remodeling complexes collaborate with histone chaperones to allow nucleosome cores to be repositioned,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_856",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although some DNA sequences bind more tightly than others to the nucleosome core (see Figure 4\u201325), the most important influence on nucleosome positioning appears to be the presence of other tightly bound proteins on the DNA. Some bound proteins favor the formation of a nucleosome adjacent to them. Others create obstacles that force the nucleosomes to move elsewhere. The exact positions of nucleosomes along a stretch of DNA therefore depend mainly on the presence and nature of other proteins bound to the DNA. And due to the presence of ATP-dependent chromatin remodeling complexes, the arrangement of nucleosomes on DNA can be highly dynamic, changing rapidly according to the needs of the cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1806",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cooperation among transcription regulators can become much greater when nucleosome remodeling complexes are involved. If one transcription regulator binds its cis-regulatory sequence and attracts a chromatin remodeling complex, the localized action of the remodeling complex can allow a second transcription regulator to efficiently bind nearby. Moreover, we have discussed how transcription regulators can work together in pairs; in reality, larger numbers often cooperate by repeated use of the same principles. A highly cooperative binding of transcription regulators to DNA probably explains why many sites in eukaryotic genomes that are bound by transcription regulators are \u201cnucleosome free.\u201d"
+        },
+        {
+            "id": "Cell_Biology_Alberts_900",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201337 Recognition of a specific combination of marks on a nucleosome. In the example shown, two adjacent domains that are part of the NURF (Nucleosome Remodeling Factor) chromatin remodeling complex bind to the nucleosome, with the PHD domain (red) recognizing a methylated H3 lysine 4 and another domain (a bromodomain, blue) recognizing an acetylated H4 lysine 16. These two histone marks constitute a unique histone modification pattern that occurs in subsets of nucleosomes in human cells. Here the two histone tails are indicated by green dotted lines, and only half of one nucleosome is shown. (Adapted from A.J. Ruthenburg et al., Cell 145:692\u2013706, 2011. with permission from Elsevier.) protein modules scaffold binding to specifc protein histone modifcations on nucleosome attachment to other components in nucleus, leading to gene expression, gene silencing, or other biological function see Figure 7\u201320). But after a modifying enzyme \u201cwrites\u201d its mark on one or a few neighboring"
+        },
+        {
+            "id": "Cell_Biology_Alberts_855",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells contain dozens of different ATP-dependent chromatin remodeling complexes that are specialized for different roles. Most are large protein complexes that can contain 10 or more subunits, some of which bind to specific modifications on histones (see Figure 4\u201326C). The activity of these complexes is carefully controlled by the cell. As genes are turned on and off, chromatin remodeling complexes are brought to specific regions of DNA where they act locally to influence chromatin structure (discussed in Chapter 7; see also Figure 4\u201340, below)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_858",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201326 The nucleosome sliding catalyzed by ATP-dependent chromatin remodeling complexes. (A) Using the energy of ATP hydrolysis, the remodeling complex is thought to push on the DNA of its bound nucleosome and loosen its attachment to the nucleosome core. Each cycle of ATP binding, ATP hydrolysis, and release of the ADP and Pi products thereby moves the DNA with respect to the histone octamer in the direction of the arrow in this diagram. It requires many such cycles to produce the nucleosome sliding shown."
+        },
+        {
+            "id": "Cell_Biology_Alberts_892",
+            "title": "Cell_Biology_Alberts",
+            "content": "The major histones are synthesized primarily during the S phase of the cell cycle and assembled into nucleosomes on the daughter DNA helices just behind the replication fork (see Figure 5\u201332). In contrast, most histone variants are synthesized throughout interphase. They are often inserted into already-formed chromatin, which requires a histone-exchange process catalyzed by the ATP-dependent chromatin remodeling complexes discussed previously. These remodeling complexes contain subunits that cause them to bind both to specific sites on chromatin and to histone chaperones that carry a particular variant. As a result, each histone variant is inserted into chromatin in a highly selective manner (see Figure 4\u201327). Covalent modifications and Histone variants Act in Concert to Control Chromosome Functions"
+        },
+        {
+            "id": "Cell_Biology_Alberts_852",
+            "title": "Cell_Biology_Alberts",
+            "content": "For the chromatin in a cell, a further loosening of DNA\u2013histone contacts is clearly required, because eukaryotic cells contain a large variety of ATP-dependent chromatin remodeling complexes. These complexes include a subunit that hydrolyzes ATP (an ATPase evolutionarily related to the DNA helicases discussed in Chapter 5). This subunit binds both to the protein core of the nucleosome and to the double-stranded DNA that winds around it. By using the energy of ATP hydrolysis to move this DNA relative to the core, the protein complex changes the structure of a nucleosome temporarily, making the DNA less tightly bound to the histone core. Through repeated cycles of ATP hydrolysis that pull the nucleosome core along the DNA double helix, the remodeling complexes can catalyze nucleosome sliding. In this way, they can reposition nucleosomes to expose specific regions of DNA, thereby making them available to other proteins in the cell (Figure 4\u201326). In addition, by cooperating with a variety"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1839",
+            "title": "Cell_Biology_Alberts",
+            "content": "eukaryotic transcription Activators Direct the Modification of local Chromatin Structure The eukaryotic general transcription factors and RNA polymerase are unable, on their own, to assemble on a promoter that is packaged in nucleosomes. Thus, in addition to directing the assembly of the transcription machinery at the promoter, eukaryotic transcription activators promote transcription by triggering changes to the chromatin structure of the promoters, making the underlying DNA more accessible. The most important ways of locally altering chromatin are through covalent histone modifications, nucleosome remodeling, nucleosome removal, and his-tone replacement (discussed in Chapter 4). Eukaryotic transcription activators use all four of these mechanisms: thus they attract coactivators that include his-tone modification enzymes, ATP-dependent chromatin remodeling complexes, and histone chaperones, each of which can alter the chromatin structure of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_851",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleosomes Have a Dynamic Structure, and Are Frequently Subjected to Changes Catalyzed by ATP-Dependent Chromatin Remodeling Complexes For many years biologists thought that, once formed in a particular position on DNA, a nucleosome would remain fixed in place because of the very tight association between its core histones and DNA. If true, this would pose problems for genetic readout mechanisms, which in principle require easy access to many specific DNA sequences. It would also hinder the rapid passage of the DNA transcription and replication machinery through chromatin. But kinetic experiments show that the DNA in an isolated nucleosome unwraps from each end at a rate of about four times per second, remaining exposed for 10 to 50 milliseconds before the partially unwrapped structure recloses. Thus, most of the DNA in an isolated nucleosome is in principle available for binding other proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_893",
+            "title": "Cell_Biology_Alberts",
+            "content": "Covalent modifications and Histone variants Act in Concert to Control Chromosome Functions The number of possible distinct markings on an individual nucleosome is in principle enormous, and this potential for diversity is still greater when we allow for nucleosomes that contain histone variants. However, the histone modifications are known to occur in coordinated sets. More than 15 such sets can be identified in mammalian cells. However, it is not yet clear how many different types of chromatin are functionally important in cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_853",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this way, they can reposition nucleosomes to expose specific regions of DNA, thereby making them available to other proteins in the cell (Figure 4\u201326). In addition, by cooperating with a variety of other proteins that bind to histones and serve as histone chaperones, some remodeling complexes are able to remove either all or part of the nucleosome core from a nucleosome\u2014catalyzing either an exchange of its H2A\u2013H2B histones, or the complete removal of the octameric core from the DNA (Figure 4\u201327). As a result of such processes, measurements reveal that a typical nucleosome is replaced on the DNA every one or two hours inside the cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_899",
+            "title": "Cell_Biology_Alberts",
+            "content": "The enzymes that add or remove modifications to histones in nucleosomes are part of multisubunit complexes. They can initially be brought to a particular region of chromatin by one of the sequence-specific DNA-binding proteins (transcription regulators) discussed in Chapters 6 and 7 (for a specific example,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_869",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201330 How the linker histone binds to the nucleosome. The position and structure of histone H1 is shown. The H1 core region constrains an additional 20 nucleotide pairs of DNA where it exits from the nucleosome core and is important for compacting chromatin. (A) Schematic, and (b) structure inferred for a single nucleosome from a structure determined by high-resolution electron microscopy of a reconstituted chromatin fiber (C). (b and C, adapted from F. Song et al., Science 344:376\u2013380, 2014.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1217",
+            "title": "Cell_Biology_Alberts",
+            "content": "As a replication fork advances, it must pass through the parental nucleosomes. In the cell, efficient replication requires chromatin remodeling complexes (discussed in Chapter 4) to destabilize the DNA\u2013histone interfaces. Aided by such complexes, replication forks can transit even highly condensed chromatin efficiently."
+        },
+        {
+            "id": "Cell_Biology_Alberts_861",
+            "title": "Cell_Biology_Alberts",
+            "content": "What causes nucleosomes to stack so tightly on each other? Nucleosome-tonucleosome linkages that involve histone tails, most notably the H4 tail, constitute one important factor (Figure 4\u201329). Another important factor is an additional histone that is often present in a 1-to-1 ratio with nucleosome cores, known as Figure 4\u201328 A zigzag model for the 30histone H1. This so-called linker histone is larger than the individual core histones nm chromatin fiber. (A) The conformation of two of the four nucleosomes in a and it has been considerably less well conserved during evolution. A single his tetranucleosome, from a structure tone H1 molecule binds to each nucleosome, contacting both DNA and protein, determined by x-ray crystallography. and changing the path of the DNA as it exits from the nucleosome. This change in (b) Schematic of the entire tetranucleosome; the exit path of DNA is thought to help compact nucleosomal DNA (Figure 4\u201330). the fourth nucleosome is not visible, being stacked"
+        },
+        {
+            "id": "Pathology_Robbins_13",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 1.2 Chromatin organization. (A) Nucleosomes are comprised of octamers of histone proteins (two each of histone subunits H2A, H2B, H3, and H4) encircled by 1.8 loops of 147 base pairs of DNA; histone H1 sits on the 20 to 80 nucleotide linker DNA between nucleosomes and helps stabilize the overall chromatin architecture. The histone subunits are positively charged, thus allowing the compaction of the negatively charged DNA. (B) The relative state of DNA unwinding (and thus access for transcription factors) is regulated by histone modification, for example, by acetylation, methylation, and/or phosphorylation (so-called \u201cmarks\u201d); marks are dynamically written and erased. Certain marks such as histone acetylation \u201copen up\u201d the chromatin structure, whereas others, such as methylation of particular histone residues, tend to condense the DNA and lead to gene silencing. DNA itself can also be also be methylated, a modification that is associated with transcriptional inactivation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1845",
+            "title": "Cell_Biology_Alberts",
+            "content": "the histone acetyl transferase, the histone kinase, and the chromatin remodeling complex are all coactivators. the order of events shown applies to a specific promoter; at other genes, the steps may occur in a different order or individual steps may be omitted altogether. (Adapted from t. Agalioti, G. Chen and D. thanos, Cell 111:381\u2013392, 2002. with permission from elsevier.) behind a moving polymerase, which, in essence, must clear a path through chromatin as it transcribes. Later in this chapter, when we discuss RNA interference, the potential dangers to the cell of such inappropriate transcription will become especially obvious. The modification of nucleosomes behind a moving RNA polymerase also plays an important role in RNA splicing (see p. 323)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_898",
+            "title": "Cell_Biology_Alberts",
+            "content": "The marks on nucleosomes due to covalent additions to histones are dynamic, being constantly removed and added at rates that depend on their chromosomal locations. Because the histone tails extend outward from the nucleosome core and are likely to be accessible even when chromatin is condensed, they would seem to provide an especially suitable format for creating marks that can be readily altered as a cell\u2019s needs change. Although much remains to be learned about the meaning of the different histone modifications, a few well-studied examples of the information that can be encoded in the histone H3 tail are listed in Figure 4\u201339. A Complex of Reader and writer Proteins Can Spread Specific The phenomenon of position effect variegation described previously requires that some modified forms of chromatin have the ability to spread for substantial distances along a chromosomal DNA molecule (see Figure 4\u201331). How is this possible?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1803",
+            "title": "Cell_Biology_Alberts",
+            "content": "We saw in Chapter 4 that nucleosome remodeling can alter the structure of the nucleosome, allowing transcription regulators access to the DNA. Even without remodeling, however, transcription regulators can still gain limited access to DNA in a nucleosome. The DNA at the end of a nucleosome \u201cbreathes,\u201d transiently exposing the DNA and allowing regulators to bind. This breathing happens at a much lower rate in the middle of the nucleosome; therefore, the positions where the DNA exits the nucleosome are much easier to occupy (Figure 7\u201311)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_927",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201344 How the packaging of DNA in chromatin can be inherited following chromosome replication. In this model, some of the specialized chromatin components are distributed to each sister chromosome after DNA duplication, along with the specially marked nucleosomes that they bind. After DNA replication, the inherited nucleosomes that are specially modified, acting in concert with the inherited chromatin components, change the pattern of histone modification on the newly formed nucleosomes nearby. This creates new binding sites for the same chromatin components, which then assemble to complete the structure. The latter process is likely to involve reader\u2013 writer\u2013remodeling complexes operating in a manner similar to that previously illustrated in Figure 4\u201340."
+        },
+        {
+            "id": "Cell_Biology_Alberts_907",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201340 How the recruitment of a reader\u2013writer complex can spread chromatin changes along a chromosome. The writer is an enzyme that creates a specific modification on one or more of the four nucleosomal histones. After its recruitment to a specific site on a chromosome by a transcription regulatory protein, the writer collaborates with a reader protein to spread its mark from nucleosome to nucleosome by means of the indicated reader\u2013writer complex. For this mechanism to work, the reader must recognize the same histone modification mark that the writer produces; its binding to that mark can be shown to activate the writer. In this schematic example, a spreading wave of chromatin condensation is thereby induced. Not shown are the additional proteins involved, including an ATP-dependent chromatin remodeling complex required to reposition the modified nucleosomes. barrier DNA Sequences block the Spread of Reader\u2013writer Complexes and thereby Separate Neighboring Chromatin Domains"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1093",
+            "title": "Cell_Biology_Alberts",
+            "content": "Deal Rb, Henikoff Jg & Henikoff S (2010) genome-wide kinetics of nucleosome turnover determined by metabolic labeling of histones. Science 328, 1161\u20131164. grigoryev SA & woodcock Cl (2012) Chromatin organization\u2014the 30 nm fiber. Exp. Cell Res. 318, 1448\u20131455. li g, levitus m, bustamante C & widom J (2005) Rapid spontaneous accessibility of nucleosomal DNA. Nat. Struct. Mol. Biol. 12, 46\u201353. luger k, m\u00e4der Aw, Richmond Rk et al. (1997) Crystal structure of the nucleosome core particle at 2.8 \u00c5 resolution. Nature 389, 251\u2013260. Narlikar gJ, Sundaramoorthy R & Owen-Hughes T (2013) mechanisms and functions of ATP-dependent chromatin-remodeling enzymes. Cell 154, 490\u2013503. Song F, Chen P, Sun D et al. (2014) Cryo-Em study of the chromatin fiber reveals a double helix twisted by tetranucleosomal units. Science 344, 376\u2013380."
+        },
+        {
+            "id": "Cell_Biology_Alberts_839",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleosomes Are a basic Unit of Eukaryotic Chromosome Structure The proteins that bind to the DNA to form eukaryotic chromosomes are traditionally divided into two classes: the histones and the non-histone chromosomal proteins, each contributing about the same mass to a chromosome as the DNA. The complex of both classes of protein with the nuclear DNA of eukaryotic cells is known as chromatin (Figure 4\u201320)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1659",
+            "title": "Biochemistry_Lippinco",
+            "content": "Access to DNA: In eukaryotes, DNA is found complexed with histone and nonhistone proteins to form chromatin (see p. 425). Transcriptionally active, decondensed chromatin (euchromatin) differs from the more condensed, inactive form (heterochromatin) in a number of ways. Active chromatin contains histone proteins that have been covalently modified at their amino terminal ends by reversible methylation, acetylation, or phosphorylation (see p. 438 for a discussion of histone acetylation/deacetylation by histone acetyltransferase and histone deacetylase). Such modifications decrease the positive charge of these basic proteins, thereby decreasing the strength of their association with negatively charged DNA. This relaxes the nucleosome (see p. 425), allowing transcription factors access to specific regions on the DNA. Nucleosomes can also be repositioned, an ATP-requiring process that is part of chromatin remodeling. Another difference between transcriptionally active and inactive chromatin"
+        },
+        {
+            "id": "Pathology_Robbins_15",
+            "title": "Pathology_Robbins",
+            "content": "DNA methylation. High levels of DNA methylation in gene regulatory elements typically result in chromatin condensation and transcriptional silencing. Like histone modifications (see later), DNA methylation is tightly regulated by methyltransferases, demethylating enzymes, and methylated-DNA-binding proteins. Histone modifying factors. Nucleosomes are highly dynamic structures regulated by an array of nuclear proteins and post-translational modifications: Chromatin remodeling complexes can reposition nucleosomes on DNA, exposing (or obscuring) gene regulatory elements such as promoters."
+        },
+        {
+            "id": "Cell_Biology_Alberts_841",
+            "title": "Cell_Biology_Alberts",
+            "content": "The structural organization of nucleosomes was determined after first isolating them from unfolded chromatin by digestion with particular enzymes (called nucleases) that break down DNA by cutting between the nucleosomes. After digestion for a short period, the exposed DNA between the nucleosome core particles, the linker DNA, is degraded. Each individual nucleosome core particle consists of a complex of eight histone proteins\u2014two molecules each of histones H2A, Figure 4\u201320 Chromatin. As illustrated, chromatin consists of DNA bound to both histone and non-histone proteins. The mass of histone protein present is about equal to the total mass of non-histone protein, but\u2014as schematically indicated here\u2014the latter class is composed of an enormous number of different species. In total, a chromosome is about one-third DNA and two-thirds protein by mass."
+        },
+        {
+            "id": "Cell_Biology_Alberts_868",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201329 A model for the role played by histone tails in the compaction of chromatin. (A) A schematic diagram shows the approximate exit points of the eight histone tails, one from each histone protein, that extend from each nucleosome. The actual structure is shown to its right. In the high-resolution structure of the nucleosome, the tails are largely unstructured, suggesting that they are highly flexible. (b) As indicated, the histone tails are thought to be involved in interactions between nucleosomes that help to pack them together. (A, PDb code: 1k X5.)"
+        },
+        {
+            "id": "Pathology_Robbins_16",
+            "title": "Pathology_Robbins",
+            "content": "Chromatin remodeling complexes can reposition nucleosomes on DNA, exposing (or obscuring) gene regulatory elements such as promoters. writer\u201d complexes carry out more than 70 different covalent histone modifications generically denoted as marks. These include methylation, acetylation, and phosphorylation of specific histone amino acid residues: Histone methylation of lysines and arginines is accomplished by specific writer enzymes; methylation of histone lysine residues can lead to transcriptional activation or repression, depending on which histone residue is \u201cmarked.\u201d Histone acetylation of lysine residues (occurring through histone acetyl transferases) tends to open up chromatin and increase transcription; histone deacetylases (HDAC) reverse this process, leading to chromatin condensation. Histone phosphorylation of serine residues can variably open or condense chromatin, to increase or decrease transcription, respectively."
+        },
+        {
+            "id": "Cell_Biology_Alberts_891",
+            "title": "Cell_Biology_Alberts",
+            "content": "H3.3 gene expression,H2AZ chromosome segregation transcriptional repression,macroH2A X-chromosome inactivation Chromatin Acquires Additional variety Through the Site-Specific Insertion of a Small Set of Histone variants In addition to the four highly conserved standard core histones, eukaryotes also contain a few variant histones that can also assemble into nucleosomes. These histones are present in much smaller amounts than the major histones, and they have been less well conserved over long evolutionary times. Variants are known for each of the core histones with the exception of H4; some examples are shown in Figure 4\u201335."
+        }
+    ],
+    "scores": [
+        0.037867304830030514,
+        0.0377873333155418,
+        0.03754892062207605,
+        0.034558572919699215,
+        0.03436115554042577,
+        0.03347042694868782,
+        0.033160925188788964,
+        0.03226222969112427,
+        0.032098126748956866,
+        0.03209811319462947,
+        0.030874051795661966,
+        0.030836806871289632,
+        0.030673846115022586,
+        0.030581913569617144,
+        0.02984509565921045,
+        0.02979229641013002,
+        0.02954359339364161,
+        0.029255117803303036,
+        0.028685667862560903,
+        0.028012571843740675,
+        0.027997709359394204,
+        0.027356977903742193,
+        0.02721638312401651,
+        0.0269996852171459,
+        0.026325433215460266,
+        0.02582070966752798,
+        0.025725952813067148,
+        0.025600328478109315,
+        0.025343951391575293,
+        0.024913004832491537,
+        0.02424758001894517,
+        0.02409322974472808
+    ]
+}

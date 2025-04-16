@@ -1,0 +1,206 @@
+{
+    "id": "5e540ed36d0a277941000054",
+    "question": "Does saracatinib promote oncogenesis?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to understand what sunitinib is and its effects on cancer cells. Sunitinib is a small molecule inhibitor that targets multiple kinases, including PDGFR-\u03b1 and PDGFR-\u03b2, VEGF-R1, VEGF-R2, VEGFR3, and c-kit. It is approved for the treatment of advanced renal cell cancer and for the treatment of gastrointestinal stromal tumors after disease progression on or with intolerance to imatinib.\\n\\nSunitinib works by inhibiting the activity of these kinases, which are involved in various cellular processes such as angiogenesis, cell proliferation, and survival. By inhibiting these kinases, sunitinib can potentially prevent the growth and spread of cancer cells.\\n\\nHowever, the question asks about dasatinib, not sunitinib. Dasatinib is also a tyrosine kinase inhibitor, but it targets a different set of kinases, including BCR-ABL, src family, KIT, EPHA2, and PDGFR-\u03b2. It is approved for the treatment of certain types of cancer, including chronic myelogenous leukemia (CML) and gastrointestinal stromal tumors (GIST).\\n\\nBased on the information provided, there is no mention of dasatinib promoting oncogenesis. In fact, dasatinib is used to treat cancers, including CML and GIST, which are characterized by uncontrolled cell growth and proliferation. Therefore, dasatinib is actually used to inhibit oncogenesis, not promote it.\\n\\nSo, the correct answer is B. no.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5694",
+            "title": "Cell_Biology_Alberts",
+            "content": "Despite the complications with resistance, the extraordinary success of imatinib is enough to drive home an important principle: once we understand precisely what genetic lesions have occurred in a cancer, we can begin to design effective rational methods to treat it. This success story has fueled efforts to identify small-molecule inhibitors for other oncogenic protein kinases and to use them to attack the appropriate cancer cells. Increasing numbers are being developed. These include molecules that target the EGF receptor and are currently approved for the treatment of some lung cancers, as well as drugs that specifically target the B-Raf oncoprotein in melanomas."
+        },
+        {
+            "id": "InternalMed_Harrison_6139",
+            "title": "InternalMed_Harrison",
+            "content": "The concepts of oncogene addiction and synthetic lethality have spurred new drug development targeting oncogeneand tumor-suppressor pathways. As discussed earlier in this chapter and outlined in Fig. 102e-3, cancer cells can become dependent on signaling pathways containing activated oncogenes; this can effect proliferation (i.e., mutated Kras, Braf, overexpressed Myc, or activated tyrosine kinases), DNA repair (loss of BRCA1 or BRCA2 gene function), survival (overexpression of Bcl-2 or NF-\u03baB), cell metabolism (as occurs when mutant Kras enhances glucose uptake and aerobic glycolysis), and perhaps angiogenesis (production of VEGF in response to HIF-2\u03b1 in RCC). In such cases, targeted inhibition of the pathway can lead to specific killing of the cancer cells. However, targeting defects in tumor-suppressor genes has been much more difficult, both because the target of mutation is often deleted and because it is much more difficult to restore normal function than to inhibit abnormal"
+        },
+        {
+            "id": "InternalMed_Harrison_6221",
+            "title": "InternalMed_Harrison",
+            "content": "Several small-molecule inhibitors (SMIs) that target VEGFR tyrosine kinase activity but are also inhibitory to other kinases have also been approved to treat certain cancers. Sunitinib (see above and Table 102e-2) has activity directed against mutant c-Kit receptors (approved for GIST), but also targets VEGFR and PDGFR, and has shown significant antitumor activity against metastatic RCC, presumably on the basis of its antiangiogenic activity. Similarly, sorafenib, originally developed as a Raf kinase inhibitor but with potent activity against VEGFR and PDGFR, has activity against RCC, thyroid cancer, and hepatocellular cancer. Other inhibitors of VEGFR approved for the treatment of RCC include axitinib and pazopanib. The success in targeting tumor angiogenesis has led to enhanced enthusiasm for the development of drugs that target other aspects of the angiogenic process; some of these therapeutic approaches are outlined in Fig. 102e-12."
+        },
+        {
+            "id": "InternalMed_Harrison_6132",
+            "title": "InternalMed_Harrison",
+            "content": "One of the strategies for new drug development is to take advantage of so-called oncogene addiction. This situation (Fig. 102e-3) is created when a tumor cell develops an activating mutation in an oncogene that becomes a dominant pathway for survival and growth with reduced contributions from other pathways, even when there may be abnormalities in those pathways. This dependency on a single pathway creates a cell that is vulnerable to inhibitors of that oncogene pathway. For example, cells harboring mutations in BRAF are very sensitive to MEK inhibitors that inhibit downstream signaling in the BRAF pathway."
+        },
+        {
+            "id": "InternalMed_Harrison_6378",
+            "title": "InternalMed_Harrison",
+            "content": "oNcogeNicAlly ActivAteD pAthwAys This group of agents also targets specific regulatory molecules in promoting the viability of tumor cells, but they do not require the diagnostically verified presence of a particular target or target variant at this time."
+        },
+        {
+            "id": "Pharmacology_Katzung_6038",
+            "title": "Pharmacology_Katzung",
+            "content": "from the emergence of the T790M gatekeeper mutation either de novo or following previous EGFR TKI therapy. In NSCLC that is ALK-positive, three new small molecules have been developed: crizotinib, ceritinib, and alectinib. Crizotinib is the first-generation ALK inhibitor, while ceritinib and alectinib have clinical efficacy in patients whose disease has progressed on or who have become intolerant to crizotinib."
+        },
+        {
+            "id": "Pathology_Robbins_1321",
+            "title": "Pathology_Robbins",
+            "content": "Improvements are only possible with greater understanding of the \u201cescape routes\u201d through which tumor cells sidestep the effects of the angiogenesis inhibitors that are now in use. Vascularizationoftumorsisessentialfortheirgrowthandiscontrolledbythebalancebetweenangiogenicandantiangiogenicfactorsthatareproducedbytumorandstromalcells. HypoxiatriggersangiogenesisthroughtheactionsofHIF-1\u03b1 onthetranscriptionoftheproangiogenicfactorVEGF. Manyotherfactorsregulateangiogenesis;forexample,p53inducessynthesisoftheangiogenesisinhibitorthombospondin-1,whileRAS,MYC,andMAPKsignalingallupregulateVEGFexpressionandstimulateangiogenesis. VEGFinhibitorsareusedtotreatanumberofadvancedcancersandprolongtheclinicalcourse,butarenotcurative."
+        },
+        {
+            "id": "Surgery_Schwartz_2084",
+            "title": "Surgery_Schwartz",
+            "content": "Frame) family Aerobic glycolysisinhibitorsSustainingproliferativesignalingEvadinggrowthsuppressorsEnablingreplicativeimmortalityActivatinginvasion &metastasisInducingangiogenesisGenomeinstability &mutationResistingcelldeathDeregulatingcellularenergeticsTumor-promotinginflammationAvoidingimmunedestructionEGFRinhibitorsCyclin-dependentkinase inhibitorsPARPinhibitorsInhibitors ofVEGF signalingInhibitors ofHGF/c-MetTelomeraseInhibitorsSelective anti-inflammatory drugsProapoptoticBH3 mimeticsImmune activatinganti-CTLA4 oranti-PD-1 mAbFigure 10-4. Hallmarks of cancer and their therapeutic implications. Drugs that interfere with each of the acquired capabilities necessary for tumor growth and progression are in clinical trials and in some cases approved for clinical use in treating forms of human cancer. The drugs listed are illustrative examples. (Reproduced with permission from Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation, CCell. 2011 Mar 4;144(5):646-674.)First Hit:"
+        },
+        {
+            "id": "InternalMed_Harrison_6582",
+            "title": "InternalMed_Harrison",
+            "content": "tumorigenesis, chemoresistance, migration, and cell cycle dysregulation. Targeted agents that inhibit these pathways have been developed, and some are available for clinical use (see below). Optimal treatment of patients with melanoma may require simultaneous inhibition of both MAPK and PI3K pathways as well as promotion of immune eradication of malignancy."
+        },
+        {
+            "id": "Pathology_Robbins_1381",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net EGFR inhibitors Aerobic glycolysis inhibitors Telomerase inhibitors Proapoptotic BH3 mimetics Selective anti-inflammatory drugs Sustaining proliferative signaling Inducing angiogenesis Activating invasion and metastasis Deregulating cellular energetics Resisting cell death Enabling replicative immortality Tumor-promoting inflammation Cyclin-dependent kinase inhibitors Immune activating anti-CTLA4 mAb Inhibitors of VEGF signaling MDM2 inhibitors Inhibitors of HGF/c-Met Evading growth suppressors Avoiding immune destruction Genome instability and mutation Fig. 6.31 Therapeutictargetingofthehallmarksofcancer.(From Hanahan D,Weiberg RA:The hallmarks of cancer: the next generation. Cell144:646, 2011.) Some of the major agents are presented in Table 6.5. A few comments on a handful of these are offered next."
+        },
+        {
+            "id": "Pathology_Robbins_1235",
+            "title": "Pathology_Robbins",
+            "content": "The crucial role of BCR-ABL in cancer has been confirmed by the dramatic clinical response of patients with chronic myeloid leukemia to BCR-ABL kinase inhibitors. The prototype of this kind of drug, imatinib mesylate (Gleevec), galvanized interest in design of drugs that target specific molecular lesions found in various cancers (so-called \u201ctargeted therapy\u201d). BCR-ABL also is an example of the concept of oncogene addiction, wherein a tumor is profoundly dependent on a single signaling molecule. BCR-ABL fusion gene formation is an early, perhaps initiating, event that drives leukemogenesis. Development of leukemia probably requires other collaborating mutations, but the transformed cell continues to depend on BCR-ABL for signals that mediate growth and survival. BCR-ABL signaling can be seen as the central lodgepole around which the transformed state is \u201cbuilt\u201d. If the lodgepole is removed by inhibition of the BCR-ABL kinase, the structure collapses. In view of this level of"
+        },
+        {
+            "id": "Surgery_Schwartz_2301",
+            "title": "Surgery_Schwartz",
+            "content": "343ONCOLOGYCHAPTER 10Table 10-11Selected FDA-approved targeted therapiesGENERIC NAMETRADE NAMETARGETFDA-APPROVED INDICATIONSAdo-trastuzumab emtansineKadcylaHER2Breast cancerAxitinibInlytaKIT, FDGFR\u03b2, VEGFR1/2/3RCCBevacizumabAvastinVEGFColorectal cancer, lung cancer, glioblastoma, NSCLCRCCBortezomibVelcadeProteasomeMyelomaBosutinibBosulifABLCML (Philadelphia chromosome+)CabozantinibCometriqFLT3, KIT, MET, RET, VEGR2Medullary thyroid cancerCetuximabErbituxEGFRColorectal cancer (KRAS wild-type)Squamous cell cancer of the head and neckCrizotinibXalkoriALK (anaplastic lymphoma kinase) and ROS1 (c-ros oncogene 1) inhibitorNon-small cell lung carcinomaDabrafenibTafinolarBRAF V600E mutationMelanomaDasatinibSprycelABL, src family, KIT, EPHA2, PDGFR-\u03b2CMLErlotinibTarcevaEGFRNSCLC,Pancreatic cancerEverolimusAfinitormTORPNET,RCC,Breast cancer.Nonresectable subependymal giant cell astrocytoma associated with tuberous sclerosisGefitinibIressaEGFRNSCLC with known/previous benefit from gefitinib"
+        },
+        {
+            "id": "Surgery_Schwartz_2093",
+            "title": "Surgery_Schwartz",
+            "content": "associated with increased cell proliferation and anchorage-independent growth as well as resistance to proapoptotic stimuli. Further, overex-pression of HER2 increases cell migration and upregulates the activities of matrix metalloproteinases (MMPs) and in vitro invasiveness. In animal models, HER2 increases tumorigenic-ity, angiogenesis, and metastasis. These results all suggest that HER2 plays a key role in cancer biology. More recently, HER2 mutations have also been reported in human cancer, including 3% of patients with lung cancer.14-17 A phase 2 study of the irre-versible kinase inhibitor neratinib showed it to have efficacy in HER2-mutated breast cancer lacking HER amplification.18The critical role of HER2 in cancer biology has been lever-aged for therapeutics, leading to several HER2-targeted drugs with different mechanism of action approved by the Food and Drug Administration (FDA): monoclonal antibodies trastu-zumab and pertuzumab, small molecule inhibitor lapatinib, and"
+        },
+        {
+            "id": "Surgery_Schwartz_10905",
+            "title": "Surgery_Schwartz",
+            "content": "to RAI after evaluation in phase 3 placebo-controlled double blinded trials (the DECISION study and the SELECT study, respectively).55,56 Both drugs are multikinase inhibitors and target RET kinase and the vascular endothelial growth factor (VEGF)-receptor; however, lenvatinib also inhib-its the fibroblast growth factor and the platelet-derived growth factor receptor. Sorafenib demonstrated progression-free sur-vival (PFS) improvement by 5 months with about 12% partial response rates, whereas lenvatinib prolonged median PFS by 15.7 months compared with placebo with response rates of 65%, including some complete responses. Vandetanib is mainly a RET-kinase inhibitor, but it also affects the VEGF-receptor and epidermal growth factor receptor. It has been evaluated in a phase 2 trial and also demonstrated an improved PFS.57 However, none of the agents show improvements in overall survival. Moreover, they are associated with significant side effects (diarrhea, fatigue hypertension,"
+        },
+        {
+            "id": "Pharmacology_Katzung_6037",
+            "title": "Pharmacology_Katzung",
+            "content": "Patients with advanced NSCLC should have molecular testing of their tumor. Patients whose tumors contain an actionable mutation should then receive a targeted therapy. For example, first-line therapy with erlotinib significantly improves outcomes in advanced NSCLC patients with sensitizing EGFR mutations, which include exon 19 deletions or exon 21 (L858R) substitution mutations. Afatinib is a small molecule inhibitor of EGFR, HER2, and HER4, and it is approved for the first-line treatment of metastatic NSCLC whose tumors have EGFR exon 19 deletions or exon 21 mutations. Osimertinib is approved for the treatment of metastatic EGFR T790M-mutant NSCLC following progression on or after EGFR TKI therapy. This small molecule is important as it is able to overcome the resistance that arises from the emergence of the T790M gatekeeper mutation either de novo or following previous EGFR TKI therapy. In NSCLC that is ALK-positive, three new small molecules have been developed: crizotinib,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_748",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Why is each successive peak in Figure Q3\u20132B a little higher than the one before? D. Why does the force collapse so abruptly after each peak? 3\u201312 Rous sarcoma virus (RSV) carries an oncogene called Src, which encodes a continuously active protein tyrosine kinase that leads to unchecked cell proliferation. Normally, Src carries an attached fatty acid (myristoylate) group that allows it to bind to the cytoplasmic side of the plasma membrane. A mutant version of Src that does not allow attachment of myristoylate does not bind to the membrane. Infection of cells with RSV encoding either the normal or the mutant form of Src leads to the same high level of protein tyrosine kinase activity, but the mutant Src does not cause cell proliferation. a."
+        },
+        {
+            "id": "Pathology_Robbins_2923",
+            "title": "Pathology_Robbins",
+            "content": "Fortunately for those affected, the natural history of CML has been altered dramatically by the emergence of targeted therapy. Treatment with tyrosine kinase inhibitors, particularly in patients with early disease, induces sustained remissions with manageable toxicity and prevents progression to blast crisis, apparently by suppressing the proliferative drive that leads to the acquisition of additional mutations. When patients on tyrosine kinase inhibitors relapse, their tumors frequently are found to have acquired mutations in the kinase domain of BCR-ABL that prevent the drugs from binding. The selective outgrowth of these cells is explained by the powerful anti-tumor effects of BCR-ABL inhibitors, and indicates that many resistant tumors are still \u201caddicted\u201d to the progrowth signals created by BCR-ABL. In some instances resistant tumors can be treated with \u201cthird-generation\u201d BCR-ABL inhibitors. For others, hematopoietic stem cell transplantation offers a chance of cure, but carries"
+        },
+        {
+            "id": "Surgery_Schwartz_10340",
+            "title": "Surgery_Schwartz",
+            "content": "or paracrine stimulation of carcinoma growth have been associated with high histologic grade and poor prognosis in soft tissue sarcomas.Amplification-Associated SarcomasOncogenes are genes that can induce malignant transformation and tend to drive cell proliferation. Several oncogenes have been associated with soft tissue sarcomas, including MDM2, N-myc, c-erbB2, and members of the ras family. These onco-genes produce specific oncoproteins that either play a role in nuclear function and cellular signal transduction or function as growth factors or growth factor receptors. This typically occurs in dedifferentiated liposarcoma, where the amplification of MDM2 drives the neoplastic process. Amplification of these genes has been shown to correlate with adverse outcome in sev-eral types of soft tissue sarcoma.23Oncogenic MutationsGISTs are the classic example of sarcomas in which tumorigen-esis is primarily driven by a single activating mutation, in the Brunicardi_Ch36_p1567-p1598.indd"
+        },
+        {
+            "id": "InternalMed_Harrison_6427",
+            "title": "InternalMed_Harrison",
+            "content": "A final category of tumor resistance mechanisms to targeted agents includes the upregulation of alternate means of activating the pathway targeted by the agent. Thus melanomas initially responsive to BRAF V600E antagonists such as vemurafenib may reactivate raf signaling by upregulating isoforms that can bypass the variant blocked by the drug. Likewise, inhibition of HER2/neu signaling in breast cancer cells can lead to the emergence of variants with distinct oncogenic signaling pathways such as PI3 kinase. Analogously in NSCLC, EGFR inhibitor treatment leads to the emergence of cells with a predominance of c-met protooncogene\u2013dependent signaling in the resistant tumors."
+        },
+        {
+            "id": "InternalMed_Harrison_6375",
+            "title": "InternalMed_Harrison",
+            "content": "VEGFR, vascular endothelial growth factor receptor. trials in NSCLC; an overall survival advantage was demonstrated in subsets of patients who were treated after demonstrating progression of disease and who also had not been preselected for the presence of activating mutations. Thus, although even patients with wild-type EGF receptors may benefit from erlotinib treatment, the presence of EGF receptor tyrosine kinase mutations has recently been shown to be a basis for recommending erlotinib and afatinib for first-line treatment of advanced NSCLC. Likewise, crizotinib targeting the alk protooncogene fusion protein has value in the initial treatment of alk-positive NSCLC. Lapatinib is a tyrosine kinase inhibitor with both EGF receptor and HER2/neu antagonist activity, which is important in the treatment of breast cancers expressing the HER2/neu oncoprotein."
+        },
+        {
+            "id": "Pathology_Robbins_1271",
+            "title": "Pathology_Robbins",
+            "content": "including immune system suppression or promotion of angiogenesis, to facilitate tumor progression. Thus, TGF-\u03b2 can function to prevent or promote tumor growth, depending on the state of other genes in the cell. Indeed, in many late-stage tumors, TGF-\u03b2 signaling activates epithelial-to-mesenchymal transition (EMT), a process that promotes migration, invasion, and metastasis, as discussed later."
+        },
+        {
+            "id": "InternalMed_Harrison_6377",
+            "title": "InternalMed_Harrison",
+            "content": "The BRAF V600E mutation has been detected in a notable fraction of melanomas, thyroid tumors, and hairy cell leukemia, and preclinical models supported the concept that BRAF V600E drives oncogenic signaling in these tumors. Vemurafenib and dabrafenib, with selective capacity to inhibit the BRAF V600E serine kinase activity, were each shown to cause noteworthy responses in patients with BRAF V600E\u2013 mutated melanomas, although early relapse occurred in many patients treated with the drugs as single agents. Trametinib, acting downstream of BRAF V600E by directly inhibiting the MEK serine kinase by a non-ATP binding site mechanism, also displayed noteworthy responses in BRAF V600E\u2013mutated melanomas, and the combination of trametinib and dabrafenib is even more active, by targeting the BRAF V600E\u2013 driven pathway at two points in the pathway leading to gene activation."
+        },
+        {
+            "id": "Surgery_Schwartz_2092",
+            "title": "Surgery_Schwartz",
+            "content": "of early response genes such as c-myc, c-fos, and c-jun.12 MAPK-independent pathways such as the phosphoinositide-3 kinase (PI3K) pathway also are activated by most erbB dimers, although the potency and kinetics of activation may differ. Stimulation of the PI3K pathway through HER2 signaling also can lead to activation of survival molecule Akt, which suppresses apoptosis through mul-tiple mechanisms.The mutant rat neu gene was first recognized as an oncogene in neuroblastomas from carcinogen-treated rats.13 The HER2 gene is frequently amplified and the protein over-expressed in many cancers, including breast, ovarian, lung, gastric, and oral cancers. Overexpression of HER2 results in ligand-independent activation of HER2 kinase, which leads to mitogenic signaling. HER2 overexpression is associated with increased cell proliferation and anchorage-independent growth as well as resistance to proapoptotic stimuli. Further, overex-pression of HER2 increases cell migration and upregulates"
+        },
+        {
+            "id": "Surgery_Schwartz_10477",
+            "title": "Surgery_Schwartz",
+            "content": "GIST. Sunitinib is a tyrosine kinase inhibitor that targets multiple kinases, including the vascular endothelial growth factor receptors, PDGFRA, KIT, and FLT3. Sunitinib has both antiangiogenic and antiproliferative activity. In a phase 3, randomized, placebo-controlled trial, sunitinib was associated with a significant improvement in median time to progression (27.3 weeks vs. 6.4 weeks with placebo) in patients with imatinib-resistant GIST.135 In addition, sunitinib therapy was well tolerated; diarrhea, fatigue, and nausea were the most common adverse effects. Sunitinib has also been associated with hand-foot skin reaction, hypertension, cardiotoxicity, and hypothyroidism.218-220 In 2006, sunitinib was approved by the FDA for treatment of patients with resistance or intolerance to imatinib.The third FDA-approved drug recently made available for treatment of patients with imatiniband sunitinib-resistant GIST is regorafenib. Regorafenib is a structurally unique inhibitor of multiple"
+        },
+        {
+            "id": "Surgery_Schwartz_2296",
+            "title": "Surgery_Schwartz",
+            "content": "group. The hazard ratio for tumor progression in the vemu-rafenib group was 0.26 (95% CI, 0.20\u20130.33; P<0.001). The estimated median progression-free survival was 5.3 months in the vemurafenib group and 1.6 months in the dacarbazine group. This trial highlights the fact that in at least some tumor types targeted therapies that inhibit a genomic alteration that is a driver is likely to be more effective than an unselected thera-peutic option.Sequencing of the human genome has revealed approxi-mately 500 protein kinases. Several tyrosine kinases have been shown to have oncogenic properties and many other protein kinases have been shown to be aberrantly activated in cancer cells.93 Therefore, protein kinases involved in these aberrantly activated pathways are being aggressively pursued in molecular therapeutics. Potential targets like HER2 can be targeted via dif-ferent strategies, such as transcriptional downregulation, targeting of mRNA, RNA inhibition, antisense strategies, direct"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5693",
+            "title": "Cell_Biology_Alberts",
+            "content": "Results are not so good for those patients who have already progressed to the more acute phase of myeloid leukemia, known as blast crisis, where genetic instability has set in and the march of the disease is far more rapid. These patients show a response at first and then relapse because the cancer cells develop a resistance to imatinib. This resistance is usually associated with secondary mutations in the part of the Bcr-Abl gene that encodes the kinase domain, disrupting the ability of imatinib to bind to Bcr-Abl kinase. Second-generation inhibitors that function effectively against a whole range of imatinib-resistant mutants have now been developed. By combining one or more of these new inhibitors with imatinib as the initial therapy (see below), it seems that CML\u2014at least in the chronic (early) stage\u2014may be on its way to becoming a curable disease."
+        },
+        {
+            "id": "Pharmacology_Katzung_5989",
+            "title": "Pharmacology_Katzung",
+            "content": "Sunitinib is similar to sorafenib in that it inhibits multiple RTKs, although the specific types are somewhat different. They include PDGFR-\u03b1 and PDGFR-\u03b2, VEGF-R1, VEGF-R2, VEGFR3, and c-kit. It is approved for the treatment of advanced renal cell cancer and for the treatment of gastrointestinal stromal tumors after disease progression on or with intolerance to imatinib. Pazopanib is a small molecule that inhibits multiple RTKs, especially VEGF-R2 and VEGF-R3, PDGFR-\u03b2, and raf kinase. This oral agent is approved for the treatment of advanced renal cell cancer."
+        },
+        {
+            "id": "Surgery_Schwartz_2294",
+            "title": "Surgery_Schwartz",
+            "content": "of molecular therapeutics. The basic principle of molecular therapeutics is to exploit the molecular differences between normal cells and cancer cells to develop targeted therapies. Thus, targeted therapies usually are directed at the processes involved in tumor growth rather than directly targeting the tumor cells. The ideal molecular target would be exclusively expressed in the cancer cells, be the driv-ing force of the proliferation of the cancer cells, and be critical to their survival. A large number of molecular targets are cur-rently being explored, both preclinically and in clinical trials. The major groups of targeted therapy agents are inhibitors of growth factor receptors, inhibitors of intracellular signal trans-duction, cell-cycle inhibitors, apoptosis-based therapies, and anti-angiogenic compounds.Protein kinases have come to the forefront as attrac-tive therapeutic targets with the success of imatinib mesylate (Gleevec) in treating chronic myelogenous leukemia and GI"
+        },
+        {
+            "id": "Pathoma_Husain_67",
+            "title": "Pathoma_Husain",
+            "content": "v. Mutated ras inhibits the activity of GTPase activating protein. This prolongs the activated state of ras, resulting in increased growth signals. 4. Cell cycle regulators mediate progression through the cell cycle (e.g., cyclin and cyclin-dependent kinase). i. Cyclins and cyclin-dependent kinases (CDKs) form a complex which phosphorylates proteins that drive the cell through the cell cycle. ii. For example, the cyclinD/CDK4 complex phosphorylates the retinoblastoma protein, which promotes progression through the G/ S checkpoint. III. TUMOR SUPPRESSOR GENES A. Regulate cell growth and, hence, decrease (\"suppress\") the risk of tumor formation; p53 and Rb (retinoblastoma) are classic examples. B. p53 regulates progression of the cell cycle from G to S phase. Table 3.3: Important Oncogenes and Associated Tumors PDGFB Platelet-derived growth factor Overexpression, autocrine loop Astrocytoma"
+        },
+        {
+            "id": "Pharmacology_Katzung_5859",
+            "title": "Pharmacology_Katzung",
+            "content": "tumor stem cells, reside within a tumor mass. They retain the ability to undergo repeated cycles of proliferation as well as to migrate to distant sites in the body to colonize various organs in the process called metastasis. Such tumor stem cells thus can express clonogenic (colony-forming) capability, and they are characterized by chromosome abnormalities reflecting their genetic instability, which leads to progressive selection of subclones that can survive more readily in the multicellular environment of the host. This genetic instability also allows them to become resistant to chemotherapy and radiotherapy. The invasive and metastatic processes as well as a series of metabolic abnormalities associated with the cancer result in tumor-related symptoms and eventual death of the patient unless the neoplasm can be eradicated with treatment."
+        },
+        {
+            "id": "InternalMed_Harrison_6091",
+            "title": "InternalMed_Harrison",
+            "content": "Nonresponsiveness to external growth-inhibiting signals: Cancer cells have lost responsiveness to signals normally present to stop proliferating when they have overgrown the niche normally occupied by the organ from which they are derived. We know very little about this mechanism of growth regulation. Increased angiogenesis: Due to increased gene expression of proangiogenic factors (VEGF, FGF, IL-8) by tumor or stromal cells, or loss of negative regulators (endostatin, tumstatin, thrombospondin). Invasion: Loss of cell-cell contacts (gap junctions, cadherins) and increased production of matrix metalloproteinases (MMPs). Often takes the form of epithelial-to-mesenchymal transition (EMT), with anchored epithelial cells becoming more like motile fibroblasts. Metastasis: Spread of tumor cells to lymph nodes or distant tissue sites. Limited by the ability of tumor cells to survive in a foreign environment."
+        },
+        {
+            "id": "InternalMed_Harrison_6576",
+            "title": "InternalMed_Harrison",
+            "content": "that confer selective clonal growth advantage and are implicated in oncogenesis). These driver mutations affect pathways that promote cell proliferation and inhibit normal pathways of apoptosis in response to DNA repair (see below). The altered melanocytes accumulate DNA damage, and selection occurs for all the attributes that constitute the malignant phenotype: invasion, metastasis, and angiogenesis."
+        }
+    ],
+    "scores": [
+        0.023521679754182314,
+        0.021909151454606,
+        0.01931626293328421,
+        0.018311036789297658,
+        0.017838819164890676,
+        0.017713490099009903,
+        0.01763791763791764,
+        0.016993087557603686,
+        0.0166532366371206,
+        0.016567656765676567,
+        0.016508152173913042,
+        0.016453503863575806,
+        0.016405517610820944,
+        0.014772727272727272,
+        0.014719748559455213,
+        0.014666029013231309,
+        0.01411104982533554,
+        0.01408520312345557,
+        0.013654362568840745,
+        0.013435374149659864,
+        0.013415067519545132,
+        0.01328958843805806,
+        0.013251565314349428,
+        0.012940151797934552,
+        0.012802443035001176,
+        0.012738853503184714,
+        0.012666345999679333,
+        0.01232420429311621,
+        0.012284097677188802,
+        0.01205913334059787,
+        0.011955291454442558,
+        0.009900990099009901
+    ]
+}

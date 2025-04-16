@@ -1,0 +1,206 @@
+{
+    "id": "5e2e1017fbd6abf43b000020",
+    "question": "Are CD8+ (cytotoxic) T cells and  CD4+ Helper T cells generated in the thyroid and express the T-cell receptor?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the provided documents and think step by step.\\n\\nStep 1: Determine the origin of CD8+ (cytotoxic) T cells and CD4+ Helper T cells\\n\\nAccording to Document [1] (Title: Histology_Ross), T lymphocytes (T cells) differentiate in the thymus and account for the majority of circulating lymphocytes. CD8+ T cells are a subset of T cells that are involved in cell-mediated immunity.\\n\\nStep 2: Determine if CD8+ T cells and CD4+ Helper T cells express the T-cell receptor\\n\\nAccording to Document [2] (Title: Immunology_Janeway), T lymphocytes express T-cell receptors (TCRs) on their surface. CD8+ T cells express CD8 markers and recognize antigens bound to MHC class I molecules, while CD4+ Helper T cells express CD4 markers and recognize antigens bound to MHC class II molecules. Since both CD8+ T cells and CD4+ Helper T cells express T-cell receptors, the answer is yes.\\n\\nStep 3: Determine if CD8+ T cells and CD4+ Helper T cells are generated in the thyroid\\n\\nAccording to Document [4] (Title: InternalMed_Harrison), the thyroid lymphocytic infiltrate in autoimmune hypothyroidism is composed of activated CD4+ and CD8+ T cells as well as B cells. This suggests that CD8+ T cells can be found in the thyroid.\\n\\nStep 4: Determine the final answer\\n\\nBased on the above steps, the final answer is that CD8+ (cytotoxic) T cells and CD4+ Helper T cells are generated in the thyroid and express the T-cell receptor.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_1871",
+            "title": "Immunology_Janeway",
+            "content": "At the time of positive selection, the thymocyte expresses both CD4 and CD8 co-receptor molecules. By the end of thymic selection, mature \u03b1:\u03b2 T cells ready for export to the periphery have stopped expressing one of these co-receptors. The majority of these cells belong to the conventional CD4 or CD8 T-cell lineages. Less abundant subsets, such as iNKT cells and a subset of regulatory T cells expressing CD4 and high levels of CD25, also develop in the thymus from CD4+CD8+ cells. Moreover, almost all mature T cells that express CD4 have receptors that recognize peptides bound to self MHC class II molecules and are programmed to become cytokine-secreting helper T cells. In contrast, most of the cells that express CD8 have receptors that recognize peptides bound to self MHC class I molecules and are programmed to become cytotoxic effector cells. Thus, positive selection also determines the cell-surface phenotype and functional potential of the mature T cell, selecting the appropriate"
+        },
+        {
+            "id": "Histology_Ross_2152",
+            "title": "Histology_Ross",
+            "content": "T lymphocytes differentiate in the thymus and account for the majority of circulating lymphocytes. T lymphocytes (T cells) are named for the thymus, where they differentiate. They have a long lifespan and are involved in cell-mediated immunity. They account for 60% to 80% of circulating lymphocytes. T cells express CD2, CD3, CD5, and CD7 markers and T-cell receptors (TCRs); however, they are subclassified according to the presence or absence of two other important surface markers: CD4 and CD8. \u0081 Helper CD4 T lymphocytes are T cells that also express CD4 markers. These cells are further subdivided by their ability to secrete cytokines (see page 454). Helper T cells that synthesize interleukin 2 (IL-2), interferon (IFN-), and tumor necrosis factor (TNF-) are called TH1 cells."
+        },
+        {
+            "id": "Immunology_Janeway_169",
+            "title": "Immunology_Janeway",
+            "content": "T lymphocytes, of which there are several types, develop in the thymus. They are characterized by the type of T-cell receptors they express and by the expression of certain markers. The two main classes of T cells express either a cell-surface protein called CD8 or another called CD4. These are not just random markers, but are important for a T cell\u2019s function, because they help to determine the interactions between the T cell and other cells. Recall from Section 1-10 that T cells detect peptides derived from foreign antigens that are displayed by MHC molecules on a cell\u2019s surface. CD8 and CD4 function in antigen recognition by recognizing different regions of MHC molecules and by being involved in the signaling of the T-cell receptor that is engaged with its antigen. Thus, CD4 and CD8 are known as co-receptors and they provide a functional difference between CD8 and CD4 T cells,"
+        },
+        {
+            "id": "Histology_Ross_2284",
+            "title": "Histology_Ross",
+            "content": "CD8 These cells are now ready for the immune response; they leave the thymus from the medulla and enter the blood circulation. Hormonal substances secreted by type VI epithelioreticular cells within the thymic (Hassall\u2019s) corpuscle promote the process of thymic cell education. Note the distribution of all six types of epithelioreticular cells. cytotoxic CD8 T lymphocytes (by losing CD4 and retaining CD8) or helper CD4 T lymphocytes (by losing CD8 and retaining CD4). This stage is called the single-positive stage of T-cells differentiation. Now the cells leave the thymus by passing from the medulla into the blood circulation. The process of thymic cell education is promoted by substances secreted by the epithelioreticular cells, including interleukins (IL-4 and IL-7), colony-stimulating factors, and interferon ."
+        },
+        {
+            "id": "InternalMed_Harrison_26730",
+            "title": "InternalMed_Harrison",
+            "content": "The thyroid lymphocytic infiltrate in autoimmune hypothyroidism is composed of activated CD4+ and CD8+ T cells as well as B cells. Thyroid cell destruction is primarily mediated by the CD8+ cytotoxic T cells, which destroy their targets by either perforin-induced cell necrosis or granzyme B\u2013induced apoptosis. In addition, local T cell production of cytokines, such as tumor necrosis factor (TNF), IL-1, and interferon \u03b3 (IFN-\u03b3), may render thyroid cells more susceptible to apoptosis mediated by death receptors, such as Fas, which are activated by their respective ligands on T cells. These cytokines also impair thyroid cell function directly and induce the expression of other proinflammatory molecules by the thyroid cells themselves, such as cytokines, HLA class I and class II molecules, adhesion molecules, CD40, and nitric oxide. Administration of high concentrations of cytokines for therapeutic purposes (especially IFN-\u03b1) is associated with increased autoimmune thyroid disease,"
+        },
+        {
+            "id": "Immunology_Janeway_2118",
+            "title": "Immunology_Janeway",
+            "content": "9-19 CD8 T cells can be activated in different ways to become cytotoxic effector cells. Naive T cells fall into two large classes, of which one carries the co-receptor CD8 on its surface and the other bears the co-receptor CD4. CD8 T cells all differentiate into CD8 cytotoxic T cells (sometimes called cytotoxic lymphocytes, or CTLs), which kill their target cells (Fig. 9.28). They are important in the defense against intracellular pathogens, especially viruses. Virus-infected cells display fragments of viral proteins as peptide:MHC class I complexes on their surface, and these are recognized by cytotoxic T lymphocytes."
+        },
+        {
+            "id": "Immunology_Janeway_914",
+            "title": "Immunology_Janeway",
+            "content": "As we introduced in Section 1-21, T cells fall into two major classes distinguished by the expression of the cell-surface proteins CD4 and CD8. CD8 is expressed by cytotoxic T cells, while CD4 is expressed by T cells whose function is to activate other cells. CD4 and CD8 were known as markers for these functional sets for some time before it became clear that the distinction was based on the ability of T cells to recognize different classes of MHC molecules. We now know that CD8 recognizes MHC class I molecules and CD4 recognizes MHC class II. During antigen recognition, CD4 or CD8 (depending on the type of T cell) associates with the T-cell receptor on the T-cell surface and binds to invariant sites on the MHC portion of the composite peptide:MHC ligand, away from the peptide-binding site. This binding contributes to the overall effectiveness of the T-cell response, and so CD4 and CD8 are called co-receptors."
+        },
+        {
+            "id": "Immunology_Janeway_1812",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 8.20 Two distinct lineages of thymocytes are produced in the thymus. CD4, CD8, and T-cell receptor complex molecules (CD3, and the T-cell receptor \u03b1 and \u03b2 chains) are important cell-surface molecules for identifying thymocyte subpopulations. The earliest cell population in the thymus does not express any of these proteins, and because these cells do not express CD4 or CD8, they are called \u2018double-negative\u2019 thymocytes. These cells include precursors that give rise to two T-cell lineages: the minority population of \u03b3:\u03b4 T cells (which lack CD4 or CD8 even when mature), and the majority \u03b1:\u03b2 T-cell lineage. The development of prospective \u03b1:\u03b2 T cells proceeds through stages in which both CD4 and CD8 are expressed by the same cell; these are known as \u2018double-positive\u2019 thymocytes. These cells enlarge and divide. Later, they become small resting double-positive cells that express low levels of the T-cell receptor. Most thymocytes die within the thymus after becoming small double-positive"
+        },
+        {
+            "id": "Immunology_Janeway_1901",
+            "title": "Immunology_Janeway",
+            "content": "Thymically derived T cells are a subset of CD4+ T cells that function to main- reg tain self-tolerance. These cells arise from CD4+CD8+ thymocytes, as do conventional T cells. During their maturation, they upregulate the transcription factor FoxP3. T cell development also depends on IL-2 receptor signaling, a cytokine signal that is not required for the development of conventional T cells. The repertoire of T-cell receptors expressed on T cells is thought to be composed of receptors with high affinity for self MHC:self peptide complexes. Evidence supporting this conclusion comes from studies showing that some lines of TCR transgenic mice generate large numbers of T cells when the mice also express the antigen for this T-cell receptor. In addition, studies using mice expressing a fluorescent reporter that monitors T-cell receptor signal strength have shown that T cells express high levels of the fluorescent reporter, both during their development and after their export from the thymus,"
+        },
+        {
+            "id": "Gynecology_Novak_553",
+            "title": "Gynecology_Novak",
+            "content": "T-cytotoxic cells, which express the CD8 marker. The expression of these markers is acquired during the passage of T cells through the thymus. CD4 T cells can provide help to B cells, resulting in the production of antibodies by B cells, and interact with antigen presented by antigen-presenting cells in association with MHC class II molecules. CD4 T cells can act as helper cells for other T cells. CD8 T cells include cells that are cytotoxic (cells that can kill target cells bearing appropriate antigens), and they interact with antigen presented on target cells in association with MHC class I molecules. These T cells can inhibit the biologic functions of B cells or other T cells (75). Although the primary biologic role of cytotoxic T cells (CTLs) seems to be lysis of virus-infected autologous cells, cytotoxic immune T cells can mediate the lysis of tumor cells directly. Presumably, CTLs recognize antigens associated with MHC class I molecules on tumor cells through their"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6724",
+            "title": "Cell_Biology_Alberts",
+            "content": "or CD8 co-receptor that is not needed is silenced by DNA methylation of the respective gene; this results in the development of CD4 or CD8 single\u2011positive thymocytes, which exit the thymus as na\u00efve T cells and enter the recirculating pool of T cells\u2014the CD4 cells as either helper or regulatory T cells and the CD8 cells as cytotoxic T cells."
+        },
+        {
+            "id": "Immunology_Janeway_1813",
+            "title": "Immunology_Janeway",
+            "content": "enlarge and divide. Later, they become small resting double-positive cells that express low levels of the T-cell receptor. Most thymocytes die within the thymus after becoming small double-positive cells, but those cells whose receptors can interact with self peptide:self MHC molecular complexes lose expression of either CD4 or CD8 and increase the level of expression of the T-cell receptor. The outcome of this process is the \u2018single-positive\u2019 thymocytes, which, after maturation, are exported from the thymus as mature single-positive CD4 or CD8 T cells."
+        },
+        {
+            "id": "Immunology_Janeway_3086",
+            "title": "Immunology_Janeway",
+            "content": "from the Tcell receptor (see Section 77). CD4 T cells emerge from the thymus in normal numbers, whereas CD8 T cells are absent. However, the CD4 T cells that mature fail to respond to stimuli that normally activate the cells through the Tcell receptor."
+        },
+        {
+            "id": "Immunology_Janeway_2110",
+            "title": "Immunology_Janeway",
+            "content": "During the 4\u20135 days of rapid cell division that follow naive T-cell activation, T cells differentiate into effector T cells that acquire the ability to synthesize molecules required for their specialized helper or cytotoxic functions when they re-encounter their specific antigen. Effector T cells undergo additional changes that distinguish them from naive T cells. One of the most important is in their activation requirements: once a T cell has differentiated into an effector cell, encounter with its specific antigen results in immune attack without the need for co-stimulation (Fig. 9.26). This distinction is particularly easy to understand for CD8 cytotoxic T cells, which must be able to act on any cell infected with a virus, whether or not the infected cell can express co-stimulatory molecules. However, this feature is also important for the effector function of CD4 cells, as effector CD4 T cells must be able to activate B cells and macrophages that have taken up antigen even if"
+        },
+        {
+            "id": "Histology_Ross_2176",
+            "title": "Histology_Ross",
+            "content": "When a helper (CD4) T lymphocyte recognizes an antigen bound to an MHC molecule, the TCR attaches to the antigen\u2013MHC II complex. The binding of the TCR to the antigen\u2013MHC II complex in the presence of a costimulatory signal (derived from the CD28\u2013B7 interaction) activates the helper T lymphocyte to release immune chemicals, or cytokines. Cytokines are immune substances (proteins) that are biologic modulators of immune responses. The specific cytokines secreted by helper CD4 T lymphocytes are called interleukins (ILs). Interleukins stimulate other T cells, B cells, and NK cells to differentiate and proliferate. When a cytotoxic CD8 T lymphocyte (CTL) recognizes an antigen\u2013MHC I complex, the TCR attaches to it. If a costimulatory signal is present (derived from the interaction of CD40 and CD40L), the CTL is activated. Once activated,"
+        },
+        {
+            "id": "InternalMed_Harrison_24498",
+            "title": "InternalMed_Harrison",
+            "content": "In this figure, the arrows denote that cells develop from precursor cells or produce cytokines or antibodies; lines ending with bars indicate suppressive intercellular interactions. Stem cells differentiate into either T cells, antigen-presenting dendritic cells, natural killer cells, macrophages, granulocytes, or B cells. Foreign antigen is processed by dendritic cells, and peptide fragments of foreign antigen are presented to CD4+ and/or CD8+ T cells. CD8+ T cell activation leads to induction of cytotoxic T lymphocyte (CTL) or killer T cell generation, as well as induction of cytokine-producing CD8+ cytotoxic T cells. For antibody production against the same antigen, active antigen is bound to sIg within the B cell receptor complex and drives B cell maturation into plasma cells that secrete Ig. TH1 or TH2 CD4+ T cells producing interleukin (IL) 4, IL-5, or interferon (IFN) \u03b3 regulate the Ig class switching and determine the type of antibody produced. TH17 cells secrete IL-17, IL-22,"
+        },
+        {
+            "id": "Pathology_Robbins_742",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 5.5 ). The CD3 proteins and \u03b6 chains do not bind antigens; instead, they are attached to the TCR and initiate intracellular biochemical signals after TCR recognition of antigen. T cells also express a number of other molecules that serve important functions in immune responses. CD4 and CD8 are expressed on distinct T-cell subsets and act as coreceptors during T-cell activation. During antigen recognition, CD4 molecules on T cells bind to invariant portions of class II MHC molecules (described later) on selected antigen-presenting cells (APCs); in an analogous fashion, CD8 binds to class I MHC molecules. CD4 is expressed on 50% to 60% of T cells, whereas CD8 is expressed on about 40% of T cells. The CD4-and CD8-expressing T cells\u2014 called CD4+ and CD8+ cells, respectively\u2014perform different but overlapping functions. CD4+ T cells are called helper T cells because they secrete soluble molecules http://ebooksmedicine.net"
+        },
+        {
+            "id": "Histology_Ross_1404",
+            "title": "Histology_Ross",
+            "content": "develop from the same precursor cell as B and T cells and are so named because they are programmed to kill certain types of transformed cells. \u0081 T cells have a long life span and are involved in cell-mediated immunity. T cells are characterized by the presence of cell-surface recognition proteins called T-cell receptors (TCRs), which in a majority of T cells comprise two glycoprotein chains called and -TCR chains. They express CD2, CD3, CD5, and CD7 marker proteins on their surface; however, they are subclassified on the basis of the presence or absence of CD4 and CD8 proteins. CD4 T lymphocytes possess the CD4 marker and recognize antigens bound to major histocompatability complex II (MHC II) molecules. CD8 T lymphocytes possess the CD8 marker and recognize antigen bound to MHC I molecules."
+        },
+        {
+            "id": "Histology_Ross_2182",
+            "title": "Histology_Ross",
+            "content": "FIGURE 14.5 \u2022 Schematic diagram of the molecular interactions that occur during antigen presentation. To become activated, both cytotoxic and helper T lymphocytes need to identify presented antigens as \u201cnonself\u201d as well as recognize the appropriate class of MHC molecules. Note that each interaction between an antigen\u2013MHC complex with its specific T-cell receptor (TCR) requires a costimulatory signal from the interaction of CD28 with B7 molecules. Without a costimulatory signal, the T cell cannot be fully activated. a. In all nucleated cells of the body, viral antigen or cancer (tumor-specific) proteins are displayed in the context of MHC I molecules to interact with cytotoxic CD8 T lymphocytes. b. On antigen-presenting cells (e.g., macrophages), the foreign antigen is displayed in the context of MHC II molecules to interact with a helper CD4 T lymphocyte. FIGURE 14.6 \u2022 Schematic diagram of B lymphocyte activation leading to plasma cell and B memory cell formation."
+        },
+        {
+            "id": "Immunology_Janeway_2187",
+            "title": "Immunology_Janeway",
+            "content": "9-26 The effector functions of T cells are determined by the array of effector molecules that they produce. The effector molecules produced by effector T cells fall into two broad classes: cytotoxins, which are stored in specialized cytotoxic granules and released by CD8 cytotoxic T cells (see Fig. 9.38), and cytokines and related membrane-associated proteins, which are synthesized de novo by all effector T cells. Cytotoxins are the principal effector molecules of cytotoxic T cells and are discussed in Section 9-31. Their release in particular must be tightly regulated because they are not specific: they can penetrate the lipid bilayer and trigger apoptosis in any cell. By contrast, CD4 effector T cells act mainly through the production of cytokines and membrane-associated proteins, and their actions are largely restricted to cells bearing MHC class II molecules and expressing receptors for these proteins."
+        },
+        {
+            "id": "Histology_Ross_2153",
+            "title": "Histology_Ross",
+            "content": "These cells interact with cytotoxic CD8 T lymphocytes (CTLs), NK cells, and macrophages in cell-mediated im mune responses and are essential for controlling intracellu lar pathogens such as viruses and certain microorganisms. The other group of helper T cells synthesize IL-4, IL-5, IL 10, and IL-13 and are called TH2 cells. They interact with B lymphocytes and are essential for initiating antibody-me pathogens. \u0081 Cytotoxic CD8 T lymphocytes (CTLs) are T cells that also express CD8 markers. They kill other target cells such as virus-infected cells, cancer-transformed cells, cells infected with intracellular microorganisms, parasites, and transplanted cells."
+        },
+        {
+            "id": "Immunology_Janeway_1870",
+            "title": "Immunology_Janeway",
+            "content": "8-21 Positive selection coordinates the expression of CD4 or CD8 with the specificity of the T-cell receptor and the potential effector functions of the T cell."
+        },
+        {
+            "id": "InternalMed_Harrison_24600",
+            "title": "InternalMed_Harrison",
+            "content": "An important type of immunomodulatory T cell that controls immune responses is CD4+ and CD8+ T regulatory cells. These cells constitutively express the \u03b1 chain of theIL-2receptor(CD25), produce large amounts of IL-10, and can suppress both T and B cell responses. T regulatory cells are induced by immature DCs and play key roles in maintaining tolerance to self-antigens in the periphery. Loss of T regulatory cells is the cause of organ-specific autoimmune disease in mice such as autoimmune thyroiditis, adrenalitis, and oophoritis (see \u201cImmune Tolerance and Autoimmunity\u201d below). T regulatory cells also play key roles in controlling the magnitude and duration of immune responses to microbes. Normally, after the initial immune response to a microbe has eliminated the invader, T regulatory cells are activated to suppress the antimicrobe response and prevent host injury. Some microbes have adapted to induce T regulatory cell activation at the site of infection to promote parasite infection"
+        },
+        {
+            "id": "Pathology_Robbins_784",
+            "title": "Pathology_Robbins",
+            "content": "The functions of helper T cells are mediated by the combined actions of CD40-ligand (CD40L) and cytokines. CD40 is a member of the TNF-receptor family, and CD40L is a membrane protein homologous to TNF. When CD4+ helper T cells recognize antigens being displayed by macrophages or B lymphocytes, the T cells express CD40L, which engages CD40 on the macrophages or B cells and activates these cells. Some of the activated CD4+ T cells differentiate into effector cells that secrete different sets of cytokines and perform different functions ("
+        },
+        {
+            "id": "Pathoma_Husain_37",
+            "title": "Pathoma_Husain",
+            "content": "II. T LYMPHOCYTES A. Produced in bone marrow as progenitor T cells B. Further develop in the thymus where the T-cell receptor (TCR) undergoes rearrangement and progenitor cells become CD4+ helper T cells or CDs+ cytotoxic T cells 1. T cells use TCR complex (TCR and CD3) for antigen surveillance. Inflammation, Inflammatory Disorders, and Wound Healing 2. TCR complex recognizes antigen presented on MHC molecules. i. CD4+ T cells-MHC class II ii. CDS+ T cells-MHC class I 3. Activation ofT cells requires (1) binding of antigen/MHC complex and (2) an additional 2nd signal. C. CD4 + helper T-cell activation 1. Extracellular antigen (e.g., foreign protein) is phagocytosed, processed, and presented on MHC class II, which is expressed by antigen presenting cells (APCs). 2. B7 on APC binds CD2S on CD4+ helper T cells providing 2nd activation signal. 3. Activated CD4 + helper T cells secrete cytokines that \"help\" inflammation and are divided into two subsets."
+        },
+        {
+            "id": "Histology_Ross_2191",
+            "title": "Histology_Ross",
+            "content": "FIGURE 14.8 \u2022 Schematic diagram of T-cell activation leading to elimination of a virus-infected host cell. The TCR\u2013CD3 complex on a helper CD4 T lymphocyte recognizes foreign antigen displayed on an MHC II molecule on the surface of a macrophage. This recognition triggers a rapid response from B lymphocytes and the release of interleukin 2 (IL-2). The same macrophage also expresses MHC I molecules (like every other cell in the body) that interact with the appropriate TCR on the surface of a cytotoxic CD8 T lymphocyte. The cytotoxic CD8 T lymphocyte also possesses IL-2 receptors. IL-2 binding to these receptors stimulates the cell to divide and differentiate. The newly formed cytotoxic CD8 T lymphocytes migrate to the site of viral infection. There the TCRs recognize the viral antigens displayed on the surface of MHC I molecules of infected cells. After successfully recognizing these \u201cnonself\u201d proteins, the cytotoxic CD8 T lymphocytes secrete perforins and granzymes, killing the"
+        },
+        {
+            "id": "Immunology_Janeway_2274",
+            "title": "Immunology_Janeway",
+            "content": "9-19 CD8 T cells can be activated in different ways to become cytotoxic effector cells. Andreasen, S.O., Christensen, J.E., Marker, O., and Thomsen, A.R.: Role of CD40 ligand and CD28 in induction and maintenance of antiviral CD8+ effector T cell responses. J. Immunol. 2000, 164:3689\u20133697. Blazevic, V., Trubey, C.M., and Shearer, G.M.: Analysis of the costimulatory requirements for generating human virus-specific in vitro T helper and effector responses. J. Clin. Immunol. 2001, 21:293\u2013302. Liang, L., and Sha, W.C.: The right place at the right time: novel B7 family members regulate effector T cell responses. Curr. Opin. Immunol. 2002, 14:384\u2013390. Seder, R.A., and Ahmed, R.: Similarities and differences in CD4+ and CD8+ effector and memory T cell generation. Nat. Immunol. 2003, 4:835\u2013842. Weninger, W., Manjunath, N., and von Andrian, U.H.: Migration and differentiation of CD8+ T cells. Immunol. Rev. 2002, 186:221\u2013233."
+        },
+        {
+            "id": "Immunology_Janeway_1952",
+            "title": "Immunology_Janeway",
+            "content": "Zerrahn, J., Held, W., and Raulet, D.H.: The MHC reactivity of the T cell repertoire prior to positive and negative selection. Cell 1997, 88:627\u2013636. 8-21 Positive selection coordinates the expression of CD4 or CD8 with the specificity of the T-cell receptor and the potential effector functions of the T cell. Egawa, T., and Littman, D.R.: ThPOK acts late in specification of the helper T cell lineage and suppresses Runx-mediated commitment to the cytotoxic T cell lineage. Nat. Immunol. 2008, 9:1131\u20131139. He, X., Xi, H., Dave, V.P., Zhang, Y., Hua, X., Nicolas, E., Xu, W., Roe, B.A., and Kappes, D.J.: The zinc finger transcription factor Th-POK regulates CD4 versus CD8 T-cell lineage commitment. Nature 2005, 433:826\u2013833. Singer, A., Adoro, S., and Park, J.H.: Lineage fate and intense debate: myths, models and mechanisms of CD4versus CD8-lineage choice. Nat. Rev. Immunol. 2008, 8:788\u2013801."
+        },
+        {
+            "id": "InternalMed_Harrison_13305",
+            "title": "InternalMed_Harrison",
+            "content": "made originally in transgenic knockout mice and more recently in humans suggest that other T cell subsets, especially CD8+ T cells, may play an important role. CD8+ T cells have been associated with protective activities via cytotoxic responses and lysis of infected cells as well as with production of IFN-\u03b3 and TNF-\u03b1. Finally, natural killer cells act as co-regulators of CD8+ T cell lytic activities, and \u03b3\u03b4 T cells are increasingly thought to be involved in protective responses in humans."
+        },
+        {
+            "id": "Immunology_Janeway_2119",
+            "title": "Immunology_Janeway",
+            "content": "Perhaps because the effector actions of these cells are so destructive, naive CD8 T cells require more co-stimulatory activity to drive them to become activated effector cells than do naive CD4 T cells. This requirement can be met in two ways. The simplest is priming by activated dendritic cells, which have high intrinsic co-stimulatory activity. In some viral infections, dendritic cells become sufficiently activated to directly induce CD8 T cells to produce the IL-2 required for their differentiation into cytotoxic effector cells, without help from CD4 T cells. This property of dendritic cells has been exploited to generate cytotoxic T-cell responses against tumors, as we will see in Chapter 16."
+        },
+        {
+            "id": "Immunology_Janeway_1806",
+            "title": "Immunology_Janeway",
+            "content": "the \u03b2-chain locus; the in-frame \u03b2 chain then pairs with a surrogate chain called pT\u03b1 to form the pre-T-cell receptor (pre-TCR), which is expressed on the cell surface and triggers entry into the cell cycle. Expression of small amounts of pT\u03b1:\u03b2 on the cell surface in association with CD3 signals the cessation of \u03b2-chain gene rearrangement and triggers rapid cell proliferation, which causes the loss of CD25. The cells are then known as DN4 cells. Eventually, the DN4 cells cease to proliferate and CD4 and CD8 are expressed. The small CD4+CD8+ double-positive cells begin efficient rearrangement at the \u03b1-chain locus. The cells then express low levels of an \u03b1:\u03b2 T-cell receptor and the associated CD3 complex and are ready for selection. Most cells die by failing to be positively selected or as a consequence of negative selection, but some are selected to mature into CD4 or CD8 single-positive cells and eventually to leave the thymus. Maturation of CD4+CD8+ double-positive cells into CD4 or"
+        },
+        {
+            "id": "Histology_Ross_2179",
+            "title": "Histology_Ross",
+            "content": "the CTL also releases cytokines that stimulate cells to proliferate and destroy the abnormal host cells. CD8 T lymphocytes are MHC I restricted, and CD4 T lymphocytes are MHC II restricted. MHC molecules are recognized by helper CD4 T lymphocytes or CTLs, depending on the class of the MHC molecule engaged. This restricted presentation of foreign antigens by MHC molecules to either cytotoxic or helper T lymphocytes is a key component of immune surveillance. The MHC I molecule with the peptide antigen displayed on its surface interacts only with the TCR and CD8 molecule expressed on cytotoxic CD8 T lymphocytes; these cells are therefore described as MHC I restricted. This interaction allows cytotoxic T lymphocytes to recognize infected or transformed target cells (Fig. 14.5a)."
+        }
+    ],
+    "scores": [
+        0.0363171121033672,
+        0.03446370873968956,
+        0.03392280121712188,
+        0.030309913183928932,
+        0.0275224774456952,
+        0.027357606462084075,
+        0.026715132693393564,
+        0.026612706285626682,
+        0.02614539079976442,
+        0.025760756275508712,
+        0.02548655601589358,
+        0.024693679467928914,
+        0.02430696416497634,
+        0.023757645259938835,
+        0.023418729193805183,
+        0.022660390457000627,
+        0.022536810776942355,
+        0.022165004549535523,
+        0.021612754486770233,
+        0.021200183973906602,
+        0.020830990960839017,
+        0.020268417053668237,
+        0.01999695000105172,
+        0.019292378651017395,
+        0.01888851888851889,
+        0.018706293706293706,
+        0.018701250672404517,
+        0.018637309292649097,
+        0.018435682878627978,
+        0.018219431000215343,
+        0.017841256879576703,
+        0.017838819164890676
+    ]
+}

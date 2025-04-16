@@ -1,0 +1,206 @@
+{
+    "id": "5c640fa1e842deac67000011",
+    "question": "Is TIAM1 favoring tumor progression in colorectal cancer (CRC)?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's break down the information provided by the documents and analyze the role of TIAM1 in colorectal cancer progression.\\n\\nDocument [0] does not mention TIAM1. However, Document [22] (Title: Cell_Biology_Alberts) lists the ubiquitin ligase (FBXW7) proteins as one of the genes with high mutation frequency in colorectal cancer. TIAM1 is not mentioned in this document.\\n\\nDocument [4] (Title: Surgery_Schwartz) lists the genes involved in the adenoma-carcinoma sequence, including APC, K-Ras, p53, and others. However, TIAM1 is not mentioned in this document.\\n\\nDocument [22] (Title: Surgery_Schwartz) lists the product of the APC gene as an important factor in cell-cell interactions, cell adhesion, and regulation of \u03b2-catenin. TIAM1 is not mentioned in this document.\\n\\nDocument [29] (Title: Surgery_Schwartz) lists several molecular biomarkers for the evaluation of colorectal cancer, but TIAM1 is not mentioned in this document.\\n\\nHowever, after analyzing the documents, I found that TIAM1 is not explicitly mentioned as a factor favoring tumor progression in colorectal cancer. In fact, I could not find any information about TIAM1 in the provided documents.\\n\\nTherefore, based on the available information, the correct answer is:\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_7021",
+            "title": "InternalMed_Harrison",
+            "content": "in tumor tissue indicates a more favorable outcome. In contrast to most other cancers, the prognosis in colorectal cancer is not influenced by the size of the primary lesion when adjusted for nodal involvement and histologic differentiation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5637",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nevertheless, certain sets of mutations are particularly common in colorectal cancer, and they occur in a characteristic order. Thus, in most cases, mutations inactivating the Apc gene appear to be the first, or at least a very early step, as they are detected at the same high frequency in small benign polyps as in large malignant tumors. Changes that lead to genetic and epigenetic instability are likely also to arise early in tumor progression, since they are needed to drive the later steps. Activating mutations in the K-Ras gene occur later, as they are rare in small polyps but common in larger ones that show disturbances in cell differentiation and histological pattern."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5627",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Few Key Genetic Lesions Are Common to a Large Fraction of Colorectal Cancers What are the mutations that accumulate with time to produce this chain of events? Of those genes so far discovered to be involved in colorectal cancer, three stand out as most frequently mutated: the proto-oncogene K-Ras (a member of the Ras gene family), in about 40% of cases; p53, in about 60% of cases; and the tumor suppressor gene Apc (discussed below), in more than 80% of cases. Others are involved in smaller numbers of colon cancers, and some of these are listed in Table 20\u20131. The role of Apc first came to light through study of certain families showing a rare type of hereditary predisposition to colorectal cancer, called familial"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5635",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, the genetic instability found in many colorectal cancers can be acquired in at least two ways. The majority of the cancers display a form of chromosomal instability that leads to visibly altered chromosomes, whereas in the others the instability occurs on a much smaller scale and reflects a defect in DNA mismatch repair. Indeed, many carcinomas show either chromosomal instability or defective mismatch repair\u2014but rarely both. These findings clearly demonstrate that genetic instability is not an accidental by-product of malignant behavior but a contributory cause\u2014and that cancer cells can acquire this instability in multiple ways. The Steps of Tumor Progression Can Often Be Correlated with Specific Mutations"
+        },
+        {
+            "id": "Surgery_Schwartz_2085",
+            "title": "Surgery_Schwartz",
+            "content": "cancer. The drugs listed are illustrative examples. (Reproduced with permission from Hanahan D, Weinberg RA. Hallmarks of cancer: the next generation, CCell. 2011 Mar 4;144(5):646-674.)First Hit: APCSomatic Mutation(Sporadic CRC)First Hit: APCGermline Mutation(FAP)K-rasGenomic InstabilitySmad 4p53OtherAlterations\u02dc-CateninNormalEpitheliumDysplasticACFEarlyAdenomaIntermediateAdenomaLateAdenomaCarcinomaMetastasisFigure 10-5. The adenoma-carcinoma model of human colorectal carcinogenesis. The neoplastic process is initiated by mutations in the adenomatous polyposis coli (APC) or b-catenin genes. Tumor progression results from mutations in other genes (e.g., K-ras, Smad 4 and p53) and the development of genomic instability. Patients with familial adenomatous polyposis inherit mutations in the APC gene and develop multiple aberrant crypt foci. Some of these may progress to cancer as they acquire other genetic mutations. (Reproduced with permission from Li C-J, Zhang, X, Fan G-W. Updates in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5636",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Steps of Tumor Progression Can Often Be Correlated with Specific Mutations In what order do K-Ras, p53, Apc, and the other identified colorectal cancer-critical genes mutate, and what contribution does each of them make to the asocial behavior of the cancer cell? There is no single answer, because colorectal cancer can arise by more than one route: thus, we know that in some cases, the first mutation can be in a DNA mismatch repair gene; in others, it can be in a gene regulating cell proliferation. Moreover, as previously discussed, a general feature such as genetic instability or a tendency to proliferate abnormally can arise in a variety of ways, through mutations in different genes."
+        },
+        {
+            "id": "Surgery_Schwartz_13713",
+            "title": "Surgery_Schwartz",
+            "content": "identified; what are the demographics of CRC patients in Nigeria; and is the biology of CRC different in Nigeria compared to the USA? These questions are being answered, with the support of two NIH grants, by creating a robust prospective database with a matching biobank. With over 250 patients, the consortium can now describe the metastatic patterns, stages of presentation, and risk factors for CRC in West Africa. Given that over 65% of patients present with stage IV disease, the development of a risk model to identify patients with early stage disease is a priority. This is being accomplished with a 400-patient prospective trial of colonoscopy in patients over 45 years of age with rectal bleeding in three Nigerian cities. Future projects include studying new technologies for CRC and breast cancer screening.\u2014Peter Kingham, MD, FACSEthicsThe ethics involved in working outside one\u2019s own country are complex. While a practitioner\u2019s scope of practice is usually constrained by regulation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5644",
+            "title": "Cell_Biology_Alberts",
+            "content": "We can often correlate the steps of tumor progression with mutations that activate specific oncogenes and inactivate specific tumor suppressor genes, with colon cancer providing a good example. But different combinations of mutations and epigenetic changes are found in different types of cancer, and even in different patients with the same type of cancer, reflecting the random way in which these inherited changes arise. Nevertheless, many of the same changes are encountered repeatedly, suggesting that there are a limited number of ways to breach our defenses against cancer. Figure 20\u201336 Suggested typical sequence of genetic changes underlying the development of a colorectal carcinoma. This oversimplified diagram provides a general idea of the way mutation and tumor development are related. But many other mutations are generally involved, and different colon cancers can progress through different sequences of mutations (and/or epigenetic changes)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5621",
+            "title": "Cell_Biology_Alberts",
+            "content": "Colorectal Cancers Evolve Slowly Via a Succession of Visible Changes At the beginning of this chapter, we saw that most cancers develop gradually from a single aberrant cell, progressing from benign to malignant tumors by the accumulation of a number of independent genetic and epigenetic changes. We have discussed what some of these changes are in molecular terms and seen how they contribute to cancerous behavior. We now examine one of the common human cancers more closely, using it to illustrate and enlarge upon some of the general principles and molecular mechanisms we have introduced. We take colorectal cancer as our example."
+        },
+        {
+            "id": "Surgery_Schwartz_8518",
+            "title": "Surgery_Schwartz",
+            "content": "mutant tumors. As such, K-ras mutation status is important in deciding when to utilize anti-EGFR therapies. Other EGFR signaling molecules such as BRAF have also been implicated in colorectal cancer patho-genesis and progression, and ongoing research is focusing on elucidating their roles in this disease.5NormalepitheliumDysplasticepitheliumEarlyadenomaIntermediateadenomaLateadenomaCarcinomaMetastasisAPCK-RASDCC/DPC4/JV18?p53Other changesFigure 29-22. Schematic showing progression from normal colonic epithelium to carcinoma of the colon.Brunicardi_Ch29_p1259-p1330.indd 128923/02/19 2:29 PM 1290SPECIFIC CONSIDERATIONSPART IIAnother common mutation occurs in the MYH gene on chromosome 1p. MYH is a base excision repair gene, and bial-lelic deletion results in changes in other downstream molecules. Since its discovery, MYH mutations have been associated with an AFAP phenotype in addition to sporadic cancers. Unlike APC gene mutations that are expressed in an autosomal domi-nant"
+        },
+        {
+            "id": "Pharmacology_Katzung_5857",
+            "title": "Pharmacology_Katzung",
+            "content": "Edward Chu, MD are the possible benefits of adjuvant chemotherapy? The patient receives a combination of 5-fluorouracil (5-FU), leucovorin, and oxaliplatin (FOLFOX) as adjuvant therapy. One week after receiving the first cycle of therapy, he experiences significant toxicity in the form of myelosup-pression, diarrhea, and altered mental status. What is the most likely explanation for this increased toxicity? Is there any role for genetic testing to determine the etiology of the increased toxicity? A 55-year-old man presents with increasing fatigue, 15-pound weight loss, and a microcytic anemia. Colonoscopy identifies a mass in the ascending colon, and biopsy specimens reveal well-differentiated colorectal cancer (CRC). He undergoes surgical resection and is found to have high-risk stage III CRC with five positive lymph nodes. After surgery, he feels entirely well with no symptoms. Of note, he has no other illnesses. What is this patient\u2019s overall prognosis? Based on his prognosis, what"
+        },
+        {
+            "id": "InternalMed_Harrison_7020",
+            "title": "InternalMed_Harrison",
+            "content": "accurately define tumor stage, and the more nodes examined, the better. Other predictors of a poor prognosis after a total surgical resection include tumor penetration through the bowel wall into pericolic fat, poorly differentiated histology, perforation and/or tumor adherence to adjacent organs (increasing the risk for an anatomically adjacent recurrence), and venous invasion by tumor (Table 110-4). Regardless of the clinicopathologic stage, a preoperative elevation of the plasma carcinoembryonic antigen (CEA) level predicts eventual tumor recurrence. The presence of aneuploidy and specific chromosomal deletions, such as a mutation in the b-raf gene in tumor cells, appears to predict for a higher risk for metastatic spread. Conversely, the detection of microsatellite instability in tumor tissue indicates a more favorable outcome. In contrast to most other cancers, the prognosis in colorectal cancer is not influenced by the size of the primary lesion when adjusted for nodal"
+        },
+        {
+            "id": "Pharmacology_Katzung_6025",
+            "title": "Pharmacology_Katzung",
+            "content": "Colorectal cancer (CRC) is the most common type of gastrointestinal malignancy. Nearly 150,000 new cases are diagnosed each year in the USA; worldwide, nearly 1.2 million cases are diagnosed annually. At the time of initial presentation, only about 40\u201345% of patients are potentially curable with surgery. Patients presenting with high-risk stage II disease and stage III disease are candidates for adjuvant chemotherapy with an oxaliplatin-based regimen in combination with 5-FU plus leucovorin (FOLFOX) or with oral capecitabine (XELOX) and are generally treated for 6 months following surgical resection. Treatment with this combination regimen reduces the recurrence rate after surgery by 35% and clearly improves overall patient survival compared with surgery alone."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5631",
+            "title": "Cell_Biology_Alberts",
+            "content": "When the \u03b2-catenin gene was sequenced in a collection of colorectal tumors, it was discovered that, many of the tumors that did not have Apc mutations had activating mutations in \u03b2-catenin instead. Thus, it is excessive activity in the Wnt signaling pathway that is critical for the initiation of this cancer, rather than any single oncogene or tumor suppressor gene that the pathway contains. This being so, why is the Apc gene in particular so often the most common culprit in colorectal cancer? The Apc protein is large and it interacts not only with \u03b2-catenin but also with various other cell components, including microtubules. Loss of Apc appears to increase the frequency of mitotic spindle defects, leading to chromosome abnormalities when cells divide. This additional, independent cancer-promoting effect could explain why Apc mutations feature so prominently in the causation of colorectal cancer."
+        },
+        {
+            "id": "InternalMed_Harrison_6080",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 101e-8 A two-dimensional maps of genes mutated in colorectal cancer. The two-dimensional landscape represents the positions of the RefSeq genes along the chromosomes and the height of the peaks represents the mutation frequency. On the top map, the taller peaks represent the genes that are commonly mutated in colon cancer, while the large number of smaller hills indicates the genes that are mutated at lower frequency. On the lower map, the mutations of two individual tumors are indicated. Note that there is little overlap between the mutated genes of the two colorectal tumors shown. These differences may represent the basis for the heterogeneity in terms of behavior and responsiveness to therapy observed in human cancer. (From LD Wood et al: Science 318:1108, 2007, with permission.) to help the patients and their physicians make treatment decisions. 101e-9 Personalized medicine is an exciting new avenue for cancer treatment based on matching the unique features of a tumor to an"
+        },
+        {
+            "id": "InternalMed_Harrison_6979",
+            "title": "InternalMed_Harrison",
+            "content": "A number of molecular changes are noted in adenomatous polyps and colorectal cancers that are thought to reflect a multistep process in the evolution of normal colonic mucosa to life-threatening invasive carcinoma. These developmental steps toward carcinogenesis include, but are not restricted to, point mutations in the K-ras protooncogene; hypomethylation of DNA, leading to gene activation; loss of DNA 538 (allelic loss) at the site of a tumor-suppressor gene (the adenomatous polyposis coli [APC] gene) on the long arm of chromosome 5 (5q21); allelic loss at the site of a tumor-suppressor gene located on chromosome 18q (the deleted in colorectal cancer [DCC] gene); and allelic loss at chromosome 17p, associated with mutations in the p53 tumor-suppressor gene (see Fig. 101e-2). Thus, the altered proliferative pattern of the colonic mucosa, which results in progression to a polyp and then to carcinoma, may involve the mutational activation of an oncogene followed by and coupled with the"
+        },
+        {
+            "id": "Pathology_Robbins_3817",
+            "title": "Pathology_Robbins",
+            "content": "Studies of colorectal carcinogenesis have provided fundamental insights into the general mechanisms of cancer evolution. The combination of molecular events that lead to colonic adenocarcinoma is heterogeneous and includes genetic and epigenetic abnormalities. At least two distinct genetic pathways, the APC/\u03b2-catenin pathway and the microsatellite instability pathway, have been described. In simplest terms, mutations involving the APC/\u03b2-catenin pathway lead to increased WNT signaling, whereas those involving the microsatellite instability pathway are associated with defects in DNA mismatch repair (see Table 15.7). Both pathways involve the stepwise accumulation of multiple mutations, but the genes involved and the mechanisms by which the mutations accumulate differ. Epigenetic events, the most common of which is methylation-induced gene silencing, may enhance progression along both pathways."
+        },
+        {
+            "id": "Surgery_Schwartz_8522",
+            "title": "Surgery_Schwartz",
+            "content": "in colorectal cancer, but this theory remains unproven. DCC mutations are present in more than 70% of colorectal carcinomas and may negatively impact prognosis. SMAD4 functions in the signaling cascade of transforming growth factor beta and beta-catenin (also a down-stream effector of the APC gene). Loss of either of these genes is thought to promote cancer progression.82The Microsatellite Instability Pathway. Many of the remain-ing colorectal carcinomas are thought to arise from mutations in the MSI pathway, which is characterized by errors in mismatch repair during DNA replication. These errors in mismatch repair were first described in Hereditary Nonpolyposis Colon Cancer (HNPCC; Lynch syndrome) Lynch 9, but are now recognized to be present in many sporadic tumors as well. A number of genes have been identified that appear to be crucial for recognizing and repairing DNA replication errors. These mismatch repair genes include MSH2, MLH1, PMS1, PMS2, and MSH6/GTBP. A mutation in one"
+        },
+        {
+            "id": "Surgery_Schwartz_13712",
+            "title": "Surgery_Schwartz",
+            "content": "diseases, such as cancer, are a major public health problem in lowand middle-income countries (LMIC). In many LMIC, surgeons, due to the lack of medical oncologists, treat all stages of noninfectious related cancers, such as breast and colorectal cancer (CRC). In 2011, to address the disparity in outcomes for patients with cancer in West Africa compared to the United States, a research and training collaboration was formed between the Obafemi Awolowo University Teaching Hospital in Nigeria and Memorial Sloan Kettering Cancer Center (MSK) in New York. This relationship has now grown to become a consortium of five Nigerian hospitals and the Global Cancer Disparity Initiative Team at MSK.The consortium began by focusing on important questions regarding CRC: how can early stage patients be identified; what are the demographics of CRC patients in Nigeria; and is the biology of CRC different in Nigeria compared to the USA? These questions are being answered, with the support of two NIH"
+        },
+        {
+            "id": "Surgery_Schwartz_2160",
+            "title": "Surgery_Schwartz",
+            "content": "duodenal and periampullary cancer), hepatobiliary tumors (hepatoblastoma, pancreatic cancer, and cholangiocarcinoma), thyroid carcinomas, desmoid tumors, and medulloblastomas.The product of the adenomatous polyposis coli tumor-sup-pressor gene (APC) plays an important role in cell-cell interac-tions, cell adhesion, regulation of \u03b2-catenin, and maintenance of cytoskeletal microtubules. Alterations in APC lead to dys-regulation of several physiologic processes that govern colonic epithelial cell homeostasis, including cell-cycle progression, migration, differentiation, and apoptosis. Mutations in the APC have been identified in FAP and in 80% of sporadic colorectal cancers.67 Furthermore, APC mutations are the earliest known genetic alterations in colorectal cancer progression, which emphasizes its importance in cancer initiation. The germline mutations in APC may arise from point mutations, insertions, or deletions that lead to a premature stop codon and a truncated, functionally"
+        },
+        {
+            "id": "Surgery_Schwartz_8515",
+            "title": "Surgery_Schwartz",
+            "content": "Defects. An intense research effort has focused on elucidating the genetic defects and molecular abnormalities asso-ciated with the development and progression of colorectal adeno-mas and carcinoma. Mutations may cause activation of oncogenes (K-ras) and/or inactivation of tumor suppressor genes (APC, deleted in colorectal carcinoma [DCC], p53). Colorectal carcinoma is thought to develop from adenomatous polyps by accumulation of these mutations in what has come to be known as the adenoma-carcinoma sequence (Fig. 29-22).9,79Defects in the APC gene were first described in patients with Familial Adenomatous Polyposis (FAP). By investigating these families, characteristic mutations in the APC gene were identified. They are now known to be present in 80% of spo-radic colorectal cancers as well.The APC gene is a tumor suppressor gene. Mutations in both alleles are necessary to initiate polyp formation. The majority of mutations are premature stop codons, which result in a truncated APC"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5567",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 20\u201325 The mutation landscape in colorectal cancer. In this two-dimensional representation of the human genome, the green surface depicts the 22 human autosomes plus the X sex chromosome as being laid out side-by-side in numerical order from left to right, with the DNA sequence of each chromosome running from back to front. The mountains represent the locations of genes mutated with high frequency in different, independent tumors. As indicated, these are suspected driver mutations in the adenomatous polyposis coli (APC), K-Ras, p53, phosphoinositide 3-kinase (PIK3CA), and ubiquitin ligase (FBXW7) proteins. (Adapted from L.D. Wood et al., Science 318:1108\u20131113, 2007.)"
+        },
+        {
+            "id": "Surgery_Schwartz_2086",
+            "title": "Surgery_Schwartz",
+            "content": "APC gene and develop multiple aberrant crypt foci. Some of these may progress to cancer as they acquire other genetic mutations. (Reproduced with permission from Li C-J, Zhang, X, Fan G-W. Updates in colorectal cancer stem cell research, J Cancer Res Ther. 2014 Dec;10 Suppl:233-239.)Brunicardi_Ch10_p0305-p0354.indd 31222/02/19 2:14 PM 313ONCOLOGYCHAPTER 10prevent the progression of the cell cycle. Mutation or altered expression of these genes can lead to tumor formation.OncogenesNormal cellular genes that contribute to cancer when abnormal are called oncogenes. The normal counterpart of such a gene is referred to as a proto-oncogene. Oncogenes are usually designated by three-letter abbreviations, such as myc or ras. Oncogenes are further designated by the prefix \u201cv-\u201d for virus or \u201cc-\u201d for cell or chromosome, corresponding to the origin of the oncogene when it was first detected. Proto-oncogenes can be activated (show increased activity) or overexpressed (expressed at increased"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5524",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we shall first discuss how cancer-critical genes are identified. We shall then examine their functions and the parts they play in conferring on cancer cells the properties outlined in the first part of the chapter. We shall end the section by discussing colon cancer as an extended example, showing how a succession of changes in cancer-critical genes enables a tumor to evolve from one pattern of bad behavior to another that is worse. The Identification of Gain-of-Function and Loss-of-Function Cancer Mutations has Traditionally Required Different Methods"
+        },
+        {
+            "id": "Surgery_Schwartz_2159",
+            "title": "Surgery_Schwartz",
+            "content": "systemic therapy choices for breast cancer. Some targeted therapies are showing activity in BRCA mutation carriers with breast cancer such as PARP poly(ADP-ribose) polymerase-inhibitors.APC Gene and Familial Adenomatous PolyposisPatients affected with familial adenomatous polyposis (FAP) characteristically develop hundreds to thousands of polyps in the colon and rectum. The polyps usually appear in adolescence and, if left untreated, progress to colorectal cancer. FAP is asso-ciated with benign extracolonic manifestations that may be use-ful in identifying new cases, including congenital hypertrophy of the retinal pigment epithelium, epidermoid cysts, and osteo-mas. In addition to colorectal cancer, patients with FAP are at risk for upper intestinal neoplasms (gastric and duodenal pol-yps, duodenal and periampullary cancer), hepatobiliary tumors (hepatoblastoma, pancreatic cancer, and cholangiocarcinoma), thyroid carcinomas, desmoid tumors, and medulloblastomas.The product of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5620",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cancer stem-cell phenomenon, whatever its basis, implies that even when the tumor cells are genetically similar, they are phenotypically diverse. A treatment that wipes out those in one state is likely to allow survival of others that remain a danger. Radiotherapy or a cytotoxic drug, for example, may selectively kill off the rapidly dividing cells, reducing the tumor volume to almost nothing, and yet spare a few slowly dividing cells that go on to resurrect the disease. This greatly adds to the difficulty of cancer therapy, and it is part of the reason why treatments that seem at first to succeed often end in relapse and disappointment. Colorectal Cancers Evolve Slowly Via a Succession of Visible Changes"
+        },
+        {
+            "id": "Pathology_Robbins_3818",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 The APC/\u03b2-catenin pathway. The classic adenomacarcinoma sequence, which accounts for as much as 80% of sporadic colon tumors, typically involves mutation of the APC tumor suppressor early in the neoplastic process ("
+        },
+        {
+            "id": "Surgery_Schwartz_8521",
+            "title": "Surgery_Schwartz",
+            "content": "arise from mutations in the LOH pathway. This pathway was first described in patients with FAP in whom mutations of the APC gene were found to be inherited.Another example of LOH occurs in the region of chromo-some 18q. This region has been found to be deleted in up to 70% of colorectal cancers. Two tumor suppressor genes, DCC and SMAD4, are located in this region, and as such, deletion of 18q may result in the loss of one or both of these genes. DCC is a tumor suppressor gene, and loss of both alleles is required for malignant degeneration. The main role of this molecule appears to be in the central nervous system, where it is involved in neural differentiation and axonal migration. This observa-tion has led to the hypothesis that DCC may be involved in differentiation and cellular adhesion in colorectal cancer, but this theory remains unproven. DCC mutations are present in more than 70% of colorectal carcinomas and may negatively impact prognosis. SMAD4 functions in the signaling"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5625",
+            "title": "Cell_Biology_Alberts",
+            "content": "in which the slowly growing tumor is detectable but has not yet turned malignant. Thus, when people are screened by colonoscopy in their fifties and the polyps are removed through the colonoscope\u2014a quick and easy surgical procedure\u2014the subsequent incidence of colorectal cancer is much lower: according to some studies, less than a quarter of what it would be otherwise."
+        },
+        {
+            "id": "Surgery_Schwartz_8777",
+            "title": "Surgery_Schwartz",
+            "content": "H, Sirivongs P, Rothenberger M, et al. Molecular prognos-tic factors in rectal cancer treated by radiation and surgery. Dis Colon Rectum. 2000;43:451-459. 111. Johnson PM, Porter GA, Ricciardi R, et al. Increasing negative lymph node count is independently associated with improved long-term survival in stage IIIB and IIIC colon cancer. J Clin Oncol. 2006;24:3570-3575. 112. Chang GJ, Rodriguez-Bigas MA, Skibber JM, et al. Lymph node evaluation and survival after curative resec-tion of colon cancer: systematic review. J Natl Cancer Inst. 2007;99:433-441. 113. Ricciardi R, Madoff RD, Rothenberger DA, et al. Population-based analyses of lymph node metastases in colorectal cancer. Clin Gastroenterol Hepatol. 2006;4:1522-1527. 114. Ricciardi R, Baxter NN. Association versus causation versus quality improvement: setting benchmarks for lymph node eval-uation in colon cancer. J Natl Cancer Inst. 2007;99:414-415. 115. Puthillath A, Dunn KB, Rajput A, et al. Safety and efficacy of first-line"
+        },
+        {
+            "id": "First_Aid_Step1_410",
+            "title": "First_Aid_Step1",
+            "content": "Colonic polyps Growths of tissue within the colon A . Grossly characterized as flat, sessile, or pedunculated on the basis of protrusion into colonic lumen. Generally classified by histologic type. Submucosal polyps May include lipomas, leiomyomas, fibromas, and other lesions. Malignant potential tooth\u201d pattern of crypts on biopsy. Up to 20% of cases of sporadic CRC. A B C Polyp Polyp Cancer SessilePedunculated Lynch syndrome Previously called hereditary nonpolyposis colorectal cancer (HNPCC). Autosomal dominant mutation of mismatch repair genes (eg, MLH1, MSH2) with subsequent microsatellite instability. \u223c 80% progress to CRC. Proximal colon is always involved. Associated with endometrial, ovarian, and skin cancers. Diagnosis Iron deficiency anemia in males (especially > 50 years old) and postmenopausal females raises suspicion. Screening:"
+        },
+        {
+            "id": "Surgery_Schwartz_2374",
+            "title": "Surgery_Schwartz",
+            "content": "et al. Molecular biomarkers for the evaluation of colorectal cancer: Guideline from the American Society for Clinical Pathology, College of American Pathologists, Association for Molecular Pathology, and the American Society of Clinical Oncology. J Clin Oncol. 2017;35:1453-1486. 113. Way BA, Kessler G. Tumour marker overview. Lab Med News-letter. 1996;4:1-7. 114. Paik S, Shak S, Tang G, et al. A multigene assay to predict recurrence of tamoxifen-treated, node-negative breast cancer. N Engl J Med. 2004;351:2817-2826. 115. van \u2018t Veer LJ, Dai H, van de Vijver MJ, et al. Gene expression profiling predicts clinical outcome of breast cancer. Nature. 2002;415:530-536. 116. Cardoso F, van \u2018t Veer LJ, Bogaerts J, et al; MINDACT Inves-tigators. Gene signature as an aid to treatment decisions in early-stage breast cancer. N Engl J Med. 2016;375:717-729. 117. Moyer VA. Screening for prostate cancer: U.S. Preventive Ser-vices Task Force recommendation statement. Ann Intern Med."
+        }
+    ],
+    "scores": [
+        0.03492391844534171,
+        0.032165831498274754,
+        0.03174405694229014,
+        0.029435656627486543,
+        0.028860992833531773,
+        0.027990950985580958,
+        0.027275740985418406,
+        0.026558295386201563,
+        0.02642704982175463,
+        0.025827494235127618,
+        0.02554743651890818,
+        0.025348878290054756,
+        0.02283967021923273,
+        0.02266181506849315,
+        0.0221381286512573,
+        0.022088320112035528,
+        0.021514742567374148,
+        0.020921742831855192,
+        0.01951265943270512,
+        0.01852010631912887,
+        0.01731634182908546,
+        0.0172867929936365,
+        0.01713418160786582,
+        0.016498316498316498,
+        0.016390179163901793,
+        0.016338801385530358,
+        0.016009695114172728,
+        0.01588901405110571,
+        0.015866047911701993,
+        0.015763546798029555,
+        0.01555104800540906,
+        0.015485739750445633
+    ]
+}

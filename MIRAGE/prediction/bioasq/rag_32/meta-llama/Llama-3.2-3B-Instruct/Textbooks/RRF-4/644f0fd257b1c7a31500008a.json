@@ -1,0 +1,206 @@
+{
+    "id": "644f0fd257b1c7a31500008a",
+    "question": "Do enhancers have to be close to their gene targets?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the function and characteristics of enhancers as described in the provided documents. Enhancers are DNA sequences that increase the rate of initiation of transcription by RNA pol II. They can be located upstream or downstream of the transcription start site and can be found on either strand of the DNA. The documents mention that enhancers function by looping back to gene promoters, and therefore, they are not necessarily close to their gene targets. In fact, some enhancers can be tens or even hundreds of thousands of nucleotide pairs away from the promoter that directs transcription of the gene. This indicates that enhancers do not have to be close to their gene targets to exert their effect. The documents also mention that the looping of DNA allows enhancers to interact with promoters even if they are far apart. Therefore, the correct answer is that enhancers do not have to be close to their gene targets.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pathology_Robbins_120",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 DNA-binding domains permit specific binding to short DNA sequences. Whereas some transcription factor binding sites are found in promoters, close to the site where transcription starts, it is now appreciated that most transcription factors bind widely throughout genomes, including to long-range regulatory elements such as enhancers. Enhancers function by looping back to gene promoters, and therefore are spatially located close to the genes that they regulate, even though it terms of genomic sequence they may appear to be far Table 1.1 GrowthFactorsInvolvedinRegenerationandRepair away. These insights highlight the importance of chromatin organization in regulating gene expression, both normal and pathologic."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1837",
+            "title": "Cell_Biology_Alberts",
+            "content": "Activator proteins promote the Assembly of rnA polymerase at the Start point of transcription The cis-regulatory sequences to which eukaryotic transcription activator proteins bind were originally called enhancers because their presence \u201cenhanced\u201d the rate of transcription initiation. It came as a surprise when it was discovered that these sequences could be found tens of thousands of nucleotide pairs away from the promoter; as we have seen, DNA looping, which was not widely appreciated at the time, can now explain this initially puzzling observation. Once bound to DNA, how do assemblies of activator proteins increase the rate of transcription initiation? At most genes, mechanisms work in concert. Their function is both to attract and position RNA polymerase II at the promoter and to release it so that transcription can begin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1857",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have seen that all genes have control regions, which dictate at which times, under what conditions, and in what tissues the gene will be expressed. We have also seen that eukaryotic transcription regulators can act across very long stretches of DNA, with the intervening DNA looped out. How, then, are control regions of different genes kept from interfering with one another? For example, what keeps a transcription regulator bound on the control region of one gene from looping in the wrong direction and inappropriately influencing the transcription of an adjacent gene?"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1535",
+            "title": "Biochemistry_Lippinco",
+            "content": "d. Role of enhancers: Enhancers are special DNA sequences that increase the rate of initiation of transcription by RNA pol II. Enhancers are typically on the same chromosome as the gene whose transcription they stimulate (Fig. 31.13B). However, they can 1) be located upstream (to the 5\u2032-side) or downstream (to the 3\u2032-side) of the transcription start site, 2) be close to or thousands of base pairs away from the promoter (Fig. 31.14), and 3) occur on either strand of the DNA. Enhancers contain DNA sequences called response elements that bind STF. By bending or looping the DNA, STF can interact with other TF bound to a promoter and with RNA pol II, thereby stimulating transcription (see Fig. 31.13B). Mediator also binds enhancers. [Note: Although silencers are similar to enhancers in that they also can act over long distances, they reduce gene expression.] e. RNA polymerase II inhibitor: \u03b1-Amanitin, a potent toxin produced by the poisonous mushroom Amanita phalloides (sometimes called"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1863",
+            "title": "Cell_Biology_Alberts",
+            "content": "to sequences that can be tens or even hundreds of thousands of nucleotide pairs from the promoter that directs transcription of the gene. Eukaryotic activators and repressors act by a wide variety of mechanisms\u2014generally altering chromatin structure and controlling the assembly of the general transcription factors and RNA polymerase at the promoter. They do this by attracting coactivators and co-repressors, protein complexes that perform the necessary biochemical reactions. The time and place that each gene is transcribed, as well as its rates of transcription under different conditions, are determined by the particular spectrum of transcription regulators that bind to the regulatory region of the gene."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1532",
+            "title": "Biochemistry_Lippinco",
+            "content": "allowing it to clear the promoter.] c. Regulatory elements and transcriptional activators: Additional consensus sequences lie upstream of the core promoter (see Fig. 31.12). Those close to the core promoter (within ~200 nucleotides) are the proximal regulatory elements, such as the CAAT and GC boxes. Those farther away are the distal regulatory elements such as enhancers (see d. below). Proteins known as transcriptional activators or specific transcription factors (STF) bind these regulatory elements. STF bind to promoter proximal elements to regulate the frequency of transcription initiation and to distal elements to mediate the response to signals such as hormones (see p. 472) and regulate which genes are expressed at a given point in time. A typical protein-coding eukaryotic gene has binding sites for many such factors. STF have two binding domains. One is a DNA-binding domain, the other is a transcription activation domain that recruits the GTF to the core promoter as well as"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1869",
+            "title": "Cell_Biology_Alberts",
+            "content": "The regulatory DNA sequences that control the Eve gene have evolved to \u201cread\u201d the concentrations of transcription regulators at each position along the length of the embryo, and they cause the Eve gene to be expressed in seven precisely positioned stripes, each initially five to six nuclei wide (Figure 7\u201327). How is this remarkable feat of information processing carried out? Although there is still much to learn, several general principles have emerged from studies of Eve and other genes that are similarly regulated."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1858",
+            "title": "Cell_Biology_Alberts",
+            "content": "To avoid such cross-talk, several types of DNA elements compartmentalize the genome into discrete regulatory domains. In Chapter 4, we discussed barrier sequences that prevent the spread of heterochromatin into genes that need to be expressed. A second type of DNA element, called an insulator, prevents cis-regulatory sequences from running amok and activating inappropriate genes (Figure 7\u201324). Insulators function by forming loops of chromatin, an effect mediated by specialized proteins that bind them (see Figures 4\u201348 and 7\u201324B). The loops hold a gene and its control region in rough proximity and help to prevent the control region from \u201cspilling over\u201d to adjacent genes. Importantly, these loops can be in different in different cell types, depending on the particular proteins and chromatin structures that are present."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1834",
+            "title": "Cell_Biology_Alberts",
+            "content": "As their names imply, coactivators are typically involved in activating transcription and co-repressors in repressing it. In the following sections, we will see that coactivators and co-repressors can act in a variety of different ways to influence transcription after they have been localized on the genome by transcription regulators."
+        },
+        {
+            "id": "InternalMed_Harrison_4783",
+            "title": "InternalMed_Harrison",
+            "content": "at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences of the gene. Specific groups of transcription factors that bind to these promoter and enhancer sequences provide a combinatorial code for regulating transcription. In this manner, relatively ubiquitous factors interact with more restricted factors to allow each gene to be expressed and regulated in a unique manner that is dependent on developmental state, cell type, and numerous extracellular stimuli. Regulatory factors also bind within the gene itself, particularly in the intronic regions. The transcription factors that bind to DNA actually represent only the first level of regulatory control. Other proteins\u2014co-activators and co-repressors\u2014interact with the DNA-binding transcription factors to generate large regulatory complexes. These complexes are subject to control by numerous"
+        },
+        {
+            "id": "InternalMed_Harrison_4782",
+            "title": "InternalMed_Harrison",
+            "content": "REGULATION OF GENE EXPRESSION Regulation by Transcription Factors The expression of genes is regulated by DNA-binding proteins that activate or repress transcription. The number of DNA sequences and transcription factors that regulate transcription is much greater than originally anticipated. Most genes contain at least 15\u201320 discrete regulatory elements within 300 bp of the transcription start site. This densely packed promoter region often contains binding sites for ubiquitous transcription factors such as CAAT box/enhancer binding protein (C/EBP), cyclic AMP response element\u2013binding (CREB) protein, selective promoter factor 1 (Sp-1), or activator protein 1 (AP-1). However, factors involved in cell-specific expression may also bind to these sequences. Key regulatory elements may also reside at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1851",
+            "title": "Cell_Biology_Alberts",
+            "content": "An important point is that a transcription activator protein must be bound to DNA to influence transcription of its target gene. And the rate of transcription of a gene ultimately depends upon the spectrum of regulatory proteins bound upstream and downstream of its transcription start site, along with the coactivator proteins they bring to DNA. Although the \u201cdefault\u201d state of eukaryotic DNA packaged into nucleosomes is resistant to transcription, eukaryotes nonetheless use transcription regulators to Figure 7\u201322 Transcriptional synergy. this experiment compares the rate of transcription produced by three experimentally constructed regulatory regions in a eukaryotic cell and reveals transcriptional synergy, a greater than additive effect of multiple activators working together. for simplicity, coactivators have been omitted from the diagram."
+        },
+        {
+            "id": "InternalMed_Harrison_8029",
+            "title": "InternalMed_Harrison",
+            "content": "Important regulatory sequences flank each gene. Immediately upstream are typical promoter elements needed for the assembly of the transcription initiation complex. Sequences in the 5\u2032 flanking region of the \u03b3 and the \u03b2 genes appear to be crucial for the correct developmental regulation of these genes, whereas elements that function like classic enhancers and silencers are in the 3\u2032 flanking regions. The locus control region (LCR) elements located far upstream appear to control the overall level of expression of each cluster. These elements achieve their regulatory effects by interacting with transacting transcription factors. Some of these factors are ubiquitous (e.g., Sp1 and YY1), while others are more or less limited to erythroid cells or hematopoietic cells (e.g., GATA-1, NFE-2, and EKLF). The LCR controlling the \u03b1-globin gene cluster is modulated by a SWI/SNF-like protein called ATRX; this protein appears to influence chromatin remodeling and DNA methylation. The association of \u03b1"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1828",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because the many cis-regulatory sequences that control the expression of a typical gene are often spread over long stretches of DNA, we use the term gene control region to describe the whole expanse of DNA involved in regulating and initiating transcription of a eukaryotic gene. This includes the promoter, where the general transcription factors and the polymerase assemble, plus all of the cis-regulatory sequences to which transcription regulators bind to control the rate of the assembly processes at the promoter (Figure 7\u201317). In animals and plants, it is not unusual to find the regulatory sequences of a gene dotted over stretches of DNA as large as 100,000 nucleotide pairs. Some of this DNA is transcribed (but not translated), and we discuss these long noncoding RNAs (lncRNAs) later in this chapter. For now, we can regard much of this DNA as \u201cspacer\u201d sequences that transcription regulators do not directly recognize. It is important to keep in mind that, like other regions of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2527",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have focused thus far on the binding of a single transcription regulator to a single site in a gene promoter. Many promoters, however, contain multiple adjacent binding sites for the same transcription regulator, and it is not uncommon for these regulators to interact with each other on the DNA to form dimers or larger oligomers. These interactions can result in a cooperative form of DNA binding,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_961",
+            "title": "Cell_Biology_Alberts",
+            "content": "Chromatin Can move to Specific Sites within the Nucleus to Alter gene Expression A variety of different types of experiments has led to the conclusion that the position of a gene in the interior of the nucleus changes when it becomes highly expressed. Thus, a region that becomes very actively transcribed is sometimes found to extend out of its chromosome territory, as if in an extended loop (Figure 4\u201356). We will see in Chapter 6 that the initiation of transcription\u2014the first step in gene expression\u2014requires the assembly of over 100 proteins, and it makes sense that this would be facilitated in regions of the nucleus enriched in these proteins. More generally, it is clear that the nucleus is very heterogeneous, with functionally different regions to which portions of chromosomes can move as they are subjected to different biochemical processes\u2014such as when their gene expression changes. It is this issue that we discuss next."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1831",
+            "title": "Cell_Biology_Alberts",
+            "content": "In contrast to the small number of general transcription factors, which are abundant proteins that assemble on the promoters of all genes transcribed by the gene control region for gene X TATA TATA promoter \u201cspacer\u201d DNA coactivatorstranscription regulators general transcription factors RNA polymerase II gene X cis-regulatory sequence gene X Mediator Figure 7\u201317 The gene control region for a typical eukaryotic gene. the promoter is the DnA sequence where the general transcription factors and the polymerase assemble (see figure 6\u201315). the cis-regulatory sequences are binding sites for transcription regulators, whose presence on the DnA affects the rate of transcription initiation. these sequences can be located adjacent to the promoter, far upstream of it, or even within introns or entirely downstream of the gene. the broken stretches of DnA signify that the length of DnA between the cis-regulatory sequences and the start of transcription"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1841",
+            "title": "Cell_Biology_Alberts",
+            "content": "promoters (Figure 7\u201319). These local alterations in chromatin structure provide greater access to DNA, thereby facilitating the assembly of the general transcription factors at the promoter. In addition, some histone modifications specifically attract these proteins to the promoter. These mechanisms often work together during transcription initiation (Figure 7\u201320). Finally, as discussed earlier in this chapter, the local chromatin changes directed by one transcriptional regulator can allow the binding of additional regulators. By repeated use of this principle, large assemblies of proteins can form on control regions of genes to regulate their transcription."
+        },
+        {
+            "id": "InternalMed_Harrison_6836",
+            "title": "InternalMed_Harrison",
+            "content": "of this gene, a member of the epidermal growth factor receptor superfamily, is called erbB2 (HER/2 neu) and is overexpressed in these breast cancers due to gene amplification; this overexpression can contribute to transformation of human breast epithelium and is the target of effective systemic therapy in adjuvant and metastatic disease settings. A series of acquired \u201cdriver\u201d mutations have been identified in sporadic breast cancer by major sequencing consortia. Unfortunately, most occur in no more than 5% of cases and generally do not have effective agents to target them, so \u201cpersonalized medicine\u201d is for now more of a dream than a reality."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1806",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cooperation among transcription regulators can become much greater when nucleosome remodeling complexes are involved. If one transcription regulator binds its cis-regulatory sequence and attracts a chromatin remodeling complex, the localized action of the remodeling complex can allow a second transcription regulator to efficiently bind nearby. Moreover, we have discussed how transcription regulators can work together in pairs; in reality, larger numbers often cooperate by repeated use of the same principles. A highly cooperative binding of transcription regulators to DNA probably explains why many sites in eukaryotic genomes that are bound by transcription regulators are \u201cnucleosome free.\u201d"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2549",
+            "title": "Cell_Biology_Alberts",
+            "content": "Two Transcription Regulators That Bind to the Same Gene Promoter Can Exert Combinatorial Control Thus far, we have discussed how one transcription regulator can modulate the expression level of a gene. Most genes, however, are controlled by more than one type of transcription regulator, providing combinatorial control that allows two or more inputs to influence the expression of one gene. We can use computational methods to unveil some of the important regulatory features of combinatorial control systems."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1854",
+            "title": "Cell_Biology_Alberts",
+            "content": "repress the transcription of genes. These transcription repressors can both depress the rate of transcription below the default value and rapidly shut off genes that were previously activated. We saw in Chapter 4 that large regions of the genome can be shut down by the packaging of DNA into especially resistant forms of chromatin. However, eukaryotic genes are rarely organized along the genome according to function, and this strategy is not generally applicable for shutting off a set of genes that work together. Instead, most eukaryotic repressors work on a geneby-gene basis. Unlike bacterial repressors, eukaryotic repressors do not directly compete with the RNA polymerase for access to the DNA; rather, they use a variety of other mechanisms, some of which are illustrated in Figure 7\u201323. Although all of these mechanisms ultimately block transcription by RNA polymerase, eukaryotic transcription repressors typically act by bringing co-repressors to DNA. Like transcription activation,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1036",
+            "title": "Cell_Biology_Alberts",
+            "content": "A large proportion of the presumed regulatory regions identified in this way lie near genes that affect neural function and/or near genes involved in steroid signaling, suggesting that changes in the nervous system and in immune or reproductive functions have played an especially important role in human evolution."
+        },
+        {
+            "id": "Cell_Biology_Alberts_822",
+            "title": "Cell_Biology_Alberts",
+            "content": "In addition to introns and exons, each gene is associated with regulatory DNA sequences, which are responsible for ensuring that the gene is turned on or off at the proper time, expressed at the appropriate level, and only in the proper type of cell. In humans, the regulatory sequences for a typical gene are spread out over tens of thousands of nucleotide pairs. As would be expected, these regulatory sequences are much more compressed in organisms with concise genomes. We discuss how regulatory DNA sequences work in Chapter 7."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2515",
+            "title": "Cell_Biology_Alberts",
+            "content": "Positive control is not the only mechanism that cells use to regulate the expression of their genes. As we discussed in Chapter 7, cells also actively shut off genes, often by employing transcription repressor proteins that bind to specific sites on target genes, thereby blocking access to RNA polymerase. We can analyze the function of these repressors by the same quantitative methods described above for transcription activators. If a repressor protein R binds to the regulatory region of gene X and represses its transcription, then the fraction of gene binding sites occupied by the repressor is specified by the same equation we used earlier for the transcription activator (Figure 8\u201375A). In this case, however, it is only when the DNA is free that RNA polymerase can bind to the promoter and transcribe the gene. Thus, the quantity of interest is the unbound fraction, which can be viewed as the probability that the site is free, averaged over multiple binding and unbinding events. When"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1838",
+            "title": "Cell_Biology_Alberts",
+            "content": "Some activator proteins bind directly to one or more of the general transcription factors, accelerating their assembly on a promoter that has been brought in proximity\u2014through DNA looping\u2014to that activator. Most transcription activators, however, attract coactivators that then perform the biochemical tasks needed to initiate transcription. One of the most prevalent coactivators is the large Mediator protein complex, composed of more than 30 subunits. About the same size as RNA polymerase itself, Mediator serves as a bridge between DNA-bound transcription activators, RNA polymerase, and the general transcription factors, facilitating their assembly at the promoter (see Figure 7\u201317). eukaryotic transcription Activators Direct the Modification of local Chromatin Structure"
+        },
+        {
+            "id": "Surgery_Schwartz_362",
+            "title": "Surgery_Schwartz",
+            "content": "to highly specific DNA sequences upstream of the target gene known as the promoter region. Enhancer sequences of DNA mediate gene expression, whereas repressor sequences are non-coding regions that bind proteins to inhibit gene expression. For example, nuclear factor \u03baB (NF-\u03baB), one of the best-described transcription factors, has a central role in regulating the gene products expressed after inflammatory stimuli (Fig. 2-10). The NF-\u03baB family of transcription factors is composed of five mem-bers that share a common domain. They form numerous homo or heterodimers that are normally retained in the cytosol through Brunicardi_Ch02_p0027-p0082.indd 5201/03/19 6:49 PM 53SYSTEMIC RESPONSE TO INJURY AND METABOLIC SUPPORTCHAPTER 2TranscriptionDNAmRNAmRNAProteinInactivemRNAInactiveproteinCytoplasmCell membraneNucleusFigure 2-9. Gene expression and protein synthesis can occur within a 24-hour period. The process can be regulated at various stages: transcription, messenger RNA (mRNA)"
+        },
+        {
+            "id": "InternalMed_Harrison_6139",
+            "title": "InternalMed_Harrison",
+            "content": "The concepts of oncogene addiction and synthetic lethality have spurred new drug development targeting oncogeneand tumor-suppressor pathways. As discussed earlier in this chapter and outlined in Fig. 102e-3, cancer cells can become dependent on signaling pathways containing activated oncogenes; this can effect proliferation (i.e., mutated Kras, Braf, overexpressed Myc, or activated tyrosine kinases), DNA repair (loss of BRCA1 or BRCA2 gene function), survival (overexpression of Bcl-2 or NF-\u03baB), cell metabolism (as occurs when mutant Kras enhances glucose uptake and aerobic glycolysis), and perhaps angiogenesis (production of VEGF in response to HIF-2\u03b1 in RCC). In such cases, targeted inhibition of the pathway can lead to specific killing of the cancer cells. However, targeting defects in tumor-suppressor genes has been much more difficult, both because the target of mutation is often deleted and because it is much more difficult to restore normal function than to inhibit abnormal"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1866",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we shall examine not only cell memory mechanisms, but also how gene regulatory devices can be combined to create the \u201clogic circuits\u201d through which cells integrate signals and remember events in their past. We begin by considering one such complex gene control region in detail. We have seen that transcription regulators can be positioned at multiple sites along long stretches of DNA and that these proteins can bring into play coactivators and co-repressors. Here, we discuss how the numerous transcription regulators that are bound to the control region of a gene can cause the gene to be transcribed at the proper place and time."
+        },
+        {
+            "id": "InternalMed_Harrison_5403",
+            "title": "InternalMed_Harrison",
+            "content": "Gene transfer is a novel area of therapeutics in which the active agent is a nucleic acid sequence rather than a protein or small molecule. Because delivery of naked DNA or RNA to a cell is an inefficient process, most gene transfer is carried out using a vector, or gene delivery vehicle. These vehicles have generally been engineered from viruses by deleting some or all of the viral genome and replacing it with the therapeutic gene of interest under the control of a suitable promoter (Table 91e-1). Gene transfer strategies can thus be described in terms of three essential elements: (1) a vector; (2) a gene to be delivered, sometimes called the transgene; and (3) a physiologically relevant target cell to which the DNA or RNA is delivered. The series of steps in which the vector and donated DNA enter the target cell and express the transgene is referred to as transduction. Gene delivery can take place in vivo, in which the vector is directly injected into the patient, or, in the case of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1862",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription regulators switch the transcription of individual genes on and off in cells. In prokaryotes, these proteins typically bind to specific DNA sequences close to the RNA polymerase start site and, depending on the nature of the regulatory protein and the precise location of its binding site relative to the start site, either activate or repress transcription of the gene. The flexibility of the DNA helix, however, also allows proteins bound at distant sites to affect the RNA polymerase at the promoter by the looping out of the intervening DNA. The regulation of higher eukaryotic genes is much more complex, commensurate with a larger genome size and the large variety of cell types that are formed. A single eukaryotic gene is typically controlled by many transcription regulators bound to sequences that can be tens or even hundreds of thousands of nucleotide pairs from the promoter that directs transcription of the gene. Eukaryotic activators and repressors act by a wide variety"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2090",
+            "title": "Cell_Biology_Alberts",
+            "content": "how does the collection of cisregulatory sequences embedded in a genome orchestrate the developmental program of a multicellular organism? how much of the human genome sequence is functional, and why is the remainder retained? which of the thousands of unstudied noncoding rnAs have functions in the cell, and what are these functions? were introns present in early cells (and subsequently lost in some organisms), or did they arise at later times? RNA molecules together to speed up needed reactions. Which statements are true? Explain why or why not. 7\u20131 In terms of the way it interacts with DNA, the helix\u2013loop\u2013helix motif is more closely related to the leucine zipper motif than it is to the helix\u2013turn\u2013helix motif. 7\u20132 Once cells have differentiated to their final specialized forms, they never again alter expression of their genes."
+        }
+    ],
+    "scores": [
+        0.029508833236264805,
+        0.02764141960414529,
+        0.027238597332055275,
+        0.026901811948540917,
+        0.022379135562694254,
+        0.021899020125564748,
+        0.020836679928522953,
+        0.01904761904761905,
+        0.019029419106800165,
+        0.018605053651782624,
+        0.0180238694487294,
+        0.017615384615384616,
+        0.017058652729384435,
+        0.016511458952513044,
+        0.01649470540320391,
+        0.016411084207694375,
+        0.016196721311475412,
+        0.016183107672469374,
+        0.01598481136697697,
+        0.015948659295971536,
+        0.01593726283835062,
+        0.015877016129032258,
+        0.01574894331538417,
+        0.01566111881645862,
+        0.015258417942981703,
+        0.015231599886331344,
+        0.01518288474810214,
+        0.01505633144696537,
+        0.014912280701754385,
+        0.014810306350172449,
+        0.014760348583877996,
+        0.014578005115089514
+    ]
+}

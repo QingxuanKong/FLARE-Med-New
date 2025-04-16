@@ -1,0 +1,206 @@
+{
+    "id": "60490dc71cb411341a000167",
+    "question": "Are interferons defensive proteins?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the given documents and understand the role of interferons in the immune system.\\n\\nInterferons are proteins that are produced by cells in response to viral infections. They play a crucial role in the innate immune response, which is the first line of defense against pathogens.\\n\\nInterferons have several functions, including:\\n\\n1. Inducing resistance to viral replication in uninfected cells\\n2. Activating enzymes that degrade viral nucleic acids and inhibit viral replication\\n3. Inducing MHC class I expression in most cell types, making them more susceptible to being killed by CD8 cytotoxic T cells\\n4. Activating NK cells, which selectively kill virus-infected cells\\n5. Stimulating the production of chemokines that recruit lymphocytes to sites of infection\\n6. Inducing the production of antiviral cytokines, including type I interferons\\n\\nGiven these functions, interferons are indeed defensive proteins that help protect the body against viral infections.\\n\\nTherefore, the correct answer is A. yes.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_668",
+            "title": "Immunology_Janeway",
+            "content": "3-22 Interferons induced by viral infection make several contributions to host defense. Viral infection induces the production of interferons, originally named because of their ability to interfere with viral replication in previously uninfected tissue culture cells. Interferons have a similar role in vivo, blocking the spread of viruses to uninfected cells. There are numerous genes encoding antiviral, or type I, interferons. Best understood are the IFN-\u03b1 family of 12 closely related human genes and IFN-\u03b2, the product of a single gene; less well studied are IFN-\u03ba, IFN-\u03b5, and IFN-\u03c9. IFN-\u03b3 is the sole type II interferon."
+        },
+        {
+            "id": "Pathology_Robbins_733",
+            "title": "Pathology_Robbins",
+            "content": "Reactions of Innate Immunity The innate immune system provides host defense by the following two main reactions: Inflammation. Cytokines and products of complement activation, as well as other mediators, are produced during innate immune reactions and trigger the vascular and cellular components of inflammation. The recruited leukocytes destroy pathogens and ingest and eliminate damaged cells. This reaction was described in Chapter 3. Anti-viral defense. Type I interferons produced in response to viruses act on infected and uninfected cells and activate enzymes that degrade viral nucleic acids and inhibit viral replication. In addition to these defensive functions, the innate immune system generates signals that stimulate the subsequent, more powerful adaptive immune response. Some of these signals are described later."
+        },
+        {
+            "id": "Immunology_Janeway_580",
+            "title": "Immunology_Janeway",
+            "content": "I interferons. The signaling pathways activated by all of these primary sensors of pathogens induce a variety of genes, including those for cytokines, chemokines, and co-stimulatory molecules that have essential roles in immediate defense and in directing the course of the adaptive immune response later in infection."
+        },
+        {
+            "id": "Immunology_Janeway_4709",
+            "title": "Immunology_Janeway",
+            "content": "intercellular adhesion molecules (ICAMs) See ICAMs. interdigitating dendritic cells See dendritic cells. interferon regulatory factor (IRF) A family of nine transcription factors that regulate a variety of immune responses. For example, IRF3 and IRF7 are activated as a result of signaling from some TLRs. Several IRFs promote expression of the genes for type I interferons. interferon stimulated genes (ISGs) A category of gene induced by interferons, which include many that promote innate defense against pathogens, such as oligoadenylate synthetase, PKR, and the Mx, IFITs, and IFITM proteins. interferon-\u03b1 receptor (IFNAR) This receptor recognizes IFN-\u03b1 and IFN-\u03b2 to activate STAT1 and STAT2 and induce expression of many ISGs. interferon-induced transmembrane protein (IFITM) See IFITM. interferon-producing cells (IPCs) See plasmacytoid dendritic cells."
+        },
+        {
+            "id": "Immunology_Janeway_583",
+            "title": "Immunology_Janeway",
+            "content": "cytokines promote the continued destruction of infecting microbes. This is achieved both by stimulating the production and recruitment of fresh phagocytes and by inducing another phase of the innate immune response\u2014the acute-phase response\u2014in which the liver produces proteins that act as opsonizing molecules, helping to augment the actions of complement. We will also look at the mechanism of action of antiviral interferons, the type I interferons, and finally examine the growing class of innate lymphoid cells, or ILCs, which include the NK cells long known to contribute to innate immune defense against viruses and other intracellular pathogens. ILCs exert a diverse array of effector function that contribute to a rapid innate immune response to infection. They respond to early cytokine signals provided by innate sensor cells, and amplify the response by producing various types of effector cytokines. If an infection is not cleared by the induced innate response, an adaptive response"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6572",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mammalian cells are particularly adept at recognizing the presence of dsRNA, which activates intracellular PRRs that induce the host cell to produce and secrete two antiviral cytokines\u2014interferon-\u03b1 (IFN\u03b1) and interferon-\u03b2 (IFN\u03b2). These interferons are referred to as type I interferons to distinguish them from IFN\u03b3, which is a type II interferon and has different functions, as we discuss later. Type I interferons act in both an autocrine fashion on the infected cells that produced it and a paracrine fashion on uninfected neighbors. They bind to a common cell-surface receptor, which activates the JAK\u2013STAT intracellular signaling pathway (see Figure 15\u201356) to stimulate specific gene transcription and thereby the production of more than 300 proteins, including many cytokines, reflecting the complexity of the cell\u2019s acute response to a viral infection."
+        },
+        {
+            "id": "Immunology_Janeway_4710",
+            "title": "Immunology_Janeway",
+            "content": "interferon-induced transmembrane protein (IFITM) See IFITM. interferon-producing cells (IPCs) See plasmacytoid dendritic cells. interferons (IFNs) Several related families of cytokines originally named for their interference of viral replication. IFN-\u03b1 and IFN-\u03b2 are antiviral in their effects; IFN-\u03b3 has other roles in the immune system. intergenic control regions Sites in non-coding regions of genes that control their expression and rearrangement by interactions with transcription factors and chromatin-modifying proteins. interleukin (IL) A generic name for cytokines produced by leukocytes. The more general term cytokine is used in this book, but the term interleukin is used in the naming of specific cytokines such as IL-2. Some key interleukins are listed in the glossary under their abbreviated names, for example IL-1\u03b2 and IL-2. Cytokines are listed in Appendix III."
+        },
+        {
+            "id": "Pathology_Robbins_343",
+            "title": "Pathology_Robbins",
+            "content": "a number of secreted and membrane proteins. These proteins include cytokines that induce inflammation, anti-viral cytokines (interferons), and cytokines and membrane proteins that promote lymphocyte activation and even more potent immune responses. We will return to TLRs in more detail in Chapter 5, when we discuss innate immunity, the early defense against infections."
+        },
+        {
+            "id": "Immunology_Janeway_4690",
+            "title": "Immunology_Janeway",
+            "content": "IFIT (IFN-induced protein with tetratricoid repeats) A small family of host proteins induced by interferons that regulate protein translation during infection in part by interactions with eIF3. IFITM (interferon-induced transmembrane protein) A small family of host transmembrane proteins induced by interferons that function in the cell's vesicular compartment to restrain various steps in viral replication. IFN-\u03b1, IFN-\u03b2 Antiviral cytokines produced by a wide variety of cells in response to infection by a virus, and which also help healthy cells resist viral infection. They act through the same receptor, which signals through a Janus-family tyrosine kinase. Also known as the type I interferons. IFN-\u03b3 A cytokine of the interferon structural family produced by effector CD4 TH1 cells, CD8 T cells, and NK cells. Its primary function is the activation of macrophages, and it acts through a different receptor from that of the type I interferons."
+        },
+        {
+            "id": "Immunology_Janeway_671",
+            "title": "Immunology_Janeway",
+            "content": "IFN-\u02dc, IFN-\u00b0Virus-infected host cells virus Fig. 3.35 Interferons are antiviral proteins produced by cells in response to viral infection. The interferons IFN-\u03b1 and IFN-\u03b2 have three major functions. First, they induce resistance to viral replication in uninfected cells by activating genes that cause the destruction of mRNA and inhibit the translation of viral proteins and some host proteins. These include the Mx proteins, oligoadenylate synthetase, PKR, and IFIT proteins. Second, they can induce MHC class I expression in most cell types in the body, thus enhancing their resistance to NK cells; they may also induce increased synthesis of MHC class I molecules in cells that are newly infected by virus, thus making them more susceptible to being killed by CD8 cytotoxic T cells (see Chapter 9). Third, they activate NK cells, which then selectively kill virus-infected cells."
+        },
+        {
+            "id": "Immunology_Janeway_1324",
+            "title": "Immunology_Janeway",
+            "content": "When cells are treated with the interferons IFN-\u03b1, -\u03b2, or -\u03b3, there is a marked increase in the transcription of MHC class I \u03b1-chain and \u03b22-microglobulin genes and of the proteasome, tapasin, and TAP genes. Interferons are produced early in viral infections as part of the innate immune response, as described in Chapter 3. The increase in MHC expression they produce helps all cells to process viral proteins and present the resulting virus-derived peptides on their surface (except for red blood cells). On dendritic cells, this helps to activate the appropriate T cells and initiate the adaptive immune response to the virus. The coordinated regulation of the genes encoding these components may be facilitated by the linkage of many of them in the MHC."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6573",
+            "title": "Cell_Biology_Alberts",
+            "content": "The production of type I interferons appears to be a general response of mammalian cells to a viral infection, and viral components other than dsRNA can trigger it. The type I interferons help block viral replication in multiple ways. They activate a latent ribonuclease that nonspecifically degrades single-stranded RNA. They also indirectly activate a protein kinase that phosphorylates and inactivates the protein synthesis initiation factor eIF2 (discussed in Chapter 6), thereby shutting down most protein synthesis in the infected host cell. Apparently, by destroying most of its own RNA and transiently halting most of its protein synthesis, the host cell inhibits viral replication without killing itself. If these measures fail, the cell takes an even more extreme step to prevent the virus from replicating: it kills itself by undergoing apoptosis, often with the help of immune killer cells, as we discuss next. Natural Killer cells Induce Virus-Infected cells to Kill Themselves"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6586",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells infected by a virus produce and secrete type I interferons (IFN\u03b1 and IFN\u03b2), which induce a complex set of host\u2011cell responses that inhibit viral replication. The interferons also enhance the killing activity of natural killer (NK) cells. An NK cell kills infected host cells because they express large amounts of surface proteins that activate the NK cell; the killing is especially efficient when infected cells express reduced amounts of class I MHC proteins, which, when present in normal amounts on a host cell surface inhibit the killing activity of NK cells."
+        },
+        {
+            "id": "Pharmacology_Katzung_5472",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferons are host cytokines that exert complex antiviral, immunomodulatory, and antiproliferative actions (see Chapter 55). Interferon alfa appears to function by induction of intracellular signals following binding to specific cell membrane receptors, resulting in inhibition of viral penetration, translation, transcription, protein processing, maturation, and release, as well as increased host expression of major histocompatibility complex antigens, enhanced phagocytic activity of macrophages, and augmentation of the proliferation and survival of cytotoxic T cells."
+        },
+        {
+            "id": "Immunology_Janeway_669",
+            "title": "Immunology_Janeway",
+            "content": "Type III interferons are a newly classified IFN family composed of the products of three IFN-\u03bb genes, also known as IL-28A, IL-28B, and IL-29, which bind a heterodimeric IFN-\u03bb receptor composed of a unique IL-28R\u03b1 subunit and the \u03b2 subunit of the IL-10 receptor. While receptors for type I interferons and IFN-\u03b3 are widespread in their tissue distribution, type III receptors are more restricted, not expressed by fibroblasts or epithelial cells, but expressed on epithelial cells. Type I interferons are inducible and are synthesized by many cell types after infection by diverse viruses. Almost all types of cells can produce IFN-\u03b1 and IFN-\u03b2 in response to activation of several innate sensors. For example, type I interferons are induced by RIG-I and MDA-5 (the sensors of cytoplasmic viral RNA) downstream of MAVS, and by signaling from cGAS (the sensor of cytoplasmic DNA) downstream of STING (see Sections 3-10 and 3-11)."
+        },
+        {
+            "id": "Immunology_Janeway_674",
+            "title": "Immunology_Janeway",
+            "content": "Interferons help defend against viral infection in several ways (Fig. 3.35). IFN-\u03b2 is particularly important because it induces cells to make IFN-\u03b1, thus amplifying the interferon response. Interferons act to induce a state of resistance to viral replication in all cells. IFN-\u03b1 and IFN-\u03b2 bind to a common cell-surface receptor, known as the interferon-\u03b1 receptor (IFNAR), which uses the JAK and STAT pathways described in Section 3-16. IFNAR uses the kinases Tyk2 and Jak1 to activate the factors STAT1 and STAT2, which can interact with IRF9 and form a complex called ISGF3 that binds to the promoters of many interferon stimulated genes (ISGs)."
+        },
+        {
+            "id": "Immunology_Janeway_3236",
+            "title": "Immunology_Janeway",
+            "content": "Viruses are both the simplest and most diverse of pathogens. They can replicate only within living cells, relying on host cellular machinery to replicate and propagate themselves. As obligate intracellular pathogens, they activate intracellular PRRs that sense viral genetic material and provoke cytolytic immune responses by innate and adaptive immune cells\u2014NK cells and CD8 T cells, respectively. They also induce type I interferon responses, which activate cellintrinsic mechanisms to limit viral replication in both infected and uninfected cells. Although many cells produce type I interferons, plasmacytoid dendritic cells are innate sensor cells that are specialized for high levels of type I interferon production early in viral infections and, along with NK cells, play a central role in early antiviral host defense before the adaptive response matures. The latter involves all arms of adaptive immunity: induction of TH1 cells that provide help for production of opsonizing and"
+        },
+        {
+            "id": "First_Aid_Step1_110",
+            "title": "First_Aid_Step1",
+            "content": "Pyocyanin of P aeruginosa generates ROS to kill competing pathogens. Oxidative burst also leads to K+ influx, which releases lysosomal enzymes. Lactoferrin is a protein found in secretory fluids and neutrophils that inhibits microbial growth via iron chelation. Interferons IFN-\u03b1, IFN-\u03b2, IFN-\u03b3 mechanISm A part of innate host defense, interferons interfere with both RNA and DNA viruses. Cells infected with a virus synthesize these glycoproteins, which act on local cells, priming them for viral defense by downregulating protein synthesis to resist potential viral replication and by upregulating MHC expression to facilitate recognition of infected cells. Also play a major role in activating antitumor immunity. clInIcal uSe Chronic HBV, Kaposi sarcoma, hairy cell leukemia, condyloma acuminatum, renal cell carcinoma, malignant melanoma, multiple sclerosis, chronic granulomatous disease."
+        },
+        {
+            "id": "Pathology_Robbins_2171",
+            "title": "Pathology_Robbins",
+            "content": "Disruption of interferon pathways. Viruses have developed a large number of strategies to combat interferons (IFNs), which are mediators of early antiviral defense. Some viruses produce soluble homologues of IFN receptors that bind to and block the actions of secreted IFNs, or produce proteins that inhibit intracellular JAK/STAT signaling downstream of IFN receptors. RIG-I (RNA helicase retinoic acid inducible gene I protein) is a host cytoplasmic pattern recognition receptor for intracellular double-stranded RNA viruses. RIG-I inhibits signaling by this receptor, thus blocking the downstream IFN pathway and overcoming this host defense. Some viruses encode within their genomes homologs of cytokines, chemokines, or their receptors that act as competitive antagonists to inhibit immune responses. Finally, viruses have developed strategies to block apoptosis, which may give the viruses time to replicate, persist, or transform the infected host cell."
+        },
+        {
+            "id": "Immunology_Janeway_681",
+            "title": "Immunology_Janeway",
+            "content": "Interferons also stimulate production of the chemokines CXCL9, CXCL10, and CXCL11, which recruit lymphocytes to sites of infection. They also increase the expression of MHC class I molecules on all types of cells, which facilitates recognition of virally infected cells by cytotoxic T lymphocytes via the display of viral peptides complexed to MHC class I molecules on the infected cell surface (see Fig. 1.30). Through these effects, interferons indirectly help promote the killing of virus-infected cells by CD8 cytotoxic T cells. Another way in which interferons act is to activate populations of innate immune cells, such as NK cells, that can kill virus-infected cells, as described below. 3-23 Several types of innate lymphoid cells provide protection in early infection."
+        },
+        {
+            "id": "Immunology_Janeway_156",
+            "title": "Immunology_Janeway",
+            "content": "As mentioned in Section 1-6, there are a large number of cytokines with different functions (see Appendix III). A convenient way to organize the effects of cytokines is by the effector module that each cytokine promotes. Some cytokines tend to promote immunity to intracellular pathogens. One such cytokine is interferon-\u03b3, which acts both by activating phagocytes to more efficiently kill intracellular pathogens and by inducing target tissues to resist intracellular pathogens. This is called type 1 immunity. IFN-\u03b3 is produced by some but not all subsets of innate and adaptive lymphocytes, and the subset of ILC making IFN-\u03b3 is called ILC1. Other ILC subsets produce cytokines favoring effector modules called type 2 and type 3, which coordinate defense against parasitic and extracellular pathogens, respectively. The modular nature of immune effector functions will be encountered frequently throughout this book. One principle seems to be that activated sensor cells from either the innate or"
+        },
+        {
+            "id": "Immunology_Janeway_579",
+            "title": "Immunology_Janeway",
+            "content": "of these receptors induce pro-inflammatory cytokines, including TNF-\u03b1, IL-1\u03b2, and IL-6, and antiviral cytokines including type I interferons. Other receptor families detect microbial infection in the cytosol. NOD proteins detect bacterial products within the cytosol and activate NF\u03baB and the production of pro-inflammatory cytokines. The related NLR family of proteins detects signs of cellular stress or damage, as well as certain microbial components. NLRs signal through the inflammasome, which generates pro-inflammatory cytokines and induces pyroptosis, a form of cell death. RIG-I and MDA-5 detect viral infection by sensing the presence of viral RNAs and activate the MAVS pathway, while sensors of cytosolic DNA, such as cGAS, activate the STING pathway; both of these pathways induce type I interferons. The signaling pathways activated by all of these primary sensors of pathogens induce a variety of genes, including those for cytokines, chemokines, and co-stimulatory molecules that"
+        },
+        {
+            "id": "Physiology_Levy_2780",
+            "title": "Physiology_Levy",
+            "content": "by a family of receptors on host defense cells (i.e., ILCs) called pattern recognition receptors (PRRs). PAMPs are common distinguishing features on many pathogens and are composed of peptidoglycans, lipopolysaccharides, and unmethylated 5\u2032-C-phosphate-G-3\u2032 (CpG) DNA, which bind to their corresponding PPRs on ILCs. There are two major classifications for PRRs: toll-like receptors (TLRs), which are expressed mainly on cell surfaces, and nucleotide-oligomerization domain (NOD) receptors, which are expressed intracellularly in the cytoplasma of ILCs. Both of these pathways activate nuclear factor K\u03b2 (NFK\u03b2), a transcription factor, which stimulates release of proinflammatory cytokines, as well the antiviral type I interferons (IFN-\u03b1 and IFN-\u03b2). The TLRs are a family of transmembrane proteins with different specificities for various pathogens. TLR-2 is specific for lipoteichoic acids associated with gram-positive bacteria, whereas TLR-4 is specific for lipopolysaccharide (endotoxin), a"
+        },
+        {
+            "id": "Immunology_Janeway_504",
+            "title": "Immunology_Janeway",
+            "content": "Signaling by most TLRs activates the transcription factor NF\u03baB (Fig. 3.15), which is related to DIF, the factor activated by Drosophila Toll. Mammalian TLRs also activate several members of the interferon regulatory factor (IRF) transcription factor family through a second pathway, and they activate members of the activator protein 1 (AP-1) family, such as c-Jun, through yet another signaling pathway involving mitogen-activated protein kinases (MAPKs). NF\u03baB and AP-1 act primarily to induce the expression of pro-inflammatory cytokines and chemotactic factors. The IRF factors IRF3 and IRF7 are particularly important for inducing antiviral type I interferons, whereas a related factor, IRF5, is involved in the production of pro-inflammatory cytokines. Here we will describe how TLR signaling induces the transcription of various cytokine genes; later in the chapter, we will explain how those cytokines exert their various actions."
+        },
+        {
+            "id": "Pharmacology_Katzung_6205",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferons are proteins that are currently grouped into three families: IFN-`, IFN-a, and IFN-f. The IFN-\u03b1 and IFN-\u03b2 families constitute type I IFNs, ie, acid-stable proteins that bind to the same receptor on target cells. IFN-\u03b3, a type II IFN, is acid-labile and binds to a separate receptor on target cells. Type I IFNs are usually induced by virus infections, with leukocytes producing IFN-\u03b1. Fibroblasts and epithelial cells produce IFN-\u03b2. IFN-\u03b3 is usually the product of activated T lymphocytes."
+        },
+        {
+            "id": "Immunology_Janeway_774",
+            "title": "Immunology_Janeway",
+            "content": "Carrero, J.A., Calderon, B., and Unanue, E.R.: Type I interferon sensitizes lymphocytes to apoptosis and reduces resistance to Listeria infection. J. Exp. Med. 2004, 200:535\u2013540. Honda, K., Takaoka, A., and Taniguchi, T.: Type I interferon gene induction by the interferon regulatory factor family of transcription factors. Immunity 2006, 25:349\u2013360. Kawai, T., and Akira, S.: Innate immune recognition of viral infection. Nat. Immunol. 2006, 7:131\u2013137. Liu, Y.J.: IPC: professional type 1 interferon\u2011producing cells and plasmacytoid dendritic cell precursors. Annu. Rev. Immunol. 2005, 23:275\u2013306. Meylan, E., and Tschopp, J.: Toll\u2011like receptors and RNA helicases: two parallel ways to trigger antiviral responses. Mol. Cell 2006, 22:561\u2013569. Pietras, E.M., Saha, S.K., and Cheng, G.: The interferon response to bacterial and viral infections. J. Endotoxin Res. 2006, 12:246\u2013250."
+        },
+        {
+            "id": "Immunology_Janeway_499",
+            "title": "Immunology_Janeway",
+            "content": "3-7 TLRs activate NF\u03baB, AP-1, and IRF transcription factors to induce the expression of inflammatory cytokines and type I interferons. Signaling by mammalian TLRs in various cell types induces a diverse range of intracellular responses that together result in the production of inflammatory cytokines, chemotactic factors, antimicrobial peptides, and the antiviral cytokines interferon-\u03b1 and -\u03b2 (IFN-\u03b1 and IFN-\u03b2), the type I interferons. TLR signaling achieves this by activating several different signaling pathways that each activate different transcription factors. As mentioned earlier, ligand-induced dimerization of two TLR ectodomains brings the cytoplasmic TIR domains together, allowing them to interact with the TIR domains of cytoplasmic adaptor molecules that initiate intracellular signaling. There are Pattern recognition by cells of the innate immune system."
+        },
+        {
+            "id": "Immunology_Janeway_3257",
+            "title": "Immunology_Janeway",
+            "content": "that bind cytokines or their receptors to inhibit their actions. As type I and II interferons are major effector cytokines in antiviral defense, diverse viral strategies are centered on the inhibition of this family of cytokines, whether by production of decoy receptors or inhibitory binding proteins, inhibition of JAK/STAT signaling by IFN receptors, inhibition of cytokine transcription, or interference with transcription factors induced by IFNs. Some DNA viruses also produce antagonists of the proinflammatory cytokines IL1, IL18, and TNF\u03b1, among others. Viral homologs of immunosuppressive cytokines are also produced. CMV impairs antiviral responses by producing a homolog of the cytokine IL10, called cmvIL10, which downregulates the production of several proinflammatory cytokines by immune cells, including IFN\u03b3, IL12, IL1, and TNF\u03b1, to promote tolerogenic rather than immunogenic adaptive responses to viral antigens."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6621",
+            "title": "Cell_Biology_Alberts",
+            "content": "As discussed earlier, cells of the innate immune system use PRRs to distinguish microbial molecules from self molecules made by the host. The adaptive immune system has the far more difficult recognition task of responding specifically to an almost unlimited number of foreign molecules while not responding to the large number of self molecules. How does it accomplish this feat? It helps that self molecules normally do not induce the innate immune reactions required to activate adaptive immune responses. But even when an infection or tissue injury triggers innate reactions, the vast majority of self molecules normally still fail to induce an adaptive immune response. Why?"
+        },
+        {
+            "id": "Pathology_Robbins_761",
+            "title": "Pathology_Robbins",
+            "content": "with reduced expression of class I MHC molecules and increased expression of proteins that engage activating receptors. The net result is that the NK cells are activated and the infected or stressed cells are killed and eliminated. NK cells also secrete cytokines such as interferon-\u03b3 (IFN-\u03b3), which activates macrophages to destroy ingested microbes, and thus NK cells provide early defense against intracellular microbial infections."
+        },
+        {
+            "id": "Immunology_Janeway_2061",
+            "title": "Immunology_Janeway",
+            "content": "interferons and may act as helper cells for antigen presentation by conventional dendritic cells."
+        },
+        {
+            "id": "Immunology_Janeway_578",
+            "title": "Immunology_Janeway",
+            "content": "Innate immune cells express several receptor systems that recognize microbes and induce rapid defenses as well as delayed cellular responses. Several scavenger and lectin-like receptors on neutrophils, macrophages, and dendritic cells help rapidly eliminate microbes through phagocytosis. G-protein-coupled receptors for C5a (which can be produced by activation of the complement system\u2019s innate pathogen-recognition ability) and for the bacterial peptide fMLF synergize with phagocytic receptors in activating the NADPH oxidase in phagosomes to generate antimicrobial reactive oxygen intermediates. Toll-like receptors (TLRs) on the cell surface and in the membranes of endosomes detect microbes outside the cell and activate several host defense signaling pathways. The NF\u03baB and IRF pathways downstream of these receptors induce pro-inflammatory cytokines, including TNF-\u03b1, IL-1\u03b2, and IL-6, and antiviral cytokines including type I interferons. Other receptor families detect microbial infection"
+        }
+    ],
+    "scores": [
+        0.03705133705133705,
+        0.036202740174495186,
+        0.03595274882936289,
+        0.035485942462170746,
+        0.03358572275209369,
+        0.03348730927408561,
+        0.0325503699604419,
+        0.0318927802490899,
+        0.03167649607780044,
+        0.031230337836212013,
+        0.0298068093311322,
+        0.028106115814524033,
+        0.02690637629847356,
+        0.026677223297558828,
+        0.026044529961517314,
+        0.025849649394981435,
+        0.025722299716107767,
+        0.02559792353519579,
+        0.024922413077752885,
+        0.022731057173434814,
+        0.02047952047952048,
+        0.02030860713173466,
+        0.020255724290336265,
+        0.019957094512932073,
+        0.01879964695498676,
+        0.018108816781383152,
+        0.017494270435446907,
+        0.01748358528019545,
+        0.01741284880188841,
+        0.01655359565807327,
+        0.016471695576173187,
+        0.01602077001013171
+    ]
+}

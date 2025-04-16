@@ -1,0 +1,208 @@
+{
+    "id": "0192",
+    "question": "Please refer to the summary above to answer this question\nThe authors of the study have decided to conduct a follow-up analysis on their data. They decide to stratify their results by CD4+T-lymphocyte count at the time of diagnosis. Among patients with CD4+ cell counts below 200/mm3, cART adherence was a significant predictor of DLBCL risk (RR = 0.52, p = 0.01). However, among patients with CD4+ cell counts above 200/mm3, no relationship was found between DLBCL risk and cART adherence (RR = 0.96, p = 0.36). Which of the following explains for the difference observed between the two strata?\"",
+    "options": {
+        "A": "Poor generalizability",
+        "B": "Stratified sampling",
+        "C": "Random error",
+        "D": "Effect modification"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the context and the results of the study. The study found that cART adherence was a significant predictor of DLBCL risk (RR = 0.52, p = 0.01) in patients with CD4+ cell counts below 200/mm3, but not in patients with CD4+ cell counts above 200/mm3 (RR = 0.96, p = 0.36). This suggests that the relationship between cART adherence and DLBCL risk may be influenced by the level of immunosuppression. In other words, the effect of cART adherence on DLBCL risk may be modified by the level of CD4+ T lymphocyte count. This is an example of effect modification. To confirm this, we need to consider the definition of effect modification. Effect modification occurs when the effect of a risk factor on an outcome differs depending on the level of another variable. In this case, the effect of cART adherence on DLBCL risk may be different in patients with CD4+ cell counts below 200/mm3 compared to those with CD4+ cell counts above 200/mm3. The other options are not supported by the data. Poor generalizability refers to the extent to which the results of a study can be applied to other populations. While the study may have limitations, there is no indication that the results are not generalizable. Stratified sampling is a research design, not a explanation for the difference observed in the study. Random error refers to random fluctuations in the data that can affect the results, but it does not explain the pattern of effect modification observed in the study. Therefore, the correct answer is D. Effect modification.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_15102",
+            "title": "InternalMed_Harrison",
+            "content": "the CD4+ T cell count is <200/\u03bcL, patients should be placed on a regimen for P. jiroveci prophylaxis, and once the count is <50/\u03bcL, primary prophylaxis for MAC infection is indicated. As with any laboratory measurement, one may wish to obtain two determinations prior to any significant changes in patient management based on CD4+ T cell count alone. Patients with HIV infection should have CD4+ T cell measurements performed at the time of diagnosis and every 3\u20136 months thereafter. More frequent measurements should be made if a declining trend is noted. For patients who have been on cART for at least 2 years"
+        },
+        {
+            "id": "InternalMed_Harrison_15101",
+            "title": "InternalMed_Harrison",
+            "content": "CD4+ T Cell Counts The CD4+ T cell count is the laboratory test generally accepted as the best indicator of the immediate state of immunologic competence of the patient with HIV infection. This measurement, which can be made directly or calculated as the product of the percentage of CD4+ T cells (determined by flow cytometry) and the total lymphocyte count (determined by the white blood cell count [WBC] multiplied by the lymphocyte differential percentage), has been shown to correlate very well with the level of immunologic competence. Patients with CD4+ T cell counts <200/\u03bcL are at high risk of disease from P. jiroveci, while patients with CD4+ T cell counts <50/ \u03bcL are at high risk of disease from CMV, mycobacteria of the M. avium complex (MAC), and/or T. gondii (Fig. 226-31). Once the CD4+ T cell count is <200/\u03bcL, patients should be placed on a regimen for P. jiroveci prophylaxis, and once the count is <50/\u03bcL, primary prophylaxis for MAC infection is indicated. As with any"
+        },
+        {
+            "id": "Pediatrics_Nelson_2646",
+            "title": "Pediatrics_Nelson",
+            "content": "\u2020The data supporting this recommendation are stronger for those with CD4 percentage <20% than for those with CD4 percentage of 20% to 24%. \u2021CDC clinical category A or N or the following category B conditions: single episode of serious bacterial infection or lymphoid interstitial pneumonitis. \u00a7Clinical and laboratory data should be re-evaluated every 3 to 4 months. \u2016The data supporting this recommendation are stronger for those with CD4 count <200 than for those with CD4 counts of 200 to 350 cells/mm3."
+        },
+        {
+            "id": "InternalMed_Harrison_15415",
+            "title": "InternalMed_Harrison",
+            "content": "<50 copies/mL of HIV RNA benefit from cART. Following the initiation of therapy one should expect a rapid, at least 1-log (tenfold) reduction in plasma HIV RNA levels within 1\u20132 months and then a slower decline in plasma HIV RNA levels to <50 copies/mL within 6 months. During this same time there should be a rise in the CD4+ T cell count of 100\u2013150/\u03bcL that is also particularly brisk during the first month of therapy. Subsequently, one should anticipate a CD4+ T cell count increase of 50\u2013100 cells/year until numbers approach normal. Many clinicians feel that failure to achieve these endpoints is an indication for a change in therapy. Other reasons for a change in therapy include a persistently declining CD4+ T cell count, a consistent increase in HIV RNA levels to >200 copies/mL, clinical deterioration, or drug toxicity (Table 226-25). As in the case of initiating therapy, changing therapy may have a lasting impact on future therapeutic options. When changing therapy because of"
+        },
+        {
+            "id": "InternalMed_Harrison_16715",
+            "title": "InternalMed_Harrison",
+            "content": "Discontinuing Primary Prophylaxis Current studies indicate that prophylaxis against TE can be discontinued in patients who have responded to cART and whose CD4+ T lymphocyte count has been >200/\u03bcL for 3 months. Although patients with CD4+ T lymphocyte counts of <100/\u03bcL are at greatest risk for developing TE, the risk that this condition will develop when the count has increased to 100\u2013200/\u03bcL has not been established. Thus, prophylaxis should be discontinued when the count has increased to >200/\u03bcL. Discontinuation of therapy reduces the pill burden; the potential for drug toxicity, drug interaction, or selection of drug-resistant pathogens; and cost. Prophylaxis should be recommenced if the CD4+ T lymphocyte count again decreases to <100\u2013200/\u03bcL."
+        },
+        {
+            "id": "InternalMed_Harrison_15284",
+            "title": "InternalMed_Harrison",
+            "content": "of cART as an immune reconstitution syndrome. There is no specific treatment for PML; however, a median survival of 2 years and survival of >15 years have been reported in patients with PML treated with cART for their HIV disease. Despite having a significant impact on survival, only ~50% of patients with HIV infection and PML show neurologic improvement with cART. Studies with other antiviral agents such as cidofovir have failed to show clear benefit. Factors influencing a favorable prognosis for PML in the setting of HIV infection include a CD4+ T cell count >100/\u03bcL at baseline and the ability to maintain an HIV viral load of <500 copies/mL. Baseline HIV-1 viral load does not have independent predictive value of survival. PML is one of the few opportunistic infections that continues to occur with some frequency despite the widespread use of cART."
+        },
+        {
+            "id": "InternalMed_Harrison_15126",
+            "title": "InternalMed_Harrison",
+            "content": "Symptoms of HIV disease can appear at any time during the course of HIV infection. Generally speaking, the spectrum of illnesses that one observes changes as the CD4+ T cell count declines. The more severe and life-threatening complications of HIV infection occur in patients with CD4+ T cell counts <200/\u03bcL. A diagnosis of AIDS is made in individuals age 6 years and older with HIV infection and a CD4+ T cell count <200/\u03bcL (Stage 3, Table 226-2) and in anyone with HIV infection who develops one of the HIV-associated diseases considered to be indicative of a severe defect in cell-mediated immunity (Table 226-1). While the causative agents of the secondary infections are characteristically opportunistic organisms such as P. jiroveci, atypical mycobacteria, CMV, and other organisms that do not ordinarily cause disease in the absence of a compromised immune system, they also include common bacterial and mycobacterial pathogens. Following the widespread use of cART and implementation of"
+        },
+        {
+            "id": "InternalMed_Harrison_15001",
+            "title": "InternalMed_Harrison",
+            "content": "The inexorable decline in CD4+ T cell counts that occurs in most HIV-infected individuals may result in part from the inability of the immune system to regenerate over an extended period of time the rapidly turning over CD4+ T cell pool efficiently enough to compensate for both HIV-mediated and naturally occurring attrition of cells. In this regard, the degree and duration of decline of CD4+ T cells at the time of initiation of therapy is an important predictor of the restoration of these cells. A person who maintains a very low CD4+ T cell count for a considerable period of time before the initiation of cART almost invariably has an incomplete reconstitution of such cells. At least two major mechanisms may contribute to the failure of the CD4+ T cell pool to reconstitute itself adequately over the course of HIV infection. The first is the destruction of lymphoid precursor cells, including thymic and bone marrow progenitor cells; the other is the gradual disruption of the lymphoid"
+        },
+        {
+            "id": "InternalMed_Harrison_15410",
+            "title": "InternalMed_Harrison",
+            "content": "At present, the U.S. Department of Health and Human Services Guidelines panel recommends that everyone with HIV infection be treated with cART. The evidence for this is strongest for patients with CD4+ T cell counts <350/\u03bcL. Clinical trials are underway to more carefully determine the benefit of initiating therapy in patients with CD4+ T cell counts \u2265350/\u03bcL. In addition, one may wish to administer a 6-week course of therapy to uninfected individuals immediately following a high-risk exposure to HIV. The combination of tenofovir and emtricitabine is also indicated for pre-exposure prophylaxis in individuals at high risk of HIV infection. For patients diagnosed with an opportunistic infection and HIV infection at the same time, one may consider a 2to 4-week delay in the initiation of antiretroviral therapy during which time treatment is focused on the opportunistic infection. This delay may decrease the severity of any subsequent immune reconstitution inflammatory syndrome by lowering"
+        },
+        {
+            "id": "InternalMed_Harrison_15406",
+            "title": "InternalMed_Harrison",
+            "content": "Treatment decisions must take into account the fact that one is dealing with a chronic infection that requires daily therapy. While early therapy is generally the rule in infectious diseases, immediate treatment of every HIV-infected individual upon diagnosis may not be prudent, and therapeutic decisions must take into account the balance between risks and benefits. Patients initiating antiretroviral therapy must be willing to commit to life-long treatment and understand the importance of adherence to their prescribed regimen. The importance of adherence is illustrated by the observation that treatment interruption is associated with rapid increases in HIV RNA levels, rapid declines in CD4+ T cell counts, and an increased risk of clinical progression. While it seems reasonable to assume that the complications associated with cART could be minimized by Human Immunodeficiency Virus Disease: AIDS and Related Disorders 1."
+        },
+        {
+            "id": "InternalMed_Harrison_16716",
+            "title": "InternalMed_Harrison",
+            "content": "Individuals who have completed initial therapy for TE should receive treatment indefinitely unless immune reconstitution, with a CD4+ T cell count of >200/\u03bcL, occurs as a consequence of cART. Combination therapy with pyrimethamine plus sulfadiazine plus leucovorin is effective for this purpose. An alternative to sulfadiazine in this regimen is clindamycin. Patients receiving secondary prophylaxis for TE are at low risk for recurrence when they have completed initial therapy for TE, remain asymptomatic, and have evidence of restored immune function. Individuals with HIV infection should have a CD4+ T lymphocyte count of >200/\u03bcL for at least 6 months after cART. This recommendation is consistent with more extensive data indicating the safety of discontinuing secondary prophylaxis for other opportunistic infections during advanced HIV disease. A repeat MRI brain scan is recommended. Secondary prophylaxis should be reintroduced if the CD4+ T lymphocyte count decreases to <200/\u03bcL."
+        },
+        {
+            "id": "InternalMed_Harrison_15331",
+            "title": "InternalMed_Harrison",
+            "content": "of HIV infection, generally occurring in patients with CD4+ T cell counts <200/\u03bcL. As HIV disease progresses, the risk of lymphoma increases. The attack rate for lymphoma increases exponentially with increasing duration of HIV infection and decreasing level of immunologic function. At 3 years following a diagnosis of HIV infection, the risk of lymphoma is 0.8% per year; by 8 years after infection, it is 2.6% per year. As individuals with HIV infection live longer as a consequence of improved cART and better treatment and prophylaxis of opportunistic infections, it is anticipated that the incidence of lymphomas may increase."
+        },
+        {
+            "id": "InternalMed_Harrison_15152",
+            "title": "InternalMed_Harrison",
+            "content": "in patients receiving the HIV protease inhibitors or nonnucleoside reverse transcriptase inhibitors. Treatment is most effective in programs that involve directly observed therapy. Initiation of cART and/or anti-TB therapy may be associated with clinical deterioration due to immune reconstitution inflammatory syndrome (IRIS) reactions. These are most common in patients initiating both treatments at the same time, may occur as early as 1 week after initiation of cART therapy, and are seen more frequently in patients with advanced HIV disease. For these reasons it is recommended that initiation of cART be delayed in antiretroviral-na\u00efve patients with CD4 counts >50 cells/\u03bcL until 2\u20134 weeks following the initiation of treatment for TB. For patients with lower CD4 counts the benefits of more immediate cART outweigh the risks of IRIS, and cART should be started as soon as possible in those patients. Effective prevention of active TB can be a reality if the health care professional is"
+        },
+        {
+            "id": "InternalMed_Harrison_14936",
+            "title": "InternalMed_Harrison",
+            "content": "t1/2 = 1.0 day Uninfected, activated Long-lived In untreated patients or in patients in whom therapy has not adequately controlled virus replication, after a variable period, usually measured in years, the CD4+ T cell count falls below a critical level (<200/\u03bcL) and the patient becomes highly susceptible to opportunistic disease (Fig. 226-17). For this reason, the CDC case definition of AIDS includes all HIV-infected individuals over 5 years of age with CD4+ T cell counts below this level (Table 226-2). Patients may experience constitutional signs and symptoms or may develop an opportunistic disease abruptly without any prior symptoms, although the latter scenario is unusual. The depletion of CD4+ T cells continues to be progressive and unrelenting in this phase. It is not CD4+ lymphocytes infected with defective viruses"
+        },
+        {
+            "id": "InternalMed_Harrison_13432",
+            "title": "InternalMed_Harrison",
+            "content": "Several observational studies and randomized controlled trials have shown that treatment of HIV-associated TB with anti-TB drugs and simultaneous use of ART are associated with significant reductions in mortality risk and AIDS-related events. Evidence from randomized controlled trials shows that early initiation of ART during anti-TB treatment is associated with a 34\u201368% reduction in mortality rates, with especially good results in patients with CD4+ T cell counts of <50/\u03bcL. Therefore, the main aim in the management of HIV-associated TB is to initiate anti-TB treatment and to immediately consider initiating or continuing ART. All HIV-infected TB patients, regardless of CD4+ T cell count, are candidates for ART, which optimally is initiated as soon as possible after the diagnosis of TB and within the first 8 weeks of anti-TB therapy. However, ART should be started within the first 2 weeks of TB treatment for patients with CD4+ T cell counts of <50/\u03bcL. In general, the standard 6-month"
+        },
+        {
+            "id": "InternalMed_Harrison_15341",
+            "title": "InternalMed_Harrison",
+            "content": "Both conventional and unconventional approaches have been 1271 employed in an attempt to treat HIV-related lymphomas. Systemic lymphoma is generally treated by the oncologist with combination chemotherapy. Earlier disappointing figures are being replaced with more optimistic results for the treatment of systemic lymphoma following the availability of more effective cART and the use of rituximab in CD20+ tumors. While there is some controversy regarding the use of antiretrovirals during chemotherapy, there is no question that their use overall in patients with HIV lymphoma has improved survival. Concerns regarding synergistic bone marrow toxicities with chemotherapy and cART are mitigated with the use of cART regimens that avoid bone marrow\u2013toxic antiretrovirals. As in most situations in patients with HIV disease, those with higher CD4+ T cell counts tend to fare better. Response rates as high as 72% with a median survival of 33 months and disease-free intervals up to 9 years have been"
+        },
+        {
+            "id": "InternalMed_Harrison_15191",
+            "title": "InternalMed_Harrison",
+            "content": "It is important to remember that all the above-mentioned drugs also have activity against HIV and should not be used alone in patients with HIV infection, in order to avoid the emergence of quasispecies of HIV resistant to these drugs. For this reason, the need to treat hepatitis B infection in a patient with HIV infection is an indication to treat HIV infection in that same patient, regardless of CD4+ T cell count. HCV infection is more severe in the patient with HIV infection; it does not appear to affect overall mortality rates in HIV-infected individuals when other variables such as age, baseline CD4+ T cell count, and use of cART are taken into account. In the setting of HIV and HCV co-infection, levels of HCV are approximately tenfold higher than in the HIV-negative patient with HCV infection. There is a 50% higher overall mortality rate with a five-fold increased risk of death due to liver disease in patients chronically infected with both HCV and HIV. Use of directly acting"
+        },
+        {
+            "id": "InternalMed_Harrison_15107",
+            "title": "InternalMed_Harrison",
+            "content": "may have elevated CD4+ T cell counts that do not accurately reflect their degree of immune competence. In patients with hypersplenism or those who have undergone splenectomy, and in patients receiving medications that suppress the bone marrow such as IFN-\u03b1, the CD4+ T cell percentage may be a more reliable indication of immune function than the CD4+ T cell count. A CD4+ T cell percentage of 15 is comparable to a CD4+ T cell count of 200/\u03bcL."
+        },
+        {
+            "id": "InternalMed_Harrison_15239",
+            "title": "InternalMed_Harrison",
+            "content": "megakaryocytes. Whatever the cause, it is very clear that the most effective medical approach to this problem has been the use of cART. For patients with platelet counts <20,000/\u03bcL, a more aggressive approach combining IVIg or anti-Rh Ig for an immediate response and cART for a more lasting response is appropriate. Rituximab has been used with some success in otherwise refractory cases. Splenectomy is a rarely needed option and is reserved for patients refractory to medical management. Because of the risk of serious infection with encapsulated organisms, all patients with HIV infection about to undergo splenectomy should be immunized with pneumococcal polysaccharide. It should be noted that, in addition to causing an increase in the platelet count, removal of the spleen will result in an increase in the peripheral blood lymphocyte count, making CD4+ T cell counts unreliable markers of immunocompetence. In this setting, the clinician should rely on the CD4+ T cell percentage for making"
+        },
+        {
+            "id": "InternalMed_Harrison_15330",
+            "title": "InternalMed_Harrison",
+            "content": "Lymphomas occur with an increased frequency in patients with congenital or acquired T cell immunodeficiencies (Chap. 374). AIDS is no exception; at least 6% of all patients with AIDS develop lymphoma at some time during the course of their illness. This is a 120-fold increase in incidence compared with the general population. In contrast to the situation with KS, primary CNS lymphoma, and most opportunistic infections, the incidence of AIDS-associated systemic lymphomas has not experienced a dramatic decrease as a consequence of the widespread use of effective cART. Lymphoma occurs in all risk groups, with the highest incidence in patients with hemophilia and the lowest incidence in patients from the Caribbean or Africa with heterosexually acquired infection. Lymphoma is a late manifestation of HIV infection, generally occurring in patients with CD4+ T cell counts <200/\u03bcL. As HIV disease progresses, the risk of lymphoma increases. The attack rate for lymphoma increases exponentially"
+        },
+        {
+            "id": "InternalMed_Harrison_15349",
+            "title": "InternalMed_Harrison",
+            "content": "A syndrome was recognized in 1992 characterized by an absolute CD4+ T cell count of <300/\u03bcL or <20% of total T cells on a minimum of two occasions at least 6 weeks apart; no evidence of HIV-1, HIV-2, HTLV-1, or HTLV-2 on testing; and the absence of any defined immunodeficiency or therapy associated with decreased levels of CD4+ T cells. By mid-1993, ~100 patients had been described. After extensive multicenter investigations, a series of reports were published in early 1993, which together allowed a number of conclusions. Idiopathic CD4+ lymphocytopenia (ICL) is a very rare syndrome, as determined by studies of blood donors and cohorts of HIV-seronegative men who have sex with men. Cases were clearly identified as early as 1983 and were remarkably similar to the clinical features of ICL that had been identified decades earlier. The definition of ICL based on CD4+ T cell counts coincided with the ready availability of testing for CD4+ T cells in patients suspected of being"
+        },
+        {
+            "id": "InternalMed_Harrison_15023",
+            "title": "InternalMed_Harrison",
+            "content": "in risk of acquiring HIV infection and disease progression rates. In addition to these phenotypes, it has been hypothesized that genetic variation may partly underpin the risk of developing specific AIDS-defining illnesses (e.g., renal and neurologic diseases) and non-AIDS comorbidities (e.g., cardiovascular disease), as well as the variable recovery in CD4+ T cell counts observed while receiving cART."
+        },
+        {
+            "id": "InternalMed_Harrison_16712",
+            "title": "InternalMed_Harrison",
+            "content": "In Africa, many patients are diagnosed with HIV infection only after developing opportunistic infections. Hence, the optimal management of these opportunistic infections is important if the benefits of subsequent cART are to be realized. The incidence of TE in under-resourced settings is not clear because of a lack of facilities for serologic testing and imaging. AIDS patients who are seropositive for T. gondii and who have a CD4+ T lymphocyte count of <100/\u00b5L should receive prophylaxis against TE."
+        },
+        {
+            "id": "InternalMed_Harrison_15104",
+            "title": "InternalMed_Harrison",
+            "content": "FIGuRE 226-31 Relationship between CD4+ T cell counts and the development of opportunistic diseases. Boxplot of the median (line inside the box), first quartile (bottom of the box), third quartile (top of the box), and mean (asterisk) CD4+ lymphocyte count at the time of the development of opportunistic disease. Can, candidal esophagitis; CMV, cytomegalovirus infection; Crp, cryptosporidiosis; Cry, cryptococcal meningitis; DEM, AIDS dementia complex; HSV, herpes simplex virus infection; HZos, herpes zoster; KS, Kaposi\u2019s sarcoma; MAC, Mycobacterium avium complex bacteremia; NHL, non-Hodgkin\u2019s lymphoma; PCP, primary Pneumocystis jiroveci pneumonia; PCP2, secondary P. jiroveci untreated patient. Following the initiation of therapy or any change in therapy, plasma HIV RNA levels should be monitored approximately every 4 weeks until the effectiveness of the therapeutic regimen is determined by the development of a new steady-state level of HIV RNA. In most instances of effective"
+        },
+        {
+            "id": "InternalMed_Harrison_15318",
+            "title": "InternalMed_Harrison",
+            "content": "as dramatic as the decline in rates of KS. In contrast, cART has had little effect on human papillomavirus (HPV)-associated malignancies. As patients with HIV infection live longer, a wider array of cancers is seen in this population. While some may only reflect known risk factors (e.g., smoking, alcohol consumption, co-infection with other viruses such as hepatitis B) that are increased in patients with HIV infection, some may be a direct consequence of HIV and are clearly increased in patients with lower CD4+ T cell counts."
+        },
+        {
+            "id": "InternalMed_Harrison_14943",
+            "title": "InternalMed_Harrison",
+            "content": "Clinical Latency versus Microbiologic Latency With the excep tion of long-term nonprogressors (see \u201cLong-Term Survivors and Long-Term Nonprogressors,\u201d below), the level of CD4+ T cells in the blood decreases progressively in HIV-infected individuals in the absence of cART. The decline in CD4+ T cells may be gradual or abrupt, the latter usually reflecting a significant spike in the level of plasma viremia. Most patients 0.8 0.7 0.6 0.5 0.4 0.3 0.2 are relatively asymptomatic while this progressive decline is 0.1 taking place (see below) and are often described as being in a state of clinical latency. However, this term is misleading; it 0 does not mean disease latency, since progression, although slow in many cases, is generally relentless during this period. Time, years"
+        },
+        {
+            "id": "InternalMed_Harrison_15353",
+            "title": "InternalMed_Harrison",
+            "content": "Patients who present with laboratory data consistent with ICL should be worked up for underlying diseases that could be responsible for the immune deficiency. If no underlying cause is detected, no specific therapy should be initiated. However, if opportunistic diseases occur, they should be treated appropriately (see above). Depending on the level of the CD4+ T cell count, patients should receive prophylaxis for the commonly encountered opportunistic infections."
+        },
+        {
+            "id": "InternalMed_Harrison_15135",
+            "title": "InternalMed_Harrison",
+            "content": "Pneumocystis pneumonia (PCP), once the hallmark of AIDS, has dramatically declined in incidence following the development of effective prophylactic regimens and the widespread use of cART. It is, however, still the single most common cause of pneumonia in patients with HIV infection in the United States and can be identified as a likely etiologic agent in 25% of cases of pneumonia in patients with HIV infection, with an incidence in the range of 2\u20133 cases per 100 person-years. Approximately 50% of cases of HIV-associated PCP occur in patients who are unaware of their HIV status. The risk of PCP is greatest among those who have experienced a previous bout of PCP and those who have CD4+ T cell counts of <200/\u03bcL. Overall, 79% of patients with PCP have CD4+ T cell counts <100/\u03bcL and 95% of patients have CD4+ T cell counts <200/\u03bcL. Recurrent fever, night sweats, thrush, and unexplained weight loss also are associated with an increased incidence of PCP. For these reasons, it is strongly"
+        },
+        {
+            "id": "Pathology_Robbins_3260",
+            "title": "Pathology_Robbins",
+            "content": "The CD4+ T cell count often is useful in narrowing the differential diagnosis. As a rule of thumb, bacterial and tubercular infections occur with mildly suppressed CD4+ counts (more than 200 cells/\u00b5L); Pneumocystis pneumonia usually occurs at CD4+ T cell counts below 200 cells/\u00b5L, while CMV and M. avium complex infections are uncommon until the very late stages of the disease (CD4+ T cell counts below 50 cells/\u00b5L). Finally, an important point is that pulmonary disease in HIV-infected individuals may result from more than one cause, and that even common pathogens may be responsible for disease with atypical manifestations."
+        },
+        {
+            "id": "InternalMed_Harrison_15136",
+            "title": "InternalMed_Harrison",
+            "content": "patients have CD4+ T cell counts <200/\u03bcL. Recurrent fever, night sweats, thrush, and unexplained weight loss also are associated with an increased incidence of PCP. For these reasons, it is strongly recommended that all patients with CD4+ T cell counts <200/\u03bcL (or a CD4 percentage <15) receive some form of PCP prophylaxis. The incidence of PCP is approaching zero in patients with known HIV infection receiving appropriate cART and prophylaxis. In the United States, primary PCP is now occurring at a median CD4+ T cell count of 36/ \u03bcL, while secondary PCP is occurring at a median CD4+ T cell count of 10/\u03bcL. Patients with PCP generally present with fever and a cough that is usually nonproductive or productive of only scant amounts of white sputum. They may complain of a characteristic retrosternal chest pain that is worse on inspiration and is described as sharp or burning. HIV-associated PCP may have an indolent course characterized by weeks of vague symptoms and should be included in"
+        },
+        {
+            "id": "Pediatrics_Nelson_2637",
+            "title": "Pediatrics_Nelson",
+            "content": "Initiation of therapy (see Table 125-3) is recommended for infants less than 12 months of age regardless of symptoms of HIV disease or HIV RNA level. Initiation of therapy is recommended for all children 1 to 5 years of age with AIDS or significant HIV-related symptoms or CD4 below 25% (clinical category C or most clinical category B) regardless of symptoms or HIV RNA level. For children older than 5 years with AIDS or significant HIV-related symptoms, CD4 count below 350/mm3 should be treated. Indications for treatment of adolescents and adults include CD4 cell count less than 200 to 350/mm3 or plasma HIV RNA levels above 55,000 copies/mL. Combination therapy with highly active antiretroviral therapy (HAART) is recommended based on the risk of disease progression as determined by CD4 percentage or count and plasma HIV RNA copy number; the potential benefits"
+        },
+        {
+            "id": "InternalMed_Harrison_16194",
+            "title": "InternalMed_Harrison",
+            "content": "The most effective method for preventing PCP is to eliminate the cause of immunosuppression by withdrawing immunosuppressive therapy or treating the underlying cause, e.g., HIV infection. Patients who are susceptible to PCP benefit from chemoprophylaxis during the period of susceptibility. For patients with HIV infection, CD4+ T cell counts are a reliable marker of susceptibility, and counts below 200 cells/\u03bcL are an indication to start prophylaxis (Table 244-2). For patients with HIV infection who are not receiving ART, oral candidiasis or prior PCP also is an indication for chemoprophylaxis, regardless of CD4+ T cell count. For such patients not receiving ART, any prior episode of an AIDS-defining illness or pneumonia should encourage the use of chemoprophylaxis. However, patients who are not adherent to ART are not likely to take PCP chemoprophylaxis."
+        }
+    ],
+    "scores": [
+        0.03639011745184202,
+        0.03597608422488197,
+        0.03222143900247452,
+        0.02881501182279936,
+        0.028663003663003665,
+        0.025852067967970932,
+        0.025619481664229123,
+        0.025609091665022232,
+        0.025605661276392983,
+        0.025323859042380534,
+        0.0249920935088791,
+        0.024856839988634624,
+        0.02474350568806039,
+        0.024473581999598204,
+        0.023075373634732457,
+        0.022831996098407217,
+        0.022776271920613253,
+        0.02269199167725878,
+        0.022525757071211617,
+        0.022285067873303168,
+        0.02210658121246595,
+        0.022020219344634058,
+        0.020085196796628176,
+        0.019986510241382805,
+        0.019417833456153277,
+        0.018519443809958885,
+        0.017995391705069124,
+        0.01793400286944046,
+        0.017588325652841783,
+        0.017392619479733817,
+        0.016330513988288872,
+        0.01601640079441348
+    ]
+}

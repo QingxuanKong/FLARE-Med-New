@@ -1,0 +1,206 @@
+{
+    "id": "5e80675d835f4e4777000026",
+    "question": "Is SARS virus interacting with ACE2 encoded protein?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents to find any information related to SARS virus and ACE2 protein. From Document [1] (Title: InternalMed_Harrison), we know that SARS-CoV infects cells of the respiratory tract via the angiotensin-converting enzyme 2 (ACE2) receptor. This suggests a direct interaction between SARS virus and ACE2 protein. Furthermore, from Document [18] (Title: Pharmacology_Katzung), we know that ACE2 is a protein that converts angiotensin I to angiotensin 1-7, and it is also the receptor for SARS-CoV. This confirms that SARS virus interacts with ACE2 protein.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_6405",
+            "title": "Cell_Biology_Alberts",
+            "content": "Viral genomes typically encode three types of protein: proteins for replicating the genome, proteins for packaging the genome and delivering it to more host cells, and proteins for modifying the structure or function of the host cell to enhance the replication of the virus (see Figure 7\u201362). In general, viral replication involves (1) entry into the host cell, (2) disassembly of the infectious virus particle, (3) replication of the viral genome, (4) transcription of viral genes and synthesis of viral proteins, (5) assembly of these viral components into progeny virus particles,"
+        },
+        {
+            "id": "InternalMed_Harrison_14636",
+            "title": "InternalMed_Harrison",
+            "content": "SARS-CoV infects cells of the respiratory tract via the angiotensinconverting enzyme 2 receptor. The result is a systemic illness in which virus is also found in the bloodstream, in the urine, and (for up to 2 months) in the stool. Virus persists in the respiratory tract for 2\u20133 weeks, and titers peak ~10 days after the onset of systemic illness. Pulmonary pathology consists of hyaline membrane formation, desquamation of pneumocytes in alveolar spaces, and an interstitial infiltrate made up of lymphocytes and mononuclear cells. Giant cells are frequently seen, and coronavirus particles have been detected in type II pneumocytes. Elevated levels of proinflammatory cytokines and chemokines have been detected in sera from patients with SARS. Because MERS-CoV was so recently detected, little is known at present about its pathogenesis. However, it may well be similar to that of SARS-CoV."
+        },
+        {
+            "id": "InternalMed_Harrison_9639",
+            "title": "InternalMed_Harrison",
+            "content": "Virus discovery in particular has been greatly facilitated by new nucleic acid technology. These frontiers were first notably explored with high-density microarrays containing spatially arrayed sequences from a phylogenetically diverse collection of viruses. Although biased toward those with homology to known viruses, novel viruses in clinical samples were successfully identified on the basis of their ability to hybridize to these prespecified sequences. This methodology famously contributed to identification of the coronavirus causing severe acute respiratory syndrome (SARS). Once discovered, this SARS corona-virus was rapidly sequenced: the full genome was assembled in April 2003, less than 6 months after recognition of the first case. This accomplishment illustrated the advancing power and speed of new diagnostic technologies."
+        },
+        {
+            "id": "Immunology_Janeway_678",
+            "title": "Immunology_Janeway",
+            "content": "such as West Nile virus and SARS coronavirus, have acquired a 2\u02b9e-O-methyltransferase (MTase) that produce cap-1 or cap-2 on their viral transcripts. These viruses can thus evade restriction by IFIT1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2000",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201361 C-to-U RNA editing produces a truncated form of apolipoprotein B. integrated into host genome1,000 nucleotide pairs The block is overcome in an ingenious way. The virus encodes a protein (called Rev) that binds to a specific RNA sequence (called the Rev responsive element, RRE) located within a viral intron. The Rev protein interacts with a nuclear export receptor (Crm1), which directs the movement of viral RNAs through nuclear pores into the cytosol despite the presence of intron sequences. We discuss in detail the way in which export receptors function in Chapter 12."
+        },
+        {
+            "id": "Pharmacology_Katzung_1782",
+            "title": "Pharmacology_Katzung",
+            "content": "A homolog of converting enzyme known as ACE2 is highly expressed in vascular endothelial cells of the kidneys, heart, and testes. Unlike converting enzyme, ACE2 has only one active site and functions as a carboxypeptidase rather than a dipeptidyl carboxypeptidase. It removes a single amino acid from the C-terminal of ANG I forming ANG 1-9 (Figure 17\u20133), which is inactive but is"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6476",
+            "title": "Cell_Biology_Alberts",
+            "content": "Viruses Can Take Over the Metabolism of the Host Cell Viruses use basic host cell machinery for most aspects of their reproduction: they depend on host-cell ribosomes to produce their proteins, and most use host-cell DNA and RNA polymerases for their own replication and transcription. Many viruses encode proteins that modify the host transcription or translation apparatus to favor the synthesis of viral RNAs and proteins over those of the host cell, shifting the synthetic capacity of the cell toward the production of new virus particles. Poliovirus, for example, encodes a protease that specifically cleaves the TATA-binding component of TFIID (see Figure 6\u201317), shutting off transcription of most of the host cell\u2019s protein-coding genes. Influenza virus produces a protein that blocks both the splicing and the polyadenylation of host-cell RNA transcripts, preventing their export into the cytosol (see Figure 6\u201338)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_748",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Why is each successive peak in Figure Q3\u20132B a little higher than the one before? D. Why does the force collapse so abruptly after each peak? 3\u201312 Rous sarcoma virus (RSV) carries an oncogene called Src, which encodes a continuously active protein tyrosine kinase that leads to unchecked cell proliferation. Normally, Src carries an attached fatty acid (myristoylate) group that allows it to bind to the cytoplasmic side of the plasma membrane. A mutant version of Src that does not allow attachment of myristoylate does not bind to the membrane. Infection of cells with RSV encoding either the normal or the mutant form of Src leads to the same high level of protein tyrosine kinase activity, but the mutant Src does not cause cell proliferation. a."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6578",
+            "title": "Cell_Biology_Alberts",
+            "content": "The reason that class I MHC protein levels are often low on virus-infected cells is that many viruses have developed a variety of mechanisms to inhibit the expression of these proteins on the surface of the host cells they infect, in order to avoid detection by cytotoxic T cells: some viruses encode proteins that block class I MHC gene transcription; others block the intracellular assembly of pep-tide\u2013MHC complexes; still others block the transport of these complexes to the cell surface. By evading recognition by cytotoxic T cells in these ways, however, a virus incurs the wrath of NK cells, which recognize the infected cells as being different\u2014both because the infected cells express little class I MHC protein and because they express large amounts of other surface proteins that are recognized by the activating receptors on the NK cells (Figure 24\u201310). Dendritic cells provide the Link Between the Innate and Adaptive Immune Systems"
+        },
+        {
+            "id": "InternalMed_Harrison_14643",
+            "title": "InternalMed_Harrison",
+            "content": "There is no specific therapy for SARS with established efficacy. Although ribavirin has frequently been used, it has little if any activity against SARS-CoV in vitro, and no beneficial effect on the course of illness has been demonstrated. Because of suggestions that immunopathology may contribute to the disease, glucocorticoids have also been widely used, but their benefit, if any, likewise remains to be established. Supportive care to maintain pulmonary and other organ-system functions remains the mainstay of therapy. Similarly, there is no established antiviral therapy for MERS. Interferon \u03b12b and ribavirin have displayed activity against MERS-CoV in vitro and in a rhesus macaque model, but data are not available on its use in human cases of MERS. The approach to the treatment of common colds caused by coronaviruses is similar to that discussed above for rhinovirus-induced illnesses."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6518",
+            "title": "Cell_Biology_Alberts",
+            "content": "tive winters. By contrast, in the tropics, there is significant influenza activity year round, with a peak in the rainy season (Figure Q23\u20133). Can you suggest some possible explanations for the patterns of influenza epidemics in temperate zones and the tropics? 23\u201313 Several negative-strand viruses carry their genome as a set of discrete RNA segments. Examples include influenza virus (eight segments), Rift Valley fever virus (three segments), Hantavirus (three segments), and Lassa virus (two segments), to name a few. Why does segmentation of the genome provide a strong evolutionary advantage for these viruses?"
+        },
+        {
+            "id": "InternalMed_Harrison_14617",
+            "title": "InternalMed_Harrison",
+            "content": "Frequency of Respiratory Syndromes aSevere acute respiratory syndrome\u2013associated coronavirus (SARS-CoV) caused epidemics of pneumonia from November 2002 to July 2003 (see text). bMiddle East respiratory syndrome coronavirus (MERS-CoV) has caused severe respiratory illnesses from 2012 to the time of this writing (2014); see text. cSerotypes 4 and 7 most commonly; also serotypes 14 and 21. dFever, cough, myalgia, malaise. eMay or may not have a respiratory component. than at 37\u00b0C (the temperature of the lower respiratory tract), whereas HRV-C viruses replicate well at either temperature. Of the 101 initially recognized serotypes of rhinovirus, 88 use intercellular adhesion molecule 1 (ICAM-1) as a cellular receptor and constitute the \u201cmajor\u201d receptor group, 12 use the low-density lipoprotein receptor (LDLR) and constitute the \u201cminor\u201d receptor group, and 1 uses decay-accelerating factor."
+        },
+        {
+            "id": "InternalMed_Harrison_14160",
+            "title": "InternalMed_Harrison",
+            "content": "Viruses frequently have genes encoding proteins that are not directly involved in replication or packaging of the viral nucleic acid, in virion assembly, or in regulation of the transcription of viral genes involved in those processes. Most of these proteins fall into five classes: can be efficiently transcribed or translated; (3) proteins that promote cell survival or inhibit apoptosis so that progeny virus can mature and escape from the infected cell; (4) proteins that inhibit the host interferon response; and (5) proteins that downregulate host inflammatory or immune responses so that viral infection can proceed in an infected person to the extent consistent with the survival of the virus and its efficient transmission to a new host. More complex viruses of the poxvirus or herpesvirus family encode many proteins that serve these functions. Some of these viral proteins have motifs similar to those of cellular proteins, while others are quite novel. Virology has increasingly focused"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6432",
+            "title": "Cell_Biology_Alberts",
+            "content": "D. Goosney et al., Annu. Rev. Cell Dev. Biol. 16:173\u2013189, 2000. With permission from Annual Reviews.) machinery for their reproduction. This lifestyle, however, requires that the pathogen have mechanisms for entering host cells, for finding a suitable subcellular niche where it can replicate, and for exiting from the infected cell to spread the infection. Below we consider some of the myriad ways that individual intracellular pathogens exploit and modify host cell biology to satisfy these requirements. Viruses Bind to Virus Receptors at the Host Cell Surface The first step for any intracellular pathogen is to bind to the surface of the host target cell. Viruses accomplish this by the binding of viral surface proteins to virus receptors displayed on the host cell. The first virus receptor identified was an"
+        },
+        {
+            "id": "InternalMed_Harrison_14192",
+            "title": "InternalMed_Harrison",
+            "content": "Some viruses have genes that alter innate and acquired host defenses. Adenoviruses encode small RNAs that inhibit IFN-induced, protein kinase R (PKR)\u2013mediated shutoff of infected-cell protein synthesis. Adenovirus E1A can also directly inhibit IFN-mediated changes in cell gene transcription. Moreover, adenovirus E3 proteins prevent tumor necrosis factor (TNF)\u2013induced cytolysis and block HLA class I synthesis by the infected cell. HSV ICP47 and CMV US11 also block class I antigen presentation. EBV encodes an interleukin (IL) 10 homologue that inhibits NK and T cell responses. Vaccinia virus encodes a soluble receptor for IFN-\u03b1 and binding proteins for IFN-\u03b3, IL-1, IL-18, and TNF, which inhibit host innate and adaptive immune responses. Vaccinia virus also encodes a caspase inhibitor that inhibits the ability of CD8+ cytotoxic T cells to kill virus-infected cells. Some poxviruses and herpes-viruses encode chemokine-binding proteins that inhibit cell inflammatory responses. The adoption"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6480",
+            "title": "Cell_Biology_Alberts",
+            "content": "RNA viruses must always encode their own replication proteins because host cells lack polymerase enzymes that use RNA as a template. For RNA viruses with a single-stranded genome, the replication strategy depends on whether the RNA is a positive [+] strand, which contains translatable information like mRNA, or a complementary negative [\u2013] strand. When the RNA is a positive [+] strand, the incoming viral genome is used to produce the viral RNA polymerase and viral proteins; the viral polymerase is then used to replicate the viral RNA and to generate mRNAs for the production of more viral proteins. For viruses with a negative [\u2013] strand RNA genome (such as influenza and measles virus), an RNA polymerase enzyme is packaged as a structural protein of the incoming viral capsids."
+        },
+        {
+            "id": "InternalMed_Harrison_14124",
+            "title": "InternalMed_Harrison",
+            "content": "Many viruses are composed of a nucleic acid core and a capsid. For these viruses, the outer capsid surface mediates contact with uninfected cells\u2019 plasma membranes. Other viruses are more complex and have an outer phospholipid, cholesterol, glycoprotein, and glycolipid envelope that is derived from virus-modified infected cell membranes. Cell nuclear, endoplasmic reticulum, Golgi, or plasma membranes that become parts of the viral envelope have usually been modified during infection by the insertion of virus-encoded glycoproteins, which mediate contact of enveloped virus with uninfected cell surfaces. Matrix or tegument proteins may fill the space between the nucleocapsid and the outer envelope of the virus."
+        },
+        {
+            "id": "Immunology_Janeway_677",
+            "title": "Immunology_Janeway",
+            "content": "Another function of IFIT1 is to suppress translation of viral RNA that lacks a normal host modification of the 5\u02b9 cap. Recall that the normal mammalian 5\u02b9 cap is initiated by linking a 7-methylguanosine nucleotide to the first ribose sugar of the mRNA by a 5\u02b9\u20135\u02b9 triphosphate bridge, to produce a structure called cap-0. This structure is further modified by cytoplasmic methylation of the 2\u02b9 hydroxyl groups on the first and second ribose sugars of the RNA. Methylation of the first ribose sugar produces a structure called cap-1; methylation of the second generates cap-2. IFIT1 has a high affinity for cap-0, but much lower affinity for cap-1 and cap-2. Some viruses, such as Sindbis virus (family Togaviridae), lack 2\u02b9-O-methylation, and therefore are restricted by this action of IFIT1. Many viruses, such as West Nile virus and SARS coronavirus, have acquired a 2\u02b9e-O-methyltransferase (MTase) that produce cap-1 or cap-2 on their viral transcripts. These viruses can thus evade restriction by"
+        },
+        {
+            "id": "Pharmacology_Katzung_1783",
+            "title": "Pharmacology_Katzung",
+            "content": "FIGURE 17\u20133 The renin-angiotensin system showing the established system (black) and more recently discovered pathways involving the (pro)renin receptor (red) and ANG 1-7 (blue). (Adapted, with permission, from Castrop H et al: Physiology of kidney renin. Physiol Rev 2010;90:607.) converted to ANG 1-7 by ACE. ACE2 also converts ANG II to ANG 1-7. ANG 1-7 has vasodilator activity, apparently mediated by the orphan heterotrimeric guanine nucleotide-binding protein-coupled receptor (Mas receptor). This vasodilation may serve to counteract the vasoconstrictor activity of ANG II. ACE2 also differs from ACE in that it does not hydrolyze bradykinin and is not inhibited by converting enzyme inhibitors (see below)."
+        },
+        {
+            "id": "InternalMed_Harrison_14161",
+            "title": "InternalMed_Harrison",
+            "content": "family encode many proteins that serve these functions. Some of these viral proteins have motifs similar to those of cellular proteins, while others are quite novel. Virology has increasingly focused on these more sophisticated strategies evolved by viruses to permit the establishment of long-term infection in humans and other animals. These strategies often provide unique insights into the control of cell growth, cell survival, macromolecular synthesis, proteolytic processing, immune or inflammatory suppression, immune resistance, cytokine mimicry, or cytokine blockade."
+        },
+        {
+            "id": "InternalMed_Harrison_14129",
+            "title": "InternalMed_Harrison",
+            "content": "Family Representative Viruses Type of RNA/DNA Lipid Envelope Hepadnaviridae Hepatitis B virus ds DNA with ss portions Yes Parvoviridae Parvovirus B19 ss DNA No Papillomaviridae Human papillomaviruses ds DNA No aIncluding the coronaviruses causing severe acute respiratory syndrome (SARS) and Middle Eastern respiratory syndrome (MERS). bAlso called human herpesvirus 1 (HHV-1) and HHV-2, respectively. cAlso called HHV-3. dAlso called HHV-4. eAlso called HHV-5. fAlso called HHV-8. Abbreviations: ds, double-strand; ss, single-strand. Picornaviridae Genome size (kb) 7.2\u20138.4 Envelope No Capsid symmetry Icosahedral FIGURE 214e-2 Schematic diagrams of the major virus families including species that infect humans. The viruses are grouped by genome type and are drawn approximately to scale. Prototype viruses of each family that cause human disease are listed in Table 214e-1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6442",
+            "title": "Cell_Biology_Alberts",
+            "content": "of the virus into the cytosol. During endosomal trafficking and subsequent transport within the cytosol, adenoviruses undergo multiple uncoating steps, which sequentially remove structural proteins and ready the virus particles to release their DNA into the nucleus through nuclear pore complexes (Figure 23\u201318D)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6438",
+            "title": "Cell_Biology_Alberts",
+            "content": "Enveloped viruses regulate fusion both to ensure that they fuse only with the appropriate host cell membrane and to prevent fusion with one another. For viruses such as HIV-1 that fuse at neutral pH with the plasma membrane (Figure 23\u201318A), binding to receptors or co-receptors usually triggers a conformational change in a viral envelope protein that exposes a normally buried fusion peptide (see Figure 13\u201321). Other enveloped viruses, such as influenza A virus, only fuse with a host cell membrane after endocytosis (Figure 23\u201318B); in this case, it is frequently the acid environment in the late endosome that triggers the conformational change in a viral surface protein that exposes the fusion peptide. The H+ (B) acidifcation, fusion, uncoating fusion with membrane after endocytosis endosomal membrane disruption pore formation(C) (D) endocytosis endocytosis early endosome lysis uncoating, pore formation DNA enters nucleus Figure 23\u201318 Four virus entry strategies."
+        },
+        {
+            "id": "InternalMed_Harrison_14630",
+            "title": "InternalMed_Harrison",
+            "content": "Coronaviruses are pleomorphic, single-stranded RNA viruses that measure 100\u2013160 nm in diameter. The name derives from the crown-like appearance produced by the club-shaped projections that stud the viral envelope. Coronaviruses infect a wide variety of animal species and have been divided into four genera. Coronaviruses that infect humans (HCoVs) fall into two genera: Alphacoronavirus 1204 and Betacoronavirus. Severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV) are betacoronaviruses. In general, human coronaviruses have been difficult to cultivate in vitro, and some strains grow only in human tracheal organ cultures rather than in tissue culture. SARS-CoV and MERS-CoV are exceptions whose ready growth in African green monkey kidney (Vero E6) cells greatly facilitates their study."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6410",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because the host cell performs most of the critical steps in viral replication, the identification of effective antiviral drugs that do not harm the host can be difficult. Probably the most effective strategy for containing viral diseases is through vaccinating of potential hosts. Highly successful vaccination programs have effectively poliovirus HIV Figure 23\u201311 examples of viral infuenza coronavirus rabies virus mumps virus(AIDS virus) virus (common cold) morphology. As shown, both DNA and shape. eliminated smallpox infection from the planet, and the eradication of poliomyelitis is approaching completion (Figure 23\u201313)."
+        },
+        {
+            "id": "Pathology_Robbins_112",
+            "title": "Pathology_Robbins",
+            "content": "Several kinds of receptors have no intrinsic catalytic activity (e.g., immune receptors, some cytokine receptors, and integrins). For these, a separate intracellular protein\u2014known as a nonreceptor tyrosine kinase\u2014 interacts with receptors after ligand binding and phosphorylates specific motifs on the receptor or other proteins. The cellular homolog of the transforming protein of the Rous sarcoma virus, called SRC, is the prototype for an important family of such nonreceptor tyrosine kinases (Src-family kinases). SRC contains unique functional regions called Src-homology (SH) domains; SH2 domains typically bind to receptors phosphorylated by another kinase, allowing the aggregation of multiple enzymes, whereas SH3 domains mediate protein\u2013protein interactions, often involving proline-rich domains."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6406",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 23\u201310 a simple viral life cycle. The hypothetical simple virus shown here consists of a small double-stranded DNA molecule that codes for only a single viral capsid protein. To reproduce, the viral genome must first enter a host cell, where it is replicated to produce multiple copies, which are transcribed and translated to produce the viral coat protein. The viral genomes can then assemble spontaneously with the coat protein to form a new virus particle, which escapes from the host cell. No known virus is this simple. and (6) release of progeny virions (Figure 23\u201310). A single virus particle (a virion) that infects a single host cell can produce thousands of progeny."
+        },
+        {
+            "id": "InternalMed_Harrison_23441",
+            "title": "InternalMed_Harrison",
+            "content": "contains the genes for seven nonstructural (NS) proteins, p7, NS2, NS3, NS4A, NS4B, NS5A, and NS5B. p7 is a membrane ion channel protein necessary for efficient assembly and release of HCV. The NS2 cysteine protease cleaves NS3 from NS2, and the NS3-4A serine protease cleaves all the downstream proteins from the polyprotein. Important NS proteins involved in virus replication include the NS3 helicase; NS3-4A serine protease; the multifunctional membrane-associated phosphoprotein NS5A, an essential component of the viral replication membranous web (along with NS4B); and the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6701",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 24\u201336 Class I and class II MHC proteins. (A) The \u03b1 chain of the class I molecule has three extracellular domains, \u03b11, \u03b12, and \u03b13, each encoded by a separate exon. The \u03b1 chain is noncovalently associated with a smaller polypeptide chain, \u03b22-microglobulin, which is not encoded within the Mhc region of the genome. The \u03b13 domain and \u03b22-microglobulin are Ig-like. While \u03b22-microglobulin is invariant, the \u03b1 chain is extremely polymorphic, mainly in the \u03b11 and \u03b12 domains. (B) In class II Mhc proteins, both the \u03b1 chain and the \u03b2 chain are encoded within the Mhc and are polymorphic, mainly in the \u03b11 and \u03b21 domains; the \u03b12 and \u03b22 domains are Ig-like. Thus, there are striking similarities between class I and class II Mhc proteins. In both, the two outermost domains (shaded in blue) are polymorphic and interact to form a groove that binds peptide fragments. (c) The three-dimensional structure of the peptide-binding groove of a human class I Mhc protein is viewed from above, with bound"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6441",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nonenveloped viruses use different strategies to enter host cells\u2014strategies that do not rely on membrane fusion. Poliovirus, which causes poliomyelitis, binds to a cell-surface receptor, triggering both receptor-mediated endocytosis (see Figure 13\u201352) and a conformational change in the viral particle. The conformational change exposes a hydrophobic projection on one of the capsid proteins, which inserts into the endosomal membrane to form a pore. The viral RNA genome then enters the cytosol through the pore, leaving the capsid in the endosome (Figure 23\u201318C). Other nonenveloped viruses such as adenovirus disrupt the endosomal membrane after they are taken up by receptor-mediated endocytosis. One of the proteins released from the capsid lyses the endosomal membrane, releasing the remainder of the virus into the cytosol. During endosomal trafficking and subsequent transport within the cytosol, adenoviruses undergo multiple uncoating steps, which sequentially remove structural proteins"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6569",
+            "title": "Cell_Biology_Alberts",
+            "content": "Virus-Infected cells Take Drastic Measures to prevent Viral replication Because host-cell ribosomes make a virus\u2019s proteins and host-cell lipids form the membranes of enveloped viruses, PAMPs are generally not present on the surface of viruses. Therefore, the only general way that a host cell PRR can recognize the presence of a virus is to detect unusual elements of the viral genome, such as the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6571",
+            "title": "Cell_Biology_Alberts",
+            "content": "double-stranded RNA (dsRNA) that is an intermediate in the life cycle of many viruses and is recognized by several PRRs including the Toll-like receptor TLR3; in addition, DNA virus genomes frequently contain significant amounts of the CpG motifs discussed earlier, which can be recognized by TLR9 (see Table 24\u20131, p. 1300)."
+        }
+    ],
+    "scores": [
+        0.03349355762918122,
+        0.02931658100133257,
+        0.027123029875323452,
+        0.026724069695812126,
+        0.0261808112275402,
+        0.023700003626210248,
+        0.02305194863529949,
+        0.022340626954331515,
+        0.020739054759673317,
+        0.01739782527184102,
+        0.01730769230769231,
+        0.01637840670859539,
+        0.016290726817042606,
+        0.016001024065540194,
+        0.015944498539435248,
+        0.01577076893421245,
+        0.015407061569886197,
+        0.015264293419633226,
+        0.015238704177323103,
+        0.015198408312147674,
+        0.015140246493837654,
+        0.015027886800247883,
+        0.014867022741038488,
+        0.014801938474504846,
+        0.014709051724137931,
+        0.014543605390287312,
+        0.014442127215849844,
+        0.014306006493506494,
+        0.014303959131545339,
+        0.014198274132048966,
+        0.013468166152729912,
+        0.013434239398146076
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5e30b56efbd6abf43b000037",
+    "question": "Is the BAGEL algorithm used for arrayed CRISPR screens?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To determine if the BAGEL algorithm is used for arrayed CRISPR screens, I need to consider what BAGEL stands for and its relation to CRISPR and arrayed screens. However, I couldn\", \"answer_choice\": \"B\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_2414",
+            "title": "Cell_Biology_Alberts",
+            "content": "The CRISPR system has several advantages over other strategies for experimentally manipulating gene expression. First, it is relatively easy for the experimenter to design the guide RNA: it simply follows standard base pairing convention. Second, the gene to be controlled does not have to be modified; the CRISPR strategy exploits DNA sequences already present in the genome. Third, numerous genes can be controlled simultaneously. Cas9 has to be expressed only once, but many guide RNAs can be expressed in the same cell; this strategy allows the experimenter to turn on or off a whole set of genes at once."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2410",
+            "title": "Cell_Biology_Alberts",
+            "content": "The CRISPR system has a variety of other uses. Its particular power lies with its ability to target Cas9 to thousands of different positions across a genome through the simple rules of complementary base-pairing. Thus, if a catalytically inactive Cas9 protein is fused to a transcription activator or repressor, it is possible, in principle, to turn any gene on or off (Figure 8\u201355C and D)."
+        },
+        {
+            "id": "InternalMed_Harrison_4953",
+            "title": "InternalMed_Harrison",
+            "content": "test is a function of the number of probes or DNA sequences present on the array. Arrays may use probes of different sizes (ranging from 50 to 200,000 base pairs of DNA) and different probe densities depending on the requirements of the application. Low-resolution platforms can have hundreds of probes, targeted to known disease regions, whereas high-resolution platforms can have millions of probes spread across the entire genome. Depending on the size of the probes and the probe placement across the genome, array-based testing may be able to detect single exon deletions or duplications."
+        },
+        {
+            "id": "First_Aid_Step1_30",
+            "title": "First_Aid_Step1",
+            "content": "Heating and cooling cycles continue until the DNA sample size is sufficient. CRISPR/Cas9 A genome editing tool derived from bacteria. Consists of a guide RNA (gRNA) , which is complementary to a target DNA sequence, and an endonuclease (Cas9), which makes a single-or double-strand break at the target site . Break imperfectly repaired by nonhomologous end joining (NHEJ) \u008e accidental frameshift mutations (\u201cknock-out\u201d) , or a donor DNA sequence can be added to fill in the gap using homology-directed repair (HDR) . Not used clinically. Potential applications include removing virulence factors from pathogens, replacing disease-causing alleles of genes with healthy variants, and specifically targeting tumor cells. Southern blot 1. DNA sample is enzymatically cleaved into smaller pieces, which are separated on a gel by electrophoresis, and then transferred to a filter. 2. Filter is exposed to radiolabeled DNA probe that recognizes and anneals to its complementary strand."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2407",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mice with the transgene in their germ line are then bred to produce both a male and a female animal, each heterozygous for the gene replacement (that is, they have one normal and one mutant copy of the gene). When these two mice are mated (not shown), one-fourth of their progeny will be homozygous for the altered gene. the specific cells or tissues in which Cre is switched on, it catalyzes recombination between the lox sequences\u2014excising a target gene and eliminating its activity (see Figure 22\u20135). The Bacterial CRISPR System Has Been Adapted to Edit Genomes in a Wide Variety of Species One of the difficulties in making transgenic mice by the procedure just described is that the introduced DNA molecule (bearing the experimentally altered gene) often inserts at random in the genome, and many ES cells must therefore be screened individually to find one that has the \u201ccorrect\u201d gene replacement."
+        },
+        {
+            "id": "Obstentrics_Williams_1784",
+            "title": "Obstentrics_Williams",
+            "content": "Arrays may be genome-wide or may be targeted to known genetic syndromes. Genome-wide arrays are typically used in research settings, for example, to identiY novel microdeletion syndromes in individuals with intellectual disability (Slavotinek, 200S). Targeted arrays are generally preferred prenatally because the likelihood of detecting a copy number variant of uncertain clinical signiicance is lower. In a systematic 1.28 cm A Actual size of chip Nonhybridized Thousands of identical nucleotide DNA strands on one cell B 500,000 cells on each chip C One cell on chip Labeled fetal DNA is presented to the cells"
+        },
+        {
+            "id": "Surgery_Schwartz_3466",
+            "title": "Surgery_Schwartz",
+            "content": "trillion bp).Application of the CRISPR-Cas9 System in Biomedical Sciences The biggest advantage of the CRISPR-Cas9 system is its ability to edit genes in almost any cell type and any ani-mal model with high efficiency and accuracy. Plus, it is easy to design and easy to use. Within a couple of years, success-ful gene editing in C. elegans,51 zebrafish,52 fruit fly,53 mouse,54 dogs,55 and even nonhuman primates56 was achieved. CRISPR-Cas9 was also reported to be successful in a variety of cell types including stem cells.Currently, CRISPR-Cas9 is most used for editing single genes, through gene knockout, gene mutation, or the addition of an epitope tag to a native gene, for functional characterization of the gene of interest. For example, oncogenes or tumor suppres-sor genes can be knocked out to identify the causative gene for a particular cancer type; point mutations in functional domains homologous templateprecise editingNHEJ5\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u2019Cas9 RuvC"
+        },
+        {
+            "id": "Pathology_Robbins_25",
+            "title": "Pathology_Robbins",
+            "content": "Exciting new developments that permit exquisitely specific genome editing stand to usher in an era of molecular revolution. These advances come from a wholly unexpected source: the discovery of clustered regularly interspaced short palindromic repeats (CRISPRs) and Cas (or CRISPR-associated genes). These are linked genetic elements that endow prokaryotes with a form of acquired immunity to phages and plasmids. Bacteria use this system to sample the DNA of infecting agents, incorporating it into the host genome as CRISPRs. CRISPRs are transcribed and processed into an RNA sequence that binds and directs the nuclease Cas9 to a sequences (e.g., a phage), leading to its cleavage and the destruction of the phage. Gene editing repurposes this process by using artificial guide RNAs (gRNAs) that bind Cas9 and are complementary to a DNA sequence of interest. Once directed to the target sequence by the gRNA, Cas9 induces double-strand DNA breaks."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2078",
+            "title": "Cell_Biology_Alberts",
+            "content": "DnA molecule, there must be additional short nucleotide sequences that are carried by the target molecule. Because these sequences, known as pAMs (protospacer adjacent motifs), lie outside the crrnA sequences, the host CriSpr locus is spared (see figure 8\u201355)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5550",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cancer cell genomes can be scanned systematically in several different ways. At one extreme\u2014the most costly, but no longer prohibitively so\u2014one can determine a tumor\u2019s complete genome sequence. More cheaply, one can focus just on the 21,000 or so genes in the human genome that code for protein (the so-called exome), looking for mutations in the cancer cell DNA that alter the amino acid sequence of the product or prevent its synthesis (Figure 20\u201323). There are also efficient techniques to survey the genome for regions that have undergone"
+        },
+        {
+            "id": "Surgery_Schwartz_3463",
+            "title": "Surgery_Schwartz",
+            "content": "apart from the guide RNA, another sequence homologous to the flanking regions of the DSB needs to be present (Fig. 15-25). The homologous sequence can carry insertions, deletions, and mutations to replace the sequence at the DSB, thus achieving precise gene editing on the target. The homologous sequence can be introduced into the cell either as a template on a plasmid or as a single-stranded oligonucleotide.46 After the induction of the DSB, the homologous template pairs with the flanking regions of the DSB and serves as the template for the repair of the break site. HDR happens at lower efficiency than NHEJ and therefore is of lower success rate than NHEJ-mediated gene editing. Therefore, HDR is only recommended when precise mutations are desired. Fast screen of positive mutant clones can be achieved by incorporating restriction enzyme cutting sites within the homologous template.Reducing Off-Target Effects Using Cas9 Nickase The CRISPR-Cas9 system uses a 20 bp guide RNA for sequence"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2074",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although many details of CRISPR-mediated immunity remain to be discovered, we can outline the general process in three steps (Figure 7\u201378). In the first, viral DNA sequences are integrated into special regions of the bacterial genome known as CRISPR (clustered regularly interspersed short palindromic repeat) loci, named for the peculiar structure that first drew the attention of scientists. In its simplest form, a CRISPR locus consists of several hundred repeats of a host DNA sequence interspersed with a large collection of sequences (typically 25\u201370 nucleotide pairs each) that has been derived from prior exposures to viruses and other foreign DNA. The newest viral sequence is always integrated at the 5\u02b9end of the CRISPR locus, the end that is transcribed first. Each locus, therefore, carries a temporal record of prior infections. Many bacterial and archaeal species carry several large CRISPR loci in their genomes and are thus immune to a wide range of viruses."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2076",
+            "title": "Cell_Biology_Alberts",
+            "content": "We still have much to learn about CRISPR-based immunity in bacteria and archaebacteria. The mechanism through which viral sequences are first identified and integrated into the host genome is poorly understood, as is the way that the crRNAs find their complementary sequences in double-stranded DNA. Moreover, in different species of bacteria and archaebacteria, crRNAs are processed in different ways, and in some cases, the crRNAs can attack viral RNAs as well as DNAs. We shall see in the following chapter that bacterial CRISPR systems have already been artificially \u201cmoved\u201d into plants and animals, where they have become very powerful experimental tools for manipulating genomes."
+        },
+        {
+            "id": "Surgery_Schwartz_3467",
+            "title": "Surgery_Schwartz",
+            "content": "out to identify the causative gene for a particular cancer type; point mutations in functional domains homologous templateprecise editingNHEJ5\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u20195\u20193\u2019Cas9 RuvC domainHNHdomainPAMsgRNA5\u20195\u20193\u2019HDRRandom insertion/deletionBrunicardi_Ch15_p0479-p0510.indd 50718/02/19 11:12 AM 508BASIC CONSIDERATIONSPART Imay illustrate the mechanism of action of a protein; for proteins without available antibodies, epitope tags can be inserted onto the native gene for the detection of the native protein.Apart from single gene editing, CRISPR-Cas9 can be used for large scale loss-of-function gene screen. Multiple lentiviral guide RNA libraries have been established covering the whole human/mouse genome or particular subsets.Owing to its ability to bind to specific nucleotide sequences, CRISPR-Cas9 has also been used for non\u2013gene-editing purposes. To achieve this, both the RuvC-like and the HNH-like domains are mutated to give a catalytically inactive Cas9 (dCas9)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2409",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cas9 protein makes a double-strand break. As we saw in Chapter 5, double-strand breaks are often repaired by homologous recombination; here, the template chosen by the cell to repair the damage is often the altered gene, which is introduced to ES cells by the experimenter. In this way, the normal gene can be selectively damaged by the CRISPR system and replaced at high efficiency by the experimentally altered gene."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1749",
+            "title": "Biochemistry_Lippinco",
+            "content": "Gene editing, as opposed to gene addition, allows a mutated gene to be repaired. Combinations of DNA-binding molecules (proteins or RNA) and endonucleases are used to identify and cleave the mutated sequence. Cleavage activates homologous recombination repair of dsDNA breaks (see p. 429) that integrates DNA containing the correct sequence into the gene. [Note: An endonuclease guided to a specific DNA sequence by a custom-designed RNA has been used in gene editing in human cell lines. The technique is based on (and named for) the prokaryotic CRISPR-Cas9 (clustered regularly interspaced short palindromic repeats [CRISPR]-associated protein) system that identifies and cleaves foreign DNA in bacterial cells. CRISPR is currently used in the laboratory but not in the clinic.] X. TRANSGENIC ANIMALS"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2313",
+            "title": "Cell_Biology_Alberts",
+            "content": "map of one segment of human genome cleavage sites for restriction nucleases A, B, C, D, and E obtained that spanned the entire genome, each individual BAC was sequenced by the shotgun method. At the end, the sequences of all the BAC inserts were stitched together using the knowledge of the position of each BAC insert in the human genome. In all, approximately 30,000 BAC clones were sequenced to complete the human genome. random fragmentation multiple copies of genome 479"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2468",
+            "title": "Cell_Biology_Alberts",
+            "content": "number of sequence reads"
+        },
+        {
+            "id": "First_Aid_Step1_33",
+            "title": "First_Aid_Step1",
+            "content": "Data are plotted either as histogram (one measure) or scatter plot (any two measures, as shown). In illustration: Cells in left lower quadrant \u229d for both CD8 and CD3. CD8-expressing cells also express CD3. Cells in left upper quadrant \u2295 for CD3 and 100 \u229d for CD8. 100 101 102 103 104 CD8 CD8 and CD3. and \u229d for CD3. In this example, right lower quadrant is empty because all Microarrays Thousands of nucleic acid sequences are arranged in grids on glass or silicon. DNA or RNA probes are hybridized to the chip, and a scanner detects the relative amounts of complementary binding. Used to profile gene expression levels of thousands of genes simultaneously to study certain diseases and treatments. Able to detect single nucleotide polymorphisms (SNPs) and copy number variations (CNVs) for a variety of applications including genotyping, clinical genetic testing, forensic analysis, cancer mutations, and genetic linkage analysis."
+        },
+        {
+            "id": "Surgery_Schwartz_3455",
+            "title": "Surgery_Schwartz",
+            "content": "Interspaced Short Palindromic Repeats.47 It is a region on the genomic DNA first discovered in the microbes as an adapted immune system against exogenous DNA. A typical CRISPR region contains a cluster of short (21\u201348 bp) DNA repeats (ranging from 2 to hundreds) interspaced by nonrepetitive sequences called spacers.47 Within a CRISPR region, while each spacer has its unique sequence, the sequence of the repeats is highly conserved. Several genes, called the CRISPR-associated (Cas) genes, are almost always found directly flanking the CRISPR region.Extensive studies in the past decade revealed the function of the CRISPR-cas system in DNA-interfering. When bacte-ria or archaea carrying the CRISPR-cas system are invaded by phage or plasmid DNA, a new spacer can be added to the CRISPR region with its sequence identical to the \u201cproto-spacer,\u201d a fragment of the invading DNA.47 It was found that the proto-spacer must be followed by a recognition sequence (NGG in the case of Cas9) called"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2412",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201355 Use of CRISPR to study gene function in a wide variety of species. (A) The Cas9 protein (artificially expressed in the species of interest) binds to a guide RNA, designed by the experimenter and also expressed. The portion of RNA in light blue is needed for associations with Cas9; that in dark blue is specified by the experimenter to match a position on the genome. The only other requirement is that the adjacent genome sequence includes a short PAM (protospacer adjacent motif) that is needed for Cas9 to cleave. As described in Chapter 7, this sequence is how the CRISPR system in bacteria distinguishes its own genome from that of invading viruses. (B) When directed to make double-strand breaks, the CRISPR system greatly improves the ability to replace an endogenous gene with an experimentally altered gene since the altered gene is used to \u201crepair\u201d the double-strand break (C, D). By using a mutant form of Cas9 that can no longer cleave DNA, Cas9 can be used to activate a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_726",
+            "title": "Cell_Biology_Alberts",
+            "content": "The extent of such protein\u2013protein interactions can also be estimated more generally. An enormous amount of valuable information is now freely available in protein databases on the Internet: tens of thousands of three-dimensional protein structures plus tens of millions of protein sequences derived from the nucleotide sequences of genes. Scientists have been developing new methods for mining this great resource to increase our understanding of cells. In particular, computer-based bioinformatics tools are being combined with robotics and other technologies to allow thousands of proteins to be investigated in a single set of experiments. Proteomics is a term that is often used to describe such research focused on the analysis of large sets of proteins, analogous to the term genomics describing the large-scale analysis of DNA sequences and genes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2408",
+            "title": "Cell_Biology_Alberts",
+            "content": "Creative use of the CRISPR system, discovered in bacteria as a defense against viruses, has largely solved this problem. As described in Chapter 7, the CRISPR system uses a guide RNA sequence to target (through complementary base-pairing) double-stranded DNA, which it then cleaves (see Figure 7\u201378). The gene coding for the key component of this system, the bacterial Cas9 protein, has been transferred into a variety of organisms, where it greatly simplifies the process of making transgenic organisms (Figure 8\u201355A and B). The basic strategy is as follows: Cas9 protein is expressed in ES cells along with a guide RNA designed by the experimenter to target a particular location on the genome. The Cas9 and guide RNA associate, the complex is brought to the matching sequence on the genome, and the Cas9 protein makes a double-strand break. As we saw in Chapter 5, double-strand breaks are often repaired by homologous recombination; here, the template chosen by the cell to repair the damage is"
+        },
+        {
+            "id": "Surgery_Schwartz_3471",
+            "title": "Surgery_Schwartz",
+            "content": "Press; 2000. 7. Wolfsberg TG, Wetterstrand KA, Guyer MS, Collins FS, Baxevanis AD. A user\u2019s guide to the human genome. Nat Genet. 2002;32(suppl):1-79. 8. U.S. Department of Energy. Genomics and its impact on science and society: the human genome project and beyond. Published online by Human Genome Management Information System (HGMIS). Available at: http://web.ornl.gov/sci/techresources/Human_Genome/publicat/primer2001/primer11.pdf. 9. Simpson RJ. Proteins and Proteomics. New York: CSHL Press; 2003. 10. Hanash S. Disease proteomics. Nature. 2003;422(6928):226-232. 11. Ptashne M, Gann A. Genes & Signals. New York: CSHL Press; 2002. 12. Pawson T, Nash P. Assembly of cell regulatory systems through protein interaction domains. Science. 2003;300(5618): 445-452. 13. Lizcano JM, Alessi DR. The insulin signaling pathway. Curr Biol. 2002;12(7):R236-R238. 14. Feng X-H, Derynck R. Specificity and versatility in TGF-beta signaling through Smads. Annu Rev Cell Dev Biol. 2005;21:"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2230",
+            "title": "Cell_Biology_Alberts",
+            "content": "Searching a collection of known sequences for similar genes or proteins is typically done over the Internet, and it simply involves selecting a database and entering the desired sequence. A sequence-alignment program\u2014the most popular is BLAST\u2014scans the database for similar sequences by sliding the submitted sequence along the archived sequences until a cluster of residues falls into full or partial alignment (Figure 8\u201323). Such comparisons can predict the functions of individual proteins, families of proteins, or even most of the protein complement of a newly sequenced organism."
+        },
+        {
+            "id": "Surgery_Schwartz_3273",
+            "title": "Surgery_Schwartz",
+            "content": "targeted genome editing tools like the CRISPR-Cas9 system greatly facilitate biomedical research in native conditions and have shown their potential in the treatment of genetic diseases, including cancers, with a high degree of personalization and precision.7 The use of functional genomics and modern molecular anal-yses will facilitate the discovery of actionable genes to guide choice of care, including precision surgery.GenomicsProteomicsFunctionalgenomicsDNA RNAProteinsTranscriptionTranslationStructureMetabolismSignalingCell functionscontrolled in such a way that genes are properly expressed in each cell at a specific time and location. In recent years, new classes of noncoding RNAs (ncRNA), for example, microRNA (or miRNA), piwi-interacting RNA (or piRNA), and long inter-genic noncoding RNA (or lincRNA), have been identified. Although the number of ncRNAs encoded in the human genome is unknown and a lot of ncRNAs have not been validated for their functions, ncRNAs have been"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2077",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201378 CRISPR-mediated immunity in bacteria and archaebacteria. After infection by a virus (left panel), a small bit of DnA from the viral genome is inserted into the CriSpr locus. for this to happen, a small fraction of infected cells must survive the initial viral infection. the surviving cells, or more generally their descendants, transcribe the CriSpr locus and process the transcript into crrnAs (middle panel). Upon reinfection with a virus that the population has already been \u201cvaccinated\u201d against, the incoming viral DnA is destroyed by a complementary crrnA (right panel). for a CriSpr system to be effective, the crrnAs must not destroy the CriSpr locus itself, even though the crrnAs are complementary in sequence to it. in many species, in order for crrnAs to attack an invading DnA molecule, there must be additional short nucleotide sequences that are carried by the target molecule. Because these sequences, known as pAMs (protospacer adjacent motifs), lie outside the crrnA"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2316",
+            "title": "Cell_Biology_Alberts",
+            "content": "template) is covalently incorporated at each cluster; the unincorporated nucleotides are washed away, and a high-resolution digital camera takes an image that registers which of the four nucleotides was added to the chain at each cluster. The fuorescent label and the 3\u02dc-OH blocking group are then removed enzymatically, washed away, and the process is repeated many times. In this way, billions of sequencing reactions are carried out simultaneously. By keeping track of the color changes occuring at each cluster, the DNA sequence represented by each spot can be read. Although each individual sequence read is relatively short (approximately 200 nucleotides), the billions that are carried out simultaneously can produce several human genomes worth of sequence in about a day. Principle behind Illumina sequencing. This reaction is carried out stepwise, on billions of DNA clusters at once. The method relies on a color digital camera that rapidly scans all the DNA clusters after each round of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2424",
+            "title": "Cell_Biology_Alberts",
+            "content": "Collections of mutant organisms are also available for many animal and plant species. For example, it is possible to \u201corder,\u201d by phone or email from a consortium of investigators, a deletion or insertion mutant for almost all coding genes in Drosophila. Likewise, a nearly complete set of mutants exists for the \u201cmodel\u201d plant Arabidopsis. And the adaptation of the CRISPR system for use in mice means that, in the near future, we can expect to be able to turn on or off\u2014at will\u2014each gene in the mouse genome. Although we are still ignorant about the function of most genes in most organisms, these technologies allow an exploration of gene function on a scale that was unimaginable a decade ago. RNA Interference Is a Simple and Rapid Way to Test Gene Function"
+        },
+        {
+            "id": "InternalMed_Harrison_6076",
+            "title": "InternalMed_Harrison",
+            "content": "Prepare cDNA, label FIGURE 101e-7 A microarray experiment. RNA is prepared from cells, reverse transcribed to cDNA, and labeled with fluorescent dyes (typically green for normal cells and red for cancer cells). The fluorescent probes are mixed and hybridized to a cDNA array. Each spot on the array is an oligonucleotide (or cDNA fragment) that represents a different gene. The image is then captured with a fluorescence camera; red spots indicate higher expression in tumor cells compared with reference, while green spots represent the lower expression in tumor cells. Yellow signals indicate equal expression levels in normal and tumor specimens. After clustering analysis of multiple arrays, the results are typically represented graphically using a visualization software, which shows, for each sample, a color-coded representation of gene expression for every gene on the array."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2450",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mRNAs are converted to cDNAs that are labeled with a red fluorescent labeled with red labeled with green dye for one sample and a green fluorescent dye for the other. The labeled samples are mixed and then allowed to hybridize to the microarray. Each microscopic spot on the microarray is a 50-nucleotide DNA molecule of defined sequence made by chemical synthesis and spotted on the array. The DNA sequence represented by each spot is different, and the hundreds of thousands of such spots are designed to span the sequence of the genome. The DNA sequence of each spot is kept track of by computer. After incubation, the array is washed and the fluorescence scanned. Only a small proportion of the microarray, representing 676 genes, is shown. Red spots indicate that the gene in sample 1 is expressed at a higher level than the corresponding gene in sample 2, and the green spots indicate the opposite. Yellow spots reveal genes that are expressed at about equal levels in both cell samples."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5721",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? Explain why or why not. What is required to enable a cancer cell to metastasize? how can the molecular analysis of an individual tumor be more effectively used to design effective therapies to kill it? Can we identify general features common to all cancer cells\u2014such as their production of misfolded, mutated proteins\u2014that can be used for the targeted destruction of many different types of cancers? Can sensitive and reliable blood tests be devised to detect cancers very early, before they have grown to a size where treatment with a single drug will generally be defeated by the survival of a preexisting resistant variant? how can the observed environmental effects on cancer rates be exploited to reduce avoidable cancers? Can new technologies be devised to reveal exactly how a quiescent micrometastasis converts to a full-blown metastatic tumor?"
+        }
+    ],
+    "scores": [
+        0.025782732203951567,
+        0.025443727512110794,
+        0.024381926683716963,
+        0.02392942301182545,
+        0.021574391855340058,
+        0.01931734097147631,
+        0.018436703483432453,
+        0.017948717948717947,
+        0.017820370663709804,
+        0.017577673271143318,
+        0.016103059581320453,
+        0.016,
+        0.0159980460401783,
+        0.01588901405110571,
+        0.015746109246261825,
+        0.015503425850656137,
+        0.015502515502515503,
+        0.01547043938348286,
+        0.015395731436193865,
+        0.015332099051145569,
+        0.015188470066518847,
+        0.014515163607342379,
+        0.014374454540787514,
+        0.014296791703014441,
+        0.013644688644688645,
+        0.013527620704654197,
+        0.013272863443455105,
+        0.01311502117953731,
+        0.013013302486986698,
+        0.012937690413588748,
+        0.012833696680514994,
+        0.01269956458635704
+    ]
+}

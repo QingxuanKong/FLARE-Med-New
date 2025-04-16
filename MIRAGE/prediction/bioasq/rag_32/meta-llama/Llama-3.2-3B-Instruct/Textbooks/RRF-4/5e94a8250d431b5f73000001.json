@@ -1,0 +1,206 @@
+{
+    "id": "5e94a8250d431b5f73000001",
+    "question": "Does protein ALEX1 contain armadillo repeats?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "To answer this question, I'll analyze the provided documents step-by-step: 1. Document [0] mentions that the three proteins in the figure that lack a simple three-letter abbreviation (white letters beginning with Y) are F-box proteins that bind to Skp1. This information does not directly relate to the armadillo repeat. 2. Document [2] discusses the APC gene and its relationship to cancer, but does not mention armadillo repeats. 3. Document [3] explains the Wnt/\u03b2-catenin pathway and its interaction with \u03b2-catenin, but does not mention armadillo repeats. 4. Document [14] discusses the structure and organization of proteins, including the concept of armadillo repeats, which are a type of protein domain. According to this document, armadillo repeats are a type of protein domain. 5. Document [12] mentions the human X chromosome and its protein-coding genes, including those that contain armadillo repeats. Based on this analysis, I can conclude that armadillo repeats are indeed a type of protein domain. Therefore, the answer to the question is: {\"step_by_step_thinking\": \"Armadillo repeats are a type of protein domain, and according to Document [14], armadillo repeats are a specific type of protein domain that can be found in certain proteins.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_731",
+            "title": "Cell_Biology_Alberts",
+            "content": "1. Protein interaction maps are useful for identifying the likely function of previously uncharacterized proteins. Examples are the products of the genes that have thus far only been inferred to exist from the yeast genome sequence, which are the three proteins in the figure that lack a simple three-letter abbreviation (white letters beginning with Y). The three in this diagram are F-box proteins that bind to Skp1; these are therefore likely to function as part of the ubiquitin ligase, serving as substrate-binding arms that recognize different target proteins. However, as we discuss next, neither assignment can be considered certain without additional data. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1022",
+            "title": "Cell_Biology_Alberts",
+            "content": "mammals, it should be possible to infer much of the genome sequence of their 100 million-year-old common ancestor\u2014the precursor of species as diverse as dog, mouse, rabbit, armadillo, and human (see Figure 4\u201366)."
+        },
+        {
+            "id": "InternalMed_Harrison_6064",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 101e-5 Germline and somatic mutations in the tumor-suppressor gene APC. APC cancer (human papillomavirus [HPV]; encodes a 2843-amino-acid protein with six major domains: an oligomerization region (O), armadillo Chap. 222), and T cell leukemia (retrepeats (ARM), 15-amino-acid repeats (15 aa), 20-amino-acid repeats (20 aa), a basic region, and a roviruses; Chap. 225e). The mechadomain involved in binding EB1 and the Drosophila discs large homologue (E/D). Shown are the nisms of action of these viruses are positions within the APC gene of a total of 650 somatic and 826 germline mutations (from the APC varied but always involve activation of database at http://www.umd.be/APC). The vast majority of these mutations result in the truncation of growth-promoting pathways or inhithe APC protein. Germline mutations are found to be relatively evenly distributed up to codon 1600 bition of tumor-suppressor products except for two mutation hotspots at amino acids 1061 and 1309, which together"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4342",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Wnt/\u03b2-catenin pathway acts by regulating the proteolysis of the multi-functional protein \u03b2-catenin (or Armadillo in flies). A portion of the cell\u2019s \u03b2-catenin is located at cell\u2013cell junctions and thereby contributes to the control of cell\u2013 cell adhesion (discussed in Chapter 19), while the remaining \u03b2-catenin is rapidly degraded in the cytoplasm. Degradation depends on a large protein degradation complex, which binds \u03b2-catenin and keeps it out of the nucleus while promoting its degradation. The complex contains at least four other proteins: a protein kinase called casein kinase 1 (CK1) phosphorylates the \u03b2-catenin on a serine, priming it for further phosphorylation by another protein kinase called glycogen synthase kinase 3 (GSK3); this final phosphorylation marks the protein for ubiquitylation and rapid degradation in proteasomes. Two scaffold proteins called axin and Adenomatous polyposis coli (APC) hold the protein complex together (Figure 15\u201360A). APC gets its name from the"
+        },
+        {
+            "id": "Biochemistry_Lippincott_35",
+            "title": "Biochemistry_Lippinco",
+            "content": "I. OVERVIEW The 20 amino acids commonly found in proteins are joined together by peptide bonds. The linear sequence of the linked amino acids contains the information necessary to generate a protein molecule with a unique three-dimensional shape that determines function. The complexity of protein structure is best analyzed by considering the molecule in terms of four organizational levels: primary, secondary, tertiary, and quaternary (Fig. 2.1). An examination of these hierarchies of increasing complexity has revealed that certain structural elements are repeated in a wide variety of proteins, suggesting that there are general rules regarding the ways in which proteins achieve their native, functional form. These repeated structural elements range from simple combinations of \u03b1-helices and \u03b2-sheets forming small motifs to the complex folding of polypeptide domains of multifunctional proteins (see p. 19). II. PRIMARY STRUCTURE"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5318",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 19\u201346 Complex glycoproteins of the extracellular matrix. Many matrix glycoproteins are large scaffold proteins containing multiple copies of specific protein-interaction domains. Each domain is folded into a discrete globular structure, and many such domains are arrayed along the protein like beads on a string. this diagram shows four representative proteins among the roughly 200 matrix glycoproteins that are found in mammals. Each protein contains multiple repeat domains, with the names listed in the key at the bottom. Fibronectin, for example, contains numerous copies of three different fibronectin repeats (types I\u2013III, labeled here as FN1, FN2, and FN3). two type III repeats near the C-terminus contain important binding sites for cell-surface integrins, whereas other FN repeats are involved in binding fibrin, collagen, and heparin, as indicated (see Figure 19\u201347). Other matrix proteins contain repeated sequences resembling those of epidermal growth factor (EGF), a major"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3425",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q12\u20132 fG-repeat gel and influx of proteins into the nucleus (problem 12\u20139). (a) Cartoon of the meshwork (gel) formed by pairwise interactions between hydrophobic fG repeats. for fG-repeats separated by 17 amino acids, as is typical, the mesh formed by extended amino acid side chains would correspond to about 4 nm on a side, which would be large enough to account for the characteristic passive diffusion of proteins through nuclear pores. (B) Diffusion of mBp-mCherry and importin-mBp-Gfp into a gel of fG-repeats. in each group, the solution is shown at left and the gel at right. The bright areas indicate regions that contain the fluorescent proteins."
+        },
+        {
+            "id": "Immunology_Janeway_4762",
+            "title": "Immunology_Janeway",
+            "content": "NOD subfamily A subgroup of NLR proteins that contain a CARD domain which is used for activation of downstream signaling. NOD1, NOD2 Intracellular proteins of the NOD subfamily that contain a leucine-rich repeat (LRR) domain that binds components of bacterial cell walls to activate the NF\u03baB pathway and initiate in\ufb02ammatory responses. NOD-like receptors (NLRs) Large family of proteins containing a nucleotide-oligomerization domain (NOD) associated with various other domains, and whose general function is the detection of microbes and of cellular stress. nonamer Conserved nine-nucleotide DNA sequence in the recombination signal sequences (RSSs) \ufb02anking gene segments in the immunoglobulin and T-cell receptor loci. non-canonical inflammasome An alternate form of the in\ufb02ammasome that is independent of caspase 1, but instead relies on caspase 11 (mice) or caspases 4 or 5 (human)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5152",
+            "title": "Cell_Biology_Alberts",
+            "content": "18\u20136 In contrast to their similar brain abnormalities, newborn mice deficient in Apaf1 or caspase-9 have distinctive abnormalities in their paws. Apaf1-deficient mice fail to eliminate the webs between their developing digits, whereas caspase-9-deficient mice have normally formed digits (Figure Q18\u20131). If Apaf1 and caspase-9 function in the same apoptotic pathway, how is it possible for these deficient mice to differ in web-cell apoptosis?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_745",
+            "title": "Cell_Biology_Alberts",
+            "content": "You suspect that the springlike behavior of titin is caused by the sequential unfolding (and refolding) of individual Ig domains. You test this hypothesis using the atomic force microscope, which allows you to pick up one end of a protein molecule and pull with an accurately measured force. For a fragment of titin containing seven repeats of the Ig domain, this experiment gives the sawtooth force-versus-extension curve shown in Figure Q3\u20132B. If the experiment is repeated in a solution of 8 M urea (a protein denaturant), the peaks disappear and the measured extension becomes much longer for a given force. If the experiment is repeated after the protein has been cross-linked by treatment with glutaraldehyde, once again the peaks disappear but the extension becomes much smaller for a given force."
+        },
+        {
+            "id": "Cell_Biology_Alberts_568",
+            "title": "Cell_Biology_Alberts",
+            "content": "protein with low-complexity domain weak cross-beta spine binding site for other proteins with repeated sequences or for RNA molecules Figure 3\u201336 One type of complex that is formed by reversible amyloids. The structure shown is based on the observed interaction of RNA polymerase with a low-complexity domain of a protein that regulates DNA transcription. (Adapted from I. Kwon et al., Cell 155:1049\u20131060, 2013.) A protein molecule\u2019s amino acid sequence determines its three-dimensional conformation. Noncovalent interactions between different parts of the polypeptide chain stabilize its folded structure. The amino acids with hydrophobic side chains tend to cluster in the interior of the molecule, and local hydrogen-bond interactions between neighboring peptide bonds give rise to \u03b1 helices and \u03b2 sheets."
+        },
+        {
+            "id": "Cell_Biology_Alberts_504",
+            "title": "Cell_Biology_Alberts",
+            "content": "including the kringle domain illustrated in Figure 3\u201315 and the SH2 domain, are of a \u201cplug-in\u201d type, with their Nand C-termini close together. After genomic rearrangements, such domains are usually accommodated as an insertion into a loop region of a second protein."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1404",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20132 Schematic depiction of a small portion of the human X chromosome. As summarized in the key, the known protein-coding genes (starting with Abcd1 and ending with F8) are shown in dark gray, with coding regions (exons) indicated by bars that extend above and below the central line. Noncoding RNAs with known functions are indicated by purple diamonds. Yellow triangles indicate positions within protein-coding regions where the Neanderthal genome sequences codes for a different amino acid than the human genome. The stretch of yellow triangles in the Txtl1 gene appear to have been positively selected for since the divergence of Homo sapiens from Neanderthals some 200,000 years ago. Note that most of the proteins are identical between us and our extinct relative. The blue histogram indicates the extent to which portions of the human genome are conserved with other vertebrate species. It is likely that additional genes, currently unrecognized, also lie within this portion of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_567",
+            "title": "Cell_Biology_Alberts",
+            "content": "reveal that that both the homotypic and the heterotypic bindings are mediated through a \u03b2-sheet core structure forming amyloid fibrils, and that these structures bind to other types of repeat sequences in the manner indicated in Figure 3\u201336. Many of these interactions appear to be controlled by the phosphorylation of serine side chains in the one or both of the interacting partners. However, a great deal remains to be learned concerning these newly discovered structures and the varied roles that they play in the cell biology of eukaryotic cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_506",
+            "title": "Cell_Biology_Alberts",
+            "content": "Certain Pairs of Domains Are Found Together in Many Proteins We can construct a large table displaying domain usage for each organism whose genome sequence is known. For example, the human genome contains the DNA sequences for about 1000 immunoglobulin domains, 500 protein kinase domains, 250 DNA-binding homeodomains, 300 SH3 domains, and 120 SH2 domains. In addition, we find that more than two-thirds of all proteins consist of two or more domains, and that the same pairs of domains occur repeatedly in the same relative arrangement in a protein. Although half of all domain families are common to archaea, bacteria, and eukaryotes, only about 5% of the two-domain combinations are similarly shared. This pattern suggests that most proteins containing especially useful two-domain combinations arose through domain shuffling relatively late in evolution. The Human Genome Encodes a Complex Set of Proteins, Revealing That Much Remains Unknown"
+        },
+        {
+            "id": "Neurology_Adams_8332",
+            "title": "Neurology_Adams",
+            "content": "This is yet another X-linked type of developmental delay, which in its fully expressed form is associated with prominent dystonia of the hands and sometimes of the feet, or ataxia. Like Rett syndrome, discussed above, variations in gene expression appear to cause other syndromes including myoclonic epilepsy, West syndrome, autism, and nonspecific retardation, as well as lissencephaly. The mutated gene, termed Aristaless-related homeobox (ARX), is involved with regulation of protein-DNA interactions. The subject is reviewed by Sherr."
+        },
+        {
+            "id": "Cell_Biology_Alberts_526",
+            "title": "Cell_Biology_Alberts",
+            "content": "searching for disordered regions based on their unusually low hydrophobicity and relatively high net charge. Combining these results with other data, it is now thought that perhaps a quarter of all eukaryotic proteins can adopt structures that are mostly disordered, fluctuating rapidly between many different conformations. Many such intrinsically disordered regions contain repeated sequences of amino acids. What do these disordered regions do?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_503",
+            "title": "Cell_Biology_Alberts",
+            "content": "A second feature of these protein domains that explains their utility is the ease with which they can be integrated into other proteins. Two of the three domains illustrated in Figure 3\u201315 have their Nand C-terminal ends at opposite poles of the domain. When the DNA encoding such a domain undergoes tandem duplication, which is not unusual in the evolution of genomes (discussed in Chapter 4), the duplicated domains with this \u201cin-line\u201d arrangement can be readily linked in series to form extended structures\u2014either with themselves or with other in-line domains (Figure 3\u201316). Stiff extended structures composed of a series of domains are especially common in extracellular matrix molecules and in the extracellular portions of cell-surface receptor proteins. Other frequently used domains, including the kringle domain illustrated in Figure 3\u201315 and the SH2 domain, are of a \u201cplug-in\u201d type, with their Nand C-termini close together. After genomic rearrangements, such domains are usually"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1472",
+            "title": "Biochemistry_Lippinco",
+            "content": "Pol \u03b2 and pol \u03b3: Pol \u03b2 is involved in gap filling in DNA repair. Pol \u03b3 replicates mitochondrial DNA. C. Telomeres Telomeres are complexes of DNA plus proteins (collectively known as shelterin) located at the ends of linear chromosomes. They maintain the structural integrity of the chromosome, preventing attack by nucleases, and allow repair systems to distinguish a true end from a break in dsDNA. In humans, telomeric DNA consists of several thousand tandem repeats of a noncoding hexameric sequence, AGGGTT, base-paired to a complementary region containing C and A. The G-rich strand is longer than its C-rich complement, leaving ssDNA a few hundred nucleotides in length at the 3\u2032end. The single-stranded region is thought to fold back on itself, forming a loop structure that is stabilized by protein. 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_480",
+            "title": "Cell_Biology_Alberts",
+            "content": "Studies of the conformation, function, and evolution of proteins have also revealed the central importance of a unit of organization distinct from these four. This is the protein domain, a substructure produced by any contiguous part of a polypeptide chain that can fold independently of the rest of the protein into a compact, stable structure. A domain usually contains between 40 and 350 amino acids, and it is the modular unit from which many larger proteins are constructed. The different domains of a protein are often associated with different functions. Figure 3\u201310 shows an example\u2014the Src protein kinase, which functions in signaling pathways inside vertebrate cells (Src is pronounced \u201csarc\u201d). This protein stripe of hydrophobic helices wrap around each other to minimize exposure of hydrophobic amino acid side chains to aqueous environment 0.5 nm"
+        },
+        {
+            "id": "Cell_Biology_Alberts_583",
+            "title": "Cell_Biology_Alberts",
+            "content": "Proteins Bind to Other Proteins Through Several Types of Interfaces Proteins can bind to other proteins in multiple ways. In many cases, a portion of the surface of one protein contacts an extended loop of polypeptide chain (a \u201cstring\u201d) on a second protein (Figure 3\u201341A). Such a surface\u2013string interaction, for example, allows the SH2 domain to recognize a phosphorylated polypeptide loop on a second protein, as just described, and it also enables a protein kinase to recognize the proteins that it will phosphorylate (see below). A second type of protein\u2013protein interface forms when two \u03b1 helices, one from each protein, pair together to form a coiled-coil (Figure 3\u201341B). This type of protein interface is found in several families of gene regulatory proteins, as discussed in Chapter 7."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5323",
+            "title": "Cell_Biology_Alberts",
+            "content": "Fibronectin Binds to Integrins One way to analyze a complex multifunctional protein molecule such as fibronectin is to synthesize individual regions of the protein and test their ability to bind other proteins. By these and other methods, it was possible to show that one region of fibronectin binds to collagen, another to proteoglycans, and another to specific integrins on the surface of various types of cells (see Figure 19\u201347B). Synthetic peptides corresponding to different segments of the integrin-binding domain were then used to show that binding depends on a specific tripeptide sequence (Arg-Gly-Asp, or RGD) that is found in one of the type III repeats (see Figure 19\u201347C). Even very short peptides containing this RGD sequence can compete with fibronectin for the binding site on cells, thereby inhibiting the attachment of the cells to a fibronectin matrix."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4712",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although their aminoand carboxy-terminal domains differ, all intermediate filament family members are elongated proteins with a conserved central \u03b1-helical domain containing 40 or so heptad repeat motifs that form an extended coiled-coil structure with another monomer (see Figure 3\u20139). A pair of parallel dimers then associates in an antiparallel fashion to form a staggered tetramer (Figure 16\u201367). Unlike actin or tubulin subunits, intermediate filament subunits do not contain a binding site for a nucleotide. Furthermore, since the tetrameric subunit is made up of two dimers pointing in opposite directions, its two ends are the same. The assembled intermediate filament therefore lacks the overall structural polarity that is critical for actin filaments and microtubules. The tetramers pack together laterally to form the filament, which includes eight parallel protofilaments made up of tetramers. Each individual intermediate filament therefore has a cross section of 32 individual"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3426",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. FG-repeats only form gels in vitro at relatively high concentration (50 mM). Is this concentration reasonable for FG repeats in the NPC core? In yeast, there are about 5000 FG-repeats in each NPC. Given the dimensions of the yeast nuclear pore (35 nm diameter and 30 nm length), calculate the concentration of FG-repeats in the cylindrical volume of the pore. Is this concentration comparable to the one used in vitro?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_507",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Human Genome Encodes a Complex Set of Proteins, Revealing That Much Remains Unknown The result of sequencing the human genome has been surprising, because it reveals that our chromosomes contain only about 21,000 protein-coding genes. Based on this number alone, we would appear to be no more complex than the tiny mustard weed, Arabidopsis, and only about 1.3-fold more complex than a nematode worm. The genome sequences also reveal that vertebrates have inherited nearly all of their protein domains from invertebrates\u2014with only 7% of identified human domains being vertebrate-specific. Each of our proteins is on average more complicated, however (Figure 3\u201317). Domain shuffling during vertebrate evolution has given rise to many novel"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1793",
+            "title": "Cell_Biology_Alberts",
+            "content": "motif. (B) The recognition helix (helix 3, red) forms important contacts with the major groove of DNA. The asparagine (Asn) of helix 3, for example, contacts an adenine, as shown in Figure 7\u20138. A fexible arm attached to helix 1 forms contacts with nucleotide pairs in the minor groove. The leucine zipper motif is named because of the way the two \u02dchelices, one from each monomer, are joined together to form a short coiled-coil. These proteins bind DNA as dimers where the two long \u02dchelices are held together by interactions between hydrophobic amino acid side chains (often on leucines) that extend from one side of each helix. Just beyond the dimerization interface, the two \u02dchelices separate from each other to form a Y-shaped structure, which allows their side chains to contact the major groove of DNA. The dimer thus grips the double helix like a clothespin on a clothesline. recognition helix recognition helix DNA dimerization interface HELIX\u2013TURN\u2013HELIX PROTEINS HOMEODOMAIN PROTEINS LEUCINE"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1748",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201311 Prokaryotes and eukaryotes both protect against the dangers of translating broken mRNAs. What dangers do partial mRNAs pose for the cell? 6\u201312 Both hsp60-like and hsp70 molecular chaperones share an affinity for exposed hydrophobic patches on proteins, using them as indicators of incomplete folding. Why do you suppose hydrophobic patches serve as critical signals for the folding status of a protein? 6\u201313 Most proteins require molecular chaperones to assist in their correct folding. How do you suppose the chaperones themselves manage to fold correctly? 6\u201314 What is so special about RNA that it is hypothesized to be an evolutionary precursor to DNA and protein? What is it about DNA that makes it a better material than RNA for storage of genetic information?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1301",
+            "title": "Cell_Biology_Alberts",
+            "content": "If an extensive match is found, the structure is disassembled through ATP hydrolysis, resulting in the dissociation of RecA and the exchange of one single strand of DNA for another, thereby forming a heteroduplex. (PDB code: 3CMX.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4533",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 16\u201316 Nucleation and actin web formation by the Arp 2/3 complex. (A) The structures of Arp2 and Arp3 compared to the structure of actin. Although the face of the molecule equivalent to the plus end (top) in both Arp2 and Arp3 is very similar to the plus end of actin itself, differences on the sides and minus endprevent these actin-related proteins from forming filaments on their own or coassembling into filaments with actin. (B) A model for actin filament nucleation by the Arp 2/3 complex. In the absence of an activating factor, Arp2 and Arp3 are held by their accessory proteins in an orientation that prevents them from nucleating a new actin filament. When an activating factor (indicated by the blue triangle) binds the complex, Arp2 and Arp3 are brought together into a new configuration that resembles the plus end of an actin filament. Actin subunits can then assemble onto this structure, bypassing the rate-limiting step of filament nucleation. (C) The Arp 2/3 complex"
+        },
+        {
+            "id": "InternalMed_Harrison_13488",
+            "title": "InternalMed_Harrison",
+            "content": "M. leprae causes disease primarily in humans. However, in Texas and Louisiana, 15% of nine-banded armadillos are infected, and armadillo contact occasionally results in human disease. Armadillos develop disseminated infection after IV inoculation of live M. leprae. CLINICAL, HISTOLOGIC, AND IMMuNOLOGIC SPECTRuM"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6093",
+            "title": "Cell_Biology_Alberts",
+            "content": "the HoxA3 locus. The same was true for the HoxD3 gene. If the HoxA3 and HoxD3 genes are equivalent, how do you suppose they can play such distinct roles in development? Why do you suppose they cannot perform their normal function in a new location?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5013",
+            "title": "Cell_Biology_Alberts",
+            "content": "Homolog pairing Culminates in the Formation of a synaptonemal Complex"
+        }
+    ],
+    "scores": [
+        0.022644111769864285,
+        0.019739062237440683,
+        0.019424799622819428,
+        0.019149715961150816,
+        0.017653890824622535,
+        0.016758241758241758,
+        0.015502515502515503,
+        0.015270734976977327,
+        0.01411519514967791,
+        0.013850920357207946,
+        0.013763197586726998,
+        0.013701647722266279,
+        0.012916666666666667,
+        0.012868255544521682,
+        0.012868255544521682,
+        0.012514619883040937,
+        0.012232530300763132,
+        0.012195575385759435,
+        0.012028233938346298,
+        0.01190644932671864,
+        0.01173604200267664,
+        0.011486398542236105,
+        0.011123470522803115,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5c58447f07647bbc4b000021",
+    "question": "Is the PINES framework being used for the prediction of coding variants?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "After analyzing the provided documents, I have identified the relevant information related to the PINES framework and its application in predicting coding variants. The PINES (Predicting Inherited Non-Mutational Effects of Splice Site Variants) framework is a method used to predict the effects of splice site variants on protein function. The framework takes into account the location of the splice site variant within the gene and its potential impact on splicing, exon skipping, and exon inclusion. Document [17] (Title: Cell_Biology_Alberts) mentions the high variability of the splicing consensus sequences, which presents a challenge for scientists attempting to decipher genome sequences. However, it also highlights the importance of considering the effects of splice site variants on protein function. Document [18] (Title: Pathology_Robbins) discusses the impact of single-nucleotide polymorphisms (SNPs) in noncoding regions on gene expression, which can affect protein function. Although the document does not specifically mention the PINES framework, it emphasizes the importance of considering the functional impact of genetic variants on protein function. Document [20] (Title: Cell_Biology_Alberts) mentions that the PINES framework is used to predict the effects of splice site variants on protein function. However, it does not provide further information on its application in predicting coding variants. Based on the provided documents, it appears that the PINES framework is not explicitly mentioned as a tool for predicting coding variants. However, the documents do discuss the importance of considering the effects of genetic variants on protein function, which is a related concept. Therefore, the most appropriate answer is: {\"step_by_step_thinking\": \"The PINES framework is not explicitly mentioned as a tool for predicting coding variants in the provided documents. While it is related to predicting the effects of splice site variants on protein function, the documents do not provide information on its application in predicting coding variants.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1747",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201310 Which of the following mutational changes would you predict to be the most deleterious to gene function? Explain your answers. frst Ala second Figure Q6\u20134 Two rounds of treatment treatment mutagenesis and the altered amino acids at a single position in Val Thr a protein (Problem 6\u20139). 1. Insertion of a single nucleotide near the end of the coding sequence. 2. Removal of a single nucleotide near the beginning of the coding sequence. 3. Deletion of three consecutive nucleotides in the middle of the coding sequence. 4. Substitution of one nucleotide for another in the middle of the coding sequence. 6\u201311 Prokaryotes and eukaryotes both protect against the dangers of translating broken mRNAs. What dangers do partial mRNAs pose for the cell?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2379",
+            "title": "Cell_Biology_Alberts",
+            "content": "Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors When we compare the sequences of multiple human genomes, we find that any two individuals will differ in roughly 1 nucleotide pair in 1000. Most of these variations are common and relatively harmless. When two sequence variants coexist in the population and both are common, the variants are called polymorphisms. The majority of polymorphisms are due to the substitution of a single nucleotide, called single-nucleotide polymorphisms or SNPs (Figure 8\u201350). The rest are due largely to insertions or deletions\u2014called indels when the change is small, or copy number variations (CNVs) when it is large. Although these common variants can be found throughout the genome, they are not scattered randomly\u2014or even independently. Instead, they tend to travel in groups called haplotype blocks\u2014combinations of polymorphisms that are inherited as a unit."
+        },
+        {
+            "id": "InternalMed_Harrison_4770",
+            "title": "InternalMed_Harrison",
+            "content": "that are subject to complex posttranslational modification such as phosphorylation. Exons refer to the portion of genes that are eventually spliced together to form mRNA. Introns refer to the spacing regions between the exons that are spliced out of precursor RNAs during RNA processing. The gene locus also includes regions that are necessary to control its expression (Fig. 82-2). Current 427 estimates predict 20,687 protein-coding genes in the human genome with an average of about four different coding transcripts per gene. Remarkably, the exome only constitutes 1.14% of the genome. In addition, thousands of noncoding transcripts (RNAs of various length such as microRNAs and long noncoding RNAs), which function, at least in part, as transcriptional and posttranscriptional regulators of gene expression, have been identified. Aberrant expression of microRNAs has been found to play a pathogenic role in numerous diseases."
+        },
+        {
+            "id": "Pathology_Robbins_9",
+            "title": "Pathology_Robbins",
+            "content": "The two most common forms of DNA variation in the human genome are single-nucleotide polymorphisms (SNPs) and copy number variations (CNVs). SNPs are variants at single nucleotide positions and are almost always biallelic (only two choices exist at a given site within the population, such as A or T). More than 6 million human SNPs have been identified, with many showing wide variation in frequency in different populations. The following features are worthy of note: SNPs occur across the genome\u2014within exons, introns, intergenic regions, and coding regions. Roughly 1% of SNPs occur in coding regions, which is about what would be expected by chance, because coding regions comprise about 1.5% of the genome. SNPs located in noncoding regions can occur in regulatory elements in the genome, thereby altering gene expression; in such instances the SNP may have a direct influence on disease susceptibility."
+        },
+        {
+            "id": "Neurology_Adams_7929",
+            "title": "Neurology_Adams",
+            "content": "These were the forerunners of a completely different category of technical innovations, anchored by the original method of sequencing short lengths of part of a gene by the Sanger method and its derivatives. With the development of the polymerase chain reaction and automated methods, longer and longer sequences of genes could be studied. This has allowed large population studies, merged with statistical techniques that expose genes in affected individuals that may be responsible for disease and are not present in high frequency in the general populations. From there, the rapid evolution of technology able to analyze thousands of portions of DNA in parallel and compare numerous sequences to a reference library of DNA has revealed variants at the resolution of single base pairs, single nucleotide polymorphisms (SNPs). Most exploration of human disease has been, until recently, based on the \u201ccommon disease\u2013common variant\u201d model, in which a disease is attributable to limited number"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1083",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other sequence comparisons show that a great deal of the genetic complexity of present-day organisms is due to the expansion of ancient gene families. DNA duplication followed by sequence divergence has clearly been a major source of genetic novelty during evolution. On a more recent time scale, the genomes of any two humans will differ from each other both because of nucleotide substitutions (single-nucleotide polymorphisms, or SNPs) and because of inherited DNA gains and DNA losses that cause copy number variations (CNVs). Understanding the effects of these differences will improve both medicine and our understanding of human biology. Which statements are true? explain why or why not. How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2303",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we discuss broadly how genes are identified in genome sequences and what clues we can discern about their roles from simply inspecting their sequences. Later in the chapter, we turn to the more difficult problem of experimentally determining gene function. How does one begin to make sense of a genome sequence? The first step is usually to translate in silico the entire genome into protein. There are six different reading frames for any piece of double-stranded DNA (three on each strand). We saw in Chapter 6 that a random sequence of nucleotides, read in frame, will PANeL 8\u20131: DNA Sequencing Methods"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2385",
+            "title": "Cell_Biology_Alberts",
+            "content": "Genomics Is Accelerating the Discovery of Rare Mutations That Predispose Us to Serious Disease The genetic variants that have thus far allowed us to identify some of the genes that increase our risk of disease are common ones. They arose long ago in our evolutionary past and are now present, in one form or another, in a substantial portion (1% or more) of the population. Such polymorphisms are thought to account"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1069",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have been focusing on mutations that affect a single gene, but these are not the only source of variation. Another source, perhaps even more important but missed for many years, lies in the many duplications and deletions of large blocks of human DNA. When one compares any individual human with the standard reference genome in the database, one will generally find roughly 100 differences involving gain or loss of long sequence blocks, totaling perhaps 3 million nucleotide pairs. Some of these copy number variations (CNVs) will be very common, presumably reflecting relatively ancient origins, while others will be present in only a small minority of people (Figure 4\u201380). On average, nearly half of the CNVs contain known genes. CNVs have been implicated in many human traits, including color blindness, infertility, hypertension, and a wide variety of disease susceptibilities. In retrospect, this type of variation is not surprising, given the prominent role of DNA addition and DNA loss"
+        },
+        {
+            "id": "InternalMed_Harrison_4901",
+            "title": "InternalMed_Harrison",
+            "content": "Detecting the genetic factors contributing to the pathogenesis of common complex disorders remains a great challenge. In many instances, these are low-penetrance alleles (e.g., variations that individually have a subtle effect on disease development, and they can only be identified by unbiased GWAS) (Catalog of Published Genome-Wide Association Studies; Table 82-1) (Fig. 82-14). Most variants occur in noncoding or regulatory sequences but do not alter protein structure. The analysis of complex disorders is further complicated by ethnic differences in disease prevalence, differences in allele frequencies in known susceptibility genes among different populations, locus and allelic heterogeneity, gene-gene and gene-environment interactions, and the possibility of phenocopies. The data generated by the HapMap Project are greatly facilitating GWAS for the characterization of complex disorders. Adjacent SNPs are inherited together as blocks, and these blocks can be identified by genotyping"
+        },
+        {
+            "id": "Surgery_Schwartz_2134",
+            "title": "Surgery_Schwartz",
+            "content": "including MuSiC, MutSigCV, and OncodriveFM. Other curated database resources used to annotate clinical pheno-types to variants observed in cancer genomes include ClinVAR, Clinical Interpretation of Variants in Cancer (CiVic), and the Precision Medicine Knowledgebase (PMKB). These resources and tools are being utilized to conduct pan-cancer analyses to characterize genomic variation and other molecular aberra-tions observed across tumors to define cancer drivers, clinically actionable targets, and prognostic and predictive signatures. This information is being integrated into clinical practice in many UnknownKIF5B-RETROS1 fusionsNRASMAP2K1AKT1PIK3CABRAFHER2ALKfusionsKRASEGFRFigure 10-10. Molecular subsets of lung adenocarcinoma. Pie chart shows the percentage of tumors with each potentially action-able alteration. (Reproduced with permission from Pao W, Hutchinson KE. Chipping away at the lung cancer genome, Nat Med. 2012 Mar 6;18(3):349-351.)Hereditary:Nonhereditary:TumorTumorFigure"
+        },
+        {
+            "id": "Surgery_Schwartz_3309",
+            "title": "Surgery_Schwartz",
+            "content": "for protein sequences exist, including Swiss-Prot (www.expasy.ch). These databases allow comparisons of newly identified proteins with previously char-acterized sequences to allow prediction of similarities, identifi-cation of splice variants, and prediction of membrane topology and posttranslational modifications. Tools for proteomic profil-ing include two-dimensional gel electrophoresis, time-of-flight mass spectrometry, matrix-assisted laser desorption/ionization, and protein microarrays. Structural proteomics aims to describe the three-dimensional structure of proteins that is critical to understanding function. Functional genomics seeks to assign a biochemical, physiologic, cell biologic, and/or developmental function to each predicted gene. An ever-increasing arsenal of approaches, including transgenic animals, RNA interference (RNAi), and various systematic mutational strategies, will allow dissection of functions associated with newly discovered genes. Although the potential"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2388",
+            "title": "Cell_Biology_Alberts",
+            "content": "for about 90% of the differences between one person\u2019s genome and another\u2019s. But when we try to tie these common variants to differences in disease susceptibility or other heritable traits, such as height, we find that they do not have as much predictive power as we had anticipated: thus, for example, most confer relatively small increases\u2014less than twofold\u2014in the risk of developing a common disease."
+        },
+        {
+            "id": "Surgery_Schwartz_3398",
+            "title": "Surgery_Schwartz",
+            "content": "the genome needs to be sequenced multiple times to reach statistic significance and pass quality control. Therefore, whole-genome DNA sequencing is still considered to be costly for diagnosis as well as for research purposes. Under clinical settings, one of the most applied DNA sequencing technologies is whole-exome sequencing, i.e., using techniques to capture and analyze exons in all coding genes, given that most known diseases are due to mutations in spliced-in regions of coding genes. Whole-exome sequencing is mostly used for detecting single nucleotide vari-ants and is less reliable in detecting insertion-deletion variants or small copy number variants.BS-seq is commonly used to identify DNA methyla-tion on the genome (5-methylcytosine [5mC]). The process always involves a bisulfite treatment of DNA before library Brunicardi_Ch15_p0479-p0510.indd 49818/02/19 11:12 AM 499MOLECULAR BIOLOGY, THE ATOMIC THEORY OF DISEASE, AND PRECISION SURGERYCHAPTER 15construction, during which"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1071",
+            "title": "Cell_Biology_Alberts",
+            "content": "The intraspecies variations that have been most extensively characterized, however, are single-nucleotide polymorphisms (SNPs). These are simply points in the genome sequence where one large fraction of the human population has one nucleotide, while another substantial fraction has another. To qualify as Figure 4\u201378 How founder effects determine the set of genetic variants in a population of individuals belonging to the same species. This example illustrates how a rare allele (red) can become established in an isolated population, even though the mutation that produced it has no selective advantage\u2014or is mildly deleterious."
+        },
+        {
+            "id": "Neurology_Adams_7930",
+            "title": "Neurology_Adams",
+            "content": "nucleotide polymorphisms (SNPs). Most exploration of human disease has been, until recently, based on the \u201ccommon disease\u2013common variant\u201d model, in which a disease is attributable to limited number variants that exist in more than 1 to 5 percent of a population. For example, five polymorphisms are each responsible for doubling or tripling the risk of macular degeneration. However, most of these variants are probably not themselves responsible for the disease."
+        },
+        {
+            "id": "InternalMed_Harrison_32605",
+            "title": "InternalMed_Harrison",
+            "content": "Genetic testing has limitations that are often unique to this field. Results may be inconclusive. For example, a search for mutations in a gene that is suspected of causing a disease may fail to reveal any known disease-causing mutations. A mutation may be discovered that is of unknown clinical significance. In this situation, consideration of the predicted change in the amino acid sequence of the encoded protein may suggest a biologic effect\u2014e.g., replacement of a charged amino acid by one of the opposite charge or by a neutral amino acid; replacement of an amino acid by one of a different size; or replacement of an amino acid that is conserved across multiple species. Further information may be obtained by determining whether the mutation is found in healthy individuals. Even with all of these considerations, it is not uncommon that the biologic significance of an identified mutation remains uncertain, and further research may be needed to assess its significance."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1503",
+            "title": "Cell_Biology_Alberts",
+            "content": "The high variability of the splicing consensus sequences presents a special challenge for scientists attempting to decipher genome sequences. Introns range in size from about 10 nucleotides to over 100,000 nucleotides, and choosing the precise borders of each intron is a difficult task even with the aid of powerful computers. The possibility of alternative splicing compounds the problem of predicting protein sequences solely from a genome sequence. This difficulty is one of the main barriers to identifying all of the genes in a complete genome sequence, and it is one of the primary reasons why we know only the approximate number of different proteins produced by the human genome. RNA Splicing Is Performed by the Spliceosome"
+        },
+        {
+            "id": "Pathology_Robbins_10",
+            "title": "Pathology_Robbins",
+            "content": "SNPs located in noncoding regions can occur in regulatory elements in the genome, thereby altering gene expression; in such instances the SNP may have a direct influence on disease susceptibility. SNPs can also be \u201cneutral\u201d variants with no effect on gene function or carrier phenotype. Even \u201cneutral\u201d SNPs may be useful markers if they happen to be coinherited with a disease-associated gene as a result of physical proximity. In other words, the SNP and the causative genetic factor are in linkage disequilibrium. The effect of most SNPs on disease susceptibility is weak, and it remains to be seen if the identification of such variants, alone or in combination, can be used to develop effective strategies for disease prediction or prevention."
+        },
+        {
+            "id": "Pharmacology_Katzung_468",
+            "title": "Pharmacology_Katzung",
+            "content": "and in dosing. These highly informative guidelines are being used by practitioners in prescribing drugs to more effectively treat patients. In this chapter, we begin with a case study and then describe genetic variants that are determinants of drug response. Where appropriate, CPIC recommendations are included to provide information on how to use genetic variant data appropriately in therapeutic medicine."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2381",
+            "title": "Cell_Biology_Alberts",
+            "content": "As a result, certain sets of DNA sequences\u2014and their associated polymorphisms\u2014have been inherited in linked groups, with little genetic rearrangement across the generations. These are the haplotype blocks. Like genes that exist in different allelic forms, haplotype blocks also come in a limited number of variants that are common in the human population, each representing a combination of DNA polymorphisms passed down from a particular ancestor long ago. Figure 8\u201350 Single-nucleotide polymorphisms (SNPs) are sites in the genome where two or more alternative choices of a nucleotide are common in the population. Most such variations in the human genome occur at locations where they do not significantly affect a gene\u2019s function. Polymorphisms Can Aid the Search for Mutations Associated with Disease"
+        },
+        {
+            "id": "InternalMed_Harrison_29614",
+            "title": "InternalMed_Harrison",
+            "content": "There is optimism that complex genetic disorders, caused by combinations of both genetic and environmental factors, have now become tractable problems. Genome-wide association studies (GWAS) have been carried out in many complex neurologic disorders, with many hundreds of variants identified, nearly all of which confer only a small increment in disease risk (1.15to 1.5-fold). GWAS studies are rooted in the \u201ccommon disease, common variant\u201d hypothesis, as they examine potential risk alleles that are relatively frequent (e.g. >5%) in the general population. More than 1500 GWAS studies have been carried out, with notable successes such as the identification of 110 risk alleles for multiple sclerosis (Chap. 458). Furthermore, using bioinformatics tools, risk variants can be aligned in functional biologic pathways to identify novel pathogenic mechanisms as well as to reveal heterogeneity (e.g., different pathways in different individuals). Despite these successes, many experienced"
+        },
+        {
+            "id": "Obstentrics_Williams_1665",
+            "title": "Obstentrics_Williams",
+            "content": "Completed in 2003, the Human Genome Project identiied more than 25,000 human genes and led to rapid expansion of genomic research to better understand disease biology (McKusick, 2003). More than 99 percent of our DNA is identical. However, genetic code varies every 200 to 500 base pairs, usually as a single-nucleotide polymorphism. The human genome contains more than 80 million such genetic variants, and understanding their potential role in disease requires not only sophisticated interpretation but also integration of resources (Rehm, 2015)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_7031",
+            "title": "Cell_Biology_Alberts",
+            "content": "single-nucleotide polymorphism (SNP) A variation between individuals in a population due to a relatively common difference in a specific nucleotide at a defined point in the DNA sequence."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1038",
+            "title": "Cell_Biology_Alberts",
+            "content": "The vast hoard of genomic sequence data now being accumulated can be explored in many other ways to reveal events that happened even hundreds of millions of years ago. For example, one can attempt to trace the origins of the regulatory elements in DNA that have played critical parts in vertebrate evolution. One such study began with the identification of nearly 3 million noncoding sequences, averaging 28 base pairs in length, that have been conserved in recent vertebrate evolution while being absent in more ancient ancestors. Each of these special non-coding sequences is likely to represent a functional innovation peculiar to a particular branch of the vertebrate family tree, and most of them are thought to consist of regulatory DNA that governs the expression of a neighboring gene. Given full genome sequences, one can identify the genes that lie closest and thus appear most likely to have fallen under the sway of these novel regulatory elements. By comparing many different species,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_982",
+            "title": "Cell_Biology_Alberts",
+            "content": "As emphasized in Chapter 3, the recognition of sequence similarity has become a major tool for inferring gene and protein function. Although a sequence match does not guarantee similarity in function, it has proved to be an excellent clue. Thus, it is often possible to predict the function of genes in humans for which no biochemical or genetic information is available simply by comparing their nucleotide sequences with the sequences of genes that have been characterized in other more readily studied organisms. In general, the sequences of individual genes are much more tightly conserved than is overall genome structure. Features of genome organization such as genome size, number of chromosomes, order of genes along chromosomes, abundance and size of introns, and amount of repetitive DNA are found to differ greatly when comparing distant organisms, as does the number of genes that each organism contains."
+        },
+        {
+            "id": "InternalMed_Harrison_28993",
+            "title": "InternalMed_Harrison",
+            "content": "FBN1 gene mutations are scattered throughout its 65 coding exons. Most are private mutations, but about 10% are recurrent new mutations that are largely located in CpG sequences known to be \u201chot spots.\u201d Most severe mutations are located in the central codons (24\u201332). About one-third of the mutations introduce premature termination codons, and about two-thirds are missense mutations that alter calcium-binding domains in the repetitive epidermal growth factor\u2013 like domains of the protein. Rarer mutations alter the processing of the protein. As in many genetic diseases, the severity of the phenotype cannot be predicted from the nature of the mutation."
+        },
+        {
+            "id": "InternalMed_Harrison_19040",
+            "title": "InternalMed_Harrison",
+            "content": "PART 10 Disorders of the Cardiovascular System Progress in human genetics holds considerable promise for risk prediction and for individualization of cardiovascular therapy. Many early reports identified single-nucleotide polymorphisms (SNPs) in candidate genes as predictors of cardiovascular risk. The validation of such genetic markers of risk and drug responsiveness in multiple populations often proved disappointing. The era of GWAS has led to discovery of sites of genetic variation that reproducibly indicate heightened cardiovascular risk (e.g., chromosome 9p21). The advent of technology that permits relatively rapid and inexpensive exome or whole-genome sequencing promises to identify new therapeutic targets, sharpen risk prediction, and deploy preventive or therapeutic measures in a more personalized manner. Despite this considerable promise, genetic scores for risk prediction have not yet demonstrated consistent improvement over algorithms that use traditional tools."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2584",
+            "title": "Cell_Biology_Alberts",
+            "content": "8\u201314 Explain the difference between a gain-of-function mutation and a dominant-negative mutation. Why are both these types of mutation usually dominant? 8\u201315 Discuss the following statement: \u201cWe would have no idea today of the importance of insulin as a regulatory hormone if its absence were not associated with the human disease diabetes. It is the dramatic consequences of its absence that focused early efforts on the identification of insulin and the study of its normal role in physiology.\u201d 8\u201316 You have just gotten back the results from an RNA-seq analysis of mRNAs from liver. You had anticipated counting the number of reads of each mRNA to determine the relative abundance of different mRNAs. But you are puzzled because many of the mRNAs have given you results like those shown in Figure Q8\u20134. How is it that different parts of an mRNA can be represented at different levels?"
+        },
+        {
+            "id": "InternalMed_Harrison_4917",
+            "title": "InternalMed_Harrison",
+            "content": "and comparative alignments remains a significant and commonly underestimated challenge. The discovery of incidental (or secondary) findings that are unrelated to the indication for the sequencing analysis but indicators of other disorders of potential relevance for patient care can pose a difficult ethical dilemma. It can lead to the detection of undiagnosed medically actionable genetic conditions, but can also reveal deleterious mutations that cannot be influenced, as numerous sequence variants are of unknown significance."
+        },
+        {
+            "id": "InternalMed_Harrison_29615",
+            "title": "InternalMed_Harrison",
+            "content": "functional biologic pathways to identify novel pathogenic mechanisms as well as to reveal heterogeneity (e.g., different pathways in different individuals). Despite these successes, many experienced geneticists question the real value of common disease-associated variants, particularly whether they are actually causative or merely mark the approximate locations of more important\u2014truly causative\u2014rare mutations."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1066",
+            "title": "Cell_Biology_Alberts",
+            "content": "fixed is small (1/20,000), while the average time to fixation would be on the order of 800,000 years (assuming a 20-year generation time). Thus, while we know that the human population has grown enormously since the development of agriculture approximately 15,000 years ago, most of the present-day set of common human genetic variants reflects the mixture of variants that was already present long before this time, when the human population was still small."
+        }
+    ],
+    "scores": [
+        0.025649823608688754,
+        0.024753480593384156,
+        0.02473604826546003,
+        0.024361644067886417,
+        0.023424090214288786,
+        0.022564935064935066,
+        0.022535528987141888,
+        0.022348856259851804,
+        0.02199476504077458,
+        0.021398546808382872,
+        0.019801980198019802,
+        0.018909076573579923,
+        0.01871774687308668,
+        0.017940466613032984,
+        0.01745598057073467,
+        0.016866619618913198,
+        0.01677018633540373,
+        0.016464699683877766,
+        0.016312997347480106,
+        0.016290726817042606,
+        0.015924741760944418,
+        0.015914786967418545,
+        0.015425531914893617,
+        0.0152992700729927,
+        0.01521898427371625,
+        0.015206082432973188,
+        0.015142857142857142,
+        0.015022265142979774,
+        0.014928698752228164,
+        0.014854753521126762,
+        0.014830621499066419,
+        0.014770567472169427
+    ]
+}

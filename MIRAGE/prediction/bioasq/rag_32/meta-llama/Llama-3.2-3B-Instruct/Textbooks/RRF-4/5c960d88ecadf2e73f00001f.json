@@ -1,0 +1,206 @@
+{
+    "id": "5c960d88ecadf2e73f00001f",
+    "question": "Tocilizumab is an anti-TNF antibody, yes or no?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's review the relevant information from the provided documents.\\n\\nDocument [1] (Title: InternalMed_Harrison) mentions that there are three different anti-TNF monoclonal antibodies: infliximab, adalimumab, and golimumab. It does not mention tocilizumab as an anti-TNF antibody.\\n\\nHowever, Document [11] (Title: Pharmacology_Katzung) states that tocilizumab is a humanized antibody that binds to soluble and membrane-bound IL-6 receptors and inhibits the IL-6-mediated signaling. Although tocilizumab targets a different cytokine (IL-6) rather than TNF-\\\\u00b1, it is still a biologic DMARD.\\n\\nFurthermore, Document [26] (Title: InternalMed_Harrison) lists tocilizumab as one of the biologic DMARDs used in the treatment of rheumatoid arthritis, alongside other anti-TNF agents.\\n\\nGiven this information, we can conclude that tocilizumab is not an anti-TNF antibody, but it is a biologic DMARD.\\n\\nHowever, considering the wording of the question, which asks if tocilizumab is an anti-TNF antibody, the correct answer would be based on the fact that it is not an anti-TNF antibody.\\n\\nSo, the answer is B. no\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_6976",
+            "title": "Pharmacology_Katzung",
+            "content": "Antibodies to the antibody (ATA) may develop with all four agents. These antibodies may attenuate or eliminate the clinical response and increase the likelihood of developing acute or delayed infusion or injection reactions. Antibody formation is much more likely in patients given episodic anti-TNF therapy than regular scheduled injections. In patients on chronic maintenance therapy, the prevalence of ATA with infliximab is 10%, with certolizumab 8%, and with adalimumab or golimumab 3%. Antibody development also is less likely in patients who receive concomitant therapy with immunomodulators (ie, 6-MP or methotrexate). Concomitant treatment with anti-TNF agents and immunomodulators may increase the risk of lymphoma."
+        },
+        {
+            "id": "InternalMed_Harrison_25243",
+            "title": "InternalMed_Harrison",
+            "content": "anti-TNF agents The development of TNF inhibitors was originally spurred by the experimental finding that TNF is a critical upstream mediator of joint inflammation. Currently, five agents that inhibit TNF-\u03b1 are approved for the treatment of RA. There are three different anti-TNF monoclonal antibodies. Infliximab is a chimeric (part mouse and human) monoclonal antibody, whereas adalimumab and golimumab are humanized monoclonal antibodies. Certolizumab pegol is a pegylated Fc-free fragment of a humanized monoclonal antibody with binding specificity for TNF-\u03b1. Lastly, etanercept is a soluble fusion protein comprising the TNF receptor 2 in covalent linkage with the Fc portion of IgG1. All of the TNF inhibitors have been shown in randomized controlled clinical trials to reduce the signs and symptoms of RA, slow radiographic progression of joint damage, and improve physical function and quality of life. Anti-TNF drugs are typically used in combination with background methotrexate therapy."
+        },
+        {
+            "id": "Pharmacology_Katzung_4015",
+            "title": "Pharmacology_Katzung",
+            "content": "Neutropenia and reduction in platelet counts occur occasionally, and lipids (eg, cholesterol, triglycerides, LDL, and HDL) should be monitored. GI perforation has been reported when using tocilizumab in patients with diverticulitis and in those using corticosteroids, although it is not clear that this adverse effect is more common than with TNF-\u03b1\u2013blocking agents. Demyelinating disorders including multiple sclerosis are rarely associated with tocilizumab use. Fewer than 1% of the patients taking tocilizumab develop anaphylactic reaction. Anti-tocilizumab antibodies develop in 2% of the patients, and these can be associated with hypersensitivity reactions requiring discontinuation. Cytokines play a central role in the immune response (see Chapter 55) and in RA. Although a wide range of cytokines are expressed in the joints of RA patients, TNF-\u03b1 appears to be particularly important in the inflammatory process."
+        },
+        {
+            "id": "Pharmacology_Katzung_6946",
+            "title": "Pharmacology_Katzung",
+            "content": "to promote or maintain disease remission; or anti-TNF antibodies. Patients with moderate disease who fail other therapies or patients with severe disease may require intravenous corticosteroids, anti-TNF antibodies, or surgery. Natalizumab is reserved for patients with severe Crohn\u2019s disease who have failed immunomodulators and TNF antagonists. Cyclosporine is used primarily for patients with severe ulcerative colitis who have failed a course of intravenous corticosteroids. TNF, tumor necrosis factor."
+        },
+        {
+            "id": "Immunology_Janeway_4064",
+            "title": "Immunology_Janeway",
+            "content": "Antibodies and recombinant proteins against the pro-inflammatory cytokine IL-1 and its receptor have not proved as effective as TNF-\u03b1 blockade for treating rheumatoid arthritis in humans, despite being equally powerful in animal models of arthritis. An antibody against the cytokine IL-1 has been licensed for clinical use against the hereditary autoinflammatory disease Muckle\u2013 Wells syndrome (see Section 13-9), and blockade of the IL-1\u03b2 receptor by the recombinant protein anakinra (Kineret) has also proven useful in adults with moderate to severe rheumatoid arthritis. Another cytokine antagonist in clinical use is the humanized antibody tocilizumab; by virtue of being directed against the IL-6 receptor, it blocks the effects of the pro-inflammatory cytokine IL-6. This seems to be as effective as anti-TNF-\u03b1 in patients with rheumatoid arthritis and also shows promise in treating systemic-onset juvenile idiopathic arthritis, an autoinflammatory condition."
+        },
+        {
+            "id": "Immunology_Janeway_4061",
+            "title": "Immunology_Janeway",
+            "content": "Anti-TNF therapy was the first specific biological therapeutic to enter the clinic. Anti-TNF-\u03b1 antibodies induced striking remissions in rheumatoid arthritis (Fig. 16.9) and reduced inflammation in Crohn\u2019s disease, an inflammatory bowel disease (see Section 15-23). Two types of established biologics are used to antagonize TNF-\u03b1 in clinical practice. The first type comprises the antiTNF-\u03b1 antibodies, such as infliximab and adalimumab, which bind to TNF-\u03b1 and block its activity. The second type is a recombinant human TNF receptor (TNFR) subunit p75\u2013Fc fusion protein called etanercept, which also binds TNF-\u03b1, neutralizing its activity. These are extremely potent anti-inflammatory agents, and the number of diseases in which they have been shown to be effective is growing as further clinical trials are performed. In addition to rheumatoid arthritis, the rheumatic diseases ankylosing spondylitis, psoriatic arthropathy, and juvenile idiopathic arthritis (other than the systemic-onset subset)"
+        },
+        {
+            "id": "Pharmacology_Katzung_6971",
+            "title": "Pharmacology_Katzung",
+            "content": "All four agents bind to soluble and membrane-bound TNF with high affinity, preventing the cytokine from binding to its receptors. Binding of all three antibodies to membrane-bound TNF also causes reverse signaling that suppresses cytokine release. When infliximab, adalimumab, or golimumab bind to membrane-bound TNF, the Fc portion of the human IgG1 region promotes antibody-mediated apoptosis, complement activation, and cellular cytotoxicity of activated T lymphocytes and macrophages. Certolizumab, without an Fc portion, lacks these properties. TABLE 62\u20133 Anti-TNF antibodies used in inflammatory bowel disease. TNF, tumor necrosis factor."
+        },
+        {
+            "id": "InternalMed_Harrison_22982",
+            "title": "InternalMed_Harrison",
+            "content": "Natalizumab is a recombinant humanized IgG4 antibody against \u03b14-integrin that has been shown to be effective in induction and maintenance of patients with CD. It has been approved since February 2008 for the treatment of patients with CD refractory or intolerant to anti-TNF therapy. The rates of response and remission at 3 months are about 60% and 40%, respectively, with a sustained remission rate of about 40% at 36 weeks."
+        },
+        {
+            "id": "Immunology_Janeway_4059",
+            "title": "Immunology_Janeway",
+            "content": "Treating patients suffering from rheumatoid arthritis or multiple sclerosis by using anti-CD4 antibodies has been tried, but with disappointing results. In controlled studies, the antibodies showed only small therapeutic effects but caused depletion of T lymphocytes from peripheral blood for more than 6 years after treatment. The likely explanation for the failure seems to be that these antibodies failed to delete already primed CD4 T cells secreting pro-inflammatory cytokines, and may thus have missed their target. This cautionary tale shows that it is possible to deplete large numbers of lymphocytes and yet completely fail to kill the cells that matter. 16-8 Biologics that block TNF-\u03b1, IL-1, or IL-6 can alleviate autoimmune diseases."
+        },
+        {
+            "id": "InternalMed_Harrison_25672",
+            "title": "InternalMed_Harrison",
+            "content": "contraindications. The use of weekly methotrexate as a glucocorticoid-sparing agent has been examined in two randomized placebo-controlled trials that reached conflicting conclusions. Infliximab, a monoclonal antibody to TNF, was studied in a randomized trial and was not found to provide benefit. Recent reports have shown favorable response of giant cell arteritis to tocilizumab (antiIL-6 receptor), but this treatment requires further study before use in clinical practice."
+        },
+        {
+            "id": "Immunology_Janeway_4058",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 16.9 Anti-inflammatory effects of anti-TNF-\u03b1 therapy and objective parameters of disease activity (as measured by pain in rheumatoid arthritis. The clinical course of 24 patients was score and swollen-joint count, respectively) and in the systemic followed for 4 weeks after treatment with either a placebo or a inflammatory acute-phase response, measured as a fall in the monoclonal antibody against TNF-\u03b1 at a dose of 10 mg \u2022 kg\u20131. The concentration of the acute-phase C-reactive protein. Data courtesy antibody therapy was associated with a reduction in both subjective of R.N. Maini."
+        },
+        {
+            "id": "Pharmacology_Katzung_4011",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Mechanism of Action: Tocilizumab, a newer biologic humanized antibody, binds to soluble and membrane-bound IL-6 receptors, and inhibits the IL-6-mediated signaling via these receptors. IL-6 is a proinflammatory cytokine produced by different cell types including T cells, B cells, monocytes, fibroblasts, and synovial and endothelial cells. IL-6 is involved in a variety of physiologic processes such as T-cell activation, hepatic acute-phase protein synthesis, and stimulation of the inflammatory processes involved in diseases such as RA and systemic sclerosis (SSc). In a phase 4 superiority study, tocilizumab monotherapy was superior to adalimumab monotherapy for reduction of signs and symptoms of rheumatoid arthritis in patients with incomplete response to MTX. 2."
+        },
+        {
+            "id": "Immunology_Janeway_4833",
+            "title": "Immunology_Janeway",
+            "content": "TNF receptors Family of cytokine receptors which includes some that lead to apoptosis of the cell on which they are expressed (for example Fas and TNFR-I), whereas others lead to activation. tocilizumab Humanized anti-IL-6 receptor antibody used in treating rheumatoid arthritis. tofacitinib An inhibitor of JAK3 and JAK1 used to treat rheumatoid arthritis and under investigation in other in\ufb02ammatory disorders. tolerance The failure to respond to an antigen. Tolerance to self antigens is an essential feature of the immune system; when tolerance is lost, the immune system can destroy self tissues, as happens in autoimmune disease. tolerant Describes the state of immunological tolerance, in which the individual does not respond to a particular antigen. tolerogenic Describes an antigen or type of antigen exposure that induces tolerance. Toll Receptor protein in Drosophila that activates the transcription factor NF\u03baB, leading to the production of antimicrobial peptides."
+        },
+        {
+            "id": "InternalMed_Harrison_22974",
+            "title": "InternalMed_Harrison",
+            "content": "Certolizumab pegol is a pegylated form of an anti-TNF Fab portion of an antibody administered SC once monthly. SC certolizumab pegol was effective for induction of clinical response in patients with active inflammatory CD. In the PRECISE II (Pegylated Antibody Fragment Evaluation in Crohn\u2019s Disease) trial of maintenance therapy with certolizumab in patients who responded to certolizumab induction, the results were similar to the CHARM trial. At week 26, the subgroup of patients who were infliximab na\u00efve had a response of 69% as compared to 44% in patients who had previously received infliximab. Golimumab is another fully human IgG1 antibody against TNF-\u03b1 and is currently approved for the treatment of moderately to severely active UC. All of the patients in the golimumab trial were infliximab-naive. Like adalimumab and certolizumab, golimumab is injected SC."
+        },
+        {
+            "id": "InternalMed_Harrison_25242",
+            "title": "InternalMed_Harrison",
+            "content": "Biologic DMARDs have revolutionized the treatment of RA over the past decade (Table 380-2). They are protein therapeutics designed mostly to target cytokines and cell-surface molecules. The TNF inhibitors were the first biologicals approved for the treatment of RA. Anakinra, an IL-1 receptor antagonist, was approved shortly thereafter; however, its benefits have proved to be relatively modest compared with the other biologicals and is rarely used for the treatment of RA with the availability of other more effective agents. Abatacept, rituximab, and tocilizumab are the newest members of this class."
+        },
+        {
+            "id": "InternalMed_Harrison_25252",
+            "title": "InternalMed_Harrison",
+            "content": "Tocilizumab Tocilizumab is a humanized monoclonal antibody directed against the membrane and soluble forms of the IL-6 receptor. IL-6 is a proinflammatory cytokine implicated in the pathogenesis of RA, with detrimental effects on both joint inflammation and damage. IL-6 binding to its receptor activates intracellular signaling pathways that affect the acute-phase response, cytokine production, and osteoclast activation. Clinical trials attest to the clinical efficacy of tocilizumab therapy for RA, both as monotherapy and in combination with methotrexate and other DMARDs. Tocilizumab has been associated with an increased risk of infection, neutropenia, and thrombocytopenia; however, the hematologic abnormalities appear to be reversible upon stopping the drug. In addition, this agent has been shown to increase LDL cholesterol; however, it is not known as yet if this effect on lipid levels increases the risk for development of atherosclerotic disease."
+        },
+        {
+            "id": "Immunology_Janeway_4060",
+            "title": "Immunology_Janeway",
+            "content": "16-8 Biologics that block TNF-\u03b1, IL-1, or IL-6 can alleviate autoimmune diseases. Anti-inflammatory therapy either can attempt to eliminate an autoimmune response altogether, as with immunosuppressive drugs or depleting antibodies, or it can try to reduce the tissue injury caused by the immune response. This second category of treatment is called immunomodulatory therapy, and is illustrated by the use of conventional anti-inflammatory agents such as aspirin, nonsteroidal anti-inflammatory drugs, or low-dose corticosteroids. A newer avenue of immunomodulatory therapy using biologics is illustrated by several FDA-approved antibodies that block the activity of powerful pro-inflammatory cytokines such as TNF-\u03b1, IL-1, and IL-6."
+        },
+        {
+            "id": "InternalMed_Harrison_24659",
+            "title": "InternalMed_Harrison",
+            "content": "TNF-\u03b1R-Fc fusion protein (etanercept) and IL-1ra act to inhibit the activity of pathogenic cytokines in rheumatoid arthritis, i.e., TNF-\u03b1 and IL-1, respectively. Similarly, anti-IL-6, IFN-\u03b2, and IL-11 act to inhibit pathogenic proinflammatory cytokines. Anti-IL-6 (tocilizumab) inhibits IL-6 activity, whereas IFN-\u03b2 and IL-11 decrease IL-1 and TNF-\u03b1 production. Of particular note has been the successful use of IFN-\u03b3 in the treatment of the phagocytic cell defect in chronic granulomatous disease (Chap. 80)."
+        },
+        {
+            "id": "InternalMed_Harrison_22975",
+            "title": "InternalMed_Harrison",
+            "content": "Side Effects of Anti-TNF Therapies \u2022 Development of antiboDies The development of antibodies to infliximab (ATIs) is associated with an increased risk of infusion reactions and a decreased response to treatment. Current practice does not include giving on-demand or episodic infusions in contrast to periodic (every 8 week) infusions because patients are most likely to develop ATIs. ATIs are generally present when the quality of response or the response duration to infliximab infusion decreases. Decreasing the dosing intervals or increasing the dosage to 10 mg/kg may restore the efficacy. There are commercial assays for both infliximab and adalimumab antibodies and trough levels to determine optimal dosing. If a patient has high ATIs and a low trough level of infliximab, it is best to switch to another anti-TNF therapy. Most acute infusion reactions and serum sickness can be managed with glucocorticoids and antihistamines. Some reactions can be serious and would necessitate a change in"
+        },
+        {
+            "id": "Pharmacology_Katzung_6973",
+            "title": "Pharmacology_Katzung",
+            "content": "divided doses) initially and 80 mg subcutaneous injection at 2 weeks; and certolizumab 400 mg subcutaneous injection at 0, 2, and 4 weeks. Patients who respond may be treated with chronic maintenance therapy, as follows: infliximab 5 mg/kg intravenous infusion every 8 weeks; adalimumab 40 mg subcutaneous injection every 2 weeks; certolizumab 400 mg subcutaneous injection every 4 weeks. With chronic, regularly scheduled therapy, clinical response is maintained in more than 60% of patients and disease remission in 40%. However, one-third of patients eventually lose response despite higher doses or more frequent injections. Loss of response in many patients may be due to the development of antibodies to the TNF antibody or to other mechanisms."
+        },
+        {
+            "id": "InternalMed_Harrison_24658",
+            "title": "InternalMed_Harrison",
+            "content": "Cytokines and Cytokine Inhibitors Several TNF inhibitors are used as biological therapies in the treatment of rheumatoid arthritis; these include monoclonal antibodies, TNF-R Fc fusion proteins, and Fab fragments. Use of anti-TNF-\u03b1 antibody therapies such as adalimumab, infliximab, and golimumab has resulted in clinical improvement in patients with these diseases and has opened the way for targeting TNF-\u03b1 to treat other severe forms of autoimmune and/or inflammatory disease. Blockage of TNF-\u03b1 has been effective in rheumatoid arthritis, psoriasis, Crohn\u2019s disease, and ankylosing spondylitis. Other cytokine inhibitors are recombinant soluble TNF-\u03b1 receptor (R) fused to human Ig and anakinra (soluble IL-1 receptor antagonist, or IL-1ra). The treatment of autoinflammatory syndromes (Table 372e-6) with recombinant IL-1 receptor antagonist can prevent symptoms in these syndromes, because the overproduction of IL-1\u03b2 is a hallmark of these diseases."
+        },
+        {
+            "id": "Immunology_Janeway_4007",
+            "title": "Immunology_Janeway",
+            "content": "Newer treatments attempt to target the aspects of the immune response that cause tissue damage, such as cytokine action, while avoiding wholesale immunosuppression, but even these therapeutic agents can affect important components of the response to infectious disease. The most immediate way of inhibiting a particular part of the immune response is via highly specific antibodies, usually directed against specific proteins expressed and/or secreted by immune cells. Approaches of this type that were experimental at the time of previous editions of this book are now part of established medical practice. Anticytokine monoclonal antibodies, such as the drug infliximab (anti-TNF-\u03b1) used in the treatment of rheumatoid arthritis, can neutralize local excesses of cytokines or chemokines or target natural cellular regulatory mechanisms to inhibit unwanted immune responses. Proteins besides antibodies are also in use to control immune responses, an example being abatacept, a fusion protein"
+        },
+        {
+            "id": "InternalMed_Harrison_25895",
+            "title": "InternalMed_Harrison",
+            "content": "The biologic anti-TNF agents have recently been studied in sarcoidosis, with prospective randomized trials completed for both etanercept and infliximab. Etanercept has a limited role as a steroid-sparing agent. Conversely, infliximab significantly improved lung function when administered to glucocorticoid and cytotoxic pretreated patients with chronic disease The difference in response between these two agents is similar to that observed in Glucocorticoids tolerated Glucocorticoids not tolerated Glucocorticoids not effective Dose <10 mg/d Seek alternative agents Alternative agents Methotrexate Hydroxychloroquine Azathioprine Leflunomide Mycophenolate Minocycline Try alternative agents If effective, taper off glucocorticoids If not effective, consider: Multiple agents Infliximab Cyclophosphamide Thalidomide No Yes FIGUrE 390-10 Approach to chronic disease is based on whether glucocorticoid therapy is tolerated or not."
+        },
+        {
+            "id": "Pharmacology_Katzung_6979",
+            "title": "Pharmacology_Katzung",
+            "content": "Lymphoma appears to be increased in patients with untreated IBD. Anti-TNF agents may further increase the risk of lymphoma in this population, although the relative risk is uncertain. An increased number of cases of hepatosplenic T-cell lymphoma, a rare but usually fatal disease, have been noted in children and young adults, virtually all of whom have been on combined therapy with immunomodulators, anti-TNF agents, or corticosteroids. Anti-TNF agents may also be associated with an increased risk of nonmelanoma skin cancers."
+        },
+        {
+            "id": "Surgery_Schwartz_8178",
+            "title": "Surgery_Schwartz",
+            "content": "it is thought that there is no significant difference in efficacy between them. While infliximab is a mouse-human chimeric antibody, adalimumab (Humira) is a fully human antibody. Certolizumab pegol (Cimzia) is a PEGylated Fab fragment of a humanized TNF inhibitor mono-clonal antibody. These agents are generally used for patients who are resistant to standard therapy, to help taper steroid dosage. They are generally well tolerated, but they should not be used in patients with ongoing septic processes, such as undrained intra-abdomi-nal abscesses. Antibodies against other targets in this inflamma-tory pathway have also been developed, including vedolizumab (Entyvio), a humanized anti\u2013\u03b14\u03b27 integrin monoclonal antibody, with more specific anti-inflammatory effect in the intestine.For patients with perianal disease, antibiotic therapy with metronidazole or ciprofloxacin is the primary step. Two to 4 weeks of therapy is needed before improvements are seen, and often long-term therapy is"
+        },
+        {
+            "id": "Pharmacology_Katzung_4013",
+            "title": "Pharmacology_Katzung",
+            "content": "In Europe, the starting dose of tocilizumab is 8 mg/kg up to 800 mg. Tocilizumab dosage in SJIA or PJIA follows an algorithm that accounts for body weight. Additionally, dosage modifications are recommended on the basis of certain laboratory changes such as elevated liver enzymes, neutropenia, and thrombocytopenia. 3. Indications: Tocilizumab is a bDMARD indicated for adult patients with moderately to severely active RA who have had an inadequate response to one or more DMARDs. It is also indicated in patients who are older than 2 years with active SJIA or active PJIA. A recent study showed that it is slightly more effective than adalimumab. There is an ongoing phase 3 study to test its use in SSc. 4."
+        },
+        {
+            "id": "InternalMed_Harrison_25500",
+            "title": "InternalMed_Harrison",
+            "content": "or certolizumab pegol [humanized mouse anti-TNF-\u03b1 monoclonal antibody]) have shown rapid, profound, and sustained reductions in all clinical and laboratory measures of disease activity. In a good response, there is significant improvement in both objective and subjective indicators of disease activity and function, including morning stiffness, pain, spinal mobility, peripheral joint swelling, CRP, and ESR. MRI studies indicate substantial resolution of bone marrow edema, enthesitis, and joint effusions in the sacroiliac joints, spine, and peripheral joints (Fig. 384-2). Similar results have been obtained in large randomized controlled trials of all four agents and many open-label studies. About one-half of the patients achieve a \u226550% reduction in the BASDAI. The response tends to be stable over time, and partial or full remissions are common. Predictors of the best responses include younger age, shorter disease duration, higher baseline inflammatory markers, and lower baseline"
+        },
+        {
+            "id": "InternalMed_Harrison_25505",
+            "title": "InternalMed_Harrison",
+            "content": "therapy requires either a 50% reduction in BASDAI or absolute reduction of \u22652 out of 10, and favorable expert opinion. Switching to a second anti-TNF agent may be effective, especially if there was a response to the first that was lost rather than primary failure. Sulfasalazine, in doses of 2\u20133 g/d, has been shown to be of modest benefit, primarily for peripheral arthritis. A therapeutic trial of this agent should precede any use of anti-TNF agents in patients with predominantly peripheral arthritis. Methotrexate, although widely used, has not been shown to be of benefit in AS, nor has any therapeutic role for gold or oral glucocorticoids been documented. Potential benefit in AS has been reported for thalidomide, 200 mg/d, perhaps acting through inhibition of TNF-\u03b1."
+        },
+        {
+            "id": "Immunology_Janeway_3613",
+            "title": "Immunology_Janeway",
+            "content": "With the increasing clinical use of humanized monoclonal antibodies (such as anti-TNF-\u03b1 used for the treatment of rheumatoid arthritis), cases of serum sickness are observed, fortunately rarely, in settings where the attempt to humanize the monoclonal antibody was not successful for selected patients because they produce uncommon Ig allotypes. In these individuals, symptoms are generally mild, and one of the most significant features of the anti-monoclonal antibody response is more rapid clearance of the antibody from the circulation, leading to reduction of its therapeutic effects."
+        },
+        {
+            "id": "Pharmacology_Katzung_6182",
+            "title": "Pharmacology_Katzung",
+            "content": "Reslizumab binds and neutralizes the biological activity of IL-5, thereby suppressing the production and survival of eosinophils. It is approved for adult patients with severe eosinophilic asthma. Mepolizumab also binds to IL-5 and selectively inhibits eosinophilic inflammation in patients with severe eosinophilic asthma. Siltuximab is a Mab that binds to and blocks IL-6 from binding to its cellular receptor. It is approved for the treatment of patients with multicentric Castleman\u2019s disease who are HIV-negative and HHV-8-negative. Tocilizumab is recombinant humanized IgG1 that binds to soluble and membrane-associated IL-6 receptors. It inhibits IL-6-mediated signaling on lymphocytes, suppressing inflammatory processes. Similar to anti-TNF-\u03b1 Mabs, patients receiving tocilizumab should be closely monitored for infectious diseases such as tuberculosis and other invasive bacterial, fungal, and viral infections."
+        },
+        {
+            "id": "Pharmacology_Katzung_4021",
+            "title": "Pharmacology_Katzung",
+            "content": "MTX. ACR20 responses at 3 months and achievement of low disease activity at 2 years were numerically comparable for both protocols. Although putatively a 24-month trial, patients could switch from one regimen to the other at 3 months, confounding comparability beyond that time frame. Not surprisingly, given this confounding, the primary goal of certolizumab MTX superiority was not met. Patients were switched without washout so blood levels of TNFis as a group could be expected to be very high during the switchover. Interestingly, no serious infectious events occurred during the switch-over period. 1. Mechanism of Action: Etanercept is a recombinant fusion protein consisting of two soluble TNF p75 receptor moieties linked to the Fc portion of human IgG1 (Figure 36\u20134); it binds TNF-\u03b1 molecules and also inhibits lymphotoxin \u03b1. 2."
+        },
+        {
+            "id": "Pharmacology_Katzung_3982",
+            "title": "Pharmacology_Katzung",
+            "content": "The bDMARDs approved for RA include a T-cell\u2013modulating biologic (abatacept), a B-cell cytotoxic agent (rituximab), an anti\u2013IL-6 receptor antibody (tocilizumab), IL-1\u2013inhibiting agents (anakinra, rilonacept, canakinumab), and the TNF-\u03b1\u2013blocking agents (five drugs); bDMARDs are further divided into biological original (or legacy) products and biosimilar DMARDs (boDMARDs and bsDMARDs, respectively)."
+        }
+    ],
+    "scores": [
+        0.036004852696680544,
+        0.0352680864975947,
+        0.03323299362903323,
+        0.03307847393854031,
+        0.03118327945938416,
+        0.03098487026825885,
+        0.03085764021611887,
+        0.02959779614325069,
+        0.029294443687247287,
+        0.028069142586142046,
+        0.027704257593029146,
+        0.027527010858320065,
+        0.027138623447072997,
+        0.02695169413919414,
+        0.02610424371233546,
+        0.02587984742530197,
+        0.02496803284204859,
+        0.024665421724245254,
+        0.023483536844663144,
+        0.02319492587948964,
+        0.023065212991561293,
+        0.022730387588399757,
+        0.022256661007970333,
+        0.02198870675559497,
+        0.021619780203350876,
+        0.021495567964924966,
+        0.019750765701583215,
+        0.019433071344342606,
+        0.019365103964871497,
+        0.018779756656674307,
+        0.018556382927744343,
+        0.01838731443994602
+    ]
+}

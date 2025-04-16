@@ -1,0 +1,206 @@
+{
+    "id": "5c6d9a157c78d69471000041",
+    "question": "Can you computationally predict Molecular Recognition Features (MoRFs) regions in Intrinsically Disordered Proteins (IDPs)?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand what Molecular Recognition Features (MoRFs) are and how they relate to Intrinsically Disordered Proteins (IDPs). MoRFs are short, linear sequences of amino acids that are responsible for protein-protein interactions. IDPs, on the other hand, are proteins that lack a fixed three-dimensional structure and are often characterized by long, unstructured regions. Given the complexity of IDPs, predicting MoRFs in these proteins can be challenging. However, recent advances in computational methods and machine learning algorithms have shown promise in identifying MoRFs in IDPs. These methods typically involve analyzing the sequence and structural properties of IDPs to predict potential MoRFs. For example, some studies have used deep learning-based approaches to identify MoRFs in IDPs by analyzing their sequence and structural features, such as hydrophobicity, charge, and secondary structure. While these methods have shown promising results, predicting MoRFs in IDPs remains an active area of research, and more work is needed to improve the accuracy of these predictions. Therefore, the answer to the question is that it is possible to computationally predict MoRFs in IDPs, but the accuracy of these predictions can vary depending on the specific method and dataset used.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_526",
+            "title": "Cell_Biology_Alberts",
+            "content": "searching for disordered regions based on their unusually low hydrophobicity and relatively high net charge. Combining these results with other data, it is now thought that perhaps a quarter of all eukaryotic proteins can adopt structures that are mostly disordered, fluctuating rapidly between many different conformations. Many such intrinsically disordered regions contain repeated sequences of amino acids. What do these disordered regions do?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_525",
+            "title": "Cell_Biology_Alberts",
+            "content": "Intrinsically disordered regions of proteins are frequent in nature, and they have important functions in the interior of cells. As we have already seen, proteins often have loops of polypeptide chain that protrude from the core region of a protein domain to bind other molecules. Some of these loops remain largely unstructured until they bind to a target molecule, adopting a specific folded conformation only when this other molecule is bound. Many proteins were also known to have intrinsically disordered tails at one or the other end of a structured domain (see, for example, the histones in Figure 4\u201324). But the extent of such disordered structure only became clear when genomes were sequenced. This allowed bioinformatic methods to be used to analyze the amino acid sequences that genes encode, searching for disordered regions based on their unusually low hydrophobicity and relatively high net charge. Combining these results with other data, it is now thought that perhaps a quarter of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_530",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201324 Some important functions for intrinsically disordered protein sequences. (A) Unstructured regions of polypeptide chain often form binding sites for other proteins. Although these binding events are of high specificity, they are often of low affinity due to the free-energy cost of folding the normally unfolded partner (and they are thus readily reversible). (B) Unstructured regions can be easily modified covalently to change their binding preferences, and they are therefore frequently involved in cell signaling processes. In this schematic, multiple sites of protein phosphorylation are indicated. (C) Unstructured regions frequently create \u201ctethers\u201d that hold interacting protein domains in close proximity. (D) A dense network of unstructured proteins can form a diffusion barrier, as the nucleoporins do for the nuclear pore."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2232",
+            "title": "Cell_Biology_Alberts",
+            "content": "However, it remains a substantial and important challenge to predict the structures of proteins that are large or have multiple domains, or to predict structures at the very high levels of resolution needed to assist in computer-based drug discovery."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2231",
+            "title": "Cell_Biology_Alberts",
+            "content": "As was explained in Chapter 3, many proteins that adopt the same conformation and have related functions are too distantly related to be identified from a comparison of their amino acid sequences alone (see Figure 3\u201313). Thus, an ability to reliably predict the three-dimensional structure of a protein from its amino acid sequence would improve our ability to infer protein function from the sequence information in genomic databases. In recent years, major progress has been made in predicting the precise structure of a protein. These predictions are based, in part, on our knowledge of the thousands of protein structures that have already been determined by x-ray crystallography and NMR spectroscopy and, in part, on computations using our knowledge of the physical forces acting on the atoms. However, it remains a substantial and important challenge to predict the structures of proteins that are large or have multiple domains, or to predict structures at the very high levels of resolution"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1748",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201311 Prokaryotes and eukaryotes both protect against the dangers of translating broken mRNAs. What dangers do partial mRNAs pose for the cell? 6\u201312 Both hsp60-like and hsp70 molecular chaperones share an affinity for exposed hydrophobic patches on proteins, using them as indicators of incomplete folding. Why do you suppose hydrophobic patches serve as critical signals for the folding status of a protein? 6\u201313 Most proteins require molecular chaperones to assist in their correct folding. How do you suppose the chaperones themselves manage to fold correctly? 6\u201314 What is so special about RNA that it is hypothesized to be an evolutionary precursor to DNA and protein? What is it about DNA that makes it a better material than RNA for storage of genetic information?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_740",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the functions of the surprisingly large amount of unfolded polypeptide chain found in proteins? How many types of protein functions remain to be discovered? What are the most promising approaches for discovering them? When will scientists be able to take any amino acid sequence and accurately predict both that protein\u2019s three-dimensional conformations and its chemical properties? What breakthroughs will be needed to accomplish this important goal? Are there ways to reveal the detailed workings of a protein machine that do not require the purification of each of its component parts in large amounts, so that the machine\u2019s functions can be reconstituted and dissected using chemical techniques in a test tube? What are the roles of the dozens of different types of covalent modifications of proteins that have been found in addition to those listed in Table 3\u20133? Which ones are critical for cell function and why?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2585",
+            "title": "Cell_Biology_Alberts",
+            "content": "8\u201317 Examine the network motifs in Figure Q8\u20135. Decide which ones are negative feedback loops and which are positive. Explain your reasoning. 8\u201318 Imagine that a random perturbation positions a bistable system precisely at the boundary between two stable states (at the orange dot in Figure Q8\u20136). How would the system respond? Figure Q8\u20134 RNA-seq reads for a liver mRNA (Problem 8\u201316). The exon structure of the mRNA is indicated, with protein-coding segments indicated in light blue and untranslated regions in dark blue. The numbers of sequencing reads are indicated by the heights of the vertical lines above the mRNA. Figure Q8\u20135 Network motifs composed of transcription activators and repressors (Problem 8\u201317)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_462",
+            "title": "Cell_Biology_Alberts",
+            "content": "each dot represents an observed pair of angles in a protein. The three differently shaded clusters of dots reflect three different \u201csecondary structures\u201d repeatedly found in proteins, as will be described in the text. (B, from J. Richardson, Adv. Prot. Chem. 34:174\u2013175, 1981. \u00a9 Academic Press.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_463",
+            "title": "Cell_Biology_Alberts",
+            "content": "A fourth weak force\u2014a hydrophobic clustering force\u2014also has a central role in determining the shape of a protein. As described in Chapter 2, hydrophobic molecules, including the nonpolar side chains of particular amino acids, tend to be forced together in an aqueous environment in order to minimize their disruptive effect on the hydrogen-bonded network of water molecules (see Panel 2\u20132, pp. 92\u201393). Therefore, an important factor governing the folding of any protein is Figure 3\u20134 Three types of noncovalent bonds help proteins fold. Although a single one of these bonds is quite weak, many of them act together to create a strong bonding arrangement, as in the example shown. As in the previous figure, R is used as a general designation for an amino acid side chain. 112 Panel 3\u20131: The 20 amino acids Found in Proteins THE AMINO ACID OPTICAL ISOMERS The \u02dc-carbon atom is asymmetric, which allows for two mirror images (or stereo-)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3417",
+            "title": "Cell_Biology_Alberts",
+            "content": "how do nuclear import receptors negotiate the tangled gel-like interior of a nuclear pore complex so efficiently? is the nuclear pore complex a rigid structure or can it expand and contract, depending on the cargo transported? sequence comparisons show that signal sequences for an individual protein such as insulin are quite conserved across species, much more so than would be expected from our current understanding that all that matters for their function are general structural features such as hydrophobicity. What other functions might signal sequences have that could account for their evolutionary sequence conservation? how are polyribosomes on the endoplasmic reticulum membrane arranged so that the next initiating ribosome will find an unoccupied translocator? Why does the signal-recognition particle have an indispensable rna subunit? Which statements are true? Explain why or why not."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2227",
+            "title": "Cell_Biology_Alberts",
+            "content": "P. Kraulis.) sequence, it is possible in principle to compute the three-dimensional structure of the protein (Figure 8\u201322). For technical reasons, the structure of small proteins of about 20,000 daltons or less can be most readily determined by NMR spectroscopy. Resolution decreases as the size of a macromolecule increases. But recent technical advances have now pushed the limit to about 100,000 daltons, thereby making the majority of proteins accessible for structural analysis by NMR. Because NMR studies are performed in solution, this method also offers a convenient means of monitoring changes in protein structure, for example during protein folding or when the protein binds to another molecule. NMR is also used widely to investigate molecules other than proteins and is valuable, for example, as a method to determine the three-dimensional structures of RNA molecules and the complex carbohydrate side chains of glycoproteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_757",
+            "title": "Cell_Biology_Alberts",
+            "content": "Li P, Banjade S, Cheng H-C et al. (2012) Phase transitions in the assembly of multivalent signalling proteins. Nature 483, 336\u2013340. Lindquist SL & Kelly JW (2011) Chemical and biological approaches for adapting proteostasis to ameliorate protein misfolding and aggregation diseases\u2014progress and prognosis. Cold Spring Harb. Perspect. Biol. 3, a004507. Maji SK, Perrin MH, Sawaya MR et al. (2009) Functional amyloids as natural storage of peptide hormones in pituitary secretory granules. Science 325, 328\u2013332. Nelson R, Sawaya MR, Balbirnie M et al. (2005) Structure of the cross-\u03b2 spine of amyloid-like fibrils. Nature 435, 773\u2013778. Nomura M (1973) Assembly of bacterial ribosomes. Science 179, 864\u2013873. Oldfield CJ & Dunker AK (2014) Intrinsically disordered proteins and intrinsically disordered protein regions. Annu. Rev. Biochem. 83, 553\u2013584. Orengo CA & Thornton JM (2005) Protein families and their evolution\u2014a structural perspective. Annu. Rev. Biochem. 74, 867\u2013900."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3327",
+            "title": "Cell_Biology_Alberts",
+            "content": "ER signal sequences vary greatly in amino acid sequence, but each has eight or more nonpolar amino acids at its center (see Table 12\u20133, p. 648). How can the SRP bind specifically to so many different sequences? The answer has come from the crystal structure of the SRP protein, which shows that the signal-sequence-binding site is a large hydrophobic pocket lined by methionines. Because methionines have unbranched, flexible side chains, the pocket is sufficiently plastic to accommodate hydrophobic signal sequences of different sequences, sizes, and shapes."
+        },
+        {
+            "id": "Biochemistry_Lippincott_61",
+            "title": "Biochemistry_Lippinco",
+            "content": "C. Protein folding Interactions between the side chains of amino acids determine how a linear polypeptide chain folds into the intricate three-dimensional shape of the functional protein. Protein folding, which occurs within the cell in seconds to minutes, involves nonrandom, ordered pathways. As a peptide folds, secondary structures form, driven by the hydrophobic effect (that is, hydrophobic groups come together as water is released). These small structures combine to form larger structures. Additional events stabilize secondary structure and initiate formation of tertiary structure. In the last stage, the peptide achieves its fully folded, native (functional) form characterized by a low-energy state (Fig. 2.12). [Note: Some biologically active proteins or segments thereof lack a stable tertiary structure. They are referred to as intrinsically disordered proteins.] D. Protein denaturation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_741",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is amyloid toxic to cells and how does it contribute to neurodegenerative diseases such as Alzheimer\u2019s disease? Which statements are true? explain why or why not. 3\u20131 Each strand in a \u03b2 sheet is a helix with two amino acids per turn. 3\u20132 Intrinsically disordered regions of proteins can be identified using bioinformatic methods to search genes for encoded amino acid sequences that possess high hydrophobicity and low net charge. 3\u20133 Loops of polypeptide that protrude from the surface of a protein often form the binding sites for other molecules. 3\u20134 An enzyme reaches a maximum rate at high substrate concentration because it has a fixed number of active sites where substrate binds. 3\u20135 Higher concentrations of enzyme give rise to a higher turnover number. 3\u20136 Enzymes that undergo cooperative allosteric transitions invariably consist of symmetric assemblies of multiple subunits."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2576",
+            "title": "Cell_Biology_Alberts",
+            "content": "sequence data accumulates, how are we going to keep track of and Summary meaningfully analyze this vast amount of information? What new questions Quantitative mathematical analysis can provide a powerful extra dimension in our will this information allow us to answer? understanding of cell regulation and function. Cell regulatory systems often depend \u2022 Can we develop tools to analyze on macromolecular interactions, and mathematical analysis of the dynamics of each of the post-transcriptional these interactions can unveil important insights into the importance of binding modifications on the proteins in living affinities and protein stability in the generation of transcriptional or other signals. cells, so as to follow all of their Regulatory systems often employ network motifs that generate useful behaviors: changes in real time?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6541",
+            "title": "Cell_Biology_Alberts",
+            "content": "pattern recognition receptors (prrs) recognize conserved Features of pathogens Pathogens do occasionally breach the epithelial barricades, in which case underlying, nonepithelial cells of the innate immune system provide the next line of defense. These cells sense the presence of pathogens largely through the use of receptor proteins that recognize microbe-associated molecules that either are not present or are sequestered in the host organism. Because these microbial molecules often occur in repeating patterns, they are called pathogen-associated molecular patterns (PAMPs), even though they are not unique to microbes that can cause disease. PAMPs are present in various microbial molecules, including nucleic acids, lipids, polysaccharides, and proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_458",
+            "title": "Cell_Biology_Alberts",
+            "content": "As discussed in Chapter 2, atoms behave almost as if they were hard spheres with a definite radius (their van der Waals radius). The requirement that no two atoms overlap plus other constraints limit the possible bond angles in a polypeptide chain (Figure 3\u20133), severely restricting the possible three-dimensional arrangements (or conformations) of atoms. Nevertheless, a long flexible chain such as a protein can still fold in an enormous number of ways."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1682",
+            "title": "Cell_Biology_Alberts",
+            "content": "protein folds into a compact structure, it buries most of its hydrophobic residues in an interior core. In addition, large numbers of noncovalent interactions form between various parts of the molecule. It is the sum of all of these energetically favorable arrangements that determines the final folding pattern of the polypeptide chain\u2014as the conformation of lowest free energy (see pp. 114\u2013115)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2581",
+            "title": "Cell_Biology_Alberts",
+            "content": "8\u201310 How many copies of a protein need to be present in a cell in order for it to be visible as a band on an SDS gel? Assume that you can load 100 \u03bcg of cell extract onto a gel and that you can detect 10 ng in a single band by silver staining the gel. The concentration of protein in cells is about 200 mg/mL, and a typical mammalian cell has a volume of about 1000 \u03bcm3 and a typical bacterium a volume of about 1 \u03bcm3. Given these parameters, calculate the number of copies of a 120-kd protein that would need to be present in a mammalian cell and in a bacterium in order to give a detectable band on a gel. You might try an order-of-magnitude guess before you make the calculations."
+        },
+        {
+            "id": "Cell_Biology_Alberts_582",
+            "title": "Cell_Biology_Alberts",
+            "content": "the large SH2 family of peptide recognition domains. Mutation is a random process; survival is not. Thus, natural selection (random mutation followed by nonrandom survival) produces the sequence conservation by preferentially eliminating organisms whose SH2 domains become altered in a way that inactivates the SH2 binding site, destroying SH2 function. Genome sequencing has revealed huge numbers of proteins whose functions are unknown. Once a three-dimensional structure has been determined for one member of a protein family, evolutionary tracing allows biologists to determine binding sites for the members of that family, providing a useful start in deciphering protein function. Proteins Bind to Other Proteins Through Several Types of Interfaces"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2223",
+            "title": "Cell_Biology_Alberts",
+            "content": "NMR Can Be Used to Determine Protein Structure in Solution Nuclear magnetic resonance (NMR) spectroscopy has been widely used for many years to analyze the structure of small molecules, small proteins, or protein domains. Unlike x-ray crystallography, NMR does not depend on having a crystalline sample. It simply requires a small volume of concentrated protein solution that is placed in a strong magnetic field; indeed, it is the main technique that yields detailed evidence about the three-dimensional structure of molecules in solution."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2089",
+            "title": "Cell_Biology_Alberts",
+            "content": "noncoding RNAs (lncRNAs) has recently been discovered. Although the function of most of these RNAs is unknown, some serve as RNA scaffolds to bring specific proteins and how is the final rate of transcription of a gene specified by the hundreds of proteins that assemble on its control regions? will we ever be able to predict this rate from inspection of the DnA sequences of control regions?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_569",
+            "title": "Cell_Biology_Alberts",
+            "content": "Regions of amino acid sequence known as domains are the modular units from which many proteins are constructed. Such domains generally contain 40\u2013350 amino acids, often folded into a globular shape. Small proteins typically consist of only a single domain, while large proteins are formed from multiple domains linked together by various lengths of polypeptide chain, some of which can be relatively disordered. As proteins have evolved, domains have been modified and combined with other domains to construct large numbers of new proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2219",
+            "title": "Cell_Biology_Alberts",
+            "content": "A complete atomic model is often too complex to appreciate directly, but simplified versions that show a protein\u2019s essential structural features can be readily derived from it (see Panel 3\u20132, pp. 142\u2013143). The three-dimensional structures of tens of thousands of different proteins have been determined by x-ray crystallography or by NMR spectroscopy (see page 461)\u2014enough to allow the grouping of common structures into families (Movie 8.1). These structures or protein folds often seem to be more conserved in evolution than are the amino acid sequences that form them (see Figure 3\u201313)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3742",
+            "title": "Cell_Biology_Alberts",
+            "content": "13\u20139 The KDEL receptor must shuttle back and forth between the ER and the Golgi apparatus to accomplish its task of ensuring that soluble ER proteins are retained in the ER lumen. In which compartment does the KDEL receptor bind its ligands more tightly? In which compartment does it bind its ligands more weakly? What is thought to be the basis for its different binding affinities in the two compartments? If you were designing the system, in which compartment would you have the highest concentration of KDEL receptor? Would you predict that the KDEL receptor, which is a transmembrane protein, would itself possess an ER retrieval signal? 13\u201310 How does the low pH of lysosomes protect the rest of the cell from lysosomal enzymes in case the lysosome breaks? Figure Q13\u20132 SNARE requirements for vesicle fusion (problem 13\u20137)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_747",
+            "title": "Cell_Biology_Alberts",
+            "content": "a. Are the data consistent with your hypothesis that titin\u2019s springlike behavior is due to the sequential unfolding of individual Ig domains? Explain your reasoning. b. Is the extension for each putative domain-unfolding event the magnitude you would expect? (In an extended polypeptide chain, amino acids are spaced at intervals of 0.34 nm.) C. Why is each successive peak in Figure Q3\u20132B a little higher than the one before? D. Why does the force collapse so abruptly after each peak?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_468",
+            "title": "Cell_Biology_Alberts",
+            "content": "Most proteins fold up into a single stable conformation. However, this conformation changes slightly when the protein interacts with other molecules in the cell. This change in shape is often crucial to the function of the protein, as we see later. Although a protein chain can fold into its correct conformation without outside help, in a living cell special proteins called molecular chaperones often assist in protein folding. Molecular chaperones bind to partly folded polypeptide chains and help them progress along the most energetically favorable folding pathway. In the crowded conditions of the cytoplasm, chaperones are required to prevent the temporarily exposed hydrophobic regions in newly synthesized protein chains from associating with each other to form protein aggregates (see p. 355). However, the final three-dimensional shape of the protein is still specified by its amino acid sequence: chaperones simply make reaching the folded state more reliable."
+        },
+        {
+            "id": "Surgery_Schwartz_3309",
+            "title": "Surgery_Schwartz",
+            "content": "for protein sequences exist, including Swiss-Prot (www.expasy.ch). These databases allow comparisons of newly identified proteins with previously char-acterized sequences to allow prediction of similarities, identifi-cation of splice variants, and prediction of membrane topology and posttranslational modifications. Tools for proteomic profil-ing include two-dimensional gel electrophoresis, time-of-flight mass spectrometry, matrix-assisted laser desorption/ionization, and protein microarrays. Structural proteomics aims to describe the three-dimensional structure of proteins that is critical to understanding function. Functional genomics seeks to assign a biochemical, physiologic, cell biologic, and/or developmental function to each predicted gene. An ever-increasing arsenal of approaches, including transgenic animals, RNA interference (RNAi), and various systematic mutational strategies, will allow dissection of functions associated with newly discovered genes. Although the potential"
+        },
+        {
+            "id": "Cell_Biology_Alberts_497",
+            "title": "Cell_Biology_Alberts",
+            "content": "As described in Chapter 8, because of the powerful techniques of x-ray crystallography and nuclear magnetic resonance (NMR), we now know the three-dimensional shapes, or conformations, of more than 100,000 proteins. By carefully comparing the conformations of these proteins, structural biologists (that is, experts on the structure of biological molecules) have concluded that there are a limited number of ways in which protein domains fold up in nature\u2014maybe as few as 2000, if we consider all organisms. For most of these so-called protein folds, representative structures have been determined."
+        },
+        {
+            "id": "Cell_Biology_Alberts_561",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many proteins with such domains also contain a different set of domains that bind to specific other protein or RNA molecules. Thus, their controlled aggregation Golgi amyloid template subunit cisterna fbril subunit of fbril (A) prion protein can adopt an abnormal, misfolded form normal Prp abnormal prion form protein of PrP protein (Prp*) (B) misfolded protein can induce formation of protein aggregates the conversion of more PrP to misfolded form creates a stable amyloid fbril protein aggregate in form of amyloid fbril"
+        }
+    ],
+    "scores": [
+        0.03940982333527471,
+        0.038034339186887436,
+        0.036791704477936726,
+        0.02830188679245283,
+        0.027495232040686587,
+        0.02476505981178878,
+        0.018295739348370928,
+        0.01740314769975787,
+        0.016960114983830397,
+        0.016823079596802223,
+        0.016382868937048503,
+        0.016312244089288074,
+        0.016070737059506908,
+        0.016002016002016003,
+        0.015847665847665848,
+        0.015720418404982162,
+        0.01571294559099437,
+        0.015668481548699334,
+        0.01563920712856883,
+        0.01558331312151346,
+        0.015303765303765305,
+        0.015272938443670152,
+        0.015217879604672057,
+        0.015203243358583165,
+        0.014973262032085561,
+        0.014302920806985848,
+        0.014264112903225806,
+        0.014141613924050632,
+        0.01411764705882353,
+        0.01380876674994322,
+        0.013752913752913754,
+        0.013550747549573151
+    ]
+}

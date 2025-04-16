@@ -1,0 +1,206 @@
+{
+    "id": "6237a6e93a8413c6530000b1",
+    "question": "Does sphingosine-1 phosphoate suppress epiregulin?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of sphingosine-1-phosphate (S1P) in the immune system and its relationship with epiregulin. S1P is a chemotactic lipid that controls the egress of T cells from lymph nodes, and it also regulates the trafficking of naive lymphocytes from tissues into the blood. On the other hand, epiregulin is a growth factor that promotes the proliferation of certain types of cancer cells. We need to determine if S1P has any direct effect on epiregulin or if it is related to epiregulin through some other mechanism. After reviewing the provided documents, we found no direct evidence that S1P suppresses epiregulin. However, we also found that fingolimod, a sphingosine-1-phosphate analog, is used to treat multiple sclerosis and has shown promise in treating kidney graft rejection and asthma. Fingolimod works by regulating the migration of immune effector cells to the sites of a graft or autoimmune disease, which involves the use of S1P. Therefore, it is possible that S1P may have some indirect effects on epiregulin, but there is no direct evidence to support the suppression of epiregulin by S1P. Hence, the correct answer is not explicitly stated in the provided documents, but based on the information given, we can say that there is no evidence that S1P suppresses epiregulin. The answer could be B (no).\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_4812",
+            "title": "Immunology_Janeway",
+            "content": "spacer See 12/23 rule. sphingolipids A class of membrane lipid containing sphingosine (2-amino4-octadecene-1,3-diole), an amino alcohol with unsaturated 18-hydrocarbon chain. sphingosine 1-phosphate (S1P) A phospholipid with chemotactic activity that controls the egress of T cells from lymph nodes. sphingosine 1-phosphate receptor (S1P1) A G-protein-coupled receptor activated by sphingosine 1-phosphate, a lipid mediator in the blood that regulates several physiologic processes, including the trafficking of naive lymphocytes from tissues into the blood. spleen An organ in the upper left side of the peritoneal cavity containing a red pulp, involved in removing senescent blood cells, and a white pulp of lymphoid cells that respond to antigens delivered to the spleen by the blood. S-protein (vitronectin) Plasma protein that binds incompletely formed MAC complexes, such as C5b67, preventing bystander complement damage to host membranes."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1862",
+            "title": "Biochemistry_Lippinco",
+            "content": "RQ1.Answer = B. Phosphatidylcholine is a glycerol-based phospholipid derived from diacylglycerol phosphate (phosphatidic acid) and cytidine diphosphatecholine. Gangliosides are derived from ceramides, lipids with a sphingosine backbone. Prostaglandins of the 2 series (such as PGI2) are derived from the 20 carbon polyunsaturated fatty acid arachidonic acid. Sphingomyelin is a sphingophospholipid derived from ceramide. Vitamin D is derived from an intermediate in the biosynthetic pathway for the sterol cholesterol. RQ2.Answer = A. Statins inhibit hydroxymethylglutaryl coenzyme A (HMG CoA) reductase, thereby preventing the nicotinamide adenine dinucleotide phosphate (NADPH)-dependent reduction of HMG CoA to mevalonate and decreasing cholesterol biosynthesis (see figure below). The decrease in cholesterol content caused by statins results in movement of the sterol regulatory element\u2013binding protein-2 (SREBP-2) in complex with SREBP cleavage\u2013 activating protein (SCAP) from the endoplasmic"
+        },
+        {
+            "id": "Immunology_Janeway_4033",
+            "title": "Immunology_Janeway",
+            "content": "One recently introduced drug manipulates immune responses by regulating the migration of immune effector cells to the sites of a graft or of autoimmune disease. In Section 9-7, we described how emigration of lymphocytes out of the lymphoid tissues requires recognition of the lipid molecule sphingosine 1-phosphate (S1P) by the G-protein-coupled receptor S1PR1. Fingolimod (FTY720), a sphingosine 1-phosphate analog, is a relatively newer drug that causes the retention of effector lymphocytes in lymphoid organs, thus preventing these cells from mediating their effector activities in target tissues. Fingolimod was approved in 2010 for treatment of the autoimmune disease multiple sclerosis, and has shown promise in the treatment of kidney graft rejection and asthma."
+        },
+        {
+            "id": "Biochemistry_Lippincott_718",
+            "title": "Biochemistry_Lippinco",
+            "content": "Sphingomyelin is degraded by sphingomyelinase, a lysosomal enzyme that removes phosphorylcholine, leaving a ceramide. The ceramide is, in turn, cleaved by ceramidase into sphingosine and a free FA (Fig. 17.12). [Note: The released ceramide and sphingosine regulate signal transduction pathways, in part by influencing the activity of protein kinase C and, thus, the phosphorylation of its protein substrates. They also promote apoptosis.] Niemann-Pick disease (types A and B) is an autosomal-recessive disorder caused by the inability to degrade sphingomyelin due to a deficiency of sphingomyelinase, a type of phospholipase C. In the severe infantile form (type A, which shows <1% of normal enzymic activity), the liver and spleen are the primary sites of lipid deposits and are, therefore, greatly enlarged. The lipid consists primarily of the sphingomyelin that cannot be degraded (Fig. 17.13). Infants with this lysosomal storage disease experience rapid and progressive neurodegeneration as a"
+        },
+        {
+            "id": "Immunology_Janeway_2262",
+            "title": "Immunology_Janeway",
+            "content": "Cyster, J.G.: Chemokines, sphingosine-1-phosphate, and cell migration in secondary lymphoid organs. Annu. Rev. Immunol. 2005, 23:127\u2013159. Laudanna, C., Kim, J.Y., Constantin, G., and Butcher, E.: Rapid leukocyte integrin activation by chemokines. Immunol. Rev. 2002, 186:37\u201346. Lo, C.G., Lu, T.T., and Cyster, J.G.: Integrin-dependence of lymphocyte entry into the splenic white pulp. J. Exp. Med. 2003, 197:353\u2013361. Luo, B.H., Carman, C.V., and Springer, T.A.: Structural basis of integrin regulation and signaling. Annu. Rev. Immunol. 2007, 25:619\u2013647. Rosen, H., and Goetzl, E.J.: Sphingosine 1-phosphate and its receptors: an autocrine and paracrine network. Nat. Rev. Immunol. 2005, 5:560\u2013570. 9-7 The exit of T cells from lymph nodes is controlled by a chemotactic lipid. Cyster, J.G., and Schwab, S.R.: Sphingosine-1-phosphate and lymphocyte egress from lymphoid organs. Annu. Rev. Immunol. 2012, 30:69-94."
+        },
+        {
+            "id": "Immunology_Janeway_2027",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 9.11 The egress of lymphocytes from lymphoid tissue is mediated by a sphingosine 1-phosphate (S1P) gradient. The level of sphingosine 1-phosphate (s1p) within lymphoid tissue is low compared with efferent lymph, thereby forming an s1p gradient (indicated by shading). The s1p receptor 1 (s1pr1) expressed on naive T cells is responsive to the s1p gradient. In the absence of antigen recognition, s1pr1 signaling promotes T-cell egress from the T-cell zones into the efferent lymphatic vessel. T cells activated by an antigen-expressing dendritic cell upregulate Cd69, which causes a decrease in s1pr1 expression and retention in the T-cell zone. effector T cells eventually reexpress s1pr1 as Cd69 expression decreases, and thereby egress from the lymph node. FTY720 inhibits T-cell egression by downmodulating expression of s1pr1 by ligand-induced internalization and by s1pr1-mediated closure of egress ports on the endothelium by enhancement of junctional contacts (not shown)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_697",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Sphingophospholipids: Sphingomyelin The backbone of sphingomyelin is the amino alcohol sphingosine, rather than glycerol (Fig. 17.4). A long-chain-length FA (LCFA) is attached to the amino group of sphingosine through an amide linkage, producing a ceramide, which can also serve as a precursor of glycolipids (see p. 209). The alcohol group at carbon 1 of sphingosine is esterified to phosphorylcholine, producing sphingomyelin, the only significant sphingophospholipid in humans. Sphingomyelin is an important constituent of the myelin sheath of nerve fibers. [Note: The myelin sheath is a layered, membranous structure that insulates and protects neuronal axons of the central nervous system (CNS).] III. PHOSPHOLIPID SYNTHESIS"
+        },
+        {
+            "id": "Biochemistry_Lippincott_693",
+            "title": "Biochemistry_Lippinco",
+            "content": "II. PHOSPHOLIPID STRUCTURE There are two classes of phospholipids: those that have glycerol (from glucose) as a backbone and those that have sphingosine (from serine and palmitate). Both classes are found as structural components of membranes, and both play a role in the generation of lipid signaling molecules. A. Glycerophospholipids Phospholipids that contain glycerol are called glycerophospholipids (or phosphoglycerides). Glycerophospholipids constitute the major class of phospholipids and are the predominant lipids in membranes. All contain (or are derivatives of) phosphatidic acid (PA), which is DAG with a phosphate group on carbon 3 (Fig. 17.1B). PA is the simplest phosphoglyceride and is the precursor of the other members of this group. 1. From phosphatidic acid and an alcohol: The phosphate group on PA can be esterified to a compound containing an alcohol group (see Fig. 17.1). For example: 2."
+        },
+        {
+            "id": "Immunology_Janeway_4006",
+            "title": "Immunology_Janeway",
+            "content": "Treatment of unwanted immune responses. Using the immune response to attack tumors. Fighting infectious diseases with vaccination. categories (Fig. 16.2). There are the powerful anti-inflammatory drugs of the corticosteroid family such as prednisone, the cytotoxic drugs such as azathioprine and cyclophosphamide, and the noncytotoxic fungal and bacterial derivatives such as cyclosporin A, tacrolimus (FK506 or fujimycin), and rapamycin (sirolimus), which inhibit intracellular signaling pathways within T lymphocytes. Finally, a recently introduced drug, fingolimod, interferes with signaling by the sphingosine 1-phosphate receptor that controls the egress of B and T cells from lymphoid organs, thus preventing effector lymphocytes from reaching peripheral tissues. Most of these drugs exert broad inhibition of the immune system, and suppress helpful as well as harmful responses. Opportunistic infection is therefore a common complication of immunosuppressive drug therapy."
+        },
+        {
+            "id": "Immunology_Janeway_1904",
+            "title": "Immunology_Janeway",
+            "content": "After 3\u20134 days in the medulla, CD4 and CD8 T cells upregulate SIP1 and exit the thymus into the blood blood vessel SIPSIPR1 CD4 and CD8 T cells entering the medulla are not fully mature Fig. 8.32 Thymocyte emigration is induced by signaling through the sphingosine 1-phosphate receptor, S1PR1. CD4 and CD8 single-positive thymocytes that have successfully survived positive and negative selection are found in the medulla but are not yet fully mature. At the termination of the maturation process, which takes 3\u20134 days, the CD4 and CD8 single-positive thymocytes upregulate the sphingosine 1-phosphate (S1P) receptor, known as S1PR1. S1PR1 is a G-proteincoupled receptor that promotes chemotaxis of the cells toward the ligand S1P. Due to the high levels of S1P in the blood, single-positive thymocytes are induced to leave the thymus by entering the blood, where they become part of the recirculating naive T-cell population."
+        },
+        {
+            "id": "Biochemistry_Lippincott_748",
+            "title": "Biochemistry_Lippinco",
+            "content": "Phospholipids are polar, ionic compounds composed of an alcohol (for example, choline or ethanolamine) attached by a phosphodiester bond either to diacylglycerol (DAG), producing phosphatidylcholine or phosphatidylethanolamine, or to the amino alcohol sphingosine (Fig. 17.25). Addition of a long-chain fatty acid to sphingosine produces a ceramide. Addition of phosphorylcholine produces the phospholipid sphingomyelin. Phospholipids are the predominant lipids of cell membranes. Nonmembrane phospholipids serve as components of lung surfactant and bile. Dipalmitoylphosphatidylcholine, also called dipalmitoyl lecithin, is the major lipid component of lung surfactant. Insufficient surfactant production causes respiratory distress syndrome. Phosphatidylinositol (PI) serves as a reservoir for arachidonic acid in membranes. The phosphorylation of membrane-bound PI produces phosphatidylinositol 4,5-bisphosphate (PIP2). This compound is degraded by phospholipase C in response to the binding of"
+        },
+        {
+            "id": "Immunology_Janeway_2026",
+            "title": "Immunology_Janeway",
+            "content": "9-7 The exit of T cells from lymph nodes is controlled by a chemotactic lipid. T cells exit from a lymph node via the cortical sinuses, which lead into the medullary sinus and then the efferent lymphatic vessel. The egress of T cells from secondary lymphoid organs involves the lipid molecule sphingosine 1-phosphate (S1P) (Fig. 9.11). This lipid has chemotactic activity and signaling properties similar to those of chemokines, in that the receptors for S1P are G-protein-coupled receptors. A concentration gradient of S1P between the lymphoid tissues and lymph or blood acts to draw unactivated naive T cells expressing an S1P receptor away from the lymphoid tissues and back into circulation."
+        },
+        {
+            "id": "Neurology_Adams_7375",
+            "title": "Neurology_Adams",
+            "content": "Fingolimod is a sphingosine-1 phosphate 1 (S1P1) receptor analogue that interferes with egress of mature lymphocytes from lymph nodes. Two large phase 3 clinical trials (FREEDOMS and TRANSFORMS) showed a significant effect on MRI lesion burden and relapse rate that is comparable or superior to injectable agents (Cohen and colleagues, 2010; Kappos and colleagues, 2006 and 2010). The approved 0.5 mg daily dose showed 54 percent reduction in relapse rate and 17 percent reduction in risk of disability progression in these 2 year trials. The systemic side effects of fingolimod likely relate to consequences of S1P1 inactivation in several nonneural tissues. Discontinuation of the drug is sometimes required because of extremes of bradycardia or atrioventricular block, macular edema, herpes infections, occurrence of melanoma, or elevations in liver function tests, the last of these, in approximately 10 percent of patients. Patients are monitored for bradyarrhythmias for 6 hours following the"
+        },
+        {
+            "id": "Immunology_Janeway_1906",
+            "title": "Immunology_Janeway",
+            "content": "After surviving positive and negative selection, thymocytes complete their maturation in the thymic medulla and then emigrate to peripheral lymphoid organs. Their final maturation results in changes to the T-cell receptor signaling machinery. Whereas an immature double-positive or single-positive thymocyte stimulated through the T-cell receptor will undergo apoptosis, a mature single-positive thymocyte responds by proliferating. The final maturation stage takes less than 4 days, and functionally competent T cells then emigrate from the thymus into the bloodstream (Fig. 8.32). Emigration requires recognition of the lipid molecule sphingosine 1-phosphate (S1P) by the G-proteincoupled receptor S1PR1, which is expressed by thymocytes during their final maturation. S1P is present in high concentration in blood and lymph, and mature thymocytes seem to be drawn toward it. Mature thymocytes also express CD62L (L-selectin), a lymph-node homing receptor that facilitates the localization of"
+        },
+        {
+            "id": "Immunology_Janeway_1807",
+            "title": "Immunology_Janeway",
+            "content": "a consequence of negative selection, but some are selected to mature into CD4 or CD8 single-positive cells and eventually to leave the thymus. Maturation of CD4+CD8+ double-positive cells into CD4 or CD8 single-positive cells is regulated by transcription factors ThPOK and Runx3, respectively. KLF2 is first expressed at the single-positive stage; if it is absent, thymocytes exhibit a defect in emigrating to peripheral lymphoid tissues, due in part to their failure to express receptors involved in trafficking, such as the sphingosine 1-phosphate (S1P) receptor, S1PR1 (see Fig. 8.32). The individual contributions to T-cell development of the other proteins are discussed in the text."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4423",
+            "title": "Cell_Biology_Alberts",
+            "content": "How do intracellular signaling circuits generate specific and dynamic signaling patterns such as oscillations and waves, and how are these patterns sensed and interpreted by the cell? Scaffold proteins and activated receptor tyrosine kinases nucleate the assembly of large intracellular signaling complexes. What is the dynamic behavior of these complexes, and how does this behavior influence downstream signaling? Which statements are true? explain why or why not. 15\u20131 All second messengers are water-soluble and diffuse freely through the cytosol. 15\u20132 In the regulation of molecular switches, protein kinases and guanine nucleotide exchange factors (GEFs) always turn proteins on, whereas protein phosphatases and GTPase-activating proteins (GAPs) always turn proteins off. 15\u20133 Most intracellular signaling pathways provide numerous opportunities for amplifying the responses to extracellular signals."
+        },
+        {
+            "id": "Immunology_Janeway_2116",
+            "title": "Immunology_Janeway",
+            "content": "peripheral tissues at sites where they are likely to encounter infection. activated T cells also have on their surface a higher density of the adhesion molecule Cd2, increasing the avidity of their interaction with potential target cells, as well as a higher density of the adhesion molecule Cd44. By alternative splicing of the rna transcript of the Cd45 gene, a change occurs in the isoform of Cd45 that is expressed, with activated T cells expressing the Cd45ro isoform, which associates with the T-cell receptor and Cd4. This change makes the T cell more sensitive to stimulation by low concentrations of peptide:MhC complexes. Finally, the sphingosine 1-phosphate receptor 1(s1pr1) is expressed by resting naive T cells, allowing the egress from lymphoid tissues of cells that do not become activated (see Fig. 9.11). downregulation of s1pr1 for several days after activation prevents T-cell egress during the period of proliferation and differentiation. after several days, it is expressed"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4299",
+            "title": "Cell_Biology_Alberts",
+            "content": "As mentioned earlier, RTKs and GPCRs activate some of the same intracellular signaling pathways. Both, for example, can activate the inositol phospholipid pathway triggered by phospholipase C. Moreover, even when they activate different pathways, the different pathways can converge on the same target proteins. Figure 15\u201355 illustrates both of these types of signaling overlaps: it summarizes five parallel intracellular signaling pathways that we have discussed so far\u2014one triggered by GPCRs, two triggered by RTKs, and two triggered by both kinds of receptors. Interactions among these pathways allow different extracellular signal molecules to modulate and coordinate each other\u2019s effects. Figure 15\u201354 Activation of mTOR by the PI-3-kinase\u2013Akt signaling pathway."
+        },
+        {
+            "id": "Immunology_Janeway_2315",
+            "title": "Immunology_Janeway",
+            "content": "Naive T cells and B cells express the sphingosine 1-phosphate receptor, S1PR1, which they use to egress from the peripheral lymphoid tissues (see Section 9-7). However, before they exit, they are retained and initially occupy two distinct zones, the T-cell areas and the primary lymphoid follicles (or B-cell areas or B-cell zones), respectively (see Figs 1.18\u20131.20). These zones are established by different patterns of chemokine receptor expression and chemokine production. Naive T cells express the chemokine receptor CCR7, and localize to zones where its ligands, CCL19 and CCL21, are highly expressed by stromal cells and dendritic cells (see Section 9-3). Circulating naive B cells express CXCR5, and when they migrate into lymphoid tissues, they enter the primary lymphoid follicles, where the chemokine CXCL13 is abundant. Within the follicle, stromal cells and a specialized cell type, the follicular dendritic cell (FDC), secrete CXCL13. The FDC is a nonphagocytic cell of"
+        },
+        {
+            "id": "Immunology_Janeway_2604",
+            "title": "Immunology_Janeway",
+            "content": "Naive CD4 T cells that are activated by antigen and become TFH cells acquire expression of CXCR5 and lose expression of CCR7 and S1PR1, the receptor for the chemotactic lipid sphingosine 1-phosphate (see Section 9-7). The constitutive expression of CXCL13 by follicular dendritic cells establishes a gradient that attracts developing TFH cells first to the border of the T-cell zone with a B-cell follicle, where they can interact with B cells that present their cognate antigen, and then into the B-cell follicle, where they provide help to germinal center B cells. Unlike TFH cells, other effector CD4 and CD8 T cells must leave the lymphoid tissue in which they have developed to interact with myelomonocytic cells at sites of infection in nonlymphoid tissues. The exit of effector T cells is induced by their loss of CCR7 and their reexpression of S1PR1. S1PR1 is normally rapidly downregulated by CD69 following antigenic stimulation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4254",
+            "title": "Cell_Biology_Alberts",
+            "content": "The intracellular signaling proteins that bind to phosphotyrosines have varied structures and functions. However, they usually share highly conserved phosphotyrosine-binding domains. These can be either SH2 domains (for Src homology"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2824",
+            "title": "Cell_Biology_Alberts",
+            "content": "signals, specific lipid kinases phosphorylate the head groups of these lipids to form docking sites for cytosolic signaling proteins, whereas specific phospholipases cleave certain inositol phospholipids to generate small intracellular signaling molecules."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2777",
+            "title": "Cell_Biology_Alberts",
+            "content": "Another important class of phospholipids are the sphingolipids, which are built from sphingosine rather than glycerol (Figure10\u20133D\u2013E). Sphingosine is a long acyl chain with an amino group (NH2) and two hydroxyl groups (OH) at one end. In sphingomyelin, the most common sphingolipid, a fatty acid tail is attached to the amino group, and a phosphocholine group is attached to the terminal hydroxyl group. Together, the phospholipids phosphatidylcholine, phosphatidylethanolamine, phosphatidylserine, and sphingomyelin constitute more than half the mass of lipid in most mammalian cell membranes (see Table 10\u20131, p. 571). Figure 10\u20132 The parts of a typical phospholipid molecule. this example is a phosphatidylcholine, represented (A) schematically, (B) by a formula, (c) as a space-filling model (Movie 10.1), and hydrophilicheadhydrophobictails(D) (D) as a symbol."
+        },
+        {
+            "id": "Biochemistry_Lippincott_717",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Sphingomyelin"
+        },
+        {
+            "id": "Pharmacology_Katzung_6140",
+            "title": "Pharmacology_Katzung",
+            "content": "Fingolimod hydrochloride (FH) is an orally active sphingosine 1-phosphate (S1P) receptor modulator that is derived from the fungal metabolite myriocin. The S1P receptor (subtype 1) controls the release of lymphocytes from lymph nodes and the thymus. FH is metabolized to fingolimod phosphate, which subsequently binds the S1P receptor and ultimately decreases circulating lymphocyte numbers in the periphery and central nervous system. S1P receptors are also expressed on neurons, such that FH may also be affecting neurodegeneration, gliosis, and endogenous repair mechanisms as well as resulting in lymphopenia to modify disease activity in multiple sclerosis. FH can cause serious cardiac toxicity including bradycardia, prolongation of the QT interval, and other abnormalities. Because of these potential complications, the drug requires cardiac monitoring for 6 hours after the first dose is given. FH is contraindicated in patients with preexisting conditions such as type II or III heart"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4284",
+            "title": "Cell_Biology_Alberts",
+            "content": "Having considered how RTKs use GEFs and monomeric GTPases to relay signals into the cell, we now consider a second major strategy that RTKs use that depends on a quite different intracellular relay mechanism. Figure 15\u201351 Growth cone collapse mediated by Rho family GTPases. The binding of ephrin A1 proteins on an adjacent cell activates EphA4 RTKs on the growth cone. Phosphotyrosines on the activated Eph receptors recruit and activate a cytoplasmic tyrosine kinase to phosphorylate the receptor-associated Rho-GEF ephexin on a tyrosine. This enhances the ability of the ephexin to activate RhoA. RhoA then induces the growth cone to collapse by stimulating the myosin-dependent contraction of the actin cytoskeleton. PI 3-Kinase Produces Lipid Docking Sites in the Plasma Membrane"
+        },
+        {
+            "id": "Immunology_Janeway_4607",
+            "title": "Immunology_Janeway",
+            "content": "CD45 A transmembrane tyrosine phosphatase found on all leukocytes. It is expressed in different isoforms on different cell types, including the different subtypes of T cells. Also called leukocyte common antigen, it is a generic marker for hematopoietically derived cells, with the exception of erythrocytes. CD45RO An alternatively spliced variant of CD45 that serves as a marker for memory T cells. CD48 See 2B4. CD59, protectin Cell-surface protein that protects host cells from complement damage by blocking binding of C9 to the C5b678 complex, thus preventing MAC formation. CD69 A cell-surface protein that is rapidly expressed by antigen-activated T cells. It acts to down-modulate the expression of the sphingosine 1 phosphate receptor 1 (S1PR1), thereby retaining activated T cells within T-cell zones of secondary lymphoid tissues as they divide and differentiate into effector T cells."
+        },
+        {
+            "id": "Immunology_Janeway_2261",
+            "title": "Immunology_Janeway",
+            "content": "Madri, J.A., and Graesser, D.: Cell migration in the immune system: the evolving interrelated roles of adhesion molecules and proteinases. Dev. Immunol. 2000, 7:103\u2013116. Rasmussen, L.K., Johnsen, L.B., Petersen, T.E., and S\u00f8rensen, E.S.: Human GlyCAM-1 mRNA is expressed in the mammary gland as splicing variants and encodes various aberrant truncated proteins. Immunol. Lett. 2002, 83:73\u201375. Rosen, S.D.: Ligands for L-selectin: homing, inflammation, and beyond. Annu. Rev. Immunol. 2004, 22:129\u2013156. von Andrian, U.H., and Mempel, T.R.: Homing and cellular traffic in lymph nodes. Nat. Rev. Immunol. 2003, 3:867\u2013878. 9-6 Activation of integrins by chemokines is responsible for the entry of naive T cells into lymph nodes. Cyster, J.G.: Chemokines, sphingosine-1-phosphate, and cell migration in secondary lymphoid organs. Annu. Rev. Immunol. 2005, 23:127\u2013159."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4094",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 15\u20137 Two types of intracellular signaling proteins that act as molecular switches. (A) A protein kinase covalently adds a phosphate from ATP to the signaling protein, and a protein phosphatase removes the phosphate. Although not shown, many signaling proteins are activated by dephosphorylation rather than by phosphorylation. (B) A GTP-binding protein is induced to exchange its bound GDP for GTP, which activates the protein; the protein then inactivates itself by hydrolyzing its bound GTP to GDP. signaling molecules share the cytoplasm with a crowd of closely related signaling molecules that control a diverse array of cellular processes. It is inevitable that an occasional signaling molecule will bind or modify the wrong partner, potentially creating unwanted cross-talk and interference between signaling systems. How does a signal remain strong, precise, and specific under these noisy conditions?"
+        },
+        {
+            "id": "Immunology_Janeway_4799",
+            "title": "Immunology_Janeway",
+            "content": "RNA exosome A multisubunit complex involved in processing and editing of RNA. ruxolitinib An inhibitor of JAK1 and JAK2 approved for treatment of myelofibrosis. S1PR1 A G protein-coupled receptor expressed on circulating lymphocytes that binds the chemotactic phospholipid, sphingosine 1-phosphate, which forms a chemotactic gradient that promotes the egress of non-activated lymphocytes out of secondary lymphoid tissues into the efferent lymphatics and blood. See also CD69. SAP (SLAM-associated protein) An intracellular adaptor protein involved in signaling by SLAM (signaling lymphocyte activation molecule). Inactivating mutations in this gene cause X-linked lymphoproliferative (XLP) syndrome. scaffolds Adaptor-type proteins with multiple binding sites, which bring together specific proteins into a functional signaling complex."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6983",
+            "title": "Cell_Biology_Alberts",
+            "content": "different membranes and for intracellular signal transduction in eukaryotic cells. (Figure 13\u201310) phospholipase C (PLC) Membrane-bound enzyme that cleaves inositol phospholipids to produce IP3 and diacylglycerol in the inositol phospholipid signaling pathway. PLC\u03b2 is activated by GPCRs via specific G proteins, while PLC\u03b3 is activated by RTKs. (Figure 15\u201355) phospholipid The main category of lipids used to construct biomembranes. Generally composed of two fatty acids linked through glycerol (or sphingosine) phosphate to one of a variety of polar groups. (FIgure 10\u20133, and Panel 2\u20135, pp. 98\u201399) phosphorylation Reaction in which a phosphate group is covalently coupled to another molecule."
+        },
+        {
+            "id": "Pharmacology_Katzung_224",
+            "title": "Pharmacology_Katzung",
+            "content": "B. Phosphoinositides and Calcium Another well-studied second messenger system involves hormonal stimulation of phosphoinositide hydrolysis (Figure 2\u201314). Some of the hormones, neurotransmitters, and growth factors that trigger this pathway bind to receptors linked to G proteins, whereas others bind to receptor tyrosine kinases. In all cases, the crucial step is stimulation of a membrane enzyme, phospholipase C (PLC), which splits a minor phospholipid component of the plasma membrane, phosphatidylinositol-4,5-bisphosphate (PIP2), into two second messengers, diacylglycerol (DAG) and inositol-1,4,5-trisphosphate (IP3 or InsP3). Diacylglycerol is confined to the membrane, where it activates a phospholipidand"
+        }
+    ],
+    "scores": [
+        0.029128044048089736,
+        0.028688417402887585,
+        0.028583678225301758,
+        0.027811621219254602,
+        0.02713919413919414,
+        0.026441029095849812,
+        0.02447530467332448,
+        0.020316665367986833,
+        0.018883049790683174,
+        0.018605053651782624,
+        0.017467581998474445,
+        0.01707175925925926,
+        0.016964924838940586,
+        0.01678690344062153,
+        0.016597796143250687,
+        0.016269841269841268,
+        0.01613008130081301,
+        0.015858324077502158,
+        0.01581493425948896,
+        0.01577384634417914,
+        0.015731292517006803,
+        0.015485739750445633,
+        0.015302089215132693,
+        0.015099557522123894,
+        0.014953478068232167,
+        0.014496314496314496,
+        0.014362023785527112,
+        0.014305934688100293,
+        0.01367386669138778,
+        0.013472654513116942,
+        0.013460607926802447,
+        0.013379273313048147
+    ]
+}

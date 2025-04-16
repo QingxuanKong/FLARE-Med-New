@@ -1,0 +1,206 @@
+{
+    "id": "62211d6f3a8413c65300006f",
+    "question": "Are circRNAs susceptible to degradation by RNase R?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand what circRNAs are and how they are processed. CircRNAs are a type of non-coding RNA that is closed-loop structured, meaning that the 5' end of the RNA is connected to the 3' end through a covalent bond. This structure is different from traditional mRNAs, which are linear and open to degradation by RNases. Given that circRNAs are closed-loop structured, it is likely that they are not susceptible to degradation by RNases, as RNases typically target linear RNAs. However, the specific answer can be determined by looking at the structure of circRNAs and how they are processed. CircRNAs are typically formed through a process called back-splicing, where the 5' and 3' arms of the RNA are joined together through a phosphodiester bond. This process creates a closed-loop structure that is resistant to degradation by RNases. Therefore, based on the structure and processing of circRNAs, it is likely that they are resistant to degradation by RNase R.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1749",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201315 If an RNA molecule could form a hairpin with a symmetric internal loop, as shown in Figure Q6\u20135, could the complement of this RNA form a similar structure? If so, would there be any regions of the two structures that are identical? Which ones? Figure Q6\u20135 An RNA hairpin with 5\u2019-G-C-A C-C-G a symmetric internal loop (Problem U 6\u201315). 6\u201316 Imagine a warm pond on the primordial Earth. Chance processes have just assembled a single copy of an RNA molecule with a catalytic site that can carry out RNA replication. This RNA molecule folds into a structure that is capable of linking nucleotides according to instructions in an RNA template. Given an adequate supply of nucleotides, will this single RNA molecule be able to use itself as a template to catalyze its own replication? Why or why not? Atkins JF, Gesteland RF & Cech TR (eds) (2011) The RNA Worlds: From Life\u2019s Origins to Diversity in Gene Regulation. Cold Spring Harbor, NY: Cold Spring Harbor Laboratory Press."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2035",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201369 Two mechanisms of eukaryotic mRNA decay. A critical threshold of poly-A tail length induces rapid 3\u02b9-to-5\u02b9 degradation, which may be triggered by the loss of the poly-Abinding proteins. As shown in figure 7\u201370, a deadenylase associates with both the 3\u02b9 poly-A tail and the 5\u02b9 cap, and this connection may be involved in signaling decapping after poly-A shortening. Although 5\u02b9-to-3\u02b9 and 3\u02b9-to-5\u02b9 degradation are shown here on separate rnA molecules, these two processes can occur together on the same molecule. (Adapted from C.A. Beelman and r. parker, Cell 81:179\u2013183, 1995. with permission from elsevier.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2105",
+            "title": "Cell_Biology_Alberts",
+            "content": "hershey JwB, Sonenberg n & Mathews MB (2012) principles of translational control: an overview. Cold Spring Harb. Perspect. Biol. 4, a011528. hundley hA & Bass Bl (2010) ADAr editing in double-stranded Utrs and other noncoding rnA sequences. Trends Biochem. Sci. 35, 377\u2013383. Kalsotra A & Cooper tA (2011) functional consequences of developmentally regulated alternative splicing. Nat. Rev. Genet. 12, 715\u2013729. Kortmann J & narberhaus f (2012) Bacterial rnA thermometers: molecular zippers and switches. Nat. Rev. Microbiol. 10, 255\u2013265. parker r (2012) rnA degradation in Saccharomyces cerevisae. Genetics 191, 671\u2013702. popp Mw & Maquat le (2013) Organizing principles of mammalian nonsense-mediated mrnA decay. Annu. Rev. Genet. 47, 139\u2013165. Serganov A & nudler e (2013) A decade of riboswitches. Cell 152, 17\u201324. thompson Sr (2012) tricks an ireS uses to enslave ribosomes. Trends Microbiol. 20, 558\u2013566. Regulation of Gene Expression By Noncoding RNAs"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2082",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have already encountered a few lncRNAs, including the RNA in telomerase (see Figure 5\u201333), Xist RNA (see Figure 7\u201352), and an RNA involved in imprinting (see Figure 7\u201349). Other lncRNAs have been implicated in controlling the enzymatic activity of proteins, inactivating transcription regulators, affecting splicing patterns, and blocking translation of certain mRNAs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2086",
+            "title": "Cell_Biology_Alberts",
+            "content": "In some cases, lncRNAs work simply by base-pairing, without bringing in enzymes or other proteins. For example, a number of lncRNA genes are embedded in protein-coding genes, but they are transcribed in the \u201cwrong direction.\u201d These antisense RNAs can form complementary base pairs with the mRNA (transcribed in the \u201ccorrect\u201d direction) and block its translation into protein (see Figure 7\u201366D). Other antisense lncRNAs base-pair with pre-mRNAs as they are synthesized and change the pattern of RNA splicing by masking splice-site sequences. Still others act as \u201csponges,\u201d base-pairing with miRNAs and thereby reducing their effects."
+        },
+        {
+            "id": "Pathology_Robbins_24",
+            "title": "Pathology_Robbins",
+            "content": "(Adapted from Wang KC, Chang HY: Molecular mechanisms of long noncoding RNAs, Mol Cell 43:904, 2011.) a variety of mechanisms ( Fig. 1.4 ). Ongoing studies are exploring the role of lncRNAs in diseases like atherosclerosis and cancer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1548",
+            "title": "Cell_Biology_Alberts",
+            "content": "RNA as it emerges from RNA polymerase Figure 6\u201336 Structure of the core of human RNA exosome. RNA is fed into one end of the central pore and is degraded by RNAses that associate with the other end. Nine different protein subunits (each represented by a different color) make up this large ring structure. Eukaryotic cells have both a nuclear exosome and a cytoplasmic exosome; both forms include the core exosome shown here and additional subunits (including specialized RNAses) that differentiate the two forms. The nuclear exosome degrades aberrant RNAs before they are exported to the cytosol. It also processes certain types of RNA (for example, the ribosomal RNAs) to produce their final form. The cytoplasmic form of the exosome is responsible for degrading mRNAs in the cytosol, and is thus crucial in determining the lifetime of each mRNA molecule. (PDB code: 2NN6.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1732",
+            "title": "Cell_Biology_Alberts",
+            "content": "J.W. Szostak, Nature 371:31\u201336, 1994. With permission from Macmillan Publishers Ltd.) those of the \u201cfastest\u201d protein enzymes. Given these findings, it is not clear why protein catalysts greatly outnumber ribozymes in modern cells. Experiments have shown, however, that RNA molecules may have more difficulty than proteins in binding to flexible, hydrophobic substrates. In any case, the availability of 20 types of amino acids presumably provides proteins with a greater number of catalytic strategies. RNA molecules have one property that contrasts with those of polypeptides: they can directly guide the formation of copies of their own sequence. This capacity depends on complementary base-pairing of their nucleotide subunits, which enables one RNA to act as a template for the formation of another. As we have seen in this and the preceding chapter, these complementary templating mechanisms lie at the heart of DNA replication and transcription in modern-day cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1748",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201311 Prokaryotes and eukaryotes both protect against the dangers of translating broken mRNAs. What dangers do partial mRNAs pose for the cell? 6\u201312 Both hsp60-like and hsp70 molecular chaperones share an affinity for exposed hydrophobic patches on proteins, using them as indicators of incomplete folding. Why do you suppose hydrophobic patches serve as critical signals for the folding status of a protein? 6\u201313 Most proteins require molecular chaperones to assist in their correct folding. How do you suppose the chaperones themselves manage to fold correctly? 6\u201314 What is so special about RNA that it is hypothesized to be an evolutionary precursor to DNA and protein? What is it about DNA that makes it a better material than RNA for storage of genetic information?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1754",
+            "title": "Cell_Biology_Alberts",
+            "content": "Opalka N, Brown J, Lane WJ et al. (2010) Complete structural model of Escherichia coli RNA polymerase from a hybrid approach. PLoS Biol. 9, 1\u201316. Ruskin B, Krainer AR, Maniatis T et al. (1984) Excision of an intact intron as a novel lariat structure during pre-mRNA splicing in vitro. Cell 38, 317\u2013331. Schneider C & Tollervey D (2013) Threading the barrel of the RNA exosome. Trends Biochem. Sci. 38, 485\u2013493. Semlow DR & Staley JP (2012) Staying on message: ensuring fidelity in pre-mRNA splicing. Trends Biochem. Sci. 37, 263\u2013273. From RNA to Protein Anfinsen CB (1973) Principles that govern the folding of protein chains. Science 181, 223\u2013230. Crick FHC (1966) The genetic code: III. Sci. Am. 215, 55\u201362. Forster F, Unverdorben P, Sledz P et al. (2013) Unveiling the long-held secrets of the 26S proteasome. Structure 21, 1551\u20131562. Hershko A, Ciechanover A & Varshavsky A (2000) The ubiquitin system. Nat. Med. 6, 1073\u20131081."
+        },
+        {
+            "id": "Pathology_Robbins_23",
+            "title": "Pathology_Robbins",
+            "content": "A. Gene activation Ribonucleoprotein transcription complex Decoy lncRNAB. Gene suppression Gene suppression C. Promote chromatin modification Methylation, D. Assembly of protein complexes Fig. 1.4 Roles of long noncoding RNAs (lncRNAs). (A) Long noncoding RNAs (lncRNAs) can facilitate transcription factor binding and thus promote gene activation. (B) Conversely, lncRNAs can preemptively bind transcription factors and thus prevent gene transcription. (C) Histone and DNA modification by acetylases or methylases (or deacetylases and demethylases) may be directed by the binding of lncRNAs. (D) In other instances lncRNAs may act as scaffolding to stabilize secondary or tertiary structures and/or multisubunit complexes that influence general chromatin architecture or gene activity. (Adapted from Wang KC, Chang HY: Molecular mechanisms of long noncoding RNAs, Mol Cell 43:904, 2011.) a variety of mechanisms ("
+        },
+        {
+            "id": "Surgery_Schwartz_3435",
+            "title": "Surgery_Schwartz",
+            "content": "of RNAi technology in the past few years has provided a more promising approach to understanding the biologic functions of human genes in human cells.35 RNAi is an ancient natural mechanism by which small, double-stranded RNA (dsRNA) acts as a guide for an enzyme complex that destroys complementary RNA and downregulates gene expres-sion in a sequence-specific manner. Although the mechanism by which dsRNA suppresses gene expression is not entirely understood, experimental data provide important insights. In nonmammalian systems such as Drosophila, it appears that longer dsRNA is processed into 21\u201323 nt dsRNA (called small interfering RNA or siRNA) by an enzyme called Dicer contain-ing RNase III motifs. The siRNA apparently then acts as a guide sequence within a multicomponent nuclease complex to target complementary mRNA for degradation. Because long dsRNA induces a potent antiviral response pathway in mammalian cells, short siRNAs are used to perform gene silencing experiments in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1539",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mature Eukaryotic mRNAs Are Selectively Exported from the Nucleus Eukaryotic pre-mRNA synthesis and processing take place in an orderly fashion within the cell nucleus. But of the pre-mRNA that is synthesized, only a small fraction\u2014the mature mRNA\u2014is of further use to the cell. Most of the rest\u2014excised introns, broken RNAs, and aberrantly processed pre-mRNAs\u2014is not only useless but potentially dangerous. How does the cell distinguish between the relatively rare mature mRNA molecules it wishes to keep and the overwhelming amount of debris created by RNA processing?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1742",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? explain why or why not. 6\u20131 The consequences of errors in transcription are less severe than those of errors in DNA replication. 6\u20132 Since introns are largely genetic \u201cjunk,\u201d they do not Figure Q6\u20131 Supercoils around a moving RNA polymerase (Problem have to be removed precisely from the primary transcript 6\u20136). during RNA splicing. 6\u20133 Wobble pairing occurs between the first position 6\u20137 You have attached an RNA polymerase molecule in the codon and the third position in the anticodon. to a glass slide and have allowed it to initiate transcription on a template DNA that is tethered to a magnetic bead as 6\u20134 During protein synthesis, the thermodynamics of shown in Figure Q6\u20132. If the DNA with its attached mag-base-pairing between tRNAs and mRNAs sets the upper netic bead moves relative to the RNA polymerase as indilimit for the accuracy with which protein molecules are cated in the figure, in which direction will the bead rotate? made."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6847",
+            "title": "Cell_Biology_Alberts",
+            "content": "crRNAs Small noncoding RNAs (\u224830 nucleotides) that are the effectors of CRISPR-mediated immunity in bacteria. cryoelectron microscopy Technique for examining a thin film of an aqueous suspension of biological material that has been frozen rapidly enough to create vitreous ice. The specimen is then kept frozen and transferred to the electron microscope. Image contrast is low, but is generated solely by the macromolecular structures present. cryptochrome Plant flavoprotein sensitive to blue light. Structurally related to blue-light-sensitive enzymes called photolyases (involved in the repair of ultraviolet-induced DNA damage) but do not have a role in DNA repair. Also found in animals, where they have an important role in circadian clocks. Cubitus interruptus (Ci) Latent transcription regulator that mediates the effects of Hedgehog."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1557",
+            "title": "Cell_Biology_Alberts",
+            "content": "rRNAs into the mature rRNAs, probably by causing conformational changes in the precursor rRNA that expose these sites to nucleases. All of these guide RNAs are members of a large class of RNAs called small nucleolar RNAs (or snoRNAs), so named because these RNAs perform their functions in a sub-compartment of the nucleus called the nucleolus. Many snoRNAs are encoded in 13,000 nucleotides degraded regions of nucleotide sequence"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1743",
+            "title": "Cell_Biology_Alberts",
+            "content": "made. 6\u20135 Protein enzymes are thought to greatly outnum-Figure Q6\u20132 System for measuring the rotation of DNA ber ribozymes in modern cells because they can catalyze magnet a much greater variety of reactions and all of them have (Problem 6\u20137). The magnet faster rates than any ribozyme. holds the bead upright (but doesn\u2019t interfere with its Discuss the following problems. bead rotation), and the attached tiny fluorescent beads allow 6\u20136 In which direction along the template must the the direction of motion to DNA be visualized under the RNA polymerase in Figure Q6\u20131 be moving to have gen- microscope. RNA polymerase is erated the supercoiled structures that are shown? Would you expect supercoils to be generated if the RNA poly-RNA the glass slide. merase were free to rotate about the axis of the DNA as it progressed along the template? glass slide"
+        },
+        {
+            "id": "Surgery_Schwartz_3436",
+            "title": "Surgery_Schwartz",
+            "content": "complex to target complementary mRNA for degradation. Because long dsRNA induces a potent antiviral response pathway in mammalian cells, short siRNAs are used to perform gene silencing experiments in mammalian cells (Fig. 15-24).Brunicardi_Ch15_p0479-p0510.indd 50318/02/19 11:12 AM 504BASIC CONSIDERATIONSPART IPol IIITTTTTshRNAsiRNADicerRISCUUUUUUmRNAm7GAAAAAAmRNA targeted by siRNAUUm7GAAAAAAmRNA cleaved and degradedm7GAAAAAAFigure 15-24. RNA interference in mammalian cells. Small interfering RNA (siRNA) can be produced from a polymerase III\u2013driven expres-sion vector. Such a vector first synthesizes a 19\u201329 nt double-stranded (ds)RNA stem and a loop (labeled as shRNA in the figure), and then the RNase complex called Dicer processes the hairpin RNA into a small dsRNA (labeled as siRNA in the figure). siRNA can be chemically synthesized and directly introduced into the target cell. In the cell, through RNA-induced silencing complex (RISC), siRNA recognizes and degrades target"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2247",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201324 Restriction nucleases cleave DNA at specific nucleotide sequences."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1511",
+            "title": "Cell_Biology_Alberts",
+            "content": "What is the purpose of these rearrangements? First, they allow the splicing signals on the pre-RNA to be examined by snRNPs several times during the course of splicing. For example, the U1 snRNP initially recognizes the 5\u02b9 splice site through conventional base-pairing; as splicing proceeds, these base pairs are broken (using the energy of ATP hydrolysis) and U1 is replaced by U6 (Figure 6\u201329). This type of RNA\u2013RNA rearrangement (in which the formation of one RNA\u2013RNA interaction requires the disruption of another) occurs several times during splicing and allows the spliceosomes to check and recheck the splicing signals, thereby increasing the overall accuracy of splicing. Second, the rearrangements that take place in the spliceosome create the active sites for the two transesterification reactions. These two active sites are created, one after the other, and only after the splicing signals on the pre-mRNA have been checked several times. This orderly progression ensures that splicing"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2046",
+            "title": "Cell_Biology_Alberts",
+            "content": "A series of recent discoveries has revealed that noncoding RNAs are even more prevalent than previously imagined. We now know that such RNAs play widespread roles in regulating gene expression and in protecting the genome from viruses and transposable elements. These newly discovered RNAs are the subject of this section."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2052",
+            "title": "Cell_Biology_Alberts",
+            "content": "If the base-pairing between the miRNA and the mRNA is less extensive (as observed for most human miRNAs), Argonaute does not slice the mRNA; rather, translation of the mRNA is repressed and the mRNA is shuttled to P-bodies (see Figure 7\u201373) where, sequestered from ribosomes, it eventually undergoes poly-A tail shortening, decapping, and degradation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2000",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201361 C-to-U RNA editing produces a truncated form of apolipoprotein B. integrated into host genome1,000 nucleotide pairs The block is overcome in an ingenious way. The virus encodes a protein (called Rev) that binds to a specific RNA sequence (called the Rev responsive element, RRE) located within a viral intron. The Rev protein interacts with a nuclear export receptor (Crm1), which directs the movement of viral RNAs through nuclear pores into the cytosol despite the presence of intron sequences. We discuss in detail the way in which export receptors function in Chapter 12."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1998",
+            "title": "Cell_Biology_Alberts",
+            "content": "rnA transport from the nucleus Can Be regulated It has been estimated that in mammals only about one-twentieth of the total mass of RNA synthesized ever leaves the nucleus. We saw in Chapter 6 that most mammalian RNA molecules undergo extensive processing and that the \u201cleftover\u201d RNA fragments (excised introns and RNA sequences 3\u02b9 to the cleavage/poly-A site) are degraded in the nucleus. Incompletely processed and otherwise damaged RNAs are also eventually degraded as part of the quality control system for RNA production. As described in Chapter 6, the export of RNA molecules from the nucleus is delayed until processing has been completed. However, mechanisms that deliberately override this control point can be used to regulate gene expression. This strategy forms the basis for one of the best-understood examples of regulated nuclear transport of mRNA, which occurs in the human AIDS virus, HIV."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2464",
+            "title": "Cell_Biology_Alberts",
+            "content": "An approach called ribosome profiling provides an instantaneous map of the position of ribosomes on each mRNA in the cell and thereby identifies those many other DNA fragments that comprise the rest of the genome mRNAs that are being actively translated. To accomplish this, total RNA from a cell line or tissue is exposed to RNAses under conditions where only those RNA sequences covered by ribosomes are spared. The protected RNAs are released from ribosomes, converted to DNA, and the nucleotide sequence of each is determined (Figure 8\u201368). When these sequences are mapped on the genome, the position of ribosomes across each mRNA species can be ascertained."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2088",
+            "title": "Cell_Biology_Alberts",
+            "content": "RNA molecules have many uses in the cell besides carrying the information needed to specify the order of amino acids during protein synthesis. Although we have encountered noncoding RNAs in other chapters (tRNAs, rRNAs, snoRNAs, for example), the sheer number of noncoding RNAs produced by cells has surprised scientists. One well understood use of noncoding RNAs occurs in RNA interference, where guide RNAs (miRNAs, siRNAs, piRNAs) base-pair with mRNAs. RNA interference can cause mRNAs to be either destroyed or translationally repressed. It can also cause specific genes to be packaged into heterochromatin suppressing their transcription. In bacteria and archaebacteria, RNA interference is used as an adaptive immune response to destroy viruses that infect them. A large family of large noncoding RNAs (lncRNAs) has recently been discovered. Although the function of most of these RNAs is unknown, some serve as RNA scaffolds to bring specific proteins and how is the final rate of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1747",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201310 Which of the following mutational changes would you predict to be the most deleterious to gene function? Explain your answers. frst Ala second Figure Q6\u20134 Two rounds of treatment treatment mutagenesis and the altered amino acids at a single position in Val Thr a protein (Problem 6\u20139). 1. Insertion of a single nucleotide near the end of the coding sequence. 2. Removal of a single nucleotide near the beginning of the coding sequence. 3. Deletion of three consecutive nucleotides in the middle of the coding sequence. 4. Substitution of one nucleotide for another in the middle of the coding sequence. 6\u201311 Prokaryotes and eukaryotes both protect against the dangers of translating broken mRNAs. What dangers do partial mRNAs pose for the cell?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1543",
+            "title": "Cell_Biology_Alberts",
+            "content": "Of all the proteins that assemble on pre-mRNA molecules as they emerge from transcribing RNA polymerases, the most abundant are the hnRNPs (heterogeneous nuclear ribonuclear proteins). Some of these proteins (there are approximately 30 different ones in humans) unwind the hairpin helices in the RNA so that splicing and other signals on the RNA can be read more easily. Others preferentially package the RNA contained in the very long intron sequences typical in complex organisms (see Figure 6\u201331) and these may play an important role in distinguishing mature mRNA from the debris left over from RNA processing."
+        },
+        {
+            "id": "Pathology_Robbins_7",
+            "title": "Pathology_Robbins",
+            "content": "and machinery required for assembling cells, tissues, and organisms, it is the noncoding regions of the genome that provide the critical \u201carchitectural planning.\u201d The major classes of functional non\u2013protein-coding DNA sequences found in the human genome include ( Fig. 1.1 Noncoding regulatory RNAs. Of the 80% of the genome dedicated to regulatory functions, the vast majority is transcribed into RNAs\u2014micro-RNAs and long noncoding RNAs (described later)\u2014that are never translated into protein, but can regulate gene expression Mobile genetic elements (e.g., transposons). Remarkably, more than one-third of the human genome is composed of such \u201cjumping genes.\u201d These segments can cruise around the genome, and are implicated in gene regulation and chromatin organization. Special structural regions of DNA, including telomeres (chromosome ends) and centromeres (chromosome \u201ctethers\u201d)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2045",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the previous chapter, we introduced the central dogma, according to which the flow of genetic information proceeds from DNA through RNA to protein (Figure 6\u20131). But we have seen throughout this book that RNA molecules perform many critical tasks in the cell besides serving as intermediate carriers of genetic information. Among these noncoding RNAs are the rRNA and tRNA molecules, which are responsible for reading the genetic code and synthesizing proteins. The RNA molecule in telomerase serves as a template for the replication of chromosome ends, snoRNAs modify ribosomal RNA, and snRNAs carry out the major events of RNA splicing. And we saw in the previous section that Xist RNA has an important role in inactivating one copy of the X chromosome in females."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1673",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. DNA rearrangement and loss B. DNA transposition C. RNA alternative splicing D. RNA editing E. RNA interference Correct answer = D. The production of apolipoprotein (apo) B-48 in the intestine and apo B-100 in liver is the result of RNA editing in the intestine, where a sense codon is changed to a nonsense codon by posttranscriptional deamination of cytosine to uracil. DNA rearrangement and transposition, as well as RNA interference and alternative splicing, do alter gene expression but are not the basis of apo B-48 tissue-specific production. 3.4. Which of the following is most likely to be true in hemochromatosis, a disease of iron accumulation? A. The messenger RNA for the transferrin receptor is stabilized by the binding of iron regulatory proteins to its 3\u2032-iron-responsive elements. B. The messenger RNA for the transferrin receptor is not bound by iron regulatory proteins and is degraded."
+        },
+        {
+            "id": "Cell_Biology_Alberts_7018",
+            "title": "Cell_Biology_Alberts",
+            "content": "ribosome Particle composed of rRNAs and ribosomal proteins that catalyzes the synthesis of protein using information provided by mRNA. (Figure 6\u201364) ribozyme An RNA molecule with catalytic activity. RNA (ribonucleic acid) Polymer formed from covalently linked ribonucleotide monomers. See also messenger RNA, ribosomal RNA, transfer RNA. (Figure 6\u20134) RNA editing Type of RNA processing that alters the nucleotide sequence of an RNA transcript after it is synthesized by inserting, deleting, or altering individual nucleotides. RNA interference (RNAi) As originally described, mechanism by which an experimentally introduced double-stranded RNA induces sequence-specific destruction of complementary mRNAs. The term RNAi is often used to include the inhibition of gene expression by microRNAs (miRNAs) and piwi RNAs (piRNAs), which are encoded in the cell\u2019s own genome."
+        }
+    ],
+    "scores": [
+        0.02658403575142143,
+        0.023612706706554933,
+        0.02229417537571585,
+        0.017677937316658947,
+        0.017523722069176614,
+        0.017067550050410486,
+        0.01635260300223571,
+        0.016255534471853256,
+        0.01620224435758416,
+        0.01611875637104995,
+        0.016004097048844507,
+        0.015696649029982364,
+        0.015662943176299175,
+        0.015443098123069612,
+        0.015407061569886197,
+        0.015349729635443923,
+        0.015165441176470588,
+        0.015094926859632742,
+        0.014708886618998978,
+        0.014685314685314685,
+        0.014664943328693576,
+        0.01449867265672861,
+        0.014337101747173689,
+        0.014261294261294261,
+        0.01425,
+        0.014147286821705426,
+        0.014119523407449104,
+        0.014085170529489353,
+        0.013850920357207946,
+        0.013838143953233467,
+        0.013642249352571217,
+        0.013559626436781609
+    ]
+}

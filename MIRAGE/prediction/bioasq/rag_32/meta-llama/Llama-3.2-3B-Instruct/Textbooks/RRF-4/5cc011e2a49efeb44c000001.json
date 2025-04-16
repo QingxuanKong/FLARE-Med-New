@@ -1,0 +1,206 @@
+{
+    "id": "5cc011e2a49efeb44c000001",
+    "question": "Does association with the nuclear pore promote gene silencing?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the role of nuclear pore complexes in gene regulation. According to document [8] (Title: Cell_Biology_Alberts), nuclear pore complexes are involved in the transport of proteins and RNAs between the nucleus and cytoplasm. However, the question asks about the promotion of gene silencing, not the transport of molecules. In document [8] (Title: Cell_Biology_Alberts), it is mentioned that X-chromosome inactivation is initiated and spread from a single site near the middle of the X chromosome, and that a transcribed 20,000-nucleotide lncRNA (called Xist) is expressed solely from the inactive X chromosome. This suggests that association with the nuclear pore complex may not promote gene silencing. Instead, it may be involved in the transport of proteins and RNAs that are involved in gene regulation. However, in document [9] (Title: Cell_Biology_Alberts), it is mentioned that epigenetic changes, such as methylation, can irreversibly silence genes, and that barriers can be formed to stop the spread of heterochromatin. This suggests that association with the nuclear pore complex may not be necessary for gene silencing. Therefore, the answer is not explicitly stated in the provided documents. However, based on the information provided, we can conclude that association with the nuclear pore complex is not mentioned as promoting gene silencing.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_3422",
+            "title": "Cell_Biology_Alberts",
+            "content": "B. How do these experiments distinguish between active transport, in which a nuclear localization signal triggers transport by the nuclear pore complex, and passive diffusion, in which a binding site for a nuclear component allows accumulation in the nucleus? 12\u20138 Assuming that 32 million histone octamers are required to package the human genome, how many his-tone molecules must be transported per second per nuclear pore complex in cells whose nuclei contain 3000 nuclear pores and are dividing once per day?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3203",
+            "title": "Cell_Biology_Alberts",
+            "content": "nuclear pore Complexes perforate the nuclear envelope"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4959",
+            "title": "Cell_Biology_Alberts",
+            "content": "pore complexes pump in nuclear proteins, the nucleus expands, and the mitotic chromosomes are reorganized into their interphase state, allowing gene transcription to resume. A new nucleus has been created, and mitosis is complete. All that remains is for the cell to complete its division into two."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3432",
+            "title": "Cell_Biology_Alberts",
+            "content": "G\u00fcttinger s, laurell e & Kutay U (2009) orchestrating nuclear envelope disassembly and reassembly during mitosis. Nat. Rev. Mol. Cell Biol. 10, 178\u2013191. hetzer mW & Wente sr (2009) Border control at the nucleus: biogenesis and organization of the nuclear membrane and pore complexes. Dev. Cell 17, 606\u2013616. hoelz a, Debler eW & Blobel G (2011) The structure of the nuclear pore complex. Annu. Rev. Biochem. 80, 613\u2013643. h\u00fclsmann BB, labokha aa & G\u00f6rlich D (2012) The permeability of reconstituted nuclear pores provides direct evidence for the selective phase model. Cell 150, 738\u2013751. K\u00f6hler a & hurt e (2007) exporting rna from the nucleus to the cytoplasm. Nat. Rev. Mol. Cell Biol. 8, 761\u2013773. rothballer a & Kutay U (2013) poring over pores: nuclear pore complex insertion into the nuclear envelope. Trends Biochem. Sci. 38, 292\u2013301."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6962",
+            "title": "Cell_Biology_Alberts",
+            "content": "NSF Hexameric ATPase that disassembles a complex of a v-SNARE and a t-SNARE. (Figure 13\u201320) nuclear envelope Double membrane (two bilayers) surrounding the nucleus. Consists of an outer and inner membrane and is perforated by nuclear pores. The outer membrane is continuous with the endoplasmic reticulum. (Figures 4\u20139 and 12\u20137) nuclear export receptors Bind to both the export signal and nuclear pore complex proteins to guide their cargo through the nuclear pore complex to the cytosol. nuclear export signal Sorting signal contained in the structure of molecules and complexes, such as nuclear RNPs and new ribosomal subunits, that are transported from the nucleus to the cytosol through nuclear pore complexes. (Figure 12\u201313) nuclear import receptors Recognize nuclear localization signals to initiate nuclear import of proteins containing the appropriate nuclear localization signal. nuclear lamin Protein subunit of the intermediate filaments that form the nuclear lamina."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3229",
+            "title": "Cell_Biology_Alberts",
+            "content": "Having discharged its cargo in the nucleus, the empty import receptor with Ran-GTP bound is transported back through the pore complex to the cytosol. There, Ran-GAP triggers Ran-GTP to hydrolyze its bound GTP, thereby converting it to Ran-GDP, which dissociates from the receptor. The receptor is then ready for another cycle of nuclear import. Nuclear export occurs by a similar mechanism, except that Ran-GTP in the nucleus promotes cargo binding to the export receptor, rather than promoting cargo dissociation. Once the export receptor moves through the pore to the cytosol, it encounters Ran-GAP, which induces the receptor to hydrolyze its GTP to GDP. As a result, the export receptor releases both its cargo and Ran-GDP in the cytosol. Free export receptors are then returned to the nucleus to complete the cycle (Figure 12\u201313B). Transport Through npCs Can Be regulated by Controlling access to the Transport machinery"
+        },
+        {
+            "id": "Cell_Biology_Alberts_796",
+            "title": "Cell_Biology_Alberts",
+            "content": "endoplasmic reticulum nuclear pore outer nuclear membrane inner nuclear membrane nuclear envelope nuclear lamina microtubule centrosome nucleolus DNA and associated proteins (chromatin), plus many RNA and protein molecules 2 \u00b5m (A) (B) nucleolus nuclear envelope heterochromatinheterochromatin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3417",
+            "title": "Cell_Biology_Alberts",
+            "content": "how do nuclear import receptors negotiate the tangled gel-like interior of a nuclear pore complex so efficiently? is the nuclear pore complex a rigid structure or can it expand and contract, depending on the cargo transported? sequence comparisons show that signal sequences for an individual protein such as insulin are quite conserved across species, much more so than would be expected from our current understanding that all that matters for their function are general structural features such as hydrophobicity. What other functions might signal sequences have that could account for their evolutionary sequence conservation? how are polyribosomes on the endoplasmic reticulum membrane arranged so that the next initiating ribosome will find an unoccupied translocator? Why does the signal-recognition particle have an indispensable rna subunit? Which statements are true? Explain why or why not."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1951",
+            "title": "Cell_Biology_Alberts",
+            "content": "How is an entire chromosome transcriptionally inactivated? X-chromosome inactivation is initiated and spreads from a single site near the middle of the X chromosome, the X-inactivation center (XIC). Within the XIC is a transcribed 20,000-nucleotide lncRNA (called Xist), which is expressed solely from the inactive X chromosome. Xist RNA spreads from the XIC over the entire chromosome and directs gene silencing. Although we do not know exactly how this is accomplished, it likely involves recruitment of histone-modifying enzymes and other proteins to form a repressive form of chromatin analogous to that of Figure 7\u201345. Curiously, about 10% of the genes on the X chromosome (including Xist itself) escape this silencing and remain active."
+        },
+        {
+            "id": "Cell_Biology_Alberts_901",
+            "title": "Cell_Biology_Alberts",
+            "content": "to other components in nucleus, leading to gene expression, gene silencing, or other biological function see Figure 7\u201320). But after a modifying enzyme \u201cwrites\u201d its mark on one or a few neighboring nucleosomes, events that resemble a chain reaction can ensue. In such a case, the \u201cwriter enzyme\u201d works in concert with a \u201creader protein\u201d located in the same protein complex. The reader protein contains a module that recognizes the mark and binds tightly to the newly modified nucleosome (see Figure heterochromatin formation, gene silencingK 9"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6965",
+            "title": "Cell_Biology_Alberts",
+            "content": "pore complex (NPC) Large multiprotein structure forming an aqueous channel (the nuclear pore) through the nuclear envelope that allows selected molecules to move between nucleus and cytoplasm. (Figure 12\u20138) nuclear receptor superfamily Intracellular receptors for hydrophobic signal molecules such as steroid and thyroid hormones and retinoic acid. The receptor-ligand complex acts as a transcription factor in the nucleus. (Figure 15\u201365) nuclear transport receptor (karyopherin) Protein that escorts macromolecules either into or out of the nucleus: nuclear import receptor or nuclear export receptor. (Figure 12\u201313) nucleolus A prominent structure in the nucleus where rRNA is transcribed and ribosomal subunits are assembled. (Figure 4\u20139) nucleoporin Any of a number of different proteins that make up nuclear pore complexes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3423",
+            "title": "Cell_Biology_Alberts",
+            "content": "12\u20139 The nuclear pore complex (NPC) creates a barrier to the free exchange of molecules between the nucleus and cytosol, but in a way that remains mysterious. In yeast, for example, the central pore of the NPC has a diameter of 35 nm and is 30 nm long, which is somewhat smaller than its vertebrate counterpart. Even so, it is large enough to accommodate virtually all components of the cytosol. Yet the pore allows passive diffusion of molecules only up to about 40 kd; entry of anything larger requires help from a nuclear import receptor. Selective permeability is controlled by protein components of the NPC that have unstructured, polar tails extending into the central pore. These tails are characterized by periodic repeats of the hydrophobic amino acids phenylalanine (F) and glycine (G)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5548",
+            "title": "Cell_Biology_Alberts",
+            "content": "Epigenetic changes provide another important way to permanently inactivate a tumor suppressor gene. Most commonly, the gene may become packaged into heterochromatin and/or the C nucleotides in CG sequences in its promoter may become methylated in a heritable manner (see pp. 404\u2013405). These mechanisms can irreversibly silence the gene in a cell and in all of its progeny. Analysis of methylation patterns in cancer genomes shows that epigenetic gene silencing is a frequent event in tumor progression, and epigenetic mechanisms are now thought to help inactivate several different tumor suppressor genes in most human cancers (Figure 20\u201322). Systematic Sequencing of Cancer Cell Genomes has Transformed Our Understanding of the Disease"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1550",
+            "title": "Cell_Biology_Alberts",
+            "content": "events continue and that the RNA sheds previously bound proteins and acquires new ones. Once it arrives at the entrance to the pore, the \u201cexport-ready\u201d mRNA hovers for several seconds, during which time the completion of processing may occur, and then is transported through the pore very rapidly, in tens of milliseconds. Some mRNA\u2013protein complexes are very large, and how they move through the nuclear pore complexes so rapidly remains a mystery."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3218",
+            "title": "Cell_Biology_Alberts",
+            "content": "The import receptors are soluble cytosolic proteins that bind both to the nuclear localization signal on the cargo protein and to the phenylalanine-glycine (FG) repeats in the unstructured domains of the channel nucleoporins that line the central pore. FG-repeats are also found in the cytoplasmic and nuclear fibrils. FG-repeats in the unstructured tangle of the pore are thought to do double duty. They interact weakly, which gives the protein tangle gel-like properties that impose a permeability barrier to large macromolecules, and they serve as docking sites for nuclear import receptors. FG-repeats line the path through the NPCs taken by the import receptors and their bound cargo proteins. According to one model of nuclear transport, the receptor\u2013cargo complexes move along the transport path by repeatedly binding, dissociating, and then re-binding to adjacent FG-repeat sequences. In this way, the complexes may hop from one nucleoporin to another to traverse the tangled interior of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3183",
+            "title": "Cell_Biology_Alberts",
+            "content": "T.J.G. ettema, Biochem. Soc. Trans. 41: 451\u2013457, 2013.) To understand the general principles by which sorting signals operate, it is important to distinguish three fundamentally different ways by which proteins move from one compartment to another. These three mechanisms are described below, and the transport steps at which they operate are outlined in Figure 12\u20135. We discuss the first two mechanisms (gated transport and transmembrane transport) in this chapter, and the third (vesicular transport, green arrows in Figure 12\u20135) in Chapter 13. 1. In gated transport, proteins and RNA molecules move between the cytosol and the nucleus through nuclear pore complexes in the nuclear envelope. The nuclear pore complexes function as selective gates that support the active transport of specific macromolecules and macromolecular assemblies between the two topologically equivalent spaces, although they also allow free diffusion of smaller molecules. 2."
+        },
+        {
+            "id": "Histology_Ross_454",
+            "title": "Histology_Ross",
+            "content": "\u0081 Ions and smaller water-soluble molecules (less than 9 daltons) may cross the water-flled channels of the NPC by simple diffusion. This process is nonspecific and does not require nuclear signal proteins. The effective size of the pore is about 9 nm for substances that cross by diffusion rather than the 70to 80-nm measurement of the pore boundary. However, even the smaller nuclear proteins that are capable of diffusion are selectively transported, presumably because the rate is faster than simple diffusion. During cell division, the nuclear envelope is disassembled to allow chromosome separation and is later reassembled as the daughter cells form."
+        },
+        {
+            "id": "InternalMed_Harrison_26349",
+            "title": "InternalMed_Harrison",
+            "content": "The carboxy-terminal hormone-binding domain mediates transcriptional control. For type II receptors such as TR and retinoic acid receptor (RAR), co-repressor proteins bind to the receptor in the absence of ligand and silence gene transcription. Hormone binding induces conformational changes, triggering the release of corepressors and inducing the recruitment of coactivators that stimulate transcription. Thus, these receptors are capable of mediating dramatic changes in the level of gene activity. Certain disease states are associated with defective regulation of these events. For example, mutations in the TR prevent co-repressor dissociation, resulting in an autosomal dominant form of hormone resistance (Chap. 405). In promyelocytic leukemia, fusion of RAR\u03b1 to other nuclear proteins causes aberrant gene silencing that prevents normal cellular differentiation. Treatment with retinoic acid reverses this repression and allows cellular differentiation and apoptosis to occur. Most type 1"
+        },
+        {
+            "id": "Histology_Ross_460",
+            "title": "Histology_Ross",
+            "content": "FIGURE 3.9 \u2022 Sagittal section of the nuclear pore complex. Cryoelectron tomographic view of a sagittal section of the nuclear pore complex shown in Figure 3.8 is compared with a schematic drawing of the complex. Note that the central plug/transporter has been removed from the central pore. 320,000. Each pore contains eight protein subunits arranged in an octagonal central framework at the periphery of the pore. These subunits form a nuclear pore complex that is inserted between two cytoplasmic and nucleoplasmic rings. Eight short protein fibrils protrude from the cytoplasmic rings into the cytoplasm. The nuclear ring anchors a basket assembled from eight thin filaments joined distally into terminal ring which diameter can be adjusted to meet nuclear pore transport requirements. The cylindrical central framework encircles the central pore, which acts as a close-fitting diaphragm. (Adapted from Beck M, Frster F, Ecke M, Plitzko JM, Melchior F, Gerisch G, Baumeister W, Medalia, O."
+        },
+        {
+            "id": "Cell_Biology_Alberts_911",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201341 Some mechanisms of barrier action. These models are derived from experimental analyses of barrier action, and a combination of several of them may function at any one site. The tethering of a region of chromatin to a large fixed site, such as the nuclear pore complex illustrated here, can form a barrier that stops the spread of heterochromatin. The tight binding of barrier proteins to a group of nucleosomes can make this chromatin resistant to heterochromatin spreading. (C) by recruiting a group of highly active histone-modifying enzymes, barriers can erase the histone marks that are required for heterochromatin to spread. For example, a potent acetylation of lysine 9 on histone H3 will compete with lysine 9 methylation, thereby preventing the binding of the HP1 protein needed to form a major form of heterochromatin. (based on A.g. west and P. Fraser, Hum. Mol. Genet. 14:R101\u2013R111, 2005. with permission from Oxford University Press.)"
+        },
+        {
+            "id": "Histology_Ross_448",
+            "title": "Histology_Ross",
+            "content": "FIGURE 3.6 \u2022 Structure of the nuclear lamina. a. This schematic drawing shows the structure of the nuclear lamina adjacent to the inner nuclear membrane. The cut window in the nuclear lamina shows the DNA within the nucleus. Note that the nuclear envelope is pierced by nuclear pore complexes, which allow for selective bidirectional transport of molecules between nucleus and cytoplasm. b. Electron micrograph of a portion of the nuclear lamina from a Xenopus oocyte. It is formed by intermediate filaments (lamins) that are arranged in a square lattice. 43,000. (Adapted from Aebi U, Cohn J, Buhle L, Gerace L. The nuclear lamina is a meshwork of intermediate-type filaments. Nature 1986;323:560\u2013564.) nuclear lamina DNAnucleus reticulum perinuclear space nuclear pore complex a bb cryoelectron tomography\u2014the nuclear pore exhibits additional structural detail (see Fig. 3.8). Eight multidomain protein subunits arranged in an octagonal central framework at the periphery of each pore form a"
+        },
+        {
+            "id": "Histology_Ross_452",
+            "title": "Histology_Ross",
+            "content": "Various experiments have shown that the NPC regulates the passage of proteins between the nucleus and the cytoplasm. The significance of the NPC can be readily appreciated, as the nucleus does not carry out protein synthesis. Ribosomal proteins are partially assembled into ribosomal subunits in the nucleolus and are transported through nuclear pores to the cytoplasm. Conversely, nuclear proteins, such as histones and lamins, are produced in the cytoplasm and are transported through nuclear pores into the nucleus. Transport through the NPC largely depends on the size of the molecules: \u0081 Large molecules (such as large proteins and macromolecular complexes) depend on the presence of an attached signal sequence called the nuclear localization signal (NLS) for passage through the pores. Labeled NLS proteins destined for the nucleus then bind to a soluble cytosolic receptor called a nuclear import receptor (importin) that directs them from the cytoplasm to an appropriate NPC."
+        },
+        {
+            "id": "Histology_Ross_447",
+            "title": "Histology_Ross",
+            "content": "The nuclear envelope has an array of openings called nuclear pores. At numerous sites, the paired membranes of the nuclear envelope are punctuated by 70to 80-nm \u201copenings\u201d through the envelope. These nuclear pores are formed from the merging of the inner and outer membranes of the nuclear envelope. With an ordinary TEM, a diaphragmlike structure appears to cross the pore opening (Fig. 3.7). Often a small dense body is observed in the center of the opening (Fig. 3.8). Since such profiles are thought to represent either ribosomes or other protein complexes (transporters) captured during their passage through the pore at the time of fixation, the term central plug/transporter is commonly used to describe this feature. With special techniques\u2014such as negative staining and high-voltage transmission electron microscopy, or recently,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_7034",
+            "title": "Cell_Biology_Alberts",
+            "content": "Smad family Latent transcription regulators that are phosphorylated and activated by receptor serine/threonine kinases and carry the signal from the cell surface to the nucleus. (Figure 15\u201357) small interfering RNAs (siRNAs) Short (21\u201326 nucleotide) double-stranded RNAs that inhibit gene expression by directing destruction of complementary mRNAs. Production of siRNAs is usually triggered by exogenously introduced double-stranded RNA. (Figure 7\u201377) small nuclear RNA (snRNA) Small RNA molecules that are complexed with proteins to form the ribonucleoprotein particles (snRNPs) involved in RNA splicing. (Figures 6\u201328 and 6\u201329) small nucleolar RNA (snoRNA) Small RNAs found in the nucleolus, with various functions, including guiding the modifications of precursor rRNA. (Table 6\u20131, p. 305, and Figure 6\u201341) smooth endoplasmic reticulum (smooth ER) Region of the endoplasmic reticulum not associated with ribosomes. Involved in detoxification reactions, Ca2+ storage, and lipid synthesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4958",
+            "title": "Cell_Biology_Alberts",
+            "content": "By the end of anaphase, the daughter chromosomes have segregated into two equal groups at opposite ends of the cell. In telophase, the final stage of mitosis, the two sets of chromosomes are packaged into a pair of daughter nuclei. The first major event of telophase is the disassembly of the mitotic spindle, followed by the re-formation of the nuclear envelope. Initially, nuclear membrane fragments associate with the surface of individual chromosomes. These membrane fragments fuse to partly enclose clusters of chromosomes and then coalesce to reform the complete nuclear envelope. Nuclear pore complexes are incorporated into the envelope, the nuclear lamina re-forms, and the envelope once again becomes continuous with the endoplasmic reticulum. Once the nuclear envelope has re-formed, the pore complexes pump in nuclear proteins, the nucleus expands, and the mitotic chromosomes are reorganized into their interphase state, allowing gene transcription to resume. A new nucleus has been"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3228",
+            "title": "Cell_Biology_Alberts",
+            "content": "654 Chapter 12: intracellular Compartments and protein sorting This gradient of the two conformational forms of Ran drives nuclear transport in the appropriate direction. Docking of nuclear import receptors to FG-repeats on the cytosolic side of the NPC, for example, occurs whether or not these receptors are loaded with appropriate cargo. Import receptors, facilitated by FG-repeat binding, then enter the channel. If they reach the nuclear side of the pore complex, Ran-GTP binds to them, and, if the receptors arrive loaded with cargo molecules, the Ran-GTP binding causes the receptors to release their cargo (Figure 12\u201313A). Because the Ran-GDP in the cytosol does not bind to import (or export) receptors, unloading occurs only on the nuclear side of the NPC. In this way, the nuclear localization of Ran-GTP creates the directionality of the import process."
+        },
+        {
+            "id": "Histology_Ross_449",
+            "title": "Histology_Ross",
+            "content": "tomography\u2014the nuclear pore exhibits additional structural detail (see Fig. 3.8). Eight multidomain protein subunits arranged in an octagonal central framework at the periphery of each pore form a cylinderlike structure known as the nuclear pore complex (NPC). The NPC, which has an estimated total mass of 125 106 daltons, is composed of about 50 different nuclear pore complex proteins collectively referred to as nucleoporins (Nup proteins). This central framework is inserted between the cytoplasmic ring and the nuclear ring (Fig. 3.9). From the cytoplasmic ring, eight short protein fbrils protrude into the cytoplasm and point toward the center of the structure. The nucleoplasmic ring complex anchors a nuclear basket (or nuclear \u201ccage\u201d that resembles a fish trap) assembled from eight thin 50-nm-long filaments joined distally by an adjustable terminal ring 30 to 50 nm in diameter (see Fig. 3.9). The cylinder-shaped central framework encircles the central pore of the NPC, which acts as"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3433",
+            "title": "Cell_Biology_Alberts",
+            "content": "rothballer a & Kutay U (2013) poring over pores: nuclear pore complex insertion into the nuclear envelope. Trends Biochem. Sci. 38, 292\u2013301. strambio-De-Castilla C, niepel m & rout mp (2010) The nuclear pore complex: bridging nuclear transport and gene regulation. Nat. Rev. Mol. Cell Biol. 11, 490\u2013501. Tran eJ & Wente sr (2006) Dynamic nuclear pore complexes: life on the edge. Cell 125, 1041\u20131053. The Transport of Proteins Into Mitochondria and Chloroplasts Chacinska a, Koehler Cm, milenkovic D et al. (2009) importing mitochondrial proteins: machineries and mechanisms. Cell 138, 628\u2013644. Jarvis p & robinson C (2004) mechanisms of protein import and routing in chloroplasts. Curr. Biol. 14, r1064\u2013r1077. Kessler f & schnell DJ (2009) Chloroplast biogenesis: diversity and regulation of the protein import apparatus. Curr. Opin. Cell Biol. 21, 494\u2013500. prakash s & matouschek a (2004) protein unfolding in the cell. Trends Biochem. Sci. 29, 593\u2013600."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6964",
+            "title": "Cell_Biology_Alberts",
+            "content": "nuclear localization signal (NLS) Signal sequence or signal patch found in proteins destined for the nucleus that enables their selective transport into the nucleus from the cytosol through the nuclear pore complexes. (Figures 12\u20139 and 12\u201313) nuclear magnetic resonance (NMR) spectroscopy NMR is the resonant absorption of electromagnetic radiation at a specific frequency by atomic nuclei in a magnetic field, due to flipping of the orientation of their magnetic dipole moments. The NMR spectrum provides information about the chemical environment of the nuclei. NMR is used widely to determine the three-dimensional structure of small proteins and other small molecules. The principles of NMR are also used for medical diagnostic purposes in magnetic resonance imaging (MRI). (Figure 8\u201322) nuclear pore complex (NPC) Large multiprotein structure forming an aqueous channel (the nuclear pore) through the nuclear envelope that allows selected molecules to move between nucleus and cytoplasm."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3418",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why does the signal-recognition particle have an indispensable rna subunit? Which statements are true? Explain why or why not. 12\u20131 Like the lumen of the ER, the interior of the nucleus is topologically equivalent to the outside of the cell. 12\u20132 ER-bound and free ribosomes, which are structurally and functionally identical, differ only in the proteins they happen to be making at a particular time. 12\u20133 To avoid the inevitable collisions that would occur if two-way traffic through a single pore were allowed, nuclear pore complexes are specialized so that some mediate import while others mediate export. 12\u20134 Peroxisomes are found in only a few specialized types of eukaryotic cell. Discuss the following problems. 12\u20135 What is the fate of a protein with no sorting signal?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6888",
+            "title": "Cell_Biology_Alberts",
+            "content": "gastrulation Important stage in animal embryogenesis during which the embryo is transformed from a ball of cells to a structure with a gut (a gastrula). gated transport Movement of proteins between the cytosol and the nucleus through nuclear pore complexes in the nuclear envelope that function as selective gates. geminin Protein that prevents the formation of new prereplicative complexes during S phase and mitosis, thus ensuring that the chromosomes are replicated only once in each cell cycle. gene Region of DNA that is transcribed as a single unit and carries information for a discrete hereditary characteristic, usually corresponding to (1) a single protein (or set of related proteins generated by variant post-transcriptional processing), or (2) a single RNA (or set of closely related RNAs)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3241",
+            "title": "Cell_Biology_Alberts",
+            "content": "When a nucleus is dismantled during mitosis, the NPCs and nuclear lamina disassemble and the nuclear envelope fragments. The dismantling process is at least partly a consequence of direct phosphorylation of nucleoporins and lamins by the cyclin-dependent protein kinase (Cdk) that is activated at the onset of mitosis (discussed in Chapter 17). During this process, some NPC proteins become bound to nuclear import receptors, which play an important part in the reassembly of NPCs at the end of mitosis. Nuclear envelope membrane proteins\u2014no longer tethered to the pore complexes, lamina, or chromatin\u2014disperse throughout the ER membrane. The dynein motor protein, which moves along microtubules (discussed in Chapter 16), actively participates in tearing the nuclear envelope off the chromatin. Together, these processes break down the barriers that normally separate the nucleus and cytosol, and the nuclear proteins that are not bound to membranes or chromosomes intermix completely with the"
+        }
+    ],
+    "scores": [
+        0.0325129402844895,
+        0.031394613920334484,
+        0.030447923878618416,
+        0.026434432744360727,
+        0.02436752239123781,
+        0.02414755570228768,
+        0.024123454564480652,
+        0.02370817601371715,
+        0.02320849446319464,
+        0.022993681125797492,
+        0.022690235988784658,
+        0.0211447416676854,
+        0.020467314832909908,
+        0.019493283661199703,
+        0.019457852551856475,
+        0.01824971754521426,
+        0.018129614438063987,
+        0.01759259259259259,
+        0.017507645259938837,
+        0.017126269956458634,
+        0.016928571428571428,
+        0.01689664883131512,
+        0.01672449687716863,
+        0.0166052895882156,
+        0.01655982905982906,
+        0.016498316498316498,
+        0.016076962809917356,
+        0.015924741760944418,
+        0.015716374269005847,
+        0.015307877536979705,
+        0.015198408312147674,
+        0.015160118101294572
+    ]
+}

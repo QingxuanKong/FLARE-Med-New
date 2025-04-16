@@ -1,0 +1,206 @@
+{
+    "id": "62121c583a8413c653000016",
+    "question": "Is MEDI2228 a bispecific antibody?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer whether MEDI2228 is a bispecific antibody, we need to understand what a bispecific antibody is. A bispecific antibody is a type of antibody that has two different binding sites for different antigens. The definition can be inferred from document [0] (Title: InternalMed_Harrison) which describes blinatumomab as a bispecific antibody with one valency for anti-CD19 and the other valency for anti-CD3. Given this definition, we can proceed to evaluate the options.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_6415",
+            "title": "InternalMed_Harrison",
+            "content": "Another class of immunoregulatory antibody is the \u201cbispecific\u201d antibody blinatumomab, which was constructed to have an anti-CD19 antigen combining site as one valency of an antibody with anti-CD3 binding site as the other valency. This antibody thus can bring T cells (with its anti-CD3 activity) close to B cells bearing the CD19 determinant. Blinatumomab is active in B cell neoplasms such as acute lymphocytic leukemia, which may not have prominent expression of the CD20 targeted by rituximab."
+        },
+        {
+            "id": "Immunology_Janeway_4046",
+            "title": "Immunology_Janeway",
+            "content": "Monoclonal antibodies belong to a new class of therapeutic compounds called biologics, which includes other natural proteins such as anti-lymphocyte globulin, cytokines, protein fragments, and even whole cells, which are used, for example, in the adoptive transfer of T cells in cancer immunotherapy. Many monoclonal antibodies have been, or are in the process of being, approved for clinical use by the US Food and Drug Administration (Fig. 16.8), and a systematic naming process identifies the type of antibody. Murine monoclonal antibodies are designated by the suffix -omab, such as muromomab (originally called OKT3), a murine antibody against CD3. Chimeric antibodies in which the entire variable region is spliced into human constant regions have the suffix -ximab, such as basiliximab, an anti-CD25 antibody approved for the treatment of transplantation rejection. Humanized antibodies in which the murine hypervariable regions have been spliced into a human antibody have the suffix -zumab,"
+        },
+        {
+            "id": "Immunology_Janeway_4433",
+            "title": "Immunology_Janeway",
+            "content": "Cytokine-speci\u00ffc antibodies penetrate the cell to bind the intracellular cytokine molecules The cell is \u00ffxed and permeabilized with mild detergents Activated T cells are treated with an inhibitor that blocks protein export, allowing cytokines to accumulate in the ER the two antigen-binding sites recognize different ligands (Fig. A.27). In the bispecific antibodies used to detect cytokine production, one of the antigen-binding sites is specific for a T-cell surface marker, while the other is specific for the cytokine in question. The bispecific antibody binds to the T cells through the binding site for the cell-surface marker, leaving the cytokine-binding site free. If that T cell is secreting the particular cytokine, it is captured by the bound antibody before it diffuses away from the surface of the cell. It can then be detected by adding to the cells a fluorochrome-labeled second antibody specific for the cytokine."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6640",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 24\u201323 A schematic drawing of a bivalent antibody molecule. The two heavy chains each have a hinge region, which, because of its flexibility, improves the efficiency with which the antibody can cross-link antigens (see Figure 24\u201322). The two heavy chains also form the tail of the antibody, which determines its functional properties. The heavy and light chains are held together by both covalent S\u2013S bonds (red) and noncovalent bonds (not shown)."
+        },
+        {
+            "id": "Immunology_Janeway_4570",
+            "title": "Immunology_Janeway",
+            "content": "antibody-directed enzyme/pro-drug therapy (ADEPT) Treatment in which an antibody is linked to an enzyme that metabolizes a nontoxic pro-drug to the active cytotoxic drug. antibody repertoire The total variety of antibodies in the body of an individual. antigen Any molecule that can bind specifically to an antibody or generate peptide fragments that are recognized by a T-cell receptor. antigen-binding site The site at the tip of each arm of an antibody that makes physical contact with the antigen and binds it noncovalently. The antigen specificity of the site is determined by its shape and the amino acids present. antigenic determinant That portion of an antigenic molecule that is bound by the antigen-binding site of a given antibody or antigen receptor; it is also known as an epitope."
+        },
+        {
+            "id": "Immunology_Janeway_4496",
+            "title": "Immunology_Janeway",
+            "content": "A-33 In vivo administration of antibodies. Antibodies administered to intact experimental animals, or to humans, provide a potent means of manipulating the immune system. Depending on the target molecule recognized by the antibody, and the intrinsic properties of each antibody, in vivo antibody administration can either inhibit the function of the target molecule or, in some cases, lead to the elimination of a cell population that expresses the target molecule."
+        },
+        {
+            "id": "Immunology_Janeway_4332",
+            "title": "Immunology_Janeway",
+            "content": "A-7 Monoclonal antibodies."
+        },
+        {
+            "id": "Immunology_Janeway_4137",
+            "title": "Immunology_Janeway",
+            "content": "A variation on this approach is to link an antibody to an enzyme that metabolizes a nontoxic pro-drug to the active cytotoxic drug, a technique known as antibody-directed enzyme/pro-drug therapy (ADEPT). With this technique, a small amount of enzyme localized by the antibody can generate much larger amounts of active cytotoxic drug in the immediate vicinity of tumor cells. Monoclonal antibodies linked to radioisotopes (see Fig. 16.19) have been successfully used to treat refractory B-cell lymphoma, using anti-CD20 antibodies linked to yttrium-90 (ibritumomab tiuxetan). These approaches have the advantage of also killing neighboring tumor cells, because the released drug or radioactive emissions can affect cells adjacent to those that bind the antibody. Monoclonal antibodies coupled to \u03b3-emitting radioisotopes have also been used successfully to image tumors for the purposes of diagnosis and monitoring tumor spread."
+        },
+        {
+            "id": "Immunology_Janeway_819",
+            "title": "Immunology_Janeway",
+            "content": "called the Fc fragment, is composed of the carboxy-terminal domains of the heavy chains, and it is these domains that determine the antibody\u2019s isotype. Joining the arms of the Y to the trunk are the flexible hinge regions. The Fc fragment and hinge regions differ in antibodies of different isotypes."
+        },
+        {
+            "id": "Pharmacology_Katzung_6156",
+            "title": "Pharmacology_Katzung",
+            "content": "Advances in the ability to manipulate the genes for immunoglobulins have resulted in development of a wide array of humanized and chimeric monoclonal antibodies directed against therapeutic targets. As described above, the only murine elements of humanized monoclonal antibodies are the complementarity-determining regions in the variable domains of immunoglobulin heavy and light chains. Complementarity-determining regions are primarily responsible for the antigen-binding capacity of antibodies. Chimeric antibodies typically contain antigen-binding murine variable regions and human constant regions. The following are brief descriptions of the engineered antibodies that have been approved for clinical use; they are presented alphabetically by indication."
+        },
+        {
+            "id": "Immunology_Janeway_4044",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 16.7 Monoclonal antibodies used to treat human diseases can be engineered to decrease immunogenicity but maintain their antigen specificity. Antibodies that are derived fully from mice, named with the suffix -omab, are immunogenic in humans. This causes patients to generate antibodies against them, limiting their usefulness over time. This immunogenicity can be reduced by making chimeric antibodies in which the V regions from the mouse are spliced onto human antibody constant regions; such antibodies are named with the suffix -ximab. Humanization is the process of splicing in just the complementarity-determining regions from the mouse antibody, further reducing immunogenicity; humanized antibodies are named with the suffix -zumab. New techniques now allow fully human (-umab) monoclonal antibodies to be derived, which are the least immunogenic type of antibody currently used for treating humans."
+        },
+        {
+            "id": "InternalMed_Harrison_6399",
+            "title": "InternalMed_Harrison",
+            "content": "Antibody-Mediated Therapeutic Approaches In general, antibodies are not very effective at killing cancer cells. Because the tumor seems to influence the host toward making antibodies rather than generating cellular immunity, it is inferred that antibodies are easier for the tumor to fend off. Many patients can be shown to have serum antibodies directed at their tumors, but these do not appear to influence disease progression. However, the ability to grow very large quantities of high-affinity antibody directed at a tumor by the hybridoma technique has led to the application of antibodies in the treatment of cancer. In this approach, antibodies are derived where the antigen-combining regions are grafted onto human immunoglobulin gene products (chimerized or humanized) or derived de novo from mice bearing Drug Target Indications and Features of Use"
+        },
+        {
+            "id": "Pharmacology_Katzung_6144",
+            "title": "Pharmacology_Katzung",
+            "content": "Other genetic engineering techniques involve production of chimeric and humanized versions of murine monoclonal antibodies in order to reduce their antigenicity and increase the half-life of the antibody in the patient. Murine antibodies administered as such to human patients elicit production of human antimouse antibodies (HAMAs), which clear the original murine proteins very rapidly. Humanization involves replacing most of the murine antibody with equivalent human regions while keeping only the variable, antigen-specific regions intact. Chimeric mouse-human antibodies have similar properties with less complete replacement of the murine components. The current naming convention for these engineered substances uses the suffix \u201c-umab\u201d or \u201c-zumab\u201d for humanized antibodies, and \u201c-imab\u201d or \u201c-ximab\u201d for chimeric products. These molecular engineering procedures have been successful in reducing or preventing HAMA production for many of the antibodies discussed below."
+        },
+        {
+            "id": "Immunology_Janeway_4425",
+            "title": "Immunology_Janeway",
+            "content": "A-22 ELISPOT assay."
+        },
+        {
+            "id": "Immunology_Janeway_4128",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 16.19 Monoclonal antibodies that recognize tumor-specific antigens have been used to help eliminate tumors. Tumor-specific antibodies of the correct isotypes can lyse tumor cells by recruiting effector cells such as NK cells and activating them via their Fc receptors (left panels). Another strategy has been to couple the antibody to a powerful toxin (center panels). When the antibody binds to the tumor cell and is endocytosed, the toxin is released from the antibody and can kill the tumor cell. If the antibody is coupled to a radioisotope (right panels), binding of the antibody to a tumor cell will deliver a dose of radiation sufficient to kill the tumor cell. In addition, nearby tumor cells could also receive a lethal radiation dose, even though they do not bind the antibody. Antibody fragments have started to replace whole antibodies for coupling to toxins or radioisotopes."
+        },
+        {
+            "id": "Immunology_Janeway_950",
+            "title": "Immunology_Janeway",
+            "content": "B. Two \u03b2 strands linked by a disulfide bond C. four \u03b1 helices linked by two disulfide bonds D. Seven antiparallel \u03b1 helices in series E. one \u03b2 sandwich of two \u03b2 sheets folded together and linked by a disulfide bond 4.9 Multiple Choice: Antibodies have flexibility at various points in the molecule, particularly the hinge region between the fc and fab portion and, to some extent, the junction between the V and c regions. Which of the following properties of an antibody are not affected by its flexibility? A. Binding to small antigens (haptens) B. Avidity to antigen C. Affinity to antigen D. interaction with antibody-binding proteins E. Binding to distantly spaced antigens 4.10 Multiple Choice: Which region of the antigen receptor of B cells and T cells is most critical in antigen recognition and specificity? A. fR1 B. cDR1 C. fR2 D. cDR2 E. fR3 F. cDR3 G. fR4 General references."
+        },
+        {
+            "id": "Immunology_Janeway_2492",
+            "title": "Immunology_Janeway",
+            "content": "10-23 Fc receptors activate NK cells to destroy antibody-coated targets."
+        },
+        {
+            "id": "Immunology_Janeway_814",
+            "title": "Immunology_Janeway",
+            "content": "Angle between arms is 90oAngle between arms is 60o(Micrograph \u00d7300,000) 4-5 The hinge region of the immunoglobulin molecule allows flexibility in binding to multiple antigens."
+        },
+        {
+            "id": "Immunology_Janeway_4042",
+            "title": "Immunology_Janeway",
+            "content": "16-5 Antibodies can be engineered to reduce their immunogenicity in humans. A major impediment to therapy with monoclonal antibodies in humans has been that these antibodies are most readily made by immunizing nonhuman species, such as the mouse, to generate antibodies of the desired specificity (see Appendix I, Section A-7). Humans may develop an antibody response against such nonhuman antibodies, since aggregated forms of foreign antibodies can be immunogenic. Such a reaction not only interferes with the therapeutic actions of the antibodies, but also leads to allergic reactions, and, if treatment is continued, may result in anaphylaxis (see Section 14-10). Once a patient has made a response to an antibody, it can no longer be used for future treatment. This problem can, in principle, be avoided by making antibodies that are not recognized as foreign by the human immune system, a process called humanization."
+        },
+        {
+            "id": "Immunology_Janeway_4318",
+            "title": "Immunology_Janeway",
+            "content": "antibodies can also be used in RIA or ELISA as a second layer, following the binding of unlabeled antibody to unlabeled antigen-coated plates. The use of such a second layer amplifies the signal, because at least two molecules of the labeled anti-immunoglobulin antibody are able to bind to each unlabeled antibody. As mentioned above, RIA and ELISA can also be carried out in reverse when the goal is to determine the amount of antibody in a solution; in this case, unlabeled antibody is adhered to the plates, labeled antigen is added, and the amount of labeled antigen bound after washing is measured."
+        },
+        {
+            "id": "Immunology_Janeway_4345",
+            "title": "Immunology_Janeway",
+            "content": "probes, and as therapeutic agents. So far, however, only mouse monoclonals are routinely produced in this way, and efforts to use the same approach to make human monoclonal antibodies have met with limited success. \u2018Fully human\u2019 therapeutic monoclonal antibodies are currently made by using phage display technology (described in Section A-8), by using recombinant DNA technology to clone and express antibody genes from human plasma cells (see Section A-9), or by immunizing transgenic mice (see Section A-34) carrying human antibody genes."
+        },
+        {
+            "id": "Immunology_Janeway_844",
+            "title": "Immunology_Janeway",
+            "content": "4-9 Antibody interaction with intact antigens is influenced by steric constraints."
+        },
+        {
+            "id": "Immunology_Janeway_800",
+            "title": "Immunology_Janeway",
+            "content": "with the light chain. The general structural features of all the isotypes are similar, particularly with respect to antigen binding. Here we will consider IgG as a typical antibody molecule, and we will return to discuss the structural and functional properties of the different heavy-chain isotypes in Chapter 5."
+        },
+        {
+            "id": "Surgery_Schwartz_2437",
+            "title": "Surgery_Schwartz",
+            "content": "lower incidence of car-diovascular risk factors including metabolic lipid disorders, hypertension, neurotoxicity, glucose abnormalities, and adverse cosmetic effects. Except for the increased risk of malignancy, the more favorable adverse effect profile of belatacept and its convenient monthly dosing schedule may make it an attrac-tive option for maintenance of immunosuppression, possibly improving compliance.31,32HUMORAL REJECTIONRituximabA chimeric anti-CD20 (anti-B cell) monoclonal antibody, ritux-imab is currently FDA approved for treating several types of lymphoma. The CD20 antigen is expressed early in the B-cell cycle but is absent on mature plasma cells. The variable region binds to CD20 through three different mechanisms: (a) antibody-dependent cell cytotoxicity, (b) complement-dependent cell killing, and (c) induction of apoptotic cell death. The use of Brunicardi_Ch11_p0355-p0396.indd 36201/03/19 6:53 PM 363TRANSPLANTATIONCHAPTER 11rituximab has grown to include the"
+        },
+        {
+            "id": "Immunology_Janeway_4131",
+            "title": "Immunology_Janeway",
+            "content": "Technical problems with monoclonal antibodies as therapeutic agents include inefficient killing of cells after binding the monoclonal antibody, inefficient penetration of the antibody into the tumor mass (which can be improved by using small antibody fragments), and soluble target antigens mopping up the antibody. The efficiency of killing can be enhanced by linking the antibody to a toxin, producing a reagent called an immunotoxin (see Fig. 16.19): two favored toxins are ricin A chain and Pseudomonas toxin. The antibody must be internalized to allow cleavage of the toxin from the antibody in the endocytic compartment, permitting the freed toxin chain to penetrate and kill the cell. Toxins coupled to native antibodies have had limited success in cancer therapy, but fragments of antibodies such as single-chain Fv molecules (see Section 4-3) show more promise. An example of a successful immunotoxin is a recombinant Fv anti-CD22 antibody fused to a fragment of Pseudomonas toxin, which"
+        },
+        {
+            "id": "InternalMed_Harrison_6402",
+            "title": "InternalMed_Harrison",
+            "content": "human immunoglobulin gene loci. Three general strategies have emerged using antibodies. Tumor-regulatory antibodies target tumor cells directly or indirectly to modulate intracellular functions or attract immune or stromal cells. Immunoregulatory antibodies target antigens expressed on the tumor cells or host immune cells to modulate primarily the host\u2019s immune responsiveness to the tumor. Finally, antibody conjugates can be made with the antibody linked to drugs, toxins, or radioisotopes to target these \u201cwarheads\u201d for delivery to the tumor. Table 103e-6 lists features of currently used or promising antibodies for cancer treatment."
+        },
+        {
+            "id": "Immunology_Janeway_4435",
+            "title": "Immunology_Janeway",
+            "content": "Fig. A.27 Hybrid antibodies containing cell-specific and cytokine-specific binding sites can be used to assay cytokine secretion by living cells and to purify cells secreting particular cytokines. Hybrid antibodies can be made by mixing together heavyand light-chain pairs from antibodies of different specificities, for example, an antibody against an MHC class I molecule and an antibody specific for a cytokine such as IL-4 (first panel). The hybrid antibodies are then added to a population of activated T cells, and bind to each cell via the MHC class I binding arm (second panel). If some of the cells in the population are secreting the appropriate cytokine, IL-4, this is captured by the cytokine-specific arm of the hybrid antibody (third panel). The presence of the cytokine can then be revealed, for example, by using a fluorochrome-labeled second antibody specific for the same cytokine but binding to a different site from the one used by the hybrid antibody (last panel). The labeled"
+        },
+        {
+            "id": "Immunology_Janeway_791",
+            "title": "Immunology_Janeway",
+            "content": "The structure of a typical antibody molecule. Antibodies are the secreted form of the B-cell receptor. Because they are soluble and secreted into the blood in large quantities, antibodies are easily obtained and easily studied. For this reason, most of what we know about the B-cell receptor comes from the study of antibodies. Antibody molecules are roughly Y-shaped, as represented in Fig. 4.1 using three different schematic styles. This part of the chapter will explain how this structure is formed and allows the antibody molecule to perform its dual tasks of binding to a wide variety of antigens while also binding to effector molecules"
+        },
+        {
+            "id": "Immunology_Janeway_829",
+            "title": "Immunology_Janeway",
+            "content": "In early investigations of antigen binding to antibodies, the only available sources of large quantities of a single type of antibody molecule were tumors of antibody-secreting cells. The antigen specificities of these antibodies were unknown, and therefore many compounds had to be screened to identify ligands that could be used to study antigen binding. In general, the substances found to bind to these antibodies were haptens (see Section 4-5) such as phosphocholine or vitamin K1. Structural analysis of complexes of antibodies with their hapten ligands provided the first direct evidence that the hypervariable regions form the antigen-binding site, and demonstrated the structural basis of specificity for the hapten. Subsequently, with the discovery of methods of generating monoclonal antibodies (see Appendix I, Section A-7), it became possible to make large amounts of pure antibody specific for a given antigen. This has provided a more general picture of how antibodies interact with"
+        },
+        {
+            "id": "Immunology_Janeway_4344",
+            "title": "Immunology_Janeway",
+            "content": "using drugs that kill the myeloma parental cell, while the unfused parental spleen cells have a limited life-span and soon die, so that only hybrid myeloma cell lines, or hybridomas, survive. Those hybridomas producing antibody of the desired specificity are then identified and cloned by regrowing the cultures from single cells (Fig. A.9). Because each hybridoma is a clone derived from fusion with a single B cell, all the antibody molecules it produces are identical in structure, including their antigen-binding site and isotype. Such antibodies are called monoclonal antibodies. This technology has revolutionized the use of antibodies by providing a limitless supply of antibody of a single and known specificity. Monoclonal antibodies are now used in most serological assays, as diagnostic probes, and as therapeutic agents. So far, however, only mouse monoclonals are routinely produced in this way, and efforts to use the same approach to make human monoclonal antibodies have met with"
+        },
+        {
+            "id": "Pharmacology_Katzung_6142",
+            "title": "Pharmacology_Katzung",
+            "content": "The development of hybridoma technology by Milstein and K\u00f6hler in 1975 revolutionized the antibody field and radically increased the purity and specificity of antibodies used in the clinic and for diagnostic tests in the laboratory. Hybridomas are B cells fused to immortal plasmacytoma cells that secrete monoclonal antibodies specific for a target antigen. Large-scale hybridoma culture facilities are employed by the pharmaceutical industry to produce diagnostic and clinical-grade monoclonal antibodies."
+        },
+        {
+            "id": "Immunology_Janeway_84",
+            "title": "Immunology_Janeway",
+            "content": "The antibody molecule is composed of two identical heavy chains and two identical light chains. Heavy and light chains each have variable and constant regions. The variable regions of a heavy chain and a light chain combine to form an antigen-binding site that determines the antigen-binding specificity of the antibody. Thus, both heavy and light chains contribute to the antigen-binding specificity of the antibody molecule. Also, each antibody has two identical variable regions, and so has two identical antigen-binding sites. The constant region determines the effector function of the antibody, that is, how the antibody will interact with various immune cells to dispose of antigen once it is bound. Fig. 1.14 Antigens are the molecules recognized by the immune response, while epitopes are sites within antigens to which antigen receptors bind."
+        }
+    ],
+    "scores": [
+        0.031730045280233043,
+        0.025600846227645073,
+        0.02532684207647284,
+        0.025310521789395028,
+        0.0210044771214984,
+        0.019747495213326832,
+        0.01960972796308757,
+        0.01919191919191919,
+        0.018196836995948547,
+        0.01763791763791764,
+        0.01707175925925926,
+        0.017011197243755383,
+        0.016666666666666666,
+        0.01642643812491884,
+        0.016317169069462647,
+        0.01628707627118644,
+        0.01610857432775241,
+        0.016025641025641024,
+        0.015881742104941664,
+        0.015683962264150943,
+        0.015617403986387944,
+        0.015079365079365081,
+        0.014856130108423687,
+        0.014796026210103572,
+        0.014705156674068593,
+        0.014345369688037337,
+        0.014150487781319424,
+        0.01374633431085044,
+        0.013620689655172415,
+        0.01261098452109688,
+        0.012424277501254005,
+        0.011196357285429143
+    ]
+}

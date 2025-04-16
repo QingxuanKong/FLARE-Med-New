@@ -1,0 +1,206 @@
+{
+    "id": "5e480ccfd14c9f295d000005",
+    "question": "Is g-H2AX a marker for double strand breaks?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine if gamma-H2AX is a marker for double-strand breaks, we need to understand the context in which gamma-H2AX is used and the biological process it is associated with. Gamma-H2AX is a phosphorylated form of the H2AX protein, which is a histone that makes up a significant portion of chromatin in eukaryotic cells. In response to DNA double-strand breaks, gamma-H2AX is recruited to the break site and phosphorylated, indicating the presence of a DNA double-strand break. This recruitment and phosphorylation are crucial steps in the cellular response to DNA damage, as they trigger the activation of the non-homologous end joining (NHEJ) and homologous recombination pathways for repair. Given this context, we can infer that gamma-H2AX is indeed associated with the detection and response to double-strand breaks in DNA.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1298",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although accurately repairing double-strand breaks, which can arise from radiation or chemical reactions, is a crucial function of homologous recombination, perhaps its most important role is in rescuing stalled or broken DNA replication forks. Many types of events can cause a replication fork to break, and here we consider just one example: a single-strand nick or gap in the parental DNA helix just ahead of a replication fork. When the fork reaches this lesion, it falls apart\u2014resulting in one broken and one intact daughter chromosome. The broken fork can be flawlessly repaired (Figure 5\u201350) using the same basic homologous recombination reactions we discussed above for the repair of double-strand breaks. With slight modifications, the set of reactions depicted in Figures 5\u201348 and 5\u201350\u2014 known collectively as homologous recombination\u2014can accurately repair many different types of DNA damage. Cells Carefully Regulate the Use of Homologous Recombination in DNA Repair"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1295",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201348 Mechanism of double-strand break repair by homologous recombination. This is the preferred method for repairing DNA double-strand breaks that arise shortly after the DNA has been replicated, while the daughter DNA molecules are still held close together. In general, homologous recombination can be regarded as a flexible series of reactions, with the exact pathway differing from one case to the next. For example, the length of the repair \u201cpatch\u201d can vary considerably depending on the extent of 5\u02b9 processing and new DNA synthesis, indicated in green."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1274",
+            "title": "Cell_Biology_Alberts",
+            "content": "A much more accurate type of double-strand break repair occurs in newly replicated DNA (Figure 5\u201345B). Here, the DNA is repaired using the sister chromatid as a template. This reaction is an example of homologous recombination, and we consider its mechanism later in this chapter. Most organisms employ both non-homologous end joining and homologous recombination to repair double-strand breaks in DNA. Nonhomologous end joining predominates in humans; homologous recombination is used only during and shortly after DNA replication (in S and G2 phases), when sister chromatids are available to serve as templates. repaired DNA has generally suffered a deletion of nucleotides (A)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1299",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells Carefully Regulate the Use of Homologous Recombination in DNA Repair Although homologous recombination neatly solves the problem of accurately repairing double-strand breaks and other types of DNA damage, it does present"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1387",
+            "title": "Cell_Biology_Alberts",
+            "content": "Estimates based on the frequency of breaks in primary human fibroblasts suggest that by age 70, each human somatic cell may carry some 2000 NHEJ-induced mutations due to inaccurate repair. If these mutations were distributed randomly around the genome, how many pro-tein-coding genes would you expect to be affected? Would you expect cell function to be compromised? Why or why not? (Assume that 2% of the genome\u20141.5% protein-coding and 0.5% regulatory\u2014is crucial information.) 5\u201314 Draw the structure of the double Holliday junction that would result from strand invasion by both ends of the broken duplex into the intact homologous duplex shown in Figure Q5\u20133. Label the left end of each strand in the Holliday junction 5\u02b9or 3\u02b9 so that the relationship to the parental and recombinant duplexes is clear. Indicate how DNA synthesis would be used to fill in any single-strand gaps in your double Holliday junction. (Problem 5\u201314)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1290",
+            "title": "Cell_Biology_Alberts",
+            "content": "We saw in the previous section that nonhomologous end-joining occurs without a template and usually leaves a mutation at the site at which a double-strand break is repaired. In contrast, homologous recombination can repair double-strand breaks accurately, without any loss or alteration of nucleotides at the site of repair. For homologous recombination to do this repair job, the broken DNA has to be brought into proximity with homologous but unbroken DNA, which can serve as a template for repair. For this reason, homologous recombination often occurs just after DNA replication, when the two daughter DNA molecules lie close together and one can serve as a template for repair of the other. As we shall see, the process of DNA replication itself creates a special risk of accidents requiring this sort of repair."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1275",
+            "title": "Cell_Biology_Alberts",
+            "content": "repaired DNA has generally suffered a deletion of nucleotides (A) Figure 5\u201345 Two ways to repair double-strand breaks. (A) Nonhomologous end joining alters the original DNA sequence when repairing a broken chromosome. The initial degradation of the broken DNA ends is important because the nucleotides at the site of the initial break are often damaged and cannot be ligated. Nonhomologous end joining usually takes place when cells have not yet duplicated their DNA. (B) Repairing double-strand breaks by homologous recombination is more difficult to accomplish but restores the original DNA sequence. It typically takes place after the DNA has been duplicated (when a duplex template is available) but before the cell has divided. Details of the homologous recombination pathway are presented in the following section (see Figure 5\u201348)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1317",
+            "title": "Cell_Biology_Alberts",
+            "content": "As shown in Figure 5\u201354, there are two basic outcomes of homologous recombination during meiosis. In humans, approximately 90% of the double-strand breaks produced during meiosis are resolved as non-crossovers (see right side of Figure 5\u201354). Here, the two original DNA duplexes separate from each other in a form unaltered except for a region of heteroduplex that formed near the site of the original double-strand break. This set of reactions resembles that described above for the repair of double-strand breaks (see Figure 5\u201348). The other outcome is more profound: a double Holliday junction is formed and is cleaved by specialized enzymes to create a crossover (see left side of Figure 5\u201354). The two original portions of each chromosome upstream and downstream"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1312",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201352 Experiment demonstrating the rapid localization of repair proteins to DNA double-strand breaks. Human fibroblasts were x-irradiated to produce DNA double-strand breaks. Before the x-rays struck the cells, they were passed through a microscopic grid with x-ray-absorbing \u201cbars\u201d spaced 1 \u03bcm apart. This produced a striped pattern of DNA damage, allowing a comparison of damaged and undamaged DNA in the same nucleus. (A) Total DNA in a fibroblast nucleus stained with the dye DAPI. (B) Sites of new DNA synthesis due to repair of DNA damage, indicated by incorporation of BudR (a thymidine analog) and subsequent staining with fluorescently labeled antibodies to BudR (green)."
+        },
+        {
+            "id": "InternalMed_Harrison_6095",
+            "title": "InternalMed_Harrison",
+            "content": "At the end of S phase, when the cell has exactly duplicated its DNA content, a second inventory is taken at the S checkpoint. Have all of the chromosomes been fully duplicated? Were any segments of DNA copied more than once? Do we have the right number of chromosomes and the right amount of DNA? If so, the cell proceeds to G2, in which the cell prepares for division by synthesizing mitotic spindle and other proteins needed to produce two daughter cells. When DNA damage is 1.DNA DAMAGE CHECKPOINT 2. ONCOGENE CHECKPOINT myc, E2F, EIA Induction of P14ARF Transcriptional activation of p53-responsive genes ATM/ATR chk1/chk2 mdm2 P14ARF mdm2 mdm2 P P P P P p53"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1283",
+            "title": "Cell_Biology_Alberts",
+            "content": "the damage, homologous recombination can repair many types of DNA damage. It is, for example, the main way to accurately repair double-strand breaks, as introduced in the previous section (see Figure 5\u201345B). Double-strand breaks can result from radiation and reactive chemicals, but most of the time they arise from DNA replication forks that become stalled or broken independently of any such external cause. Homologous recombination accurately corrects these accidents and, because they occur during nearly every round of DNA replication, this repair mechanism is essential for every proliferating cell. Homologous recombination is perhaps the most versatile DNA repair mechanism available to the cell; the \u201call-purpose\u201d nature of recombinational repair probably explains why its mechanism and the proteins that carry it out have been conserved in virtually all cells on Earth."
+        },
+        {
+            "id": "Histology_Ross_466",
+            "title": "Histology_Ross",
+            "content": "The G1 phase is usually the longest and the most variable phase of the cell cycle, and it begins at the end of M phase. During the G1 phase, the cell gathers nutrients and synthesizes RNA and proteins necessary for DNA synthesis and 912 h 7.510 h 3.54.5 h 1 h G1 GO GTD S G2 M G1 DNA-damage checkpoint G2 DNA-damage checkpoint S DNA-damage checkpoint unreplicated DNA checkpoint checkpoint checkpoint restriction checkpoint"
+        },
+        {
+            "id": "Immunology_Janeway_2389",
+            "title": "Immunology_Janeway",
+            "content": "subsequently for UNG and APE1. Third panel: these enzymes introduce a high density of single-strand nicks into the non-template DNA strand and the template strand. Staggered nicks are converted to double-strand breaks by a mechanism that is not yet understood. Fourth panel: these breaks are then recognized by the cell\u2019s double-strand break repair machinery, which involves DNA-PKcs, Ku proteins, and other repair proteins. Bottom two panels: the two switch regions, in this case S\u03bc and S\u03b5, are brought together by the repair proteins, and class switching is completed by excision of the intervening region of DNA (including C\u03bc and C\u03b4) and ligation of the S\u03bc and S\u03b5 regions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2409",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cas9 protein makes a double-strand break. As we saw in Chapter 5, double-strand breaks are often repaired by homologous recombination; here, the template chosen by the cell to repair the damage is often the altered gene, which is introduced to ES cells by the experimenter. In this way, the normal gene can be selectively damaged by the CRISPR system and replaced at high efficiency by the experimentally altered gene."
+        },
+        {
+            "id": "Pathology_Robbins_1959",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 8.14 ). Damage to DNA caused by ionizing radiation that is not precisely repaired leads to mutations, which can manifest years or decades later as cancer. Ionizing radiation can cause many types of damage in DNA, including single-base damage, singleand double-strand breaks, and crosslinks between DNA and protein. In surviving cells, simple defects may be reparable by various enzyme repair systems contained in mammalian cells (see Chapter 6). These repair systems are linked to cell-cycle regulation through proteins such as ATM (ataxia-telangiectasia mutated) that initiate signal transduction after the damage, and p53, which can transiently arrest the cell cycle to allow for DNA repair or to trigger apoptosis of cells that are irreparable. However, double-strand breaks may persist without repair, or the repair of lesions may be imprecise (error prone), creating mutations. If cell-cycle checkpoints are not functioning (for instance, because of mutations in TP53), cells with abnormal"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1304",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells go to great lengths to minimize the risk of mishaps of these types; indeed, nearly every step of homologous recombination is carefully regulated. For example, the first step, processing of the broken ends, is coordinated with the cell cycle: the nuclease enzymes that carry out this process are activated (in part, by phosphorylation) only in the S and G2 phases of the cell cycle, when a daughter duplex (either as a partially replicated chromosome or a fully replicated sister chromatid) can serve as a template for repair (see Figure 5\u201350). The close proximity of the two daughter chromosomes disfavors the use of other genome sequences in the repair process."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1281",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other critical repair systems\u2014based on either nonhomologous end joining or homologous recombination\u2014reseal the accidental double-strand breaks that occur in the DNA helix. In most cells, an elevated level of DNA damage causes a delay in the cell cycle, which ensures that DNA damage is repaired before a cell divides."
+        },
+        {
+            "id": "Histology_Ross_470",
+            "title": "Histology_Ross",
+            "content": "In the S phase, DNA is replicated. Initiation of DNA synthesis marks the beginning of the S phase, which is about 7.5 to 10 hours in duration. The DNA of the cell is doubled during the S phase, and new chromatids are formed that will become obvious at prophase or metaphase of the mitotic division. Chromosome replication is initiated at many different sites called replicons along the chromosomal DNA. Each replicon has a specifically assigned time frame for replication during S phase. Presence of the S DNA-damage checkpoint in this phase monitors quality of replicating DNA. In the G2 phase, the cell prepares for cell division."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1282",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the two preceding sections, we discussed the mechanisms that allow the DNA sequences in cells to be maintained from generation to generation with very little change. In this section, we further explore one of the DNA repair mechanisms, a diverse set of reactions known collectively as homologous recombination. The key feature of homologous recombination (also known as general recombination) is an exchange of DNA strands between a pair of homologous duplex DNA sequences, that is, segments of double helix that are very similar or identical in nucleotide sequence. This exchange allows one stretch of duplex DNA to act as a template to restore lost or damaged information on a second stretch of duplex DNA. Because the template for repair is not limited to the strand complementary to that containing the damage, homologous recombination can repair many types of DNA damage. It is, for example, the main way to accurately repair double-strand breaks, as introduced in the previous section (see"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5681",
+            "title": "Cell_Biology_Alberts",
+            "content": "recombination. Might it be possible to eradicate that cancer by treating it with a drug that inhibits the repair of single-strand breaks, thereby greatly increasing the number of forks that break? The consequences of such drug treatment might be expected to be relatively harmless for normal cells, but lethal for the cancer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1311",
+            "title": "Cell_Biology_Alberts",
+            "content": "Meiotic Recombination Begins with a Programmed Double-Strand Break Homologous recombination in meiosis starts with a bold stroke: a specialized protein (called Spo11 in budding yeast) breaks both strands of the DNA double helix in one of the recombining chromosomes (Figure 5\u201354). Like a topoisomerase, Spo11, after catalyzing this reaction, remains covalently bound to the broken site of gene site of conversion crossover"
+        },
+        {
+            "id": "InternalMed_Harrison_6327",
+            "title": "InternalMed_Harrison",
+            "content": "double-strand breaks through which another segment of DNA duplex passes before rejoining. DNA damage from these agents can occur in any cell cycle phase, but cells tend to arrest in S-phase or G2 of the cell cycle in cells with p53 and Rb pathway lesions as the result of defective checkpoint mechanisms in cancer cells. Owing to the role of topoisomerase I in the procession of the replication fork, topoisomerase I poisons cause lethality if the topoisomerase I\u2013induced lesions are made in S-phase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1386",
+            "title": "Cell_Biology_Alberts",
+            "content": "5\u201312 If you compare the frequency of the sixteen possible dinucleotide sequences in the E. coli and human genomes, there are no striking differences except for one dinucleotide, 5\u02b9-CG-3\u02b9. The frequency of CG dinucleotides in the human genome is significantly lower than in E. coli and significantly lower than expected by chance. Why do you suppose that CG dinucleotides are underrepresented in the human genome? 5\u201313 With age, somatic cells are thought to accumulate genomic \u201cscars\u201d as a result of the inaccurate repair of double-strand breaks by nonhomologous end joining (NHEJ)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1490",
+            "title": "Biochemistry_Lippinco",
+            "content": "Ionizing radiation, chemotherapeutic agents such as doxorubicin, and oxidative free radicals (see p. 148) can cause double-strand breaks in DNA that can be lethal to the cell. [Note: Such breaks also occur naturally during genetic recombination.] dsDNA breaks cannot be corrected by the previously described strategy of excising the damage on one strand and using the undamaged strand as a template for replacing the missing nucleotide(s). Instead, they are repaired by one of two systems. The first is nonhomologous end joining (NHEJ), in which a group of proteins mediates the recognition, processing, and ligation of the ends of two DNA fragments. However, some DNA is lost in the process. Consequently, NHEJ is error prone and mutagenic. Defects in NHEJ are associated with a predisposition to cancer and immunodeficiency syndromes. The second repair system, homologous recombination (HR), uses the enzymes that normally perform genetic recombination between homologous chromosomes during"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5728",
+            "title": "Cell_Biology_Alberts",
+            "content": "20\u201310 PolyADP-ribose polymerase (PARP) plays a key role in the repair of DNA single-strand breaks. In the presence of the PARP inhibitor olaparib, single-strand breaks accumulate. When a replication fork encounters a sin-gle-strand break, it converts it to a double-strand break, which in normal cells is then repaired by homologous recombination. In cells defective for homologous recombination, however, inhibition of PARP triggers cell death. Patients who have only one functional copy of the Brca1 gene, which is required for homologous recombination, are at much higher risk for cancer of the breast and ovary. Cancers that arise in these tissues in these patients can be treated successfully with olaparib. Explain how it is that treatment with olaparib kills the cancer cells in these patients, but does not harm their normal cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1271",
+            "title": "Cell_Biology_Alberts",
+            "content": "removal of covalent modifcations, reloading of replicative DNA polymerase, DNA synthesis continues repair. Ionizing radiation, replication errors, oxidizing agents, and other metabolites produced in the cell cause breaks of this type. If these lesions were left unrepaired, they would quickly lead to the breakdown of chromosomes into smaller fragments and to loss of genes when the cell divides. However, two distinct mechanisms have evolved to deal with this type of damage (Figure 5\u201345). The simplest to understand is nonhomologous end joining, in which the broken ends are simply brought together and rejoined by DNA ligation, generally with the loss of nucleotides at the site of joining (Figure 5\u201346). This end-joining mechanism, which can be seen as a \u201cquick and dirty\u201d solution to the repair of double-strand breaks, is common in mammalian somatic cells. Although a change in the DNA sequence (a mutation) results at the site of breakage, so little of the mammalian genome is essential for"
+        },
+        {
+            "id": "Pathology_Robbins_1309",
+            "title": "Pathology_Robbins",
+            "content": "Such an inappropriately activated repair system results in dicentric chromosomes that are pulled apart at anaphase, resulting in new double-stranded DNA breaks. The resulting genomic instability from the repeated bridge\u2013 fusion\u2013breakage cycles eventually produces mitotic catastrophe, characterized by massive apoptosis. It follows that for tumors to acquire the ability to grow indefinitely, loss of growth restraints is not enough; both cellular senescence and mitotic catastrophe must also be avoided ("
+        },
+        {
+            "id": "Cell_Biology_Alberts_5012",
+            "title": "Cell_Biology_Alberts",
+            "content": "homolog pairs are then locked together by homologous recombination: DNA double-strand breaks are formed at several locations in each sister chromatid, resulting in large numbers of DNA recombination events between the homologs (as described in Chapter 5). Some of these events lead to reciprocal DNA exchanges called crossovers, where the DNA of a chromatid crosses over to become continuous with the DNA of a homologous chromatid (Figure 17\u201354B; also see Figure 5\u201354)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1315",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA (see Figure 5\u201321). A specialized nuclease then rapidly degrades the ends bound by Spo11, removing the protein along with the DNA and leaving protruding 3\u02b9 single-strand ends. At this point, many of the recombination reactions resemble those described above for the repair of double-strand breaks; indeed, some of the same proteins are used for both processes. However, several meiosis-specific proteins direct them to perform their tasks somewhat differently, resulting in the distinctive outcomes observed for meiosis. Another important difference is that, in meiosis, recombination occurs preferentially between maternal and paternal chromosomal homo-logs rather than between the newly replicated, identical DNA duplexes that pair in double-strand break repair. In the sections that follow, we describe in more detail those aspects of homologous recombination that are especially important for meiosis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1302",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201350 Repair of a broken replication fork by homologous recombination. When a moving replication fork encounters a single-strand break, it will collapse, but can be repaired by homologous recombination. The process uses many of the same reactions shown in Figure 5\u201348 and proceeds through the same basic steps. Green strands represent the new DNA synthesis that takes place after the replication fork has broken. This pathway allows the fork to move past the site that was nicked on the original template by using the undamaged duplex as a template to synthesize DNA. (Adapted from M.M. Cox, Proc. Natl Acad. Sci. USA 98:8173\u20138180, 2001. With permission from National Academy of Sciences.) some dangers to the cell as it sometimes \u201crepairs\u201d damage using the wrong bit of the genome as the template. For example, sometimes a broken human chromosome is \u201crepaired\u201d using the homolog from the other parent instead of the sister chromatid as the template. Because maternal and paternal chromosomes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5024",
+            "title": "Cell_Biology_Alberts",
+            "content": "Crossing-over has two distinct functions in meiosis: it helps hold homologs together so that they are properly segregated to the two daughter nuclei produced by meiosis I, and it contributes to the genetic diversification of the gametes that are eventually produced. As might be expected, therefore, crossing-over is highly regulated: the number and location of double-strand breaks along each chromosome is controlled, as is the likelihood that a break will be converted into a crossover. On average, the result of this regulation is that each pair of human homologs is linked by about two or three crossovers (Figure 17\u201359). Although the double-strand breaks that occur in meiosis I can be located almost anywhere along the chromosome, they are not distributed uniformly: they cluster at \u201chot spots,\u201d where the DNA is accessible, and occur only rarely in \u201ccold spots,\u201d such as the heterochromatin regions around centromeres and telomeres."
+        },
+        {
+            "id": "Histology_Ross_468",
+            "title": "Histology_Ross",
+            "content": "chromosome replication. The cell\u2019s progress through this phase is monitored by two checkpoints: (1) the restriction point, which is sensitive to the size of the cell, the state of the cell\u2019s physiologic processes, and its interactions with extracellular matrix; and (2) the G1 DNA-damage checkpoint, which monitors the integrity of newly replicated DNA. For instance, if the DNA has irreparable damage, then the G1 DNA-damage checkpoint detects the high levels of tumor-suppressing protein p53 and it does not allow the cell to enter the S phase. The cell will then most likely undergo programmed cell death (apoptosis)."
+        }
+    ],
+    "scores": [
+        0.036753397190669446,
+        0.034054864615438295,
+        0.03229801008068815,
+        0.03134848337395826,
+        0.030356406406826575,
+        0.029568447342998763,
+        0.029239323356970416,
+        0.0284823399608356,
+        0.027801980198019806,
+        0.027639254064114015,
+        0.025926687691393575,
+        0.02581131042037519,
+        0.024681158355976597,
+        0.02447807723037081,
+        0.024131529276683973,
+        0.023491345926148814,
+        0.022907190195310918,
+        0.022842025861357505,
+        0.022749309514015395,
+        0.02244402756820684,
+        0.022251202567143004,
+        0.022140562813129185,
+        0.022005875156481166,
+        0.02176638176638177,
+        0.021466768525592053,
+        0.02105285405762683,
+        0.019834828178108197,
+        0.019779784970448726,
+        0.019588226765260258,
+        0.019394448837092036,
+        0.01823607427055703,
+        0.018205892088712344
+    ]
+}

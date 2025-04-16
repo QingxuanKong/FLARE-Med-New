@@ -1,0 +1,206 @@
+{
+    "id": "5c6d97497c78d69471000040",
+    "question": "Are there graph kernel libraries available implemented in JAVA?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "After analyzing the provided documents, I was unable to find any information about \"graph kernel libraries\" specifically implemented in Java. However, I found some relevant information about graph libraries and data structures that might be related to the concept of graph kernel libraries. Graph kernel libraries are typically used for graph analysis and processing, and they are often implemented in languages like C++, Python, or R. In Java, there are several graph libraries available, such as JGraphT, GraphStream, and Weka, which provide various graph algorithms and data structures. Here's a step-by-step breakdown of my thought process: 1. I searched for the term \"graph kernel libraries\" in the provided documents, but it didn't yield any relevant results. 2. I looked for information on graph libraries in Java, which led me to the three libraries mentioned above (JGraphT, GraphStream, and Weka). 3. While these libraries are not specifically referred to as \"graph kernel libraries,\" they do provide graph analysis and processing capabilities, which might be related to the concept of graph kernel libraries. Based on this analysis, I was unable to find any definitive answer to the question. However, I can provide a tentative answer based on the available information: {\"step_by_step_thinking\": \"After analyzing the provided documents, I was unable to find any information about graph kernel libraries specifically implemented in Java. However, I found several graph libraries available in Java, such as JGraphT, GraphStream, and Weka, which provide graph analysis and processing capabilities. The availability of graph kernel libraries in Java is uncertain.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_5271",
+            "title": "InternalMed_Harrison",
+            "content": "linked nodes). The term scale-free refers to the fact that the connectivity of nodes in the network is invariant with respect to the size of the network. This is quite different from two other common network architectures: random (Poisson) and exponential distributions. Scale-free networks can be mathematically described by a power law that defines the probability of the number of"
+        },
+        {
+            "id": "InternalMed_Harrison_5272",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 87e Network Medicine: Systems Biology in Health and Disease FIGuRE 87e-1 Network representations and their distributions. A random network is depicted on the left, and its Poisson distribution of the number of nodal connections (k) is shown in the graph below it. A scale-free network is depicted on the right, and its power law distribution of the number of nodal connections (k) is shown in the graph below it. Highly connected nodes (hubs) are lightly shaded. links per node (P[k] = k\u2212[\u03b3], where k is the number of links per node and \u03b3 is the slope of the log P[k] versus log[k] plot); this unique property of most biologic networks is a reflection of their self-similarity or fractal nature (Fig. 87e-1)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2537",
+            "title": "Cell_Biology_Alberts",
+            "content": "Equations 8\u201310 and 8\u201311 can be used to carry out an intriguing mathematical procedure called a nullcline analysis. These equations define the relationships between the concentration of X at steady state, [Xst], and the concentration of Y at steady state, [Yst], which must be simultaneously satisfied. We can plug in different values for [Yst] in Equation 8\u201310, and calculate the corresponding [Xst] for each of these values. We can then graph [Xst] as a function of [Yst]. Next, we repeat the process by varying [Xst] in Equation 8\u201311 to graph the resulting [Yst]. The intersections of these two graphs determine the theoretically possible steady states of the system. For systems in which the Hill coefficients hX and hY are much larger than 1, the lines in the two graphs intersect at three locations (Figure 8\u201381D). In other systems that have the same arrangement of regulators but different parameters, there might only be one intersection, indicating the presence of only a single"
+        },
+        {
+            "id": "Immunology_Janeway_4403",
+            "title": "Immunology_Janeway",
+            "content": "main groups, but tends to saturate in areas containing a large number of cells of the same type. A second means of presenting these data is the color dot plot (lower left), which uses color density to indicate high-density areas. A contour plot (upper right) draws 5% \u2018probability\u2019 contours, with contour lines drawn to indicate each successive 5% of the population; this format provides the best monochrome visualization of regions of high and low density. The lower right plot is a 5% probability contour map, which also shows outlying cells as dots."
+        },
+        {
+            "id": "InternalMed_Harrison_5287",
+            "title": "InternalMed_Harrison",
+            "content": "Goh and colleagues developed the concept of a human disease network (Fig. 87e-4) in which they used a systems approach to characterize the disease-gene associations listed in the Online Mendelian Inheritance in Man database. Their analysis showed that genes linked to similar disorders are more likely to have products that physically associate and greater similarity between their transcription profiles than do genes not associated with similar disorders. In addition, proteins associated with the same pathophenotype are significantly more likely to interact with one another than with other proteins not associated with the pathophenotype. Finally, these authors showed that the great majority of disease-associated genes are not highly connected genes (i.e., not hubs) and are typically weakly linked nodes within the functional periphery of the network in which they operate."
+        },
+        {
+            "id": "First_Aid_Step2_1275",
+            "title": "First_Aid_Step2",
+            "content": "For this seventh edition of First Aid for the USMLE Step 2 CK, the database of review books has been completely revised, with in-depth summary comments on more than 100 books and software. A letter rating scale with six different grades re\ufb02ects the detailed student evaluations. Each book receives a rating as follows: The Rating is meant to re\ufb02ect the overall usefulness of the book in preparing for the USMLE Step 2 CK exam. This is based on a number of factors, including: The cost of the book The readability of the text The appropriateness and accuracy of the book The quality and number of sample questions The quality of written answers to sample questions The quality and appropriateness of the illustrations (e.g., graphs, diagrams, photographs) The length of the text (longer is not necessarily better) The quality and number of other books available in the same discipline The importance of the discipline on the USMLE Step 2 CK exam"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2715",
+            "title": "Cell_Biology_Alberts",
+            "content": "In overall design, the transmission electron microscope (TEM) is similar to a light microscope, although it is much larger and \u201cupside down\u201d (Figure 9\u201341). 0.14 nm Figure 9\u201340 The resolution of the electron microscope. this transmission electron micrograph of a monolayer of graphene resolves the individual carbon atoms as bright spots in a hexagonal lattice. graphene is a single isolated atomic plane of graphite and forms the basis of carbon nanotubes. the distance between adjacent bonded carbon atoms is 0.14 nm (1.4 \u00c5). such resolution can only be obtained in a specially built transmission electron microscope in which all lens aberrations are carefully corrected, and with optimal specimens; it cannot be achieved with most conventional biological specimens. (From a. Dato et al., Chem. Commun. 40:6095\u20136097, 2009. With permission from the royal society of Chemistry.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2576",
+            "title": "Cell_Biology_Alberts",
+            "content": "sequence data accumulates, how are we going to keep track of and Summary meaningfully analyze this vast amount of information? What new questions Quantitative mathematical analysis can provide a powerful extra dimension in our will this information allow us to answer? understanding of cell regulation and function. Cell regulatory systems often depend \u2022 Can we develop tools to analyze on macromolecular interactions, and mathematical analysis of the dynamics of each of the post-transcriptional these interactions can unveil important insights into the importance of binding modifications on the proteins in living affinities and protein stability in the generation of transcriptional or other signals. cells, so as to follow all of their Regulatory systems often employ network motifs that generate useful behaviors: changes in real time?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2574",
+            "title": "Cell_Biology_Alberts",
+            "content": "Statistics teaches us that the more times we repeat our measurements, the bet \u2022 Many of the tools that revolutionized ter and more refined the conclusions we can draw from them. Given many repeti-DNA technology were discovered by tions, it becomes possible to describe our data in terms of variables that summa-scientists studying basic biological rize the features that matter: the mean value of the measured variable, taken over problems that had no obvious the set of data points; the magnitude of the noise (the standard deviation of the applications. What are the best set of data points); the likely error in our estimate of the mean value (the standard strategies to ensure that such crucially important technologies will continue to error of the mean); and, for specialists, the details of the probability distribution be discovered?"
+        },
+        {
+            "id": "First_Aid_Step1_829",
+            "title": "First_Aid_Step1",
+            "content": "A letter rating scale with six different grades reflects the detailed student evaluations for Rated Resources. Each rated resource receives a rating as follows: The Rating is meant to reflect the overall usefulness of the resource in helping medical students prepare for the USMLE Step 1. This is based on a number of factors, including: The cost The readability of the text or usability of the app The appropriateness and accuracy of the material The quality and number of sample questions The quality of written answers to sample questions The quality and appropriateness of the illustrations (eg, graphs, diagrams, photographs) The length of the text (longer is not necessarily better) The quality and number of other resources available in the same discipline The importance of the discipline for the USMLE Step 1"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2559",
+            "title": "Cell_Biology_Alberts",
+            "content": "guess about how this system would behave was only partially correct; even the simplest of networks depends on precise interaction strengths, demonstrating yet again why mathematics is needed to complement cartoon drawings."
+        },
+        {
+            "id": "InternalMed_Harrison_5144",
+            "title": "InternalMed_Harrison",
+            "content": "Random Forests analysis/ Machine learning is a collection of approaches that allow a computer to learn without being explicitly programmed. Random Forests machine learning is a machine-learning method for classification and regression that uses multiple decision trees during a training step. Rarefaction A procedure in which subsampling is used to assess whether all the diversity present in a given sample or set of samples has been observed at a given sampling depth and to extrapolate how much additional sampling would be needed to observe all the diversity Resilience A community\u2019s ability to return to its initial state after a perturbation Shotgun sequencing A method for sequencing large DNA regions or collections of regions by fragmenting DNA and sequencing the resulting smaller sections"
+        },
+        {
+            "id": "InternalMed_Harrison_11600",
+            "title": "InternalMed_Harrison",
+            "content": "in vaccine-serotype IPD. In contrast, in other settings (e.g., Alaska Native communiright-hand Y axis. (Source: Global Serotype Project Report for the Pneumococcal Advance Market ties and the United Kingdom), the reduction Commitment Target Product Profile; available at http://www.gavi.org/library/gavi-documents/amc/ in vaccine-serotype IPD has been offset by tpp-codebook/.) seven serotypes may not all rank as the most common disease strains (Fig. 171-3). Some serotypes (e.g., types 1 and 5) not only tend to cause disease in areas with a high disease burden but also cause waves of disease in lower-burden areas (e.g., Europe) or outbreaks (e.g., in military barracks; meningitis in sub-Saharan Africa). The broader range of serotypes causing disease among adults than among children is apparent from a comparison of the coverage of existing multiserotype vaccines in different age groups. For example, data from the United States for 2006\u20132007 on the serotypes causing IPD indicated that a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2694",
+            "title": "Cell_Biology_Alberts",
+            "content": "data set for the whole nucleus is available, the path of each separate pair of chromosomes can be traced and artificially assigned a different color. (Courtesy of C.J. rachel Wang, peter Carlton and Zacheus Cande.) approximates a gaussian distribution, whose width at half-maximum height under ideal conditions is about 200 nm. (C) two point sources that are about 200 nm apart"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2481",
+            "title": "Cell_Biology_Alberts",
+            "content": "Quantitative experiments combined with mathematical theory mark the beginning of modern science. Galileo, Kepler, Newton, and their contemporaries did more than set out some rules of mechanics and offer an explanation of the movements of the planets around the Sun: they showed how a quantitative mathematical approach could provide a depth and precision of understanding, at least for physical systems, that had never before been dreamed to be possible. What is it that gives mathematics this almost magical power to explain the natural world, and why has mathematics played so much more important a part in physical sciences than in biology? What do biologists need to know about mathematics?"
+        },
+        {
+            "id": "InternalMed_Harrison_5143",
+            "title": "InternalMed_Harrison",
+            "content": "Phylogenetic analysis Characterization of the evolutionary relationships between organisms and their gene products Phylogenetic tree A \u201ctree\u201d in which organisms are shown according to their relationships to hypothetical common ancestors. When built from molecular sequences, the branch lengths are proportional to the amount of evolutionary change separating each ancestor\u2013descendant pair. Phylotype A phylogenetic group of microbes, currently defined by a threshold percentage identity shared among their small-subunit rRNA genes (e.g., \u226597% for a species-level phylotype) Principal coordinates An ordination method for visualizing multivariate data based on the similarity/dissimilarity of the measured entities (e.g., visualization analysis of bacterial communities based on their UniFrac distances; see \u201cUniFrac,\u201d below)"
+        },
+        {
+            "id": "Gynecology_Novak_760",
+            "title": "Gynecology_Novak",
+            "content": "International efforts to categorize the effectiveness of treatments include the Cochrane Library, which produces and disseminates high-quality systematic reviews of health care interventions. These reviews and abstracts are published monthly and are available online and on DVDs by subscription (21). The Cochrane Library provides searchable databases online and through institutional purchase of licenses. Evidence-based guidelines are published in journals available in print and online by discipline (i.e., medicine, mental health, and nursing). Another source of evidence-based information is Clinical Evidence, a subscription service published by the British Medical Journal in print, via PDA, and online (22). This service describes its content as driven by important clinical questions rather than by the availability of research evidence. The advantages of Web-based sites are the ease of updating and the availability of evidence to clinicians in clinical practice sites throughout the"
+        },
+        {
+            "id": "Histology_Ross_996",
+            "title": "Histology_Ross",
+            "content": "\u0081 FOLDER 7.1"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2276",
+            "title": "Cell_Biology_Alberts",
+            "content": "Genomic and cDNA libraries are inexhaustible resources, which are widely shared among investigators. Today, many such libraries are also available from commercial sources. Because the identity of each insert in a library is often known (through sequencing the insert), it is often possible to order a particular region of a chromosome (or, in the case of cDNA, a complete, intron-less protein-coding gene) and have it delivered by mail. Cloning DNA by using bacteria revolutionized the study of genomes and is still in wide use today. However, there is an even simpler way to clone DNA, one that can be carried out entirely in vitro. We discuss this approach, called the polymerase chain reaction, below. However, first we need to review a fundamental, far-reaching property of DNA and RNA called hybridization. Figure 8\u201332 The differences between cDNA clones and genomic DNA clones derived from the same region of DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_740",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the functions of the surprisingly large amount of unfolded polypeptide chain found in proteins? How many types of protein functions remain to be discovered? What are the most promising approaches for discovering them? When will scientists be able to take any amino acid sequence and accurately predict both that protein\u2019s three-dimensional conformations and its chemical properties? What breakthroughs will be needed to accomplish this important goal? Are there ways to reveal the detailed workings of a protein machine that do not require the purification of each of its component parts in large amounts, so that the machine\u2019s functions can be reconstituted and dissected using chemical techniques in a test tube? What are the roles of the dozens of different types of covalent modifications of proteins that have been found in addition to those listed in Table 3\u20133? Which ones are critical for cell function and why?"
+        },
+        {
+            "id": "Histology_Ross_2039",
+            "title": "Histology_Ross",
+            "content": "\u0081 FOLDER 13.2 Clinical Correlation: Hypertension"
+        },
+        {
+            "id": "First_Aid_Step2_2",
+            "title": "First_Aid_Step2",
+            "content": "We update Section 2 biannually to keep current with new trends in boards content as well as to expand our database of high-yield information. However, we must note that inevitably many other high-yield entries and topics are not yet included in our database. We actively encourage medical students and faculty to submit entries and mnemonics so that we may enhance the database for future students. We also solicit recommendations of additional tools for study that may be useful in preparing for the examination, such as diagrams, charts, and computer-based tutorials (see How to Contribute, p. xv)."
+        },
+        {
+            "id": "Psichiatry_DSM-5_2",
+            "title": "Psichiatry_DSM-5",
+            "content": "Library of Congress Cataloging-in-Publication Data Diagnostic and statistical manual of mental disorders : DSM-5. \u2014 5th ed. p. ; cm. Includes index. ISBN 978- 0- 89042 \u201d554 1 (hardcover: alk. paper) \u2014 ISBN 978- 0- 89042-555- 8 (pbk.: alk. paper) I. American Psychiatric Association; 1.1 American Psychiatric Association. DSM\u2014S Task Force. III Title: DSM- 5. IV. Title: DSM- V. [DNLMz 1. Diagnostic and statistical manual of mental disorders. 5th ed. 2. Mental Disorders\u2014 classification. 3. Mental Disorders\u2014diagnosis. WM 15] RC455.2.C4 616.89\u2018075\u2014dc23 British Library Cataloguing in Publication Data K C. A CIP record is available from the British Library. Text Design\u2014Tammy I. Cordova H\u2014 5 :5) . C Li DSM-5 Classification ................................... xiii Preface ............................................... xli Introduction ............................................ 5 Use of the Manual ...................................... 19"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2577",
+            "title": "Cell_Biology_Alberts",
+            "content": "cells, so as to follow all of their Regulatory systems often employ network motifs that generate useful behaviors: changes in real time? a rapid negative feedback loop dampens the response to input signals; a delayed negative feedback loop creates a biochemical oscillator; positive feedback yields a models to accurately describe the systems that generate transient signal pulses or respond only to sustained inputs. enormous complexity of cellular The dynamic behavior of these network motifs can be dissected in detail with deter-networks and to predict undiscovered ministic and stochastic mathematical modeling. components and mechanisms? Which statements are true? explain why or why not. Discuss the following problems."
+        },
+        {
+            "id": "Immunology_Janeway_2842",
+            "title": "Immunology_Janeway",
+            "content": "PC2 (4.4%)"
+        },
+        {
+            "id": "InternalMed_Harrison_5299",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 87e Network Medicine: Systems Biology in Health and Disease FIGuRE 87e-6. Approaches to identifying disease modules in molecular networks. A strategy for defining disease modules involves (i) reconstructing the interactome; (ii) ascertaining potential seed (disease) genes from the curated literature, the Online Mendelian Inheritance in Man (OMIM) database, or genomic analyses (genome-wide association studies [GWAS] or transcriptional profiling); (iii) identifying the disease module using different modeling or statistical approaches; (iv) identifying pathways and the role of disease genes or modules in those pathways; and (v) disease module validation and prediction. (Reproduced with permission from AL Barabasi et al: Nat Rev Genet 12:56, 2011.) http://vip.persianss.ir"
+        },
+        {
+            "id": "InternalMed_Harrison_12110",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 180-2 Cross-section through surface structures of Neisseria meningitidis. LPS, lipopolysaccharide. (Reprinted with permission from M Sadarangani, AJ Pollard: Lancet Infect Dis 10:112, 2010.) and are responsible for the majority of cases of invasive meningococcal disease worldwide. The apparent genetic stability of these meningococcal clones over decades and during wide geographic spread indicates that they are well adapted to the nasopharyngeal environment of the host and to efficient transmission. While MLST has become established as the main method of genotyping meningococci in many reference laboratories over the past decade, whole-genome sequencing is set to replace this approach in the decade ahead, with almost 1000 genomes already available in the United Kingdom\u2019s national library (www.meningitis.org/genome-library)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_183",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201347 A very simple regulatory circuit\u2014a single gene regulating its own expression by the binding of its protein product to its own regulatory DNA. simple schematic diagrams such as this are found throughout this book. They are often used to summarize what we know, but they leave many questions unanswered. When the protein binds, does it inhibit or stimulate transcription from the gene? how steeply does the transcription rate depend on the protein concentration? how long, on average, does a molecule of the protein remain bound to the dnA? how long does it take to make each molecule of mRnA or protein, and how quickly does each type of molecule get degraded? As explained in chapter 8, mathematical modeling shows that we need quantitative answers to all these and other questions before we can predict the behavior of even this single-gene system. For different parameter values, the system may settle to a unique steady state; or it may behave as a switch, capable of existing in one"
+        },
+        {
+            "id": "Cell_Biology_Alberts_685",
+            "title": "Cell_Biology_Alberts",
+            "content": "Protein Complexes with Interchangeable Parts Make Efficient Use of Genetic Information"
+        },
+        {
+            "id": "Immunology_Janeway_3844",
+            "title": "Immunology_Janeway",
+            "content": "healthy controls in order to identify highly significant associations. Example results from GWASs that identify candidate genes linked to Crohn's disease are shown in the \u2018Manhattan\u2019 plot in Fig. 15.34. These plots are so named because they resemble a profile view of skyscrapers in the Manhattan skyline. Here, genomic coordinates are located on the x-axis, with the negative logarithm of the P-value of the association being given on the y-axis, and each assayed SNP is represented by a dot. Thus, the variants with the greatest disease association are the \u2018tallest skyscrapers\u2019 on the plot. Using this approach, hundreds of significant variants have been identified for multiple autoimmune diseases, suggesting that genetic susceptibility to autoimmune disease in humans may be due to a combination of susceptibility alleles at multiple loci."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1692",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. DNA libraries A DNA library is a collection of cloned restriction fragments of the DNA of an organism. Two kinds of libraries are commonly used: genomic libraries and complementary DNA (cDNA) libraries. Genomic libraries ideally contain a copy of every DNA nucleotide sequence in the genome. In contrast, cDNA libraries contain those DNA sequences that only appear as processed messenger RNA (mRNA) molecules, and these differ according to cell type and environmental conditions. [Note: cDNA lacks introns and the control regions of the genes, whereas these are present in genomic DNA.] 1."
+        },
+        {
+            "id": "Physiology_Levy_863",
+            "title": "Physiology_Levy",
+            "content": "12. How does the organization of the mossy and olivocerebellar (climbing) fiber afferent systems to the cerebellum differ in their origins, topography, and synaptic connections. 13. What is the geometric relationship between the major cellular elements of the cerebellar cortex? 14. What are simple and complex spikes in Purkinje cells? 15. What are the direct and indirect pathways in the basal ganglia, and how does their activity influence movement? 16. How is the balance of activity between the direct and indirect pathways altered in Parkinson\u2019s disease and Huntington\u2019s disease? 17. How do the vestibuloocular and optokinetic reflexes act to stabilize gaze? How do they complement each other? 18. What are the roles of saccades and smooth pursuit movements in visual tracking? 19. What is nystagmus, and what types of sensory stimulation can drive nystagmus in a normal individual? 20."
+        }
+    ],
+    "scores": [
+        0.02622881914956387,
+        0.025540970923554486,
+        0.017629698664181424,
+        0.01662087912087912,
+        0.015675675675675675,
+        0.015648878293294213,
+        0.015635102568623993,
+        0.015550707613134195,
+        0.014989517819706498,
+        0.01476388444728707,
+        0.014012303485987697,
+        0.014011489421325487,
+        0.013102859581732821,
+        0.012872545402369533,
+        0.012215700660308144,
+        0.010555926916221033,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009523809523809525,
+        0.009523809523809525
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "621e62c33a8413c653000050",
+    "question": "Are there any R packages that help with visualizing data on spirals?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the context of the provided documents and the question being asked. The documents are primarily focused on cell biology, genetics, and medical topics. However, one of the documents (Document [2]) mentions that helices occur commonly in biological structures, and another document (Document [15]) explains why helices are a common structure in biology. The question asks if there are any R packages that help with visualizing data on spirals. Although the documents do not explicitly mention R packages, we can infer that R is a programming language commonly used for data analysis and visualization. Given the context of the documents, it is possible that R packages exist for visualizing data on spirals, but it is not explicitly stated in the documents. Therefore, the answer to the question is not directly supported by the provided documents.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_2694",
+            "title": "Cell_Biology_Alberts",
+            "content": "data set for the whole nucleus is available, the path of each separate pair of chromosomes can be traced and artificially assigned a different color. (Courtesy of C.J. rachel Wang, peter Carlton and Zacheus Cande.) approximates a gaussian distribution, whose width at half-maximum height under ideal conditions is about 200 nm. (C) two point sources that are about 200 nm apart"
+        },
+        {
+            "id": "InternalMed_Harrison_5179",
+            "title": "InternalMed_Harrison",
+            "content": "Beta Diversity Beta diversity refers to the differences between communities and can be defined with phylogenetic or nonphylogenetic distance measurements. UniFrac is a commonly used phylogenetic metric that compares the evolutionary history of different microbial communities, noting the degree to which any two communities share branch length on a tree of microbial life: the more similar communities are to each other, the more branch length they share (Fig. 86e-1). UniFrac-based measurements of distances between communities can be visually represented with principal coordinates analysis or other geometric techniques that project a high-dimensional dataset down onto a small number of dimensions for a more approachable analysis (Fig. 86e-1). Principal coordinates analysis can also be applied to nonphylogenetic methods for comparing communities, such as Euclidean distance, Jensen-Shannon divergence, or Bray-Curtis dissimilarity, which operate independent of evolutionary tree data but can"
+        },
+        {
+            "id": "Cell_Biology_Alberts_517",
+            "title": "Cell_Biology_Alberts",
+            "content": "The observation that helices occur commonly in biological structures holds true whether the subunits are small molecules linked together by covalent bonds (for example, the amino acids in an \u03b1 helix) or large protein molecules that are linked by noncovalent forces (for example, the actin molecules in actin filaments). This is not surprising. A helix is an unexceptional structure, and it is generated simply by placing many similar subunits next to each other, each in the same strictly repeated relationship to the one before\u2014that is, with a fixed rotation followed by a fixed translation along the helix axis, as in a spiral staircase. Many Protein Molecules Have Elongated, Fibrous Shapes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2745",
+            "title": "Cell_Biology_Alberts",
+            "content": "help of a computer, the digital images of randomly distributed and unaligned molecules can be processed and combined to yield highresolution reconstructions (see Movie 13.1). Although structures that have some intrinsic symmetry make the task of alignment easier and more accurate, this technique has also been used for objects like ribosomes, with no symmetry. Figure 9\u201354 shows the structure of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2523",
+            "title": "Cell_Biology_Alberts",
+            "content": "value of the input. As before, we plug in values for the parameters (\u03b2R, \u03c4R, etc.) and then use a computer to determine the values of [A] and [R] as a function of time after a sudden input activates gene A."
+        },
+        {
+            "id": "Surgery_Schwartz_8975",
+            "title": "Surgery_Schwartz",
+            "content": "TomographyCT produces a digitally processed cross-sectional image of the body from a large series of X-ray images. The introduction of helical (spiral) CT has improved the imaging capabilities of this technique compared to earlier conventional axial CT by combining a continuous patient-table motion with continuous rotation of the CT gantry and allowing rapid acquisition of a volume of data within a single breath hold. With the recent advent of multidetector row CT scanners, high-resolution images can be obtained in submillimeter section thickness within a short scan time, with virtually no penalty in increased radiation dose. Together, these technologic advances have led to reduced motion artifacts due to variations in inspiration, facili-tated optimal contrast delivery, and allowed for the capability to generate high-resolution reformations in any desired plane. In a single examination, modern-day CT scans provide detailed morphologic information on the number, size, distribution,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6340",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q22\u20131 Fluorescent cells in crypts in mouse intestines at various times after activation of expression of fluorescent proteins (problem 22\u20136). the images are taken in the xz plane, which cuts through multiple crypts, as indicated in the schematic drawing. Roughly 50 crypts are visible in each section. Dotted white circles identify some individual crypts. Scale bars are 100 \u03bcm. (adapted from h.J. Snippert et al., Cell 143:134\u2013144, 2010. with permission from elsevier.) cells that express HPAP, the investigators followed the percentage of labeled \u03b2 cells for a year, during which time the total number of \u03b2 cells in the pancreas increased by 6.5fold. How do you suppose the percentage of \u03b2 cells would change over time if new \u03b2 cells were derived from stem cells? What if new \u03b2 cells were derived from preexisting \u03b2 cells? Which hypothesis do the results in Figure Q22\u20132 support?"
+        },
+        {
+            "id": "Surgery_Schwartz_4576",
+            "title": "Surgery_Schwartz",
+            "content": "to six nodules. CT scanning is necessary to characterize nodule number, location, size, margin morphol-ogy, calcification pattern, and growth rate.25 Spiral (helical) CT allows continuous scanning as the patient is moved through a scanning gantry, allowing the entire thorax to be imaged during a single breath hold (Fig. 19-14). Compared to conventional CT, this provides a superior image quality, because motion artifacts are eliminated, and improves detection of pulmonary nodules and central airway abnormalities.26 The shorter acquisition time of spiral CT also allows for consistent contrast filling of the great vessels, resulting in markedly improved visualization of pathologic states and anatomic variation contiguous to vascular structures. In addition, three-dimensional spiral CT images can be reconstructed for enhanced visualization of spatial anatomic relationships.27 Thin sections (1 to 2 mm collimation) at 1-cm intervals should be used to evaluate pulmonary parenchyma and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6088",
+            "title": "Cell_Biology_Alberts",
+            "content": "21\u201310 Morphogens play a key role in development, creating concentration gradients that inform cells of where they are and how to behave. Examine the simple patterns represented by the flags in Figure Q21\u20131. Which do you suppose could be created by a gradient of a single morphogen? Which would require gradients of two morphogens? Assuming that such patterns were present in a sheet of cells, explain how they could be created by morphogens. Figure Q21\u20131 National flags from three countries (problem 21\u201310)."
+        },
+        {
+            "id": "Histology_Ross_4112",
+            "title": "Histology_Ross",
+            "content": "arteries that supply the stratum basale and continue into the endometrium to become the highly coiled spiral arteries. Arterioles derived from the spiral arteries supply the stratum functionale. The distal portion of the spiral arteries and the arterioles are sloughed with the stratum functionale during menstruation. Alternating contraction and relaxation of the basal portions of the spiral arteries prevent excessive blood loss during menstruation."
+        },
+        {
+            "id": "InternalMed_Harrison_5272",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 87e Network Medicine: Systems Biology in Health and Disease FIGuRE 87e-1 Network representations and their distributions. A random network is depicted on the left, and its Poisson distribution of the number of nodal connections (k) is shown in the graph below it. A scale-free network is depicted on the right, and its power law distribution of the number of nodal connections (k) is shown in the graph below it. Highly connected nodes (hubs) are lightly shaded. links per node (P[k] = k\u2212[\u03b3], where k is the number of links per node and \u03b3 is the slope of the log P[k] versus log[k] plot); this unique property of most biologic networks is a reflection of their self-similarity or fractal nature (Fig. 87e-1)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6517",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q23\u20132 a map of where the victims of the 1854 cholera outbreak lived, superimposed on a modern Google map of the area (Problem 23\u201311). The locations of the victims\u2019 houses are indicated in a gradient of colors from blue (indicating few cases) to orange (indicating many cases). public water pumps are shown as red squares. 23\u201312 Influenza epidemics account for 250,000 to 500,000 deaths globally each year. These epidemics are markedly seasonal, occurring in temperate climates in the northern and southern hemispheres during their respec Figure Q23\u20133 seasonal patterns of influenza epidemics (Problem 23\u201312). Cases of influenza at different times of the year are shown for the northern hemisphere (blue), the southern hemisphere (orange), and the tropics (red)."
+        },
+        {
+            "id": "First_Aid_Step1_262",
+            "title": "First_Aid_Step1",
+            "content": "Asymmetry with longer tail on right. Negative skew Typically, mean < median < mode. Mode Asymmetry with longer tail on left. Statistical hypotheses Outcomes of statistical hypothesis testing Correct result Stating that there is an effect or difference when Reality one exists (null hypothesis rejected in favor of HH alternative hypothesis). Stating that there is no effect or difference when none exists (null hypothesis not rejected). Blue shading = correct result. Confidence interval Range of values within which the true mean of the population is expected to fall, with a specified probability. CI for sample mean = x\u00af \u00b1 Z(SE) The 95% CI (corresponding to \u03b1 = .05) is often used. As sample size increases, CI narrows. For the 95% CI, Z = 1.96. For the 99% CI, Z = 2.58. If the 95% CI for a mean difference between 2 variables includes 0, then there is no significant difference and H0 is not rejected. If the 95% CI for odds ratio or relative risk includes 1, H0 is not rejected."
+        },
+        {
+            "id": "Histology_Ross_3973",
+            "title": "Histology_Ross",
+            "content": "The endometrium contains a unique system of blood vessels (see Fig. 23.15). The uterine artery gives off 6 to 10 arcuate arteries that anastomose in the myometrium. Branches from these arteries, the radial arteries, enter the basal layer of the endometrium where they give off small straight arteries that supply this region of the endometrium. The main branch of the radial artery continues upward and becomes highly coiled; it is therefore called the spiral artery. Spiral arteries give off numerous arterioles that often anastomose as they supply a rich capillary bed. The capillary bed includes thin-walled dilated segments called lacunae. Lacunae may also occur in the venous system that drains the endometrium. The straight arteries and the proximal part of the spiral arteries do not change during the menstrual cycle. The distal portion of the spiral arteries, under the influence of estrogens and progesterone, undergoes degeneration and regeneration with each menstrual cycle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2572",
+            "title": "Cell_Biology_Alberts",
+            "content": "Statistical Methods Are Critical For the Analysis of Biological Data Dynamics, differential equations, and theoretical modeling are not the be-all and end-all of mathematics. Other branches of the subject are no less important for biologists. Statistics\u2014the mathematics of probabilistic processes and noisy datasets\u2014is an inescapable part of every biologist\u2019s life. This is true in two main ways. First, imperfect measurement devices and other errors generate experimental noise in our data. Second, all cell-biological processes depend on the stochastic behavior of individual molecules, as we just discussed, and this results in biological noise in our results. How, in the face of all this noise, do we come to conclusions about the truth of hypotheses? The answer is statistical analysis, which shows how to move from one level of description to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_515",
+            "title": "Cell_Biology_Alberts",
+            "content": "We will encounter many helical structures in this book. Why is a helix such a common structure in biology? As we have seen, biological structures are often formed by linking similar subunits into long, repetitive chains. If all the subunits are identical, the neighboring subunits in the chain can often fit together in only one way, adjusting their relative positions to minimize the free energy of the contact between them. As a result, each subunit is positioned in exactly the same way in relation to the next, so that subunit 3 fits onto subunit 2 in the same way that subunit 2 fits onto subunit 1, and so on. Because it is very rare for subunits to join up in a straight line, this arrangement generally results in a helix\u2014a regular structure that resembles a spiral staircase, as illustrated in Figure 3\u201322. Depending on the twist of the staircase, a helix is said to be either right-handed or left-handed (see Figure 3\u201322E). Handedness is not affected by turning the helix upside down, but"
+        },
+        {
+            "id": "InternalMed_Harrison_5491",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 93e-2 Percentages of national populations age 60 +, in 2050 (projections). the United States and other rich nations, this (From the U.S. Census Bureau, International Database. StatPlanet Mapping Software.) Chapter 93e World Demography of Aging cohorts surviving into old age led to the rapid growth of the oldest old. This age group is predicted to grow at a significantly higher rate than the 60+ population, and one estimate has the current 102 million age 80+ increasing to almost 400 million by 2050 (Table 93e-2). Projected increases are astounding: China\u2019s 80+ population might increase from 20 to 96 million, India from 8 to 43 million, the United States from 12 to 32 million, and Japan from 9 to 16 million. The numbers of centenarians are increasing at an even faster rate."
+        },
+        {
+            "id": "Cell_Biology_Alberts_461",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u20133 Steric limitations on the bond angles in a polypeptide \u2013180 chain. (A) Each amino acid contributes three bonds (red) to the backbone \u2013180 0 +180 of the chain. The peptide bond is planar (gray shading) and does not permit rotation. By contrast, rotation can occur about the C\u03b1\u2013C bond, whose angle of rotation is called psi (\u03c8), and about the N\u2013C\u03b1 bond, whose angle of left-handed rotation is called phi (\u03d5). By convention, an R group is often used to denote helix an amino acid side chain (purplecircles). (B) The conformation of the main-chain atoms in a protein is determined by one pair of \u03d5 and \u03c8 angles for each amino acid; because of steric collisions between atoms within each amino acid, most of the possible pairs of \u03d5 and \u03c8 angles do not occur. In this so-called Ramachandran plot, each dot represents an observed pair of angles in a protein. The three differently shaded clusters of dots reflect three different \u201csecondary structures\u201d repeatedly found in proteins, as will be"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2644",
+            "title": "Cell_Biology_Alberts",
+            "content": "The computational approach is often called image deconvolution. To understand how it works, remember that the wavelike nature of light means that the microscope lens system produces a small blurred disc as the image of a point light source (see Figure 9\u20135), with increased blurring if the point source lies above or below the focal plane. This blurred image of a point source is called the point spread function (see Figure 9\u201336). An image of a complex object can then be thought of as being built up by replacing each point of the specimen by a corresponding blurred disc, resulting in an image that is blurred overall. For deconvolution, we first obtain a series of (blurred) images, usually with a cooled CCD camera or more recently a CMOS camera, focusing the microscope in turn on a series of focal planes\u2014in effect, a (blurred) threedimensional image. Digital processing of the stack of digital images then removes as much of the blur as possible. In essence, the computer program uses the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_463",
+            "title": "Cell_Biology_Alberts",
+            "content": "A fourth weak force\u2014a hydrophobic clustering force\u2014also has a central role in determining the shape of a protein. As described in Chapter 2, hydrophobic molecules, including the nonpolar side chains of particular amino acids, tend to be forced together in an aqueous environment in order to minimize their disruptive effect on the hydrogen-bonded network of water molecules (see Panel 2\u20132, pp. 92\u201393). Therefore, an important factor governing the folding of any protein is Figure 3\u20134 Three types of noncovalent bonds help proteins fold. Although a single one of these bonds is quite weak, many of them act together to create a strong bonding arrangement, as in the example shown. As in the previous figure, R is used as a general designation for an amino acid side chain. 112 Panel 3\u20131: The 20 amino acids Found in Proteins THE AMINO ACID OPTICAL ISOMERS The \u02dc-carbon atom is asymmetric, which allows for two mirror images (or stereo-)"
+        },
+        {
+            "id": "InternalMed_Harrison_22293",
+            "title": "InternalMed_Harrison",
+            "content": "Push enteroscopy is performed with a long endoscope similar in design to an upper endoscope. The enteroscope is pushed down the small bowel, sometimes with the help of a stiffening overtube that extends from the mouth to the small intestine. The proximal to mid-jejunum is usually reached, and the instrument channel of the endoscope allows for biopsy or endoscopic therapy. Deeper insertion into the small bowel can be accomplished by single-or double-balloon enteroscopy or spiral enteroscopy (Fig. 345-9). These instruments enable pleating of the small intestine onto an over-tube (see Video 346e-1). With balloon-assisted enteroscopy, the entire intestinal tract can be visualized in some patients when both the oral and anal routes of insertion are used. Biopsies and endoscopic therapy can be performed throughout the visualized small bowel (Fig. 345-10)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1385",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Explain why, in both experiments, some regions of the tracks are dense with silver grains (dark), whereas others are less dense (light). b. In the first experiment, each track has a central dark section with light sections at each end. In the second experiment, the dark section of each track has a light section at only one end. Explain the reason for this difference. C. Estimate the rate of fork movement (\u03bcm/min) in these experiments. Do the estimates from the two experiments agree? Can you use this information to gauge how long it would take to replicate the entire genome?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2574",
+            "title": "Cell_Biology_Alberts",
+            "content": "Statistics teaches us that the more times we repeat our measurements, the bet \u2022 Many of the tools that revolutionized ter and more refined the conclusions we can draw from them. Given many repeti-DNA technology were discovered by tions, it becomes possible to describe our data in terms of variables that summa-scientists studying basic biological rize the features that matter: the mean value of the measured variable, taken over problems that had no obvious the set of data points; the magnitude of the noise (the standard deviation of the applications. What are the best set of data points); the likely error in our estimate of the mean value (the standard strategies to ensure that such crucially important technologies will continue to error of the mean); and, for specialists, the details of the probability distribution be discovered?"
+        },
+        {
+            "id": "InternalMed_Harrison_17553",
+            "title": "InternalMed_Harrison",
+            "content": "Computerized ECG systems are widely used for immediate retrieval of thousands of ECG records. Computer interpretation of ECGs still has major limitations. Incomplete or inaccurate readings are most likely with arrhythmias and complex abnormalities. Therefore, computerized interpretation (including measurements of basic ECG intervals) should not be accepted without careful clinician review. Atlas of Electrocardiography Ary L. Goldberger The electrocardiograms (ECGs) in this atlas supplement those illustrated in Chap. 268. The interpretations emphasize findings of specific teaching value. All of the figures are from ECG Wave-Maven, Copyright 2003, Beth Israel Deaconess Medical Center, http://ecg.bidmc.harvard.edu. The abbreviations used in this chapter are as follows: CHAPTER 269e Atlas of Electrocardiography FIguRE 269e-1 Anterior wall ischemia (deep T-wave inversions and ST-segment depressions in I, aVL, V3\u2013V6) in a patient with LVH (increased voltage in V2\u2013V5)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2520",
+            "title": "Cell_Biology_Alberts",
+            "content": "We take as a first example a network motif consisting of two linked modules (Figure 8\u201376A). Here, an input signal initiates the transcription of gene A, which produces a transcription activator protein A. This activates gene R, which synthesizes a transcription repressor protein R. Protein R in turn binds to the promoter of gene A to inhibit its expression. This cyclical organization creates a negative feedback loop that one can intuitively understand as a mechanism to prevent proteins from accumulating to high levels. But what can we learn about negative feedback loops, and their value in biology, by using mathematics to model them?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2453",
+            "title": "Cell_Biology_Alberts",
+            "content": "Comprehensive studies of gene expression also provide information that is useful for predicting gene function. Earlier in this chapter, we discussed how identifying a protein\u2019s interaction partners can yield clues about that protein\u2019s function. A similar principle holds true for genes: information about a gene\u2019s function can be deduced by identifying genes that share its expression pattern. Using an approach called cluster analysis, one can identify sets of genes that are coordinately regulated. Genes that are turned on or turned off together under different circumstances are likely to work in concert in the cell: they may encode proteins that are part of the same multiprotein machine, or proteins that are involved in a complex coordinated activity, such as DNA replication or RNA splicing. Characterizing a gene whose function is unknown by grouping it with known genes that share its transcriptional behavior is sometimes called \u201cguilt by association.\u201d Cluster analyses have been used to"
+        },
+        {
+            "id": "InternalMed_Harrison_29458",
+            "title": "InternalMed_Harrison",
+            "content": "Recent improvements in gradients, software, and high-speed computer processors now permit extremely rapid MRI of the brain. With echo-planar MRI (EPI), fast gradients are switched on and off at high speeds to create the information used to form an image. In routine spin echo imaging, images of the brain can be obtained in 5\u201310 min. With EPI, all of the information required for processing an image is accumulated in milliseconds, and the information for the entire brain can be obtained in less than 1\u20132 min, depending on the degree of resolution required or desired. Fast MRI reduces patient and organ motion and is the basis of perfusion imaging during contrast infusion and kinematic motion studies. EPI is also the sequence used to obtain diffusion imaging and tractography, as well as fMRI and arterial spin-labeled studies (Figs. 440e-2H, 440e-3, 440e-4C, and 440e-6; and see Fig. 446-16)."
+        },
+        {
+            "id": "Pharmacology_Katzung_7178",
+            "title": "Pharmacology_Katzung",
+            "content": "Garlic has shown significant benefits in lowering total choles-terol, LDL, and systolic and diastolic blood pressure, but the effects are moderate and unlikely to be large enough to lower this patient\u2019s values into the normal range. While this patient\u2019s diabetes is under control, her hypertension places her at risk for microvascular complications of diabetes, thus making it necessary to reevaluate her current medication adherence, doses of benazepril for hypertension and simvastatin for hyper-lipidemia, and duration of therapy. She would benefit from meeting with a nutritionist because packaged frozen dinners can be high in sodium, and this may be elevating her blood pressure. Adding exercise to her weekly routine could also help with weight control and overall cardiovascular health. The data supporting benefits of St. John\u2019s wort in patients with hot flashes are preliminary but show promise. Good data support use of the herb to alleviate symptoms of mild to moderate depression when"
+        },
+        {
+            "id": "InternalMed_Harrison_12587",
+            "title": "InternalMed_Harrison",
+            "content": "used. If biopsy specimens are obtained from both antrum and corpus, histologic study yields additional information, including the degree and pattern of inflammation and the presence of any atrophy, metaplasia, or dysplasia. Microbiologic culture is most specific but may be insensitive because of difficulty with H. pylori isolation. Once the organism is cultured, its identity as H. pylori can be confirmed by its typical appearance on Gram\u2019s stain and its positive reactions in oxidase, catalase, and urease tests. Moreover, the organism\u2019s susceptibility to antibiotics can be determined, and this information can be clinically useful in difficult cases. The occasional biopsy specimens containing the less common non-pylori gastric helicobacters give only weakly positive results in the biopsy urease test. Positive identification of these bacteria requires visualization of the characteristic long, tight spirals in histologic sections; they cannot easily be cultured."
+        },
+        {
+            "id": "Obstentrics_Williams_559",
+            "title": "Obstentrics_Williams",
+            "content": "Early End of 1st pregnancy trimester FIGURE 5-8 Extravillous trophoblasts are found outside the villus and can be subdivided into endovascular and interstitial categories. Endovascular trophoblasts invade and transform spiral arteries during pregnancy to create low-resistance blood flow that is characteristic of the placenta. Interstitial trophoblasts invade the decidua and surround spiral arteries."
+        },
+        {
+            "id": "Cell_Biology_Alberts_164",
+            "title": "Cell_Biology_Alberts",
+            "content": "R. Paro, Trends Genet. 6:416\u2013421, 1990. With permission from elsevier.) Genes that were once identical have diverged; many of the gene copies have been lost through disruptive mutations; some have undergone further rounds of local duplication; and the genome, in each branch of the vertebrate family tree, has suffered repeated rearrangements, breaking up most of the original gene orderings. Comparison of the gene order in two related organisms, such as the human and the mouse, reveals that\u2014on the time scale of vertebrate evolution\u2014chromosomes frequently fuse and fragment to move large blocks of DNA sequence around. Indeed, it is possible, as discussed in Chapter 4, that the present state of affairs is the result of many separate duplications of fragments of the genome, rather than duplications of the genome as a whole."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2734",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 9\u201348 Combining cryoelectronmicroscope tomography and single-particle reconstruction. small, unfixed, rapidly frozen specimens can be examined while still frozen. in this example, the small nuclei of the amoeba Dictyostelium were gently isolated and then very rapidly frozen before a series of angled views were recorded with the aid of a tilting microscope stage. these digital views are combined by eM tomographs to produce a three-dimensional tomogram. two thin digital slices (10 nm) through this tomogram show (a) top views and (B) side views of individual nuclear pores (white arrows). (C) in the three-dimensional model, a surface rendering of the pores (blue) is seen embedded in the nuclear envelope (yellow). From a series of tomograms it was possible to extract data sets for nearly 300 separate nuclear pores, whose structures could then be averaged using the techniques of single-particle reconstruction. the surface-rendered view of one of these reconstructed pores is shown (D)"
+        }
+    ],
+    "scores": [
+        0.023102783185521666,
+        0.021893160602838024,
+        0.0186932215234102,
+        0.01859252905082664,
+        0.01646787747357007,
+        0.016280566280566282,
+        0.01624468557649597,
+        0.016173348320219806,
+        0.01507230255839822,
+        0.015070028011204481,
+        0.01505633144696537,
+        0.014904862579281183,
+        0.014784879996057364,
+        0.014219576719576719,
+        0.014030904672382962,
+        0.013873106060606061,
+        0.0136558538404176,
+        0.013431503792949577,
+        0.01329004329004329,
+        0.01296163356464864,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.009708737864077669,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009615384615384616
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5c7019557c78d6947100005f",
+    "question": "Does an interferon (IFN) signature exist for SLE patients?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and look for evidence of an interferon (IFN) signature in SLE patients. An interferon signature refers to a distinct pattern of interferon production or expression that can be used to identify or diagnose a particular condition, in this case, Systemic Lupus Erythematosus (SLE).\\n\\nThe documents mention that interferons are proteins that are currently grouped into three families: IFN-\u03b1, IFN-\u03b2, and IFN-\u03b3. Type I interferons, which include IFN-\u03b1 and IFN-\u03b2, are inducible and are synthesized by many cell types after infection by diverse viruses. They act through JAK-STAT signal transduction pathways to produce antiviral activity in cells.\\n\\nDocument [16] states that IFNs are a genetic \u201csignature\u201d in peripheral blood cells of 50\u201360% of SLE patients. Document [20] mentions that IFN-\u03b1 and IFN-\u03b2 are produced by plasmacytoid dendritic cells, which are activated by viral infection and can produce type I interferons. Document [25] also mentions that type I and type II interferon signatures have been described in ductal epithelial cells and T cells, respectively.\\n\\nFurthermore, Document [26] states that genetic variants near the IFNL3 gene were found to be most significantly associated with HCV treatment response to pegylated-IFN-\u03b1 (PEG-IFN-\u03b1), in combination with ribavirin (RBV). This suggests that there may be a specific genetic component to interferon production in SLE patients.\\n\\nIn addition, Document [30] mentions that pregnancy outcomes in women with SLE have improved remarkably, and that women with inactive or mild/moderate SLE have relatively favorable pregnancy outcomes. This suggests that interferon production may be related to the severity of SLE.\\n\\nBased on the evidence from these documents, it appears that an interferon signature does exist for SLE patients, as there is a distinct pattern of interferon production or expression that can be used to identify or diagnose the condition.\\n\\nThe answer is A. yes.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Pathology_Robbins_899",
+            "title": "Pathology_Robbins",
+            "content": "Type I interferons. Blood cells show a striking molecular signature that indicates exposure to interferon-\u03b1 (IFN\u03b1), a type I interferon that is produced mainly by plasmacytoid DCs. Some studies have shown that such cells from SLE patients produce abnormally large amounts of IFN-\u03b1. TLR signals. Studies in animal models have shown that TLRs that recognize DNA and RNA, notably the DNA-recognizing TLR9 and the RNA-recognizing TLR7, produce signals that activate B cells specific for self nuclear antigens. Other cytokines that may play a role in unregulated B-cell activation include the TNF family member BAFF, which promotes survival of B cells. In some patients and animal models, increased production of BAFF has been reported, and this has led to modest success of an antibody that blocks BAFF as a therapy for SLE."
+        },
+        {
+            "id": "InternalMed_Harrison_6418",
+            "title": "InternalMed_Harrison",
+            "content": "About 20 different genes encode IFN-\u03b1, and their biologic effects are indistinguishable. IFN induces the expression of many genes, inhibits protein synthesis, and exerts a number of different effects on diverse cellular processes. The two recombinant forms that are commercially available are IFN-\u03b12a and -\u03b12b. Interferon is not curative for any tumor but can induce partial responses in follicular lymphoma, hairy cell leukemia, CML, melanoma, and Kaposi\u2019s sarcoma. It has been used in the adjuvant setting in stage II melanoma, multiple myeloma, and follicular lymphoma, with uncertain effects on survival. It produces fever, fatigue, a flulike syndrome, malaise, myelosuppression, and depression and can induce clinically significant autoimmune disease. IFN-\u03b1 is not generally the treatment of choice for any cancer."
+        },
+        {
+            "id": "Immunology_Janeway_674",
+            "title": "Immunology_Janeway",
+            "content": "Interferons help defend against viral infection in several ways (Fig. 3.35). IFN-\u03b2 is particularly important because it induces cells to make IFN-\u03b1, thus amplifying the interferon response. Interferons act to induce a state of resistance to viral replication in all cells. IFN-\u03b1 and IFN-\u03b2 bind to a common cell-surface receptor, known as the interferon-\u03b1 receptor (IFNAR), which uses the JAK and STAT pathways described in Section 3-16. IFNAR uses the kinases Tyk2 and Jak1 to activate the factors STAT1 and STAT2, which can interact with IRF9 and form a complex called ISGF3 that binds to the promoters of many interferon stimulated genes (ISGs)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6205",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferons are proteins that are currently grouped into three families: IFN-`, IFN-a, and IFN-f. The IFN-\u03b1 and IFN-\u03b2 families constitute type I IFNs, ie, acid-stable proteins that bind to the same receptor on target cells. IFN-\u03b3, a type II IFN, is acid-labile and binds to a separate receptor on target cells. Type I IFNs are usually induced by virus infections, with leukocytes producing IFN-\u03b1. Fibroblasts and epithelial cells produce IFN-\u03b2. IFN-\u03b3 is usually the product of activated T lymphocytes."
+        },
+        {
+            "id": "Immunology_Janeway_668",
+            "title": "Immunology_Janeway",
+            "content": "3-22 Interferons induced by viral infection make several contributions to host defense. Viral infection induces the production of interferons, originally named because of their ability to interfere with viral replication in previously uninfected tissue culture cells. Interferons have a similar role in vivo, blocking the spread of viruses to uninfected cells. There are numerous genes encoding antiviral, or type I, interferons. Best understood are the IFN-\u03b1 family of 12 closely related human genes and IFN-\u03b2, the product of a single gene; less well studied are IFN-\u03ba, IFN-\u03b5, and IFN-\u03c9. IFN-\u03b3 is the sole type II interferon."
+        },
+        {
+            "id": "Immunology_Janeway_3806",
+            "title": "Immunology_Janeway",
+            "content": "In SLE, it is believed that antibody:nucleic acid immune complexes containing, for example, ssRNA or dsDNA from dead cells, are bound by Fc\u03b3RIIa (green rods) on plasmacytoid dendritic cells. The Fc receptor\u2011bound ssRNA and dsRNA are delivered to endosomes, where they activate TLR\u20117 and TLR\u20119, respectively, to induce IFN\u2011\u03b1 production (upper panel). IFN\u2011\u03b1 increases BAFF production by monocytes and dendritic cells, and BAFF interacts with receptors on B cells. Excess BAFF can increase autoreactive B\u2011cell survival, leading to increased autoantibody production (lower panel). T cells contribute to autoimmune disease in two ways: by helping B cells make antibodies, analogous to a normal T-dependent immune response; and by direct effector functions as they infiltrate and destroy target tissues. 15-17 T cells specific for self antigens can cause direct tissue injury and sustain autoantibody responses."
+        },
+        {
+            "id": "Immunology_Janeway_672",
+            "title": "Immunology_Janeway",
+            "content": "However, some immune cells seem to be specialized for this task. In Section 3-1 we introduced the plasmacytoid dendritic cell (pDC). Also called interferon-producing cells (IPCs) or natural interferon-producing cells, human plasmacytoid dendritic cells were initially recognized as rare peripheral blood cells that accumulate in peripheral lymphoid tissues during a viral infection and make abundant type I interferons (IFN-\u03b1 and IFN-\u03b2)\u2014up to 1000 times more than other cell types. This abundant production of type I interferon may result from the efficient coupling of viral recognition by TLRs to the pathways of interferon production (see Section 3-7). Plasmacytoid dendritic cells express a subset of TLRs that includes TLR-7 and TLR-9, which are endosomal sensors of viral RNA and of the nonmethylated CpG residues present in the genomes of many DNA viruses (see Fig. 3.11). The requirement for TLR-9 in sensing infections caused by DNA viruses has been demonstrated, for example, by the"
+        },
+        {
+            "id": "InternalMed_Harrison_25126",
+            "title": "InternalMed_Harrison",
+            "content": "Studies of highly targeted experimental therapies for SLE are in progress. They include targeting (1) activated B lymphocytes with anti-CD22 or TACI-Ig, (2) inhibition of IFN-\u03b1, (3) inhibition of B/T cell second signal coactivation with CTLA-Ig, (4) inhibition of innate immune activation via TLR7 or TLR7 and 9, (5) induction of regulatory T cells with peptides from immunoglobulins or autoantigens; (6) suppression of T cells, B cells, and monocyte/macrophages with laquinimod; and (7) inhibition of lymphocyte activation by blockade of Jak/Stat. A few studies have used vigorous untargeted immunosuppression with high-dose cyclophosphamide plus anti-T cell strategies, with rescue by transplantation of autologous hematopoietic stem cells forthetreatmentofsevereandrefractory SLE. OneU.S.report showed an estimated mortality rate over 5 years of 15% and sustained remission in 50%. It is hoped that in the next edition of this text, we will be able to recommend more effective and less toxic"
+        },
+        {
+            "id": "InternalMed_Harrison_6594",
+            "title": "InternalMed_Harrison",
+            "content": "trial is appropriate for these patients, many of whom will otherwise be observed without treatment either because they are poor candidates for IFN or because the patient (or their oncologist) does not believe the beneficial effects of IFN outweigh the toxicity. The recently approved immunotherapy and targeted agents are being evaluated in the adjuvant setting."
+        },
+        {
+            "id": "InternalMed_Harrison_30978",
+            "title": "InternalMed_Harrison",
+            "content": "Interferon-\u03b2 IFN-\u03b2 is a class I interferon originally identified by its antiviral properties. Efficacy in MS probably results from immunomodulatory properties including (1) downregulating expression of MHC molecules on antigen-presenting cells, (2) reducing proinflammatory and increasing regulatory cytokine levels, (3) inhibiting T cell proliferation, and (4) limiting the trafficking of inflammatory cells in the CNS. IFN-\u03b2 reduces the attack rate and improves disease severity measures such as EDSS progression and MRI-documented disease burden. IFN-\u03b2 should be considered in patients with either RRMS or SPMS with superimposed relapses. In patients with SPMS but without relapses, efficacy has not been established. Head-to-head trials suggest that dosing IFN-\u03b2 more frequently and at higher doses has better efficacy but is also more likely to induce neutralizing antibodies (see below). IFN-\u03b2-1a (Avonex), 30 \u03bcg, is administered by intramuscular injection once every week. IFN-\u03b2-1a (Rebif),"
+        },
+        {
+            "id": "Immunology_Janeway_3800",
+            "title": "Immunology_Janeway",
+            "content": "monocyte or dendritic cell autoreactive B-cell survival Increased autoantibodies BAFF BAFF-R BCMA TACI dsDNA immune complex ssRNA apoptotic cellnecrotic cell IFN-\u02dcIFN-\u02dcplasmacytoid dendritic cell MyD88TLR-7 TLR-9 Nucleic acid-containing immune complexes generated from dying cells activate plasmacytoid DCs to produce IFN-\u02dcIFN-\u02dcstimulates myeloid cells to produce BAFF, which enhances the survival and autoantibody production of autoreactive B cells Fig. 15.25 Defective clearance of nucleic acid-containing immune complexes activates overproduction of BAFF and type I interferons that can cause SLE."
+        },
+        {
+            "id": "Immunology_Janeway_4065",
+            "title": "Immunology_Janeway",
+            "content": "Interferon (IFN)-\u03b2 (Avonex) is used to treat diseases of viral origin based on its ability to enhance immunity, but is also effective in treating multiple sclerosis, attenuating its course and severity and reducing the occurrence of relapses. Until recently, it was unclear how IFN-\u03b2 could reduce rather than enhance immunity. In Section 3-9, we described the inflammasome, in which innate sensors of the NLR family activate caspase 1 to cleave the IL-1 pro-protein into the active form of the cytokine (see Fig. 3.19). We now know that IFN-\u03b2 acts at two levels to reduce IL-1 production. It inhibits the activity of the NALP3 (NLRP3) and NLRP1 inflammasomes and also reduces expression of the IL-1 pro-protein, reducing the substrate available to caspase 1. Thus, IFN-\u03b2 limits the production of a powerful pro-inflammatory cytokine, which may explain its observed effects on the symptoms of multiple sclerosis."
+        },
+        {
+            "id": "Pathology_Robbins_878",
+            "title": "Pathology_Robbins",
+            "content": "IL2RA MS,T1D\u03b1 chainofthereceptorforIL-2,whichisagrowthandsurvivalfactorforactivatedandregulatoryTcells;mayaffectdevelopmentofeffectorcellsand/orregulationofimmuneresponses IRF5, IFIH1 SLERoleintypeIinterferonproduction;typeIIFNisinvolvedinthepathogenesisofSLE(seetext) AS, Ankylosingspondylitis;IBD, inflammatoryboweldisease;IFN, interferon;MS, multiplesclerosis;PS, psoriasis;RA, rheumatoidarthritis;SLE, systemiclupuserythematosus;TID,typeIdiabetes.Theprobablelinkageofthesegeneswithvariousautoimmunediseaseshasbeendefinedbygenome-wideassociationstudies(GWAS)andothermethodsforstudyingdisease-associatedpolymorphisms.AdaptedfromZenewiczLA,AbrahamC,FlavellRA,etal:Unravelingthegeneticsofautoimmunity,Cell 140:791,2010. http://ebooksmedicine.net A Induction of costimulators on APCs Activation of APC Activation of T cells"
+        },
+        {
+            "id": "Pediatrics_Nelson_1967",
+            "title": "Pediatrics_Nelson",
+            "content": "Patients with SLE can present either in an abrupt fashion with fulminant disease or in an indolent manner (Tables 90-1 and 90-2). Nonspecific symptoms are common but can be quite profound and may include significant fatigue and malaise, low-grade fever, and weight loss."
+        },
+        {
+            "id": "InternalMed_Harrison_6592",
+            "title": "InternalMed_Harrison",
+            "content": "may be at high risk for a local or distant recurrence and should be considered for adjuvant therapy. Radiotherapy can reduce the risk of local recurrence after lymphadenectomy, but does not affect overall survival. Patients with large nodes (>3\u20134 cm), four or more involved lymph nodes, or extranodal spread on microscopic examination should be considered for radiation. Systemic adjuvant therapy is indicated primarily for patients with stage III disease, but high-risk, node-negative patients (>4 mm thick or ulcerated lesions) and patients with completely resected stage IV disease also may benefit. Either interferon \u03b12b (IFN-\u03b12b), which is given at 20 million units/m2 IV 5 days a week for 4 weeks followed by 10 million units/m2 SC three times a week for 11 months (1 year total), or subcutaneous peginterferon \u03b12b (6 \u03bcg/kg per week for 8 weeks followed by 3 \u03bcg/kg per week for a total of 5 years) is acceptable adjuvant therapy. Treatment is accompanied by significant toxicity, including a"
+        },
+        {
+            "id": "InternalMed_Harrison_9666",
+            "title": "InternalMed_Harrison",
+            "content": "a differential pattern of expression of nearly 400 transcripts that distinguish active from latent tuberculosis; this expression pattern is driven in part by changes in interferon-inducible genes in the myeloid lineage. In a validation cohort, this transcriptional signature was able to distinguish patients with active versus latent disease, to distinguish tuberculosis infection from other pulmonary inflammatory states or infections, and to track responses to treatment in as little as 2 weeks, with normalization of expression toward that of patients without active disease over 6 months of effective therapy. Such a test could play an important role not only in the management of patients but also as a marker of efficacy in clinical trials of new therapeutic agents. Similarly, other investigators have been trying to identify host transcriptional signatures in circulating blood cells that are distinct in influenza A infection from those in upper respiratory infections caused by certain"
+        },
+        {
+            "id": "InternalMed_Harrison_25038",
+            "title": "InternalMed_Harrison",
+            "content": "IFNsisa genetic \u201csignature\u201din peripheral blood cells of50\u201360% ofSLE patients. Decreased production of other cytokines also contributes to SLE: lupus T and natural killer (NK) cells fail to produce enough IL-2 and transforming growth factor beta (TGF-\u03b2) to induce and sustain regulatory CD4+ and CD8+ T cells. The result of these abnormalities is sustained production of autoantibodies (referred to in Fig. 378-1 and described in Table 378-1) and immune complexes; pathogenic subsets bind target tissues, with activation of complement, leading to release of cytokines, chemokines, vasoactive peptides, oxidants, and proteolytic enzymes. This results in activation of multiple tissue cells (endothelial cells, tissue-fixed macrophages, mesangial cells, podocytes, renal tubular epithelial cells) and influx into target tissues of T and B cells, monocyte/macrophages, and dendritic cells. In the setting of chronic inflammation, accumulation of growth factors and products of chronic oxidation"
+        },
+        {
+            "id": "Immunology_Janeway_3841",
+            "title": "Immunology_Janeway",
+            "content": "Cytokine, receptor, or intracellular signal ResultDefect Defects in cytokine production or signaling that can lead to autoimmunity TNF-\u02dcTNF-\u02dcIn\u02dcammatory bowel disease, arthritis, vasculitis IL-2, IL-7, IL-2R In\u02dcammatory bowel disease STAT4 In\u02dcammatory bowel disease IL-23R In\u02dcammatory bowel disease, psoriasis IL-10, IL-10R, STAT3 In\u02dcammatory bowel disease TGF-\u00b0Ubiquitous underexpression leads to in\u02dcammatory bowel disease. Underexpression speci\u00ffcally in T cells leads to SLE IL-3 Demyelinating syndrome IFN-\u02dbOverexpression in skin leads to SLE SLE IL-1 receptor agonist Arthritis Overexpression Underexpression Fig. 15.33 Categories of genetic defects that lead to autoimmune syndromes."
+        },
+        {
+            "id": "Pathoma_Husain_47",
+            "title": "Pathoma_Husain",
+            "content": "II. SYSTEMIC LUPUS ERYTHEMATOSUS A. Chronic, systemic autoimmune disease 1. Flares and remissions are common. B. Classically arises in middle-aged females, especially African American and Hispanic women 1. May also arise in children and older adults (less dramatic gender bias) C. Antigen-antibody complexes damage multiple tissues (type III HSR). 1. Poorly-cleared apoptotic debris (e.g., from UV damage) activates self-reactive lymphocytes, which then produce antibodies to host nuclear antigens. 2. Antigen-antibody complexes are generated at low levels and taken up by dendritic cells. 3. DNA antigens activate TLRs, amplifying immune response (IFN-a). 4. Antigen-antibody complexes are subsequently generated at higher levels and deposit in multiple tissues causing disease. 5. Deficiency of early complement proteins (Clq, C4, and C2) is associated with SLE. D. Almost any tissue can be involved. Classic findings include 1."
+        },
+        {
+            "id": "Immunology_Janeway_669",
+            "title": "Immunology_Janeway",
+            "content": "Type III interferons are a newly classified IFN family composed of the products of three IFN-\u03bb genes, also known as IL-28A, IL-28B, and IL-29, which bind a heterodimeric IFN-\u03bb receptor composed of a unique IL-28R\u03b1 subunit and the \u03b2 subunit of the IL-10 receptor. While receptors for type I interferons and IFN-\u03b3 are widespread in their tissue distribution, type III receptors are more restricted, not expressed by fibroblasts or epithelial cells, but expressed on epithelial cells. Type I interferons are inducible and are synthesized by many cell types after infection by diverse viruses. Almost all types of cells can produce IFN-\u03b1 and IFN-\u03b2 in response to activation of several innate sensors. For example, type I interferons are induced by RIG-I and MDA-5 (the sensors of cytoplasmic viral RNA) downstream of MAVS, and by signaling from cGAS (the sensor of cytoplasmic DNA) downstream of STING (see Sections 3-10 and 3-11)."
+        },
+        {
+            "id": "InternalMed_Harrison_23815",
+            "title": "InternalMed_Harrison",
+            "content": "and 1400 mg for patients weighing >105 kg. b1000 mg for patients weighing <75 kg; 1200 mg for patients weighing \u226575 kg. cIn the registration trial for PEG IFN-\u03b12b plus ribavirin, all patients were treated for 48 weeks; however, data from other trials of standard interferons and the other PEG IFN demonstrated that 24 weeks suffices for patients with genotypes 2 and 3. For patients with genotype 3 who have advanced fibrosis/cirrhosis and/or high-level HCV RNA, a full 48 weeks is preferable. dAttempts to compare the two PEG IFN preparations based on the results of registration clinical trials are confounded by differences between trials of the two agents in methodologic details (different ribavirin doses, different methods for recording depression, and other side effects) and study-population composition (different proportion with bridging fibrosis/ cirrhosis, proportion from the United States versus international, mean weight, proportion with genotype 1, and proportion with high-level"
+        },
+        {
+            "id": "InternalMed_Harrison_25047",
+            "title": "InternalMed_Harrison",
+            "content": "Several environmental stimuli may influence SLE (Fig. 378-1). Exposure to ultraviolet light causes flares of SLE in approximately 70% of patients, possibly by increasing apoptosis in skin cells or by altering DNA and intracellular proteins to make them antigenic. Some infections induce normal immune responses that involve certain T and B cells that recognize self-antigens; such cells are not appropriately regulated, and autoantibody production occurs. Most SLE patients have autoantibodies for 3 years or more before the first symptoms of disease, suggesting that regulation controls the degree of autoimmunity for years before quantities and qualities of autoantibodies and pathogenic B and T cells cause clinical disease. Epstein-Barr virus (EBV) may be one infectious agent that can trigger SLE in susceptible individuals. Children and adults with SLE are more likely to be infected by EBV than age-, sex-, and ethnicity-matched controls. EBV contains amino acid sequences that mimic"
+        },
+        {
+            "id": "InternalMed_Harrison_25127",
+            "title": "InternalMed_Harrison",
+            "content": "showed an estimated mortality rate over 5 years of 15% and sustained remission in 50%. It is hoped that in the next edition of this text, we will be able to recommend more effective and less toxic approaches to treatment of SLE based on some of these strategies."
+        },
+        {
+            "id": "Neurology_Adams_7359",
+            "title": "Neurology_Adams",
+            "content": "Interferon-beta Interferon and glatiramer were the first main disease-modifying therapies introduced for MS following ACTH and corticosteroids. These injectable drugs, which are still used in some cases, modestly alter the natural history relapsing-remitting MS. IFN-\u03b2-1b, a nonglycosylated bacterial cell product with an amino acid sequence identical to that of natural IFN-\u03b2, was the first of these agents to be tested (Arnason). Several trials showed that the subcutaneous injection of this agent every second day for up to 5 years decreases the frequency and severity of relapses by almost one-third and also the number of new or enlarging lesions (\u201clesion burden\u201d) in serial MRIs. A large-scale trial (European Study Group, PRISMS Study Group) extended the observations with IFN-\u03b2-1b to patients with the secondarily progressive type of MS; progression of the disease was delayed for 9 to 12 months in a study period of 2 to 3 years. The treatment of relapsing\u2013remitting MS with IFN-\u03b2-1a in a"
+        },
+        {
+            "id": "InternalMed_Harrison_25475",
+            "title": "InternalMed_Harrison",
+            "content": "killer (NK) cells in AS, possibly through interaction with B27 heavy chain homodimers. SpA-prone B27 rats show defective dendritic cell function and share with AS patients a characteristic \u201creverse interferon\u201d gene expression signature in antigen-presenting cells."
+        },
+        {
+            "id": "InternalMed_Harrison_25012",
+            "title": "InternalMed_Harrison",
+            "content": "development of autoimmunity. Identical twins are far more likely to develop the same autoimmune disease than MHC-identical nontwin siblings; this observation suggests that genetic factors other than the MHC affect disease susceptibility. Studies of the genetics of type 1 diabetes mellitus, SLE, rheumatoid arthritis, and multiple sclerosis in humans and mice have identified several independently segregating disease susceptibility loci in addition to the MHC. Genes that encode molecules of the innate immune response are also involved in autoimmunity. In humans, inherited homozygous deficiency of the early proteins of the classic pathway of complement (C1q, C4, or C2) as well as genes involved in the type 1 interferon pathway are very strongly associated with the development of SLE."
+        },
+        {
+            "id": "Pharmacology_Katzung_523",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferon lambda-3 (IFN-\u03bb3; also known as interleukin-28B), encoded by the IFNL3 (or IL28B) gene, belongs to the family of type III IFN-\u03bb cytokines. Type III IFNs share many therapeutic effects with type I IFNs, eg, IFN-a (Chapter 55), such as being directly induced by viruses and acting through JAK-STAT signal transduction pathways (via distinct heterodimeric receptor signaling complexes) to produce antiviral activity in cells. Type III IFNs play a role in hepatitis C virus (HCV) infection. Genetic variants near the IFNL3 gene were found to be most significantly associated with HCV treatment response to pegylated-IFN-a (PEG-IFN-a), in combination with ribavirin (RBV). Approximately twofold greater cure rates were observed in patients with a favorable genotype. While the mechanism underlying this association has yet to be fully elucidated, the rs12979860 variant near IFNL3 is considered the strongest baseline predictor of a cure for patients with HCV-1 receiving PEG-IFN-a/RBV. The"
+        },
+        {
+            "id": "InternalMed_Harrison_6590",
+            "title": "InternalMed_Harrison",
+            "content": "a positive SLN is to perform a complete lymphadenectomy; however, ongoing clinical studies will determine whether patients with small-volume SLN metastases can be managed safely without additional surgery. Patients with microscopically positive lymph nodes should be considered for adjuvant therapy with interferon or enrollment in a clinical trial."
+        },
+        {
+            "id": "InternalMed_Harrison_25441",
+            "title": "InternalMed_Harrison",
+            "content": "Both infiltrating T and B cells have a tendency to be resistant to apoptosis. Levels of B cell\u2013activating factor (BAFF) have been found to be elevated in patients with Sj\u00f6gren\u2019s syndrome, especially those with hypergammaglobulinemia,andprobably accounts for thisantiapoptotic effect. Glandular epithelial cells seem to have an active role in the productionofBAFF, whichmaybe expressedandsecretedafterstimulation with type I interferon as well as with viral or synthetic double-stranded RNA. The triggering factor for epithelial activation appears to be a persistent enteroviral infection (possibly with coxsackievirus strains). Type I and type II interferon signatures have been described in ductal epithelial cells and T cells,respectively;their detection impliesthat interferons exert direct and cross-regulating effects on the pathogenic process."
+        },
+        {
+            "id": "InternalMed_Harrison_8004",
+            "title": "InternalMed_Harrison",
+            "content": "level of renal failure. By contrast, patients with cytokines. Through the release of tumor necrosis factor (TNF) and diabetes or myeloma have more severe EPO deficiency for a given level interferon \u03b3 (IFN-\u03b3), neoplasms and bacterial infections suppress of renal failure. erythropoietin (EPO) production and the proliferation of erythroid Assessment of iron status provides information to distinguish the progenitors (erythroid burst-forming units and erythroid colony-anemia of CKD from the other forms of hypoproliferative anemia forming units [BFU/CFU-E]). The mediators in patients with vasculitis (Table 126-6) and to guide management. Patients with the anemia of and rheumatoid arthritis include interleukin 1 (IL-1) and IFN-\u03b3. The red CKD usually present with normal serum iron, TIBC, and ferritin levarrows indicate sites of inflammatory cytokine inhibitory effects. RBC, els. However, those maintained on chronic hemodialysis may develop red blood cell. iron deficiency from blood loss"
+        },
+        {
+            "id": "Obstentrics_Williams_8209",
+            "title": "Obstentrics_Williams",
+            "content": "During the past several decades, pregnancy outcomes in women with SLE have improved remarkably. For most women with inactive or mild/moderate SLE, pregnancy outcomes are relatively favorable. Women who have conined cutaneous lupus do not usually have adverse outcomes (Hamed, 2013). However, newly diagnosed SLE during pregnancy tends to be severe (Zhao, 2013). In general, pregnancy outcome is best in women for whom: (1) lupus activity has been quiescent for at least 6 months before conception; (2) there is no lupus nephritis manifest by proteinuria or renal dysfunction; (3) anti phospholipid syndrome or lupus anticoagulant is absent; and (4) superimposed preeclampsia does not develop (Peart, 2014; Stojan, 2012; Wei, 2017; Yang, 2014). SLE, low risk (n = 129) . 10"
+        },
+        {
+            "id": "Immunology_Janeway_4709",
+            "title": "Immunology_Janeway",
+            "content": "intercellular adhesion molecules (ICAMs) See ICAMs. interdigitating dendritic cells See dendritic cells. interferon regulatory factor (IRF) A family of nine transcription factors that regulate a variety of immune responses. For example, IRF3 and IRF7 are activated as a result of signaling from some TLRs. Several IRFs promote expression of the genes for type I interferons. interferon stimulated genes (ISGs) A category of gene induced by interferons, which include many that promote innate defense against pathogens, such as oligoadenylate synthetase, PKR, and the Mx, IFITs, and IFITM proteins. interferon-\u03b1 receptor (IFNAR) This receptor recognizes IFN-\u03b1 and IFN-\u03b2 to activate STAT1 and STAT2 and induce expression of many ISGs. interferon-induced transmembrane protein (IFITM) See IFITM. interferon-producing cells (IPCs) See plasmacytoid dendritic cells."
+        }
+    ],
+    "scores": [
+        0.028422669853192216,
+        0.024662675222034046,
+        0.021965290584952946,
+        0.020899511215522353,
+        0.020760819665289428,
+        0.02070403850270883,
+        0.020135801673718045,
+        0.02008310693391417,
+        0.020055547139322324,
+        0.019149715961150816,
+        0.01906318082788671,
+        0.018594685075880222,
+        0.018404390037990714,
+        0.017284495439835245,
+        0.016592171204117566,
+        0.016361950185479597,
+        0.016173348320219806,
+        0.016151332327802918,
+        0.015813117699910152,
+        0.015796828482896895,
+        0.01558926206813531,
+        0.015160118101294572,
+        0.015154994259471873,
+        0.0150650789255054,
+        0.01488483268144285,
+        0.014832535885167464,
+        0.014775668679896463,
+        0.014753111200321155,
+        0.014585414585414586,
+        0.014583333333333334,
+        0.014116034719049795,
+        0.013775328830430145
+    ]
+}

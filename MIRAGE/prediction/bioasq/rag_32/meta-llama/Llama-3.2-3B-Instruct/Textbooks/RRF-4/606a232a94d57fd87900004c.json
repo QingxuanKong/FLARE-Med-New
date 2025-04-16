@@ -1,0 +1,206 @@
+{
+    "id": "606a232a94d57fd87900004c",
+    "question": "Is metoprolol metabolized by CYP2D6?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and look for information about the metabolism of metoprolol by CYP2D6.\\n\\nFrom Document [1], we know that metoprolol is extensively metabolized in the liver, with little unchanged drug appearing in the urine. Additionally, it is mentioned that the CYP2D6 genotype is a major determinant of interindividual differences in metoprolol plasma clearance.\\n\\nFrom Document [5], we can see that metoprolol is extensively metabolized by CYP2D6, and the drug has a relatively short half-life of 4\u20136 hours.\\n\\nFrom Document [11], we can see that individuals with a CYP2D6 polymorphism are categorized into poor metabolizers (PMs), extensive metabolizers (EMs), and ultra-rapid metabolizers (UMs). Since metoprolol is extensively metabolized by CYP2D6, it is likely that it is metabolized by this enzyme.\\n\\nBased on the information from the documents, it can be concluded that metoprolol is indeed metabolized by CYP2D6.\\n\\nAnswer: A\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_396",
+            "title": "InternalMed_Harrison",
+            "content": "Codeine is biotransformed by CYP2D6 to the potent active metabolite morphine, so its effects are blunted in PMs and exaggerated in ultra-rapid metabolizers. In the case of drugs with beta-blocking properties metabolized by CYP2D6, greater signs of beta blockade (e.g., bronchospasm, bradycardia) are seen in PM subjects than in EMs. This can be seen not only with orally administered beta blockers such as metoprolol and carvedilol, but also with ophthalmic timolol and with the sodium channel\u2013blocking antiarrhythmic propafenone, a CYP2D6 substrate with beta-blocking properties. Ultra-rapid metabolizers may require very high dosages of tricyclic antidepressants to achieve a therapeutic effect and, with codeine, may display transient euphoria and nausea due to very rapid generation of morphine. Tamoxifen undergoes CYP2D6-mediated biotransformation to an active metabolite, so its efficacy may be in part related to this polymorphism. In addition, the widespread use of selective serotonin"
+        },
+        {
+            "id": "Pharmacology_Katzung_950",
+            "title": "Pharmacology_Katzung",
+            "content": "The \u03b2 antagonists are rapidly distributed and have large volumes of distribution. Propranolol and penbutolol are quite lipophilic and readily cross the blood-brain barrier (Table 10\u20132). Most \u03b2 antagonists have half-lives in the range of 3\u201310 hours. A major exception is esmolol, which is rapidly hydrolyzed and has a half-life of approximately 10 minutes. Propranolol and metoprolol are extensively metabolized in the liver, with little unchanged drug appearing in the urine. The CYP2D6 genotype is a major determinant of interindividual differences in metoprolol plasma clearance (see Chapters 4 and 5). Poor metabolizers exhibit threefold to tenfold higher plasma concentrations after administration of metoprolol than extensive metabolizers. Atenolol, celiprolol, and pindolol are less completely metabolized. Nadolol is excreted unchanged in the urine and has the longest half-life of any available \u03b2 antagonist (up to 24 hours). The half-life of nadolol is prolonged in renal failure. The"
+        },
+        {
+            "id": "InternalMed_Harrison_389",
+            "title": "InternalMed_Harrison",
+            "content": "FIgURE 5-6 A. CYP2D6 metabolic activity was assessed in 290 subjects by administration of a test dose of a probe substrate and measurement of urinary formation of the CYP2D6-generated metabolite. The heavy arrow indicates a clear antimode, separating poor metabolizer subjects (PMs, red), with two loss-of-function CYP2D6 alleles, indicated by the intron-exon structures below the chart. Individuals with one or two functional alleles are grouped together as extensive metabolizers (EMs, green). Also shown are ultra-rapid metabolizers (UMs), with 2\u201312 functional copies of the gene (gray), displaying the greatest enzyme activity. (Adapted from M-L Dahl et al: J Pharmacol Exp Ther 274:516, 1995.) B. These simulations show the predicted effects of CYP2D6 genotype on disposition of a substrate drug. With a single dose (left), there is an inverse \u201cgene-dose\u201d relationship between the number of active alleles and the areas under the time-concentration curves (smallest in UM subjects; highest in"
+        },
+        {
+            "id": "InternalMed_Harrison_395",
+            "title": "InternalMed_Harrison",
+            "content": "CYP2D6 is second to CYP3A4 in the number of commonly used drugs that it metabolizes. CYP2D6 activity is polymorphically distributed, with about 7% of Europeanand African-derived populations (but very few Asians) displaying the PM phenotype (Fig. 5-6). Dozens of loss-of-function variants in the CYP2D6 gene have been described; the PM phenotype arises in individuals with two such alleles. In addition, ultra-rapid metabolizers with multiple functional copies of the CYP2D6 gene have been identified."
+        },
+        {
+            "id": "Pharmacology_Katzung_473",
+            "title": "Pharmacology_Katzung",
+            "content": "As described in Chapter 4, cytochrome P450 2D6 is involved in the metabolism of up to one quarter of all drugs used clinically, including predominantly basic compounds such as \u03b2 blockers, antidepressants, antipsychotics, and opioid analgesics. Among the CYP enzymes, CYP2D6 is responsible for metabolism of about 20% of clinically used drugs. Similar to other polymorphic enzymes, four clinically defined metabolic phenotypes, ie, PMs, IMs, EMs, and UMs, are used to predict therapeutic and adverse responses following the administration of CYP2D6 substrates."
+        },
+        {
+            "id": "Pharmacology_Katzung_1061",
+            "title": "Pharmacology_Katzung",
+            "content": "Metoprolol and atenolol, which are cardioselective, are the most widely used \u03b2 blockers in the treatment of hypertension. Metoprolol is approximately equipotent to propranolol in inhibiting stimulation of \u03b21 adrenoceptors such as those in the heart but 50to 100-fold less potent than propranolol in blocking \u03b22 receptors. Relative cardioselectivity is advantageous in treating hypertensive patients who also suffer from asthma, diabetes, or peripheral vascular disease. Although cardioselectivity is not complete, metoprolol causes less bronchial constriction than propranolol at doses that produce equal inhibition of \u03b21-adrenoceptor responses. Metoprolol is extensively metabolized by CYP2D6 with high first-pass metabolism. The drug has a relatively short half-life of 4\u20136 hours, but the extended-release preparation can be dosed once daily (Table 11\u20132). Sustained-release metoprolol is effective in reducing mortality from heart failure and is particularly useful in patients with hypertension"
+        },
+        {
+            "id": "Pharmacology_Katzung_3281",
+            "title": "Pharmacology_Katzung",
+            "content": "Mirtazapine is demethylated followed by hydroxylation and glucuronide conjugation. Several CYP isozymes are involved in the metabolism of mirtazapine, including 2D6, 3A4, and 1A2. The half-life of mirtazapine is 20\u201340 hours, and it is usually dosed once in the evening because of its sedating effects. Vilazodone is well absorbed (Table 30\u20131), and absorption is increased when it is given with a fatty meal. It is extensively metabolized by CYP3A4 with minor contributions by CYP2C19 and CYP2D6. Only 1% of vilazodone is excreted unchanged in the urine. E. Monoamine Oxidase Inhibitors The different MAOIs are metabolized via different pathways but tend to have extensive first-pass effects that may substantially decrease bioavailability. Tranylcypromine is ring hydroxylated and N-acetylated, whereas acetylation appears to be a minor pathway for phenelzine. Selegiline is N-demethylated and then hydroxylated. The MAOIs are well absorbed from the gastrointestinal tract."
+        },
+        {
+            "id": "Pharmacology_Katzung_3333",
+            "title": "Pharmacology_Katzung",
+            "content": "Elevated TCA levels may occur when these drugs are combined with CYP2D6 inhibitors or from constitutional factors. About 7% of the Caucasian population in the USA has a CYP2D6 polymorphism that is associated with slow metabolism of TCAs and other 2D6 substrates. Combination of a known CYP2D6 inhibitor and a TCA in a patient who is a slow metabolizer may result in markedly increased effects. Such an interaction has been implicated, though rarely, in cases of TCA toxicity. There may also be additive anticholinergic or antihistamine effects when TCAs are combined with other agents that share these properties such as benztropine or diphenhydramine. Similarly, antihypertensive drugs may exacerbate the orthostatic hypotension induced by TCAs. C. 5-HT Receptor Modulators Nefazodone is an inhibitor of the CYP3A4 isoenzyme, so it can raise the level and thus exacerbate adverse effects of many 3A4-dependent drugs. For example, triazolam levels are increased"
+        },
+        {
+            "id": "Pharmacology_Katzung_418",
+            "title": "Pharmacology_Katzung",
+            "content": "FIGURE 4\u20136 Genetic polymorphism in debrisoquin 4-hydroxylation by CYP2D6 in a Caucasian population. The semilog frequency distribution histogram of the metabolic ratio (MR; defined as percent of dose excreted as unchanged debrisoquin divided by the percent of dose excreted as 4-hydroxydebrisoquin metabolite) in the 8-hour urine collected after oral ingestion of 12.8 mg debrisoquin sulfate (equivalent to 10 mg free debrisoquin base). Individuals with MR values >12.6 were phenotyped as poor metabolizers (PM, red bars), and those with MR values <12.6 but >0.2 were designated as extensive metabolizers (EM, blue bars). Those with MR values <0.2were designated as ultrarapid metabolizers (URM, green bars) based on the MR values (0.01\u20130.1) of individuals with documented multiple copies of CYP2D6 allelic variants resulting from inherited amplification of this gene. (Data from Woolhouse et al: Debrisoquin hydroxylation polymorphism among Ghanians and Caucasians. Clin Pharmacol Ther"
+        },
+        {
+            "id": "Pharmacology_Katzung_429",
+            "title": "Pharmacology_Katzung",
+            "content": "Although genetic polymorphisms in drug oxidations often involve specific P450 enzymes, such genetic variations can also occur in other enzymes. Recently, genetic polymorphisms in POR, the essential P450 electron donor, have been reported. In particular, an allelic variant (at a 28% frequency) encoding a POR A503V mutation has been reported to result in impaired CYP17dependent sex steroid synthesis and impaired CYP3A4and CYP2D6-dependent drug metabolism in vitro. Its involvement in clinically relevant drug metabolism, while predictable, remains to be established. Descriptions of a polymorphism in the oxidation of trimethylamine, believed to be metabolized largely by the flavin monooxygenase (Ziegler\u2019s enzyme), result in the \u201cfishodor syndrome\u201d in slow metabolizers, thus suggesting that genetic variants of other non-P450-dependent oxidative enzymes may also contribute to such polymorphisms. B. Phase II Enzyme Polymorphisms"
+        },
+        {
+            "id": "InternalMed_Harrison_364",
+            "title": "InternalMed_Harrison",
+            "content": "When plasma concentrations of active drug depend exclusively on a single metabolic pathway, any condition that inhibits that pathway (be it disease-related, genetic, or due to a drug interaction) can lead to dramatic changes in drug concentrations and marked variability in drug action. This problem of high-risk pharmacokinetics is especially pronounced in two settings. First, variability in bioactivation of a prodrug can lead to striking variability in drug action; examples include decreased CYP2D6 activity, which prevents analgesia by codeine, and decreased CYP2C19 activity, which reduces the antiplatelet effects of clopidogrel. The second setting is drug elimination that relies on"
+        },
+        {
+            "id": "InternalMed_Harrison_19211",
+            "title": "InternalMed_Harrison",
+            "content": "aAllergy or prior intolerance is a contraindication for all categories of drugs listed in this chart. bChoice of the specific agent is not as important as ensuring that appropriate candidates receive this therapy. If there are concerns about patient intolerance due to existing pulmonary disease, especially asthma, left ventricular dysfunction, risk of hypotension, or severe bradycardia, initial selection should favor a short-acting agent, such as propranolol or metoprolol or the ultra-short-acting agent esmolol. Mild wheezing or a history of chronic obstructive pulmonary disease should prompt a trial of a short-acting agent at a reduced dose (e.g., 2.5 mg IV metoprolol, 12.5 mg oral metoprolol, or 25 \u03bcg/kg per min esmolol as initial doses) rather than complete avoidance of beta blocker therapy."
+        },
+        {
+            "id": "Pharmacology_Katzung_970",
+            "title": "Pharmacology_Katzung",
+            "content": "Carvedilol, medroxalol, * and bucindolol * are nonselective \u03b2-receptor antagonists with some capacity to block \u03b11-adrenergic receptors. Carvedilol antagonizes the actions of catecholamines more potently at \u03b2 receptors than at \u03b11 receptors. The drug has a half-life of 6\u20138 hours. It is extensively metabolized in the liver, and stereoselective metabolism of its two isomers is observed. Since metabolism of (R)-carvedilol is influenced by polymorphisms in CYP2D6 activity and by drugs that inhibit this enzyme\u2019s activity (such as quinidine and fluoxetine, see Chapter 4), drug interactions may occur. Carvedilol also appears to attenuate oxygen free radical\u2013initiated lipid peroxidation and to inhibit vascular smooth muscle mitogenesis independently of adrenoceptor blockade. * Not available in the USA. These effects may contribute to the clinical benefits of the drug in chronic heart failure (see Chapter 13)."
+        },
+        {
+            "id": "Pharmacology_Katzung_1063",
+            "title": "Pharmacology_Katzung",
+            "content": "Atenolol is not extensively metabolized and is excreted primarily in the urine with a half-life of 6 hours; it is usually dosed once daily. Atenolol is reported to be less effective than metoprolol in preventing the complications of hypertension. A possible reason for this difference is that once-daily dosing does not maintain adequate blood levels of atenolol. The usual dosage is 50\u2013100 mg/d. Patients with reduced renal function should receive lower doses. Nadolol, Carteolol, Betaxolol, & Bisoprolol"
+        },
+        {
+            "id": "Pharmacology_Katzung_416",
+            "title": "Pharmacology_Katzung",
+            "content": "apparently occurs in 3\u201310% of Caucasians and is inherited as an correlates with a higher risk of relapse in patients with breast autosomal recessive trait. In affected individuals, the CYP2D6-cancer treated with tamoxifen, an anticancer drug that relies on its dependent oxidations of debrisoquin and other drugs (Table 4\u20132; CYP2D6-dependent metabolic activation to endoxifen for its effi-Figure 4\u20136) are impaired. These defects in oxidative drug metabo-cacy. More recently, however, another polymorphic genotype has lism are probably co-inherited. The precise molecular basis for the been reported that results in ultrarapid metabolism of relevant defect appears to be faulty expression of the P450 protein due to drugs due to the presence of CYP2D6 allelic variants with up to either defective mRNA splicing or protein folding, resulting in 13 gene copies in tandem. This ultrarapid metabolizer (UM) gen-little or no isoform-catalyzed drug metabolism and thereby con-otype is most common in"
+        },
+        {
+            "id": "Pharmacology_Katzung_1062",
+            "title": "Pharmacology_Katzung",
+            "content": "preparation can be dosed once daily (Table 11\u20132). Sustained-release metoprolol is effective in reducing mortality from heart failure and is particularly useful in patients with hypertension and heart failure."
+        },
+        {
+            "id": "InternalMed_Harrison_19144",
+            "title": "InternalMed_Harrison",
+            "content": "Note: This list of beta blockers that may be used to treat patients with angina pectoris is arranged alphabetically. The agents for which there is the greatest clinical experience include atenolol, metoprolol, and propranolol. It is preferable to use a sustained-release formulation that may be taken once daily to improve the patient\u2019s compliance with the regimen. Source: Modified from RJ Gibbons et al: J Am Coll Cardiol 41:159, 2003. Reducing the dose or even discontinuation may be necessary if these side effects develop and persist. Since sudden discontinuation can intensify ischemia, the doses should be tapered over 2 weeks. Beta blockers with relative \u03b21-receptor specificity such as metoprolol and atenolol may be preferable in patients with mild bronchial obstruction and insulin-requiring diabetes mellitus."
+        },
+        {
+            "id": "InternalMed_Harrison_421",
+            "title": "InternalMed_Harrison",
+            "content": "Grapefruit (but not orange) juice inhibits CYP3A, especially at inhibition may increase the risk of adverse effects (e.g., cyclosporine, fruit juice. CYP2D6 is markedly inhibited by quinidine, a number of neurolep tic drugs (chlorpromazine and haloperidol), and the SSRIs fluoxetine and paroxetine. The clinical consequences of fluoxetine\u2019s interaction with CYP2D6 substrates may not be apparent for weeks after the drug is started, because of its very long half-life and slow generation of a CYP2D6-inhibiting metabolite. 6-Mercaptopurine is metabolized not only by TPMT but also by xanthine oxidase. When allopurinol, an inhibitor of xanthine oxidase, is administered with standard doses of azathioprine or 6-mercaptopu rine, life-threatening toxicity (bone marrow suppression) can result."
+        },
+        {
+            "id": "Pharmacology_Katzung_3332",
+            "title": "Pharmacology_Katzung",
+            "content": "B. Selective Serotonin-Norepinephrine Reuptake Inhibitors and Tricyclic Antidepressants The SNRIs have relatively fewer CYP450 interactions than the SSRIs. Venlafaxine is a substrate but not an inhibitor of CYP2D6 or other isoenzymes, whereas desvenlafaxine is a minor substrate for CYP3A4. Duloxetine is a moderate inhibitor of CYP2D6 and so may elevate TCA and levels of other CYP2D6 substrates. Since milnacipran is neither a substrate nor potent inducer of CYP450 isoenzymes, is not tightly protein bound, and is largely excreted unchanged in the urine, it is unlikely to have clinically significant pharmacokinetic drug interactions. On the other hand, levomilnacipran is reported to be a substrate of CYP3A4, and the dosage of the drug should be lowered when combined with potent inhibitors of CYP3A4 such as ketoconazole. Like all serotonergic antidepressants, SNRIs are contraindicated in combination with MAOIs."
+        },
+        {
+            "id": "Pharmacology_Katzung_474",
+            "title": "Pharmacology_Katzung",
+            "content": "The gene encoding CYP2D6 is highly polymorphic, with over 100 alleles defined (www.cypalleles.ki.se/cyp2d6.htm); however, greater than 95% of phenotypes can be accounted for with just nine alleles, ie, CYP2D6 alleles *3, *4, *5, and *6 are nonfunctional; alleles *10, *17, and *41 have reduced function; and alleles *1 and *2 are fully functional. As with many polymorphisms, allele frequencies vary across populations (Table 5\u20131). Some genetic variants are shared among populations at similar allele frequencies, whereas others vary considerably. For example, the most common nonfunctional allele, CYP2D6*4, is observed at TABLE 5\u20131 Major alleles and frequencies in African, Asian, and European populations."
+        },
+        {
+            "id": "Pharmacology_Katzung_1301",
+            "title": "Pharmacology_Katzung",
+            "content": "Most patients with chronic heart failure respond favorably to certain \u03b2 blockers despite the fact that these drugs can precipitate acute decompensation of cardiac function (see Chapter 10). Studies with bisoprolol, carvedilol, metoprolol, and nebivolol showed a reduction in mortality in patients with stable severe heart failure, but this effect was not observed with another \u03b2 blocker, bucindolol. A full understanding of the beneficial action of \u03b2 blockade is lacking, but suggested mechanisms include attenuation of the adverse effects of high concentrations of catecholamines (including apoptosis), up-regulation of \u03b2 receptors, decreased heart rate, and reduced remodeling through inhibition of the mitogenic activity of catecholamines."
+        },
+        {
+            "id": "InternalMed_Harrison_16323",
+            "title": "InternalMed_Harrison",
+            "content": "Pyronaridine is readily absorbed, widely distributed throughout the body, metabolized by the liver, and excreted in urine and stool. Its use is contraindicated in patients with severe liver or kidney impairment. Pyronaridine has been shown in vitro to be an inhibitor of both CYP2D6 and P-glycoprotein, and these effects may have clinical relevance for patients taking medications for cardiac disease (e.g., metoprolol and digoxin). Quinacrine* Quinacrine is the only drug approved by the FDA for the treatment of giardiasis. Although its production was discontinued in 1992, quinacrine can be obtained from alternative sources through the CDC Drug Service. The antiprotozoal mechanism of quinacrine has not been fully elucidated. The drug inhibits NADH oxidase\u2014the same enzyme that activates furazolidone. The differing relative quinacrine uptake rate between human cells and G. lamblia may explain the selective toxicity of the drug. Resistance correlates with decreased drug uptake."
+        },
+        {
+            "id": "Pharmacology_Katzung_966",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 10\u20133 Drugs used in open-angle glaucoma. Drugs Mechanism Methods of Administration \u03b22 receptors are probably important in liver (recovery from hypoglycemia) and blood vessels (vasodilation). Nebivolol is the most highly selective \u03b21-adrenergic receptor blocker, although some of its metabolites do not have this level of specificity. Nebivolol has the additional quality of eliciting vasodilation. This is due to an action of the drug on endothelial nitric oxide production. Nebivolol may increase insulin sensitivity and does not adversely affect lipid profile. Agents of this type are sometimes referred to as third-generation \u03b2-blocking drugs because they activate nitric oxide synthase. In patients with metabolic syndrome, for an equivalent reduction of blood pressure and heart rate, metoprolol, but not nebivolol, decreased insulin sensitivity and increased oxidative stress."
+        },
+        {
+            "id": "Pharmacology_Katzung_427",
+            "title": "Pharmacology_Katzung",
+            "content": "Additional genetic polymorphisms in drug metabolism are being discovered. Of these, the gene for CYP2B6 has become noteworthy as one of the most polymorphic P450 genes, with a 20to 250-fold variation in interindividual CYP2B6 expression. Despite its low (1\u20135%) contribution to the total liver P450 content, these CYP2B6 polymorphisms may have a significant impact on the CYP2B6-dependent metabolism of several clinically relevant drugs such as cyclophosphamide, S-methadone, efavirenz, nevirapine, bupropion, selegiline, and propofol. Of clinical relevance, women (particularly Hispanic-American women) express considerably higher hepatic levels of CYP2B6 protein than men."
+        },
+        {
+            "id": "Pharmacology_Katzung_974",
+            "title": "Pharmacology_Katzung",
+            "content": "Beta-adrenoceptor blockers reduce the frequency of anginal episodes and improve exercise tolerance in many patients with angina (see Chapter 12). These actions are due to blockade of cardiac \u03b2 receptors, resulting in decreased cardiac work and reduction in oxygen demand. Slowing and regularization of the heart rate may contribute to clinical benefits (Figure 10\u20137). Multiple large-scale prospective studies indicate that the long-term use of timolol, propranolol, or metoprolol in patients who have had a myocardial infarction prolongs survival (Figure 10\u20138). At present, data are less compelling for the use of other than the three mentioned \u03b2-adrenoceptor antagonists for this indication. It is significant that surveys in many populations have indicated that \u03b2-receptor antagonists are underused, leading to unnecessary morbidity and mortality. In addition, \u03b2-adrenoceptor antagonists are strongly indicated in the acute phase of a myocardial infarction. In this setting, relative"
+        },
+        {
+            "id": "Pharmacology_Katzung_7266",
+            "title": "Pharmacology_Katzung",
+            "content": "Amiodarone: [P] Decreased antidepressant metabolism. Expect similar interactions with dronedarone. Barbiturates: [P] Increased antidepressant metabolism. Bupropion: [NE] Decreased antidepressant metabolism. Carbamazepine: [NP] Enhanced metabolism of antidepressants. Cimetidine: [P] Decreased antidepressant metabolism. Clonidine: [P] Decreased clonidine antihypertensive effect. Diphenhydramine: [P] Decreased metabolism of antidepressants metabolized by CYP2D6. Guanadrel: [P] Decreased uptake of guanadrel into sites of action. Haloperidol: [P] Decreased metabolism of antidepressants metabolized by CYP2D6. Monoamine oxidase inhibitors (MAOIs): [NP] Some cases of excitation, hyperpyrexia, mania, and convulsions, especially with serotonergic antidepressants such as clomipramine and imipramine, but many patients have received combination without ill effects."
+        },
+        {
+            "id": "Pharmacology_Katzung_7267",
+            "title": "Pharmacology_Katzung",
+            "content": "Quinidine: [NP] Decreased metabolism of antidepressants metabolized by CYP2D6. Rifampin: [P] Increased antidepressant metabolism. Selective serotonin reuptake inhibitors (SSRIs): [P] Fluoxetine and paroxetine inhibit CYP2D6 and decrease metabolism of antidepressants metabolized by this enzyme (eg, desipramine). Citalopram, sertraline, and fluvoxamine are only weak inhibitors of CYP2D6, but fluvoxamine inhibits CYP1A2 and CYP3A4 and thus can inhibit the metabolism of antidepressants metabolized by these enzymes. Sympathomimetics: [P] Increased pressor response to norepinephrine, epinephrine, and phenylephrine. Terbinafine: [P] Decreased antidepressant metabolism. Antivirals: [P] Decreased metabolism of amprenavir, atazanavir, boceprevir, daclatasvir, darunavir, delavirdine, etravirine, fosamprenavir, indinavir, lopinavir, maraviroc, nelfinavir, rilpivirine, ritonavir, saquinavir, and tipranavir."
+        },
+        {
+            "id": "Pharmacology_Katzung_421",
+            "title": "Pharmacology_Katzung",
+            "content": "to nirvanol, which accumulates in much higher concentrations. Thus, PMs of mephenytoin show signs of profound sedation and ataxia after doses of the drug that are well tolerated by normal metabolizers. Two defective CYP2C19 variant alleles (CYP2C19*2 and CYP2C19*3), the latter predominant in Asians, are largely responsible for the PM genotype. The molecular bases include splicing defects resulting in a truncated, nonfunctional protein. CYP2C19 is responsible for the metabolism of various clinically relevant drugs (Table 4\u20134). Thus, it is clinically important to recognize that the safety of each of these drugs may be severely reduced in persons with the PM phenotype. On the other hand, the PM phenotype can notably increase the therapeutic efficacy of omeprazole, a proton-pump inhibitor, in gastric ulcer and gastroesophageal reflux diseases (see Chapter 5 for additional discussion of the CYP2C19 polymorphism)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6833",
+            "title": "Pharmacology_Katzung",
+            "content": "Cimetidine interferes with several important hepatic cytochrome P450 drug metabolism pathways, including those catalyzed by CYP1A2, CYP2C9, CYP2D6, and CYP3A4 (see Chapter 4). Hence, the half-lives of drugs metabolized by these pathways may be prolonged. Ranitidine binds 4\u201310 times less avidly than cimetidine to cytochrome P450. Negligible CYP interaction occurs with nizatidine and famotidine. H2 antagonists compete with creatinine and certain drugs (eg, procainamide) for renal tubular secretion. All of these agents except famotidine inhibit gastric first-pass metabolism of ethanol, especially in women. Although the importance of this is debated, increased bioavailability of ethanol could lead to increased blood ethanol levels. Since their introduction in the late 1980s, these efficacious acid inhibitory agents have assumed the major role for the treatment of acid-peptic disorders. PPIs are now among the most widely prescribed drugs worldwide."
+        },
+        {
+            "id": "InternalMed_Harrison_9294",
+            "title": "InternalMed_Harrison",
+            "content": "P450 enzymes is required for activation. The genes encoding the CYP-dependent oxidative steps are polymorphic, and carriers of specific alleles of the CYP2C19 and CYP3A4 loci have increased platelet aggregability. Increased platelet activity has also been specifically associated with the CYP2C19*2 allele, which causes loss of platelet function in select patients. Because these are common genetic variants, this observation has been shown to be clinically relevant in large studies. In summary, although the loss-of-function polymorphisms in CYP2C19 is the strongest individual variable affecting pharmacokinetics and antiplatelet response to clopidogrel, it only"
+        },
+        {
+            "id": "Pharmacology_Katzung_3278",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Tricyclic antidepressants\u2014The TCAs tend to be well absorbed and have long half-lives (Table 30\u20131). As a result, most are dosed once daily at night because of their sedating effects. TCAs undergo extensive metabolism via demethylation, aromatic hydroxylation, and glucuronide conjugation. Only about 5% of TCAs are excreted unchanged in the urine. The TCAs are substrates of the CYP2D6 system, and the serum levels of these agents tend to be substantially influenced by concurrent administration of drugs such as fluoxetine. In addition, genetic polymorphism for CYP2D6 may result in low or extensive metabolism of the TCAs. The secondary amine TCAs, including desipramine and nortriptyline, lack active metabolites and have fairly linear kinetics. These TCAs have a wide therapeutic window, and serum levels are reliable in predicting response and toxicity. C. 5-HT Receptor Modulators"
+        },
+        {
+            "id": "Pharmacology_Katzung_3276",
+            "title": "Pharmacology_Katzung",
+            "content": "Fluoxetine and paroxetine are potent inhibitors of the CYP2D6 isoenzyme, and this contributes to potential drug interactions (see Drug Interactions). In contrast, fluvoxamine is an inhibitor of CYP3A4, whereas citalopram, escitalopram, and sertraline have more modest CYP interactions. B. Serotonin-Norepinephrine Reuptake Inhibitors 1. Selective serotonin-norepinephrine reuptake inhibitors\u2014Venlafaxine is extensively metabolized in the liver via the CYP2D6 isoenzyme to O-desmethylvenlafaxine (desvenlafaxine). Both have similar half-lives of about 8\u201311 hours. Despite the relatively short half-lives, both drugs are available in formulations that allow once-daily dosing. Venlafaxine and desvenlafaxine have the lowest protein binding of all antidepressants (27\u201330%). Unlike most antidepressants, desvenlafaxine is conjugated and does not undergo extensive oxidative metabolism. At least 45% of desvenlafaxine is excreted unchanged in the urine compared with 4\u20138% of venlafaxine."
+        }
+    ],
+    "scores": [
+        0.03635809397615947,
+        0.0361358888087988,
+        0.03505684804475349,
+        0.0329037724047058,
+        0.03237793643437533,
+        0.02931658100133257,
+        0.027851935213380995,
+        0.025556017556017555,
+        0.02503639263447876,
+        0.024481875006701046,
+        0.023721295691075686,
+        0.023517786561264825,
+        0.02326667349406375,
+        0.022185864431630193,
+        0.021801525517024453,
+        0.02124483703431072,
+        0.02105926459374735,
+        0.02091351101049599,
+        0.020154577168290628,
+        0.019007118172573802,
+        0.019004159205653754,
+        0.018624393624393623,
+        0.018408289241622574,
+        0.017564043564963952,
+        0.0174005378331131,
+        0.017371033238080917,
+        0.016931216931216932,
+        0.016533442645350824,
+        0.016508152173913042,
+        0.0164369378114282,
+        0.016298946531504672,
+        0.01628707627118644
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "id": "0186",
+    "question": "A laboratory primarily involved with studying cellular proofreading mechanisms is investigating the question of whether the ribosome can recognize a mischarged amino acid and still be incorporated into the growing peptide. In order to do so, they biochemically charge a Lys-tRNA with valine instead of lysine and insert the tRNA into the cell. They design an mRNA sequence that contains only codons for lysine. Which of the following will most likely occur?",
+    "options": {
+        "A": "The ribosome will recognize the mischarged tRNA and prevent its incorporation by removing the valine",
+        "B": "The mischarged tRNA with valine will be incorporated in the codons that specificy for lysine",
+        "C": "The mischarged tRNA will be degraded by the proteasome",
+        "D": "The mischarged tRNA will be removed by the lysyl-tRNA synthetase"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To solve this problem, let's break it down step by step. The laboratory is investigating whether the ribosome can recognize a mischarged amino acid and still be incorporated into the growing peptide. They are using a Lys-tRNA that has been biochemically charged with valine instead of lysine and inserting it into the cell. The mRNA sequence contains only codons for lysine. We need to determine what will most likely occur in this situation. The first step is to understand how the ribosome recognizes codons and incorporates amino acids. The ribosome recognizes codons through complementary base-pairing between the anticodon on the tRNA and the codon on the mRNA. If the tRNA has the wrong amino acid, the ribosome will not recognize the codon and prevent its incorporation. In this case, the Lys-tRNA has been charged with valine instead of lysine, so the ribosome will not recognize the codons that specify lysine. Therefore, option B is incorrect. The mischarged tRNA will not be incorporated into the growing peptide. Now, let's consider the other options. Option C suggests that the mischarged tRNA will be degraded by the proteasome. While the proteasome is involved in protein degradation, it is not directly involved in the recognition of mischarged tRNAs by the ribosome. Therefore, option C is unlikely. Option D suggests that the mischarged tRNA will be removed by the lysyl-tRNA synthetase. However, the lysyl-tRNA synthetase is responsible for charging the correct amino acid onto the tRNA, not removing incorrect ones. Therefore, option D is also unlikely. Based on the above analysis, the most likely outcome is that the ribosome will recognize the mischarged tRNA and prevent its incorporation by removing the valine. This is because the ribosome will not recognize the codons that specify lysine when the tRNA has the wrong amino acid. Therefore, option A is the correct answer.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1632",
+            "title": "Cell_Biology_Alberts",
+            "content": "Even if the wrong amino acid slips through the proofreading steps just described and is incorporated onto the growing polypeptide chain, there is still one more opportunity for the ribosome to detect the error and provide a solution, albeit one that is not, strictly speaking, proofreading. An incorrect codonanticodon interaction in the P site of the ribosome (which would occur after the misincorporation) causes an increased rate of misreading in the A site. Successive rounds of amino acid misincorporation eventually lead to premature termination of the protein by release factors, which are described below. Normally, these release factors act when translation of a protein is complete; here, they act early. Although this mechanism does not correct the original error, it releases the flawed protein for degradation, ensuring that no additional peptide synthesis is wasted on it."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1625",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201364 Translating an mRNA molecule. Each amino acid added to the growing end of a polypeptide chain is selected by complementary base-pairing between the anticodon on its attached tRNA molecule and the next codon on the mRNA chain. Because only one of the many types of tRNA molecules in a cell can base-pair with each codon, the codon determines the specific amino acid to be added to the growing polypeptide chain. The four-step cycle shown is repeated over and over during the synthesis of a protein. In step 1, an aminoacyl-tRNA molecule binds to a vacant A site on the ribosome. In step 2, a new peptide bond is formed. In step 3, the large subunit translocates relative to the small subunit, leaving the two tRNAs in hybrid sites: P on the large subunit and A on the small, for one; E on the large subunit and P on the small, for the other. In step 4, the small subunit translocates carrying its mRNA a distance of three nucleotides through the ribosome. This \u201cresets\u201d the ribosome with"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1720",
+            "title": "Cell_Biology_Alberts",
+            "content": "To initiate translation, a small ribosomal subunit binds to the mRNA molecule at a start codon (AUG) that is recognized by a unique initiator tRNA molecule. A large ribosomal subunit then binds to complete the ribosome and begin protein synthesis. During this phase, aminoacyl-tRNAs\u2014each bearing a specific amino acid\u2014bind sequentially to the appropriate codons in mRNA through complementary base-pairing between tRNA anticodons and mRNA codons. Each amino acid is added to the C-terminal end of the growing polypeptide in four sequential steps: aminoacyl-tRNA binding, followed by peptide bond formation, followed by two ribosome translocation steps. Elongation factors use GTP hydrolysis both to drive these reactions forward and to improve the accuracy of amino acid selection. The mRNA molecule progresses codon by codon through the ribosome in the 5\u02b9-to-3\u02b9 direction until it reaches one of three stop codons. A release factor then binds to the ribosome, terminating translation and releasing"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1640",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have also seen that attaining the observed accuracy of protein synthesis requires the expenditure of a great deal of free energy; this is expected, since, as discussed in Chapter 2, there is a price to be paid for any increase in order in the cell. In most cells, protein synthesis consumes more energy than any other biosynthetic process. At least four high-energy phosphate bonds are split to make each new peptide bond: two are consumed in charging a tRNA molecule with an amino acid (see Figure 6\u201354), and two more drive steps in the cycle of reactions occurring on the ribosome during protein synthesis itself (see Figure 6\u201365). In addition, extra energy is consumed each time that an incorrect amino acid linkage is hydrolyzed by a tRNA synthetase (see Figure 6\u201357) and each time that an incorrect tRNA enters the ribosome, triggers GTP hydrolysis, and is rejected (see Figure 6\u201365). To be effective, any proofreading mechanism must also allow an appreciable fraction of correct"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1631",
+            "title": "Cell_Biology_Alberts",
+            "content": "After GTP is hydrolyzed and EF-Tu dissociates from the ribosome, there is a second opportunity for the ribosome to prevent an incorrect amino acid from being added to the growing chain. There is a short time delay as the amino acid carried by the tRNA moves into position on the ribosome. This time delay is shorter for correct than incorrect codon\u2013anticodon pairs. Moreover, incorrectly matched tRNAs dissociate more rapidly than those correctly bound because their interaction with the codon is weaker. Thus, most incorrectly bound tRNA molecules (as well as a significant number of correctly bound molecules) will leave the ribosome without being used for protein synthesis. The two proofreading steps, acting in series, are largely responsible for the 99.99% accuracy of the ribosome in translating RNA into protein."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1604",
+            "title": "Cell_Biology_Alberts",
+            "content": "which one amino acid (cysteine) was chemically converted into a different amino acid (alanine) after it already had been attached to its specific tRNA. When such \u201chybrid\u201d aminoacyl-tRNA molecules were used for protein synthesis in a cell-free system, the wrong amino acid was inserted at every point in the protein chain where that tRNA was used. Although, as we shall see, cells have several quality control mechanisms to avoid this type of mishap, the experiment did establish that the genetic code is translated by two sets of adaptors that act sequentially. Each matches one molecular surface to another with great specificity, and it is their combined action that associates each sequence of three nucleotides in the mRNA molecule\u2014that is, each codon\u2014with its particular amino acid."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1622",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once protein synthesis has been initiated, each new amino acid is added to the elongating chain in a cycle of reactions containing four major steps: tRNA binding (step 1), peptide bond formation (step 2), large subunit translocation (step 3), and small subunit translocation (step 4). As a result of the two translocation steps, the entire ribosome moves three nucleotides along the mRNA and is positioned to start the next cycle. Figure 6\u201364 illustrates this four-step process, beginning at a point at which three amino acids have already been linked together and there is a tRNA molecule in the P site on the ribosome, covalently joined to the C-terminal end of the short polypeptide. In step 1, a tRNA carrying the next amino acid in the chain binds to the ribosomal A site by forming base pairs with the mRNA codon positioned there, so that the P site and the A site contain adjacent bound tRNAs. In step 2, the carboxyl end of the polypeptide chain is released from the tRNA at the P site (by"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1630",
+            "title": "Cell_Biology_Alberts",
+            "content": "To increase the accuracy of this binding reaction, the ribosome and EF-Tu work together in the following ways. First, the 16s rRNA in the small subunit of the ribosome assesses the \u201ccorrectness\u201d of the codon\u2013anticodon match by folding around it and probing its molecular details (Figure 6\u201366). When a correct match is found, the rRNA closes tightly around the codon\u2013anticodon pair, causing a conformational change in the ribosome that triggers GTP hydrolysis by EF-Tu. Only when GTP is hydrolyzed does EF-Tu release its grip on the aminoacyl-tRNA and allow it to be used in protein synthesis. Incorrect codon\u2013anticodon matches do not readily trigger this conformational change, and these errant tRNAs mostly fall off the ribosome before they can be used in protein synthesis. Proofreading, however, does not end here."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1579",
+            "title": "Biochemistry_Lippinco",
+            "content": "3. A, P, and E sites: The ribosome has three binding sites for tRNA molecules: the A, P, and E sites, each of which extends over both subunits. Together, they cover three neighboring codons. During translation, the A site binds an incoming aminoacyl-tRNA as directed by the codon currently occupying this site. This codon specifies the next amino acid to be added to the growing peptide chain. The P site is occupied by peptidyl-tRNA. This tRNA carries the chain of amino acids that has already been synthesized. The E site is occupied by the empty tRNA as it is about to exit the ribosome. (See Fig. 32.13 for an illustration of the role of the A, P, and E sites in translation.) 4."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1637",
+            "title": "Cell_Biology_Alberts",
+            "content": "A second principle used to increase the specificity of complementary base-pairing is called kinetic proofreading. We have seen that after the initial codon\u2012anticodon pairing and conformational change of the ribosome, GTP is hydrolyzed. This creates an irreversible step and starts the clock on a time delay during which the aminoacyl-tRNA moves into the proper position for catalysis. During this delay, those incorrect codon\u2013anticodon pairs that have somehow slipped through the induced-fit scrutiny have a higher likelihood of dissociating than correct pairs. There are two reasons for this: (1) the interaction of the wrong tRNA with the codon is weaker, and (2) the delay is longer for incorrect than correct matches."
+        },
+        {
+            "id": "Cell_Biology_Alberts_29",
+            "title": "Cell_Biology_Alberts",
+            "content": "that enables it to recognize, through base-pairing, a particular codon or subset of codons in mRNA. The intricate chemistry that enables these tRNAs to translate a specific sequence of A, C, G, and U nucleotides in an mRNA molecule into a specific sequence of amino acids in a protein molecule occurs on the ribosome, a large multimolecular machine composed of both protein and ribosomal RNA. All of these processes are described in detail in Chapter 6."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1607",
+            "title": "Biochemistry_Lippinco",
+            "content": "molecules: the A, P, and E sites that cover three neighboring codons. The A site binds an incoming aminoacyl-tRNA, the P site is occupied by peptidyl-tRNA, and the E site is occupied by the empty tRNA as it is about to exit the ribosome. Recognition of an mRNA codon is accomplished by the tRNA anticodon, which binds to the codon following the rules of complementarity and antiparallel binding. The wobble hypothesis states that the first (5\u2032) base of the anticodon is not as spatially defined as the other two bases. Movement of that first base allows nontraditional base-pairing with the last (3\u2032) base of the codon, thus allowing a single tRNA to recognize more than one codon for a specific amino acid. For initiation of protein synthesis, the components of the translation system are assembled, and mRNA associates with the small ribosomal subunit. The process requires initiation factors (IF). In prokaryotes, a purine-rich region of the mRNA (the Shine-Dalgarno sequence) base-pairs with a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1623",
+            "title": "Cell_Biology_Alberts",
+            "content": "with the mRNA codon positioned there, so that the P site and the A site contain adjacent bound tRNAs. In step 2, the carboxyl end of the polypeptide chain is released from the tRNA at the P site (by breakage of the high-energy bond between the tRNA and its amino acid) and joined to the free amino group of the amino acid linked to the tRNA at the A site, forming a new peptide bond. This central reaction of protein synthesis is catalyzed by a peptidyl transferase contained in the large ribosomal subunit. In step 3, the large subunit moves relative to the mRNA held by the small subunit, thereby shifting the acceptor stems of the two tRNAs to the E and P sites of the large subunit. In step 4, another series of conformational changes moves the small subunit and its bound mRNA exactly three nucleotides, ejecting the spent tRNA from the E site and resetting the ribosome so it is ready to receive the next aminoacyl-tRNA. Step 1 is then repeated with a new incoming aminoacyl-tRNA, and so on."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1719",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201387 The production of a protein by a eukaryotic cell. The final level of each protein in a eukaryotic cell depends upon the efficiency of each step depicted. The translation of the nucleotide sequence of an mRNA molecule into protein takes place in the cytosol on a large ribonucleoprotein assembly called a ribosome. Each amino acid used for protein synthesis is first attached to a tRNA molecule that recognizes, by complementary base-pair interactions, a particular set of three nucleotides (codons) in the mRNA. As an mRNA is threaded through a ribosome, its sequence of nucleotides is then read from one end to the other in sets of three according to the genetic code."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1615",
+            "title": "Biochemistry_Lippinco",
+            "content": "2.3. A transfer RNA (tRNA) molecule that is supposed to carry cysteine (tRNAcys) is mischarged, so that it actually carries alanine (ala-tRNAcys). Assuming no correction occurs, what will be the fate of this alanine residue during protein synthesis? It will: A. be incorporated into a protein in response to a codon for alanine. B. be incorporated into a protein in response to a codon for cysteine. C. be incorporated randomly at any codon. D. remain attached to the tRNA because it cannot be used for protein synthesis. E. be chemically converted to cysteine by cellular enzymes. Correct answer = B. Once an amino acid is attached to a tRNA molecule, only the anticodon of that tRNA determines the specificity of incorporation. Therefore, the incorrectly activated alanine will be incorporated into the protein at a position determined by a cysteine codon."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1607",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201356 The genetic code is translated by means of two adaptors that act one after another. The first adaptor is the aminoacyl-tRNA synthetase, which couples a particular amino acid to its corresponding tRNA; the second adaptor is the tRNA molecule itself, whose anticodon forms base pairs with the appropriate codon on the mRNA. An error in either step would cause the wrong amino acid to be incorporated into a protein chain (Movie 6.6). In the sequence of events shown, the amino acid tryptophan (Trp) is selected by the codon UGG on the mRNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1610",
+            "title": "Cell_Biology_Alberts",
+            "content": "Amino Acids Are Added to the C-terminal End of a Growing Polypeptide Chain Having seen that each amino acid is first coupled to specific tRNA molecules, we now turn to the mechanism that joins these amino acids together to form proteins. The fundamental reaction of protein synthesis is the formation of a peptide bond between the carboxyl group at the end of a growing polypeptide chain and a free amino group on an incoming amino acid. Consequently, a protein is synthesized stepwise from its N-terminal end to its C-terminal end. Throughout the entire process, the growing carboxyl end of the polypeptide chain remains activated by its covalent attachment to a tRNA molecule (forming a peptidyl-tRNA). Each Figure 6\u201357 Hydrolytic editing. Aminoacyl tRNA synthetases correct their own coupling errors through hydrolytic editing of incorrectly attached amino acids. As described in the text, the correct amino acid is rejected by the editing site."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1617",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eukaryotic and bacterial ribosomes have similar structures and functions, being composed of one large and one small subunit that fit together to form a complete ribosome with a mass of several million daltons (Figure 6\u201361). The small subunit provides the framework on which the tRNAs are accurately matched to the codons of the mRNA, while the large subunit catalyzes the formation of the peptide bonds that link the amino acids together into a polypeptide chain (see Figure 6\u201358)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1641",
+            "title": "Cell_Biology_Alberts",
+            "content": "that an incorrect tRNA enters the ribosome, triggers GTP hydrolysis, and is rejected (see Figure 6\u201365). To be effective, any proofreading mechanism must also allow an appreciable fraction of correct interactions to be removed; for this reason, proofreading is even more costly in energy than it might at first seem."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1606",
+            "title": "Biochemistry_Lippinco",
+            "content": "eventually appear in the finished protein; at least one specific type of transfer RNA (tRNA) for each amino acid; one aminoacyl-tRNA synthetase for each amino acid; the mRNA coding for the protein to be synthesized; fully competent ribosomes (70S in prokaryotes, 80S in eukaryotes); protein factors needed for initiation, elongation, and termination of protein synthesis; and ATP and guanosine triphosphate (GTP) as energy sources. tRNA has an attachment site for a specific amino acid at its 3\u2032-end and an anticodon region that can recognize the codon specifying the amino acid the tRNA is carrying. Ribosomes are large complexes of protein and ribosomal RNA (rRNA). They consist of two subunits, 30S and 50S in prokaryotes and 40S and 60S in eukaryotes. Each ribosome has three binding sites for tRNA molecules: the A, P, and E sites that cover three neighboring codons. The A site binds an incoming aminoacyl-tRNA, the P site is occupied by peptidyl-tRNA, and the E site is occupied by the empty"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1618",
+            "title": "Cell_Biology_Alberts",
+            "content": "When not actively synthesizing proteins, the two subunits of the ribosome are separate. They join together on an mRNA molecule, usually near its 5\u02b9 end, to initiate the synthesis of a protein. The mRNA is then pulled through the ribosome, three nucleotides at a time. As its codons enter the core of the ribosome, the mRNA nucleotide sequence is translated into an amino acid sequence using the tRNAs as adaptors to add each amino acid in the correct sequence to the growing end of the polypeptide chain. When a stop codon is encountered, the ribosome releases the finished protein, and its two subunits separate again. These subunits can then be used to start the synthesis of another protein on another mRNA molecule. Ribosomes operate with remarkable efficiency: in one second, a eukaryotic ribosome adds 2 amino acids to a polypeptide chain; the ribosomes of bacterial cells operate even faster, at a rate of about 20 amino acids per second."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1658",
+            "title": "Cell_Biology_Alberts",
+            "content": "Stop Codons Mark the End of Translation The end of the protein-coding message is signaled by the presence of one of three stop codons (UAA, UAG, or UGA) (see Figure 6\u201348). These are not recognized by a tRNA and do not specify an amino acid, but instead signal to the ribosome to stop translation. Proteins known as release factors bind to any ribosome with a stop codon positioned in the A site, forcing the peptidyl transferase in the ribosome to catalyze the addition of a water molecule instead of an amino acid to the peptidyl-tRNA (Figure 6\u201372). This reaction frees the carboxyl end of the growing polypeptide chain from its attachment to a tRNA molecule, and since only this etc."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1647",
+            "title": "Cell_Biology_Alberts",
+            "content": "Not only are the A, P, and E binding sites for tRNAs formed primarily by ribosomal RNAs, but the catalytic site for peptide bond formation is also formed by RNA, as the nearest amino acid is located more than 1.8 nm away. This discovery came as a surprise to biologists because, unlike proteins, RNA does not contain easily ionizable functional groups that can be used to catalyze sophisticated reactions like peptide bond formation. Moreover, metal ions, which are often used by RNA molecules to catalyze chemical reactions (as discussed later in the chapter), were not observed at the active site of the ribosome. Instead, it is believed that the 23S rRNA forms a highly structured pocket that, through a network of hydrogen bonds, precisely orients the two reactants (the growing peptide chain and an aminoacyl-tRNA) and thereby greatly accelerates their covalent joining. An additional surprise came from the discovery that the tRNA in the P site contributes an important OH group to the active"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1941",
+            "title": "Biochemistry_Lippinco",
+            "content": "Case 2: Skin Rash with Lyme Disease Answer = C. Peptide-bond formation between the amino acid in the A site of the ribosome and the amino acid last added to the growing peptide in the P site is catalyzed by an RNA of the large ribosomal subunit. Any RNA with catalytic activity is referred to as a ribozyme (see figure on the next page). Formylated methionine is used to initiate prokaryotic translation. The charged initiating transfer RNA (tRNAi) is the only tRNA that goes directly to the P site, leaving the A site available for the tRNA carrying the next amino acid of the protein being made. Eukaryotic translation is inhibited by the phosphorylation of initiation factor 2 (eIF-2). The Shine-Dalgarno sequence is found in prokaryotic messenger RNA (mRNA) and facilitates the interaction of the mRNA with the small ribosomal subunit. In eukaryotes, the cap-binding proteins perform that task."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1614",
+            "title": "Biochemistry_Lippinco",
+            "content": "2.2. A pharmaceutical company is studying a new antibiotic that inhibits bacterial protein synthesis. When this antibiotic is added to an in vitro protein synthesis system that is translating the messenger RNA sequence AUGUUUUUUUAG, the only product formed is the dipeptide fMet-Phe. What step in protein synthesis is most likely inhibited by the antibiotic? A. Initiation B. Binding of a charged transfer RNA to the ribosomal A site C. Peptidyltransferase activity D. Ribosomal translocation E. Termination Correct answer = D. Because fMet-Phe (formylated methionyl-phenylalanine) is made, the ribosomes must be able to complete initiation, bind Phe-tRNA to the A site, and use peptidyltransferase activity to form the first peptide bond. Because the ribosome is not able to proceed any further, ribosomal movement (translocation) is most likely the inhibited step. Therefore, the ribosome is stopped before it reaches the termination codon of this message."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1586",
+            "title": "Biochemistry_Lippinco",
+            "content": "One important difference is that translation and transcription are temporally linked in prokaryotes, with translation starting before transcription is completed as a consequence of the lack of a nuclear membrane in prokaryotes. A. Initiation Initiation of protein synthesis involves the assembly of the components of the translation system before peptide-bond formation occurs. These components include the two ribosomal subunits, the mRNA to be translated, the aminoacyl-tRNA specified by the first codon in the message, GTP, and initiation factors that facilitate the assembly of this initiation complex (see Fig. 32.13). [Note: In prokaryotes, three initiation factors are known (IF-1, IF-2, and IF-3), whereas in eukaryotes, there are many (designated eIF to indicate eukaryotic origin). Eukaryotes also require ATP for initiation.] The following are two mechanisms by which the ribosome recognizes the nucleotide sequence (AUG) that initiates translation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1635",
+            "title": "Cell_Biology_Alberts",
+            "content": "The first is induced fit. We have seen that, before an amino acid is added to a growing polypeptide chain, the ribosome folds around the codon\u2013anticodon interaction, and only when the match is correct is this folding completed and the reaction allowed to proceed. Thus, the codon\u2013anticodon interaction is thereby checked twice\u2014once by the initial complementary base-pairing and a second time by the folding of the ribosome, which depends on the correctness of the match. This same principle of induced fit is seen in transcription by RNA polymerase; here, an incoming nucleoside triphosphate initially forms a base pair with the template; at this point the enzyme folds around the base pair (thereby assessing its correctness) and, in doing so, creates the active site of the enzyme. The enzyme then covalently adds the nucleotide to the growing chain. Because their geometry is \u201cwrong,\u201d incorrect base pairs block this induced fit, and they are therefore likely to dissociate before being"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1736",
+            "title": "Cell_Biology_Alberts",
+            "content": "In modern cells, some short peptides (such as antibiotics) are synthesized without the ribosome; peptide synthetase enzymes assemble these peptides, with their proper sequence of amino acids, without mRNAs to guide their synthesis. It is plausible that this noncoded, primitive version of protein synthesis first developed in the RNA world, where it would have been catalyzed by RNA molecules. This idea presents no conceptual difficulties because, as we have seen, rRNA catalyzes peptide bond formation in present-day cells. However, it leaves unexplained how the genetic code\u2014which lies at the core of protein synthesis in today\u2019s cells\u2014 might have arisen. We know that ribozymes created in the laboratory can perform specific aminoacylation reactions; that is, they can match specific amino acids to specific tRNAs. It is therefore possible that tRNA-like adaptors, each matched to a specific amino acid, could have arisen in the RNA world, marking the beginnings of a genetic code."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1664",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201372 The final phase of protein synthesis. The binding of a release factor to an A site bearing a stop codon terminates translation. The completed polypeptide is released and, in a series of reactions that requires additional proteins and GTP hydrolysis (not shown), the ribosome dissociates into its two separate subunits. messenger RNA Figure 6\u201373 A polyribosome. (A) Schematic drawing showing how a series of ribosomes can simultaneously translate the same eukaryotic mRNA molecule. (B) Electron micrograph of a polyribosome from a eukaryotic cell (Movie 6.10). (B, courtesy of John Heuser.) cytosol of the cell it is translated as isoleucine (see Table 14\u20133, p. 805). This type of deviation in the genetic code is \u201chardwired\u201d into the organisms or the organelles in which it occurs."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1619",
+            "title": "Biochemistry_Lippinco",
+            "content": "2.7. Which of the following is required for both prokaryotic and eukaryotic protein synthesis? A. Binding of the small ribosomal subunit to the Shine-Dalgarno sequence B. Formylated methionyl-transfer (t)RNA C. Movement of the messenger RNA out of the nucleus and into the cytoplasm D. Recognition of the 5\u2032-cap by initiation factors E. Translocation of the peptidyl-tRNA from the A site to the P site Correct answer = E. In both prokaryotes and eukaryotes, continued translation (elongation) requires movement of the peptidyl-tRNA from the A to the P site to allow the next aminoacyl-tRNA to enter the A site. Only prokaryotes have a Shine-Dalgarno sequence and use formylated methionine and only eukaryotes have a nucleus and co-and posttranscriptionally process their mRNA."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1605",
+            "title": "Biochemistry_Lippinco",
+            "content": "Codons are composed of three nucleotide bases presented in the messenger RNA (mRNA) language of adenine (A), guanine (G), cytosine (C), and uracil (U). They are always written 5\u2032\u21923\u2032. Of the 64 possible three-base combinations, 61 code for the 20 standard amino acids and 3 signal termination of protein synthesis (translation). Altering the nucleotide sequence in a codon can cause silent mutations (the altered codon codes for the original amino acid), missense mutations (the altered codon codes for a different amino acid), or nonsense mutations (the altered codon is a termination codon). Characteristics of the genetic code include specificity, universality, and degeneracy, and it is nonoverlapping and commaless (Fig. 32.17). Requirements for protein synthesis include all the amino acids that eventually appear in the finished protein; at least one specific type of transfer RNA (tRNA) for each amino acid; one aminoacyl-tRNA synthetase for each amino acid; the mRNA coding for the protein"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1608",
+            "title": "Biochemistry_Lippinco",
+            "content": "and mRNA associates with the small ribosomal subunit. The process requires initiation factors (IF). In prokaryotes, a purine-rich region of the mRNA (the Shine-Dalgarno sequence) base-pairs with a complementary sequence on 16S rRNA, resulting in the positioning of the small subunit on the mRNA so that translation can begin. The 5\u2032-cap (bound by proteins of the eIF-4 family) on eukaryotic mRNA is used to position the small subunit on the mRNA. The initiation codon is AUG, and N-formylmethionine is the initiating amino acid in prokaryotes, whereas methionine is used in eukaryotes. The charged initiating tRNA (tRNAi) is brought to the P site by (e)IF-2. In elongation, the polypeptide chain is lengthened by the addition of amino acids to the carboxyl end of its growing chain. The process requires elongation factors that facilitate the binding of the aminoacyl-tRNA to the A site as well as the movement of the ribosome along the mRNA. The formation of the peptide bond is catalyzed by"
+        }
+    ],
+    "scores": [
+        0.03521451315568963,
+        0.03472195597950396,
+        0.03439725421086384,
+        0.034385812833858595,
+        0.03375915302598047,
+        0.031638840093613764,
+        0.030237529236083853,
+        0.02994813844887299,
+        0.029544160462392968,
+        0.02935583523279503,
+        0.029129211918685602,
+        0.027106720419494322,
+        0.026261137536008575,
+        0.026064750870235603,
+        0.025957468919452234,
+        0.025459959485101803,
+        0.025199653004821316,
+        0.024726980900761388,
+        0.023999578611524974,
+        0.023685328185328185,
+        0.023499635697961534,
+        0.023368957192486606,
+        0.02298166754803455,
+        0.02285982569672531,
+        0.022855456678986093,
+        0.022794808712958865,
+        0.022754079448638644,
+        0.022309127232282105,
+        0.022101143754031324,
+        0.02202952639454362,
+        0.02199067164464691,
+        0.02170558645310503
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5fe0c141a43ad31278000035",
+    "question": "Is the zelda transcription factor a chromatin remodeller?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: \"step_by_step_thinking\": \"To determine if the Zelda transcription factor is a chromatin remodeler, we need to understand the role of chromatin remodelers and the Zelda transcription factor. Chromatin remodelers are enzymes that can alter the structure of chromatin, making it more accessible to transcription factors and other regulatory proteins. They can reposition, remove, or replace nucleosomes, thereby changing the accessibility of DNA. The Zelda transcription factor, on the other hand, is a transcription factor that regulates gene expression by binding to specific DNA sequences and interacting with other proteins. While it plays a role in transcriptional regulation, its primary function is not to alter chromatin structure directly. Therefore, we need to look for evidence that Zelda is involved in chromatin remodeling to conclude that it is a chromatin remodeler.\" \"answer_choice\": \"B\"",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1806",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cooperation among transcription regulators can become much greater when nucleosome remodeling complexes are involved. If one transcription regulator binds its cis-regulatory sequence and attracts a chromatin remodeling complex, the localized action of the remodeling complex can allow a second transcription regulator to efficiently bind nearby. Moreover, we have discussed how transcription regulators can work together in pairs; in reality, larger numbers often cooperate by repeated use of the same principles. A highly cooperative binding of transcription regulators to DNA probably explains why many sites in eukaryotic genomes that are bound by transcription regulators are \u201cnucleosome free.\u201d"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1853",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201323 Six ways in which eukaryotic repressor proteins can operate. (A) Activator proteins and repressor proteins compete for binding to the same regulatory DnA sequence. (B) Both proteins bind DnA, but the repressor prevents the activator from carrying out its functions. (C) the repressor blocks assembly of the general transcription factors. (D) the repressor recruits a chromatin remodeling complex, which returns the nucleosomal state of the promoter region to its pre-transcriptional form. (e) the repressor attracts a histone deacetylase to the promoter. As we have seen, histone acetylation can stimulate transcription initiation (see figure 7\u201320), and the repressor simply reverses this modification. (f) the repressor attracts a histone methyl transferase, which modifies certain positions on histones by attaching methyl groups; the methylated histones, in turn, are bound by proteins that maintain the chromatin in a transcriptionally silent form."
+        },
+        {
+            "id": "Cell_Biology_Alberts_855",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells contain dozens of different ATP-dependent chromatin remodeling complexes that are specialized for different roles. Most are large protein complexes that can contain 10 or more subunits, some of which bind to specific modifications on histones (see Figure 4\u201326C). The activity of these complexes is carefully controlled by the cell. As genes are turned on and off, chromatin remodeling complexes are brought to specific regions of DNA where they act locally to influence chromatin structure (discussed in Chapter 7; see also Figure 4\u201340, below)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_867",
+            "title": "Cell_Biology_Alberts",
+            "content": "of such complexes, which are targeted to specific regions of chromatin at appropriate times. The remodeling complexes collaborate with histone chaperones to allow nucleosome cores to be repositioned, reconstituted with different histones, or completely removed to expose the underlying DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_866",
+            "title": "Cell_Biology_Alberts",
+            "content": "The DNA in eukaryotes is tightly bound to an equal mass of histones, which form repeated arrays of DNA\u2013protein particles called nucleosomes. The nucleosome is composed of an octameric core of histone proteins around which the DNA double helix is wrapped. Nucleosomes are spaced at intervals of about 200 nucleotide pairs, and they are usually packed together (with the aid of histone H1 molecules) into quasi-regular arrays to form a 30-nm chromatin fiber. Even though compact, the structure of chromatin must be highly dynamic to allow access to the DNA. There is some spontaneous DNA unwrapping and rewrapping in the nucleosome itself; however, the general strategy for reversibly changing local chromatin structure features ATP-driven chromatin remodeling complexes. Cells contain a large set of such complexes, which are targeted to specific regions of chromatin at appropriate times. The remodeling complexes collaborate with histone chaperones to allow nucleosome cores to be repositioned,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1470",
+            "title": "Cell_Biology_Alberts",
+            "content": "transcription can begin. As discussed in Chapter 4, the \u201cdefault\u201d state of chromatin is a condensed fiber (see Figure 4\u201328), and this is likely to be the form of DNA upon which most transcription is initiated. For simplicity, the chromatin is not shown in this figure."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1839",
+            "title": "Cell_Biology_Alberts",
+            "content": "eukaryotic transcription Activators Direct the Modification of local Chromatin Structure The eukaryotic general transcription factors and RNA polymerase are unable, on their own, to assemble on a promoter that is packaged in nucleosomes. Thus, in addition to directing the assembly of the transcription machinery at the promoter, eukaryotic transcription activators promote transcription by triggering changes to the chromatin structure of the promoters, making the underlying DNA more accessible. The most important ways of locally altering chromatin are through covalent histone modifications, nucleosome remodeling, nucleosome removal, and his-tone replacement (discussed in Chapter 4). Eukaryotic transcription activators use all four of these mechanisms: thus they attract coactivators that include his-tone modification enzymes, ATP-dependent chromatin remodeling complexes, and histone chaperones, each of which can alter the chromatin structure of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1845",
+            "title": "Cell_Biology_Alberts",
+            "content": "the histone acetyl transferase, the histone kinase, and the chromatin remodeling complex are all coactivators. the order of events shown applies to a specific promoter; at other genes, the steps may occur in a different order or individual steps may be omitted altogether. (Adapted from t. Agalioti, G. Chen and D. thanos, Cell 111:381\u2013392, 2002. with permission from elsevier.) behind a moving polymerase, which, in essence, must clear a path through chromatin as it transcribes. Later in this chapter, when we discuss RNA interference, the potential dangers to the cell of such inappropriate transcription will become especially obvious. The modification of nucleosomes behind a moving RNA polymerase also plays an important role in RNA splicing (see p. 323)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1463",
+            "title": "Cell_Biology_Alberts",
+            "content": "regulate expression of their genes. Here we simply note that their presence on DNA is required for transcription initiation in a eukaryotic cell. Second, eukaryotic transcription initiation in vivo requires the presence of a large protein complex known as Mediator, which allows the activator proteins to communicate properly with the polymerase II and with the general transcription factors. Finally, transcription initiation in a eukaryotic cell typically requires the recruitment of chromatin-modifying enzymes, including chromatin remodeling complexes and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1803",
+            "title": "Cell_Biology_Alberts",
+            "content": "We saw in Chapter 4 that nucleosome remodeling can alter the structure of the nucleosome, allowing transcription regulators access to the DNA. Even without remodeling, however, transcription regulators can still gain limited access to DNA in a nucleosome. The DNA at the end of a nucleosome \u201cbreathes,\u201d transiently exposing the DNA and allowing regulators to bind. This breathing happens at a much lower rate in the middle of the nucleosome; therefore, the positions where the DNA exits the nucleosome are much easier to occupy (Figure 7\u201311)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1844",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201320 Successive histone modifications during transcription initiation. in this example, taken from the human interferon gene promoter, a transcription activator binds to DnA packaged into chromatin and attracts a histone acetyl transferase that acetylates lysine 9 of histone h3 and lysine 8 of histone h4. then a histone kinase, also attracted by the transcription activator, phosphorylates serine 10 of histone h3 but it can only do so after lysine 9 has been acetylated. this serine modification signals the histone acetyl transferase to acetylate position K14 of histone h3. next, the general transcription factor tfiiD and a chromatin remodeling complex bind to the chromatin to promote the subsequent steps of transcription initiation. tfiiD and the remodeling complex both recognize acetylated histone tails through a bromodomain, a protein domain specialized to read this particular mark on histones; a bromodomain is carried in a subunit of each protein complex."
+        },
+        {
+            "id": "Cell_Biology_Alberts_907",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201340 How the recruitment of a reader\u2013writer complex can spread chromatin changes along a chromosome. The writer is an enzyme that creates a specific modification on one or more of the four nucleosomal histones. After its recruitment to a specific site on a chromosome by a transcription regulatory protein, the writer collaborates with a reader protein to spread its mark from nucleosome to nucleosome by means of the indicated reader\u2013writer complex. For this mechanism to work, the reader must recognize the same histone modification mark that the writer produces; its binding to that mark can be shown to activate the writer. In this schematic example, a spreading wave of chromatin condensation is thereby induced. Not shown are the additional proteins involved, including an ATP-dependent chromatin remodeling complex required to reposition the modified nucleosomes. barrier DNA Sequences block the Spread of Reader\u2013writer Complexes and thereby Separate Neighboring Chromatin Domains"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1659",
+            "title": "Biochemistry_Lippinco",
+            "content": "Access to DNA: In eukaryotes, DNA is found complexed with histone and nonhistone proteins to form chromatin (see p. 425). Transcriptionally active, decondensed chromatin (euchromatin) differs from the more condensed, inactive form (heterochromatin) in a number of ways. Active chromatin contains histone proteins that have been covalently modified at their amino terminal ends by reversible methylation, acetylation, or phosphorylation (see p. 438 for a discussion of histone acetylation/deacetylation by histone acetyltransferase and histone deacetylase). Such modifications decrease the positive charge of these basic proteins, thereby decreasing the strength of their association with negatively charged DNA. This relaxes the nucleosome (see p. 425), allowing transcription factors access to specific regions on the DNA. Nucleosomes can also be repositioned, an ATP-requiring process that is part of chromatin remodeling. Another difference between transcriptionally active and inactive chromatin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1842",
+            "title": "Cell_Biology_Alberts",
+            "content": "The alterations of chromatin structure that occur during transcription initiation can persist for different lengths of time. In some cases, as soon as the transcription regulator dissociates from DNA, the chromatin modifications are rapidly reversed, restoring the gene to its pre-activated state. This rapid reversal is especially important for genes that the cell must quickly switch on and off in response to external signals. In other cases, the altered chromatin structure persists, even after the transcription regulator that directed its establishment has dissociated from DNA. In principle, this memory can extend into the next cell generation because, as discussed in Chapter 4, chromatin structure can be self-renewing (see Figure 4\u201344). The fact that different histone modifications persist for different times provides the cell with a mechanism that makes possible both longerand shorter-term memory of gene expression patterns."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1465",
+            "title": "Cell_Biology_Alberts",
+            "content": "GENERAL TRANSCRIPTION FACTORS, RNA POLYMERASE, MEDIATOR, CHROMATIN REMODELING COMPLEXES, AND HISTONE-MODIFYING ENZYMES RNA polymerase bound to histone-modifying enzymes. As discussed in Chapter 4, both types of enzymes can increase access to the DNA in chromatin, and by doing so they facilitate the assembly of the transcription initiation machinery onto DNA. As illustrated in Figure 6\u201318, many proteins (well over 100 individual subunits) must assemble at the start point of transcription to initiate transcription in a eukaryotic cell. The order of assembly of these proteins does not seem to follow a prescribed pathway; rather, the order differs from gene to gene. Indeed, some of these different protein complexes may be brought to DNA as preformed subassemblies."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1096",
+            "title": "Cell_Biology_Alberts",
+            "content": "mellone b, Erhardt S & karpen gH (2006) The AbCs of centromeres. Nat. Cell Biol. 8, 427\u2013429. morris SA, baek S, Sung m-H et al. (2014) Overlapping chromatin-remodeling systems collaborate genome wide at dynamic chromatin transitions. Nat. Struct. Mol. Biol. 21, 73\u201381. Politz JCR, Scalzo D & groudine m (2013) Something silent this way forms: the functional organization of the repressive nuclear compartment. Annu. Rev. Cell Dev. Biol. 29, 241\u2013270. Rothbart Sb & Strahl bD (2014) Interpreting the language of histone and DNA modifications. Biochim. Biophys. Acta 1839, 627\u2013643. weber Cm & Henikoff S (2014) Histone variants: dynamic punctuation in transcription. Genes Dev. 28, 672\u2013682. Xu m, long C, Chen X et al. (2010) Partitioning of histone H3-H4 tetramers during DNA replication-dependent chromatin assembly. Science 328, 94\u201398."
+        },
+        {
+            "id": "Cell_Biology_Alberts_890",
+            "title": "Cell_Biology_Alberts",
+            "content": "to the establishment and spread of heterochromatin. More generally, the recruited proteins act with the modified histones to determine how and when genes will be expressed, as well as other chromosome functions. In this way, the precise structure of each domain of chromatin governs the readout of the genetic information that it contains, and thereby the structure and function of the eukaryotic cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_859",
+            "title": "Cell_Biology_Alberts",
+            "content": "(b) The structure of a nucleosome-bound dimer of the two identical ATPase subunits (green) that slide nucleosomes back and forth in the ISw1 family of chromatin remodeling complexes. (C) The structure of a large chromatin remodeling complex, showing how it is thought to wrap around a nucleosome. modeled in green is the yeast RSC complex, which contains 15 subunits\u2014 including an ATPase and at least four subunits with domains that recognize specific covalently modified histones. (b, from l.R. Racki et al., Nature 462:1016\u20131021, 2009. with permission from macmillan Publishers ltd; C, adapted from A.E. leschziner et al., Proc. Natl Acad. Sci. USA 104:4913\u20134918, 2007.) 192 Chapter 4: DNA, Chromosomes, and genomes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1843",
+            "title": "Cell_Biology_Alberts",
+            "content": "A special type of chromatin modification occurs as RNA polymerase II transcribes through a gene. The histones just ahead of the polymerase can be acetylated by enzymes carried by the polymerase, removed by histone chaperones, and deposited behind the moving polymerase. These histones are then rapidly deacetylated and methylated, also by complexes that are carried by the polymerase, leaving behind nucleosomes that are especially resistant to transcription. This remarkable process seems to prevent spurious transcription reinitiation Figure 7\u201319 Eukaryotic transcription activator proteins direct local alterations in chromatin structure. nucleosome remodeling, nucleosome removal, histone replacement, and certain types of histone modifications favor transcription initiation (see figure 4\u201339). these alterations increase the accessibility of DnA and facilitate the binding of rnA polymerase and the general transcription factors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_930",
+            "title": "Cell_Biology_Alberts",
+            "content": "but are active in others. The latter mechanism governs the expression of a large number of genes that encode transcription regulators important in early embryonic development, as discussed in Chapter 21. There are many other variant forms of chromatin, some with much shorter lifetimes, often less than the division time of the cell. We shall say more about the variety of chromatin types in the next section."
+        },
+        {
+            "id": "InternalMed_Harrison_6142",
+            "title": "InternalMed_Harrison",
+            "content": "Chromatin structure regulates the hierarchical order of sequential gene transcription that governs differentiation and tissue homeostasis. Disruption of chromatin remodeling (the process of modifying chromatin structure to control exposure of specific genes to transcriptional proteins, thereby controlling the expression of those genes) leads to aberrant gene expression and can induce proliferation of undifferentiated cells. Epigenetics is defined as changes that alter the pattern of gene expression that persist across at least one cell division but are not caused by changes in the DNA code. Epigenetic changes include alterations of chromatin structure mediated by methylation of cytosine residues in CpG dinucleotides, modification of histones by acetylation or methylation, or changes in higher-order chromosome structure (Fig. 102e-4). The transcriptional regulatory regions of active genes 102e-7 often contain a high frequency of CpG dinucleotides (referred to as CpG islands), which are"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6315",
+            "title": "Cell_Biology_Alberts",
+            "content": "From our discussion of nuclear transplantation, one might expect that any reprogramming of a differentiated cell would require a radical and widespread change in the chromatin structure of selected genes. Not only are such changes observed, but a large number of different experiments reveal that the efficiency of the reprogramming process can be substantially increased by altering the activity of proteins that affect chromatin structure. Figure 22\u201344 categorizes some of the factors that have been shown to enhance the transformation of fibroblasts to iPS cells; those in the top three rows\u2014chromatin remodelers, histone modifying enzymes, and histone variants\u2014are especially well known to have profound effects on the organization of nucleosomes in chromatin (discussed in Chapter 4)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1466",
+            "title": "Cell_Biology_Alberts",
+            "content": "To begin transcribing, RNA polymerase II must be released from this large complex of proteins. In addition to the steps described in Figure 6\u201314, this release often requires the in situ proteolysis of the activator protein. We shall return to some of these issues, including the role of chromatin remodeling complexes and histone-modifying enzymes, in Chapter 7, where we discuss how eukaryotic cells regulate the process of transcription initiation."
+        },
+        {
+            "id": "Pathology_Robbins_15",
+            "title": "Pathology_Robbins",
+            "content": "DNA methylation. High levels of DNA methylation in gene regulatory elements typically result in chromatin condensation and transcriptional silencing. Like histone modifications (see later), DNA methylation is tightly regulated by methyltransferases, demethylating enzymes, and methylated-DNA-binding proteins. Histone modifying factors. Nucleosomes are highly dynamic structures regulated by an array of nuclear proteins and post-translational modifications: Chromatin remodeling complexes can reposition nucleosomes on DNA, exposing (or obscuring) gene regulatory elements such as promoters."
+        },
+        {
+            "id": "Cell_Biology_Alberts_851",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleosomes Have a Dynamic Structure, and Are Frequently Subjected to Changes Catalyzed by ATP-Dependent Chromatin Remodeling Complexes For many years biologists thought that, once formed in a particular position on DNA, a nucleosome would remain fixed in place because of the very tight association between its core histones and DNA. If true, this would pose problems for genetic readout mechanisms, which in principle require easy access to many specific DNA sequences. It would also hinder the rapid passage of the DNA transcription and replication machinery through chromatin. But kinetic experiments show that the DNA in an isolated nucleosome unwraps from each end at a rate of about four times per second, remaining exposed for 10 to 50 milliseconds before the partially unwrapped structure recloses. Thus, most of the DNA in an isolated nucleosome is in principle available for binding other proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1464",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201317 Three-dimensional structure of TbP (TATA-binding protein) bound to DNA. The TBP is the subunit of the general transcription factor TFIID that is responsible for recognizing and binding to the TATA box sequence in the DNA (red). The unique DNA bending caused by TBP\u2014kinks in the double helix separated by partly unwound DNA\u2014is thought to serve as a landmark that helps to attract the other general transcription factors (Movie 6.4). TBP is a single polypeptide chain that is folded into two very similar domains (blue and green). (Adapted from J.L. Kim et al., Nature 365:520\u2013527, 1993. With permission from Macmillan Publishers Ltd.) start of (binding site for GENERAL TRANSCRIPTION FACTORS, RNA POLYMERASE, MEDIATOR, CHROMATIN REMODELING COMPLEXES, AND HISTONE-MODIFYING ENZYMES"
+        },
+        {
+            "id": "Cell_Biology_Alberts_885",
+            "title": "Cell_Biology_Alberts",
+            "content": "All of the above types of modifications are reversible, with one enzyme serving to create a particular type of modification, and another to remove it. These enzymes are highly specific. Thus, for example, acetyl groups are added to specific lysines by a set of different histone acetyl transferases (HATs) and removed by a set of histone deacetylase complexes (HDACs). Likewise, methyl groups are added to lysine side chains by a set of different histone methyl transferases and removed by a set of histone demethylases. Each enzyme is recruited to specific sites on the chromatin at defined times in each cell\u2019s life history. For the most part, the initial recruitment depends on transcription regulator proteins (sometimes called \u201ctranscription factors\u201d). As we shall explain in Chapter 7, these proteins recognize and bind to specific DNA sequences in the chromosomes. They are produced at KEY:"
+        },
+        {
+            "id": "Cell_Biology_Alberts_900",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201337 Recognition of a specific combination of marks on a nucleosome. In the example shown, two adjacent domains that are part of the NURF (Nucleosome Remodeling Factor) chromatin remodeling complex bind to the nucleosome, with the PHD domain (red) recognizing a methylated H3 lysine 4 and another domain (a bromodomain, blue) recognizing an acetylated H4 lysine 16. These two histone marks constitute a unique histone modification pattern that occurs in subsets of nucleosomes in human cells. Here the two histone tails are indicated by green dotted lines, and only half of one nucleosome is shown. (Adapted from A.J. Ruthenburg et al., Cell 145:692\u2013706, 2011. with permission from Elsevier.) protein modules scaffold binding to specifc protein histone modifcations on nucleosome attachment to other components in nucleus, leading to gene expression, gene silencing, or other biological function see Figure 7\u201320). But after a modifying enzyme \u201cwrites\u201d its mark on one or a few neighboring"
+        },
+        {
+            "id": "Cell_Biology_Alberts_873",
+            "title": "Cell_Biology_Alberts",
+            "content": "The DNA in heterochromatin typically contains few genes, and when euchromatic regions are converted to a heterochromatic state, their genes are generally switched off as a result. However, we know now that the term heterochromatin encompasses several distinct modes of chromatin compaction that have different implications for gene expression. Thus, heterochromatin should not be thought of as simply encapsulating \u201cdead\u201d DNA, but rather as a descriptor for compact chromatin domains that share the common feature of being unusually resistant to gene expression. The Heterochromatic State Is Self-Propagating"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1841",
+            "title": "Cell_Biology_Alberts",
+            "content": "promoters (Figure 7\u201319). These local alterations in chromatin structure provide greater access to DNA, thereby facilitating the assembly of the general transcription factors at the promoter. In addition, some histone modifications specifically attract these proteins to the promoter. These mechanisms often work together during transcription initiation (Figure 7\u201320). Finally, as discussed earlier in this chapter, the local chromatin changes directed by one transcriptional regulator can allow the binding of additional regulators. By repeated use of this principle, large assemblies of proteins can form on control regions of genes to regulate their transcription."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2457",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201366 Chromatin immunoprecipitation. This method allows the identification of all the sites in a genome that a transcription regulator occupies in vivo. The identities of the precipitated, amplified DNA fragments are determined by DNA sequencing. Genome-wide Chromatin Immunoprecipitation Identifies Sites on the Genome Occupied by Transcription Regulators"
+        },
+        {
+            "id": "Cell_Biology_Alberts_899",
+            "title": "Cell_Biology_Alberts",
+            "content": "The enzymes that add or remove modifications to histones in nucleosomes are part of multisubunit complexes. They can initially be brought to a particular region of chromatin by one of the sequence-specific DNA-binding proteins (transcription regulators) discussed in Chapters 6 and 7 (for a specific example,"
+        }
+    ],
+    "scores": [
+        0.03715358761221038,
+        0.03340902712832247,
+        0.03264835576367995,
+        0.02859385330596669,
+        0.027335732488404242,
+        0.02728592830467099,
+        0.02720868240670221,
+        0.026827466383387434,
+        0.026680672268907565,
+        0.026606784579233184,
+        0.026031763070191578,
+        0.02578827233372688,
+        0.025489249753955636,
+        0.025232435928531003,
+        0.024763135228251507,
+        0.024656379809051564,
+        0.024400605527532954,
+        0.023991734527847704,
+        0.02346284168616404,
+        0.023393888646182224,
+        0.02331963061369607,
+        0.023289913641162053,
+        0.02326468344774981,
+        0.023246308186540054,
+        0.022527765492669577,
+        0.022360572960273113,
+        0.02230432402846196,
+        0.021518065268065267,
+        0.021491261429137987,
+        0.02148473373214057,
+        0.021465065672665304,
+        0.021308699548724296
+    ]
+}

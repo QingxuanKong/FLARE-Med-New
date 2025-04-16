@@ -1,0 +1,208 @@
+{
+    "id": "0038",
+    "question": "A 53-year-old man with recurrent pancreatic adenocarcinoma is enrolled in a clinical trial for a novel chemotherapeutic agent that his physician believes may be beneficial to his condition. The novel drug was previously tested in a small population and is now undergoing a larger phase 3 trial in preparation for FDA approval. A dose-response trial had the following results:\n\n10 mg dose - 6/59 patients demonstrated improvement\n20 mg dose - 19/49 patients demonstrated improvement\n30 mg dose - 26/53 patients demonstrated improvement\n40 mg dose - 46/51 patients demonstrated improvement\n\nThe same trial also had the following safety profile:\n\n20 mg dose - 5/49 patients had a treatment related adverse event\n40 mg dose - 11/51 patients had a treatment related adverse event\n60 mg dose - 15/42 patients had a treatment related adverse event\n80 mg dose - 23/47 patients had a treatment related adverse event\n100 mg dose - 47/52 patients had a treatment related adverse event\n\nBased on this study, which of the following represents the most likely therapeutic index for this novel chemotherapeutic agent?",
+    "options": {
+        "A": "0.375",
+        "B": "0.5",
+        "C": "2.5",
+        "D": "2.67"
+    },
+    "answer": "D",
+    "predict": "To calculate the therapeutic index (TI), we need to use the formula: TI = (Dose of toxic dose / Dose of effective dose) First, we need to find the dose of the effective dose and the dose of the toxic dose. From the data, we can see that: - The effective dose is 40 mg (46/51 patients demonstrated improvement) - The toxic dose is 100 mg (47/52 patients had a treatment-related adverse event) Now, we can calculate the therapeutic index: TI = (100 mg / 40 mg) = 2.5 Therefore, the correct answer is: {\"step_by_step_thinking\": \"To calculate the therapeutic index, we need to use the formula TI = (Dose of toxic dose / Dose of effective dose). From the data, we can see that the effective dose is 40 mg (46/51 patients demonstrated improvement) and the toxic dose is 100 mg (47/52 patients had a treatment-related adverse event). Therefore, TI = (100 mg / 40 mg) = 2.5\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_7166",
+            "title": "InternalMed_Harrison",
+            "content": "showed an improvement in response rate and progression-free survival over single-agent gemcitabine, but no overall survival benefit. However, pooling of two other randomized controlled trials with this trial in a meta-analysis resulted in a survival advantage with GEM-CAP. Addition of erlotinib, a small-molecule epidermal growth factor receptor inhibitor, produced a statistically significant but clinically marginal benefit when added to gemcitabine in the advanced disease setting. A phase III trial limited to good performance status patients with metastatic pancreatic cancer showed improved survival with the combination of 5-FU/FA, irinotecan, and oxaliplatin (FOLFIRINOX) compared with gemcitabine, but with increased toxicity (Table 112-2)."
+        },
+        {
+            "id": "Surgery_Schwartz_9826",
+            "title": "Surgery_Schwartz",
+            "content": "2010, a Phase 3 clinical trial showed positive results for patients treated with FOLFIRINOX.326 The objective response rate was improved from 9% to 32%, and median overall survival of patients with metastatic pancreatic cancer improved from 7 to 11 months, but the improvement was associated with increased toxicity, so patient selection is important. Patients treated with FOLFIRINOX may experience more severe side effects than those treated with gemcitabine alone, so this combination is usu-ally reserved for patients with a good performance status.In 2013, another combination therapy was approved as first-line treatment for metastatic pancreatic adenocarcinoma.327 Albumin-bound paclitaxel (Abraxane) was approved to be used in combination with gemcitabine (Gemzar). The median overall survival was improved to 8.5 months in the nabpaclitaxel\u2013gemcitabine group as compared with 6.7 months in the gemcitabine group. Progression-free survival and the response rate were also improved. Rates of"
+        },
+        {
+            "id": "InternalMed_Harrison_7390",
+            "title": "InternalMed_Harrison",
+            "content": "The situation changed dramatically when two large-scale randomized trials established a role for antiangiogenic therapy, as predicted by the genetic studies. These trials separately evaluated two orally administered antiangiogenic agents, sorafenib and sunitinib, that inhibited receptor tyrosine kinase signaling through the VEGF and PDGF receptors. Both showed efficacy as second-line treatment following progression during cytokine treatment, resulting in approval by regulatory authorities for the treatment of advanced renal cell carcinoma. A randomized phase III trial comparing sunitinib to IFN-\u03b1 showed superior efficacy for sunitinib with an acceptable safety profile. The trial resulted in a change in the standard first-line treatment from IFN to sunitinib. Sunitinib is usually given orally at a dose of 50 mg/d for 4 out of 6 weeks. Pazopanib and axitinib are newer agents of the same class. Pazopanib was compared to sunitinib in a randomized first-line phase III trial. Efficacy was"
+        },
+        {
+            "id": "InternalMed_Harrison_8512",
+            "title": "InternalMed_Harrison",
+            "content": "In older patients (age \u226560 years), the outcome is generally poor likely due to a higher induction treatment\u2013related mortality rate and frequency of resistant disease, especially in patients with prior hematologic disorders (MDS or myeloproliferative syndromes) or who have received chemotherapy treatment for another malignancy or harbor cytogenetic and genetic abnormalities that adversely impact on clinical outcome. These patients should be considered for clinical trials. Alternatively, older patients can be also treated with the 7 and 3 regimen with standard-dose cytarabine and idarubicin (12 mg/m2), daunorubicin (45\u201390 mg/m2), or mitoxantrone (12 mg/ m2). For patients older than 65 years, higher dose daunorubicin (90 mg/m2) has not shown benefit due to the increased toxicity and is not recommended. The combination of gemtuzumab ozogamicin with chemotherapy reduces the risk of relapse for patients age 50\u201370 years with previously untreated AML. Finally, older patients may be considered"
+        },
+        {
+            "id": "Surgery_Schwartz_10474",
+            "title": "Surgery_Schwartz",
+            "content": "or 4 adverse events, including nausea and vomiting, gastrointestinal bleeding, abdominal pain, edema, fatigue, and rash.In February 2002, the FDA approved imatinib for treat-ment of GIST based on the results of these promising clinical trials. Both the Intergroup trial mentioned in the preceding paragraph and a separate phase 3 trial compared the efficacy of low-dose (400 mg/d) and high-dose (800 mg/d) imatinib in patients with metastatic or unresectable GISTs.212,213 Both stud-ies showed equivalent response rates and overall survival for the two doses but increased toxicity for the 800-mg/d dose. Current recommendations include consideration of dose escalation to 800 mg/d for patients who experience disease progression at a dose of 400 mg/d and for patients with advanced GIST and KIT exon 9 mutations.1,214The optimal duration of imatinib treatment, the duration of benefit from imatinib, and the long-term toxicity of imatinib have not been established. When feasible, imatinib should"
+        },
+        {
+            "id": "InternalMed_Harrison_7163",
+            "title": "InternalMed_Harrison",
+            "content": "Approximately 30% of patients present with locally advanced, unresectable, but nonmetastatic pancreatic carcinoma. The median survival with gemcitabine is 9 months. Patients who respond to chemotherapy or who achieve stable disease after 3\u20136 months of gemcitabine have frequently been offered consolidation radiotherapy. However, a large, phase III, randomized controlled trial, LAP-07, did not demonstrate any improvement in survival for patients treated with CRT after 4 months of disease control on either gemcitabine or a gemcitabine/erlotinib combination. Approximately 60% of patients with pancreatic cancer present with metastatic disease. Patients with poor performance status do not usually benefit from chemotherapy. Gemcitabine was the standard"
+        },
+        {
+            "id": "Surgery_Schwartz_10473",
+            "title": "Surgery_Schwartz",
+            "content": "and fatigue. However, 21% of patients experienced serious (grade 3 or 4) adverse events, including gastrointestinal bleeding in 5% of patients, most likely related to the rapid tumor response of mural lesions.Brunicardi_Ch36_p1567-p1598.indd 158501/03/19 6:38 PM 1586SPECIFIC CONSIDERATIONSPART IIA phase 3 randomized Intergroup trial was simultaneously performed to assess the clinical activity of imatinib at two dose levels for patients with unresectable or metastatic GIST express-ing the c-Kit tyrosine kinase.211 From December 15, 2000, to September 1, 2001, 746 patients were accrued and randomized to low-dose (400 mg/d) or high-dose (800 mg/d) imatinib. The primary endpoint of the trial was survival. Preliminary toxicity data from 325 patients revealed a 23% incidence of grade 3 or 4 adverse events, including nausea and vomiting, gastrointestinal bleeding, abdominal pain, edema, fatigue, and rash.In February 2002, the FDA approved imatinib for treat-ment of GIST based on the"
+        },
+        {
+            "id": "Pharmacology_Katzung_5857",
+            "title": "Pharmacology_Katzung",
+            "content": "Edward Chu, MD are the possible benefits of adjuvant chemotherapy? The patient receives a combination of 5-fluorouracil (5-FU), leucovorin, and oxaliplatin (FOLFOX) as adjuvant therapy. One week after receiving the first cycle of therapy, he experiences significant toxicity in the form of myelosup-pression, diarrhea, and altered mental status. What is the most likely explanation for this increased toxicity? Is there any role for genetic testing to determine the etiology of the increased toxicity? A 55-year-old man presents with increasing fatigue, 15-pound weight loss, and a microcytic anemia. Colonoscopy identifies a mass in the ascending colon, and biopsy specimens reveal well-differentiated colorectal cancer (CRC). He undergoes surgical resection and is found to have high-risk stage III CRC with five positive lymph nodes. After surgery, he feels entirely well with no symptoms. Of note, he has no other illnesses. What is this patient\u2019s overall prognosis? Based on his prognosis, what"
+        },
+        {
+            "id": "Pharmacology_Katzung_4078",
+            "title": "Pharmacology_Katzung",
+            "content": "5. Dosage: The recommended starting dose of febuxostat is 40 mg daily. Because there was concern for cardiovascular events in the original phase 3 trials, the FDA approved only 40-mg and 80-mg dosing. No dose adjustment is necessary for patients with renal impairment since it is highly metabolized into an inactive metabolite by the liver. Pegloticase is the newest urate-lowering therapy to be approved for the treatment of refractory chronic gout. 1. Chemistry: Pegloticase is a recombinant mammalian uricase that is covalently attached to methoxy polyethylene glycol (mPEG) to prolong the circulating half-life and diminish immunogenic response. 2."
+        },
+        {
+            "id": "InternalMed_Harrison_6809",
+            "title": "InternalMed_Harrison",
+            "content": "with first-line platinum-based chemotherapy. Both trials randomized patients to immediate single-agent therapy versus observation and reported improvements in progression-free and overall survival. In both trials, a significant portion of patients in the observation arm did not receive therapy with the agent under investigation upon disease progression; 37% of study patients never received docetaxel in the docetaxel study and 81% of patients never received pemetrexed in the pemetrexed study. In the trial of maintenance docetaxel versus observation, survival was identical to the treatment group in the subset of patients who received docetaxel on progression, indicating this is an active agent in NSCLC. These data are not available for the pemetrexed study. Two additional trials evaluated switch maintenance therapy with erlotinib after platinum-based chemotherapy in patients with advanced"
+        },
+        {
+            "id": "Pharmacology_Katzung_6972",
+            "title": "Pharmacology_Katzung",
+            "content": "Infliximab, adalimumab, and certolizumab are approved for the acute and chronic treatment of patients with moderate to severe Crohn\u2019s disease who have had an inadequate response to conventional therapies. Infliximab, adalimumab, and golimumab are approved for the acute and chronic treatment of moderate to severe ulcerative colitis. With induction therapy, these approved agents lead to symptomatic improvement in 60% and disease remission in 30% of patients with moderate to severe Crohn\u2019s disease, including patients who have been dependent on glucocorticoids or who have not responded to 6-MP or methotrexate. The median time to clinical response is 2 weeks. Induction therapy is generally given as follows: infliximab 5 mg/kg intravenous infusion at 0, 2, and 6 weeks; adalimumab 160 mg (in divided doses) initially and 80 mg subcutaneous injection at 2 weeks; and certolizumab 400 mg subcutaneous injection at 0, 2, and 4 weeks. Patients who respond may be treated with chronic maintenance"
+        },
+        {
+            "id": "Surgery_Schwartz_9825",
+            "title": "Surgery_Schwartz",
+            "content": "gemcitabine is still commonly used in patients with a poor performance status.Erlotinib (Tarceva) was approved in 2005 based on very minimal improvement in overall survival in combination with gemcitabine.325 The study showed that erlotinib in combination with gemcitabine results in a statistically significant improve-ment in overall survival in patients with advanced pancreatic cancer in the first-line setting. Although the absolute benefit in overall survival was modest with a median survival difference between the two arms of only 2 weeks.FOLFIRINOX, a combination of three chemotherapy drugs (5-FU/leucovorin, irinotecan, and oxaliplatin) is now commonly used as first-line treatment for metastatic pancreatic adenocarcinoma in patients with a relatively good performance status. In 2010, a Phase 3 clinical trial showed positive results for patients treated with FOLFIRINOX.326 The objective response rate was improved from 9% to 32%, and median overall survival of patients with"
+        },
+        {
+            "id": "Surgery_Schwartz_9865",
+            "title": "Surgery_Schwartz",
+            "content": "in the setting of pancreatic cancer.Adjuvant Chemotherapy and Radiation. Small studies in the 1980s suggested that adjuvant chemotherapy with 5-FU combined with radiation improves survival by about 9 months after pancreatic resection for pancreatic adenocarcinoma.365 Subsequent, noncontrolled studies have reinforced that concept; however, the data have been criticized due to the low number of patients and low dose of radiation therapy that was given. In addition, gemcitabine has replaced 5-FU as standard therapy in pancreatic cancer but is thought to be too toxic when given with radiotherapy without dose reduction. A recent large European multicenter trial concluded that there was no value to chemo-radiotherapy, although the study suggested the possibility that chemotherapy alone might have survival benefit.366 Random-ized trials have failed to resolve the debate regarding the role of adjuvant radiation therapy in resectable pancreas cancer. A reasonable consideration in a disease"
+        },
+        {
+            "id": "Pharmacology_Katzung_5977",
+            "title": "Pharmacology_Katzung",
+            "content": "cetuximab with cytotoxic chemotherapy may be of particular benefit in the neoadjuvant therapy of patients with liver-limited disease. Although this antibody was initially approved to be administered on a weekly schedule, pharmacokinetic studies have shown that an every-2-week schedule provides the same level of clinical activity as the weekly schedule. This agent is also approved for use in combination with radiation therapy in patients with locally advanced head and neck cancer. Cetuximab is well tolerated, with the main adverse effects being an acneiform skin rash, hypersensitivity infusion reaction, and hypomagnesemia. However, when cetuximab is combined with radiation therapy for head and neck cancer, there is a very low but real increased risk (1%) of sudden death, which has resulted in a black-box warning for the drug."
+        },
+        {
+            "id": "InternalMed_Harrison_6286",
+            "title": "InternalMed_Harrison",
+            "content": "is observed. Dose-limiting toxicity (DLT) defines a dose that conveys greater toxicity than would be acceptable in routine practice, allowing definition of a lower maximum-tolerated dose (MTD). The occurrence of toxicity is, if possible, correlated with plasma drug concentrations. The MTD or a dose just lower than the MTD is usually the dose suitable for phase 2 trials, where a fixed dose is administered to a relatively homogeneous set of patients with a particular tumor type in an effort to define whether the drug causes regression of tumors. In a phase 3 trial, evidence of improved overall survival or improvement in the time to progression of disease on the part of the new drug is sought in comparison to an appropriate control population, which is usually receiving an acceptable \u201cstandard of care\u201d approach. A favorable outcome of a phase 3 trial is the basis for application to a regulatory agency for approval of the new agent for commercial marketing as safe and possessing a measure"
+        },
+        {
+            "id": "InternalMed_Harrison_6120",
+            "title": "InternalMed_Harrison",
+            "content": "(sunitinib), and pancreatic neuroendocrine tumors (sunitinib). Inhibitors of the mammalian target of rapamycin (mTOR) are active in RCC, pancreatic neuroendocrine tumors, and breast cancer. The list of active agents and treatment indications is growing rapidly. These new agents have ushered in a new era of personalized therapy. It is becoming more routine for resected tumors to be assessed for specific molecular changes that predict response and to have clinical decision-making guided by those results."
+        },
+        {
+            "id": "Pharmacology_Katzung_2515",
+            "title": "Pharmacology_Katzung",
+            "content": "Tiagabine is indicated for the adjunctive treatment of focal seizures, with or without secondary generalization. In adults, the recommended initial dose is 4 mg/d with weekly increments of 4\u20138 mg/d to total doses of 16\u201356 mg/d. Initial dosages can be given twice a day, but a change to three times a day is recommended above 30\u201332 mg/d. Divided doses as often as four times daily are sometimes required. Adverse effects and apparent lack of efficacy limit the use of this drug. Minor adverse events are dose related and include nervousness, dizziness, tremor, difficulty concentrating, and depression. Excessive confusion, somnolence, or ataxia may require discontinuation. Psychosis occurs rarely. The drug can cause seizures in some patients, notably those taking the drug for other indications. Rash is an uncommon idiosyncratic adverse effect."
+        },
+        {
+            "id": "InternalMed_Harrison_31331",
+            "title": "InternalMed_Harrison",
+            "content": "Glucocorticoid Therapy Glucocorticoids, when used properly, produce improvement in myasthenic weakness in the great majority of patients. To minimize adverse side effects, prednisone should be given in a single dose rather than in divided doses throughout the day. The initial dose should be relatively low (15\u201325 mg/d) to avoid the early weakening that occurs in up to one-third of patients treated initially with a high-dose regimen. The dose is increased stepwise, as tolerated by the patient (usually by 5 mg/d at 2to 3-day intervals), until there is marked clinical improvement or a dose of 50\u201360 mg/d is reached. This dose is maintained for 1\u20133 months and then is gradually modified to an alternate-day regimen over the course of an additional 1\u20133 months; the goal is to reduce the dose on the \u201coff day\u201d to zero or to a minimal level. Generally, patients begin to improve within a few weeks after reaching the maximum dose, and improvement continues to progress for months or years. The"
+        },
+        {
+            "id": "InternalMed_Harrison_23727",
+            "title": "InternalMed_Harrison",
+            "content": "these doses, the drug was nephro-2035 toxic. Even at 30 mg/d, creatinine elevations of 44 \u03bcmol/L (0.5 mg/ dL) occurred in 10% of patients; however, at the HBV-effective dose of 10 mg, such elevations of creatinine are rarely encountered. If any nephrotoxicity does occur, it rarely appears before 6\u22128 months of therapy. Although renal tubular injury is a rare potential side effect, and although creatinine monitoring is recommended during treatment, the therapeutic index of adefovir dipivoxil is high, and the nephrotoxicity observed in clinical trials at higher doses was reversible. For patients with underlying renal disease, frequency of administration of adefovir dipivoxil should be reduced to every 48 h for creatinine clearances of 30\u221249 mL/min; to every 72 h for creatinine clearances of 10\u221229 mL/min; and once a week, following dialysis, for patients undergoing hemodialysis. Adefovir dipivoxil is very well tolerated, and ALT elevations during and after withdrawal of therapy are"
+        },
+        {
+            "id": "InternalMed_Harrison_7165",
+            "title": "InternalMed_Harrison",
+            "content": "3.55 vs 3.75 (HR 0.77; 95% CI 5.91 vs 6.24 (HR 0.82; 95% CI 0.69\u2013 0.64\u20130.92; p = .004) 0.99; p = .038) 3.8 vs 5.3 (HR 0.78; 95% CI 6.2 vs 7.1 (HR 0.86; 95% CI 0.72\u20131.02; 0.66\u20130.93; p = .004) p = .08) 3.7 vs 5.5 (HR 0.69; 95% CI 6.7 vs 8.5 (HR 0.72; 95% CI 0.62\u20130.83; 0.58\u20130.82; p <.001) p <.001) 3.3 vs 6.4 (HR 0.47; 95% CI 6.8 vs 11.1 (HR 0.57; 95% CI 0.45\u20130.73; 0.37\u20130.59; p <.001) p <.001) treatment with a median survival of 6 months and a 1-year survival rate of only 20%. The addition of nab-paclitaxel (an albumin bound nanoparticle formulation of paclitaxel) to gemcitabine results in significantly improved 1-year survival compared to gemcitabine alone (35% vs 22%, p <.001). Capecitabine, an oral fluoropyrimidine, has also been combined with gemcitabine (GEM-CAP) in a phase III trial that showed an improvement in response rate and progression-free survival over single-agent gemcitabine, but no overall survival benefit. However, pooling of two other randomized controlled trials with"
+        },
+        {
+            "id": "InternalMed_Harrison_8519",
+            "title": "InternalMed_Harrison",
+            "content": "For younger patients, most studies include intensive chemotherapy and allogeneic or autologous hematopoietic stem cell transplantation (HSCT). In the postremission setting, high-dose cytarabine for three to four cycles is more effective than standard-dose cytarabine. The Cancer and Leukemia Group B (CALGB), for example, compared the duration of CR in patients randomly assigned after remission to four cycles of high (3 g/m2, every 12 h on days 1, 3, and 5), intermediate (400 mg/m2 for 5 days by continuous infusion), or standard (100 mg/m2 per day for 5 days by continuous infusion) doses of cytarabine. A dose-response effect for cytarabine in patients with AML who were age \u226460 years was demonstrated. High-dose cytarabine significantly prolonged CR and increased the fraction cured in patients with favorable [t(8;21) and inv(16)] and normal cytogenetics, but it had no significant effect on patients with other abnormal karyotypes. As discussed, high-dose cytarabine has increased toxicity"
+        },
+        {
+            "id": "InternalMed_Harrison_6810",
+            "title": "InternalMed_Harrison",
+            "content": "Fidias Immediate docetaxel 153 12.3 5.7 Delayed docetaxel 156 9.7 2.7 Ciuleanu Pemetrexed 444 13.4 4.3 BSC 222 10.6 2.6 Paramount Pemetrexed 472 13.9 4.1 BSC 297 11.0 2.8 ATLAS Bev + erlotinib 384 15.9 4.8 Bev + placebo 384 13.9 3.8 SATURN Erlotinib 437 12.3 2.9 Placebo 447 11.1 2.6 ECOG4599 Bev 15 mg/kg 444 12.3 6.2 BSC 434 10.3 4.5 AVAiL Bev 15 mg/kg 351 13.4 6.5 Bev 7.5 mg/kg 345 13.6 6.7 Placebo 347 13.1 6.1 8.6 Bev 15 mg/kg Bev 15 mg/kg 6.9 Abbreviations: Bev, bevacizumab; BSC, best supportive care; CT, chemotherapy; OS, overall survival; PFS, progression-free survival. NSCLC and reported an improvement in progression-free survival and overall survival in the erlotinib treatment group. Currently, maintenance pemetrexed or erlotinib following platinum-based chemotherapy in patients with advanced NSCLC are approved by the U.S. FDA. However, maintenance therapy is not without toxicity and, at this time, should be considered on an individual patient basis."
+        },
+        {
+            "id": "Gynecology_Novak_7279",
+            "title": "Gynecology_Novak",
+            "content": "Two randomized, prospective clinical studies compared the combination of paclitaxel and carboplatin to paclitaxel and cisplatin (201,202). In both studies, the efficacy and survivals were similar, but the toxicity was more acceptable with the carboplatin-containing regimen. In the first trial, GOG Protocol 158, the randomization was carboplatin AUC = 7.5 and paclitaxel 175 mg/m2 over 3 hours versus cisplatin 75 mg/m2 and paclitaxel 135 mg/m2 over 24 hours (Fig. 37.15). The disease progression-free survival of the carboplatin-containing arm was 22 months versus 21.7 months for the control arm (201). The gastrointestinal and neurotoxicity of the carboplatin arm were appreciably lower than that of the cisplatin arm. A similar result was obtained in a large randomized trial in Germany, in which the dose of carboplatin was AUC = 6 and paclitaxel was 185 mg/m2 over 3 hours compared with the same dose of paclitaxel and cisplatin 75 mg/m2 (202). Based on these data, the preferred regimen in"
+        },
+        {
+            "id": "InternalMed_Harrison_9835",
+            "title": "InternalMed_Harrison",
+            "content": "VACCINE SAFETY MONITORING AND ADVERSE EVENT REPORTING Prelicensure Evaluations of Vaccine Safety Before vaccines are licensed by the FDA, they are evaluated in clinical trials with volunteers. These trials are conducted in three progressive phases. Phase 1 trials are small, usually involving fewer than 100 volunteers. Their purposes are to provide a basic evaluation of safety and to identify common adverse events. Phase 2 trials, which are larger and may involve several hundred participants, collect additional information on safety and are usually designed to evaluate immunogenicity as well. Data gained from phase 2 trials can be used to determine the composition of the vaccine, the number of doses required, and a profile of common adverse events. Vaccines that appear promising are evaluated in phase 3 trials, which typically involve several hundred to several thousand volunteers and are generally designed to demonstrate vaccine efficacy and provide additional information on vaccine"
+        },
+        {
+            "id": "InternalMed_Harrison_7334",
+            "title": "InternalMed_Harrison",
+            "content": "months). This chemotherapy regimen can be associated with significant toxicity including GI toxicities (nausea, vomiting), myelosuppression, and renal toxicity. In addition to the effectiveness in controlling the functional hormonal state, long-acting somatostatin analogues such as octreotide and lanreotide are increasingly used for their antiproliferative effects. Whereas somatostatin analogues rarely decrease tumor size (i.e., 0\u201317%), these drugs have tumoristatic effects, stopping additional growth in 26\u201395% of patients with NETs. In a randomized, double-blind study in patients with metastatic midgut carcinoids (PROMID study) octreotide-LAR demonstrated a marked lengthening of time to progression (14.3 vs 6 months, p = .000072). This improvement was seen in patients with limited liver involvement. This study did not assess whether such treatment will extend survival. A double-blind, randomized, placebo-controlled, phase III study in patients with well-differentiated, metastatic,"
+        },
+        {
+            "id": "Pharmacology_Katzung_2540",
+            "title": "Pharmacology_Katzung",
+            "content": "Pharmacokinetics, Therapeutic Levels, & Dosage For pharmacokinetics, drug interactions, and toxicity of phenobarbital, see Chapter 22. The dose of phenobarbital is individualized based on clinical response. Dosing information from clinical trials is limited. Doses in the range of 60\u2013200 mg, divided two or three times daily, are typically used. The minimally effective dose may be 60 mg/d, and the median effective dose range may be 100\u2013150 mg/d. The accepted serum concentration reference range is 15 to 40 mcg/mL, although many patients tolerate chronic levels above 40 mcg/mL. Mean steady-state plasma phenobarbital levels with 60 and 100 mg/d dosing are 14 and 21 mcg/mL, respectively."
+        },
+        {
+            "id": "Gynecology_Novak_7302",
+            "title": "Gynecology_Novak",
+            "content": "The recommended doses and schedule for intraperitoneal chemotherapy are paclitaxel 135 mg/m2 intravenous on day 1, followed by cisplatin 75 to 100 mg/m2 intraperitoneal on day 2, followed by paclitaxel 60 mg/m2 intraperitoneal on day 8, every 3 weeks for Table 37.4 Combination Chemotherapy for Advanced Epithelial Ovarian Cancer: Recommended Regimens Doxorubicin, liposomal 35\u201350 IV 3\u20134 Topotecan 1.0\u20131.25 IV 1 4.0 IV 3 (daily \u00d7 3\u20135 days) Etoposide 50 PO 3, days 14\u201321 \u2217Bevacizumab 7.5\u201315 mg/kg can be added to any of these regimens. aExcept for carboplatin dosing, where AUC\u2014area under the curve\u2014dose calculated by using Calvert formula (Calvert AH, Newell DR, Gumbrell LA, et al. Carboplatin dosage: prospective evaluation of a simple formula based on renal function. J Clin Oncol 1989;7:1748\u20131756).bDrugs that can be substituted for paclitaxel if hypersensitivity to that drug occurs; the number of treatments administered as tolerated."
+        },
+        {
+            "id": "Gynecology_Novak_7334",
+            "title": "Gynecology_Novak",
+            "content": "a study of 31 patients, one-half of whom were platinum refractory, topotecan 2 mg/m2 per day for 3 days every 21 days had a 32% response rate (285). Continuous infusion topotecan (0.4 mg/m2 per day for 14 to 21 days) had a 27% to 35% objective response rate in platinum-refractory patients (284). Weekly topotecan administered at a dose of 4 mg/m2 per week for 3 weeks with a week off every month produced a response rate similar to the 5-day regimen with considerably less toxicity, and this is the preferred dose schedule in the recurrent setting (290)."
+        },
+        {
+            "id": "Surgery_Schwartz_9866",
+            "title": "Surgery_Schwartz",
+            "content": "have survival benefit.366 Random-ized trials have failed to resolve the debate regarding the role of adjuvant radiation therapy in resectable pancreas cancer. A reasonable consideration in a disease with high rates of distant metastases is to begin with adjuvant chemotherapy, followed by radiation therapy in patients who do not progress, particularly in patients where there may be increased concern about local recurrence such as in patients with close margins.Remarkable results in adjuvant therapy were reported by the Virginia Mason Clinic with combination 5-FU, cisplatinum, interferon-\u3008, and external beam radiation.367 Although the toxic-ity was high (42% hospitalized for GI toxicity), the promising results prompted larger confirmatory studies. Unfortunately, one such study was stopped due to toxicity, and this protocol has not been widely adopted. More recent results with FOLFIRINOX in the setting of metastatic disease have encouraged clinical tri-als using this regimen in the"
+        },
+        {
+            "id": "InternalMed_Harrison_25101",
+            "title": "InternalMed_Harrison",
+            "content": "for much shorter periods; recent trials of interventions for severe SLE use 4\u20136 weeks of 0.5\u20131 mg/kg per day of prednisone or equivalent. Thereafter, doses are tapered as rapidly as the clinical situation permits, usually to a maintenance dose ranging from 5 to 10 mg of prednisone or equivalent per day. Most patients with an episode of severe SLE require many years of maintenance therapy with low-dose glucocorticoids, which can be increased to prevent or treat disease flares. Frequent attempts to gradually reduce the glucocorticoid requirement are recommended because virtually everyone develops important adverse effects (Table 378-5). High-quality clinical studies regarding initiating therapy for severe, active SLE with IV pulses of high-dose glucocorticoids are not available. Most recent clinical trials in lupus nephritis have initiated therapy with high-dose IV glucocorticoid pulses (500\u20131000 mg daily for 3\u20135 days). This approach must be tempered by safety considerations, such as"
+        },
+        {
+            "id": "InternalMed_Harrison_6829",
+            "title": "InternalMed_Harrison",
+            "content": "Core biopsy of most distant site of disease Squamous carcinoma Adenocartcinoma Obtain tissue Determine histology Determine molecular status Treatment options EGFRmut Erlotinib or afatinib Crizotinib No mutation or mutation for which there is no FDA approved therapy Platinum-based chemothearpy \u00b1 bevacizumab Cisplatin or carboplatin + gemcitabine, doc-etaxel, paclitaxel, or nab-paclitaxel Platinum-based chemotherapy ALK (+) Large-cell neuroendocrine carcinoma FIGURE 107-8 Approach to first-line therapy in a patient with stage IV non-small-cell lung cancer (NSCLC). EGFRmut, EGFR mutation; FDA, Food and Drug Administration."
+        },
+        {
+            "id": "InternalMed_Harrison_7032",
+            "title": "InternalMed_Harrison",
+            "content": "Irinotecan (CPT-11), a topoisomerase 1 inhibitor, prolongs survival when compared to supportive care in patients whose disease has progressed on 5-FU. Furthermore, the addition of irinotecan to 5-FU and leucovorin (LV) (e.g., FOLFIRI) improves response rates and survival of patients with metastatic disease. The FOLFIRI regimen is as follows: irinotecan, 180 mg/m2 as a 90-min infusion on day 1; LV, 400 mg/m2 as a 2-h infusion during irinotecan administration; immediately followed by 5-FU bolus, 400 mg/m2, and 46-h continuous infusion of 2.4\u20133 g/m2 every 2 weeks. Diarrhea is the major side effect from irinotecan. Oxaliplatin, a platinum analogue, also improves the response rate when added to 5-FU and LV (FOLFOX) as initial treatment of patients with metastatic disease. The FOLFOX regimen is as follows: 2-h infusion of LV (400 mg/m2 per day) followed by a 5-FU bolus (400 mg/m2 per day) and 22-h infusion (1200 mg/m2) every 2 weeks, together with oxaliplatin, 85 mg/m2 as a 2-h infusion on"
+        }
+    ],
+    "scores": [
+        0.027577175561737378,
+        0.022853652482956135,
+        0.020288510315046738,
+        0.019627732515931272,
+        0.019324122479462285,
+        0.019246784491533265,
+        0.01916024935826916,
+        0.0177750058470414,
+        0.017475579975579976,
+        0.0172876304023845,
+        0.01707175925925926,
+        0.016592171204117566,
+        0.015399194503672116,
+        0.0153011704253497,
+        0.015209326974032857,
+        0.015189158667419538,
+        0.015069615069615069,
+        0.014983164983164984,
+        0.014495028780743067,
+        0.014300254452926209,
+        0.014210128495842782,
+        0.014007531918802241,
+        0.013714715137851673,
+        0.013585968738640493,
+        0.013396831048602457,
+        0.013313871196036801,
+        0.013208333333333332,
+        0.013167013167013167,
+        0.01310204081632653,
+        0.012743506493506494,
+        0.012633587786259542,
+        0.01242283950617284
+    ]
+}

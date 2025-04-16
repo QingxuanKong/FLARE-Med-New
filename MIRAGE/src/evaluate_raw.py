@@ -20,14 +20,16 @@ def evaluate(dataset, save_dir, split="test", locate_fun=locate_answer):
 
     # for i, fpath in enumerate(sorted([f for f in os.listdir(save_dir) if f.endswith(".json")])[:total_len]):
     for q_idx in range(len(dataset)):
-        # fpath = os.path.join(save_dir, split + "_" + dataset.index[q_idx] + ".json")
-        fpath = os.path.join(save_dir, dataset.index[q_idx] + ".json")
-        with open(fpath, "r") as f:
-            medrag_data = json.load(f)
-
-        predict_str = medrag_data.get("predict", "")
-        answer_match = re.search(r'"answer_choice":\s*"([A-Z])"', predict_str)
-        ans = answer_match.group(1) if answer_match else None
+        fpath = os.path.join(save_dir, split + "_" + dataset.index[q_idx] + ".json")
+        answers = []
+        for it in json.load(open(fpath))[:1]:
+            answers.append(locate_fun(it.split('"answer_choice": "')[-1].strip()))
+        # answers.append(locate_fun(it.split('"answer_choice": "')[-1].strip()))
+        answers = [ans for ans in answers if ans != "NA"]
+        if len(answers) == 0:
+            pred.append(-1)
+            continue
+        ans = statistics.mode(answers)
         if ans in answer_list:
             pred.append(answer_list.index(ans))
         else:
@@ -37,7 +39,7 @@ def evaluate(dataset, save_dir, split="test", locate_fun=locate_answer):
     if len(pred) < len(truth):
         truth = truth[:len(pred)]
         flag = True
-        
+    
     acc = (np.array(truth) == np.array(pred)).mean()
     std = np.sqrt(acc * (1-acc) / len(truth))
     return acc, std, flag
@@ -45,64 +47,29 @@ def evaluate(dataset, save_dir, split="test", locate_fun=locate_answer):
 if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
-    parser.add_argument("--config", type=str, help="Path to config JSON file")
-    parser.add_argument("--corpus_name", type=str, default="MedText")
-    parser.add_argument("--retriever_name", type=str, default="RRF-4")
-    parser.add_argument("--llm_name", type=str, default="meta-llama/Llama-3.2-3B-Instruct")
+    parser.add_argument("--llm_name", type=str, default="OpenAI/gpt-35-turbo-16k")
     parser.add_argument("--rag", action=argparse.BooleanOptionalAction)
     parser.add_argument("--k", type=int, default=32)
+    parser.add_argument("--corpus_name", type=str, default="medcorp")
+    parser.add_argument("--retriever_name", type=str, default="RRF-4")
     parser.add_argument("--results_dir", type=str, default="./prediction")
-    parser.add_argument("--dataset_name", type=str, default=None)
 
     args = parser.parse_args()
 
-    # Load from specified config file if provided
-    if args.config:
-        with open(args.config) as f:
-            file_config = json.load(f)
-            print(f"Loaded configuration from {args.config}\n")
-
-            # Update args with values from specified config file
-            # but only for values not explicitly set in command line
-            for key, value in file_config.items():
-                if key in vars(args) and parser.get_default(key) == getattr(args, key):
-                    setattr(args, key, value)
-
-    # Print final configuration
-    print("Final arguments:")
-    for key in [
-        "corpus_name",
-        "retriever_name",
-        "llm_name",
-        "rag",
-        "k",
-        "results_dir",
-        "dataset_name",
-    ]:
-        print(f"{key}: {getattr(args, key)}")
-    print()
-
-    # Set params values
-    corpus_name = args.corpus_name
-    retriever_name = args.retriever_name
     llm_name = args.llm_name
     rag = False if args.rag is None else True
     k = args.k
+    corpus_name = args.corpus_name
+    retriever_name = args.retriever_name
     results_dir = args.results_dir
     
-    # Config dataset and benchmark
-    if args.dataset_name is not None:
-        dataset_names = [args.dataset_name]
-    else:
-        dataset_names = ['mmlu', 'medqa', 'medmcqa', 'pubmedqa', 'bioasq']
+    dataset_names = ['mmlu', 'medqa', 'medmcqa', 'pubmedqa', 'bioasq']
+    datasets = {key:QADataset(key) for key in dataset_names}
 
-    datasets = {key:QADataset(key, dir="./rawdata") for key in dataset_names}
 
-    # Evaluate results
     scores = []
     for dataset_name in dataset_names:
         print("[{:s}] ".format(dataset_name), end="")
-        
         split = "test"
         if dataset_name == "medmcqa":
             split = "dev"
@@ -110,7 +77,6 @@ if __name__ == "__main__":
             save_dir = os.path.join(results_dir, dataset_name, "rag_"+str(k), llm_name, corpus_name, retriever_name)
         else:
             save_dir = os.path.join(results_dir, dataset_name, "cot", llm_name)
-
         if os.path.exists(save_dir):
             if "pmc_llama" in llm_name.lower():
                 acc, std, flag = evaluate(datasets[dataset_name], save_dir, split, locate_answer4pub_llama)

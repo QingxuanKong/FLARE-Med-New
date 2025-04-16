@@ -1,0 +1,206 @@
+{
+    "id": "5e51a2d76d0a27794100003a",
+    "question": "Do genes with monoallelic expression contribute proportionally to genetic diversity in humans?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to consider the concept of monoallelic expression and its impact on genetic diversity in humans. Monoallelic expression refers to the phenomenon where only one copy of a gene is expressed in a diploid genome, often due to imprinting or X-chromosome inactivation. This type of expression can contribute to genetic diversity by creating subtly different patterns of gene expression among cells within the same individual. However, it is not clear whether these differences contribute proportionally to genetic diversity in humans. First, we need to consider the number of genes with monoallelic expression. Document [1] states that there are approximately 1000-2000 human genes that exhibit monoallelic expression, in addition to the approximately 1000 genes on the X chromosome that are subject to imprinting. This suggests that a significant number of genes are involved in monoallelic expression. Next, we need to consider the impact of monoallelic expression on genetic diversity. Document [1] notes that cells of the same tissue in the same individual can express different copies of a given gene, resulting in somatic mosaicism. This means that even within the same individual, there can be genetic variation due to monoallelic expression. However, it is unclear whether these differences contribute proportionally to genetic diversity in humans. Document [1] states that the mechanisms responsible for monoallelic expression are not well understood, and its general purpose, if any, is poorly understood. This suggests that the impact of monoallelic expression on genetic diversity may be limited. Finally, we need to consider the role of other mechanisms of genetic variation, such as SNPs and CNVs, which are known to contribute significantly to genetic diversity in humans. Document [12] states that there are approximately 2.5 \\u00b7 10^6 sites where two randomly chosen individuals will differ, and Document [9] notes that CNVs are responsible for several million base pairs of sequence difference between any two individuals. In conclusion, while monoallelic expression is an important phenomenon that contributes to genetic diversity, it is unclear whether it contributes proportionally to genetic diversity in humans. The impact of monoallelic expression may be limited, and other mechanisms of genetic variation, such as SNPs and CNVs, may play a more significant role in shaping the genetic diversity of the human population. Answer Choice A is incorrect because the impact of monoallelic expression on genetic diversity is unclear. Answer Choice B is correct because the impact of monoallelic expression on genetic diversity is unclear, and other mechanisms of genetic variation, such as SNPs and CNVs, may play a more significant role in shaping the genetic diversity of the human population.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1954",
+            "title": "Cell_Biology_Alberts",
+            "content": "clones of cells have subtly different patterns of gene expression. The mechanisms responsible for this type of monoallelic expression are not known in detail, and its general purpose\u2014if any\u2014is poorly understood. Several different mechanisms may contribute to such epigenetic inheritance, as we explain next."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1953",
+            "title": "Cell_Biology_Alberts",
+            "content": "Imprinting and X-chromosome inactivation are examples of monoallelic gene expression, where in a diploid genome, only one of the two copies of a gene is expressed. In addition to the approximately 1000 genes on the X chromosome and the 300 or so genes that are imprinted, there are another 1000\u20132000 human genes that exhibit monoallelic expression. Like X-chromosome inactivation (but unlike imprinting), the choice of which copy of the gene is to be expressed and which is to be silenced often appears random. Yet once the choice is made, it can persist for many cell divisions. Because the choice is often made relatively late in development, cells of the same tissue in the same individual can express different copies of a given gene. In other words, somatic tissues are often mosaics, where different clones of cells have subtly different patterns of gene expression. The mechanisms responsible for this type of monoallelic expression are not known in detail, and its general purpose\u2014if any\u2014is"
+        },
+        {
+            "id": "Pathology_Robbins_12",
+            "title": "Pathology_Robbins",
+            "content": "It is important to note that alterations in DNA sequence cannot by themselves explain the diversity of phenotypes in human populations; moreover, classical genetic inheritance cannot explain differing phenotypes in monozygotic twins. The answers to these conundrums probably lie in epigenetics\u2014heritable changes in gene expression that are not caused by alterations in DNA sequence (see later). Even though virtually all cells in the body have the same genetic composition, differentiated cells have distinct structures and functions arising through lineage-specific programs of gene expression. Such cell type\u2013specific differences in DNA transcription and translation are regulated by epigenetic modifications that consist of several changes that profoundly influence gene expression, including: Fig. 1.2 ). Genomic DNA is packed into nucleosomes, which are composed of 147 DNA (1.8 turns, about 150 base pairs)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1083",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other sequence comparisons show that a great deal of the genetic complexity of present-day organisms is due to the expansion of ancient gene families. DNA duplication followed by sequence divergence has clearly been a major source of genetic novelty during evolution. On a more recent time scale, the genomes of any two humans will differ from each other both because of nucleotide substitutions (single-nucleotide polymorphisms, or SNPs) and because of inherited DNA gains and DNA losses that cause copy number variations (CNVs). Understanding the effects of these differences will improve both medicine and our understanding of human biology. Which statements are true? explain why or why not. How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication?"
+        },
+        {
+            "id": "Immunology_Janeway_1338",
+            "title": "Immunology_Janeway",
+            "content": "The high polymorphism of the classical MHC genes ensures diversity in MHC gene expression in the population as a whole. However, no matter how polymorphic a gene is, no individual can express more than two alleles at a single gene locus. Polygeny, the presence of several different related genes with similar functions, ensures that each individual produces a number of different MHC molecules. The combination of polymorphism and polygeny produces the diversity of MHC molecules seen both within an individual and in the population at large."
+        },
+        {
+            "id": "InternalMed_Harrison_4794",
+            "title": "InternalMed_Harrison",
+            "content": "Epigenetic gene inactivation also occurs on selected chromosomal regions of autosomes, a phenomenon referred to as genomic imprinting. Through this mechanism, a small subset of genes is only expressed in a monoallelic fashion. Imprinting is heritable and leads to the preferential expression of one of the parental alleles, which deviates from the usual biallelic expression seen for the majority of genes. Remarkably, imprinting can be limited to a subset of tissues. Imprinting is mediated through DNA methylation of one of the alleles. The epigenetic marks on imprinted genes are maintained throughout life, but during zygote formation, they are activated or inactivated in a sex-specific manner (imprint reset) (Fig. 82-8), which allows a differential expression pattern in the fertilized egg and the subsequent mitotic divisions. Appropriate expression of imprinted genes is important for normal development and cellular functions. Imprinting defects and uniparental disomy, which is the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6948",
+            "title": "Cell_Biology_Alberts",
+            "content": "monoallelic gene expression Expression of only one of the two copies of a gene in a diploid genome, occurring, for example, as a result of imprinting or X-chromosome inactivation. monoclonal antibody Antibody secreted by a hybridoma cell line. Because the hybridoma is generated by the fusion of a single B cell with a single tumor cell, each hybridoma produces antibodies that are all identical. (Page 444) monocyte Type of white blood cell that leaves the bloodstream and matures into a macrophage in tissues. (Figure 22\u201327) monomeric GTPase A single-subunit enzyme that converts GTP to GDP (also called small monomeric GTP-binding proteins). Cycles between an active GTP-bound form and an inactive GDP-bound form and frequently acts as a molecular switch in intracellular signaling pathways."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2382",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mutations that give rise, in a reproducible way, to rare but clearly defined abnormalities, such as albinism, hemophilia, or congenital deafness, can often be identified by studies of affected families. Such single-gene, or monogenic, disorders are often referred to as Mendelian because their pattern of inheritance is easy to track. Moreover, individuals who inherit the causative mutation will exhibit the abnormality irrespective of environmental factors such as diet or exercise. But for many common diseases, the genetic roots are more complex. Instead of a single allele of a single gene, such disorders stem from a combination of contributions from multiple genes. And often, environmental factors have strong influences on the severity of the disorder. For these multigenic conditions, such as diabetes or arthritis, population studies are often helpful in tracking down the genes that increase the risk of getting the disease."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2376",
+            "title": "Cell_Biology_Alberts",
+            "content": "Genetic screens in model experimental organisms have been spectacularly successful in identifying genes and relating them to various phenotypes, including many that are conserved between these organisms and humans. But how can we study humans directly? They do not reproduce rapidly, cannot be treated with mutagens, and, if they have a defect in an essential process such as DNA replication, would die long before birth. Despite their limitations compared to model organisms, humans are becoming increasingly attractive subjects for genetic studies. Because the human"
+        },
+        {
+            "id": "Pathology_Robbins_11",
+            "title": "Pathology_Robbins",
+            "content": "CNVs are a form of genetic variation consisting of different numbers of large contiguous stretches of DNA; these can range from 1000 base pairs to millions of base pairs. In some instances these loci are, like SNPs, biallelic and simply duplicated or deleted in a subset of the population. In other instances there are complex rearrangements of genomic material, with multiple alleles in the human population. CNVs are responsible for several million base pairs of sequence difference between any two individuals. Approximately 50% of CNVs involve gene-coding sequences; thus, CNVs may underlie a large portion of human phenotypic diversity."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2385",
+            "title": "Cell_Biology_Alberts",
+            "content": "Genomics Is Accelerating the Discovery of Rare Mutations That Predispose Us to Serious Disease The genetic variants that have thus far allowed us to identify some of the genes that increase our risk of disease are common ones. They arose long ago in our evolutionary past and are now present, in one form or another, in a substantial portion (1% or more) of the population. Such polymorphisms are thought to account"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1061",
+            "title": "Cell_Biology_Alberts",
+            "content": "compared. For example, typical human and chimpanzee DNA sequences differ from one another by about 1%. In contrast, when the same region of the genome is sampled from two randomly chosen humans, the differences are typically about 0.1%. For more distantly related organisms, the interspecies differences outshine intraspecies variation even more dramatically. However, each \u201cfixed difference\u201d between the human and the chimpanzee (in other words, each difference that is now characteristic of all or nearly all individuals of each species) started out as a new mutation in a single individual. If the size of the interbreeding population in which the mutation occurred is N, the initial allele frequency for a new mutation would be 1/(2N) for a diploid organism. How does such a rare mutation become fixed in the population, and hence become a characteristic of the species rather than of a few scattered individuals?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1073",
+            "title": "Cell_Biology_Alberts",
+            "content": "P. Forster and S. matsumura, Science 308:965\u2013966, 2005.) density of known genes a polymorphism, the variants must be common enough to give a reasonably high probability that the genomes of two randomly chosen individuals will differ at the given site; a probability of 1% is commonly chosen as the cutoff. Two human genomes sampled from the modern world population at random will differ at approximately 2.5 \u00d7 106 such sites (1 per 1300 nucleotide pairs). As will be described in the overview of genetics in Chapter 8, SNPs in the human genome can be extremely useful for genetic mapping analyses, in which one attempts to associate specific traits (phenotypes) with specific DNA sequences for medical or scientific purposes (see p. 493). But while useful as genetic markers, there is good evidence that most of these SNPs have little or no effect on human fitness. This is as expected, since deleterious variants will have been selected against during human evolution and, unlike SNPs, should"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1071",
+            "title": "Cell_Biology_Alberts",
+            "content": "The intraspecies variations that have been most extensively characterized, however, are single-nucleotide polymorphisms (SNPs). These are simply points in the genome sequence where one large fraction of the human population has one nucleotide, while another substantial fraction has another. To qualify as Figure 4\u201378 How founder effects determine the set of genetic variants in a population of individuals belonging to the same species. This example illustrates how a rare allele (red) can become established in an isolated population, even though the mutation that produced it has no selective advantage\u2014or is mildly deleterious."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2379",
+            "title": "Cell_Biology_Alberts",
+            "content": "Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors When we compare the sequences of multiple human genomes, we find that any two individuals will differ in roughly 1 nucleotide pair in 1000. Most of these variations are common and relatively harmless. When two sequence variants coexist in the population and both are common, the variants are called polymorphisms. The majority of polymorphisms are due to the substitution of a single nucleotide, called single-nucleotide polymorphisms or SNPs (Figure 8\u201350). The rest are due largely to insertions or deletions\u2014called indels when the change is small, or copy number variations (CNVs) when it is large. Although these common variants can be found throughout the genome, they are not scattered randomly\u2014or even independently. Instead, they tend to travel in groups called haplotype blocks\u2014combinations of polymorphisms that are inherited as a unit."
+        },
+        {
+            "id": "InternalMed_Harrison_4846",
+            "title": "InternalMed_Harrison",
+            "content": "Recognition of nonallelic heterogeneity is important for several reasons: (1) the ability to identify disease loci in linkage studies is reduced by including patients with similar phenotypes but different genetic disorders; (2) genetic testing is more complex because several different genes need to be considered along with the possibility of different mutations in each of the candidate genes; and (3) novel information is gained about how genes or proteins interact, providing unique insights into molecular physiology."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2378",
+            "title": "Cell_Biology_Alberts",
+            "content": "population is so large, spontaneous, nonlethal mutations have arisen in all human genes\u2014many times over. A substantial proportion of these remain in the genomes of present-day humans. The most deleterious of these mutations are discovered when the mutant individuals call attention to themselves by seeking medical help. With the recent advances that have enabled the sequencing of entire human genomes cheaply and quickly, we can now identify such mutations and study their evolution and inheritance in ways that were impossible even a few years ago. By comparing the sequences of thousands of human genomes from all around the world, we can begin to identify directly the DNA differences that distinguish one individual from another. These differences hold clues to our evolutionary origins and can be used to explore the roots of disease. Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors"
+        },
+        {
+            "id": "InternalMed_Harrison_4786",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 82 Principles of Human Genetics FIGURE 82-4 The origin of haplotypes is due to repeated recombination events occurring in multiple generations. Over time, this leads to distinct haplotypes. These haplotype blocks can often be characterized by genotyping selected Tag single-nucleotide polymorphisms (SNPs), an approach that facilitates performing genome-wide association studies (GWAS). because the complement of mRNAs transcribed by the cellular genome is called the transcriptome. Most studies of gene expression have focused on the regulatory DNA elements of genes that control transcription. However, it should be emphasized that gene expression requires a series of steps, including mRNA processing, protein translation, and posttranslational modifications, all of which are actively regulated (Fig. 82-2)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1069",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have been focusing on mutations that affect a single gene, but these are not the only source of variation. Another source, perhaps even more important but missed for many years, lies in the many duplications and deletions of large blocks of human DNA. When one compares any individual human with the standard reference genome in the database, one will generally find roughly 100 differences involving gain or loss of long sequence blocks, totaling perhaps 3 million nucleotide pairs. Some of these copy number variations (CNVs) will be very common, presumably reflecting relatively ancient origins, while others will be present in only a small minority of people (Figure 4\u201380). On average, nearly half of the CNVs contain known genes. CNVs have been implicated in many human traits, including color blindness, infertility, hypertension, and a wide variety of disease susceptibilities. In retrospect, this type of variation is not surprising, given the prominent role of DNA addition and DNA loss"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1077",
+            "title": "Cell_Biology_Alberts",
+            "content": "While most of the SNPs and CNVs in the human genome sequence are thought to have little or no effect on phenotype, a subset of the genome sequence variations must be responsible for the heritable aspects of human individuality. We know that even a single nucleotide change that alters one amino acid in a protein can cause a serious disease, as for example in sickle-cell anemia, which is caused by such a mutation in hemoglobin (Movie 4.3). We also know that gene dosage\u2014a doubling or halving of the copy number of some genes\u2014can have a profound effect on development by altering the level of gene product, as can changes in regulatory DNA sequences. There is therefore every reason to suppose that some of the many differences between any two human beings will have substantial Figure 4\u201380 Detection of copy number variations on human chromosome 17."
+        },
+        {
+            "id": "Cell_Biology_Alberts_89",
+            "title": "Cell_Biology_Alberts",
+            "content": "When genes duplicate and diverge in this way, the individuals of one species become endowed with multiple variants of a primordial gene. This evolutionary process has to be distinguished from the genetic divergence that occurs when one species of organism splits into two separate lines of descent at a branch point in the family tree\u2014when the human line of descent became separate from that of chimpanzees, for example. There, the genes gradually become different in the course of evolution, but they are likely to continue to have corresponding functions in the two sister species. Genes that are related by descent in this way\u2014that is, genes in two separate species that derive from the same ancestral gene in the last common ancestor of those two species\u2014are called orthologs. Related genes that have resulted from a gene duplication event within a single genome\u2014and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1066",
+            "title": "Cell_Biology_Alberts",
+            "content": "fixed is small (1/20,000), while the average time to fixation would be on the order of 800,000 years (assuming a 20-year generation time). Thus, while we know that the human population has grown enormously since the development of agriculture approximately 15,000 years ago, most of the present-day set of common human genetic variants reflects the mixture of variants that was already present long before this time, when the human population was still small."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1062",
+            "title": "Cell_Biology_Alberts",
+            "content": "The answer to this question depends on the functional consequences of the mutation. If the mutation has a significantly deleterious effect, it will simply be eliminated by purifying selection and will not become fixed. (In the most extreme case, the individual carrying the mutation will die without producing progeny.) Conversely, the rare mutations that confer a major reproductive advantage on individuals who inherit them can spread rapidly in the population. Because humans reproduce sexually and genetic recombination occurs each time a gamete is formed (discussed in Chapter 5), the genome of each individual who has inherited the mutation will be a unique recombinational mosaic of segments inherited from a large number of ancestors. The selected mutation along with a modest amount of neighboring sequence\u2014ultimately inherited from the individual in which the mutation occurred\u2014will simply be one piece of this huge mosaic."
+        },
+        {
+            "id": "InternalMed_Harrison_4777",
+            "title": "InternalMed_Harrison",
+            "content": "Assortment and Segregation of Genes During Meiosis Meiosis occurs only in germ cells of the gonads. It shares certain features with mitosis but involves two distinct steps of cell division that reduce the chromosome number to the haploid state. In addition, there is active recombination that generates genetic diversity. During the first cell division, two Chapter 82 Principles of Human Genetics Regulation of Gene Expression"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2380",
+            "title": "Cell_Biology_Alberts",
+            "content": "To understand why such haplotype blocks exist, we need to consider our evolutionary history. It is thought that modern humans expanded from a relatively small population\u2014perhaps around 10,000 individuals\u2014that existed in Africa about 60,000 years ago. Among that small group of our ancestors, some individuals will have carried one set of genetic variants, others a different set. The chromosomes of a present-day human represent a shuffled combination of chromosome segments from different members of this small ancestral group of people. Because only about two thousand generations separate us from them, large segments of these ancestral chromosomes have passed from parent to child, unbroken by the crossover events that occur during meiosis. As described in Chapter 5, only a few crossovers occur between each set of homologous chromosomes during each meiosis (see Figure 5\u201353)."
+        },
+        {
+            "id": "InternalMed_Harrison_4833",
+            "title": "InternalMed_Harrison",
+            "content": "Genotype and Phnotype \u2022 alleles, GenotyPes, anD HaPlotyPes An observed trait is referred to as a phenotype; the genetic information defining the phenotype is called the genotype. Alternative forms of a gene or a genetic marker are referred to as alleles. Alleles may be polymorphic variants of nucleic acids that have no apparent effect on gene expression or function. In other instances, these variants may have subtle effects on gene expression, thereby conferring adaptive advantages associated with genetic diversity. On the other hand, allelic variants may reflect mutations that clearly alter the function of a gene product. The common Glu6Val (E6V) sickle cell mutation in the \u03b2-globin gene and the \u0394F508 deletion of phenylalanine (F) in the CFTR gene are examples of allelic variants of these genes that result in disease. Because each individual has two copies of each chromosome (one inherited from the mother and one inherited from the father), he or she can have only two alleles at a"
+        },
+        {
+            "id": "Pathology_Robbins_752",
+            "title": "Pathology_Robbins",
+            "content": "HLA genes are highly polymorphic; that is, there are alternative forms (alleles) of each gene at each locus (estimated to number over 10,000 for all HLA genes and over 3500 for HLA-B alleles alone). Each individual expresses only one set of HLA genes. It is believed that the polymorphism of MHC genes evolved to enable display of and response to any conceivable microbial peptide encountered in the environment. As a result of the polymorphism, a virtually infinite number of combinations of HLA molecules exists in the population. The HLA genes are closely linked on chromosome 6, so they are passed from parent to offspring en bloc and behave like a single locus with respect to their inheritance patterns. Each set of maternal and paternal HLA genes is referred to as an HLA haplotype. Because of this mode of inheritance, the probability that siblings will share the same two HLA haplotypes is 25%. By contrast, in most populations the probability that an unrelated donor will share the same"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1063",
+            "title": "Cell_Biology_Alberts",
+            "content": "The great majority of mutations that are not harmful are not beneficial either. These selectively neutral mutations can also spread and become fixed in a population, and they make a large contribution to evolutionary change in genomes. For example, as we saw earlier, they account for most of the DNA sequence differences between apes and humans. The spread of neutral mutations is not as rapid as the spread of the rare strongly advantageous mutations. It depends on a random variation in the number of mutation-bearing progeny produced by each mutation-bearing individual, causing changes in the relative frequency of the mutant allele in the population. Through a sort of \u201crandom walk\u201d process, the mutant allele may eventually become extinct, or it may become commonplace. This can be modeled mathematically for an idealized interbreeding population, on the assumption of constant population size and random mating, as well as selective neutrality for the mutations. While neither of the first"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1065",
+            "title": "Cell_Biology_Alberts",
+            "content": "When a new neutral mutation occurs in a population of constant size N that is undergoing random mating, the probability that it will ultimately become fixed is approximately 1/(2N). This is because there are 2N copies of the gene in the diploid population, and each of them has an equal chance of becoming the predominant version in the long run. For those mutations that do become fixed, the mathematics shows that the average time to fixation is approximately 4N generations. Detailed analyses of data on human genetic variation have suggested an ancestral population size of approximately 10,000 at the time when the current pattern of genetic variation was largely established. With a population that has reached this size, the probability that a new, selectively neutral mutation would become fixed is small (1/20,000), while the average time to fixation would be on the order of 800,000 years (assuming a 20-year generation time). Thus, while we know that the human population has grown"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1067",
+            "title": "Cell_Biology_Alberts",
+            "content": "Similar arguments explain another phenomenon with important practical implications for genetic counseling. In an isolated community descended from a small group of founders, such as the people of Iceland or the Jews of Eastern individual with rare allele Europe, genetic variants that are rare in the human population as a whole can often be present at a high frequency, even if those variants are mildly deleterious (Figure 4\u201378). A great Deal Can be learned from Analyses of the variation Among Humans Even though the common variant gene alleles among modern humans originate from variants present in a comparatively tiny group of ancestors, the total number of variants now encountered, including those that are individually rare, is very large. New neutral mutations are constantly occurring and accumulating, even though no single one of them has had enough time to become fixed in the vast modern human population."
+        },
+        {
+            "id": "First_Aid_Step1_39",
+            "title": "First_Aid_Step1",
+            "content": "If p and q represent the frequencies of alleles A and a, respectively, in a population, then p + q = 1: p2 = frequency of homozygosity for allele A q2 = frequency of homozygosity for allele a 2pq = frequency of heterozygosity (carrier frequency, if an autosomal recessive disease) Therefore, the sum of the frequencies of these genotypes is p2 + 2pq + q2 = 1. The frequency of an X-linked recessive disease in males = q and in females = q2. Hardy-Weinberg law assumptions include: No mutation occurring at the locus Natural selection is not occurring If a population is in Hardy-Weinberg equilibrium, then the values of p and q remain constant from generation to generation. Disorders of imprinting Imprinting\u2014one gene copy is silenced by methylation, and only the other copy is expressed \u008e parent-of-origin effects. Modes of inheritance Autosomal dominant Often due to defects in structural genes. Many generations, both males and females are affected. AaaaAaAaaaaa"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2381",
+            "title": "Cell_Biology_Alberts",
+            "content": "As a result, certain sets of DNA sequences\u2014and their associated polymorphisms\u2014have been inherited in linked groups, with little genetic rearrangement across the generations. These are the haplotype blocks. Like genes that exist in different allelic forms, haplotype blocks also come in a limited number of variants that are common in the human population, each representing a combination of DNA polymorphisms passed down from a particular ancestor long ago. Figure 8\u201350 Single-nucleotide polymorphisms (SNPs) are sites in the genome where two or more alternative choices of a nucleotide are common in the population. Most such variations in the human genome occur at locations where they do not significantly affect a gene\u2019s function. Polymorphisms Can Aid the Search for Mutations Associated with Disease"
+        }
+    ],
+    "scores": [
+        0.038055841783273356,
+        0.0368001463709638,
+        0.026052735143644236,
+        0.025354118621544477,
+        0.025288922963341568,
+        0.024271543738370645,
+        0.023470990391722096,
+        0.021155160628844837,
+        0.020900303750142117,
+        0.019929499428491655,
+        0.0190371697268249,
+        0.018721482819095178,
+        0.018354803401532373,
+        0.018295739348370928,
+        0.018283519786274835,
+        0.017615384615384616,
+        0.01722753485655887,
+        0.017220990391722098,
+        0.0172002601720026,
+        0.01668520578420467,
+        0.01660465757199945,
+        0.01641810570381999,
+        0.01641641641641642,
+        0.016388047913650124,
+        0.01604380212644044,
+        0.015973630831643,
+        0.015936507936507936,
+        0.015889029003783105,
+        0.015814183345688165,
+        0.015639980824544583,
+        0.015617433414043584,
+        0.015595794392523364
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5d387721a1e159510500000c",
+    "question": "Is induction of interferon by TLR7 higher in males?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the relevant information provided in the documents. According to Document [6], TLR-7 is expressed by plasmacytoid dendritic cells, B cells, and eosinophils, and it recognizes single-stranded RNA (ssRNA), which is a component of healthy mammalian cells. However, in abnormal settings, TLR-7 may be activated by self-derived ssRNA. Document [12] also states that mice lacking TLR-7 have impaired immune responses to viruses such as influenza. There is no information provided in the documents that indicates a difference in the induction of interferon by TLR-7 between males and females. Therefore, we cannot make an educated guess about the relationship between sex and the induction of interferon by TLR-7. The correct answer is likely B. no, as there is no evidence to suggest a difference in the induction of interferon by TLR-7 between males and females.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_518",
+            "title": "Immunology_Janeway",
+            "content": "In contrast to TLR-3, TLR-7, TLR-8, and TLR-9 signal uniquely through MyD88. For TLR-7 and TLR-9 signaling in plasmacytoid dendritic cells, the MyD88 TIR domain recruits the IRAK1/IRAK4 complex as described above. Here, the IRAK complex carries out a distinct function beyond recruiting TRAFs that generate a signaling scaffold. In these cells, IRAK1 can also physically associate with IRF7, which is highly expressed by plasmacytoid dendritic cells. This allows IRF7 to become phosphorylated by IRAK1, leading to induction of type I interferons (see Fig. 3.16). Not all IRF factors regulate type I interferon genes; IRF5, for example, plays a role in the induction of pro-inflammatory cytokines."
+        },
+        {
+            "id": "Immunology_Janeway_3171",
+            "title": "Immunology_Janeway",
+            "content": "many of the signaling functions of MyD88 and IRAK4 molecules are shared with IL1 family receptors. Thus, at least part of the immune defect in patients with inherited abnormalities in these molecules may be attributed to aberrant signaling by IL1 family members. Note also that NEMO deficiency, which impairs Bcell class switching (see Section 139), also impairs TLR and IL1 receptor family signaling through its block of normal NF\u03baB activation. Immunodeficiency associated with defects in NEMO therefore affects both adaptive and innate immune function. Interestingly, increased viral infections are not typical in patients with MyD88 mutations, despite this protein\u2019s role in signaling by each of the nucleic acidsensing TLRs except TLR3 (for example, TLR7, TLR8, and TLR9). This indicates that activation of interferon regulating factors (IRFs) that induce interferon responses downstream of these TLRs remains intact despite the defects in MyD88."
+        },
+        {
+            "id": "Pathology_Robbins_899",
+            "title": "Pathology_Robbins",
+            "content": "Type I interferons. Blood cells show a striking molecular signature that indicates exposure to interferon-\u03b1 (IFN\u03b1), a type I interferon that is produced mainly by plasmacytoid DCs. Some studies have shown that such cells from SLE patients produce abnormally large amounts of IFN-\u03b1. TLR signals. Studies in animal models have shown that TLRs that recognize DNA and RNA, notably the DNA-recognizing TLR9 and the RNA-recognizing TLR7, produce signals that activate B cells specific for self nuclear antigens. Other cytokines that may play a role in unregulated B-cell activation include the TNF family member BAFF, which promotes survival of B cells. In some patients and animal models, increased production of BAFF has been reported, and this has led to modest success of an antibody that blocks BAFF as a therapy for SLE."
+        },
+        {
+            "id": "InternalMed_Harrison_24479",
+            "title": "InternalMed_Harrison",
+            "content": "Source: Adapted from O Takeuchi, S Akira: Cell 140:805, 2010, with permission. Introduction to the Immune System FIGUrE 372e-1 Overview of major TLR signaling pathways. All TLRs signal through MyD88, with the exception of TLR3. TLR4 and the TLR2 subfamily (TLR1, TLR2, TLR6) also engage TIRAP. TLR3 signals through TRIF. TRIF is also used in conjunction with TRAM in the TLR4-MyD88independent pathway. Dashed arrows indicate translocation into the nucleus. dsRNA, double-strand RNA; IFN, interferon; IRF3, interferon regulatory factor 3; LPS, lipopolysaccharide; MAPK, mitogen-activated protein kinases; NF-\u03baB, nuclear factor-\u03baB; ssRNA, single-strand RNA; TLR, Toll-like receptor. (Adapted from D van Duin et al: Trends Immunol 27:49, 2006, with permission.) TLRs TLR2 (heterodimer with TLR1 or 6) Env of HIV; core protein of HCV; components of Mycobacterium tuberculosis; Helicobacter pylori, Lewis Ag Muramyl dipeptide of peptidoglycan of bacteria"
+        },
+        {
+            "id": "Pharmacology_Katzung_5472",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferons are host cytokines that exert complex antiviral, immunomodulatory, and antiproliferative actions (see Chapter 55). Interferon alfa appears to function by induction of intracellular signals following binding to specific cell membrane receptors, resulting in inhibition of viral penetration, translation, transcription, protein processing, maturation, and release, as well as increased host expression of major histocompatibility complex antigens, enhanced phagocytic activity of macrophages, and augmentation of the proliferation and survival of cytotoxic T cells."
+        },
+        {
+            "id": "InternalMed_Harrison_25001",
+            "title": "InternalMed_Harrison",
+            "content": "such as bacterial endotoxin, to normal mice leads to the production of a number of autoantibodies, including those to DNA and IgG (rheumatoid factor). A variety of genetic modifications resulting in hyperresponsiveness of B cells also can lead to the production of autoantibodies and, in animals of appropriate genetic background, a lupus-like syndrome. Moreover, excess B cell activating factor (BAFF), a B cell survival factor, can cause T cell\u2013independent B cell activation and the development of autoimmunity. SLE can also be induced in mice through exuberant dendritic cell activation, through a redundancy of TLR7 on the Y chromosome (as in BXSB-Yaa mice), or through exposure to CpG, a ligand for TLR9. The ensuing induction of inflammatory mediators can cause a switch from the production of nonpathogenic IgM auto-antibodies to the production of pathogenic IgG autoantibodies in the absence of antigen-specific T cell help. Aberrant selection of the B or T cell repertoire at the time of"
+        },
+        {
+            "id": "Immunology_Janeway_672",
+            "title": "Immunology_Janeway",
+            "content": "However, some immune cells seem to be specialized for this task. In Section 3-1 we introduced the plasmacytoid dendritic cell (pDC). Also called interferon-producing cells (IPCs) or natural interferon-producing cells, human plasmacytoid dendritic cells were initially recognized as rare peripheral blood cells that accumulate in peripheral lymphoid tissues during a viral infection and make abundant type I interferons (IFN-\u03b1 and IFN-\u03b2)\u2014up to 1000 times more than other cell types. This abundant production of type I interferon may result from the efficient coupling of viral recognition by TLRs to the pathways of interferon production (see Section 3-7). Plasmacytoid dendritic cells express a subset of TLRs that includes TLR-7 and TLR-9, which are endosomal sensors of viral RNA and of the nonmethylated CpG residues present in the genomes of many DNA viruses (see Fig. 3.11). The requirement for TLR-9 in sensing infections caused by DNA viruses has been demonstrated, for example, by the"
+        },
+        {
+            "id": "Immunology_Janeway_517",
+            "title": "Immunology_Janeway",
+            "content": "their carboxy termini. They then move to the nucleus as active transcription factors. Of the nine IRF family members, IRF3 and IRF7 are particularly important for TLR signaling and expression of antiviral type I interferons. For TLR-3, expressed by macrophages and conventional dendritic cells, the cytoplasmic TIR domain interacts with the adaptor protein TRIF. TRIF interacts with the E3 ubiquitin ligase TRAF3, which, like TRAF6, generates a polyubiquitin scaffold. In TLR-3 signaling, this scaffold recruits a multiprotein complex containing the kinases IKK\u03b5 and TBK1, which phosphorylate IRF3 (Fig. 3.16). TLR-4 also triggers this pathway by binding TRIF, but the IRF3 response induced by TLR-4 is relatively weak compared with that induced by TLR-3, and its functional role in vivo remains elusive. In contrast to TLR-3, TLR-7, TLR-8, and TLR-9 signal uniquely through MyD88. For TLR-7 and TLR-9 signaling in plasmacytoid dendritic cells, the MyD88 TIR domain recruits the IRAK1/IRAK4 complex"
+        },
+        {
+            "id": "Immunology_Janeway_519",
+            "title": "Immunology_Janeway",
+            "content": "The collective ability of TLRs to activate both IRFs and NF\u03baB means that they can stimulate either antiviral or antibacterial responses as needed. In human IRAK4 deficiency, for example, no extra susceptibility to viral infections has been noted. This would suggest that IRF activation is not impaired and the production of antiviral interferons is not affected. TLRs are expressed by different types of cells involved in innate immunity and by some stromal and epithelial cells, and the responses generated will differ in some respects depending on what type of cell is being activated. 3-8 The NOD-like receptors are intracellular sensors of bacterial infection and cellular damage."
+        },
+        {
+            "id": "InternalMed_Harrison_25126",
+            "title": "InternalMed_Harrison",
+            "content": "Studies of highly targeted experimental therapies for SLE are in progress. They include targeting (1) activated B lymphocytes with anti-CD22 or TACI-Ig, (2) inhibition of IFN-\u03b1, (3) inhibition of B/T cell second signal coactivation with CTLA-Ig, (4) inhibition of innate immune activation via TLR7 or TLR7 and 9, (5) induction of regulatory T cells with peptides from immunoglobulins or autoantigens; (6) suppression of T cells, B cells, and monocyte/macrophages with laquinimod; and (7) inhibition of lymphocyte activation by blockade of Jak/Stat. A few studies have used vigorous untargeted immunosuppression with high-dose cyclophosphamide plus anti-T cell strategies, with rescue by transplantation of autologous hematopoietic stem cells forthetreatmentofsevereandrefractory SLE. OneU.S.report showed an estimated mortality rate over 5 years of 15% and sustained remission in 50%. It is hoped that in the next edition of this text, we will be able to recommend more effective and less toxic"
+        },
+        {
+            "id": "Immunology_Janeway_499",
+            "title": "Immunology_Janeway",
+            "content": "3-7 TLRs activate NF\u03baB, AP-1, and IRF transcription factors to induce the expression of inflammatory cytokines and type I interferons. Signaling by mammalian TLRs in various cell types induces a diverse range of intracellular responses that together result in the production of inflammatory cytokines, chemotactic factors, antimicrobial peptides, and the antiviral cytokines interferon-\u03b1 and -\u03b2 (IFN-\u03b1 and IFN-\u03b2), the type I interferons. TLR signaling achieves this by activating several different signaling pathways that each activate different transcription factors. As mentioned earlier, ligand-induced dimerization of two TLR ectodomains brings the cytoplasmic TIR domains together, allowing them to interact with the TIR domains of cytoplasmic adaptor molecules that initiate intracellular signaling. There are Pattern recognition by cells of the innate immune system."
+        },
+        {
+            "id": "Immunology_Janeway_753",
+            "title": "Immunology_Janeway",
+            "content": "Honda, K., and Taniguchi, T.: IRFs: master regulators of signalling by Toll\u2011like receptors and cytosolic pattern\u2011recognition receptors. Nat. Rev. Immunol. 2006, 6:644\u2013658. Kawai, T., Sato, S., Ishii, K.J., Coban, C., Hemmi, H., Yamamoto, M., Terai, K., Matsuda, M., Inoue, J., Uematsu, S., et al.: Interferon\u2011alpha induction through Toll\u2011like receptors involves a direct interaction of IRF7 with MyD88 and TRAF6. Nat. Immunol. 2004, 5:1061\u20131068. Puel, A., Yang, K., Ku, C.L., von Bernuth, H., Bustamante, J., Santos, O.F., Lawrence, T., Chang, H.H., Al-Mousa, H., Picard, C., et al.: Heritable defects of the human TLR signalling pathways. J. Endotoxin Res. 2005, 11:220\u2013224. Von Bernuth, H., Picard, C., Jin, Z., Pankla, R., Xiao, H., Ku, C.L., Chrabieh, M., Mustapha, I.B., Ghandil, P., Camcioglu, Y., et al.: Pyogenic bacterial infections in humans with MyD88 deficiency. Science 2008, 321:691\u2013696."
+        },
+        {
+            "id": "Immunology_Janeway_492",
+            "title": "Immunology_Janeway",
+            "content": "by TLR-7. Mice lacking TLR-7 have impaired immune responses to viruses such as influenza. In abnormal settings, TLR-7 may be activated by self-derived ssRNA. Normally, extracellular RNases degrade the ssRNA released from apoptotic cells during tissue injury. But in a mouse model of lupus nephritis, an inflammatory condition of the kidney, TLR-7 recognition of self ssRNA was observed to contribute to disease. Several studies have identified polymorphisms in the human TLR-7 gene that are associated with increased risk of the autoimmune disease systemic lupus erythematosus, suggesting a potential role in this disease. The role for TLR-8 has not been established as clearly from mouse model systems as for TLR-7. TLR-9 recognizes unmethylated CpG dinucleotides. In mammalian genomes, CpG dinucleotides in genomic DNA are heavily methylated on the cytosine by DNA methyltransferases. But in the genomes of bacteria and many viruses, CpG dinucleotides remain unmethylated and represent another"
+        },
+        {
+            "id": "Immunology_Janeway_504",
+            "title": "Immunology_Janeway",
+            "content": "Signaling by most TLRs activates the transcription factor NF\u03baB (Fig. 3.15), which is related to DIF, the factor activated by Drosophila Toll. Mammalian TLRs also activate several members of the interferon regulatory factor (IRF) transcription factor family through a second pathway, and they activate members of the activator protein 1 (AP-1) family, such as c-Jun, through yet another signaling pathway involving mitogen-activated protein kinases (MAPKs). NF\u03baB and AP-1 act primarily to induce the expression of pro-inflammatory cytokines and chemotactic factors. The IRF factors IRF3 and IRF7 are particularly important for inducing antiviral type I interferons, whereas a related factor, IRF5, is involved in the production of pro-inflammatory cytokines. Here we will describe how TLR signaling induces the transcription of various cytokine genes; later in the chapter, we will explain how those cytokines exert their various actions."
+        },
+        {
+            "id": "Immunology_Janeway_774",
+            "title": "Immunology_Janeway",
+            "content": "Carrero, J.A., Calderon, B., and Unanue, E.R.: Type I interferon sensitizes lymphocytes to apoptosis and reduces resistance to Listeria infection. J. Exp. Med. 2004, 200:535\u2013540. Honda, K., Takaoka, A., and Taniguchi, T.: Type I interferon gene induction by the interferon regulatory factor family of transcription factors. Immunity 2006, 25:349\u2013360. Kawai, T., and Akira, S.: Innate immune recognition of viral infection. Nat. Immunol. 2006, 7:131\u2013137. Liu, Y.J.: IPC: professional type 1 interferon\u2011producing cells and plasmacytoid dendritic cell precursors. Annu. Rev. Immunol. 2005, 23:275\u2013306. Meylan, E., and Tschopp, J.: Toll\u2011like receptors and RNA helicases: two parallel ways to trigger antiviral responses. Mol. Cell 2006, 22:561\u2013569. Pietras, E.M., Saha, S.K., and Cheng, G.: The interferon response to bacterial and viral infections. J. Endotoxin Res. 2006, 12:246\u2013250."
+        },
+        {
+            "id": "Immunology_Janeway_2037",
+            "title": "Immunology_Janeway",
+            "content": "and secrete large amounts of class I interferons. This category of dendritic cell is less efficient in priming naive T cells, but they express the intracellular receptors TLr-7 and TLr-9 for sensing viral infections."
+        },
+        {
+            "id": "Immunology_Janeway_491",
+            "title": "Immunology_Janeway",
+            "content": "TLR-7, TLR-8, and TLR-9, like TLR-3, are endosomal nucleotide sensors involved in the recognition of viruses. TLR-7 and TLR-9 are expressed by plasmacytoid dendritic cells, B cells, and eosinophils; TLR-8 is expressed primarily by monocytes and macrophages. TLR-7 and TLR-8 are activated by single-stranded RNA (ssRNA), which is a component of healthy mammalian cells, but it is normally confined to the nucleus and cytoplasm and is not present in endosomes. Many virus genomes, for example, those of orthomyxoviruses (such as influenza) and flaviviruses (such as West Nile virus), consist of ssRNA. When extracellular particles of these viruses are endocytosed by macrophages or dendritic cells, they are uncoated in the acidic environment of endosomes and lysosomes, exposing the ssRNA genome for recognition by TLR-7. Mice lacking TLR-7 have impaired immune responses to viruses such as influenza. In abnormal settings, TLR-7 may be activated by self-derived ssRNA. Normally, extracellular RNases"
+        },
+        {
+            "id": "InternalMed_Harrison_24468",
+            "title": "InternalMed_Harrison",
+            "content": "TLRs have been identified in humans, and 13 TLRs have been identified in mice (Tables 372e-4 and 372e-5). Upon ligation, TLRs activate a series of intracellular events that lead to the killing of bacteria-and viral-infected cells as well as to the recruitment and ultimate activation of antigen-specific T and B lymphocytes (Fig. 372e-1). Importantly, signaling by massive"
+        },
+        {
+            "id": "Pathoma_Husain_47",
+            "title": "Pathoma_Husain",
+            "content": "II. SYSTEMIC LUPUS ERYTHEMATOSUS A. Chronic, systemic autoimmune disease 1. Flares and remissions are common. B. Classically arises in middle-aged females, especially African American and Hispanic women 1. May also arise in children and older adults (less dramatic gender bias) C. Antigen-antibody complexes damage multiple tissues (type III HSR). 1. Poorly-cleared apoptotic debris (e.g., from UV damage) activates self-reactive lymphocytes, which then produce antibodies to host nuclear antigens. 2. Antigen-antibody complexes are generated at low levels and taken up by dendritic cells. 3. DNA antigens activate TLRs, amplifying immune response (IFN-a). 4. Antigen-antibody complexes are subsequently generated at higher levels and deposit in multiple tissues causing disease. 5. Deficiency of early complement proteins (Clq, C4, and C2) is associated with SLE. D. Almost any tissue can be involved. Classic findings include 1."
+        },
+        {
+            "id": "InternalMed_Harrison_25197",
+            "title": "InternalMed_Harrison",
+            "content": "How might microbes or their products be involved in the initiating events of RA? The immune system is alerted to the presence of microbial infections through Toll-like receptors (TLRs). There are 10 TLRsinhumansthatrecognizeavarietyofmicrobialproducts,including bacterial cell-surface lipopolysaccharides and heat-shock proteins (TLR4), lipoproteins (TLR2), double-strand RNA viruses (TLR3), and unmethylated CpG DNA from bacteria (TLR9). TLR2, -3, and -4 are abundantly expressed by synovial fibroblasts in early RA and, when bound by their ligands, upregulate production of proinflammatory cytokines. Although such events could amplify inflammatory pathways in RA, a specific role for TLRs in disease pathogenesis has not been elucidated."
+        },
+        {
+            "id": "Immunology_Janeway_669",
+            "title": "Immunology_Janeway",
+            "content": "Type III interferons are a newly classified IFN family composed of the products of three IFN-\u03bb genes, also known as IL-28A, IL-28B, and IL-29, which bind a heterodimeric IFN-\u03bb receptor composed of a unique IL-28R\u03b1 subunit and the \u03b2 subunit of the IL-10 receptor. While receptors for type I interferons and IFN-\u03b3 are widespread in their tissue distribution, type III receptors are more restricted, not expressed by fibroblasts or epithelial cells, but expressed on epithelial cells. Type I interferons are inducible and are synthesized by many cell types after infection by diverse viruses. Almost all types of cells can produce IFN-\u03b1 and IFN-\u03b2 in response to activation of several innate sensors. For example, type I interferons are induced by RIG-I and MDA-5 (the sensors of cytoplasmic viral RNA) downstream of MAVS, and by signaling from cGAS (the sensor of cytoplasmic DNA) downstream of STING (see Sections 3-10 and 3-11)."
+        },
+        {
+            "id": "InternalMed_Harrison_24484",
+            "title": "InternalMed_Harrison",
+            "content": "production (Table 372e-7). Thus, DCs are important bridges between early (innate) and later (adaptive) immunity. DCs also modulate and determinethetypes ofimmuneresponsesinducedbypathogensviatheTLRs expressedonDCs(TLR7\u20139onplasmacytoidDCs,TLR4onmonocytoid DCs) and via the TLR adapter proteins that are induced to associate with TLRs (Fig. 372e-1, Table 372e-4). In addition, other PRRs, such as C-type lectins, NLRs, and mannose receptors, upon ligation by pathogenproducts,activatecellsoftheadaptiveimmunesystemand,likeTLR stimulation, by a variety of factors, determine the type and quality of the adaptive immune response that is triggered (Table 372e-4)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6205",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferons are proteins that are currently grouped into three families: IFN-`, IFN-a, and IFN-f. The IFN-\u03b1 and IFN-\u03b2 families constitute type I IFNs, ie, acid-stable proteins that bind to the same receptor on target cells. IFN-\u03b3, a type II IFN, is acid-labile and binds to a separate receptor on target cells. Type I IFNs are usually induced by virus infections, with leukocytes producing IFN-\u03b1. Fibroblasts and epithelial cells produce IFN-\u03b2. IFN-\u03b3 is usually the product of activated T lymphocytes."
+        },
+        {
+            "id": "InternalMed_Harrison_24480",
+            "title": "InternalMed_Harrison",
+            "content": "TLRs TLR2 (heterodimer with TLR1 or 6) Env of HIV; core protein of HCV; components of Mycobacterium tuberculosis; Helicobacter pylori, Lewis Ag Muramyl dipeptide of peptidoglycan of bacteria Mannosylated lipoarabinomannans from bacillus Calmette-Gu\u00e9rin and M. tuberculosis Low IL-12p70 TH1 High IL-10 TH2 IL-6 T regulatory IL-12p70 TH1 IFN-\u03b1 IL-6 High IL-12p70 TH1 Intermediate IL-10 IL-6 High IL-12p70 TH1 Low IL-12p70 TH2 High IL-12p70 TH1 IFN-\u03b1 IL-6 High IL-12p70 TH1 Low IL-10 IL-6 IFN-\u03b1 ?? ?? H. pylori, Lewis Ag TH2 Suppresses IL-12p70 T regulatory Suppresses TLR signaling in DCs Induces IL-10 in DCs Weak T cell response (tolerogenic?) Suppresses IL-12 and TLR signaling in DCs Weak T cell response? (tolerogenic?)"
+        },
+        {
+            "id": "Immunology_Janeway_737",
+            "title": "Immunology_Janeway",
+            "content": "Having introduced immunology with a consideration of innate immune function, we next turn our attention to the adaptive immune response, beginning with an explanation of the structure and function of the antigen receptors expressed by lymphocytes. Questions. 3.1 Matching: Match the Toll-like receptor (TLR) to its ligand: A. TLR-2:TLR-1 or i. ssRNA TLR-2:TLR-6 B. TLR-3 ii. Lipopolysaccharide C. TLR-4 iii. Lipoteichoic acid and di-/triacyl lipoproteins D. TLR-5 iv. dsRNA E. TLR-7 v. Flagellin F. TLR-9 vi. Unmethylated CpG DNA 3.2 Matching: Match the hereditary disorder to the gene affected: A. Chronic granulomatous i. NOD2 disease B. X-linked hypohidrotic ii. IKK\u03b3 (NEMO) ectodermal dysplasia and immunodeficiency C. Crohn\u2019s disease iii. Jak3 D. X-linked SCID iv. NAPDH oxidase E. SCID (not X-linked) v. NLRP3 F. Familial cold vi. \u03b3c inflammatory syndrome 3.3 Multiple Choice: Which of the following does not occur during an inflammatory response? A. Local blood clotting"
+        },
+        {
+            "id": "InternalMed_Harrison_9565",
+            "title": "InternalMed_Harrison",
+            "content": "In addition to their role in MyD88-mediated signaling, some TLRs (e.g., TLR3 and TLR4) can activate signal transduction via a MyD88-independent pathway involving TIR domain\u2013containing, adapter-inducing IFN-\u03b2 (TRIF) and the TRIF-related adapter molecule (TRAM). Signaling through TRIF and TRAM activates the production of both NF-\u03baB-dependent cytokines/chemokines and type 1 IFNs. CHAPTER 145e Molecular Mechanisms of Microbial Pathogenesis Anti-viral compounds, Inflammation, immune regulation, survival, proliferation"
+        },
+        {
+            "id": "Pathology_Robbins_343",
+            "title": "Pathology_Robbins",
+            "content": "a number of secreted and membrane proteins. These proteins include cytokines that induce inflammation, anti-viral cytokines (interferons), and cytokines and membrane proteins that promote lymphocyte activation and even more potent immune responses. We will return to TLRs in more detail in Chapter 5, when we discuss innate immunity, the early defense against infections."
+        },
+        {
+            "id": "InternalMed_Harrison_23810",
+            "title": "InternalMed_Harrison",
+            "content": "response [RVR]) have a very high likelihood of achieving an SVR (Fig. 362-2). Therefore, to achieve rapid viral clearance from serum and the liver, high-dose induction therapy has been advocated. In practice, however, high-dose induction with IFN-based therapy has not yielded higher sustained response rates."
+        },
+        {
+            "id": "Immunology_Janeway_1324",
+            "title": "Immunology_Janeway",
+            "content": "When cells are treated with the interferons IFN-\u03b1, -\u03b2, or -\u03b3, there is a marked increase in the transcription of MHC class I \u03b1-chain and \u03b22-microglobulin genes and of the proteasome, tapasin, and TAP genes. Interferons are produced early in viral infections as part of the innate immune response, as described in Chapter 3. The increase in MHC expression they produce helps all cells to process viral proteins and present the resulting virus-derived peptides on their surface (except for red blood cells). On dendritic cells, this helps to activate the appropriate T cells and initiate the adaptive immune response to the virus. The coordinated regulation of the genes encoding these components may be facilitated by the linkage of many of them in the MHC."
+        },
+        {
+            "id": "Immunology_Janeway_3236",
+            "title": "Immunology_Janeway",
+            "content": "Viruses are both the simplest and most diverse of pathogens. They can replicate only within living cells, relying on host cellular machinery to replicate and propagate themselves. As obligate intracellular pathogens, they activate intracellular PRRs that sense viral genetic material and provoke cytolytic immune responses by innate and adaptive immune cells\u2014NK cells and CD8 T cells, respectively. They also induce type I interferon responses, which activate cellintrinsic mechanisms to limit viral replication in both infected and uninfected cells. Although many cells produce type I interferons, plasmacytoid dendritic cells are innate sensor cells that are specialized for high levels of type I interferon production early in viral infections and, along with NK cells, play a central role in early antiviral host defense before the adaptive response matures. The latter involves all arms of adaptive immunity: induction of TH1 cells that provide help for production of opsonizing and"
+        },
+        {
+            "id": "Immunology_Janeway_580",
+            "title": "Immunology_Janeway",
+            "content": "I interferons. The signaling pathways activated by all of these primary sensors of pathogens induce a variety of genes, including those for cytokines, chemokines, and co-stimulatory molecules that have essential roles in immediate defense and in directing the course of the adaptive immune response later in infection."
+        },
+        {
+            "id": "InternalMed_Harrison_24776",
+            "title": "InternalMed_Harrison",
+            "content": "Certain TLRs (TLR-3, -7, -8, and -9) are involved in the recognition of RNA and DNA and usually become engaged during viral infections. Very specific susceptibility to herpes simplex encephalitis has been described in patients with a deficiency in Unc93b (a molecule associated with TLR-3, -7, -8, and -9 required for correct subcellular localization), TLR-3, or associated signaling molecules TRIF, TBK1, and TRAF3, resulting in defective type I IFN production. The fact that no other TLR deficiencies have been found\u2014despite extensive screening of patients with unexplained, recurrent infections\u2014strongly suggests that these receptors are functionally redundant. Hypomorphic mutations in NEMO/IKK-\u03b3 (a member of the NF-\u03baB complex, which is activated downstream of TLR receptors) lead to a complex, variable immunodeficiency and a number of associated features. Susceptibility to both invasive, pyogenic infections and mycobacteria may be observed in this particular setting."
+        }
+    ],
+    "scores": [
+        0.03460800849082875,
+        0.03430216245750226,
+        0.029061239457279064,
+        0.025634230666362404,
+        0.023079659396607305,
+        0.019327731092436976,
+        0.019246784491533265,
+        0.019205974842767294,
+        0.019049346879535557,
+        0.018653479090751345,
+        0.018532818532818532,
+        0.018334151792425413,
+        0.018255746411086217,
+        0.01803107139982291,
+        0.017662620603797072,
+        0.017048327674637,
+        0.01702158481819499,
+        0.01582751744765703,
+        0.01558837318330989,
+        0.015527202696196438,
+        0.015326715392167557,
+        0.015252676413030965,
+        0.015211104684788895,
+        0.015109890109890112,
+        0.0150997150997151,
+        0.015051208057488824,
+        0.01448602948757604,
+        0.0144004144004144,
+        0.014388120839733742,
+        0.014304915514592934,
+        0.014164986075098435,
+        0.01398635477582846
+    ]
+}

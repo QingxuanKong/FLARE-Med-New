@@ -1,0 +1,206 @@
+{
+    "id": "5e4d6e446d0a27794100002f",
+    "question": "Is MAGE-A3 immunotherapeutic effective for non-small-cell lung cancer?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents to determine if MAGE-A3 is an immunotherapeutic effective for non-small-cell lung cancer (NSCLC). According to Document [4] (Title: Pharmacology_Katzung), Nivolumab is approved for non-small cell lung cancer, melanoma, and other cancers. Document [8] (Title: Pharmacology_Katzung) mentions that Necitumumab is a Mab directed against epidermal growth factor receptor (EGFR) and approved for use in patients with squamous non-small cell lung cancer in combination with gemcitabine and cisplatin. However, Document [4] (Title: Pharmacology_Katzung) also mentions that Nivolumab is approved for non-small cell lung cancer, which implies that MAGE-A3 is not explicitly mentioned as an approved treatment for NSCLC. Furthermore, Document [4] (Title: Pharmacology_Katzung) lists other approved treatments for NSCLC, such as ipilimumab and pembrolizumab, which target different pathways. Therefore, we can conclude that MAGE-A3 is not an immunotherapeutic effective for non-small-cell lung cancer based on the provided documents.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_6033",
+            "title": "Pharmacology_Katzung",
+            "content": "Lung cancer is divided into two main histopathologic subtypes, non-small cell and small cell. Non-small cell lung cancer (NSCLC) makes up about 75\u201380% of all cases of lung cancer, and this group includes adenocarcinoma, squamous cell cancer, and large cell cancer, while small cell lung cancer (SCLC) makes up the remaining 20\u201325%. When NSCLC is diagnosed in an advanced stage with metastatic disease, the prognosis is extremely poor, with a median survival of about 8 months. It is clear that prevention (primarily through avoidance of cigarette smoking) and early detection remain the most important means of control. When diagnosed at an early stage, surgical resection results in patient cure. Moreover, recent studies have shown that adjuvant platinum-based chemotherapy provides a survival benefit in patients with pathologic stage IB, II, and IIIA disease. However, in most cases, distant metastases have occurred at the time of diagnosis. In certain instances, radiation therapy can be"
+        },
+        {
+            "id": "Pharmacology_Katzung_6166",
+            "title": "Pharmacology_Katzung",
+            "content": "Nivolumab is approved for Hodgkin\u2019s lymphoma, renal cell carcinoma, non-small cell lung cancer, and melanoma. Pembrolizumab is approved for the treatment of head and neck cancer, melanoma (and ipilimumab-resistant melanoma), Merkel cell carcinoma, non-small cell lung cancer, and cancers in HIV-positive patients. Atezolizumab is approved for bladder cancer and is in late-stage clinical trials for several other cancer types."
+        },
+        {
+            "id": "InternalMed_Harrison_6817",
+            "title": "InternalMed_Harrison",
+            "content": "Immunotherapy For more than 30 years, the investigation of vaccines and immunotherapies in lung cancer has yielded little in the way of meaningful benefit. Recently, however, this perception has changed based on preliminary results of studies using monoclonal antibodies that activate antitumor immunity through blockade of immune checkpoints. For example, ipilimumab, a monoclonal antibody directed at cytotoxic T lymphocyte antigen-4 (CTLA-4), was studied in combination with paclitaxel plus carboplatin in patients with both SCLC and NSCLC. There appeared to be a small but not statistically significant advantage to the combination when ipilimumab was instituted after several cycles of chemotherapy. A randomized phase III trial in SCLC is under way to validate these data. Antibodies to the T cell programmed cell death receptor 1 (PD-1), nivolumab and pembrolizumab, have been shown to produce responses in lung cancer, renal cell cancer, and melanoma. Many of these responses have had very"
+        },
+        {
+            "id": "Pharmacology_Katzung_6164",
+            "title": "Pharmacology_Katzung",
+            "content": "Dinutuximab is a ganglioside D2 (GD2)-binding Mab approved for pediatric patients with high-risk neuroblastoma in combination with granulocyte-macrophage colony-stimulating factor (GM-CSF), interleukin-2 (IL-2), and 13-cis-retinoic acid (RA) who achieve at least a partial response to prior first-line multiagent, multimodality therapy. It has a black box warning for serious infusion reactions and neurotoxicity in the majority of patients. Necitumumab is a Mab directed against epidermal growth factor receptor (EGFR) and approved for use in patients with squamous non-small cell lung cancer in combination with gemcitabine and cisplatin. There is a black box warning for cardiopulmonary arrest and hypomagnesemia."
+        },
+        {
+            "id": "Immunology_Janeway_4117",
+            "title": "Immunology_Janeway",
+            "content": "infiltrating the tumor and propagated in vitro. These T cells do not recognize the products of mutant proto-oncogenes or tumor suppressor genes, but instead recognize antigens derived from the protein products of other mutant genes or from normal proteins that are now displayed on tumor cells at levels detectable by T cells for the first time. Cancer-testis antigens such as the melanoma MAGE antigens discussed above probably represent early developmental antigens reexpressed in the process of tumorigenesis. Only a minority of melanoma patients have T cells reactive to the MAGE antigens, indicating that these antigens either are not expressed or are not immunogenic in most cases."
+        },
+        {
+            "id": "InternalMed_Harrison_6830",
+            "title": "InternalMed_Harrison",
+            "content": "targeted inhibitors based specifically on the tumor\u2019s molecular profile. Furthermore, increased understanding of how to activate the immune system to drive antitumor immunity is proving to be a promising therapeutic strategy for some patients with advanced lung cancer. In Fig. 107-8, we propose an algorithm of the treatment approach for patient with stage IV NSCLC. However, the reality is that the majority of patients treated with targeted therapies or chemotherapy eventually develop resistance, which provides strong motivation for further research and enrollment of patients onto clinical trials in this rapidly evolving area. Marc E. Lippman"
+        },
+        {
+            "id": "Pharmacology_Katzung_6036",
+            "title": "Pharmacology_Katzung",
+            "content": "cell histology, a platinum-based chemotherapy regimen in combination with the anti-EGFR antibody cetuximab is a reasonable treatment strategy. Maintenance chemotherapy with pemetrexed is now used in patients with non-squamous NSCLC whose disease has remained stable after four cycles of platinum-based first-line chemotherapy."
+        },
+        {
+            "id": "Pathology_Robbins_3288",
+            "title": "Pathology_Robbins",
+            "content": "target. Much effort is currently being devoted to understanding the mechanisms of targeted drug resistance in order to develop strategies that prevent it from occurring. Immune checkpoint inhibitors produce responses in a subset of tumors, particularly those that are smoking related (perhaps because of a high burden of tumor"
+        },
+        {
+            "id": "Immunology_Janeway_4113",
+            "title": "Immunology_Janeway",
+            "content": "The second category of tumor rejection antigens is the cancer-testis antigens. These are proteins encoded by genes that are normally expressed only in male germ cells in the testis. Male germ cells do not express MHC molecules, and therefore peptides from these molecules are not normally presented to T lymphocytes. Tumor cells show widespread abnormalities of gene expression, including the activation of genes encoding cancer-testis antigens, such as the melanoma-associated antigens (MAGE) (see Fig. 16.17). When expressed by tumor cells, peptides derived from these \u2018germ-cell\u2019 proteins can now be presented to T cells by MHC class I molecules. Therefore, these proteins are effectively tumor-specific in their expression as antigens. Perhaps the cancer-testis antigen best characterized immunologically is NY-ESO-1 (New York esophageal squamous cell carcinoma-1), which is highly immunogenic and is expressed by a variety of human tumors, including melanomas."
+        },
+        {
+            "id": "InternalMed_Harrison_6805",
+            "title": "InternalMed_Harrison",
+            "content": "Agents That Inhibit Angiogenesis Bevacizumab, a monoclonal antibody directed against VEGF, was the first antiangiogenic agent approved for the treatment of patients with advanced NSCLC in the United States. This drug primarily acts by blocking the growth of new blood vessels, which are required for tumor viability. Two randomized phase III trials of chemotherapy with or without bevacizumab had conflicting results. The first trial, conducted in North America, compared carboplatin plus paclitaxel with or without bevacizumab in patients with recurrent or advanced nonsquamous NSCLC and reported a significant improvement in response rate, progression-free survival, and overall survival in patients treated with chemotherapy plus bevacizumab versus chemotherapy alone. Bevacizumab-treated patients had a significantly higher incidence of toxicities. The second trial, conducted in Europe, compared cisplatin/gemcitabine with or without bevacizumab in patients with recurrent or advanced"
+        },
+        {
+            "id": "InternalMed_Harrison_6803",
+            "title": "InternalMed_Harrison",
+            "content": "18.6 aEnrolled selected patients: 18 years of age or older, had histologic or cytologically confirmed stage IIIB or IV non-small-cell lung cancer with histologic features of adenocarcinoma (including bronchioloalveolar carcinoma), were nonsmokers (defined as patients who had smoked <100 cigarettes in their lifetime) or former light smokers (those who had stopped smoking at least 15 years previously and had a total of \u226410 pack-years of smoking), and had had no previous chemotherapy or biologic or immunologic therapy."
+        },
+        {
+            "id": "InternalMed_Harrison_6607",
+            "title": "InternalMed_Harrison",
+            "content": "immune-based therapy (IL-2, ipilimumab, and anti-PD-1) is the durability of the responses achieved. Although the percentage of patients whose tumors regress following immunotherapy is lower than the response rate after targeted therapy (see below), the durability of immunotherapy-induced responses (>10 years in some cases) appears to be superior to responses after targeted therapy and suggests that many of these patients have been cured."
+        },
+        {
+            "id": "InternalMed_Harrison_6406",
+            "title": "InternalMed_Harrison",
+            "content": "The anti-VEGF antibody bevacizumab shows little evidence of antitumor effect when used alone, but when combined with chemotherapeutic agents, it improves the magnitude of tumor shrinkage and time to disease progression in colorectal and nonsquamous lung cancers. The mechanism for the effect is unclear and may relate to the capacity of the antibody to alter delivery and tumor uptake of the active chemotherapeutic agent. Ziv-aflibercept is not an antibody, but a solubilized VEGF receptor VEGF binding domain, and therefore may have a distinct mechanism of action with comparable side effects."
+        },
+        {
+            "id": "Surgery_Schwartz_2383",
+            "title": "Surgery_Schwartz",
+            "content": "in the treatment of malignant melanoma. Cancer Invest. 2007;25:613-631. 155. Balar AV, Weber JS. PD-1 and PD-L1 antibodies in cancer: current status and future directions. Cancer Immunol Immu-nother. 2017;6:551-564. 156. Hodi FS, O\u2019Day SJ, McDermott DF, et al. Improved survival with ipilimumab in patients with metastatic melanoma. The N Engl J Med. 2010;363:711-723. 157. Robert C, Thomas L, Bondarenko I, et al. Ipilimumab plus dacarbazine for previously untreated metastatic melanoma. N Engl J Med. 2011;364:2517-2526. 158. Jacquelot N, Roberti MP, Enot DP, et al. Predictors of responses to immune checkpoint blockade in advanced mela-noma. Nat Commun. 2017;8:592. 159. Cusack JC, Jr., Tanabe KK. Introduction to cancer gene ther-apy. Surg Oncol Clin N Am. 2002;11:497-519. 160. Morrow C, Cowan K. Drug resistance and its clinical circum-vention. In: Bast R, Kufe D, Pollock R, eds. Cancer Medicine. Hamilton: B.C. Decker, Inc; 2000:539. 161. Mittendorf EA, Wu Y, Scaltriti M, et al. Loss of"
+        },
+        {
+            "id": "Pharmacology_Katzung_6040",
+            "title": "Pharmacology_Katzung",
+            "content": "Small cell lung cancer is the most aggressive form of lung cancer. It is usually exquisitely sensitive, at least initially, to platinum-based combination regimens, including cisplatin and etoposide or cisplatin and irinotecan. Unfortunately, drug resistance eventually develops in nearly all patients with extensive disease. When diagnosed at an early stage, this disease is potentially curable using combined chemotherapy and radiation therapy. Topotecan is used as second-line monotherapy in patients who have failed a platinum-based regimen."
+        },
+        {
+            "id": "InternalMed_Harrison_6818",
+            "title": "InternalMed_Harrison",
+            "content": "cell programmed cell death receptor 1 (PD-1), nivolumab and pembrolizumab, have been shown to produce responses in lung cancer, renal cell cancer, and melanoma. Many of these responses have had very long duration (i.e., >1 year). Monoclonal antibodies to the PD-1 ligand (anti-PDL-1), which may be expressed on the tumor cell, have also been shown to produce responses in patients with melanoma and lung cancer. Preliminary studies in melanoma suggest that the combination of ipilimumab and nivolumab could produce higher response rates compared to either agent alone. A similar strategy is being investigated in SCLC patients. Further evaluation of these agents in both NSCLC and SCLC is ongoing in combination with already approved chemotherapy and targeted agents."
+        },
+        {
+            "id": "InternalMed_Harrison_6816",
+            "title": "InternalMed_Harrison",
+            "content": "Most of these mutations are present in adenocarcinoma; however, mutations that may be linked to future targeted therapies in squamous cell carcinomas are emerging. In addition, there are active research efforts aimed at defining novel targetable mutations in lung cancer as well as defining mechanisms of acquired resistance to small-molecule inhibitors used in the treatment of patients with NSCLC. to supportive care alone. As first-line chemotherapy regimens improve, a substantial number of patients will maintain a good performance status and a desire for further therapy when they develop recurrent disease. Currently, several agents are FDA approved for second-line use in NSCLC including docetaxel, pemetrexed, erlotinib (approved for second-line therapy regardless of tumor genotype), and crizotinib (for patients with ALK -mutant lung cancer only). Most of the survival benefit for any of these agents is realized in patients who maintain a good performance status."
+        },
+        {
+            "id": "Pathology_Robbins_3287",
+            "title": "Pathology_Robbins",
+            "content": "Overall, squamous cell carcinoma and adenocarcinoma carry a more favorable prognosis than SCLC. When squamous cell carcinomas or adenocarcinomas are detected before metastasis or local spread (as in high-risk patients undergoing surveillance imaging), cure is possible by lobectomy or pneumonectomy. Unresectable adenocarcinomas associated with targetable mutations in tyrosine kinases such as EGFR may show remarkable responses to specific inhibitors. A few of these patients have long-term remissions on the order of years, but relapse within months to a year or so is typical. Inevitably, resistant tumors are found to have new mutations that either alter the drug target themselves (e.g., an additional mutation in EGFR that prevents drug binding) or circumvent tumor dependence on the drug target. Much effort is currently being devoted to understanding the mechanisms of targeted drug resistance in order to develop strategies that prevent it from occurring. Immune checkpoint inhibitors"
+        },
+        {
+            "id": "Pharmacology_Katzung_6039",
+            "title": "Pharmacology_Katzung",
+            "content": "Squamous cell NSCLC makes up approximately 30% of NSCLC. This form of NSCLC is responsive to platinum-based chemotherapy with either cisplatin or carboplatin in combination with gemcitabine. Recent studies have shown superior clinical activity when cisplatin and gemcitabine are combined with the anti-EGFR antibody necitumumab when compared to the cisplatin-gemcitabine combination in the first-line treatment of metastatic disease. In 2015, the immune checkpoint inhibitor nivolumab was approved to treat metastatic squamous cell NSCLC whose cancer has progressed during or after standard platinum-based chemotherapy. This agent binds to the PD-1 receptor and inhibits the PD-1 immune signaling pathway, which then leads to activation and proliferation of T cells as well as inhibition of T-regulatory cells."
+        },
+        {
+            "id": "Surgery_Schwartz_4532",
+            "title": "Surgery_Schwartz",
+            "content": "and electron micros-copy are used as adjuncts in diagnosis, particularly in the assess-ment of potential neuroendocrine tumors.Non\u2013Small Cell Lung Carcinoma. The term non\u2013small cell lung carcinoma (NSCLC) includes many tumor cell types, including large cell, squamous cell, and adenocarcinoma. His-torically, these subtypes were considered to be a uniform group based on limited understanding of the distinct clinical behaviors of the subtypes as well as the fact that there were few treat-ment options available. With increasing understanding of the molecular biology underlying these tumor subtypes, however, the approach to diagnosis and management and the terminology used in describing these tumors are evolving rapidly.Adenocarcinoma The incidence of adenocarcinoma has increased over the last several decades, and it is now the most common lung cancer, accounting for 30% of lung cancers in Table 19-1Difference between invasive mucinous adenocarcinoma and nonmucinous adenocarcinoma in"
+        },
+        {
+            "id": "Surgery_Schwartz_2308",
+            "title": "Surgery_Schwartz",
+            "content": "have been identified that can be recognized by both CD8+ cytotoxic T cells and CD4+ helper T cells, including MART-1, gp 100, MAGE1, tyrosinase, TRP-1, TRP-2, and NY-ESO-1.151 Antigens tested usually are over-expressed or mutated in cancer cells. Tissue specificity and immunogenicity are important determinants in choosing an appropriate target. Vaccines directed at defined tumor antigens aim to combine selected tumor antigens and appropriate routes for delivering these antigens to the immune system to optimize antitumor immunity.152 Several different vaccination approaches have been studied, including tumor cell-based vaccines, pep-tide-based vaccines, recombinant virus-based vaccines, DNA-based vaccines, and dendritic cell vaccines.In adoptive transfer, antigen-specific effector cells (i.e., cytotoxic T lymphocytes) or antigen-nonspecific effector cells Brunicardi_Ch10_p0305-p0354.indd 34422/02/19 2:14 PM 345ONCOLOGYCHAPTER 10(i.e., natural killer cells) can be transferred to a"
+        },
+        {
+            "id": "InternalMed_Harrison_6597",
+            "title": "InternalMed_Harrison",
+            "content": "The treatment for patients with stage IV melanoma has changed dramatically in the past 2 years. Two new classes of therapeutic agents for melanoma have been approved by the U.S. Food and Drug Administration (FDA). The immune T cell checkpoint inhibitor, ipilimumab, and three new oral agents that target the MAP kinase pathway: the BRAF inhibitors, vemurafenib and dabrafenib, and the Surgery: Metastasectomy for small number of lesions Immunotherapy: Anti-CTLA-4: ipilimumab Anti-PD-1: nivolumab, lambrolizumab Molecular targeted therapy: BRAF inhibitor: vemurafenib, dabrafenib MEK inhibitor: trametinib Chemotherapy: dacarbazine, temozolomide, paclitaxel, albumin-bound paclitaxel (Abraxane), carboplatin MEK inhibitor, trametinib, are now available, so patients with stage IV disease now have multiple therapeutic options (Table 105-4)."
+        },
+        {
+            "id": "Neurology_Adams_9859",
+            "title": "Neurology_Adams",
+            "content": "A relatively new strategy for treating certain cancers involves increasing the activity of host antitumor immunity through inhibition of intrinsic down-regulators of T-cell immunity. Several drugs have been approved for the treatment of melanoma, non-small-cell lung cancer, and other malignancies; these include pembrolizumab, ipilimumab, nivolumab, and others. These drugs are monoclonal antibodies that target immune down-regulators such as programmed cell death 1 (PD-1) and cytotoxic T-lymphocyte antigen 4 (CTLA-4). As reviewed by Postow and colleagues, the inhibition of intrinsic immune downregulation results in an increase in immune activity that is accompanied by inflammation. This inflammation can adversely affect any organ; from a neurological perspective, the main problems encountered are encephalitis, aseptic meningitis, hypophysitis, uveitis, and a Guillain-Barr\u00e9 type of generalized neuropathy. We have encountered cases of the last of these with widely varying severity but"
+        },
+        {
+            "id": "InternalMed_Harrison_6612",
+            "title": "InternalMed_Harrison",
+            "content": "No chemotherapy regimen has ever been shown to improve survival in metastatic melanoma, and the advances in immunotherapy and targeted therapy have relegated chemotherapy to the palliation of symptoms. Drugs with antitumor activity include dacarbazine (DTIC) or its orally administered analog temozolomide (TMZ), cisplatin and carboplatin, the taxanes (paclitaxel alone or albumin-bound and docetaxel), and carmustine (BCNU), which have reported response rates of 12\u201320%."
+        },
+        {
+            "id": "Surgery_Schwartz_2307",
+            "title": "Surgery_Schwartz",
+            "content": "vaccines. These have the potential advantage of being more likely to contain anti-gens relevant for the individual patient but have the disadvantage of requiring a large amount of tumor tissue for preparation, which restricts eligibility of patients for this modality. Strategies to enhance immunogenicity of tumor cells include the introduction of genes encoding cytokines or chemokines, and fusion of the tumor cells to allogeneic MHC class II-bearing cells.150 Alternatively, heat shock proteins derived from a patient\u2019s tumor can be used because heat shock protein peptide complexes are readily taken up by dendritic cells for presentation to T cells.150Identification of tumor antigens has made it possible to perform antigen-specific vaccination. For example, in the case of melanoma, several antigens have been identified that can be recognized by both CD8+ cytotoxic T cells and CD4+ helper T cells, including MART-1, gp 100, MAGE1, tyrosinase, TRP-1, TRP-2, and NY-ESO-1.151 Antigens tested"
+        },
+        {
+            "id": "Immunology_Janeway_4239",
+            "title": "Immunology_Janeway",
+            "content": "B. Clinical trials of vaccines against HPV-16 and HPV18 (associated with 70% of cervical cancers) were 100% effective in preventing cervical cancers caused by these viruses. C. Cell-based cancer vaccines can use the patient\u2019s tumor as a source of antigens. In order to enhance immunogenicity these can be mixed with adjuvants such as CpG, which binds to TLR-7. 16.5 Multiple Choice: Which of the following treatments against cancer is a checkpoint blockade therapy? (One or more may apply.) A. Ipilimumab (anti-CTLA-4 antibody) B. Trastuzumab (anti-HER-2/neu antibody) C. Rituximab (anti-CD20 antibody) D. Pembrolizumab (anti-PD-1 antibody) E. Sipuleucel-T (patient\u2019s dendritic cells cultured with prostatic acid phosphatase tumor antigen and GM-CSF and reinfused into patient) 16.6 True or False: Chimeric antigen receptor (CAR) T cells can recognize other target molecules besides peptide:MHC complexes."
+        },
+        {
+            "id": "InternalMed_Harrison_6829",
+            "title": "InternalMed_Harrison",
+            "content": "Core biopsy of most distant site of disease Squamous carcinoma Adenocartcinoma Obtain tissue Determine histology Determine molecular status Treatment options EGFRmut Erlotinib or afatinib Crizotinib No mutation or mutation for which there is no FDA approved therapy Platinum-based chemothearpy \u00b1 bevacizumab Cisplatin or carboplatin + gemcitabine, doc-etaxel, paclitaxel, or nab-paclitaxel Platinum-based chemotherapy ALK (+) Large-cell neuroendocrine carcinoma FIGURE 107-8 Approach to first-line therapy in a patient with stage IV non-small-cell lung cancer (NSCLC). EGFRmut, EGFR mutation; FDA, Food and Drug Administration."
+        },
+        {
+            "id": "InternalMed_Harrison_7166",
+            "title": "InternalMed_Harrison",
+            "content": "showed an improvement in response rate and progression-free survival over single-agent gemcitabine, but no overall survival benefit. However, pooling of two other randomized controlled trials with this trial in a meta-analysis resulted in a survival advantage with GEM-CAP. Addition of erlotinib, a small-molecule epidermal growth factor receptor inhibitor, produced a statistically significant but clinically marginal benefit when added to gemcitabine in the advanced disease setting. A phase III trial limited to good performance status patients with metastatic pancreatic cancer showed improved survival with the combination of 5-FU/FA, irinotecan, and oxaliplatin (FOLFIRINOX) compared with gemcitabine, but with increased toxicity (Table 112-2)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5694",
+            "title": "Cell_Biology_Alberts",
+            "content": "Despite the complications with resistance, the extraordinary success of imatinib is enough to drive home an important principle: once we understand precisely what genetic lesions have occurred in a cancer, we can begin to design effective rational methods to treat it. This success story has fueled efforts to identify small-molecule inhibitors for other oncogenic protein kinases and to use them to attack the appropriate cancer cells. Increasing numbers are being developed. These include molecules that target the EGF receptor and are currently approved for the treatment of some lung cancers, as well as drugs that specifically target the B-Raf oncoprotein in melanomas."
+        },
+        {
+            "id": "Pharmacology_Katzung_6159",
+            "title": "Pharmacology_Katzung",
+            "content": "Bevacizumab is a humanized IgG1 monoclonal antibody that binds to vascular endothelial growth factor (VEGF) and inhibits VEGF from binding to its receptor, especially on endothelial cells. It is an antiangiogenic drug that has been shown to inhibit growth of blood vessels (angiogenesis) in tumors. It is approved for firstand second-line treatment of patients with metastatic colorectal cancer alone or in combination with appropriate chemotherapy. It is also approved for treatment of non-small cell lung cancer, glioblastoma multiforme that has progressed after prior treatment, and metastatic kidney cancer when used with IFN-\u03b1. Since bevacizumab is antiangiogenic, it should not be administered until patients heal from surgery. Patients taking the drug should be watched for hemorrhage, gastrointestinal perforations, and wound healing problems. Bevacizumab has also been used off label by intravitreal injection to slow progression of neovascular macular degeneration (see ranibizumab under"
+        },
+        {
+            "id": "Immunology_Janeway_4238",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 16.1 Multiple Choice: Which of the following immunomodulators has a similar mechanism to azathioprine? A. Mycophenolate B. Cyclophosphamide C. Abatacept D. Rapamycin 16.2 Matching: Match the following immunomodulating antibodies with their respective mechanism of action. 16.3 True or False: Chimeric antigen receptor (CAR) T cells are cells that have been retrovirally transduced with a tumor-specific T-cell receptor in order to treat a leukemia. 16.4 Multiple Choice: Which statement is false? A. The vaccine Provenge is prepared using the patient\u2019s own antigen-loaded dendritic cells to induce therapeutic antitumor T-cell responses. B. Clinical trials of vaccines against HPV-16 and HPV18 (associated with 70% of cervical cancers) were 100% effective in preventing cervical cancers caused by these viruses."
+        },
+        {
+            "id": "Surgery_Schwartz_4689",
+            "title": "Surgery_Schwartz",
+            "content": "benefit of 4% to 7% can be realized using induction for all stages of lung cancer, and in situations where use of adjuvant chemotherapy is anticipated, induction chemother-apy is an acceptable alternative.Table 19-14Five-year stage-specific survival after induction chemotherapy followed by surgerySTAGE5-YEAR SURVIVAL (%)ABSOLUTE BENEFIT (%)NEW 5-YEAR SURVIVAL (%)IA75479IB55661IIA50757IIB40747IIIA15\u2013356\u2013721\u201342IIIB5\u2013103\u201358\u201315Reproduced with permission from Burdett SS, Stewart LA, Rydzewska L: Chemotherapy and surgery versus surgery alone in non-small cell lung cancer, Cochrane Database Syst Rev. 2007 Jul 18;(3):CD006157.National Comprehensive Cancer Network guidelines cur-rently recommend observation for T1a (\u22641 cm), T1b (>1\u20132 cm), and T1c (>2\u20133 cm), node-negative, completely resected NSCLCs (T1abcN0M0). For patients with larger tumors (T2a tumor >3\u20134 cm; T2b tumor >4\u20135 cm) that are node-negative, it is recommended that chemotherapy be considered in high-risk patients, ideally in"
+        }
+    ],
+    "scores": [
+        0.03429418839866601,
+        0.03276941435377433,
+        0.027704911667637354,
+        0.024547454745474546,
+        0.024432729869587208,
+        0.024108271932953264,
+        0.024092574092574093,
+        0.022585980890833933,
+        0.022363071035637408,
+        0.02082449050789313,
+        0.020538288502360356,
+        0.019936387752328193,
+        0.01885102900260086,
+        0.017551892551892552,
+        0.01738934056007227,
+        0.01736732259988074,
+        0.017331932773109245,
+        0.017158294392523366,
+        0.01667129758266185,
+        0.016403361344537813,
+        0.015635102568623993,
+        0.015537488708220417,
+        0.01547043938348286,
+        0.01505193979224083,
+        0.014952667814113597,
+        0.014913831197525408,
+        0.014756258234519103,
+        0.01472213847854487,
+        0.014665889665889668,
+        0.014576200850710654,
+        0.014521905509493206,
+        0.01439363005308289
+    ]
+}

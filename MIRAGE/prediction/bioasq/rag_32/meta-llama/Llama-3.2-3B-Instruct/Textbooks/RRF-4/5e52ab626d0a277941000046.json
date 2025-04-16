@@ -1,0 +1,206 @@
+{
+    "id": "5e52ab626d0a277941000046",
+    "question": "Does promoter shape vary across populations?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the information provided in the documents. Promoter shape refers to the specific sequence of nucleotides at the promoter region of a gene, which can vary among different populations. The documents mention that the DNA sequences of individual bacterial promoters differ in ways that determine their strength and that evolutionary processes have fine-tuned each to initiate as often as necessary. This suggests that promoter shape can vary among different populations. Additionally, the documents mention that the integration of multiple inputs at a promoter can result in a competition between activators and repressors, which can lead to variations in promoter activity. Furthermore, the documents discuss the importance of chromatin organization and the role of transcription regulators in regulating gene expression, which can also contribute to variations in promoter shape. Therefore, it is reasonable to conclude that promoter shape can vary across populations.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1443",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) On the basis of a comparison of 300 promoters, the frequencies of each of the four nucleotides at each position in the promoter are given. The consensus sequence, shown below the graph, reflects the most common nucleotide found at each position in the collection of promoters. These promoters are characterized by two hexameric DNA sequences\u2014the \u201335 sequence and the \u201310 sequence, named for their approximate location relative to the start point of transcription (designated +1). The sequence of nucleotides between the \u201335 and \u201310 hexamers shows no significant similarities among promoters."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2497",
+            "title": "Cell_Biology_Alberts",
+            "content": "To assess the biological impact of a change in transcription activator levels, it is also important in many cases to determine the fraction of the target gene promoter that is bound by the activator, since this number will be directly proportional to the activity of the gene\u2019s promoter. In our case, we can calculate the fraction of the gene X promoter, pX, that has protein A bound to it by rearranging Equation 8\u20132 (Equation 8\u20133, Figure 8\u201372E). This fraction can be viewed as the probability that promoter pX is occupied, averaged over time. It is also equal to the average occupancy across a large population of cells at any instant in time. When there is no protein A present, pX is always free, the bound fraction is zero, and transcription is off. When [A] = 1/K, the promoter pX has a 50% chance of being occupied. When [A] greatly exceeds 1/K, the bound fraction is almost equal to one, meaning that pX is fully occupied and transcription is maximal."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1445",
+            "title": "Cell_Biology_Alberts",
+            "content": "The DNA sequences of individual bacterial promoters differ in ways that determine their strength (the number of initiation events per unit time of the promoter). Evolutionary processes have fine-tuned each to initiate as often as necessary and have thereby created a wide spectrum of promoter strengths. Promoters for genes that code for abundant proteins are much stronger than those associated with genes that encode rare proteins, and the nucleotide sequences of their promoters are responsible for these differences. Like bacterial promoters, transcription terminators also have a wide range of sequences, with the potential to form a simple hairpin RNA structure being the most important common feature. Since an almost unlimited number of nucleotide sequences have this potential, terminator sequences are even more heterogeneous than promoter sequences."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2493",
+            "title": "Cell_Biology_Alberts",
+            "content": "We are primarily interested in understanding the amount of bound promoter complex at equilibrium or steady state, where the rate of complex formation equals the rate of complex dissociation. Under these conditions, the concentration of the promoter complex is specified by a simple equation that combines the two rate constants into a single equilibrium constant K = kon/koff (Equation 8\u20131; Figure 8\u201372C). K is sometimes called the association constant, Ka. The larger this constant K, the stronger the interaction between A and pX (see Figure 3\u201344). The reciprocal of K is the dissociation constant, Kd."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1863",
+            "title": "Cell_Biology_Alberts",
+            "content": "to sequences that can be tens or even hundreds of thousands of nucleotide pairs from the promoter that directs transcription of the gene. Eukaryotic activators and repressors act by a wide variety of mechanisms\u2014generally altering chromatin structure and controlling the assembly of the general transcription factors and RNA polymerase at the promoter. They do this by attracting coactivators and co-repressors, protein complexes that perform the necessary biochemical reactions. The time and place that each gene is transcribed, as well as its rates of transcription under different conditions, are determined by the particular spectrum of transcription regulators that bind to the regulatory region of the gene."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1861",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although chromosomes are organized into orderly domains that discourage control regions from acting indiscriminately, there are special circumstances where a control region located on one chromosome has been found to activate a gene located on a different chromosome. Although there is much we do not understand about this mechanism, it indicates the extreme versatility of transcriptional regulation strategies."
+        },
+        {
+            "id": "Pathology_Robbins_120",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 DNA-binding domains permit specific binding to short DNA sequences. Whereas some transcription factor binding sites are found in promoters, close to the site where transcription starts, it is now appreciated that most transcription factors bind widely throughout genomes, including to long-range regulatory elements such as enhancers. Enhancers function by looping back to gene promoters, and therefore are spatially located close to the genes that they regulate, even though it terms of genomic sequence they may appear to be far Table 1.1 GrowthFactorsInvolvedinRegenerationandRepair away. These insights highlight the importance of chromatin organization in regulating gene expression, both normal and pathologic."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1376",
+            "title": "Cell_Biology_Alberts",
+            "content": "\u2022 How does DNA replication contend with all the other processes that occur simultaneously on chromosomes, very early in development. The same strategy can also be used to inappropriately including DNA repair and gene express any specific gene in a tissue of interest; here, the triggered deletion joins transcription? a strong transcriptional promoter to the gene of interest. With this tool one can in principle determine the influence of any protein in any desired tissue of an intact \u2022 What is the basis for the low animal. frequency of errors in DNA replication observed in all cells? Is this the best that cells can do given the speed of replication and the limits of molecular The genomes of nearly all organisms contain mobile genetic elements that can move diffusion? Was this mutation rate from one position in the genome to another by either transpositional or conserva-selected in evolution to provide genetic variation?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2388",
+            "title": "Cell_Biology_Alberts",
+            "content": "for about 90% of the differences between one person\u2019s genome and another\u2019s. But when we try to tie these common variants to differences in disease susceptibility or other heritable traits, such as height, we find that they do not have as much predictive power as we had anticipated: thus, for example, most confer relatively small increases\u2014less than twofold\u2014in the risk of developing a common disease."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2518",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201375 How promoter occupancy depends on the binding affinity of a transcription regulator protein. (A) The fraction of a binding site that is occupied by a transcription repressor R is determined by an equation that is similar to the one we used for a transcription activator (see Figure 8\u201372E), except that in the case of a repressor we are interested primarily in the unbound fraction. (B) For a transcription activator A, half of the promoters are occupied when [A] = 1/KA. Gene activity is proportional to this bound fraction. (C) For a transcription repressor R, gene activity is proportional to the unbound fraction of promoters. As indicated, this fraction is reduced to half of its maximal value when [R]=1/KR. (D) As in the case of the transcription activator A (see Figure 8\u201374), 0.5 0.5 we can derive equations to assess the timing of protein X production as a function of repressor concentrations."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2549",
+            "title": "Cell_Biology_Alberts",
+            "content": "Two Transcription Regulators That Bind to the Same Gene Promoter Can Exert Combinatorial Control Thus far, we have discussed how one transcription regulator can modulate the expression level of a gene. Most genes, however, are controlled by more than one type of transcription regulator, providing combinatorial control that allows two or more inputs to influence the expression of one gene. We can use computational methods to unveil some of the important regulatory features of combinatorial control systems."
+        },
+        {
+            "id": "InternalMed_Harrison_4782",
+            "title": "InternalMed_Harrison",
+            "content": "REGULATION OF GENE EXPRESSION Regulation by Transcription Factors The expression of genes is regulated by DNA-binding proteins that activate or repress transcription. The number of DNA sequences and transcription factors that regulate transcription is much greater than originally anticipated. Most genes contain at least 15\u201320 discrete regulatory elements within 300 bp of the transcription start site. This densely packed promoter region often contains binding sites for ubiquitous transcription factors such as CAAT box/enhancer binding protein (C/EBP), cyclic AMP response element\u2013binding (CREB) protein, selective promoter factor 1 (Sp-1), or activator protein 1 (AP-1). However, factors involved in cell-specific expression may also bind to these sequences. Key regulatory elements may also reside at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1841",
+            "title": "Cell_Biology_Alberts",
+            "content": "promoters (Figure 7\u201319). These local alterations in chromatin structure provide greater access to DNA, thereby facilitating the assembly of the general transcription factors at the promoter. In addition, some histone modifications specifically attract these proteins to the promoter. These mechanisms often work together during transcription initiation (Figure 7\u201320). Finally, as discussed earlier in this chapter, the local chromatin changes directed by one transcriptional regulator can allow the binding of additional regulators. By repeated use of this principle, large assemblies of proteins can form on control regions of genes to regulate their transcription."
+        },
+        {
+            "id": "Cell_Biology_Alberts_183",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201347 A very simple regulatory circuit\u2014a single gene regulating its own expression by the binding of its protein product to its own regulatory DNA. simple schematic diagrams such as this are found throughout this book. They are often used to summarize what we know, but they leave many questions unanswered. When the protein binds, does it inhibit or stimulate transcription from the gene? how steeply does the transcription rate depend on the protein concentration? how long, on average, does a molecule of the protein remain bound to the dnA? how long does it take to make each molecule of mRnA or protein, and how quickly does each type of molecule get degraded? As explained in chapter 8, mathematical modeling shows that we need quantitative answers to all these and other questions before we can predict the behavior of even this single-gene system. For different parameter values, the system may settle to a unique steady state; or it may behave as a switch, capable of existing in one"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1078",
+            "title": "Cell_Biology_Alberts",
+            "content": "when 100 individuals were tested by a DNA microarray analysis that detects the copy number of DNA sequences throughout the entire length of this chromosome, the indicated distributions of DNA additions (green bars) and DNA losses (red bars) were observed compared with an arbitrary human reference sequence. The shortest red and green bars represent a single occurrence among the 200 chromosomes examined, whereas the longer bars indicate that the addition or loss was correspondingly more frequent. The results show preferred regions where the variations occur, and these tend to be in or near regions that already contain blocks of segmental duplications. many of the changes include known genes. (Adapted from J.l. Freeman et al., Genome Res. 16:949\u2013961, 2006. with permission from Cold Spring Harbor laboratory Press.) effects on human health, physiology, behavior, and physique. A major challenge in human genetics is to recognize those relatively few variations that are functionally important"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1439",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we have just seen, the processes of transcription initiation and termination involve a complicated series of structural transitions in protein, DNA, and RNA molecules. The signals encoded in DNA that specify these transitions are often difficult for researchers to recognize. Indeed, a comparison of many different bacterial promoters reveals a surprising degree of variation. Nevertheless, they all contain related sequences, reflecting aspects of the DNA that are recognized directly"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2454",
+            "title": "Cell_Biology_Alberts",
+            "content": "Characterizing a gene whose function is unknown by grouping it with known genes that share its transcriptional behavior is sometimes called \u201cguilt by association.\u201d Cluster analyses have been used to analyze the gene expression profiles that underlie many interesting biological processes, including wound healing in humans (Figure 8\u201365)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2516",
+            "title": "Cell_Biology_Alberts",
+            "content": "transcribe the gene. Thus, the quantity of interest is the unbound fraction, which can be viewed as the probability that the site is free, averaged over multiple binding and unbinding events. When the repressor concentration is zero, the unbound fraction is 1 and the promoter is fully active; when the repressor concentration greatly exceeds 1/K, the unbound fraction approaches zero. Figures 8\u201375B and C compare these relationships for a transcription activator and a transcription repressor."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1882",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201331 The integration of multiple inputs at a promoter. Multiple sets of transcription regulators, coactivators, and co-repressors can work together to influence transcription initiation at a promoter, as they do in the Eve stripe 2 module illustrated in figure 7\u201329. it is not yet understood in detail how the cell achieves integration of multiple inputs, but it is likely that the final transcriptional activity of the gene results from a competition between activators and repressors that act by the mechanisms summarized in figures 7\u201317, 7\u201319, and 7\u201323."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2527",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have focused thus far on the binding of a single transcription regulator to a single site in a gene promoter. Many promoters, however, contain multiple adjacent binding sites for the same transcription regulator, and it is not uncommon for these regulators to interact with each other on the DNA to form dimers or larger oligomers. These interactions can result in a cooperative form of DNA binding,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2550",
+            "title": "Cell_Biology_Alberts",
+            "content": "Consider a gene whose promoter contains binding sites for two regulatory proteins, A and R, which bind to their individual sites independently. There are four possible binding configurations (Figure 8\u201383A). Suppose that A is a transcription activator, R is a transcription repressor, and the gene is only active when A is bound and R is not bound. We learned earlier that the probability that A is bound and the probability that R is not bound can be determined by the equations in Figure 8\u201384A. The product of these two probabilities gives us the probability of gene activation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1787",
+            "title": "Cell_Biology_Alberts",
+            "content": "Dimerization of transcription regulators increases their Affinity and Specificity for DnA A monomer of a typical transcription regulator recognizes about 6\u20138 nucleotide pairs of DNA. However, sequence-specific DNA-binding proteins do not bind tightly to a single DNA sequence and reject all others; rather, they recognize a range of closely related sequences, with the affinity of the protein for the DNA varying according to how closely the DNA matches the optimal sequence. Hence, cis-regulatory sequences are often depicted as \u201clogos\u201d which display the range of sequences recognized by a particular transcription regulator (Figure 7\u20139A and B). In Chapter 6, we saw this same representation at work for the binding of RNA polymerase to promoters (see Figure 6\u201312)."
+        },
+        {
+            "id": "Pathology_Robbins_5",
+            "title": "Pathology_Robbins",
+            "content": "alphabet\u201d) arms. The characteristic banding pattern of chromatids has been attributed to relative GC content (less GC content in bands relative to interbands), with genes tending to localize to interband regions. Individual chromatin fibers are composed of a string of nucleosomes\u2014DNA wound around octameric histone cores\u2014with the nucleosomes connected via DNA linkers. Promoters are noncoding regions of DNA that initiate gene transcription; they are on the same strand and upstream of their associated gene. Enhancers are regulatory elements that can modulate gene expression across distances of 100 kB or more by looping back onto promoters and recruiting additional factors that are needed to drive the expression of pre-mRNA species. The intronic sequences are subsequently spliced out of the pre-mRNA to produce the definitive message that includes exons that are translated into protein and 3\u2032- and 5\u2032-untranslated regions (UTR) that may have regulatory functions. In addition to the enhancer"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2530",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cooperative binding events can produce steep S-shaped (or sigmoidal) relationships between the concentration of regulatory protein and the amount bound on the DNA (see Figure 15\u201316). In this case, a number called the Hill coefficient (h) describes the degree of cooperativity, and we can include this coefficient in our equations for calculating the bound fraction of promoter (Figure 8\u201379A). As the Hill coefficient increases, the dependence of binding on protein concentration becomes steeper (Figure 8\u201379B). In principle, the Hill coefficient is similar to the number of molecules that must come together to generate a reaction. In practice, however, cooperativity is rarely complete, and the Hill coefficient does not reach Figure 8\u201378 Oscillations arising from delayed negative feedback."
+        },
+        {
+            "id": "InternalMed_Harrison_5943",
+            "title": "InternalMed_Harrison",
+            "content": "Cancer develops through an accumulation of tissue abnormalities associated with genetic and epigenetic changes, and growth regulatory pathways that are potential points of intervention to prevent cancer. The initial changes are termed initiation. The alteration can be inherited or acquired through the action of physical, infectious, or chemical carcinogens. Like most human diseases, cancer arises from an interaction between genetics and environmental exposures (Table 100-1). Influences that cause the initiated cell and its surrounding tissue microenvironment to progress through the carcinogenic process and change phenotypically are termed promoters. Promoters include hormones such as androgens, linked to prostate cancer, and estrogen, linked to breast and endometrial cancer. The distinction between an initiator and promoter is indistinct; some components of cigarette smoke are \u201ccomplete carcinogens,\u201d acting as both initiators and promoters. Cancer can be prevented or controlled"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1083",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other sequence comparisons show that a great deal of the genetic complexity of present-day organisms is due to the expansion of ancient gene families. DNA duplication followed by sequence divergence has clearly been a major source of genetic novelty during evolution. On a more recent time scale, the genomes of any two humans will differ from each other both because of nucleotide substitutions (single-nucleotide polymorphisms, or SNPs) and because of inherited DNA gains and DNA losses that cause copy number variations (CNVs). Understanding the effects of these differences will improve both medicine and our understanding of human biology. Which statements are true? explain why or why not. How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1910",
+            "title": "Cell_Biology_Alberts",
+            "content": "produced by a feedback loop will depend on the details of the system; for example, how tightly the transcription regulator binds to its cis-regulatory sequence, its rate of synthesis, and its rate of decay. We discuss these issues in quantitative terms and in more detail in Chapter 8."
+        },
+        {
+            "id": "InternalMed_Harrison_6143",
+            "title": "InternalMed_Harrison",
+            "content": "chromosome structure (Fig. 102e-4). The transcriptional regulatory regions of active genes 102e-7 often contain a high frequency of CpG dinucleotides (referred to as CpG islands), which are normally unmethylated. Expression of these genes is controlled by transient association with repressor or activator proteins that regulate transcriptional activation. However, hypermethylation of promoter regions is a common mechanism by which tumor-suppressor loci are epigenetically silenced in cancer cells. Thus one allele may be inactivated by mutation or deletion (as occurs in loss of heterozygosity), while expression of the other allele is epigenetically silenced, usually by methylation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2532",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201379 How the cooperative binding of transcription regulatory proteins affects the fraction of promoters bound. (A) Cooperativity is incorporated into our mathematical models by including a Hill coefficient (h) in the equations used previously to determine the fraction of bound promoter (see Figures 8\u201372E and 8\u201375A). When h is 1, the equations shown here become identical to the equations used previously, and there is no cooperativity. (B) The left panel depicts a cooperatively bound transcription activator and the right panel depicts a cooperatively 0.5 bound transcription repressor. Recall from Figure 8\u201375B that gene activity is proportional to bound activator (left panel) or unbound repressor (right panel). 1/KR Note that the plots get steeper as the Hill (B) concentration of protein A concentration of protein R coefficient increases."
+        },
+        {
+            "id": "Cell_Biology_Alberts_961",
+            "title": "Cell_Biology_Alberts",
+            "content": "Chromatin Can move to Specific Sites within the Nucleus to Alter gene Expression A variety of different types of experiments has led to the conclusion that the position of a gene in the interior of the nucleus changes when it becomes highly expressed. Thus, a region that becomes very actively transcribed is sometimes found to extend out of its chromosome territory, as if in an extended loop (Figure 4\u201356). We will see in Chapter 6 that the initiation of transcription\u2014the first step in gene expression\u2014requires the assembly of over 100 proteins, and it makes sense that this would be facilitated in regions of the nucleus enriched in these proteins. More generally, it is clear that the nucleus is very heterogeneous, with functionally different regions to which portions of chromosomes can move as they are subjected to different biochemical processes\u2014such as when their gene expression changes. It is this issue that we discuss next."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1073",
+            "title": "Cell_Biology_Alberts",
+            "content": "P. Forster and S. matsumura, Science 308:965\u2013966, 2005.) density of known genes a polymorphism, the variants must be common enough to give a reasonably high probability that the genomes of two randomly chosen individuals will differ at the given site; a probability of 1% is commonly chosen as the cutoff. Two human genomes sampled from the modern world population at random will differ at approximately 2.5 \u00d7 106 such sites (1 per 1300 nucleotide pairs). As will be described in the overview of genetics in Chapter 8, SNPs in the human genome can be extremely useful for genetic mapping analyses, in which one attempts to associate specific traits (phenotypes) with specific DNA sequences for medical or scientific purposes (see p. 493). But while useful as genetic markers, there is good evidence that most of these SNPs have little or no effect on human fitness. This is as expected, since deleterious variants will have been selected against during human evolution and, unlike SNPs, should"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1444",
+            "title": "Cell_Biology_Alberts",
+            "content": "For convenience, the nucleotide sequence of a single strand of DNA is shown; in reality, promoters are double-stranded by the \u03c3 factor. These common features are often summarized in the form of a consensus sequence (Figure 6\u201312). A consensus nucleotide sequence is derived by comparing many sequences with the same basic function and tallying up the most common nucleotides found at each position. It therefore serves as a summary or \u201caverage\u201d of a large number of individual nucleotide sequences. A more accurate way of displaying the range of DNA sequences recognized by a protein is through the use of a sequence logo, which reveals the relative frequencies of each nucleotide at each position (Figure 6\u201312C)."
+        }
+    ],
+    "scores": [
+        0.027804564448730314,
+        0.027016430171769978,
+        0.02501518624768881,
+        0.018883049790683174,
+        0.01880324201752773,
+        0.01857007918986897,
+        0.018532818532818532,
+        0.01778093883357041,
+        0.017645245800585605,
+        0.01739656606913244,
+        0.016825733474726053,
+        0.01672194582642344,
+        0.016242346116661296,
+        0.01613847855794885,
+        0.016025641025641024,
+        0.016012909632571994,
+        0.015968310948814755,
+        0.015194244604316547,
+        0.015141242937853107,
+        0.015039523662868289,
+        0.015,
+        0.014805194805194804,
+        0.014389233954451346,
+        0.014388120839733742,
+        0.014332514332514333,
+        0.014306006493506494,
+        0.014085205574567276,
+        0.013898112133573665,
+        0.013873970640887932,
+        0.013649717514124294,
+        0.013624586795318503,
+        0.013492917339071184
+    ]
+}

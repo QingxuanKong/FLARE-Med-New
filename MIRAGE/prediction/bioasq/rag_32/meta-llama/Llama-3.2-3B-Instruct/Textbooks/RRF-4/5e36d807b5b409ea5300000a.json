@@ -1,0 +1,206 @@
+{
+    "id": "5e36d807b5b409ea5300000a",
+    "question": "Does the Mcm2-Ctf4-Pol\u03b1 axis play a role in transfer of histones to leading strand DNA at the replication forks?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of the Mcm2-Ctf4-Pol\\u00e0 axis in DNA replication. The Mcm2-Ctf4-Pol\\u00e0 axis is a complex that plays a crucial role in the initiation of DNA replication. It is composed of the Mcm2, Ctf4, and Pol\\u00e0 subunits. The Mcm2 subunit binds to the origin of replication, while the Ctf4 subunit helps to recruit the Pol\\u00e0 subunit. The Pol\\u00e0 subunit is responsible for unwinding the DNA double helix and synthesizing the leading strand. However, the question asks about the transfer of histones to the leading strand DNA at the replication fork. The transfer of histones to the leading strand is a critical step in the formation of nucleosomes, which are the repeating structural units of chromosomes. The Mcm2-Ctf4-Pol\\u00e0 axis is not directly involved in the transfer of histones to the leading strand. Instead, histone chaperones such as NAP1 and CAF1 are responsible for this process. Therefore, the correct answer is B.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1180",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have seen how a set of replication proteins rapidly and accurately generates two daughter DNA double helices behind a replication fork. But how is this replication machinery assembled in the first place, and how are replication forks created on an intact, double-strand DNA molecule? In this section, we discuss how cells initiate DNA replication and how they carefully regulate this process to ensure that it takes place not only at the proper positions on the chromosome but also at the appropriate time in the life of the cell. We also discuss a few of the special problems that the replication machinery in eukaryotic cells must overcome. These include the need to replicate the enormously long DNA molecules found in eukaryotic chromosomes, as well as the difficulty of copying DNA molecules that are tightly complexed with histones in nucleosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1220",
+            "title": "Cell_Biology_Alberts",
+            "content": "262 Chapter 5: DNA Replication, Repair, and Recombination H2A-H2B dimer displaced in front of replication fork The orderly and rapid addition of new H3-H4 tetramers and H2A-H2B dimers behind a replication fork requires histone chaperones (also called chromatin assembly factors). These multisubunit complexes bind the highly basic histones and release them for assembly only in the appropriate context. The histone chaperones, along with their cargoes, are directed to newly replicated DNA through a specific interaction with the eukaryotic sliding clamp called PCNA (see Figure 5\u201332B). These clamps are left behind moving replication forks and remain on the DNA long enough for the histone chaperones to complete their tasks. Telomerase Replicates the Ends of Chromosomes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1218",
+            "title": "Cell_Biology_Alberts",
+            "content": "As a replication fork passes through chromatin, the histones are transiently displaced leaving about 600 nucleotide pairs of non-nucleosomal DNA in its wake. The reestablishment of nucleosomes behind a moving fork occurs in an intriguing way. When a nucleosome is traversed by a replication fork, the histone octamer appears to be broken into an H3-H4 tetramer and two H2A-H2B dimers (discussed in Chapter 4). The H3-H4 tetramer remains loosely associated with DNA and is distributed at random to one or the other daughter duplex, but the H2A-H2B dimers are released completely from DNA. Freshly made H3-H4 tetramers are added to the newly synthesized DNA to fill in the \u201cspaces,\u201d and H2A-H2B dimers\u2014half of which are old and half new\u2014are then added at random to complete the nucleosomes (Figure 5\u201332). The formation of new nucleosomes behind a replication fork has an important consequence for the process of DNA replication itself. As DNA polymerase \u03b4 discontinuously synthesizes the lagging"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4868",
+            "title": "Cell_Biology_Alberts",
+            "content": "it is crucial that chromatin structure, like the DNA within, is reproduced accurately during S phase. How chromatin structure is reproduced is not well understood, however. During DNA synthesis, histone-modifying enzymes and various non-histone proteins are probably deposited onto the two new DNA strands as they emerge from the replication fork, and these proteins are thought to reproduce the local chromatin structure of the parent chromosome (see Figure 4\u201345)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1217",
+            "title": "Cell_Biology_Alberts",
+            "content": "As a replication fork advances, it must pass through the parental nucleosomes. In the cell, efficient replication requires chromatin remodeling complexes (discussed in Chapter 4) to destabilize the DNA\u2013histone interfaces. Aided by such complexes, replication forks can transit even highly condensed chromatin efficiently."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4864",
+            "title": "Cell_Biology_Alberts",
+            "content": "The production of chromatin proteins increases during S phase to provide the raw materials needed to package the newly synthesized DNA. Most importantly, S-Cdks stimulate a large increase in the synthesis of the four histone subunits that form the histone octamers at the core of each nucleosome. These subunits are assembled into nucleosomes on the DNA by nucleosome assembly factors, which typically associate with the replication fork and distribute nucleosomes on both strands of the DNA as they emerge from the DNA synthesis machinery."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1118",
+            "title": "Cell_Biology_Alberts",
+            "content": "Analyses carried out in the early 1960s on whole replicating chromosomes revealed a localized region of replication that moves progressively along the parental DNA double helix. Because of its Y-shaped structure, this active region is called a replication fork (Figure 5\u20136). At the replication fork, a multienzyme complex that contains the DNA polymerase synthesizes the DNA of both new daughter strands."
+        },
+        {
+            "id": "Cell_Biology_Alberts_892",
+            "title": "Cell_Biology_Alberts",
+            "content": "The major histones are synthesized primarily during the S phase of the cell cycle and assembled into nucleosomes on the daughter DNA helices just behind the replication fork (see Figure 5\u201332). In contrast, most histone variants are synthesized throughout interphase. They are often inserted into already-formed chromatin, which requires a histone-exchange process catalyzed by the ATP-dependent chromatin remodeling complexes discussed previously. These remodeling complexes contain subunits that cause them to bind both to specific sites on chromatin and to histone chaperones that carry a particular variant. As a result, each histone variant is inserted into chromatin in a highly selective manner (see Figure 4\u201327). Covalent modifications and Histone variants Act in Concert to Control Chromosome Functions"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1211",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201331 DNA replication initiation in eukaryotes. This mechanism ensures that each origin of replication is activated only once per cell cycle. An origin of replication can be used only if a prereplicative complex forms there in G1 phase. At the beginning of S phase, specialized kinases phosphorylate Mcm and ORC, activating the former and inactivating the latter. A new prereplicative complex cannot form at the origin until the cell progresses to the next G1 phase, when the bound ORC has been dephosphorylated. Note that the eukaryotic Mcm helicase moves along the leading-strand template, whereas the bacterial helicase moves along the lagging-strand template (see Figure 5\u201325). As the forks begin to move, ORC is displaced, and new ORCs rapidly bind to the newly replicated origins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1200",
+            "title": "Cell_Biology_Alberts",
+            "content": "258 Chapter 5: DNA Replication, Repair, and Recombination culture of cells arrested before DNA replication begins allow replication to begin fragment DNA, separate strands, and fuorescently label genes are being expressed. The excess origins also provide \u201cbackups\u201d in case a primary origin fails. (3) As in bacteria, replication forks are formed in pairs and create a replication bubble as they move in opposite directions away from a common point of origin, stopping only when they collide head-on with a replication fork moving in the opposite direction or when they reach a chromosome end. In this way, many replication forks operate independently on each chromosome and yet form two complete daughter DNA helices. In Eukaryotes, DNA Replication Takes Place During Only One Part of the Cell Cycle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1181",
+            "title": "Cell_Biology_Alberts",
+            "content": "As discussed previously, the DNA double helix is normally very stable: the two DNA strands are locked together firmly by many hydrogen bonds formed between the bases on each strand. To begin DNA replication, the double helix must first be opened up and the two strands separated to expose unpaired bases. As we shall see, the process of DNA replication is begun by special initiator proteins that bind to double-strand DNA and pry the two strands apart, breaking the hydrogen bonds between the bases. leading strand of fork 1 of fork 2 leading strand lagging strand of fork 1 of fork 2 Figure 5\u201323 A replication bubble formed by replication-fork initiation. This diagram outlines the major steps in the initiation of replication forks at replication origins. The structure formed at the last step, in which both strands of the parental DNA helix have been separated from each other and serve as templates for DNA synthesis, is called a replication bubble."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1224",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201332 Formation of nucleosomes behind a replication fork. Parental H3-H4 tetramers are distributed at random to the daughter DNA molecules, with roughly equal numbers inherited by each daughter. In contrast, H2A-H2B dimers are released from the DNA as the replication fork passes. This release begins just in front of the replication fork and is facilitated by chromatin remodeling complexes that move with the fork. Histone chaperones (NAP1 and CAF1) restore the full complement of histones to daughter molecules using both parental and newly synthesized histones. Although some daughter nucleosomes contain only parental histones or only newly synthesized histones, most are hybrids of old and new. For simplicity, the DNA double helix shown as a single red line. (Adapted from J.D. Watson et al., Molecular Biology of the Gene, 5th ed. Cold Spring Harbor: Cold Spring Harbor Laboratory Press, 2004.) remainder of telomerase proteintelomerase RNA region of telomerase RNA used as"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4857",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA replication begins at origins of replication, which are scattered at numerous locations in every chromosome. During S phase, DNA replication is initiated at these origins when a DNA helicase unwinds the double helix and DNA replication enzymes are loaded onto the two single-stranded templates. This leads to the elongation phase of replication, when the replication machinery moves outward from the origin at two replication forks (discussed in Chapter 5)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1209",
+            "title": "Cell_Biology_Alberts",
+            "content": "The answer lies in the sequential manner in which the replicative helicase is first loaded onto origins and is then activated to initiate DNA replication. This matter is discussed in detail in Chapter 17, where we consider the machinery that underlies the cell-division cycle. In brief, during G1 phase, the replicative helicases are loaded onto DNA next to ORC to create a prereplicative complex. Then, upon passage from G1 phase to S phase, specialized protein kinases come into play to activate the helicases. The resulting opening of the double helix allows the loading of the remaining replication proteins, including the DNA polymerases. origins of replication telomere centromere telomere"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1193",
+            "title": "Cell_Biology_Alberts",
+            "content": "fully methylated hemimethylated origins are origin resistant to initiation initiation occurs if suffcient origins become fully resources are available to complete methylated, making them a round of DNA replication again competent for initiation In this way, both the rate and the direction of replication-fork movement can be determined (Figure 5\u201327). From the rate at which tracks of replicated DNA increase in length with increasing labeling time, the eukaryotic replication forks are estimated to travel at about 50 nucleotides per second. This is approximately twentyfold slower than the rate at which bacterial replication forks move, possibly reflecting the increased difficulty of replicating DNA that is packaged tightly in chromatin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1378",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? Explain why or why not. 5\u20131 The different cells in your body rarely have genomes with the identical nucleotide sequence. 5\u20132 In E. coli, where the replication fork travels at 500 nucleotide pairs per second, the DNA ahead of the fork\u2014 in the absence of topoisomerase\u2014would have to rotate at nearly 3000 revolutions per minute. 5\u20133 In a replication bubble, the same parental DNA strand serves as the template strand for leading-strand synthesis in one replication fork and as the template for lagging-strand synthesis in the other fork. 5\u20134 When bidirectional replication forks from adjacent origins meet, a leading strand always runs into a lagging strand. 5\u20135 DNA repair mechanisms all depend on the existence of two copies of the genetic information, one in each of the two homologous chromosomes. Discuss the following problems."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1153",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201318 summarizes the functions of the subunits of the replication machine. At the front of the replication fork, DNA helicase opens the DNA helix. Two DNA polymerase molecules work at the fork, one on the leading strand and one on the lagging strand. Whereas the DNA polymerase molecule on the leading strand can operate in a continuous fashion, the DNA polymerase molecule on the lagging strand must restart at short intervals, using a short RNA primer made by a DNA primase molecule. The close association of all these protein components increases the efficiency of replication and is made possible by a folding back of the lagging strand as shown in Figure 5\u201318A. This arrangement also facilitates the loading of the polymerase clamp each time that an Okazaki fragment is synthesized: the clamp loader and the lagging-strand DNA polymerase molecule are kept in place as a part of the protein machine even when they detach from their DNA template. The replication proteins are thus linked"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4859",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201318 illustrates some of the molecular details underlying the control of the two steps in the initiation of DNA replication. A key player is a large multiprotein complex called the origin recognition complex (ORC), which binds to Figure 17\u201317 Control of chromosome duplication. preparations for dna replication begin in late mitosis and g1, when the dna helicases are loaded by multiple proteins at the replication origin, forming the prereplicative complex (preRC). s-Cdk activation leads to activation of the dna helicases, which unwind the dna at origins to initiate dna replication. Two replication forks move out from each origin until the entire chromosome is duplicated. duplicated chromosomes are then segregated in m phase. s-Cdk activation in s phase also prevents assembly of new preRCs at any origin until the following g1\u2014thereby ensuring that each origin is activated only once in each cell cycle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1239",
+            "title": "Cell_Biology_Alberts",
+            "content": "Bacteria typically have a single origin of replication in a circular chromosome. With fork speeds of up to 1000 nucleotides per second, they can replicate their genome in less than an hour. Eukaryotic DNA replication takes place in only one part of the cell cycle, the S phase. The replication fork in eukaryotes moves about 10 times more slowly than the bacterial replication fork, and the much longer eukaryotic chromosomes each require many replication origins to complete their replication in an S phase, which typically lasts for 8 hours in human cells. The different replication origins in these eukaryotic chromosomes are activated in a sequence, determined in part by the structure of the chromatin, with the most condensed regions of chromatin typically beginning their replication last. After the replication fork has passed, chromatin structure is re-formed by the addition of new histones to the old histones that are directly inherited by each daughter DNA molecule."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1202",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the following sections, we explore how chromosome replication is coordinated within the S phase of the cell cycle. Different Regions on the Same Chromosome Replicate at Distinct Times in S Phase In mammalian cells, the replication of DNA in the region between one replication origin and the next should normally require only about an hour to complete, given the rate at which a replication fork moves and the largest distances measured between replication origins. Yet S phase usually lasts for about 8 hours in a mammalian cell. This implies that the replication origins are not all activated simultaneously; indeed, replication origins are activated in clusters of about 50 adjacent replication origins, each of which is replicated during only a small part of the total S-phase interval."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1177",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we see in the next section, the eukaryotic replication machinery has the added complication of having to replicate through nucleosomes, the repeating structural unit of chromosomes discussed in Chapter 4. Nucleosomes are spaced at intervals of about 200 nucleotide pairs along the DNA, which, as we will see, explains why new Okazaki fragments are synthesized on the lagging strand at intervals of 100\u2013200 nucleotides in eukaryotes, instead of 1000\u20132000 nucleotides as in bacteria. Nucleosomes may also act as barriers that slow down the movement of DNA polymerase molecules, which may be why eukaryotic replication forks move only about one-tenth as fast as bacterial replication forks."
+        },
+        {
+            "id": "InternalMed_Harrison_6095",
+            "title": "InternalMed_Harrison",
+            "content": "At the end of S phase, when the cell has exactly duplicated its DNA content, a second inventory is taken at the S checkpoint. Have all of the chromosomes been fully duplicated? Were any segments of DNA copied more than once? Do we have the right number of chromosomes and the right amount of DNA? If so, the cell proceeds to G2, in which the cell prepares for division by synthesizing mitotic spindle and other proteins needed to produce two daughter cells. When DNA damage is 1.DNA DAMAGE CHECKPOINT 2. ONCOGENE CHECKPOINT myc, E2F, EIA Induction of P14ARF Transcriptional activation of p53-responsive genes ATM/ATR chk1/chk2 mdm2 P14ARF mdm2 mdm2 P P P P P p53"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1124",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u20137 The structure of a DNA replication fork. Left, replication fork with newly synthesized DNA in red and arrows indicating the 5\u02b9-to-3\u02b9 direction of DNA synthesis. Because both daughter DNA strands are polymerized in the 5\u02b9-to-3\u02b9 direction, the DNA synthesized on the lagging strand must be made initially as a series of short DNA molecules, called Okazaki fragments, named after the scientist who discovered them. Right, the same fork a short time later. On the lagging strand, the Okazaki fragments are synthesized sequentially, with those nearest the fork being the most recently made."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1219",
+            "title": "Cell_Biology_Alberts",
+            "content": "5\u201332). The formation of new nucleosomes behind a replication fork has an important consequence for the process of DNA replication itself. As DNA polymerase \u03b4 discontinuously synthesizes the lagging strand (see pp. 253\u2013254), the length of each Okazaki fragment is determined by the point at which DNA polymerase \u03b4 is blocked by a newly formed nucleosome. This tight coupling between nucleosome duplication and DNA replication explains why the length of Okazaki fragments in eukaryotes (~200 nucleotides) is approximately the same as the nucleosome repeat length."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1144",
+            "title": "Cell_Biology_Alberts",
+            "content": "replication fork were it not for an accessory protein (called PCNA in eukaryotes) that functions as a regulated sliding clamp. This clamp keeps the polymerase firmly on the DNA when it is moving, but releases it as soon as the polymerase runs into a double-strand region of DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1205",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once initiated, however, replication forks seem to move at comparable rates throughout S phase, so the extent of chromosome condensation seems to influence the time at which replication forks are initiated, rather than their speed once formed. A Large Multisubunit Complex Binds to Eukaryotic Origins of Replication Having seen that a eukaryotic chromosome is replicated using many origins of replication, each of which \u201cfires\u201d at a characteristic time in S phase of the cell cycle, we turn to the nature of these origins of replication. We saw earlier in this chapter that replication origins have been precisely defined in bacteria as specific DNA sequences that attract initiator proteins, which then assemble the DNA replication machinery. We shall see that this is the case for the single-cell budding yeast S. cerevisiae, but it appears not to be strictly true for most other eukaryotes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1214",
+            "title": "Cell_Biology_Alberts",
+            "content": "Despite this, a human ORC that is very similar to the yeast ORC binds to origins of replication and initiates DNA replication in humans. Many of the other proteins that function in the initiation process in yeast likewise have central roles in humans. It therefore seems likely that the yeast and human initiation mechanisms are similar in outline, but chromatin structure, transcriptional activity, or some property of the genome other than a specific DNA sequence has the central role in attracting ORC and specifying mammalian origins of replication. These ideas could also help to explain how a given mammalian cell chooses which of the many possible origins to use when it replicates its genome and how this choice could differ from cell to cell. Clearly, we have a great deal to discover about the fundamental process of DNA replication initiation. New Nucleosomes Are Assembled Behind the Replication Fork"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1199",
+            "title": "Cell_Biology_Alberts",
+            "content": "5\u201323). A replication fork is thought to stop only when it encounters a replication fork moving in the opposite direction or when it reaches the end of the chromosome; in this way, all the DNA is eventually replicated."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1163",
+            "title": "Cell_Biology_Alberts",
+            "content": "As a replication fork moves along double-strand DNA, it creates what has been called the \u201cwinding problem.\u201d The two parental strands, which are wound around each other, must be unwound and separated for replication to occur. For every 10 nucleotide pairs replicated at the fork, one complete turn of the parental double helix must be unwound. In principle, this unwinding can be achieved by rapidly rotating the entire chromosome ahead of a moving fork; however, this is energetically highly unfavorable (particularly for long chromosomes) and, instead, the DNA in front of a replication fork becomes overwound (Figure 5\u201320). The over-winding, in turn, is continually relieved by proteins known as DNA topoisomerases. A DNA topoisomerase can be viewed as a reversible nuclease that adds itself covalently to a DNA backbone phosphate, thereby breaking a phosphodiester bond in a DNA strand. This reaction is reversible, and the phosphodiester bond re-forms as the protein leaves."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1184",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although the basic process of replication-fork initiation depicted in Figure 5\u201323 is fundamentally the same for bacteria and eukaryotes, the detailed way in which this process is performed and regulated differs between these two groups of organisms. We first consider the simpler and better-understood case in bacteria and then turn to the more complex situation found in yeasts, mammals, and other eukaryotes. Bacterial Chromosomes Typically Have a Single Origin of DNA Replication"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1179",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA replication requires the cooperation of many proteins. These include (1) DNA polymerase and DNA primase to catalyze nucleoside triphosphate polymerization; (2) DNA helicases and single-strand DNA-binding (SSB) proteins to help in opening up the DNA helix so that it can be copied; (3) DNA ligase and an enzyme that degrades RNA primers to seal together the discontinuously synthesized lagging-strand DNA fragments; and (4) DNA topoisomerases to help to relieve helical winding and DNA tangling problems. Many of these proteins associate with each other at a replication fork to form a highly efficient \u201creplication machine,\u201d through which the activities and spatial movements of the individual components are coordinated."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1157",
+            "title": "Cell_Biology_Alberts",
+            "content": "On the lagging strand, the DNA replication machine leaves behind a series of unsealed Okazaki fragments, which still contain the RNA that primed their synthesis at their 5\u02b9 ends. As discussed earlier, this RNA is removed and the resulting gap is filled in by DNA repair enzymes that operate behind the replication fork (see Figure 5\u201311). A Strand-Directed Mismatch Repair System Removes Replication Errors That Escape from the Replication Machine"
+        }
+    ],
+    "scores": [
+        0.03658022484276077,
+        0.036428315193021074,
+        0.03559029028663778,
+        0.035136452241715396,
+        0.03495728570420926,
+        0.03270132304466219,
+        0.03215936857133629,
+        0.0304030733842402,
+        0.03039925348302104,
+        0.029636100043644364,
+        0.028678154985484653,
+        0.028087441354902286,
+        0.026356456043956044,
+        0.026251511727036617,
+        0.0248112669400843,
+        0.024357072078778883,
+        0.023834376664565345,
+        0.02376842062705937,
+        0.023501642036124794,
+        0.023301195883934367,
+        0.022648805822540433,
+        0.022550533156212978,
+        0.022290557870495175,
+        0.022243133382599357,
+        0.022041326728826728,
+        0.021366868949022302,
+        0.02096189287200523,
+        0.020893069565635938,
+        0.020539248223811982,
+        0.02045749747438303,
+        0.020380106220558213,
+        0.020264259549973837
+    ]
+}

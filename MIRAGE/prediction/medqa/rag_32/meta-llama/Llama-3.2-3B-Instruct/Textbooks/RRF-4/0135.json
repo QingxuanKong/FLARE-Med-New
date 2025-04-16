@@ -1,0 +1,208 @@
+{
+    "id": "0135",
+    "question": "A medical researcher is studying the physiology of the immune system in order to better understand the effects of HIV on patients. He isolates a group of cells that are shown by flow cytometry to be positive for the cell surface marker CD8. He then mixes this cell population with a group of infected cells, crosslinks extracellular interactions, and immunoprecipitates the CD8 protein. He identifies a protein bound to CD8 that is composed of two chains from an adjacent cell. Which of the following best describes the primary function of the protein that was most likely identified?",
+    "options": {
+        "A": "Binds complement proteins on the cell surface",
+        "B": "Binds endogenous peptides that are present in the endosome",
+        "C": "Binds endogenous peptides that have been transported by the TAP channel",
+        "D": "Binds exogenous peptides that are present in the endosome"
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of CD8+ T cells and their interaction with MHC class I molecules. CD8+ T cells, also known as cytotoxic T cells, play a crucial role in the immune response by recognizing and killing virus-infected cells or tumor cells. The interaction between CD8+ T cells and MHC class I molecules is a key step in this process. In this scenario, the researcher has isolated CD8+ T cells and mixed them with infected cells, crosslinked extracellular interactions, and immunoprecipitated the CD8 protein. The fact that a protein bound to CD8 is composed of two chains from an adjacent cell suggests that it is a co-receptor, which is essential for the recognition of MHC class I molecules. Given the options, the most likely function of the protein is to bind exogenous peptides that are present in the endosome, which is a critical step in the presentation of antigens to CD8+ T cells. This allows the T cells to recognize and kill infected cells.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_169",
+            "title": "Immunology_Janeway",
+            "content": "T lymphocytes, of which there are several types, develop in the thymus. They are characterized by the type of T-cell receptors they express and by the expression of certain markers. The two main classes of T cells express either a cell-surface protein called CD8 or another called CD4. These are not just random markers, but are important for a T cell\u2019s function, because they help to determine the interactions between the T cell and other cells. Recall from Section 1-10 that T cells detect peptides derived from foreign antigens that are displayed by MHC molecules on a cell\u2019s surface. CD8 and CD4 function in antigen recognition by recognizing different regions of MHC molecules and by being involved in the signaling of the T-cell receptor that is engaged with its antigen. Thus, CD4 and CD8 are known as co-receptors and they provide a functional difference between CD8 and CD4 T cells,"
+        },
+        {
+            "id": "InternalMed_Harrison_15006",
+            "title": "InternalMed_Harrison",
+            "content": "cells developed a phenotype of HLA-DR+/CD38\u2013 following seroconversion had stabilization of their CD4+ T cell counts, whereas those whose CD8+ T cells developed a phenotype of HLA-DR+/CD38+ had a more aggressive course and a poorer prognosis. In addition to the defects in HIV-specific CD8+ CTLs, functional defects in other MHC-restricted CTLs, such as those directed against influenza and CMV, have been demonstrated. CD8+ T cells secrete a variety of soluble factors that inhibit HIV replication, including the CC-chemokines RANTES (CCL5), MIP-1\u03b1 (CCL3), and MIP-1\u03b2 (CCL4) as well as potentially a number of unidentified factors. The presence of high levels of HIV viremia in vivo as well as exposure of CD8+ T cells in vitro to HIV envelope, both of which are associated with aberrant immune activation, have been shown to be associated with a variety of cellular functional abnormalities. Furthermore, since the integrity of CD8+ T cell function depends in part on adequate inductive signals"
+        },
+        {
+            "id": "InternalMed_Harrison_15121",
+            "title": "InternalMed_Harrison",
+            "content": "T cells and likely also from the dysfunction of CD4+ T cells owing to viral protein and endogenous cytokine-induced perturbations of cells (Table 226-5) associated with the extremely high levels of plasma viremia. A number of immunologic abnormalities accompany the acute HIV syndrome, including multiphasic perturbations of the numbers of circulating lymphocyte subsets. The number of total lymphocytes and T cell subsets (CD4+ and CD8+) are initially reduced. An inversion of the CD4+/CD8+ T cell ratio occurs later because of a rise in the number of CD8+ T cells. In fact, there may be a selective and transient expansion of CD8+ T cell subsets, as determined by T cell receptor analysis (see above). The total circulating CD8+ T cell count may remain elevated or return to normal; however, CD4+ T cell levels usually remain somewhat depressed, although there may be a slight rebound toward normal. Lymphadenopathy occurs in ~70% of individuals with primary HIV infection. Most patients recover"
+        },
+        {
+            "id": "Immunology_Janeway_926",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 4.29 CD8 binds to a site on MHC class I molecules that is distant from where the T-cell receptor binds. The relative binding positions of both the T-cell receptor and cD8 molecules can be seen in this hypothetical reconstruction of their interaction with Mhc class i (\u03b1 chain in dark green and \u03b22-microglobulin in light green). The \u03b1 and \u03b2 chains of the T-cell receptor are shown in brown and purple, respectively. The cD8\u03b1\u03b2 heterodimer is shown bound to the Mhc class i \u03b13 domain. The cD8 \u03b1 chain is in blue, and the cD8\u03b2 chain is in red. courtesy of chris nelson and David fremont."
+        },
+        {
+            "id": "Histology_Ross_2208",
+            "title": "Histology_Ross",
+            "content": "host DNA. The T cell then makes copies of the virus, which are extruded from the T cell through exocytosis. These HIV particles then infect other helper T cells. The immune system responds to this condition by generating cytotoxic CD8 T cells and antibodies directed against the virus particles. Cytotoxic CD8 T cells kill HIV-infected (the helper T-cell count is actually used as a clinical indicator of the progress of HIV infection). As the helper CD4 T-cell population becomes depleted, infected individuals eventually become incapable of generating an immune response against bacterial or viral infections. They usually die of secondary infections caused by opportunistic microorganisms or cancer."
+        },
+        {
+            "id": "Immunology_Janeway_3330",
+            "title": "Immunology_Janeway",
+            "content": "Studies of peripheral blood cells from infected individuals reveal cytotoxic T cells specific for viral peptides that can kill infected cells in vitro. In vivo, cytotoxic T cells traffic to sites of HIV replication, where they are thought to kill many productively infected cells before any infectious virus is released, thereby containing viral load at the quasistable levels that are characteristic of the asymptomatic period. Evidence for the clinical importance of the control of HIVinfected cells by CD8 cytotoxic T cells comes from studies relating the numbers and activity of CD8 T cells to viral load. There is also direct evidence from experiments in macaques infected with SIV that CD8 cytotoxic T cells control retrovirusinfected cells; treatment of infected animals with monoclonal antibodies that remove CD8 T cells is rapidly followed by a large increase in viral load."
+        },
+        {
+            "id": "Immunology_Janeway_4394",
+            "title": "Immunology_Janeway",
+            "content": "A-18 Flow cytometry and FACS analysis. An immensely powerful tool for defining and enumerating populations of immune cells is the flow cytometer, which detects and counts individual cells passing in a stream through a laser beam. A flow cytometer equipped to separate the identified cells is called a fluorescenceactivated cell sorter (FACS). These instruments are used to study the properties of cell subsets that are identified by using monoclonal antibodies against cell-surface or intracellular proteins. Individual cells within a mixed population are first labeled by"
+        },
+        {
+            "id": "InternalMed_Harrison_15004",
+            "title": "InternalMed_Harrison",
+            "content": "that ultimately evade these HIV-specific CD8+ T cells has been described in the majority of HIV-infected individuals who are not receiving cART. In addition, as the disease progresses, the functional capability of these cells gradually decreases, at least in part due to the persistent nature of HIV infection that causes functional exhaustion via the upregulation of inhibitory receptors such as PD-1 on HIV-specific CD8+ T cells (see \u201cImmune Activation, Inflammation, and HIV Pathogenesis,\u201d above). As chronic immune activation persists, there are also systemic effects on CD8+ T cells, such that as a population they assume an abnormal phenotype characterized by expression of activation markers such as HLA-DR and CD38 with an absence of expression of the IL-2 receptor (CD25) and a reduced expression of the IL-7 receptor (CD127). In addition, CD8+ T cells lacking CD28 expression are increased in HIV disease, reflecting a skewed expansion of a less differentiated CD8+ T cell subset. This"
+        },
+        {
+            "id": "Immunology_Janeway_914",
+            "title": "Immunology_Janeway",
+            "content": "As we introduced in Section 1-21, T cells fall into two major classes distinguished by the expression of the cell-surface proteins CD4 and CD8. CD8 is expressed by cytotoxic T cells, while CD4 is expressed by T cells whose function is to activate other cells. CD4 and CD8 were known as markers for these functional sets for some time before it became clear that the distinction was based on the ability of T cells to recognize different classes of MHC molecules. We now know that CD8 recognizes MHC class I molecules and CD4 recognizes MHC class II. During antigen recognition, CD4 or CD8 (depending on the type of T cell) associates with the T-cell receptor on the T-cell surface and binds to invariant sites on the MHC portion of the composite peptide:MHC ligand, away from the peptide-binding site. This binding contributes to the overall effectiveness of the T-cell response, and so CD4 and CD8 are called co-receptors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2204",
+            "title": "Cell_Biology_Alberts",
+            "content": "Sets of Interacting Proteins Can Be Identified by Biochemical Methods Because most proteins in the cell function as part of complexes with other proteins, an important way to begin to characterize the biological role of an unknown protein is to identify all of the other proteins to which it specifically binds. A key method for identifying proteins that bind to one another tightly is coimmunoprecipitation. A specific target protein is immunoprecipitated from a cell lysate using specific antibodies coupled to beads, as described earlier. If the target protein is associated tightly enough with another protein when it is captured by the antibody, the partner precipitates as well and can be identified by mass spectrometry. This method is useful for identifying proteins that are part of a complex inside cells, including those that interact only transiently\u2014for example, when extracellular signal molecules stimulate cells (discussed in Chapter 15)."
+        },
+        {
+            "id": "Immunology_Janeway_4447",
+            "title": "Immunology_Janeway",
+            "content": "to bind stably to a T cell, the tetramer, by being able to make a more avid interaction with multiple peptide:MHC complexes binding simultaneously, is able to bind to T cells whose receptors are specific for the particular peptide:MHC complex (middle panel). Routinely, the streptavidin molecules are coupled to a fluorochrome, so that the binding to T cells can be monitored by flow cytometry. In the example shown in the bottom panel, T cells have been stained simultaneously with antibodies specific for CD3 and CD8, and with a tetramer of HLA-A2 molecules containing a cytomegalovirus peptide. Only the CD3+ cells are shown, with the staining of CD8 displayed on the vertical axis and the tetramer staining displayed along the horizontal axis. The CD8\u2013 cells (mostly CD4+), on the bottom left of the figure, show no specific tetramer staining, while the bulk of the CD8+ cells, on the top left, likewise show no tetramer staining. However, a discrete population of tetramer positive CD8+ cells,"
+        },
+        {
+            "id": "InternalMed_Harrison_15068",
+            "title": "InternalMed_Harrison",
+            "content": "HIV-specific CD4+ T cells can be detected in the majority of HIV-infected patients through the use of flow cytometry to measure intracellular cytokine production in response to MHC class II tetramers pulsed with HIV peptides or through lymphocyte proliferation assays utilizing HIV antigens such as p24. These cells likely play a critical role in the orchestration of the immune response to HIV by providing help to HIV-specific B cells and CD8+ T cells. They may also be capable of directly killing HIV-infected cells. HIV-specific CD4+ T cells may be preferential targets of HIV infection by HIV-infected antigen-presenting cells during the generation of an immune response to HIV (Fig. 226-26). However, they also are likely to undergo clonal expansions in response to HIV antigens and thus survive as a population of cells. No clear correlations exist between levels of HIV-specific CD4+ T lymphocytes and plasma HIV RNA levels; however, in the setting of high viral loads, CD4+ T cell responses"
+        },
+        {
+            "id": "InternalMed_Harrison_14925",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 226 Human Immunodeficiency Virus Disease: AIDS and Related Disorders 1230 as programmed death (PD) 1 molecule (of the B7-CD28 family of molecules), as well as loss of polyreactivity and proliferative capacity. Another mechanism contributing to the evasion by HIV of immune system control is the downregulation of HLA class I molecules on the surface of HIV-infected cells by the viral proteins Nef, Tat, and Vpu, resulting in the lack of ability of the CD8+ CTL to recognize and kill the infected target cell. Although this downregulation of HLA class I molecules would favor elimination of HIV-infected cells by natural killer (NK) cells, this latter mechanism does not seem to remove HIV-infected cells effectively (see below). The principal targets of neutralizing antibodies against HIV are the envelope proteins gp120 and gp41. HIV employs at least three mechanisms to evade neutralizing responses: hypervariability in the primary sequence of the envelope, extensive glycosylation of"
+        },
+        {
+            "id": "Immunology_Janeway_3402",
+            "title": "Immunology_Janeway",
+            "content": "Carneiro-Sampaio, M., and Coutinho, A.: Immunity to microbes: lessons from primary immunodeficiencies. Infect. Immun. 2007, 75:1545\u20131555. Cunningham-Rundles, C., and Ponda, P.P.: Molecular defects in Tand B-cell primary immunodeficiency diseases. Nat. Rev. Immunol. 2005, 5:880\u2013892. C. CD4 downregulation D. MHC class ii downregulation E. Sustaining t-cell activation 13.12 Fill-in-the-Blanks: Human immunodeficiency virus (HiV) is a retrovirus that is classified as such because it contains a ____________ enzyme. it infects host cells via its envelope binding to the ________ receptor and either the _______ or _______ co-receptor. When an individual becomes infected, they mount an immune response that results in the production of anti-HiV antibodies, a process called __________. CD8+ t-cell responses are also generated, but HiV can acquire ________ that allow it to evade recognition by these Ctls."
+        },
+        {
+            "id": "InternalMed_Harrison_15074",
+            "title": "InternalMed_Harrison",
+            "content": "At least three other forms of cell-mediated immunity to HIV have been described: non-cytolytic CD8+ T cell\u2013mediated suppression of HIV replication, ADCC, and NK cell activity. Non-cytolytic CD8+ T cell\u2013mediated suppression of HIV replication refers to the ability of CD8+ T cells from an HIV-infected patient to inhibit the replication of HIV in tissue culture without killing infected targets. There is no requirement for HLA compatibility between the CD8+ T cells and the HIV-infected cells. This effector mechanism is thus nonspecific and appears to be mediated by soluble factor(s) including the CC-chemokines RANTES (CCL5), MIP-1\u03b1 (CCL3), and MIP-1\u03b2 (CCL4). These CC-chemokines are potent suppressors of HIV replication and operate at least in part via blockade of the HIV co-receptor (CCR5) for R5 (macrophage-tropic) strains of HIV-1 (see above). ADCC, as described above in relation to humoral immunity, involves the killing of HIV-expressing cells by NK cells armed with specific antibodies"
+        },
+        {
+            "id": "InternalMed_Harrison_15070",
+            "title": "InternalMed_Harrison",
+            "content": "MHC class I\u2013restricted, HIV-specific CD8+ T cells have been identified in the peripheral blood of patients with HIV-1 infection. These cells include CTLs that produce perforins and T cells that can be induced by HIV antigens to express an array of cytokines such as IFN-\u03b3, IL-2, MIP-1\u03b2, and TNF-\u03b1. CTLs have been identified in the peripheral blood of patients within weeks of HIV infection and prior to the appearance of plasma virus. The selective pressure they exert on the evolution of the population of circulating viruses reflects their potential role in control of HIV infection. These CD8+ T lymphocytes, through their HIV-specific antigen receptors, bind to and cause the lytic destruction of target cells bearing autologous MHC class I molecules presenting HIV antigens. Two types of CTL activity can be demonstrated in the peripheral blood or lymph node mononuclear cells of HIV-infected individuals. The first type directly lyses appropriate target cells in culture without prior in vitro"
+        },
+        {
+            "id": "Immunology_Janeway_4404",
+            "title": "Immunology_Janeway",
+            "content": "displayed in the form of a two-dimensional scatter diagram or as a contour diagram, where the fluorescence of one dye-labeled antibody is plotted against that of a second, with the result that a population of cells labeled with one antibody can be further subdivided by its labeling with the second antibody (see Fig. A.21). By examining large numbers of cells, flow cytometry can give quantitative data on the percentage of cells bearing different proteins, such as surface immunoglobulin, which characterizes B cells; the T-cell receptor-associated molecules known as CD3; and the CD4 and CD8 co-receptor proteins that distinguish the major T-cell subsets. Likewise, FACS analysis has been instrumental in defining stages in the early development of B and T cells. This technology also played a vital role in the early identification of AIDS as a disease in which T cells bearing CD4 are depleted selectively (see Chapter 13). Advances in FACS technology permit progressively more antibodies"
+        },
+        {
+            "id": "Immunology_Janeway_2773",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 11.33 CD4 T cells promote the maintenance of CD8 memory cells. The dependence of memory CD8 T cells on CD4 T cells is shown by the different lifetimes of the memory cells after their transfer into host mice that either have normal CD4 T cells (wildtype) or lack CD4 T cells (MHC II\u2013/\u2013). In the absence of MHC class II proteins, CD4 T cells fail to develop in the thymus. When CD8 memory T cells specific for LCMV were isolated from donor mice 35 days after infection with the virus and transferred into these hosts, memory cells were maintained only in mice that had CD4 T cells. The basis for this action of CD4 T cells is not yet clear, but has implications for conditions such as HIV/AIDS in which the number of CD4 T cells is diminished."
+        },
+        {
+            "id": "InternalMed_Harrison_14905",
+            "title": "InternalMed_Harrison",
+            "content": "The hallmark of HIV disease is a profound immunodeficiency resulting primarily from a progressive quantitative and qualitative deficiency of the subset of T lymphocytes referred to as helper T cells occurring in a setting of polyclonal immune activation. The helper subset of T cells is defined phenotypically by the presence on its surface of the CD4 molecule (Chap. 372e), which serves as the primary cellular receptor for HIV. A co-receptor must also be present together with CD4 for efficient binding, fusion, and entry of HIV-1 into its target cells (Figs. 226-3 and 226-4). HIV uses two major co-receptors, CCR5 and CXCR4, for fusion and entry; these co-receptors are also the primary receptors for certain chemoattractive cytokines termed chemo- kines and belong to the seven-transmembrane-domain G protein\u2013coupled family of receptors. A number of mechanisms responsible for cellular depletion and/or B immune dysfunction of CD4+ T cells have been demonstrated in vitro; these include direct"
+        },
+        {
+            "id": "Immunology_Janeway_925",
+            "title": "Immunology_Janeway",
+            "content": "Like the interactions with MHC class II molecules, the T-cell receptor and CD8 can interact simultaneously with one MHC class I molecule (Fig. 4.29). Like CD4, CD8 binds Lck through the cytoplasmic tail of the \u03b1 chain, and CD8\u03b1\u03b2 increases the sensitivity of T cells to antigen presented by MHC class I molecules about 100-fold. Although the molecular details are unclear, the CD8\u03b1\u03b1 homodimer appears to function less efficiently than CD8\u03b1\u03b2 as a co-receptor, and may negatively regulate activation. In contrast to CD8, CD4 is not thought to dimerize. Fig. 4.28 CD4 and the T-cell receptor bind to distinct regions of the MHC class II molecule. A ribbon diagram is shown from a crystal structure of a complete \u03b1:\u03b2 TcR:peptide-Mhc:cD4 ternary complex. The \u03b1 and \u03b2 chains of the T-cell receptor (TcR) are blue and red, respectively. The Mhc class ii molecule is green, with the bound peptide shown in gray. cD4 is shown in orange. Structure derived from PDB 3T0e. courtesy of K.c. garcia."
+        },
+        {
+            "id": "InternalMed_Harrison_14923",
+            "title": "InternalMed_Harrison",
+            "content": "the virus quasispecies present in an individual at any given time. Extensive analyses of sequential HIV isolates and host responses have demonstrated that viral escape from B cell and CD8+ T cell epitopes occurs early after infection and allows the virus to stay one step ahead of effective immune responses. Virus-specific CD8+ CTLs expand greatly during primary HIV infection, and likely represent the high-affinity responses that would be expected to be most efficient in eliminating virus-infected cells; however, the restriction is generally incomplete as viral replication persists at relatively high levels in the majority of individuals. In addition to viral escape from CTLs through high rates of mutation, it is thought that the initially strong response becomes qualitatively dysfunctional owing to the overwhelming immune activation resulting from persistent viral replication, similar to the exhaustion of CD8+ CTLs that has been reported in the murine model of lymphocytic"
+        },
+        {
+            "id": "Histology_Ross_2145",
+            "title": "Histology_Ross",
+            "content": "TABLE Most Common CD Markers Used in Clinical Practice 14.1 Marker Main Cellular Expression Function/Identity Molecular Weight (kDa) CD1 T cells in the midstage of development Interact with MHC I molecules Developmental markers for T cells and Langerhans\u2019 cells of the skin 49 CD2 T cells Adhesion molecules Used as clinical markers for T cells 50 CD3 T cells Form complex with T-cell receptor (TCR) 100 CD4 Helper T cells, monocytes, macrophages Members of immunoglobulin superfamily Interact with MHC II molecules Bind viral protein gp120 of HIV-1 and HIV-2 56 CD5 T cells, some B cells Costimulatory molecules High levels in chronic lymphocytic leukemia 67 CD7 T cells Members of immunoglobulin superfamily Bind the PI-3 kinase Useful clinical markers for T-cell leukemia stem cells 40 CD8 Cytotoxic T cells Members of immunoglobulin superfamily Interact with MHC I molecules 34 CD9 B cells, T cells, monocytes, eosinophils, basophils, platelets, endothelial cells Facilitate aggregation of"
+        },
+        {
+            "id": "Pathology_Robbins_744",
+            "title": "Pathology_Robbins",
+            "content": "(cytokines) that help B cells to produce antibodies and also help macrophages to destroy phagocytosed microbes. The central role of CD4+ helper cells in immunity is highlighted by the severe compromise that results from destruction of these cells by human immunodeficiency virus (HIV) infection (described later). CD8+ T cells also can secrete cytokines, but their most important role is to directly kill virus-infected cells and tumor cells; hence, they are called cytotoxic T lymphocytes (CTLs). Other important invariant proteins on T cells include CD28, which functions as the receptor for molecules called costimulators that are induced on APCs by microbes, and various adhesion molecules that strengthen the bond between the T cells and APCs and control the migration of the T cells to different tissues. T cells that function to suppress immune responses are called regulatory T lymphocytes. This cell type is described later, in the context of tolerance of self antigens."
+        },
+        {
+            "id": "InternalMed_Harrison_14963",
+            "title": "InternalMed_Harrison",
+            "content": "persistent immUne activation and inflammation indUce immUne dysfUnction The activated state in HIV infection is reflected by hyperactivation of B cells leading to hypergammaglobulinemia; increased lymphocyte turnover; activation of monocytes; expression of activation markers on CD4+ and CD8+ T cells; increased activation-associated cellular apoptosis; lymph node hyperplasia, particularly early in the course of disease; increased secretion of proinflammatory cytokines, particularly IL-6; elevated levels of high-sensitivity C-reactive protein, fibrinogen, d-dimer, neopterin, \u03b22-microglobulin, acid-labile interferon, soluble (s) IL-2 receptors (R), sTNFR, sCD27, and sCD40L; and autoimmune phenomena (see \u201cAutoimmune Phenomena,\u201d below). Even in the absence of direct infection of a target cell, HIV envelope proteins can interact"
+        },
+        {
+            "id": "Gynecology_Novak_553",
+            "title": "Gynecology_Novak",
+            "content": "T-cytotoxic cells, which express the CD8 marker. The expression of these markers is acquired during the passage of T cells through the thymus. CD4 T cells can provide help to B cells, resulting in the production of antibodies by B cells, and interact with antigen presented by antigen-presenting cells in association with MHC class II molecules. CD4 T cells can act as helper cells for other T cells. CD8 T cells include cells that are cytotoxic (cells that can kill target cells bearing appropriate antigens), and they interact with antigen presented on target cells in association with MHC class I molecules. These T cells can inhibit the biologic functions of B cells or other T cells (75). Although the primary biologic role of cytotoxic T cells (CTLs) seems to be lysis of virus-infected autologous cells, cytotoxic immune T cells can mediate the lysis of tumor cells directly. Presumably, CTLs recognize antigens associated with MHC class I molecules on tumor cells through their"
+        },
+        {
+            "id": "Immunology_Janeway_3396",
+            "title": "Immunology_Janeway",
+            "content": "a combination that is usually slowly lethal to the patient. The key to fighting new pathogens such as HIV is to increase our understanding of the basic properties of the immune system and its role in combating infection."
+        },
+        {
+            "id": "Immunology_Janeway_939",
+            "title": "Immunology_Janeway",
+            "content": "The receptor for antigen on most T cells, the \u03b1:\u03b2 T-cell receptor, is composed of two protein chains, TCR\u03b1 and TCR\u03b2, and resembles in many respects a single Fab fragment of immunoglobulin. \u03b1:\u03b2 T-cell receptors are always membrane-bound and recognize a composite ligand of a peptide antigen bound to an MHC molecule. Each MHC molecule binds a wide variety of different peptides, but the different variants of MHC each preferentially recognize sets of peptides with particular sequences and physical features. The peptide antigen is generated intracellularly, and is bound stably in a peptide-binding cleft on the surface of the MHC molecule. There are two classes of MHC molecules, and these are bound in their nonpolymorphic domains by CD8 and CD4 molecules that distinguish two different functional classes of \u03b1:\u03b2 T cells. CD8 binds MHC class I molecules and can bind simultaneously to the same peptide:MHC class I complex being recognized by a T-cell receptor, thus acting as a co-receptor and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6753",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many cell-Surface proteins Belong to the Ig Superfamily Most of the proteins that mediate antigen recognition and cell\u2013cell recognition in the immune system contain one or more Ig or Ig-like domains, suggesting that the proteins have a common evolutionary history. Included in this very large Ig superfamily are antibodies, TCRs, MHC proteins, the CD4, CD8, and CD28 co-receptors, the B7 co-stimulatory proteins, and most of the invariant polypeptide chains associated with TCRs and BCRs, as well as the various Fc receptors on lymphocytes and other leukocytes. Many of these proteins are dimers or higher oligomers, in which Ig or Ig-like domains of one chain interact with those in another (Figure 24\u201348)."
+        },
+        {
+            "id": "Immunology_Janeway_2118",
+            "title": "Immunology_Janeway",
+            "content": "9-19 CD8 T cells can be activated in different ways to become cytotoxic effector cells. Naive T cells fall into two large classes, of which one carries the co-receptor CD8 on its surface and the other bears the co-receptor CD4. CD8 T cells all differentiate into CD8 cytotoxic T cells (sometimes called cytotoxic lymphocytes, or CTLs), which kill their target cells (Fig. 9.28). They are important in the defense against intracellular pathogens, especially viruses. Virus-infected cells display fragments of viral proteins as peptide:MHC class I complexes on their surface, and these are recognized by cytotoxic T lymphocytes."
+        },
+        {
+            "id": "Pathology_Robbins_742",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 5.5 ). The CD3 proteins and \u03b6 chains do not bind antigens; instead, they are attached to the TCR and initiate intracellular biochemical signals after TCR recognition of antigen. T cells also express a number of other molecules that serve important functions in immune responses. CD4 and CD8 are expressed on distinct T-cell subsets and act as coreceptors during T-cell activation. During antigen recognition, CD4 molecules on T cells bind to invariant portions of class II MHC molecules (described later) on selected antigen-presenting cells (APCs); in an analogous fashion, CD8 binds to class I MHC molecules. CD4 is expressed on 50% to 60% of T cells, whereas CD8 is expressed on about 40% of T cells. The CD4-and CD8-expressing T cells\u2014 called CD4+ and CD8+ cells, respectively\u2014perform different but overlapping functions. CD4+ T cells are called helper T cells because they secrete soluble molecules http://ebooksmedicine.net"
+        },
+        {
+            "id": "Immunology_Janeway_2246",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 9.47 Cytotoxic T cells kill target cells bearing specific antigen while sparing neighboring uninfected cells. all the cells in a tissue are susceptible to killing by the cytotoxic proteins of armed effector Cd8 T cells, but only infected cells are killed. specific recognition by the T-cell receptor identifies which target cell to kill, and the polarized release of the cytotoxic granules (not shown) ensures that neighboring cells are spared. T cell recognizes infected cell Infected cell is programmed for death Neighboring uninfected cells are not killed Questions. 9.1 Multiple Choice: Which of the following statements is true? A. development of the arterial and venous system is regulated by the homeobox transcription factor prox1. B. arteries deliver lymphotoxin to the non-hematopoietic stromal LTi cell to induce lymph-node development. C. Lymphotoxin-\u03b13 signaling represses nF\u03baB to induce chemokines such as CXCL13."
+        },
+        {
+            "id": "Immunology_Janeway_2253",
+            "title": "Immunology_Janeway",
+            "content": "9.14 Fill-in-the-Blanks: For each of the following sentences, fill in the blanks with the best word selected from the list below. not all words will be used; each word should be used only once. Cd8 T cells can specifically mediate the destruction of infected or malignant cells. In order to do this, Cd8 T cells induce _______ cell death, which can be induced in two different ways. First, Cd8 T cells possess ligands such as _______, _______, or _______ that can induce the _______ apoptosis pathway. In contrast, cell death can also be induced through an intrinsic pathway. To initiate this mechanism, _______ are released, which allow the entrance of granzymes into the cell. once the granzymes have gained access to the cell\u2019s cytoplasm, these can cleave and activate _______, which in turn cleaves _______, allowing _______ to degrade dna. Granzyme B also cleaves _______, and as a consequence disrupts the mitochondrial membrane, allowing for release of _______ and formation of the _______."
+        }
+    ],
+    "scores": [
+        0.022259331082860496,
+        0.021816761160607937,
+        0.02079876176701936,
+        0.020631201073769676,
+        0.019371640445189804,
+        0.01903992673822396,
+        0.01879964695498676,
+        0.018558295386201563,
+        0.018404390037990714,
+        0.018304351443547716,
+        0.0180999180999181,
+        0.01787984742530197,
+        0.01725925925925926,
+        0.017174311926605505,
+        0.01710319164162015,
+        0.017009719839908517,
+        0.01676094699350513,
+        0.01633986928104575,
+        0.016290726817042606,
+        0.01628707627118644,
+        0.01614583333333333,
+        0.016112170223233503,
+        0.016018306636155607,
+        0.015992414664981035,
+        0.01550751879699248,
+        0.015222279882373293,
+        0.014840299887028858,
+        0.014638792800922444,
+        0.014601253052989274,
+        0.014547185780787135,
+        0.014426957223567393,
+        0.014052540081128067
+    ]
+}

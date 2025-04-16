@@ -1,0 +1,206 @@
+{
+    "id": "5e5b5c6fb761aafe0900000a",
+    "question": "Is the protein ABCG2 (ATP-Binding Cassette, subfamily G, member 2, transporter) excreting uric acid?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of ABCG2 in the kidneys and its relation to uric acid excretion. ABCG2 is an efflux transporter located on epithelial cells of the kidney, liver, and intestine as well as on the endothelial cells of the blood-brain barrier. It is involved in the transport of various molecules, including drugs, across cell membranes. In the context of uric acid excretion, we need to consider the transporters involved in the proximal tubule and the role of ABC transporters in general. Urate is reabsorbed in the proximal tubule by URAT1, OAT1, OAT2, and OAT3 transporters. The question is whether ABCG2 is involved in the excretion of uric acid. However, the main excretion of uric acid occurs through the apical membrane of the proximal tubule by MRPs (multidrug resistance proteins) and BCRP (breast cancer resistance protein), not by ABCG2. In contrast, OAT4 reabsorbs urate from the lumen of the proximal tubule. Therefore, ABCG2 does not primarily excrete uric acid but rather is involved in the reabsorption of uric acid.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_511",
+            "title": "Pharmacology_Katzung",
+            "content": "BCRP (encoded by the ABCG2 gene), an efflux transporter in the ATP binding cassette (ABC) superfamily, is located on epithelial cells of the kidney, liver, and intestine as well as on the endothelial cells of the blood-brain barrier. Recent studies have implicated a reduced function variant in ABCG2, which encodes an amino acid change from glutamine to lysine at position 141 of the protein (rs2231142), as a determinant of the pharmacokinetics, response, and toxicity of several drugs. The variant has a low frequency in individuals of African ancestry but is found at an allele frequency of about 30% in East Asians including Chinese and Japanese. Notably, the variant has been associated with changes in response to the xanthine oxidase inhibitor, allopurinol, and the statin rosuvastatin. In addition, the variant has been associated with toxicity to various anticancer drugs. Because of its high allele frequency, particularly in Asian populations, and the fact that the transporter is a"
+        },
+        {
+            "id": "Pharmacology_Katzung_59",
+            "title": "Pharmacology_Katzung",
+            "content": "Many cells also contain less selective membrane carriers that are specialized for expelling foreign molecules. One large family of such transporters binds adenosine triphosphate (ATP) and is called the ABC (ATP-binding cassette) family. This family includes the P-glycoprotein or multidrug resistance type 1 (MDR1) transporter found in the brain, testes, and other tissues, and in some drug-resistant neoplastic cells (Table 1\u20132). Similar transport molecules from the ABC family, the multidrug resistance-associated protein (MRP) transporters, play important roles in the excretion of some drugs or their metabolites into urine and bile and in the resistance of some tumors to chemotherapeutic drugs. Several other transporter families have been identified that do not bind ATP but use ion gradients to drive transport. Some of these (the solute carrier [SLC] family) are particularly important in the uptake of neurotransmitters across nerve-ending membranes. The latter carriers are discussed in"
+        },
+        {
+            "id": "InternalMed_Harrison_29169",
+            "title": "InternalMed_Harrison",
+            "content": "Hyperuricemia may be classified as primary or secondary, depending on whether the cause is innate or an acquired disorder. However, it is more useful to classify hyperuricemia in relation to the underlying pathophysiology\u2014i.e., whether it results from increased production, decreased excretion, or a combination of the two (Fig. 431e-1, Table 431e-2). Increased Urate Production Diet contributes to the serum urate concentration in proportion to its purine content. Strict restriction of purine intake reduces the mean serum urate level by ~60 \u03bcmol/L CHAPTER 431e Disorders of Purine and Pyrimidine Metabolism FIgURE 431e-2 Schematic for handling of uric acid by the kidney. A complex interplay of transporters on both the apical and basolateral aspects of the renal tubule epithelial cell is involved in the reabsorption of uric acid. See text for details. Most uricosuric compounds inhibit URAT1 on the apical side, as well as OAT1, OAT3, and GLUT9 on the basolateral side."
+        },
+        {
+            "id": "InternalMed_Harrison_24194",
+            "title": "InternalMed_Harrison",
+            "content": "Active vectorial secretion of biliary constituents from the portal blood into the bile canaliculi is driven by a set of polarized transport systems at the basolateral (sinusoidal) and the canalicular apical plasma membrane domains of the hepatocyte. Two sinusoidal bile salt uptake systems have been cloned in humans, the Na+/taurocholate cotransporter (NTCP, SLC10A1) and the organic anion\u2013transporting proteins (OATPs), which also transport a large variety of non-bile salt organic anions. Several ATP-dependent canalicular transport systems, \u201cexport pumps,\u201d (ATP-binding cassette transport proteins, also known as ABC transporters) have been identified, the most important of which are: the bile salt export pump (BSEP, ABCB11); the anionic conjugate export pump (MRP2, ABCC2), which mediates the canalicular excretion of various amphiphilic conjugates formed by phase II conjugation (e.g., bilirubin monoand diglucuronides and drugs); the multidrug export pump (MDR1, ABCB1) for hydrophobic"
+        },
+        {
+            "id": "Physiology_Levy_42",
+            "title": "Physiology_Levy",
+            "content": "H+-ATPase in the plasma membrane plays an important role in urinary acidification (see ABC transporters represent a large group of membrane transporters. They are found in both prokaryotic and eukaryotic cells, and they have amino acid domains that bind ATP (i.e., ABC domains). Seven subgroups of ABC transporters in humans and more than 40 specific transporters have been identified to date. They transport a diverse group of molecules/ions, including Cl\u2212, cholesterol, bile acids, drugs, iron, and organic anions."
+        },
+        {
+            "id": "InternalMed_Harrison_29165",
+            "title": "InternalMed_Harrison",
+            "content": "directly inhibit URAT1 on the apical side of the tubular cell (so-called cisinhibition). In contrast, antiuricosuric compounds (those that promote hyperuricemia), such as nicotinate, pyrazinoate, lactate, and other aromatic organic acids, serve as the exchange anion inside the cell, thereby stimulating anion exchange and urate reabsorption (trans-stimulation). The activities of URAT1, other OATs, and sodium anion transporters result in excretion of 8\u201312% of the filtered urate as uric acid."
+        },
+        {
+            "id": "InternalMed_Harrison_24209",
+            "title": "InternalMed_Harrison",
+            "content": "I. II. Supersaturation III. Nucleation IV. Microstone FIGURE 369-1 Scheme showing pathogenesis of cholesterol gallstone formation. Conditions or factors that increase the ratio of cholesterol to bile acids and phospholipids (lecithin) favor gallstone formation. ABCB4, ATP-binding cassette transporter; ABCG5/8, ATP-binding cassette (ABC) transporter G5/G8; CYP7A1, cytochrome P450 7A1; MDR3, multidrug resistance protein 3, also called phospholipid export pump."
+        },
+        {
+            "id": "InternalMed_Harrison_29173",
+            "title": "InternalMed_Harrison",
+            "content": "Decreased Uric Acid Excretion More than 90% of individuals with sustained hyperuricemia have a defect in the renal handling of uric acid. For any given plasma urate concentration, patients who have gout excrete ~40% less uric acid than those who do not. When plasma urate levels are raised by purine ingestion or infusion, uric acid excretion increases in patients with and without gout; however, in those with gout, plasma urate concentrations must be 60\u2013120 \u03bcmol/L (1\u20132 mg/ dL) higher than normal to achieve equivalent uric acid excretion rates. Uric acid ? retically result from decreased glomerular filtration, decreased tubular secretion, or enhanced tubular reabsorption. Decreased urate filtration does not appear to cause primary hyperuricemia but does contribute to the hyperuricemia of renal insufficiency. Although hyperuricemia is invariably present in chronic renal disease, the correlation among Glycogenosis III, V, and VII Purine-rich diet Lymphoproliferative diseases"
+        },
+        {
+            "id": "InternalMed_Harrison_29164",
+            "title": "InternalMed_Harrison",
+            "content": "The kidneys clear urate from the plasma and maintain physiologic balance by utilizing specific organic anion transporters (OATs), including urate transporter 1 (URAT1, SLC22A12) (Fig. 431e-2). In humans, OAT1 (SLC22A6), OAT2 (SLC22A7), and OAT3 (SLC22A8) are located on the basolateral membrane of renal proximal tubule cells. OAT4 (SLC22A11), OAT10 (SLC22A13), and URAT1 are located on the apical brush-border membrane of these cells. The latter transporters carry urate and other organic anions into the tubular cells from the lumen in exchange for intracellular organic anions. Once inside the cell, urate must pass to the basolateral side of the lumen in a process controlled by voltage-dependent carriers, including glucose transporter 9 (GLUT9, SLC2A9). Uricosuric compounds (Table 431e-1) directly inhibit URAT1 on the apical side of the tubular cell (so-called cisinhibition). In contrast, antiuricosuric compounds (those that promote hyperuricemia), such as nicotinate, pyrazinoate,"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1044",
+            "title": "Biochemistry_Lippinco",
+            "content": "a. Uric acid underexcretion: In >90% of individuals with hyperuricemia, the cause is underexcretion of uric acid. Underexcretion can be primary, because of as-yet-unidentified inherent excretory defects, or secondary to known disease processes that affect how the kidney handles urate (for example, in lactic acidosis, lactate increases renal urate reabsorption, thereby decreasing its excretion) and to environmental factors such as the use of drugs (for example, thiazide diuretics) or exposure to lead (saturnine gout). b."
+        },
+        {
+            "id": "Pharmacology_Katzung_4068",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Pharmacodynamics: Uricosuric drugs\u2014probenecid, sulfinpyrazone, as well as fenofibrate, and losartan\u2014inhibit active transport sites for reabsorption and secretion in the proximal renal tubule so that net reabsorption of uric acid in the proximal tubule is decreased. Because aspirin in doses of less than 2.6 g daily causes net retention of uric acid by inhibiting the secretory transporter, it should not be used for analgesia in patients with gout. The secretion of other weak acids (eg, penicillin) is also reduced by uricosuric agents. 3."
+        },
+        {
+            "id": "Physiology_Levy_3315",
+            "title": "Physiology_Levy",
+            "content": "exit of \u03b1-KG out of the cell, down its chemical gradient generated by the Na+/\u03b1-KG symporter mechanism. The exit of OA\u2212s across the luminal membrane into the tubular fluid are mediated by multidrug resistance proteins 2 and 4 (MRP2/4) and breast cancer resistance protein 1 (BCRP), which require adenosine triphosphate (ATP) for their operation. Recent studies reveal that OAT4 mediates reabsorption of the organic anion urate, the end product of purine catabolism, by the proximal tubule (see"
+        },
+        {
+            "id": "Pharmacology_Katzung_4067",
+            "title": "Pharmacology_Katzung",
+            "content": "Probenecid and sulfinpyrazone are uricosuric drugs employed to decrease the body pool of urate in patients with tophaceous gout or in those with increasingly frequent gouty attacks. In a patient who excretes large amounts of uric acid, the uricosuric agents should not be used. Lesinurad (RDEA594) is a promising new uricosuric agent that is currently in phase 3 trials. 1. Chemistry and Pharmacokinetics: Uricosuric drugs are organic acids (Figure 36\u20136) and, as such, act at the anion transport sites of the renal tubule (see Chapter 15). Probenecid is completely reabsorbed by the renal tubules and is metabolized slowly with a terminal serum half-life of 5\u20138 hours. Sulfinpyrazone or its active hydroxylated derivative is excreted by the kidneys. Even so, the duration of its effect after oral administration is almost as long as that of probenecid, which is given once or twice daily. 2."
+        },
+        {
+            "id": "InternalMed_Harrison_22192",
+            "title": "InternalMed_Harrison",
+            "content": "Urine uric acid excretion is determined by uric acid generation. Uric acid is the end product of purine metabolism; thus reduced consumption of purine-containing foods can lower urine uric acid excretion. It is noteworthy that the serum uric acid level is dependent on the fractional excretion of uric acid and therefore does not provide information on urine uric acid excretion. For example, an individual with high uric acid generation and concurrent high fractional excretion of uric acid will have high urine uric acid excretion with a normal (or even low) serum uric acid level. If alkalinization of the urine alone is not successful and if dietary modifications do not reduce urine uric acid sufficiently, then the use of a xanthine oxidase inhibitor, such as allopurinol or febuxostat, can reduce urine uric acid excretion by 40\u201350%."
+        },
+        {
+            "id": "InternalMed_Harrison_29197",
+            "title": "InternalMed_Harrison",
+            "content": "Most hypouricemia results from increased renal uric acid excretion. The finding of normal amounts of uric acid in a 24-h urine collection from an individual with hypouricemia is evidence for a renal cause. Medications with uricosuric properties (Table 431e-1) include aspirin (at doses >2.0 g/d), losartan, fenofibrate, x-ray contrast materials, and 431e-5 glyceryl guaiacolate. Total parenteral hyperalimentation can also cause hypouricemia, possibly a result of the high glycine content of the infusion formula. Other causes of increased urate clearance include conditions such as neoplastic disease, hepatic cirrhosis, diabetes mellitus, and inappropriate secretion of vasopressin; defects in renal tubular transport such as primary Fanconi syndrome and Fanconi syndromes caused by Wilson\u2019s disease, cystinosis, multiple myeloma, and heavy metal toxicity; and isolated congenital defects in the bidirectional transport of uric acid. Hypouricemia can be a familial disorder that is generally"
+        },
+        {
+            "id": "InternalMed_Harrison_24195",
+            "title": "InternalMed_Harrison",
+            "content": "the canalicular excretion of various amphiphilic conjugates formed by phase II conjugation (e.g., bilirubin monoand diglucuronides and drugs); the multidrug export pump (MDR1, ABCB1) for hydrophobic cationic compounds; and the phospholipid export pump (MDR3, ABCB4). Two hemitransporters ABCG5/G8, functioning as a couple, constitute the canalicular cholesterol and phytosterol transporter. F1C1 (ATP8B1) is an aminophospholipid transferase (\u201cflippase\u201d) essential for maintaining the lipid asymmetry of the canalicular membrane. The canalicular membrane also contains ATP-independent transport systems such as the Cl/HCO3 anion exchanger isoform 2 (AE2, SLC4A2)"
+        },
+        {
+            "id": "InternalMed_Harrison_23384",
+            "title": "InternalMed_Harrison",
+            "content": "By analogy with findings in several mutant rat strains, the selective defect in biliary excretion of bilirubin conjugates and certain other classes of organic compounds, but not of bile acids, that characterizes DJS in humans was found to reflect defective expression of MRP2, an ATP-dependent canalicular membrane transporter. Several different mutations in the MRP2 gene produce the Dubin-Johnson phenotype, which has an autosomal recessive pattern of inheritance. Although The Hyperbilirubinemias Abbreviations: BRIC, benign recurrent intrahepatic cholestasis; BSEP, bile salt excretory protein; DJS, Dubin-Johnson syndrome; \u03b3-GT, \u03b3-glutamyltransferase; MRP2, multidrug resistance\u2013 associated protein 2; OATP1A/1B, organic anion transport proteins 1B1 and 1B3; PFIC, progressive familial intrahepatic cholestasis; \u2191\u2191, increased."
+        },
+        {
+            "id": "InternalMed_Harrison_22160",
+            "title": "InternalMed_Harrison",
+            "content": "URINE CITRATE Urine citrate is a natural inhibitor of calcium-containing stones; thus, lower urine citrate excretion increases the risk of stone formation. Citrate reabsorption is influenced by the intracellular pH of proximal tubular cells. Metabolic acidosis will lead to a reduction in citrate excretion by increasing reabsorption of filtered citrate. However, a notable proportion of patients have lower urine citrate for reasons that remain unclear. URINE URIC ACID Higher urine levels of uric acid\u2014a risk factor for uric acid stone formation\u2014are found in individuals with excess purine consumption and rare genetic conditions that lead to overproduction of uric acid. This characteristic does not appear to be associated with the risk of calcium oxalate stone formation."
+        },
+        {
+            "id": "InternalMed_Harrison_29177",
+            "title": "InternalMed_Harrison",
+            "content": "nicotinate (from niacin therapy), and the organic acids lactate, \u03b2-hydroxybutyrate, and acetoacetate. The monoand divalent anions then become substrates for URAT1 and OAT4, respectively, and are exchanged for uric acid from the proximal tubule. Increased blood levels of these anions result in their increased glomerular filtration and greater reabsorption by proximal tubular cells. The increased intraepithelial cell concentrations lead to increased uric acid reabsorption by promoting URAT1-, OAT4-, and OAT10-dependent anion exchange. Low doses of salicylates also promote hyperuricemia by this mechanism. Sodium loading of proximal tubular cells also provokes urate retention by reducing extracellular fluid volume and increasing angiotensin II, insulin, and parathyroid hormone release. Additional organic anion transporters OAT1, OAT2, and OAT3 are involved in the movement of uric acid through the basolateral membrane, although the detailed mechanisms are still being elucidated."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2991",
+            "title": "Cell_Biology_Alberts",
+            "content": "The last type of transport ATPase that we discuss is the family of the ABC transporters, so named because each member contains two highly conserved ATPase domains, or ATP-Binding \u201cCassettes,\u201d on the cytosolic side of the membrane. ATP binding brings together the two ATPase domains, and ATP hydrolysis leads to their dissociation (Figure 11\u201316). These movements of the cytosolic domains are transmitted to the transmembrane segments, driving cycles of conformational changes that alternately expose solute-binding sites on one side of the membrane and then on the other, as we have seen for other transporters. In this way, ABC transporters harvest the energy released upon ATP binding and hydrolysis to drive transport of solutes across the bilayer. The transport is directional toward inside or toward outside, depending on the particular conformational change in the solute binding site that is linked to ATP hydrolysis (see Figure 11\u201316)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_708",
+            "title": "Cell_Biology_Alberts",
+            "content": "The ABC transporters (ATP-binding cassette transporters) constitute an important class of membrane-bound pump proteins. In humans, at least 48 different genes encode them. These transporters mostly function to export hydrophobic molecules from the cytoplasm, serving to remove toxic molecules at the mucosal surface of the intestinal tract, for example, or at the blood\u2013brain barrier. The study of ABC transporters is of intense interest in clinical medicine, because the overproduction of proteins in this class contributes to the resistance of tumor cells to chemotherapeutic drugs. In bacteria, the same types of proteins primarily function to import essential nutrients into the cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_710",
+            "title": "Cell_Biology_Alberts",
+            "content": "Humans have invented many different types of mechanical pumps, and it should not be surprising that cells also contain membrane-bound pumps that Figure 3\u201376 The abC (aTP-binding cassette) transporter, a protein machine that pumps molecules through a membrane. (A) How this large family of transporters pumps molecules into the cell in bacteria. As indicated, the binding of two molecules of ATP causes the two ATP-binding domains to clamp together tightly, opening a channel to the cell exterior. The binding of a substrate molecule to the extracellular face of the protein complex then triggers ATP hydrolysis followed by ADP release, which opens the cytoplasmic gate; the pump is then reset for another cycle."
+        },
+        {
+            "id": "InternalMed_Harrison_21409",
+            "title": "InternalMed_Harrison",
+            "content": "The proximal tubule possesses specific transporters capable of secreting a variety of organic acids (carboxylate anions) and bases (mostly primary amine cations). Organic anions transported by these systems include urate, dicarboxylic acid anions (succinate), ketoacid anions, and several protein-bound drugs not filtered at the glomerulus (penicillins, cephalosporins, and salicylates). Probenecid inhibits renal organic anion secretion and can be clinically useful for raising plasma concentrations of certain drugs like penicillin and oseltamivir. Organic cations secreted by the proximal tubule include various biogenic amine neurotransmitters (dopamine, acetylcholine, epinephrine, norepinephrine, and histamine) and creatinine. The ATP-dependent transporter P-glycoprotein is highly expressed in brush border membranes and secretes several medically important drugs, including cyclosporine, digoxin, tacrolimus, and various cancer chemotherapeutic agents. Certain drugs like cimetidine and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2979",
+            "title": "Cell_Biology_Alberts",
+            "content": "2. ABC transporters (ATP-Binding Cassette transporters) differ structurally from P-type ATPases and primarily pump small molecules across cell membranes. 3. V-type pumps are turbine-like protein machines, constructed from multiple different subunits. The V-type proton pump transfers H+ into organelles such as lysosomes, synaptic vesicles, and plant or yeast vacuoles (V = vacuolar), to acidify the interior of these organelles (see Figure 13\u201337)."
+        },
+        {
+            "id": "InternalMed_Harrison_29176",
+            "title": "InternalMed_Harrison",
+            "content": "Many agents that cause hyperuricemia exert their effects by stimulating reabsorption rather than inhibiting secretion. This stimulation appears to occur through a process of \u201cpriming\u201d renal urate reabsorption through the sodium-dependent loading of proximal tubular epithelial cells with anions capable of trans-stimulating urate reabsorption. The sodium-coupled monocarboxyl transporters SMCT1 and 2 (SLC5A8, SLC5A12) in the brush border of the proximal tubular cells mediate sodium-dependent loading of these cells with 431e-3 monocarboxylates. A similar transporter, SLC13A3, mediates sodium-dependent influx of dicarboxylates into the epithelial cell from the basolateral membrane. Some of these carboxylates are well known to cause hyperuricemia, including pyrazinoate (from pyrazinamide treatment), nicotinate (from niacin therapy), and the organic acids lactate, \u03b2-hydroxybutyrate, and acetoacetate. The monoand divalent anions then become substrates for URAT1 and OAT4, respectively, and are"
+        },
+        {
+            "id": "Physiology_Levy_3310",
+            "title": "Physiology_Levy",
+            "content": "ATP ATP ADP \u02dc-KG NaDC3 OAT 1,2,3 OAT4 OA\u2013 \u02dc-KG MRP2/4 BCRP K+ \u2022Fig. 34.5 Secretion of organic anion (OA\u2212) across the proximal tubule. OA\u2212s enter the cell across the basolateral membrane by one of three OA\u2212/\u03b1-ketoglutarate (\u03b1-KG) antiporter mechanisms (organic anion transporters, OAT1, OAT2, OAT3). Uptake of \u03b1-KG into the cell against its chemical concentration gradient is driven by movement of Na+ into the cell via the Na+-dicarboxylate transporter (NaDC3). The [Na+] inside the cell is low because of the Na+,K+-ATPase in the basolateral membrane, which transports Na+ out of the cell in exchange for K+ . The \u03b1-KG recycles across the basolateral membrane on the OATs in exchange for OA\u2212 . OA\u2212s leave the cell across the apical membrane by multidrug drug resistance proteins (MRP2 and 4), and by breast cancer resistance protein (BCRP), which require ATP. OAT4 in the apical membrane reabsorbs urate, an organic anion."
+        },
+        {
+            "id": "Immunology_Janeway_1237",
+            "title": "Immunology_Janeway",
+            "content": "The answer was aided by analysis of mutant cells that had a defect in antigen presentation by MHC class I molecules. These cells expressed far fewer MHC class I proteins than normal on their surface despite normal synthesis of these molecules in the cytoplasm. This defect could be corrected by adding synthetic peptides to the culture medium, suggesting that the supply of peptides to the MHC class I molecules in the endoplasmic reticulum might be the limiting factor. Analysis of the DNA of the mutant cells identified the problem responsible for this phenotype to be in genes for members of the ATP-binding cassette (ABC) family of proteins; the ABC proteins mediate the ATP-dependent transport of ions, sugars, amino acids, and peptides across membranes."
+        },
+        {
+            "id": "Pathology_Robbins_3492",
+            "title": "Pathology_Robbins",
+            "content": "Gout and diseases involving rapid cell turnover, such as leukemias, lead to high uric acid levels in the urine and the possibility of uric acid stones. About one half of individuals with uric acid stones, however, have neither hyperuricemia nor increased urine urate but demonstrate an unexplained tendency to excrete a persistently acidic urine (with a pH < 5.5). This low pH favors uric acid stone formation, in contrast with the high pH that favors formation of stones containing calcium phosphate. Cystine stones are almost invariably associated with a genetically determined defect in the renal transport of certain amino acids, including cystine. Like uric acid stones, cystine stones are more likely to form when the urine is relatively acidic. http://ebooksmedicine.net"
+        },
+        {
+            "id": "InternalMed_Harrison_8113",
+            "title": "InternalMed_Harrison",
+            "content": "The other major cobalamin transport protein in plasma is transcobalamin, also known as TC II. The gene is on chromosome 22q11-q13.1. As for IF and HC, there are nine exons. The three proteins are likely to have a common ancestral origin. TC II is synthesized by liver and by other tissues, including macrophages, ileum, and vascular endothelium. It normally carries only 20\u201360 ng of cobalamin per liter of plasma and readily gives up cobalamin to marrow, placenta, and other tissues, which it enters by receptor-mediated endocytosis involving the TC II receptor and megalin (encoded by the LRP-2 gene). The TC II cobalamin is internalized by endocytosis via clathrin-coated pits; the complex is degraded, but the receptor probably is recycled to the cell membrane as is the case for transferrin. Export of \u201cfree\u201d cobalamin is via the ATP-binding cassette drug transporter alias multidrug resistance protein 1."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1072",
+            "title": "Biochemistry_Lippinco",
+            "content": "2.5. What laboratory test would help in distinguishing an orotic aciduria caused by ornithine transcarbamylase deficiency from that caused by uridine monophosphate synthase deficiency? Blood ammonia level would be expected to be elevated in ornithine transcarbamylase deficiency that affects the urea cycle but not in uridine monophosphate synthase deficiency. UNIT V Integration of Metabolism Metabolic Effects of Insulin and Glucagon 23 For additional ancillary materials related to this chapter, please visit thePoint. I. OVERVIEW"
+        },
+        {
+            "id": "InternalMed_Harrison_18969",
+            "title": "InternalMed_Harrison",
+            "content": "Export by phagocytes may constitute one response to local lipid overload in the evolving lesion. Another mechanism, reverse cholesterol transport mediated by high-density lipoproteins (HDLs), probably provides an independent pathway for lipid removal from atheroma. This transfer of cholesterol from the cell to the HDL particle involves specialized cell-surface molecules such as the ATP binding cassette (ABC) transporters. ABCA1, the gene mutated in Tangier disease, a condition characterized by very low HDL levels, transfers cholesterol from cells to nascent HDL particles and ABCG1 to mature HDL particles. \u201cReverse cholesterol transport\u201d mediated by these ABC transporters allows HDL loaded with cholesterol to deliver it to hepatocytes by binding to scavenger receptor B1 or other receptors. The liver cell can metabolize the sterol to bile acids that can be excreted. Thus, macrophages may play a vital role in the dynamic economy of lipid accumulation in the arterial wall during"
+        },
+        {
+            "id": "InternalMed_Harrison_29163",
+            "title": "InternalMed_Harrison",
+            "content": "FIgURE 431e-1 The total-body urate pool is the net result between urate production and excretion. Urate production is influenced by dietary intake of purines and the rates of de novo biosynthesis of purines from nonpurine precursors, nucleic acid turnover, and salvage by phosphoribosyltransferase activities. The formed urate is normally excreted by urinary and intestinal routes. Hyperuricemia can result from increased production, decreased excretion, or a combination of both mechanisms. When hyperuricemia exists, urate can precipitate and deposit in tissues as tophi. urate is excreted by the kidneys, and most of the remainder is eliminated 431e-1 through the intestines."
+        }
+    ],
+    "scores": [
+        0.036084304234274014,
+        0.035265878585734406,
+        0.03483698533783468,
+        0.03234349295273665,
+        0.03189095665419384,
+        0.03000240306100816,
+        0.025326612921077213,
+        0.02512884182908546,
+        0.024557686322392205,
+        0.023637659307074784,
+        0.022831303063861202,
+        0.022829185092422287,
+        0.02256626788646493,
+        0.022146815751093826,
+        0.021876226711356705,
+        0.021610192990239575,
+        0.021151951454354105,
+        0.021059875648270054,
+        0.018624393624393623,
+        0.018608274190756446,
+        0.017662620603797072,
+        0.017494270435446907,
+        0.016718054128126072,
+        0.01655719759168035,
+        0.01610062893081761,
+        0.01598481136697697,
+        0.015904692791485243,
+        0.015816454113528382,
+        0.015617403986387944,
+        0.01525900900900901,
+        0.015162335878701314,
+        0.014706677480400108
+    ]
+}

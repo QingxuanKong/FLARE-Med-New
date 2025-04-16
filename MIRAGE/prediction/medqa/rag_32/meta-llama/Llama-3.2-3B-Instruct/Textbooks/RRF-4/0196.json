@@ -1,0 +1,208 @@
+{
+    "id": "0196",
+    "question": "A student studying pharmacology is a member of a team that is conducting research related to the elimination of multiple anticoagulant medications. His duty as a member of the team is to collect serum samples of the subjects every 4 hours and send them for analysis of serum drug levels. He is also supposed to collect, document and analyze the data. For one of the subjects, he notices that the subject is eliminating 0.5 mg of the drug every 4 hours. Which of the following anticoagulants did this patient most likely consume?",
+    "options": {
+        "A": "Warfarin",
+        "B": "Enoxaparin",
+        "C": "Fondaparinux",
+        "D": "Apixaban"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine which anticoagulant the patient most likely consumed, we need to consider the elimination rate of each option. The patient is eliminating 0.5 mg of the drug every 4 hours. We can calculate the elimination rate per hour for each option as follows: - Warfarin: 0.5 mg / 4 hours = 0.125 mg/hour - Enoxaparin: Not enough information is provided about Enoxaparin's elimination rate, but it is generally eliminated through the kidneys and has a half-life of around 1-2 hours. - Fondaparinux: Not enough information is provided about Fondaparinux's elimination rate, but it is generally eliminated through the kidneys and has a half-life of around 11-17 hours. - Apixaban: 0.5 mg / 4 hours = 0.125 mg/hour Based on the elimination rates, Apixaban and Warfarin have the same elimination rate of 0.125 mg/hour. However, the elimination rate of Apixaban is more consistent with the elimination rate of warfarin. Therefore, the patient most likely consumed Apixaban.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_93",
+            "title": "Pharmacology_Katzung",
+            "content": "Known and unknown diseases and risk factors (including lifestyles of subjects) may influence the results of a clinical study. For example, some diseases alter the pharmacokinetics of drugs (see Chapters 3 through 5). Other drugs and some foods alter the pharmacokinetics of many drugs. Concentrations of blood or tissue components being monitored as a measure of the effect of the new agent may be influenced by other diseases or other drugs. Attempts to avoid this hazard usually involve the crossover technique (when feasible) and proper selection and assignment of patients to each of the study groups. This requires obtaining accurate diagnostic tests and medical and pharmacologic histories (including use of recreational drugs, over-the-counter drugs, and \u201csupplements\u201d) and the use of statistically valid methods of randomization in assigning subjects to particular study groups. There is growing interest in analyzing genetic variations as part of the trial that may influence whether a"
+        },
+        {
+            "id": "Pharmacology_Katzung_531",
+            "title": "Pharmacology_Katzung",
+            "content": "Example: Warfarin, a vitamin K antagonist, is the oldest and most widely prescribed oral anticoagulant worldwide. Within a narrow therapeutic range, warfarin is highly effective for the prevention and treatment of thromboembolic disorders (Chapter 34). Nevertheless, interpatient differences in dosing requirements (up to 20-fold) often lead to complications from subtherapeutic anticoagulation and clotting or supratherapeutic anticoagulation and bleeding, which are among the most common causes for emergency room visits in the United States. Understanding the factors that contribute to variability in individual warfarin maintenance doses may improve therapeutic outcomes."
+        },
+        {
+            "id": "InternalMed_Harrison_9433",
+            "title": "InternalMed_Harrison",
+            "content": "monitoring Although designed to be administered without routine monitoring, there are situations where determination of the anticoagulant activity of the new oral anticoagulants can be helpful. These include assessment of adherence, detection of accumulation or overdose, identification of bleeding mechanisms, and determination of activity prior to surgery or intervention. For qualitative assessment of anticoagulant activity, the prothrombin time can be used for factor Xa inhibitors and the aPTT for dabigatran. Rivaroxaban and edoxaban prolong the prothrombin time more than apixaban. In fact, because apixaban has such a limited effect on the prothrombin time, anti-factor Xa assays are needed to assess its activity. The effect of the drugs on tests of coagulation varies depending on the time that the blood is drawn relative to the timing of the last dose of the drug and the reagents used to perform the tests. Chromogenic anti-factor Xa assays and a dilute thrombin clotting time with"
+        },
+        {
+            "id": "Pharmacology_Katzung_3766",
+            "title": "Pharmacology_Katzung",
+            "content": "The indications for the use of heparin are described in the section on clinical pharmacology. A plasma concentration of heparin of 0.2\u20130.4 unit/mL (by protamine titration) or 0.3\u20130.7 unit/mL (anti-Xa units) is considered to be the therapeutic range for treatment of venous thromboembolic disease. This concentration generally corresponds to a PTT of 1.5\u20132.5 times baseline. However, the use of the PTT for heparin monitoring is problematic. There is no standardization scheme for the PTT as there is for the prothrombin time (PT) and its international normalized ratio (INR) in warfarin monitoring. The PTT in seconds for a given heparin concentration varies between different reagent/ instrument systems. Thus, if the PTT is used for monitoring, the laboratory should determine the clotting time that corresponds to the therapeutic range by protamine titration or anti-Xa activity, as listed above."
+        },
+        {
+            "id": "Pharmacology_Katzung_5",
+            "title": "Pharmacology_Katzung",
+            "content": "Introduction: The Nature of Drugs & Drug Development & Regulation Bertram G. Katzung, MD, PhD* A 78-year-old woman is brought to the hospital because of suspected aspirin overdose. She has taken aspirin for joint pain for many years without incident, but during the past year, she has exhibited many signs of cognitive decline. Her caregiver finds her confused, hyperventilating, and vomiting. The care-giver finds an empty bottle of aspirin tablets and calls 9-1-1. In the emergency department, samples of venous and arterial blood are obtained while the airway, breathing, and circulation are evaluated. An intravenous (IV) drip is started, and gastro-intestinal decontamination is begun. After blood gas results are reported, sodium bicarbonate is administered via the IV. What is the purpose of the sodium bicarbonate?"
+        },
+        {
+            "id": "Pharmacology_Katzung_3780",
+            "title": "Pharmacology_Katzung",
+            "content": "The therapeutic range for oral anticoagulant therapy is defined in terms of an international normalized ratio (INR). The INR is the prothrombin time ratio (patient prothrombin time/mean of normal prothrombin time for lab)ISI, where the ISI exponent refers to the International Sensitivity Index and is dependent on the specific reagents and instruments used for the determination. The ISI serves to relate measured prothrombin times to a World Health Organization reference standard thromboplastin; thus the prothrombin times performed on different properly calibrated instruments with a variety of thromboplastin reagents should give the same INR results for a given sample. For most reagent and instrument combinations in current use, the ISI is close to 1, making the INR roughly the ratio of the patient prothrombin time to the mean normal prothrombin time. The recommended INR for prophylaxis and treatment of thrombotic disease is 2\u20133. Patients with some types of artificial heart valves (eg,"
+        },
+        {
+            "id": "Pharmacology_Katzung_287",
+            "title": "Pharmacology_Katzung",
+            "content": "Pharmacokinetics & Pharmacodynamics: Rational Dosing & the Time Course of Drug Action Nicholas H. G. Holford, MB, ChB, FRACP is 1 ng/mL. Tablets of digoxin are available that contain 62.5 micrograms (mcg) and 250 mcg. What maintenance dose would you recommend? An 85-year-old, 60-kg woman with a serum creatinine of 1.8 mg/dL has atrial fibrillation. A decision has been made to use digoxin to control the rapid heart rate. The target con-centration of digoxin for the treatment of atrial fibrillation"
+        },
+        {
+            "id": "InternalMed_Harrison_9434",
+            "title": "InternalMed_Harrison",
+            "content": "time that the blood is drawn relative to the timing of the last dose of the drug and the reagents used to perform the tests. Chromogenic anti-factor Xa assays and a dilute thrombin clotting time with appropriate calibrators provide quantitative assays to measure the plasma levels of the factor Xa inhibitors and dabigatran, respectively."
+        },
+        {
+            "id": "Neurology_Adams_6394",
+            "title": "Neurology_Adams",
+            "content": "A determination of prothrombin and partial thromboplastin activity is needed before therapy is started with warfarin, but if this is not feasible, the initial doses of anticoagulant drugs can usually be given safely if there is no clinical evidence of bleeding anywhere in the body and there has been no recent surgery. Warfarin, beginning with a dose of 5 to 10 mg daily, is relatively safe provided that the international normalized ratio (INR) is brought only to 2 to 3 (formerly measured as a prothrombin time between 16 and 19 s) and the level is determined regularly (an approximate plan is once a day for the first 5 days, then 2 or 3 times a week for 1 to 2 weeks, and finally once every several weeks)."
+        },
+        {
+            "id": "Pharmacology_Katzung_3100",
+            "title": "Pharmacology_Katzung",
+            "content": "Charles DeBattista, MD * severe akathisia. Although more costly, lurasidone is then prescribed, which, over the course of several weeks of treatment, improves his symptoms and is tolerated by the patient. What signs and symptoms would support an initial diagnosis of schizophrenia? In the treatment of schizophre-nia, what benefits do the second-generation antipsychotic drugs offer over the traditional agents such as haloperidol? In addition to the management of schizophrenia, what other clinical indications warrant consideration of the use of drugs nominally classified as antipsychotics? A 19-year-old male student is brought into the clinic by his mother who has been concerned about her son\u2019s erratic behavior and strange beliefs. He destroyed a TV because he felt the TV was sending harassing messages to him. In addition, he reports hearing voices telling him that fam-ily members are trying to poison his food. As a result, he is not eating. After a diagnosis is made, haloperidol is"
+        },
+        {
+            "id": "Pharmacology_Katzung_360",
+            "title": "Pharmacology_Katzung",
+            "content": "Some drugs, such as digoxin and lithium, take several hours to distribute to tissues. Digoxin samples should be taken at least 6 hours after the last dose and lithium just before the next dose (usually 24 hours after the last dose). Aminoglycosides distribute quite rapidly, but it is still prudent to wait 1 hour after giving the dose before taking a sample. Clearance is readily estimated from the dosing rate and mean steady-state concentration. Blood samples should be appropriately timed to estimate steady-state concentration. Provided steady state has been approached (at least three half-lives of constant dosing), a sample obtained near the midpoint of the dosing interval will usually be close to the mean steady-state concentration. Initial Predictions of Volume of Distribution & Clearance A. Volume of Distribution"
+        },
+        {
+            "id": "Pharmacology_Katzung_4079",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Pharmacokinetics and Dosage: The recommended dose for pegloticase is 8 mg every 2 weeks administered as an intravenous infusion. It is a rapidly acting drug, achieving a peak decline in uric acid level within 24\u201372 hours. The serum half-life ranges from 6 to 14 days. Several studies have shown earlier clearance of PEG-uricase (mean of 11 days) due to antibody response when compared to PEG-uricase antibody-negative subjects (mean of 16.1 days). 3. Pharmacodynamics: Urate oxidase enzyme, absent in humans and some higher primates, converts uric acid to allantoin. This product is highly soluble and can be easily eliminated by the kidney. Pegloticase has been shown to maintain low urate levels for up to 21 days after a single dose at doses of 4\u201312 mg, allowing for IV dosing every 2 weeks. Pegloticase should not be used for asymptomatic hyperuricemia."
+        },
+        {
+            "id": "Pharmacology_Katzung_356",
+            "title": "Pharmacology_Katzung",
+            "content": "Timing of Samples for Concentration Measurement Information about the rate and extent of drug absorption in a particular patient is rarely of great clinical importance. Absorption usually occurs during the first 2 hours after a drug dose and varies according to food intake, posture, and activity. Therefore, it is important to avoid drawing blood until absorption is complete (about 2 hours after an oral dose). Attempts to measure peak concentrations early after oral dosing are usually unsuccessful and compromise the validity of the measurement, because one cannot be certain that absorption is complete. Plasma Protein Binding: Is It Important?"
+        },
+        {
+            "id": "Pharmacology_Katzung_98",
+            "title": "Pharmacology_Katzung",
+            "content": "As described in this chapter, drugs are studied in a variety of ways, from 30-minute test tube experiments with isolated enzymes and receptors to decades-long observations of popula-tions of patients. The conclusions that can be drawn from such different types of studies can be summarized as follows. Basic research is designed to answer specific, usually single, questions under tightly controlled laboratory conditions, eg, does drug x inhibit enzyme y? The basic question may then be extended, eg, if drug x inhibits enzyme y, what is the concentra-tion-response relationship? Such experiments are usually repro-ducible and often lead to reliable insights into the mechanism of the drug\u2019s action. First-in-human studies include phase 1\u20133 trials. Once a drug receives FDA approval for use in humans, case reports and case series consist of observations by clinicians of the effects of drug (or other) treatments in one or more patients. These results often"
+        },
+        {
+            "id": "Pharmacology_Katzung_3803",
+            "title": "Pharmacology_Katzung",
+            "content": "Summary of the Direct Oral Anticoagulant Drugs The direct oral anticoagulant drugs have consistently shown equivalent antithrombotic efficacy and lower bleeding rates when compared with traditional warfarin therapy. In addition, these drugs offer the advantages of rapid therapeutic effect, no monitoring requirement, and fewer drug interactions in comparison with warfarin, which has a narrow therapeutic window, is affected by diet and many drugs, and requires monitoring for dosage optimization. However, the short half-life of the newer anticoagulants has the important consequence that patient noncompliance will quickly lead to loss of anticoagulant effect and risk of thromboembolism. Given the convenience of onceor twice-daily oral dosing, lack of a monitoring requirement, and fewer drug and dietary interactions documented thus far, the new direct oral anticoagulants represent a significant advance in the prevention and therapy of thrombotic disease."
+        },
+        {
+            "id": "InternalMed_Harrison_21668",
+            "title": "InternalMed_Harrison",
+            "content": "Certain anticoagulants, such as fractionated low-molecularweight heparin, may need to be avoided or dose-adjusted in these patients, with monitoring of factor Xa activity where available. It is often more prudent to use conventional unfractionated heparin, titrated to the measured partial thromboplastin time, in hospitalized patients requiring an alternative to warfarin anticoagulation. The new classes of oral anticoagulants are all, in part, renally eliminated and need dose adjustment in the face of decreased GFR (Chap. 143)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1009",
+            "title": "Biochemistry_Lippinco",
+            "content": "1.2. A 50-year-old man presented with painful blisters on the backs of his hands. He was a golf instructor and indicated that the blisters had erupted shortly after the golfing season began. He did not have recent exposure to common skin irritants. He had partial complex seizure disorder that had begun ~3 years earlier after a head injury. The patient had been taking phenytoin (his only medication) since the onset of the seizure disorder. He admitted to an average weekly ethanol intake of ~18 12-oz cans of beer. The patient\u2019s urine was reddish orange. Cultures obtained from skin lesions failed to grow organisms. A 24-hour urine collection showed elevated uroporphyrin (1,000 mg; normal, <27 mg). The most likely diagnosis is: A. acute intermittent porphyria. B. congenital erythropoietic porphyria. C. erythropoietic protoporphyria. D. hereditary coproporphyria. E. porphyria cutanea tarda."
+        },
+        {
+            "id": "Pharmacology_Katzung_290",
+            "title": "Pharmacology_Katzung",
+            "content": "Knowing the relationship between dose, drug concentration, and effects allows the clinician to take into account the various pathologic and physiologic features of a particular patient that make him or her different from the average individual in responding to a drug. The importance of pharmacokinetics and pharmacodynamics in patient care thus rests upon the improvement in therapeutic benefit and reduction in toxicity that can be achieved by application of these principles. The \u201cstandard\u201d dose of a drug is based on trials in healthy volunteers and patients with average ability to absorb, distribute, and eliminate the drug (see Clinical Trials: The IND & NDA Drug in tissues of distribution"
+        },
+        {
+            "id": "Pharmacology_Katzung_33",
+            "title": "Pharmacology_Katzung",
+            "content": "The interactions between a drug and the body are conveniently divided into two classes. The actions of the drug on the body are termed pharmacodynamic processes (Figure 1\u20131); the principles of pharmacodynamics are presented in greater detail in Chapter 2. These properties determine the group in which the drug is classified, and they play the major role in deciding whether that group is appropriate therapy for a particular symptom or disease. The actions of the body on the drug are called pharmacokinetic processes and are described in Chapters 3 and 4. Pharmacokinetic processes govern the absorption, distribution, and elimination of drugs and are of great practical importance in the choice and administration of a particular drug for a particular patient, eg, a patient with impaired renal function. The following paragraphs provide a brief introduction to pharmacodynamics and pharmacokinetics."
+        },
+        {
+            "id": "Obstentrics_Williams_7176",
+            "title": "Obstentrics_Williams",
+            "content": "TABLE 52-5. Anticoagulation Regimen Definitions Prophylactic LMWHa Enoxaparin,n40 mg SC once daily Dalteparin, 5,000 units SC once daily Tinzaparin, 4,500 units SC once daily Therapeutic LMWHb Enoxaparin, 1 mg/kg every 12 hours Dalteparin, 200 units/kg once daily Tinzaparin, 175 units/kg once daily Dalteparin, 100 units/kg every 12 hours May target an anti-Xa level in the therapeutic range of 0.6-1.0 units/mL for twice daily regimen; slightly higher doses may be needed for a once-daily regimen. Minidose prophylactic UFH UFH, 5,000 units SC every 12 hours Prophylactic UFH UFH, 5,000-10,000 units SC every 12 hours UFH, 5,000-7,500 units SC every 12 hours in first trimester UFH 7,500-10,000 units SC every 12 hours in the second trimester UFH, 10,000 units SC every 12 hours in the third trimester, unless the aPTI is elevated Therapeutic UFHb UFH, 10,000 units or more SC every 12 hours in doses adjusted to target aPTI in the therapeutic range (1n.5-2.5) 6 hours after injection"
+        },
+        {
+            "id": "InternalMed_Harrison_9426",
+            "title": "InternalMed_Harrison",
+            "content": "therapy in these patients produces a precipitous fall in plasma levels of proteins C or S, thereby eliminating this important anticoagulant mecHanism of action The new oral anticoagulants are small molecules pathway before warfarin exerts an antithrombotic effect through lower-that bind reversibly to the active site of their target enzyme. Table 143-9 ing of the functional levels of factor X and prothrombin. The resultant summarizes the distinct pharmacologic properties of these agents. procoagulant state triggers thrombosis. Why the thrombosis is localized to the microvasculature of fatty tissues is unclear. indications The new oral anticoagulants have been compared with"
+        },
+        {
+            "id": "Pharmacology_Katzung_6672",
+            "title": "Pharmacology_Katzung",
+            "content": "The relation between the number of drugs taken and the incidence of adverse drug reactions (ADRs) has been well documented. In long-term care facilities, in which a high percentage of the population is elderly, the average number of prescriptions per patient varies between 6 and 8. Studies have shown that the percentage of patients with adverse reactions increases from about 10% when a single drug is being taken to nearly 100% when 10 drugs are taken. Thus, it may be expected that about half of patients in long-term care facilities will have recognized or unrecognized ADRs at some time. Patients living at home may see several different practitioners for different conditions and accumulate multiple prescriptions for drugs with overlapping actions. It is useful to conduct a \u201cbrown bag\u201d analysis in such patients. The brown bag analysis consists of asking the patient to bring to the practitioner a bag containing all the medications, supplements, vitamins, etc, that he or she is currently"
+        },
+        {
+            "id": "InternalMed_Harrison_9417",
+            "title": "InternalMed_Harrison",
+            "content": "Because warfarin has a narrow therapeutic window, frequent coagulation monitoring is essential to ensure that a therapeutic anticoagulant response is maintained. Even patients with stable warfarin dose requirements should have their INR determined every 3\u20134 weeks. More frequent monitoring is necessary when new medications are introduced because so many drugs enhance or reduce the anticoagulant effects of warfarin."
+        },
+        {
+            "id": "Pharmacology_Katzung_77",
+            "title": "Pharmacology_Katzung",
+            "content": "started. With regulatory approval, human testing may then go forward (usually in three phases) before the drug is considered for approval for general use. A fourth phase of data gathering and safety monitoring is becoming increasingly important and follows after approval for marketing. Once approved, the great majority of drugs become available for use by any appropriately licensed practitioner. Highly toxic drugs that are nevertheless considered valuable in lethal diseases may be approved for restricted use by practitioners who have undergone special training in their use and who maintain detailed records."
+        },
+        {
+            "id": "Pharmacology_Katzung_122",
+            "title": "Pharmacology_Katzung",
+            "content": "Manufacturers promoting a new agent may pay physicians to use it in preference to older drugs with which they are more familiar. Manufacturers sponsor small and often poorly designed clinical studies after marketing approval and aid in the publication of favorable results but may retard publication of unfavorable results. The need for physicians to meet continuing medical education (CME) requirements in order to maintain their licenses encourages manufacturers to sponsor conferences and courses, often in highly attractive vacation sites, and new drugs are often featured in such courses. Finally, the common practice of distributing free samples of new drugs to practicing physicians has both positive and negative effects. The samples allow physicians to try out new drugs without incurring any cost to the patient. On the other hand, new drugs are usually much more expensive than older agents, and when the free samples run out, the patient (or insurance carrier) may be forced to pay much"
+        },
+        {
+            "id": "Pharmacology_Katzung_100",
+            "title": "Pharmacology_Katzung",
+            "content": "or not exposed to the drugs in question. Such epidemiologic studies add weight to conjectures but cannot control all confounding variables and therefore cannot conclusively prove cause and effect. Meta-analyses utilize rigorous evaluation and grouping of sim-ilar studies to increase the number of subjects studied and hence the statistical power of results obtained in multiple published studies. While the numbers may be dramatically increased by meta-analysis, the individual studies still suffer from their varying methods and end points, and a meta-analysis cannot prove cause and effect. Large randomized controlled trials (RCTs) are designed to answer specific questions about the effects of medications on clinical end points or important surrogate end points, using large enough samples of patients and allocating them to con-trol and experimental treatments using rigorous randomization methods. Randomization is the best method for distributing all foreseen confounding factors, as well"
+        },
+        {
+            "id": "InternalMed_Harrison_9407",
+            "title": "InternalMed_Harrison",
+            "content": "tion. Thromboplastins vary in their sensitivity to TABLE 143-8 frEquENCIEs Of CYP2C9gENOTYPEs AND VKORC1 HAPLOTYPEs IN DIffErENT POPuLATIONs AND THEIr EffECT ON wArfArIN DOsE rEquIrEMENTs monitoring Warfarin therapy is most often moni-755 tored using the prothrombin time, a test that is sensitive to reductions in the levels of prothrombin, Frequency, % factor VII, and factor X. The test is performed by adding thromboplastin, a reagent that contains tis- Compared with sue factor, phospholipid, and calcium, to citrated plasma and determining the time to clot forma gastrointestinal tract. Levels of warfarin in the blood peak about 90 min after drug administration. Racemic warfarin has a plasma half-life of 36\u201342 h, and more than 97% of circulating warfarin is bound to albumin. Only the small fraction of unbound warfarin is biologically active."
+        },
+        {
+            "id": "InternalMed_Harrison_355",
+            "title": "InternalMed_Harrison",
+            "content": "In a typical 70-kg human, plasma volume is \u223c3 L, blood volume is \u223c5.5 L, and extracellular water outside the vasculature is \u223c20 L. The volume of distribution of drugs extensively bound to plasma proteins but not to tissue components approaches plasma volume; warfarin is one such example. By contrast, for drugs highly bound to tissues, the volume of distribution can be far greater than any physiologic space. For example, the volume of distribution of digoxin and tricyclic antidepressants is hundreds of liters, obviously exceeding total-body volume. Such drugs are not readily removed by dialysis, an important consideration in overdose. Initiation of therapy Change of chronic therapy ChangedosingDose = D * 10th dose Dose = 2\u2022D Dose = 2\u2022D Dose = 0.5\u2022D Discontinue drug Loading dose + dose = D Concentration"
+        },
+        {
+            "id": "Pharmacology_Katzung_3779",
+            "title": "Pharmacology_Katzung",
+            "content": "Treatment with warfarin should be initiated with standard doses of 5\u201310 mg. The initial adjustment of the prothrombin time takes about 1 week, which usually results in a maintenance dosage of 5\u20137 mg/d. The prothrombin time (PT) should be increased to a level representing a reduction of prothrombin activity to 25% of normal and maintained there for long-term therapy. When the activity is less than 20%, the warfarin dosage should be reduced or omitted until the activity rises above 20%. Inherited polymorphisms in 2CYP2C9 and VKORC1 have significant effects on warfarin dosing; however, algorithms incorporating genomic information to predict initial warfarin dosing were no better than standard clinical algorithms in two of three large randomized trials examining this issue (see Chapter 5)."
+        },
+        {
+            "id": "Obstentrics_Williams_2924",
+            "title": "Obstentrics_Williams",
+            "content": "When a woman is admitted in labor, most often the hematocrit or hemoglobin concentration is checked. he hematocrit can be measured easily and quickly. At Parkland Hospital, blood is collected in a standard collection tube with anticoagulant. From this, a heparinized capillary tube is filled to spin in a microhematocrit centrifuge in the labor and delivery unit. his provides a hematocrit value within 3 minutes. he initial collection tube is also sent to the hematology laboratory for evaluation if the point-of-care hematocrit is <30 volume percent. Another labeled tube of blood is allowed to clot and sent to the blood bank for blood type and antibody screen, if needed. A final sample is collected for syphilis and human immunodeficiency virus (HIV) serology. In some labor units, a cleancatch voided specimen is examined in all women for protein and glucose. At Parkland Hospital, however, we obtain a urine specimen for protein determination in hypertensive women only (Table 40-1, p. 712)."
+        },
+        {
+            "id": "Pharmacology_Katzung_358",
+            "title": "Pharmacology_Katzung",
+            "content": "drug in the body into the unbound pool because less than one third of the drug in the body is bound to plasma proteins even in the most extreme cases, eg, warfarin. Drug displaced from plasma protein will of course distribute throughout the volume of distribution, so that a 5% increase in the amount of unbound drug in the body produces at most a 5% increase in pharmaco-logically active unbound drug at the site of action. Second, when the amount of unbound drug in plasma increases, the rate of elimination will increase (if unbound clearance is unchanged), and after four half-lives the unbound concentration will return to its previous steady-state value. When drug interactions associated with protein binding displacement and clinically important effects have been studied, it has been found that the displacing drug is also an inhibitor of clearance, and it is the change in clearance of the unbound drug that is the relevant mechanism explaining the interaction. The clinical importance of"
+        },
+        {
+            "id": "Pharmacology_Katzung_3208",
+            "title": "Pharmacology_Katzung",
+            "content": "An initial determination of serum lithium concentration should be obtained about 5 days after the start of treatment, at which time steady-state conditions should have been attained. If the clinical response suggests a change in dosage, simple arithmetic (new dose equals present dose times desired blood level divided by present blood level) should produce the desired level. The serum concentration attained with the adjusted dosage can be checked after another 5 days. Once the desired concentration has been achieved, levels can be measured at increasing intervals unless the schedule is influenced by intercurrent illness or the introduction of a new drug into the treatment program."
+        }
+    ],
+    "scores": [
+        0.02487957712981552,
+        0.02154233340845917,
+        0.018265221017514596,
+        0.01770873786407767,
+        0.016802587176602924,
+        0.01644736842105263,
+        0.0162569649295313,
+        0.01619029827511053,
+        0.01601246105919003,
+        0.015858324077502158,
+        0.015720418404982162,
+        0.015648116535791512,
+        0.015579710144927535,
+        0.015406162464985995,
+        0.015156637367590715,
+        0.0151117700729927,
+        0.014781555847038642,
+        0.014699173805058544,
+        0.014685756395410043,
+        0.014658726523133303,
+        0.014237355635205097,
+        0.013986013986013986,
+        0.013941513650053434,
+        0.013716854757317185,
+        0.013709677419354839,
+        0.013669868215322761,
+        0.013572134175149252,
+        0.013401655498620418,
+        0.013264462809917357,
+        0.013247282608695652,
+        0.01288457567623374,
+        0.012773353813816241
+    ]
+}

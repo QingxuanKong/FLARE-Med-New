@@ -1,0 +1,206 @@
+{
+    "id": "61f939a5882a024a1000004a",
+    "question": "Is tivantinib effective for MET-high hepatocellular carcinoma?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents to determine if tivantinib is effective for MET-high hepatocellular carcinoma.\\n\\nDocument [1] (Title: InternalMed_Harrison) mentions that current hopes focus particularly on the Met pathway inhibitors such as tivantinib for HCC. This suggests that tivantinib may be effective for MET-high hepatocellular carcinoma.\\n\\nDocument [16] (Title: Pathology_Robbins) states that activating mutations of the MET gene are found in a subset of patients with sporadic forms of papillary renal cell carcinoma. This implies that MET-high tumors may respond to MET inhibitors like tivantinib.\\n\\nDocument [18] (Title: Pathology_Robbins) also mentions that the MET proto-oncogene is the culprit in most cases of hereditary papillary renal cell cancers, which are a type of MET-high tumor.\\n\\nBased on these documents, it appears that tivantinib may be effective for MET-high hepatocellular carcinoma.\\n\\nHowever, to confirm this, we need to look for specific information on the effectiveness of tivantinib in MET-high HCC.\\n\\nUpon reviewing the documents again, we find that there is no specific information on the effectiveness of tivantinib in MET-high HCC.\\n\\nTherefore, based on the available information, we cannot conclude that tivantinib is effective for MET-high hepatocellular carcinoma.\\n\\nHowever, given the context that tivantinib is mentioned as a Met pathway inhibitor in document [1] and considering the role of MET in MET-high tumors, we can infer that tivantinib might be effective for MET-high hepatocellular carcinoma.\\n\\nHence, the answer is A.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_6032",
+            "title": "Pharmacology_Katzung",
+            "content": "Hepatocellular cancer (HCC) has been a relatively difficult tumor to treat as it frequently occurs in the context of chronic liver disease and cirrhosis. It is usually diagnosed late in the course of chronic liver disease, and a large majority of patients have underlying poor liver function and only limited hepatic reserve. In general, HCC is considered to be a chemotherapy-resistant disease, and palliative chemotherapy is usually not recommended as first-line therapy in patients with unresectable or advanced HCC. Single-agent sorafenib therapy is currently approved for advanced or unresectable HCC, and in patients who have progressed on front-line sorafenib therapy, the small molecule tyrosine kinase inhibitor regorafenib is recommended."
+        },
+        {
+            "id": "InternalMed_Harrison_7110",
+            "title": "InternalMed_Harrison",
+            "content": "current directions A number of new kinase inhibitors are being evaluated for HCC (Tables 111-9 and 111-10). These include the biologicals, such as Raf kinase and vascular endothelial growth factor (VEGF) inhibitors, and agents that target various steps of the cell growth pathway. Current hopes focus particularly on the Met pathway inhibitors such as tivantinib and several IGF receptor antagonists. 90Yttrium looks promising and without chemotherapy toxicities. It is particularly attractive because, unlike TACE, it seems safe in the presence of portal vein thrombosis, a pathognomonic feature of HCC aggressiveness. The bottleneck of liver donors for OLTX is at last widening with increasing use of living donors, and criteria for OLTX for larger HCCs are slowly expanding. Patient participation in clinical trials assessing new therapies is encouraged (www.clinicaltrials.gov)."
+        },
+        {
+            "id": "Surgery_Schwartz_10915",
+            "title": "Surgery_Schwartz",
+            "content": "disease. External-beam radiotherapy is controversial but can be consid-ered for patients with resected T4 disease and for patients with unresectable residual or recurrent tumor and symptomatic bony metastases. Liver metastases tend to be multiple and are typi-cally not amenable to resection, percutaneous ethanol ablation, or radiofrequency ablation. However, chemoembolization may be helpful in this setting. There is no effective chemotherapy regimen.Various targeted therapies directed against the RET kinase have been investigated for the treatment of MTC.43 Many of these also inhibit VEGF receptor due to their close structural similarities. Sorafenib, sunitinib, lenvatinib, and cabozantinib are some such multikinase inhibitors, whereas axitinib and pazopanib act only on VEGFR. Vandetanib inhibits both targets and is also an EGF receptor inhibitor, and cabozantinib targets c-MET in addition to RET and VEGF receptor. Both drugs are currently approved by the FDA and EMA for the treatment"
+        },
+        {
+            "id": "InternalMed_Harrison_7130",
+            "title": "InternalMed_Harrison",
+            "content": "far. Several case series have shown safety and some responses for hepatic arterial chemotherapy with gemcitabine, drug-eluting beads, and 90Yttrium microspheres, but no convincing clinical trials are available. Clinical trials are under way with targeted therapies. Bevacizumab plus erlotinib gave a 10% partial response rate with median overall survival of 9.9 months. A sorafenib trial yielded an overall survival of 4.4 months, but 50% of the patients had received previous chemotherapy. Patients with unresectable tumors should be treated in clinical trials."
+        },
+        {
+            "id": "InternalMed_Harrison_7117",
+            "title": "InternalMed_Harrison",
+            "content": "toxicity. Patients with advanced-stage disease, vascular invasion, or metastases have a median survival of around 6 months. Among this group, outcomes may vary according to their underlying liver disease. It is this group at which kinase inhibitors are directed."
+        },
+        {
+            "id": "InternalMed_Harrison_7390",
+            "title": "InternalMed_Harrison",
+            "content": "The situation changed dramatically when two large-scale randomized trials established a role for antiangiogenic therapy, as predicted by the genetic studies. These trials separately evaluated two orally administered antiangiogenic agents, sorafenib and sunitinib, that inhibited receptor tyrosine kinase signaling through the VEGF and PDGF receptors. Both showed efficacy as second-line treatment following progression during cytokine treatment, resulting in approval by regulatory authorities for the treatment of advanced renal cell carcinoma. A randomized phase III trial comparing sunitinib to IFN-\u03b1 showed superior efficacy for sunitinib with an acceptable safety profile. The trial resulted in a change in the standard first-line treatment from IFN to sunitinib. Sunitinib is usually given orally at a dose of 50 mg/d for 4 out of 6 weeks. Pazopanib and axitinib are newer agents of the same class. Pazopanib was compared to sunitinib in a randomized first-line phase III trial. Efficacy was"
+        },
+        {
+            "id": "Pathology_Robbins_126",
+            "title": "Pathology_Robbins",
+            "content": "Hepatocyte growth factor. Hepatocyte growth factor (HGF; also known as scatter factor) has mitogenic effects on hepatocytes and most epithelial cells. HGF acts as a morphogen during embryonic development (i.e., it influences the pattern of tissue differentiation), promotes cell migration (hence its designation as scatter factor), and enhances hepatocyte survival. HGF is produced by fibroblasts and most mesenchymal cells, as well as endothelium and nonhepatocyte liver cells. It is synthesized as an inactive precursor (pro-HGF) that is proteolytically activated by serine proteases released at sites of injury. The receptor for HGF is MET, which has intrinsic tyrosine kinase activity. It is frequently overexpressed or mutated in tumors, particularly renal and thyroid papillary carcinomas. Consequently, MET inhibitors are being evaluated as cancer therapies."
+        },
+        {
+            "id": "Pharmacology_Katzung_5988",
+            "title": "Pharmacology_Katzung",
+            "content": "Ramucirumab is an IgG1 antibody that targets the VEGFR2 receptor. This agent inhibits binding of the VEGF ligands, VEGF-A, VEGF-C, and VEGF-D, to the target VEGF-R2 receptor, which then results in inhibition of downstream VEGFR signaling. This agent is now FDA-approved for advanced gastric or gastroesophageal junction adenocarcinoma, metastatic NSCLC, and metastatic CRC. The main adverse events are similar to those observed with bevacizumab and other anti-VEGF inhibitors. Sorafenib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), especially VEGF-R2 and VEGF-R3, platelet-derived growth factor-\u03b2 (PDGFR-\u03b2), and raf kinase. It was initially approved for advanced renal cell cancer and is also approved for advanced hepatocellular cancer."
+        },
+        {
+            "id": "Surgery_Schwartz_11566",
+            "title": "Surgery_Schwartz",
+            "content": "removed, the majority of patients survive, but only a minority of patients have lesions amenable to complete resection at diagnosis.A staging system based on postsurgical extent of tumor and surgical resectability is shown in Table 39-5. The overall survival rate for children with hepatoblastoma is 70%, but it is only 25% for hepatocellular carcinoma. Children diagnosed with stage I and II hepatoblastoma have a cure rate of greater than 90% compared to 60% for stage III and approximately 20% for stage IV. In children diagnosed with hepatocellular carcinoma, those with stage I have a good outcome, whereas stages III and IV are usually fatal. The fibrolamellar variant of hepatocel-lular carcinoma may have a better prognosis.Surgery. The abdominal CT scan usually will determine the resectability of the lesion, although occasionally this can only Figure 39-40. Computed tomography of the abdomen showing a hepatocellular carcinoma in a 12-year-old boy.be determined at the time of"
+        },
+        {
+            "id": "InternalMed_Harrison_7097",
+            "title": "InternalMed_Harrison",
+            "content": "current directions A large adjuvant trial examining resection and transplantation, with or without sorafenib (see below) is in progress. The success of viral therapies in decreasing HCC recurrence after resection is part of a broader focus on the tumor microenvironment (stroma, blood vessels, inflammatory cells, and cytokines) as mediators of HCC progression and as targets for new therapies."
+        },
+        {
+            "id": "InternalMed_Harrison_7114",
+            "title": "InternalMed_Harrison",
+            "content": "Tumors of the Liver and Biliary Tree 552 tumor regrowth. Second, the Sorafenib HCC Assessment Randomized Protocol (SHARP) phase III trial of sorafenib versus placebo for unresectable HCC showed that survival could be significantly enhanced in the treatment arm with only 2% of the patients having tumor response but 70% of patients having disease stabilization. This observation has led to a reconsideration of the usefulness of response and the significance of disease stability. Third, HCC is a typically highly vascular tumor, and the vascularity is considered to be a measure of tumor viability. As a result, the Response Evaluation Criteria in Solid Tumors (RECIST) have been modified to mRECIST, which requires measurement of vascular/ viable tumor on the CT or MRI scan. A partial response is defined as a 30% decrease in the sum of diameters of viable (arterially enhancing) target tumors. The need for semiquantitation of tumor vascularity on scans has led to the introduction of"
+        },
+        {
+            "id": "InternalMed_Harrison_7107",
+            "title": "InternalMed_Harrison",
+            "content": "New Therapies Although prolonged survival has been reported in phase II trials using newer agents, such as bevacizumab plus Sorafenib vs placebo Raf, VEGFR, PDGFR 10.7 vs 7.9 Sorafenib vs placebo (Asians) Raf, VEGFR, PDGFR 6.5 vs 4.2 Abbreviations: PDGFR, platelet-derived growth factor receptor; Raf, rapidly accelerated fibrosarcoma; VEGFR vascular endothelial growth factor receptor."
+        },
+        {
+            "id": "Pharmacology_Katzung_5977",
+            "title": "Pharmacology_Katzung",
+            "content": "cetuximab with cytotoxic chemotherapy may be of particular benefit in the neoadjuvant therapy of patients with liver-limited disease. Although this antibody was initially approved to be administered on a weekly schedule, pharmacokinetic studies have shown that an every-2-week schedule provides the same level of clinical activity as the weekly schedule. This agent is also approved for use in combination with radiation therapy in patients with locally advanced head and neck cancer. Cetuximab is well tolerated, with the main adverse effects being an acneiform skin rash, hypersensitivity infusion reaction, and hypomagnesemia. However, when cetuximab is combined with radiation therapy for head and neck cancer, there is a very low but real increased risk (1%) of sudden death, which has resulted in a black-box warning for the drug."
+        },
+        {
+            "id": "InternalMed_Harrison_7106",
+            "title": "InternalMed_Harrison",
+            "content": "that also target angiogenesis have either proved to be inferior or more toxic. These include sunitinib, brivanib, linifanib, everolimus, and bevacizumab (Table 111-8). The idea of angiogenesis alone as a major HCC therapeutic target may need revision."
+        },
+        {
+            "id": "InternalMed_Harrison_6221",
+            "title": "InternalMed_Harrison",
+            "content": "Several small-molecule inhibitors (SMIs) that target VEGFR tyrosine kinase activity but are also inhibitory to other kinases have also been approved to treat certain cancers. Sunitinib (see above and Table 102e-2) has activity directed against mutant c-Kit receptors (approved for GIST), but also targets VEGFR and PDGFR, and has shown significant antitumor activity against metastatic RCC, presumably on the basis of its antiangiogenic activity. Similarly, sorafenib, originally developed as a Raf kinase inhibitor but with potent activity against VEGFR and PDGFR, has activity against RCC, thyroid cancer, and hepatocellular cancer. Other inhibitors of VEGFR approved for the treatment of RCC include axitinib and pazopanib. The success in targeting tumor angiogenesis has led to enhanced enthusiasm for the development of drugs that target other aspects of the angiogenic process; some of these therapeutic approaches are outlined in Fig. 102e-12."
+        },
+        {
+            "id": "Pharmacology_Katzung_6027",
+            "title": "Pharmacology_Katzung",
+            "content": "main foundation of cytotoxic chemotherapy regimens. Recent clinical studies have shown that in tumors with wild-type KRAS and NRAS, FOLFOX/FOLFIRI regimens in combination with the anti-VEGF antibody bevacizumab or with the anti-EGFR antibody cetuximab or panitumumab result in significantly improved clinical efficacy with no worsening of the toxicities normally observed with chemotherapy. In order for patients to derive maximal benefit, they should be treated with each of these active agents in a continuum of care approach. Regorafenib and TAS102 are approved for the chemo-refractory disease setting, but unfortunately, each drug is associated with significant toxicities and only limited clinical efficacy with very low overall response rates; median progression-free survival is about 2-months. Given all of the available treatment regimens, median overall survival for metastatic CRC is now in the 28to 30-month range and, in some cases, approaches or even exceeds 3 years."
+        },
+        {
+            "id": "Pathology_Robbins_3513",
+            "title": "Pathology_Robbins",
+            "content": "genetic analysis shows activating mutations of MET in the germ line, along with increased gene dosage in the cancers. Activating mutations of the MET gene also are found in a subset of patients with sporadic forms of papillary renal cell carcinoma."
+        },
+        {
+            "id": "InternalMed_Harrison_6960",
+            "title": "InternalMed_Harrison",
+            "content": "(400\u2013800 mg PO daily), a selective inhibitor of the c-kit tyrosine kinase. Many patients with GIST whose tumors have become refractory to imatinib subsequently benefit from sunitinib (Sutent) or regorafenib (Stivarga), other inhibitors of the c-kit tyrosine kinase."
+        },
+        {
+            "id": "Pathology_Robbins_3512",
+            "title": "Pathology_Robbins",
+            "content": "Papillary renal cell carcinomas account for 10% to 15% of all renal cancers and are defined in part by their papillary growth pattern. These neoplasms are frequently multifocal and bilateral and appear as early-stage tumors. Like clear cell carcinomas, they occur in familial and sporadic forms, but unlike these neoplasms, papillary renal cancers are not associated with abnormalities of chromosome 3. The culprit in most cases of hereditary papillary renal cell cancers is the MET proto-oncogene, located on chromosome 7q. The MET gene encodes a tyrosine kinase receptor for hepatocyte growth factor. The increased dosage of the MET gene due to duplications of chromosome 7 seems to spur abnormal growth in the proximal tubular epithelial cell precursors of papillary carcinomas. In familial cases, genetic analysis shows activating mutations of MET in the germ line, along with increased gene dosage in the cancers. Activating mutations of the MET gene also are found in a subset of patients with"
+        },
+        {
+            "id": "Surgery_Schwartz_11567",
+            "title": "Surgery_Schwartz",
+            "content": "resectability of the lesion, although occasionally this can only Figure 39-40. Computed tomography of the abdomen showing a hepatocellular carcinoma in a 12-year-old boy.be determined at the time of exploration. Complete surgical resection of the tumor is the primary goal and is essential for cure. For tumors that are unresectable, preoperative chemother-apy should be administered to reduce the size of the tumor and improve the possibility for complete removal. Chemotherapy is more successful for hepatoblastoma than for hepatocellular carcinoma. Areas of locally invasive disease, such as the dia-phragm, should be resected at the time of surgery. For unre-sectable tumors, liver transplantation may be offered in select patients. The fibrolamellar variant of hepatocellular carcinoma may have a better outcome with liver transplantation than other hepatocellular carcinomas.TRAUMA IN CHILDRENInjury is the leading cause of death among children older than 1 year. In fact, trauma accounts for"
+        },
+        {
+            "id": "InternalMed_Harrison_6307",
+            "title": "InternalMed_Harrison",
+            "content": "CurabIlIty of CanCerS wIth Chemotherapy A. Advanced Cancers with D. Cancers Possibly Cured with Possible Cure \u201cHigh-Dose\u201d Chemotherapy with Stem Cell Support Acute lymphoid and acute myeloid leukemia (pediatric/ Relapsed leukemias, lymphoid adult) and myeloid Hodgkin\u2019s disease (pediatric/ Relapsed lymphomas, Hodgkin\u2019s adult) and non-Hodgkin\u2019s E. Cancers Responsive with Embryonal carcinoma Useful Palliation, But Not Cure, by Chemotherapy B. Advanced Cancers Possibly Islet cell neoplasms Cured by Chemotherapy and F. Tumors Poorly Responsive in Advanced Stages to Carcinoma of the uterine cervix Biliary tract neoplasms (stage III) Thyroid carcinoma Small-cell lung carcinoma Carcinoma of the vulva C. Cancers Possibly Cured with Chemotherapy as Adjuvant to Surgery Prostate carcinoma Breast carcinoma Melanoma (subsets) Colorectal carcinomaa Hepatocellular carcinoma Osteogenic sarcoma Salivary gland cancer Soft tissue sarcoma aRectum also receives radiation therapy."
+        },
+        {
+            "id": "Surgery_Schwartz_9218",
+            "title": "Surgery_Schwartz",
+            "content": "versus symptomatic treatment in patients with unresectable hepatocellular carcinoma: a randomised controlled trial. Lancet. 2002;359(9319):1734-1739. 146. Takayasu K, Arii S, Ikai I, et al. Prospective cohort study of transarterial chemoembolization for unresectable hepa-tocellular carcinoma in 8510 patients. Gastroenterology. 2006;131(2):461-469. 147. Sotiropoulos GC, Druhe N, Sgourakis G, et al. Liver transplan-tation, liver resection, and transarterial chemoembolization for hepatocellular carcinoma in cirrhosis: which is the best onco-logical approach? Dig Dis Sci. 2009;54(10):2264-2273. 148. Lewandowski RJ, Geschwind JF, Liapi E, Salem R. Transcath-eter intraarterial therapies: rationale and overview. Radiology. 2011;259(3):641-657. 149. Kemeny N, Huang Y, Cohen AM, et al. Hepatic arterial infusion of chemotherapy after resection of hepatic metastases from colorectal cancer. N Engl J Med. 1999;341(27):2039-2048. 150. Ibrahim SM, Lewandowski RJ, Sato KT, et al. Radioem-bolization"
+        },
+        {
+            "id": "InternalMed_Harrison_6119",
+            "title": "InternalMed_Harrison",
+            "content": "c-Abl and BCR gene (such as chronic myeloid leukemia), mutant c-Kit (gastrointestinal stromal cell tumors), or mutant platelet-derived growth factor receptor (PDGFR; chronic myelomonocytic leukemia); second-generation inhibitors of BCR-Abl, dasatinib, and nilotinib are even more effective. The third-generation agent bosutinib has activity in some patients who have progressed on other inhibitors, whereas the third-generation agent ponatinib has activity against the T315I mutation, which is resistant to the other agents. Sorafenib and sunitinib, agents that inhibit a large number of kinases, have shown antitumor activity in a number of malignancies, including renal cell cancer (RCC) (both), hepatocellular carcinoma (sorafenib), thyroid cancer (sorafenib), gastrointestinal stromal tumor (GIST) (sunitinib), and pancreatic neuroendocrine tumors (sunitinib). Inhibitors of the mammalian target of rapamycin (mTOR) are active in RCC, pancreatic neuroendocrine tumors, and breast cancer. The"
+        },
+        {
+            "id": "InternalMed_Harrison_26909",
+            "title": "InternalMed_Harrison",
+            "content": "New Potential Therapies Kinase inhibitors are being explored as a means to target pathways known to be active in thyroid cancer, including the RAS, BRAF, EGFR, VEGFR, and angiogenesis pathways. A multicenter randomized controlled trial of the multikinase inhibitor sorafenib in 417 patients with progressive metastatic thyroid cancer reported a doubling of progression-free survival to 10.8 months in the treatment group compared with the placebo group. Ongoing trials are exploring whether differentiation protocols with kinase inhibitors or other approaches might enhance radioiodine uptake and efficacy."
+        },
+        {
+            "id": "Pharmacology_Katzung_6036",
+            "title": "Pharmacology_Katzung",
+            "content": "cell histology, a platinum-based chemotherapy regimen in combination with the anti-EGFR antibody cetuximab is a reasonable treatment strategy. Maintenance chemotherapy with pemetrexed is now used in patients with non-squamous NSCLC whose disease has remained stable after four cycles of platinum-based first-line chemotherapy."
+        },
+        {
+            "id": "Pharmacology_Katzung_5976",
+            "title": "Pharmacology_Katzung",
+            "content": "Cetuximab is a chimeric monoclonal antibody directed against the extracellular domain of the EGFR, and it is presently approved for use in combination with irinotecan for metastatic colon cancer in the refractory setting or as monotherapy in patients who are deemed to be irinotecan-refractory. Because cetuximab is of the G1 isotype, its antitumor activity may also be mediated, in part, by immunologic-mediated mechanisms. There is growing evidence that cetuximab can be effectively and safely combined with irinotecanand oxaliplatin-based chemotherapy in the first-line treatment of metastatic colorectal cancer as well. Of note, the efficacy of cetuximab is restricted to only those patients whose tumors express the wild-type RAS gene, which includes both KRAS and NRAS. Combination regimens of cetuximab with cytotoxic chemotherapy may be of particular benefit in the neoadjuvant therapy of patients with liver-limited disease. Although this antibody was initially approved to be administered"
+        },
+        {
+            "id": "InternalMed_Harrison_27155",
+            "title": "InternalMed_Harrison",
+            "content": "survival in patients with metastatic MTC is ~20%. For inoperable MTC or metastatic disease, the tyrosine kinase inhibitors, vandetanib and cabozantinib, have improved the progression-free survival times. Other types of chemotherapy are of limited efficacy, but radiotherapy may help to palliate local disease."
+        },
+        {
+            "id": "InternalMed_Harrison_7036",
+            "title": "InternalMed_Harrison",
+            "content": "Bevacizumab (Avastin) is a monoclonal antibody directed against the vascular endothelial growth factor (VEGF) and is thought to act as an antiangiogenesis agent. The addition of bevacizumab to irinotecan-containing combinations and to FOLFOX initially appeared to significantly improve the outcome observed with chemotherapy alone, but subsequent studies have suggested a lesser degree of benefit. The use of bevacizumab can lead to hypertension, proteinuria, and an increased likelihood of thromboembolic events. Patients with solitary hepatic metastases without clinical or radiographic evidence of additional tumor involvement should be considered for partial liver resection, because such procedures are associated with 5-year survival rates of 25\u201330% when performed on selected individuals by experienced surgeons."
+        },
+        {
+            "id": "Surgery_Schwartz_9220",
+            "title": "Surgery_Schwartz",
+            "content": "carcinoma and intrahepatic cholangiocarcinoma. J Clin Oncol. 2008;26(4):657-664. 154. Mendez Romero A, Wunderink W, Hussain SM, et al. Ste-reotactic body radiation therapy for primary and metastatic liver tumors: a single institution phase I-II study. Acta Oncol. 2006;45(7):831-837. 155. Chapman WC, Majella Doyle MB, Stuart JE, et al. Outcomes of neoadjuvant transarterial chemoembolization to downstage hepatocellular carcinoma before liver transplantation. Ann Surg. 2008;248(4):617-625. 156. Yao FY, Kerlan RK, Jr, Hirose R, et al. Excellent outcome following down-staging of hepatocellular carcinoma prior to Brunicardi_Ch31_p1345-p1392.indd 139020/02/19 2:37 PM 1391LIVERCHAPTER 31liver transplantation: an intention-to-treat analysis. Hepatology. 2008;48(3):819-827. 157. Llovet JM, Ricci S, Mazzaferro V, et al. Sorafenib in advanced hepatocellular carcinoma. N Engl J Med. 2008;359(4):378-390. Randomized clinical trial that showed benefits of Sorafenib compared to placebo in advanced"
+        },
+        {
+            "id": "Pharmacology_Katzung_5984",
+            "title": "Pharmacology_Katzung",
+            "content": "Bevacizumab, Ziv-Aflibercept, Ramucirumab, Sorafenib, Sunitinib, & Pazopanib Vascular endothelial growth factor (VEGF) is one of the most important angiogenic growth factors. The growth of both primary and metastatic solid tumors requires an intact vasculature; thus the VEGF signaling pathway represents an attractive target for chemotherapy. Several approaches have been taken to inhibit VEGF signaling; they include inhibition of VEGF interactions with its receptor by targeting either the VEGF ligand with antibodies or soluble chimeric decoy receptors, or by direct inhibition of VEGF receptor\u2013associated tyrosine kinase activity by small molecule inhibitors."
+        },
+        {
+            "id": "InternalMed_Harrison_8586",
+            "title": "InternalMed_Harrison",
+            "content": "Pretreatment prognostic factors and prognostic models have lost much of their clinical relevance to define prognosis and to select different therapies. However TKI-associated therapeutic responses have gained major clinical relevance and dictate appropriate and careful monitoring of patients to optimize their treatment."
+        },
+        {
+            "id": "InternalMed_Harrison_22651",
+            "title": "InternalMed_Harrison",
+            "content": "the therapy of metastatic neuroendocrine tumors; further studies are needed. Several novel therapies are being explored, including radiofrequency ablation or cryoablation of liver lesions and use of agents that block the vascular endothelial growth receptor pathway (bevacizumab, sunitinib) or the mammalian target of rapamycin (Chap. 113)."
+        }
+    ],
+    "scores": [
+        0.029325789721829327,
+        0.026513389593992957,
+        0.02546332944726704,
+        0.025298489893384457,
+        0.024809629219701163,
+        0.0228845141593852,
+        0.021669743829473863,
+        0.02059539453797422,
+        0.018532818532818532,
+        0.018524871355060035,
+        0.017653890824622535,
+        0.01700800793707037,
+        0.016880341880341883,
+        0.016581719334012913,
+        0.01655805293257082,
+        0.016447590158409166,
+        0.016338801385530358,
+        0.016054425994774038,
+        0.01592157842157842,
+        0.015628686010851614,
+        0.01562592482983131,
+        0.015518796992481203,
+        0.015159747880895457,
+        0.014706677480400108,
+        0.014697510738498162,
+        0.014685314685314685,
+        0.014648334214701218,
+        0.014561050513607964,
+        0.014464168310322156,
+        0.014427457730079984,
+        0.014374454540787514,
+        0.014284340130819546
+    ]
+}

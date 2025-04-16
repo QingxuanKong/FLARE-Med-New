@@ -1,0 +1,206 @@
+{
+    "id": "5e30f638fbd6abf43b000045",
+    "question": "Does teplizumab hold promise for diabetes prevention?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to analyze the relevant documents and understand the concept of teplizumab and its potential role in diabetes prevention. Teplizumab is an antibody that depletes autoreactive lymphocytes, which can be beneficial in treating autoimmune diseases, including type 1 diabetes. However, the question is asking about its potential for diabetes prevention, not treatment. Document [4] (Pharmacology_Katzung) mentions that metformin is useful in preventing type 2 diabetes, but it does not specifically mention teplizumab. Document [4] (Immunology_Janeway) discusses teplizumab as a treatment for type 1 diabetes, but not for prevention. Document [16] (Pharmacology_Katzung) mentions that intensive glycemic control can prevent microvascular complications of diabetes, but it does not mention teplizumab. However, Document [6] (Immunology_Janeway) mentions that monoclonal antibodies can be used to prevent allograft rejection, and Document [4] (Immunology_Janeway) discusses the mechanism of teplizumab, which is related to depleting autoreactive lymphocytes. This suggests that teplizumab may have a role in preventing autoimmune diseases, including diabetes. Document [16] (Pharmacology_Katzung) mentions that intensive glucose control can prevent microvascular complications of diabetes, but it does not specifically mention teplizumab. However, Document [4] (Immunology_Janeway) discusses the Fc region of teplizumab, which can activate Fc receptors and prevent cytokine release. This suggests that teplizumab may have a role in modulating the immune system and preventing autoimmune diseases, including diabetes. Based on this analysis, teplizumab may hold promise for diabetes prevention, but more research is needed to confirm its efficacy and safety in preventing diabetes.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_4250",
+            "title": "Immunology_Janeway",
+            "content": "Masharani, U.B., and Becker, J.: Teplizumab therapy for type 1 diabetes. Expert Opin. Biol. Ther. 2010, 10:459\u2013465. Pham, P.T., Lipshutz, G.S., Pham, P.T., Kawahji, J., Singer, J.S., and Pham, P.C.: The evolving role of alemtuzumab (Campath-1H) in renal transplantation. Drug Des. Dev. Ther. 2009, 3:41\u201349. Sageshima, J., Ciancio, G., Chen, L., and Burke, G.W.: Anti-interleukin-2 receptor antibodies\u2014basiliximab and daclizumab\u2014for the prevention of acute rejection in renal transplantation. Biologics 2009, 3:319\u2013336. 16-7 Depletion of autoreactive lymphocytes can treat autoimmune disease. Coiffier, B., Lepage, E., Briere, J., Herbrecht, R., Tilly, H., Bouabdallah, R., Morel, P., Van Den Neste, E., Salles, G., Gaulard, P., et al.: CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-B-cell lymphoma. N. Engl. J. Med. 2002, 346:235\u2013242. References."
+        },
+        {
+            "id": "Pharmacology_Katzung_4705",
+            "title": "Pharmacology_Katzung",
+            "content": "Biguanides are recommended as first-line therapy for type 2 diabetes. Because metformin is an insulin-sparing agent and does not increase body weight or provoke hypoglycemia, it offers obvious advantages over insulin or sulfonylureas in treating hyperglycemia in such persons. The UKPDS reported that metformin therapy decreases the risk of macrovascular as well as microvascular disease; this is in contrast to the other therapies, which only modified microvascular morbidity. Biguanides are also indicated for use in combination with insulin secretagogues or thiazolidinediones in type 2 diabetics in whom oral monotherapy is inadequate. Metformin is useful in the prevention of type 2 diabetes; the landmark Diabetes Prevention Program concluded that metformin is efficacious in preventing the new onset of type 2 diabetes in middle-aged, obese persons with impaired glucose tolerance and fasting hyperglycemia. It is interesting that metformin did not prevent diabetes in older, leaner"
+        },
+        {
+            "id": "Pharmacology_Katzung_4756",
+            "title": "Pharmacology_Katzung",
+            "content": "for any particular therapy; metformin treatment alone reduced the risk of macro-vascular disease (myocardial infarction, stroke). Epidemiologic analysis of the study suggested that every 1% decrease in the HbA1c achieved an estimated risk reduction of 37% for micro-vascular complications, 21% for any diabetes-related end point and death related to diabetes, and 14% for myocardial infarction. Tight control of hypertension also had a surprisingly sig-nificant effect on microvascular disease (as well as more conven-tional hypertension-related sequelae) in these diabetic patients. Epidemiologic analysis of the results suggested that every 10-mmHg decrease in the systolic pressure achieved an esti-mated risk reduction of 13% for diabetic microvascular complica-tions, 12% for any diabetes-related complication, 15% for death related to diabetes, and 11% for myocardial infarction. Post-study monitoring showed that 5 years after the closure of the UKPDS, the benefits of intensive management on"
+        },
+        {
+            "id": "Pharmacology_Katzung_4757",
+            "title": "Pharmacology_Katzung",
+            "content": "complication, 15% for death related to diabetes, and 11% for myocardial infarction. Post-study monitoring showed that 5 years after the closure of the UKPDS, the benefits of intensive management on diabetic end points were maintained and the risk reduction for a myo-cardial infarction became significant. The benefits of metformin therapy were maintained. These studies show that tight glycemic control benefits both type 1 and type 2 patients."
+        },
+        {
+            "id": "Immunology_Janeway_4052",
+            "title": "Immunology_Janeway",
+            "content": "Fc region, which can activate Fc receptors via cross-linking and activate the cells that bear these receptors. In the antibody called teplizumab, or OKT3\u03b31 (Ala-Ala), amino acids 234 and 235 in the human IgG1 Fc region have been changed to alanines, and this antibody no longer stimulates cytokine release. Two other antibodies, daclizumab and basiliximab, approved for treating kidney transplant rejection, are directed against CD25 (a subunit of the IL-2 receptor) and reduce T-cell activation, presumably by blocking the growth-promoting signals delivered by IL-2."
+        },
+        {
+            "id": "Pharmacology_Katzung_4762",
+            "title": "Pharmacology_Katzung",
+            "content": "Multiple medications may be required to achieve glycemic control (Figure 41\u20136) in patients with type 2 diabetes. Unless there is a contraindication, medical therapy should be initiated with intensive lifestyle interventions (diet and exercise), diabetes self-management education, and metformin. If clinical failure occurs with metformin monotherapy, a second agent is added. Options include sulfonylureas, repaglinide or nateglinide, pioglitazone, GLP-1 receptor agonists, DPP-4 inhibitors, SGLT2 inhibitors, and insulin. In the choice of the second agent, consideration should be given to efficacy of the agent, hypoglycemic risk, effect on weight, adverse effects, and cost. In patients who experience * Step taken if needed to reach individualized HbA1c target after ~ 3 months."
+        },
+        {
+            "id": "Immunology_Janeway_4249",
+            "title": "Immunology_Janeway",
+            "content": "16-6 Monoclonal antibodies can be used to prevent allograft rejection. Kirk, A.D., Burkly, L.C., Batty, D.S., Baumgartner, R.E., Berning, J.D., Buchanan, K., Fechner, J.H., Jr, Germond, R.L., Kampen, R.L., Patterson, N.B., et al.: Treatment with humanized monoclonal antibody against CD154 prevents acute renal allograft rejection in nonhuman primates. Nat. Med. 1999, 5:686\u2013693. Li, X.C., Strom, T.B., Turka, L.A., and Wells, A.D.: T-cell death and transplantation tolerance. Immunity 2001, 14:407\u2013416. Londrigan, S.L., Sutherland, R.M., Brady, J.L., Carrington, E.M., Cowan, P.J., d\u2019Apice,A.J.,O\u2019Connell,P.J.,Zhan,Y.,and Lew,A.M.: In situ protection against islet allograft rejection by CTLA4Ig transduction. Transplantation 2010, 90:951\u2013957. Masharani, U.B., and Becker, J.: Teplizumab therapy for type 1 diabetes. Expert Opin. Biol. Ther. 2010, 10:459\u2013465."
+        },
+        {
+            "id": "InternalMed_Harrison_28005",
+            "title": "InternalMed_Harrison",
+            "content": "Similar reductions in the risks of retinopathy and nephropathy were also seen in a small trial of lean Japanese individuals with type 2 DM randomized to either intensive glycemic control or standard therapy with insulin (Kumamoto study). These results demonstrate the effectiveness of improved glycemic control in individuals of different ethnicity and, presumably, a different etiology of DM (i.e., phenotypically different from those in the DCCT and UKPDS). The Action to Control Cardiovascular Risk in Diabetes (ACCORD) and Action in Diabetes and Vascular Disease: Preterax and Diamicron MR Controlled Evaluation (ADVANCE) trials also found that improved glycemic control reduced microvascular complications."
+        },
+        {
+            "id": "Pharmacology_Katzung_4753",
+            "title": "Pharmacology_Katzung",
+            "content": "A long-term randomized prospective study involving 1441 type 1 patients in 29 medical centers reported in 1993 that \u201cnear normalization\u201d of blood glucose resulted in a delay in onset and a major slowing of progression of microvascular and neu-ropathic complications of diabetes during follow-up periods of up to 10 years (Diabetes Control and Complications Trial [DCCT] Research Group, 1993). In the intensively treated group, mean glycated hemoglobin (HbA1c) of 7.2% (normal <6%) and mean blood glucose of 155 mg/dL were achieved, whereas in the conventionally treated group, HbA1c averaged 8.9% with mean blood glucose of 225 mg/dL. Over the study period, which aver-aged 7 years, a reduction of approximately 60% in risk of diabetic retinopathy, nephropathy, and neuropathy was noted in the tight control group compared with the standard control group. The DCCT study, in addition, introduced the concept of glycemic memory, which comprises the long-term benefits of any significant period of"
+        },
+        {
+            "id": "InternalMed_Harrison_27868",
+            "title": "InternalMed_Harrison",
+            "content": "More stringent glycemic control (HbA1c of \u22646%) is not beneficial, and may be detrimental, in patients with type 2 DM and a high risk of CVD. Large clinical trials (UKPDS, Action to Control Cardiovascular Risk in Diabetes [ACCORD], Action in Diabetes and Vascular Disease: Preterax and Diamicron MR Controlled Evaluation [ADVANCE], Veterans Affairs Diabetes Trial [VADT]; Chap. 419) have examined glycemic control in type 2 DM in individuals with low risk of CVD, with high risk of CVD, or with established CVD and have found that more intense glycemic control is not beneficial and, in some patient populations, may have a negative impact on some outcomes. These divergent outcomes stress the need for individualized glycemic goals based on the following general guidelines: (1) early in the course of type 2 diabetes when the CVD risk is lower, improved glycemic control likely leads to improved cardiovascular outcome, but this benefit occurs more than a decade after the period of improved"
+        },
+        {
+            "id": "Pharmacology_Katzung_4653",
+            "title": "Pharmacology_Katzung",
+            "content": "and initially retain enough beta cell function to avoid ketosis. They can be treated at first with oral hypoglycemic agents but then need insulin as their beta cell function declines. Antibody studies in northern Europeans indicate that up to 10\u201315% of \u201ctype 2\u201d patients may actually have this milder form of type 1 diabetes (latent autoimmune diabetes of adulthood; LADA)."
+        },
+        {
+            "id": "InternalMed_Harrison_19018",
+            "title": "InternalMed_Harrison",
+            "content": "Therapeutic objectives for intervention in these patients include addressing the underlying causes, including obesity and low physical activity, by initiating lifestyle measures (see below). Establishing that strict glycemic control reduces the risk of macrovascular complications of diabetes has proved much more elusive than the beneficial effects on microvascular complications such as retinopathy and renal disease. Indeed, \u201ctight\u201d glycemic control may increase adverse events in patients with type 2 diabetes, lending even greater importance to aggressive control of other aspects of risk in this patient population. In this regard, multiple clinical trials have demonstrated unequivocal benefit of statin therapy in diabetic patients over all ranges of LDL cholesterol levels (but not those with end-stage renal disease or advanced heart failure). Among the oral hypoglycemic agents, metformin possesses the best evidence base for cardiovascular event reduction. The novel oral hypoglycemic"
+        },
+        {
+            "id": "InternalMed_Harrison_28098",
+            "title": "InternalMed_Harrison",
+            "content": "Similarly, evidence exists that intensive glucose control can reduce the prevalence of microvascular disease in both T1DM and T2DM. These benefits need to be weighed against the increased prevalence of hypoglycemia. Certainly, the level of glucose control (i.e., the HbA1c level) should be evaluated for each patient. Multicenter trials have demonstrated that individuals with recently diagnosed T1DM or T2DM can have better glycemic control with less hypoglycemia. In addition, there is still long-term benefit in reducing HbA1c values from higher to lower, albeit still above recommended levels. Perhaps a reasonable therapeutic goal is the lowest HbA1c level that does not cause severe hypoglycemia and that preserves awareness of hypoglycemia."
+        },
+        {
+            "id": "Pharmacology_Katzung_4783",
+            "title": "Pharmacology_Katzung",
+            "content": "Nwose OM, Jones MR: Atypical mechanism of glucose modulation by colesevelam in patients with type 2 diabetes. Clin Med Insights Endocrinol Diabetes 2013;6:75. Ratner RE et al: Amylin replacement with pramlintide as an adjunct to insulin therapy improves long term glycemic and weight control in type 1 diabetes mellitus: A 1-year randomized controlled trial. Diabetic Med 2004; 21:1204. Reitman ML et al: Pharmacogenetics of metformin response: A step in the path toward personalized medicine. J Clin Invest 2007;117:1226. Rizzo M et al: Non-glycemic effects of pioglitazone and incretin-based therapies. Expert Opin Ther Targets 2013;17:739. Rosenstock J, Ferrannini E: Euglycemic diabetic ketoacidosis: A predictable, detectable, and preventable safety concern with SGLT2 inhibitors. Diabetes Care 2015;38:1638. Standl E, Schnell O: Alpha-glucosidase inhibitors 2012\u2014cardiovascular considerations and trial evaluation. Diab Vasc Dis Res 2012;9:163."
+        },
+        {
+            "id": "InternalMed_Harrison_27766",
+            "title": "InternalMed_Harrison",
+            "content": "additional risk factor for diabetes (Table 417-3). In contrast to type 2 DM, a long asymptomatic period of hyperglycemia is rare prior to the diagnosis of type 1 DM. A number of immunologic markers for type 1 DM are becoming available (discussed below), but their routine use outside a clinical trial is discouraged, pending the identification of clinically beneficial interventions for individuals at high risk for developing type 1 DM."
+        },
+        {
+            "id": "InternalMed_Harrison_28002",
+            "title": "InternalMed_Harrison",
+            "content": "The United Kingdom Prospective Diabetes Study (UKPDS) studied the course of >5000 individuals with type 2 DM for >10 years. This study used multiple treatment regimens and monitored the effect of intensive glycemic control and risk factor treatment on the development of diabetic complications. Newly diagnosed individuals with type 2 DM were randomized to (1) intensive management using various combinations of insulin, a sulfonylurea, or metformin or (2) conventional therapy using dietary modification and pharmacotherapy with the goal of symptom prevention. In addition, individuals were randomly assigned to different antihypertensive regimens. Individuals in the intensive treatment arm achieved an HbA1c of 7%, compared to a 7.9% HbA1c in the standard treatment group. The UKPDS demonstrated that each percentage point reduction in HbA1c was associated with a 35% reduction in microvascular complications. As in the DCCT, there was a continuous relationship between glycemic control and"
+        },
+        {
+            "id": "Pharmacology_Katzung_4755",
+            "title": "Pharmacology_Katzung",
+            "content": "type 2 diabetic patients were studied over 10 years. A significant frac-tion of these were overweight and hypertensive. Patients were given dietary treatment alone or intensive therapy with insulin, chlorpropamide, glyburide, or glipizide. Metformin was an option for patients with inadequate response to other therapies. Tight control of blood pressure was added as a variable, with an angio-tensin-converting enzyme inhibitor, a \u03b2 blocker, or in some cases, a calcium channel blocker available for this purpose. Tight control of diabetes, with reduction of HbA1c from 9.1% to 7%, was shown to reduce the risk of microvascular complica-tions overall compared with that achieved with conventional therapy (mostly diet alone, which decreased HbA1c to 7.9%). Cardiovascular complications were not noted for any particular therapy; metformin treatment alone reduced the risk of macro-vascular disease (myocardial infarction, stroke). Epidemiologic analysis of the study suggested that every 1% decrease"
+        },
+        {
+            "id": "InternalMed_Harrison_28032",
+            "title": "InternalMed_Harrison",
+            "content": "pathways, in part through inhibition of TGF-\u03b2-mediated pathways. The ADA does not suggest restriction of protein intake in diabetic individuals with albuminuria because studies have failed to show benefit. Nephrology consultation should be considered when albuminuria appears and again when the estimated GFR is <60 mL/min per 1.743 m2. As compared with nondiabetic individuals, hemodialysis in patients with DM is associated with more frequent complications, such as hypotension (due to autonomic neuropathy or loss of reflex tachycardia), more difficult vascular access, and accelerated progression of retinopathy. Complications of atherosclerosis are the leading cause of death in diabetic individuals with nephropathy and hyperlipidemia should be treated aggressively. Renal transplantation from a living related donor is the preferred therapy but requires chronic immunosuppression. Combined pancreas-kidney transplant offers the promise of normoglycemia and freedom from dialysis."
+        },
+        {
+            "id": "InternalMed_Harrison_27869",
+            "title": "InternalMed_Harrison",
+            "content": "of type 2 diabetes when the CVD risk is lower, improved glycemic control likely leads to improved cardiovascular outcome, but this benefit occurs more than a decade after the period of improved glycemic control; (2) intense glycemic control in individuals with established CVD or at high risk for CVD is not advantageous, and may be deleterious, over a follow-up of 3\u20135 years; an HbA1c goal <7.0% is not appropriate in this population; (3) hypoglycemia in such high-risk populations (elderly, CVD) should be avoided; and (4) improved glycemic control reduces microvascular complications of diabetes (Chap. 419) even if it does not improve macrovascular complications like CVD."
+        },
+        {
+            "id": "Pharmacology_Katzung_4706",
+            "title": "Pharmacology_Katzung",
+            "content": "the new onset of type 2 diabetes in middle-aged, obese persons with impaired glucose tolerance and fasting hyperglycemia. It is interesting that metformin did not prevent diabetes in older, leaner prediabetics."
+        },
+        {
+            "id": "Pharmacology_Katzung_4754",
+            "title": "Pharmacology_Katzung",
+            "content": "control group compared with the standard control group. The DCCT study, in addition, introduced the concept of glycemic memory, which comprises the long-term benefits of any significant period of glycemic control. During a 6-year follow-up period, both the intensively and conventionally treated groups had similar levels of glycemic control, and both had progression of carotid intimal-medial thickness. However, the intensively treated cohort had significantly less progression of intimal thickness. The United Kingdom Prospective Diabetes Study (UKPDS) was a very large randomized prospective study carried out to study the effects of intensive glycemic control with several types of therapies and the effects of blood pressure control in type 2 diabetic patients. A total of 3867 newly diagnosed type 2 diabetic patients were studied over 10 years. A significant frac-tion of these were overweight and hypertensive. Patients were given dietary treatment alone or intensive therapy with insulin,"
+        },
+        {
+            "id": "Neurology_Adams_1917",
+            "title": "Neurology_Adams",
+            "content": "and hemorrhages from them may cause traction on the retina, which results in detachment. Visual loss may also be the result of macular edema. Reabsorption of the edema leads to the deposition of lipid \u201chard exudates.\u201d The maintenance of glucose control reduces the frequency and severity of retinopathy but does not prevent it. Locally elevated levels of vascular endothelial growth factor have been shown to be involved in the pathophysiology of diabetic retinal neovascularization, and recent studies show that intravitreal injections of the antivascular endothelial growth factor (anti-VEGF) antibody, bevacizumab, can improve neovascular leakage, at least in the short term. The review of the subject by Antonetti and colleagues is recommended."
+        },
+        {
+            "id": "InternalMed_Harrison_27933",
+            "title": "InternalMed_Harrison",
+            "content": "Bariatric surgery for obese individuals with type 2 DM has shown considerable promise, sometimes with dramatic resolution of the diabetes or major reductions in the needed dose of glucose-lowering therapies (Chap. 416). Several large, unblinded clinical trials have demonstrated a much greater efficacy of bariatric surgery compared to medical management in the treatment of type 2 DM; the durability of the diabetes reversal or improvement is uncertain. The ADA clinical guidelines state that bariatric surgery should be considered in individuals with DM and a body mass index >35 kg/m2."
+        },
+        {
+            "id": "InternalMed_Harrison_27998",
+            "title": "InternalMed_Harrison",
+            "content": "The goal in the former group was normoglycemia; the goal in the latter group was prevention of symptoms of diabetes. Individuals in the intensive diabetes management group achieved a substantially lower HbA1c (7.3%) than individuals in the conventional diabetes management group (9.1%). After the DCCT results were reported in 1993, study participants continue to be followed in the Epidemiology of Diabetes Intervention and Complications (EDIC) trial, which recently completed 30 years of follow-up (DCCT + EDIC). At the end of the DCCT phase, study participants in both intensive and conventional arms were offered intensive therapy. However, during the subsequent follow-up of more than 18 years, the initial separation in glycemic control disappeared with both arms maintaining a mean HbA1c of 8.0%."
+        },
+        {
+            "id": "InternalMed_Harrison_28097",
+            "title": "InternalMed_Harrison",
+            "content": "intensified treatment) control group in both the ACCORD study and the VADT. Thus, severe hypoglycemia can and does occur at HbA1c values of 8\u20139% in both T1DM and T2DM. Somewhat surprisingly, all three studies found little or no benefit of intensive glucose control to reduce macrovascular events in T2DM. In fact, the ACCORD study was ended early because of the increased mortality rate in the intensive glucose control arm. Whether iatrogenic hypoglycemia was the cause of the increased mortality risk is not known. In light of these findings, some new recommendations and paradigms have been formulated. Whereas there is little debate regarding the need to reduce hyperglycemia in the hospital, the glycemic maintenance goals have been modified to lie between 140 and 180 mg/dL. Accordingly, the benefits of insulin therapy and reduced hyperglycemia can be obtained while the prevalence of hypoglycemia is reduced."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1201",
+            "title": "Biochemistry_Lippinco",
+            "content": "As noted previously, available therapies moderate the hyperglycemia of diabetes but fail to completely normalize metabolism. The long-standing elevation of blood glucose is associated with the chronic vascular complications of diabetes including cardiovascular disease (CVD) and stroke (macrovascular complications) as well as retinopathy, nephropathy, and neuropathy (microvascular). Intensive insulin treatment (see p. 340) delays the onset and slows the progression of some long-term complications. For example, the incidence of retinopathy decreases as control of blood glucose improves and HbA1c levels decrease (Fig. 25.12). [Note: Data concerning the effect of tight control on CVD in T2D are less clear.] The benefits of tight control of blood glucose outweigh the increased risk of severe hypoglycemia in most patients. How hyperglycemia causes the chronic complications of diabetes is unclear. In cells in which glucose uptake is not dependent on insulin, elevated blood glucose leads to"
+        },
+        {
+            "id": "InternalMed_Harrison_28028",
+            "title": "InternalMed_Harrison",
+            "content": "The optimal therapy for diabetic nephropathy is prevention by control of glycemia (Chap. 418 outlines glycemic goals and approaches). Interventions effective in slowing progression of albuminuria include (1) improved glycemic control, (2) strict blood pressure control, and (3) administration of an ACE inhibitor or ARB. Dyslipidemia should also be treated. Diabetes Mellitus: Complications Time from onset of diabetes, years 0351015 20 25 GFR, mL/min 120 150 150 120 60 <10 Serum creatinine, mg/dL 1.0 0.8 0.8 1.0 >2.0 >5"
+        },
+        {
+            "id": "InternalMed_Harrison_19606",
+            "title": "InternalMed_Harrison",
+            "content": "Based on clinical trial data, the maximum protection against combined cardiovascular endpoints is achieved with pressures <135\u2013 140 mmHg for systolic blood pressure and <80\u201385 mmHg for diastolic blood pressure; however, treatment has not reduced cardiovascular disease risk to the level in nonhypertensive individuals. In diabetic patients, effective blood pressure control reduces the risk of cardiovascular events and death as well as the risk for microvascular disease (nephropathy, retinopathy). Although guidelines for hypertension control have recommended more aggressive blood pressure targets (e.g., office or clinic blood pressure <130/80 mmHg) for patients with diabetes, CHD, chronic kidney disease, or additional cardiovascular disease risk factors, recent evidence suggests that overly aggressive targets for blood pressure control may not be advantageous, particularly in high-risk patients. For example, among hypertensive patients with diabetes and coronary heart disease, \u201ctight"
+        },
+        {
+            "id": "Pharmacology_Katzung_6185",
+            "title": "Pharmacology_Katzung",
+            "content": "FIGURE 55\u20137 Actions of some monoclonal antibodies (shown in red). CTLA-4-lgFc fusion protein (CTLA-4-lg, abatacept) binds to CD80/86 on DC and inhibits T-cell costimulation. Alefacept inhibits activation of T cells by blocking the interaction of LFA-3 and CD2. Basiliximab and daclizumab block IL-2 from binding to the IL-2 receptor (CD25) on T cells, preventing activation; CD25 is also important for the survival of T regulatory cells. T-cell activation can be maintained or restored if CTLA-4 interaction with CD80/86 is blocked using an anti\u2013CTLA-4 antibody (ipilimumab); ipilimumab inhibits CTLA-4 signaling and prolongs activation. Pembrolizumab and nivolumab bind to PD-1, while atezolizumab binds to PD-L1. Each of these three Mabs inhibits the negative signal delivery by PD-1, also prolonging T cell activation. release of IL-1\u03b2, causing autoimmune inflammation resulting in fever, urticarial-like rash, arthralgia, myalgia, fatigue, and conjunctivitis."
+        },
+        {
+            "id": "InternalMed_Harrison_28007",
+            "title": "InternalMed_Harrison",
+            "content": "A summary of the features of diabetes-related complications includes the following. (1) Duration and degree of hyperglycemia correlate with complications. (2) Intensive glycemic control is beneficial in all forms of DM. (3) Blood pressure control is critical, especially in type 2 DM. (4) Survival in patients with type 1 DM is improving, and diabetes-related complications are declining. (5) Not all individuals with diabetes develop diabetes-related complications. Other incompletely defined factors appear to modulate the development of complications. For example, despite long-standing DM, some individuals never develop nephropathy or retinopathy. Many of these patients have glycemic control that is indistinguishable from those who develop microvascular complications, suggesting a genetic susceptibility for developing particular complications."
+        },
+        {
+            "id": "InternalMed_Harrison_27814",
+            "title": "InternalMed_Harrison",
+            "content": "Prevention Type 2 DM is preceded by a period of IGT or IFG, and a number of lifestyle modifications and pharmacologic agents prevent or delay the onset of DM. Individuals with prediabetes or increased risk of diabetes should be referred to a structured program to reduce body weight and increase physical activity as well as being screened for cardiovascular disease. The Diabetes Prevention Program (DPP) demonstrated that intensive changes in lifestyle (diet and exercise for 30 min/d five times/week) in individuals with IGT prevented or delayed the development of type 2 DM by 58% compared to placebo. This effect was seen in individuals regardless of age, sex, or ethnic group. In the same study, metformin prevented or delayed diabetes by 31% compared to placebo. The lifestyle intervention group lost 5\u20137% of their body weight during the 3 years of the study. Studies in Finnish and Chinese populations noted similar efficacy of diet and exercise in preventing or delaying type 2 DM. A number"
+        },
+        {
+            "id": "InternalMed_Harrison_27997",
+            "title": "InternalMed_Harrison",
+            "content": "The Diabetes Control and Complications Trial (DCCT) provided definitive proof that reduction in chronic hyperglycemia can prevent many complications of type 1 DM (Fig. 419-1). This large multicenter clinical trial randomized more than 1400 individuals with type 1 DM to either intensive or conventional diabetes management and prospectively evaluated the development of diabetes-related complications during a mean follow-up of 6.5 years. Individuals in the intensive diabetes management group received multiple administrations of insulin each day (injection or pump) along with extensive educational, psychological, and medical support. Individuals in the conventional diabetes management group received twice-daily insulin injections and quarterly nutritional, educational, and clinical evaluation. The goal in the former group was normoglycemia; the goal in the latter group was prevention of symptoms of diabetes. Individuals in the intensive diabetes management group achieved a substantially"
+        }
+    ],
+    "scores": [
+        0.025138075967834378,
+        0.02491614675944484,
+        0.023864856573094034,
+        0.023574301515477986,
+        0.023068765804714904,
+        0.021798511755645865,
+        0.019704911667637354,
+        0.018706293706293706,
+        0.018538304240460202,
+        0.018532818532818532,
+        0.01789280293953191,
+        0.017721320473614053,
+        0.016539092400218697,
+        0.01610857432775241,
+        0.01571342564720048,
+        0.015549662487945998,
+        0.01507230255839822,
+        0.015024766097963677,
+        0.01453833066969119,
+        0.014394961763382817,
+        0.014332514332514333,
+        0.014296791703014441,
+        0.014195821797130631,
+        0.013653766317634576,
+        0.013437950937950938,
+        0.01308083614756551,
+        0.012950157880011191,
+        0.012843962118440841,
+        0.012393523137134526,
+        0.012165539547192003,
+        0.012057299164987042,
+        0.01198581560283688
+    ]
+}

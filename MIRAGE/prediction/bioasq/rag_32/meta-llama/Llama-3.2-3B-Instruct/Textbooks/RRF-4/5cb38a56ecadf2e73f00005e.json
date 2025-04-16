@@ -1,0 +1,206 @@
+{
+    "id": "5cb38a56ecadf2e73f00005e",
+    "question": "Is myc a tumour suppressor gene?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To determine if MYC is a tumor suppressor gene or an oncogene, let's analyze the given documents step by step.\\n\\nAccording to Document [0], MYC is a master regulator of Warburg metabolism, a cancer hallmark associated with rapid cell growth. It is also mentioned that MYC is involved in promoting cell-cycle progression and enhancing alterations in metabolism that support cell growth.\\n\\nIn Document [1], it is stated that the overproduction of MYC contributes to cancer by being overproduced in its normal form, often due to gene amplification or transcriptional dysregulation. This suggests that MYC plays a role in promoting cell growth and proliferation, which is a characteristic of oncogenes.\\n\\nDocument [2] mentions that oncoproteins such as MYC function as transcription factors that regulate the expression of growth-promoting genes, including cyclins. This further supports the notion that MYC is involved in promoting cell growth and proliferation.\\n\\nDocument [3] states that the self-sufficiency in growth that characterizes cancer cells generally stems from gain-of-function mutations that convert proto-oncogenes to oncogenes. Since MYC is a proto-oncogene that is often amplified or overexpressed in cancer, it can be considered an oncogene.\\n\\nDocument [4] mentions that MYC is amplified in breast, colon, lung, and many other cancers, which is a characteristic of oncogenes.\\n\\nDocument [5] states that MYC is most frequently activated via gene amplification or transcriptional dysregulation in both SCLC and NSCLC, which further supports the notion that MYC is an oncogene.\\n\\nDocument [6] describes the role of MYC in Burkitt lymphoma, where it is overexpressed due to translocations involving the MYC gene on chromosome 8. This is another example of MYC's role in promoting cell growth and proliferation.\\n\\nDocument [7] states that mutations in genes that regulate some or all of these cellular traits are seen in every cancer, and MYC is one such gene. This suggests that MYC is involved in promoting cell growth and proliferation, which is a characteristic of oncogenes.\\n\\nBased on the information provided in the documents, it can be concluded that MYC is an oncogene, not a tumor suppressor gene.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pathology_Robbins_1238",
+            "title": "Pathology_Robbins",
+            "content": "Dysregulation of MYC promotes tumorigenesis by simultaneously promoting the progression of cells through the cell cycle and enhancing alterations in metabolism that support cell growth. MYC primarily functions by activating the transcription of other genes. Genes activated by MYC include several growth-promoting genes, including cyclin-dependent kinases (CDKs), whose products drive cells into the cell cycle (discussed next), and genes that control pathways that produce the building blocks (e.g., amino acids, lipids, nucleotides) that are needed for cell growth and division. As mentioned earlier (see Fig. 6.14 ), dysregulation of MYC results from a (8;14) translocation in Burkitt lymphoma, a highly aggressive B-cell tumor. MYC also is amplified in breast, colon, lung, and many other cancers, while the related NMYC and LMYC genes are amplified in neuroblastomas and small cell cancers of lung, respectively."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5539",
+            "title": "Cell_Biology_Alberts",
+            "content": "As another example, the Myc protein, which acts in the nucleus to stimulate cell growth and division (see Chapter 17), generally contributes to cancer by being overproduced in its normal form. In some cases, the gene is amplified\u2014 that is, errors of DNA replication lead to the creation of large numbers of gene copies in a single cell. Or a point mutation can stabilize the protein, which normally turns over very rapidly. More commonly, the overproduction appears to be due to a change in a regulatory element that acts on the gene. For example, a chromosomal translocation can inappropriately bring powerful gene regulatory sequences next to the Myc protein-coding sequence, so as to produce unusually large amounts of Myc mRNA. Thus, in Burkitt\u2019s lymphoma, a translocation brings the Myc gene under the control of sequences that normally drive the expression of antibody genes in B lymphocytes. As a result, the mutant B cells tend to proliferate excessively and form a tumor. Different specific"
+        },
+        {
+            "id": "Pathology_Robbins_1237",
+            "title": "Pathology_Robbins",
+            "content": "The ultimate consequence of signaling through oncoproteins such as RAS or ABL is inappropriate and continuous stimulation of nuclear transcription factors that drive the expression of growth-promoting genes. Growth autonomy may thus be a consequence of mutations affecting genes that regulate DNA transcription. A host of oncoproteins, including products of the MYC, MYB, JUN, FOS, and REL oncogenes, function as transcription factors that regulate the expression of growth-promoting genes, such as cyclins. Of these, MYC is involved most commonly in human tumors."
+        },
+        {
+            "id": "InternalMed_Harrison_6038",
+            "title": "InternalMed_Harrison",
+            "content": "Source: From R Hesketh: The Oncogene and Tumour Suppressor Gene Facts Book, 2nd ed. San Diego, Academic Press, 1997; with permission. regulatory proteins or proteins such as cyclins and of proteins that regulate cell death."
+        },
+        {
+            "id": "Pathology_Robbins_1208",
+            "title": "Pathology_Robbins",
+            "content": "Mechanistic data establishing aneuploidy as a cause of carcinogenesis, rather than a consequence, have been difficult to generate. However, statistical approaches made possible by detailed analysis of cancer cells suggest (as might be expected) that aneuploidy tends to increase the copy number of key oncogenes and decrease the copy number of potent tumor suppressors. For example, chromosome 8, which almost never is lost and often is present in increased copies in tumor cells, is where the MYC oncogene is located. By contrast, portions of chromosome 17, where the TP53 gene is located, are often lost and are infrequently gained. Thus, tumor development and progression may be molded by changes in chromosome numbers that enhance the dosage of oncogenes while restricting the activity of tumor suppressor genes."
+        },
+        {
+            "id": "InternalMed_Harrison_6701",
+            "title": "InternalMed_Harrison",
+            "content": "Lung cancer cells harbor multiple chromosomal abnormalities, including mutations, amplifications, insertions, deletions, and translocations. One of the earliest sets of oncogenes found to be aberrant was the MYC family of transcription factors (MYC, MYCN, and MYCL). MYC is most frequently activated via gene amplification or transcriptional dysregulation in both SCLC and NSCLC. Currently, there are no MYC-specific drugs. Among lung cancer histologies, adenocarcinomas have been the most extensively catalogued for recurrent genomic gains and losses as well as for somatic mutations (Fig. 107-2). While multiple different kinds of aberrations have been found, a major class involves \u201cdriver mutations,\u201d which are mutations that occur in genes encoding signaling proteins that when aberrant, drive initiation and maintenance of tumor cells. Importantly, driver mutations can serve as potential Achilles\u2019 heels for tumors, if their gene products can be targeted"
+        },
+        {
+            "id": "Pathology_Robbins_2850",
+            "title": "Pathology_Robbins",
+            "content": "Burkitt lymphoma is highly associated with translocations involving the MYC gene on chromosome 8 that result in overexpression of the MYC transcription factor. As mentioned in Chapter 6, MYC is a master regulator of Warburg metabolism (aerobic glycolysis), a cancer hallmark that is associated with rapid cell growth. In keeping with this association, Burkitt lymphoma is said to be the fastest growing human tumor. Most translocations fuse MYC with the IgH gene on chromosome 14, but variant translocations involving the \u03ba or \u03bb light chain loci also are observed. The net result of each is the same\u2014the dysregulation and overexpression of MYC. In most endemic cases and about 20% of sporadic cases, the tumor cells are latently infected with EBV, a relationship also discussed in Chapter 6."
+        },
+        {
+            "id": "Pathology_Robbins_1222",
+            "title": "Pathology_Robbins",
+            "content": "Mutations in genes that regulate some or all of these cellular traits are seen in every cancer; accordingly, these traits form the basis of the following discussion of the molecular origins of cancer. Of note, by convention, gene symbols are italicized but their protein products are not (e.g., RB gene and RB protein, TP53 and p53, MYC and MYC). The self-sufficiency in growth that characterizes cancer cells generally stems from gain-of-function mutations that convert proto-oncogenes to oncogenes. Oncogenes encode proteins called oncoproteins that promote cell growth, even in the absence of normal growth-promoting signals. To appreciate how oncogenes drive inappropriate cell growth, it is helpful to review briefly the sequence of events that characterize normal cell proliferation (introduced in Chapter 1). Under physiologic conditions, cell proliferation can be readily resolved into the following steps: 1. Binding of a growth factor to its specific receptor on the cell membrane 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5526",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we shall see, mutations in oncogenes and tumor suppressor genes can have similar effects in promoting the development of cancer; overproduction of a signal for cell proliferation, for example, can result from either kind of mutation. Thus, from the point of view of a cancer cell, oncogenes and tumor suppressor genes\u2014and the mutations that affect them\u2014are flip sides of the same coin. The techniques that led to the discovery of these two categories of genes, however, are quite different."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5551",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 20\u201321 Six ways of losing the remaining good copy of a tumor suppressor gene through a change in DNA sequences. A cell that is defective in only one of its two copies of a tumor suppressor gene\u2014for example, the Rb gene\u2014usually behaves as a normal, healthy cell; the diagrams below show how this cell may lose the function of the other gene copy as well and thereby progress toward cancer. A seventh possibility, frequently encountered with some tumor suppressors, is that the gene may be silenced by an epigenetic change, without alteration of the DNA sequence, as illustrated in Figure 20\u201322. (After"
+        },
+        {
+            "id": "Pathology_Robbins_3819",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 15.36 ). For adenomas to develop, both copies of the APC gene must be functionally inactivated, either by mutation or epigenetic events. APC is a key negative regulator of \u03b2-catenin, a component of the WNT signaling pathway (Chapter 6). The APC protein normally binds to and promotes degradation of \u03b2-catenin. With loss of APC function, \u03b2-catenin accumulates and translocates to the nucleus, where it activates the transcription of genes, such as those encoding MYC and cyclin D1, that promote proliferation. This is followed by additional mutations, including activating mutations in KRAS, which also promote growth and prevent apoptosis. The conclusion that mutation of KRAS is a late event is supported by the observations that mutations are present in fewer than 10% of adenomas less than 1 cm in diameter, 50% of adenomas greater than 1 cm in diameter, and 50% of invasive adenocarcinomas. Neoplastic progression also is associated with mutations in other tumor suppressor genes such as"
+        },
+        {
+            "id": "InternalMed_Harrison_6083",
+            "title": "InternalMed_Harrison",
+            "content": "phenotypiC CharaCteristiCs of MaLignant CeLLs Deregulated cell proliferation: Loss of function of negative growth regulators (tumor-suppressor genes, i.e., Rb, p53), and increased action of positive 102e Jeffrey W. Clark, Dan L. Longo growth regulators (oncogenes, i.e., Ras, Myc). Leads to aberrant cell cycle con- Cancers are characterized by unregulated cell division, avoidance of cell death, tissue invasion, and the ability to metastasize. A neoplasm is benign when it grows in an unregulated fashion without tissue invasion. The presence of unregulated growth and tissue invasion is characteristic of malignant neoplasms. Cancers are named based on their origin: those derived from epithelial tissue are called carcinomas, those derived from mesenchymal tissues are sarcomas, and those derived from hematopoietic tissue are leukemias, lymphomas, and plasma cell dyscrasias (including multiple myeloma)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5059",
+            "title": "Cell_Biology_Alberts",
+            "content": "abnormal proliferation signals Cause Cell-Cycle arrest or apoptosis, Except in Cancer Cells Many of the components of mitogenic signaling pathways are encoded by genes that were originally identified as cancer-promoting genes, because mutations in them contribute to the development of cancer. The mutation of a single amino acid in the small GTPase Ras, for example, causes the protein to become permanently overactive, leading to constant stimulation of Ras-dependent signaling pathways, even in the absence of mitogenic stimulation. Similarly, mutations that cause an overexpression of Myc stimulate excessive cell growth and proliferation and thereby promote the development of cancer (discussed in Chapter 20)."
+        },
+        {
+            "id": "Pediatrics_Nelson_3350",
+            "title": "Pediatrics_Nelson",
+            "content": "Chromosomal translocation may move an oncogene from its normal site to a new, unregulated site, leading to increased expression. In Burkitt lymphoma, translocation occurs Large cell T-cell, B-cell, or indeterminate Lymph nodes, skin, soft tissue, bone t(2;5)(p23;q35) between chromosome 8 (c-myc oncogene) and the immunoglobulin gene locus on chromosome 2, 14, or 22, such that the c-myc oncogene comes to reside next to an immunoglobulin gene. The c-myc gene turns on the immunoglobulin gene, leading to a malignant B-cell lymphoma."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5040",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we discuss in Chapter 15, mitogens interact with cell-surface receptors to trigger multiple intracellular signaling pathways. One major pathway acts through the monomeric GTPase Ras, which leads to the activation of a mitogen-activated protein kinase (MAP kinase) cascade (see Figure 15\u201349). This leads to an increase in the production of transcription regulatory proteins, including Myc. Myc is thought to promote cell-cycle entry by several mechanisms, one of which is to increase the expression of genes encoding G1 cyclins (D cyclins), thereby increasing G1-Cdk (cyclin D\u2013Cdk4) activity. Myc also has a major role in stimulating the transcription of genes that increase cell growth."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5060",
+            "title": "Cell_Biology_Alberts",
+            "content": "Surprisingly, however, when a hyperactivated form of Ras or Myc is experimentally overproduced in most normal cells, the result is not excessive proliferation but the opposite: the cells undergo either permanent cell-cycle arrest or apoptosis. The normal cell seems able to detect abnormal mitogenic stimulation, and it responds by preventing further division. Such responses help prevent the survival and proliferation of cells with various cancer-promoting mutations. Although it is not known how a cell detects excessive mitogenic stimulation, such stimulation often leads to the production of a cell-cycle inhibitor protein called Arf, which binds and inhibits Mdm2. As discussed earlier, Mdm2 normally promotes p53 degradation. Activation of Arf therefore causes p53 levels to increase, inducing either cell-cycle arrest or apoptosis (Figure 17\u201363)."
+        },
+        {
+            "id": "Pathology_Robbins_5184",
+            "title": "Pathology_Robbins",
+            "content": "Wnt pathway activation, most commonly associated with gain of function mutations in the gene for \u03b2-catenin; these have the most favorable prognosis of all of the genetic subtypes and are commonly classic-type tumors. Hedgehog pathway activation, most commonly associated with loss of function mutations in PTCH1, a negative regulator of the Hedgehog; these tumors have an intermediate prognosis, but the concomitant presence of TP53 mutation confers a very poor prognosis. MYC overexpression, due to MYC amplification as well as other changes that result in increased expression; these tumors have the poorest prognosis. Clinical trials are ongoing that seek to tailor therapy targeted to molecular alterations, with the goal of avoiding radiation therapy when possible."
+        },
+        {
+            "id": "InternalMed_Harrison_6085",
+            "title": "InternalMed_Harrison",
+            "content": "A few cancers appear to, at least initially, be primarily driven by an alteration in a dominant gene that produces uncontrolled cell proliferation. Examples include chronic myeloid leukemia (abl), about half of melanomas (braf ), Burkitt\u2019s lymphoma (c-myc), and subsets of lung adenocarcinomas (egfr, alk, ros1, and ret). The genes that can promote cell growth when altered are often called oncogenes. They were first identified as critical elements of viruses that cause animal tumors; it was subsequently found that the viral genes had normal counterparts with important functions in the cell and had been captured and mutated by viruses as they passed from host to host."
+        },
+        {
+            "id": "InternalMed_Harrison_6036",
+            "title": "InternalMed_Harrison",
+            "content": "rearranged or deregulated by the chromosomal rearrangement. Translocations are particularly common in lymphoid tumors, probably because these cell types have the capability to rearrange their DNA to generate antigen receptors. Indeed, antigen receptor genes are commonly involved in the translocations, implying that an imperfect regulation of receptor gene rearrangement may be involved in the pathogenesis. An interesting example is Burkitt\u2019s lymphoma, a B cell tumor characterized by a reciprocal translocation between chromosomes 8 and 14. Molecular analysis of Burkitt\u2019s lymphomas demonstrated that the breakpoints occurred within or near the MYC locus on chromosome 8 and within the immunoglobulin heavy chain locus on chromosome 14, resulting in the transcriptional activation of MYC. Enhancer activation by translocation, although not universal, appears to play an important role in malignant progression. In addition to transcription factors and signal transduction molecules, translocation"
+        },
+        {
+            "id": "Pathology_Robbins_1288",
+            "title": "Pathology_Robbins",
+            "content": "RAS signaling. Signals downstream of RAS upregulate the activity of glucose transporters and multiple glycolytic enzymes, thus increasing glycolysis; promote shunting of mitochondrial intermediates to pathways leading to lipid biosynthesis; and stimulate factors that are required for protein synthesis. MYC. As mentioned earlier, pro-growth pathways upregulate expression of the transcription factor MYC, which drives changes in gene expression that support anabolic metabolism and cell growth. Among the MYC-regulated genes are those for several glycolytic enzymes and glutaminase, which is required for mitochondrial utilization of glutamine, a key source of carbon moieties needed for biosynthesis of cellular building blocks."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5532",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 20\u201317 Cancer-critical mutations fall into two readily distinguishable categories, dominant and recessive. In this diagram, activating mutations are represented by solid red boxes, inactivating mutations by hollow red boxes. (A) Oncogenes act in a dominant manner: a gain-of-function mutation in a single copy of the cancer-critical gene can drive a cell toward cancer. (B) Mutations in tumor suppressor genes, on the other hand, generally act in a recessive manner: the function of both alleles of the cancer-critical gene must be lost to drive a cell toward cancer. Although in this diagram the second allele of the tumor suppressor gene is inactivated by mutation, it is often inactivated instead by loss of the second chromosome. Not shown is the fact that mutation of some tumor suppressor genes can have an effect even when only one of the two gene copies is damaged. Different Searches for Oncogenes Converged on the Same Gene\u2014Ras"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4348",
+            "title": "Cell_Biology_Alberts",
+            "content": "Among the genes activated by \u03b2-catenin is Myc, which encodes a protein (Myc) that is an important regulator of cell growth and proliferation (discussed in Chapter 17). Mutations of the Apc gene occur in 80% of human colon cancers (discussed in Chapter 20). These mutations inhibit the protein\u2019s ability to bind \u03b2-catenin, so that \u03b2-catenin accumulates in the nucleus and stimulates the transcription of c-Myc and other Wnt target genes, even in the absence of Wnt signaling. The resulting uncontrolled cell growth and proliferation promote the development of cancer. Various secreted inhibitory proteins regulate Wnt signaling in development. Some bind to the LRP receptors and promote their down-regulation, whereas others compete with Frizzled receptors for secreted Wnts. In Drosophila at least, Wnts activate negative feedback loops, in which Wnt target genes encode proteins that help shut the response off; some of these proteins inhibit Dishevelled, and others are secreted inhibitors."
+        },
+        {
+            "id": "Pathology_Robbins_1191",
+            "title": "Pathology_Robbins",
+            "content": "Tumor suppressor genes are genes that normally prevent uncontrolled growth and, when mutated or lost from a cell, allow the transformed phenotype to develop. Often both normal alleles of tumor suppressor genes must be damaged for transformation to occur. Tumor suppressor genes can be placed into two general groups, \u201cgovernors\u201d that act as important brakes on cellular proliferation, and \u201cguardians\u201d that are responsible for sensing genomic damage. Some guardian genes initiate and choreograph a complex \u201cdamage control response\u201d that leads to the cessation of proliferation or, if the damage is too great to be repaired, or induce apoptosis. Genes that regulate apoptosis primarily act by enhancing cell survival, rather than stimulating proliferation per se. Understandably, genes of this class that protect against apoptosis are often overexpressed in cancer cells, whereas those that promote apoptosis tend to be under-expressed or functionally inactivated by mutations."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5642",
+            "title": "Cell_Biology_Alberts",
+            "content": "The molecular analysis of cancer cells reveals two classes of cancer-critical genes: oncogenes and tumor suppressor genes. A set of these genes becomes altered by a combination of genetic and epigenetic accidents to drive tumor progression. Many cancer-critical genes code for components of the social control pathways that regulate when cells grow, divide, differentiate, or die. In addition, a subclass of tumor suppressors can be categorized as \u201cgenome maintenance genes,\u201d because their normal role is to help maintain genome integrity. The inactivation of the p53 pathway, which occurs in nearly all human cancers, allows genetically damaged cells to escape apoptosis and continue to proliferate. Inactivation of the Rb pathway also occurs in most human cancers, illustrating how fundamental each of these pathways is for protecting us against cancer."
+        },
+        {
+            "id": "InternalMed_Harrison_7206",
+            "title": "InternalMed_Harrison",
+            "content": "Mutations in common oncogenes (ras, myc, fos, src, jun) or common tumor-suppressor genes (p53, retinoblastoma susceptibility gene) are not commonly found in either pNETs or GI-NETs (carcinoids) (Table 113-1). However, frequent (70%) gene amplifications in MDM2, MDM4, and WIPI inactivating the p53 pathway are noted in well-differentiated pNETs, and the retinoblastoma pathway is altered in the majority of pNETs. In addition to these genes, additional alterations that may be important in their pathogenesis include changes in the MEN1 gene, p16/MTS1 tumor-suppressor gene, and DPC4/ Smad4 gene; amplification of the HER-2/neu protooncogene; alterations in transcription factors (Hoxc6 [GI carcinoids]), growth factors, and their receptors; methylation of a number of genes that probably results in their inactivation; and deletions of unknown tumor-suppressor genes as well as gains in other unknown genes (Table 113-1). The clinical antitumor activity of everolimus, an mTOR inhibitor, and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5552",
+            "title": "Cell_Biology_Alberts",
+            "content": "W.K. Cavenee et al., Nature 305:779\u2013784, 1983. With permission from Macmillan Publishers Ltd.) deletion or duplication, without the need for complete sequence information. The genome can be scanned for epigenetic changes. And finally, alterations in levels of gene expression can be systematically determined by analysis of mRNAs (see Figure 7\u20133). These approaches generally involve comparing cancer cells with normal controls\u2014ideally, noncancerous cells originating in the same tissue and from the same patient. Figure 20\u201322 The pathways leading to loss of tumor suppressor gene function in cancer involve both genetic and epigenetic changes. (A) As indicated, the changes that silence tumor suppressor genes can occur in any order. Both DNA methylation and the packaging of a gene into condensed chromatin can prevent its expression in a way that is inherited when a cell divides (see Figure 4\u201344)."
+        },
+        {
+            "id": "InternalMed_Harrison_6139",
+            "title": "InternalMed_Harrison",
+            "content": "The concepts of oncogene addiction and synthetic lethality have spurred new drug development targeting oncogeneand tumor-suppressor pathways. As discussed earlier in this chapter and outlined in Fig. 102e-3, cancer cells can become dependent on signaling pathways containing activated oncogenes; this can effect proliferation (i.e., mutated Kras, Braf, overexpressed Myc, or activated tyrosine kinases), DNA repair (loss of BRCA1 or BRCA2 gene function), survival (overexpression of Bcl-2 or NF-\u03baB), cell metabolism (as occurs when mutant Kras enhances glucose uptake and aerobic glycolysis), and perhaps angiogenesis (production of VEGF in response to HIF-2\u03b1 in RCC). In such cases, targeted inhibition of the pathway can lead to specific killing of the cancer cells. However, targeting defects in tumor-suppressor genes has been much more difficult, both because the target of mutation is often deleted and because it is much more difficult to restore normal function than to inhibit abnormal"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5734",
+            "title": "Cell_Biology_Alberts",
+            "content": "Zink D, Fischer Ah & Nickerson JA (2004) Nuclear structure in cancer cells. Nat. Rev. Cancer 4, 677\u2013687. Cancer-Critical Genes: How They Are Found and What They Do Berdasco M & Esteller M (2010) Aberrant epigenetic landscape in cancer: how cellular identity goes awry. Dev. Cell 19, 698\u2013711. Brognard J & hunter T (2011) Protein kinase signaling networks in cancer. Curr. Opin. Genet. Dev. 21, 4\u201311. Eilers M & Eisenman R (2008) Myc\u2019s broad reach. Genes Dev. 22, 2755\u20132766. Feinberg AP (2007) Phenotypic plasticity and the epigenetics of human disease. Nature 447, 433\u2013440. Garraway LA & Lander ES (2013) Lessons from the cancer genome. Cell 153, 17\u201337. Greaves M & Maley CC (2012) Clonal evolution in cancer. Nature 481, 306\u2013313. Junttila MR & Evan GI (2009) p53\u2014a Jack of all trades but master of none. Nat. Rev. Cancer 9, 821\u2013829."
+        },
+        {
+            "id": "InternalMed_Harrison_26890",
+            "title": "InternalMed_Harrison",
+            "content": "Abbreviations: APC, adenomatous polyposis coli; ATC, anaplastic thyroid cancer; BRAF, v-raf homologue, B1; CDKN2A, cyclin-dependent kinase inhibitor 2A; c-MYC, cellular homologue of myelocytomatosis virus protooncogene; ELE1/TK, RET-activating gene ele1/tyrosine kinase; GPCR, G protein\u2013coupled receptor; GS\u03b1, G-protein stimulating \u03b1-subunit; MEK, mitogen extracellular signal-regulated kinase; MEN 2, multiple endocrine neoplasia-2; MET, met protooncogene (hepatocyte growth factor receptor); MTS, multiple tumor suppressor; p53, p53 tumor suppressor gene; PTC, papillary thyroid cancer; PTEN, phosphatase and tensin homologue; RAS, rat sarcoma protooncogene; RET, rearranged during transfection protooncogene; p21, p21 tumor suppressor; PAX8, paired domain transcription factor; PPAR\u03b31, peroxisome-proliferator activated receptor \u03b31; TRK, tyrosine kinase receptor; TSH, thyroid-stimulating hormone; WAF, wild-type p53 activated fragment."
+        },
+        {
+            "id": "Pathology_Robbins_1211",
+            "title": "Pathology_Robbins",
+            "content": "of that miRNA will lead to overproduction of the oncogene product. Such relationships have already been established by miRNA profiling of several human tumors. For example, downregulation or deletion of certain miRNAs in some leukemias and lymphomas results in increased expression of BCL2, an anti-apoptotic gene. Thus, by negatively regulating BCL2, such miRNAs behave as tumor suppressor genes. Dysregulation of other miRNAs that control the expression of the RAS and MYC oncogenes also has been detected in lung tumors and in certain B-cell leukemias, respectively."
+        },
+        {
+            "id": "Pathology_Robbins_1296",
+            "title": "Pathology_Robbins",
+            "content": "Warburg metabolism is a form of pro-growth metabolismfavoring glycolysis over oxidative phosphorylation. It is inducedin normal cells by exposure to growth factors and becomesfixed in cancer cells due to the action of certain drivermutations. Many oncoproteins (RAS, MYC, mutated growth factor receptors) induce or contribute to Warburg metabolism, and manytumor suppressors (PTEN, NF1, p53) oppose it. Stress may induce cells to consume their components in aprocess called autophagy. Cancer cells may accumulate mutations to avoid autophagy, or may corrupt the process toprovide nutrients for continued growth and survival. Some oncoproteins such as mutated IDH act by causing theformation of high levels of \u201concometabolites\u201d that alter theepigenome, thereby leading to changes in gene expression thatare oncogenic."
+        },
+        {
+            "id": "Gynecology_Novak_503",
+            "title": "Gynecology_Novak",
+            "content": "The activated ER elicits a number of different genomic as well as nongenomic effects on intracellular signaling pathways. The classical steroid signaling pathway involves binding of the activated estrogen receptor to an estrogen responsive element (ERE) on the genome as homodimers and subsequent stimulation of transcription (27,28). The minimal consensus sequence for Table 6.1 Proto-Oncogenes hst, int-2 Ha-ras, N-ras, N-ras fgr, lck, src, yes cot, plm-1, mos, raf/mil jun, ets-1, ets-2,fos, gil 1,rel, ski, vav lyl-1, maf, myb, myc, L-myc, N-myc, evi-1 the ERE is a 13 bp palindromic inverted repeat (IR) and is defined as 5 -GGTCAnnnTGACC-3 . Genes that are regulated by activated ERs include early gene responses such as c-myc, c-fos, and d-jun, and genes encoding for growth factors such as insulin growth factor (IGF-1 and IGF-2), epidermal growth factor (EGF), transforming growth factor-\u03b1, and colony-stimulating factor (CSF-1). Table 6.2 Tumor Suppressor Genes"
+        }
+    ],
+    "scores": [
+        0.03752812296539522,
+        0.03710784793329694,
+        0.035887105055656884,
+        0.03421708907751482,
+        0.033272881718076595,
+        0.033071627978528306,
+        0.03219608118988924,
+        0.031868982245899895,
+        0.029192878883899025,
+        0.028532505506189715,
+        0.02703738820995458,
+        0.025898818695428864,
+        0.024841785776991476,
+        0.024567099567099567,
+        0.024453324453324453,
+        0.024394219334012913,
+        0.023055706211463804,
+        0.022333611807296018,
+        0.022293802126440443,
+        0.022178196283174842,
+        0.0221426002979401,
+        0.021974849211296152,
+        0.020402129654725522,
+        0.02017147378575532,
+        0.0196078431372549,
+        0.019211646407196758,
+        0.01905453225660103,
+        0.01896117900790798,
+        0.01801874595992243,
+        0.017908538535337384,
+        0.01778093883357041,
+        0.0177750058470414
+    ]
+}

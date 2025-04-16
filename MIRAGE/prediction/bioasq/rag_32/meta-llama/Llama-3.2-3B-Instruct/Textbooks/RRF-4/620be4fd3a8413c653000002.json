@@ -1,0 +1,206 @@
+{
+    "id": "620be4fd3a8413c653000002",
+    "question": "Does TIMELESS-TIPIN participate in replisome disassembly?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "After analyzing the provided documents, I was unable to find any information about TIMELESS-TIPIN or its involvement in replisome disassembly. The documents primarily discuss the cell cycle, mitosis, and DNA replication, but TIMELESS-TIPIN is not mentioned. However, I found a document (Document [20]) that mentions TIMELESS, a protein involved in the regulation of the cell cycle. According to Document [20], TIMELESS is a component of the pre-replicative complex (pre-RC) and is required for the assembly of the pre-RC. It is not mentioned in the context of replisome disassembly. Since I couldn't find any information about TIMELESS-TIPIN in the provided documents, I will have to choose an answer based on the available information. Here is the output in JSON format: {\"step_by_step_thinking\": \"After analyzing the provided documents, I was unable to find any information about TIMELESS-TIPIN or its involvement in replisome disassembly. The documents primarily discuss the cell cycle, mitosis, and DNA replication, but TIMELESS-TIPIN is not mentioned.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_4876",
+            "title": "Cell_Biology_Alberts",
+            "content": "to Cdk inactivation and the dephosphorylation of Cdk targets, which is required for all events of late M phase, including the completion of anaphase, the disassembly of the mitotic spindle, and the division of the cell by cytokinesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4939",
+            "title": "Cell_Biology_Alberts",
+            "content": "How does plus-end depolymerization drive the kinetochore toward the pole? As we discussed earlier (see Figure 17\u201331C), Ndc80 complexes in the kinetochore make multiple low-affinity attachments along the side of the microtubule. Because the attachments are constantly breaking and re-forming at new sites, the kinetochore remains attached to a microtubule even as the microtubule depolymerizes. In principle, this could move the kinetochore toward the spindle pole."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4862",
+            "title": "Cell_Biology_Alberts",
+            "content": "to allow replication in the next cell cycle? At the end of mitosis, APC/C activation leads to the inactivation of Cdks and the destruction of geminin. ORC and Cdc6 are dephosphorylated and Cdt1 is activated, allowing preRC assembly to prepare the cell for the next S phase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4795",
+            "title": "Cell_Biology_Alberts",
+            "content": "E. Is there anything in the data in Figure Q16\u20133B that tells you how many ATP molecules are hydrolyzed per step? 16\u201310 A mitochondrion 1 \u03bcm long can travel the 1 meter length of the axon from the spinal cord to the big toe in a day. The Olympic men\u2019s freestyle swimming record for 200 meters is 1.75 minutes. In terms of body lengths per day, who is moving faster: the mitochondrion or the Olympic record holder? (Assume that the swimmer is 2 meters tall.) 16\u201311 Cofilin preferentially binds to older actin filaments and promotes their disassembly. How does cofilin distinguish old filaments from new ones? 16\u201312 Why is it that intermediate filaments have identical ends and lack polarity, whereas actin filaments and microtubules have two distinct ends with a defined polarity? 16\u201313 How is the unidirectional motion of a lamellipodium maintained?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4824",
+            "title": "Cell_Biology_Alberts",
+            "content": "For many years, cell biologists watched the puppet show of DNA synthesis, mitosis, and cytokinesis but had no idea of what lay behind the curtain controlling these events. It was not even clear whether there was a separate control system, or whether the processes of DNA synthesis, mitosis, and cytokinesis somehow controlled themselves. A major breakthrough came in the late 1980s with the identification of the key proteins of the control system, along with the realization that they are distinct from the proteins that perform the processes of DNA replication, chromosome segregation, and so on. In this section, we first consider the basic principles upon which the cell-cycle control system operates. We then discuss the protein components of the system and how they work together to time and coordinate the events of the cell cycle. The Cell-Cycle Control system Triggers the major Events of the Cell Cycle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4714",
+            "title": "Cell_Biology_Alberts",
+            "content": "Less is understood about the mechanism of assembly and disassembly of intermediate filaments than of actin filaments and microtubules. In pure protein solutions, intermediate filaments are extremely stable due to tight association of subunits, but some types of intermediate filaments, including vimentin, form highly dynamic structures in cells such as fibroblasts. Protein phosphorylation probably regulates their disassembly, in much the same way that phosphorylation regulates the disassembly of nuclear lamins in mitosis (see Figure 12\u201318). As evidence for rapid turnover, labeled subunits microinjected into tissue-culture cells incorporate into intermediate filaments within a few minutes. Remodeling of the intermediate filament network accompanies events requiring dynamic cellular reorganization, such as division, migration, and differentiation. Intermediate Filaments Impart Mechanical Stability to Animal Cells"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1212",
+            "title": "Cell_Biology_Alberts",
+            "content": "The protein kinases that trigger DNA replication simultaneously prevent assembly of new prereplicative complexes until the next M phase resets the entire cycle (for details, see pp. 974\u2013975). They do this, in part, by phosphorylating ORC, rendering it unable to accept new helicases. This strategy provides a single window of opportunity for prereplicative complexes to form (G1 phase, when kinase activity is low) and a second window for them to be activated and subsequently disassembled (S phase, when kinase activity is high). Because these two phases of the cell cycle are mutually exclusive and occur in a prescribed order, each origin of replication can fire once and only once during each cell cycle. Features of the Human Genome That Specify Origins of Replication Remain to Be Discovered"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4825",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cell-cycle control system operates much like a timer that triggers the events of the cell cycle in a set sequence (Figure 17\u20139). In its simplest form\u2014as seen in the stripped-down cell cycles of early animal embryos, for example\u2014the control system is rigidly programmed to provide a fixed amount of time for the completion of each cell-cycle event. The control system in these early embryonic divisions is independent of the events it controls, so that its timing mechanisms continue to operate even if those events fail. In most cells, however, the control system does respond to information received back from the processes it controls. If some malfunction prevents the successful completion of DNA synthesis, for example, signals are sent to the control system to delay progression to M phase. Such delays provide time for the machinery to be repaired and also prevent the disaster that might result if the cycle progressed prematurely to the next stage\u2014and segregated incompletely replicated"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1209",
+            "title": "Cell_Biology_Alberts",
+            "content": "The answer lies in the sequential manner in which the replicative helicase is first loaded onto origins and is then activated to initiate DNA replication. This matter is discussed in detail in Chapter 17, where we consider the machinery that underlies the cell-division cycle. In brief, during G1 phase, the replicative helicases are loaded onto DNA next to ORC to create a prereplicative complex. Then, upon passage from G1 phase to S phase, specialized protein kinases come into play to activate the helicases. The resulting opening of the double helix allows the loading of the remaining replication proteins, including the DNA polymerases. origins of replication telomere centromere telomere"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4859",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201318 illustrates some of the molecular details underlying the control of the two steps in the initiation of DNA replication. A key player is a large multiprotein complex called the origin recognition complex (ORC), which binds to Figure 17\u201317 Control of chromosome duplication. preparations for dna replication begin in late mitosis and g1, when the dna helicases are loaded by multiple proteins at the replication origin, forming the prereplicative complex (preRC). s-Cdk activation leads to activation of the dna helicases, which unwind the dna at origins to initiate dna replication. Two replication forks move out from each origin until the entire chromosome is duplicated. duplicated chromosomes are then segregated in m phase. s-Cdk activation in s phase also prevents assembly of new preRCs at any origin until the following g1\u2014thereby ensuring that each origin is activated only once in each cell cycle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1297",
+            "title": "Cell_Biology_Alberts",
+            "content": "RecA hydrolyzes ATP, and the steps described above require that each RecA monomer along the filament be in the ATP-bound state. However, the searching itself does not require ATP hydrolysis; instead, the process occurs by simple molecular collision, allowing many potential sequences to be rapidly sampled. Once the strand-exchange reaction is completed, however, ATP hydrolysis is necessary to disassemble RecA from the complex of DNA molecules. At this point, repair DNA polymerases and DNA ligase can complete the repair process, as shown in Figure 5\u201348."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4826",
+            "title": "Cell_Biology_Alberts",
+            "content": "Such delays provide time for the machinery to be repaired and also prevent the disaster that might result if the cycle progressed prematurely to the next stage\u2014and segregated incompletely replicated chromosomes, for example."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4944",
+            "title": "Cell_Biology_Alberts",
+            "content": "The apC/C Triggers sister-Chromatid separation and the Completion of mitosis After M-Cdk has triggered the complex processes leading up to metaphase, the cell cycle reaches its climax with the separation of the sister chromatids at the metaphase-to-anaphase transition (Figure 17\u201337). Although M-Cdk activity sets the stage for this event, the anaphase-promoting complex (APC/C) discussed earlier throws the switch that initiates sister-chromatid separation by ubiquitylating several mitotic regulatory proteins and thereby triggering their destruction (see Figure 17\u201315A). During metaphase, cohesins holding the sister chromatids together resist the poleward forces that pull the sister chromatids apart. Anaphase begins with the sudden loss of sister-chromatid cohesion, which allows the sisters to separate and move to opposite poles of the spindle. The APC/C initiates the process by targeting the inhibitory protein securin for destruction. Before anaphase, securin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3241",
+            "title": "Cell_Biology_Alberts",
+            "content": "When a nucleus is dismantled during mitosis, the NPCs and nuclear lamina disassemble and the nuclear envelope fragments. The dismantling process is at least partly a consequence of direct phosphorylation of nucleoporins and lamins by the cyclin-dependent protein kinase (Cdk) that is activated at the onset of mitosis (discussed in Chapter 17). During this process, some NPC proteins become bound to nuclear import receptors, which play an important part in the reassembly of NPCs at the end of mitosis. Nuclear envelope membrane proteins\u2014no longer tethered to the pore complexes, lamina, or chromatin\u2014disperse throughout the ER membrane. The dynein motor protein, which moves along microtubules (discussed in Chapter 16), actively participates in tearing the nuclear envelope off the chromatin. Together, these processes break down the barriers that normally separate the nucleus and cytosol, and the nuclear proteins that are not bound to membranes or chromosomes intermix completely with the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4929",
+            "title": "Cell_Biology_Alberts",
+            "content": "they separate in anaphase. How is this mode of attachment, called bi-orientation, achieved? What prevents the attachment of both kinetochores to the same spindle pole or the attachment of one kinetochore to both spindle poles? Part of the answer is that sister kinetochores are constructed in a back-to-back orientation that reduces the likelihood that both kinetochores can face the same spindle pole. Nevertheless, incorrect attachments do occur, and elegant regulatory mechanisms have evolved to correct them."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4809",
+            "title": "Cell_Biology_Alberts",
+            "content": "At the end of S phase, the DNA molecules in each pair of duplicated chromosomes are intertwined and held tightly together by specialized protein linkages. Early in mitosis at a stage called prophase, the two DNA molecules are gradually disentangled and condensed into pairs of rigid, compact rods called sister chromatids, which remain linked by sister-chromatid cohesion. When the nuclear envelope disassembles later in mitosis, the sister-chromatid pairs become attached to the mitotic spindle, a giant bipolar array of microtubules (discussed in Chapter 16). Sister chromatids are attached to opposite poles of the spindle and, eventually, align at the spindle equator in a stage called metaphase. The destruction of sister-chromatid cohesion at the start of anaphase separates the sister chromatids, which are pulled to opposite poles of the spindle. The spindle is then disassembled, and the segregated chromosomes are packaged into separate nuclei at telophase. Cytokinesis then cleaves the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4736",
+            "title": "Cell_Biology_Alberts",
+            "content": "A central challenge in cell biology is to understand how multiple individual molecular components collaborate to produce complex cell behaviors. The process of cell migration, which we describe in this final section, relies on the coordinated deployment of the components and processes that we have explored in this chapter: the dynamic assembly and disassembly of cytoskeletal polymers, the regulation and modification of their structure by polymer-associated proteins, and the actions of motor proteins moving along the polymers or exerting tension against them. How does the cell coordinate all these activities to define its polarity and enable it to crawl?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1144",
+            "title": "Cell_Biology_Alberts",
+            "content": "replication fork were it not for an accessory protein (called PCNA in eukaryotes) that functions as a regulated sliding clamp. This clamp keeps the polymerase firmly on the DNA when it is moving, but releases it as soon as the polymerase runs into a double-strand region of DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1277",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA Damage Delays Progression of the Cell Cycle We have just seen that cells contain multiple enzyme systems that can recognize and repair many types of DNA damage (Movie 5.7). Because of the importance of maintaining intact, undamaged DNA from generation to generation, eukaryotic cells have an additional mechanism that maximizes the effectiveness of their DNA repair enzymes: they delay progression of the cell cycle until DNA repair is complete. As discussed in detail in Chapter 17, the orderly progression of the cell cycle is stopped if damaged DNA is detected, and it restarts when the damage has been repaired. Thus, in mammalian cells, the presence of DNA damage can block entry from G1 into S phase, it can slow S phase once it has begun, and it can block the transition from G2 phase to M phase. These delays facilitate DNA repair by providing the time needed for the repair to reach completion."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4852",
+            "title": "Cell_Biology_Alberts",
+            "content": "chromosome duplication in S phase and also contributes to some early events of mitosis. M-Cdk activation then triggers progression through the G2/M transition and the events of early mitosis, leading to the alignment of sister-chromatid pairs at the equator of the mitotic spindle. Finally, the APC/C, together with its activator Cdc20, triggers the destruction of securin and cyclins, thereby unleashing sister-chromatid separation and segregation and the completion of mitosis. When mitosis is complete, multiple mechanisms collaborate to suppress Cdk activity, resulting in a stable G1 period. We are now ready to discuss these cell-cycle stages in more detail, starting with S phase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3483",
+            "title": "Cell_Biology_Alberts",
+            "content": "The coat-recruitment GTPases also have a role in coat disassembly. The hydrolysis of bound GTP to GDP causes the GTPase to change its conformation so that its hydrophobic tail pops out of the membrane, causing the vesicle\u2019s coat to disassemble. Although it is not known what triggers the GTP hydrolysis, it has been proposed that the GTPases work like timers, which hydrolyze GTP at slow but predictable rates, to ensure that vesicle formation is synchronized with the requirements of the moment. COPII coats accelerate GTP hydrolysis by Sar1, and a fully formed vesicle will be produced only when bud formation occurs faster than the timed disassembly process; otherwise, disassembly will be triggered before a vesicle pinches off, and the process will have to start again, perhaps at a more appropriate time and place. Once a vesicle pinches off, GTP hydrolysis releases Sar1, but the sealed coat is sufficiently stabilized through many cooperative interactions, including binding to the cargo"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1202",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the following sections, we explore how chromosome replication is coordinated within the S phase of the cell cycle. Different Regions on the Same Chromosome Replicate at Distinct Times in S Phase In mammalian cells, the replication of DNA in the region between one replication origin and the next should normally require only about an hour to complete, given the rate at which a replication fork moves and the largest distances measured between replication origins. Yet S phase usually lasts for about 8 hours in a mammalian cell. This implies that the replication origins are not all activated simultaneously; indeed, replication origins are activated in clusters of about 50 adjacent replication origins, each of which is replicated during only a small part of the total S-phase interval."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1205",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once initiated, however, replication forks seem to move at comparable rates throughout S phase, so the extent of chromosome condensation seems to influence the time at which replication forks are initiated, rather than their speed once formed. A Large Multisubunit Complex Binds to Eukaryotic Origins of Replication Having seen that a eukaryotic chromosome is replicated using many origins of replication, each of which \u201cfires\u201d at a characteristic time in S phase of the cell cycle, we turn to the nature of these origins of replication. We saw earlier in this chapter that replication origins have been precisely defined in bacteria as specific DNA sequences that attract initiator proteins, which then assemble the DNA replication machinery. We shall see that this is the case for the single-cell budding yeast S. cerevisiae, but it appears not to be strictly true for most other eukaryotes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4830",
+            "title": "Cell_Biology_Alberts",
+            "content": "Are all chromosomes attached to the spindle? Is all DNA replicated? Is environment favorable? G2 M S G1 CONTROLLER ENTER MITOSIS TRIGGER ANAPHASE AND PROCEED TO CYTOKINESIS ENTER CELL CYCLE AND PROCEED TO S PHASE START TRANSITION Is environment favorable? G2/M TRANSITION"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2038",
+            "title": "Cell_Biology_Alberts",
+            "content": "regulation of mrnA Stability involves p-bodies and Stress Granules We saw in Chapters 3 and 6 that large aggregates of proteins and nucleic acids that work together are often held in proximity by loose, low-affinity connections (see Figure 3\u201336). In this way, they function as \u201corganelles\u201d even though they are not surrounded by membranes. Many of the events discussed in the previous mRNA translation and mRNA decay. the same two features of an mrnA molecule\u2014its 5\u02b9 cap and the 3\u02b9 poly-A decay (see figure 7\u201369). the deadenylase that shortens the poly-A tail in the 3\u02b9-to5\u02b9 direction associates with the 5\u02b9 cap. As described in Chapter 6 (see figure 6\u201370), the translation initiation machinery also associates with both the 5\u02b9 cap and the poly-A tail. (Adapted from M. Gao et al., Mol. Cell 5:479\u2013488, 2000. with permission from elsevier.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4861",
+            "title": "Cell_Biology_Alberts",
+            "content": "At the same time as S-Cdk initiates DNA replication, several mechanisms prevent assembly of new preRCs. S-Cdk phosphorylates and thereby inhibits the ORC and Cdc6 proteins. Inactivation of the APC/C in late G1 also helps turn off preRC assembly. In late mitosis and early G1, the APC/C triggers the destruction of a Cdt1 inhibitor called geminin, thereby allowing Cdt1 to be active. When the APC/C is turned off in late G1, geminin accumulates and inhibits the Cdt1 that is not associated with DNA. Also, the association of Cdt1 with a protein at active replication forks stimulates Cdt1 destruction. In these various ways, preRC formation is prevented from S phase to mitosis, thereby ensuring that each origin is fired only once per cell cycle. How, then, is the cell-cycle control system reset to allow replication in the next cell cycle? At the end of mitosis, APC/C activation leads to the inactivation of Cdks and the destruction of geminin. ORC and Cdc6 are dephosphorylated and Cdt1 is"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5029",
+            "title": "Cell_Biology_Alberts",
+            "content": "I, so that homologs rather than sister chromatids are segregated in meiosis I. After meiosis I, meiosis II follows rapidly, without DNA replication, in a process that resembles mitosis, in that sister chromatids are pulled apart at anaphase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1182",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201324 DNA replication of a bacterial genome. It takes E. coli about 30 minutes to duplicate its genome of 4.6 \u00d7 106 nucleotide pairs. For simplicity, no Okazaki fragments are shown on the lagging strand. What happens as the two replication forks approach each other and collide at the end of the replication cycle is not well understood, although the replication machines are disassembled as part of the process."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4881",
+            "title": "Cell_Biology_Alberts",
+            "content": "What, then, triggers the activation of the M-Cdk stockpile? The crucial event is the activation of the protein phosphatase Cdc25, which removes the inhibitory phosphates that restrain M-Cdk (Figure 17\u201320). At the same time, the inhibitory activity of the kinase Wee1 is suppressed, further ensuring that M-Cdk activity increases. The mechanisms that unleash Cdc25 activity in early mitosis are not well understood. One possibility is that the S-Cdks that are active in G2 and early prophase stimulate Cdc25."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5017",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each homolog is organized around a protein axial core, and the synaptonemal axes are linked by rod-shaped transverse filaments. The axial core of each homolog also interacts with the cohesin complexes axial cores that hold the sister chromatids together of the (see Figure 9\u201335). (modified from homologs k. nasmyth, Annu. Rev. Genet. 35:673\u2013 745, 2001.) cohesin chromatin loops of sister chromatids of one homolog along their entire lengths (see Figure 9\u201335). The pachytene stage can persist for days or longer, until desynapsis begins at diplotene with the disassembly of the synaptonemal complexes and the concomitant condensation and shortening of the chromosomes. It is only at this stage, after the complexes have disassembled, that the individual crossover events between nonsister chromatids can be seen as inter-homolog connections called chiasmata (singular chiasma), which now play a crucial part in holding the compact homologs together (Figure 17\u201357). The homologs are now ready to begin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1199",
+            "title": "Cell_Biology_Alberts",
+            "content": "5\u201323). A replication fork is thought to stop only when it encounters a replication fork moving in the opposite direction or when it reaches the end of the chromosome; in this way, all the DNA is eventually replicated."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4875",
+            "title": "Cell_Biology_Alberts",
+            "content": "From a regulatory point of view, mitosis can be divided into two major parts, each governed by distinct components of the cell-cycle control system. First, an abrupt increase in M-Cdk activity at the G2/M transition triggers the events of early mitosis (prophase, prometaphase, and metaphase). During this period, M-Cdk and several other mitotic protein kinases phosphorylate a variety of proteins, leading to the assembly of the mitotic spindle and its attachment to the sister-chromatid pairs. The second major part of mitosis begins at the metaphaseto-anaphase transition, when the APC/C triggers the destruction of securin, liberating a protease that cleaves cohesin and thereby initiates separation of the sister chromatids. The APC/C also promotes the destruction of cyclins, which leads to Cdk inactivation and the dephosphorylation of Cdk targets, which is required for all events of late M phase, including the completion of anaphase, the disassembly of the mitotic spindle, and the"
+        }
+    ],
+    "scores": [
+        0.023637634807329812,
+        0.01899189918991899,
+        0.01838731443994602,
+        0.018375566370196342,
+        0.018362533692722373,
+        0.018205892088712344,
+        0.017721320473614053,
+        0.017698425074068297,
+        0.01736732259988074,
+        0.01709090909090909,
+        0.01692155196828094,
+        0.016653182308522113,
+        0.016511458952513044,
+        0.01647058823529412,
+        0.01615581098339719,
+        0.016129032258064516,
+        0.01588177581555065,
+        0.015748031496062992,
+        0.015432098765432098,
+        0.015375586854460093,
+        0.015115780445969125,
+        0.0151117700729927,
+        0.015097092827477832,
+        0.015092920829304973,
+        0.01488095238095238,
+        0.014775668679896463,
+        0.014692669520638444,
+        0.014421647338685697,
+        0.013779798814937303,
+        0.013739961936591933,
+        0.01296793688098036,
+        0.012778904665314401
+    ]
+}

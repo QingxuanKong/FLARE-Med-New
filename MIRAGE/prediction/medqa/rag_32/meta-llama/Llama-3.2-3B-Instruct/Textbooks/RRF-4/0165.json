@@ -1,0 +1,208 @@
+{
+    "id": "0165",
+    "question": "A type of fatal adrenal cancer has an average survival rate of 3 years after the onset of clinically significant symptoms. It is determined that patients have a 4-year asymptomatic period prior to developing clinical symptoms from this adrenal cancer. A new screening test is developed, and the cancer can now be detected 2 years prior to developing clinical symptoms. A new observational case-control study of screened and unscreened patients measures the median 5-year survival of patients who decline medical and surgical treatment. The screened population has statistically better outcomes. Which step should be undertaken to prevent bias in these conclusions?",
+    "options": {
+        "A": "Using survival rates in the analysis",
+        "B": "Using mortality rates in the analysis",
+        "C": "Increasing the number of screened individuals",
+        "D": "Decreasing the number of screened individuals"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"The problem is describing a scenario where a new screening test is developed to detect a type of fatal adrenal cancer, and the study is trying to determine the effectiveness of the screening test. The key to preventing bias in these conclusions is to understand the different types of biases that can occur in observational studies. First, let's identify the potential biases in this study. The study is using a case-control design, where the screened population has better outcomes than the unscreened population. This could be due to several biases, including length-biased sampling, lead-time bias, and confounding variables. Length-biased sampling occurs when the screening test is more likely to detect slowly progressive diseases, which tend to have a better prognosis. Lead-time bias occurs when the screening test detects the disease earlier, but the actual survival rate remains the same. Confounding variables can also affect the results, as the screened population may have different characteristics than the unscreened population. To prevent bias in these conclusions, the study should take steps to minimize these biases. One way to do this is to use a more robust statistical analysis, such as using mortality rates instead of survival rates. This is because mortality rates are less affected by length-biased sampling and lead-time bias. Another way to prevent bias is to increase the number of screened individuals. This can help to reduce the impact of confounding variables and ensure that the results are generalizable to the population. Decreasing the number of screened individuals, on the other hand, can actually increase the impact of bias. This is because it can lead to a smaller sample size, which can make it more difficult to detect significant differences between the screened and unscreened populations. Therefore, the correct answer is C. Increasing the number of screened individuals is the best way to prevent bias in these conclusions.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Surgery_Schwartz_11170",
+            "title": "Surgery_Schwartz",
+            "content": "comorbidity.Lesions that grow during follow-up also are treated by adrenalectomy. Myelolipomas generally do not warrant adrenal-ectomy unless there is concern regarding malignancy, which is rare, or bleeding into the lesion, which is more likely in myelo-lipomas >4 cm in size. These tumors, even when large, can be removed laparoscopically. Resection of solitary adrenal metas-tases in patients with a history of nonadrenal cancer has been demonstrated to lead to prolonged patient survival. Suspected adrenal metastases also may be resected for diagnosis.There is no consensus regarding the follow-up of patients with adrenal incidentaloma. The AACE/AAES guidelines recommend repeating hormonal screening with a 1-mg dexa-methasone suppression test and urinary catecholamines and metabolites yearly for 5 years as the risk of hypersecretion appears to plateau after this time period. It also recommends repeat imaging at 3 to 6 months and then annually for 1 to 2 years. Less frequent imaging is"
+        },
+        {
+            "id": "First_Aid_Step2_233",
+            "title": "First_Aid_Step2",
+            "content": "Confounding variables reduce the internal validity of a study. years earlier may give the impression that patients are living longer with the disease. \u25a0 Length bias: Occurs when screening tests detect a disproportionate number of slowly progressive diseases but miss rapidly progressive ones, leading to overestimation of the beneft of the screen. Example: A better prognosis for patients with cancer is celebrated after implementation of a new screening program. However, this test disproportionally detects slow-growing tumors, which generally tend to be less aggressive. Even with bias reduction, unsystematic random error is unavoidable owing to chance variation in studied data. Types of errors are as follows: Type I (\u03b1) error: Defned as the probability of saying that there is a difference in treatment effects between groups when in fact there is not (i.e., a false-conclusion)."
+        },
+        {
+            "id": "First_Aid_Step2_232",
+            "title": "First_Aid_Step2",
+            "content": "Lead-time bias: Results from earlier detection of disease, giving an appearance of prolonged survival when in fact the natural course is not altered. Example: A new and widely used screening test that detects cancer f ve Randomization minimizes bias and confounding; double-blinded studies prevent observation bias. Studies that are masked and randomized are better protected from the effects of bias, whereas observational studies are particularly susceptible to bias. Confounding variables reduce the internal validity of a study. years earlier may give the impression that patients are living longer with the disease."
+        },
+        {
+            "id": "InternalMed_Harrison_6706",
+            "title": "InternalMed_Harrison",
+            "content": "In lung cancer, clinical outcome is related to the stage at diagnosis, and hence, it is generally assumed that early detection of occult tumors will lead to improved survival. Early detection is a process that involves screening tests, surveillance, diagnosis, and early treatment. Screening refers to the use of simple tests across a healthy population in order to identify individuals who harbor asymptomatic disease. For a screening program to be successful, there must be a high burden of disease within the target population; the test must be sensitive, specific, accessible, and cost effective; and there must be effective treatment that can reduce mortality. With any screening procedure, it is important to consider the possible influence of lead-time bias (detecting the cancer earlier without an effect on survival), length-time bias (indolent cancers are detected on screening and may not affect survival, whereas aggressive cancers are likely to cause symptoms earlier in patients and"
+        },
+        {
+            "id": "InternalMed_Harrison_301",
+            "title": "InternalMed_Harrison",
+            "content": "Irrespective of the study design used to assess the effectiveness of screening, it is critical that disease incidence or mortality is the primary endpoint rather than length of disease survival. This is important because lead time bias and length time bias can create the appearance of an improvement in disease survival from a screening test when there is no actual effect. Lead time bias occurs because screening identifies a case before it would have presented clinically, thereby creating the perception that a patient lived longer after diagnosis simply by moving the date of diagnosis earlier rather than the date of death later. Length time bias occurs because screening is more likely to identify slowly progressive disease than rapidly progressive disease. Thus, within a fixed period of time, a screened population will have a greater proportion of these slowly progressive cases and will appear to have better disease survival than an unscreened population."
+        },
+        {
+            "id": "Surgery_Schwartz_11157",
+            "title": "Surgery_Schwartz",
+            "content": "of hormone hypersecretion or staging patients with known cancer. The incidence of these lesions iden-tified by CT scans ranges from 0.4% to 4.4%.Differential Diagnosis. The differential diagnosis of adre-nal incidentalomas is shown in Table 38-20. Nonfunctional cortical adenomas account for the majority (36\u201394%) of adre-nal incidentalomas in patients without a history of cancer. In a series of patients from the Mayo Clinic, no nonfunctional Table 38-20Differential diagnosis of adrenal incidentalomaFUNCTIONING LESIONSNONFUNCTIONING LESIONSBenignBenign Aldosteronoma Cortisol-producing adenoma Sex steroid\u2013producing adenoma Pheochromocytoma Cortical adenoma Myelolipoma Cyst Ganglioneuroma HemorrhageMalignant Adrenocortical cancer Metastasis Malignant pheochromocytoma Adrenocortical cancerBrunicardi_Ch38_p1625-p1704.indd 169501/03/19 11:22 AM 1696SPECIFIC CONSIDERATIONSPART IIlesion progressed to cause clinical or biochemical abnormali-ties. However, other studies indicate that 5%"
+        },
+        {
+            "id": "InternalMed_Harrison_5980",
+            "title": "InternalMed_Harrison",
+            "content": "Length-biased sampling occurs because screening tests generally can more easily detect slow-growing, less aggressive cancers than fast-growing cancers. Cancers diagnosed due to the onset of symptoms between scheduled screenings are on average more aggressive, and treatment outcomes are not as favorable. An extreme form of length bias sampling is termed overdiagnosis, the detection of \u201cpseudo disease.\u201d The reservoir of some undetected slow-growing tumors is large. Many of these tumors fulfill the histologic criteria of cancer but will 480 never become clinically significant or cause death. This problem is compounded by the fact that the most common cancers appear most frequently at ages when competing causes of death are more frequent. Selection bias must be considered in assessing the results of any screening effort. The population most likely to seek screening may differ from the general population to which the screening test might be applied. In general, volunteers for studies are"
+        },
+        {
+            "id": "Surgery_Schwartz_11128",
+            "title": "Surgery_Schwartz",
+            "content": "most important predictor of survival in patients with adrenal cancer is the adequacy of resection. Patients who undergo complete resection have 5-year actuarial survival rates ranging from 32% to 48%, whereas median survival is <1 year in those undergoing incomplete excision. Therefore, adrenocor-tical carcinomas are treated by excision of the tumor en bloc with any contiguously involved lymph nodes or organs such as the diaphragm, kidney, pancreas, liver, or IVC. This is best accomplished by open adrenalectomy via a generous subcostal incision or a thoracoabdominal incision (on the right side). The incisions should permit wide exposure, minimize chances of capsule rupture and tumor spillage, and allow vascular control of the aorta, IVC, and renal vessels, as needed.Mitotane or o,p-DDD or 1,1-dichloro-2-(o-chlorophenyl)-2-(p-chlorophenyl) ethane, which is a derivative of the insec-ticide DDT, has adrenolytic activity and has been used in the adjuvant setting and for the treatment of"
+        },
+        {
+            "id": "Surgery_Schwartz_11168",
+            "title": "Surgery_Schwartz",
+            "content": "of beingmalignant?Figure 38-47. Management algorithm for an adrenal incidentaloma. CT = computed tomography; DST = dexamethasone suppression test; VMA = vanillylmandelic acid.However, several important points must be considered in the management of these patients. First, size criteria for malig-nancy are not definitive and are derived from a selected series of patients. Second, the actual size of adrenal tumors can be underestimated by at least 1 cm by modalities such as CT and MRI scans because tumors are larger in a cephalocaudal axis. Third, the natural history of incidentalomas is variable and depends on the underlying diagnosis, age of the study popula-tion, and the size of the mass. Older patients are more likely to have nonfunctioning adenomas. Existing data in terms of the long-term behavior of these nonfunctional lesions, although limited, indicate that malignant transformation is uncommon. Furthermore, tumors that increase in size by at least 1 cm over a 2-year follow-up"
+        },
+        {
+            "id": "Surgery_Schwartz_11124",
+            "title": "Surgery_Schwartz",
+            "content": "Tests Diagnostic evaluation of these patients begins with measurement of serum electrolyte levels to rule out hypokalemia, urinary catecholamines to rule out pheochromo-cytomas, an overnight 1-mg dexamethasone suppression test, and a 24-hour urine collection for cortisol, and 17-ketosteroids to rule out Cushing\u2019s syndrome.CT and MRI scans are useful to image these tumors (Fig. 38-45). The size of the adrenal mass on imaging studies is the single most important criterion to help diagnose malig-nancy. In the series reported by Copeland, 92% of adrenal can-cers were >6 cm in diameter.105 The sensitivity, specificity, and likelihood ratio of tumor size in predicting malignancy (based on Surveillance, Epidemiology, and End Results program data) were reported as 96%, 51%, and 2 for tumors \u22654 cm, and 90%, 78%, and 4.1 for tumors \u22656 cm.106 Other CT imaging charac-teristics suggesting malignancy include tumor heterogeneity, irregular margins, and the presence of hemorrhage and adjacent"
+        },
+        {
+            "id": "InternalMed_Harrison_27013",
+            "title": "InternalMed_Harrison",
+            "content": "Adrenal masses associated with confirmed hormone excess or suspected malignancy are usually treated surgically (Fig. 406-13) or, if adrenalectomy is not feasible or desired, with medication. Preoperative exclusion of glucocorticoid excess is particularly important for the prediction of postoperative suppression of the contralateral adrenal gland, which requires glucocorticoid replacement periand postoperatively. If the initial decision is for observation, imaging and biochemical testing should be repeated about a year after the first assessment. However, this may be performed earlier in patients with borderline imaging or hormonal findings. There is no agreement with regard to the required long-term follow-up beyond 1 year in patients with normal biochemistry and no evidence of increased tumor size at follow-up."
+        },
+        {
+            "id": "Surgery_Schwartz_11165",
+            "title": "Surgery_Schwartz",
+            "content": "predictive value of FNAB in this situation has been shown to be almost 100%, although false-negative rates of up to 33% have been reported. Biopsies usually are performed under CT guidance, and appropriate testing to rule out pheochromocytomas should be undertaken before the procedure to avoid precipitating a hypertensive crisis.Management. An algorithm for the management of patients with incidentalomas is shown in Fig. 38-47. The AACE and American Association of Endocrine Surgeons (AAES) have published management guidelines for patients with adrenal incidentalomas.117 Patients with functional tumors or obviously malignant lesions should undergo adrenalectomy. The optimal management of patients with subclinical Cushing\u2019s syndrome is controversial, especially due to the paucity of data from high-quality prospective trials. In general, operative intervention is advised in patients with subclinical Cushing\u2019s syndrome with suppressed plasma ACTH levels and elevated urinary cortisol levels"
+        },
+        {
+            "id": "Surgery_Schwartz_11127",
+            "title": "Surgery_Schwartz",
+            "content": "or vascular invasion is the most reliable sign of cancer. Weiss and associates studied a combination of nine criteria for their usefulness in distinguishing malignant from benign adrenal tumors: nuclear grade III or IV; mitotic rate greater than 5 per 50 high-power fields; atypical mitoses; clear cells comprising 25% or less of the tumor; a diffuse architecture; microscopic necrosis; and invasion of venous, sinusoidal, and capsular structure. Tumors with four or more of these criteria were likely to metastasize and/or recur.107 Rarely, the diagnosis of malignancy of a completely resected adrenal tumor is often only made in retrospect by the finding of metastatic disease many years later. Molecular markers such as Ki67 (indicating proliferative activity) can also be useful in this regard.Treatment The most important predictor of survival in patients with adrenal cancer is the adequacy of resection. Patients who undergo complete resection have 5-year actuarial survival rates ranging"
+        },
+        {
+            "id": "Surgery_Schwartz_11166",
+            "title": "Surgery_Schwartz",
+            "content": "high-quality prospective trials. In general, operative intervention is advised in patients with subclinical Cushing\u2019s syndrome with suppressed plasma ACTH levels and elevated urinary cortisol levels because these patients are at high risk for progression to overt Cushing\u2019s syndrome. The adrenal incidentaloma guide-lines also recommend adrenalectomy in patients with worsening hypertension, abnormal glucose tolerance, or osteoporosis.For nonfunctional lesions, the risk of malignancy needs to be balanced with operative morbidity and mortality. The AACE/AAES guidelines recommend that lesions with suspicious fea-tures on imaging studies such as heterogeneity, irregular cap-sule, or adjacent nodes should be treated by adrenalectomy. Nonoperative therapy, with close periodic follow-up, is advised for lesions <4 cm in diameter with benign imaging characteris-tics, whereas adrenalectomy is recommended for lesions \u22654 cm in size due to the increased risk of"
+        },
+        {
+            "id": "Surgery_Schwartz_2202",
+            "title": "Surgery_Schwartz",
+            "content": "using relatively noninvasive tests is expected to lead to early diagnosis, allow more conservative surgical therapies with decreased morbidity, and potentially improve surgical cure rates and overall survival rates. Key factors that influence screening guidelines are how prevalent the cancer is in the population, what risk is associated with the screening measure, and whether early diagnosis actually affects outcome. The value of a widespread screening measure is likely to go up with the prevalence of the cancer in a population, which often determines the age cutoffs for screening and explains why screening is done only for common cancers. The risks asso-ciated with the screening measure are a significant consider-ation, especially with more invasive screening measures such as colonoscopy. The consequences of a false-positive screening test result also need to be considered. For example, when 1000 screening mammograms are taken, only 2 to 4 new cases of cancer will be identified; this"
+        },
+        {
+            "id": "Surgery_Schwartz_11139",
+            "title": "Surgery_Schwartz",
+            "content": "supraphysiologic and lead to iatrogenic hypercortisolism. More recently, bilateral laparoscopic adrenalectomy has been proposed as an alternative treatment for this disease and has been successfully performed in a limited number of patients for various forms of CAH.Disorders of the Adrenal MedullaPheochromocytomas. Pheochromocytomas are rare tumors with prevalence rates ranging from 0.3% to 0.95% in autopsy series and approximately 1.9% in series using biochemical screening. They can occur at any age, with a peak incidence in the fourth and fifth decades of life, and have no gender predilec-tion. Extra-adrenal tumors, also called functional paraganglio-mas, may be found at sites of sympathetic ganglia in the organ of Zuckerkandl, neck, mediastinum, abdomen, and pelvis. Pheo-chromocytomas often are called the 10 percent tumor because 10% are bilateral, 10% are malignant, 10% occur in pediatric patients, 10% are extra-adrenal, and 10% are familial.Pheochromocytomas occur in families"
+        },
+        {
+            "id": "Surgery_Schwartz_11167",
+            "title": "Surgery_Schwartz",
+            "content": "close periodic follow-up, is advised for lesions <4 cm in diameter with benign imaging characteris-tics, whereas adrenalectomy is recommended for lesions \u22654 cm in size due to the increased risk of cancer.1011Brunicardi_Ch38_p1625-p1704.indd 169601/03/19 11:22 AM 1697THYROID, PARATHYROID, AND ADRENALCHAPTER 38Questions1) Low dose DST2) Plasma metanephrines or 24 h urine catecholamines, VMA, metanephrines3) Plasma aldosterone, renin activity, electrolytesAdrenalectomyYesNoPast historyof cancer?YesSolitarymetastasisyesNoConsideradrenalectomySystemic therapySee question 3<4 cm,Benign imaging featuresNoRepeat imaging in 3\u20136 months, biochemicalevaluation annually\u02dc4 cm, Indeterminate orsuspicious imagingfeaturesAdrenalectomy1Is the tumorfunctioning?2Is the tumormetastatic?3Is it at highrisk of beingmalignant?Figure 38-47. Management algorithm for an adrenal incidentaloma. CT = computed tomography; DST = dexamethasone suppression test; VMA = vanillylmandelic acid.However, several"
+        },
+        {
+            "id": "InternalMed_Harrison_27006",
+            "title": "InternalMed_Harrison",
+            "content": "The majority of adrenal nodules are endocrine-inactive adrenocortical adenomas. However, larger series suggest that up to 25% of adrenal nodules are hormonally active, due to a cortisolor aldosteroneproducing adrenocortical adenoma or a pheochromocytoma associated with catecholamine excess (Table 406-5). Adrenocortical carcinoma is rare but is the cause of an adrenal mass in 5% of patients. However, the most common cause of a malignant adrenal mass is metastasis originating from another solid tissue tumor (Table 406-5). Differential Diagnosis and Treatment Patients with an adrenal mass >1 cm require a diagnostic evaluation. Two key questions need to be addressed: (1) Does the tumor autonomously secrete hormones that could have a detrimental effect on health? (2) Is the adrenal mass benign or malignant?"
+        },
+        {
+            "id": "InternalMed_Harrison_5983",
+            "title": "InternalMed_Harrison",
+            "content": "Assessment of Screening Tests Good clinical trial design can offset some biases of screening and demonstrate the relative risks and benefits of a screening test. A randomized controlled screening trial with cause-specific mortality as the endpoint provides the strongest support for a screening intervention. Overall mortality should also be reported to detect an adverse effect of screening and treatment on other disease outcomes (e.g., cardiovascular disease). In a randomized trial, two like populations are randomly established. One is given the usual standard of care (which may be no screening at all) and the other receives the screening intervention being assessed. The two populations are compared over time. Efficacy for the population studied is established when the group receiving the screening test has a better cause-specific mortality rate than the control group. Studies showing a reduction in the incidence of advanced-stage disease, improved survival, or a stage shift are weaker"
+        },
+        {
+            "id": "InternalMed_Harrison_27136",
+            "title": "InternalMed_Harrison",
+            "content": "Consensus has not been reached about the management of MEN 1\u2013associated nonfunctioning adrenal tumors, because the majority are benign. However, the risk of malignancy increases with size, particularly for tumors with a diameter >4 cm. Indications for surgery for adrenal tumors include: size >4 cm in diameter; atypical or suspicious radiologic features (e.g., increased Hounsfield unit on unenhanced CT scan) and size of 1\u20134 cm in diameter; or significant 2340 measurable growth over a 6-month period. The treatment of functioning (e.g., hormone-secreting) adrenal tumors is similar to that for tumors occurring in non\u2013MEN 1 patients."
+        },
+        {
+            "id": "Surgery_Schwartz_11162",
+            "title": "Surgery_Schwartz",
+            "content": "the malignant potential of an inciden-taloma is more difficult. The risk of malignancy in an adrenal lesion is related to its size. Lesions >6 cm in diameter have an approximate risk of malignancy of about 25%.82 However, this size cutoff is not absolute because adrenal carcinomas also have been reported in lesions <6 cm. Carcinomas account for 2% of lesions <4 cm and 6% of lesions 4.1 to 6 cm in size. This has led to increased use of the imaging characteristics of incidentalomas to predict malignancy. Benign adrenal adenomas tend to be homogeneous, well encapsulated, and have smooth and regular margins. They also tend to be hypoattenuating lesions (<10 Hounsfield units) on CT scanning. In contrast, adrenal cancers tend to be hyperattenuating (>18 Hounsfield units) and inhomo-geneous, have irregular borders, and may show evidence of local invasion or adjacent lymphadenopathy. On MRI T2-weighted imaging, adenomas demonstrate low signal inten-sity when compared to the liver (adrenal"
+        },
+        {
+            "id": "Surgery_Schwartz_4496",
+            "title": "Surgery_Schwartz",
+            "content": "adenocarcinoma have been eliminated from the classification of lung adenocarcinoma as a result of increased understanding of important clinical, radiologic, pathologic, and genetic differences between mucinous and nonmucinous adenocarcinomas. The classification system delineates a stepwise pathologic progression, from AAH to invasive adenocarcinoma based on the predominant histo-logic growth patterns.4 The U.S. Preventive Services Task Force now recommends annual screening for lung cancer with low-dose computed tomography screening in high risk patients. Annual screen-ing averted 14% of lung cancer deaths when applied to a population of asymptomatic adults age 55 to 80 years who have a 30 pack-year smoking history and are either currently smoking or have quit within the past 15 years. Patients should be healthy enough to tolerate curative treat-ment, specifically surgery per guidelines, and screening should be discontinued once the patient has not smoked for 15 years or develops a"
+        },
+        {
+            "id": "First_Aid_Step1_260",
+            "title": "First_Aid_Step1",
+            "content": "Crossover studies (subjects act as their own controls) Matching (patients with similar characteristics in both treatment and control groups) Lead-time bias Early detection is confused Early detection makes it seem Measure \u201cback-end\u201d survival with \u008f survival like survival has increased, (adjust survival according to but the disease\u2019s natural the severity of disease at the history has not changed time of diagnosis) Length-time bias Screening test detects diseases A slowly progressive cancer A randomized controlled trial with long latency period, is more likely detected by a assigning subjects to the while those with shorter screening test than a rapidly screening program or to no latency period become progressive cancer screening symptomatic earlier Mode = most common value. Least affected by outliers. Measures of Standard deviation = how much variability \u03c3 = SD; n = sample size. dispersion exists in a set of values, around the mean of Variance = (SD)2. these values. SE = \u03c3/\u221an."
+        },
+        {
+            "id": "Gynecology_Novak_5562",
+            "title": "Gynecology_Novak",
+            "content": "Adrenal adenomas are smaller than carcinomas and average 3 cm in diameter. These tumors are usually unilateral and infrequently associated with other steroid-mediated syndromes. Micronodular adrenal disease is a disorder of children, adolescents, and young adults. The adrenal glands contain numerous small (>3 mm) nodules, which often are pigmented and secrete sufficient cortisol to suppress pituitary ACTH. This condition can be sporadic or familial. Surgical removal of a neoplasm is the treatment of choice (158,159). If a unilateral, well-circumscribed adenoma is identified by MRI or CT scanning, the \ufb02ank approach may be the most convenient. The cure rate following surgical removal of adrenal adenomas approaches 100%. Because normal function of the HPA axis is suppressed by autonomous cortisol production, cortisol replacement follows surgery and is titrated downward over several months, during which recovery of normal adrenal function is monitored. Treatment of Cushing Disease"
+        },
+        {
+            "id": "First_Aid_Step2_213",
+            "title": "First_Aid_Step2",
+            "content": "Diagnosed by high levels of cortisol precursors and androgens found in blood and urine. Medical: Immediate fuid resuscitation and salt repletion. Administer cortisol to \u2193 ACTH and adrenal androgens. Fludrocortisone is appropriate for severe 21-hydroxylase deficiency. Surgical: May be required in the case of ambiguous genitalia in female infants. Refer to the Gynecology chapter for information on the diagnosis and treatment of late-onset congenital adrenal hyperplasia. Assessment of Disease Frequency 132 Assessment of Diagnostic Studies 132 Assessment of Risk 134 Measures of Effect 135 Survival Curves 136 Treatment 136 Screening Recommendations 141 Causes of Death 143 Reportable Diseases 144 The prevalence of a disease is the number of existing cases in the population at a specifc moment in time. The incidence of a disease is the number of new cases in the disease-free population that develop over a period of time."
+        },
+        {
+            "id": "InternalMed_Harrison_6013",
+            "title": "InternalMed_Harrison",
+            "content": "The European Randomized Study of Screening for Prostate Cancer (ERSPC) was a multinational study that randomized approximately 182,000 men between age 50 and 74 years (with a predefined \u201ccore\u201d screening group of men age 55\u201369 years) to receive PSA testing or no screening. Recruitment and randomization procedures, as well as actual frequency of PSA testing, varied by country. After a median follow-up of 11 years, a 20% relative reduction in the risk of prostate cancer death in the screened arm was noted in the \u201ccore\u201d screening group. The trial found that 1055 men would need to be invited to screening, and 37 cases of prostate cancer detected, to avert 1 death from prostate cancer. Of the seven countries included in the mortality analysis, two demonstrated statistically significant reductions in prostate cancer deaths, whereas five did not. There was also an imbalance in treatment between the two study arms, with a higher proportion of men with clinically localized cancer receiving"
+        },
+        {
+            "id": "Surgery_Schwartz_11160",
+            "title": "Surgery_Schwartz",
+            "content": "disease has been reported to range from 32% to 73%. Myelolipomas are benign, biochemically nonfunctioning lesions composed of ele-ments of hematopoietic and mature adipose tissue, which are rare causes of adrenal incidentaloma. Other less commonly encountered lesions include adrenal cysts, ganglioneuromas, and hemorrhage.Diagnostic Investigations. The diagnostic workup of an adrenal incidentaloma is aimed at identifying patients who would benefit from adrenalectomy (i.e., patients with function-ing tumors and tumors at increased risk of being malignant). It is not necessary for asymptomatic patients whose imaging studies are consistent with obvious cysts, hemorrhage, myelolipomas, or diffuse metastatic disease to undergo additional investigations. All other patients should be tested for underlying hormonally active tumors using (a) a low-dose (1 mg) overnight dexametha-sone suppression test to rule out subclinical Cushing\u2019s syndrome and 17-ketosteroids (if sex steroid excess is"
+        },
+        {
+            "id": "Surgery_Schwartz_11169",
+            "title": "Surgery_Schwartz",
+            "content": "behavior of these nonfunctional lesions, although limited, indicate that malignant transformation is uncommon. Furthermore, tumors that increase in size by at least 1 cm over a 2-year follow-up period and those with subtle hormonal abnor-malities appear to be more likely to enlarge. Overt hormone overproduction is more likely in tumors >3 cm and those with increased NP-59 uptake. Surgeons are more likely to operate on a 40-year-old patient with a 4-cm lesion, while electing to follow an 80-year-old patient with a similar lesion but multiple concurrent comorbidities. Based on the above considerations, some surgeons use a size threshold for adrenalectomy with a nonfunctioning homogeneous tumor of 3 to 4 cm in young patients with no comorbidities and 5 cm in older patients with significant comorbidity.Lesions that grow during follow-up also are treated by adrenalectomy. Myelolipomas generally do not warrant adrenal-ectomy unless there is concern regarding malignancy, which is rare, or"
+        },
+        {
+            "id": "Gynecology_Novak_5561",
+            "title": "Gynecology_Novak",
+            "content": "An adrenal tumor that appears large and irregular on radiologic imaging is suggestive of carcinoma. In these cases, a unilateral adrenalectomy through an abdominal exploratory approach is preferable. In most malignant tumors, complete resection is virtually impossible. However, a partial response to postoperative chemotherapy or radiation may be achieved. Most patients with malignancy die within 1 year. When administered immediately after surgery, mitotane (O,P-DDD, an adrenocorticolytic drug) may be of benefit in preventing or delaying recurrent disease (157). Manifestations of Cushing syndrome in these patients are controlled by adrenal enzyme inhibitors."
+        },
+        {
+            "id": "Surgery_Schwartz_11176",
+            "title": "Surgery_Schwartz",
+            "content": "the standard proce-dure of choice for the excision of most benign-appearing adrenal lesions <6 cm in diameter. The role of laparoscopic adrenalec-tomy in the management of adrenocortical cancers is controver-sial. The data with respect to local tumor recurrence and intra-abdominal carcinomatosis from laparoscopic adrenalec-tomy for malignant adrenal tumors that were not appreciated as such, preoperatively or intraoperatively, are conflicting. Although laparoscopic adrenalectomy appears to be feasible and safe for solitary adrenal metastasis118 (provided there is no local invasion and the tumor can be resected intact), open adrenalec-tomy or laparoscopic-assisted open adrenalectomy is the safest option for suspected or known adrenocortical cancers and malig-nant pheochromocytomas. Technical considerations and surgeon experience, rather than absolute tumor size, usually determine the size threshold for laparoscopic resection. Hand-assisted lapa-roscopic adrenalectomy may provide a"
+        },
+        {
+            "id": "InternalMed_Harrison_19543",
+            "title": "InternalMed_Harrison",
+            "content": "Adrenal computed tomography (CT) should be carried out in all patients diagnosed with primary aldosteronism. High-resolution CT may identify tumors as small as 0.3 cm and is positive for an adrenal tumor 90% of the time. If the CT is not diagnostic, an adenoma may be detected by adrenal scintigraphy with 6 \u03b2-[I131] iodomethyl-19norcholesterol after dexamethasone suppression (0.5 mg every 6 h for 7 days); however, this technique has decreased sensitivity for adenomas <1.5 cm."
+        },
+        {
+            "id": "InternalMed_Harrison_27005",
+            "title": "InternalMed_Harrison",
+            "content": "APPROACH TO THE PATIENT: INCIDENTALLY DISCOVERED ADRENAL MASS Epidemiology Incidentally discovered adrenal masses, commonly termed adrenal \u201cincidentalomas,\u201d are common, with a prevalence of at least 2% in the general population as documented in CT and autopsy series. The prevalence increases with age, with 1% of 40-year-olds and 7% of 70-year-olds harboring an adrenal mass. Etiology Most solitary adrenal tumors are monoclonal neoplasms. Several genetic syndromes, including MEN 1 (MEN1), MEN 2 (RET), Carney\u2019s complex (PRKAR1A), and McCune-Albright (GNAS1), can have adrenal tumors as one of their features. Somatic mutations in MEN1, GNAS1, and PRKAR1A have been identified in a small proportion of sporadic adrenocortical adenomas. Aberrant expression of membrane receptors (gastric inhibitory peptide, \u03b1and \u03b2-adrenergic, luteinizing hormone, vasopressin V1, and interleukin 1 receptors) have been identified in some sporadic cases of macronodular adrenocortical hyperplasia."
+        }
+    ],
+    "scores": [
+        0.034439088227640365,
+        0.027420336610159173,
+        0.027292528795283842,
+        0.026315857908149998,
+        0.02483168706078923,
+        0.024587979307211016,
+        0.02442565988222492,
+        0.024386309433038406,
+        0.02410393256167502,
+        0.023654357796391252,
+        0.02343627877894643,
+        0.02328672795289713,
+        0.02229459463665935,
+        0.021816418875242403,
+        0.021478418953788412,
+        0.02049318739238516,
+        0.019974188362154234,
+        0.019704911667637354,
+        0.01954212454212454,
+        0.01951265943270512,
+        0.0186932215234102,
+        0.018480667688639072,
+        0.018234323432343234,
+        0.01819535191464726,
+        0.018122049601916438,
+        0.017545209696036936,
+        0.01730769230769231,
+        0.017009009009009007,
+        0.016902011125374414,
+        0.01689664883131512,
+        0.016566063044936286,
+        0.01652780600149021
+    ]
+}

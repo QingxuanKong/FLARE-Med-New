@@ -1,0 +1,208 @@
+{
+    "id": "0174",
+    "question": "An investigator conducts a study to determine whether earlier detection of glioblastoma multiforme (GBM) in patients increases survival time. One subset of study participants consists of asymptomatic individuals who were diagnosed with GBM after undergoing a screening MRI of the brain. The other subset of study participants was diagnosed with GBM only after they developed symptoms. Results from the study show that the asymptomatic patients who were diagnosed with screening MRI had an average survival time that was 6 weeks longer than that of the patients who were diagnosed after symptom onset. Which of the following statistical biases is most likely to have occurred as a result of the endpoint selected for this study?",
+    "options": {
+        "A": "Observer-expectancy bias",
+        "B": "Length-time bias",
+        "C": "Surveillance bias",
+        "D": "Lead-time bias"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To determine the most likely statistical bias that occurred as a result of the endpoint selected for this study, let's analyze the situation step by step. The study is examining whether earlier detection of glioblastoma multiforme (GBM) in patients increases survival time. The study participants are divided into two groups: those diagnosed with GBM after undergoing a screening MRI of the brain (asymptomatic patients) and those diagnosed with GBM only after they developed symptoms. The results show that the asymptomatic patients had an average survival time that was 6 weeks longer than that of the patients who were diagnosed after symptom onset. This suggests that the screening test may have detected the disease earlier, but it is unclear whether this earlier detection actually led to improved survival. Now, let's consider the options for statistical biases: A. Observer-expectancy bias refers to the expectation of a certain outcome due to prior knowledge or experience. This bias is unlikely to be relevant in this case, as the study participants were not aware of the screening test's purpose or outcome. B. Length-time bias refers to the phenomenon where screening tests detect slowly progressive diseases, which may not affect survival, while missing rapidly progressive diseases that would lead to earlier detection and potentially better survival. This bias is a strong candidate, as the study found that asymptomatic patients had longer survival times, which could be due to the detection of indolent tumors that may not have caused symptoms earlier. C. Surveillance bias refers to the effect of increased monitoring on disease detection and outcomes. This bias is not directly relevant to this study, as the screening test was used to detect the disease, not to monitor the patients. D. Lead-time bias refers to the phenomenon where earlier detection of disease gives the impression of prolonged survival, but may not actually lead to improved outcomes. While lead-time bias is a related concept, it is not the most likely bias in this case, as the study found a difference in survival times, not just an earlier detection date. Therefore, the most likely statistical bias is length-time bias, as the study may have detected slowly progressive tumors that may not have affected survival, while missing rapidly progressive tumors that would have led to earlier detection and potentially better survival.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_301",
+            "title": "InternalMed_Harrison",
+            "content": "Irrespective of the study design used to assess the effectiveness of screening, it is critical that disease incidence or mortality is the primary endpoint rather than length of disease survival. This is important because lead time bias and length time bias can create the appearance of an improvement in disease survival from a screening test when there is no actual effect. Lead time bias occurs because screening identifies a case before it would have presented clinically, thereby creating the perception that a patient lived longer after diagnosis simply by moving the date of diagnosis earlier rather than the date of death later. Length time bias occurs because screening is more likely to identify slowly progressive disease than rapidly progressive disease. Thus, within a fixed period of time, a screened population will have a greater proportion of these slowly progressive cases and will appear to have better disease survival than an unscreened population."
+        },
+        {
+            "id": "InternalMed_Harrison_5980",
+            "title": "InternalMed_Harrison",
+            "content": "Length-biased sampling occurs because screening tests generally can more easily detect slow-growing, less aggressive cancers than fast-growing cancers. Cancers diagnosed due to the onset of symptoms between scheduled screenings are on average more aggressive, and treatment outcomes are not as favorable. An extreme form of length bias sampling is termed overdiagnosis, the detection of \u201cpseudo disease.\u201d The reservoir of some undetected slow-growing tumors is large. Many of these tumors fulfill the histologic criteria of cancer but will 480 never become clinically significant or cause death. This problem is compounded by the fact that the most common cancers appear most frequently at ages when competing causes of death are more frequent. Selection bias must be considered in assessing the results of any screening effort. The population most likely to seek screening may differ from the general population to which the screening test might be applied. In general, volunteers for studies are"
+        },
+        {
+            "id": "Neurology_Adams_5076",
+            "title": "Neurology_Adams",
+            "content": "The natural history of untreated glioblastoma is well characterized. Fewer than 20 percent of patients survive for 1 year after the onset of symptoms and only about 10 percent live beyond 2 years (Shapiro). Age is an important prognostic factor; fewer than 10 percent of patients older than age 60 years survive for 18 months, in comparison to two-thirds of patients younger than age 40 years. Survival with anaplastic astrocytoma is somewhat better, typically 3 to 5 years. Cerebral edema and increased intracranial pressure are usually the causes of death. Survival rates with treatment are discussed in the following text. (anaplastic) glioma without many of the special histologic features of glioblastoma. The natural progression is for these astrocytomas to progress to glioblastoma and there may be certain constellations of mutations that promote such transformations."
+        },
+        {
+            "id": "Neurology_Adams_5091",
+            "title": "Neurology_Adams",
+            "content": "With aggressive surgical removal and radiotherapy, as described above, median survival for patients with glioblastoma is approximately 12 months, compared to 7 to 9 months without such treatment."
+        },
+        {
+            "id": "InternalMed_Harrison_6706",
+            "title": "InternalMed_Harrison",
+            "content": "In lung cancer, clinical outcome is related to the stage at diagnosis, and hence, it is generally assumed that early detection of occult tumors will lead to improved survival. Early detection is a process that involves screening tests, surveillance, diagnosis, and early treatment. Screening refers to the use of simple tests across a healthy population in order to identify individuals who harbor asymptomatic disease. For a screening program to be successful, there must be a high burden of disease within the target population; the test must be sensitive, specific, accessible, and cost effective; and there must be effective treatment that can reduce mortality. With any screening procedure, it is important to consider the possible influence of lead-time bias (detecting the cancer earlier without an effect on survival), length-time bias (indolent cancers are detected on screening and may not affect survival, whereas aggressive cancers are likely to cause symptoms earlier in patients and"
+        },
+        {
+            "id": "Neurology_Adams_5170",
+            "title": "Neurology_Adams",
+            "content": "In patients with a single parenchymatous metastasis (shown to be solitary by gadolinium-enhanced MRI), surgical extirpation may be undertaken provided that growth of the primary tumor and its systemic metastases is under good control and the metastasis is accessible to the surgeon and not located in a strategic motor or language area of the brain. Usually, excision is followed by radiation therapy to the entire brain. Patchell and coworkers have shown that survival and the interval between treatment and recurrence are longer and that the quality of life is better in patients treated in this way than in comparable patients treated with whole-brain radiation alone. Single or dual metastases from renal cell cancer, melanoma, and adenocarcinoma of the gastrointestinal tract lend themselves best to surgical removal, as implemented in the matched cohort study by Bindal and colleagues."
+        },
+        {
+            "id": "InternalMed_Harrison_5983",
+            "title": "InternalMed_Harrison",
+            "content": "Assessment of Screening Tests Good clinical trial design can offset some biases of screening and demonstrate the relative risks and benefits of a screening test. A randomized controlled screening trial with cause-specific mortality as the endpoint provides the strongest support for a screening intervention. Overall mortality should also be reported to detect an adverse effect of screening and treatment on other disease outcomes (e.g., cardiovascular disease). In a randomized trial, two like populations are randomly established. One is given the usual standard of care (which may be no screening at all) and the other receives the screening intervention being assessed. The two populations are compared over time. Efficacy for the population studied is established when the group receiving the screening test has a better cause-specific mortality rate than the control group. Studies showing a reduction in the incidence of advanced-stage disease, improved survival, or a stage shift are weaker"
+        },
+        {
+            "id": "Neurology_Adams_5167",
+            "title": "Neurology_Adams",
+            "content": "One randomized trial comparing stereotactic radiotherapy alone, or combined with whole-brain radiation for 1 to 4 metastases, found no difference in survival but there was a reduction in the frequency of recurrence at other sites in the brain when whole-brain treatment was added (Aoyama et al). Several other studies have suggested that control of local symptoms related to a metastasis is better with focused radiotherapy. However, with the exception of a single lesion from small cell lung cancer, there does not seem to be an advantage to either approach. If focused treatment has been used, whole-brain radiation can still be instituted at the time of a recurrence. Whether there is evidence to justify the routine implementation of this approach is not clear, especially as overall measures of the quality of life are not generally improved. An arbitrary limit of stereotactic treatment of four metastases arose as the field evolved but it appears that the results are similar with even"
+        },
+        {
+            "id": "First_Aid_Step1_260",
+            "title": "First_Aid_Step1",
+            "content": "Crossover studies (subjects act as their own controls) Matching (patients with similar characteristics in both treatment and control groups) Lead-time bias Early detection is confused Early detection makes it seem Measure \u201cback-end\u201d survival with \u008f survival like survival has increased, (adjust survival according to but the disease\u2019s natural the severity of disease at the history has not changed time of diagnosis) Length-time bias Screening test detects diseases A slowly progressive cancer A randomized controlled trial with long latency period, is more likely detected by a assigning subjects to the while those with shorter screening test than a rapidly screening program or to no latency period become progressive cancer screening symptomatic earlier Mode = most common value. Least affected by outliers. Measures of Standard deviation = how much variability \u03c3 = SD; n = sample size. dispersion exists in a set of values, around the mean of Variance = (SD)2. these values. SE = \u03c3/\u221an."
+        },
+        {
+            "id": "InternalMed_Harrison_5978",
+            "title": "InternalMed_Harrison",
+            "content": "Screening is most beneficial, efficient, and economical when the target disease is common in the population being screened. Specificity is at least as important to the ultimate feasibility and success of a screening test as sensitivity. Potential Biases of Screening Tests Common biases of screening are lead time, length-biased sampling, and selection. These biases can make a screening test seem beneficial when actually it is not (or even causes net harm). Whether beneficial or not, screening can create the false impression of an epidemic by increasing the number of cancers diagnosed. It can also produce a shift in the proportion of patients diagnosed at an early stage and inflate survival statistics without reducing mortality (i.e., the number of deaths from a given cancer relative to the number of those at risk for the cancer). In such a case, the apparent duration of survival (measured from date of diagnosis) increases without lives being saved or life expectancy changed."
+        },
+        {
+            "id": "Pathology_Robbins_5166",
+            "title": "Pathology_Robbins",
+            "content": "There is emerging evidence that genetic subtyping provides important additional prognostic information. Diffuse astrocytomas can be static for several years, but at some point they progress; the mean survival is more than 5 years. Eventually, patients suffer rapid clinical deterioration that is correlated with the appearance of anaplastic features and more rapid tumor growth. Other patients present with glioblastoma from the outset. Once the histologic features of glioblastoma appear, the prognosis is very poor; with treatment (resection, radiotherapy, and chemotherapy), the median survival is only 15 months."
+        },
+        {
+            "id": "Neurology_Adams_5089",
+            "title": "Neurology_Adams",
+            "content": "The treatment of recurrent glioblastoma or anaplastic astrocytoma after surgery and radiation, almost inevitable occurrences, is controversial and must be guided by the location and pattern of tumor growth and the patient\u2019s age and relative state of health. Almost all glioblastomas recur within 2 cm of their original site and 10 percent develop additional lesions at distant locations. Reoperation is sometimes undertaken for local recurrences. The most aggressive approach\u2014a second surgery and chemotherapy\u2014can prove effective and has been generally used in patients younger than age 40 years whose original operation was many months earlier. If the PCV regimen discussed earlier has not already been used, some neurooncologists resort to that combination or the newer and better-tolerated alkylating agent temozolomide (which may be used if the PCV regimen was administered previously). These chemotherapeutic drugs may prolong the symptom-free interval but have little effect on survival. A"
+        },
+        {
+            "id": "InternalMed_Harrison_6707",
+            "title": "InternalMed_Harrison",
+            "content": "an effect on survival), length-time bias (indolent cancers are detected on screening and may not affect survival, whereas aggressive cancers are likely to cause symptoms earlier in patients and are less likely to be detected), and overdiagnosis (diagnosing cancers so slow growing that they are unlikely to cause the death of the patient) (Chap. 100)."
+        },
+        {
+            "id": "First_Aid_Step2_232",
+            "title": "First_Aid_Step2",
+            "content": "Lead-time bias: Results from earlier detection of disease, giving an appearance of prolonged survival when in fact the natural course is not altered. Example: A new and widely used screening test that detects cancer f ve Randomization minimizes bias and confounding; double-blinded studies prevent observation bias. Studies that are masked and randomized are better protected from the effects of bias, whereas observational studies are particularly susceptible to bias. Confounding variables reduce the internal validity of a study. years earlier may give the impression that patients are living longer with the disease."
+        },
+        {
+            "id": "InternalMed_Harrison_7601",
+            "title": "InternalMed_Harrison",
+            "content": "Despite optimal therapy, glioblastomas invariably recur. Treatment options for recurrent disease may include reoperation, carmustine wafers, and alternate chemotherapeutic regimens. Reirradiation is rarely helpful. Bevacizumab, a humanized vascular endothelial growth factor (VEGF) monoclonal antibody, has activity in recurrent glioblastoma, increasing progression-free survival and reducing peritumoral edema and glucocorticoid use (Fig. 118-3). Treatment decisions for patients with recurrent glioblastoma must be made on an individual basis, taking into consideration such factors as previous therapy, time to relapse, performance status, and quality of life. Whenever feasible, patients with recurrent disease should be enrolled in clinical trials. Novel therapies undergoing evaluation in patients with glioblastoma include targeted molecular agents directed at receptor tyrosine kinases and signal transduction pathways; antiangiogenic agents, especially those directed at the VEGF receptors;"
+        },
+        {
+            "id": "InternalMed_Harrison_7077",
+            "title": "InternalMed_Harrison",
+            "content": "Current Directions Cost-benefit analysis is not yet convincing, even though screening is intuitively sound. However, studies from areas with high HBV carrier rates have shown a survival benefit for screening as a result of earlier stage at diagnosis. A definitive clinical trial on screening is unlikely, due to difficulties in obtaining informed consent for patients who are not to be screened. \u03b3-Glutamyl transpeptidase appears useful for detecting small tumors."
+        },
+        {
+            "id": "First_Aid_Step2_233",
+            "title": "First_Aid_Step2",
+            "content": "Confounding variables reduce the internal validity of a study. years earlier may give the impression that patients are living longer with the disease. \u25a0 Length bias: Occurs when screening tests detect a disproportionate number of slowly progressive diseases but miss rapidly progressive ones, leading to overestimation of the beneft of the screen. Example: A better prognosis for patients with cancer is celebrated after implementation of a new screening program. However, this test disproportionally detects slow-growing tumors, which generally tend to be less aggressive. Even with bias reduction, unsystematic random error is unavoidable owing to chance variation in studied data. Types of errors are as follows: Type I (\u03b1) error: Defned as the probability of saying that there is a difference in treatment effects between groups when in fact there is not (i.e., a false-conclusion)."
+        },
+        {
+            "id": "Neurology_Adams_5100",
+            "title": "Neurology_Adams",
+            "content": "The natural history of the low-grade gliomas is to grow slowly and eventually undergo malignant transformation. The duration of progression before this transformation occurs and the latency to recurrence with modern treatment may extend for many years. A survey of the outcome of these low-grade supratentorial tumors showed that 10-year survival after operation was from 11 to 40 percent provided that conformal therapy (focused on the tumor, in contrast to whole brain radiation) 5,300 cGy was given postoperatively (Shaw et al). This, of course, is quite in contrast to the figures for glioblastoma. Repeated operations prolong life in some patients."
+        },
+        {
+            "id": "Neurology_Adams_159",
+            "title": "Neurology_Adams",
+            "content": "The increasing use of MRI and the sensitivity of current machines have had the unintended effect of revealing a large number of unimportant findings that create undue worry and often trigger neurologic consultation. Moreover, many lesions are not referable to the clinical problem at hand. A surprising number of incidental brain lesions are exposed by indiscriminate use of imaging. For example, a large survey of asymptomatic adults who were being followed in the \u201cRotterdam Study\u201d is in accord with several prior studies in which cerebral aneurysms were found in approximately 2 percent, meningiomas in 1 percent, and a smaller but not insignificant number of vestibular schwannomas and pituitary tumors; the meningiomas, but not the aneurysms, increased in frequency with age. One percent had the Chiari type I malformation, and a similar number had arachnoid cysts. In addition, 7 percent of adults older than age 45 years had occult strokes, mostly lacunar. Because this survey was performed"
+        },
+        {
+            "id": "Gynecology_Novak_7916",
+            "title": "Gynecology_Novak",
+            "content": "Counseling regarding future childbearing is important for women who have had carcinoma of the breast. It was assumed that subsequent pregnancies would be detrimental because of the high levels of circulating estrogens, but there is no clear difference in survival for women who become pregnant after the diagnosis of breast cancer. One study evaluated the effect of subsequent pregnancy on overall survival after the diagnosis of early-stage breast cancer. Approximately 40% of the women in the study had node-positive disease. The 5-and 10-year survival rates were better in women who became pregnant than in matched pair controls who did not. This study suggests that subsequent pregnancy does not adversely affect the prognosis of early-stage breast cancer (135). A subsequent investigation demonstrated no increase in the relative risk of death for patients who gave birth more than 10 months after their initial diagnosis of cancer (136). Theoretically, it may be that only women with estrogen"
+        },
+        {
+            "id": "InternalMed_Harrison_7599",
+            "title": "InternalMed_Harrison",
+            "content": "grade iv astrocytoma (glioBlastoma) Glioblastoma accounts for the majority of high-grade astrocytomas. They are the most common malignant primary brain tumor, with over 10,000 cases diagnosed each year in the United States. Patients usually present in the sixth and seventh decades of life with headache, seizures, or focal neurologic deficits. The tumors appear as ring-enhancing masses with central necrosis and surrounding edema (Fig. 118-2). These are highly infiltrative tumors, and the areas of increased T2/FLAIR signal surrounding the main tumor mass contain invading tumor cells. Treatment involves maximal surgical resection followed by partial-field external-beam RT (6000 cGy in thirty 200-cGy fractions) with concomitant temozolomide, followed by 6\u201312 months of adjuvant temozolomide. With this regimen, median survival is increased to 14.6 months compared to only 12 months with RT alone, and 2-year survival is increased to 27%, compared to 10% with RT alone. Patients whose tumor"
+        },
+        {
+            "id": "InternalMed_Harrison_5979",
+            "title": "InternalMed_Harrison",
+            "content": "Lead-time bias occurs whether or not a test influences the natural history of the disease; the patient is merely diagnosed at an earlier date. Survival appears increased even if life is not really prolonged. The screening test only prolongs the time the subject is aware of the disease and spends as a patient."
+        },
+        {
+            "id": "InternalMed_Harrison_7718",
+            "title": "InternalMed_Harrison",
+            "content": "mRNA-or microRNA-based tissue of origin molecular profiling assays have been studied in prospective and retrospective CUP trials. Most of the CUP studies have evaluated assay performance, although the challenge with validating the accuracy of an assay for CUP is that, by definition, the primary cancer diagnosis cannot be verified. Thus, current estimates of tissue of origin test accuracy have relied on indirect metrics including comparison with IHC, clinical presentation, and appearance of latent primaries. Using these measures, the assays suggest a plausible primary in ~70% of patients studied. The only out-comes-based study is a single-arm study reporting a median survival of 12.5 months for patients who received assay-directed site-specific therapy. Firm conclusions of therapeutic impact cannot be drawn from this study given the nonrandomized design, statistical biases, confounding variables including use of subsequent lines of (empiric) therapy, and the heterogeneity of the CUP"
+        },
+        {
+            "id": "Neurology_Adams_5027",
+            "title": "Neurology_Adams",
+            "content": "Details of the genetics pertaining to gliomas in particular are given in a later section. On the basis of this molecular information, views of the pathogenesis of neoplasia are being cast along new lines. Some of the specifics of these new data are presented in the following discussions of particular tumor types. A more extensive overview can be found in the article by Osborne and colleagues, and the text by Kaye and Laws. Pathophysiology of Brain Tumors"
+        },
+        {
+            "id": "Neurology_Adams_6642",
+            "title": "Neurology_Adams",
+            "content": "A comprehensive and still instructive, but now dated, long-term analysis of the natural history of the disease is contained in the report of the Cooperative Study of Intracranial Aneurysms and Subarachnoid Hemorrhage (Sahs et al, 1984). The study was based on long-term observations of 568 patients who sustained an aneurysmal bleed between 1958 and 1965 and were managed only by a conservative medical program. A followup search in 1981 and 1982 disclosed that 378, or two-thirds of the patients, had died; 40 percent of the deaths had occurred within 6 months of the original hemorrhage. For the patients who survived the original hemorrhage for 6 months, the chances of survival during the next two decades were significantly worse than those of a matched normal population. Rebleeding occurred at a rate of 2.2 percent per year during the first decade and 0.86 percent per year during the second, and these were fatal in 78 percent of cases. Although these statistics reflect the outcome prior"
+        },
+        {
+            "id": "Neurology_Adams_6138",
+            "title": "Neurology_Adams",
+            "content": "be determined by extending the period of observation for a few days or weeks in order to determine if the temporal pattern is more in keeping with a progressive disorder such as brain tumor, thus invoking the clinical rule that the physician\u2019s best diagnostic tool is a second and third examination."
+        },
+        {
+            "id": "Neurology_Adams_5098",
+            "title": "Neurology_Adams",
+            "content": "Treatment One of the more interesting developments in the treatment of low-grade cerebral tumors has been the comparison made by Jakola and colleagues between the practices in two Norwegian centers, one which practiced an aggressive approach of removing accessible tumors when they are discovered, and another, of observing the patient by sequential imaging to determine if the tumor has transformed into a more aggressive mode. While a small, and not a randomized trial, surgical excision resulted in longer survival. Excision of part of a cerebral astrocytoma can improve survival in a good functional state for many years. Modern techniques of brain mapping have allowed larger and probably safer resections of these tumors. An example of this has been offered by Sanai and colleagues, who performed mapping of language areas in a large consecutive series of glioma patients."
+        },
+        {
+            "id": "Neurology_Adams_5090",
+            "title": "Neurology_Adams",
+            "content": "agent temozolomide (which may be used if the PCV regimen was administered previously). These chemotherapeutic drugs may prolong the symptom-free interval but have little effect on survival. A promising approach for recurrent malignant gliomas is the use of drugs that target the tumor\u2019s vasculature. A recent but preliminary provocative observation from retrospective series has been that patients with glioblastoma receiving valganciclovir, ostensibly for concurrent CMV infections, had better survival than those who did not receive the drug (S\u00f6derberg-Naucl\u00e9r and colleagues)."
+        },
+        {
+            "id": "Neurology_Adams_5088",
+            "title": "Neurology_Adams",
+            "content": "Tyrosine kinase inhibitors (erlotinib, gefitinib) have been developed in response to the upregulation of EGFR mentioned earlier. In a preliminary but provocative study, Mellinghoff and coworkers found that a deletion mutation of the gene for this protein and expression of the tumor suppression protein PTEN predicted responsiveness of recurrent gliomas to treatment with EGFR kinase inhibitors. This represents one example in a growing field of prediction of treatment response in relation to tumor genetics; however, phase III studies of a tyrosine kinase inhibitor failed to improve outcome (Bode et al)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6048",
+            "title": "Pharmacology_Katzung",
+            "content": "In general, chemotherapy has had only limited efficacy in the treatment of malignant gliomas. Because of their ability to cross the blood-brain barrier, the nitrosoureas have historically been the most active agents in this disease. Carmustine (BCNU) has been used as a single agent, or lomustine (CCNU) can be used in combination with procarbazine and vincristine (PCV regimen). In addition, the alkylating agent temozolomide is active when combined with radiotherapy and is also used in patients with newly diagnosed glioblastoma multiforme (GBM) as well as in those with recurrent disease. The histopathologic subtype oligodendroglioma has been shown to be especially chemosensitive, and the PCV combination regimen is the treatment of choice for this disease. It is now well-established that the anti-VEGF antibody bevacizumab alone or in combination with chemotherapy has documented clinical activity in adult GBM. Bevacizumab is presently approved as a single agent for adult GBM in the"
+        },
+        {
+            "id": "InternalMed_Harrison_7603",
+            "title": "InternalMed_Harrison",
+            "content": "The most important adverse prognostic factors in patients with high-grade astrocytomas are older age, histologic features of glioblastoma, poor Karnofsky performance status, and unresectable tumor. Patients whose tumor contains an unmethylated MGMT promoter resulting in the presence of the repair enzyme in tumor cells and resistance to temozolomide also have a worse prognosis. Gliomatosis Cerebri Rarely, patients may present with a highly infiltrating, nonenhancing tumor of variable histologic grade involving more than two lobes of the brain. These tumors may be indolent initially, but will eventually behave aggressively and have a poor outcome. Treatment involves RT and temozolomide chemotherapy. Oligodendrogliomas account for approximately 15\u201320% of gliomas. They are classified by the WHO into well-differentiated oligodendrogliomas (grade II) or anaplastic oligodendrogliomas (AOs) (grade III). Tumors with oligodendroglial components have distinctive pathologic"
+        },
+        {
+            "id": "Neurology_Adams_5073",
+            "title": "Neurology_Adams",
+            "content": "a mixed appearance that is termed gliosarcoma. The histologic grade of glioblastoma may vary from site to site within a tumor and it is common for sites of low-grade astrocytoma and glioblastoma to coexist; in some high-grade tumors there are even sites of well-differentiated astrocytoma. This relates to a problem that arises in interpreting single small biopsy samples taken for diagnosis. It is a fair statement that the most aggressive component determines the tumor\u2019s behavior."
+        }
+    ],
+    "scores": [
+        0.035980612231263615,
+        0.026475376475376476,
+        0.02636197450119827,
+        0.025130875156481165,
+        0.024885950449023572,
+        0.02301822756368211,
+        0.021320691689351027,
+        0.019589256186863423,
+        0.019142700128228614,
+        0.018957771787960466,
+        0.018436703483432453,
+        0.01838731443994602,
+        0.01838620917568286,
+        0.017648888197791944,
+        0.017492431010522135,
+        0.017157397310069065,
+        0.017027417027417027,
+        0.01695402298850575,
+        0.016173348320219806,
+        0.016083916083916083,
+        0.015544967242406194,
+        0.015421899096717338,
+        0.015246376811594204,
+        0.015169525103299938,
+        0.015160118101294572,
+        0.015083679778275237,
+        0.01501052398360474,
+        0.01475119979792877,
+        0.014561050513607964,
+        0.014188861985472156,
+        0.014141414141414142,
+        0.014010679468965854
+    ]
+}

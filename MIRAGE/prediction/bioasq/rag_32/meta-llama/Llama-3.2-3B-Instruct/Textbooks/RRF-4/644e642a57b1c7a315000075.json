@@ -1,0 +1,206 @@
+{
+    "id": "644e642a57b1c7a315000075",
+    "question": "Do all proteins start with methionine?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the given documents and think step by step.\\n\\nAccording to Document [1], the translation of an mRNA begins with the codon AUG, and a special tRNA is required to start translation. This initiator tRNA always carries the amino acid methionine (in bacteria, a modified form of methionine--formylmethionine--is used), with the result that all newly made proteins have methionine as the first amino acid at their N-terminus.\\n\\nHowever, Document [2] states that most amino acids are coded for by more than one codon, and that the start codon AUG also corresponds to methionine. This suggests that while methionine is a common starting amino acid, it is not the only one.\\n\\nFurthermore, Document [6] mentions that in mitochondria, protein synthesis starts with N-formylmethionine, as in bacteria, and not with methionine as in the cytosol of eukaryotic cells. This implies that some organelles, like mitochondria, may start with a different amino acid.\\n\\nTherefore, based on the available information, it is not accurate to say that all proteins start with methionine.\\n\\nThe answer is B.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1587",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201348 The genetic code. The standard one-letter abbreviation for each amino acid is presented below its three-letter abbreviation (see Panel 3\u20131, pp. 112\u2013 113, for the full name of each amino acid and its structure). By convention, codons are always written with the 5\u02b9-terminal nucleotide to the left. Note that most amino acids are represented by more than one codon, and that there are some regularities in the set of codons that specifies each amino acid: codons for the same amino acid tend to contain the same nucleotides at the first and second positions, and vary at the third position. Three codons do not specify any amino acid but act as termination sites (stop codons), signaling the end of the protein-coding sequence. One codon\u2014AUG\u2014acts both as an initiation codon, signaling the start of a protein-coding message, and also as the codon that specifies methionine. Figure 6\u201349 The three possible reading frames in protein synthesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1651",
+            "title": "Cell_Biology_Alberts",
+            "content": "The translation of an mRNA begins with the codon AUG, and a special tRNA is required to start translation. This initiator tRNA always carries the amino acid methionine (in bacteria, a modified form of methionine\u2014formylmethionine\u2014is used), with the result that all newly made proteins have methionine as the first amino acid at their N-terminus, the end of a protein that is synthesized first. (This methionine is usually removed later by a specific protease.) The initiator tRNA is specially recognized by initiation factors because it has a nucleotide sequence distinct from that of the tRNA that normally carries methionine."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1562",
+            "title": "Biochemistry_Lippinco",
+            "content": "many common amino acids are shown as examples. 1. How to translate a codon: This table can be used to translate any codon and, thus, to determine which amino acids are coded for by an mRNA sequence. For example, the codon AUG codes for methionine ([Met] see Fig. 32.2). [Note: AUG is the initiation (start) codon for translation.] Sixty-one of the 64 codons code for the 20 standard amino acids (see p. 1). 2. Termination codons: Three of the codons, UAA, UAG, and UGA, do not code for amino acids but, rather, are termination (also called stop, or nonsense) codons. When one of these codons appears in an mRNA sequence, synthesis of the polypeptide coded for by that mRNA stops. B. Characteristics"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1746",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2). 6\u20139 After treating cells with a chemical mutagen, you isolate two mutants. One carries alanine and the other carries methionine at a site in the protein that normally contains valine (Figure Q6\u20134). After treating these two mutants again with the mutagen, you isolate mutants from each that now carry threonine at the site of the original valine (Figure Q6\u20134). Assuming that all mutations involve single-nucleotide changes, deduce the codons that are used for valine, methionine, threonine, and alanine at the affected site. Would you expect to be able to isolate valineto-threonine mutants in one step? 6\u201310 Which of the following mutational changes would you predict to be the most deleterious to gene function? Explain your answers."
+        },
+        {
+            "id": "Surgery_Schwartz_3297",
+            "title": "Surgery_Schwartz",
+            "content": "amino acid and the carboxy group of the next. Because of this decoding, the information carried on mRNA relies on tRNA. Translation involves all three RNAs. The precise transfer of information from mRNA to protein is governed by genetic code, the set of rules by which codons are translated into an amino acid (Table 15-2). A codon, a triplet of three bases, codes for one amino acid. In this case, random combinations of the four bases form 4 \u00d7 4 \u00d7 4, or 64 codes. Because 64 codes are more than enough for 20 amino acids, most amino acids are coded by more than one codon. The start codon is AUG, which also corresponds to methionine; therefore, almost all proteins begin with this amino acid. The sequence of nucleotide triplets that follows the start codon signal is termed the reading frame. The codons on mRNA are sequentially recognized by tRNA adaptor proteins. Specific enzymes termed aminoacyl-tRNA synthetases link a specific amino acid to a specific tRNA. The translation of mRNA to"
+        },
+        {
+            "id": "Biochemistry_Lippincott_940",
+            "title": "Biochemistry_Lippinco",
+            "content": "Glycine: This amino acid is synthesized from serine by removal of a hydroxymethyl group, also by serine hydroxymethyltransferase (see Fig. 20.6A). THF is the one-carbon acceptor. 3. Cysteine: This amino acid is synthesized by two consecutive reactions in which Hcy combines with serine, forming cystathionine, which, in turn, is hydrolyzed to \u03b1-ketobutyrate and cysteine (see Fig. 20.8). [Note: Hcy is derived from methionine, as described on p. 264. Because methionine is an essential amino acid, cysteine synthesis requires adequate dietary intake of methionine.] E. Tyrosine"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3989",
+            "title": "Cell_Biology_Alberts",
+            "content": "This endosymbiont hypothesis of organelle development receives strong support from the observation that the genetic systems of mitochondria and chloroplasts are similar to those of present-day bacteria. For example, chloroplast ribosomes are very similar to bacterial ribosomes, both in their structure and in their sensitivity to various antibiotics (such as chloramphenicol, streptomycin, erythromycin, and tetracyclin). In addition, protein synthesis in chloroplasts starts with N-formylmethionine, as in bacteria, and not with methionine as in the cytosol of eukaryotic cells. Although mitochondrial genetic systems are much less similar to those of present-day bacteria than are the genetic systems of chloroplasts, their ribosomes are also sensitive to antibacterial antibiotics, and protein synthesis in mitochondria also starts with N-formylmethionine."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3327",
+            "title": "Cell_Biology_Alberts",
+            "content": "ER signal sequences vary greatly in amino acid sequence, but each has eight or more nonpolar amino acids at its center (see Table 12\u20133, p. 648). How can the SRP bind specifically to so many different sequences? The answer has come from the crystal structure of the SRP protein, which shows that the signal-sequence-binding site is a large hydrophobic pocket lined by methionines. Because methionines have unbranched, flexible side chains, the pocket is sufficiently plastic to accommodate hydrophobic signal sequences of different sequences, sizes, and shapes."
+        },
+        {
+            "id": "Biochemistry_Lippincott_923",
+            "title": "Biochemistry_Lippinco",
+            "content": "E. Amino acids that form succinyl CoA: Methionine Methionine is one of four amino acids that form succinyl CoA. This sulfur-containing amino acid deserves special attention because it is converted to S-adenosylmethionine (SAM), the major methyl group donor in one-carbon metabolism (Fig. 20.8). Methionine is also the source of homocysteine (Hcy), a metabolite associated with atherosclerotic vascular disease and thrombosis (see p. 265). the methyl group carrier and donor.] PPi = pyrophosphate; Pi = inorganic phosphate; NH3 = ammonia. 1. S-Adenosylmethionine synthesis: Methionine condenses with ATP, forming SAM, a high-energy compound that is unusual in that it contains no phosphate. The formation of SAM is driven by hydrolysis of all three phosphate bonds in ATP (see Fig. 20.8). 2."
+        },
+        {
+            "id": "Surgery_Schwartz_3298",
+            "title": "Surgery_Schwartz",
+            "content": "The codons on mRNA are sequentially recognized by tRNA adaptor proteins. Specific enzymes termed aminoacyl-tRNA synthetases link a specific amino acid to a specific tRNA. The translation of mRNA to protein requires the ribosomal complex to move step-wise along the mRNA until the initiator methionine sequence is identified. In concert with various protein initiator factors, the methionyl-tRNA is positioned on the mRNA and protein synthesis begins. Each new amino acid is added sequentially by the appropriate tRNA in conjunction with proteins called elongation factors. Protein synthesis proceeds in the amino-to-carboxy-terminus direction.The biologic versatility of proteins is astounding. Among many other functions, proteins serve as enzymes that catalyze critical biochemical reactions, carry signals to and from the extracellular environment, and mediate diverse signaling and regulatory functions in the intracellular environment. They also transport ions and various small molecules"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1285",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Proteins from animal sources: Proteins from animal sources (meat, poultry, milk, and fish) have a high quality because they contain all the EAA in proportions similar to those required for synthesis of human tissue proteins (Fig. 27.19), and they are more readily digested. [Note: Gelatin prepared from animal collagen is an exception. It has a low biologic value as a result of deficiencies in several EAA.] 2. Proteins from plant sources: Plant proteins have a lower quality than do animal proteins. However, proteins from different plant sources may be combined in such a way that the result is equivalent in nutritional value to animal protein. For example, wheat (lysine deficient but methionine rich) may be combined with kidney beans (methionine poor but lysine rich) to produce a higher biologic value than either of the component proteins (Fig. 27.20). [Note: Animal proteins can also complement the biologic value of plant proteins.] B. Nitrogen balance"
+        },
+        {
+            "id": "Biochemistry_Lippincott_79",
+            "title": "Biochemistry_Lippinco",
+            "content": ".2. A particular point mutation results in disruption of the \u03b1-helical structure in a segment of the mutant protein. The most likely change in the primary structure of the mutant protein is: A. glutamate to aspartate. B. lysine to arginine. C. methionine to proline. D. valine to alanine. Correct answer = C. Proline, because of its secondary amino group, is incompatible with an \u03b1-helix. Glutamate, aspartate, lysine, and arginine are charged amino acids, and valine is a branched amino acid. Charged and branched (bulky) amino acids may disrupt an \u03b1-helix. [Note: The flexibility of glycine\u2019s R group can also disrupt an \u03b1-helix.] .3. In comparing the \u03b1-helix to the \u03b2-sheet, which statement is correct only for the \u03b2-sheet? A. Extensive hydrogen bonds between the carbonyl oxygen (C=O) and the amide hydrogen (N\u2212H) of the peptide bond are formed. B. It may be found in typical globular proteins. C. It is stabilized by interchain hydrogen bonds."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1663",
+            "title": "Cell_Biology_Alberts",
+            "content": "There Are Minor Variations in the Standard Genetic Code As discussed in Chapter 1, the genetic code (shown in Figure 6\u201348) applies to all three major branches of life, providing important evidence for the common ancestry of all life on Earth. Although rare, there are exceptions to this code. For example, Candida albicans, the most prevalent human fungal pathogen, translates the codon CUG as serine, whereas nearly all other organisms translate it as leucine. Mitochondria (which have their own genomes and encode much of their translational apparatus) often deviate from the standard code. For example, in mammalian mitochondria AUA is translated as methionine, whereas in the"
+        },
+        {
+            "id": "Pediatrics_Nelson_1119",
+            "title": "Pediatrics_Nelson",
+            "content": "Homocystinuria, an autosomal recessive disease (1:200,000 livebirths) involving connective tissue, the brain, and the vascularsystem, is caused by a deficiency of cystathionine \u03b2-synthase. In the normal metabolism of the sulfur amino acids, methionine gives rise to cystine; homocysteine is a pivotal intermediate (Fig. 53-2). When cystathionine \u03b2-synthase is deficient, homocysteine accumulates in the blood and appears in the urine. Another result is enhanced reconversion of homocysteine to methionine, resulting in an increase in the concentration of methionine in the blood. The neonatal screening test most commonly used measures methionine. An excess of homocysteine produces a slowly evolving clinical syndromethat includes dislocated ocular lenses; long, slender extremities; malar flushing; and livedo reticularis. Arachnodactyly, scoliosis, pectus excavatum or carinatum, and genu valgum are skeletal features. Mental retardation, psychiatric illness, or both may be present. Major"
+        },
+        {
+            "id": "Cell_Biology_Alberts_730",
+            "title": "Cell_Biology_Alberts",
+            "content": "regulation, in methionine synthesis, in the kinetochore, and in vacuolar H+-ATPase assembly. We shall use this figure to explain how such protein interaction maps are used, and what they do and do not mean."
+        },
+        {
+            "id": "Gynecology_Novak_6217",
+            "title": "Gynecology_Novak",
+            "content": "Figure 33.4 Homocysteine metabolism. Dietary methionine is metabolized either to cysteine or back into methionine. Homocysteine, a prothrombotic metabolite, is an intermediate in this process. Conversion of homocysteine to methionine requires transfer of a methyl group from 5-methyltetrahydrofolate. The conversion of folate to 5-methyltetrahydrofolate is a multistep process requiring vitamin B2 as a cofactor for the enzyme, methylene tetrahydrofolate reductase (MTHFR). Vitamin B12 is a required cofactor for the enzyme methionine synthase. Vitamin B6 is also required for metabolism of sulfur containing amino acids such as methionine. formation and those involved in reconversion to methionine, mutations in MTHFR have received the most attention (20,59\u201361). Point mutations in MTHFR are surprisingly common, are associated with hyperhomocysteinemia, and are linked to thrombosis (22,29,59\u201361)."
+        },
+        {
+            "id": "Gynecology_Novak_6216",
+            "title": "Gynecology_Novak",
+            "content": "Circulating homocysteine is derived from dietary methionine. Homocysteine, in turn, is metabolized either into cystathionine or back into methionine (Fig. 33.4). The latter process involves the enzyme methionine synthase. Methionine synthase requires donation of a methyl group from 5-methyltetrahydrofolate to produce methionine, and the enzyme MTHFR is involved in the production of 5-methyltetrahydrofolate from dietary folate sources (20). The nutritional supplements folic acid, vitamins B2,B6, and vitamin B12 are all required for proper metabolism of homocysteine; therefore, their deficiency is associated with acquired elevations in circulating homocysteine levels (21,29,59). Although heritable deficiencies in the enzymes required for metabolism of homocysteine have been described for the pathways leading to cystathionine"
+        },
+        {
+            "id": "InternalMed_Harrison_8123",
+            "title": "InternalMed_Harrison",
+            "content": "Methylated product Folic acid Folic acid Deoxythymidine monophosphate Purines Serine Glycine S-Adenosylhomocysteine (SAH) 5-Methyl tetrahydrofolate 5, 10-Methylene tetrahydrofolate 5-Methyl tetrahydrofolate (monoglutamate) Plasma Cell Tetrahydrofolate Dihydrofolate S-Adenosylmethionine (SAM) Homocysteine Methionine Cystathionine Pyruvate GSH Cysteine THE METHYLATION CYCLE Substrate ATP (e.g., methylated lipids, myelin basic protein, DOPA, DNA) Methyltransferases Methionine synthase methylcobalamin Cystathionine synthase vitamin B6 5,10-Methylene-tetrahydrofolate reductase DHF reductase Polyglutamate synthase + glutamates 10-Formyl tetrahydrofolate DNA CYCLE (CELL REPLICATION) Formate Deoxyuridine monophosphate FIGURE 128-1 The role of folates in DNA synthesis and in formation of S-adenosylmethionine (SAM), which is involved in numerous meth-ylation reactions. DHF, dihydrofolate; GSH, glutathione. (Reprinted from AV Hoffbrand et al [eds]: Postgraduate Haematology, 5th ed. Oxford, UK,"
+        },
+        {
+            "id": "First_Aid_Step1_81",
+            "title": "First_Aid_Step1",
+            "content": "FINDINGS Bloating, cramps, flatulence, osmotic diarrhea. TREATMENT Avoid dairy products or add lactase pills to diet; lactose-free milk. Amino acids Only l-amino acids are found in proteins. Essential PVT TIM HaLL: Phenylalanine, Valine, Tryptophan, Threonine, Isoleucine, Methionine, Histidine, Leucine, Lysine. Glucogenic: Methionine, histidine, valine. We met his valentine, she is so sweet (glucogenic). Glucogenic/ketogenic: Isoleucine, phenylalanine, threonine, tryptophan. Ketogenic: Leucine, Lysine. The onLy pureLy ketogenic amino acids. Acidic Aspartic acid, glutamic acid. Negatively charged at body pH. Basic Arginine, histidine, lysine. Arginine is most basic. Histidine has no charge at body pH. Arginine and histidine are required during periods of growth. Arginine and lysine are \u008f in histones which bind negatively charged DNA. His lys (lies) are basic. Transport of ammonia by alanine"
+        },
+        {
+            "id": "InternalMed_Harrison_5591",
+            "title": "InternalMed_Harrison",
+            "content": "For further discussion of energy balance in health and disease, see Chap. 97. Protein Dietary protein consists of both essential and nonessential amino acids that are required for protein synthesis. The nine essential amino acids are histidine, isoleucine, leucine, lysine, methionine/ cystine, phenylalanine/tyrosine, threonine, tryptophan, and valine. Certain amino acids, such as alanine, can also be used for energy and gluconeogenesis. When energy intake is inadequate, protein intake must be increased, because ingested amino acids are diverted into pathways of glucose synthesis and oxidation. In extreme energy deprivation, protein-calorie malnutrition may ensue (Chap. 97)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1908",
+            "title": "Biochemistry_Lippinco",
+            "content": "Treatment: KL is prescribed doxycycline, an antibiotic in the tetracycline family. Monitoring of KL will continue until all symptoms have completely resolved. Blood is drawn for clinical laboratory tests. Prognosis: Patients treated with the appropriate antibiotic in the early stages of Lyme disease typically recover quickly and completely. Case-Related Questions: Choose the ONE best answer. Q1. Antibiotics in the tetracycline class inhibit protein synthesis (translation) at the initiation step. Which of the following statements about translation is correct? A. In eukaryotic translation, the initiating amino acid is formylated methionine. B. Only the charged initiating transfer RNA goes directly to the ribosomal A site. C. Peptidyltransferase is a ribozyme that forms the peptide bond between two amino acids. D. Prokaryotic translation can be inhibited by the phosphorylation of initiation factor 2."
+        },
+        {
+            "id": "Surgery_Schwartz_3296",
+            "title": "Surgery_Schwartz",
+            "content": "C = cytosine; G = guanine; U = uracil; Ala = alanine; Arg = arginine; Asn = asparagine; Asp = aspartic acid; Cys = cysteine; Glu = glutamic acid; Gln = glutamine; Gly = glycine; His = histidine; Ile = isoleucine; Leu = leucine; Lys = lysine; Met = methionine; Phe = phenylalanine; Pro = proline; Ser = serine; Thr = threonine; Trp = tryptophan; Tyr = tyrosine; Val = valine. Letter in [ ] indicates single letter code for amino acid.arranged sequences of four bases that are transferred to the lin-ear arrangement of 20 amino acids on a protein. Amino acids are characterized by a central carbon unit linked to four side chains: an amino group (\u2013NH2), a carboxy group (\u2013COOH), a hydrogen, and a variable (\u2013R) group. The amino acid chain is assembled via peptide bonds between the amino group of one amino acid and the carboxy group of the next. Because of this decoding, the information carried on mRNA relies on tRNA. Translation involves all three RNAs. The precise transfer of information from"
+        },
+        {
+            "id": "InternalMed_Harrison_29299",
+            "title": "InternalMed_Harrison",
+            "content": "Life-threatening vascular complications (affecting coronary, renal, and cerebral arteries) can occur during the first decade of life and are the major cause of morbidity and mortality. Classic homocystinuria can be diagnosed with analysis of plasma amino acids, showing elevated methionine and presence of free homocystine. Total plasma homocysteine is also extremely elevated (usually >100 \u03bcM). Treatment consists of a special diet restricted in protein and methionine and supplemented with cystine. In approximately half of patients, oral pyridoxine (25\u2013500 mg/d) produces a fall in plasma methionine and homocystine concentration in body fluids. Folate and vitamin B12 deficiency should be prevented by adequate supplementation. Betaine is also effective in reducing homocystine levels in pyridoxineunresponsive patients."
+        },
+        {
+            "id": "Cell_Biology_Alberts_740",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the functions of the surprisingly large amount of unfolded polypeptide chain found in proteins? How many types of protein functions remain to be discovered? What are the most promising approaches for discovering them? When will scientists be able to take any amino acid sequence and accurately predict both that protein\u2019s three-dimensional conformations and its chemical properties? What breakthroughs will be needed to accomplish this important goal? Are there ways to reveal the detailed workings of a protein machine that do not require the purification of each of its component parts in large amounts, so that the machine\u2019s functions can be reconstituted and dissected using chemical techniques in a test tube? What are the roles of the dozens of different types of covalent modifications of proteins that have been found in addition to those listed in Table 3\u20133? Which ones are critical for cell function and why?"
+        },
+        {
+            "id": "Biochemistry_Lippincott_925",
+            "title": "Biochemistry_Lippinco",
+            "content": "a. Methionine resynthesis: Hcy accepts a methyl group from N5methyltetrahydrofolate (N5-methyl-THF) in a reaction requiring methylcobalamin, a coenzyme derived from vitamin B12 (see p. 379). [Note: The methyl group is transferred by methionine synthase from the B12 derivative to Hcy, regenerating methionine. Cobalamin is remethylated from N5-methyl-THF.] b. Cysteine synthesis: Hcy condenses with serine, forming cystathionine, which is hydrolyzed to \u03b1-ketobutyrate and cysteine (see Fig. 20.8). This vitamin B6\u2013requiring sequence has the net effect of converting serine to cysteine and Hcy to \u03b1-ketobutyrate, which is oxidatively decarboxylated to form propionyl CoA. Propionyl CoA is converted to succinyl CoA (see Fig. 16.20 on p. 195). Because Hcy is synthesized from the essential amino acid methionine, cysteine is not an essential amino acid as long as sufficient methionine is available."
+        },
+        {
+            "id": "Cell_Biology_Alberts_465",
+            "title": "Cell_Biology_Alberts",
+            "content": "The sequence of this tripeptide C is histidine-cysteine-valine. HN CH These two single bonds allow rotation, so that long chains of amino acids are very fexible. The common amino acids (Lys, or K) (Arg, or R) (His, or H) are grouped according to whether their side chains are CH2 This group is CH2 very basic CH2 because its NH These nitrogens have a and one-letter abbreviations. NH3 is stabilized by C relatively weak affnity for an resonance. +H2N NH2 H+ and are only partly positive Thus: alanine = Ala = A at neutral pH. alanine valine aspartic acid glutamic acid (Ala, or A) (Val, or V) (Asp, or D) (Glu, or E) C O O\u2013 (Leu, or L) asparagine glutamine proline phenylalanine (Asn, or N) (Gln, or Q) (Pro, or P) (Phe, or F) methionine tryptophan (Met, or M) (Trp, or W) Although the amide N is not charged at neutral pH, it is polar. (Ser, or S) (Thr, or T) (Tyr, or Y) (Gly, or G) (Cys, or C) The \u2013OH group is polar. in proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_677",
+            "title": "Cell_Biology_Alberts",
+            "content": "Proteins Can Be Regulated by the Covalent Addition of Other Proteins"
+        },
+        {
+            "id": "Immunology_Janeway_4372",
+            "title": "Immunology_Janeway",
+            "content": "Fig. A.13 Cellular proteins reacting with an antibody can be dissociates it from the antibody and also coats the protein with a characterized by immunoprecipitation of labeled cell lysates. strong negative charge, allowing it to migrate according to its size All actively synthesized cellular proteins can be labeled metabolically in polyacrylamide gel electrophoresis (PAGE). The positions of the by incubating cells with radioactive amino acids (shown here for labeled proteins are determined by autoradiography using X-ray methionine; 35S-Met), or one can label just the cell-surface proteins film. This technique of SDS-PAGE can be used to determine the by using radioactive iodine in a form that cannot cross the cell molecular weight and subunit composition of a protein. Patterns of membrane or by a reaction with the small molecule biotin, detected protein bands observed with metabolic labeling are usually more by its reaction with labeled avidin (not shown). Cells are lysed with complex"
+        },
+        {
+            "id": "InternalMed_Harrison_29298",
+            "title": "InternalMed_Harrison",
+            "content": "FIgURE 434e-1 Pathways, enzymes, and coenzymes involved in the homocystinurias. Methionine transfers a methyl group during its conversion to homocysteine. Defects in methyl transfer or in the subsequent metabolism of homocysteine by the pyridoxal phosphate (vitamin B6)dependent cystathionine \u03b2-synthase increase plasma methionine levels. Homocysteine is transformed into methionine via remethylation. This occurs through methionine synthase, a reaction requiring methylcobalamin and folic acid. Deficiencies in these enzymes or lack of cofactors is associated with decreased or normal methionine levels. In an alternative pathway, homocysteine can be remethylated by betaine:homocysteine methyl transferase. 3 and 5 years of age with dislocated optic lenses and intellectual disability (in about half of cases). Some patients develop a marfanoid habitus and radiologic evidence of osteoporosis."
+        },
+        {
+            "id": "Biochemistry_Lippincott_967",
+            "title": "Biochemistry_Lippinco",
+            "content": "0.5. Which one of the following statements concerning amino acids is correct? A. Alanine is ketogenic. B. Amino acids that are catabolized to acetyl coenzyme A are glucogenic. C. Branched-chain amino acids are catabolized primarily in the liver. D. Cysteine is essential for individuals consuming a diet severely limited in methionine. Correct answer = D. Methionine is the precursor of cysteine, which becomes essential if methionine is severely restricted. Alanine is a key glucogenic amino acid. Acetyl coenzyme A (CoA) cannot be used for the net synthesis of glucose. Amino acids catabolized to acetyl CoA are ketogenic. Branched-chain amino acids are catabolized primarily in skeletal muscle. 0.6. In an individual with the dihydrolipoyl dehydrogenase (E3)-deficient form of maple syrup urine disease, why would lactic acidosis be an expected finding?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_464",
+            "title": "Cell_Biology_Alberts",
+            "content": "112 Panel 3\u20131: The 20 amino acids Found in Proteins THE AMINO ACID OPTICAL ISOMERS The \u02dc-carbon atom is asymmetric, which allows for two mirror images (or stereo-) The general formula of an amino acid is isomers, L and D. \u02dc-carbon atom R is commonly one of 20 different side chains. At pH 7 both the amino and carboxyl groups are ionized. Proteins consist exclusively of L-amino acids. Amino acids are commonly joined together by an amide linkage, Peptide bond: The four atoms in each gray box form a rigid called a peptide bond. planar unit. There is no rotation around the C\u2013N bond. aminoor carboxylor Proteins are long polymers N-terminus HO CH2 HH C-terminus of amino acids linked by + peptide bonds, and they are always written with the CH2H O CH N-terminus toward the left. The sequence of this tripeptide C is histidine-cysteine-valine. HN CH These two single bonds allow rotation, so that long chains of amino acids are very fexible."
+        },
+        {
+            "id": "Biochemistry_Lippincott_936",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. BIOSYNTHESIS OF NONESSENTIAL AMINO ACIDS Nonessential amino acids are synthesized from intermediates of metabolism or, as in the case of tyrosine and cysteine, from the essential amino acids phenylalanine and methionine, respectively. The synthetic reactions for the nonessential amino acids are described below and are summarized in Figure 20.15. [Note: Some amino acids found in proteins, such as hydroxyproline and hydroxylysine (see p. 45), are produced by posttranslational modification (after incorporation into a protein) of their precursor (parent) amino acids.] A. Synthesis from \u03b1-keto acids"
+        }
+    ],
+    "scores": [
+        0.03303996552659654,
+        0.02941736481340442,
+        0.02832402788775632,
+        0.02723292287211914,
+        0.02697415001372693,
+        0.024133035492678083,
+        0.024129353233830846,
+        0.022795024629506586,
+        0.02214319344854468,
+        0.02200095231689276,
+        0.02147547354385683,
+        0.021444362459510046,
+        0.019725662378334133,
+        0.018211907421905926,
+        0.01805465191932336,
+        0.01715542521994135,
+        0.017027417027417027,
+        0.016914654688377315,
+        0.0168928470455188,
+        0.01685159500693481,
+        0.016771929824561403,
+        0.016616008105369808,
+        0.01647457627118644,
+        0.016461184121392768,
+        0.016312997347480106,
+        0.01614583333333333,
+        0.016057203788496517,
+        0.015973630831643,
+        0.015882019285309135,
+        0.015843707189231043,
+        0.015378435760601366,
+        0.01507230255839822
+    ]
+}

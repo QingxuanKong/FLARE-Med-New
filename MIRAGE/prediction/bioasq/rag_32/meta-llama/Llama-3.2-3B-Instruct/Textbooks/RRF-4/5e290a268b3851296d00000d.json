@@ -1,0 +1,206 @@
+{
+    "id": "5e290a268b3851296d00000d",
+    "question": "Is palbociclib effective for glioblastoma?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step analysis: 1. Document [2] (Title: Pharmacology_Katzung) mentions that temozolomide, a chemotherapeutic drug, is used in combination with radiotherapy for the treatment of glioblastoma. However, it does not mention palbociclib. 2. Document [6] (Title: InternalMed_Harrison) states that bevacizumab, an anti-VEGF antibody, has activity in recurrent glioblastoma and increases progression-free survival and reduces peritumoral edema and glucocorticoid use. However, it does not mention palbociclib. 3. Document [7] (Title: Surgery_Schwartz) mentions that palbociclib, a CDK4/6 inhibitor, is approved for use in combination with endocrine therapy for patients with hormone receptor-positive advanced breast cancer. However, it does not specifically mention glioblastoma. 4. Document [9] (Title: InternalMed_Harrison) states that targeted molecular agents directed at receptor tyrosine kinases and signal transduction pathways, antiangiogenic agents, especially those directed at the VEGF receptors, and chemotherapeutic agents that cross the blood-brain barrier are being evaluated in patients with glioblastoma. However, it does not mention palbociclib. 5. Document [20] (Title: Surgery_Schwartz) mentions that neoadjuvant anastrozole in combination with palbociclib has been shown to significantly reduce Ki67, suggesting that CDK4/6 inhibition can increase the efficacy of neoadjuvant endocrine therapy. However, it does not specifically mention glioblastoma. 6. Document [11] (Title: Pharmacology_Katzung) states that bevacizumab is approved as a single agent for adult GBM (glioblastoma) in the setting of progressive disease following first-line chemotherapy. However, it does not mention palbociclib. 7. Document [3] (Title: InternalMed_Harrison) mentions that novel therapies undergoing evaluation in patients with glioblastoma include targeted molecular agents, antiangiogenic agents, and chemotherapeutic agents that cross the blood-brain barrier. However, it does not specifically mention palbociclib. 8. Document [12] (Title: Neurology_Adams) states that the treatment of recurrent glioblastoma or anaplastic astrocytoma after surgery and radiation is controversial and must be guided by the location and pattern of tumor growth and the patient\u2019s age and relative state of health. However, it does not mention palbociclib. 9. Document [16] (Title: Neurology_Adams) mentions that temozolomide, a chemotherapeutic agent, is used in the treatment of glioblastoma. However, it does not mention palbociclib. 10. Document [21] (Title: Pharmacology_Katzung) does not mention palbociclib. Based on the analysis, there is no mention of palbociclib being effective for glioblastoma in any of the provided documents. However, it is approved for use in combination with endocrine therapy for patients with hormone receptor-positive advanced breast cancer. Therefore, the answer is: {\"step_by_step_thinking\": \"Based on the provided documents, there is no specific mention of palbociclib being effective for glioblastoma. However, it is approved for use in combination with endocrine therapy for patients with hormone receptor-positive advanced breast cancer. Therefore, the answer is not explicitly stated in the documents.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_7601",
+            "title": "InternalMed_Harrison",
+            "content": "Despite optimal therapy, glioblastomas invariably recur. Treatment options for recurrent disease may include reoperation, carmustine wafers, and alternate chemotherapeutic regimens. Reirradiation is rarely helpful. Bevacizumab, a humanized vascular endothelial growth factor (VEGF) monoclonal antibody, has activity in recurrent glioblastoma, increasing progression-free survival and reducing peritumoral edema and glucocorticoid use (Fig. 118-3). Treatment decisions for patients with recurrent glioblastoma must be made on an individual basis, taking into consideration such factors as previous therapy, time to relapse, performance status, and quality of life. Whenever feasible, patients with recurrent disease should be enrolled in clinical trials. Novel therapies undergoing evaluation in patients with glioblastoma include targeted molecular agents directed at receptor tyrosine kinases and signal transduction pathways; antiangiogenic agents, especially those directed at the VEGF receptors;"
+        },
+        {
+            "id": "Neurology_Adams_5090",
+            "title": "Neurology_Adams",
+            "content": "agent temozolomide (which may be used if the PCV regimen was administered previously). These chemotherapeutic drugs may prolong the symptom-free interval but have little effect on survival. A promising approach for recurrent malignant gliomas is the use of drugs that target the tumor\u2019s vasculature. A recent but preliminary provocative observation from retrospective series has been that patients with glioblastoma receiving valganciclovir, ostensibly for concurrent CMV infections, had better survival than those who did not receive the drug (S\u00f6derberg-Naucl\u00e9r and colleagues)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6048",
+            "title": "Pharmacology_Katzung",
+            "content": "In general, chemotherapy has had only limited efficacy in the treatment of malignant gliomas. Because of their ability to cross the blood-brain barrier, the nitrosoureas have historically been the most active agents in this disease. Carmustine (BCNU) has been used as a single agent, or lomustine (CCNU) can be used in combination with procarbazine and vincristine (PCV regimen). In addition, the alkylating agent temozolomide is active when combined with radiotherapy and is also used in patients with newly diagnosed glioblastoma multiforme (GBM) as well as in those with recurrent disease. The histopathologic subtype oligodendroglioma has been shown to be especially chemosensitive, and the PCV combination regimen is the treatment of choice for this disease. It is now well-established that the anti-VEGF antibody bevacizumab alone or in combination with chemotherapy has documented clinical activity in adult GBM. Bevacizumab is presently approved as a single agent for adult GBM in the"
+        },
+        {
+            "id": "InternalMed_Harrison_7602",
+            "title": "InternalMed_Harrison",
+            "content": "with glioblastoma include targeted molecular agents directed at receptor tyrosine kinases and signal transduction pathways; antiangiogenic agents, especially those directed at the VEGF receptors; chemotherapeutic agents that cross the blood-brain barrier more effectively than currently available drugs; gene therapy; immunotherapy; and infusion of radiolabeled drugs and targeted toxins into the tumor and surrounding brain by means of convection-enhanced delivery."
+        },
+        {
+            "id": "Neurology_Adams_5085",
+            "title": "Neurology_Adams",
+            "content": "One trial has demonstrated a 3 month benefit for progression-free survival, but not for overall survival, with the early use of bevicizumab with temozolamide and radiation (Gilbert et al); its use is largely restricted to clinical trials. This anti-VEGF therapy improves the imaging appearance (less edema, small area of enhancement) but fails to inhibit tumor spread. In the field of experimental therapeutics, adoptive T cells (chimeric antigen receptor \u2013T-cell therapy, CAR-T), which had success with leukemia and lymphoma, has demonstrated efficacy in very few studied cases of metastatic glioblastoma (Brown et al)."
+        },
+        {
+            "id": "Neurology_Adams_5087",
+            "title": "Neurology_Adams",
+            "content": "some glioblastomas lead to resistance to chemotherapy. Hegi and colleagues found a relationship between the epigenetic silencing of the promoter of this gene (\u201cmethylation status\u201d) and the response to temozolomide. In fact, almost all the marginal benefit of the drug in their study could be attributed to improved survival in this group who displayed a methylated gene. However, there is still activity of temozolomide in nonmethylated tumors and it is used in almost all cases. Additionally, there may be an interaction between MGMT methylation and mutations in other genes such as IDH1 (Wick et al)."
+        },
+        {
+            "id": "Surgery_Schwartz_4053",
+            "title": "Surgery_Schwartz",
+            "content": "aromatase inhibitor or palbo-ciclib, the CDK 4/6 inhibitor, in combination with letrozole may be considered as a treatment option for first-line therapy. Activation of CDK4/CDK6 cell cycle signaling axis has been implicated in mediating endocrine resistance. Consequently, PALOMA-1 evaluated the safety and efficacy of palbociclib in combination with letrozole vs. letrozole alone as first-line treat-ment for patients with ER-positive, HER2-negative advanced breast cancer. Median progression-free survival (PFS) was doubled with the combination compared to letrozole alone (20.2 months vs. 10.2 months for the letrozole).341 Based on this, the FDA approved palbociclib in combination with letrozole for the treatment of postmenopausal women with ER-positive, HER2-negative advanced breast cancer as initial treatment. The Brunicardi_Ch17_p0541-p0612.indd 59701/03/19 5:05 PM 598SPECIFIC CONSIDERATIONSPART IIbenefit of palbociclib in combination with letrozole was sub-sequently confirmed in"
+        },
+        {
+            "id": "Surgery_Schwartz_4172",
+            "title": "Surgery_Schwartz",
+            "content": "therapy to 10 years. N Engl J Med. 2016;375:209-219. 341. Finn RS, Crown JP, Lang I, et al. The cyclin-dependent kinase 4/6 inhibitor palbociclib in combination with letro-zole versus letrozole alone as first-line treatment of oestrogen receptor-positive, HER2-negative, advanced breast cancer (PALOMA-1/TRIO-18): a randomised phase 2 study. Lancet Oncol. 2015;16(1): 25-35. 342. Finn RS, Martin M, Rugo HS, et al. Palbociclib and letrozole in advanced breast cancer. N Engl J Med. 2016;375(20):1925-1936. 343. Cristofanilli M, Turnr NC, Bondarenko I, et al. Fulvestrant plus palbociclib versus fulvestrant plus placebo for treatment of hormone-receptor-positive, HER2-negative metastatic breast cancer that progressed on previous endocrine therapy (PALOMA-3): final analysis of the multicentre, double-blind, phase 3 randomised controlled trial. Lancet Oncol. 2016;17(4):425-439. 343a. Goetz, M. P., et al. (2017). MONARCH 3: Abemaciclib As Initial Therapy for Advanced Breast Cancer. J Clin Oncol."
+        },
+        {
+            "id": "Pathology_Robbins_5166",
+            "title": "Pathology_Robbins",
+            "content": "There is emerging evidence that genetic subtyping provides important additional prognostic information. Diffuse astrocytomas can be static for several years, but at some point they progress; the mean survival is more than 5 years. Eventually, patients suffer rapid clinical deterioration that is correlated with the appearance of anaplastic features and more rapid tumor growth. Other patients present with glioblastoma from the outset. Once the histologic features of glioblastoma appear, the prognosis is very poor; with treatment (resection, radiotherapy, and chemotherapy), the median survival is only 15 months."
+        },
+        {
+            "id": "Surgery_Schwartz_4054",
+            "title": "Surgery_Schwartz",
+            "content": "as initial treatment. The Brunicardi_Ch17_p0541-p0612.indd 59701/03/19 5:05 PM 598SPECIFIC CONSIDERATIONSPART IIbenefit of palbociclib in combination with letrozole was sub-sequently confirmed in a phase 3 trial (PFS 24.8 months vs. 14.5 months for letrozole).342 Two additional CDK4/6 inhibitors, ribociclib and abemaciclib, have been approved for use in com-bination with endocrine therapy for patients with hormone receptor\u2013positive advanced breast cancer.On the other hand, PALOMA-3 compared the combina-tion of palbociclib and fulvestrant to fulvestrant alone in preor postmenopausal ER-positive, HER2-negative metastatic breast cancer patients, whose disease progressed on prior endocrine therapy. Premenopausal women also received the GNRH ago-nist, goserelin. The median PFS was 9.2 months for the combi-nation compared to 3.8 months with fulvestrant alone.343 Thus, fulvestrant with palbociclib is a potential option for women with metastatic breast cancer who have progressed on prior"
+        },
+        {
+            "id": "Neurology_Adams_5436",
+            "title": "Neurology_Adams",
+            "content": "Slotman B, Faivre-Finn C, Kramer G, et al: Prophylactic cranial irradiation in extensive small-cell lung cancer. N Engl J Med 357:664, 2007. Smitt PS, Kinoshita A, Leeuw B, et al: Paraneoplastic cerebellar ataxia due to autoantibodies against a glutamate receptor. N Engl J Med 342:21, 2000. S\u00f6derberg-Naucl\u00e9r C, Rahbar A, Stragliotto G: Survival in patients with glioblastoma receiving valgangciclovir. N Engl J Med 369:985, 2013. Sorenson SC, Eagan RT, Scott M: Meningeal carcinomatosis in patients with primary breast or lung cancer. Mayo Clin Proc 59:91, 1984. Sparling HJ, Adams RD, Parker F: Involvement of the nervous system by malignant lymphoma. Medicine 26:285, 1947. Stupp R, Mason W, van den Bent M, et al: Radiotherapy plus concomitant and adjuvant temozolomide for glioblastoma. N Engl J Med 352:987, 2005. Ulmer S, Braga TA, Barker FG, et al: Clinical and radiographic features of peritumoral infarction following resection of glioblastoma. Neurology 67:1688, 2006."
+        },
+        {
+            "id": "Pharmacology_Katzung_6049",
+            "title": "Pharmacology_Katzung",
+            "content": "the anti-VEGF antibody bevacizumab alone or in combination with chemotherapy has documented clinical activity in adult GBM. Bevacizumab is presently approved as a single agent for adult GBM in the setting of progressive disease following first-line chemotherapy."
+        },
+        {
+            "id": "Neurology_Adams_5089",
+            "title": "Neurology_Adams",
+            "content": "The treatment of recurrent glioblastoma or anaplastic astrocytoma after surgery and radiation, almost inevitable occurrences, is controversial and must be guided by the location and pattern of tumor growth and the patient\u2019s age and relative state of health. Almost all glioblastomas recur within 2 cm of their original site and 10 percent develop additional lesions at distant locations. Reoperation is sometimes undertaken for local recurrences. The most aggressive approach\u2014a second surgery and chemotherapy\u2014can prove effective and has been generally used in patients younger than age 40 years whose original operation was many months earlier. If the PCV regimen discussed earlier has not already been used, some neurooncologists resort to that combination or the newer and better-tolerated alkylating agent temozolomide (which may be used if the PCV regimen was administered previously). These chemotherapeutic drugs may prolong the symptom-free interval but have little effect on survival. A"
+        },
+        {
+            "id": "Neurology_Adams_5091",
+            "title": "Neurology_Adams",
+            "content": "With aggressive surgical removal and radiotherapy, as described above, median survival for patients with glioblastoma is approximately 12 months, compared to 7 to 9 months without such treatment."
+        },
+        {
+            "id": "Neurology_Adams_5088",
+            "title": "Neurology_Adams",
+            "content": "Tyrosine kinase inhibitors (erlotinib, gefitinib) have been developed in response to the upregulation of EGFR mentioned earlier. In a preliminary but provocative study, Mellinghoff and coworkers found that a deletion mutation of the gene for this protein and expression of the tumor suppression protein PTEN predicted responsiveness of recurrent gliomas to treatment with EGFR kinase inhibitors. This represents one example in a growing field of prediction of treatment response in relation to tumor genetics; however, phase III studies of a tyrosine kinase inhibitor failed to improve outcome (Bode et al)."
+        },
+        {
+            "id": "Neurology_Adams_5076",
+            "title": "Neurology_Adams",
+            "content": "The natural history of untreated glioblastoma is well characterized. Fewer than 20 percent of patients survive for 1 year after the onset of symptoms and only about 10 percent live beyond 2 years (Shapiro). Age is an important prognostic factor; fewer than 10 percent of patients older than age 60 years survive for 18 months, in comparison to two-thirds of patients younger than age 40 years. Survival with anaplastic astrocytoma is somewhat better, typically 3 to 5 years. Cerebral edema and increased intracranial pressure are usually the causes of death. Survival rates with treatment are discussed in the following text. (anaplastic) glioma without many of the special histologic features of glioblastoma. The natural progression is for these astrocytomas to progress to glioblastoma and there may be certain constellations of mutations that promote such transformations."
+        },
+        {
+            "id": "Neurology_Adams_5084",
+            "title": "Neurology_Adams",
+            "content": "It had been considered for several decades that the addition of chemotherapeutic nitrosourea agents such as carmustine (BCNU) or lomustine (CCNU) increases survival slightly. Cisplatin and carboplatin have provided similar small marginal improvements in survival beyond that obtained by debulking and radiation therapy. Several randomized trials, however, have failed to show substantial benefit of chemotherapy but the Glioma Meta-analysis Trialists (GMT) Group had concluded in 2002 that there was a clear but quite small benefit of chemotherapy."
+        },
+        {
+            "id": "Neurology_Adams_5086",
+            "title": "Neurology_Adams",
+            "content": "The methylating agent temozolomide, given in the form of an orally administered prodrug, has lower toxicity and has been shown in several trials to produce slightly superior results to the aforementioned agents. In a large trial conducted by Stupp and colleagues, the median survival was 14.6 months with radiation and temozolomide, compared to 12.1 months with radiation alone, but 2-year survival was more than doubled from 10 to 27 percent. The drug is administered daily (75 mg/m2) concurrently with radiotherapy and, after a hiatus of 4 weeks, given for 5 days every 28 days for 6 cycles. Its main complications are thrombocytopenia or leukopenia in 5 to 10 percent of patients, and rare cases of Pneumocystis carinii pneumonia. Furthermore, high levels of a methyltransferase protein (MGMT) in some glioblastomas lead to resistance to chemotherapy. Hegi and colleagues found a relationship between the epigenetic silencing of the promoter of this gene (\u201cmethylation status\u201d) and the response"
+        },
+        {
+            "id": "Surgery_Schwartz_2301",
+            "title": "Surgery_Schwartz",
+            "content": "343ONCOLOGYCHAPTER 10Table 10-11Selected FDA-approved targeted therapiesGENERIC NAMETRADE NAMETARGETFDA-APPROVED INDICATIONSAdo-trastuzumab emtansineKadcylaHER2Breast cancerAxitinibInlytaKIT, FDGFR\u03b2, VEGFR1/2/3RCCBevacizumabAvastinVEGFColorectal cancer, lung cancer, glioblastoma, NSCLCRCCBortezomibVelcadeProteasomeMyelomaBosutinibBosulifABLCML (Philadelphia chromosome+)CabozantinibCometriqFLT3, KIT, MET, RET, VEGR2Medullary thyroid cancerCetuximabErbituxEGFRColorectal cancer (KRAS wild-type)Squamous cell cancer of the head and neckCrizotinibXalkoriALK (anaplastic lymphoma kinase) and ROS1 (c-ros oncogene 1) inhibitorNon-small cell lung carcinomaDabrafenibTafinolarBRAF V600E mutationMelanomaDasatinibSprycelABL, src family, KIT, EPHA2, PDGFR-\u03b2CMLErlotinibTarcevaEGFRNSCLC,Pancreatic cancerEverolimusAfinitormTORPNET,RCC,Breast cancer.Nonresectable subependymal giant cell astrocytoma associated with tuberous sclerosisGefitinibIressaEGFRNSCLC with known/previous benefit from gefitinib"
+        },
+        {
+            "id": "Neurology_Adams_5103",
+            "title": "Neurology_Adams",
+            "content": "Although chemotherapy has an ambiguous place in the treatment of low-grade pure astrocytomas, tumors with an oligodendroglial component respond well to combination chemotherapy used for the treatment of anaplastic oligodendroglioma. One randomized trial has shown a modest benefit in overall survival by adding chemotherapy (procarbazine, CCNU, vincristine; termed PCV) to radiation therapy of the brain (13.8 years median survival vs 7.8 years; see Buckner et al). Temozolomide has replaced PCV in many centers. The special features of astrocytomas of the pons, hypothalamus, optic nerves, and chiasm, which produce highly characteristic clinical syndromes and do not behave like a cerebral mass, are discussed further on in this chapter."
+        },
+        {
+            "id": "Surgery_Schwartz_4043",
+            "title": "Surgery_Schwartz",
+            "content": "efficacy of neoadjuvant letrozole.326 The LORLEI study is evaluating the use of taselisib, a PI3K inhibitor in combination with letrozole compared with letrozole alone. With the approval of CDK 4/6 inhibitors in the metastatic setting, clinical trials are evaluating the use of CDK inhibitors in combination with neoadjuvant endocrine therapy. Neoadjuvant anastrozole in combination with palbociclib, a CDK4/6 inhibitor, has been shown to significantly reduce Ki67, suggesting that CDK4/6 inhibition can increase the efficacy of neoadjuvant endocrine therapy.With the use of neoadjuvant chemotherapy or endocrine therapy, observation of the response of the intact tumor and/or nodal metastases to a specific regimen could ultimately help to define which patients will benefit from specific therapies in the adjuvant setting. In adjuvant trials the primary endpoint is typi-cally survival, whereas in neoadjuvant trials the endpoints have more often been clinical or pathologic response rates. There"
+        },
+        {
+            "id": "InternalMed_Harrison_7598",
+            "title": "InternalMed_Harrison",
+            "content": "grade iii (anaPlastic) astrocytoma These account for approximately 15\u201320% of high-grade astrocytomas. They generally present in the fourth and fifth decades of life as variably enhancing tumors. Treatment is the same as for glioblastoma, consisting of maximal safe surgical resection followed by RT with concurrent and adjuvant temozolomide or by RT and adjuvant temozolomide alone."
+        },
+        {
+            "id": "Pharmacology_Katzung_6159",
+            "title": "Pharmacology_Katzung",
+            "content": "Bevacizumab is a humanized IgG1 monoclonal antibody that binds to vascular endothelial growth factor (VEGF) and inhibits VEGF from binding to its receptor, especially on endothelial cells. It is an antiangiogenic drug that has been shown to inhibit growth of blood vessels (angiogenesis) in tumors. It is approved for firstand second-line treatment of patients with metastatic colorectal cancer alone or in combination with appropriate chemotherapy. It is also approved for treatment of non-small cell lung cancer, glioblastoma multiforme that has progressed after prior treatment, and metastatic kidney cancer when used with IFN-\u03b1. Since bevacizumab is antiangiogenic, it should not be administered until patients heal from surgery. Patients taking the drug should be watched for hemorrhage, gastrointestinal perforations, and wound healing problems. Bevacizumab has also been used off label by intravitreal injection to slow progression of neovascular macular degeneration (see ranibizumab under"
+        },
+        {
+            "id": "Neurology_Adams_5410",
+            "title": "Neurology_Adams",
+            "content": "Bode U, Massimino M, Bach F, et al: Nimotuzumab treatment of malignant gliomas. Expert Opin Biol Ther 12:1649, 2012. Boughey AM, Fletcher NA, Harding AE: Central nervous system hemangioblastoma: A clinical and genetic study of 52 cases. J Neurol Neurosurg Psychiatry 53:644, 1990. Brougham M, Heusner AP, Adams RD: Acute degenerative changes in adenomas of the pituitary body\u2014with special reference to pituitary apoplexy. J Neurosurg 7:421, 1950. Brown CE, Alizadeh D, Starr R, et al: Regression of glioblastoma after chimeric antigen receptor T-cell therapy. New Engl J Med 375:2561, 2016. Buckner JC, Shaw EG, Pugh SL, et al: Radiation plus procarbazine, CCNU and vincristine in low-grade glioma. New Engl J Med 374:1344, 2016. Cairncross JG, MacDonald DR: Chemotherapy for oligodendroglioma: Progress report. Arch Neurol 48:225, 1991."
+        },
+        {
+            "id": "Neurology_Adams_5100",
+            "title": "Neurology_Adams",
+            "content": "The natural history of the low-grade gliomas is to grow slowly and eventually undergo malignant transformation. The duration of progression before this transformation occurs and the latency to recurrence with modern treatment may extend for many years. A survey of the outcome of these low-grade supratentorial tumors showed that 10-year survival after operation was from 11 to 40 percent provided that conformal therapy (focused on the tumor, in contrast to whole brain radiation) 5,300 cGy was given postoperatively (Shaw et al). This, of course, is quite in contrast to the figures for glioblastoma. Repeated operations prolong life in some patients."
+        },
+        {
+            "id": "Neurology_Adams_5073",
+            "title": "Neurology_Adams",
+            "content": "a mixed appearance that is termed gliosarcoma. The histologic grade of glioblastoma may vary from site to site within a tumor and it is common for sites of low-grade astrocytoma and glioblastoma to coexist; in some high-grade tumors there are even sites of well-differentiated astrocytoma. This relates to a problem that arises in interpreting single small biopsy samples taken for diagnosis. It is a fair statement that the most aggressive component determines the tumor\u2019s behavior."
+        },
+        {
+            "id": "InternalMed_Harrison_5575",
+            "title": "InternalMed_Harrison",
+            "content": "Periodic fasting dampens the consequences of many age-related neurodegenerative diseases (Alzheimer\u2019s disease, Parkinson\u2019s disease, Huntington\u2019s disease, and frontotemporal dementia, but not amyotrophic lateral sclerosis in mouse models). Fasting cycles are as effective as chemotherapy against certain tumors in mice. In combination with chemotherapy, fasting protected mice against the negative side effects of chemotherapeutic drugs, while it enhanced their efficacy against tumors. Combining fasting and chemotherapy rendered 20\u201360% of mice cancer-free when inoculated with highly aggressive tumors like glioblastoma or pancreatic tumors, which have 100% mortality even with chemotherapy. This approach has been attempted in people with some indication that toxicities of chemotherapy are reduced. Pharmacologic Interventions to Delay Aging and Increase Lifespan"
+        },
+        {
+            "id": "Pathology_Robbins_1241",
+            "title": "Pathology_Robbins",
+            "content": "Gain-of-function mutations involving CDK4 or D cyclins. Mishaps increasing the expression of cyclin D or CDK4 are common events in neoplastic transformation. The cyclin D genes are overexpressed in many cancers, including those affecting the breast, esophagus, liver, and a subset of lymphomas and plasma cell tumors. Amplification of the CDK4 gene occurs in melanomas, sarcomas, and glioblastomas. Mutations affecting cyclins B and E and other CDKs also occur, but they are much less frequent than those affecting cyclin D and CDK4."
+        },
+        {
+            "id": "Surgery_Schwartz_2302",
+            "title": "Surgery_Schwartz",
+            "content": "cancer.Nonresectable subependymal giant cell astrocytoma associated with tuberous sclerosisGefitinibIressaEGFRNSCLC with known/previous benefit from gefitinib (limited approval)IbrutinibImbruvicaBruton\u2019s Tyrosine KinaseChronic lymphocytic leukemiaImatinibGleevecKIT, ABL, PDGFRCML,GIST (KIT+),Dermatofibrosarcoma protuberansLapatinibTykerbEGFR and HER2Breast cancer (HER2+)NilotinibTasignaABLCML (Philadelphia chromosome+)PanitumumabVectibixEGFRColorectal cancer (KRAS wild type)PazopanibVotrientVEGFR, PDGFR, KITRCCPertuzumabPerjetaHER2Breast cancer (HER+)PonatinibIclusigABL, FGFR1-3, FLT3, VEGFR2CML, ALL (Philadelphia chromosome+)RegorafenibStivargaKIT, PDGFR\u03b2, RAF, RET, VEGFR1/2/3Colorectal cancer, GISTSorafenibNexavarVEGFR, PDGFR, KIT, RAFHCCRCCSunitinibSutentVEGFR PDGFR KIT, Flt-3, RETGIST,RCC,PNETTemsirolimusToriselmTORRCCTrastuzumabHerceptinHER2Breast cancer (HER2+)Gastric cancer (HER2+)VandetanibCaprelsaEGFR, RET, VEGFR2Medullary thyroid cancerVemurafenibZelborafBRAFMelanoma (BRAF"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5573",
+            "title": "Cell_Biology_Alberts",
+            "content": "Out of all tumors, 74% had identifiable mutations in all three pathways. If one were to trace these three pathways further upstream and include all the components, known and unknown, on which they depend, this percentage would almost certainly be even higher. In other words, in almost every case of glioblastoma, there are mutations that disrupt each of three fundamental controls: the control of cell growth, the control of cell division, and the control of responses to stress and DNA damage. Strikingly, in any given tumor-cell clone, there is a strong tendency for no more than one gene to be mutated in each pathway. Evidently, what matters for tumor evolution is the disruption of the control mechanism, and not the genetic means by which that is achieved. Thus, for example, in a patient whose tumor cells have no mutation in Rb itself, there is generally a mutation in some other component of the Rb pathway, producing a similar biological effect."
+        },
+        {
+            "id": "InternalMed_Harrison_6424",
+            "title": "InternalMed_Harrison",
+            "content": "A second class of resistance mechanisms involves loss of the cellular apoptotic mechanism activated after the engagement of a drug\u2019s target by the drug. This occurs in a way that is heavily influenced by the biology of the particular tumor type. For example, decreased alkylguanine alkyltransferase defines a subset of glioblastoma patients with the prospect of greatest benefit from treatment with temozolomide, but has no predictive value for benefit from temozolomide in epithelial neoplasms. Likewise, ovarian cancers resistant to platinating agents have decreased expression of the proapoptotic gene bax. These types of findings have prompted the idea that responsive tumors to chemotherapeutic agents are populated by cells that express drug-related cell death controlling genes, creating in effect a state of \u201csynthetic lethality\u201d of the drug (Chap. 102e) with the genes expressed in responsive tumors, analogous to the existence in yeast of mutations that are well tolerated in the absence"
+        },
+        {
+            "id": "First_Aid_Step2_670",
+            "title": "First_Aid_Step2",
+            "content": "Astrocytoma Arises in brain parenchyma. Low-grade astrocytomas are relatively uncommon. Presents with seizures, focal defcits, or headache. Has a protracted course. Has a better prognosis than glioblastoma multiforme (see below). Resection if possible; radiation. Glioblastoma multiforme (grade IV astrocytoma) High mitotic activity and either endothelial proliferation or necrosis in tumor, leading to ring-enhancing lesions on MRI. There is a major difference between grade III and grade IV. The most common 1\u00b0 brain tumor. Presents with headache and \u2191 seizures, focal def cits, or headache. Progresses rapidly and has a poor prognosis (< 1 year from the time of prognosis). Surgical removal/resection. Radiation and chemotherapy have variable results. Meningioma Originates from the dura mater or arachnoid. Presentation depends on location; often related to cranial neuropathy or is an incidental f nding. Good prognosis. Incidence \u2191 with age. Imaging may reveal dural tail. Surgical resection;"
+        }
+    ],
+    "scores": [
+        0.0370562728367749,
+        0.03609891318602752,
+        0.03426030163286338,
+        0.03391008910161582,
+        0.03098301776126129,
+        0.02931850098588666,
+        0.0268611050828403,
+        0.026573329249082234,
+        0.02562190208501467,
+        0.025068214988260677,
+        0.02482212670891916,
+        0.024816233776006225,
+        0.02452554819811457,
+        0.02418743328488673,
+        0.024118675752276428,
+        0.023979683954033076,
+        0.023881006475943184,
+        0.023620432810255373,
+        0.023350270434045618,
+        0.023088324832991686,
+        0.021667297528423828,
+        0.02155544001848593,
+        0.02026907097968083,
+        0.01979776948659691,
+        0.018423423423423423,
+        0.0180999180999181,
+        0.017475579975579976,
+        0.016373124592302675,
+        0.016133035492678083,
+        0.015692307692307693,
+        0.01563358778625954,
+        0.015449773323789072
+    ]
+}

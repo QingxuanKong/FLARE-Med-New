@@ -1,0 +1,206 @@
+{
+    "id": "645004fa57b1c7a31500008b",
+    "question": "Are accessible enhancers necessarily active?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of enhancers in gene regulation. Enhancers are DNA sequences that can increase the rate of transcription initiation by RNA polymerase II. They can be located upstream or downstream of the transcription start site, and can be far away from the promoter. The presence of an enhancer does not necessarily mean that it is active, as it can be bound by repressor proteins or other factors that prevent transcription. However, when an enhancer is bound by activator proteins, it can increase the rate of transcription initiation. Therefore, the accessibility of an enhancer is not necessarily a guarantee of its activity. We need to consider the presence of activator proteins and the overall regulatory context to determine if an enhancer is active or not.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1837",
+            "title": "Cell_Biology_Alberts",
+            "content": "Activator proteins promote the Assembly of rnA polymerase at the Start point of transcription The cis-regulatory sequences to which eukaryotic transcription activator proteins bind were originally called enhancers because their presence \u201cenhanced\u201d the rate of transcription initiation. It came as a surprise when it was discovered that these sequences could be found tens of thousands of nucleotide pairs away from the promoter; as we have seen, DNA looping, which was not widely appreciated at the time, can now explain this initially puzzling observation. Once bound to DNA, how do assemblies of activator proteins increase the rate of transcription initiation? At most genes, mechanisms work in concert. Their function is both to attract and position RNA polymerase II at the promoter and to release it so that transcription can begin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1982",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201358 Negative and positive control of alternative RNA splicing. in negative control, a repressor protein binds to a specific sequence in the premrnA transcript and blocks access of the splicing machinery to a splice junction. this often results in the use of a secondary splice site, thereby producing an altered pattern of splicing (see figure 7\u201356). in positive control, the splicing machinery is unable to remove a particular intron sequence efficiently without assistance from an activator protein. Because rnA is flexible, the nucleotide sequences that bind these activators can be located many nucleotide pairs from the splice junctions they control, and they are often called splicing enhancers, by analogy with the transcriptional enhancers mentioned earlier in this chapter."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1838",
+            "title": "Cell_Biology_Alberts",
+            "content": "Some activator proteins bind directly to one or more of the general transcription factors, accelerating their assembly on a promoter that has been brought in proximity\u2014through DNA looping\u2014to that activator. Most transcription activators, however, attract coactivators that then perform the biochemical tasks needed to initiate transcription. One of the most prevalent coactivators is the large Mediator protein complex, composed of more than 30 subunits. About the same size as RNA polymerase itself, Mediator serves as a bridge between DNA-bound transcription activators, RNA polymerase, and the general transcription factors, facilitating their assembly at the promoter (see Figure 7\u201317). eukaryotic transcription Activators Direct the Modification of local Chromatin Structure"
+        },
+        {
+            "id": "Pathology_Robbins_120",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 DNA-binding domains permit specific binding to short DNA sequences. Whereas some transcription factor binding sites are found in promoters, close to the site where transcription starts, it is now appreciated that most transcription factors bind widely throughout genomes, including to long-range regulatory elements such as enhancers. Enhancers function by looping back to gene promoters, and therefore are spatially located close to the genes that they regulate, even though it terms of genomic sequence they may appear to be far Table 1.1 GrowthFactorsInvolvedinRegenerationandRepair away. These insights highlight the importance of chromatin organization in regulating gene expression, both normal and pathologic."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2516",
+            "title": "Cell_Biology_Alberts",
+            "content": "transcribe the gene. Thus, the quantity of interest is the unbound fraction, which can be viewed as the probability that the site is free, averaged over multiple binding and unbinding events. When the repressor concentration is zero, the unbound fraction is 1 and the promoter is fully active; when the repressor concentration greatly exceeds 1/K, the unbound fraction approaches zero. Figures 8\u201375B and C compare these relationships for a transcription activator and a transcription repressor."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1532",
+            "title": "Biochemistry_Lippinco",
+            "content": "allowing it to clear the promoter.] c. Regulatory elements and transcriptional activators: Additional consensus sequences lie upstream of the core promoter (see Fig. 31.12). Those close to the core promoter (within ~200 nucleotides) are the proximal regulatory elements, such as the CAAT and GC boxes. Those farther away are the distal regulatory elements such as enhancers (see d. below). Proteins known as transcriptional activators or specific transcription factors (STF) bind these regulatory elements. STF bind to promoter proximal elements to regulate the frequency of transcription initiation and to distal elements to mediate the response to signals such as hormones (see p. 472) and regulate which genes are expressed at a given point in time. A typical protein-coding eukaryotic gene has binding sites for many such factors. STF have two binding domains. One is a DNA-binding domain, the other is a transcription activation domain that recruits the GTF to the core promoter as well as"
+        },
+        {
+            "id": "InternalMed_Harrison_4783",
+            "title": "InternalMed_Harrison",
+            "content": "at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences of the gene. Specific groups of transcription factors that bind to these promoter and enhancer sequences provide a combinatorial code for regulating transcription. In this manner, relatively ubiquitous factors interact with more restricted factors to allow each gene to be expressed and regulated in a unique manner that is dependent on developmental state, cell type, and numerous extracellular stimuli. Regulatory factors also bind within the gene itself, particularly in the intronic regions. The transcription factors that bind to DNA actually represent only the first level of regulatory control. Other proteins\u2014co-activators and co-repressors\u2014interact with the DNA-binding transcription factors to generate large regulatory complexes. These complexes are subject to control by numerous"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1853",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201323 Six ways in which eukaryotic repressor proteins can operate. (A) Activator proteins and repressor proteins compete for binding to the same regulatory DnA sequence. (B) Both proteins bind DnA, but the repressor prevents the activator from carrying out its functions. (C) the repressor blocks assembly of the general transcription factors. (D) the repressor recruits a chromatin remodeling complex, which returns the nucleosomal state of the promoter region to its pre-transcriptional form. (e) the repressor attracts a histone deacetylase to the promoter. As we have seen, histone acetylation can stimulate transcription initiation (see figure 7\u201320), and the repressor simply reverses this modification. (f) the repressor attracts a histone methyl transferase, which modifies certain positions on histones by attaching methyl groups; the methylated histones, in turn, are bound by proteins that maintain the chromatin in a transcriptionally silent form."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1841",
+            "title": "Cell_Biology_Alberts",
+            "content": "promoters (Figure 7\u201319). These local alterations in chromatin structure provide greater access to DNA, thereby facilitating the assembly of the general transcription factors at the promoter. In addition, some histone modifications specifically attract these proteins to the promoter. These mechanisms often work together during transcription initiation (Figure 7\u201320). Finally, as discussed earlier in this chapter, the local chromatin changes directed by one transcriptional regulator can allow the binding of additional regulators. By repeated use of this principle, large assemblies of proteins can form on control regions of genes to regulate their transcription."
+        },
+        {
+            "id": "InternalMed_Harrison_4782",
+            "title": "InternalMed_Harrison",
+            "content": "REGULATION OF GENE EXPRESSION Regulation by Transcription Factors The expression of genes is regulated by DNA-binding proteins that activate or repress transcription. The number of DNA sequences and transcription factors that regulate transcription is much greater than originally anticipated. Most genes contain at least 15\u201320 discrete regulatory elements within 300 bp of the transcription start site. This densely packed promoter region often contains binding sites for ubiquitous transcription factors such as CAAT box/enhancer binding protein (C/EBP), cyclic AMP response element\u2013binding (CREB) protein, selective promoter factor 1 (Sp-1), or activator protein 1 (AP-1). However, factors involved in cell-specific expression may also bind to these sequences. Key regulatory elements may also reside at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences"
+        },
+        {
+            "id": "Cell_Biology_Alberts_961",
+            "title": "Cell_Biology_Alberts",
+            "content": "Chromatin Can move to Specific Sites within the Nucleus to Alter gene Expression A variety of different types of experiments has led to the conclusion that the position of a gene in the interior of the nucleus changes when it becomes highly expressed. Thus, a region that becomes very actively transcribed is sometimes found to extend out of its chromosome territory, as if in an extended loop (Figure 4\u201356). We will see in Chapter 6 that the initiation of transcription\u2014the first step in gene expression\u2014requires the assembly of over 100 proteins, and it makes sense that this would be facilitated in regions of the nucleus enriched in these proteins. More generally, it is clear that the nucleus is very heterogeneous, with functionally different regions to which portions of chromosomes can move as they are subjected to different biochemical processes\u2014such as when their gene expression changes. It is this issue that we discuss next."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1858",
+            "title": "Cell_Biology_Alberts",
+            "content": "To avoid such cross-talk, several types of DNA elements compartmentalize the genome into discrete regulatory domains. In Chapter 4, we discussed barrier sequences that prevent the spread of heterochromatin into genes that need to be expressed. A second type of DNA element, called an insulator, prevents cis-regulatory sequences from running amok and activating inappropriate genes (Figure 7\u201324). Insulators function by forming loops of chromatin, an effect mediated by specialized proteins that bind them (see Figures 4\u201348 and 7\u201324B). The loops hold a gene and its control region in rough proximity and help to prevent the control region from \u201cspilling over\u201d to adjacent genes. Importantly, these loops can be in different in different cell types, depending on the particular proteins and chromatin structures that are present."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1863",
+            "title": "Cell_Biology_Alberts",
+            "content": "to sequences that can be tens or even hundreds of thousands of nucleotide pairs from the promoter that directs transcription of the gene. Eukaryotic activators and repressors act by a wide variety of mechanisms\u2014generally altering chromatin structure and controlling the assembly of the general transcription factors and RNA polymerase at the promoter. They do this by attracting coactivators and co-repressors, protein complexes that perform the necessary biochemical reactions. The time and place that each gene is transcribed, as well as its rates of transcription under different conditions, are determined by the particular spectrum of transcription regulators that bind to the regulatory region of the gene."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2550",
+            "title": "Cell_Biology_Alberts",
+            "content": "Consider a gene whose promoter contains binding sites for two regulatory proteins, A and R, which bind to their individual sites independently. There are four possible binding configurations (Figure 8\u201383A). Suppose that A is a transcription activator, R is a transcription repressor, and the gene is only active when A is bound and R is not bound. We learned earlier that the probability that A is bound and the probability that R is not bound can be determined by the equations in Figure 8\u201384A. The product of these two probabilities gives us the probability of gene activation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2497",
+            "title": "Cell_Biology_Alberts",
+            "content": "To assess the biological impact of a change in transcription activator levels, it is also important in many cases to determine the fraction of the target gene promoter that is bound by the activator, since this number will be directly proportional to the activity of the gene\u2019s promoter. In our case, we can calculate the fraction of the gene X promoter, pX, that has protein A bound to it by rearranging Equation 8\u20132 (Equation 8\u20133, Figure 8\u201372E). This fraction can be viewed as the probability that promoter pX is occupied, averaged over time. It is also equal to the average occupancy across a large population of cells at any instant in time. When there is no protein A present, pX is always free, the bound fraction is zero, and transcription is off. When [A] = 1/K, the promoter pX has a 50% chance of being occupied. When [A] greatly exceeds 1/K, the bound fraction is almost equal to one, meaning that pX is fully occupied and transcription is maximal."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1535",
+            "title": "Biochemistry_Lippinco",
+            "content": "d. Role of enhancers: Enhancers are special DNA sequences that increase the rate of initiation of transcription by RNA pol II. Enhancers are typically on the same chromosome as the gene whose transcription they stimulate (Fig. 31.13B). However, they can 1) be located upstream (to the 5\u2032-side) or downstream (to the 3\u2032-side) of the transcription start site, 2) be close to or thousands of base pairs away from the promoter (Fig. 31.14), and 3) occur on either strand of the DNA. Enhancers contain DNA sequences called response elements that bind STF. By bending or looping the DNA, STF can interact with other TF bound to a promoter and with RNA pol II, thereby stimulating transcription (see Fig. 31.13B). Mediator also binds enhancers. [Note: Although silencers are similar to enhancers in that they also can act over long distances, they reduce gene expression.] e. RNA polymerase II inhibitor: \u03b1-Amanitin, a potent toxin produced by the poisonous mushroom Amanita phalloides (sometimes called"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1805",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201311 How nucleosomes effect the binding of transcription regulators. \u201cbreathing\u201d cis-regulatory sequence this open form occurs about 1/20th of the time (A) (B) compared to its affnity for naked DNA, a typical transcription regulator will bind with 20 times lower affnity if its cis-regulatory sequence is located near the end of a nucleosome a typical transcription regulator will bind with roughly 200-fold less affnity + + transcription regulatorhistone core + + + (C) if its cis-regulatory sequence is located in the middle of a nucleosome (D) one transcription regulator can destabilize the nucleosome, facilitating binding of another"
+        },
+        {
+            "id": "Surgery_Schwartz_3303",
+            "title": "Surgery_Schwartz",
+            "content": "TATA boxes that can be recognized and bound by a large complex containing RNA polymerase II, forming the basal transcription machinery. Usually located upstream of the TATA box (but sometimes lon-ger distances) are a number of regulatory sequences referred to as enhancers that are recognized by regulatory proteins called transcription factors. These transcription factors specifically bind to the enhancers, often in response to environmental or developmental cues, and cooperate with each other and with basal transcription factors to initiate transcription. Regulatory sequences that negatively regulate the initiation of transcription also are present on the promoter DNA. The transcription factors that bind to these sites are called repressors, in contrast to the activators that activate transcription. The molecular interactions Figure 15-6. Transcriptional control by RNA polymerase. DNA is packaged into a chromatin structure. TATA = the common sequence on the promoter recognized by TBP"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1659",
+            "title": "Biochemistry_Lippinco",
+            "content": "Access to DNA: In eukaryotes, DNA is found complexed with histone and nonhistone proteins to form chromatin (see p. 425). Transcriptionally active, decondensed chromatin (euchromatin) differs from the more condensed, inactive form (heterochromatin) in a number of ways. Active chromatin contains histone proteins that have been covalently modified at their amino terminal ends by reversible methylation, acetylation, or phosphorylation (see p. 438 for a discussion of histone acetylation/deacetylation by histone acetyltransferase and histone deacetylase). Such modifications decrease the positive charge of these basic proteins, thereby decreasing the strength of their association with negatively charged DNA. This relaxes the nucleosome (see p. 425), allowing transcription factors access to specific regions on the DNA. Nucleosomes can also be repositioned, an ATP-requiring process that is part of chromatin remodeling. Another difference between transcriptionally active and inactive chromatin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1806",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cooperation among transcription regulators can become much greater when nucleosome remodeling complexes are involved. If one transcription regulator binds its cis-regulatory sequence and attracts a chromatin remodeling complex, the localized action of the remodeling complex can allow a second transcription regulator to efficiently bind nearby. Moreover, we have discussed how transcription regulators can work together in pairs; in reality, larger numbers often cooperate by repeated use of the same principles. A highly cooperative binding of transcription regulators to DNA probably explains why many sites in eukaryotic genomes that are bound by transcription regulators are \u201cnucleosome free.\u201d"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1852",
+            "title": "Cell_Biology_Alberts",
+            "content": "Such transcriptional synergy is not only observed between different transcription activators from the same organism; it is also seen between activator proteins from different eukaryotic species when they are experimentally introduced into the same cell. this last observation reflects the high degree of conservation of the machinery responsible for eukaryotic transcription initiation. recruitment of chromatin masking the activation surface for activator for repressor binding site recruitment of with the general transcription factors recruitment of TATA histone methyl transferase histone methylation proteins that bind to methylated histones"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2518",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201375 How promoter occupancy depends on the binding affinity of a transcription regulator protein. (A) The fraction of a binding site that is occupied by a transcription repressor R is determined by an equation that is similar to the one we used for a transcription activator (see Figure 8\u201372E), except that in the case of a repressor we are interested primarily in the unbound fraction. (B) For a transcription activator A, half of the promoters are occupied when [A] = 1/KA. Gene activity is proportional to this bound fraction. (C) For a transcription repressor R, gene activity is proportional to the unbound fraction of promoters. As indicated, this fraction is reduced to half of its maximal value when [R]=1/KR. (D) As in the case of the transcription activator A (see Figure 8\u201374), 0.5 0.5 we can derive equations to assess the timing of protein X production as a function of repressor concentrations."
+        },
+        {
+            "id": "Pathology_Robbins_21",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 1.4 ); for example, they can bind to regions of chromatin, restricting RNA polymerase access to coding genes within the region. The best-known example of a repressive function involves XIST, which is transcribed from the X chromosome and plays an essential role in physiologic X chromosome inactivation. XIST itself escapes X inactivation, but forms a repressive \u201ccloak\u201d on the X chromosome from which it is transcribed, resulting in gene silencing. Conversely, it has been appreciated that many enhancers are sites of lncRNA synthesis, with the lncRNAs expanding transcription from gene promoters through http://ebooksmedicine.net Unwinding of miRNA duplex"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1817",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA-bound activator proteins can increase the rate of transcription initiation as much as 1000-fold, a value consistent with a relatively weak and nonspecific interaction between the transcription regulator and RNA polymerase. For example, a 1000-fold change in the affinity of RNA polymerase for its promoter corresponds to a change in \u2206G of \u224818 kJ/mole, which could be accounted for by just a few weak, noncovalent bonds. Thus, many activator proteins work simply by providing a few favorable interactions that help to attract RNA polymerase to the promoter. To provide this assistance, however, the activator protein must be bound to its cis-regulatory sequence, and this sequence must be positioned, with respect to the promoter, so that the favorable interactions can occur."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2553",
+            "title": "Cell_Biology_Alberts",
+            "content": "KA[A]fraction of A bound = fraction of R not bound = P(A,R) = . = concentration of R concentration of R concentration of A concentration of A Figure 8\u201383 Combinatorial control of gene expression. There are many ways in which gene expression can be controlled by two transcription regulators. To define precisely the relationship between the two inputs and the gene expression output, a regulatory circuit is often described as a specific type of logic gate, a term borrowed from electronic circuit design. A simple example is the OR logic gate (not shown here), in which a gene is controlled by two transcription activators, and one or the other can activate gene expression. (A) In a system with an activator A and repressor R, if transcription is turned on only when A is bound and R is not, then the result is an AND NOT logic gate. We saw an example of this logic in Chapter 7 (Figure 7\u201315)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1861",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although chromosomes are organized into orderly domains that discourage control regions from acting indiscriminately, there are special circumstances where a control region located on one chromosome has been found to activate a gene located on a different chromosome. Although there is much we do not understand about this mechanism, it indicates the extreme versatility of transcriptional regulation strategies."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1839",
+            "title": "Cell_Biology_Alberts",
+            "content": "eukaryotic transcription Activators Direct the Modification of local Chromatin Structure The eukaryotic general transcription factors and RNA polymerase are unable, on their own, to assemble on a promoter that is packaged in nucleosomes. Thus, in addition to directing the assembly of the transcription machinery at the promoter, eukaryotic transcription activators promote transcription by triggering changes to the chromatin structure of the promoters, making the underlying DNA more accessible. The most important ways of locally altering chromatin are through covalent histone modifications, nucleosome remodeling, nucleosome removal, and his-tone replacement (discussed in Chapter 4). Eukaryotic transcription activators use all four of these mechanisms: thus they attract coactivators that include his-tone modification enzymes, ATP-dependent chromatin remodeling complexes, and histone chaperones, each of which can alter the chromatin structure of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1851",
+            "title": "Cell_Biology_Alberts",
+            "content": "An important point is that a transcription activator protein must be bound to DNA to influence transcription of its target gene. And the rate of transcription of a gene ultimately depends upon the spectrum of regulatory proteins bound upstream and downstream of its transcription start site, along with the coactivator proteins they bring to DNA. Although the \u201cdefault\u201d state of eukaryotic DNA packaged into nucleosomes is resistant to transcription, eukaryotes nonetheless use transcription regulators to Figure 7\u201322 Transcriptional synergy. this experiment compares the rate of transcription produced by three experimentally constructed regulatory regions in a eukaryotic cell and reveals transcriptional synergy, a greater than additive effect of multiple activators working together. for simplicity, coactivators have been omitted from the diagram."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2459",
+            "title": "Cell_Biology_Alberts",
+            "content": "is present in the nucleus and is competent to bind DNA, other transcription regulators or components of chromatin can occupy overlapping DNA sequences and thereby occlude some of its cis-regulatory sequences in the genome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_894",
+            "title": "Cell_Biology_Alberts",
+            "content": "Some combinations are known to have a specific meaning for the cell in the sense that they determine how and when the DNA packaged in the nucleosomes is to be accessed or manipulated\u2014a fact that led to the idea of a \u201chistone code.\u201d For example, one type of marking signals that a stretch of chromatin has been newly replicated, another signals that the DNA in that chromatin has been damaged and needs repair, while others signal when and how gene expression should take place. Various regulatory proteins contain small domains that bind to specific marks, recognizing, for example, a trimethylated lysine 4 on histone H3 (Figure 4\u201336). These domains are often linked together as modules in a single large"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1783",
+            "title": "Cell_Biology_Alberts",
+            "content": "this structure. When first discovered in the 1960s, it was thought that these proteins might require direct access to the interior of the double helix to distinguish between one DNA sequence and another. It is now clear, however, that the outside of the double helix is studded with DNA sequence information that transcription regulators recognize: the edge of each base pair presents a distinctive pattern of hydrogen-bond donors, hydrogen-bond acceptors, and hydrophobic patches in both the major and minor grooves (Figure 7\u20137). Because the major groove is wider and displays more molecular features than does the minor groove, nearly all transcription regulators make the majority of their contacts with the major groove\u2014as we shall see."
+        },
+        {
+            "id": "Cell_Biology_Alberts_911",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201341 Some mechanisms of barrier action. These models are derived from experimental analyses of barrier action, and a combination of several of them may function at any one site. The tethering of a region of chromatin to a large fixed site, such as the nuclear pore complex illustrated here, can form a barrier that stops the spread of heterochromatin. The tight binding of barrier proteins to a group of nucleosomes can make this chromatin resistant to heterochromatin spreading. (C) by recruiting a group of highly active histone-modifying enzymes, barriers can erase the histone marks that are required for heterochromatin to spread. For example, a potent acetylation of lysine 9 on histone H3 will compete with lysine 9 methylation, thereby preventing the binding of the HP1 protein needed to form a major form of heterochromatin. (based on A.g. west and P. Fraser, Hum. Mol. Genet. 14:R101\u2013R111, 2005. with permission from Oxford University Press.)"
+        }
+    ],
+    "scores": [
+        0.02491930511732492,
+        0.022392448228021444,
+        0.018874643874643875,
+        0.017948717948717947,
+        0.01743396226415094,
+        0.017238828055637763,
+        0.016993188680570183,
+        0.016979638822936904,
+        0.016979638822936904,
+        0.016653182308522113,
+        0.016421024295040044,
+        0.016335978835978836,
+        0.0161509900990099,
+        0.015881742104941664,
+        0.0155842683894367,
+        0.015388257575757576,
+        0.015061238000662032,
+        0.014433962264150942,
+        0.014391468654552984,
+        0.01417624521072797,
+        0.014121364736088481,
+        0.01399703374119392,
+        0.013937451437451436,
+        0.013825324180015256,
+        0.013752276867030965,
+        0.013392667938122483,
+        0.013227513227513227,
+        0.012703962703962703,
+        0.012670565302144249,
+        0.012545225735409785,
+        0.012308741099833358,
+        0.011416861826697891
+    ]
+}

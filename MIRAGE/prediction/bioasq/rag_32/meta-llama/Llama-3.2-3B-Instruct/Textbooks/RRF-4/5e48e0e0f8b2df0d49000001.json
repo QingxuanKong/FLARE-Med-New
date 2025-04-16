@@ -1,0 +1,206 @@
+{
+    "id": "5e48e0e0f8b2df0d49000001",
+    "question": "Are gut microbiota profiles altered by irradiation?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the information provided in the documents. Document [26] (Title: Pathology_Robbins) discusses the effects of radiation on the body, including the hematopoietic system, GI system, and CNS. According to this document, exposure to large areas of the body to even small doses of radiation may have devastating effects, and total-body exposure to ionizing radiation can cause acute radiation syndromes. Document [28] (Title: Cell_Biology_Alberts) also discusses the effects of radiation on the body, specifically mentioning that hematopoietic precursors in the bone marrow are sensitive to radiant energy, leading to marrow aplasia. This suggests that radiation can alter the body's microbiota by affecting the bone marrow, where the microbiota is produced. Additionally, Document [21] (Title: InternalMed_Harrison) mentions that germ-free mice have reduced numbers of CD4+ T cells, which are a type of immune cell that can be affected by radiation. Furthermore, Document [19] (Title: InternalMed_Harrison) states that germ-free mice have reduced bone mass, which can be restored by colonization with a normal gut microbiota. Considering these points, it is likely that the gut microbiota profiles are altered by irradiation. \", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_29657",
+            "title": "InternalMed_Harrison",
+            "content": "The human microbiome (Chap. 86e) represents the collective set of genes from the 1014 organisms living in our gut, skin, mucosa, and other sites. Different microbial communities are associated with different ethnicities, diets, and environments. In any individual, the predominant gut microbiota can be remarkably stable over decades, but also can be altered by exposure to certain microbial species, for example by ingestion of probiotics."
+        },
+        {
+            "id": "InternalMed_Harrison_5224",
+            "title": "InternalMed_Harrison",
+            "content": "nutrient absorption. 16S rRNA analyses have documented that changes in the gut microbiota after this surgery are conserved among mice, rats, and humans; animal studies have demonstrated these changes along the length of the gut but most prominently downstream of the site of surgical manipulation of the bowel. Notably, transplantation of the gut microbiota from mice that have undergone Roux-en-Y gastric bypass to germ-free mice that have not had this surgery produces reductions in weight and adiposity not seen in recipients of microbiotas from mice that underwent sham surgery."
+        },
+        {
+            "id": "InternalMed_Harrison_5207",
+            "title": "InternalMed_Harrison",
+            "content": "ESTABLISHING CAUSAL RELATIONSHIPS BETWEEN THE GUT MICROBIOTA AND NORMAL PHYSIOLOGIC, METABOLIC, AND IMMUNOLOGIC PHENOTYPES AS WELL AS DISEASE STATES Gnotobiotic animals are raised in germ-free environments\u2014with no exposure to microbes\u2014and then colonized at specific stages of life with specified microbial communities. Gnotobiotic mice provide an excellent system for controlling host genotype, microbial community composition, diet, and housing conditions. Microbial communities harvested from donor mice with defined genotypes and phenotypes 86e-7 can be used to determine how the donors\u2019 microbial communities affect the properties of formerly germ-free recipients. The recipients may also affect the transplanted microbiota and its microbiome. Thus gnotobiotic mice afford investigators an opportunity to marry comparative studies of donor communities to functional assays of community properties and to determine how (and for how long) these functions influence host biology."
+        },
+        {
+            "id": "Pathology_Robbins_2051",
+            "title": "Pathology_Robbins",
+            "content": "The Role of Gut Microbiome An interesting series of observations suggest that the gut microbiome may be involved in the development of obesity. In support of this notion is the finding that the profiles of gut microbiota differ between genetically obese mice and their lean littermates. The microbiome of genetically obese mice can harvest much more energy from food as compared to that of lean mice. Colonization of the gut of germfree mice by microbiota from obese mice (but not microbiota from lean mice) is associated with increased body weight. The relevance of these models to human obesity is tantalizing but remains to be proven. Clinical Consequences of Obesity"
+        },
+        {
+            "id": "InternalMed_Harrison_5208",
+            "title": "InternalMed_Harrison",
+            "content": "The Cardiovascular System The gut microbiota affects the elaborate microvasculature underlying the small-intestinal epithelium: capillary network density is markedly reduced in adult germ-free animals but can be restored to normal levels within 2 weeks after gut microbiota transplantation. Mechanistic studies have shown that the microbiota promotes vascular remodeling in the gut through effects on a novel extravascular tissue factor\u2013protease-activated receptor (PAR1) signaling pathway. Heart weight measured echocardiographically or as wet mass and normalized to tibial length or lean body weight is significantly reduced in germ-free mice; this difference is eliminated within 2 weeks after colonization with a gut microbiota. During fasting, a gut microbiota\u2013dependent increase in hepatic ketogenesis (regulated by peroxisome proliferator\u2013activated receptor \u03b1) occurs, and myocardial metabolism is directed to ketone body utilization. Analyses of isolated, perfused working hearts from"
+        },
+        {
+            "id": "InternalMed_Harrison_5220",
+            "title": "InternalMed_Harrison",
+            "content": "to severe immune pathology; i.e., the pathogenic potential of a microbiota may be context-dependent, requiring a confluence of factors. An important observation is that members of the gut microbiota, including B. fragilis or members of Clostridium, prevent the severe inflammation that develops in mouse models mimicking various aspects of human IBD."
+        },
+        {
+            "id": "InternalMed_Harrison_5229",
+            "title": "InternalMed_Harrison",
+            "content": "Characterizing the Effects of the Human Microbiota on Host Biology in Mice and Humans Questions about the relationship between human microbial communities and health status can be posed in the following general format: Is there a consistent configuration of the microbiota definable in the study population that is associated with a given disease state? How is the configuration affected by remission/relapse or by treatment? If a reconfiguration does occur with treatment, is it durable? How is host biology related to the configuration or reconfiguration? What is the effect size? Are correlations robust to individuals from different families and communities representing different ages, geographic locales, and lifestyles?"
+        },
+        {
+            "id": "InternalMed_Harrison_5221",
+            "title": "InternalMed_Harrison",
+            "content": "The gut microbiota has been implicated in promoting immunopathology outside of the intestine. Multiple sclerosis develops in conventionally raised mice whose CD4+ T cell compartment is reactive to myelin oligodendrocyte protein; their germ-free counterparts are completely protected from development of multiple sclerosis\u2013like symptoms. This protection is reversed by colonization with a gut microbiota from conventionally raised animals."
+        },
+        {
+            "id": "Pathology_Robbins_1968",
+            "title": "Pathology_Robbins",
+            "content": "TemporaryhairlossSkin3.0\u20135.0 3.5 5.0 http://ebooksmedicine.net dose levels and large exposure fields, severe lymphopenia may appear within hours of irradiation, along with shrinkage of the lymph nodes and spleen. Radiation directly destroys lymphocytes, both in the circulating blood and in tissues (nodes, spleen, thymus, gut). With sublethal doses of radiation, regeneration from viable progenitors is prompt, leading to restoration of a normal lymphocyte count. Hematopoietic precursors in the bone marrow are also quite sensitive to radiant energy, which produces a dose-dependent marrow aplasia. The acute effects of marrow irradiation on peripheral blood counts reflects the kinetics of turnover of the formed elements\u2014the granulocytes, platelets, and red cells, which have half-lives of less than 1 day, 10 days, and 120 days, respectively. After a brief rise in the circulating neutrophil count, neutropenia appears within several days. Neutrophil counts reach their nadir, often at counts"
+        },
+        {
+            "id": "InternalMed_Harrison_5219",
+            "title": "InternalMed_Harrison",
+            "content": "The microbiota is a key trigger in the development of inflammatory bowel disease (IBD) in mice that harbor mutations in genes associated with IBD risk in humans. Moreover, components of the gut microbiota can modify the activity of the immune system to ameliorate or prevent IBD. Mice containing a mutant ATG16L1 allele linked to Crohn\u2019s disease are particularly susceptible to IBD. Upon infection with mouse norovirus and treatment with dextran sodium sulfate, expression of a hypomorphic ATG16L1 allele leads to defects in small-intestinal Paneth cells and renders mice significantly more susceptible to ileitis than are wild-type control animals. This process is dependent on the gut microbiota and highlights how the intersection of host genetics, infectious agents, and the microbiota can lead to severe immune pathology; i.e., the pathogenic potential of a microbiota may be context-dependent, requiring a confluence of factors. An important observation is that members of the gut microbiota,"
+        },
+        {
+            "id": "InternalMed_Harrison_5223",
+            "title": "InternalMed_Harrison",
+            "content": "Obesity and Diabetes Germ-free mice are resistant to diet-induced obesity. Genetically obese ob/ob mice have gut microbial-community structures that are profoundly altered from those in their lean wild-type (+/+) and heterozygous +/ob littermates. Transplantation of the ob/ob mouse microbiota into wild-type germ-free animals transmits an increased-adiposity phenotype not seen in mice receiving microbiota transplants from +/+ and +/ob littermates. These differences are not attributable to differences in food consumption but rather are associated with differences in microbial community metabolism. Roux-en-Y gastric bypass produces pronounced decreases in weight and adiposity as well as improved glucose metabolism\u2014changes that are not ascribable simply to decreased caloric intake or reduced nutrient absorption. 16S rRNA analyses have documented that changes in the gut microbiota after this surgery are conserved among mice, rats, and humans; animal studies have demonstrated these changes"
+        },
+        {
+            "id": "InternalMed_Harrison_5237",
+            "title": "InternalMed_Harrison",
+            "content": "A key to this approach is the ability to harvest a microbial community from a donor representing a physiology, disease state, lifestyle, or geography of interest; to preserve the donor\u2019s community by freezing it; and then to resurrect and replicate it in multiple recipient gnotobiotic animals that can be reared under conditions where environmental and host variables can be controlled and manipulated to a degree not achievable in clinical studies. Since these mice can be followed as a function of time prior to and after transplantation, in essence, a snapshot of a donor\u2019s community can be converted into a movie. Transplantation of intact uncultured human (fecal) microbiota samples from multiple donors representing the phenotype of interest, with administration of the donors\u2019 diets (or derivatives of those diets) to different groups of mice, is one way to assess whether transmissible responses are shared features of the microbiota or are highly donor specific. A second step is to"
+        },
+        {
+            "id": "Immunology_Janeway_3050",
+            "title": "Immunology_Janeway",
+            "content": "Kato, L.M., Kawamoto, S., Maruya, M., and Fagarasan, S.: The role of the adaptive immune system in regulation of gut microbiota. Immunol. Rev. 2014, 260:67\u201375. Macia, L., Thorburn, A.N., Binge, L.C., Marino, E., Rogers, K.E., Maslowski, K.M., Vieira, A.T., Kranich, J., and Mackay, C.R.: Microbial influences on epithelial integrity and immune function as a basis for inflammatory diseases. Immunol. Rev. 2012, 245:164\u2013176. Maynard, C.L., Elson, C.O., Hatton, R.D., and Weaver, C.T.: Reciprocal interactions of the intestinal microbiota and immune system. Nature 2012, 489:231\u2013241. Peterson, D.A., McNulty, N.P., Guruge, J.L., and Gordon, J.I.: IgA response to symbiotic bacteria as a mediator of gut homeostasis. Cell Host Microbe 2007, 2:328\u2013339. Round, J.L., and Mazmanian, S.K.: Inducible Foxp3+ regulatory T-cell development by a commensal bacterium of the intestinal microbiota. Proc. Natl Acad. Sci. USA 2010, 107:12204\u201312209."
+        },
+        {
+            "id": "Pathology_Robbins_3669",
+            "title": "Pathology_Robbins",
+            "content": "The small intestine and colon are the sites of a wide variety of diseases, many of which affect nutrient and water transport. Perturbation of these processes may cause malabsorption and diarrhea. The intestines are also the principal site where the immune system interfaces with a diverse array of antigens present in food and gut microbes. Recent advances have defined the composition and diversity of the gut microbiome, which is largely unculturable, using molecular approaches. One common trend is the association of reduced microbial diversity in disease. The gut microbiome is also exquisitely sensitive to diet, which may partly explain the association between food allergy and other diet-induced diseases and altered composition of the microbiome. Thus, it is not surprising that the small intestine and colon frequently are involved by infectious and inflammatory processes. The colon is the most common site of gastrointestinal neoplasia in Western populations."
+        },
+        {
+            "id": "InternalMed_Harrison_5225",
+            "title": "InternalMed_Harrison",
+            "content": "The gut microbiota confers protection against the development of type 1 diabetes mellitus in the non-obese diabetic (NOD) mouse model. Disease incidence is significantly lower in conventionally raised male NOD mice than in their female counterparts, while germ-free males are as susceptible as their female counterparts. Castration of males increases disease incidence, while androgen treatment of females provides protection. Transfer of the gut microbiota from adult male NOD mice to female NOD weanlings is sufficient to reduce the severity of disease relative to that among females receiving a microbiota from an adult female or an unmanipulated female. The blocking of protection by treatment with flutamide highlights a functional role for testosterone signaling in this microbiota-mediated protection against type 1 diabetes."
+        },
+        {
+            "id": "Immunology_Janeway_3007",
+            "title": "Immunology_Janeway",
+            "content": "normal function of the gut and immune system. This process is driven mostly by the need to control the intestinal microbiota without eliminating it completely or causing damaging inflammation, and results in the coordinated production of IgA, activation of regulatory and effector T cells, and several innate immune responses. Abnormalities in the host response can alter the composition and behavior of the microbiota, while changes in the microbiota can also influence the development and outcome of many diseases outside the intestine."
+        },
+        {
+            "id": "Immunology_Janeway_2993",
+            "title": "Immunology_Janeway",
+            "content": "Fig 12.22 Effects of the microbiota on disease and systemic immune function. The presence and composition of the microbiota have many downstream consequences for the function of the immune system and other body tissues, some of which may be secondary to the events in the mucosa, while others may reflect the ability of products of intestinal microbes to enter the circulation. The microbiota is also known to have many effects on susceptibility to a wide range of diseases in humans and experimental animals."
+        },
+        {
+            "id": "InternalMed_Harrison_5192",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 86e The Human Microbiome clusters. Subsequent work has shown that the range of variability in the gut microbiota of children and of non-Western populations greatly exceeds the variability captured in the populations used to define the original enterotypes; in addition, even in Western populations, the variability follows more of a continuum dominated by a gradient in the abundance of the genera Bacteroides and Prevotella. Another consideration in enterotype analysis is whether location on a map defined by healthy human variation is relevant to predisposition to disease or whether instead rare species with particular functions are more important discriminants."
+        },
+        {
+            "id": "Pathology_Robbins_3777",
+            "title": "Pathology_Robbins",
+            "content": "Microbiota. The quantity of microbial organisms in the gastrointestinal lumen is enormous, amounting to as many as 1012 organisms/mL of fecal material in the colon (50% of fecal mass). There is significant interindividual variation in the composition of this microbial population, which is modified by diet and disease. Microbial transfer studies are able to promote or reduce disease in animal models of IBD, and clinical trials suggest that probiotic (or beneficial) bacteria or even fecal microbial transplants from healthy individuals may benefit IBD patients. One model that unifies the roles of intestinal microbiota, epithelial function, and mucosal immunity suggests a cycle by which transepithelial flux of luminal bacterial compo nents activates innate and adaptive immune responses. In a genetically susceptible host, the subsequent release of"
+        },
+        {
+            "id": "InternalMed_Harrison_5212",
+            "title": "InternalMed_Harrison",
+            "content": "Bone Adult germ-free mice have greater bone mass than their conventionally raised counterparts. This increase in bone mass is associated with reduced numbers of osteoclasts per unit bone surface area, reduced numbers of CD11b+/GR1 osteoclast precursors in bone marrow, decreased numbers of CD4+ T cells, and reduced levels of expression of the osteolytic cytokine tumor necrosis factor \u03b1. Colonization with a normal gut microbiota resolves these observed differences between germ-free and conventionally raised animals. Brain Adult germ-free and conventionally raised mice differ significantly in levels of 38 out of 196 identified cerebral metabolites, 10 of which have known roles in brain function; included in the latter group are N-acetylaspartic acid (a marker of neuronal health and attenuation),"
+        },
+        {
+            "id": "Immunology_Janeway_2992",
+            "title": "Immunology_Janeway",
+            "content": "12-21 The intestinal microbiota plays a major role in shaping intestinal and systemic immune function. Commensal bacteria and their products play an essential role in normal development of the immune system. This effect is illustrated in germ-free, or gnotobiotic, mice, in which there is no colonization of the gut by microorganisms. These animals have marked reductions in the size of all lymphoid organs, low serum immunoglobulin levels, fewer mature T cells, and markedly reduced immune responses, especially TH1 and TH17 responses. Such mice are prone to make TH2-type responses such as IgE antibodies and are more susceptible Fig 12.22 Effects of the microbiota on disease and systemic immune function."
+        },
+        {
+            "id": "InternalMed_Harrison_5218",
+            "title": "InternalMed_Harrison",
+            "content": "Gut bacterial species elicit development of protective TH17 and TH1 responses that help ward off pathogen attack. Members of the microbiota also promote the development of a specialized population of CD4+ T cells that prevent unwarranted inflammatory responses. These regulatory T cells (Tregs) are characterized by expression of the transcription factor forkhead box P3 (FOXP3) and by expression of other cell-surface markers. There is a paucity of Tregs in the colonic lamina propria of germ-free mice. Specific members of the microbiota\u2014including a consortium of Clostridium strains isolated from the mouse and human gut as well as several human-gut Bacteroides species \u2014expand the Treg compartment and enhance immunosuppressive functions."
+        },
+        {
+            "id": "InternalMed_Harrison_5206",
+            "title": "InternalMed_Harrison",
+            "content": "loop that prevents establishment of a new community or (2) identification of a direction for change and a stimulus of sufficient magnitude (e.g., invasion and establishment of microbes from a fecal transplant or from a defined consortium of cultured, sequenced members of the human gut microbiota; see below) to overcome the resilience mechanisms inherent in the degraded state. A critical unresolved question that especially affects infants, whose microbiota is changing rapidly, is whether intervention during periods of rapid change or during periods of relative stability is generally more effective."
+        },
+        {
+            "id": "InternalMed_Harrison_22861",
+            "title": "InternalMed_Harrison",
+            "content": "and inflammation directed at the intestines in mice. How these relate to human IBD remains to be defined, but they are consistent with inappropriate responses of the genetically susceptible host to the commensal microbiota."
+        },
+        {
+            "id": "InternalMed_Harrison_22855",
+            "title": "InternalMed_Harrison",
+            "content": "microbiota composition and function is under the control of host (e.g., immune and epithelial responses), environmental (e.g., diet and antibiotics), and likely genetic (e.g., NOD2) factors (Fig. 351-1). In turn, the microbiota, through its structural components and metabolic activity, has major influences on the epithelial and immune function of the host, which, through epigenetic effects, may have durable consequences. During early life when the commensal microbiota is being established, these microbial effects on the host may be particularly important in determining later life risk for IBD. Specific components of the microbiota can promote or protect from disease. The commensal microbiota in patients with both UC and CD is demonstrably different from nonafflicted individuals, a state of dysbiosis, suggesting the presence of microorganisms that drive disease (e.g., Proteobacteria such as enteroinvasive and adherent Escherichia coli) and to which the immune response is directed"
+        },
+        {
+            "id": "InternalMed_Harrison_13176",
+            "title": "InternalMed_Harrison",
+            "content": "Clearly, the gut microbiota confers many benefits, and its dysregulation may play a role in the pathogenesis of diseases characterized by inflammation and aberrant immune responses, such as inflammatory bowel disease, rheumatoid arthritis, multiple sclerosis, asthma, and type 1 diabetes. Furthermore, the gut microbiota has been associated with obesity and metabolic syndrome. An interesting association between certain microbes found in the microbiota and testosterone production has been suggested as well."
+        },
+        {
+            "id": "Pathology_Robbins_1973",
+            "title": "Pathology_Robbins",
+            "content": "Exposure of large areas of the body to even small doses of radiation may have devastating effects. Dosages less than 1 Sv produce minimal or no symptoms. Greater exposures, however, cause health effects known as acute radiation syndromes, which at progressively higher doses involve the hematopoietic system, GI system, and CNS. The syndromes associated with total-body exposure to ionizing radiation are summarized in Table 8.8 RADIATIONINJURYdose levels and large exposure fields, severe lymphopedose levels and large exposure fields, severe lymphope Ionizingradiationmayinjurecellsdirectlyorindirectlybygeneratingfreeradicalsfromwaterormolecularoxygen. IonizingradiationdamagesDNA;therefore,rapidlydividingcellssuchasgermcells,andthoseinthebonemarrowandGItractareverysensitivetoradiationinjury. DNAdamagethatisnotadequatelyrepairedmayresultinmutationsthatpredisposeaffectedcellstoneoplastictransformation."
+        },
+        {
+            "id": "InternalMed_Harrison_17209",
+            "title": "InternalMed_Harrison",
+            "content": "few hours. may accompany the hematopoietic manifestations and further worsen the patient\u2019s condition. Gastrointestinal injury due to compromise of the absorptive layer of the gut alters absorption of fluids, electrolytes, and nutrients. Such injury can lead to vomiting, diarrhea, gastrointestinal bleeding, sepsis, and electrolyte and fluid imbalance. Generally, The treatment of ARS is focused on maintaining homeostasis, thus these symptoms are also accompanied by a severe hematopoietic giving damaged organs a chance to recover. Aggressive support syndrome, with only a slim chance of bone marrow recovery. These is provided for every damaged system. Treatment for the hemafactors in constellation often lead to death. Whole-body exposure to topoietic system targets mainly neutropenia and infection, with >9\u201310 Gy is almost always fatal. Crucial elements of the bone marrow measures that may include transfusion of leukoreduced irradiated blood as needed and administration of hematopoietic"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6511",
+            "title": "Cell_Biology_Alberts",
+            "content": "Discuss the following problems. 23\u20136 In order to survive and multiply, a successful pathogen must accomplish five tasks. Name them. 23\u20137 Clostridium difficile infection is the leading cause of hospital-associated gastrointestinal illness. It is typically treated with a course of antibiotics, but the infection recurs in about 20% of cases. C. difficile infections are difficult to eradicate because the bacteria exist in two forms: a replicating, toxin-producing form and a spore form that is resistant to antibiotics. Fecal microbiota transplantation\u2014the transfer of normal gut microbiota from a healthy individual\u2014can resolve >90% of recurrent infections, a much better cure rate than further antibiotic treatment alone. Why do you suppose microbiota transplantation is so effective? 23\u20138 What are the three general mechanisms for horizontal gene transfer?"
+        },
+        {
+            "id": "Immunology_Janeway_2995",
+            "title": "Immunology_Janeway",
+            "content": "The effects of the intestinal microbiota extend far beyond the intestine (Fig. 12.22). For example, several autoimmune diseases are more frequent in germ-free animals. The germ-free state greatly increases the severity of symptoms in a genetic model of type 1 diabetes. The composition of the microbiota influences susceptibility to many different immunological diseases, metabolic disorders such as obesity, cancer, cardiovascular disease, and even psychiatric disorders. The basis for these associations is unclear and few individual commensal species have been identified in disease susceptibility. However, some affected individuals have unusual compositions of the major bacterial species that normally make up the microbiota, a form of dysbiosis, as we saw in Section 12-19. In experimental models, disease susceptibility can be conferred by transferring intestinal bacteria between affected and unaffected animals, supporting the idea that the change in microbiota is a causal factor, rather"
+        },
+        {
+            "id": "InternalMed_Harrison_5199",
+            "title": "InternalMed_Harrison",
+            "content": "vary dramatically in their representation among different samples, with different characteristic bacterial phyla in the oral versus the fecal microbiota; e.g., members of the Actinobacteria and Fusobacteria are far more common in the mouth than in the gut, while members of Bacteroidetes are far more common in fecal samples. In contrast, metabolic pathways are far more consistently represented in different samples, even when the species that contribute to these pathways are completely different. These results suggest a high degree of functional redundancy in microbial ecosystems\u2014similar to that observed in macroecosystems, in which many fundamentally different lineages of organisms can play the same ecologic roles (e.g., pollinator or top predator). (Adapted from Human Microbiome Project Consortium: Nature 486:207, 2012; and CA Lozupone et al: Nature 489:220, 2012.) understanding of our microbiota. Few high-resolution time series of way for defining stability at the strain level than"
+        },
+        {
+            "id": "InternalMed_Harrison_5209",
+            "title": "InternalMed_Harrison",
+            "content": "ketogenesis (regulated by peroxisome proliferator\u2013activated receptor \u03b1) occurs, and myocardial metabolism is directed to ketone body utilization. Analyses of isolated, perfused working hearts from germ-free and colonized animals, together with in vivo assessments, have shown that myocardial performance in germ-free mice is maintained by increasing glucose utilization. However, heart weight is significantly reduced in both fasted and fed mice; this heart-mass phenotype is completely reversed in germ-free mice fed a ketogenic diet. These findings illustrate how the gut microbiota benefits the host during periods of nutrient deprivation and represent one link between gut microbes and cardiovascular metabolism and health."
+        }
+    ],
+    "scores": [
+        0.03368924908488993,
+        0.0328887168162997,
+        0.03181521886203678,
+        0.02764645601520753,
+        0.02668210391633289,
+        0.026188490410402703,
+        0.026127504354692466,
+        0.0244875976946363,
+        0.024362099208615484,
+        0.024146204914859023,
+        0.02386587771203156,
+        0.022043062677390785,
+        0.02184166038167583,
+        0.021496584927056896,
+        0.02139782007038644,
+        0.021069456734424268,
+        0.020891208859443802,
+        0.02080002191054758,
+        0.02049562261689745,
+        0.02039337474120083,
+        0.020302011585506072,
+        0.02026654815966966,
+        0.01992224321945684,
+        0.019685374149659866,
+        0.018608274190756446,
+        0.01801948051948052,
+        0.017998385794995964,
+        0.017307978012182437,
+        0.01675006950236308,
+        0.01656215921483097,
+        0.01623521891978268,
+        0.015941756103684177
+    ]
+}

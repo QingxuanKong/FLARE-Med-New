@@ -1,0 +1,206 @@
+{
+    "id": "602596691cb411341a0000ad",
+    "question": "Is tofacitinib a JAK inhibitor?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the given documents and identify the characteristics of tofacitinib and JAK inhibitors.\\n\\nDocument [0] describes the role of Janus kinases (JAKs) in signal transduction and how they bind and phosphorylate the cytoplasmic regions of cytokine receptors, initiating the activation of different STAT transcription factors.\\n\\nDocument [1] states that tofacitinib is a small-molecule inhibitor that primarily inhibits JAK1 and JAK3, which mediate signaling by IL-2 and IL-4, and somewhat more weakly JAK1, interfering with signaling by IL-6.\\n\\nDocument [2] explains that tofacitinib is a targeted synthetic small molecule (tsDMARD) that selectively inhibits all members of the Janus kinase (JAK) family to varying degrees.\\n\\nDocument [3] states that tofacitinib is an oral inhibitor of Janus kinases 1, 3, and, to a lesser extent, 2.\\n\\nBased on the information provided in these documents, it is clear that tofacitinib is a JAK inhibitor, as it specifically inhibits the activity of JAK1, JAK3, and to a lesser extent, JAK2.\\n\\nTherefore, the correct answer is:\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_4034",
+            "title": "Immunology_Janeway",
+            "content": "Cytokines activate many aspects of the immune response, and many cytokine receptors use Janus kinases (JAKs) in signal transduction (see Section 3-16). The four JAK family members, JAK1, JAK2, JAK3, and TYK2, bind and phosphorylate the cytoplasmic regions of cytokine receptors and initiate the activation of different STAT transcription factors. Selective JAK inhibitors have been developed over the last decade that can block the kinase activity of one or more members of this family. Since different JAKs binds to different cytokine receptors, JAK inhibitors, or Jakinibs, can therefore exert potentially specific effects on the quality of T-cell development. Two Jakinibs are now approved for use in treating inflammatory diseases and are being investigated for their application in cancer. For example, tofacitinib inhibits JAK3, interfering with signaling by IL-2 and IL-4, and somewhat more weakly JAK1, interfering with signaling by IL-6. Tofacitinib is approved for treatment of rheumatoid"
+        },
+        {
+            "id": "InternalMed_Harrison_25254",
+            "title": "InternalMed_Harrison",
+            "content": "Tofacitinib Tofacitinib is a small-molecule inhibitor that primarily inhibits JAK1 and JAK3, which mediate signaling of the receptors for the common \u03b3-chain-related cytokines IL-2, -4, -7, -9, -15, and -21 as well as IFN-\u03b3 and IL-6. These cytokines all play roles in promoting T and B cell activation as well as inflammation. Tofacitinib, an oral agent, has been shown in randomized, placebo-controlled clinical trials to improve the signs and symptoms of RA significantly over placebo. Major adverse events include elevated serum transaminases indicative of liver injury, neutropenia, increased cholesterol levels, and elevation in serum creatinine. Its use is also associated with an increased risk of infections. Tofacitinib can be used as mono-therapy or in combination with methotrexate. APPROACH TO THE PATIENT:"
+        },
+        {
+            "id": "Pharmacology_Katzung_4035",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Mechanism of Action: Tofacitinib is a targeted synthetic small molecule (tsDMARD) that selectively inhibits all members of the Janus kinase (JAK; see Chapter 2) family to varying degrees. At therapeutic doses, tofacitinib exerts its effect mainly by inhibiting JAK3, and to a lesser extent JAK1, hence interrupting the JAK-STAT signaling pathway. This pathway plays a major role in the pathogenesis of autoimmune diseases including RA. The JAK3/JAK1 complex is responsible for signal transduction from the common \u03b3-chain receptor (IL2RG) for IL-2, -4, -7, -9, -15, and -21, which subsequently influences transcription of several genes that are crucial for the differentiation, proliferation, and function of NK cells and T and B lymphocytes. In addition, JAK1 (in combination with other JAKs) controls signal transduction from IL-6 and interferon receptors. RA patients receiving tofacitinib rapidly reduce C-reactive protein. 2."
+        },
+        {
+            "id": "InternalMed_Harrison_22986",
+            "title": "InternalMed_Harrison",
+            "content": "Tofacitinib is an oral inhibitor of Janus kinases 1, 3, and, to a lesser extent, 2. It is expected to block signaling involving common gamma chain\u2013containing cytokines including IL-2, IL-4, IL-7, IL-9, IL-15, and IL-21. These cytokines are integral to lymphocyte activation, function, and proliferation. It is effective in moderate to severe UC in clinical trials."
+        },
+        {
+            "id": "Immunology_Janeway_4035",
+            "title": "Immunology_Janeway",
+            "content": "example, tofacitinib inhibits JAK3, interfering with signaling by IL-2 and IL-4, and somewhat more weakly JAK1, interfering with signaling by IL-6. Tofacitinib is approved for treatment of rheumatoid arthritis. Ruxolitinib inhibits JAK1 and JAK2 and has been approved for treating myelofibrosis, an abnormal proliferation of bone marrow progenitor cells that causes fibrosis."
+        },
+        {
+            "id": "Immunology_Janeway_4716",
+            "title": "Immunology_Janeway",
+            "content": "JAK inhibitors (Jakinibs) Small molecule kinase inhibitors with relative selectivity for one or more of the JAK kinases. Janus kinase (JAK) family Enzymes of the JAK\u2013STAT intracellular signaling pathways that link many cytokine receptors with gene transcription in the nucleus. The kinases phosphorylate STAT proteins in the cytosol, which then move to the nucleus and activate a variety of genes. J chain Small polypeptide chain made by B cells that attaches to polymeric immunoglobulins IgM and IgA by disulfide bonds, and is essential for formation of the binding site for the polymeric immunoglobulin receptor. JNK See Jun kinase. Job\u2019s syndrome See hyper IgE syndrome."
+        },
+        {
+            "id": "Pharmacology_Katzung_4038",
+            "title": "Pharmacology_Katzung",
+            "content": "Adverse Effects: Tofacitinib slightly increases the risk of infection, and it has thus far not been used with potent immunosuppressants (eg, azathioprine, cyclosporine) or biologic bDMARDs because additive immunosuppression is feared, although it has not been tested in combinations. Upper respiratory tract infection and urinary tract infection represent the most common infections. More serious infections are also reported, including pneumonia, cellulitis, esophageal candidiasis, and other opportunistic infections. All patients should be screened for latent or active tuberculosis before the initiation of treatment. Lymphoma and other malignancies such as lung and breast cancer have been reported in patients taking tofacitinib, although some studies discuss the potential use of JAK inhibitors to treat certain lymphomas. Dose-dependent increases in the levels of low-density lipoprotein (LDL), high-density lipoprotein (HDL), and total cholesterol have been found in patients receiving"
+        },
+        {
+            "id": "InternalMed_Harrison_25561",
+            "title": "InternalMed_Harrison",
+            "content": "Ustekinumab, a monoclonal antibody to the shared IL-23/ IL-12p40 subunit, is an efficacious treatment for psoriasis and has shown promise in PsA in clinical trials. Other newer drugs that have shown efficacy for both psoriasis and PsA include the anti-IL-17 pathway agents, such as secukinumab and brodalumab, and an oral phosphodiesterase-4 inhibitor, apremilast. Data on the oral Jak inhibitor, tofacitinib, has been very limited but promising."
+        },
+        {
+            "id": "Pharmacology_Katzung_6115",
+            "title": "Pharmacology_Katzung",
+            "content": "Toxicities of the PSIs can include profound myelosuppression (especially thrombocytopenia), hepatotoxicity, diarrhea, hypertriglyceridemia, pneumonitis, and headache. Because nephrotoxicity is of major concern when administering calcineurin inhibitors, and since renal toxicity is less common with PSIs, there is interest in increased early use of the latter agents. However, increased use in stem cell transplantation regimens as GVH disease prophylaxis, particularly when combined with tacrolimus, has revealed an increased incidence of hemolytic-uremic syndrome. Tofacitinib (Xeljanz) inhibits JAK enzymes that stimulate hematopoiesis and immune cell function in response to cytokine or growth factor signaling. Tofacitinib reduces circulating NK cells, serum immunoglobulins, and C-reactive protein. It is approved for adults with moderate to severe RA. It has a black box warning for serious infections and malignancies, similar to anti\u2013TNF-\u03b1 Mabs (see below)."
+        },
+        {
+            "id": "Pharmacology_Katzung_4036",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Pharmacokinetics: The recommended dose of tofacitinib in the treatment of RA is 5 mg twice daily; there is a clear trend to increased response (and increased toxicity) at double this dose. In 2016, the FDA approved extended-release (XR) tofacitinib citrate 11 mg tablets for once-daily treatment. Tofacitinib has an absolute oral bioavailability of 74%, high-fat meals do not affect the AUC, and the elimination half-life is about 3 hours. Metabolism (of 70%) occurs in the liver, mainly by CYP3A4 and to a lesser extent by CYP2C19. The remaining 30% is excreted unchanged by the kidneys. Patients taking CYP enzyme inhibitors and those with moderate hepatic or renal impairment require dose reduction to 5 mg once daily. It should not be given to patients with severe hepatic disease. 3."
+        },
+        {
+            "id": "Pharmacology_Katzung_4037",
+            "title": "Pharmacology_Katzung",
+            "content": "3. Indications: Tofacitinib was originally developed to prevent solid organ allograft rejection. It has also been tested for the treatment of inflammatory bowel disease, spondyloarthritis, psoriasis, and dry eyes. To date, tofacitinib is approved in the United States for the treatment of adult patients with moderately to severely active RA who have failed or are intolerant to methotrexate. It is not approved in Europe for this indication. It can be used as a monotherapy or in combination with other csDMARDs, including methotrexate. Ongoing studies are evaluating its role in other rheumatic diseases such as PsA, psoriasis, and JIA. 4."
+        },
+        {
+            "id": "Immunology_Janeway_4833",
+            "title": "Immunology_Janeway",
+            "content": "TNF receptors Family of cytokine receptors which includes some that lead to apoptosis of the cell on which they are expressed (for example Fas and TNFR-I), whereas others lead to activation. tocilizumab Humanized anti-IL-6 receptor antibody used in treating rheumatoid arthritis. tofacitinib An inhibitor of JAK3 and JAK1 used to treat rheumatoid arthritis and under investigation in other in\ufb02ammatory disorders. tolerance The failure to respond to an antigen. Tolerance to self antigens is an essential feature of the immune system; when tolerance is lost, the immune system can destroy self tissues, as happens in autoimmune disease. tolerant Describes the state of immunological tolerance, in which the individual does not respond to a particular antigen. tolerogenic Describes an antigen or type of antigen exposure that induces tolerance. Toll Receptor protein in Drosophila that activates the transcription factor NF\u03baB, leading to the production of antimicrobial peptides."
+        },
+        {
+            "id": "Pharmacology_Katzung_4039",
+            "title": "Pharmacology_Katzung",
+            "content": "to treat certain lymphomas. Dose-dependent increases in the levels of low-density lipoprotein (LDL), high-density lipoprotein (HDL), and total cholesterol have been found in patients receiving tofacitinib, often beginning about 6 weeks after starting treatment; therefore, lipid levels should be monitored. Although tofacitinib causes a dose-dependent increase in CD19 B cells and CD4 T cells plus a reduction in CD16/CD56 NK cells, the clinical significance of these changes remains unclear. Drug-related neutropenia and anemia occur, requiring drug discontinuation. Headache, diarrhea, elevation of liver enzymes, and gastrointestinal perforation are among the other reported effects of tofacitinib."
+        },
+        {
+            "id": "Surgery_Schwartz_346",
+            "title": "Surgery_Schwartz",
+            "content": "constitutively bound to the cytokine receptors, and on ligand binding and receptor dimerization, activated JAKs phosphorylate the receptor to recruit signal transducer and acti-vator of transcription (STAT) molecules (Fig. 2-7). Activated STAT proteins further dimerize and translocate into the nucleus where they modulate the transcription of target genes. Rather than being a strictly linear pathway, it is likely that individual cytokines activate more than one JAK-STAT combination. The molecular implications for this in terms of cytokine signaling are still being unraveled, but the development of JAK-specific inhibitors (jakinibs) is moving the field forward quickly.177 Inter-estingly, STAT-DNA binding can be observed within minutes of cytokine binding. STATs have also been shown to modulate gene transcription via epigenetic mechanisms. Thus, JAKs and STATs are central players in the regulation of key immune cell function, by providing a signaling platform for proinflamma-tory"
+        },
+        {
+            "id": "Pharmacology_Katzung_4091",
+            "title": "Pharmacology_Katzung",
+            "content": "Bannwarth B, Kostine M, Poursac N: A pharmacokinetic and clinical assessment of tofacitinib for the treatment of rheumatoid arthritis. Expert Opin Drug Metab Toxicol 2013;9:6. Besada E, Koldingsnes W, Nossent J: Characteristics of late onset neutropenia in rheumatologic patients treated with rituximab: A case review analysis from a single center. QJM 2012;105:6. Bongartz T et al: Anti-TNF antibody therapy in rheumatoid arthritis and the risk of serious infections and malignancies. JAMA 2006;295:2275. Bosello S et al: B cell depletion in diffuse progressive systemic sclerosis: safety, skin score modification and IL-6 modulation in an up to thirty-six months follow-up open-label trial. Arthritis Res Ther 2010;12:R54. Conklyn M et al: The JAK3 inhibitor CP-690550 selectively reduces NK and CD8+ cell numbers in cynomolgus monkey blood following chronic oral dosing. J Leukoc Biol 2004;76:6."
+        },
+        {
+            "id": "Immunology_Janeway_601",
+            "title": "Immunology_Janeway",
+            "content": "have a distinct function. For example, Jak3 is used by \u03b3c for signaling by several of the cytokines described above. Mutations that inactivate Jak3 cause a form of SCID that is not X-linked. The dimerization or clustering of receptor signaling chains brings the JAKs into close proximity, causing phosphorylation of each JAK on a tyrosine residue that stimulates its kinase activity. The activated JAKs then phosphorylate their associated receptors on specific tyrosine residues. This phosphotyrosine, and the specific amino acid sequence surrounding it, creates a binding site that is recognized by SH2 domains found in other proteins, in particular members of a family of transcription factors known as signal transducers and activators of transcription (STATs) (Fig. 3.26)."
+        },
+        {
+            "id": "Pharmacology_Katzung_3981",
+            "title": "Pharmacology_Katzung",
+            "content": "These therapies include conventional synthetic (cs) and biologic (b) disease-modifying antirheumatic drugs (recently designated csDMARDs and bDMARDs, respectively). The conventional synthetic agents include small molecule drugs such as methotrexate, azathioprine, chloroquine and hydroxy-chloroquine, cyclophosphamide, cyclosporine, leflunomide, mycophenolate mofetil, and sulfasalazine. Tofacitinib, though marketed as a biologic, is actually a targeted synthetic DMARD (tsDMARD). Gold salts, which were once extensively used, are no longer recommended because of their significant toxicities and questionable efficacy. Nevertheless, they have found limited use for RA in Canada. Biologics are large-molecule therapeutic agents, usually proteins, which are often produced by recombinant DNA technology. The bDMARDs approved for RA include a T-cell\u2013modulating biologic (abatacept), a B-cell cytotoxic agent (rituximab), an anti\u2013IL-6 receptor antibody (tocilizumab), IL-1\u2013inhibiting agents (anakinra,"
+        },
+        {
+            "id": "Immunology_Janeway_598",
+            "title": "Immunology_Janeway",
+            "content": "Members of the chemokine receptor family are listed in Appendix IV, along with the chemokines they recognize. These receptors have a 7-transmembrane structure and signal by interacting with G-proteins as described in Section 3-2. 3-16 Cytokine receptors of the hematopoietin family are associated with the JAK family of tyrosine kinases, which activate STAT transcription factors. The signaling chains of the hematopoietin family of cytokine receptors are noncovalently associated with protein tyrosine kinases of the Janus kinase (JAK) family\u2014so called because they have two tandem kinase-like domains and thus resemble the two-headed mythical Roman god Janus. There are four members of the JAK family: Jak1, Jak2, Jak3, and Tyk2. As mice deficient for individual JAK family members show different phenotypes, each kinase must Chapter 3: The Induced Responses of Innate Immunity MOVIE 3.7 Fig. 3.26 Many cytokine receptors signal using a rapid pathway called the JAK\u2013STAT pathway."
+        },
+        {
+            "id": "Surgery_Schwartz_345",
+            "title": "Surgery_Schwartz",
+            "content": "will be briefly reviewed in the following section.JAK-STAT SignalingA major subgroup of cytokines, comprising roughly 60 factors, bind to receptors termed type I/II cytokine receptors. Cytokines that bind these receptors include type I IFNs, IFN-\u03b3, many inter-leukins (e.g., IL-6, IL-10, IL-12, and IL-13), and hematopoietic growth factors. These cytokines play essential rolls in the initia-tion, maintenance, and modulation of innate and adaptive immu-nity for host defense. All type I/II cytokine receptors selectively associate with the Janus kinases (JAK1, JAK2, JAK3, TYK2), which represent a family of tyrosine kinases that mediate the signal transduction for these receptors. As such, the JAK-STAT signaling pathway is considered a central communication hub for the immune system.176JAKs are constitutively bound to the cytokine receptors, and on ligand binding and receptor dimerization, activated JAKs phosphorylate the receptor to recruit signal transducer and acti-vator of transcription"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4309",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although many intracellular signaling pathways lead from cell-surface receptors to the nucleus, where they alter gene transcription (see Figure 15\u201355), the JAK\u2013STAT signaling pathway provides one of the more direct routes. Cytokine receptors are dimers or trimers and are stably associated with one or two of the four known JAKs (JAK1, JAK2, JAK3, and Tyk2). Cytokine binding alters the arrangement so as to bring two JAKs into close proximity so that they phosphorylate each other, thereby increasing the activity of their tyrosine kinase domains. The JAKs then phosphorylate tyrosines on the cytoplasmic tails of cytokine receptors, creating phosphotyrosine docking sites for STATs (Figure 15\u201356). Some adaptor proteins can also bind to some of these sites and couple cytokine receptors to the Ras\u2013MAP-kinase signaling pathway discussed earlier, but these will not be discussed here."
+        },
+        {
+            "id": "Immunology_Janeway_4020",
+            "title": "Immunology_Janeway",
+            "content": "Azathioprine and mycophenolate are less toxic than cyclophosphamide, which is metabolized to phosphoramide mustard, which alkylates DNA. Cyclophosphamide is a member of the nitrogen mustard family of compounds, which were originally developed as chemical weapons. It has a range of highly toxic effects including inflammation of and hemorrhage from the bladder, known as hemorrhagic cystitis, and induction of bladder neoplasia. 16-3 Cyclosporin A, tacrolimus, rapamycin, and JAK inhibitors with various T-cell signaling pathways."
+        },
+        {
+            "id": "Pharmacology_Katzung_195",
+            "title": "Pharmacology_Katzung",
+            "content": "Cytokine receptors respond to a heterogeneous group of peptide ligands, which include growth hormone, erythropoietin, several kinds of interferon, and other regulators of growth and differentiation. These receptors use a mechanism (Figure 2\u20138) closely resembling that of receptor tyrosine kinases, except that in this case, the protein tyrosine kinase activity is not intrinsic to the receptor molecule. Instead, a separate protein tyrosine kinase, from the Janus-kinase (JAK) family, binds noncovalently to the receptor. As in the case of the EGF receptor, cytokine receptors"
+        },
+        {
+            "id": "InternalMed_Harrison_24542",
+            "title": "InternalMed_Harrison",
+            "content": "Significant advances have been made in defining the signaling pathways through which cytokines exert their intracellular effects. The Janus family of protein tyrosine kinases (JAK) is a critical element involved in signaling via the hematopoietin receptors. Four JAK kinases, JAK1, JAK2, JAK3, and Tyk2, preferentially bind different cytokine receptor subunits. Cytokine binding to its receptor brings the cytokine receptor subunits into apposition and allows a pair of JAKs to transphosphorylate and activate one another. The JAKs then phosphorylate the receptor on the tyrosine residues and allow signaling molecules to bind to the receptor, whereby the signaling molecules become phosphorylated. Signaling molecules bind the receptor because they have domains (SH2, or src homology 2 domains) that can bind phosphorylated tyrosine residues. There are a number of these important signaling molecules that bind the receptor, such as the adapter molecule SHC, which can couple the receptor to the"
+        },
+        {
+            "id": "Pharmacology_Katzung_196",
+            "title": "Pharmacology_Katzung",
+            "content": "FIGURE 2\u20138 Cytokine receptors, like receptor tyrosine kinases, have extracellular and intracellular domains and form dimers. However, after activation by an appropriate ligand, separate mobile protein tyrosine kinase molecules (JAK) are activated, resulting in phosphorylation of signal transducers and activation of transcription (STAT) molecules. STAT dimers then travel to the nucleus, where they regulate transcription."
+        },
+        {
+            "id": "Pharmacology_Katzung_6038",
+            "title": "Pharmacology_Katzung",
+            "content": "from the emergence of the T790M gatekeeper mutation either de novo or following previous EGFR TKI therapy. In NSCLC that is ALK-positive, three new small molecules have been developed: crizotinib, ceritinib, and alectinib. Crizotinib is the first-generation ALK inhibitor, while ceritinib and alectinib have clinical efficacy in patients whose disease has progressed on or who have become intolerant to crizotinib."
+        },
+        {
+            "id": "Pharmacology_Katzung_4098",
+            "title": "Pharmacology_Katzung",
+            "content": "Shima Y et al: The skin of patients with systemic sclerosis softened during the treatment with anti-IL-6 receptor antibody tocilizumab. Rheumatology (Oxford) 2010;49:2408. Smolen J et al: Efficacy and safety of certolizumab pegol plus methotrexate in active rheumatoid arthritis: the RAPID 2 study. A randomized controlled trial. Ann Rheum Dis 2009;68:797. Spies CM et al: Prednisone chronotherapy. Clin Exp Rheumatol 2011; 29(Suppl 68):5. Strober B et al: Effect of tofacitinib, a Janus kinase inhibitor, on haematological parameters during 12 weeks of psoriasis treatment. Br J Dermatol 2013;169:5. Tanaka T, Ogata A, Narazaki M: Tocilizumab for the treatment of rheumatoid arthritis. Expert Rev Clin Immunol 2010;6:6. Teng GG, Turkiewicz AM, Moreland LW: Abatacept: A costimulatory inhibitor for treatment of rheumatoid arthritis. Expert Opin Biol Ther 2005;5:1245."
+        },
+        {
+            "id": "InternalMed_Harrison_25210",
+            "title": "InternalMed_Harrison",
+            "content": "(CTLA-4), the nature of Treg defects in RA, if they exist, remains unclear. Cytokines, chemokines, antibodies, and endogenous danger signals bind to receptors on the surface of immune cells and stimulate a cascade of intracellular signaling events that can amplify the inflammatory response. Signaling molecules and their binding partners in these pathways are the target of small-molecule drugs designed to interfere with signal transduction and block these reinforcing inflammatory loops. Examples of signal molecules in these critical inflammatory pathways include Janus kinase (JAK)/signal transducers and activators of transcription (STAT), spleen tyrosine kinase (Syk), mitogen-activated protein kinases (MAPKs), and nuclear factor-\u03baB (NF-\u03baB). These pathways exhibit significant cross-talk and are found in many cell types. Some signal transducers, such as JAK3, are primarily expressed in hematopoieticcellsandplayanimportantroleintheinflammatoryresponseinRA."
+        },
+        {
+            "id": "Pharmacology_Katzung_4095",
+            "title": "Pharmacology_Katzung",
+            "content": "Khanna D et al: Safety and efficacy of subcutaneous tocilizumab in adults with systemic sclerosis (faSScinate): a phase 2, randomised, controlled trial. Lancet 2016;387:2630. Kobayashi K et al: Leukoencephalopathy with cognitive impairment following tocilizumab for the treatment of rheumatoid arthritis (RA). Intern Med 2009;48:15. Kremer J: Toward a better understanding of methotrexate. Arthritis Rheum 2004;50:1370. Landew\u00e9 R et al: Efficacy of certolizumab pegol on signs and symptoms of axial spondyloarthritis including ankylosing spondylitis: 24-week results of a double-blind randomised placebo-controlled Phase 3 study. Ann Rheum Dis 2014;73:1. Maurizio Cutolo: The kinase inhibitor tofacitinib in patients with rheumatoid arthritis: Latest findings and clinical potential. Ther Adv Musculoskelet Dis 2013;5:1."
+        },
+        {
+            "id": "Immunology_Janeway_605",
+            "title": "Immunology_Janeway",
+            "content": "receptors. SOCS proteins contain an SH2 domain that can recruit them to the phosphorylated JAK kinase or receptor, and they can inhibit JAK kinases directly, compete for the receptor, and direct the ubiquitination and subsequent degradation of JAKs and STATs. SOCS proteins are induced by STAT activation, and thus inhibit receptor signaling after the cytokine has had its effect. Their importance can be seen in SOCS1-deficient mice, which develop a multiorgan inflammatory infiltrate caused by increased signaling from interferon receptors, \u03b3c-containing receptors, and TLRs. Another class of inhibitory proteins consists of the protein inhibitors of activated STAT (PIAS) proteins, which also seem to be involved in promoting the degradation of receptors and pathway components."
+        },
+        {
+            "id": "Immunology_Janeway_604",
+            "title": "Immunology_Janeway",
+            "content": "Since signaling by these receptors depends on tyrosine phosphorylation, dephosphorylation of the receptor complex by tyrosine phosphatases is one way that cells can terminate signaling. A variety of tyrosine phosphatases have been implicated in the dephosphorylation of cytokine receptors, JAKs, and STATs. These include the nonreceptor tyrosine phosphatases SHP-1 and SHP-2 (encoded by PTPN6 and PTPN11), and the transmembrane receptor tyrosine phosphatase CD45, which is expressed as multiple isoforms on many hematopoietic cells. Cytokine signaling can also be terminated by negative feedback involving specific inhibitors that are induced by cytokine activation. The suppressor of cytokine signaling (SOCS) proteins are a class of inhibitors that terminate the signaling of many cytokine and hormone receptors. SOCS proteins contain an SH2 domain that can recruit them to the phosphorylated JAK kinase or receptor, and they can inhibit JAK kinases directly, compete for the receptor, and direct"
+        },
+        {
+            "id": "Pharmacology_Katzung_5972",
+            "title": "Pharmacology_Katzung",
+            "content": "Nilotinib is a second-generation phenylamino-pyrimidine molecule that inhibits Bcr-Abl, c-kit, and PDGFR-\u03b2 tyrosine kinases. It has a higher binding affinity (up to 20to 50-fold) for the Abl kinase when compared with imatinib, and it overcomes imatinib resistance resulting from Bcr-Abl mutations. It was originally approved for chronic phase and accelerated phase CML with resistance or intolerance to prior therapy that included imatinib and was recently approved as first-line therapy of chronic phase CML. Bosutinib is a potent inhibitor of the Bcr-Abl tyrosine kinase, and it retains activity in 16 of 18 imatinib-resistant Bcr-Abl mutations. However, it is not effective against T315I and V299L mutations, which reside within the ATP-binding domain of the Abl tyrosine kinase. It is currently approved for the treatment of adult patients with chronic, accelerated, or blast phase Ph chromosome\u2013 positive CML with resistance or intolerance to prior therapy."
+        },
+        {
+            "id": "InternalMed_Harrison_6118",
+            "title": "InternalMed_Harrison",
+            "content": "Inhibition of kinase activity is effective in the treatment of a number of neoplasms. Lung cancers with mutations in the epidermal growth factor receptor are highly responsive to erlotinib and gefitinib (Table 102e-2). Lung cancers with activation of anaplastic lymphoma kinase (ALK) or ROS1 by translocations respond to crizotinib, an ALK and ROS1 inhibitor. A BRAF inhibitor is highly effective in melanomas and thyroid cancers in which BRAF is mutated. Targeting a protein (MEK) downstream of BRAF also has activity against BRAF mutant melanomas. Janus kinase inhibitors are active in myeloproliferative syndromes in which JAK2 activation is a pathogenetic event. Imatinib (which targets a number of tyrosine kinases) is an effective agent in tumors that have translocations of the c-Abl and BCR gene (such as chronic myeloid leukemia), mutant c-Kit (gastrointestinal stromal cell tumors), or mutant platelet-derived growth factor receptor (PDGFR; chronic myelomonocytic leukemia);"
+        }
+    ],
+    "scores": [
+        0.03863154172560113,
+        0.03837346935899784,
+        0.038127378047423735,
+        0.03763038364978989,
+        0.037443545582741856,
+        0.032523060034098966,
+        0.028418640183346066,
+        0.02797700613234594,
+        0.027634865134865134,
+        0.027292036143690274,
+        0.026492614993535377,
+        0.02584097859327217,
+        0.025673278503467185,
+        0.025119006153488912,
+        0.023740740740740743,
+        0.023423808201820887,
+        0.0225908527435245,
+        0.022139637608590064,
+        0.02172483952144969,
+        0.021617085182976656,
+        0.020680615200239685,
+        0.020465083217147746,
+        0.01961006512418266,
+        0.018423426360632933,
+        0.018018018018018018,
+        0.017966484047695776,
+        0.017771584879272755,
+        0.017523722069176614,
+        0.01740314769975787,
+        0.017371033238080917,
+        0.01731893837156995,
+        0.017175291169099216
+    ]
+}

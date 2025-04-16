@@ -1,0 +1,206 @@
+{
+    "id": "5ca0fdb0ecadf2e73f000049",
+    "question": "Is actin present in the nucleus?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents to see if there is any mention of actin in the nucleus. Actin is a cytoskeletal protein that is present in the cytoplasm of eukaryotic cells, but its role and distribution in the nucleus are not clearly defined in the provided documents. However, we can look for any indirect references to actin in the nucleus or any information about actin's interaction with nuclear structures. According to document [8], SUN and KASH proteins bind to each other within the lumen of the nuclear envelope, forming a bridge that connects the nuclear and cytoplasmic cytoskeletons. However, there is no direct mention of actin in the nucleus. Therefore, based on the provided information, it appears that actin is not present in the nucleus.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_4492",
+            "title": "Cell_Biology_Alberts",
+            "content": "The actin cytoskeleton performs a wide range of functions in diverse cell types. Each actin subunit, sometimes called globular or G-actin, is a 375-amino-acid polypeptide carrying a tightly associated molecule of ATP or ADP (Figure 16\u201311A). Actin is extraordinarily well conserved among eukaryotes. The amino acid sequences of actins from different eukaryotic species are usually about 90% identical. Small variations in actin amino acid sequence can cause significant functional differences: In vertebrates, for example, there are three isoforms of actin, termed \u03b1, \u03b2, and \u03b3, that differ slightly in their amino acid sequences and have distinct functions. \u03b1-Actin is expressed only in muscle cells, while \u03b2and \u03b3-actins are found together in almost all non-muscle cells. Actin Subunits Assemble Head-to-Tail to Create Flexible, Polar Filaments"
+        },
+        {
+            "id": "Histology_Ross_324",
+            "title": "Histology_Ross",
+            "content": "Actin molecules (42 kDa) are abundant and may constitute as much as 20% of the total protein of some nonmuscle cells (Fig. 2.45). Similar to the tubulin in microtubules, actin molecules also assemble spontaneously by polymerization into a linear helical array to form filaments 6 to 8 nm in diameter. They are thinner, shorter, and more \ufb02exible than microtubules. Free actin molecules in the cytoplasm are referred to as G-actin (globular actin), in contrast to the polymerized actin of the filament, which is called F-actin (flamentous actin). An actin filament is a polarized structure; its fast-growing end is referred to as the plus (barbed) end, and its slow-growing end is referred to as the minus (pointed) end. The dynamic process of actin polymerization requires the presence of K , Mg2 , and ATP, which is hydrolyzed to ADP after each G-actin molecule is incorporated into the filament (Fig. 2.46). The control and regulation of the polymerization process depends on the local"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4499",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 16\u201313 The time course of actin polymerization in a test tube. (A) Polymerization of pure actin subunits into filaments occurs after a lag phase. (B) Polymerization occurs more rapidly in the presence of preformed fragments of actin filaments, which act as nuclei for filament growth. As indicated, the % free subunits after polymerization reflects the critical concentration (Cc), at which there is no net change in polymer. Actin polymerization is often studied by observing the change in the light emission from a fluorescent probe, called pyrene, that has been covalently attached to the actin. Pyrene-actin fluoresces more brightly when it is incorporated into actin filaments."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4496",
+            "title": "Cell_Biology_Alberts",
+            "content": "The regulation of actin filament formation is an important mechanism by which other as two parallel strands of a helix, cells control their shape and movement. Small oligomers of actin subunits can with a twist repeating every 37 nm. All the assemble spontaneously, but they are unstable and disassemble readily because subunits within the filament have the same each monomer is bound to only one or two other monomers. For a new actin fila-orientation. (C) Electron micrograph of ment to form, subunits must assemble into an initial aggregate, or nucleus, that is negatively stained actin filament. (C, courtesy of Roger Craig.) stabilized by multiple subunit\u2013subunit contacts and can then elongate rapidly by addition of more subunits. This process is called filament nucleation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4511",
+            "title": "Cell_Biology_Alberts",
+            "content": "ON RATES AND OFF RATES A linear polymer of protein molecules, such as an actin flament or a microtubule, assembles (polymerizes) and disassembles (depolymerizes) by the addition and removal of subunits at the ends of the polymer. The rate of addition of these subunits (called monomers) is given by the rate constant kon, which has units of M\u20131 sec\u20131. The rate of loss is given by koff (units of sec\u20131). subunit + polymer (with n subunits) polymer (with n +1 subunits) kon koff NUCLEATION A helical polymer is stabilized by multiple contacts between adjacent subunits. In the case of actin, two actin molecules bind relatively weakly to each other, but addition of a third actin monomer to form a trimer makes the entire group more stable. Further monomer addition can take place onto this trimer, which therefore acts as a nucleus for polymerization. For tubulin, the nucleus is larger and has a more complicated structure (possibly a ring of 13 or more tubulin molecules)\u2014but the principle is the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4501",
+            "title": "Cell_Biology_Alberts",
+            "content": "is, the free actin monomer concentration at which the fraction of actin in the polymer stops increasing\u2014is about 0.2 \u03bcM. Inside the cell, the concentration of unpolymerized actin is much higher than this, and the cell has evolved mechanisms to prevent most of its monomeric actin from assembling into filaments, as we discuss later."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4512",
+            "title": "Cell_Biology_Alberts",
+            "content": "therefore acts as a nucleus for polymerization. For tubulin, the nucleus is larger and has a more complicated structure (possibly a ring of 13 or more tubulin molecules)\u2014but the principle is the same. The assembly of a nucleus is relatively slow, which explains the lag phase seen during polymerization. The lag phase can be reduced or abolished entirely by adding premade nuclei, such as fragments of already polymerized microtubules or actin flaments. THE CRITICAL CONCENTRATION The number of monomers that add to the polymer (actin flament or microtubule) per second will be proportional to the concentration of the free subunit (konC), but the subunits will leave the polymer end at a constant rate (koff) that does not depend on C. As the polymer grows, subunits are used up, and C is observed to drop until it reaches a constant value, called the critical concentration (Cc). At this concentration, the rate of subunit addition equals the rate of subunit loss. At this equilibrium, kon C ="
+        },
+        {
+            "id": "Cell_Biology_Alberts_4562",
+            "title": "Cell_Biology_Alberts",
+            "content": "Actin is a highly conserved cytoskeletal protein that is present in high concentrations in nearly all eukaryotic cells. Nucleation presents a kinetic barrier to actin polymerization, but once formed, actin filaments undergo dynamic behavior due to hydrolysis of the bound nucleotide ATP. Actin filaments are polarized and can undergo treadmilling when a filament assembles at the plus end while simultaneously depolymerizing at the minus end. In cells, actin filament dynamics are regulated at every step, and the varied forms and functions of actin depend on a versatile repertoire of accessory proteins. Approximately half of the actin is kept in a monomeric form through association with sequestering proteins such as thymosin. Nucleation factors such as the Arp 2/3 complex and formins promote formation of branched and parallel filaments, respectively. Interplay between proteins that bind or cap actin filaments and those that promote filament severing or depolymerization can slow or"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4728",
+            "title": "Cell_Biology_Alberts",
+            "content": "T.M. Svitkina et al., J. Cell Biol. 135:991\u2013 1007, 1996. With permission from The Rockefeller University Press.) of the inner nuclear membrane and KASH proteins (also called nesprins) of the outer nuclear membrane (Figure 16\u201372). SUN and KASH proteins bind to each other within the lumen of the nuclear envelope, forming a bridge that connects the nuclear and cytoplasmic cytoskeletons. Inside the nucleus, the SUN proteins bind to the nuclear lamina or chromosomes, whereas in the cytoplasm, KASH proteins can bind directly to actin filaments and indirectly to microtubules and intermediate filaments through association with motor proteins and plakins, respectively. This linkage serves to mechanically couple the nucleus to the cytoskeleton and is involved in many cellular functions, including chromosome movements inside the nucleus during meiosis, nuclear and centrosome positioning, nuclear migration, and global cytoskeletal organization."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4788",
+            "title": "Cell_Biology_Alberts",
+            "content": "Discuss the following problems. 16\u20134 The concentration of actin in cells is 50\u2013100 times greater than the critical concentration observed for pure actin in a test tube. How is this possible? What prevents the actin subunits in cells from polymerizing into filaments? Why is it advantageous to the cell to maintain such a large pool of actin subunits? 16\u20135 Detailed measurements of sarcomere length and tension during isometric contraction in striated muscle provided crucial early support for the sliding-filament 2.0 2.2 1.6 1.3 I 3.6 How is the cell cortex regulated locally and globally to coordinate its activities at different places on the cell surface? What determines, for example, where filopodia form? How are actin-regulatory proteins controlled spatially in the cytoplasm to generate multiple distinct types of actin arrays in the same cell? Are there biologically important processes occurring inside a microtubule?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4460",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 16\u20132 Diagram of changes in cytoskeletal organization associated with cell division. The crawling fibroblast drawn here has a polarized, dynamic actin cytoskeleton (shown in red) that assembles lamellipodia and filopodia to push its leading edge toward the right. The polarization of the actin cytoskeleton is assisted by the microtubule cytoskeleton (green), consisting of long microtubules that emanate from a single microtubuleorganizing center located in front of the nucleus. When the cell divides, the polarized microtubule array rearranges to form a bipolar mitotic spindle, which is responsible for aligning and then segregating the duplicated chromosomes (brown). The actin filaments form a contractile ring at the center of the cell that pinches the cell in two after the chromosome segregation. After cell division is complete, the two daughter cells reorganize both the microtubule and actin cytoskeletons into smaller versions of those that were present in the mother cell,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4455",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many cells require rapid cytoskeletal rearrangements for their normal functioning during interphase as well. For example, the neutrophil, a type of white Actin flaments(also known as microflaments) are helical polymers of the protein actin. They are fexible structures with a diameter of 8 nm that organize into a variety of linear bundles, two-dimensional networks, and three-dimensional gels. Although actin flaments are dispersed throughout the cell, they are most highly concentrated in the cortex, just beneath the plasma membrane. (i) Single actin flament; (ii) microvilli; (iii) stress fbers (red) terminating in focal adhesions (green); (iv) striated muscle. Micrographs courtesy of R. Craig (i and iv); P.T. Matsudaira and D.R. Burgess (ii); K. Burridge (iii). Microtubulesare long, hollow cylinders made of the protein tubulin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_514",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201318; for an example of B, see Figure 3\u201321; for examples of C, see Figures 5\u201314 and 14\u201331.) site site complementary to another region of the surface of the same molecule (Figure 3\u201320). An actin filament, for example, is a long helical structure produced from many molecules of the protein actin (Figure 3\u201321). Actin is a globular protein that is very abundant in eukaryotic cells, where it forms one of the major filament systems of the cytoskeleton (discussed in Chapter 16)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4524",
+            "title": "Cell_Biology_Alberts",
+            "content": "in vitro, when the monomer concentration is 0.2 \u03bcM, filament half-life, a measure of how long an individual actin monomer spends in a filament as it treadmills, is approximately 30 minutes. In a non-muscle vertebrate cell, actin half-life in filaments is only 30 seconds, demonstrating that cellular factors modify the dynamic behavior of actin filaments. Actin-binding proteins dramatically alter actin filament dynamics and organization through spatial and temporal control of monomer availability, filament nucleation, elongation, and depolymerization. In the following sections, we describe the ways in which these accessory proteins modify actin function in the cell."
+        },
+        {
+            "id": "Histology_Ross_1623",
+            "title": "Histology_Ross",
+            "content": "Smooth muscle cytoplasm stains rather evenly with eosin in routine H&E preparations because of the concentrations of actin and myosin that these cells contain. The nuclei of smooth muscle cells are located in the center of the cell and often have a corkscrew appearance in longitudinal section. This characteristic is a result of contraction of the cell during fixation and is often useful in distinguishing smooth muscle cells from fibroblasts in routine histologic sections. In the noncontracted cell, the nucleus appears as an elongated structure with tapering ends, lying in the center axis of the cell. When the nucleus is included in a cross section of a smooth muscle fiber, it appears as a round or circular profile whether the cell is contracted or relaxed. The TEM shows that most of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4495",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Jacobs-Wagner, Cell 115:705\u2013713, 2003. With permission from Elsevier.) accessory proteins cross-link and bundle the filaments together, making large-Figure 16\u201311 The structures of an actin monomer and actin filament. (A) The scale actin structures that are much more rigid than an individual actin filament. ATP or ADP) bound in a deep cleft in the Nucleation Is the Rate-Limiting Step in the Formation of Actin center of the molecule. (B) Arrangement of two protofilaments, held together by lateral contacts, which wind around each"
+        },
+        {
+            "id": "Cell_Biology_Alberts_969",
+            "title": "Cell_Biology_Alberts",
+            "content": "Is there also an intranuclear framework, analogous to the cytoskeleton, on which chromosomes and other components of the nucleus are organized? The nuclear matrix, or scaffold, has been defined as the insoluble material left in the nucleus after a series of biochemical extraction steps. Many of the proteins and RNA molecules that form this insoluble material are likely to be derived from the fibrous subcompartments of the nucleus just discussed, while others may be proteins that help to form the base of chromosomal loops or to attach chromosomes to other structures in the nucleus."
+        },
+        {
+            "id": "Histology_Ross_1636",
+            "title": "Histology_Ross",
+            "content": "-actinin-containing cytoplasmic densities (dense bodies) actin-myosin filaments nucleus actin filament actin tropomyosin myosin filament intermediate filament (desmin, vimentin) dense body -actinin FIGURE 11.22 \u2022 A suggested model for smooth muscle cell contraction. Bundles of myofilaments containing thin and thick filaments, shown in dark brown, are anchored on cytoplasmic densities, shown in beige. These densities, in turn, are anchored on the sarcolemma. Cytoplasmic densities are intracellular analogs of striated muscle Z lines. They contain the actin-binding protein -actinin. Because the contractile filament bundles are oriented obliquely to the long axis of the cell, their contraction shortens the cell and produces the \u201ccorkscrew\u201d shape of the nucleus."
+        },
+        {
+            "id": "Histology_Ross_329",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.45 \u2022 Distribution of actin flaments in pulmonary artery endothelial cells in culture. Cells were fxed and stained with NDB phallacidin stain conjugated with fuorescein dye. Phallacidin binds and stabilizes actin flaments, preventing their depolymerization. Note the accumulation of actin flaments at the periphery of the cell just beneath the plasma membrane. These cells were also stained with two additional dyes: a mitochondria-selective dye (i.e., MitoTracker Red) that allows the visualization of mitochondria (red ) in the middle of the cell and DAPI stain that reacts with nuclear DNA and exhibits blue fuorescence over the nucleus. 3,000. (Courtesy of Molecular Probes, Inc., Eugene, OR.) proteins they contain. There are two types of filaments (myoflaments) present in muscle cells: 6to 8-nm actin filaments (called thin flaments; Fig. 2.47) and 15-nm filaments (called thick flaments) of myosin II, which is the predominant protein in muscle cells. Myosin II is a double-headed"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4043",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Why does the actin filament revolve in steps with pauses in between? What does this rotation correspond to in terms of the structure of the \u03b13\u03b23\u03b3 complex? B. In its normal mode of operation inside the cell, how many ATP molecules do you suppose would be synthesized for each complete 360\u00b0 rotation of the \u03b3 subunit? Explain your answer. 14\u201311 How much energy is available in visible light? How much energy does sunlight deliver to Earth? How efficient"
+        },
+        {
+            "id": "Histology_Ross_331",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.46 \u2022 Polymerization of actin flaments. Actin flaments are polarized structures. Their fast-growing end is referred to as the plus ( ) or barbed end; the slow-growing end is referred to as the minus ( ) or pointed end. The dynamic process of actin polymerization requires energy in the form of an ATP molecule that is hydrolyzed to ADP after a G-actin molecule is incorporated into the flament. \u0081 Actin flament\u2013severing proteins cut long actin filaments into short fragments. An example of such a protein is gelsolin, a 90-kDa ABP that normally initiates actin polymerization but at high Ca2 concentrations causes severing of the actin filaments, converting an actin gel into a \ufb02uid state."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4448",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we discuss the general features of the proteins that make up the filaments of the cytoskeleton. We focus on their ability to form intrinsically Figure 16\u20131 The cytoskeleton. (A) A cell in culture has been fixed and labeled to show its cytoplasmic arrays of microtubules (green) and actin filaments (red). (B) This dividing cell has been labeled to show its spindle microtubules (green) and surrounding cage of intermediate filaments (red). The DNA in both cells is labeled in blue. (A, courtesy of Albert Tousson; B, courtesy of Conly Rieder.) polarized and self-organized structures that are highly dynamic, allowing the cell to rapidly modify cytoskeletal structure and function under different conditions. Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4490",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cytoplasm of eukaryotic cells is spatially organized by a network of protein filaments known as the cytoskeleton. This network contains three principal types of filaments: actin filaments, microtubules, and intermediate filaments. All three types of filaments form as helical assemblies of subunits that self-associate using a combination of end-to-end and side-to-side protein contacts. Differences in the structure of the subunits and the manner of their self-assembly give the filaments different mechanical properties. Subunit assembly and disassembly constantly remodel all three types of cytoskeletal filaments. Actin and tubulin (the subunits of actin filaments and microtubules, respectively) bind and hydrolyze nucleoside triphosphates (ATP and GTP, respectively), and assemble head-to-tail to generate polarized filaments capable of generating force. In living cells, accessory proteins modulate the dynamics and organization of cytoskeletal filaments, resulting in complex events such"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4469",
+            "title": "Cell_Biology_Alberts",
+            "content": "The subunits of actin filaments and microtubules are asymmetrical and bind to one another head-to-tail so that they all point in one direction. This subunit polarity gives the filaments structural polarity along their length, and makes the two ends of each polymer behave differently. In addition, actin and tubulin subunits are both enzymes that catalyze the hydrolysis of a nucleoside triphosphate\u2014 ATP and GTP, respectively. As we discuss later, the energy derived from nucleotide hydrolysis enables the filaments to remodel rapidly. By controlling when and where actin and microtubules assemble, the cell harnesses the polar and dynamic properties of these filaments to generate force in a specific direction, to move the leading edge of a migrating cell forward, for example, or to pull chromosomes apart during cell division. In contrast, the subunits of intermediate filaments are symmetrical, and thus do not form polarized filaments with two different ends. Intermediate filament subunits"
+        },
+        {
+            "id": "Histology_Ross_362",
+            "title": "Histology_Ross",
+            "content": "web connecting desmosomes Emerge from Concentrated beneath and hemidesmosomes MTOC and spread plasma membrane In nucleus just beneath into periphery of Contractile elements inner nuclear membrane cell of muscles Mitotic spindle, Contractile ring Centrosome in dividing cells Major Provide essential components Provide mechanical strength Provide network functions to contractile elements and resistance to shearing (\u201crailroad tracks\u201d) for of muscle cells (sarcomeres) forces movement of organelles within cell Provide movement for cilia and chromosomes during cell division TABLE Summary Characteristics of Three Types of Cytoskeletal Elements, Cont.2.4 Actin Filaments (Microfilaments) Intermediate Filaments Microtubules"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4545",
+            "title": "Cell_Biology_Alberts",
+            "content": "The structural organization of different actin networks depends on specialized accessory proteins. As explained earlier, Arp 2/3 organizes filaments into dendritic networks by attaching filament minus ends to the side of other filaments. Other actin filament structures are assembled and maintained by two classes of proteins: bundling proteins, which cross-link actin filaments into a parallel array, and gel-forming proteins, which hold two actin filaments together at a large angle to each other, thereby creating a looser meshwork. Both bundling and gel-forming proteins generally have two similar actin-filament-binding sites, which can either be part of a single polypeptide chain or contributed by each of two polypeptide chains held together in a dimer (Figure 16\u201322). The spacing and arrangement of these two filament-binding domains determine the type of actin structure that a given cross-linking protein forms."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4789",
+            "title": "Cell_Biology_Alberts",
+            "content": "Are there biologically important processes occurring inside a microtubule? How can we account for the fact that there are many different kinesins and myosins in the cytoplasm but only one dynein? Mutations in the nuclear lamin proteins cause a large number of diseases called laminopathies. What do we not understand about the nuclear lamina that could account for this fact? Figure Q16\u20131 Tension as a function of sarcomere length during isometric contraction (Problem 16\u20135)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4537",
+            "title": "Cell_Biology_Alberts",
+            "content": "Another important mechanism of actin filament regulation depends on proteins that break an actin filament into many smaller filaments, thereby generating a large number of new filament ends. The fate of these new ends depends on the presence of other accessory proteins. Under some conditions, newly formed ends nucleate filament elongation, thereby accelerating the assembly of new filament structures. Under other conditions, severing promotes the depolymerization of old filaments, speeding up the depolymerization rate by tenfold or more. In addition, severing changes the physical and mechanical properties of the cytoplasm: stiff, large bundles and gels become more fluid."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4584",
+            "title": "Cell_Biology_Alberts",
+            "content": "turn over with a half-life of several days, the actin filaments in sarcomeres are remarkably stable compared with those found in most other cell types, whose dynamic actin filaments turn over with half-lives of a few minutes or less."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4752",
+            "title": "Cell_Biology_Alberts",
+            "content": "Myosin Contraction and Cell Adhesion Allow Cells to Pull Themselves Forward Forces generated by actin filament polymerization at the front of a migrating cell are transmitted to the underlying substratum to drive cell motion. For the leading Figure 16\u201379 Cofilin in lamellipodia. A keratocyte with actin filaments labeled in red by fluorescent phalloidin, and cofilin labeled in green with a fluorescent antibody. Although the dense actin meshwork reaches all the way through the lamellipodium, cofilin is not found at the very leading edge. (B) Close-up view of the region marked with the white rectangle in (A). The actin filaments closest to the leading edge, which are also the ones that have formed most recently and that are most likely to contain ATP-actin (rather than ADP-actin), are generally not associated with cofilin. (From T. Svitkina and G. Borisy, J. Cell Biol. 145:1009\u20131026, 1999. With permission from the authors.)"
+        },
+        {
+            "id": "Histology_Ross_264",
+            "title": "Histology_Ross",
+            "content": "\u201cFree\u201d ribosomes synthesize proteins that will remain in the cell as cytoplasmic structural or functional elements. Proteins targeted to the nucleus, mitochondria, or peroxisomes are synthesized on free ribosomes and then released into the cytosol. In the absence of a signal sequence, proteins that are synthesized on free ribosomes remain in the cytosol. Cytoplasmic basophilia is associated with cells that produce large amounts of protein that will remain in the cell. Such cells and their products include developing red blood cells (hemoglobin), developing muscle cells (the contractile proteins actin and myosin), nerve cells (neurofilaments), and keratinocytes of the skin (keratin). In addition, most enzymes of the mitochondrion are synthesized by free polysomes and transferred into that organelle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4769",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 16\u201384 The dramatic effects of Cdc42, Rac, and Rho on actin organization in fibroblasts. In each case, the actin filaments have been labeled with fluorescent phalloidin. (A) Serum-starved fibroblasts have actin filaments primarily in the cortex, and relatively few stress fibers. (B) Microinjection of a constitutively activated form of Cdc42 causes the protrusion of many long filopodia at the cell periphery. (C) Microinjection of a constitutively activated form of Rac, a closely related monomeric GTPase, causes the formation of an enormous lamellipodium that extends from the entire circumference of the cell. (D) Microinjection of a constitutively activated form of Rho causes the rapid assembly of many prominent stress fibers. (From A. Hall, Science 279:509\u2013514, 1998. With permission from AAAS.)"
+        }
+    ],
+    "scores": [
+        0.031096323310656947,
+        0.031024156024156025,
+        0.027590265801647914,
+        0.02677367900790798,
+        0.026311036789297658,
+        0.02538793792993121,
+        0.025338743783298485,
+        0.024843827596121172,
+        0.02481946749869314,
+        0.024653077822396174,
+        0.0242913346420262,
+        0.02286574444943762,
+        0.021469711251206745,
+        0.021145180224286325,
+        0.019639671037433058,
+        0.01949377685082658,
+        0.019424799622819428,
+        0.019417475728155338,
+        0.01889483065953654,
+        0.018596642272922945,
+        0.018527278461053294,
+        0.017653890824622535,
+        0.017273471818926363,
+        0.01721981014055486,
+        0.01715686274509804,
+        0.01692936827092012,
+        0.016515330964600606,
+        0.016233766233766232,
+        0.016122766122766124,
+        0.016068630343686795,
+        0.015922158337019016,
+        0.015556974516746966
+    ]
+}

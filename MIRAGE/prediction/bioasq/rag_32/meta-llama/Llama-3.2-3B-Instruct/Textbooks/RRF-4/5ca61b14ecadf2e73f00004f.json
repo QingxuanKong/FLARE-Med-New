@@ -1,0 +1,206 @@
+{
+    "id": "5ca61b14ecadf2e73f00004f",
+    "question": "Does Estrogen lead to forkhead FoxA1 activation?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the documents provided and look for any information related to the relationship between estrogen and forkhead FoxA1 activation.\\n\\nBased on the documents, estrogen is known to activate various signaling pathways and transcription factors, but there is no direct information on its effect on forkhead FoxA1 activation.\\n\\nHowever, estrogen receptors are known to interact with other transcription factors and signaling pathways, and it is possible that estrogen may indirectly affect forkhead FoxA1 activation through these pathways.\\n\\nBut, a more specific answer can be derived from Document [20] (Title: Gynecology_Novak) which mentions that CD25+ cells, also known as regulatory T lymphocytes (Treg cells), secrete regulatory cytokines, including interleukin-10 (IL-10) and transforming growth factor-\u03b2 (TGF-\u03b2).\\n\\nFurthermore, Document [21] (Title: InternalMed_Harrison) mentions that FOXP3, a transcription factor involved in immune tolerance, is also known as forkhead box P3 (FoxP3).\\n\\nTherefore, it is possible that estrogen may indirectly affect forkhead FoxA1 activation through its effects on Treg cells and the FOXP3 transcription factor.\\n\\nHowever, without more specific information, it is difficult to conclude that estrogen directly leads to forkhead FoxA1 activation.\\n\\nSo, the most accurate answer is,\\n\\n\", \"answer_choice\": \"B\"}}",
+    "snippets": [
+        {
+            "id": "Gynecology_Novak_508",
+            "title": "Gynecology_Novak",
+            "content": "ERE 5\u2019 GGTCAnnnTGACC 3\u2019 MAPKER A B C PKA IGF EGF c-myc, c-fos, c-jun,IGF, BCL-2 \u03b2 Figure 6.4 Activation of estrogen receptor mediated transcription. Intracellular estrogen receptor signaling is mediated via different pathways. A: 17\u03b2-estrodiol diffuses through the cell membrane and binds to cytoplasmic ER. The ER is subsequently phosphorylated, undergoes dimerization, and binds to the estrogen response element (ERE) on the promoter of an estrogen responsive gene. B: Estrogen ligand binds to membrane-bound ER and activates the mitogenactivated protein kinase (MAPK) pathways that support ER-mediated transcription. C: Binding of cytokines such as insulinlike growth factor (IGF) or epidermal growth factor to their membrane receptor can cause activation of protein kinases like PKA, which subsequently activates ER by phosphorylation. to a specific growth factor depends on a variety of factors, including the cell type, the cellular microenvironment, and the cell cycle status."
+        },
+        {
+            "id": "Gynecology_Novak_504",
+            "title": "Gynecology_Novak",
+            "content": "Table 6.2 Tumor Suppressor Genes Figure 6.3 Structure of the two mammalian estrogen receptors. ER\u03b1 (595 amino acids) and ER\u03b2 (530 amino acids) consist of six domains (A\u2013F from the N-to C-terminus). Domains A and B at the N-terminus contain an agonist-independent transcriptional activation domain (activation function 1, or AF-1). The C domain is the central DNA-binding sequence (DBD). Domains E and F function as ligand binding domain (LBD) and activation function 2 (AF-2). Also shown is the structure of the ER ligand 17\u03b2-estradiol. In addition to the described genomic effects of estrogens, there is growing evidence for nongenomic effects of estrogens on intracellular signal transduction pathways. These effects include rapid activation of the adenylate cyclase, which results in cyclic adenosine monophosphate (cAMP)\u2013dependent activation of protein kinase A (PKA) (29). Estrogens can stimulate the MAPK pathway and rapidly activate the Erk1/Erk2 proteins."
+        },
+        {
+            "id": "Physiology_Levy_1422",
+            "title": "Physiology_Levy",
+            "content": "12.21. Basic molecular signaling pathways involved in contributing to net protein synthesis (A) and mitochondrial biogenesis (B) in skeletal muscle in response to exercise. AKT, a serine/threonine-specific protein kinase (protein kinase B); AMPK, 5\u2032 adenosine monophosphate\u2013activated protein kinase; ATP, adenosine triphosphate; CaM kinase, Ca++/calmodulin-dependent protein kinase; CREB, cAMP response element binding protein; ERR\u03b1, estrogen-related receptor-\u03b1; FoxO, forkhead box O class of transcription factors; FoxO-P, phosphorylated FoxO; Glut-4, glucose transporter type 4; HDAC5, histone deacetylase 5; IGF-1, insulin-like growth factor 1; MEF2, myocyte enhancer factor 2; mTOR, mammalian target of rapamycin; Nrf1, Nrf2, and Nrf2\u03b1, nuclear respiratory factors 1, 2, and 2\u03b1; PGC-1\u03b1, peroxisome proliferator-activated receptor \u03b3 coactivator 1\u03b1; PI3K, phosphatidylinositol-3-kinase; Tn I, troponin I. (A, From Sandri M, et al. PGC-1alpha protects skeletal muscle from atrophy by suppressing Fo"
+        },
+        {
+            "id": "InternalMed_Harrison_27242",
+            "title": "InternalMed_Harrison",
+            "content": "WNT4 46,XX 46,XY DMRT 1,2 FIGURE 410-2 The genetic regulation of gonadal development. AMH, anti-m\u00fcllerian hormone (m\u00fcllerian-inhibiting substance); ATRX, \u03b1-thalassemia, mental retardation on the X; BMP2 and 15, bone morphogenic factors 2 and 15; CBX2, chromobox homologue 2; DAX1, dosage sensitive sex-reversal, adrenal hypoplasia congenita on the X chromosome, gene 1; DHH, desert hedgehog; DHT, dihydrotestosterone; DMRT 1,2, doublesex MAB3-related transcription factor 1,2; FOXL2, forkhead transcription factor L2; GATA4, GATA binding protein 4; GDF9, growth differentiation factor 9; MAMLD1, mastermind-like domain containing 1; MAP3K1, mitogen-activated protein kinase kinase kinase 1; RSPO1, R-spondin 1; SF1, steroidogenic factor 1 (also known as NR5A1); SOX9, SRY-related HMG-box gene 9; SRY, sex-determining region on the Y chromosome; WNT4, wingless-type MMTV integration site 4; WT1, Wilms\u2019 tumor\u2013related gene 1."
+        },
+        {
+            "id": "InternalMed_Harrison_26352",
+            "title": "InternalMed_Harrison",
+            "content": "The functions of individual hormones are described in detail in subsequent chapters. Nevertheless, it is useful to illustrate how most biologic responses require integration of several different hormone pathways. The physiologic functions of hormones can be divided into three general areas: (1) growth and differentiation, (2) maintenance of homeostasis, and (3) reproduction. FIGURE 400e-2 Nuclear receptor signaling. AR, androgen receptor; DAX, dosage-sensitive sex-reversal, adrenal hypoplasia congenita, X-chromosome; ER, estrogen receptor; GR, glucocorticoid receptor; HNF4\u03b1, hepatic nuclear factor 4\u03b1; PPAR, peroxisome proliferator activated receptor; PR, progesterone receptor; RAR, retinoic acid receptor; SF-1, steroidogenic factor-1; TR, thyroid hormone receptor; VDR, vitamin D receptor."
+        },
+        {
+            "id": "Pharmacology_Katzung_4461",
+            "title": "Pharmacology_Katzung",
+            "content": "A. Mechanism Estrogens in the blood and interstitial fluid are bound to SHBG, from which they dissociate to cross the cell membrane, enter the nucleus, and bind to their receptor. Two genes code for two estrogen receptor isoforms, \u03b1 and \u03b2, which are members of the superfamily of steroid, sterol, retinoic acid, and thyroid receptors. Unlike glucocorticoid receptors, estrogen receptors are found predominantly in the nucleus, where they are bound to heat shock proteins that stabilize them (see Figure 39\u20134)."
+        },
+        {
+            "id": "Physiology_Levy_4192",
+            "title": "Physiology_Levy",
+            "content": "(E2).(ModifiedfromWhiteBA,PorterfieldSP.Endocrine Physiology. 4thed.Philadelphia:Mosby;2013.) binding or DHT-AR binding causes dissociation of the vicinity of a specific gene\u2019s promoter. It remains unclear how chaperone proteins, followed by nuclear translocation of testosterone and DHT differ in their ability to activate the the androgen-AR complex, dimerization, binding to an AR in the context of different cell types, although the pres-androgen response element (ARE), and recruitment of ence of different coactivator proteins in different cell types coactivator proteins and general transcription factors to the is probably involved. Such coactivator proteins would have"
+        },
+        {
+            "id": "Gynecology_Novak_502",
+            "title": "Gynecology_Novak",
+            "content": "Activation of transcription via the ER is a multistep process. The initial step requires activation of the ER via various mechanisms (Fig. 6.4). For example, estrogens such as 17\u03b2-estradiol can diffuse into the cell and bind to the LBD of the ER. Upon ligand binding, the ER undergoes conformational changes followed by a dissociation of various bound proteins, mainly heat shock proteins 90 and 70 (Hsp90 and Hsp70). Activation of the ER also requires phosphorylation by several protein kinases, including casein kinase II, protein kinase A, and components of the Ras/Mapk (mitogen-activated protein kinase) pathway (26). Four phosphorylation sites of the ER are clustered in the NH2 terminus with the AF-1 region."
+        },
+        {
+            "id": "InternalMed_Harrison_26350",
+            "title": "InternalMed_Harrison",
+            "content": "aberrant gene silencing that prevents normal cellular differentiation. Treatment with retinoic acid reverses this repression and allows cellular differentiation and apoptosis to occur. Most type 1 steroid receptors interact weakly with co-repressors, but ligand binding still induces interactions with an array of coactivators. X-ray crystallography shows that various SERMs induce distinct estrogen receptor conformations. The tissue-specific responses caused by these agents in breast, bone, and uterus appear to reflect distinct interactions with coactivators. The receptorcoactivator complex stimulates gene transcription by several pathways, including (1) recruitment of enzymes (histone acetyl transferases) that modify chromatin structure, (2) interactions with additional transcription factors on the target gene, and (3) direct interactions with components of the general transcription apparatus to enhance the rate of RNA polymerase II\u2013mediated transcription. Studies of nuclear"
+        },
+        {
+            "id": "InternalMed_Harrison_26324",
+            "title": "InternalMed_Harrison",
+            "content": "406). Another example of relaxed nuclear receptor specificity involves the estrogen receptor, which can bind an array of compounds, some of which have little apparent structural similarity to the high-affinity ligand estradiol. This feature of the estrogen receptor makes it susceptible to activation by \u201cenvironmental estrogens\u201d such as resveratrol, octylphenol, and many other aromatic hydrocarbons. However, this lack of specificity"
+        },
+        {
+            "id": "Gynecology_Novak_6245",
+            "title": "Gynecology_Novak",
+            "content": "CD25+ cells are more specifically identified by the intracellular presence of the forkhead box P3 (Fox P3) transcription factor and have been called regulatory T lymphocytes (Treg cells). Treg cells, when activated by autoantigens, can suppress activated in\ufb02ammatory cells. They secrete regulatory cytokines, including interleukin-10 (IL-10) and transforming growth factor-\u03b2 (TGF-\u03b2) (123\u2013125). They may have particular importance in avoidance of tissue destruction associated with in\ufb02ammation, possibly with applications to tolerance. In an abortion-prone murine model, adoptive transfer of Treg cells from normal pregnant mice into abortion-prone animals prevented immune-mediated pregnancy wastage (126). In pregnant women, Treg cells suppress autologous peripheral blood mononuclear cell (PBMC) secretion of the in\ufb02ammatory cytokine, interferon-\u03b3 (IFN-\u03b3) when challenged by paternal or unrelated PBMCs (127)."
+        },
+        {
+            "id": "Physiology_Levy_4279",
+            "title": "Physiology_Levy",
+            "content": "Fig. 44.27). The rising levels of estrogen during the mid to late follicular phase of the ovary induce the proliferative phase of the uterine endometrium. Estrogen induces all cell types in the stratum basale to grow and divide. In fact the definition of an \u201cestrogenic\u201d compound has historically been one that is \u201cuterotropic.\u201d Estrogen increases cell proliferation directly through its cognate receptors (ER-\u03b1 and ER-\u03b2), which regulate gene expression ( Fig. 44.28 ). Estrogen also controls uterine growth indirectly through local production of growth factors. In addition, estrogen induces expression of progesterone receptors, thereby \u201cpriming\u201d the uterine endometrium so it can respond to progesterone during the luteal phase of the ovary. By ovulation, the thickness of the stratum functionalis has been reestablished under the proliferative actions of estradiol-17\u03b2 (see"
+        },
+        {
+            "id": "Pathology_Robbins_4756",
+            "title": "Pathology_Robbins",
+            "content": "Hormonal influences. In the decade after menopause, yearly reductions in bone mass may be as much as 2% of cortical bone and 9% of medullary bone. Estrogen deficiency plays the major role in this phenomenon and close to 40% of postmenopausal women are affected by osteoporosis. Decreased estrogen levels after menopause increase both bone resorption and formation but the latter does not keep up with the former, leading to high-turnover osteoporosis. The decreased estrogen may increase secretion of inflammatory cytokines by monocytes. These cytokines stimulate osteoclast recruitment and activity by increasing the levels of RANKL, diminishing the expression of OPG, decreasing osteoclast proliferation, and preventing osteoclast apoptosis. Cytokines such as IL-6, TNF-\u03b1, and IL-1 also have been implicated in postmenopausal osteoporosis, either independently or as downstream mediators of estrogen signaling. http://ebooksmedicine.net"
+        },
+        {
+            "id": "Gynecology_Novak_503",
+            "title": "Gynecology_Novak",
+            "content": "The activated ER elicits a number of different genomic as well as nongenomic effects on intracellular signaling pathways. The classical steroid signaling pathway involves binding of the activated estrogen receptor to an estrogen responsive element (ERE) on the genome as homodimers and subsequent stimulation of transcription (27,28). The minimal consensus sequence for Table 6.1 Proto-Oncogenes hst, int-2 Ha-ras, N-ras, N-ras fgr, lck, src, yes cot, plm-1, mos, raf/mil jun, ets-1, ets-2,fos, gil 1,rel, ski, vav lyl-1, maf, myb, myc, L-myc, N-myc, evi-1 the ERE is a 13 bp palindromic inverted repeat (IR) and is defined as 5 -GGTCAnnnTGACC-3 . Genes that are regulated by activated ERs include early gene responses such as c-myc, c-fos, and d-jun, and genes encoding for growth factors such as insulin growth factor (IGF-1 and IGF-2), epidermal growth factor (EGF), transforming growth factor-\u03b1, and colony-stimulating factor (CSF-1). Table 6.2 Tumor Suppressor Genes"
+        },
+        {
+            "id": "InternalMed_Harrison_27480",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 412-2 Ovarian germ cell number is maximal at mid-gestation and then decreases precipitously. of the oocyte and the capacity for hormone secretion. For example, oocyte-derived growth differentiation factor 9 (GDF-9) and bone morphogenic protein-15 (BMP-15), also known as GDF-9b, are required for migration of pregranulosa and pretheca cells to the outer surface of the developing follicle and, hence, initial follicle formation. GDF-9 is also required for formation of secondary follicles, as are granulosa cell\u2013derived KIT ligand (KITL) and the forkhead transcription factor (FOXL2). All of these genes are potential candidates for premature ovarian failure in women, and mutations in the human FOXL2 gene have been shown to cause the syndrome of blepharophimosis/ptosis/ epicanthus inversus, which is associated with ovarian failure."
+        },
+        {
+            "id": "Obstentrics_Williams_521",
+            "title": "Obstentrics_Williams",
+            "content": "Estrogen is the essential hormonal signal on which most events in the normal menstrual cycle depend. They function in many cell types to regulate follicular development, uterine receptivity, and blood flow. The most biologically potent naturally occur ring estrogen is 173-estradiol, which is secreted by granulosa cells of the dominant follicle and luteinized granulosa cells of the corpus luteum. Estradiol action is complex and appears estrogen receptor a (ERa) and 3 (ER3) (Katzen ellenbogen, 2001). These isoforms are the products of separate genes and can exhibit distinct tissue expression. Both estradiol-receptor complexes act as transcriptional factors that become associ ated with the estrogen-response element of speciic genes. They share a robust activation by estradiol. However, diferences in their binding ainities to other estrogens and their cell-speciic may have both distinct and overlapping function (Saunders, 2005)."
+        },
+        {
+            "id": "Gynecology_Novak_659",
+            "title": "Gynecology_Novak",
+            "content": "Androgens have two positive regulatory roles in follicular development. Within the ovary, androgens promote granulose cell proliferation, aromatase activity, and inhibit programmed death of these cells (81). As the peripheral estrogen level rises, it negatively feeds back on the pituitary and hypothalamus to decrease circulating FSH levels (82). Increased ovarian production of inhibin-B further decreases FSH production at this point."
+        },
+        {
+            "id": "Physiology_Levy_4295",
+            "title": "Physiology_Levy",
+            "content": "Biological Effects of Estrogen and Progesterone Estradiol-17\u03b2 and progesterone fluctuate during the menstrual cycle, and they have multiple effects that can be categorized according to whether they are directly related to the reproductive system or not. Both hormones have profound effects on the ovary, oviduct, uterus, cervix, vagina, and external genitalia and on the hypothalamus and pituitary. Estrogen and progesterone also have important effects on nonreproductive tissues: Bone: Estrogen is required for closure of the epiphyseal plates of long bones in both sexes. Estradiol-17\u03b2 has a bone anabolic and calciotropic effect (see ). It stimulates intestinal Ca++ absorption. Estradiol-17\u03b2 is also one of the most potent regulators of osteoblast and osteoclast function. Estrogen promotes survival of osteoblasts and apoptosis of osteoclasts, thereby favoring bone formation over resorption. Low estrogen levels associated with menopause leads to bone loss and osteoporosis."
+        },
+        {
+            "id": "Pathology_Robbins_4414",
+            "title": "Pathology_Robbins",
+            "content": "Hormonal Influences. Estrogens stimulate the production of growth factors, such as transforming growth factor-\u03b1, platelet-derived growth factor, fibroblast growth factor, and others, which may promote tumor development through paracrine and autocrine mechanisms. In addition, ER regulates dozens of other genes in an estrogen-dependent fashion, some of which are important for tumor development or growth. Hormonal influences likely drive proliferation during the development of cancers from precursor lesions (which typically strongly express ER) to fully malignant and even metastatic carcinomas. The clearest measure of the importance of estrogen is found in the therapeutic benefits of estrogen antagonists, which reduce the development of ER-positive cancers in women at high risk and are mainstays in the treatment of established ER-positive tumors."
+        },
+        {
+            "id": "Gynecology_Novak_5415",
+            "title": "Gynecology_Novak",
+            "content": "92. Nishi Y, Hamamoto K, Kafiyama M, et al. The Perrault syndrome: clinical report and review. Am J Med Genet 1988;31:623\u2013629. 93. Crisponi L, Deiana M, Loi A, et al. The putative forkhead transcription factor FOXL2 is mutated in blepharophimosis/ptosis/epicanthus inversus syndrome. Nat Genet 2001;27:159\u2013166. 94. Mattison DR, Evan MI, Schwimmer WB. Familial premature ovarian failure. Am J Hum Genet 1984;36:1341\u20131348. 95. Simpson JL. Genetic and phenotypic heterogeneity in ovarian failure: overview of selected candidate genes. Ann N Y Acad Sci 2008;1135:146\u2013154. 96. Skillern A, Rajkovic A. Recent developments in identifying genetic determinants of premature ovarian failure. Sex Dev 2008;2:228\u2013243. 97. Wittenberger MD, Hagerman RJ, Sherman SL, et al. The FMR1 premutation and reproduction. Fertil Steril 2007;87:456\u2013465. 98. Stillman RJ, Schinfeld JS, Schiff I, et al. Ovarian failure in long term survivors of childhood malignancy.Am J Obstet Gynecol 1981;139:62\u201366. 99."
+        },
+        {
+            "id": "Gynecology_Novak_2574",
+            "title": "Gynecology_Novak",
+            "content": "There is increasing evidence that local in\ufb02ammation and secretion of prostaglandins (PG) is related to differences in endometrial aromatase activity between women with and without endometriosis. Expression of aromatase cytochrome P450 protein and mRNA is present in human endometriotic implants but not in normal endometrium, suggesting that ectopic endometrium produces estrogens, which may be involved in the tissue growth interacting with the estrogen receptor (110). Inactivation of 17\u03b2-estradiol is impaired in endometriotic tissues because of deficient expression of 17\u03b2-hydroxysteroid dehydrogenase type 2, which is normally expressed in eutopic endometrium in response to progesterone (111). The inappropriate aromatase expression in endometriosis lesions can be stimulated by prostaglandin E2 (PGE2). This reaction leads to local production of E2, which stimulates PGE2 production, resulting in a positive-feedback system between local in\ufb02ammation and estrogen-driven local growth of"
+        },
+        {
+            "id": "Gynecology_Novak_6244",
+            "title": "Gynecology_Novak",
+            "content": "One very important concept in immunology that has particular application to pregnancy is that of immune tolerance. The passage of bone marrow\u2013derived T cells through the fetal thymus during early development has been well described. During this developmental interval, the T cells encounter a process termed thymic education. During thymic education, T cells that express either the CD4 or the CD8 coreceptor are chosen, and autoreactive cells are effectively eliminated. In short, this education promotes T-cell tolerance, allowing selection and survival only of those T cells that recognize non-self and will not react against self. Recently, a subpopulation of CD4+ T cells has been described that, like all activated lymphocytes, strongly express CD25 on their cell surface (123). These CD4, CD25+ cells are more specifically identified by the intracellular presence of the forkhead box P3 (Fox P3) transcription factor and have been called regulatory T lymphocytes (Treg cells). Treg cells,"
+        },
+        {
+            "id": "InternalMed_Harrison_26337",
+            "title": "InternalMed_Harrison",
+            "content": "of hormones from binding proteins (e.g., salsalate displaces T4 from TBG). In general, only unbound hormone is available to interact with receptors and thus elicit a biologic response. Short-term perturbations in binding proteins change the free hormone concentration, which in turn induces compensatory adaptations through feedback loops. SHBG changes in women are an exception to this self-correcting mechanism. When SHBG decreases because of insulin resistance or androgen excess, the unbound testosterone concentration is increased, potentially leading to hirsutism (Chap. 68). The increased unbound testosterone level does not result in an adequate compensatory feedback correction because estrogen, not testosterone, is the primary regulator of the reproductive axis."
+        },
+        {
+            "id": "Obstentrics_Williams_2716",
+            "title": "Obstentrics_Williams",
+            "content": "In many species, the role of sex steroid hormones is clear-estrogen promotes and progesterone inhibits the events leading to parturition. nd, the removal of progesterone, that is, progesterone withdrawa, directly precedes progression of parturition. In addition, providing progesterone to some species will delay parturition via a decline in myometrial activity and continued cervical competency (Challis, 1994). In humans, however, it seems most likely that both estrogen and progesterone are components of a broader molecular system that maintains uterine quiescence."
+        },
+        {
+            "id": "InternalMed_Harrison_27395",
+            "title": "InternalMed_Harrison",
+            "content": "and most feminizing adrenal tumors) or of diminished catabolism of androstenedione (liver disease) so that estrogen precursors are shunted to aromatase in peripheral sites. Obesity is associated with increased aromatization of androgen precursors to estrogens. Extraglandular aromatase activity can also be increased in tumors of the liver or adrenal gland or rarely as an inherited disorder. Several families with increased peripheral aromatase activity inherited as an autosomal dominant or as an X-linked disorder have been described. In some families with this disorder, an inversion in chromosome 15q21.2-3 causes the CYP19 gene to be activated by the regulatory elements of contiguous genes, resulting in excessive estrogen production in the fat and other extragonadal tissues. Drugs can cause gynecomastia by acting directly as estrogenic substances (e.g., oral contraceptives, phytoestrogens, digitalis) or by inhibiting androgen synthesis (e.g., ketoconazole) or action (e.g.,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_7069",
+            "title": "Cell_Biology_Alberts",
+            "content": "Wnt/\u03b2-catenin pathway Signaling pathway activated by binding of a Wnt protein to its cell-surface receptors. The pathway has several branches. In the major (canonical) branch, activation causes increased amounts of \u03b2-catenin to enter the nucleus, where it regulates the transcription of genes controlling cell differentiation and proliferation. Overactivation of the Wnt/\u03b2-catenin pathway can lead to cancer. (Figure 15\u201360) X-inactivation Inactivation of one copy of the X chromosome in the somatic cells of female mammals. X-inactivation center (XIC) Site in an X chromosome at which inactivation is initiated and spreads outward. x-ray crystallography Technique for determining the three-dimensional arrangement of atoms in a molecule based on the diffraction pattern of x-rays passing through a crystal of the molecule. (Figure 8\u201321) zygote Diploid cell produced by fusion of a male and female gamete. A fertilized egg."
+        },
+        {
+            "id": "Physiology_Levy_3764",
+            "title": "Physiology_Levy",
+            "content": "transducer and activator of transcription proteins [STATs], Mothers against decapentaplegic homologs [Smads]). Steroid hormones have slower, longer term effects that involve chromatin remodeling and changes in gene expression. Increasing evidence indicates that steroid hormones have rapid, nongenomic effects as well, but these pathways are still being elucidated."
+        },
+        {
+            "id": "Pharmacology_Katzung_4463",
+            "title": "Pharmacology_Katzung",
+            "content": "the actions of selective estrogen receptor modulators (SERMs, see below). The receptor may also bind to other transcription factors to influence the effects of these factors on their responsive genes. Interestingly, although ER\u03b2 has its own separate actions from ER\u03b1, it also acts as a dominant negative inhibitor of ER\u03b1. Thus, while ER\u03b1 has many growth-promoting properties, ER\u03b2 has anti-growth effects. Many phytoestrogens act via the ER\u03b2 protecting cells from the pro-growth effects of ER\u03b1."
+        },
+        {
+            "id": "Pathoma_Husain_46",
+            "title": "Pathoma_Husain",
+            "content": "i. CD25 polymorphisms are associated with autoimmunity (MS and type 1 DM). ii. FOXP3 mutations lead to IPEX syndrome (Immune dysregulation, Polyendocrinopathy, Enteropathy, X-linked). C. More common in women; classically affects women ofchildbearing age 1. Estrogen may reduce apoptosis of self-reactive B cells. D. Etiology is likely an environmental trigger in genetically-susceptible individuals. 1. Increased incidence in twins 2. Association with certain HLA types (e.g., HLA-B27) and PTPN22 polymorphisms 3. Environmental triggers lead to bystander activation or molecular mimicry. E. Autoimmune disorders are clinically progressive with relapses and remissions and often show overlapping features; partially explained by epitope spreading II. SYSTEMIC LUPUS ERYTHEMATOSUS A. Chronic, systemic autoimmune disease 1. Flares and remissions are common."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5935",
+            "title": "Cell_Biology_Alberts",
+            "content": "hormonal Signals coordinate the timing of Developmental transitions"
+        },
+        {
+            "id": "Pharmacology_Katzung_4464",
+            "title": "Pharmacology_Katzung",
+            "content": "The relative concentrations and types of receptors, receptor coregulators, and transcription factors confer the cell specificity of the hormone\u2019s actions. The genomic effects of estrogens are mainly due to proteins synthesized by translation of RNA transcribed from a responsive gene. Some of the effects of estrogens are indirect, mediated by the autocrine and paracrine actions of autacoids such as growth factors, lipids, glycolipids, and cytokines produced by the target cells in response to estrogen. Rapid estrogen-induced effects such as granulosa cell Ca2+ uptake and increased uterine blood flow do not require gene activation. These appear to be mediated by nongenomic effects of the classic estrogen receptor-estrogen complex, influencing several intracellular signaling pathways."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1899",
+            "title": "Cell_Biology_Alberts",
+            "content": "The effects of the glucocorticoid receptor are not confined to cells of the liver. In other cell types, activation of this transcription regulator by hormone also causes changes in the expression levels of many genes; the genes affected, however, are usually different from those affected in liver cells. As we have seen, each cell type has an individualized set of transcription regulators, and because of combinatorial control, these critically influence the action of the glucocorticoid receptor. Because the receptor is able to assemble with many different sets of celltype-specific transcription regulators, switching it on with hormone produces a different spectrum of effects in each cell type."
+        }
+    ],
+    "scores": [
+        0.032868659225789354,
+        0.031514938880937024,
+        0.028233609219137704,
+        0.0256481402430348,
+        0.023541084269488206,
+        0.02181818181818182,
+        0.019420188282537457,
+        0.019417475728155338,
+        0.017261904761904763,
+        0.01713418160786582,
+        0.01647457627118644,
+        0.016234616391725583,
+        0.01621417797888386,
+        0.01601246105919003,
+        0.015919959728165116,
+        0.015881742104941664,
+        0.015579710144927535,
+        0.015406162464985995,
+        0.015235778009500637,
+        0.015039606080068508,
+        0.014869281045751633,
+        0.014815627743634766,
+        0.014455693560171172,
+        0.014355742296918767,
+        0.01400898507318487,
+        0.013894602129896249,
+        0.013722510280708027,
+        0.013710178365427279,
+        0.013680331644403501,
+        0.013550747549573151,
+        0.0134210865918183,
+        0.013235294117647059
+    ]
+}

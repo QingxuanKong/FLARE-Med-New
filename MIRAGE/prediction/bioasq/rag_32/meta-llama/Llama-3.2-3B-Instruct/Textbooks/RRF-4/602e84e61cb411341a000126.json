@@ -1,0 +1,206 @@
+{
+    "id": "602e84e61cb411341a000126",
+    "question": "Is Tocilizumab (Actemra) used to block/antagonize the  IL-6 receptor?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and identify the mechanism of action of Tocilizumab. From Document [0], we know that Tocilizumab binds to soluble and membrane-bound IL-6 receptors, and inhibits the IL-6-mediated signaling via these receptors. This suggests that Tocilizumab is used to block or antagonize the IL-6 receptor. Additionally, from Document [2], we can see that Tocilizumab is a humanized monoclonal antibody directed against the membrane and soluble forms of the IL-6 receptor, which further supports the idea that it blocks the IL-6 receptor. Therefore, the correct answer is A.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_4011",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Mechanism of Action: Tocilizumab, a newer biologic humanized antibody, binds to soluble and membrane-bound IL-6 receptors, and inhibits the IL-6-mediated signaling via these receptors. IL-6 is a proinflammatory cytokine produced by different cell types including T cells, B cells, monocytes, fibroblasts, and synovial and endothelial cells. IL-6 is involved in a variety of physiologic processes such as T-cell activation, hepatic acute-phase protein synthesis, and stimulation of the inflammatory processes involved in diseases such as RA and systemic sclerosis (SSc). In a phase 4 superiority study, tocilizumab monotherapy was superior to adalimumab monotherapy for reduction of signs and symptoms of rheumatoid arthritis in patients with incomplete response to MTX. 2."
+        },
+        {
+            "id": "Pharmacology_Katzung_6182",
+            "title": "Pharmacology_Katzung",
+            "content": "Reslizumab binds and neutralizes the biological activity of IL-5, thereby suppressing the production and survival of eosinophils. It is approved for adult patients with severe eosinophilic asthma. Mepolizumab also binds to IL-5 and selectively inhibits eosinophilic inflammation in patients with severe eosinophilic asthma. Siltuximab is a Mab that binds to and blocks IL-6 from binding to its cellular receptor. It is approved for the treatment of patients with multicentric Castleman\u2019s disease who are HIV-negative and HHV-8-negative. Tocilizumab is recombinant humanized IgG1 that binds to soluble and membrane-associated IL-6 receptors. It inhibits IL-6-mediated signaling on lymphocytes, suppressing inflammatory processes. Similar to anti-TNF-\u03b1 Mabs, patients receiving tocilizumab should be closely monitored for infectious diseases such as tuberculosis and other invasive bacterial, fungal, and viral infections."
+        },
+        {
+            "id": "InternalMed_Harrison_25252",
+            "title": "InternalMed_Harrison",
+            "content": "Tocilizumab Tocilizumab is a humanized monoclonal antibody directed against the membrane and soluble forms of the IL-6 receptor. IL-6 is a proinflammatory cytokine implicated in the pathogenesis of RA, with detrimental effects on both joint inflammation and damage. IL-6 binding to its receptor activates intracellular signaling pathways that affect the acute-phase response, cytokine production, and osteoclast activation. Clinical trials attest to the clinical efficacy of tocilizumab therapy for RA, both as monotherapy and in combination with methotrexate and other DMARDs. Tocilizumab has been associated with an increased risk of infection, neutropenia, and thrombocytopenia; however, the hematologic abnormalities appear to be reversible upon stopping the drug. In addition, this agent has been shown to increase LDL cholesterol; however, it is not known as yet if this effect on lipid levels increases the risk for development of atherosclerotic disease."
+        },
+        {
+            "id": "Pharmacology_Katzung_4012",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Pharmacokinetics: The half-life of tocilizumab is dose-dependent, approximately 11 days for the 4-mg/kg dose and 13 days for the 8-mg/kg dose. IL-6 can suppress several CYP450 isoenzymes; thus, inhibiting IL-6 may restore CYP450 activities to higher levels. This may be clinically relevant for drugs that are CYP450 substrates and have a narrow therapeutic window (eg, cyclosporine or warfarin), and dosage adjustment of these medications may be needed. Tocilizumab can be used in combination with nonbiologic DMARDs or as monotherapy. In the United States the recommended starting dose for RA is 4 mg/kg intravenously every 4 weeks followed by an increase to 8 mg/kg (not exceeding 800 mg/infusion) dependent on clinical response."
+        },
+        {
+            "id": "InternalMed_Harrison_24659",
+            "title": "InternalMed_Harrison",
+            "content": "TNF-\u03b1R-Fc fusion protein (etanercept) and IL-1ra act to inhibit the activity of pathogenic cytokines in rheumatoid arthritis, i.e., TNF-\u03b1 and IL-1, respectively. Similarly, anti-IL-6, IFN-\u03b2, and IL-11 act to inhibit pathogenic proinflammatory cytokines. Anti-IL-6 (tocilizumab) inhibits IL-6 activity, whereas IFN-\u03b2 and IL-11 decrease IL-1 and TNF-\u03b1 production. Of particular note has been the successful use of IFN-\u03b3 in the treatment of the phagocytic cell defect in chronic granulomatous disease (Chap. 80)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6227",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferon beta-1b Betaseron, Extavia Interleukin-2 (IL-2, aldesleukin) Proleukin Mycophenolate mofetil Generic, CellCept GENERIC NAME AVAILABLE AS Pegademase bovine (bovine adenosine deaminase) Adagen Pegaptanib Macugen Peginterferon alfa-2a Pegasys Peginterferon alfa-2b PEG-Intron Pembrolizumab Keytruda Pertuzumab Perjeta Pomalidomide Pomalyst Ramucirumab Cyramza Ranibizumab Lucentis Raxibacumab ABthrax Reslizumab Cinqair Rho(D) immune globulin micro-dose RhoGam, others GENERIC NAME AVAILABLE AS Rilonacept Arcalyst Rituximab Rituxan Scorpion antivenom (equine (Fab)\u00a22) Anascorp Siltuximab Sylvant Sirolimus Generic, Rapamune Tacrolimus (FK 506) Generic, Prograf, others Teriflunomide Aubagio Thalidomide Thalomid Tocilizumab Actemra Trastuzumab Herceptin UstekinumabStelaraVedolizumabEntyvio*Several drugs discussed in this chapter are available as orphan drugs but are not listed here. Other drugs not listed here will be found in other chapters (see Index)."
+        },
+        {
+            "id": "InternalMed_Harrison_25242",
+            "title": "InternalMed_Harrison",
+            "content": "Biologic DMARDs have revolutionized the treatment of RA over the past decade (Table 380-2). They are protein therapeutics designed mostly to target cytokines and cell-surface molecules. The TNF inhibitors were the first biologicals approved for the treatment of RA. Anakinra, an IL-1 receptor antagonist, was approved shortly thereafter; however, its benefits have proved to be relatively modest compared with the other biologicals and is rarely used for the treatment of RA with the availability of other more effective agents. Abatacept, rituximab, and tocilizumab are the newest members of this class."
+        },
+        {
+            "id": "Pharmacology_Katzung_3982",
+            "title": "Pharmacology_Katzung",
+            "content": "The bDMARDs approved for RA include a T-cell\u2013modulating biologic (abatacept), a B-cell cytotoxic agent (rituximab), an anti\u2013IL-6 receptor antibody (tocilizumab), IL-1\u2013inhibiting agents (anakinra, rilonacept, canakinumab), and the TNF-\u03b1\u2013blocking agents (five drugs); bDMARDs are further divided into biological original (or legacy) products and biosimilar DMARDs (boDMARDs and bsDMARDs, respectively)."
+        },
+        {
+            "id": "Immunology_Janeway_4064",
+            "title": "Immunology_Janeway",
+            "content": "Antibodies and recombinant proteins against the pro-inflammatory cytokine IL-1 and its receptor have not proved as effective as TNF-\u03b1 blockade for treating rheumatoid arthritis in humans, despite being equally powerful in animal models of arthritis. An antibody against the cytokine IL-1 has been licensed for clinical use against the hereditary autoinflammatory disease Muckle\u2013 Wells syndrome (see Section 13-9), and blockade of the IL-1\u03b2 receptor by the recombinant protein anakinra (Kineret) has also proven useful in adults with moderate to severe rheumatoid arthritis. Another cytokine antagonist in clinical use is the humanized antibody tocilizumab; by virtue of being directed against the IL-6 receptor, it blocks the effects of the pro-inflammatory cytokine IL-6. This seems to be as effective as anti-TNF-\u03b1 in patients with rheumatoid arthritis and also shows promise in treating systemic-onset juvenile idiopathic arthritis, an autoinflammatory condition."
+        },
+        {
+            "id": "Immunology_Janeway_4060",
+            "title": "Immunology_Janeway",
+            "content": "16-8 Biologics that block TNF-\u03b1, IL-1, or IL-6 can alleviate autoimmune diseases. Anti-inflammatory therapy either can attempt to eliminate an autoimmune response altogether, as with immunosuppressive drugs or depleting antibodies, or it can try to reduce the tissue injury caused by the immune response. This second category of treatment is called immunomodulatory therapy, and is illustrated by the use of conventional anti-inflammatory agents such as aspirin, nonsteroidal anti-inflammatory drugs, or low-dose corticosteroids. A newer avenue of immunomodulatory therapy using biologics is illustrated by several FDA-approved antibodies that block the activity of powerful pro-inflammatory cytokines such as TNF-\u03b1, IL-1, and IL-6."
+        },
+        {
+            "id": "Neurology_Adams_9863",
+            "title": "Neurology_Adams",
+            "content": "one of the many cytokines released by activated T-cells, has been associated with more severe neurotoxicity. Antibody drugs that bind to and inhibit the IL-6 receptor, such as tocilizumab, have been shown to reduce CRES, particularly in the early period following initiation of CAR-T-cell therapy."
+        },
+        {
+            "id": "Pharmacology_Katzung_4093",
+            "title": "Pharmacology_Katzung",
+            "content": "Emery P et al: IL-6 receptor inhibition with tocilizumab improves treatment outcomes in patients with rheumatoid arthritis refractory to anti-tumour necrosis factor biologicals: results from a 24-week multicentre randomized placebo-controlled trial. Ann Rheum Dis 2008;67:1516. Emery P et al: The impact of T-cell co-stimulation modulation in patients with undifferentiated inflammatory arthritis or very early rheumatoid arthritis: a clinical and imaging study of abatacept. Ann Rheum Dis 2010;69:510. Feagan BG et al: The effects of infliximab therapy on health-related quality of life in ulcerative colitis patients. Am J Gastroenterol 2007;102:4. Fleischmann R et al: Review of head-to-head study designs in rheumatoid arthritis. Semin Arthritis Rheum 2016;46:279. Furst DE: Rational use of disease-modifying antirheumatic drugs. Drugs 1990;39:19. Furst DE et al: Updated consensus statement on biological agents for the treatment of rheumatic diseases, 2012. Ann Rheum Dis 2013;72."
+        },
+        {
+            "id": "InternalMed_Harrison_8762",
+            "title": "InternalMed_Harrison",
+            "content": "Specific conditions that can be confused with lymphoma include Castleman\u2019s disease, which can present with localized or disseminated lymphadenopathy; some patients have systemic symptoms. The disseminated form is often accompanied by anemia and polyclonal hypergammaglobulinemia, and the condition has been associated with overproduction of interleukin 6 (IL-6), in some cases produced by human herpesvirus 8 infection. Patients with localized disease can be treated effectively with local therapy, whereas the initial treatment for patients with disseminated disease is usually with systemic glucocorticoids. IL-6-directed therapy (tocilizumab) has produced short-term responses. Rituximab appears to produce longer remissions than tocilizumab."
+        },
+        {
+            "id": "InternalMed_Harrison_25672",
+            "title": "InternalMed_Harrison",
+            "content": "contraindications. The use of weekly methotrexate as a glucocorticoid-sparing agent has been examined in two randomized placebo-controlled trials that reached conflicting conclusions. Infliximab, a monoclonal antibody to TNF, was studied in a randomized trial and was not found to provide benefit. Recent reports have shown favorable response of giant cell arteritis to tocilizumab (antiIL-6 receptor), but this treatment requires further study before use in clinical practice."
+        },
+        {
+            "id": "InternalMed_Harrison_22986",
+            "title": "InternalMed_Harrison",
+            "content": "Tofacitinib is an oral inhibitor of Janus kinases 1, 3, and, to a lesser extent, 2. It is expected to block signaling involving common gamma chain\u2013containing cytokines including IL-2, IL-4, IL-7, IL-9, IL-15, and IL-21. These cytokines are integral to lymphocyte activation, function, and proliferation. It is effective in moderate to severe UC in clinical trials."
+        },
+        {
+            "id": "Immunology_Janeway_4833",
+            "title": "Immunology_Janeway",
+            "content": "TNF receptors Family of cytokine receptors which includes some that lead to apoptosis of the cell on which they are expressed (for example Fas and TNFR-I), whereas others lead to activation. tocilizumab Humanized anti-IL-6 receptor antibody used in treating rheumatoid arthritis. tofacitinib An inhibitor of JAK3 and JAK1 used to treat rheumatoid arthritis and under investigation in other in\ufb02ammatory disorders. tolerance The failure to respond to an antigen. Tolerance to self antigens is an essential feature of the immune system; when tolerance is lost, the immune system can destroy self tissues, as happens in autoimmune disease. tolerant Describes the state of immunological tolerance, in which the individual does not respond to a particular antigen. tolerogenic Describes an antigen or type of antigen exposure that induces tolerance. Toll Receptor protein in Drosophila that activates the transcription factor NF\u03baB, leading to the production of antimicrobial peptides."
+        },
+        {
+            "id": "Pharmacology_Katzung_3981",
+            "title": "Pharmacology_Katzung",
+            "content": "These therapies include conventional synthetic (cs) and biologic (b) disease-modifying antirheumatic drugs (recently designated csDMARDs and bDMARDs, respectively). The conventional synthetic agents include small molecule drugs such as methotrexate, azathioprine, chloroquine and hydroxy-chloroquine, cyclophosphamide, cyclosporine, leflunomide, mycophenolate mofetil, and sulfasalazine. Tofacitinib, though marketed as a biologic, is actually a targeted synthetic DMARD (tsDMARD). Gold salts, which were once extensively used, are no longer recommended because of their significant toxicities and questionable efficacy. Nevertheless, they have found limited use for RA in Canada. Biologics are large-molecule therapeutic agents, usually proteins, which are often produced by recombinant DNA technology. The bDMARDs approved for RA include a T-cell\u2013modulating biologic (abatacept), a B-cell cytotoxic agent (rituximab), an anti\u2013IL-6 receptor antibody (tocilizumab), IL-1\u2013inhibiting agents (anakinra,"
+        },
+        {
+            "id": "Neurology_Adams_9862",
+            "title": "Neurology_Adams",
+            "content": "most common toxicity and is associated with a confusional state and seizures that result from cerebral edema and elevated intracranial pressure. The disorder most often occurs about 5 days after initiation of therapy, coincident with other cytokine-release symptoms, but may occur later as well. Efforts aimed at identifying and grading the symptoms have been established, as reviewed by Neelapu and colleagues. Current recommendations include obtaining a baseline brain MRI and initiating seizure prophylaxis before initiation of CAR-T-cell therapy, and frequent neurological assessments thereafter. Symptoms of cytokine-release syndrome and CRES can be managed with glucocorticoids, though at the expense of suppressing T-cell function. Interestingly, a high serum level of interleukin-6 (IL-6), one of the many cytokines released by activated T-cells, has been associated with more severe neurotoxicity. Antibody drugs that bind to and inhibit the IL-6 receptor, such as tocilizumab, have been"
+        },
+        {
+            "id": "Pharmacology_Katzung_4015",
+            "title": "Pharmacology_Katzung",
+            "content": "Neutropenia and reduction in platelet counts occur occasionally, and lipids (eg, cholesterol, triglycerides, LDL, and HDL) should be monitored. GI perforation has been reported when using tocilizumab in patients with diverticulitis and in those using corticosteroids, although it is not clear that this adverse effect is more common than with TNF-\u03b1\u2013blocking agents. Demyelinating disorders including multiple sclerosis are rarely associated with tocilizumab use. Fewer than 1% of the patients taking tocilizumab develop anaphylactic reaction. Anti-tocilizumab antibodies develop in 2% of the patients, and these can be associated with hypersensitivity reactions requiring discontinuation. Cytokines play a central role in the immune response (see Chapter 55) and in RA. Although a wide range of cytokines are expressed in the joints of RA patients, TNF-\u03b1 appears to be particularly important in the inflammatory process."
+        },
+        {
+            "id": "Pharmacology_Katzung_4013",
+            "title": "Pharmacology_Katzung",
+            "content": "In Europe, the starting dose of tocilizumab is 8 mg/kg up to 800 mg. Tocilizumab dosage in SJIA or PJIA follows an algorithm that accounts for body weight. Additionally, dosage modifications are recommended on the basis of certain laboratory changes such as elevated liver enzymes, neutropenia, and thrombocytopenia. 3. Indications: Tocilizumab is a bDMARD indicated for adult patients with moderately to severely active RA who have had an inadequate response to one or more DMARDs. It is also indicated in patients who are older than 2 years with active SJIA or active PJIA. A recent study showed that it is slightly more effective than adalimumab. There is an ongoing phase 3 study to test its use in SSc. 4."
+        },
+        {
+            "id": "InternalMed_Harrison_25838",
+            "title": "InternalMed_Harrison",
+            "content": "There are a small number of reports on the use of tumor necrosis factor antagonists, rituximab (anti-CD20), and tocilizumab (anti-interleukin 6 receptor), which are too few in number to assess efficacy. Heart valve replacement or repair of an aortic aneurysm may be necessary. When airway obstruction is severe, tracheostomy is required. Stents may be necessary in patients with tracheobronchial collapse."
+        },
+        {
+            "id": "Pharmacology_Katzung_6185",
+            "title": "Pharmacology_Katzung",
+            "content": "FIGURE 55\u20137 Actions of some monoclonal antibodies (shown in red). CTLA-4-lgFc fusion protein (CTLA-4-lg, abatacept) binds to CD80/86 on DC and inhibits T-cell costimulation. Alefacept inhibits activation of T cells by blocking the interaction of LFA-3 and CD2. Basiliximab and daclizumab block IL-2 from binding to the IL-2 receptor (CD25) on T cells, preventing activation; CD25 is also important for the survival of T regulatory cells. T-cell activation can be maintained or restored if CTLA-4 interaction with CD80/86 is blocked using an anti\u2013CTLA-4 antibody (ipilimumab); ipilimumab inhibits CTLA-4 signaling and prolongs activation. Pembrolizumab and nivolumab bind to PD-1, while atezolizumab binds to PD-L1. Each of these three Mabs inhibits the negative signal delivery by PD-1, also prolonging T cell activation. release of IL-1\u03b2, causing autoimmune inflammation resulting in fever, urticarial-like rash, arthralgia, myalgia, fatigue, and conjunctivitis."
+        },
+        {
+            "id": "Pharmacology_Katzung_6976",
+            "title": "Pharmacology_Katzung",
+            "content": "Antibodies to the antibody (ATA) may develop with all four agents. These antibodies may attenuate or eliminate the clinical response and increase the likelihood of developing acute or delayed infusion or injection reactions. Antibody formation is much more likely in patients given episodic anti-TNF therapy than regular scheduled injections. In patients on chronic maintenance therapy, the prevalence of ATA with infliximab is 10%, with certolizumab 8%, and with adalimumab or golimumab 3%. Antibody development also is less likely in patients who receive concomitant therapy with immunomodulators (ie, 6-MP or methotrexate). Concomitant treatment with anti-TNF agents and immunomodulators may increase the risk of lymphoma."
+        },
+        {
+            "id": "InternalMed_Harrison_22864",
+            "title": "InternalMed_Harrison",
+            "content": "or IL-17, has yet to show efficacy in therapeutic trials. Each of these T cell subsets cross-regulate each other. The TH1 cytokine pathway is initiated by IL-12, a key cytokine in the pathogenesis of experimental models of mucosal inflammation. IL-4 and IL-23, together with IL-6 and TGF-\u03b2, induce TH2 and TH17 cells, respectively, and IL-23 inhibits the suppressive function of regulatory T cells. Activated macrophages secrete TNF and IL-6. These characteristics of the immune response in IBD explain the beneficial therapeutic effects of antibodies to block proinflammatory cytokines or the signaling by their receptors (e.g., anti-TNF, anti-IL-12, anti-IL-23, anti-IL-6, or Janus kinase [JAK] inhibitors) or molecules associated with leukocyte recruitment (e.g., anti-\u03b14\u03b27), or the use of cytokines that inhibit inflammation and promote regulatory T cells (e.g., IL-10) or promote intestinal barrier function and may be beneficial to humans with intestinal inflammation."
+        },
+        {
+            "id": "Pharmacology_Katzung_6181",
+            "title": "Pharmacology_Katzung",
+            "content": "Anakinra is a recombinant form of the naturally occurring IL-1 receptor antagonist that prevents IL-1 from binding to its receptor, stemming the cascade of cytokines that would otherwise be released. Anakinra is approved for use in adult rheumatoid arthritis patients who have failed treatment with one or more disease-modifying anti-rheumatic drugs. Rilonacept is a dimeric fusion protein consisting of the ligand-binding domains of the extracellular portions of the human interleukin-1 receptor component (IL-1RI) and IL-1 receptor accessory protein (IL-1RAcP) fused to the Fc portion of human IgG1. These molecules are indicated for treatment of cryopyrinassociated periodic syndromes. Ixekizumab, secukinumab, and brodalumab are FDA-approved for the treatment of patients with moderate to severe plaque psoriasis. Ixekizumab and secukinumab bind the IL-17 cytokine and block it from binding to its receptor, while brodalumab blocks IL-17 by binding to the IL-17 receptor itself."
+        },
+        {
+            "id": "InternalMed_Harrison_25031",
+            "title": "InternalMed_Harrison",
+            "content": "in some diseases\u2014e.g., SLE (belimumab), rheumatoid arthritis (TNF neutralization, IL-6 receptor blockade, CD28 competition, B cell depletion, IL-1 competition), psoriasis (IL-12/23 depletion, TNF neutralization), and inflammatory bowel disease (TNF neutralization, IL-12 neutralization)\u2014has been demonstrated. One major advance in inhibiting effector mechanisms has been the introduction of cytokine blockade that appears to limit organ damage in some diseases, including rheumatoid arthritis, inflammatory bowel disease, psoriasis, and the spondyloarthritides. Small molecules that block cytokine signaling pathways have recently been introduced into the clinic. Biologicals that interface with T cell activation (CTLA-4Ig) or delete B cells (anti-CD20 antibody) have recently been approved for the treatment of rheumatoid arthritis. Therapies that prevent target-organ damage or support target-organ function remain important in the management of autoimmune disease."
+        },
+        {
+            "id": "Immunology_Janeway_4059",
+            "title": "Immunology_Janeway",
+            "content": "Treating patients suffering from rheumatoid arthritis or multiple sclerosis by using anti-CD4 antibodies has been tried, but with disappointing results. In controlled studies, the antibodies showed only small therapeutic effects but caused depletion of T lymphocytes from peripheral blood for more than 6 years after treatment. The likely explanation for the failure seems to be that these antibodies failed to delete already primed CD4 T cells secreting pro-inflammatory cytokines, and may thus have missed their target. This cautionary tale shows that it is possible to deplete large numbers of lymphocytes and yet completely fail to kill the cells that matter. 16-8 Biologics that block TNF-\u03b1, IL-1, or IL-6 can alleviate autoimmune diseases."
+        },
+        {
+            "id": "Pharmacology_Katzung_4098",
+            "title": "Pharmacology_Katzung",
+            "content": "Shima Y et al: The skin of patients with systemic sclerosis softened during the treatment with anti-IL-6 receptor antibody tocilizumab. Rheumatology (Oxford) 2010;49:2408. Smolen J et al: Efficacy and safety of certolizumab pegol plus methotrexate in active rheumatoid arthritis: the RAPID 2 study. A randomized controlled trial. Ann Rheum Dis 2009;68:797. Spies CM et al: Prednisone chronotherapy. Clin Exp Rheumatol 2011; 29(Suppl 68):5. Strober B et al: Effect of tofacitinib, a Janus kinase inhibitor, on haematological parameters during 12 weeks of psoriasis treatment. Br J Dermatol 2013;169:5. Tanaka T, Ogata A, Narazaki M: Tocilizumab for the treatment of rheumatoid arthritis. Expert Rev Clin Immunol 2010;6:6. Teng GG, Turkiewicz AM, Moreland LW: Abatacept: A costimulatory inhibitor for treatment of rheumatoid arthritis. Expert Opin Biol Ther 2005;5:1245."
+        },
+        {
+            "id": "Pharmacology_Katzung_4044",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Mechanism of Action: Rilonacept is the ligand-binding domain of the IL-1 receptor. It binds mainly to IL-1\u03b2 and binds with lower affinity to IL-1\u03b1 and IL-1RA. Rilonacept neutralizes IL-1\u03b2 and prevents its attachment to IL-1 receptors. 2. Pharmacokinetics: The subcutaneous dose of rilonacept for CAPS is age-dependent. In patients 12\u201317 years of age, 4.4 mg/kg (maximum of 320 mg) is the loading dose, with a maintenance dose of 2.2 mg/kg (maximum of 160 mg) weekly. Those 18 years and older receive 320 mg as a loading dose and 160 mg weekly thereafter. The steady-state plasma concentration is reached after 6 weeks. 3. Indications: Rilonacept is approved to treat CAPS subtypes: familial cold autoinflammatory syndrome and Muckle-Wells syndrome in patients 12 years or older. Rilonacept is also used to treat gout (see below). Adverse Effects of Interleukin-1 Inhibitors"
+        },
+        {
+            "id": "InternalMed_Harrison_20915",
+            "title": "InternalMed_Harrison",
+            "content": "IL-6 plays important roles in the systemic compartment. Released by many different cell types, IL-6 is an important stimulus to the hypothalamic-pituitary-adrenal axis, is the major procoagulant cytokine, and is a principal inducer of the acute-phase response, which increases the blood concentrations of numerous molecules that have anti-infective, procoagulant, or anti-inflammatory actions. Blood levels of IL-1 receptor antagonist often greatly exceed those of circulating IL-1\u03b2, for example, and this excess may inhibit the binding of IL-1\u03b2 to its receptors. High levels of soluble TNF receptors neutralize TNF-\u03b1 that enters the circulation. Other acute-phase proteins are protease inhibitors or antioxidants; these may neutralize potentially harmful molecules released from neutrophils and other inflammatory cells. Increased hepatic production of hepcidin (stimulated largely by IL-6) promotes the sequestration of iron in hepatocytes, intestinal epithelial cells, and erythrocytes; this"
+        },
+        {
+            "id": "InternalMed_Harrison_25243",
+            "title": "InternalMed_Harrison",
+            "content": "anti-TNF agents The development of TNF inhibitors was originally spurred by the experimental finding that TNF is a critical upstream mediator of joint inflammation. Currently, five agents that inhibit TNF-\u03b1 are approved for the treatment of RA. There are three different anti-TNF monoclonal antibodies. Infliximab is a chimeric (part mouse and human) monoclonal antibody, whereas adalimumab and golimumab are humanized monoclonal antibodies. Certolizumab pegol is a pegylated Fc-free fragment of a humanized monoclonal antibody with binding specificity for TNF-\u03b1. Lastly, etanercept is a soluble fusion protein comprising the TNF receptor 2 in covalent linkage with the Fc portion of IgG1. All of the TNF inhibitors have been shown in randomized controlled clinical trials to reduce the signs and symptoms of RA, slow radiographic progression of joint damage, and improve physical function and quality of life. Anti-TNF drugs are typically used in combination with background methotrexate therapy."
+        },
+        {
+            "id": "InternalMed_Harrison_25254",
+            "title": "InternalMed_Harrison",
+            "content": "Tofacitinib Tofacitinib is a small-molecule inhibitor that primarily inhibits JAK1 and JAK3, which mediate signaling of the receptors for the common \u03b3-chain-related cytokines IL-2, -4, -7, -9, -15, and -21 as well as IFN-\u03b3 and IL-6. These cytokines all play roles in promoting T and B cell activation as well as inflammation. Tofacitinib, an oral agent, has been shown in randomized, placebo-controlled clinical trials to improve the signs and symptoms of RA significantly over placebo. Major adverse events include elevated serum transaminases indicative of liver injury, neutropenia, increased cholesterol levels, and elevation in serum creatinine. Its use is also associated with an increased risk of infections. Tofacitinib can be used as mono-therapy or in combination with methotrexate. APPROACH TO THE PATIENT:"
+        }
+    ],
+    "scores": [
+        0.03865556885358866,
+        0.03662056681858662,
+        0.03641066440872552,
+        0.03409305174751755,
+        0.03359249457184547,
+        0.03276668542641634,
+        0.031428795527794415,
+        0.02875635691169672,
+        0.028495510353674182,
+        0.027869872326290512,
+        0.02782127670409696,
+        0.02623816787791182,
+        0.025821418474090228,
+        0.025306770435446903,
+        0.02512019230769231,
+        0.025005696058327635,
+        0.024836526456666036,
+        0.02481846820680102,
+        0.024562110239859603,
+        0.023608800436706615,
+        0.023078650908839586,
+        0.02280311288955948,
+        0.022294465672377667,
+        0.021856083028847353,
+        0.02140841184958832,
+        0.020927333009051925,
+        0.01822823182162658,
+        0.0178585665311329,
+        0.017359998761906973,
+        0.01683719120520395,
+        0.016085271317829455,
+        0.016016016016016016
+    ]
+}

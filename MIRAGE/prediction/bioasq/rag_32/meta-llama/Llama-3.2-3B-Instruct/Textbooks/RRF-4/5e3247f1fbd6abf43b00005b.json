@@ -1,0 +1,206 @@
+{
+    "id": "5e3247f1fbd6abf43b00005b",
+    "question": "Can radiotherapy cause radiation induced osteosarcoma?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the relationship between radiation therapy and the development of radiation-induced osteosarcoma. According to Document [10] (Title: Surgery_Schwartz), radiation-induced sarcomas can occur after radiation therapy for carcinoma of the breast and cervix, and the three criteria for diagnosis of radiation-induced sarcoma include histology different from the original lesion, sarcoma develops in the irradiated field, and a 3-5 year latent period between radiation and sarcoma development. Document [28] (Title: Surgery_Schwartz) also mentions that the risk of developing a sarcoma increased with radiation dose, and the median time between radiation therapy and diagnosis of sarcoma was 10 years. Additionally, Document [11] (Title: Pediatrics_Nelson) states that a review of 44 patients with radiation-associated sarcomas identified that radiation-associated sarcomas occurred most commonly in patients treated for breast cancer and lymphoma. Furthermore, Document [12] (Title: InternalMed_Harrison) notes that osteosarcomas are radioresistant; radiation therapy has no role in the routine management of osteosarcoma. However, Document [11] (Title: Pediatrics_Nelson) also mentions that radiation-induced changes in the skin or mucosa can be similar to those of cancer, which suggests that radiation therapy may increase the risk of developing sarcomas, including osteosarcoma. Based on these findings, it is reasonable to conclude that radiotherapy can cause radiation-induced osteosarcoma.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_7687",
+            "title": "InternalMed_Harrison",
+            "content": "osteosarcoma range from 60 to 80%. Osteosarcoma is radioresistant; radiation therapy has no role in the routine management. UPS is considered a part of the spectrum of osteosarcoma and is managed similarly."
+        },
+        {
+            "id": "Pediatrics_Nelson_3391",
+            "title": "Pediatrics_Nelson",
+            "content": "The cause is unknown for most children diagnosed with sarcoma, although a few observations have been made regarding risks. Individuals with Li-Fraumeni syndrome (associated with a germline p53 mutation) and neurofibromatosis (associated with NF1 mutations) have an increased risk of softtissue sarcomas. There is a 500-fold increased risk for osteosarcoma for individuals with hereditary retinoblastoma. Prior treatment for childhood cancer with radiation therapy or chemotherapy, specifically alkylating agents, or both, increases the risk for osteosarcoma as a second malignancy."
+        },
+        {
+            "id": "Pediatrics_Nelson_3400",
+            "title": "Pediatrics_Nelson",
+            "content": "The current treatment of osteosarcoma involves neoadjuvant chemotherapy followed by surgery and adjuvant chemotherapy. Agents effective against osteosarcoma are doxorubicin, cisplatin, high-dose methotrexate, ifosfamide, and etoposide. The treatment for Ewing sarcoma is similar to that for osteosarcoma; preoperative chemotherapy is given, followed by local control measures, and then further chemotherapy. In contrast to osteosarcoma, Ewing sarcoma is radiation sensitive. Chemotherapy includes vincristine, cyclophosphamide, ifosfamide, etoposide, and doxorubicin."
+        },
+        {
+            "id": "InternalMed_Harrison_7682",
+            "title": "InternalMed_Harrison",
+            "content": "Osteosarcoma, accounting for almost 45% of all bone sarcomas, is a spindle cell neoplasm that produces osteoid (unmineralized bone) or bone. Approximately 60% of all osteosarcomas occur in children and adolescents in the second decade of life, and approximately 10% occur in the third decade of life. Osteosarcomas in the fifth and sixth decades of life are frequently secondary to either radiation therapy or transformation in a preexisting benign condition, such as Paget\u2019s disease. Males are affected 1.5\u20132 times as often as females. Osteosarcoma has a predilection for metaphyses of long bones; the most common sites of involvement are the distal femur, proximal tibia, and proximal humerus. The classification of osteosarcoma is complex, but 75% of osteosarcomas fall into the \u201cclassic\u201d category, which include osteoblastic, chondroblastic, and fibroblastic osteosarcomas. The remaining 25% are classified as \u201cvariants\u201d on the basis of (1) clinical characteristics, as in the case of"
+        },
+        {
+            "id": "Surgery_Schwartz_4869",
+            "title": "Surgery_Schwartz",
+            "content": "registry, J Surg Res. 2007;141(1):105-114.Table 19-24Classification of sarcomas by therapeutic responseTUMOR TYPECHEMOTHERAPY SENSITIVITYOsteosarcoma+Rhabdomyosarcoma+Primitive neuroectodermal tumor+Ewing\u2019s sarcoma+Malignant fibrous histiocytoma\u00b1Fibrosarcoma\u00b1Liposarcoma\u00b1Synovial sarcoma\u00b1sometimes in association with previous radiation, Paget\u2019s disease, or chemotherapy. Radiographically, the typical appearance consists of spicules of new periosteal bone formation producing a sunburst appearance. Osteosarcomas have a propensity to spread to the lungs, and up to one-third of patients present with metastatic disease. Osteosarcomas are potentially sensitive to chemotherapy. Currently, pre-operative chemotherapy is common. After chemotherapy, complete resection is performed with wide (4-cm) margins, followed by reconstruction. In patients presenting with lung metastases that are potentially amenable to surgical resection, induction chemotherapy may be given, followed by surgical resection"
+        },
+        {
+            "id": "Pathology_Robbins_4798",
+            "title": "Pathology_Robbins",
+            "content": "Osteosarcoma is a malignant tumor that produces osteoid matrix or mineralized bone. Excluding hematopoietic tumors (myeloma and lymphoma), osteosarcoma is the most common primary malignant tumor of bone. Osteosarcoma has a bimodal age distribution; 75% of osteosarcomas occur in persons younger than 20 years of age. The smaller second peak occurs in older adults, who frequently suffer from conditions known to predispose to osteosarcoma, such as Paget disease, bone infarcts, and previous radiation. These are referred to as secondary osteosarcomas. Overall, men are more commonly affected than women (1.6:1). The most common sites in adolescents are the metaphyseal regions of the distal femur and proximal tibia. Osteosarcomas present as painful, progressively enlarging masses. Sometimes a pathologic fracture is the first indication. Radiographs usually show a large, destructive, mixed lytic and sclerotic mass with infiltrative margins ("
+        },
+        {
+            "id": "InternalMed_Harrison_7686",
+            "title": "InternalMed_Harrison",
+            "content": "Stage IIB T2 N0 M0 G3,4 high grade chemotherapy. Pathologic diagnosis is established either with a core-needle biopsy, where feasible, or with an open biopsy with an appropriately placed incision that does not compromise future limb-sparing resection. Most osteosarcomas are high-grade. The most important prognostic factor for long-term survival is response to chemotherapy. Preoperative chemotherapy followed by limb-sparing surgery (which can be accomplished in >80% of patients) followed by postoperative chemotherapy is standard management. The effective drugs are doxorubicin, ifosfamide, cisplatin, and high-dose methotrexate with leucovorin rescue. The various combinations of these agents that have been used have all been about equally successful. Long-term survival rates in extremity osteosarcoma range from 60 to 80%. Osteosarcoma is radioresistant; radiation therapy has no role in the routine management. UPS is considered a part of the spectrum of osteosarcoma and is managed"
+        },
+        {
+            "id": "Pathology_Robbins_4803",
+            "title": "Pathology_Robbins",
+            "content": "Osteosarcoma is treated with a multimodality approach that consists of (1) neoadjuvant chemotherapy, (2) surgery, and (3) chemotherapy. The amount of chemotherapy-induced necrosis found at surgical resection is an important prognostic finding. These aggressive neoplasms spread hematogenously to the lungs. Although the prognosis has improved substantially since the advent of chemotherapy, with 5-year survival rates reaching 60% to 70% in patients without detectible metastases at initial diagnosis, the outcome for patients with metastases, recurrent disease, or secondary osteosarcoma is still poor. Fig.21.18Fine,lacelikepatternofneoplasticboneproducedbyanaplasticmalignanttumorcellsinanosteosarcoma.Notetheabnormalmitoticfigure(arrow). These tumors are characterized by the formation of hyaline cartilage. Benign cartilaginous tumors are much more common than malignant ones."
+        },
+        {
+            "id": "Pediatrics_Nelson_3395",
+            "title": "Pediatrics_Nelson",
+            "content": "Tissue biopsy is needed for a definitive diagnosis of sarcomas. Selection of the biopsy site is important and has implications for future surgical resection and radiation therapy. Under light microscopy, rhabdomyosarcoma and Ewing sarcoma appear as small, round, blue cell tumors. Osteosarcomas are distinguishable by the presence of osteoid substance."
+        },
+        {
+            "id": "Pathology_Robbins_1444",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net In most instances, the laboratory diagnosis of cancer is not difficult. The two ends of the benign\u2013malignant spectrum pose no problems; in the middle, however, lies a \u201cno man\u2019s land\u201d where the wise tread cautiously. Clinicians tend to underestimate the contributions they make to the diagnosis of a neoplasm. Clinical and radiologic data are invaluable for optimal pathologic diagnosis. Radiation-induced changes in the skin or mucosa can be similar to those of cancer. Sections taken from a healing fracture can mimic an osteosarcoma. The laboratory evaluation of a lesion can be only as good as the specimen submitted for examination. The specimen must be adequate, representative, and properly preserved."
+        },
+        {
+            "id": "Surgery_Schwartz_12614",
+            "title": "Surgery_Schwartz",
+            "content": "5-year survival rate is less than 10%.Radiation-Induced SarcomaThe three criteria for diagnosis of radiation-induced sarcoma are (a) histology different from the original lesion, (b) sarcoma develops in the irradiated field, and (c) a 3to 5-year latent period between radiation and sarcoma development. Radiation for carcinoma of the breast and cervix can result in osteosar-coma, chondrosarcoma, fibrosarcoma, or MFH. Treatment is a combination of chemotherapy and surgery.EWING\u2019S SARCOMAEwing\u2019s sarcoma is the second most common primary bone tumor in patients under 25 years of age. The typical presenta-tion is a tumor in the diaphysis of long bones, especially the femur. It can also be seen in the pelvis, the proximal tibia, and proximal humerus, and it is usually seen in young white males. It has a t(11:22) translocation and positive CD99. The patient may have pain and fever with an elevated sedimentation rate and WBC count; the condition may be confused with an infection. An \u201conion"
+        },
+        {
+            "id": "InternalMed_Harrison_6273",
+            "title": "InternalMed_Harrison",
+            "content": "Toxicity of Radiation Therapy Although radiation therapy is most often administered to a local region, systemic effects, including fatigue, anorexia, nausea, and vomiting, may develop that are related in part to the volume of tissue irradiated, dose fractionation, radiation fields, and individual susceptibility. Injured tissues release cytokines that act systemically to produce these effects. Bone is among the most radio-resistant organs, with radiation effects being manifested mainly in children through premature fusion of the epiphyseal growth plate. By contrast, the male testis, female ovary, and bone marrow are the most sensitive organs. Any bone marrow in a radiation field will be eradicated by therapeutic irradiation. Organs with less need for cell renewal, such as heart, skeletal muscle, and nerves, are more resistant to radiation effects. In radiation-resistant organs, the vascular endothelium is the most sensitive component. Organs with more self-renewal as a part of normal"
+        },
+        {
+            "id": "Surgery_Schwartz_12608",
+            "title": "Surgery_Schwartz",
+            "content": "the tumor and the host bone since this margin can also indicate the aggres-siveness of the tumor. Ewing\u2019s sarcoma has a characteristic \u201conion skin\u201d periosteal reaction pattern. This reaction pattern also occurs in other tumors and infections.OSTEOSARCOMAThe most common primary malignant bone tumor is osteosar-coma (Fig. 43-44). Osteosarcomas are classified as osteoblas-tic, chondroblastic, fibroblastic, telangiectatic, round cell, or MFH-like, according to the predominant cell type. Most osteo-sarcomas present in patients between 10 and 20 years of age. Secondary osteosarcomas occur in older patients in abnormal bone affected by Paget\u2019s disease, radiation, or bone infarct.Intramedullary OsteosarcomaThis is the most common primary sarcoma of the bone. It usu-ally occurs in the distal femur or the proximal tibia in young people. This condition may also occur at the proximal humerus, proximal femur, or pelvis. It usually presents itself as a high-grade extracompartmental disease. It can"
+        },
+        {
+            "id": "Pathoma_Husain_474",
+            "title": "Pathoma_Husain",
+            "content": "III. OSTEOCHONDROMA A. Tumor of bone with an overlying cartilage cap (Fig. 18.3); most common benign tumor ofbone B. Arises from a lateral projection of the growth plate (metaphysis); bone is continuous with the marrow space. C. Overlying cartilage can transform (rarely) to chondrosarcoma. IV. OSTEOSARCOMA A. Malignant proliferation of osteoblasts B. Peak incidence is seen in teenagers; less commonly seen in the elderly 1. Risk factors include familial retinoblastoma, Paget disease, and radiation exposure. 2. Arises in the metaphysis of long bones, usually the distal femur or proximal tibia (region of the knee) C. Presents as a pathologic fracture or bone pain with swelling D. Imaging reveals a destructive mass with a 'sunburst' appearance and lifting of the periosteum (Codman triangle, Fig. 18.4A). Fig. 18.3 Osteochondroma. (Courtesy of Fig. 18.4 Osteosarcoma. A, X-ray. B, Microscopic appearance. (A, Courtesy of Bu lent Celasun, MD) humpath.com)"
+        },
+        {
+            "id": "Surgery_Schwartz_4866",
+            "title": "Surgery_Schwartz",
+            "content": "chest wall likely to be a low-grade chondrosarcoma should be treated with wide (4-cm) resection after metastatic disease to the lungs or bones is ruled out. Chondrosarcomas are not sensitive to radiation or chemo-therapy. Prognosis is determined by tumor grade and extent of resection. With a low-grade tumor and wide resection, patient survival at 5 to 10 years can be as high as 60% to 80%.2. Osteosarcoma. While osteosarcomas are the most com-mon bone malignancy, they represent only 10% to 15% of all malignant chest wall tumors.133,134 They primarily occur in young adults as rapidly enlarging, painful masses; how-ever, osteosarcomas can occur in older patients as well, Figure 19-40. Chest computed tomography scan showing a right chest wall tumor (arrow). Tissue diagnosis revealed that this mass was a leiomyosarcoma.Brunicardi_Ch19_p0661-p0750.indd 72301/03/19 7:01 PM 724SPECIFIC CONSIDERATIONSPART IITable 19-23Cox proportional hazards model for risk of death from soft tissue"
+        },
+        {
+            "id": "InternalMed_Harrison_6647",
+            "title": "InternalMed_Harrison",
+            "content": "Second head and neck malignancies are usually not therapy-induced; they reflect the exposure of the upper aerodigestive mucosa to the same carcinogens that caused the first cancer. These second primaries develop in the head and neck area, the lung, or the esophagus. Thus, computed tomography (CT) screening for lung cancer in heavy smokers who have already developed a head and neck cancer should be considered. Rarely, patients can develop a radiation therapy\u2013induced sarcoma after having undergone prior radiotherapy for a head and neck cancer."
+        },
+        {
+            "id": "Pediatrics_Nelson_3401",
+            "title": "Pediatrics_Nelson",
+            "content": "In addition to the risk of late effects from the chemotherapy, children with sarcomas have potential complications related to local control of the tumor. If the local disease is controlled with surgery, the long-term sequelae may include loss of limb or limitation of function. If local control is accomplished with radiation therapy, the late effects depend on the dose of radiation given, the extent of the site radiated, and the development of the child at the time of radiation therapy. Irradiating tissues interfere with growth and development, so significant adverse consequences may occur in young children."
+        },
+        {
+            "id": "Surgery_Schwartz_10902",
+            "title": "Surgery_Schwartz",
+            "content": "in patients with metastatic disease and to evaluate the response to treatment in patients with metastatic or locally advanced disease.Additional Treatment Modalities Radiotherapy, Thermal Ablation, and Chemotherapy External-beam radiotherapy is occasionally required to control unresectable, locally invasive, or recurrent disease and to treat metastases in support bones to decrease the risk of fractures. It also is of value for the treatment and control of pain from bony metastases when there is minimal or no RAIU. Stereotac-tic brain radiotherapy and intensity-modulated radiation therapy have both been used successfully for metastatic lesions. Percuta-neous thermal ablation by increasing (radiofrequency ablation) or decreasing temperature (cryoablation) in the lesion to induce irreversible cellular damage has shown promise for lung, bone, and liver lesions.53,54 Single-drug and multidrug chemotherapy has been used with little success in disseminated thyroid can-cer, and there is no"
+        },
+        {
+            "id": "InternalMed_Harrison_7683",
+            "title": "InternalMed_Harrison",
+            "content": "category, which include osteoblastic, chondroblastic, and fibroblastic osteosarcomas. The remaining 25% are classified as \u201cvariants\u201d on the basis of (1) clinical characteristics, as in the case of osteosarcoma of the jaw, postradiation osteosarcoma, or Paget\u2019s osteosarcoma; (2) morphologic characteristics, as in the case of telangiectatic osteosarcoma, small-cell osteosarcoma, or epithelioid osteosarcoma; or (3) location, as in parosteal or periosteal osteosarcoma. Diagnosis usually requires a synthesis of clinical, radiologic, and pathologic features. Patients typically present with pain and swelling of the affected area. A plain radiograph reveals a destructive lesion with a moth-eaten appearance, a spiculated periosteal reaction (sunburst appearance), and a cuff of periosteal new bone formation at the margin of the soft tissue mass (Codman\u2019s triangle). A CT scan of the primary tumor is best for defining bone destruction and the pattern of calcification, whereas MRI is better for"
+        },
+        {
+            "id": "Pediatrics_Nelson_3403",
+            "title": "Pediatrics_Nelson",
+            "content": "after presurgical chemotherapy have a much worse prognosis. The cure rate for patients with localized osteosarcoma and Ewing sarcoma is approximately 60% to 70%. Patients who have lung metastasis at diagnosis have a cure rate of approximately 30% to 35%. Patients with metastases to other bones have a poor prognosis."
+        },
+        {
+            "id": "Pathology_Robbins_4792",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net The rarity of primary bone tumors and the often-disfiguring surgery required to treat a bone malignancy make this group of disorders especially challenging. About 2400 primary bone sarcomas are diagnosed annually in the United States. Therapy aims to optimize survival while maintaining the function of affected body parts. The predilection of specific types of tumors for certain age groups and particular anatomic sites provides important diagnostic clues. For example, osteosarcoma peaks during adolescence and most frequently involves the knee, whereas chondrosarcoma affects older adults and involves the pelvis and proximal extremities."
+        },
+        {
+            "id": "Pathology_Robbins_4829",
+            "title": "Pathology_Robbins",
+            "content": "The presence of bone metastases carries a poor prognosis. Therapeutic options include systemic chemotherapy, radiation, and bisphosphonates. Surgery may be necessary to stabilize pathologic fractures. Fig.21.31Fibrousdysplasiacomposedofcurvilineartrabeculaeofwovenbonethatlackconspicuousosteoblasticrimmingandariseinabackgroundoffibroustissue. http://ebooksmedicine.net Primarybonetumorsareclassifiedaccordingtothecelloforiginorthematrixthattheyproduce.Theremainderisgroupedaccordingtoclinicopathologicfeatures.Mostprimarybonetumorsarebenign.Metastases,especiallyfromlung,prostate,kidneys,andbreast,arefarmorecommonthanprimaryboneneoplasms. \u2022Boneforming:Osteoblastomaandosteoidosteomaconsistofbenignosteoblaststhatsynthesizeosteoid.Osteosarcoma isanaggressivetumorofmalignantosteoblasts,predominantlyoccurringinadolescents."
+        },
+        {
+            "id": "Pathology_Robbins_4815",
+            "title": "Pathology_Robbins",
+            "content": "Ewing sarcoma accounts for approximately 10% of primary malignant bone tumors and follows osteosarcoma as the second most common bone sarcoma in children. Of all bone sarcomas, Ewing sarcomas have the youngest average age at presentation (80% are younger than 20 years). Boys are affected slightly more frequently than girls, and there is a predilection for Caucasians. The tumors usually arise in the diaphysis of long tubular bones but 20% are extraskeletal. They present as painful enlarging masses, and the affected site is frequently tender, warm, and swollen. Plain radiographs show a destructive lytic tumor with permeative margins that extends into the surrounding soft tissues. The characteristic periosteal reaction produces layers of reactive bone deposited in an onion-skin fashion."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5723",
+            "title": "Cell_Biology_Alberts",
+            "content": "Discuss the following problems. 20\u20132 In the cellular regulatory pathways that control 20\u20135 In contrast to colon cancer, whose incidence cell growth and proliferation, the products of oncogenes increases dramatically with age, incidence of osteosarare stimulatory components and the products of tumor coma\u2014a tumor that occurs most commonly in the long suppressor genes are inhibitory components. bones\u2014peaks during adolescence. Osteosarcomas are rel atively rare in young children (up to age 9) and in adults 20\u20133 Cancer therapies directed solely at killing the rap-(over 20). Why do you suppose that the incidence of osteoidly dividing cells that make up the bulk of a tumor are sarcoma does not show the same sort of age-dependence unlikely to eliminate the cancer from many patients. as colon cancer? lung cancer mortality, cumulative risk (%)"
+        },
+        {
+            "id": "Pathology_Robbins_1956",
+            "title": "Pathology_Robbins",
+            "content": "Main Determinants of the Biologic Effects of Ionizing Radiation In addition to the physical properties of the radiation, its biologic effects depend heavily on the following variables: Rate of delivery. The rate of delivery significantly modifies the biologic effect. Although the effect of radiant energy is cumulative, delivery in divided doses may allow cells to repair some of the damage in the intervals. Thus, fractional doses of radiant energy have a cumulative effect only to the extent that repair during the intervals is incomplete. Radiotherapy of tumors exploits the capability of normal cells to repair themselves and to recover more rapidly than tumor cells. Field size. The size of the field exposed to radiation has a great influence on its consequences. The body can sustain relatively high doses of radiation when they are delivered to small, carefully shielded fields, whereas smaller doses delivered to larger fields may be lethal."
+        },
+        {
+            "id": "Pathology_Robbins_1961",
+            "title": "Pathology_Robbins",
+            "content": "Inhibition of Failed or Additional cell division aberrant repair transforming Fetus or germ cells: teratogenesis Carcinogenesis events Cell death Fig. 8.14 EffectsofionizingradiationonDNAandtheirconsequences.TheeffectsonDNAcanbedirector,mostimportant,indirect,throughfreeradicalformation. and may expand as abnormal clones to form tumors eventually. A common consequence of cancer radiotherapy is the development of fibrosis in the irradiated field ( Fig. 8.15 ). Fibrosis may occur weeks or months after irradiation, leading to the replacement of dead parenchymal cells by connective tissue and the formation of scars and adhesions (see Chapter 3). As already mentioned, ionizing radiation causes vascular damage and consequent tissue ischemia. Vascular damage, the killing of tissue stem cells by ionizing radiation, and the release of cytokines and chemokines that promote an inflammatory reaction all contribute to fibroblast activation and the development of radiation-induced fibrosis."
+        },
+        {
+            "id": "Pediatrics_Nelson_3394",
+            "title": "Pediatrics_Nelson",
+            "content": "Osteosarcoma often is located at the epiphysis or metaphysis of anatomic sites that are associated with maximum growth velocity (distal femur, proximal tibia, proximal humerus), but any bone may be involved. It presents with pain and may be associated with a palpable mass. Because the pain and swelling often are initially thought to be related to trauma, radio-graphs of the affected region frequently are obtained, which usually reveal a lytic lesion, often associated with calcification in the soft tissue surrounding the lesion. While 75% to 80% of patients with osteosarcoma have apparently localized disease at diagnosis, the majority of patients are believed to have micrometastatic disease as well. Although Ewing sarcoma can occur in almost any bone in the body, the femur and pelvis are the most common sites. In addition to local pain and swelling, clinical manifestations may include systemic symptoms, such as fever and weight loss."
+        },
+        {
+            "id": "Surgery_Schwartz_10512",
+            "title": "Surgery_Schwartz",
+            "content": "CA Cancer J Clin. 2012;62:10-29. 8. Gonin-Laurent N, Hadj-Hamou N, Vogt N, et al. RB1 and TP53 pathways in radiation-induced sarcomas. Oncogene. 2007;26:6106-6112. 9. Brady MS, Gaynor JJ, Brennan MF. Radiation-associated sarcoma of bone and soft tissue. Arch Surg. 1992;127: 1379-1385. 10. Vorburger SA, Xing Y, Hunt KK, et al. Angiosarcoma of the breast. Cancer. 2005;104:2682-2688. 11. Riad S, Biau D, Holt GE, et al. The clinical and functional outcome for patients with radiation-induced soft tissue sarcoma. Cancer. 2012;118:2682-2692. 12. Dineen SP, Roland CL, Feig R, et al. Radiation-associated undifferentiated pleomorphic sarcoma is associated with worse clinical outcomes than sporadic lesions. Ann Surg Oncol. 2015;22(12):3913-3920. 13. Smith AH, Pearce NE, Fisher DO, et al. Soft tissue sarcoma and exposure to phenoxyherbicides and chlorophenols in New Zealand. J Natl Cancer Inst. 1984;73:1111-1117. 14. Huang HY, Li CF, Huang WW, et al. A modification of NIH consensus criteria to"
+        },
+        {
+            "id": "Surgery_Schwartz_10538",
+            "title": "Surgery_Schwartz",
+            "content": "CP, Ballo MT, Zagars GK, et al. Complications of combined modality treatment of primary lower extremity soft-tissue sarcomas. Cancer. 2006;107:2455-2461. 124. Stinson SF, DeLaney TF, Greenberg J, et al. Acute and long-term effects on limb function of combined modality limb sparing therapy for extremity soft tissue sarcoma. Int J Radiat Oncol Biol Phys. 1991;21:1493-1499. 125. Kepka L, DeLaney TF, Suit HD, Goldberg SI. Results of radia-tion therapy for unresected soft-tissue sarcomas. Int J Radiat Oncol Biol Phys. 2005;63(3):852-859. 126. Ferrari A, Gronchi A, Casanova M, et al. Synovial sarcoma: a retrospective analysis of 271 patients of all ages treated at a single institution. Cancer. 2004;101:627-634. 127. O\u2019Bryan RM, Baker LH, Gottlieb JE, et al. Dose response evaluation of adriamycin in human neoplasia. Cancer. 1977;39:1940-1948. 128. Patel SR, Vadhan-Raj S, Papadopolous N, et al. High-dose ifosfamide in bone and soft tissue sarcomas: results of phase II and pilot"
+        },
+        {
+            "id": "Pathology_Robbins_1958",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net Hypoxia. The production of ROS by the radiolysis of water is the most important mechanism of DNA damage by ionizing radiation. Tissue hypoxia, such as may exist in the center of rapidly growing, poorly vascularized tumors, may thus reduce the extent of damage and the effectiveness of radiotherapy directed against tumors. Vascular damage. Damage to endothelial cells, which are moderately sensitive to radiation, may cause narrowing or occlusion of blood vessels, leading to impaired healing, fibrosis, and chronic ischemic atrophy. These changes may appear months or years after exposure. Despite the low sensitivity of brain cells to radiation, vascular damage after irradiation can lead to late manifestations of radiation injury in this tissue. The most important cellular target of ionizing radiation is DNA ("
+        },
+        {
+            "id": "Surgery_Schwartz_10331",
+            "title": "Surgery_Schwartz",
+            "content": "for cancer of the breast, cervix, ovary, testes, or lymphatic system is 8 to 50 times the general-population risk.9,10 In a review of 160 patients with postirradiation sarcomas, the most common histologic types were osteogenic sarcoma, pleomorphic undifferentiated sarcoma, angiosarcoma, and lymphangiosarcoma.9 The risk of developing a sarcoma increased with radiation dose, and the median time between radiation therapy and diagnosis of sarcoma was 10 years.9 A review of 44 patients with radiation-associated sarcomas identified between 1989 and 2009 noted that the average period from initial radiation treatment to diagnosis was 16 years and that radiation-associated sarcomas occurred most commonly in patients treated for breast cancer (36% of the patients in the series) and lymphoma (34% of the patients in the series).11 The 5-year overall survival rate for patients presenting without metastasis was 44%. A recent review of undifferentiated pleomorphic sarcoma characterizing outcomes"
+        },
+        {
+            "id": "Pediatrics_Nelson_3397",
+            "title": "Pediatrics_Nelson",
+            "content": "Definitive diagnosis of osteosarcoma often is establishedby carefully placed needle biopsy. The presence of osteoidand immunohistochemical analysis confirms the diagnosisof osteosarcoma. The extent of the primary tumor shouldbe delineated carefully with magnetic resonance imaging(MRI) before starting chemotherapy. Osteosarcoma tends tometastasize to the lung, most commonly, and rarely to otherbones. Metastatic evaluation includes a chest CT scan and a bone scan. The diagnosis of Ewing sarcoma is established with immunohistochemical analysis and cytogenetic and molecular diagnostic studies of the biopsy material. Ewing sarcoma is characterized by a specific chromosomal translocation, t(11;22), which is seen in 95% of tumors. MRI of the primary lesion should be performed to delineate extent of the lesion and any associated soft tissue mass. Metastatic evaluation involves a bone scan, chest CT scan, and bone marrow aspiration and biopsy."
+        }
+    ],
+    "scores": [
+        0.03878021369325276,
+        0.03567141596802613,
+        0.03553342944283683,
+        0.03547930999972318,
+        0.03340546417411828,
+        0.033148641182029766,
+        0.03242960786976722,
+        0.03223781906344425,
+        0.03059729507868498,
+        0.02589715131335553,
+        0.025629071725167457,
+        0.02463359928774441,
+        0.024456883913101427,
+        0.023900765579612716,
+        0.023503840287861767,
+        0.022869530928996514,
+        0.022408593505335937,
+        0.022210323739845515,
+        0.02165519989522464,
+        0.021650090981901376,
+        0.02013018063577533,
+        0.018669183372385663,
+        0.018645408457278183,
+        0.01793758043758044,
+        0.017891352854710614,
+        0.01677018633540373,
+        0.01620097074642529,
+        0.016059757236227826,
+        0.015936507936507936,
+        0.01568986568986569,
+        0.015549662487945998,
+        0.015495559926098098
+    ]
+}

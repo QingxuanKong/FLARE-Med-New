@@ -1,0 +1,206 @@
+{
+    "id": "5c7f806d617e120c34000001",
+    "question": "Are tumour specific antigens originating from known protein coding genes?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the concept of tumor-specific antigens and their origin. Tumor-specific antigens are proteins that are uniquely expressed by cancer cells and can be recognized by the immune system. According to the provided documents, tumor-specific antigens can originate from different sources, including known protein-coding genes, viral oncogenes, and abnormal post-translational modifications. The documents also mention that some tumor-specific antigens, such as cancer-testis antigens, are encoded by genes that are normally expressed only in male germ cells in the testis. These antigens are presented to T cells by MHC class I molecules, making them tumor-specific. On the other hand, tumor antigens derived from mutant proto-oncogenes or tumor suppressor genes can also be recognized by the immune system and can stimulate an anti-tumor immune response. Therefore, the answer to the question is that tumor-specific antigens can originate from both known protein-coding genes and viral oncogenes, as well as other sources.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Pathology_Robbins_2813",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net \u2022 Like other cancers, lymphoid neoplasms are derived from a single transformed cell and are therefore clonal. As described in Chapter 5, precursor B and T cells rearrange their antigen receptor genes through a mechanism that ensures that each lymphocyte makes a single, unique antigen receptor. Because antigen receptor gene rearrangement virtually always precedes transformation, the daughter cells derived from a given malignant progenitor share the same antigen receptor gene configuration and synthesize identical antigen receptor proteins (either immunoglobulins or T cell receptors). Thus, analyses of antigen receptor genes and their protein products can be used to differentiate lymphoid neoplasms (which are clonal) from immune reactions (which are polyclonal)."
+        },
+        {
+            "id": "Immunology_Janeway_4113",
+            "title": "Immunology_Janeway",
+            "content": "The second category of tumor rejection antigens is the cancer-testis antigens. These are proteins encoded by genes that are normally expressed only in male germ cells in the testis. Male germ cells do not express MHC molecules, and therefore peptides from these molecules are not normally presented to T lymphocytes. Tumor cells show widespread abnormalities of gene expression, including the activation of genes encoding cancer-testis antigens, such as the melanoma-associated antigens (MAGE) (see Fig. 16.17). When expressed by tumor cells, peptides derived from these \u2018germ-cell\u2019 proteins can now be presented to T cells by MHC class I molecules. Therefore, these proteins are effectively tumor-specific in their expression as antigens. Perhaps the cancer-testis antigen best characterized immunologically is NY-ESO-1 (New York esophageal squamous cell carcinoma-1), which is highly immunogenic and is expressed by a variety of human tumors, including melanomas."
+        },
+        {
+            "id": "Pathology_Robbins_1346",
+            "title": "Pathology_Robbins",
+            "content": "Defining mechanisms of immune evasion and \u201cimmunomanipulation\u201d by cancer cells has led to effective new immunotherapies that work by reactivating latent host immune responses. Tumor Antigens. As we have discussed, cancer is a disorder that is caused by driver mutations in oncogenes and tumor suppressor genes, which in most instances are acquired rather than inherited. In addition to pathogenic driver mutations, cancers, due to their inherent genetic instability, also accumulate passenger mutations. These may be particularly abundant in cancers that are caused by mutagenic exposures (e.g., sunlight, smoking). All of these varied mutations may generate new protein sequences (neoantigens) that the immune system has not seen and therefore is not tolerant of and can react to. In some instances, unmutated proteins expressed by tumor cells also can stimulate the host immune response."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5721",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? Explain why or why not. What is required to enable a cancer cell to metastasize? how can the molecular analysis of an individual tumor be more effectively used to design effective therapies to kill it? Can we identify general features common to all cancer cells\u2014such as their production of misfolded, mutated proteins\u2014that can be used for the targeted destruction of many different types of cancers? Can sensitive and reliable blood tests be devised to detect cancers very early, before they have grown to a size where treatment with a single drug will generally be defeated by the survival of a preexisting resistant variant? how can the observed environmental effects on cancer rates be exploited to reduce avoidable cancers? Can new technologies be devised to reveal exactly how a quiescent micrometastasis converts to a full-blown metastatic tumor?"
+        },
+        {
+            "id": "Immunology_Janeway_4110",
+            "title": "Immunology_Janeway",
+            "content": "The tumor rejection antigens recognized by the immune system are peptides of tumor-cell proteins that are presented to T cells on MHC molecules. These peptides become the targets of a tumor-specific T-cell response even though they can also be present on normal tissues. For instance, strategies to induce immunity to the relevant antigens in melanoma patients can induce vitiligo, an autoimmune destruction of pigmented cells in healthy skin. Several categories of tumor rejection antigens can be distinguished (Fig. 16.17). One consists strictly of tumor-specific antigens that result from point mutations or gene rearrangements that occur during oncogenesis and that affect a particular gene product. Point mutations in the gene for a particular protein may alter the epitope for T cells by altering the specific residues in a peptide that is already able to bind to MHC class I molecules, or they may allow some mutant peptides to bind de novo to MHC class I molecules. These peptides are often"
+        },
+        {
+            "id": "InternalMed_Harrison_6038",
+            "title": "InternalMed_Harrison",
+            "content": "Source: From R Hesketh: The Oncogene and Tumour Suppressor Gene Facts Book, 2nd ed. San Diego, Academic Press, 1997; with permission. regulatory proteins or proteins such as cyclins and of proteins that regulate cell death."
+        },
+        {
+            "id": "Pathology_Robbins_1348",
+            "title": "Pathology_Robbins",
+            "content": "Another group of tumor antigens, the cancer-testis antigens, are encoded by genes that are silent in all adult tissues except germ cells in the testis\u2014hence their name. Although the protein is present in the testis it is not expressed on the cell surface in a form that can be recognized by CD8+ T cells, because sperm do not express MHC class I molecules. Thus, for all practical purposes these antigens are tumor specific and are therefore capable of stimulating anti-tumor immune responses."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2093",
+            "title": "Cell_Biology_Alberts",
+            "content": "7\u20136 Comparisons of the patterns of mRNA levels across different human cell types show that the level of expression of almost every active gene is different. The patterns of mRNA abundance are so characteristic of cell type that they can be used to determine the tissue of origin of cancer cells, even though the cells may have metastasized to different parts of the body. By definition, however, cancer cells are different from their noncancerous precursor cells. How do you suppose then that patterns of mRNA expression might be used to determine the tissue source of a human cancer? 7\u20137 What are the two fundamental components of a genetic switch?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5698",
+            "title": "Cell_Biology_Alberts",
+            "content": "A great deal of current excitement centers around a different type of approach, based on the relatively recent recognition that the microenvironment in a tumor is highly immunosuppressive. As a result, the cancer victim\u2019s immune system is prevented from destroying the tumor cells. Recall that, from the thousands of genome sequences thus far determined, we know that a typical cancer cell will contain on the order of 50 proteins with a mutation that alters an amino acid sequence, most of these being \u201cpassenger\u201d mutations, as previously explained (see p. 1104). Many of these mutant proteins will be recognized by the patient\u2019s immune system as foreign, but\u2014to allow the cancer cells to survive throughout the course of tumor progression\u2014the cancer cells have evolved a set of anti-immune defenses. These"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5717",
+            "title": "Cell_Biology_Alberts",
+            "content": "This brings us to the third requirement: the therapy\u2014the choice of drugs to be given in combination\u2014must be tailored to the individual patient. Here, too, the prospects are bright. Cancers evolve by a fundamentally random process, and each patient is different; but modern methods of genome analysis now let us characterize the cells from a tumor biopsy in exhaustive detail so as to discover which cancer-critical genes are affected in a particular case. Admittedly, this is not straightforward: the tumor cells in an individual patient are heterogeneous and do not all contain the same genetic lesions. With increased understandings of the pathways of cancer evolution, however, and with the experience gained from many different cases, it should become possible to make good guesses at the optimal therapies to use."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5599",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cancers Become More and More heterogeneous as They Progress From simple histology, looking at stained tissue sections, it is clear that some tumors contain distinct sectors, all clearly cancerous, but differing in appearance because they differ genetically: the cancer cell population is heterogeneous. Evidently, within the initial clone of cancerous cells, additional mutations have arisen and thrived, creating diverse subclones. Today, the ability to analyze cancer genomes lets us look much deeper into the process. One approach involves taking samples from different regions of a primary tumor and from the metastases that it has spawned. With modern methods, it is even possible to take representative single cells and analyze their genomes. Such studies reveal a classic picture of Darwinian evolution, occurring on a time scale of months or years rather than millions of years, but governed by the same rules of natural selection (Figure 20\u201330)."
+        },
+        {
+            "id": "Pathology_Robbins_1350",
+            "title": "Pathology_Robbins",
+            "content": "Effective Immune Responses to Tumor Antigens. Assuming that the immune system is normally capable of eliminating emerging cancers, we may ask, what are the key components of an effective host immune response? It appears likely that immune reactions to cancers are initiated by the death of individual cancer cells, which occurs at some frequency in all cancers due to dysregulated growth, metabolic stresses, and hypoxia due to insufficient blood supply. When tumor cells die they release \u201cdanger signals\u201d (damage associated molecular patterns, see Chapter 5) that stimulate innate immune cells, including resident phagocytes and antigen presenting cells. It is believed that some of the dead cells are phagocytosed by dendritic cells, which migrate to draining lymph nodes and present tumor neoantigens in the context of MHC class I molecules, a process termed cross-presentation. The displayed tumor antigens are recognized by antigen-specific CD8+ T cells, which become activated, proliferate,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5712",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nevertheless, for some relatively rare forms of advanced cancer, curative therapies have been developed. These generally involve a cocktail of several different anticancer agents: by trial and error, certain combinations of cytotoxic drugs have been found to wipe out the cancer completely. Discovering such combinations has hitherto involved a long, hard search. But now, armed with our new tools for identifying the specific genetic lesions that cancer cells contain, the prospects are better."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6890",
+            "title": "Cell_Biology_Alberts",
+            "content": "gene segments In immunology: short DNA sequences that are joined together during B cell and T cell development to produce the coding sequences for immunoglobulins and T cell receptors, respectively. (Figure 24\u201328) general transcription factor Any of the proteins whose assembly at all promoters of a given type is required for the binding and activation of RNA polymerase and the initiation of transcription. (Table 6\u20133, p. 311) genetic code The set of rules specifying the correspondence between nucleotide triplets (codons) in DNA or RNA and amino acids in proteins. (Figure 6\u201348) genetic instability Abnormally increased spontaneous mutation rate, such as occurs in cancer cells. genetic screen Procedure for discovery of genes affecting a specific phenotype by surveying large numbers of mutagenized individuals. genetics The study of the genes of an organism on the basis of heredity and variation."
+        },
+        {
+            "id": "InternalMed_Harrison_6082",
+            "title": "InternalMed_Harrison",
+            "content": "A revolution in cancer genetics has occurred in the past 25 years. Identification of cancer genes has led to a deep understanding of the tumorigenesis process and has had important repercussions on all fields of cancer biology. In particular, the advancement of powerful techniques for genomewide expression profiling and mutation analyses has provided a detailed picture of the molecular defects present in individual tumors. Individualized treatment based on the specific genetic alterations within a given tumor has already become possible. Although these advances have not yet translated into overall changes in cancer prevention, prognosis, or treatment, it is expected that breakthroughs in these areas will continue to emerge and be applicable to an ever-increasing number of cancers. phenotypiC CharaCteristiCs of MaLignant CeLLs"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6994",
+            "title": "Cell_Biology_Alberts",
+            "content": "primary immune response Adaptive immune response to an antigen that is made on first encounter with that antigen. (Figure 24\u201316) primary pathogens Pathogens that can cause overt disease in most healthy people. Some cause acute, life-threatening epidemic infections and spread rapidly between hosts; other potential primary pathogens may persistently infect a single individual for years without causing overt disease, the host often being unaware that they are infected. primary structure Linear sequence of monomer units in a polymer, such as the amino acid sequence of a protein. primary tumor Tumor at the original site at which a cancer first arose. Secondary tumors develop elsewhere by metastasis."
+        },
+        {
+            "id": "Immunology_Janeway_4117",
+            "title": "Immunology_Janeway",
+            "content": "infiltrating the tumor and propagated in vitro. These T cells do not recognize the products of mutant proto-oncogenes or tumor suppressor genes, but instead recognize antigens derived from the protein products of other mutant genes or from normal proteins that are now displayed on tumor cells at levels detectable by T cells for the first time. Cancer-testis antigens such as the melanoma MAGE antigens discussed above probably represent early developmental antigens reexpressed in the process of tumorigenesis. Only a minority of melanoma patients have T cells reactive to the MAGE antigens, indicating that these antigens either are not expressed or are not immunogenic in most cases."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5702",
+            "title": "Cell_Biology_Alberts",
+            "content": "This is a potentially dangerous strategy. If one provokes the immune system to recognize the cancer cells as targets for destruction, there is a risk of autoimmune side effects with dire consequences for normal tissues of the body, since the cancer cells and the normal cells are close cousins and share most of their molecular features. Nevertheless, several recent successes seem to hold great promise for the future."
+        },
+        {
+            "id": "InternalMed_Harrison_7716",
+            "title": "InternalMed_Harrison",
+            "content": "ROLE OF TISSUE OF ORIGIN MOLECULAR PROFILING In the absence of a known primary, developing therapeutic strategies for CUP is challenging. The current diagnostic yield with imaging and immunochemistry is ~20\u2013 30% for CUP patients. The use of gene expression studies holds the Commonly Considered IHC to Assist in Likely Primary Profile Differential Diagnosis of CUPa aPatterns emerging from coexpression of stains are better than individual stains to suggest putative primary site. Even with optimization, no IHC panel is 100% sensitive or specific (e.g., ovarian mucinous carcinoma can exhibit positivity with intestinal markers). Abbreviations: AFP, \u03b1 fetoprotein; \u03b2-hCG, \u03b2 human chorionic gonadotropin; CUP, carcinoma of unknown primary; IHC, immunohistochemistry; PSA, prostate-specific antigen. promise of substantially increasing this yield. Gene expression profiles are most commonly generated using quantitative reverse transcriptase polymerase chain reaction (RT-PCR) or DNA microarray."
+        },
+        {
+            "id": "InternalMed_Harrison_24683",
+            "title": "InternalMed_Harrison",
+            "content": "In addition to the class I and class II genes themselves, there are numerous genes interspersed among the HLA loci that have interesting and important immunologic functions. Our current concept of the function of MHC genes now encompasses many of these additional genes, some of which are also highly polymorphic. Indeed, direct comparison of the complete DNA sequences for eight of the entire 4-Mb MHC regions from different haplotypes show >44,000 nucleotide variations, encoding an extremely high potential for biologic diversity, and at least 97 genes located in this region are known to have coding region sequence variation. Specific examples include the TAP and LMP genes, as discussed in more detail below, which encode molecules that participate in intermediate steps in the HLA class I biosynthetic pathway. Another set of HLA genes, DMA and DMB, perform an analogous function for the class II pathway. These genes encode an intracellular molecule that facilitates the proper complexing of"
+        },
+        {
+            "id": "Immunology_Janeway_4115",
+            "title": "Immunology_Janeway",
+            "content": "infiltrating solid tumors overexpressing HER-2/neu but are not capable of destroying such tumors in vivo. The fifth category of tumor rejection antigens consists of molecules that display abnormal post-translational modifications. An example is underglycosylated mucin, MUC-1, which is expressed by several tumors, including breast and pancreatic cancers. The sixth category consists of novel proteins that are generated when one or more introns are retained in the mRNA transcribed from a gene, which occurs in melanoma. Proteins encoded by viral oncogenes comprise the seventh category of tumor rejection antigens. These oncoviral proteins can have a critical role in the oncogenic process and, because they are foreign, they can evoke a T-cell response. Examples are the human papilloma virus type 16 proteins E6 and E7, which are expressed in cervical carcinoma (see Section 16-18)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5540",
+            "title": "Cell_Biology_Alberts",
+            "content": "the control of sequences that normally drive the expression of antibody genes in B lymphocytes. As a result, the mutant B cells tend to proliferate excessively and form a tumor. Different specific chromosome translocations are common in other cancers."
+        },
+        {
+            "id": "Neurology_Adams_5391",
+            "title": "Neurology_Adams",
+            "content": "might be included when an unusual paraneoplastic syndrome is suspected. The heterogeneity of antibody response to these expressed proteins may account for different clinical manifestations of the immune process but there is no certain evidence yet of their pathogenetic role."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6943",
+            "title": "Cell_Biology_Alberts",
+            "content": "metastasis The spread of cancer cells from their site of origin to other sites in the body. (Figures 20\u20131 and 20\u201316) MHC complex (major histocompatibility complex) Cluster of genes in one vertebrate chromosome (chromosome 6 in humans) that code for a set of highly polymorphic cell-surface glycoproteins (MHC proteins). (Figure 24\u201337) microbiome The combined genomes of the various species of a defined microbiota. microbiota The collective of microorganisms that reside in or on an organism. microelectrode A piece of fine glass tubing, pulled to an even finer tip, that is used to inject electric current into cells or to study the intracellular concentrations of common inorganic ions (such as H+, Na+, K+, Cl\u2013, and Ca2+) in a single living cell by insertion of its tip directly into the cell interior through the plasma membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_496",
+            "title": "Cell_Biology_Alberts",
+            "content": "Protein families are readily recognized when the genome of any organism is sequenced; for example, the determination of the DNA sequence for the entire human genome has revealed that we contain about 21,000 protein-coding genes. (Note, however, that as a result of alternative RNA splicing, human cells can produce much more than 21,000 different proteins, as will be explained in Chapter 6.) Through sequence comparisons, we can assign the products of at least 40% of our protein-coding genes to known protein structures, belonging to more than 500 different protein families. Most of the proteins in each family have evolved to perform somewhat different functions, as for the enzymes elastase and chymotrypsin illustrated previously in Figure 3\u201312. As explained in Chapter 1 (see Figure 1\u201321), these are sometimes called paralogs to distinguish them from the many corresponding proteins in different organisms (orthologs, such as mouse and human elastase)."
+        },
+        {
+            "id": "InternalMed_Harrison_4882",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 82 Principles of Human Genetics somatic mutations Cancer can be considered a genetic disease at the cellular level (Chap. 101e). Cancers are monoclonal in origin, indicating that they have arisen from a single precursor cell with one or several mutations in genes controlling growth (proliferation or apoptosis) and/or differentiation. These acquired somatic mutations are restricted to the tumor and its metastases and are not found in the surrounding normal tissue. The molecular alterations include dominant gain-of-function mutations in oncogenes, recessive loss-offunction mutations in tumor-suppressor genes and DNA repair genes, gene amplification, and chromosome rearrangements. Rarely, a single mutation in certain genes may be sufficient to transform a normal cell into a malignant cell. In most cancers, however, the development of a malignant phenotype requires several genetic alterations for the gradual progression from a normal cell to a cancerous cell, a phenomenon termed"
+        },
+        {
+            "id": "InternalMed_Harrison_24667",
+            "title": "InternalMed_Harrison",
+            "content": "Introduction to the Immune System the Major histocompatibility Complex Gerald T. Nepom THE HLA COMPLEX AND ITS PRODUCTS The human major histocompatibility complex (MHC), commonly 373e called the human leukocyte antigen (HLA) complex, is a 4-megabase (Mb) region on chromosome 6 (6p21.3) that is densely packed with expressed genes. The best known of these genes are the HLA class I and class II genes, whose products are critical for immunologic specificity and transplantation histocompatibility, and they play a major role in susceptibility to a number of autoimmune diseases. Many other genes in the HLA region are also essential to the innate and antigen-specific functioning of the immune system. The HLA region shows extensive conservation with the MHC of other mammals in terms of genomic organization, gene sequence, and protein structure and function. The HLA class I genes are located in a 2-Mb stretch of DNA at the telomeric end of the HLA region (Fig. 373e-1). The classic (MHC class"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5600",
+            "title": "Cell_Biology_Alberts",
+            "content": "One such investigation compared the genomes of 100 individual cells from different regions of a primary tumor of the breast. A large fraction\u2014just over half\u2014of the chosen cells was genetically normal or nearly so: these were connective-tissue cells and other cell types, such as those of the immune system, that were mixed up with the cancer cells. The cancer cells themselves were distinguished by their severely disrupted genomes. The detailed pattern of gene deletions and amplifications in each such cell revealed how closely it was related to the others, and from this data one could draw up a family tree (Figure 20\u201330B). In this case, three main branches of the tree were seen; that is, the cancer consisted of three major mammary appearance of most epithelial recent common ancestor development number of cells subclones. From the shared abnormalities, one could deduce that their last common ancestor\u2014the presumed founder of the cancer\u2014was already very different from a normal cell, but"
+        },
+        {
+            "id": "InternalMed_Harrison_6074",
+            "title": "InternalMed_Harrison",
+            "content": "40 to 100 genetic alterations that affect protein sequence in a typical cancer, although statistical analyses suggest that only 8\u201315 are functionally involved in tumorigenesis. The picture that emerges from these studies is that most genes found mutated in tumors are actually mutated at relatively low frequencies (<5%), whereas a small number of genes (such as p53, KRAS) are mutated in a large proportion of tumors (Fig. 101e-8). In the past, the focus of research has been on the frequently mutated genes, but it appears that the large number of genes that are infrequently mutated in cancer are major contributors to the cancer phenotype. Understanding the signaling pathways altered by mutations in these genes, as well as the functional relevance of these different mutations, represents the next challenge in the field. Moreover, a detailed knowledge of the genes altered in a particular tumor may allow for a new era of personalized treatment in cancer medicine (see below). A major effort"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5487",
+            "title": "Cell_Biology_Alberts",
+            "content": "Carcinomas and other solid tumors evolve in a similar way (Figure 20\u20138). Although many such cancers in humans are not diagnosed until a relatively late stage, in some cases it is possible to observe the earlier steps and, as we shall see later, to relate them to specific genetic changes Tumor Progression Involves Successive Rounds of Random Inherited Change Followed by Natural Selection From all the evidence, therefore, it seems that cancers arise by a process in which an initial population of slightly abnormal cells\u2014descendants of a single abnormal ancestor\u2014evolve from bad to worse through successive cycles of random inherited change followed by natural selection. Correspondingly, tumors grow in fits and starts, as additional advantageous inherited changes arise and the cells bearing them flourish. Tumor progression involves a large element of chance and usually takes many years, which may be why the majority of us will die of causes other than cancer."
+        },
+        {
+            "id": "InternalMed_Harrison_6229",
+            "title": "InternalMed_Harrison",
+            "content": "The explosion of information on tumor cell biology, metastasis, and tumor-host interactions (including angiogenesis and immune evasion by tumors) has ushered in a new era of rational targeted therapy for cancer. Furthermore, it has become clear that specific molecular factors detected in individual tumors (specific gene mutations, gene-expression profiles, microRNA expression, overexpression of specific proteins) can be used to tailor therapy and maximize antitumor effects. Robert G. Fenton contributed to this chapter in prior editions, and important material from those prior chapters has been included here."
+        },
+        {
+            "id": "InternalMed_Harrison_6080",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 101e-8 A two-dimensional maps of genes mutated in colorectal cancer. The two-dimensional landscape represents the positions of the RefSeq genes along the chromosomes and the height of the peaks represents the mutation frequency. On the top map, the taller peaks represent the genes that are commonly mutated in colon cancer, while the large number of smaller hills indicates the genes that are mutated at lower frequency. On the lower map, the mutations of two individual tumors are indicated. Note that there is little overlap between the mutated genes of the two colorectal tumors shown. These differences may represent the basis for the heterogeneity in terms of behavior and responsiveness to therapy observed in human cancer. (From LD Wood et al: Science 318:1108, 2007, with permission.) to help the patients and their physicians make treatment decisions. 101e-9 Personalized medicine is an exciting new avenue for cancer treatment based on matching the unique features of a tumor to an"
+        }
+    ],
+    "scores": [
+        0.024045381809356968,
+        0.02306718389835273,
+        0.02260064505744597,
+        0.02252196177513847,
+        0.022520584930656874,
+        0.01922081769701758,
+        0.018750547621133797,
+        0.018452380952380953,
+        0.017786561264822136,
+        0.016931216931216932,
+        0.01649470540320391,
+        0.01569676181617348,
+        0.01568844592100406,
+        0.015365470973326842,
+        0.015343064015630388,
+        0.015316315205327414,
+        0.015045248868778281,
+        0.01499974315508296,
+        0.014805506993006992,
+        0.014642857142857141,
+        0.014390344543016298,
+        0.013779798814937303,
+        0.013750882976218508,
+        0.013594470046082949,
+        0.013491993276121383,
+        0.013379273313048147,
+        0.012981162981162982,
+        0.012673436167738934,
+        0.01261904761904762,
+        0.012556679455877223,
+        0.012296285420643076,
+        0.012273853314315741
+    ]
+}

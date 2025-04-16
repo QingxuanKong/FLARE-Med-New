@@ -1,0 +1,206 @@
+{
+    "id": "621fd6083a8413c653000066",
+    "question": "Unlike DNA, RNA is not methylated, yes or no?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the characteristics of DNA and RNA as described in the provided documents. Document [5] states that DNA methylation involves the addition of a methyl group to cytosine residues, which is not mentioned for RNA. Document [4] also states that RNA polymerase catalyzes the linkage of ribonucleotides, not deoxyribonucleotides, and that RNA does not permanently store genetic information in cells, which implies that RNA is not methylated. Therefore, we can conclude that RNA is not methylated.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1421",
+            "title": "Cell_Biology_Alberts",
+            "content": "as RNA does not permanently store genetic information in cells. Finally, unlike DNA polymerases, which make their products in segments that are later stitched together, RNA polymerases are absolutely processive; that is, the same RNA polymerase that begins an RNA molecule must finish it without dissociating from the DNA template."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1414",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20134 A short length of RNA. The phosphodiester chemical linkage between nucleotides in RNA is the same as that in DNA. Figure 6\u20135 The chemical structure of RNA. (A) RNA contains the sugar ribose, which differs from deoxyribose, the sugar used in DNA, by the presence of an additional \u2013OH group. (B) RNA contains the base uracil, which differs from thymine, the equivalent base in DNA, by the absence of a \u2013CH3 group. Figure 6\u20136 Uracil forms base pairs with adenine. The absence of a methyl group in U has no effect on base-pairing; thus, U-A base pairs closely resemble T-A base pairs (see Figure 4\u20134)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1416",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription, however, differs from DNA replication in several crucial ways. Unlike a newly formed DNA strand, the RNA strand does not remain hydrogen-bonded to the DNA template strand. Instead, just behind the region where the ribonucleotides are being added, the RNA chain is displaced and the DNA helix re-forms. Thus, the RNA molecules produced by transcription are released from the DNA template as single strands. In addition, because they are copied from only a limited region of the DNA, RNA molecules are much shorter than DNA molecules. A DNA molecule in a human chromosome can be up to 250 million nucleotide-pairs long; in contrast, most RNAs are no more than a few thousand nucleotides long, and many are considerably shorter."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1740",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA appeared on the scene later, but then proved more suitable than RNA as a permanent repository of genetic information. In particular, the deoxyribose in \u2022 The information carried in genomes its sugar-phosphate backbone makes chains of DNA chemically more stable than specifies the sequences of all proteins chains of RNA, so that much greater lengths of DNA can be maintained without and RNA molecules in the cell, breakage. and it determines when and where these molecules are synthesized. The other differences between RNA and DNA\u2014the double-helical structure of DNA and the use of thymine rather than uracil\u2014further enhance DNA stability by making the many unavoidable accidents that occur to the molecule much easier discovered? to repair, as discussed in detail in Chapter 5 (pp. 271\u2013273). \u2022 Cells go to great length to correct mistakes in the processes of DNA replication, transcription, splicing, and translation. Are there analogous"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1420",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although RNA polymerase catalyzes essentially the same chemical reaction as DNA polymerase, there are some important differences between the activities of the two enzymes. First, and most obviously, RNA polymerase catalyzes the linkage of ribonucleotides, not deoxyribonucleotides. Second, unlike the DNA polymerases involved in DNA replication, RNA polymerases can start an RNA chain without a primer. This difference is thought possible because transcription need not be as accurate as DNA replication (see Table 5\u20131, p. 244). RNA polymerases make about one mistake for every 104 nucleotides copied into RNA (compared with an error rate for direct copying by DNA polymerase of about one in 107 nucleotides); and the consequences of an error in RNA transcription are much less significant as RNA does not permanently store genetic information in cells. Finally, unlike DNA polymerases, which make their products in segments that are later stitched together, RNA polymerases are absolutely"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1920",
+            "title": "Cell_Biology_Alberts",
+            "content": "with a CG sequence that is already methylated. As a result, the pattern of DNA methylation on the parental DNA strand serves as a template for the methylation of the daughter DNA strand, causing this pattern to be inherited directly following DNA replication (Figure 7\u201344)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1415",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20136 Uracil forms base pairs with adenine. The absence of a methyl group in U has no effect on base-pairing; thus, U-A base pairs closely resemble T-A base pairs (see Figure 4\u20134). template. When a good match is made (A with T, U with A, G with C, and C with G), the incoming ribonucleotide is covalently linked to the growing RNA chain in an enzymatically catalyzed reaction. The RNA chain produced by transcription\u2014 the transcript\u2014is therefore elongated one nucleotide at a time, and it has a nucleotide sequence that is exactly complementary to the strand of DNA used as the template (Figure 6\u20138)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1506",
+            "title": "Biochemistry_Lippinco",
+            "content": "The genetic master plan of an organism is contained in the sequence of deoxyribonucleotides in its DNA. However, it is through ribonucleic acid (RNA), the \u201cworking copies\u201d of DNA, that the master plan is expressed (Fig. 31.1). The copying process, during which a DNA strand serves as a template for the synthesis of RNA, is called transcription. Transcription produces messenger RNA (mRNA), which are translated into sequences of amino acids (proteins), and ribosomal RNA (rRNA), transfer RNA (tRNA), and additional RNA molecules that perform specialized structural, catalytic, and regulatory functions and are not translated. That is, they are noncoding RNA (ncRNA). Therefore, the final product of gene expression can be RNA or protein, depending upon the gene. [Note: Only ~2% of the genome encodes proteins.] A central feature of transcription is that it is highly selective. For example, many transcripts are made of some regions of the DNA. In other regions, few or no transcripts are made."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1265",
+            "title": "Cell_Biology_Alberts",
+            "content": "produces G, which cannot be formed from A by spontaneous deamination, and whose deamination product (xanthine) is likewise unique. As discussed in Chapter 6, RNA is thought, on an evolutionary time scale, to have served as the genetic material before DNA, and it seems likely that the genetic code was initially carried in the four nucleotides A, C, G, and U. This raises the question of why the U in RNA was replaced in DNA by T (which is 5-methyl U). We have seen that the spontaneous deamination of C converts it to U, but that this event is rendered relatively harmless by uracil DNA glycosylase. However, if DNA contained U as a natural base, the repair system would not be able to distinguish a deaminated C from a naturally occurring U."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2279",
+            "title": "Cell_Biology_Alberts",
+            "content": "This fundamental capacity of a single-stranded nucleic acid molecule, either DNA or RNA, to form a double helix with a single-stranded molecule of a complementary sequence provides a powerful and sensitive technique for detecting specific nucleotide sequences. Today, one simply designs a short, single-stranded DNA molecule (often called a DNA probe) that is complementary to the nucleotide sequence of interest. Because the nucleotide sequences of so many genomes are known\u2014and are stored in publicly accessible databases\u2014designing a probe to hybridize anywhere in a genome is straightforward. Probes are single-stranded, typically 30 nucleotides in length, and are usually synthesized chemically by a commercial service for pennies per nucleotide. A DNA sequence of 30 nucleotides will occur by chance only once every 1 \u00d7 1018 nucleotides (430); so, even in the human genome of 3 \u00d7 109 nucleotide pairs, a DNA probe designed to match a particular 30-nucleotide sequence will be highly unlikely to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1961",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eukaryotic cells can use inherited forms of DNA methylation and inherited states of chromatin condensation as additional mechanisms for generating cell memory of gene expression patterns. An especially dramatic case that involves chromatin condensation is the inactivation of an entire X chromosome in female mammals. DNA methylation underlies the phenomenon in mammals of genomic imprinting, in which the expression of a gene depends on whether it was inherited from the mother or the father."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1930",
+            "title": "Cell_Biology_Alberts",
+            "content": "CG islands also remain unmethylated in most somatic tissues whether or not the associated gene is expressed. The unmethylated state is maintained by sequence-specific DNA-binding proteins, many of whose cis-regulatory sequences contain a CG. By binding to these sequences, which are spread across CG islands, they protect the DNA from methyl transferases. These proteins also recruit DNA demethylases, which convert 5-methyl C to hydroxy-methyl C, which 10,000 nucleotide pairs is later replaced by C either through DNA repair (see Figure 5\u201341A) or, passively, through multiple rounds of DNA replication. Unmethylated CG islands have several properties that make them particularly suitable for promoters. For example, some of the same proteins that bind to CG islands and protect them from methylation recruit histone modifying enzymes that make the islands particularly \u201cpromoter friendly.\u201d As a result, RNA polymerase is often found bound to promoters within CG islands, even when the associated"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2104",
+            "title": "Cell_Biology_Alberts",
+            "content": "Bird A (2011) putting the DnA back into DnA methylation. Nat. Genet. 43, 1050\u20131051. Gehring M (2013) Genomic imprinting: insights from plants. Annu. Rev. Genet. 47, 187\u2013208. lawson hA, Cheverud JM & wolf JB (2013) Genomic imprinting and parent-of-origin effects on complex traits. Genetics 14, 609\u2013617. lee Jt & Bartolomei MS (2013) X-inactivation, imprinting, and long noncoding rnAs in health and disease. Cell 152, 1308\u20131323. li e & Zhang Y (2014) DnA methylation in mammals. Cold Spring Harb. Perspect. Biol. 6, a019133. DiGiammartino DC, nishida K & Manley Jl (2011) Mechanisms and consequences of alternative polyadenylation. Mol Cell 43, 853\u2013866. Gottesman S & Storz G (2011) Bacterial small rnA regulators: versatile roles and rapidly evolving variations. Cold Spring Harb. Perspect. Biol. 3, a003798. hershey JwB, Sonenberg n & Mathews MB (2012) principles of translational control: an overview. Cold Spring Harb. Perspect. Biol. 4, a011528."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1582",
+            "title": "Cell_Biology_Alberts",
+            "content": "An mRNA Sequence Is Decoded in Sets of Three Nucleotides Once an mRNA has been produced by transcription and processing, the information present in its nucleotide sequence is used to synthesize a protein. Transcription is simple to understand as a means of information transfer: since DNA and RNA are chemically and structurally similar, the DNA can act as a direct template for the synthesis of RNA by complementary base-pairing. As the term transcription signifies, it is as if a message written out by hand is being converted, say, into a typewritten text. The language itself and the form of the message do not change, and the symbols used are closely related."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1725",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have seen that the expression of hereditary information requires extraordinarily complex machinery and proceeds from DNA to protein through an RNA intermediate. This machinery presents a central paradox: if nucleic acids are required to synthesize proteins and proteins are required, in turn, to synthesize nucleic acids, how did such a system of interdependent components ever arise? One view is that an RNA world existed on Earth before modern cells arose (Figure 6\u201388). According to this hypothesis, RNA both stored genetic information and catalyzed the chemical reactions in primitive cells. Only later in evolutionary time did DNA take over as the genetic material and proteins become the major catalysts and structural components of cells. If this idea is correct, then the transition out of the RNA world was never complete; as we have seen in this chapter, RNA still catalyzes several fundamental reactions in modern-day cells, which can be viewed as molecular fossils from an earlier"
+        },
+        {
+            "id": "InternalMed_Harrison_4792",
+            "title": "InternalMed_Harrison",
+            "content": "Histone methylation involves the addition of a methyl group to lysine residues in histone proteins (Fig. 82-7). Depending on the specific lysine residue being methylated, this alters chromatin configuration, either making it more open or tightly packed. Acetylation of histone proteins is another well-characterized mechanism that results in an open chromatin configuration, which favors active transcription. Acetylation is generally more dynamic than methylation, and many transcriptional activation complexes have histone acetylase activity, whereas repressor complexes often contain deacetylases and remove acetyl groups from histones. Other histone modifications, whose effects are incompletely characterized, include phosphorylation and sumoylation. Lastly, noncoding RNAs that bind to DNA can have a significant impact on transcriptional activity."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1431",
+            "title": "Cell_Biology_Alberts",
+            "content": "Signals Encoded in DNA Tell RNA Polymerase Where to Start and Stop To transcribe a gene accurately, RNA polymerase must recognize where on the genome to start and where to finish. The way in which RNA polymerases perform these tasks differs somewhat between bacteria and eukaryotes. Because the processes in bacteria are simpler, we discuss them first."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1940",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other cases of imprinting involve long noncoding RNAs, which are defined as RNA molecules over 200 nucleotides in length that do not code for proteins. We discuss lncRNAs broadly at the end of this chapter; here, we focus on the role of a specific lncRNA in imprinting. In the case of the Kcnq1 gene, which codes for a voltage-gated calcium channel needed for proper heart function, the lncRNA is made from the paternal allele (which is unmethylated) but it is not released by the RNA polymerase, remaining instead at its site of synthesis on the DNA template. This RNA in turn recruits histone-modifying and DNA-methylating enzymes that direct the formation of repressive chromatin, which silences the protein-coding gene associated on the paternally derived chromosome (Figure 7\u201349B). The maternally derived gene, on the other hand, is immune to these effects because the specific methylation present from imprinting blocks the synthesis of the lncRNA but allows transcription of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1767",
+            "title": "Cell_Biology_Alberts",
+            "content": "3. Studies of the number of different RNAs suggest that, at any one time, a typical human cell expresses 30\u201360% of its approximately 30,000 genes at some level. There are about 21,000 protein-coding genes and a roughly estimated 9000 noncoding RNA genes in humans. When the patterns of RNA expression in different human cell lines are compared, the level of expression of almost every gene is found to vary from one cell type to another. A few of these differences are striking, like those of hemoglobin and tyrosine aminotransferase noted above, but most are much more subtle. But even those genes that are expressed in all cell types usually vary in their level of expression from one cell type to the next. 4."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1924",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA methylation helps to repress transcription in several ways. The methyl groups on methylated cytosines lie in the major groove of DNA and interfere directly with the binding of proteins (transcription regulators as well as the general transcription factors) required for transcription initiation. In addition, the cell contains a repertoire of proteins that bind specifically to methylated DNA.The best characterized of these associate with histone modifying enzymes, leading to a repressive chromatin state where chromatin structure and DNA methylation act synergistically (Figure 7\u201345). One reflection of the importance of DNA methylation to humans is the widespread involvement of \u201cincorrect\u201d DNA methylation patterns in cancer progression (discussed in Chapter 20). CG-rich islands Are Associated with Many Genes in Mammals"
+        },
+        {
+            "id": "Cell_Biology_Alberts_782",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Structure of DNA Provides a mechanism for Heredity The discovery of the structure of DNA immediately suggested answers to the two most fundamental questions about heredity. First, how could the information to specify an organism be carried in a chemical form? And second, how could this information be duplicated and copied from generation to generation? The answer to the first question came from the realization that DNA is a linear polymer of four different kinds of monomer, strung out in a defined sequence like the letters of a document written in an alphabetic script. The answer to the second question came from the double-stranded nature of the structure: because each strand of DNA contains a sequence of nucleotides that is exactly complementary to the nucleotide sequence of its partner strand, each strand can act as a template, or mold, for the synthesis of a new complementary strand. In other words, if we designate the two DNA strands as S and S\u02b9, strand 0.34 nm"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1726",
+            "title": "Cell_Biology_Alberts",
+            "content": "of the RNA world was never complete; as we have seen in this chapter, RNA still catalyzes several fundamental reactions in modern-day cells, which can be viewed as molecular fossils from an earlier world."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1260",
+            "title": "Cell_Biology_Alberts",
+            "content": "All of a cell\u2019s DNA is under constant surveillance for damage, and the repair mechanisms we have described act on all parts of the genome. However, cells have a way of directing DNA repair to the DNA sequences that are most urgently needed. They do this by linking RNA polymerase, the enzyme that transcribes DNA into RNA as the first step in gene expression, to the nucleotide excision repair pathway. As discussed above, this repair system can correct many different types of DNA damage. RNA polymerase stalls at DNA lesions and, through the use of coupling proteins, directs the excision repair machinery to these sites. In bacteria, where genes are relatively short, the stalled RNA polymerase can be dissociated from the DNA; the DNA is repaired, and the gene is transcribed again from the beginning. In eukaryotes, where genes can be enormously long, a more complex reaction is used to \u201cback up\u201d the RNA polymerase, repair the damage, and then restart the polymerase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1412",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although these chemical differences are slight, DNA and RNA differ quite dramatically in overall structure. Whereas DNA always occurs in cells as a double-stranded helix, RNA is single-stranded. An RNA chain can therefore fold up into a particular shape, just as a polypeptide chain folds up to form the final shape of a protein (Figure 6\u20137). As we see later in this chapter, the ability to fold into complex three-dimensional shapes allows some RNA molecules to have precise structural and catalytic functions. Transcription Produces RNA Complementary to One Strand of DNA"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1938",
+            "title": "Biochemistry_Lippinco",
+            "content": "E. von Willebrand disease Q3. Compare and contrast the actions of heparin and warfarin. Focused Cases: Answers to Case-Based Questions Case 1: Anemia with \u03b2-Thalassemia Minor Answer = B. Transcription (synthesis of single-stranded RNA from the template strand of double-stranded DNA) requires the binding of proteins (trans-acting factors) to sequences on the DNA (cis-acting elements). Eukaryotic messenger RNA (mRNA) is monocistronic because it contains information from just one gene (cistron). The base sequence TAG (thymine adenine guanine) in the coding strand of DNA is U(uracil)AG in the mRNA. UAG is a signal that terminates translation (protein synthesis), not transcription. It is formation of the 5\u2032-cap of eukaryotic mRNA that requires methylation (using S-adenosylmethionine), not 3\u2032-end polyadenylation. Splicing is the spliceosome-mediated process by which introns are removed from eukaryotic mRNA and exons joined."
+        },
+        {
+            "id": "Pathology_Robbins_15",
+            "title": "Pathology_Robbins",
+            "content": "DNA methylation. High levels of DNA methylation in gene regulatory elements typically result in chromatin condensation and transcriptional silencing. Like histone modifications (see later), DNA methylation is tightly regulated by methyltransferases, demethylating enzymes, and methylated-DNA-binding proteins. Histone modifying factors. Nucleosomes are highly dynamic structures regulated by an array of nuclear proteins and post-translational modifications: Chromatin remodeling complexes can reposition nucleosomes on DNA, exposing (or obscuring) gene regulatory elements such as promoters."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1484",
+            "title": "Biochemistry_Lippinco",
+            "content": "Mismatched strand identification: When a mismatch occurs, the Mut proteins that identify the mispaired nucleotide(s) must be able to discriminate between the correct strand and the strand with the mismatch. In prokaryotes, discrimination is based on the degree of methylation. GATC sequences, which are found once every thousand nucleotides, are methylated on the adenine (A) residue by DNA adenine methylase (DAM). This methylation is not done immediately after synthesis, so the DNA is hemimethylated (that is, the parental strand is methylated, but the daughter strand is not). The methylated parental strand is assumed to be correct, and it is the daughter strand that gets repaired. [Note: The exact mechanism by which the daughter strand is identified in eukaryotes is not yet known, but likely involves recognition of nicks in the newly synthesized strand.] 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1738",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201392 An RNA molecule that can catalyze its own synthesis. This hypothetical process would require catalysis both of the production of a second RNA strand of complementary nucleotide sequence (not shown) and the use of this second RNA molecule as a template to form many molecules of RNA with the original sequence. The red rays represent the active site of this hypothetical RNA enzyme. Figure 6\u201393 The hypothesis that RNA preceded DNA and proteins in evolution. In the earliest cells, RNA molecules (or their close analogs) would have had combined genetic, structural, and catalytic functions. In present-day cells, DNA is the repository of genetic information, and proteins perform the vast majority of catalytic functions in cells. RNA primarily functions today as a go-between in protein synthesis, although it remains a catalyst for a small number of crucial reactions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1413",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription Produces RNA Complementary to One Strand of DNA The RNA in a cell is made by DNA transcription, a process that has certain similarities to the process of DNA replication discussed in Chapter 5. Transcription begins with the opening and unwinding of a small portion of the DNA double helix to expose the bases on each DNA strand. One of the two strands of the DNA double helix then acts as a template for the synthesis of an RNA molecule. As in DNA replication, the nucleotide sequence of the RNA chain is determined by the complementary base-pairing between incoming nucleotides and the DNA Figure 6\u20134 A short length of RNA. The phosphodiester chemical linkage between nucleotides in RNA is the same as that in DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1741",
+            "title": "Cell_Biology_Alberts",
+            "content": "\u2022 Cells go to great length to correct mistakes in the processes of DNA replication, transcription, splicing, and translation. Are there analogous From our knowledge of present-day organisms and the molecules they contain, it strategies to correct mistakes in the seems likely that the development of the distinctive autocatalytic mechanisms fun- selection of which genes are to be damental to living systems began with the evolution of families of RNA molecules expressed in a given cell type? Could that could catalyze their own replication. DNA is likely to have been a late addition: the great complexity of transcription as the accumulation of protein catalysts allowed more efficient and complex cells to initiation in animals and plants reflect evolve, the DNA double helix replaced RNA as a more stable molecule for storing the such a strategy? increased amounts of genetic information required by such cells. Which statements are true? explain why or why not."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1419",
+            "title": "Cell_Biology_Alberts",
+            "content": "The almost immediate release of the RNA strand from the DNA as it is synthesized means that many RNA copies can be made from the same gene in a relatively short time, with the synthesis of additional RNA molecules being started before the previous RNA molecules are completed (Figure 6\u201310). When RNA polymerase molecules follow hard on each other\u2019s heels in this way, each moving at about 50 nucleotides per second, over a thousand transcripts can be synthesized in an hour from a single gene."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1989",
+            "title": "Cell_Biology_Alberts",
+            "content": "rnA editing Can Change the Meaning of the rnA Message The molecular mechanisms used by cells are a continual source of surprises. An example is the process of RNA editing, which alters the nucleotide sequences of RNA transcripts once they are synthesized and thereby changes the coded message they carry. We saw in Chapter 6 that tRNA and rRNA molecules are chemically modified after they are synthesized: here we focus on changes to mRNAs."
+        }
+    ],
+    "scores": [
+        0.036082079616562374,
+        0.0282689389731434,
+        0.027493582691602493,
+        0.027483743711119068,
+        0.024759278711484593,
+        0.023986195673577175,
+        0.021059310356174754,
+        0.02055096279075943,
+        0.02018037142497508,
+        0.019821528415811817,
+        0.019169544784298883,
+        0.019049346879535557,
+        0.01878969654199012,
+        0.017879948914431672,
+        0.01787984742530197,
+        0.017549261083743842,
+        0.017355371900826446,
+        0.017116145271485077,
+        0.016986811926605505,
+        0.016979382178782906,
+        0.016558529332251957,
+        0.016511917201572374,
+        0.016264902460874173,
+        0.016145371660124096,
+        0.016064516129032258,
+        0.01584627862000125,
+        0.015813117699910152,
+        0.015564437984496124,
+        0.015485739750445633,
+        0.015467583264193435,
+        0.015310892940626462,
+        0.015307877536979705
+    ]
+}

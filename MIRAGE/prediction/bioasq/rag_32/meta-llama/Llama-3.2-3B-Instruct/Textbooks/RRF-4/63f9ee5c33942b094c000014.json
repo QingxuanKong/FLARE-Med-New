@@ -1,0 +1,206 @@
+{
+    "id": "63f9ee5c33942b094c000014",
+    "question": "Does SRRM4 regulate neuronal-specific microexon splicing of TAF1 mRNA?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of SRRM4 in regulating splicing patterns, particularly in the context of neuronal-specific microexon splicing of TAF1 mRNA. SRRM4 is a member of the SR protein family, which plays a crucial role in regulating splicing patterns by binding to specific RNA sequences and recruiting spliceosomal components to the appropriate splice sites. SRRM4 has been implicated in the regulation of various alternative splicing events, including those involved in neuronal development and function. Specifically, SRRM4 has been shown to regulate the inclusion of neuronal-specific microexons in TAF1 mRNA, which is essential for the production of a functional protein. The inclusion of these microexons is critical for the development and function of neurons, and dysregulation of SRRM4 can lead to abnormalities in neuronal development and function. Therefore, based on the available evidence, it is likely that SRRM4 regulates neuronal-specific microexon splicing of TAF1 mRNA.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1529",
+            "title": "Cell_Biology_Alberts",
+            "content": "The plasticity of RNA splicing also means that the cell can easily regulate the pattern of RNA splicing. Earlier in this section we saw that alternative splicing can give rise to different proteins from the same gene and that this is a common strategy to enhance the coding potential of genomes. Some examples of alternative splicing are constitutive; that is, the alternatively spliced mRNAs are produced continuously by cells of an organism. However, in many cases, the cell regulates the splicing patterns so that different forms of the protein are produced at different times and in different tissues (see Figure 6\u201326). In Chapter 7, we return to this issue to discuss some specific examples of regulated RNA splicing."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1519",
+            "title": "Cell_Biology_Alberts",
+            "content": "size of exons, the cell increases the accuracy with which it deposits the initial splicing components on the nascent RNA and thereby avoids \u201cnear miss\u201d splice sites. How the SR proteins discriminate exon sequences from intron sequences is not understood in detail; however, it is known that some of the SR proteins bind preferentially to specific RNA sequences in exons, termed splicing enhancers."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1572",
+            "title": "Cell_Biology_Alberts",
+            "content": "Given the prominence of nuclear bodies in RNA processing, it might be expected that pre-mRNA splicing would occur in a particular location in the nucleus, as it requires numerous RNA and protein components. However, as we have seen, the assembly of splicing components on pre-mRNA is co-transcriptional; thus, splicing must occur at many locations along chromosomes. Although a typical mammalian cell may be expressing on the order of 15,000 genes, transcription and RNA splicing takes place in only several thousand sites in the nucleus. These sites are highly dynamic and probably result from the association of transcription and splicing components to create small factories, the name given to specific aggregates containing a high local concentration of selected components that create biochemical assembly lines (Figure 6\u201347). Interchromatin tail of RNA polymerase"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1981",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because of the plasticity of RNA splicing, the blocking of a \u201cstrong\u201d splicing site will often expose a \u201cweak\u201d site and result in a different pattern of splicing. Thus, the splicing of a pre-mRNA molecule can be thought of as a delicate balance between competing splice sites\u2014a balance that can easily be tipped by effects on splicing of regulatory proteins. the Definition of a Gene has Been Modified Since the Discovery of Alternative rnA Splicing The discovery that eukaryotic genes usually contain introns and that their coding sequences can be assembled in more than one way raised new questions about the definition of a gene. A gene was first clearly defined in molecular terms in the early 1940s from work on the biochemical genetics of the fungus Neurospora. Figure 7\u201358 Negative and positive control of alternative RNA splicing."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1980",
+            "title": "Cell_Biology_Alberts",
+            "content": "In addition to enabling switching from the production of a functional protein to the production of a nonfunctional one (or vice versa), the regulation of RNA splicing can generate different versions of a protein in different cell types, according to the needs of the cell. Tropomyosin, for example, is produced in specialized forms in different types of cells (see Figure 6\u201326). Cell-type-specific forms of many other proteins are produced in the same way. RNA splicing can be regulated either negatively, by a regulatory molecule that prevents the splicing machinery from gaining access to a particular splice site on the RNA, or positively, by a regulatory molecule that helps direct the splicing machinery to an otherwise overlooked splice site (Figure 7\u201358)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1495",
+            "title": "Cell_Biology_Alberts",
+            "content": "Both intron and exon sequences are transcribed into RNA. The intron sequences are removed from the newly synthesized RNA through the process of RNA splicing. The vast majority of RNA splicing that takes place in cells func- tions in the production of mRNA, and our discussion of splicing focuses on this so-called precursor-mRNA (or pre-mRNA) splicing. Only after 5\u02b9and 3\u02b9-end pro- add methyl group to base cessing and splicing have taken place is such RNA termed mRNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1744",
+            "title": "Cell_Biology_Alberts",
+            "content": "merase were free to rotate about the axis of the DNA as it progressed along the template? glass slide Figure Q6\u20133 Alternatively spliced mRNAs from the human \u03b1-tropomyosin gene (Problem 6\u20138). (A) Exons in the human \u03b1-tropomyosin gene. The locations and relative sizes of exons are shown by the blue and red rectangles, with alternative exons in red. (B) Splicing patterns for four \u03b1-tropomyosin mRNAs. Splicing is indicated by lines connecting the exons that are included in the mRNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1504",
+            "title": "Cell_Biology_Alberts",
+            "content": "RNA Splicing Is Performed by the Spliceosome Unlike the other steps of mRNA production we have discussed, key steps in RNA splicing are performed by RNA molecules rather than proteins. Specialized RNA molecules recognize the nucleotide sequences that specify where splicing is to occur and also catalyze the chemistry of splicing. These RNA molecules are relatively short (less than 200 nucleotides each), and there are five of them, U1, U2, U4, U5, and U6. Known as snRNAs (small nuclear RNAs), each is complexed with at least seven protein subunits to form an snRNP (small nuclear ribonucleoprotein). \u2013\u00b0\u2013\u00b0\u2013\u00b0AG GURAGU \u2013\u00b0\u2013 \u2013\u00b0\u2013 \u00b0YURAC \u2013 ....\u00b0\u2013 YYYYYYYYNCAG G \u2013\u00b0\u2013\u00b0\u2013\u00b0 5\u02dc3\u02dc portion of a primary transcript exon 1 intron exon 2 portion of mRNA exon 1 exon 2 Figure 6\u201326 Alternative splicing of the \u03b1-tropomyosin gene from rat."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1525",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have seen that the choice of splice sites depends on such features of the premRNA transcript as the strength of the three signals on the RNA (the 5\u02b9and 3\u02b9 splice junctions and the branch point) for the splicing machinery, the co-transcriptional assembly of the spliceosome, chromatin structure, and the \u201cbookkeeping\u201d that underlies exon definition. We do not know exactly how accurate splicing normally is because, as we see later, there are several quality control systems that rapidly destroy mRNAs whose splicing goes awry. However, we do know that, compared with other steps in gene expression, splicing is unusually flexible."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1650",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Messenger RNA processing and use Eukaryotic mRNA undergoes several processing events before it is exported from the nucleus to the cytoplasm for use in protein synthesis. Capping at the 5\u2032-end (see p. 441), polyadenylation at the 3\u2032-end (see p. 442), and splicing (see p. 442) are essential for the production of a functional eukaryotic messenger from most pre-mRNA. Variations in splicing and polyadenylation can affect gene expression. In addition, messenger stability also affects gene expression. 1. Alternative splicing: Tissue-specific protein isoforms can be made from the same pre-mRNA through alternative splicing, which can involve exon skipping (loss), intron retention, and use of alternative splice-donor or -acceptor sites (Fig. 33.12). For example, the pre-mRNA for tropomyosin (TM) undergoes tissue-specific alternative splicing to yield a number of TM isoforms (see p. 443). [Note: Over 90% of all human genes undergo alternative splicing.] 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1512",
+            "title": "Cell_Biology_Alberts",
+            "content": "reactions. These two active sites are created, one after the other, and only after the splicing signals on the pre-mRNA have been checked several times. This orderly progression ensures that splicing accidents occur only rarely."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1515",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other Properties of Pre-mRNA and Its Synthesis Help to Explain the Choice of Proper Splice Sites As we have seen, intron sequences vary enormously in size, with some being in excess of 100,000 nucleotides. If splice-site selection were determined solely by the snRNPs acting on a preformed, protein-free RNA molecule, we would expect frequent splicing mistakes\u2014such as exon skipping and the use of \u201ccryptic\u201d splice sites (Figure 6\u201330). The fidelity mechanisms built into the spliceosome to suppress errors, however, are supplemented by two additional strategies that further increase the accuracy of splicing. The first is a simple consequence of splicing being coupled to transcription. As transcription proceeds, the phosphorylated tail of RNA polymerase carries several components of the spliceosome (see Figure Figure 6\u201329 One of the many rearrangements that take place in the spliceosome during pre-mRNA splicing."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1511",
+            "title": "Cell_Biology_Alberts",
+            "content": "What is the purpose of these rearrangements? First, they allow the splicing signals on the pre-RNA to be examined by snRNPs several times during the course of splicing. For example, the U1 snRNP initially recognizes the 5\u02b9 splice site through conventional base-pairing; as splicing proceeds, these base pairs are broken (using the energy of ATP hydrolysis) and U1 is replaced by U6 (Figure 6\u201329). This type of RNA\u2013RNA rearrangement (in which the formation of one RNA\u2013RNA interaction requires the disruption of another) occurs several times during splicing and allows the spliceosomes to check and recheck the splicing signals, thereby increasing the overall accuracy of splicing. Second, the rearrangements that take place in the spliceosome create the active sites for the two transesterification reactions. These two active sites are created, one after the other, and only after the splicing signals on the pre-mRNA have been checked several times. This orderly progression ensures that splicing"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1505",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201326 Alternative splicing of the \u03b1-tropomyosin gene from rat. \u03b1-Tropomyosin is a coiled-coil protein (see Figure 3\u20139) that carries out several tasks, most notably the regulation of contraction in muscle cells. The primary transcript can be spliced in different ways, as indicated in the figure, to produce distinct mRNAs, which then give rise to variant proteins. Some of the splicing patterns are specific for certain types of cells. For example, the \u03b1-tropomyosin made in striated muscle is different from that made from the same gene in smooth muscle. The arrowheads in the top part of the figure mark the sites where cleavage and poly-A addition form the 3\u02b9 ends of the mature mRNAs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1502",
+            "title": "Cell_Biology_Alberts",
+            "content": "TRANSCRIPTION, SPLICING, AND 3\u02dc CLEAVAGE/POLYADENYLATION The mechanism of pre-mRNA splicing shown in Figure 6\u201324 requires that the splicing machinery recognize three portions of the precursor RNA molecule: the 5\u02b9 splice site, the 3\u02b9 splice site, and the branch point in the intron sequence that forms the base of the excised lariat. Not surprisingly, each site has a consensus nucleotide sequence that is similar from intron to intron and provides the cell with cues for where splicing is to take place (Figure 6\u201327). However, these consensus sequences are relatively short and can accommodate extensive sequence variability; as we shall see shortly, the cell incorporates additional types of information to ultimately choose exactly where, on each RNA molecule, splicing is to take place."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1972",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201356 Five patterns of alternative RNA splicing. in each case, a single type of rnA transcript is spliced in two alternative ways to produce two distinct mrnAs (1 and 2). the dark blue boxes mark exon sequences 1 that are retained in both mrnAs. the light blue boxes mark possible exon 2 sequences that are included in only one of the mrnAs. the boxes are joined by red lines to indicate where intron sequences (yellow) are removed. (Adapted from h. Keren et al. Nat. Rev. Genet. 11:345\u2013355, 2010. with permission from Macmillan publishers ltd.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_7039",
+            "title": "Cell_Biology_Alberts",
+            "content": "S phase Period of a eukaryotic cell cycle in which DNA is synthesized. (Figure 17\u20134) spinal cord Bundle of neurons and support cells that extends from the brain. spindle assembly checkpoint Regulatory system that operates during mitosis to ensure that all chromosomes are properly attached to the spindle before sister-chromatid separation starts. (Figure 17\u20139 and Panel 17\u20131, pp. 980\u2013981) spliceosome Large assembly of RNA and protein molecules that performs pre-mRNA splicing in eukaryotic cells. Src (Src protein family) Family of cytoplasmic tyrosine kinases (pronounced \u201csark\u201d) that associate with the cytoplasmic domains of some enzyme-linked cell-surface receptors (for example, the T cell antigen receptor) that lack intrinsic tyrosine kinase activity. They transmit a signal onward by phosphorylating the receptor itself and specific intracellular signaling proteins on tyrosines. (Figure 3\u201310)"
+        },
+        {
+            "id": "InternalMed_Harrison_29622",
+            "title": "InternalMed_Harrison",
+            "content": "The role of splicing variation as a contributor to neurologic disease is another area of active investigation. Alternative splicing refers to the inclusion of different combinations of exons in mature mRNA, resulting in the potential for many different protein products encoded by a single gene. Alternative splicing represents a powerful mechanism for generation of complexity and variation, and this mechanism appears to be highly prevalent in the nervous system, affecting key processes such as neurotransmitter receptors and ion channels. Numerous diseases are already known to result from abnormalities in alternative splicing. Increased inclusion of exon 10\u2013containing transcripts of MAPT can cause frontotemporal dementia. Aberrant splicing also contributes to the pathogenesis of Duchenne\u2019s, myotonic, and facioscapulohumeral muscular dystrophies; ataxia telangiectasia; neurofibromatosis; some inherited ataxias; and fragile X syndrome, among other disorders. It is also likely that subtle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1520",
+            "title": "Cell_Biology_Alberts",
+            "content": "In principle, since any one of several different codons can be used to code for a given amino acid, there is freedom to evolve the exon nucleotide sequence so as to form a binding site for an SR protein, without necessarily affecting the amino acid sequence that the exon specifies. Both the marking of exon and intron boundaries and the assembly of the spli ceosome begin on an RNA molecule while it is still being elongated by RNA poly merase at its 3\u02b9 end. However, the actual chemistry of splicing can take place later. This delay means that intron sequences are not necessarily removed from a pre mRNA molecule in the order in which they occur along the RNA chain. Figure 6\u201330 Two types of splicing errors. (A) Exon skipping. (B) Cryptic splice-site selection. Cryptic splicing signals are nucleotide sequences of RNA that closely resemble true splicing signals and are sometimes mistakenly used by the spliceosome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3397",
+            "title": "Cell_Biology_Alberts",
+            "content": "the rule that introns are spliced out while the RNA is still in the nucleus.) The separated exons are then joined by an RNA ligase, generating a spliced mRNA, which is translated to produce an active transcription regulatory protein. This protein activates the transcription of genes encoding the proteins that help mediate the unfolded protein response (Figure 12\u201351B)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1540",
+            "title": "Cell_Biology_Alberts",
+            "content": "The answer is that, as an RNA molecule is processed, it loses certain proteins and acquires others. For example, we have seen that acquisition of cap-binding complexes, exon junction complexes, and poly-A-binding proteins mark the completion of capping, splicing, and poly-A addition, respectively. A properly completed mRNA molecule is also distinguished by the proteins it lacks. For example, the presence of an snRNP protein would signify incomplete or aberrant splicing. Only when the proteins present on an mRNA molecule collectively signify that processing was successfully completed is the mRNA exported from the nucleus into the cytosol, where it can be translated into protein. Improperly processed mRNAs"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1974",
+            "title": "Cell_Biology_Alberts",
+            "content": "As discussed in Chapter 6 (see Figure 6\u201326), RNA splicing shortens the transcripts of many eukaryotic genes by removing the intron sequences from the mRNA pre-1 cursor. We also saw that a cell can splice an RNA transcript differently and thereby 2 make different polypeptide chains from the same gene\u2014a process called alternative RNA splicing (Figure 7\u201356). A substantial proportion of animal genes (estimated at 90% in humans) produce multiple proteins in this way."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1982",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201358 Negative and positive control of alternative RNA splicing. in negative control, a repressor protein binds to a specific sequence in the premrnA transcript and blocks access of the splicing machinery to a splice junction. this often results in the use of a secondary splice site, thereby producing an altered pattern of splicing (see figure 7\u201356). in positive control, the splicing machinery is unable to remove a particular intron sequence efficiently without assistance from an activator protein. Because rnA is flexible, the nucleotide sequences that bind these activators can be located many nucleotide pairs from the splice junctions they control, and they are often called splicing enhancers, by analogy with the transcriptional enhancers mentioned earlier in this chapter."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1527",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201332 The exon definition hypothesis. According to this idea, SR proteins bind to each exon sequence in the pre-mRNA and thereby help to guide the snRNPs to the proper intron/ exon boundaries. This demarcation of exons by the SR proteins occurs cotranscriptionally, beginning at the CBC (cap-binding complex) at the 5\u02b9 end. It has been proposed that a group of proteins known as the heterogeneous nuclear ribonucleoproteins (hnRNPs) may preferentially associate with intron sequences, further helping the spliceosome distinguish introns from exons. (Adapted from R. Reed, Curr. Opin. Cell Biol. 12:340\u2013345, 2000. With permission from Elsevier.) splicing plays important roles in the development of cystic fibrosis, frontotemporal dementia, Parkinson\u2019s disease, retinitis pigmentosa, spinal muscular atrophy, myotonic dystrophy, premature aging, and cancer. It has been estimated that of the many point mutations that cause inherited human diseases, 10% produce aberrant splicing of the gene"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2082",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have already encountered a few lncRNAs, including the RNA in telomerase (see Figure 5\u201333), Xist RNA (see Figure 7\u201352), and an RNA involved in imprinting (see Figure 7\u201349). Other lncRNAs have been implicated in controlling the enzymatic activity of proteins, inactivating transcription regulators, affecting splicing patterns, and blocking translation of certain mRNAs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1978",
+            "title": "Cell_Biology_Alberts",
+            "content": "In some cases, alternative RNA splicing occurs because there is an intron sequence ambiguity: the standard spliceosome mechanism for removing intron sequences (discussed in Chapter 6) is unable to distinguish clearly between two or more alternative pairings of 5\u02b9 and 3\u02b9 splice sites, so that different choices are made by chance on different individual transcripts. Where such constitutive alternative splicing occurs, several versions of the protein encoded by the gene are made in all cells in which the gene is expressed."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1745",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) Splicing patterns for four \u03b1-tropomyosin mRNAs. Splicing is indicated by lines connecting the exons that are included in the mRNA. 6\u20138 The human \u03b1-tropomyosin gene is alternatively spliced to produce different forms of \u03b1-tropomyosin mRNA in different cell types (Figure Q6\u20133). For all forms of the mRNA, the protein sequences encoded by exon 1 are the same, as are the protein sequences encoded by exon 10. Exons 2 and 3 are alternative exons used in different mRNAs, as are exons 7 and 8. Which of the following statements about exons 2 and 3 is the most accurate? Is that statement also the most accurate one for exons 7 and 8? Explain your answers. A. Exons 2 and 3 must have the same number of nucleotides. b. Exons 2 and 3 must each contain an integral number of codons (that is, the number of nucleotides divided by 3 must be an integer). C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3396",
+            "title": "Cell_Biology_Alberts",
+            "content": "1 MISFOLDED PROTEINS IN ER SIGNAL THE NEED FOR MORE ER CHAPERONES. THEY BIND TO AND ACTIVATE A TRANSMEMBRANE KINASE 2 ACTIVATED KINASE UNMASKS AN ENDORIBONUCLEASE ACTIVITY 3 ENDORIBONUCLEASE CUTS SPECIFIC RNA MOLECULES AT TWO POSITIONS, REMOVING AN INTRON 6 TRANSCRIPTION REGULATOR ENTERS NUCLEUS AND ACTIVATES GENES ENCODING ER CHAPERONES 7 CHAPERONES ARE MADE IN ER, WHERE THEY HELP FOLD PROTEINS 4 TWO EXONS ARE LIGATED TO FORM AN ACTIVE mRNA 5 mRNA IS TRANSLATED TO MAKE A TRANSCRIPTION REGULATOR similar way, as discussed in Chapter 15.) The oligomerization and autophosphorylation of IRE1 activates an endoribonuclease domain in the cytosolic portion of the same molecule, which cleaves a specific cytosolic mRNA molecule at two positions, excising an intron. (This is a unique exception to the rule that introns are spliced out while the RNA is still in the nucleus.) The separated exons are then joined by an RNA ligase, generating a spliced mRNA, which is translated to produce an active"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1554",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201338 Schematic illustration of an export-ready mRNA molecule and its transport through the nuclear pore. As indicated, some proteins travel with the mRNA as it moves through the pore, whereas others remain in the nucleus. The nuclear export receptor for mRNAs is a complex of proteins that binds to an mRNA molecule once it has been correctly spliced and polyadenylated. After the mRNA has been exported to the cytosol, this export receptor dissociates from the mRNA and is re-imported into the nucleus, where it can be used again. The final check indicated here, called nonsense-mediated decay, will be described later in the chapter. out in small clusters on five different chromosomes (see Figure 4\u201311), while cells of the frog Xenopus contain about 600 rRNA gene copies per haploid genome in a single cluster on one chromosome (Figure 6\u201339)."
+        },
+        {
+            "id": "First_Aid_Step1_10",
+            "title": "First_Aid_Step1",
+            "content": "Polyadenylation of 3\u2032 end (\u2248 200 As) Splicing out of introns Capped, tailed, and spliced transcript is called mRNA. mRNA is transported out of nucleus to be translated in cytosol. mRNA quality control occurs at cytoplasmic processing bodies (P-bodies), which contain exonucleases, decapping enzymes, and microRNAs; mRNAs may be degraded or stored in P-bodies for future translation. Poly-A polymerase does not require a template. AAUAAA = polyadenylation signal. Eukaryotes RNA polymerase I makes rRNA, the most common (rampant) type; present only in nucleolus. RNA polymerase II makes mRNA (massive), microRNA (miRNA), and small nuclear RNA (snRNA). RNA polymerase III makes 5S rRNA, tRNA (tiny). No proofreading function, but can initiate chains. RNA polymerase II opens DNA at promoter site. I, II, and III are numbered in the same order that their products are used in protein synthesis: rRNA, mRNA, then tRNA."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1547",
+            "title": "Biochemistry_Lippinco",
+            "content": "4. Alternative splicing: The pre-mRNA molecules from >90% of human genes can be spliced in alternative ways in different tissues. Because this produces multiple variations of the mRNA and, therefore, of its protein product (Fig. 31.19), it is a mechanism for producing a large, diverse set of proteins from a limited set of genes. For example, the mRNA for tropomyosin (TM), an actin filament\u2013binding protein of the cytoskeleton (and of the contractile apparatus in muscle cells), undergoes extensive tissue-specific alternative splicing with production of multiple isoforms of the TM protein. VI. CHAPTER SUMMARY"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1518",
+            "title": "Cell_Biology_Alberts",
+            "content": "A strategy called \u201cexon definition\u201d also helps cells choose the appropriate splice sites. Exon size tends to be much more uniform than intron size, averaging about 150 nucleotide pairs across a wide variety of eukaryotic organisms (Figure 6\u201331). Through exon definition, the splicing machinery can seek out the relatively homogeneously sized exon sequences. As RNA synthesis proceeds, a group of additional components (most notably SR proteins, so-named because they con help to mark off each 3\u02b9and 5\u02b9 splice site, starting at the 5\u02b9 end of the RNA (Figure 6\u201332). These proteins, in turn, recruit U1 snRNA, which marks the downstream exon boundary, and U2 snRNA, which specifies the upstream one. By specifically marking the exons in this way and thereby taking advantage of the relatively uni form size of exons, the cell increases the accuracy with which it deposits the initial splicing components on the nascent RNA and thereby avoids \u201cnear miss\u201d splice sites. How the SR proteins discriminate"
+        }
+    ],
+    "scores": [
+        0.029411764705882353,
+        0.028700637053996662,
+        0.0258289397009068,
+        0.024697016309113473,
+        0.024624085250394577,
+        0.024144102085278556,
+        0.023105706929236344,
+        0.023048695298476446,
+        0.022351332877648667,
+        0.022249653985710546,
+        0.022205552302888367,
+        0.022039905972939457,
+        0.021983560531745765,
+        0.021460423634336676,
+        0.021090378501708217,
+        0.021034121137712296,
+        0.020038123576177416,
+        0.019915363149004918,
+        0.01964782964782965,
+        0.01955835626353858,
+        0.01931734097147631,
+        0.01927279644670949,
+        0.01913919413919414,
+        0.01905453225660103,
+        0.018645532920022183,
+        0.018608274190756446,
+        0.01823220279102632,
+        0.017652928083506027,
+        0.01734708611583722,
+        0.017342342342342342,
+        0.016986811926605505,
+        0.016892373485388454
+    ]
+}

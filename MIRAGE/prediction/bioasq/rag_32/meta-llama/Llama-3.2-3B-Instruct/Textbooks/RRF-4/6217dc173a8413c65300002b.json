@@ -1,0 +1,206 @@
+{
+    "id": "6217dc173a8413c65300002b",
+    "question": "Do we find bacteriophages in the gut?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "Here's my step-by-step thinking and output in JSON format: {\"step_by_step_thinking\": \"To answer this question, let's consider the relevant documents and the information provided about bacteriophages and their relationship with bacteria. Bacteriophages, also known as phages, are viruses that infect bacteria. According to Document [17], phages dominate the identifiable components of the gut's DNA virome, indicating that they are present in the gut. Additionally, Document [17] mentions that prophages are a manifestation of a temperate viral-bacterial host dynamic, where a phage is integrated into its host bacterium's genome. This suggests that phages can be found within bacteria, including those found in the gut. Furthermore, Document [20] states that bacteria are much larger than viruses and enter host cells by phagocytosis, which is a normal function of phagocytes such as neutrophils, macrophages, and dendritic cells. This implies that phages can also be found within these phagocytic cells. Given this information, it is likely that we do find bacteriophages in the gut.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_2977",
+            "title": "Immunology_Janeway",
+            "content": "The surfaces of the healthy body are colonized by large numbers of microorganisms, collectively referred to as the microbiota, or microbiome, composed mostly of bacteria, but also archaea, viruses, fungi, and protozoa . The intestine is the largest source of these organisms, although all the other mucosal tissues harbor their own, distinct populations of microbes. We each harbor more than 1000 species of commensal bacteria in our intestine, and they are present in greatest numbers in the colon and lower ileum. As many of the species cannot be grown in culture, their exact numbers and identities are only now being established by high-throughput sequencing techniques. In humans, there are several major phyla of bacteria, plus the archaea\u2014in descending order, Firmicutes, Bacteroidetes, Proteobacteria, Actinobacteria, and Archaea. There are at least 1014 of these microorganisms that collectively weigh about 1 kg. The intestinal microbiota normally exists in a mutually beneficial, or"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6522",
+            "title": "Cell_Biology_Alberts",
+            "content": "Clemente JC, Ursell LK, Parfrey LW & Knight R (2012) The impact of the gut microbiota on human health: an integrative view. Cell 148, 1258\u20131270. Crick FH & Watson JD (1956) Structure of small viruses. Nature 177, 473\u2013475. Fauci A & Morens DM (2012) The perpetual challenge of infectious diseases. N. Engl. J. Med. 366, 454\u2013461. Frost LS, Leplae R, Summers AO & Toussaint A (2005) Mobile genetic elements: the agents of open source evolution. Nat. Rev. Microbiol. 3, 722\u2013732. Gal\u00e1n JE & Wolf-Watz H (2006) Protein delivery into eukaryotic cells by type III secretion machines. Nature 444, 567\u2013573. Hacker J & Kaper JB (2000) Pathogenicity islands and the evolution of microbes. Annu. Rev. Microbiol. 54, 641\u2013679. Nelson EJ, Harris JB, Morris JG Jr et al. (2009) Cholera transmission: the host, pathogen and bacteriophage dynamic. Nat. Rev. Microbiol. 7, 693\u2013702. Pflughoeft KJ & Versalovic J (2012) Human microbiome in health and disease. Annu. Rev. Pathol. 7, 99\u2013122."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6510",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the genetic and molecular features that differ between pathogens and members of the normal human microbiota? How can our immune system distinguish between the two? To what extent are common host-cell biological pathways and molecules hijacked by diverse microbes? Can host-cell defense molecules be mobilized by drugs to fight infection? our attempts at treatment, prevention, and eradication. Which statements are true? explain why or why not. 23\u20131 Our adult bodies harbor about 10 times more microbial cells than human cells. 23\u20132 The microbiomes from healthy humans are all very similar. 23\u20133 Pathogens must enter host cells to cause disease. 23\u20134 Viruses replicate their genomes in the nucleus of the host cell. 23\u20135 You should not take antibiotics for diseases caused by viruses. Discuss the following problems. 23\u20136 In order to survive and multiply, a successful pathogen must accomplish five tasks. Name them."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6422",
+            "title": "Cell_Biology_Alberts",
+            "content": "The stomach is an especially hostile environment for pathogens. Besides the thick layer of mucus and peristaltic washing, it is filled with acid (average pH \u22482), which is lethal to almost all bacteria ingested in food. Yet, it is home to a microbiota of hundreds of resident species, including the bacterium H. pylori, which, as we discussed earlier, is the major cause of stomach ulcers and some stomach cancers. The hypothesis that a persistent bacterial infection could cause stomach ulcers was initially met with skepticism. The young Australian doctor who made the initial discovery finally proved the point: he drank a pure culture of H. pylori and developed inflammation of the stomach, which often precedes the development of ulcers. A short course of antibiotics can now effectively cure a patient of recurrent stomach ulcers. Remarkably, H. pylori is able to persist for life as a commensal in most humans. One way in which it survives in the stomach is by producing the enzyme urease,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6359",
+            "title": "Cell_Biology_Alberts",
+            "content": "There are various ecological relationships that these microbes have with their host. In mutualism, both the microbe and host benefit. The anaerobic bacteria that inhabit our intestines, for example, gain shelter and a nutrient supply but also contribute to the digestion of our food, produce important nutrients for us, and are essential for the normal development of our gastrointestinal tract and innate and adaptive immune systems. In commensalism, the microbe benefits but offers no benefit and causes no harm: for example, we are infected with many viruses that have no noticeable effect on our health. In parasitism, the microbe benefits to the detriment of the host, as is often the case for pathogens."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6360",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many infectious diseases are caused by a single pathogen. There is increasing evidence, however, that an imbalance in the community of microbes that constitute the microbiota can contribute to some diseases, including autoimmune and allergic diseases, obesity, inflammatory bowel disease, and diabetes. Remarkably, in such cases of microbiota imbalance (referred to as dysbiosis), the transfer of the microbiota from a healthy individual to someone suffering from the disease can be beneficial and sometimes curative, as in the case of Clostridium difficile colitis caused by overgrowth of the bacterium. Pathogens Interact with Their Hosts in Different Ways If it is normal for us to live with a community of microbes, why are some of them capable of causing us illness or death? Although the ability of a particular Figure 23\u20131 Parasitism at many levels."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6365",
+            "title": "Cell_Biology_Alberts",
+            "content": "they are infected. It is sometimes difficult to draw a line between the asymptomatic presence of such pathogens and the normal microbiota. Some microbes of the normal flora can act as opportunistic pathogens, in that they cause disease only if our immune systems are weakened or if they gain access to a normally sterile part of the body."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6387",
+            "title": "Cell_Biology_Alberts",
+            "content": "23\u20133C). In 1961, the seventh pandemic began, caused by a new strain named \u201cEl Tor,\u201d which arose when an O1-expressing strain acquired two bacteriophages and at least two new pathogenicity islands. El Tor eventually displaced the Classical strains. In 1992, a new strain emerged in which O1 was replaced with another O-antigen variant called O139, which was not recognized by antibodies present in the blood of survivors of previous cholera epidemics. The O139 strain also contains a transposon-like element that encodes antibiotic resistance. As this example makes clear, the rapid evolution of bacterial pathogens can be likened to an arms race which pits the survival of a bacterium against our immune systems and the tools of modern medicine. Similar struggles for survival take place between all pathogens and humans, and understanding these conflicts provides key insights into the evolution of pathogens and greatly informs us how we treat new outbreaks of infectious diseases."
+        },
+        {
+            "id": "Pathology_Robbins_2098",
+            "title": "Pathology_Robbins",
+            "content": "The intestinal bacterial populations in individuals with inflammatory bowel disease are altered, with reduced diversity and changes in the proportions of bacterial phyla, compared to individuals without inflammatory bowel disease. Interestingly, inflammatory bowel disease also is associated with changes in the viral populations in stool. The specific roles of different viruses and bacteria in gastrointestinal dysbiosis is an area of very active investigation. There are several methods for identifying microorganisms in tissue and body fluids: Culture. Bacterial and fungal cultures remain essential for diagnostic testing, in conjunction with additional methods, but culture of viruses has been replaced to a great extent by alternative methods."
+        },
+        {
+            "id": "Immunology_Janeway_2990",
+            "title": "Immunology_Janeway",
+            "content": "The endotoxin present on commensal bacteria also seems unusually sensitive to neutralization by gut enzymes such as alkaline phosphatase, leading to weaker immune activation. If commensal bacteria do cross the epithelium in small numbers, their lack of virulence factors means they cannot resist uptake and killing by phagocytic cells, and they are rapidly destroyed. In contrast to what happens in other tissues, ingestion of commensal bacteria in the intestine does not lead to inflammation. If macrophages cannot respond to the inhibitory effects of IL-10, intestinal inflammation develops spontaneously. Eosinophils in the healthy intestine assist antigen-specific IgA switching by producing APRIL, IL-6, and TGF-\u03b2 when exposed to commensal microbes (see Section 12-11). Thus, commensal organisms associate with the mucosal surface without invading or provoking inflammation. This symbiosis involves many innate and adaptive immune effector cells that are usually associated with chronic"
+        },
+        {
+            "id": "Immunology_Janeway_2978",
+            "title": "Immunology_Janeway",
+            "content": "Proteobacteria, Actinobacteria, and Archaea. There are at least 1014 of these microorganisms that collectively weigh about 1 kg. The intestinal microbiota normally exists in a mutually beneficial, or symbiotic, relationship known as mutualism that has been established in humans over many millennia and has coevolved with vertebrates throughout their history. As a result, the populations of these microbes found in different groups of animals are distinctive and are highly adapted to their individual host species."
+        },
+        {
+            "id": "Immunology_Janeway_524",
+            "title": "Immunology_Janeway",
+            "content": "in the body, and the macrophages and dendritic cells that ingest bacteria that have succeeded in entering the body. Macrophages and dendritic cells express TLRs as well as NOD1 and NOD2, and are activated by both pathways. In epithelial cells, NOD1 is an important activator of responses against bacterial infections, and NOD1 may also function as a systemic activator of innate immunity. It seems that peptidoglycans from intestinal microbiota are transported via blood in amounts sufficient to"
+        },
+        {
+            "id": "Immunology_Janeway_2976",
+            "title": "Immunology_Janeway",
+            "content": "12-19 The normal intestine contains large quantities of bacteria that are required for health."
+        },
+        {
+            "id": "Immunology_Janeway_259",
+            "title": "Immunology_Janeway",
+            "content": "that contain a number of other antimicrobial agents as well as defensins. We will explain in Chapter 3 how these primary granules within neutrophils are induced to fuse with phagocytic vesicles (phagosomes) after the cell has engulfed a pathogen, helping to kill the microbe. The Paneth cells of the gut constitutively produce \u03b1-defensins, called cryptdins, which are processed by proteases such as the metalloprotease matrilysin in mice, or trypsin in humans, before being secreted into the gut lumen. The \u03b2-defensins lack the long propiece of \u03b1-defensins and are generally produced specifically in response to the presence of microbial products. \u03b2-Defensins (and some \u03b1-defensins) are made by epithelia outside the gut, primarily in the respiratory and urogenital tracts, skin, and tongue. \u03b2-Defensins made by keratinocytes in the epidermis and by type II pneumocytes in the lungs are packaged into lamellar bodies (see Fig. 2.6), lipid-rich secretory organelles that release their contents into"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6419",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 23\u201314 Plague bacteria within a flea. This light micrograph shows the digestive tract dissected from a flea that had dined about two weeks previously on the blood of an animal infected with the plague bacterium, Yersinia pestis. The bacteria multiplied in the flea gut to produce large cohesive aggregates (red arrows); the bacterial mass on the left is occluding the passage between the esophagus and the midgut. This type of blockage prevents a flea from digesting its blood meals, so that hunger causes it to bite repeatedly, disseminating the infection. (From B.J. Hinnebusch, E.R. Fischer and T.G. Schwan, J. Infect. Dis. 178:1406\u20131415, 1998.) these organs are periodically flushed by urination and by peristalsis, respectively, which washes away most microbes."
+        },
+        {
+            "id": "Immunology_Janeway_2838",
+            "title": "Immunology_Janeway",
+            "content": "The mucosal surfaces are also portals of entry for a vast array of foreign antigens that are not pathogenic. This is best seen in the gut, which is exposed to enormous quantities of food proteins\u2014an estimated 30\u201335 kg per year per person. At the same time, the healthy large intestine is colonized by at least a thousand species of bacteria that live in symbiosis with their host and are known as commensal microorganisms, or the microbiota. These bacteria are present at levels of at least 1012 organisms per milliliter in the colon contents, making them the most numerous cells in the body by a factor of 10. Substantial populations of viruses and fungi are also found in the healthy intestine. In normal circumstances these organisms do no harm, and many are beneficial to their hosts, having important metabolic functions, as well as being essential for normal immune function. The other mucosal surfaces are also colonized by substantial populations of resident commensal organisms (Fig. 12.4)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6389",
+            "title": "Cell_Biology_Alberts",
+            "content": "Progenitor strains in the wild first acquired the biosynthetic pathway necessary to make the O1 antigen type of carbohydrate chain on the outer-membrane lipopolysaccharide (see Figure 23\u20133C). Incorporation of the CTX\u03d5 bacteriophage created the Classical pathogenic strains responsible for the first six worldwide epidemics of cholera between 1817 and 1923. Sometime in the twentieth century, an O1 strain in the environment picked up the CTX\u03d5 bacteriophage again, along with an associated bacteriophage RS1\u03d5 and two pathogenicity islands (VSP1 and VSP2), creating the El Tor strain that emerged as the seventh worldwide pandemic in 1961. In 1992, an El Tor strain was isolated that had picked up a new DNA cassette, enabling it to produce the O139 antigen type of carbohydrate chain rather than the O1 type. This altered the bacterium\u2019s interaction with the human immune system, without diminishing its virulence; this bacterium also picked up a new pathogenicity island (SXT). An electron"
+        },
+        {
+            "id": "InternalMed_Harrison_5172",
+            "title": "InternalMed_Harrison",
+            "content": "Given the dominance of bacteria in the gut microbiota, it is not surprising that phages (viruses that infect bacteria) dominate the identifiable components of the gut\u2019s DNA virome. Prophages are a manifestation of a so-called temperate viral\u2013bacterial host dynamic, in which a phage is integrated into its host bacterium\u2019s genome. This temperate dynamic provides a way to constantly refashion the genomes of bacterial species through horizontal gene transfer. Genes encoded by a pro-phage genome may expand the niche and fitness of their bacterial host, for example, by enabling the metabolism of previously inaccessible nutrient sources. Prophage integration can also protect the host strain from superinfection, \u201cimmunizing\u201d the strain against infection by closely related phages. A temperate prophage life cycle allows the virus to expand in a 1:1 ratio with its bacterial host. If the integrated virus conveys increased fitness, the prevalence of the bacterial host and its phage will increase"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6511",
+            "title": "Cell_Biology_Alberts",
+            "content": "Discuss the following problems. 23\u20136 In order to survive and multiply, a successful pathogen must accomplish five tasks. Name them. 23\u20137 Clostridium difficile infection is the leading cause of hospital-associated gastrointestinal illness. It is typically treated with a course of antibiotics, but the infection recurs in about 20% of cases. C. difficile infections are difficult to eradicate because the bacteria exist in two forms: a replicating, toxin-producing form and a spore form that is resistant to antibiotics. Fecal microbiota transplantation\u2014the transfer of normal gut microbiota from a healthy individual\u2014can resolve >90% of recurrent infections, a much better cure rate than further antibiotic treatment alone. Why do you suppose microbiota transplantation is so effective? 23\u20138 What are the three general mechanisms for horizontal gene transfer?"
+        },
+        {
+            "id": "Immunology_Janeway_2571",
+            "title": "Immunology_Janeway",
+            "content": "the extracellular environment. In contrast, some of the bacteria that cause gastroenteritis exert their effects without spreading into the tissues. They establish a site of infection on the luminal surface of the epithelium lining the gut and cause pathology by damaging the epithelium or by secreting toxins that cause damage either in situ or after crossing the epithelial barrier and entering the circulation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6386",
+            "title": "Cell_Biology_Alberts",
+            "content": "Acquisition of genes and gene clusters can drive the rapid evolution of pathogens and turn nonpathogens into pathogens. Consider, for example, Vibrio cholerae\u2014the Gram-negative bacterium that causes the epidemic diarrheal disease cholera. Of the hundreds of strains of Vibrio cholerae, the only ones that cause pandemic human disease are those infected with a mobile bacteriophage (CTX\u03d5) containing genes encoding the two subunits of the toxin that causes the diarrhea. As summarized in Figure 23\u20135, seven pandemics of V. cholerae have arisen since 1817. The first six were caused by the periodic reemergence of so-called Classical strains. In addition to the toxin-encoding bacteriophage, these Classical strains shared a similar O1 surface antigen, part of the LPS in the outer membrane (see Figure 23\u20133C). In 1961, the seventh pandemic began, caused by a new strain named \u201cEl Tor,\u201d which arose when an O1-expressing strain acquired two bacteriophages and at least two new pathogenicity islands."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3678",
+            "title": "Cell_Biology_Alberts",
+            "content": "Phagocytosis is important in most animals for purposes other than nutrition, and it is carried out mainly by specialized cells\u2014so-called professional phagocytes. In mammals, two important classes of white blood cells that act as professional phagocytes are macrophages and neutrophils (Movie 13.5). These cells develop from hemopoietic stem cells (discussed in Chapter 22), and they ingest invading microorganisms to defend us against infection. Macrophages also have an important role in scavenging senescent cells and cells that have died by apoptosis (discussed in Chapter 18). In quantitative terms, the clearance of senescent and dead cells is by far the most important: our macrophages, for example, phagocytose more than 1011 senescent red blood cells in each of us every day."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6633",
+            "title": "Cell_Biology_Alberts",
+            "content": "Vertebrates inevitably die of infection if they are unable to make antibodies. Antibodies are secreted proteins that defend us against extracellular pathogens in several ways. They bind to viruses and microbial toxins, thereby preventing them from binding to and damaging host cells (see Figure 24\u20132). When bound to an extracellular pathogen or its products, antibodies also recruit some of the components of the innate immune system, including various types of leukocytes and components of the complement system, which work together to inactivate or eliminate the invaders. Synthesized exclusively by B cells, antibodies are produced in billions of forms, each with a different amino acid sequence. They belong to the class of proteins called immunoglobulins (abbreviated as Igs) and are among the most abundant protein components in the blood. In this section, we discuss the structure and function of immunoglobulins and how they are made in so many different forms."
+        },
+        {
+            "id": "InternalMed_Harrison_9549",
+            "title": "InternalMed_Harrison",
+            "content": "such as interferons (IFNs). Gastric acidity and bile salts are inimical to the survival of many ingested pathogens, and most mucosal surfaces\u2014particularly the nasopharynx, the vaginal tract, and the gastrointestinal tract\u2014contain a resident flora of commensal microbes that interfere with the ability of pathogens to colonize and infect a host. Major advances in the use of nucleic acid sequencing now allow extensive identification and characterization of the vast array of commensal organisms that have come to be referred to as the microbiota. In addition to its role in providing competition for mucosal colonization, acquisition of a normal microbiota is critical for proper development of the immune system, influencing maturation and differentiation of components of both the innate and acquired arms."
+        },
+        {
+            "id": "Pathology_Robbins_2120",
+            "title": "Pathology_Robbins",
+            "content": "Other normal defenses within the gastrointestinal tract include (1) the layer of viscous mucus covering the intestinal epithelium, (2) lytic pancreatic enzymes and bile detergents, (3) mucosal anti-microbial peptides called defensins, (4) normal flora, and (5) secreted IgA antibodies. IgA antibodies are made by plasma cells located in mucosa-associated lymphoid tissue (MALT). These lymphoid aggregates are covered by a single layer of specialized epithelial cells called M cells, which are important for transport of antigens to MALT. Numerous gut pathogens use M cells to enter the host from the intestinal lumen, including poliovirus, enteropathic E. coli, V. cholerae, Salmonella enterica serotype Typhi, and Shigella flexneri."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6461",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other bacteria seem to find shelter in intracellular compartments that are distinct from those of the usual endocytic system. One example is Legionella pneumophila, which was first recognized as a human pathogen in 1976, when it was found to be the cause of a type of pneumonia known as Legionnaire\u2019s disease. L. pneumophila is normally a parasite of freshwater amoebae, but it is commonly"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6443",
+            "title": "Cell_Biology_Alberts",
+            "content": "Bacteria are much larger than viruses\u2014too large to be taken up either through pores or by receptor-mediated endocytosis. Instead, they enter host cells by phagocytosis, which is a normal function of phagocytes such as neutrophils, macrophages, and dendritic cells (discussed in Chapter 24). These phagocytes patrol the tissues of the body and ingest and destroy microbes; however, some intracellular bacterial pathogens such as M. tuberculosis use this to their advantage and have evolved to survive and multiply inside macrophages. Some bacterial pathogens can invade host cells that are normally nonphagocytic. One way they do so is by expressing an invasion protein that binds with high affinity to a host-cell receptor, which is often a cell\u2013cell or cell\u2013matrix adhesion protein (discussed in Chapter 19). For example, Yersinia pseudotuberculosis (a bacterium that causes diarrhea and is a close relative of the plague bacterium"
+        },
+        {
+            "id": "Immunology_Janeway_3216",
+            "title": "Immunology_Janeway",
+            "content": "13-20 Intracellular bacterial pathogens can evade the immune system by seeking shelter within phagocytes."
+        },
+        {
+            "id": "InternalMed_Harrison_5197",
+            "title": "InternalMed_Harrison",
+            "content": "It is important to note that pairwise comparisons have shown that family members have functionally more similar gut microbiomes than do unrelated individuals. Thus, intrafamilial transmission of a gut microbiome within a given generation and across multiple generations could shape the biologic features of humans belonging to a kinship and modulate/mediate risks for a variety of diseases. Stability Like other ecosystems, human body habitat\u2013 associated microbial communities vary over time, and an understanding of this variation is essential for a functional"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6540",
+            "title": "Cell_Biology_Alberts",
+            "content": "The epithelial cells that line internal organs such as the respiratory and digestive tracts also secrete slimy mucus, which sticks to the epithelial surface and makes it difficult for pathogens to adhere. The beating of cilia on the surface of the epithelial cells lining the respiratory tract and the peristaltic action of the intestine also discourage the adherence of pathogens. Moreover, as we discuss in Chapter 23, healthy skin and gut are populated by enormous numbers of harmless (and often helpful) commensal microbes, collectively called the normal flora, which compete for nutrients with pathogens; some also produce antimicrobial peptides that actively inhibit pathogen proliferation. pattern recognition receptors (prrs) recognize conserved Features of pathogens"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6355",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although pathogens are understandably a focus of attention, only a relatively small fraction of the microbial species we encounter are pathogens. Much of the biomass of the Earth is made up of microbes, and they produce everything from the oxygen we breathe to the soil nutrients we use to grow food. Even those species of microbes that colonize the human body do not generally cause disease. The collective of microorganisms that reside in or on an organism is called the microbiota. Many of these microbes have a beneficial effect on the health of the organism, assisting its normal development and physiology. In this chapter, we give an overview of the different kinds of pathogens, as well as those microorganisms that colonize our body without causing trouble. We then discuss the cell biology of infection\u2014the molecular interactions between pathogens and their host. In Chapter 24, we consider how our innate and adaptive immune systems collaborate to defend us against pathogens."
+        },
+        {
+            "id": "Cell_Biology_Alberts_97",
+            "title": "Cell_Biology_Alberts",
+            "content": "E. coli bacterium with a T4 bacteriophage latched onto its surface. The large dark objects inside the bacterium are the heads of new T4 particles in the course of assembly. When they are mature, the bacterium will burst open to release them. (c\u2013e) The process of dnA injection into the bacterium, as visualized in unstained, frozen samples by cryoelectron microscopy. (c) Attachment begins. Attached state during dnA injection."
+        }
+    ],
+    "scores": [
+        0.0284068593144927,
+        0.028072189836895717,
+        0.026567656765676566,
+        0.024449182658137884,
+        0.02306313757926661,
+        0.022710073638559827,
+        0.02254728194007131,
+        0.022074938752889163,
+        0.022025363469911765,
+        0.019570429570429572,
+        0.017630683575626353,
+        0.017392619479733817,
+        0.016608391608391608,
+        0.016508152173913042,
+        0.016348592019217935,
+        0.016002016002016003,
+        0.01552868658131816,
+        0.015365470973326842,
+        0.015309281251758879,
+        0.015267175572519083,
+        0.015097092827477832,
+        0.014664943328693576,
+        0.014652211249463289,
+        0.014500922320147571,
+        0.014465317217610796,
+        0.014333976833976834,
+        0.014235055724417425,
+        0.01394335511982571,
+        0.013905654000289702,
+        0.013802036805431482,
+        0.01324786324786325,
+        0.013020833333333332
+    ]
+}

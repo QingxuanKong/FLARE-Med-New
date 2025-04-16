@@ -1,0 +1,206 @@
+{
+    "id": "6228b3553a8413c65300008b",
+    "question": "Are circular RNAs implicated in diseases of the eye?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and identify any information related to circular RNAs and their potential involvement in diseases of the eye. Let's review the documents and look for relevant information.\\n\\nFirst, let's consider the definition of circular RNAs. Circular RNAs (circRNAs) are a class of non-coding RNAs that are formed by the circularization of linear RNAs through a process called backsplicing. They are known to play various roles in regulating gene expression, including post-transcriptional regulation of protein-coding genes.\\n\\nNext, let's examine the documents for information on circRNAs and eye diseases.\\n\\nDocument [0] (Title: Cell_Biology_Alberts) mentions that crRNAs are small noncoding RNAs that are the effectors of CRISPR-mediated immunity in bacteria. However, there is no mention of circRNAs and eye diseases.\\n\\nDocument [6] (Title: Cell_Biology_Alberts) defines cryptochrome, a plant flavoprotein sensitive to blue light, but does not mention circRNAs or eye diseases.\\n\\nDocument [7] (Title: Neurology_Adams) discusses optic neuritis and its effects on vision, but does not mention circRNAs or eye diseases.\\n\\nDocument [8] (Title: Pathology_Robbins) discusses mitochondrial diseases and their effects on various organs, including the eye, but does not mention circRNAs.\\n\\nDocument [9] (Title: Cell_Biology_Alberts) mentions that lncRNAs, including Xist RNA, have various roles in regulating gene expression, but does not specifically mention circRNAs or eye diseases.\\n\\nDocument [10] (Title: Pathology_Robbins) discusses long non-coding RNAs (lncRNAs) and their role in diseases, but does not mention circRNAs.\\n\\nDocument [21] (Title: Biochemistry_Lippinco) discusses RNA editing and its role in producing apolipoprotein B-48 and B-100, but does not mention circRNAs or eye diseases.\\n\\nAfter reviewing the documents, I could not find any information that directly links circular RNAs to diseases of the eye. However, it is worth noting that circRNAs have been implicated in various diseases, including cancer, cardiovascular disease, and neurodegenerative disorders.\\n\\nTherefore, the answer to the question is:\\n\\n\", \"answer_choice\": \"B\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_7020",
+            "title": "Cell_Biology_Alberts",
+            "content": "RNA world Hypothesis that early life on Earth was based primarily on RNA molecules that both stored genetic information and catalyzed biochemical reactions. RNA-seq Sequencing the entire repertoire of RNA from a cell or tissue; also known as deep RNA sequencing. robustness The ability of biological regulatory systems to function normally in the face of perturbations such as exposure to frequent and/or extreme variations in external conditions or the concentrations or activities of key components. rod photoreceptor (rod) Photoreceptor cell in the vertebrate retina that is responsible for noncolor vision in dim light. rough endoplasmic reticulum (rough ER) Endoplasmic reticulum with ribosomes on its cytosolic surface. Involved in the synthesis of secreted and membrane-bound proteins. rRNA gene Gene that specifies a ribosomal RNA (rRNA)."
+        },
+        {
+            "id": "Neurology_Adams_7930",
+            "title": "Neurology_Adams",
+            "content": "nucleotide polymorphisms (SNPs). Most exploration of human disease has been, until recently, based on the \u201ccommon disease\u2013common variant\u201d model, in which a disease is attributable to limited number variants that exist in more than 1 to 5 percent of a population. For example, five polymorphisms are each responsible for doubling or tripling the risk of macular degeneration. However, most of these variants are probably not themselves responsible for the disease."
+        },
+        {
+            "id": "Pathology_Robbins_7",
+            "title": "Pathology_Robbins",
+            "content": "and machinery required for assembling cells, tissues, and organisms, it is the noncoding regions of the genome that provide the critical \u201carchitectural planning.\u201d The major classes of functional non\u2013protein-coding DNA sequences found in the human genome include ( Fig. 1.1 Noncoding regulatory RNAs. Of the 80% of the genome dedicated to regulatory functions, the vast majority is transcribed into RNAs\u2014micro-RNAs and long noncoding RNAs (described later)\u2014that are never translated into protein, but can regulate gene expression Mobile genetic elements (e.g., transposons). Remarkably, more than one-third of the human genome is composed of such \u201cjumping genes.\u201d These segments can cruise around the genome, and are implicated in gene regulation and chromatin organization. Special structural regions of DNA, including telomeres (chromosome ends) and centromeres (chromosome \u201ctethers\u201d)"
+        },
+        {
+            "id": "Pathology_Robbins_1486",
+            "title": "Pathology_Robbins",
+            "content": "It is worth noting that until recently the major focus of gene hunting has been discovery of genes that encode proteins. Recent studies indicate, however, that a very large number of genes do not encode proteins. Instead, the non-encoded products of these genes\u2014so-called \u201cnon-coding RNAs (ncRNAs)\u201d\u2014play important regulatory functions. Although many distinct families of ncRNAs exist, the two most important examples,\u2014small RNA molecules called microRNAs (miRNAs) and long non-coding RNAs (lncRNAs)\u2014are discussed in Chapter 1. With this brief review of the nature of abnormalities that contribute to the pathogenesis of human diseases, we can turn our attention to the three major categories of genetic disorders:"
+        },
+        {
+            "id": "Pathology_Robbins_173",
+            "title": "Pathology_Robbins",
+            "content": "Batista PJ, Chang HY: Long noncoding RNAs: cellular address codes in development and disease, Cell 152:1298, 2013. [Good review regarding lncRNA biology.] Cech TR, Steitz JA: The noncoding RNA revolution trashing old rules to forge new ones, Cell 157:77, 2014. [An excellent review of the roles played by noncoding RNAs.] H\u00fcbner MR, Eckersley-Maslin MA, Spector DL: Chromatin organization and transcriptional regulation, Curr Opin Genet Dev 23:89, 2013. [A nice discussion of genome organization and chromatin structure\u2013 function relationships that regulate cell type\u2013specific nuclear transcription.] Jarovcevski M, Akbarian S: Epigenetic mechanisms in neurologic disease, Nat Med 18:1194, 2012. [A well-written overview of genomic organization and transcriptional regulation, with a specific focus on neurologic disease.]"
+        },
+        {
+            "id": "InternalMed_Harrison_31455",
+            "title": "InternalMed_Harrison",
+            "content": "A novel feature of mitochondria is their genetic composition. Each mitochondrion possesses a DNA genome that is distinct from that of the nuclear DNA. Human mitochondrial DNA (mtDNA) consists of a double-strand, circular molecule comprising 16,569 base pairs. It codes for 22 transfer RNAs, 2 ribosomal RNAs, and 13 polypeptides 462e-15 of the respiratory chain enzymes. The genetics of mitochondrial diseases differ from the genetics of chromosomal disorders. The DNA of mitochondria is directly inherited from the cytoplasm of the gametes, mainly from the oocyte. The sperm contributes very little of its mitochondria to the offspring at the time of fertilization. Thus, mitochondrial genes are derived almost exclusively from the mother, accounting for maternal inheritance of some mitochondrial disorders."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6847",
+            "title": "Cell_Biology_Alberts",
+            "content": "crRNAs Small noncoding RNAs (\u224830 nucleotides) that are the effectors of CRISPR-mediated immunity in bacteria. cryoelectron microscopy Technique for examining a thin film of an aqueous suspension of biological material that has been frozen rapidly enough to create vitreous ice. The specimen is then kept frozen and transferred to the electron microscope. Image contrast is low, but is generated solely by the macromolecular structures present. cryptochrome Plant flavoprotein sensitive to blue light. Structurally related to blue-light-sensitive enzymes called photolyases (involved in the repair of ultraviolet-induced DNA damage) but do not have a role in DNA repair. Also found in animals, where they have an important role in circadian clocks. Cubitus interruptus (Ci) Latent transcription regulator that mediates the effects of Hedgehog."
+        },
+        {
+            "id": "Neurology_Adams_7259",
+            "title": "Neurology_Adams",
+            "content": "As noted in Chap. 12, about half of patients with optic neuritis recover completely, and most of the remaining ones improve significantly, even those who present initially with profound visual loss (Slamovitis et al). Pain around the eye is short-lived and persistent pain should prompt an evaluation for local disease. In a cohort of 397 patients enrolled in the Optic Neuritis Treatment Trial and examined 5 years after the initial attack of optic neuritis, visual acuity had returned to 20/25 or better in 87 percent of patients and to 20/40 or better in 94 percent\u2014even if there had been a recurrence of optic neuritis during the 5-year period. Moreover, the mode of treatment did not appear to influence the final visual outcome. Dyschromatopsia and impaired contrast sensitivity frequently persist, as does the Pulfrich effect, wherein an object such as a pendulum that is swinging perpendicular to the patient\u2019s line of sight appears to move in a three-dimensional, circular path."
+        },
+        {
+            "id": "Pathology_Robbins_1648",
+            "title": "Pathology_Robbins",
+            "content": "Diseases caused by mutations in mitochondrial genes are rare. Because mitochondrial DNA encodes enzymes involved in oxidative phosphorylation, diseases caused by mutations in such genes affect organs most dependent on oxidative phosphorylation (CNS, skeletal muscle, cardiac muscle, liver, and kidney). Leber hereditary optic neuropathy is the prototypical disorder in this group. This neurodegenerative disease manifests as progressive bilateral loss of central vision that leads in due course to blindness. DiseasesCausedbyAlterationsofImprintedRegions:Prader-WilliandAngelmanSyndromes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2082",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have already encountered a few lncRNAs, including the RNA in telomerase (see Figure 5\u201333), Xist RNA (see Figure 7\u201352), and an RNA involved in imprinting (see Figure 7\u201349). Other lncRNAs have been implicated in controlling the enzymatic activity of proteins, inactivating transcription regulators, affecting splicing patterns, and blocking translation of certain mRNAs."
+        },
+        {
+            "id": "Histology_Ross_290",
+            "title": "Histology_Ross",
+            "content": "Mitochondria evolved from aerobic bacteria that were engulfed by eukaryotic cells. Mitochondria are believed to have evolved from an aerobic prokaryote (Eubacterium) that lived symbiotically within primitive eukaryotic cells. This hypothesis received support with the demonstration that mitochondria possess their own genome, increase their numbers by division, and synthesize some of their structural (constituent) proteins. Mitochondrial DNA is a closed circular molecule that encodes 13 enzymes involved in the oxidative phosphorylation pathway, two rRNAs, and 22 transfer RNAs (tRNAs) used in the translation of the mitochondrial mRNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_7013",
+            "title": "Cell_Biology_Alberts",
+            "content": "restriction nuclease One of a large number of nucleases that can cleave a DNA molecule at any site where a specific short sequence of nucleotides occurs. Extensively used in recombinant DNA technology. (Figure 8\u201324) restriction point Important transition at the end of G1 in the eukaryotic cell cycle; commits the cell to enter S phase. The term was originally used for this transition in the mammalian cell cycle; in this book we use the term Start. (Figure 17\u20139) retinoblastoma A rare type of human cancer arising from cells in the retina of the eye that are converted to a cancerous state by an unusually small number of mutations. Studies of retinoblastoma led to the discovery of the first tumor suppressor gene."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1983",
+            "title": "Cell_Biology_Alberts",
+            "content": "Until then, a gene had been defined operationally as a region of the genome that segregates as a single unit during meiosis and gives rise to a definable phenotypic trait, such as a red or a white eye in Drosophila or a round or wrinkled seed in peas. The work on Neurospora showed that most genes correspond to a region of the genome that directs the synthesis of a single enzyme. This led to the hypothesis that one gene encodes one polypeptide chain. The hypothesis proved fruitful for subsequent research; as more was learned about the mechanism of gene expression in the 1960s, a gene became identified as that stretch of DNA that was transcribed into the RNA coding for a single polypeptide chain (or a single structural RNA such as a tRNA or an rRNA molecule). The discovery of split genes and introns in the late 1970s could be readily accommodated by the original definition of a gene, provided that a single polypeptide chain was specified by the RNA transcribed from any one DNA sequence."
+        },
+        {
+            "id": "Immunology_Janeway_4819",
+            "title": "Immunology_Janeway",
+            "content": "sympathetic ophthalmia Autoimmune response that occurs in the other eye after one eye is damaged. syngeneic graft A graft between two genetically identical individuals. It is accepted as self. systemic immune system Name sometimes given to the lymph nodes and spleen to distinguish them from the mucosal immune system. systemic lupus erythematosus (SLE) An autoimmune disease in which autoantibodies against DNA, RNA, and proteins associated with nucleic acids form immune complexes that damage small blood vessels, especially in the kidney. T10, T22 Murine MHC class Ib genes expressed by activated lymphocytes and recognized by a subset of \u03b3:\u03b4 T cells. T lymphocytes (T cells) See T cell. TAB1, TAB2 An adaptor complex that binds K63 linked polyubiquitin chains. TAB1/2 complex with TAK1, targeting TAK1 to signaling scaffolds where it phosphorylates substrates such as IKK\u03b1."
+        },
+        {
+            "id": "Histology_Ross_629",
+            "title": "Histology_Ross",
+            "content": "of the retina that cause progressive vision loss), sensorineural hearing loss, diabetes, and learning disabilities. The knowledge of the distribution of primary cilia in the body may help to explain the crucial role of these once-forgotten cellular projections in the normal function of many vital internal organs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1070",
+            "title": "Cell_Biology_Alberts",
+            "content": "blindness, infertility, hypertension, and a wide variety of disease susceptibilities. In retrospect, this type of variation is not surprising, given the prominent role of DNA addition and DNA loss in vertebrate evolution."
+        },
+        {
+            "id": "Histology_Ross_4309",
+            "title": "Histology_Ross",
+            "content": "KEY A, artery AC, anterior chamber C, cornea CA, circular artery CB, ciliary body CEp, corneal epithelium Ch, choroid CiEp, ciliary epithelium Cj, conjunctiva CjEp, conjunctival epithelium CM, ciliary muscle CP, ciliary processes CS, canal of Schlemm CV, circular vein I, iris IEp, iridial epithelium L, lens LV, lamina vitrea M, iridial constrictor muscle npE, nonpigmented layer of ciliary epithelium PC, posterior chamber PE, pigmented layer of ciliary epithelium S, sclera V, vein VL, vascular layer (of ciliary body) ZF, zonular fibers arrows, junction between cornea and sclera PLATE 107 Eye IV: Sclera, Cornea, and Lens"
+        },
+        {
+            "id": "First_Aid_Step1_176",
+            "title": "First_Aid_Step1",
+            "content": "DNA = PAPP; RNA = CPR and hepevirus. Give PAPP smears and CPR to a naked hippie (hepevirus). Enveloped DNA viruses Have Helpful Protection (Herpesvirus, Hepadnavirus, Poxvirus). Some general rules\u2014all DNA viruses: DNA viruses All replicate in the nucleus (except poxvirus). \u201cPox is out of the box (nucleus).\u201d Papillomavirus No DS and circular HPV\u2013warts (serotypes 1, 2, 6, 11), CIN, cervical cancer (most commonly 16, 18) (PML) in HIV BK virus\u2014transplant patients, commonly targets kidney JC: Junky Cerebrum; BK: Bad Kidney Parvovirus No SS and linear B19 virus\u2014aplastic crises in sickle cell disease, (smallest DNA virus) \u201cslapped cheek\u201d rash in children (erythema infectiosum, or fifth disease); infects RBC precursors and endothelial cells \u008e RBC destruction \u2022 hydrops fetalis and death in fetus, pure RBC aplasia and rheumatoid arthritis\u2013like symptoms in adults Herpesviruses Enveloped, DS, and linear viruses"
+        },
+        {
+            "id": "Neurology_Adams_7983",
+            "title": "Neurology_Adams",
+            "content": "2. Norrie disease. Also sex-linked recessive; some sight may be present at birth; later, eyes become shrunken and recessed (phthisis bulbi); some have short digits, outbursts of anger, hallucinations, and possibly regression of psychomotor function. A mutation in the NDP gene on the X chromosome has been implicated. 3. Oculocerebral syndrome with hypopigmentation. Autosomal recessive with absence of pigment of hair and skin; small, cloudy, vascularized corneas and small globes (microphthalmia); marked cognitive impairment; athetotic movements of limbs. 4. Microphthalmia with corneal opacities, eccentric pupils, spasticity, and severe cognitive impairment."
+        },
+        {
+            "id": "Pathology_Robbins_2",
+            "title": "Pathology_Robbins",
+            "content": "The human genome contains about 3.2 billion DNA base pairs. Yet, within the genome there are only roughly 20,000 protein-encoding genes, comprising just 1.5% of the genome. The proteins encoded by these genes are the fundamental constituents of cells, functioning as enzymes, structural elements, and signaling molecules. Although 20,000 underestimates the actual number of proteins encoded (many genes produce multiple RNA transcripts that encode distinct protein isoforms), it is nevertheless startling that worms composed of fewer than 1000 cells\u2014 and with genomes 30-fold smaller\u2014are also assembled from roughly 20,000 protein-encoding genes. Perhaps even more unsettling is that many of these proteins are recognizable homologs of molecules expressed in humans. What then separates humans from worms?"
+        },
+        {
+            "id": "Pathology_Robbins_24",
+            "title": "Pathology_Robbins",
+            "content": "(Adapted from Wang KC, Chang HY: Molecular mechanisms of long noncoding RNAs, Mol Cell 43:904, 2011.) a variety of mechanisms ( Fig. 1.4 ). Ongoing studies are exploring the role of lncRNAs in diseases like atherosclerosis and cancer."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1673",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. DNA rearrangement and loss B. DNA transposition C. RNA alternative splicing D. RNA editing E. RNA interference Correct answer = D. The production of apolipoprotein (apo) B-48 in the intestine and apo B-100 in liver is the result of RNA editing in the intestine, where a sense codon is changed to a nonsense codon by posttranscriptional deamination of cytosine to uracil. DNA rearrangement and transposition, as well as RNA interference and alternative splicing, do alter gene expression but are not the basis of apo B-48 tissue-specific production. 3.4. Which of the following is most likely to be true in hemochromatosis, a disease of iron accumulation? A. The messenger RNA for the transferrin receptor is stabilized by the binding of iron regulatory proteins to its 3\u2032-iron-responsive elements. B. The messenger RNA for the transferrin receptor is not bound by iron regulatory proteins and is degraded."
+        },
+        {
+            "id": "Pathology_Robbins_1041",
+            "title": "Pathology_Robbins",
+            "content": "Once internalized, the RNA genome of the virus undergoes reverse transcription, leading to the synthesis of double-stranded complementary DNA (cDNA; proviral DNA) (see Fig. 5.38 ). In quiescent T cells, HIV cDNA may remain in the cytoplasm in a linear episomal form. In dividing T cells, the cDNA circularizes, enters the nucleus, and is then integrated into the host genome. After integration, the pro-virus may be silent for months or years, a form of latent infection. Alternatively, proviral DNA may be transcribed, leading to the expression of viral proteins that are required for the formation of complete viral particles. HIV infects memory cells and activated T cells but is inefficient at productively infecting na\u00efve (resting) T cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2754",
+            "title": "Cell_Biology_Alberts",
+            "content": "(a) the 30s ribosomal subunit (yellow) and the 50s subunit (blue) can be distinguished from the additional electron density that can be attributed to the release factor rF2 (purple). (B) the known molecular structure of rF2 modeled into the electron density from (a). (From U.B.s. rawat et al., Nature 421:87\u201390, 2003. With permission from Macmillan publishers Ltd.) macromolecules can often be \u201cfitted\u201d to the images derived by electron microscopy. In this way, the TEM is increasingly able to bridge the gap between structures discovered by x-ray crystallography and those discovered with the light microscope. Figure Q9\u20131 paths of light rays through dry and oil-immersion lenses (problem 9\u20133). the red circle at the origin of the light rays is the specimen. 9\u20134 Figure Q9\u20132 shows a diagram of the human eye. The refractive indices of the components in the light path are: cornea 1.38, aqueous humor 1.33, crystalline lens 1.41, and Which statements are true? Explain why or why not."
+        },
+        {
+            "id": "Cell_Biology_Alberts_115",
+            "title": "Cell_Biology_Alberts",
+            "content": "E. coli strain k-12. The diagram is circular because the dnA of E. coli, like that of other prokaryotes, forms a single, closed loop. Protein-coding genes are shown as yellow or orange bars, depending on the dnA strand from which they are transcribed; genes encoding only RnA molecules are indicated by green arrows. some genes are transcribed from one strand of the dnA double helix (in a clockwise direction in this diagram), others from the other strand (counterclockwise). (A, courtesy of dr. Tony Brain and david Parker/Photo Researchers; B, adapted from F.R. Blattner et al., Science 277:1453\u20131462, 1997.) conserved that they can be recognized as common to most species from all three domains of the living world. Thus, given the DNA sequence of a newly discovered gene, it is often possible to deduce the gene\u2019s function from the known function of a homologous gene in an intensively studied model organism, such as the bacterium E. coli."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2045",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the previous chapter, we introduced the central dogma, according to which the flow of genetic information proceeds from DNA through RNA to protein (Figure 6\u20131). But we have seen throughout this book that RNA molecules perform many critical tasks in the cell besides serving as intermediate carriers of genetic information. Among these noncoding RNAs are the rRNA and tRNA molecules, which are responsible for reading the genetic code and synthesizing proteins. The RNA molecule in telomerase serves as a template for the replication of chromosome ends, snoRNAs modify ribosomal RNA, and snRNAs carry out the major events of RNA splicing. And we saw in the previous section that Xist RNA has an important role in inactivating one copy of the X chromosome in females."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2070",
+            "title": "Cell_Biology_Alberts",
+            "content": "Since many human disorders result from the misexpression of genes, the ability to turn these genes off by experimentally introducing complementary siRNA molecules holds great medical promise. Although the mechanism of RNA interference was discovered a few decades ago, we are still being surprised by its mechanistic details and by its broad biological implications."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1766",
+            "title": "Cell_Biology_Alberts",
+            "content": "2. Some RNAs and proteins are abundant in the specialized cells in which they function and cannot be detected elsewhere, even by sensitive tests. Hemoglobin, for example, is expressed specifically in red blood cells, where it carries oxygen, and the enzyme tyrosine aminotransferase (which breaks down tyrosine in food) is expressed in liver but not in most other tissues (Figure 7\u20133B). 3."
+        },
+        {
+            "id": "Pathology_Robbins_12",
+            "title": "Pathology_Robbins",
+            "content": "It is important to note that alterations in DNA sequence cannot by themselves explain the diversity of phenotypes in human populations; moreover, classical genetic inheritance cannot explain differing phenotypes in monozygotic twins. The answers to these conundrums probably lie in epigenetics\u2014heritable changes in gene expression that are not caused by alterations in DNA sequence (see later). Even though virtually all cells in the body have the same genetic composition, differentiated cells have distinct structures and functions arising through lineage-specific programs of gene expression. Such cell type\u2013specific differences in DNA transcription and translation are regulated by epigenetic modifications that consist of several changes that profoundly influence gene expression, including: Fig. 1.2 ). Genomic DNA is packed into nucleosomes, which are composed of 147 DNA (1.8 turns, about 150 base pairs)"
+        },
+        {
+            "id": "Pediatrics_Nelson_972",
+            "title": "Pediatrics_Nelson",
+            "content": "Mitochondrial DNA (mtDNA), which is circular and 16.5 kb in length, replicates independently of nuclear DNA. Involved in energy production used to run the cell, mtDNA codes for a few respiratory chain proteins (most mitochondrial proteins are coded on nuclear DNA) and for a set of transfer RNAs unique to mitochondrial protein synthesis. Virtually all mitochondria are supplied by the oocyte, which means that mtDNA is maternally derived. A woman with a mutation in mtDNA passes this mutation to all of her children. More than one population of mitochondria may be present in the oocyte, a phenomenon called heteroplasmy. The mtDNA mutation may be present in a few or many mitochondria. When the fertilized egg divides, mitochondria are distributed randomly. The presence of symptoms in the offspring, and their severity, depends on the ratio of mutant to wild-type mtDNA present in a particular tissue. If an abundance of mutant mitochondria exists in tissue that has high energy requirements"
+        },
+        {
+            "id": "Pathology_Robbins_1",
+            "title": "Pathology_Robbins",
+            "content": "It is unrealistic (and even undesirable) to condense the vast and fascinating field of cell biology into a single chapter. Consequently, rather than attempting a comprehensive review, the goal here is to survey basic principles and highlight recent advances that are relevant to the mechanisms of disease that are emphasized throughout the rest of the book. The sequencing of the human genome at the beginning of the 21st century represented a landmark achievement of biomedical science. Since then, the rapidly dropping cost of sequencing and the computational capacity to analyze vast amounts of data promise to revolutionize our understanding of health and disease. At the same time, the emerging information has also revealed a breathtaking level of complexity far beyond the linear sequencing of the genome. The potential for these new powerful tools to expand our understanding of pathogenesis and drive therapeutic innovation excites and inspires scientists and the lay public alike."
+        },
+        {
+            "id": "InternalMed_Harrison_29617",
+            "title": "InternalMed_Harrison",
+            "content": "It is increasingly recognized that not all genetic diseases or predispositions are caused by simple changes in the linear nucleotide sequence of genes. Disease-causative mutations also occur commonly in rosis (ALS). This mutation is the most common cause of both familial and sporadic ALS identified thus far. It was shown to be associated with TDP-43 (tar DNA binding protein-43) inclusions in both hippocampal and cerebral neurons. Interestingly, despite the absence of a start codon, the three alternate dipeptide sequences consisting of two amino acids are translated and found in postmortem brain tissue of affected patients. Three potential pathogenic mechanisms have been proposed, including (1) haploinsufficiency, (2) repeat RNA-mediated toxicity, and (3) dipeptide protein toxicity. The possibility of RNA toxicity is supported by the finding of intranuclear RNA foci containing C9orf 72 hexanucleotide repeats and specific RNA-binding proteins. The C9orf 72 mRNA forms quadruplexes of DNA"
+        }
+    ],
+    "scores": [
+        0.025990789146128953,
+        0.02507198683669272,
+        0.023537142870699204,
+        0.023293847241867047,
+        0.019437469821342347,
+        0.01838731443994602,
+        0.018268268268268266,
+        0.017046278833599306,
+        0.016133162612035852,
+        0.016018306636155607,
+        0.015507603534291037,
+        0.015343915343915344,
+        0.015058876811594204,
+        0.014961067853170189,
+        0.01494107744107744,
+        0.014869281045751633,
+        0.014856962225383278,
+        0.014801938474504846,
+        0.014648489708634055,
+        0.01444906444906445,
+        0.014393939393939393,
+        0.014217314832909908,
+        0.014155662264905961,
+        0.014078416298289449,
+        0.014012303485987697,
+        0.013140658261011953,
+        0.013032772966547802,
+        0.012374581939799331,
+        0.012346149449376977,
+        0.012099083619702175,
+        0.011802721088435374,
+        0.011019367372958534
+    ]
+}

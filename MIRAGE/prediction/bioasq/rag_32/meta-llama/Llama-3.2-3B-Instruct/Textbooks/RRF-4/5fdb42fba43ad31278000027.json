@@ -1,0 +1,206 @@
+{
+    "id": "5fdb42fba43ad31278000027",
+    "question": "Are there negative enhancers?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the given documents and understand the concept of enhancers and repressors in gene regulation. Enhancers are DNA sequences that increase the rate of transcription by RNA polymerase II, while repressors are DNA sequences that block access of the splicing machinery to a splice junction, thereby reducing the rate of transcription. According to Document [1], enhancers are also called splicing enhancers because they can be located many nucleotide pairs from the splice junctions they control. In contrast, repressors are not referred to as enhancers, but rather as repressors. Furthermore, Document [9] states that regulatory sequences that negatively regulate the initiation of transcription are called repressors, while regulatory sequences that positively regulate the initiation of transcription are called enhancers. Therefore, based on the definitions and descriptions provided in the documents, it can be concluded that there are indeed negative repressors, but there is no such thing as a negative enhancer.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_2535",
+            "title": "Cell_Biology_Alberts",
+            "content": "A simple case of positive feedback can be seen in a regulatory system in which a transcription regulator activates (directly or indirectly) its own expression, as in Figure 8\u201380A. Positive feedback can also arise in a circuit with many intervening repressors or activators, so long as the net overall effect of the interactions is activation (Figure 8\u201380B and C)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1982",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201358 Negative and positive control of alternative RNA splicing. in negative control, a repressor protein binds to a specific sequence in the premrnA transcript and blocks access of the splicing machinery to a splice junction. this often results in the use of a secondary splice site, thereby producing an altered pattern of splicing (see figure 7\u201356). in positive control, the splicing machinery is unable to remove a particular intron sequence efficiently without assistance from an activator protein. Because rnA is flexible, the nucleotide sequences that bind these activators can be located many nucleotide pairs from the splice junctions they control, and they are often called splicing enhancers, by analogy with the transcriptional enhancers mentioned earlier in this chapter."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1535",
+            "title": "Biochemistry_Lippinco",
+            "content": "d. Role of enhancers: Enhancers are special DNA sequences that increase the rate of initiation of transcription by RNA pol II. Enhancers are typically on the same chromosome as the gene whose transcription they stimulate (Fig. 31.13B). However, they can 1) be located upstream (to the 5\u2032-side) or downstream (to the 3\u2032-side) of the transcription start site, 2) be close to or thousands of base pairs away from the promoter (Fig. 31.14), and 3) occur on either strand of the DNA. Enhancers contain DNA sequences called response elements that bind STF. By bending or looping the DNA, STF can interact with other TF bound to a promoter and with RNA pol II, thereby stimulating transcription (see Fig. 31.13B). Mediator also binds enhancers. [Note: Although silencers are similar to enhancers in that they also can act over long distances, they reduce gene expression.] e. RNA polymerase II inhibitor: \u03b1-Amanitin, a potent toxin produced by the poisonous mushroom Amanita phalloides (sometimes called"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2538",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201380 Positive feedback of a gene onto itself through serially connected interactions. A sequence of activators and repressors of any length can be connected to produce a positive feedback loop, as long as the overall sign is positive. Because the negative of a negative is positive, not only circuit (A) and (B) but also circuit (C) create positive feedback. = \u02dcX.mX \u2013 dt 1 + (KY[Y])hY \u02dcX = \u02dcY.mY \u2013 GENE Y dt 1 + (KX[X])hX \u02dcY (B) concentration of X = \u02dcX.mX.\u02dcX = \u02dcY.mY.\u02dcY"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4134",
+            "title": "Cell_Biology_Alberts",
+            "content": "Negative Feedback is a Common Motif in Signaling Systems By contrast with positive feedback, negative feedback counteracts the effect of a stimulus and thereby abbreviates and limits the level of the response, making the system less sensitive to perturbations (see Chapter 8). As with positive feedback, however, qualitatively different responses can be obtained when the feedback Figure 15\u201317 Positive and negative feedback. In these simple examples, a stimulus activates protein A, which, in turn, activates protein B. Protein B then acts back to either increase or decrease the activity of A."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2520",
+            "title": "Cell_Biology_Alberts",
+            "content": "We take as a first example a network motif consisting of two linked modules (Figure 8\u201376A). Here, an input signal initiates the transcription of gene A, which produces a transcription activator protein A. This activates gene R, which synthesizes a transcription repressor protein R. Protein R in turn binds to the promoter of gene A to inhibit its expression. This cyclical organization creates a negative feedback loop that one can intuitively understand as a mechanism to prevent proteins from accumulating to high levels. But what can we learn about negative feedback loops, and their value in biology, by using mathematics to model them?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1837",
+            "title": "Cell_Biology_Alberts",
+            "content": "Activator proteins promote the Assembly of rnA polymerase at the Start point of transcription The cis-regulatory sequences to which eukaryotic transcription activator proteins bind were originally called enhancers because their presence \u201cenhanced\u201d the rate of transcription initiation. It came as a surprise when it was discovered that these sequences could be found tens of thousands of nucleotide pairs away from the promoter; as we have seen, DNA looping, which was not widely appreciated at the time, can now explain this initially puzzling observation. Once bound to DNA, how do assemblies of activator proteins increase the rate of transcription initiation? At most genes, mechanisms work in concert. Their function is both to attract and position RNA polymerase II at the promoter and to release it so that transcription can begin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_649",
+            "title": "Cell_Biology_Alberts",
+            "content": "Feedback inhibition is negative regulation: it prevents an enzyme from acting. Enzymes can also be subject to positive regulation, in which a regulatory molecule stimulates the enzyme\u2019s activity rather than shutting the enzyme down. Positive regulation occurs when a product in one branch of the metabolic network stimulates the activity of an enzyme in another pathway. As one example, the accumulation of ADP activates several enzymes involved in the oxidation of sugar molecules, thereby stimulating the cell to convert more ADP to ATP."
+        },
+        {
+            "id": "InternalMed_Harrison_4783",
+            "title": "InternalMed_Harrison",
+            "content": "at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences of the gene. Specific groups of transcription factors that bind to these promoter and enhancer sequences provide a combinatorial code for regulating transcription. In this manner, relatively ubiquitous factors interact with more restricted factors to allow each gene to be expressed and regulated in a unique manner that is dependent on developmental state, cell type, and numerous extracellular stimuli. Regulatory factors also bind within the gene itself, particularly in the intronic regions. The transcription factors that bind to DNA actually represent only the first level of regulatory control. Other proteins\u2014co-activators and co-repressors\u2014interact with the DNA-binding transcription factors to generate large regulatory complexes. These complexes are subject to control by numerous"
+        },
+        {
+            "id": "Surgery_Schwartz_3303",
+            "title": "Surgery_Schwartz",
+            "content": "TATA boxes that can be recognized and bound by a large complex containing RNA polymerase II, forming the basal transcription machinery. Usually located upstream of the TATA box (but sometimes lon-ger distances) are a number of regulatory sequences referred to as enhancers that are recognized by regulatory proteins called transcription factors. These transcription factors specifically bind to the enhancers, often in response to environmental or developmental cues, and cooperate with each other and with basal transcription factors to initiate transcription. Regulatory sequences that negatively regulate the initiation of transcription also are present on the promoter DNA. The transcription factors that bind to these sites are called repressors, in contrast to the activators that activate transcription. The molecular interactions Figure 15-6. Transcriptional control by RNA polymerase. DNA is packaged into a chromatin structure. TATA = the common sequence on the promoter recognized by TBP"
+        },
+        {
+            "id": "InternalMed_Harrison_4782",
+            "title": "InternalMed_Harrison",
+            "content": "REGULATION OF GENE EXPRESSION Regulation by Transcription Factors The expression of genes is regulated by DNA-binding proteins that activate or repress transcription. The number of DNA sequences and transcription factors that regulate transcription is much greater than originally anticipated. Most genes contain at least 15\u201320 discrete regulatory elements within 300 bp of the transcription start site. This densely packed promoter region often contains binding sites for ubiquitous transcription factors such as CAAT box/enhancer binding protein (C/EBP), cyclic AMP response element\u2013binding (CREB) protein, selective promoter factor 1 (Sp-1), or activator protein 1 (AP-1). However, factors involved in cell-specific expression may also bind to these sequences. Key regulatory elements may also reside at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences"
+        },
+        {
+            "id": "Physiology_Levy_3991",
+            "title": "Physiology_Levy",
+            "content": "Physiology. 3rded.Philadelphia:Mosby;2007.) Exogenous progesterone also inhibits gonadotropin function in men and has been considered as a possible component of a male contraceptive pill. Additionally, inhibin negatively feeds back selectively on FSH secretion in men and women. In women, progesterone and testosterone negatively feed back on gonadotropic function at the level of the hypothalamus and pituitary. At low doses, estrogen also exerts negative feedback on FSH and LH secretion. However, high estrogen levels maintained for 3 days cause a surge in LH and to a lesser extent FSH secretion. This positive feedback, which is critical in promoting ovulation, is observed at the hypothalamus and pituitary. At the hypothalamus, GnRH pulse amplitude and frequency increase. At the pituitary, high estrogen levels greatly increase the sensitivity of the gonadotrope to GnRH, both by increasing GnRH receptor levels and by enhancing postreceptor signaling (see The Somatotrope"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1851",
+            "title": "Cell_Biology_Alberts",
+            "content": "An important point is that a transcription activator protein must be bound to DNA to influence transcription of its target gene. And the rate of transcription of a gene ultimately depends upon the spectrum of regulatory proteins bound upstream and downstream of its transcription start site, along with the coactivator proteins they bring to DNA. Although the \u201cdefault\u201d state of eukaryotic DNA packaged into nucleosomes is resistant to transcription, eukaryotes nonetheless use transcription regulators to Figure 7\u201322 Transcriptional synergy. this experiment compares the rate of transcription produced by three experimentally constructed regulatory regions in a eukaryotic cell and reveals transcriptional synergy, a greater than additive effect of multiple activators working together. for simplicity, coactivators have been omitted from the diagram."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2530",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cooperative binding events can produce steep S-shaped (or sigmoidal) relationships between the concentration of regulatory protein and the amount bound on the DNA (see Figure 15\u201316). In this case, a number called the Hill coefficient (h) describes the degree of cooperativity, and we can include this coefficient in our equations for calculating the bound fraction of promoter (Figure 8\u201379A). As the Hill coefficient increases, the dependence of binding on protein concentration becomes steeper (Figure 8\u201379B). In principle, the Hill coefficient is similar to the number of molecules that must come together to generate a reaction. In practice, however, cooperativity is rarely complete, and the Hill coefficient does not reach Figure 8\u201378 Oscillations arising from delayed negative feedback."
+        },
+        {
+            "id": "Immunology_Janeway_4558",
+            "title": "Immunology_Janeway",
+            "content": "adjuvant Any substance that enhances the immune response to an antigen with which it is mixed. afferent lymphatic vessels Vessels of the lymphatic system that drain extracellular \ufb02uid from the tissues and carry antigen, macrophages, and dendritic cells from sites of infection to lymph nodes or other peripheral lymphoid organs. affinity The strength of binding of one molecule to another at a single site, such as the binding of a monovalent Fab fragment of antibody to a monovalent antigen. Cf. avidity. affinity hypothesis Hypothesis that proposes how the choice between negative selection and positive selection of T cells in the thymus is made, according to the strength of self-peptide:MHC binding by the T-cell receptor. Low-affinity interactions rescue the cell from death by neglect, leading to positive selection; high-affinity interactions induce apoptosis and thus negative selection."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1912",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201340 Common types of network motifs in transcription circuits. A and B represent transcription regulators, arrows indicate positive transcription control, while lines with bars depict negative transcription control. in the feed-forward loop, A and B represent transcription regulators that both activate the transcription of target gene Z (see also figure 8\u201386). machinery, and it must, in effect, use its intricate system of interlocking transcription switches to compute how it should behave at each time point in response to the many different past and present inputs received. We are only beginning to understand how to study such complex intracellular control networks. Indeed, without new approaches, coupled with quantitative information that is far more precise and complete than we now possess, it will be impossible to predict the behavior of a system such as that shown in Figure 7\u201342. As explained in Chapter 8, a circuit diagram by itself is not enough."
+        },
+        {
+            "id": "InternalMed_Harrison_26668",
+            "title": "InternalMed_Harrison",
+            "content": "The thyroid axis is a classic example of an endocrine feedback loop. Hypothalamic TRH stimulates pituitary production of TSH, which, in turn, stimulates thyroid hormone synthesis and secretion. Thyroid hormones act via negative feedback predominantly through thyroid hormone receptor \u03b22 (TR\u03b22) to inhibit TRH and TSH production (Fig. 405-2). The \u201cset-point\u201d in this axis is established by TSH. TRH is the major positive regulator of TSH synthesis and secretion. Peak TSH secretion occurs ~15 min after administration of exogenous TRH. Dopamine, glucocorticoids, and somatostatin suppress TSH but are not of major physiologic importance except when these agents are administered in pharmacologic doses. Reduced levels of thyroid hormone increase basal TSH production and enhance TRH-mediated stimulation of TSH. High thyroid hormone levels rapidly and directly suppress TSH gene expression secretion and inhibit TRH stimulation of TSH, indicating that thyroid hormones are the dominant regulator of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1854",
+            "title": "Cell_Biology_Alberts",
+            "content": "repress the transcription of genes. These transcription repressors can both depress the rate of transcription below the default value and rapidly shut off genes that were previously activated. We saw in Chapter 4 that large regions of the genome can be shut down by the packaging of DNA into especially resistant forms of chromatin. However, eukaryotic genes are rarely organized along the genome according to function, and this strategy is not generally applicable for shutting off a set of genes that work together. Instead, most eukaryotic repressors work on a geneby-gene basis. Unlike bacterial repressors, eukaryotic repressors do not directly compete with the RNA polymerase for access to the DNA; rather, they use a variety of other mechanisms, some of which are illustrated in Figure 7\u201323. Although all of these mechanisms ultimately block transcription by RNA polymerase, eukaryotic transcription repressors typically act by bringing co-repressors to DNA. Like transcription activation,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5779",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201310 Genesis of asymmetry through lateral inhibition and positive feedback. In this example, two cells interact, each producing a substance X that acts on the other cell to inhibit its production of X, an effect known as lateral inhibition. an increase of X in one of the cells leads to a positive feedback that tends to increase X in that cell still further, while decreasing X in its neighbor. this can create a runaway instability, making the two cells become radically different. Ultimately, the system comes to rest in one or the other of two opposite stable states. the final choice of state represents a form of memory: the small influence that initially directed the choice is no longer required to maintain it. what if there is no clear initial asymmetry? Can a regular pattern arise spontaneously within a set of cells that are initially all alike?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1804",
+            "title": "Cell_Biology_Alberts",
+            "content": "These properties of the nucleosome promote cooperative DNA binding by transcription regulators. If a regulatory protein enters the DNA of a nucleosome and prevents the DNA from tightly rewrapping around the nucleosome core, it will increase the affinity of a second transcription regulator for a nearby cis-regulatory sequence. If the two transcription regulators also interact with each other (as described above), the cooperative effect is even greater. In some cases, the combined action of the regulatory proteins can eventually displace the histone core of the nucleosome altogether. Figure 7\u201311 How nucleosomes effect the binding of transcription regulators."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2522",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201376 A simple negative feedback motif. (A) Gene A negatively regulates its own expression by activating gene R. The product of gene R is a transcription repressor that inhibits gene A. (B) Equation set 8\u20138 can be solved to determine the dynamics of system components over time. (C) A system with negative feedback (blue) reaches its steady state faster than a system with no feedback (red). The plots indicate the levels of protein A, expressed as a fraction of the steady-state level. The blue line reflects the solution of Equation set 8\u20138, which includes negative feedback of gene A by the repressor R. The red line represents the solution when the rate of synthesis of A was set to a constant value that is unaffected by the repressor R. (C) time the behavior of A and R over time for any value of the input. As before, we plug in values for the parameters (\u03b2R, \u03c4R, etc.) and then use a computer to determine the values of [A] and [R] as a function of time after a sudden input activates"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1805",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201311 How nucleosomes effect the binding of transcription regulators. \u201cbreathing\u201d cis-regulatory sequence this open form occurs about 1/20th of the time (A) (B) compared to its affnity for naked DNA, a typical transcription regulator will bind with 20 times lower affnity if its cis-regulatory sequence is located near the end of a nucleosome a typical transcription regulator will bind with roughly 200-fold less affnity + + transcription regulatorhistone core + + + (C) if its cis-regulatory sequence is located in the middle of a nucleosome (D) one transcription regulator can destabilize the nucleosome, facilitating binding of another"
+        },
+        {
+            "id": "Surgery_Schwartz_3417",
+            "title": "Surgery_Schwartz",
+            "content": "normally represents gain-of-function mutations. The tissue distribution or expression of a transgene is determined primarily by cis-acting promoter enhancer elements within or in the immediate vicin-ity of the genes themselves. Thus, controlled expression of the transgene can be made possible by using an inducible or tissue-specific promoter. Furthermore, transgenic mice carry-ing dominant negative mutations of a regulatory gene also have been generated. For example, a truncated growth factor receptor that can bind to the ligand, but loses its catalytic activity when expressed in mice, can block the growth factor binding to the endogenous protein. In this way, the transgenic mice exhibit a loss of function of phenotype, possibly resembling the knockout of the endogenous gene. The second application of the trans-genic expression is to analyze the gene promoter of interest. The gene promoter of interest normally is fused to a reporter gene that encodes \u03b2-galactosidase (also called"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6515",
+            "title": "Cell_Biology_Alberts",
+            "content": "promote invasion, and then suppresses membrane ruffling once invasion is complete. This behavior is mediated in part by injection of two effector proteins: SopE, which promotes membrane ruffling and invasion, and SptP, which blocks the effects of SopE. Both effector proteins target the monomeric GTPase, Rac, which in its active form promotes membrane ruffling. How do you suppose SopE and SptP affect Rac activity? How do you suppose the effects of SopE and SptP are staggered in time if they are injected simultaneously?"
+        },
+        {
+            "id": "InternalMed_Harrison_21313",
+            "title": "InternalMed_Harrison",
+            "content": "Diagnosis is made by demonstrating malignant cells in the CSF; however, up to 40% of patients may have false-negative CSF cytology. An elevated CSF protein level is nearly always present (except in HTLV-1\u2013associated adult T cell leukemia). Patients with neurologic signs and symptoms consistent with neoplastic meningitis who have a negative CSF cytology but an elevated CSF protein level should have the spinal tap repeated at least three times for cytologic examination before the diagnosis is rejected. MRI findings suggestive of neoplastic meningitis include leptomeningeal, subependymal, dural, or cranial nerve enhancement; superficial cerebral lesions; intradural nodules; and communicating hydrocephalus. Spinal cord imaging by MRI is a necessary component of the evaluation of nonleukemia neoplastic meningitis because ~20% of patients have cord abnormalities, including intradural enhancing nodules that are diagnostic for leptomeningeal involvement. Cauda equina lesions are common, but"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6084",
+            "title": "Cell_Biology_Alberts",
+            "content": "The formation of synapses involves back-and-forth signaling between target cells and the growth cone. After the growth cones have reached their targets and initial connections have formed, individual synapses are eliminated in some places and reinforced in others by mechanisms that depend on synaptic and electrical activity. These mechanisms adjust the architecture of the neural network according to the way in which it is used. Which statements are true? Explain why or why not. What regulates the pace of development? Why does a mouse embryo develop faster than a human embryo, for example? What are the mechanisms that allow cell memory to be stored during development, explaining how each cell\u2019s history determines its future behavior? how do signals move through tissues? What are the roles of the extracellular matrix and of elongated cell projections?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1834",
+            "title": "Cell_Biology_Alberts",
+            "content": "As their names imply, coactivators are typically involved in activating transcription and co-repressors in repressing it. In the following sections, we will see that coactivators and co-repressors can act in a variety of different ways to influence transcription after they have been localized on the genome by transcription regulators."
+        },
+        {
+            "id": "Pharmacology_Katzung_4966",
+            "title": "Pharmacology_Katzung",
+            "content": "C. Extended-Spectrum Penicillins (Aminopenicillins, Carboxypenicillins, and Ureidopenicillins) These drugs have greater activity than penicillin against Gram-negative bacteria because of their enhanced ability to penetrate the Gram-negative outer membrane. Like penicillin G, they are inactivated by many \u03b2-lactamases."
+        },
+        {
+            "id": "Pharmacology_Katzung_277",
+            "title": "Pharmacology_Katzung",
+            "content": "In certain situations, a drug is clearly necessary and beneficial but produces unacceptable toxicity when given in doses that produce optimal benefit. In such situations, it may be necessary to add another drug to the treatment regimen. In treating hypertension, for example, administration of a second drug often allows the prescriber to reduce the dose and toxicity of the first drug (see Chapter 11). B. Beneficial and Toxic Effects Mediated by Identical Receptors but in Different Tissues or by Different Effector Pathways Many drugs produce both their desired effects and adverse effects by acting on a single receptor type in different tissues. Examples discussed in this book include digitalis glycosides, which act by inhibiting Na+/K+-ATPase in cell membranes; methotrexate, which inhibits the enzyme dihydrofolate reductase; and glucocorticoid hormones."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1036",
+            "title": "Cell_Biology_Alberts",
+            "content": "A large proportion of the presumed regulatory regions identified in this way lie near genes that affect neural function and/or near genes involved in steroid signaling, suggesting that changes in the nervous system and in immune or reproductive functions have played an especially important role in human evolution."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1904",
+            "title": "Cell_Biology_Alberts",
+            "content": "As was previously shown in Figure 7\u201337B, the master regulators needed to maintain the pluripotency of iPS cells bind to cis-regulatory sequences in their own control regions, providing examples of the type of positive feedback loop. In addition, most of these pluripotent cell regulators also activate transcription of other master regulators, resulting in a complex series of indirect feedback loops. For example, if A activates B, and B activates A, this forms a positive feedback loop where A activates its own expression, albeit indirectly. The series of direct and indirect feedback loops observed in the iPS circuit is typical of other specialized cell circuits. Such a network structure strengthens cell memory, increasing the probability that a particular pattern of gene expression is transmitted through successive generations. For example, if the level of A drops below the critical threshold to stimulate its own synthesis, regulator B can rescue it. By successive application of this"
+        },
+        {
+            "id": "Neurology_Adams_5624",
+            "title": "Neurology_Adams",
+            "content": "CT and MRI are the most important diagnostic tools. In the CT scan, the capsule of the abscess enhances and the center of the abscess and surrounding edematous white matter are hypodense. With MRI, in T1-weighted images, the capsule enhances and the interior of the abscess is hypointense and shows restricted diffusion; in T2-weighted images, the surrounding edema is apparent and the capsule is hypointense and there is variable diffusion restriction within the lesion (see Fig. 31-2, right). The abscess capsule tends to be thinner on the side directed to the lateral ventricle. Cerebritis appears as dot-sized areas of decreased density that enhance with gadolinium. Practically all abscesses larger than 1 cm produce positive scans. There is almost no likelihood of cerebral abscess if enhanced CT and MRI studies are negative. Blood cultures, sedimentation rate, and chest radiography are indispensable in the complete diagnosis of brain abscess, although it must be acknowledged that blood"
+        }
+    ],
+    "scores": [
+        0.028353371051390856,
+        0.02834396137216985,
+        0.02482945785766634,
+        0.023563668081940506,
+        0.021049984789127642,
+        0.020474053439671847,
+        0.019419306184012067,
+        0.016902011125374414,
+        0.016133229247983348,
+        0.015544967242406194,
+        0.015189728304482404,
+        0.014961389961389961,
+        0.014619883040935672,
+        0.013946280991735538,
+        0.013722730471498943,
+        0.013615803563186559,
+        0.012994112699747687,
+        0.012866762866762867,
+        0.012531036623215395,
+        0.01212253989118925,
+        0.012065878983172216,
+        0.011840952881415309,
+        0.011594300309181342,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009615384615384616
+    ]
+}

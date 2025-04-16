@@ -1,0 +1,206 @@
+{
+    "id": "6025ddde1cb411341a0000ba",
+    "question": "Is Tranexamic acid effective for intracerebral haemorrhage?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and look for evidence on the effectiveness of tranexamic acid (TXA) for intracerebral hemorrhage (ICH).\\n\\nDocument [0] (Title: InternalMed_Harrison) states that early evacuation of supratentorial hematomas does not appear to improve outcome for most patients with intracerebral hemorrhage, and the STICH trial found no benefit from early surgery. However, it also mentions that surgery within 24 h of lobar, supratentorial hemorrhage might have a role in select severely affected patients.\\n\\nDocument [10] (Title: Surgery_Schwartz) discusses the use of tranexamic acid in trauma patients and states that early treatment within 3 hours reduces mortality. However, later treatment exacerbated outcome.\\n\\nDocument [3] (Title: Surgery_Schwartz) also discusses the use of tranexamic acid in trauma patients and mentions that it reduces mortality when used early, but not when used later.\\n\\nDocument [18] (Title: Pharmacology_Katzung) states that tranexamic acid inhibits clot lysis to help forestall bleeding and has been used for traumatic and obstetrical hemorrhage.\\n\\nDocument [21] (Title: Gynecology_Novak) discusses the use of tranexamic acid in obstetrics and mentions that it is effective in reducing menstrual blood loss, but the evidence supporting its use for obstetrical hemorrhage is limited.\\n\\nBased on the provided documents, it appears that tranexamic acid may be effective in reducing bleeding in certain situations, such as trauma and obstetrics, but the evidence for its effectiveness in intracerebral hemorrhage is limited.\\n\\nHowever, Document [10] (Title: Surgery_Schwartz) suggests that early treatment with tranexamic acid within 3 hours of bleeding trauma patients reduces mortality, which may imply a potential benefit for intracerebral hemorrhage as well.\\n\\nConsidering the available information, the answer to the question is that tranexamic acid may be effective for intracerebral hemorrhage, but the evidence is not as strong as for other indications.\\n\\nTherefore, the answer is A. yes, but with the understanding that the evidence is not as strong as for other indications.\\n\\nanswer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_30095",
+            "title": "InternalMed_Harrison",
+            "content": "Evacuation of supratentorial hematomas does not appear to improve outcome for most patients. The International Surgical Trial in Intracerebral Haemorrhage (STICH) randomized patients with supratentorial ICH to either early surgical evacuation or initial medical management. No benefit was found in the early surgery arm, although analysis was complicated by the fact that 26% of patients in the initial medical management group ultimately had surgery for neurologic deterioration. The follow-up study STICH-II found that surgery within 24 h of lobar, supratentorial hemorrhage did not improve overall outcome, but might have a role in select severely affected patients. Therefore, existing data do not support routine surgical evacuation of supratentorial hemorrhages in stable patients. However, many centers still consider surgery for patients deemed salvageable and who are having progressive neurologic deterioration due to herniation. Surgical techniques continue to evolve, and minimally"
+        },
+        {
+            "id": "InternalMed_Harrison_29877",
+            "title": "InternalMed_Harrison",
+            "content": "for patients with specific causes of stroke such as cardiac embolus and carotid atherosclerosis. For hemorrhagic stroke, aneurysmal subarachnoid hemorrhage (SAH) and hypertensive intracerebral hemorrhage are two important causes. The treatment and prevention of hypertensive intracerebral hemorrhage are discussed later in this chapter. SAH is discussed in Chap. 330."
+        },
+        {
+            "id": "Neurology_Adams_6583",
+            "title": "Neurology_Adams",
+            "content": "Although it would appear intuitively that evacuation of a hematoma might be beneficial, surgical results have not been found to be superior to medical measures alone (Waga and Yamamoto; Batjer et al; Juvela et al; Rabinstein et al). A multicenter, randomized study involving 1,033 patients with supratentorial hemorrhage, under the auspices of the Surgical Trial in Intracerebral Haemorrhage (STICH) study reported by Mendelow and colleagues, has failed to show a benefit from early surgery on survival or neurologic functioning at 6 months. This negative result extended to almost all levels of neurologic deficit and all age groups. In a post hoc analysis, clots that were small and close to the surface of the brain may have benefited from evacuation. As a result, a direct surgical approach has been used less frequently than in the past, but we acknowledge that in a few instances with ongoing deterioration in young patients with hematomas that were easily accessible from the cortical"
+        },
+        {
+            "id": "Surgery_Schwartz_1017",
+            "title": "Surgery_Schwartz",
+            "content": "the need for plasma transfusion better than fibrinogen levels.84OR (95% CI) of tranexamic acidTime to treatment (h)0.58765432101.01.52.02.53.0Figure 5-10. Early treatment (within 3 hours) of trauma patients with tranexamic acid reduces mortality. However, later treatment exacerbated outcome. (Reproduced with permission from Roberts I, Shakur H, Afolabi A, et al. The importance of early treatment with tranexamic acid in bleeding trauma patients: an exploratory analysis of the CRASH-2 randomised controlled trial, Lancet. 2011 Mar 26;377(9771):1096-1101.)Additional resuscitative adjuncts in patients with hemor-rhagic shock include minimization of heat loss and maintaining normothermia. The development of hypothermia in the bleeding patient is associated with acidosis, hypotension, and coagulopa-thy. Hypothermia in bleeding trauma patients is an independent risk factor for bleeding and death. This likely is secondary to impaired platelet function and impairments in the coagulation"
+        },
+        {
+            "id": "Surgery_Schwartz_1015",
+            "title": "Surgery_Schwartz",
+            "content": "role for other coagulation factor based products, such as fibrinogen concentrates and prothrombin complex concentrates. Use of these agents may be guided by a drop in fibrinogen levels to less than 1 g/L, or less specifically by thromboelastogram findings to suggest hyperfibrinolysis. Data also support the use of antifibrinolytic agents in bleeding trauma patients, specifically tranexamic acid (a synthetic lysine analogues that acts as a competitive inhibitor of plasmin and plasminogen). The multinational Clinical Randomization of an Antifibrinolytic in Significant Haemorrhage 2 (CRASH-2) trial suggested that early use of tranexamic acid limits rebleeding and reduces mortality82 (Fig 5-10). In the past, coagulopathy associated with the bleeding patient was presumed to be due solely to dilution and depletion of clotting factors and plate-lets. We now understand that an acute coagulopathy of trauma occurs as an immediate consequence of injury, with abnormal admission coagulation as a"
+        },
+        {
+            "id": "Neurology_Adams_6711",
+            "title": "Neurology_Adams",
+            "content": "Other Causes of Intracranial Bleeding and Multiple Cerebral Hemorrhages Next in frequency to hypertension, anticoagulant therapy is currently the most common cause of cerebral hemorrhage. The hemorrhages that develop, although sometimes situated in the sites of predilection of hypertensive hemorrhage, are more likely to occur elsewhere, mainly in the lobes of the brain. The reversal of anticoagulant or antiplatelet agents is discussed in an earlier section on \u201cTreatment of Cerebral Hemorrhage.\u201d When bleeding is associated with aspirin therapy or other agents that affect platelet function, fresh platelet infusion, often in massive amounts, may be used to control the hemorrhage; however, their effectiveness in management of cerebral hemorrhage has been questioned."
+        },
+        {
+            "id": "Neurology_Adams_6579",
+            "title": "Neurology_Adams",
+            "content": "Treatment of Cerebral Hemorrhage The management of patients with large intracerebral hemorrhages and coma includes the maintenance of adequate ventilation, selective acute use of controlled hyperventilation to a Pco2 of 25 to 30 mm Hg, monitoring of intracranial pressure in some cases and its control by the use of tissue-dehydrating agents such as mannitol (osmolality kept at 295 to 305 mOsm/L and Na at 145 to 150 mEq), and limiting intravenous infusions to normal saline. Qureshi\u2019s group offered data suggesting that aggressive measures to reduce intracranial pressure may be lifesaving and result in good outcome even in patients who have signs of transtentorial herniation. In our experience, this type of recovery is exceptional, but medical treatment of raised intracranial pressure may be justified in patients whose medical condition allows it."
+        },
+        {
+            "id": "Pediatrics_Nelson_1563",
+            "title": "Pediatrics_Nelson",
+            "content": "disease), although adjuvant therapy with tranexamic acid may be needed for management of any scheduled withdrawal bleeds. Parents are often concerned that CHC use will cause their daughter to become sexually active, but literature and experience do not support this."
+        },
+        {
+            "id": "InternalMed_Harrison_9254",
+            "title": "InternalMed_Harrison",
+            "content": "In patients with life-threatening bleeds, the use of recombinant factor VIIa in nonhemophilia patients on anticoagulant therapy has been shown to be effective at restoring hemostasis rapidly, allowing emergency surgical intervention. However, patients with underlying vascular disease, vascular trauma and other comorbidities are at risk for thromboembolic complications that affect both arterial and venous Decreased synthesis of clotting factors Hepatocyte failure Vitamin K deficiency Decreased synthesis of coagulation inhibitors: protein C, protein S, antithrombin Hepatocyte failure Vitamin K deficiency (protein C, protein S) Failure to clear activated coagulation proteins (DIC) Dysfibrinogenemia Iatrogenic: Transfusion of prothrombin complex concentrates Antifibrinolytic agents: EACA, tranexamic acid Abbreviations: DIC, disseminated intravascular coagulation; EACA, \u03b5-aminocaproic acid."
+        },
+        {
+            "id": "Surgery_Schwartz_1105",
+            "title": "Surgery_Schwartz",
+            "content": "KJ, Vercruysse G, Spinella PC, et al. The association of blood component use ratios with the survival of massively transfused trauma patients with and without severe brain injury. J Trauma. 2011;71(2 suppl 3):S343-352. 82. Roberts I, Shakur H, Afolabi A, et al. The importance of early treatment with tranexamic acid in bleeding trauma patients: an exploratory analysis of the CRASH-2 randomised controlled trial. Lancet. 2011;377(9771): 1096-1101, 1101 e1091-1092. 83. Niles SE, McLaughlin DF, Perkins JG, et al. Increased mortal-ity associated with the early coagulopathy of trauma in com-bat casualties. J Trauma. 2008;64(6):1459-1463; discussion 1463-1455. 84. Holcomb JB, Minei KM, Scerbo ML, et al. Admission rapid thrombelastography can replace conventional coagulation tests in the emergency department: experience with 1974 consecu-tive trauma patients. Ann Surg. 2012;256(3):476-486. 85. Roumen RM, Redl H, Schlag G, et al. Inflammatory media-tors in relation to the development of"
+        },
+        {
+            "id": "Neurology_Adams_6585",
+            "title": "Neurology_Adams",
+            "content": "Several alternatives are available when cerebral hemorrhage is the result of an anticoagulant. In addition to vitamin K, which may not act immediately, warfarin related hemorrhages can be treated with fresh frozen plasma, although 6 to 8 units may be required and this is a large volume to handle for elderly patients or those with congestive heart failure. Protein complex concentrates containing varying amounts of vitamin K dependent factors (II, VII, IX, X) and particularly VII have been used but their superiority over other approaches has been difficult to demonstrate. Orally administered factor Xa inhibitors and direct thrombin inhibitors now have specific antidotes. Cerebral hemorrhage associated with severe thrombocytopenia is generally treated with platelet infusions but the results are variable since the underlying disease that caused thrombocytopenia is often the determining factor. There has been controversy regarding the administration of platelets to patients who were on"
+        },
+        {
+            "id": "Neurology_Adams_6580",
+            "title": "Neurology_Adams",
+            "content": "As mentioned, most patients with intracerebral hemorrhage are hypertensive immediately after the stroke because of a generalized sympathoadrenal response. The natural trend is for the blood pressure to diminish over several days; therefore active treatment in the acute stages has been a matter of controversy. Rapid reduction of moderately elevated blood pressure (between 140 and 160 mm Hg systolic), in the hope of reducing further bleeding, is not recommended, because it risks compromising cerebral perfusion in cases of raised intracranial pressure. On the other hand, sustained mean blood pressures of greater than 110 mm Hg (generally above 160 mm Hg systolic) may exaggerate cerebral edema and perhaps enhance the risk extension of the clot. It is at approximately this level of acute hypertension that the use of beta-blocking drugs (esmolol, labetalol) or angiotensin-converting enzyme (ACE) inhibitors is recommended. The major calcium channel-blocking drugs are used less often for this"
+        },
+        {
+            "id": "Neurology_Adams_6552",
+            "title": "Neurology_Adams",
+            "content": "Several general features of intracerebral hemorrhage should be emphasized. Acute reactive hypertension, far exceeding the patient\u2019s chronic hypertensive level, is a feature that, in the context of a stroke, suggests hemorrhage; it is seen particularly with moderate and large clots situated in deep regions. Vomiting at the onset of intracerebral hemorrhage occurs much more frequently than with infarction and likewise suggests bleeding as the cause of an acute hemiparesis. Severe headache is generally considered to be an accompaniment of intracerebral hemorrhage and in many cases it is, but in almost half of cases it has been absent or mild. Nuchal rigidity is infrequent. If there is stiffness of the neck, it characteristically disappears as coma deepens. Or, the patient may be alert and responding accurately when first seen. Only if bleeding into the ventricles is massive or there is substantial distortion of the midbrain, does coma result."
+        },
+        {
+            "id": "InternalMed_Harrison_9209",
+            "title": "InternalMed_Harrison",
+            "content": "Antifibrinolytic Drugs Bleeding in the gums, gastrointestinal tract, and during oral surgery requires the use of oral antifibrinolytic drugs such as \u03b5-amino caproic acid (EACA) or tranexamic acid to control local hemostasis. The duration of the treatment depending on the clinical indication is 1 week or longer. Tranexamic acid is given at doses of 25 mg/kg three to four times a day. EACA treatment requires a loading dose of 200 mg/kg (maximum of 10 g) followed by 100 mg/kg per dose (maximum 30 g/d) every 6 h. These drugs are not indicated to control hematuria because of the risk of formation of an occlusive clot in the lumen of genitourinary tract structures."
+        },
+        {
+            "id": "Surgery_Schwartz_815",
+            "title": "Surgery_Schwartz",
+            "content": "SURGICAL BLEEDING, AND TRANSFUSIONCHAPTER 4bypass grafting (CABG), orthotopic liver transplantation, hip and knee arthroplasty, and other surgical settings. TXA has been used to treat injured patients in both civilian and military settings.97,98 A recent practice guideline by the Eastern Associa-tion for the Surgery of Trauma (EAST) conditionally recom-mended the use of tranexamic acid as a hemostatic adjunct in severely injured patients when used early after injury.99 There is some controversy if its use should be empiric in patients with hemorrhage or based on documented hyperfibrinolysis. Results of prehospital studies with TXA are not yet available, but there are five ongoing trials. The true risk of venous thrombotic events is also not well established. Therefore, tranexamic acid should not be used with active intravascular clotting and should not be given with activated prothrombin complex concentrate or factor IX complex concentrates.Indications for Replacement of Blood and"
+        },
+        {
+            "id": "InternalMed_Harrison_19295",
+            "title": "InternalMed_Harrison",
+            "content": "Hemorrhage is the most frequent and potentially the most serious complication. Because bleeding episodes that require transfusion are more common when patients require invasive procedures, unnecessary venous or arterial interventions should be avoided in patients receiving fibrinolytic agents. Hemorrhagic stroke is the most serious complication and occurs in ~0.5\u20130.9% of patients being treated with these agents. This rate increases with advancing age, with patients >70 years experiencing roughly twice the rate of intracranial hemorrhage as those <65 years. Large-scale trials have suggested that the rate of intracranial hemorrhage with tPA or rPA is slightly higher than with streptokinase."
+        },
+        {
+            "id": "Surgery_Schwartz_12252",
+            "title": "Surgery_Schwartz",
+            "content": "due to mass effect if sufficiently large. The Intracerebral Hemorrhage (ICH Score) is commonly used to risk-stratify these patients, and it takes into account GCS, age, hemorrhage volume, presence of intraven-tricular hemorrhage, and location to predict mortality. AVM or aneurysm rupture (along with trauma, discussed previously in this chapter) result in subarachnoid hemorrhage (SAH) because the major cerebral and cortical blood vessels travel in the sub-arachnoid space, between the pia and the arachnoid membranes. SAH can cause immediate concussive-like neuronal dysfunc-tion by exposure of the brain to intra-arterial pressure pulsa-tions during the hemorrhage. Moreover, it can cause delayed ischemia from cerebral arterial vasospasm, which can present as acute worsening of the patient\u2019s neurological status days to weeks after the injury. Patients presenting with intracranial hemorrhages that do not follow typical patterns should undergo cerebral angiography or MRI to evaluate for"
+        },
+        {
+            "id": "First_Aid_Step1_477",
+            "title": "First_Aid_Step1",
+            "content": "clInIcal USe Early MI, early ischemic stroke, direct thrombolysis of severe PE. adVeRSe eFFectS Bleeding. Contraindicated in patients with active bleeding, history of intracranial bleeding, recent surgery, known bleeding diatheses, or severe hypertension. Nonspecific reversal with antifibrinolytics (eg, aminocaproic acid, tranexamic acid), platelet transfusions, and factor corrections (eg, cryoprecipitate, FFP, PCC). ADP receptor inhibitors Clopidogrel, prasugrel, ticagrelor (reversible), ticlopidine. mechanISm Irreversibly block ADP (P2Y12) receptor, which prevents subsequent platelet aggregation. Prevent expression of glycoproteins IIb/IIIa on platelet surface. clInIcal USe Acute coronary syndrome; coronary stenting. \u0090 incidence or recurrence of thrombotic stroke. adVeRSe eFFectS Neutropenia (ticlopidine). TTP may be seen. Glycoprotein IIb/IIIa inhibitors Abciximab, eptifibatide, tirofiban."
+        },
+        {
+            "id": "Pharmacology_Katzung_3842",
+            "title": "Pharmacology_Katzung",
+            "content": "FIBRINOLYTIC INHIBITORS: AMINOCAPROIC ACID Aminocaproic acid (EACA), which is chemically similar to the amino acid lysine, is a synthetic inhibitor of fibrinolysis. It competitively inhibits plasminogen activation (Figure 34\u20133). It is rapidly absorbed orally and is cleared from the body by the kidney. The usual oral dosage of EACA is 6 g four times a day. When the drug is administered intravenously, a 5-g loading dose should be infused over 30 minutes to avoid hypotension. Tranexamic acid is an analog of aminocaproic acid and has the same properties. It is administered orally with a 15-mg/kg loading dose followed by 30 mg/kg every 6 hours."
+        },
+        {
+            "id": "Surgery_Schwartz_12417",
+            "title": "Surgery_Schwartz",
+            "content": "with extensive middle-cerebral-artery stroke. N Engl J Med. 2014;370(12):1091-1100. 60. Pledl HW, Hoyer C, Rausch J, et al. Decompressive hemi-craniectomy in malignant middle cerebral artery infarction: the \u2018real world\u2019 beyond studies. Eur Neurol. 2016;76(1-2): 48-56. 61. Mendelow AD, Gregson BA, Fernandes HM, et al. Early surgery versus initial conservative treatment in patients with spontaneous supratentorial intracerebral haematomas in the International Surgical Trial in Intracerebral Haemorrhage (STICH): a randomised trial. Lancet. 2005;365:387-397. 62. Fam MD, Hanley D, Stadnik A, et al. Surgical performance in minimally invasive surgery plus recombinant tissue plasmino-gen activator for intracerebral hemorrhage evacuation phase III clinical trial. Neurosurgery. 2017;81(5):860-866. 63. Molyneux A, Kerr R, Stratton I, et al. International sub-arachnoid aneurysm trial (ISAT) of neurosurgical clipping versus endovascular coiling in 2143 patients with ruptured intracranial"
+        },
+        {
+            "id": "Obstentrics_Williams_5467",
+            "title": "Obstentrics_Williams",
+            "content": "This antiibrinolytic drug has been used for traumatic and obstetrical hemorrhage. Tranexamic acid inhibits clot lysis to help forestall bleeding by preventing plasmin from degrading ibrin. Its use has been associated with a higher incidence of renal cortical necrosis (F rimat, 2016). The evidence supporting its use as an adjunct in obstetrical hemorrhage is limited, and its routine use for prophylaxis is not recommended American College of Obstetricians and Gynecologists, 2017 d; Pacheco, 2017)."
+        },
+        {
+            "id": "Gynecology_Novak_2053",
+            "title": "Gynecology_Novak",
+            "content": "Nonsurgical Management Most bleeding problems, including anovulatory bleeding, can be managed nonsurgically. Treatment with NSAIDs, such as ibuprofen and mefenamic acid, decreases menstrual \ufb02ow by 30% to 50%, but is less effective than tranexamic acid, danazol, or levonorgestrel IUD (93). Antifibrinolytics such as tranexamic acid were effective in reducing menstrual blood loss, and this indication was approved by the FDA in late 2008 (183)."
+        },
+        {
+            "id": "Obstentrics_Williams_3891",
+            "title": "Obstentrics_Williams",
+            "content": "to oxytocin (Chaudhuri, 2014; Conde-Agudelo, 2013). Finally, some recommend the use of tranexamic acid added to a standard oxytocin infusion to decrease blood loss (Simonazzi, 2016; Wang, 2015). Its antifibrinolytic action and efects on thromboembolism rates in pregnant surgical patients are unclear. Larger trials are needed before widespread use. Additional discussions of all these agents are found in Chapter 41 (p. 759)."
+        },
+        {
+            "id": "Obstentrics_Williams_5426",
+            "title": "Obstentrics_Williams",
+            "content": "Aside from these fundamental steps, few other agents have proven soundly efective. Although seemingly counterintuitive, unfractionated heparin had been recommended but has now been abandoned. Other examples include use of antiibrinolytic agents-either tranexamic acid or epsilon-aminocaproic acid (micar) (American College of Obstetricians and Gynecologists, 2017 d; Pacheco, 2017). Currently, use of these two agents is not recommended because the ibrinolytic system is necessary for dissolution of widespread ibrin thromboses caused by generalized intravascular coagulation (Hunt, 2014). Discussed later (p. 790), recombinant factor VIla (rFVIIa) has been used to help control severe obstetrical hemorrhage from other causes. However, current clinical evidence is insuicient to make irm recommendations on its administration for obstetrical coagulopathies."
+        },
+        {
+            "id": "Neurology_Adams_6907",
+            "title": "Neurology_Adams",
+            "content": "McKissock W, Paine KW, Walsh LS: An analysis of the results of treatment of ruptured intracranial aneurysms: A report of 722 consecutive cases. J Neurosurg 17:762, 1960. Mendelow AD, Gregson BA, Fernandes HM, et al: Early surgery versus initial conservative treatment in patients with spontaneous supratentorial intracerebral hematomas in the International Surgical Trial in Intracerebral Haemorrhage (STICH): A randomized trial. Lancet 365:387, 2005. Merkel PA, Koroshetz WJ, Irizarry MC, et al: Cocaine-associated cerebral vasculitis. Semin Arthritis Rheum 25:172, 1995. Metso TM, Metso AJ, Helenius J, et al: Prognosis and safety of anticoagulation in intracranial artery dissections in adults. Stroke 38:1837, 2007. Milandre L, Brosset C, Botti G, Khawl R: A study of 82 cerebral infarctions in the area of posterior cerebral arteries. Rev Neurol 150:133, 1994."
+        },
+        {
+            "id": "InternalMed_Harrison_19619",
+            "title": "InternalMed_Harrison",
+            "content": "patients with cerebral infarction who are not candidates for thrombolytic therapy, one recommended guideline is to institute antihypertensive therapy only for patients with a systolic blood pressure >220 mmHg or a diastolic blood pressure >130 mmHg. If thrombolytic therapy is to be used, the recommended goal blood pressure is <185 mmHg systolic pressure and <110 mmHg diastolic pressure. In patients with hemorrhagic stroke, suggested guidelines for initiating antihypertensive therapy are systolic >180 mmHg or diastolic pressure >130 mmHg. The management of hypertension after subarachnoid hemorrhage is controversial. Cautious reduction of blood pressure is indicated if mean arterial pressure is >130 mmHg."
+        },
+        {
+            "id": "InternalMed_Harrison_30068",
+            "title": "InternalMed_Harrison",
+            "content": "Close attention should be paid to airway management because a reduction in the level of consciousness is common and often progressive. The initial blood pressure should be maintained until the results of the CT scan are reviewed and demonstrate an intracerebral hemorrhage (ICH). In theory, a higher blood pressure should promote hematoma expansion, but it remains unclear if lowering of blood pressure reduces hematoma growth. Recent clinical trials have shown that systolic blood pressure (SBP) can be safely lowered acutely and rapidly to <140 mmHg in patients with spontaneous ICH whose initial SBP was 150\u2013220 mmHg."
+        },
+        {
+            "id": "InternalMed_Harrison_9178",
+            "title": "InternalMed_Harrison",
+            "content": "Some patients with types 2A and 2M VWD respond to DDAVP such that it can be used for minor procedures. For the other subtypes, for type 3 disease, and for major procedures requiring longer periods of normal hemostasis, VWF replacement can be given. Virally inactivated VWF-containing factor concentrates are safer than cryoprecipitate as the replacement product. Antifibrinolytic therapy using either \u03b5-aminocaproic acid or tranexamic acid is an important therapy, either alone or in an Disorders of Platelets and Vessel Wall 732 adjunctive capacity, particularly for the prevention or treatment of mucosal bleeding. These agents are particularly useful in prophylaxis for dental procedures, with DDAVP for dental extractions and tonsillectomy, menorrhagia, and prostate procedures. It is contraindicated in the setting of upper urinary tract bleeding, due to the risk of ureteral obstruction."
+        },
+        {
+            "id": "InternalMed_Harrison_30094",
+            "title": "InternalMed_Harrison",
+            "content": "Total Score Sum of each category above Note: Although an ICH Score of 6 is possible with the scale, this is rarely observed and is considered highly likely to be fatal. Abbreviations: CI, confidence interval; ICH, intracerebral hemorrhage. Sources: JC Hemphill et al: Stroke 32:891, 2001; JC Hemphill et al: Neurology 73:1088, 2009. Hematomas may expand for several hours following the initial hemorrhage, even in patients without coagulopathy. However, the precise mechanism is unclear. A phase 3 trial of treatment with recombinant factor VIIa reduced hematoma expansion; however, clinical outcomes were not improved, so use of this drug cannot be advocated at present. The theoretical risk of acutely elevated blood pressure on hematoma expansion forms the basis of the consideration for recently completed and ongoing clinical trials of acute blood pressure lowering."
+        },
+        {
+            "id": "InternalMed_Harrison_9166",
+            "title": "InternalMed_Harrison",
+            "content": "Bleeding symptoms or prevention of bleeding in patients with severe platelet dysfunction frequently requires platelet transfusion. Care is taken to limit the risk of alloimmunization by limiting exposure, using HLA-matched leuko-depleted platelet concentrates for transfusion. Platelet disorders associated with milder bleeding symptoms frequently respond to desmopressin (1-deamino-8-Darginine vasopressin [DDAVP]). DDAVP increases plasma VWF and factor VIII levels; it may also have a direct effect on platelet function. Particularly for mucosal bleeding symptoms, antifibrinolytic therapy (\u03b5-aminocaproic acid or tranexamic acid) is used alone or in conjunction with DDAVP or platelet therapy."
+        },
+        {
+            "id": "Neurology_Adams_6646",
+            "title": "Neurology_Adams",
+            "content": "administer them early, with a view of preventing a seizure-induced risk of rebleeding. Several small studies suggest they may be detrimental and we have generally avoided them unless a seizure has occurred."
+        },
+        {
+            "id": "InternalMed_Harrison_30092",
+            "title": "InternalMed_Harrison",
+            "content": "Although about 40% of patients with a hypertensive ICH die, others have a good to complete recovery if they survive the initial hemorrhage. The ICH Score (Table 446-7) is a validated clinical grading scale that is useful for stratification of mortality risk and clinical outcome. Any identified coagulopathy should be corrected as soon as possible. For patients taking VKAs, rapid correction of coagulopathy can be achieved by infusing prothrombin complex concentrates (PCC), which can be administered quickly, with vitamin K administered concurrently. Fresh frozen plasma is an alternative but generally requires larger fluid volumes and longer time to achieve adequate reversal than PCC. There is no effective antidote to ICH associated with oral thrombin inhibitor dabigatran, although FEIBA (factor VIII inhibitor bypassing activity) and recombinant factor VIIa have been tried in individual cases. PCC may partially reverse the effects of oral factor Xa inhibitors and are reasonable to"
+        }
+    ],
+    "scores": [
+        0.02771164021164021,
+        0.027540221008110155,
+        0.026415042884219427,
+        0.02636924406726387,
+        0.02636568978288767,
+        0.0253382090575044,
+        0.02449659108926589,
+        0.023932500597837657,
+        0.02255332390337212,
+        0.021700927215679653,
+        0.020190887105122002,
+        0.019779784970448726,
+        0.019360143221828066,
+        0.018957771787960466,
+        0.01879964695498676,
+        0.018653479090751345,
+        0.018302230802230802,
+        0.018265221017514596,
+        0.018129614438063987,
+        0.017838819164890676,
+        0.017740429505135387,
+        0.01761642156862745,
+        0.017542515703998774,
+        0.01715542521994135,
+        0.017078071182548796,
+        0.01692624991110163,
+        0.01639784946236559,
+        0.016394544110730366,
+        0.01631124650926631,
+        0.01630151278038602,
+        0.016133229247983348,
+        0.015858324077502158
+    ]
+}

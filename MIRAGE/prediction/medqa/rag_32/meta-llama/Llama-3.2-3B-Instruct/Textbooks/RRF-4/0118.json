@@ -1,0 +1,208 @@
+{
+    "id": "0118",
+    "question": "A 56-year-old man comes to the clinic for a check-up. He presents with a 1-year history of worsening shortness of breath and weight loss. He is a former construction worker, and worked in a steel mill when he was in high school. He is an active smoker with a 36-pack-year smoking history. The blood pressure is 130/78 mm Hg, pulse rate is 90/min, respiratory rate is 17/min, and the BMI is 31 kg/m2. The patient is afebrile and the oxygen saturation at rest is 95% on room air. The pulmonary examination reveals a mildly prolonged expiratory phase, and no wheezing or crackles are auscultated. A pulmonary function test is recommended for the patient, and 2 weeks later he returns with a report that shows an FEV1/FVC ratio of 60% and FEV1 of 50% of the predicted value. The lung volumes show a total lung capacity of 110% of predicted value, a residual volume of 115% of predicted value, and a DLCO of 60% of predicted value. Which of the following is the most likely diagnosis?",
+    "options": {
+        "A": "Asbestosis",
+        "B": "Idiopathic pulmonary fibrosis",
+        "C": "Bronchiectasis",
+        "D": "Chronic obstructive pulmonary disease"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To determine the most likely diagnosis for the patient, let's analyze the provided information step by step.\\n\\nThe patient has a 1-year history of worsening shortness of breath and weight loss, which are common symptoms of chronic respiratory diseases.\\n\\nThe patient's smoking history of 36-pack-year is a significant risk factor for chronic obstructive pulmonary disease (COPD) and other lung diseases.\\n\\nThe pulmonary function test results show a reduced FEV1/FVC ratio of 60%, indicating airflow limitation, and a reduced FEV1 of 50% of the predicted value. This is consistent with obstructive lung disease.\\n\\nThe lung volumes show an increased total lung capacity (TLC) and residual volume (RV), which is a hallmark of air trapping and hyperinflation, characteristic of COPD.\\n\\nThe DLCO of 60% of predicted value indicates impaired gas exchange, which is also consistent with COPD.\\n\\nConsidering these findings, the most likely diagnosis is chronic obstructive pulmonary disease (COPD).\\n\\nNow, let's evaluate the options:\\nA. Asbestosis: Asbestosis is a type of interstitial lung disease caused by asbestos exposure, which would not explain the patient's airflow limitation and hyperinflation.\\nB. Idiopathic pulmonary fibrosis: IPF is an interstitial lung disease characterized by scarring and fibrosis, which would not be indicated by the patient's lung volumes and DLCO.\\nC. Bronchiectasis: Bronchiectasis is a condition characterized by damaged airways and chronic cough, which would not explain the patient's primary symptoms of shortness of breath and weight loss.\\nD. Chronic obstructive pulmonary disease (COPD): As discussed, the patient's symptoms, lung volumes, and DLCO are consistent with COPD.\\n\\nAnswer: D.\", \"answer_choice\": \"D\"}}",
+    "snippets": [
+        {
+            "id": "Physiology_Levy_2538",
+            "title": "Physiology_Levy",
+            "content": "Fig. 22.3A ) or as a flow-volume curve/ loop ( Fig. 22.3B ). Results from individuals with suspected lung disease are compared with results predicted from normal healthy volunteers. Predicted or normal values vary with age, sex, ethnicity, height, and to a lesser extent, weight ( Table 22.1 ). Abnormalities in values indicate abnormal pulmonary function and can be used to predict abnormalities in gas exchange. These values can detect the presence of abnormal lung function long before respiratory symptoms develop, and they can be used to determine disease severity and the response to therapy. The Spirogram A spirogram displays the volume of gas exhaled as a function of time (see Fig. 22.3A ) and measures: (1) forced vital capacity (FVC), (2) forced expiratory volume in 1 second (FEV1), (3) the ratio of FEV1 to FVC (FEV1/ FVC), and (4) the average midmaximal expiratory flow (FEF25-75)."
+        },
+        {
+            "id": "InternalMed_Harrison_19945",
+            "title": "InternalMed_Harrison",
+            "content": "Spirometry with symmetric decreases in FEV1 and FVC warrants further testing, including measurement of lung volumes and the diffusion capacity of the lung for carbon monoxide (DLCO). A total lung capacity <80% of the predicted value for a patient\u2019s age, race, sex, and height defines restrictive pathophysiology. Restriction can result from parenchymal disease, neuromuscular weakness, or chest wall or pleural diseases. Restriction with impaired gas exchange, as indicated by a decreased DLCO, suggests parenchymal lung disease. Additional testing, such as measurements of maximal expiratory pressure and maximal inspiratory pressure, can help diagnose neuromuscular weakness. Normal spirometry, normal lung volumes, and a low DLCO should prompt further evaluation for pulmonary vascular disease."
+        },
+        {
+            "id": "InternalMed_Harrison_20122",
+            "title": "InternalMed_Harrison",
+            "content": "The diagnosis of asthma is usually apparent from the symptoms of variable and intermittent airways obstruction, but must be confirmed by objective measurements of lung function. Lung Function Tests Simple spirometry confirms airflow limitation with a reduced FEV1, FEV1/FVC ratio, and PEF (Fig. 309-6). Reversibility is demonstrated by a >12% and 200-mL increase in FEV1 15 min after an inhaled short-acting \u03b22-agonist or in some patients by a 2to 4-week trial of oral corticosteroids (OCS) (prednisone or prednisolone 30\u201340 mg daily). Measurements of PEF twice daily may confirm the diurnal variations in airflow obstruction. Flow-volume loops show reduced peak flow and reduced maximum expiratory flow. Further lung function tests are rarely necessary, but whole-body plethysmography shows increased airway resistance and may show increased total lung capacity and residual volume. Gas diffusion is usually normal, but there may be a small increase in gas transfer in some patients."
+        },
+        {
+            "id": "InternalMed_Harrison_19944",
+            "title": "InternalMed_Harrison",
+            "content": "Pulmonary Function Testing (See also Chap. 307) The initial pulmonary function test obtained is spirometry. This study is an effort-dependent test used to assess for obstructive pathophysiology as seen in asthma, COPD, and bronchiectasis. A diminished-forced expiratory volume in 1 sec (FEV1)/forced vital capacity (FVC) (often defined as <70% of the predicted value) is diagnostic of obstruction. In addition to measuring FEV1 and FVC, the clinician should examine the flow-volume loop (which is effort-independent). A plateau of the inspiratory and expiratory curves suggests large-airway obstruction in extrathoracic and intrathoracic locations, respectively."
+        },
+        {
+            "id": "First_Aid_Step2_1059",
+            "title": "First_Aid_Step2",
+            "content": "Presents with cough, episodic wheezing, dyspnea, and/or chest tightness. Symptoms often worsen at night or early in the morning. Exam reveals wheezing, prolonged expiratory duration (\u2193 I/E ratio), accessory muscle use, tachypnea, tachycardia, \u2193 breath sounds (late sign), \u2193O2 saturation (late sign), hyperresonance, and possible pulsus paradoxus. \u25a0ABGs: Mild hypoxia and respiratory alkalosis. Normalizing PCO2, respiratory acidosis, and more severe hypoxia in an acute exacerbation warrant close observation, as they may indicate fatigue and impending respiratory failure. F IGU R E 2.1 5-1. Lung volumes in the interpretation of pulmonary function tests. (Reproduced, with permission, from Gomella LG et al. Clinician\u2019s Pocket Reference, 11th ed. New York: McGraw-Hill, 2006: Fig. 18-1.) T AB LE 2.1 5-1. Obstructive vs. Restrictive Lung Diseasea a FEV1 = forced expiratory volume in one second; FVC = forced vital capacity."
+        },
+        {
+            "id": "Surgery_Schwartz_4662",
+            "title": "Surgery_Schwartz",
+            "content": "of FEV1 in assessing the patient\u2019s ability to tolerate pulmonary resection are as follows: greater than 2.0 L can tolerate pneumo-nectomy, and greater than 1.5 L can tolerate lobectomy. It must be emphasized that these are guidelines only. It is also important to note that the raw value is often imprecise because normal values are reported as \u201cpercent predicted\u201d based on corrections made for age, height, and gender. For example, a raw FEV1 value of 1.3 L in a 62-year-old, 75-inch (190-cm) male has a percent predicted value of 30% (because the normal expected value is 4.31 L); in a 62-year-old, 62-inch female, the predicted value is 59% (normal expected value 2.21 L). The male patient is at high risk for lobectomy, while the female could potentially tolerate pneumonectomy.To calculate the predicted postoperative value for FEV1 or Dlco, the percent predicted value of FEV1 or Dlco is mul-tiplied by the fraction of remaining lung after the proposed sur-gery. For example, with a planned"
+        },
+        {
+            "id": "InternalMed_Harrison_19985",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 306e Flow Volume Flow Volume Flow Volume Flow Volume Flow Volume FIguRE 306e-6 Common abnormalities of pulmonary function (see text). Pulmonary function values are expressed as a percentage of normal predicted values, except for Raw, which is expressed as cmH2O/L per sec (normal, <2 cmH2O/L per second). The figures at the bottom of each column show the typical configuration of flow-volume loops in each condition, including the flow-volume relationship during tidal breathing. b.d., bronchodilator; DL co, diffusion capacity of lung for carbon monoxide; FEV1, forced expiratory volume in 1 sec; FRC, functional residual capacity; FVC, forced vital capacity; Raw, airways resistance; RV, residual volume; TLC, total lung capacity. physiologic abnormalities may or may not provide sufficient information by which to discriminate among conditions."
+        },
+        {
+            "id": "InternalMed_Harrison_20414",
+            "title": "InternalMed_Harrison",
+            "content": "The hallmark of COPD is airflow obstruction (discussed above). Pulmonary function testing shows airflow obstruction with a reduction in FEV1 and FEV1/FVC (Chap. 306e). With worsening disease severity, lung volumes may increase, resulting in an increase in total lung capacity, functional residual capacity, and residual volume. In patients with emphysema, the diffusing capacity may be reduced, reflecting the lung parenchymal destruction characteristic of the disease. The degree of airflow obstruction is an important prognostic factor in COPD and is the basis for the Global Initiative for Lung Disease (GOLD) severity classification (Table 314-1). More recently it has been shown that a multifactorial index incorporating airflow obstruction, exercise performance, dyspnea, and body mass index is a better predictor of mortality rate than pulmonary function alone. In 2011, the GOLD added an additional classification system incorporating symptoms and exacerbation history; the utility of this"
+        },
+        {
+            "id": "InternalMed_Harrison_20000",
+            "title": "InternalMed_Harrison",
+            "content": "the value for expiratory reserve volume, respectively (both values having been obtained during spirometry) (Fig. 306e-2). The most important determinants of healthy individuals\u2019 lung volumes are height, age, and sex, but there is considerable additional normal variation beyond that accounted for by these parameters. In addition, race influences lung volumes; on average, TLC values are ~12% lower in African Americans and 6% lower in Asian Americans than in Caucasian Americans. In practice, a mean \u201cnormal\u201d value is predicted by multivariate regression equations using height, age, and sex, and the patient\u2019s value is divided by the predicted value (often with \u201crace correction\u201d applied) to determine \u201cpercent predicted.\u201d For most measures of lung function, 85\u2013115% of the predicted value can be normal; however, in health, the various lung volumes tend to scale together. For example, if one is \u201cnormal big\u201d with a TLC 110% of the predicted value, then all other lung volumes and spirometry"
+        },
+        {
+            "id": "InternalMed_Harrison_20002",
+            "title": "InternalMed_Harrison",
+            "content": "Air FLow As noted above, spirometry plays a key role in lung volume determination. Even more often, spirometry is used to measure airflow, which reflects the dynamic properties of the lung. During an FVC maneuver, the patient inhales to TLC and then exhales rapidly and forcefully to RV; this method ensures that flow limitation has been achieved, so that the precise effort made has little influence on actual flow. The total amount of air exhaled is the FVC, and the amount of air exhaled in the first second is the FEV1; the FEV1 is a flow rate, revealing volume change per time. Like lung volumes, an individual\u2019s maximal expiratory flows should be compared with predicted values based on height, age, and sex. While the FEV1/FVC ratio is typically reduced in airflow obstruction, this condition can also reduce FVC by raising RV, sometimes rendering the FEV1/FVC ratio \u201cartifactually normal\u201d with the erroneous implication that airflow obstruction is absent. To circumvent this problem, it is"
+        },
+        {
+            "id": "InternalMed_Harrison_639",
+            "title": "InternalMed_Harrison",
+            "content": "12. 13. 14. Spirometry threshold before lung resection a. FEV1 <2 L b. MVV <50% of predicted c. PEF <100 L or 50% predicted value d. PCO2 \u226545 mmHg e. PO2 \u226450 mmHg Abbreviations: FEV1, forced expiratory volume in 1 s; MVV, maximal voluntary ventilation; PEF, peak expiratory flow rate; PCO2, partial pressure of carbon dioxide; PO2, partial pressure of oxygen. Source: A Qaseem et al: Ann Intern Med 144:575-80. Modified from GW Smetana et al: Ann Intern Med 144:581, 2006, and from DN Mohr et al: Postgrad Med 100:247, 1996. \u2022 Cessation of smoking for at least 8 weeks before and until at least 10 days bronchodilator and/or steroid therapy, when indicated of infection and secretion, when indicated reduction, when appropriate duration of anesthesia of long-acting neuromuscular blocking drugs, when indicated of aspiration and maintenance of optimal bronchodilation \u2022 Optimization of inspiratory capacity maneuvers, with attention to: Mobilization of secretions"
+        },
+        {
+            "id": "InternalMed_Harrison_20392",
+            "title": "InternalMed_Harrison",
+            "content": "% of Population (FEV1) values in a general population sample, stratified by pack-years of smoking. Means, medians, and \u00b11 standard deviation of percent predicted FEV1 are shown for each smoking group. Although a dose-response relationship between smoking intensity and FEV1 was found, marked variability in pulmonary function was observed among subjects with similar smoking histories. (From B Burrows et al: Am Rev Respir Dis 115:95, 1977; with permission.) of years of smoking). This dose-response relationship between reduced pulmonary function and cigarette smoking intensity accounts for the higher prevalence rates of COPD with increasing age. The historically higher rate of smoking among males is the likely explanation for the higher prevalence of COPD among males; however, the prevalence of COPD among females is increasing as the gender gap in smoking rates has diminished in the past 50 years."
+        },
+        {
+            "id": "Surgery_Schwartz_4663",
+            "title": "Surgery_Schwartz",
+            "content": "predicted postoperative value for FEV1 or Dlco, the percent predicted value of FEV1 or Dlco is mul-tiplied by the fraction of remaining lung after the proposed sur-gery. For example, with a planned right upper lobectomy, a total of three segments will be removed. Therefore, three of a total 20 segments will leave the patient with (20 \u2013 3/20) \u00d7 100 = 85% of their original lung capacity. In the two patients mentioned ear-lier, the man will have a predicted postoperative FEV1 of 30% \u00d7 0.85 = 25%, whereas the woman will have a predicted postop-erative FEV1 of 50%. Percent predicted value of less than 50% for either FEV1 or Dlco correlates with risk for postoperative complications, particularly pulmonary complications; the risk of complications increases in a stepwise fashion for each 10% decline. Figure 19-22 shows the relationship between predicted postoperative Dlco and estimated operative mortality.Quantitative perfusion scanning is used in select circum-stances to help estimate the"
+        },
+        {
+            "id": "InternalMed_Harrison_20167",
+            "title": "InternalMed_Harrison",
+            "content": "Clinical Features Patients are aware of increasing chest tightness, wheezing, and dyspnea that are often not or poorly relieved by their usual reliever inhaler. In severe exacerbations, patients may be so breathless that they are unable to complete sentences and may become cyanotic. Examination usually shows increased ventilation, hyperinflation, and tachycardia. Pulsus paradoxus may be present, but this is rarely a useful clinical sign. There is a marked fall in spirometric values and PEF. Arterial blood gases on air show hypoxemia, and PCO2 is usually low due to hyperventilation. A normal or rising PCO2 is an indication of impending respiratory failure and requires immediate monitoring and therapy. A chest roentgenogram is not usually informative but may show pneumonia or pneumothorax."
+        },
+        {
+            "id": "InternalMed_Harrison_25373",
+            "title": "InternalMed_Harrison",
+            "content": "Pulmonary involvement can remain asymptomatic until it is advanced. The most common presenting respiratory symptoms\u2014 exertional dyspnea, fatigue, and reduced exercise tolerance\u2014are subtle and slowly progressive. A chronic dry cough may be present. Physical examination may reveal \u201cVelcro\u201d crackles at the lung bases. Pulmonary function testing (PFT) is a sensitive method for detecting early pulmonary involvement. The most common abnormalities are reductions in FVC, total lung capacity (TLC), and DLco. A reduction in DLcothatis significantly out of proportion to the reduction in lung volumes should raise suspicion for pulmonary vascular disease, but may also be due to anemia. Oxygen desaturation with exercise is common."
+        },
+        {
+            "id": "Surgery_Schwartz_4672",
+            "title": "Surgery_Schwartz",
+            "content": ">80% predictedFEV1 <1.5 L lobectomyFEV1 <2 L pneumonectomyFEV1 <80% predictedYesNoDLCO >80%predictedDLCO <80%predicted%ppo FEV1 and%ppo DLCO >40%ppo FEV1 or%ppo DLCO <40%ppo FEV1 <30 or%ppo FEV1 x%ppo DLCO <1650Measure DLCOAverage riskIncreased riskFigure 19-24. Algorithm for preoperative evaluation of pulmonary function and reserve prior to resectional lung surgery. CPET = cardiopulmonary exercise test; CT = computed tomographic scan; CXR = chest radiograph; Dlco = carbon monoxide diffusion capacity; FEV1 = forced expiratory volume in 1 second; %ppo = percent predicted postoperative lung function; V.o2max = maximum oxygen consumption. (Modified with permission from Colice GL, Shafazand S, Griffin JP: Physiologic evaluation of the patient with lung cancer being considered for resectional surgery: ACCP evidenced-based clinical practice guidelines (2nd edition), Chest. 2007 Sep;132(3 Suppl):161S-177S.44)Brunicardi_Ch19_p0661-p0750.indd 69401/03/19 7:01 PM"
+        },
+        {
+            "id": "InternalMed_Harrison_2763",
+            "title": "InternalMed_Harrison",
+            "content": "If a patient has evidence of both pulmonary and cardiac disease, a cardiopulmonary exercise test should be carried out to determine which system is responsible for the exercise limitation. If, at peak exercise, the patient achieves predicted maximal ventilation, demonstrates an increase in dead space or hypoxemia, or develops bronchospasm, the respiratory system is probably the cause of the problem. Alternatively, if the heart rate is >85% of the predicted maximum, if the anaerobic threshold occurs early, if the blood pressure becomes excessively high or decreases during exercise, if the O2 pulse (O2 consumption/heart rate, an indicator of stroke volume) falls, or if there are ischemic changes on the electrocardiogram, an abnormality of the cardiovascular system is likely the explanation for the breathing discomfort. PART 2 Cardinal Manifestations and Presentation of Diseases"
+        },
+        {
+            "id": "InternalMed_Harrison_20474",
+            "title": "InternalMed_Harrison",
+            "content": "(Chap. 306e). Forced expiratory volume in 1 second (FEV1) and forced vital capacity (FVC) are reduced, but these changes are related to the decreased TLC. The FEV1/FVC ratio is usually normal or increased. Lung volumes decrease as lung stiffness worsens with disease progression. A few disorders produce interstitial opacities on chest x-ray and obstructive airflow limitation on lung function testing (uncommon in sarcoidosis and hypersensitivity pneumonitis but common in tuberous sclerosis and LAM). Pulmonary function studies have been proved to have prognostic value in patients with idiopathic interstitial pneumonias, particularly IPF and nonspecific interstitial pneumonia (NSIP)."
+        },
+        {
+            "id": "Pediatrics_Nelson_2894",
+            "title": "Pediatrics_Nelson",
+            "content": "Measurement of lung volumes and airflow rates using spirometry are important in assessing pulmonary disease. The patient inhales to TLC and then forcibly exhales until no more air can be expelled. During the forced expiratory maneuver, forced vital capacity (FVC), forced expired volume in the first second (FEV1), and forced expiratory flow (FEF) rates are measured. These are compared to predicted values based on patient age, gender, and race, but rely mostly on height. Most children above 6 years of age can perform spirometry. Infant pulmonary function testing is possible, using sedation and sophisticated equipment. Airway resistance, FRC, and RV cannot be measured with spirometry and require other techniques, such as body plethysmography. Helium dilution can also measure TLC and RV by determining the magnitude of dilution of inhaled helium in the air within the lung, but may underestimate air trapping."
+        },
+        {
+            "id": "InternalMed_Harrison_20386",
+            "title": "InternalMed_Harrison",
+            "content": "Lung volumes are also routinely assessed in pulmonary function testing. In COPD there is often \u201cair trapping\u201d (increased residual volume and increased ratio of residual volume to total lung capacity) and progressive hyperinflation (increased total lung capacity) late in the disease. Hyperinflation of the thorax during tidal breathing preserves maximum expiratory airflow, because as lung volume increases, elastic recoil pressure increases, and airways enlarge so that airway resistance decreases."
+        },
+        {
+            "id": "Surgery_Schwartz_4826",
+            "title": "Surgery_Schwartz",
+            "content": "blood via the airway within 1 day is significant, yet use of an abso-lute volume criterion presents difficulties. First, it is difficult for the patient or caregivers to quantify the volume of blood being lost. Second, and most relevant, the rate of bleeding nec-essary to incite respiratory compromise is highly dependent on the individual\u2019s prior respiratory status. For example, the loss of 100 mL of blood over 24 hours in a 40-year-old male with normal pulmonary function would be of little immediate con-sequence, because his normal cough would ensure his ability to clear the blood and secretions. In contrast, the same amount of bleeding in a 69-year-old male with severe COPD, chronic bronchitis, and an FEV1 of 1.1 L may be life-threatening.Anatomy. The lungs have two sources of blood supply: the pulmonary and bronchial arterial systems. The pulmonary sys-tem is a high-compliance, low-pressure system, and the walls of the pulmonary arteries are very thin and delicate. The bronchial"
+        },
+        {
+            "id": "InternalMed_Harrison_20435",
+            "title": "InternalMed_Harrison",
+            "content": "Lung Volume Reduction Surgery (LVRS) Surgery to reduce the volume of lung in patients with emphysema was first introduced with minimal success in the 1950s and was reintroduced in the 1990s. Patients are excluded if they have significant pleural disease, a pulmonary artery systolic pressure >45 mmHg, extreme deconditioning, congestive heart failure, or other severe comorbid conditions. Patients with an FEV1 <20% of predicted and either diffusely distributed emphysema on CT scan or diffusing capacity of lung for carbon monoxide (DLCO) <20% of predicted have an increased mortality rate after the procedure and thus are not candidates for LVRS."
+        },
+        {
+            "id": "Pharmacology_Katzung_1243",
+            "title": "Pharmacology_Katzung",
+            "content": "Tadalafil Cialis, Adcirca Cilostazol Generic, Pletal Pentoxifylline Generic, Trental Bertram G. Katzung, MD, PhD* A 55-year-old man noticed shortness of breath with exer-tion while on a camping vacation in a national park. He has a 15-year history of poorly controlled hypertension. The shortness of breath was accompanied by onset of swelling of the feet and ankles and increasing fatigue. On physical examination in the clinic, he is found to be mildly short of breath lying down but feels better sitting upright. Pulse is 100 bpm and regular, and blood pressure is 165/100 mm Hg. Crackles are noted at both lung bases, and his jugular venous pressure is elevated. The liver is enlarged, and there is 3+ edema of the ankles and feet. An echocardiogram shows an enlarged, poorly contracting heart with a left ven-tricular ejection fraction of about 30% (normal: 60%). The presumptive diagnosis is stage C, class III heart failure with reduced ejection fraction. What treatment is indicated?"
+        },
+        {
+            "id": "Pharmacology_Katzung_2624",
+            "title": "Pharmacology_Katzung",
+            "content": "Helge Eilers, MD, & Spencer Yost, MD An elderly man with type 2 diabetes mellitus and ischemic pain in the lower extremity is scheduled for femoral-to-popliteal artery bypass surgery. He has a history of hyper-tension and coronary artery disease with symptoms of stable angina. He can walk only half a block before pain in his legs forces him to stop. He has a 50-pack-year smoking history but stopped 2 years ago. Medications include atenolol, atorvastatin, and hydrochlorothiazide. The nurse in the preoperative holding area obtains the following vital signs: temperature 36.8\u00b0C (98.2\u00b0F), blood pressure 168/100 mm Hg, heart rate 78 bpm, oxygen saturation by pulse oximeter 96% while breathing room air, and pain 5/10 in the right lower leg after walking into the hospital. What anesthetic agents will you choose for his anesthetic plan? Why? Does the choice of anesthetic make a difference?"
+        },
+        {
+            "id": "Pharmacology_Katzung_5216",
+            "title": "Pharmacology_Katzung",
+            "content": "Camille E. Beauduy, PharmD, & Lisa G. Winston, MD* A 60-year-old man presents to the emergency department with a 2-month history of fatigue, weight loss (10 kg), fevers, night sweats, and a productive cough. He is currently living with friends and has been intermittently homeless, spending time in shelters. He reports drinking about 6 beers per day. In the emergency department, a chest x-ray shows a right apical infiltrate. Given the high suspicion for pulmonary tuberculosis, the patient is placed in respiratory isolation. His first sputum smear shows many acid-fast bacilli, and an HIV test returns with a positive result. What drugs should be started for treatment of presumptive pulmonary tubercu-losis? Does the patient have a heightened risk of developing medication toxicity? If so, which medication(s) would be likely to cause toxicity?"
+        },
+        {
+            "id": "InternalMed_Harrison_201",
+            "title": "InternalMed_Harrison",
+            "content": "The following three brief scenarios of a patient with hemoptysis demonstrate three distinct patterns: A 46-year-old man presents to his internist with a chief complaint of hemoptysis. An otherwise healthy nonsmoker, he is recovering from an apparent viral bronchitis. This presentation pattern suggests that the small amount of blood-streaked sputum is due to acute bronchitis, so that a chest x-ray provides sufficient reassurance that a more serious disorder is absent. In the second scenario, a 46-year-old patient who has the same chief complaint but with a 100-pack-year smoking history, a productive morning cough, and episodes of blood-streaked sputum fits the pattern of carcinoma of the lung. Consequently, along with the chest x-ray, the physician obtains a sputum cytology examination and refers this patient for a chest computed tomography (CT) scan."
+        },
+        {
+            "id": "Pharmacology_Katzung_4939",
+            "title": "Pharmacology_Katzung",
+            "content": "A 45-year-old man is brought to the local hospital emer-gency department by ambulance. His wife reports that he had been in his normal state of health until 3 days ago when he developed a fever and a productive cough. Dur-ing the last 24 hours he has complained of a headache and is increasingly confused. His wife reports that his medical history is significant only for hypertension, for which he takes hydrochlorothiazide and lisinopril, and that he is allergic to amoxicillin. She says that he developed a rash many years ago when prescribed amoxicillin for bron-chitis. In the emergency department, the man is febrile (38.7\u00b0C [101.7\u00b0F]), hypotensive (90/54 mmHg), tachypneic (36/min), and tachycardic (110/min). He has no signs of meningismus but is oriented only to person. A stat chest x-ray shows a left lower lung consolidation consistent with pneumonia. A CT scan is not concerning for lesions or elevated intracranial pressure. The plan is to start empiric antibiotics and perform a"
+        },
+        {
+            "id": "Anatomy_Gray_562",
+            "title": "Anatomy_Gray",
+            "content": "A 53-year-old man presented to the emergency department with a 5-hour history of sharp pleuritic chest pain and shortness of breath. The day before he was on a long haul flight, returning from his holidays. He was usually fit and well and was a keen mountain climber. He had no previous significant medical history. On physical examination his lungs were clear, he was tachypneic at 24/min, and his saturation was reduced to 92% on room air. Pulmonary embolism was suspected and the patient was referred for a CT pulmonary angiogram. The study demonstrated clots within the right and left main pulmonary arteries. There was no pleural effusion, lung collapse, or consolidation. He was immediately started on subcutaneous enoxaparin and converted to oral anticoagulation over the course of a couple of days. The whole treatment lasted 6 months as no other risk factors (except immobilization during a long haul flight) were identified. There were no permanent sequelae."
+        },
+        {
+            "id": "Pharmacology_Katzung_4629",
+            "title": "Pharmacology_Katzung",
+            "content": "A 66-year-old obese Caucasian man presented to an academic Diabetes Center for advice regarding his diabetes treatment. His diabetes was diagnosed 10 years previously on routine testing. He was initially given metformin but when his control deteriorated, the metformin was stopped and insulin treatment initiated. The patient was taking 50 units of insulin glargine and an average of 25 units of insulin aspartate pre-meals. He had never seen a diabetes educator or a dietitian. He was checking his glucose levels 4 times a day. He was smoking half a pack of cigarettes a day. On examination, his weight was 132 kg (BMI 39.5); blood pressure 145/71; and signs of mild peripheral neuropathy were present. Laboratory tests noted an HbA1c value of 8.1%, urine albumin 3007 mg/g creatinine (normal <30), serum creatinine 0.86 mg/dL (0.61\u20131.24), total choles-terol 128 mg/dL, triglycerides 86 mg/dL, HDL cholesterol 38 mg/dL, and LDL cholesterol 73 mg/dL (on atorvastatin 40 mg daily). How would you"
+        },
+        {
+            "id": "InternalMed_Harrison_20003",
+            "title": "InternalMed_Harrison",
+            "content": "can also reduce FVC by raising RV, sometimes rendering the FEV1/FVC ratio \u201cartifactually normal\u201d with the erroneous implication that airflow obstruction is absent. To circumvent this problem, it is useful to compare FEV1 as a fraction of its predicted value with TLC as a fraction of its predicted value. In health, the results are usually similar. In contrast, even an FEV1 value that is 95% of its predicted value may actually be relatively low if TLC is 110% of its respective predictied value. In this case, airflow obstruction may be present, despite the \u201cnormal\u201d value for FEV1."
+        },
+        {
+            "id": "Pharmacology_Katzung_1006",
+            "title": "Pharmacology_Katzung",
+            "content": "Neal L. Benowitz, MD A 35-year-old man presents with a blood pressure of 150/95 mm Hg. He has been generally healthy, is sedentary, drinks several cocktails per day, and does not smoke cigarettes. He has a family history of hypertension, and his father died of a myocardial infarction at age 55. Physical examination is remarkable only for moderate obesity. Total cholesterol is 220, and high-density lipoprotein (HDL) cholesterol level is 40 mg/dL. Fasting glucose is 105 mg/dL. Chest X-ray is normal. Electrocardiogram shows left ven-tricular enlargement. How would you treat this patient?"
+        },
+        {
+            "id": "Pathology_Robbins_3042",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 13.7 Pulmonaryemphysema.Thereismarkedenlargementoftheairspaces,withdestructionofalveolarseptabutwithoutfibrosis.Notethepresenceofblackanthracoticpigment. http://ebooksmedicine.net Dyspnea usually is the first symptom; it begins insidiously but is steadily progressive. In patients with underlying chronic bronchitis or chronic asthmatic bronchitis, cough and wheezing may be the initial complaints. Weight loss is common and may be severe enough to suggest an occult malignant tumor. Pulmonary function tests reveal reduced FEV1 with normal or near-normal FVC. Hence, the FEV1 to FVC ratio is reduced."
+        }
+    ],
+    "scores": [
+        0.0350967572947771,
+        0.033058240498034075,
+        0.03053111062427922,
+        0.02986697341160354,
+        0.029694232774122704,
+        0.027707130459424037,
+        0.02761602749548748,
+        0.024625194454416466,
+        0.024428508105369808,
+        0.024300453139938116,
+        0.023915791209093158,
+        0.023899094023345745,
+        0.02262938597375777,
+        0.022167506636402108,
+        0.02215919972564058,
+        0.021847829619278617,
+        0.021821059935814034,
+        0.020633964494351377,
+        0.02047984315426176,
+        0.020329077142533084,
+        0.020272348574180993,
+        0.019703293869315804,
+        0.019334952363160844,
+        0.018967997123336928,
+        0.018575851393188854,
+        0.018520848835003864,
+        0.017246506095747842,
+        0.017220990391722098,
+        0.016802587176602924,
+        0.01670843776106934,
+        0.016609706083390293,
+        0.01641641641641642
+    ]
+}

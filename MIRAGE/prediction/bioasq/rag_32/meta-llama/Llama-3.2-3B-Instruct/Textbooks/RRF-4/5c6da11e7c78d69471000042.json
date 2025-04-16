@@ -1,0 +1,206 @@
+{
+    "id": "5c6da11e7c78d69471000042",
+    "question": "Are there tools for reviewing variant calls?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the relevant documents. Document [7] (Title: InternalMed_Harrison) mentions that there are tools for reviewing variant calls, specifically MuSiC, MutSigCV, and OncodriveFM. These tools are used to annotate clinical phenotypes to variants observed in cancer genomes. Additionally, Document [18] (Title: Surgery_Schwartz) mentions the NCI Center for Cancer Genomics (CCG) and the Catalogue of Somatic Mutations in Cancer (COSMIC), which provide tools for users to interact with the GDC data and provide their own data. Furthermore, Document [20] (Title: InternalMed_Harrison) mentions the use of next-generation sequencing (NGS) techniques for rapidly and accurately obtaining a patient's predominant mtDNA sequence and detecting single-nucleotide heteroplasmy. Document [26] (Title: InternalMed_Harrison) also mentions the HapMap, which describes the nature and location of SNP haplotypes and how they are distributed among individuals within and among populations. This information can be used to review variant calls. Therefore, the answer to the question is that there are indeed tools for reviewing variant calls.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_2379",
+            "title": "Cell_Biology_Alberts",
+            "content": "Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors When we compare the sequences of multiple human genomes, we find that any two individuals will differ in roughly 1 nucleotide pair in 1000. Most of these variations are common and relatively harmless. When two sequence variants coexist in the population and both are common, the variants are called polymorphisms. The majority of polymorphisms are due to the substitution of a single nucleotide, called single-nucleotide polymorphisms or SNPs (Figure 8\u201350). The rest are due largely to insertions or deletions\u2014called indels when the change is small, or copy number variations (CNVs) when it is large. Although these common variants can be found throughout the genome, they are not scattered randomly\u2014or even independently. Instead, they tend to travel in groups called haplotype blocks\u2014combinations of polymorphisms that are inherited as a unit."
+        },
+        {
+            "id": "InternalMed_Harrison_5023",
+            "title": "InternalMed_Harrison",
+            "content": "VUS are another limitation to genetic testing. A VUS (also termed unclassified variant) is a sequence variation in a gene where the effect of the alteration on the function of the protein is not known. Many of these variants are single nucleotide substitutions (also called missense mutations) that result in a single amino acid change. Although many VUSs will ultimately be reclassified as benign polymorphisms, some will prove to be functionally important. As more genes are sequenced (for example, in a multiplex panel or through WES), the percentage of individuals found to have a VUS increases significantly. The finding of a VUS is difficult for patients and providers alike and complicates decisions regarding medical management."
+        },
+        {
+            "id": "InternalMed_Harrison_29614",
+            "title": "InternalMed_Harrison",
+            "content": "There is optimism that complex genetic disorders, caused by combinations of both genetic and environmental factors, have now become tractable problems. Genome-wide association studies (GWAS) have been carried out in many complex neurologic disorders, with many hundreds of variants identified, nearly all of which confer only a small increment in disease risk (1.15to 1.5-fold). GWAS studies are rooted in the \u201ccommon disease, common variant\u201d hypothesis, as they examine potential risk alleles that are relatively frequent (e.g. >5%) in the general population. More than 1500 GWAS studies have been carried out, with notable successes such as the identification of 110 risk alleles for multiple sclerosis (Chap. 458). Furthermore, using bioinformatics tools, risk variants can be aligned in functional biologic pathways to identify novel pathogenic mechanisms as well as to reveal heterogeneity (e.g., different pathways in different individuals). Despite these successes, many experienced"
+        },
+        {
+            "id": "InternalMed_Harrison_4958",
+            "title": "InternalMed_Harrison",
+            "content": "variations (CNVs) are disease causing (pathogenic) and which are likely benign polymorphisms. Although initially burdensome, the cytogenomics community has been curating these CNVs for almost a decade, and databases have been created reporting CNVs routinely seen in clinically normal individuals and those routinely seen in individuals with clinical abnormalities. Nevertheless, each copy number variant that is identified in an individual undergoing genomic testing must be evaluated for gene content and overlap with CNVs in other patients and in controls."
+        },
+        {
+            "id": "Neurology_Adams_7929",
+            "title": "Neurology_Adams",
+            "content": "These were the forerunners of a completely different category of technical innovations, anchored by the original method of sequencing short lengths of part of a gene by the Sanger method and its derivatives. With the development of the polymerase chain reaction and automated methods, longer and longer sequences of genes could be studied. This has allowed large population studies, merged with statistical techniques that expose genes in affected individuals that may be responsible for disease and are not present in high frequency in the general populations. From there, the rapid evolution of technology able to analyze thousands of portions of DNA in parallel and compare numerous sequences to a reference library of DNA has revealed variants at the resolution of single base pairs, single nucleotide polymorphisms (SNPs). Most exploration of human disease has been, until recently, based on the \u201ccommon disease\u2013common variant\u201d model, in which a disease is attributable to limited number"
+        },
+        {
+            "id": "InternalMed_Harrison_5019",
+            "title": "InternalMed_Harrison",
+            "content": "Whole-exome sequencing (WES) is also now commercially available, although largely used in individuals with syndromes unexplained by Chapter 84 The Practice of Genetics in Clinical Medicine traditional genetic testing. As cost declines, WES may be more widely used. Whole-genome sequencing is also commercially available. Although it may be quite feasible to sequence the entire genome, there are many issues in doing so, including the daunting task of analyzing the vast amount of data generated. Other issues include: (1) the optimal way in which to obtain informed consent, (2) interpretation of frequent sequence variation of uncertain significance, (3) interpretation of alterations in genes with unclear relevance to specific human pathology, and (4) management of unexpected but clinically significant genetic findings."
+        },
+        {
+            "id": "InternalMed_Harrison_4917",
+            "title": "InternalMed_Harrison",
+            "content": "and comparative alignments remains a significant and commonly underestimated challenge. The discovery of incidental (or secondary) findings that are unrelated to the indication for the sequencing analysis but indicators of other disorders of potential relevance for patient care can pose a difficult ethical dilemma. It can lead to the detection of undiagnosed medically actionable genetic conditions, but can also reveal deleterious mutations that cannot be influenced, as numerous sequence variants are of unknown significance."
+        },
+        {
+            "id": "InternalMed_Harrison_4755",
+            "title": "InternalMed_Harrison",
+            "content": "The astounding rate at which new genetic information is being generated creates a major challenge for physicians, health care providers, and basic investigators. Although many functional aspects of the genome remain unknown, there are many clinical situations where sufficient evidence exits for the use of genetic and genomic information to optimize patient care and treatment. Much genetic information resides in databases or is being published in basic science journals. Databases provide easy access to the expanding information about the human genome, genetic disease, and genetic testing (Table 82-1). For example, several thousand monogenic disorders are summarized in a large, continuously evolving compendium, referred to as the Online Mendelian Inheritance in Man (OMIM) catalogue (Table 82-1). The ongoing refinement of bioinformatics is simplifying the analysis and access to this daunting amount of new information."
+        },
+        {
+            "id": "InternalMed_Harrison_4916",
+            "title": "InternalMed_Harrison",
+            "content": "The majority of traditional diagnostic methods were gel-based. Novel technologies for the analysis of mutations, genotyping, large-scale sequencing, and mRNA expression profiles are undergoing rapid evolution. DNA chip technologies allow hybridization of DNA or RNA to hundreds of thousands of probes simultaneously. Microarrays are being used clinically for mutational analysis of several human disease genes, as well as for the identification of viral or bacterial sequence variations. With advances in high-throughput DNA sequencing technology, complete sequencing of the genome or an exome has entered the clinical realm. Although comprehensive sequencing of large genomic regions or multiple genes is already a reality, the subsequent bioinformatics analysis, assembly of sequence fragments, and comparative alignments remains a significant and commonly underestimated challenge. The discovery of incidental (or secondary) findings that are unrelated to the indication for the sequencing"
+        },
+        {
+            "id": "Gynecology_Novak_296",
+            "title": "Gynecology_Novak",
+            "content": "Meta-analysis One way of improving precision of the effect measure and narrowing the confidence interval is to perform a meta-analysis in which treatment effects from several clinical trials are aggregated to provide a summary measure. Meta-analysis is a favorite tool of the Cochrane database, with which clinicians should be familiar (8). However, there are important considerations in interpreting the meta-analysis, including whether studies were similar enough in their design to be aggregated. Guides for systematic reviews and meta-analysis that involve randomized controlled trials (i.e., the Preferred Reporting Items for Systematic Reviews and Meta-Analyses [PRISMA] statement) and observational studies (i.e., the Meta-analysis Of Observational Studies in Epidemiology [MOOSE] guidelines) are excellent resources for both the investigator and the reviewer (9,10)."
+        },
+        {
+            "id": "Surgery_Schwartz_2134",
+            "title": "Surgery_Schwartz",
+            "content": "including MuSiC, MutSigCV, and OncodriveFM. Other curated database resources used to annotate clinical pheno-types to variants observed in cancer genomes include ClinVAR, Clinical Interpretation of Variants in Cancer (CiVic), and the Precision Medicine Knowledgebase (PMKB). These resources and tools are being utilized to conduct pan-cancer analyses to characterize genomic variation and other molecular aberra-tions observed across tumors to define cancer drivers, clinically actionable targets, and prognostic and predictive signatures. This information is being integrated into clinical practice in many UnknownKIF5B-RETROS1 fusionsNRASMAP2K1AKT1PIK3CABRAFHER2ALKfusionsKRASEGFRFigure 10-10. Molecular subsets of lung adenocarcinoma. Pie chart shows the percentage of tumors with each potentially action-able alteration. (Reproduced with permission from Pao W, Hutchinson KE. Chipping away at the lung cancer genome, Nat Med. 2012 Mar 6;18(3):349-351.)Hereditary:Nonhereditary:TumorTumorFigure"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1716",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Single-base changes: About 90% of human genome variation comes in the form of single nucleotide polymorphisms (SNPs, pronounced \u201csnips\u201d), that is, variations that involve just one base (Fig. 34.14). The substitution of one nucleotide at a restriction site can render the site unrecognizable by a particular restriction endonuclease. A new restriction site can also be created by the same mechanism. In either case, cleavage with an endonuclease results in fragments of lengths that differ from the normal and can be detected by DNA hybridization (see Fig. 34.13). The altered restriction site can be either at the site of a disease-causing mutation (rare) or at a site some distance from the mutation. [Note: The HapMap, developed by The International Haplotype Map Project, is a catalog of common SNP in the human genome. The data are being used in genome-wide association studies (GWAS) to identify those alleles that affect health and disease.] 2. Tandem repeats: Polymorphisms in chromosomal"
+        },
+        {
+            "id": "Pediatrics_Nelson_116",
+            "title": "Pediatrics_Nelson",
+            "content": "Other developmental screening tools include parentdlers (M-CHAT). M-CHAT is an office-based questionnaire completed Ages and Stages Questionnaires (also milestone that asks parents about 23 typical behaviors, some of which driven), and Parents\u2019 Evaluation of Developmental Status. The are more predictive than others for autism or other pervasive latter is a simple, 10-item questionnaire that parents complete developmental disorders. If the child demonstrates more than at office visits based on concerns with function and progression two predictive or three total behaviors, further assessment with an interview algorithm is indicated to distinguish normal variant behaviors from those children needing a referral for definitive testing. The test is freely distributed on the Internet (see Chapter 20)."
+        },
+        {
+            "id": "InternalMed_Harrison_268",
+            "title": "InternalMed_Harrison",
+            "content": "Generally, the EBM tools listed in Table 3-3 provide access to research information in one of two forms. The first, primary research reports, is the original peer-reviewed research work that is published in medical journals and accessible through MEDLINE in abstract form. However, without training in using MEDLINE, quickly and efficiently locating reports that are on point in a huge sea of irrelevant or unhelpful citations may be difficult, and important studies could also be missed. The second form, systematic reviews, is the highest level of evidence in the hierarchy because it comprehensively summarizes the available evidence on a particular topic up to a certain date. To avoid the potential biases in review articles, predefined explicit search strategies and inclusion and exclusion criteria are used to find all of the relevant scientific research and grade its quality. The prototype for this kind of resource is the Cochrane Database of Systematic Reviews. When appropriate, a"
+        },
+        {
+            "id": "InternalMed_Harrison_4918",
+            "title": "InternalMed_Harrison",
+            "content": "A general algorithm for the approach to mutational analysis is outlined in Fig. 82-15. The importance of a detailed clinical phenotype cannot be overemphasized. This is the step where one should also consider the possibility of genetic heterogeneity and phenocopies. If obvious candidate genes are suggested by the phenotype, they can be analyzed directly. After identification of a mutation, it is essential to demonstrate that it segregates with the phenotype. The functional characterization of novel mutations is labor intensive and may require analyses in vitro or in transgenic models in order to document the relevance of the genetic alteration."
+        },
+        {
+            "id": "InternalMed_Harrison_32604",
+            "title": "InternalMed_Harrison",
+            "content": "The increasing availability of large-scale (next-generation) sequencing of a patient\u2019s whole genome or exome will greatly affect genetic testing over the next decade, with implications for the number of mutations that can be detected and the increased complexity of result interpretation."
+        },
+        {
+            "id": "Pathology_Robbins_1806",
+            "title": "Pathology_Robbins",
+            "content": "with permission from Metzker M: Sequencing technologies\u2014the next generation, NatRevGenet11:31\u201346, 2010, \u00a9 Nature Publishing Group.) looking for shared haplotypes, using single or a small number of SNPs that \u201ctag\u201d or identify a specific haplotype. Second, it is now possible to genotype millions of SNPs simultaneously, in a cost-effective way, using high-density SNP arrays, as described earlier."
+        },
+        {
+            "id": "InternalMed_Harrison_1081",
+            "title": "InternalMed_Harrison",
+            "content": "This website is maintained by WebMD and includes a free drug interaction checker tool that provides information on interactions between two or more drugs, herbals, and/or dietary supplements. http://naturaldatabase.therapeuticresearch.com This website provides an interactive natural product\u2013drug interaction checker tool that identifies interactions between drugs and natural products, including herbals and dietary supplements. This service is available by subscription. A PDA version is available. http://www.naturalstandard.com/tools/ This website provides an interactive tool for checking drug and herb/supplement interactions. This service is available by subscription. A PDA version is available. Abbreviation: PDA, personal digital assistant. The Cochrane Collaboration Complementary Medicine Reviews"
+        },
+        {
+            "id": "Surgery_Schwartz_2133",
+            "title": "Surgery_Schwartz",
+            "content": "the NCI Center for Cancer Genomics (CCG), and the childhood cancer initiative entitled Therapeu-tically Applicable Research to Generate Effective Treatments (TARGET), as well as a suite of tools for users to interact with the GDC data and provide their own data. Other cancer genome repositories include the Catalogue of Somatic Mutations in Can-cer (COSMIC) and the International Cancer Genome Consor-tium (ICGC).44 The Precision Medicine Initiative launched in 2016 that includes the All of Us Research Program, which will collect genetic data, biologic samples, and other clinical informa-tion from at least 1 million volunteer participants. To facilitate the clinical and biologic interpretation of genomic variants in cancer genomes, several open-access tools have been developed and expanded, including MuSiC, MutSigCV, and OncodriveFM. Other curated database resources used to annotate clinical pheno-types to variants observed in cancer genomes include ClinVAR, Clinical Interpretation of"
+        },
+        {
+            "id": "InternalMed_Harrison_4833",
+            "title": "InternalMed_Harrison",
+            "content": "Genotype and Phnotype \u2022 alleles, GenotyPes, anD HaPlotyPes An observed trait is referred to as a phenotype; the genetic information defining the phenotype is called the genotype. Alternative forms of a gene or a genetic marker are referred to as alleles. Alleles may be polymorphic variants of nucleic acids that have no apparent effect on gene expression or function. In other instances, these variants may have subtle effects on gene expression, thereby conferring adaptive advantages associated with genetic diversity. On the other hand, allelic variants may reflect mutations that clearly alter the function of a gene product. The common Glu6Val (E6V) sickle cell mutation in the \u03b2-globin gene and the \u0394F508 deletion of phenylalanine (F) in the CFTR gene are examples of allelic variants of these genes that result in disease. Because each individual has two copies of each chromosome (one inherited from the mother and one inherited from the father), he or she can have only two alleles at a"
+        },
+        {
+            "id": "InternalMed_Harrison_5077",
+            "title": "InternalMed_Harrison",
+            "content": "The emerging next-generation sequencing (NGS) techniques and their rapid penetration and recognition as useful clinical diagnostic tools are expected to also dramatically improve the clinical genetic diagnostic evaluation of mitochondrial diseases at the level of both the nuclear genome and mtDNA. In the context of the larger nuclear genome, the ability of NGS techniques to dramatically increase the speed at which DNA can be sequenced at a fraction of the cost of conventional Sanger-type sequencing technology is particularly beneficial. Low sequencing costs and short turnaround time expedite \u201cfirst-tier\u201d screening of panels of hundreds of previously known or suspected mitochondrial disease genes or screening for the entire exome or genome in an attempt to identify novel genes and mutations affecting different patients or families. In the context of the mtDNA, NGS approaches hold the particular promise for rapid and reliable detection of heteroplasmy in different affected tissues."
+        },
+        {
+            "id": "InternalMed_Harrison_4841",
+            "title": "InternalMed_Harrison",
+            "content": "the coding regions, negative results need to be interpreted with caution. The advent of more comprehensive sequencing technologies greatly facilitates concomitant mutational analyses of several genes after targeted enrichment, or even mutational analysis of the whole exome or genome. However, comprehensive sequencing can result in significant diagnostic challenges because the detection of a sequence alteration alone is not always sufficient to establish that it has a causal role."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1071",
+            "title": "Cell_Biology_Alberts",
+            "content": "The intraspecies variations that have been most extensively characterized, however, are single-nucleotide polymorphisms (SNPs). These are simply points in the genome sequence where one large fraction of the human population has one nucleotide, while another substantial fraction has another. To qualify as Figure 4\u201378 How founder effects determine the set of genetic variants in a population of individuals belonging to the same species. This example illustrates how a rare allele (red) can become established in an isolated population, even though the mutation that produced it has no selective advantage\u2014or is mildly deleterious."
+        },
+        {
+            "id": "InternalMed_Harrison_5078",
+            "title": "InternalMed_Harrison",
+            "content": "affecting different patients or families. In the context of the mtDNA, NGS approaches hold the particular promise for rapid and reliable detection of heteroplasmy in different affected tissues. Although Sanger sequencing allows for complete coverage of the mtDNA, it is limited by the lack of deep coverage and low sensitivity for heteroplasmy detection when it is much less than 50%. In contrast, NGS technology is an excellent tool for rapidly and accurately obtaining a patient\u2019s predominant mtDNA sequence and also lower frequency heteroplasmic variants. This is enabled by deep coverage of the genome through multiple independent sequence reads. Accordingly, recent studies making use of NGS techniques have demonstrated sequence accuracy equivalent to Sanger-type sequencing, but also have uncovered heretofore unappreciated heteroplasmy rates ranging between 10 and 50% and detection of single-nucleotide heteroplasmy down to levels of <10%."
+        },
+        {
+            "id": "InternalMed_Harrison_4771",
+            "title": "InternalMed_Harrison",
+            "content": "sinGle-nucleotiDe PolymorPHisms An SNP is a variation of a single base pair in the DNA. The identification of the ~10 million SNPs estimated to occur in the human genome has generated a catalogue of common genetic variants that occur in human beings from distinct ethnic backgrounds (Fig. 82-3). SNPs are the most common type of sequence variation and account for ~90% of all sequence variation. They occur on average every 100 to 300 bases and are the major source of genetic heterogeneity. Remarkably, however, the primary DNA sequence of humans has ~99.9% similarity compared to that of any other human. SNPs that are in close proximity are inherited together (e.g., they are linked) and are referred to as haplotypes(Fig. 82-4). The HapMap describes the nature and location of these SNP haplotypes and how they are distributed among individuals within and among populations. The haplotype map information, referred to as HapMap, is greatly facilitating GWAS designed to elucidate the complex"
+        },
+        {
+            "id": "InternalMed_Harrison_4758",
+            "title": "InternalMed_Harrison",
+            "content": "In addition to the human genome, the genomes of numerous organisms have been sequenced completely (~4000) or partially (~10,000) (Genomes Online Database [GOLD]; Table 82-1). They include, among others, eukaryotes such as the mouse (Mus musculus), Chapter 82 Principles of Human Genetics Catalog of Published Genome-Wide Association Studies Office of Biotechnology Activities, National Institutes of Health American College of Medical Genetics and Genomics American Society of Human Genetics MITOMAP, a human mitochondrial genome database Dolan DNA Learning Center, Cold Spring Harbor Laboratories The Online Metabolic and Molecular Bases of Inherited Disease (OMMBID)"
+        },
+        {
+            "id": "InternalMed_Harrison_4813",
+            "title": "InternalMed_Harrison",
+            "content": "Polymorphisms are sequence variations that have a frequency of at least 1%. Usually, they do not result in a perceptible phenotype. Often they consist of single base-pair substitutions that do not alter the protein coding sequence because of the degenerate nature of the genetic code (synonymous polymorphism), although it is possible that some might alter mRNA stability, translation, or the amino acid sequence (nonsynonymous polymorphism) (Fig. 82-10). The detection of sequence variants poses a practical problem because mutations is much greater in the male germline than the female germline, in which rates of aneuploidy are increased (Chap. 83e). Thus, the incidence of new point mutations in spermatogonia increases with paternal age (e.g., achondrodysplasia, Marfan\u2019s syndrome, neurofibromatosis). It is estimated that about 1 in 10 sperm carries a new deleterious mutation. The rates for new mutations are calculated most readily for autosomal dominant and X-linked disorders and are"
+        },
+        {
+            "id": "InternalMed_Harrison_4756",
+            "title": "InternalMed_Harrison",
+            "content": "THE HUMAN GENOME Structure of the Human Genome \u2022 Human Genome Project The Human Genome Project was initiated in the mid-1980s as an ambitious effort to characterize the entire human genome. Although the prospect of determining the complete sequence of the human genome seemed daunting several years ago, technical advances in DNA sequencing and bioinformatics led to the completion of a draft human sequence in 2000 and the completion of the DNA sequence for the last of the human chromosomes in May 2006. Currently, facilitated by rapidly decreasing costs for comprehensive sequence analyses and improvement of bioinformatics pipelines for data analysis, the sequencing of whole genomes and exomes is used with increasing frequency in the clinical setting. The scope of a whole genome sequence analysis can be illustrated by the following analogy. Human DNA consists of ~3 billion base pairs (bp) of DNA per haploid genome, which is nearly 1000-fold greater than that of the Escherichia coli"
+        },
+        {
+            "id": "InternalMed_Harrison_4914",
+            "title": "InternalMed_Harrison",
+            "content": "Mutational Analyses DNA sequence analysis is now widely used as a diagnostic tool and has significantly enhanced diagnostic accuracy. It is used for determining carrier status and for prenatal testing in monogenic disorders (Chap. 84). Numerous techniques, Chapter 82 Principles of Human Genetics discussed in previous versions of this chapter, are available for the detection of mutations. In a very broad sense, one can distinguish between techniques that allow for screening of known mutations (screening mode) or techniques that definitively characterize mutations. Analyses of large alterations in the genome are possible using classic methods such as cytogenetics, fluorescent in situ hybridization (FISH), and Southern blotting (Chap. 83e), as well as more sensitive novel techniques that search for multiple single exon deletions or duplications."
+        },
+        {
+            "id": "InternalMed_Harrison_20346",
+            "title": "InternalMed_Harrison",
+            "content": "DNA sequencing of CFTR from patients (and others) worldwide has revealed almost 2000 allelic variants; however, only about 10% of these have been well-characterized as disease-causing mutations. Distinguishing the single nucleotide transversions or other polymorphisms with causal relevance often presents a significant challenge. The CFTR2 resource (www.cftr2.org/) delineates gene variants with a clear etiologic role."
+        },
+        {
+            "id": "InternalMed_Harrison_31584",
+            "title": "InternalMed_Harrison",
+            "content": "in dizygotic twins and siblings, whereas first-degree relatives show about 50-fold increased risk compared with the general population. ASDs are also genetically heterogeneous. More than 100 known mutations account for up to 20% of cases, although none individually accounts for more than 1% (Table 465e-1). It appears that most cases result from complex genetic mechanisms, including inheritance of multiple genetic risk variants and epigenetic modifications. For example, up to 10% of patients with autism have large (>500 kb) de novo copy number variations scattered across the genome, suggesting that hundreds of different genes can influence autism risk."
+        },
+        {
+            "id": "InternalMed_Harrison_29615",
+            "title": "InternalMed_Harrison",
+            "content": "functional biologic pathways to identify novel pathogenic mechanisms as well as to reveal heterogeneity (e.g., different pathways in different individuals). Despite these successes, many experienced geneticists question the real value of common disease-associated variants, particularly whether they are actually causative or merely mark the approximate locations of more important\u2014truly causative\u2014rare mutations."
+        }
+    ],
+    "scores": [
+        0.02622881914956387,
+        0.023134920634920637,
+        0.022874822479204707,
+        0.022465842590094313,
+        0.01913919413919414,
+        0.01846494213750851,
+        0.01816545290892726,
+        0.01805465191932336,
+        0.01780392156862745,
+        0.01702158481819499,
+        0.01690340909090909,
+        0.016317169069462647,
+        0.016207349081364827,
+        0.016124871001031993,
+        0.015927468757657437,
+        0.015847665847665848,
+        0.01577384634417914,
+        0.015326715392167557,
+        0.0152485836818976,
+        0.015222279882373293,
+        0.014944339958318507,
+        0.014863387978142076,
+        0.014654282765737874,
+        0.014652211249463289,
+        0.014566148063067767,
+        0.014154177686355178,
+        0.014130434782608696,
+        0.01397545773276198,
+        0.013903487816531295,
+        0.013691636498654042,
+        0.013597655892317553,
+        0.013462217514124294
+    ]
+}

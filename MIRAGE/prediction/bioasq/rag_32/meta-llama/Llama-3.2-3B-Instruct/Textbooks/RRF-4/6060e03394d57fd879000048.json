@@ -1,0 +1,206 @@
+{
+    "id": "6060e03394d57fd879000048",
+    "question": "Are synonymous sites in primates and rodents functionally constrained?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand what synonymous sites are and what functional constraint means in the context of genetics. Synonymous sites refer to positions in a DNA sequence where different codons specify the same amino acid. Functional constraint, on the other hand, refers to the degree to which a gene or a region of the genome is under selective pressure to maintain its original sequence. If a region is functionally constrained, it is less likely to undergo mutations that alter its sequence. Given the information from the provided documents, we can infer that synonymous sites in primates and rodents are not under strong functional constraint. The observation that the human and chimpanzee genomes are nearly identical even where there is no functional constraint on the nucleotide sequence, such as in the third position of synonymous codons, suggests that these regions are not subject to strong selective pressure. Furthermore, the document mentions that the human and mouse genomes have had approximately 80 million years to diverge through accumulated mutations, resulting in a relatively high rate of changes in these regions. This implies that synonymous sites in primates and rodents are not under strong functional constraint, as they can accumulate mutations over time without significant selective pressure. Therefore, based on the information provided, the answer to the question is that synonymous sites in primates and rodents are not functionally constrained.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_996",
+            "title": "Cell_Biology_Alberts",
+            "content": "the observation that the human and chimpanzee genomes are nearly identical even where there is no functional constraint on the nucleotide sequence\u2014such as in the third position of \u201csynonymous\u201d codons (codons specifying the same amino acid but differing in their third nucleotide)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_995",
+            "title": "Cell_Biology_Alberts",
+            "content": "have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5 humans and the great apes based on nucleotide sequence data. As indicated, the sequences of the genomes of all four millions of years before present species are estimated to differ from the sequence of the genome of their last common ancestor by a little over 1.5%. because changes occur independently on both diverging lineages, pairwise comparisons reveal twice the sequence divergence from the last common ancestor. For example, human\u2013orangutan comparisons typically show sequence 1.0 0.5 0.0 divergences of a little over 3%, while that have kept the sequences the same. Evidence for this view comes from the observation that the human and chimpanzee genomes are nearly identical even where there is no functional constraint on the nucleotide sequence\u2014such as in the third position of \u201csynonymous\u201d codons"
+        },
+        {
+            "id": "Cell_Biology_Alberts_993",
+            "title": "Cell_Biology_Alberts",
+            "content": "For closely related organisms such as humans and chimpanzees, it is relatively easy to reconstruct the gene sequences of the extinct, last common ancestor of the two species (Figure 4\u201364). The close similarity between human and chimpanzee genes is mainly due to the short time that has been available for the accumulation of mutations in the two diverging lineages, rather than to functional constraints TRANSPOSONS nonrepetitive DNA that is"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1006",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Comparison of Human and mouse Chromosomes Shows How the Structures of genomes Diverge As would be expected, the human and chimpanzee genomes are much more alike than are the human and mouse genomes, even though all three genomes are roughly the same size and contain nearly identical sets of genes. Mouse and human lineages have had approximately 80 million years to diverge through accumulated mutations, versus 6 million years for humans and chimpanzees. In addition, as indicated in Figure 4\u201366, rodent lineages (represented by the rat and the mouse) have unusually fast molecular clocks, and have diverged from the human lineage more rapidly than otherwise expected."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1041",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many questions remain to be answered about these phenomena and what they mean. One possible interpretation is that the logic\u2014the circuit diagram\u2014of the gene regulatory network in vertebrates was established early, and that more recent evolutionary change has mainly occurred through the tuning of quantitative parameters. This could help to explain why, among the mammals, for example, the basic body plan\u2014the topology of the tissues and organs\u2014has been largely conserved. gene Duplication Also Provides an Important Source of genetic Novelty During Evolution Evolution depends on the creation of new genes, as well as on the modification of those that already exist. How does this occur? When we compare organisms that seem very different\u2014a primate with a rodent, for example, or a mouse with a fish\u2014we rarely encounter genes in the one species that have no homolog in the reception of extracellular signals HUMAN 500 400 300 200 100 0 millions of years before present"
+        },
+        {
+            "id": "Cell_Biology_Alberts_984",
+            "title": "Cell_Biology_Alberts",
+            "content": "One very important approach to deciphering our genome is to search for DNA sequences that are closely similar between different species, on the principle that DNA sequences that have a function are much more likely to be conserved than those without a function. For example, humans and mice are thought to have diverged from a common mammalian ancestor about 80 \u00d7 106 years ago, which is long enough for the majority of nucleotides in their genomes to have been changed by random mutational events. Consequently, the only regions that will have remained closely similar in the two genomes are those in which mutations would have impaired function and put the animals carrying them at a disadvantage, resulting in their elimination from the population by natural selection. Such closely similar pieces of DNA sequence are known as conserved regions. In addition to revealing those DNA sequences that encode functionally important exons and RNA molecules, these conserved regions will include"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1026",
+            "title": "Cell_Biology_Alberts",
+            "content": "Most of the noncoding conserved sequences discovered in this way turn out to be relatively short, containing between 50 and 200 nucleotide pairs. Among the most mysterious are the so-called \u201cultraconserved\u201d noncoding sequences, exemplified by more than 5000 DNA segments over 100 nucleotides long that are exactly the same in human, mouse, and rat. Most have undergone little or no change since mammalian and bird ancestors diverged about 300 million years ago. The strict conservation implies that even though the sequences do not encode proteins, each nevertheless has an important function maintained by purifying selection. The puzzle is to unravel what those functions are."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1001",
+            "title": "Cell_Biology_Alberts",
+            "content": "Phylogenetic trees whose timing has been calibrated according to the fossil record suggest that changes in the sequences of particular genes or proteins tend to occur at a nearly constant rate, although rates that differ from the norm by as much as twofold are observed in particular lineages. This provides us with a molecular clock for evolution\u2014or rather a set of molecular clocks corresponding to different categories of DNA sequence. As in the example in Figure 4\u201365, the clock runs most rapidly and regularly in sequences that are not subject to purifying selection. These include portions of introns that lack splicing or regulatory signals, the third position in synonymous codons, and genes that have been irreversibly inactivated by mutation (the so-called pseudogenes). The clock runs most slowly for sequences that are subject to strong functional constraints\u2014for example, the amino acid sequences of proteins that engage in specific interactions with large numbers of other proteins and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_992",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genome Sequences of Two Species Differ in Proportion to the length of Time Since They Have Separately Evolved The differences between the genomes of species alive today have accumulated over more than 3 billion years. Although we lack a direct record of changes over time, scientists can reconstruct the process of genome evolution from detailed comparisons of the genomes of contemporary organisms. The basic organizing framework for comparative genomics is the phylogenetic tree. A simple example is the tree describing the divergence of humans from the great apes (Figure 4\u201363). The primary support for this tree comes from comparisons of gene or protein sequences. For example, comparisons between the sequences of human genes or proteins and those of the great apes typically reveal the fewest differences between human and chimpanzee and the most between human and orangutan."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1032",
+            "title": "Cell_Biology_Alberts",
+            "content": "Given genome sequence information, we can tackle another intriguing question: What alterations in our DNA have made humans so different from other animals\u2014or for that matter, what makes any individual species so different from its relatives? For example, as soon as both the human and the chimpanzee genome sequences became available, scientists began searching for DNA sequence changes that might account for the striking differences between us and chimpanzees. With 3.2 billion nucleotide pairs to compare in the two species, this might seem an impossible task. But the job was made much easier by confining the search to 35,000 clearly defined multispecies conserved sequences (a total of about 5 million nucleotide pairs), representing parts of the genome that are most likely to be functionally important. Though these sequences are conserved strongly, they are not conserved perfectly, and when the version in one species is compared with that in another they are generally found to have"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1035",
+            "title": "Cell_Biology_Alberts",
+            "content": "A related approach in the search for the important mutations that contributed to human evolution likewise begins with DNA sequences that have been conserved during mammalian evolution, but rather than screening for accelerated changes in individual nucleotides, it focuses instead on chromosome sites that have experienced deletions in the 6 million years since our lineage diverged from that of chimpanzees. More than 500 such sequences\u2014conserved among other species but deleted in humans\u2014have been discovered. Each deletion removes an average of 95 nucleotides of DNA sequence. Only one of these deletions affects a protein-coding region: the rest are thought to alter regions that affect how nearby genes are expressed, an expectation that has been experimentally confirmed in a few cases. A large proportion of the presumed regulatory regions identified in this way lie near genes that affect neural function and/or near genes involved in steroid signaling, suggesting that changes in the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1080",
+            "title": "Cell_Biology_Alberts",
+            "content": "Comparisons of the nucleotide sequences of present-day genomes have revolutionized our understanding of gene and genome evolution. Because of the extremely high fidelity of DNA replication and DNA repair processes, random errors in maintaining the nucleotide sequences in genomes occur so rarely that only about one nucleotide in a thousand is altered in every million years in any particular eukaryotic line of descent. Not surprisingly, therefore, a comparison of human and chimpanzee chromosomes\u2014which are separated by about 6 million years of evolution\u2014 reveals very few changes. Not only are our genes essentially the same, but their order on each chromosome is almost identical. Although a substantial number of segmental duplications and segmental deletions have occurred in the past 6 million years, even the positions of the transposable elements that make up a major portion of our noncoding DNA are mostly unchanged."
+        },
+        {
+            "id": "Cell_Biology_Alberts_986",
+            "title": "Cell_Biology_Alberts",
+            "content": "The power of this method can be increased by including in such comparisons the genomes of large numbers of species whose genomes have been sequenced, such as rat, chicken, fish, dog, and chimpanzee, as well as mouse and human. By revealing in this way the results of a very long natural \u201cexperiment,\u201d lasting for hundreds of millions of years, such comparative DNA sequencing studies have highlighted the most interesting regions in our genome. The comparisons reveal that roughly 5% of the human genome consists of \u201cmultispecies conserved sequences.\u201d To our great surprise, only about one-third of these sequences code for proteins (see Table 4\u20131, p. 184). Many of the remaining conserved sequences consist of DNA containing clusters of protein-binding sites that are involved in gene regulation, while others produce RNA molecules that are not translated into protein but are important for other known purposes. But, even in the most intensively studied species, the function of the majority of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1010",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201366 A phylogenetic tree showing the evolutionary relationships of some present-day mammals. The length of each line is proportional to the number of \u201cneutral substitutions\u201d\u2014that is, nucleotide changes at sites where there is assumed to be no purifying selection. (Adapted from g.m. Cooper et al., Genome Res. 15:901\u2013913, 2005. with permission from Cold Spring Harbor laboratory Press.) Good evidence for the loss of DNA sequences in small blocks during evolution can be obtained from a detailed comparison of regions of synteny in the human and mouse genomes. The comparative shrinkage of the mouse genome can be clearly seen from such comparisons, with the net loss of sequences scattered throughout the long stretches of DNA that are otherwise homologous (Figure 4\u201368)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_997",
+            "title": "Cell_Biology_Alberts",
+            "content": "For much less closely related organisms, such as humans and chickens (which have evolved separately for about 300 million years), the sequence conservation found in genes is almost entirely due to purifying selection (that is, selection that eliminates individuals carrying mutations that interfere with important genetic functions), rather than to an inadequate time for mutations to occur. Phylogenetic Trees Constructed from a Comparison of DNA Sequences Trace the Relationships of All Organisms Phylogenetic trees based on molecular sequence data can be compared with the fossil record, and we get our best view of evolution by integrating the two approaches. The fossil record remains essential as a source of absolute dates, human\u2013chimpanzee comparisons show divergences of approximately 1.2%. (modified from F.C. Chen and w.H. li, Am. J. Hum. Genet. 68:444\u2013456, 2001.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_170",
+            "title": "Cell_Biology_Alberts",
+            "content": "For a more exact measure of how closely mammalian species resemble one another genetically, we can compare the nucleotide sequences of corresponding (orthologous) genes, or the amino acid sequences of the proteins that these genes encode. The results for individual genes and proteins vary widely. But typically, if we line up the amino acid sequence of a human protein with that of the orthologous protein from, say, an elephant, about 85% of the amino acids are identical. A similar comparison between human and bird shows an amino acid identity of about 70%\u2014twice as many differences, because the bird and the mammalian lineages have had twice as long to diverge as those of the elephant and the human (Figure 1\u201345)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_998",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201364 Tracing the ancestral sequence from a sequence comparison of the coding regions of human and chimpanzee leptin genes. Reading left to right and top to bottom, a continuous gene is illustrated. leptin is a hormone that regulates food intake and energy utilization in response to the adequacy of 300-nucleotide segment of a leptin-coding fat reserves. As indicated by the codons boxed in green, only 5 nucleotides (of 120 441 total) differ between the two species. moreover, in only one of the five positions does the difference in nucleotide lead to a difference in the encoded amino acid. For each of the five variant nucleotide positions, the corresponding sequence in the gorilla is also indicated. In two cases, sequence, while in three cases it agrees with the chimpanzee sequence."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1033",
+            "title": "Cell_Biology_Alberts",
+            "content": "important. Though these sequences are conserved strongly, they are not conserved perfectly, and when the version in one species is compared with that in another they are generally found to have drifted apart by a small amount corresponding simply to the time elapsed since the last common ancestor. In a small proportion of cases, however, one sees signs of a sudden evolutionary spurt. For example, some DNA sequences that have been highly conserved in other mammalian species are found to have accumulated nucleotide changes exceptionally rapidly during the 6 million years of human evolution since we diverged from the chimpanzees. These human accelerated regions (HARs) are thought to reflect functions that have been especially important in making us different in some useful way."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1021",
+            "title": "Cell_Biology_Alberts",
+            "content": "But what about deciphering the genomes of much older ancestors, those for which no useful DNA samples can be isolated? For organisms that are as closely related as human and chimpanzee, we saw that this may not be difficult: reference to the gorilla sequence can be used to sort out which of the few sequence differences between human and chimpanzee are inherited from our common ancestor some 6 million years ago (see Figure 4\u201364). And for an ancestor that has produced a large number of different organisms alive today, the DNA sequences of many species can be compared simultaneously to unscramble much of the ancestral sequence, allowing scientists to derive DNA sequences much farther back in time. For example, from the genome sequences currently being obtained for dozens of modern placental mammals, it should be possible to infer much of the genome sequence of their 100 million-year-old common ancestor\u2014the precursor of species as diverse as dog, mouse, rabbit, armadillo, and human (see"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1005",
+            "title": "Cell_Biology_Alberts",
+            "content": "In general, molecular clocks, appropriately chosen, have a finer time resolution than the fossil record, and they are a more reliable guide to the detailed structure of phylogenetic trees than are classical methods of tree construction, which are based on family resemblances in anatomy and embryonic development. For example, the precise family tree of great apes and humans was not settled until sufficient molecular sequence data accumulated in the 1980s to produce the pedigree shown previously in Figure 4\u201363. And with huge amounts of DNA sequence now determined from a wide variety of mammals, much better estimates of our relationship to them are being obtained (Figure 4\u201366). A Comparison of Human and mouse Chromosomes Shows How the Structures of genomes Diverge"
+        },
+        {
+            "id": "Cell_Biology_Alberts_196",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Does this tree support or refute the hypothesis that the plant hemoglobins arose by horizontal gene transfer? b. Supposing that the plant hemoglobin genes were originally derived from a parasitic nematode, for example, what would you expect the phylogenetic tree to look like? 1\u201312 Rates of evolution appear to vary in different lineages. For example, the rate of evolution in the rat lineage is significantly higher than in the human lineage. These rate differences are apparent whether one looks at changes in nucleotide sequences that encode proteins and are subject to selective pressure or at changes in noncoding nucleotide sequences, which are not under obvious selection pressure. Can you offer one or more possible explanations for the slower rate of evolutionary change in the human lineage versus the rat lineage? Alberts B, Bray d, hopkin k et al. (2014) essential cell Biology, 4th ed. new york: Garland science."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1081",
+            "title": "Cell_Biology_Alberts",
+            "content": "When one compares the genomes of two more distantly related organisms\u2014such as a human and a mouse, separated by about 80 million years\u2014one finds many more changes. Now the effects of natural selection can be clearly seen: through purifying selection, essential nucleotide sequences\u2014both in regulatory regions and in coding sequences (exons)\u2014have been highly conserved. In contrast, nonessential sequences (for example, much of the DNA in introns) have been altered to such an extent that one can no longer see any family resemblance."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1011",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA is added to genomes both by the spontaneous duplication of chromosomal segments that are typically tens of thousands of nucleotide pairs long (as will be discussed shortly) and by insertion of new copies of active transposons. Most transposition events are duplicative, because the original copy of the transposon stays where it was when a copy inserts at the new site; see, for example, Figure 5\u201363. Comparison of the DNA sequences derived from transposons in the human and the mouse readily reveals some of the sequence additions (Figure 4\u201369). It remains a mystery why all mammals have maintained genome sizes of roughly 3 billion nucleotide pairs that contain nearly identical sets of genes, even though only approximately 150 million nucleotide pairs appear to be under sequence-specific functional constraints. The Size of a vertebrate genome Reflects the Relative Rates of DNA Addition and DNA loss in a lineage"
+        },
+        {
+            "id": "Cell_Biology_Alberts_999",
+            "title": "Cell_Biology_Alberts",
+            "content": "the gorilla sequence agrees with the human what was the sequence of the leptin gene in the last common ancestor? The most economical assumption is that evolution minimum number of mutations consistent with the data. Thus, it seems likely that chimp TACCAACAGATCCTCACCAGTATGCCTTCCAGAAACATGATCCAAATATCCAACGACCTG protein Y Q Q I L T S M P S R N M I Q I S N D L the leptin sequence of the last common has followed a pathway requiring the ancestor was the same as the human and chimpanzee sequences when they agree; when they disagree, the gorilla sequence would be used as a tiebreaker. For convenience, only the first 300 nucleotides of the leptin-coding sequences are given. The remaining 141 are identical between humans and chimpanzees."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1034",
+            "title": "Cell_Biology_Alberts",
+            "content": "About 50 such sites were identified in one study, one-fourth of which were located near genes associated with neural development. The sequence exhibiting the most rapid change (18 changes between human and chimpanzee, compared to only two changes between chimpanzee and chicken) was examined further and found to encode a 118-nucleotide noncoding RNA molecule, HAR1F (human accelerated region 1F), that is produced in the human cerebral cortex at a critical time during brain development. The function of this HAR1F RNA is not yet known, but findings of this type are stimulating research studies that may shed light on crucial features of the human brain."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1061",
+            "title": "Cell_Biology_Alberts",
+            "content": "compared. For example, typical human and chimpanzee DNA sequences differ from one another by about 1%. In contrast, when the same region of the genome is sampled from two randomly chosen humans, the differences are typically about 0.1%. For more distantly related organisms, the interspecies differences outshine intraspecies variation even more dramatically. However, each \u201cfixed difference\u201d between the human and the chimpanzee (in other words, each difference that is now characteristic of all or nearly all individuals of each species) started out as a new mutation in a single individual. If the size of the interbreeding population in which the mutation occurred is N, the initial allele frequency for a new mutation would be 1/(2N) for a diploid organism. How does such a rare mutation become fixed in the population, and hence become a characteristic of the species rather than of a few scattered individuals?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1082",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because of purifying selection, the comparison of the genome sequences of multiple related species is an especially powerful way to find DNA sequences with important functions. Although about 5% of the human genome has been conserved as a result of purifying selection, the function of the majority of this DNA (tens of thousands of multispecies conserved sequences) remains mysterious. Future experiments characterizing its functions should teach us many new lessons about vertebrate biology."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1000",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201365 The very different rates of evolution of exons and introns, as illustrated by comparing a portion of the mouse and human leptin genes. Positions where the sequences differ by a single nucleotide substitution are boxed in green, and positions that differ by the addition or deletion of nucleotides are boxed in yellow. Note that, thanks to purifying selection, the coding sequence of the exon is much more conserved than is the adjacent intron sequence. based on radioisotope decay in the rock formations in which fossils are found. Because the fossil record has many gaps, however, precise divergence times between species are difficult to establish, even for species that leave good fossils with distinctive morphology."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1404",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20132 Schematic depiction of a small portion of the human X chromosome. As summarized in the key, the known protein-coding genes (starting with Abcd1 and ending with F8) are shown in dark gray, with coding regions (exons) indicated by bars that extend above and below the central line. Noncoding RNAs with known functions are indicated by purple diamonds. Yellow triangles indicate positions within protein-coding regions where the Neanderthal genome sequences codes for a different amino acid than the human genome. The stretch of yellow triangles in the Txtl1 gene appear to have been positively selected for since the divergence of Homo sapiens from Neanderthals some 200,000 years ago. Note that most of the proteins are identical between us and our extinct relative. The blue histogram indicates the extent to which portions of the human genome are conserved with other vertebrate species. It is likely that additional genes, currently unrecognized, also lie within this portion of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1929",
+            "title": "Cell_Biology_Alberts",
+            "content": "During the course of evolution, more than three out of every four CGs have been lost in this way, leaving vertebrates with a remarkable deficiency of this dinucleotide. The CG sequences that remain are very unevenly distributed in the genome; they are present at 10 times their average density in selected regions, called CG islands, which average 1000 nucleotide pairs in length. The human genome contains roughly 20,000 CG islands and they usually include promoters of genes. For example, 60% of human protein-coding genes have promoters embedded in CG islands and these include virtually all the promoters of the so-called housekeeping genes\u2014those genes that code for the many proteins that are essential for cell viability and are therefore expressed in nearly all cells (Figure 7\u201346). Over evolutionary timescales, the CG islands were spared the accelerated mutation rate of bulk CG sequences because they remained unmethylated in the germ line (Figure 7\u201347)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1085",
+            "title": "Cell_Biology_Alberts",
+            "content": "4\u20131 Human females have 23 different chromosomes, served DNA sequences facilitates the search for function-whereas human males have 24. ally important regions. 4\u20132 The four core histones are relatively small proteins 4\u20135 Gene duplication and divergence is thought to with a very high proportion of positively charged amino have played a critical role in the evolution of increased bioacids; the positive charge helps the histones bind tightly to logical complexity. DNA, regardless of its nucleotide sequence. Discuss the following problems. 4\u20133 Nucleosomes bind DNA so tightly that they cannot 4\u20136 DNA isolated from the bacterial virus M13 con-move from the positions where they are first assembled. tains 25% A, 33% T, 22% C, and 20% G. Do these results 4\u20134 In a comparison between the DNAs of related strike you as peculiar? Why or why not? How might you organisms such as humans and mice, identifying the con-explain these values?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_168",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mouse Is the Predominant mammalian model organism Mammals have typically two times as many genes as Drosophila, a genome that is 16 times larger, and millions or billions of times as many cells in their adult bodies. In terms of genome size and function, cell biology, and molecular mechanisms, mammals are nevertheless a highly uniform group of organisms. Even anatomically, the differences among mammals are chiefly a matter of size and proportions; it is hard to think of a human body part that does not have a counterpart in elephants and mice, and vice versa. Evolution plays freely with quantitative features, but it does not readily change the logic of the structure."
+        }
+    ],
+    "scores": [
+        0.034877620512497653,
+        0.03239327796632273,
+        0.0261110521119725,
+        0.024729962091789653,
+        0.023199097850601886,
+        0.022765330964600605,
+        0.02252244935152921,
+        0.022332585447339546,
+        0.022259037424068644,
+        0.022124320895728192,
+        0.021816696697381625,
+        0.020636358166797028,
+        0.020020790020790023,
+        0.01886960391633289,
+        0.01683644595359366,
+        0.01649470540320391,
+        0.016280566280566282,
+        0.016167318919612497,
+        0.016076962809917356,
+        0.01563920712856883,
+        0.015298317185109638,
+        0.01526374859708193,
+        0.01525768535262206,
+        0.014854974247763622,
+        0.014756944444444444,
+        0.014719748559455213,
+        0.014699173805058544,
+        0.014433962264150942,
+        0.014181622573230964,
+        0.014124293785310734,
+        0.013988750305698214,
+        0.013701647722266279
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "620aedee3a8413c653000001",
+    "question": "Is AGO2 related to cytokinesis?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the information provided in the documents. AGO2 is a component of the RNA-induced silencing complex (RISC) that plays a crucial role in RNA interference (RNAi) and microRNA (miRNA) processing. However, there is no direct mention of AGO2's involvement in cytokinesis in the provided documents. Cytokinesis is the process of cell division that occurs after mitosis and is regulated by various proteins and cellular structures, including the contractile ring and actin-myosin filaments. The key regulators of cytokinesis include proteins such as RhoA, Cdc42, and myosin II, as well as structures like the phragmoplast in plant cells. AGO2 is not mentioned in the context of these regulators or structures. Therefore, based on the provided information, it is unlikely that AGO2 is directly related to cytokinesis. However, it is worth noting that AGO2 may play a role in regulating gene expression during cell division, which could indirectly affect cytokinesis. But the direct relationship between AGO2 and cytokinesis is not supported by the provided documents.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_4969",
+            "title": "Cell_Biology_Alberts",
+            "content": "RhoA is thought to be activated by a guanine nucleotide exchange factor (Rho-GEF), which is found at the cell cortex at the future division site and stimulates the release of GDP and binding of GTP to RhoA (see Figure 17\u201344). We know little about how the RhoGEF is localized or activated at the division site, although the microtubules of the anaphase spindle seem to be involved, as we discuss next. The microtubules of the mitotic spindle determine the plane of animal Cell division The central problem in cytokinesis is how to ensure that division occurs at the right time and in the right place. Cytokinesis must occur only after the two sets of chromosomes are fully segregated from each other, and the site of division must Figure 17\u201342 The contractile ring."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5082",
+            "title": "Cell_Biology_Alberts",
+            "content": "green Ra, paluch E & Oegema k (2012) Cytokinesis in animal cells. Annu. Rev. Cell Dev. Biol. 28, 29\u201358. Jurgens g (2005) plant cytokinesis: fission by fusion. Trends Cell Biol. 15, 277\u2013283. Oliferenko s, Chew Tg & Balasubramanian mk (2009) positioning cytokinesis. Genes Dev. 23, 660\u2013674. pollard Td (2010) mechanics of cytokinesis in eukaryotes. Curr. Opin. Cell Biol. 22, 50\u201356. Rappaport R (1986) Establishment of the mechanism of cytokinesis in animal cells. Int. Rev. Cytol. 105, 245\u2013281. schiel Ja & prekeris R (2013) membrane dynamics during cytokinesis. Curr. Opin. Cell Biol. 25, 92\u201398. Bhalla n & dernburg aF (2008) prelude to a division. Annu. Rev. Cell Dev. Biol. 24, 397\u2013424. gerton JL & Hawley Rs (2005) Homologous chromosome interactions in meiosis: diversity amidst conservation. Nat. Rev. Genet. 6, 477\u2013487."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4991",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nuclear division without cytokinesis also occurs in some types of mammalian cells. Megakaryocytes, which produce blood platelets, and some hepatocytes and heart muscle cells, for example, become multinucleated in this way. After cytokinesis, most cells enter G1, in which Cdks are mostly inactive. We end this section by discussing how this state is achieved at the end of M phase. The g1 phase Is a stable state of Cdk Inactivity A key regulatory event in late M phase is the inactivation of Cdks, which is driven primarily by APC/C-dependent cyclin destruction. As described earlier, the inactivation of Cdks in late M phase has many functions: it triggers the events of late mitosis, promotes cytokinesis, and enables the synthesis of prereplicative complexes at DNA replication origins. It also provides a mechanism for resetting the Figure 17\u201350 An asymmetric cell division segregating cytoplasmic components to only one daughter cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5003",
+            "title": "Cell_Biology_Alberts",
+            "content": "After mitosis completes the formation of a pair of daughter nuclei, cytokinesis finishes the cell cycle by dividing the cell itself. Cytokinesis depends on a ring of actin and myosin filaments that contracts in late mitosis at a site midway between the segregated chromosomes. In animal cells, the positioning of the contractile ring is determined by signals emanating from the microtubules of the anaphase spindle. Dephosphorylation of Cdk targets, which results from Cdk inactivation in anaphase, triggers cytokinesis at the correct time after anaphase. After cytokinesis, the cell enters a stable G1 state of low Cdk activity, where it awaits signals to enter a new cell cycle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4971",
+            "title": "Cell_Biology_Alberts",
+            "content": "R.g. kessel, Am. Sci. 64:279\u2013290, 1976. With permission from sigma Xi; C, courtesy of Yoshio Fukui.) be placed between the two sets of daughter chromosomes, thereby ensuring that each daughter cell receives a complete set. The correct timing and positioning of cytokinesis in animal cells are achieved by mechanisms that depend on the mitotic spindle. During anaphase, the spindle generates signals that initiate furrow formation at a position midway between the spindle poles, thereby ensuring that division occurs between the two sets of separated chromosomes. Because these signals originate in the anaphase spindle, this mechanism also contributes to the correct timing of cytokinesis in late mitosis. Cytokinesis also occurs at the correct time because dephosphorylation of Cdk substrates, which depends on cyclin destruction in metaphase and anaphase, initiates cytokinesis. We now describe these regulatory mechanisms in more detail, with an emphasis on cytokinesis in animal cells."
+        },
+        {
+            "id": "Surgery_Schwartz_3445",
+            "title": "Surgery_Schwartz",
+            "content": "that targeting two or more pathways may also increase the toxicity profile, particularly if target specificity is limited. When attempted, off-target toxic-ity has been demonstrated with combination small-molecule therapy. In contrast, multitargeting bifunctional short hairpin (bi-shRNA) DNA vectors are designed to limit off-target effect given the high specificity for the genes they are designed to target.Exogenously applied hairpin constructs can be designed to be incorporated into cleavage-dependent RISC or cleav-age-independent RISC complexes, or both. The concept of a bifunctional shRNA37 is to increase knockdown efficiency without loss of sequence specificity by engaging both siRNA and miRNA-like (i.e., common biogenic pathway but comple-mentary to target sequence) RISCs, thereby concurrently acti-vating nucleolytic (Ago2-RISC) and nonnucleolytic (Ago1, 3, 4 \u00b1 Ago2-RISC) processes.38 Each bi-shRNA contains both a matched stem sequence to promote Ago2-mediated passenger strand"
+        },
+        {
+            "id": "Surgery_Schwartz_3446",
+            "title": "Surgery_Schwartz",
+            "content": "concurrently acti-vating nucleolytic (Ago2-RISC) and nonnucleolytic (Ago1, 3, 4 \u00b1 Ago2-RISC) processes.38 Each bi-shRNA contains both a matched stem sequence to promote Ago2-mediated passenger strand cleavage and a second partial mismatched stem sequence for cleavage-independent passenger strand departure. Thus, functionality of the effectors is set by programmed passenger strand guided RISC loading rather than Ago subset distribution in the cancer cell. Both component Ago2 and Ago (1, 2, 4 \u00b1 3) RNAi moieties are fully complementary to the mRNA target sequence. Preliminary data indicate reduced \u201coff-target effects\u201d by shRNA compared with target-identical siRNAs. More than two mismatches in sequences within the target region drasti-cally reduce knockdown effect to undetectable levels (unpub-lished results). The design process involves in silico scanning of the entire human mRNA RefSeq database to avoid any potential sequence-related \u201coff-target effects.\u201d Published data also indicate"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3667",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mutant cells compromised in ESCRT function display signaling defects. In such cells, activated receptors cannot be down-regulated by endocytosis and packaging into multivesicular bodies. The still-active receptors therefore mediate prolonged signaling, which can lead to uncontrolled cell proliferation and cancer. Processes that shape membranes often use similar machinery. Because of strong similarities in their protein sequences, researchers think that ESCRT complexes are evolutionarily related to components that mediate cell-membrane deformation in cytokinesis in archaea. Similarly, the ESCRT machinery that drives the internal budding from the endosome membrane to form intralumenal vesicles is also used in animal cell cytokinesis and virus budding, which are topologically equivalent, as both processes involve budding away from the cytosolic surface of the membrane (Figure 13\u201357)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4830",
+            "title": "Cell_Biology_Alberts",
+            "content": "Are all chromosomes attached to the spindle? Is all DNA replicated? Is environment favorable? G2 M S G1 CONTROLLER ENTER MITOSIS TRIGGER ANAPHASE AND PROCEED TO CYTOKINESIS ENTER CELL CYCLE AND PROCEED TO S PHASE START TRANSITION Is environment favorable? G2/M TRANSITION"
+        },
+        {
+            "id": "Cell_Biology_Alberts_7068",
+            "title": "Cell_Biology_Alberts",
+            "content": "WASp protein Key target of activated Cdc42. Exists in an inactive folded conformation and an activated open conformation; association with Cdc42 stabilizes the open form, enabling binding to the Arp 2/3 complex and enhancing actinnucleating activity. Wee1 Protein kinase that inhibits Cdk activity by phosphorylating amino acids in the Cdk active site. Important in regulating entry into M phase of the cell cycle. Western blotting Technique by which proteins are separated by electrophoresis and immobilized on a paper sheet and then analyzed, usually by means of a labeled antibody. Also called immunoblotting. white blood cell General name for all the nucleated blood cells lacking hemoglobin. Also called leukocytes. Includes lymphocytes, granulocytes, and monocytes. (Figure 22\u201327) Wnt protein Member of a family of secreted signal proteins that have many different roles in controlling cell differentiation, proliferation, and gene expression in animal embryos and adult tissues."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4824",
+            "title": "Cell_Biology_Alberts",
+            "content": "For many years, cell biologists watched the puppet show of DNA synthesis, mitosis, and cytokinesis but had no idea of what lay behind the curtain controlling these events. It was not even clear whether there was a separate control system, or whether the processes of DNA synthesis, mitosis, and cytokinesis somehow controlled themselves. A major breakthrough came in the late 1980s with the identification of the key proteins of the control system, along with the realization that they are distinct from the proteins that perform the processes of DNA replication, chromosome segregation, and so on. In this section, we first consider the basic principles upon which the cell-cycle control system operates. We then discuss the protein components of the system and how they work together to time and coordinate the events of the cell cycle. The Cell-Cycle Control system Triggers the major Events of the Cell Cycle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4606",
+            "title": "Cell_Biology_Alberts",
+            "content": "by phosphorylation of their light chains. These myosin II filaments are much smaller than those found in skeletal muscle cells (see Figure 16\u201327). (B, courtesy of John Kendrick-Jones.) matrix through focal adhesions or by forming a circumferential belt in an epithelial cell, connecting it to adjacent cells through adherens junctions (discussed in Chapter 19). As described in Chapter 17, actin and myosin II in the contractile ring generate the force for cytokinesis, the final stage in cell division. Finally, as discussed later, contractile bundles also contribute to the adhesion and forward motion of migrating cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3726",
+            "title": "Cell_Biology_Alberts",
+            "content": "polarized cells direct proteins from the Trans golgi network to the appropriate domain of the plasma Membrane Most cells in tissues are polarized, with two or more molecularly and functionally distinct plasma membrane domains. This raises the general problem of how the Figure 13\u201370 Four examples of regulated exocytosis leading to plasma membrane enlargement. The vesicles fusing with the plasma membrane during cytokinesis (a) and phagocytosis (b) are thought to be derived from endosomes, whereas those involved in wound repair (c) may be derived from plasma membranes. The vast amount of new plasma membrane inserted during cellularization in a fly embryo occurs by the fusion of cytoplasmic vesicles (d)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5081",
+            "title": "Cell_Biology_Alberts",
+            "content": "nasmyth k & Haering CH (2009) Cohesin: its roles and mechanisms. Annu. Rev. Genet. 43, 525\u2013558. nigg Ea & stearns T (2011) The centrosome cycle: Centriole biogenesis, duplication and inherent asymmetries. Nat. Cell Biol. 13, 1154\u20131160. Rago F & Cheeseman Im (2013) The functions and consequences of force at kinetochores. J. Cell Biol. 200, 557\u2013565. Wadsworth p & khodjakov a (2004) E pluribus unum: towards a universal mechanism for spindle assembly. Trends Cell Biol. 14, 413\u2013419. Walczak CE, Cai s & khodjakov a (2010) mechanisms of chromosome behaviour during mitosis. Nat. Rev. Mol. Cell Biol. 11, 91\u2013102. Fededa Jp & gerlich dW (2012) molecular control of animal cell cytokinesis. Nat. Cell Biol. 14, 440\u2013447. green Ra, paluch E & Oegema k (2012) Cytokinesis in animal cells. Annu. Rev. Cell Dev. Biol. 28, 29\u201358. Jurgens g (2005) plant cytokinesis: fission by fusion. Trends Cell Biol. 15, 277\u2013283."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4877",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we describe the key mechanical events of mitosis and how M-Cdk and the APC/C orchestrate them. One of the most remarkable features of cell-cycle control is that a single protein kinase, M-Cdk, brings about all of the diverse and complex cell rearrangements that occur in the early stages of mitosis. At a minimum, M-Cdk must induce the assembly of the mitotic spindle and ensure that each sister chromatid in a pair is attached to the opposite pole of the spindle. It also triggers chromosome condensation, the large-scale reorganization of the intertwined sister chromatids into compact, rodlike structures. In animal cells, M-Cdk also promotes the breakdown of the nuclear envelope and rearrangements of the actin cytoskeleton and the Golgi apparatus. Each of these processes is thought to be initiated when M-Cdk phosphorylates specific proteins involved in the process, although most of these proteins have not yet been identified."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4983",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201347 Localization of cytokinesis regulators at the central spindle of the human cell. (a) at center is a cultured human cell at the beginning of cytokinesis, showing the locations of the gTpase Rhoa (red) and a protein called Cyk4 (green), which is one of several regulatory proteins that form complexes at the overlapping plus ends of interpolar microtubules. These proteins are thought to generate signals that help control Rhoa activity at the cell cortex. (B) When the same three-dimensional image is viewed in the plane of the contractile ring, as shown here, Rhoa (red) is seen as a ring beneath the cell surface, while the central spindle protein Cyk4 (green) is associated with microtubule bundles scattered throughout the equatorial plane of the cell. (Courtesy of alisa piekny and michael glotzer.) vesicle fusion until it reaches the plasma membrane and the original cell wall and divides the cell in two. Later, cellulose microfibrils are laid down within the matrix of the cell"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4946",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201337 Sister-chromatid separation at anaphase. In the transition from metaphase (a) to anaphase (B), sister chromatids suddenly and synchronously separate and move toward opposite poles of the mitotic spindle\u2014as shown in these light micrographs of Haemanthus (lily) endosperm cells that were stained with gold-labeled antibodies against tubulin. (Courtesy of andrew Bajer.) binds to and inhibits the activity of a protease called separase. The destruction of securin at the end of metaphase releases separase, which is then free to cleave one of the subunits of cohesin. The cohesins fall away, and the sister chromatids separate (Figure 17\u201338). In addition to securin, the APC/C also targets the Sand M-cyclins for destruction, leading to the loss of most Cdk activity in anaphase. Cdk inactivation allows phosphatases to dephosphorylate the many Cdk target substrates in the cell, as required for the completion of mitosis and cytokinesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5009",
+            "title": "Cell_Biology_Alberts",
+            "content": "are segregated during the single division. Thus, each diploid cell that divides by mitosis produces two genetically identical diploid daughter nuclei, which are distributed by cytokinesis into a pair of daughter cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4777",
+            "title": "Cell_Biology_Alberts",
+            "content": "actin filament bundles by inhibiting the actin depolymerizing factor cofilin. A similar signaling pathway is important for forming the contractile ring necessary for cytokinesis (see Figure 17\u201344)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5749",
+            "title": "Cell_Biology_Alberts",
+            "content": "conserved Mechanisms establish the Basic animal Body plan"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4963",
+            "title": "Cell_Biology_Alberts",
+            "content": "The first visible change of cytokinesis in an animal cell is the sudden appearance of a pucker, or cleavage furrow, on the cell surface. The furrow rapidly deepens and spreads around the cell until it completely divides the cell in two. The structure underlying this process is the contractile ring\u2014a dynamic assembly composed of actin filaments, myosin II filaments, and many structural and regulatory proteins. During anaphase, the ring assembles just beneath the plasma membrane (Figure 17\u201341; see also Panel 17\u20131). The ring gradually contracts, and, at the same time, fusion of intracellular vesicles with the plasma membrane inserts new membrane adjacent to the ring. This addition of membrane compensates for the increase in surface area that accompanies cytoplasmic division. When ring contraction is completed, membrane insertion and fusion seal the gap between the daughter cells. actin and myosin II in the Contractile Ring generate the Force for Cytokinesis"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5023",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cohesins near the centromeres are protected from separase in meiosis I by a kinetochore-associated protein called shugoshin (from the Japanese word for \u201cguardian spirit\u201d). Shugoshin acts by recruiting a protein phosphatase that removes phosphates from centromeric cohesins. Cohesin phosphorylation is normally required for separase to cleave cohesin; thus, removal of this phosphorylation near the centromere prevents cohesin cleavage. Sister-chromatid pairs therefore remain linked through meiosis I, allowing their correct bi-orientation on the spindle in meiosis II. Shugoshin is inactivated after meiosis I. At the onset of anaphase II, APC/C activation triggers centromeric cohesin cleavage and sisterchromatid separation\u2014much as it does in mitosis. Following anaphase II, nuclear envelopes form around the chromosomes to produce four haploid nuclei, after which cytokinesis and other differentiation processes lead to the production of haploid gametes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4966",
+            "title": "Cell_Biology_Alberts",
+            "content": "and myosin II filaments contract to generate the force that divides the cytoplasm in two. Once contraction begins, the ring exerts a force large enough to bend a fine glass needle that is inserted in its path. As the ring constricts, it maintains the same thickness, suggesting that its total volume and the number of filaments it contains decrease steadily. Moreover, unlike actin in muscle, the actin filaments in the ring are highly dynamic, and their arrangement changes continually during cytokinesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4990",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although nuclear division is usually followed by cytoplasmic division, there are exceptions. Some cells undergo multiple rounds of nuclear division without intervening cytoplasmic division. In the early Drosophila embryo, for example, the first 13 rounds of nuclear division occur without cytoplasmic division, resulting in the formation of a single large cell containing several thousand nuclei, arranged in a monolayer near the surface. A cell in which multiple nuclei share the same cytoplasm is called a syncytium. This arrangement greatly speeds up early development, as the cells do not have to take the time to go through all the steps of cytokinesis for each division. After these rapid nuclear divisions, membranes are created around each nucleus in one round of coordinated cytokinesis called cellularization. The plasma membrane extends inward and, with the help of an actin\u2013 myosin ring, pinches off to enclose each nucleus (Figure 17\u201351)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4979",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201346 An experiment demonstrating the influence of the position of microtubule asters on the subsequent plane of cleavage in a large egg cell. If the mitotic spindle is mechanically pushed to one side of the cell with a glass bead, the membrane furrowing is incomplete, failing to occur on the opposite side of the cell. subsequent cleavages occur not only at the midzone of each of the two subsequent mitotic spindles (yellow arrowheads), but also between the two adjacent asters that are not linked by a mitotic spindle\u2014but in this abnormal cell share the same cytoplasm (red arrowhead). apparently, the contractile ring that produces the cleavage furrow in these cells always forms in the region midway between two asters, suggesting that the asters somehow alter the adjacent region of cell cortex to induce furrow formation between them. The phragmoplast guides Cytokinesis in Higher plants"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4981",
+            "title": "Cell_Biology_Alberts",
+            "content": "Membrane deposition is particularly important for cytokinesis in higher-plant cells. These cells are enclosed by a semirigid cell wall. Rather than a contractile ring dividing the cytoplasm from the outside in, the cytoplasm of the plant cell is partitioned from the inside out by the construction of a new cell wall, called the cell plate, between the two daughter nuclei (Figure 17\u201348). The assembly of the cell plate begins in late anaphase and is guided by a structure called the phragmoplast, which contains microtubules derived from the mitotic spindle. Motor proteins transport small vesicles along these microtubules from the Golgi apparatus to the cell center. These vesicles, filled with polysaccharide and glycoproteins required for the synthesis of the new cell wall, fuse to form a disc-like, membrane-enclosed structure called the early cell plate. The plate expands outward by further"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4043",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Why does the actin filament revolve in steps with pauses in between? What does this rotation correspond to in terms of the structure of the \u03b13\u03b23\u03b3 complex? B. In its normal mode of operation inside the cell, how many ATP molecules do you suppose would be synthesized for each complete 360\u00b0 rotation of the \u03b3 subunit? Explain your answer. 14\u201311 How much energy is available in visible light? How much energy does sunlight deliver to Earth? How efficient"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4730",
+            "title": "Cell_Biology_Alberts",
+            "content": "GTP-binding proteins called septins serve as an additional filament system in all eukaryotes except terrestrial plants. Septins assemble into nonpolar filaments that form rings and cagelike structures, which act as scaffolds to compartmentalize membranes into distinct domains, or recruit and organize the actin and microtubule cytoskeletons. First identified in budding yeast, septin filaments localize to the neck between a dividing yeast mother cell and its growing bud (Figure 16\u201373A). At this location, septins block the movement of proteins from one side of the bud neck to the other, thereby concentrating cell growth preferentially within the bud. Septins also recruit the actin\u2013myosin machinery that forms the contractile ring required for cytokinesis. In animal cells, septins function in cell division, migration, and vesicle trafficking. In primary cilia, for example, a ring of septin filaments assembles at the base of the cilium and serves as a diffusion barrier at the plasma"
+        },
+        {
+            "id": "Immunology_Janeway_2795",
+            "title": "Immunology_Janeway",
+            "content": "11.5 Multiple Choice: Which of the following statements incorrectly describes TH1 macrophage activation? A. CD40 ligand sensitizes the macrophage to respond to IFN-\u03b3 B. LT-\u03b1 can substitute for CD40 ligand in macrophage activation C. TNFR-I activation is antagonized by activated TH1 cells D. Macrophages are sensitized to IFN-\u03b3 by small amounts of bacterial LPS 11.6 Short Answer: How do M2 macrophages stimulate collagen production in order to promote tissue repair? 11.7 Multiple Choice: Which of the following is not true concerning type 3 responses? A. The primary innate effector cells are neutrophils, which are recruited by CXCL8 and CXCL2 and have an increased output due to G-CSF and GM-CSF B. At homeostasis, TH17 cells are present almost exclusively in the intestinal mucosa C. IL-17 is the central cytokine D. IL-22 is produced to induce antimicrobial peptide production and epithelial cell proliferation and shedding of natural killer cells"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4679",
+            "title": "Cell_Biology_Alberts",
+            "content": "S.A. Burgess et al., Nature 421:715\u2013718, 2003. With permission from Macmillan Publishers Ltd.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2054",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201375 miRNA processing and mechanism of action. the precursor mirnA, through complementarity between one part of its sequence and another, forms a double-stranded structure. this rnA is cropped while still in the nucleus and then exported to the cytosol, where it is further cleaved by the Dicer enzyme to form the mirnA proper. Argonaute, in conjunction with other components of riSC, initially associates with both strands of the mirnA and then cleaves and discards one of them. the other strand guides riSC to specific mrnAs through base-pairing. if the rnA\u2013rnA match is extensive, as is commonly seen in plants, Argonaute cleaves the target mrnA, causing its rapid degradation. in mammals, the mirnA\u2013mrnA match often does not extend beyond a short seven-nucleotide \u201cseed\u201d region near the 5\u02b9 end of the mirnA. this less extensive base-pairing leads to inhibition of translation, mrnA destabilization, and transfer of the mrnA to p-bodies, where it is eventually degraded."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6764",
+            "title": "Cell_Biology_Alberts",
+            "content": "What initiates an autoimmune disease such as type 1 diabetes or multiple sclerosis? When a na\u00efve or memory T or B cell is activated by antigen and co-stimulatory signals, how does it decide whether to become an effector cell or memory cell? Are there cells that are pre-committed to becoming either effector or memory cells, for example, or is the decision determined solely by extracellular signals? Why do some of us make Ige antibodies against harmless antigens and thereby develop hay fever and allergic asthma, while most of us do not, and why is the proportion of such allergic individuals increasing? how does a cytotoxic T cell (or NK cell) avoid being killed by the perforin and granzymes that it secretes to kill a target cell?"
+        }
+    ],
+    "scores": [
+        0.026053864168618265,
+        0.02311176142697882,
+        0.022879330943847073,
+        0.022298316603835033,
+        0.02074743557014617,
+        0.01906318082788671,
+        0.01899189918991899,
+        0.018255746411086217,
+        0.01743396226415094,
+        0.01661220043572985,
+        0.015941756103684177,
+        0.015727149377081535,
+        0.0151117700729927,
+        0.015022265142979774,
+        0.014802721088435375,
+        0.014426957223567393,
+        0.014325628651257302,
+        0.014265050625966384,
+        0.014078416298289449,
+        0.013983050847457627,
+        0.013883847549909255,
+        0.013832113318756535,
+        0.013716404077849862,
+        0.013428486972678517,
+        0.013218741820085507,
+        0.012861869313482217,
+        0.012491756216782402,
+        0.011474338018960445,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745
+    ]
+}

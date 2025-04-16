@@ -1,0 +1,206 @@
+{
+    "id": "6081a83f4e6a4cf630000007",
+    "question": "Is FKBP52 encoding a chaperone ?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine if FKBP52 encodes a chaperone, we need to understand what a chaperone is and what FKBP52 does in the cell. Chaperones are proteins that assist in the folding of other proteins and prevent protein aggregation. FKBP52 is a protein that interacts with heat shock proteins (HSPs) and is involved in various cellular processes, including transcriptional regulation and DNA repair. Given its role in interacting with HSPs and its involvement in cellular processes, we can infer that FKBP52 is likely to be involved in protein folding or related processes. However, we need to verify this information to confirm if it encodes a chaperone.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1687",
+            "title": "Cell_Biology_Alberts",
+            "content": "T.O. Baldwin, J. Biol. Chem. 272:32715\u201332718, 1997.) Molecular chaperones specifically recognize incorrect, off-pathway configurations by their exposure of hydrophobic surfaces, which in correctly folded proteins are typically buried in the interior. The binding of these exposed hydrophobic surfaces to each other is what causes off-pathway conformations to irreversibly aggregate. We saw in Chapter 3 that in some cases of inherited human diseases, aggregates do form and can cause severe symptoms and even death. Chaperones prevent this from happening in normal proteins by binding to the exposed hydrophobic surfaces using hydrophobic surfaces of their own. As we shall see shortly, there are several types of chaperones; once bound to an incorrectly folded protein, they ultimately release it in a way that gives the protein another chance to fold correctly. Cells Utilize Several Types of Chaperones"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1748",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201311 Prokaryotes and eukaryotes both protect against the dangers of translating broken mRNAs. What dangers do partial mRNAs pose for the cell? 6\u201312 Both hsp60-like and hsp70 molecular chaperones share an affinity for exposed hydrophobic patches on proteins, using them as indicators of incomplete folding. Why do you suppose hydrophobic patches serve as critical signals for the folding status of a protein? 6\u201313 Most proteins require molecular chaperones to assist in their correct folding. How do you suppose the chaperones themselves manage to fold correctly? 6\u201314 What is so special about RNA that it is hypothesized to be an evolutionary precursor to DNA and protein? What is it about DNA that makes it a better material than RNA for storage of genetic information?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3373",
+            "title": "Cell_Biology_Alberts",
+            "content": "Another ER resident protein is the chaperone protein BiP. We have already discussed how BiP pulls proteins post-translationally into the ER through the Sec61 ER translocator. Like other chaperones (discussed in Chapter 13), BiP recognizes incorrectly folded proteins, as well as protein subunits that have not yet assembled into their final oligomeric complexes. It does so by binding to exposed amino acid sequences that would normally be buried in the interior of correctly folded or assembled polypeptide chains. An example of a BiP-binding site is a stretch of alternating hydrophobic and hydrophilic amino acids that would normally be buried in a \u03b2 sheet with its hydrophobic side oriented towards the hydrophobic core of the folded protein. The bound BiP both prevents the protein from aggregating and helps keep it in the ER (and thus out of the Golgi apparatus and later parts of the secretory pathway). Like some other members of the hsp70 family of chaperone proteins, which bind unfolded"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1688",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells Utilize Several Types of Chaperones Many molecular chaperones are called heat-shock proteins (designated hsp), because they are synthesized in dramatically increased amounts after a brief exposure of cells to an elevated temperature (for example, 42\u00b0C for cells that normally live at 37\u00b0C). This reflects the operation of a feedback system that responds to an increase in misfolded proteins (such as those produced by elevated temperatures) by boosting the synthesis of the chaperones that help these proteins refold. There are several major families of molecular chaperones, including the hsp60 and hsp70 proteins. Different members of these families function in different organelles. Thus, as discussed in Chapter 12, mitochondria contain their own hsp60 and hsp70 molecules that are distinct from those that function in the cytosol; and a special hsp70 (called BIP) helps to fold proteins in the endoplasmic reticulum."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1696",
+            "title": "Cell_Biology_Alberts",
+            "content": "Usually, if a protein has a sizable exposed patch of hydrophobic amino acids on its surface, it is abnormal: it has either failed to fold correctly after leaving the ribosome, suffered an accident that partly unfolded it at a later time, or failed to find its normal partner subunit in a larger protein complex. Such a protein is not merely useless to the cell, it can be dangerous. Proteins that rapidly fold correctly on their own do not display such patterns and generally bypass the chaperones. For the others, the chaperones can carry out \u201cprotein repair\u201d by giving them additional chances to fold while, at the same time, preventing their aggregation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1685",
+            "title": "Cell_Biology_Alberts",
+            "content": "Molecular Chaperones Help Guide the Folding of Most Proteins Most proteins probably do not fold correctly during their synthesis and require a special class of proteins called molecular chaperones to do so. Molecular chaperones are useful for cells because there are many different folding paths available to an unfolded or partially folded protein. Without chaperones, some of these pathways would not lead to the correctly folded (and most stable) form because the protein would become \u201ckinetically trapped\u201d in structures that are off-pathway. Some of these off-pathway configurations would aggregate and be left as irreversible dead ends of nonfunctional (and potentially dangerous) structures. covalent modifcation by glycosylation, phosphorylation, acetylation etc. binding to other protein subunits"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1691",
+            "title": "Cell_Biology_Alberts",
+            "content": "The chaperones shown in Figures 6\u201380 and 6\u201381 often need many cycles of ATP hydrolysis to fold a single polypeptide chain correctly. This energy is used to perform mechanical movements of the hsp60 and hsp70 \u201cmachines,\u201d converting them from binding forms to releasing forms. Just as we saw for transcription, splicing, and translation, the expenditure of free energy can be used by cells to improve the accuracy of a biological process. In the case of protein folding, ATP hydrolysis allows chaperones to recognize a wide variety of misfolded structures, to halt any further misfolding, and to recommence the folding of a protein in an orderly way."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1695",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although our discussion focuses on only two types of chaperones, the cell has a variety of others. The enormous diversity of proteins in cells presumably requires a wide range of chaperones with versatile surveillance and correction capabilities. If radioactive amino acids are added to cells for a brief period, the newly synthesized proteins can be followed as they mature into their final functional forms. This type of experiment demonstrates that the hsp70 proteins act first, beginning when a protein is still being synthesized on a ribosome, and the hsp60-like proteins act only later to help fold completed proteins. We have seen that the cell distinguishes misfolded proteins, which require additional rounds of ATP-catalyzed refolding, from those with correct structures through the recognition of hydrophobic surfaces."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3393",
+            "title": "Cell_Biology_Alberts",
+            "content": "misfolded proteins in the er activate an Unfolded protein response Cells carefully monitor the amount of misfolded protein in various compartments. An accumulation of misfolded proteins in the cytosol, for example, triggers a heat-shock response (discussed in Chapter 6), which stimulates the transcription of genes encoding cytosolic chaperones that help to refold the proteins. Similarly, an accumulation of misfolded proteins in the ER triggers an unfolded protein response, which includes an increased transcription of genes encoding proteins involved in retrotranslocation and protein degradation in the cytosol, ER chaperones, and many other proteins that help to increase the protein-folding capacity of the ER. Figure 12\u201350 The export and degradation of misfolded ER proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3396",
+            "title": "Cell_Biology_Alberts",
+            "content": "1 MISFOLDED PROTEINS IN ER SIGNAL THE NEED FOR MORE ER CHAPERONES. THEY BIND TO AND ACTIVATE A TRANSMEMBRANE KINASE 2 ACTIVATED KINASE UNMASKS AN ENDORIBONUCLEASE ACTIVITY 3 ENDORIBONUCLEASE CUTS SPECIFIC RNA MOLECULES AT TWO POSITIONS, REMOVING AN INTRON 6 TRANSCRIPTION REGULATOR ENTERS NUCLEUS AND ACTIVATES GENES ENCODING ER CHAPERONES 7 CHAPERONES ARE MADE IN ER, WHERE THEY HELP FOLD PROTEINS 4 TWO EXONS ARE LIGATED TO FORM AN ACTIVE mRNA 5 mRNA IS TRANSLATED TO MAKE A TRANSCRIPTION REGULATOR similar way, as discussed in Chapter 15.) The oligomerization and autophosphorylation of IRE1 activates an endoribonuclease domain in the cytosolic portion of the same molecule, which cleaves a specific cytosolic mRNA molecule at two positions, excising an intron. (This is a unique exception to the rule that introns are spliced out while the RNA is still in the nucleus.) The separated exons are then joined by an RNA ligase, generating a spliced mRNA, which is translated to produce an active"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1693",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201381 The structure and function of the hsp60 family of molecular chaperones. (A) A misfolded protein is initially captured by hydrophobic interactions with the exposed surface of the opening. The initial binding often helps to unfold a misfolded protein. The subsequent binding of ATP and a cap releases the substrate protein into an enclosed space, where it has a new opportunity to fold. After about 10 seconds, ATP hydrolysis occurs, weakening the binding of the cap. Subsequent binding of additional ATP molecules ejects the cap, and the protein is released. As indicated, only half of the symmetric barrel operates on a client protein at any one time. This type of molecular chaperone is also known as a chaperonin; it is designated as hsp60 in mitochondria, TCP1 in the cytosol of vertebrate cells, and GroEL in bacteria. (B) The structure of GroEL bound to its GroES cap, as determined by x-ray crystallography. On the left is shown the outside of the barrel-like structure, and on the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3271",
+            "title": "Cell_Biology_Alberts",
+            "content": "After the initial interaction with mitochondrial hsp70, many imported matrix proteins are passed on to another chaperone protein, mitochondrial hsp60. As discussed in Chapter 6, hsp60 helps the unfolded polypeptide chain to fold by binding and releasing it through cycles of ATP hydrolysis. Bacteria and mitochondria Use similar mechanisms to insert porins into their outer membrane"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6947",
+            "title": "Cell_Biology_Alberts",
+            "content": "mitotic chromosome Highly condensed duplicated chromosome as seen at mitosis, consisting of two sister chromatids held together at the centromere. mitotic spindle Bipolar array of microtubules and associated molecules that forms in a eukaryotic cell during mitosis and serves to move the duplicated chromosomes apart. (Figure 17\u201323 and Panel 17\u20131, pp. 980\u2013981) model organism A species that has been studied intensively over a long period and thus serves as a \u201cmodel\u201d for deriving fundamental biological principles. molecular chaperone (chaperone) Protein that helps guide the proper folding of other proteins, or helps them avoid misfolding. Includes heat-shock proteins (hsp). monoallelic gene expression Expression of only one of the two copies of a gene in a diploid genome, occurring, for example, as a result of imprinting or X-chromosome inactivation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3374",
+            "title": "Cell_Biology_Alberts",
+            "content": "and helps keep it in the ER (and thus out of the Golgi apparatus and later parts of the secretory pathway). Like some other members of the hsp70 family of chaperone proteins, which bind unfolded proteins and facilitate their import into mitochondria and chloroplasts, BiP hydrolyzes ATP to shuttle between highand low-affinity binding states, which allow it to hold on to and let go of its substrate proteins in a dynamic cycle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3385",
+            "title": "Cell_Biology_Alberts",
+            "content": "It has long been debated why glycosylation is such a common modification of proteins that enter the ER. One particularly puzzling observation has been that some proteins require N-linked glycosylation for proper folding in the ER, yet the precise location of the oligosaccharides attached to the protein\u2019s surface does not seem to matter. A clue to the role of glycosylation in protein folding came from studies of two ER chaperone proteins, which are called calnexin and calreticulin because they require Ca2+ for their activities. These chaperones are carbohydrate-binding proteins, or lectins, which bind to oligosaccharides on incompletely folded proteins and retain them in the ER. Like other chaperones, they prevent incompletely folded proteins from irreversibly aggregating. Both calnexin and calreticulin also promote the association of incompletely folded proteins with another ER chaperone, which binds to cysteines that have not yet formed disulfide bonds."
+        },
+        {
+            "id": "Cell_Biology_Alberts_468",
+            "title": "Cell_Biology_Alberts",
+            "content": "Most proteins fold up into a single stable conformation. However, this conformation changes slightly when the protein interacts with other molecules in the cell. This change in shape is often crucial to the function of the protein, as we see later. Although a protein chain can fold into its correct conformation without outside help, in a living cell special proteins called molecular chaperones often assist in protein folding. Molecular chaperones bind to partly folded polypeptide chains and help them progress along the most energetically favorable folding pathway. In the crowded conditions of the cytoplasm, chaperones are required to prevent the temporarily exposed hydrophobic regions in newly synthesized protein chains from associating with each other to form protein aggregates (see p. 355). However, the final three-dimensional shape of the protein is still specified by its amino acid sequence: chaperones simply make reaching the folded state more reliable."
+        },
+        {
+            "id": "Biochemistry_Lippincott_63",
+            "title": "Biochemistry_Lippinco",
+            "content": "The information needed for correct protein folding is contained in the primary structure of the polypeptide. However, most denatured proteins do not resume their native conformations even under favorable environmental conditions. This is because, for many proteins, folding is a facilitated process that requires a specialized group of proteins, referred to as molecular chaperones, and ATP hydrolysis. The chaperones, also known as heat shock proteins (HSP), interact with a polypeptide at various stages during the folding process. Some chaperones bind hydrophobic regions of an extended polypeptide and are important in keeping the protein unfolded until its synthesis is completed (for example, Hsp70). Others form cage-like macromolecular structures composed of two stacked rings. The partially folded protein enters the cage, binds the central cavity through hydrophobic interactions, folds, and is released (for example, mitochondrial Hsp60). [Note: Cage-like chaperones are sometimes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1699",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201382 The processes that monitor protein quality following protein synthesis. A newly synthesized protein sometimes folds correctly and assembles on its own with its partner proteins, in which case the quality control mechanisms leave it alone. Incompletely folded proteins are helped to properly fold by molecular chaperones: first by a family of hsp70 proteins, and then, in some cases, by hsp60-like proteins. For both types of chaperones, the substrate proteins are recognized by an abnormally exposed patch of hydrophobic amino acids on their surface. These \u201cprotein-rescue\u201d processes compete with another mechanism that, upon recognizing an abnormally exposed hydrophobic patch, marks the protein for destruction by the proteasome. The combined activity of all of these processes is needed to prevent massive protein aggregation in a cell, which can occur when many hydrophobic regions on proteins clump together nonspecifically."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1692",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201380 The hsp70 family of molecular chaperones. These proteins act early, recognizing a small stretch of hydrophobic amino acids on a protein\u2019s surface. Aided by a set of smaller hsp40 proteins (not shown), ATP-bound hsp70 molecules grasp their target protein and then hydrolyze ATP to ADP, undergoing conformational changes that cause the hsp70 molecules to associate even more tightly with the target. After the hsp40 dissociates, the rapid rebinding of ATP induces the dissociation of the hsp70 protein after ADP release. Repeated cycles of hsp binding and release help the target protein to refold."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6816",
+            "title": "Cell_Biology_Alberts",
+            "content": "calmodulin Ubiquitous intracellular Ca2+-binding protein that undergoes a large conformation change when it binds Ca2+, allowing it to regulate the activity of many target proteins. In its activated (Ca2+-bound) form, it is called Ca2+/calmodulin. (Figure 15\u201333) calnexin Carbohydrate-binding chaperone protein in the endoplasmic reticulum (ER) membrane that binds to oligosaccharides on incompletely folded proteins and retains them in the ER. calreticulin Carbohydrate-binding chaperone protein in the endoplasmic reticulum (ER) lumen that binds to oligosaccharides on incompletely folded proteins and retains them in the ER."
+        },
+        {
+            "id": "Pathology_Robbins_1566",
+            "title": "Pathology_Robbins",
+            "content": "The molecular basis for neuronal injury is not fully understood. Because in many cases the mutant protein is misfolded, it induces the so-called \u201cunfolded protein\u201d response (Chapter 2). If such misfolded enzymes are not stabilized by chaperones, they undergo proteasomal degradation, leading to accumulation of toxic substrates and intermediates within neurons. These findings have spurred clinical trials of molecular chaperone therapy for some variants of later-onset Tay-Sachs and other selected lysosomal storage diseases. Such therapy involves the use of synthetic chaperones that can cross the blood\u2013brain barrier, bind to the mutated protein, and enable its proper folding. Sufficient functional enzyme can then be rescued to ameliorate the effects of the inborn error."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3283",
+            "title": "Cell_Biology_Alberts",
+            "content": "signal sequences. They cross the TOM complex in the outer membrane, and intermembrane-space chaperones guide them to the TIM22 complex, which inserts them into the inner membrane by a process that requires the membrane potential, but not mitochondrial hsp70 or ATP (Figure 12\u201325E). An energetically favorable partitioning of the hydrophobic transmembrane regions into the inner membrane is likely to drive this process."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3389",
+            "title": "Cell_Biology_Alberts",
+            "content": "modes of translocation. For example, like translocation into mitochondria or chloroplasts, chaperone proteins are necessary to keep the polypeptide chain in an unfolded state prior to and during translocation. Similarly, a source of energy is required to provide directionality to the transport and to pull the protein into the cytosol. Finally, a translocator is necessary."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3346",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eukaryotic cells use a different set of accessory proteins that associate with the Sec61 complex. These proteins span the ER membrane and use a small domain on the lumenal side of the ER membrane to deposit an hsp70-like chaperone protein (called BiP, for binding protein) onto the polypeptide chain as it emerges from the pore into the ER lumen. ATP-dependent cycles of BiP binding and release drive unidirectional translocation, as described earlier for the mitochondrial hsp70 proteins that pull proteins across mitochondrial membranes. Proteins that are transported into the ER by a post-translational mechanism are first released into the cytosol, where they bind to chaperone proteins to prevent folding, as discussed earlier for proteins destined for mitochondria and chloroplasts. in single-pass Transmembrane proteins, a single internal er signal sequence remains in the lipid Bilayer as a membrane-spanning \u03b1 helix"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1597",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. Translation regulation Gene expression is most commonly regulated at the transcriptional level, but translation may also be regulated. An important mechanism by which this is achieved in eukaryotes is by covalent modification of eIF-2: Phosphorylated eIF-2 is inactive (see p. 476). In both eukaryotes and prokaryotes, regulation can also be achieved through proteins that bind mRNA and inhibit its use by blocking translation. E. Protein folding Proteins must fold to assume their functional, native state. Folding can be spontaneous (as a result of the primary structure) or facilitated by proteins known as chaperones (see p. 20). F. Protein targeting"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3388",
+            "title": "Cell_Biology_Alberts",
+            "content": "The er-membrane-bound chaperone protein calnexin binds to incompletely folded proteins containing one terminal glucose on N-linked oligosaccharides, trapping the protein in the er. removal of the terminal glucose by a glucosidase releases the protein from calnexin. a glucosyl transferase is the crucial enzyme that determines whether the protein is folded properly or not: if the protein is still incompletely folded, the enzyme transfers a new glucose from UDp-glucose to the N-linked oligosaccharide, renewing the protein\u2019s affinity for calnexin and retaining it in the er. The cycle repeats until the protein has folded completely. Calreticulin functions similarly, except that it is a soluble er resident protein. another er chaperone, erp57 (not shown), collaborates with calnexin and calreticulin in retaining an incompletely folded protein in the er. erp57 recognizes free sulfhydryl groups, which are a sign of incomplete disulfide bond formation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3387",
+            "title": "Cell_Biology_Alberts",
+            "content": "improperly folded proteins are exported from the er and Degraded in the Cytosol Despite all the help from chaperones, many protein molecules (more than 80% for some proteins) translocated into the ER fail to achieve their properly folded or oligomeric state. Such proteins are exported from the ER back into the cytosol, where they are degraded in proteasomes (discussed in Chapter 6). In many ways, the mechanism of retrotranslocation is similar to other post-translational Figure 12\u201349 The role of N-linked glycosylation in ER protein folding."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1689",
+            "title": "Cell_Biology_Alberts",
+            "content": "The hsp60 and hsp70 proteins each work with their own small set of associated proteins when they help other proteins to fold. These hsps share an affinity for the exposed hydrophobic patches on incompletely folded proteins, and they hydrolyze ATP, often binding and releasing their protein substrate with each cycle of ATP hydrolysis. In other respects, the two types of hsp proteins function differently. The hsp70 machinery acts early in the life of many proteins (often before the protein leaves the ribosome), with each monomer of hsp70 binding to a string of about four or five hydrophobic amino acids (Figure 6\u201380). On binding ATP, hsp70 releases the protein into solution allowing it a chance to re-fold. In contrast, hsp60-like proteins form a large barrel-shaped structure that acts after a protein has been fully synthesized. This type of chaperone, sometimes called a chaperonin, forms an \u201cisolation chamber\u201d for the folding process (Figure 6\u201381)."
+        },
+        {
+            "id": "Physiology_Levy_4116",
+            "title": "Physiology_Levy",
+            "content": "Mechanism of Action of Cortisol Cortisol acts primarily through the glucocorticoid receptor, which regulates gene transcription (see ). In the absence of hormone, the GR resides in the cytoplasm in a stable complex with several molecular chaperones, including heat shock proteins and cyclophilins. Cortisol-GR binding promotes dissociation of the chaperone proteins, followed by: aAllvaluesarerelativetotheglucocorticoidandmineralocorticoidpotenciesofcortisol,whichhaveeachbeenarbitrarilysetat1.0.Cortisolactuallyhasonly1/500thepotencyofthenaturalmineralocorticoidaldosterone. 1. rapid translocation of the cortisol-GR complex into the nucleus, 2. dimerization and binding to glucocorticoid response elements (GREs, both \u201cpositive\u201d GREs and \u201cnegative\u201d GREs) near the basal promoters of cortisol-regulated genes, and 3. recruitment of coactivator proteins and assembly of general transcription factors leading to increased or decreased transcription of the targeted genes."
+        },
+        {
+            "id": "Histology_Ross_237",
+            "title": "Histology_Ross",
+            "content": "\u0081 Microautophagy is also a nonspecific process in which cytoplasmic proteins are degraded in a slow, continuous process under normal physiologic conditions. In microautophagy, small cytoplasmic soluble proteins are internalized into the lysosomes by invagination of the lysosomal membrane. \u0081 Chaperone-mediated autophagy is the only selective process of protein degradation and requires assistance from specific cytosolic chaperones such as heat-shock chaperone protein called hsc73. This process is activated during nutrient deprivation and requires the presence of targeting signals on the degraded proteins and a specific receptor on"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3437",
+            "title": "Cell_Biology_Alberts",
+            "content": "Gething mJ (1999) role and regulation of the er chaperone Bip. Semin. Cell Dev. Biol. 10, 465\u2013472. G\u00f6rlich D, prehn s, hartmann e et al. (1992) a mammalian homolog of seC61p and seCYp is associated with ribosomes and nascent polypeptides during translocation. Cell 71, 489\u2013503. hegde rs & ploegh hl (2010) Quality and quantity control at the endoplasmic reticulum. Curr. Opin. Cell Biol. 22, 437\u2013446. hegde rs & Keenan rJ (2011) Tail-anchored membrane protein insertion into the endoplasmic reticulum. Nat. Rev. Mol. Cell Biol. 12, 787\u2013798. levine T & loewen C (2006) inter-organelle membrane contact sites: through a glass, darkly. Curr. Opin. Cell Biol. 18, 371\u2013378. l\u00f3pez-marqu\u00e9s rl, holthuis JCm & pomorski TG (2011) pumping lipids with p4-aTpases. Biol. Chem. 392, 67\u201376. mamathambika Bs & Bardwell JC (2008) Disulfide-linked protein folding pathways. Annu. Rev. Cell Dev. Biol. 24, 211\u2013235."
+        },
+        {
+            "id": "Histology_Ross_238",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.22 \u2022 Three autophagic pathways for degradation of cytoplasmic constituents. In macroautophagy, a portion of the cytoplasm or an entire organelle is surrounded by an intracellular membrane of the endoplasmic reticulum to form a double-membraned autophagosome vacuole. After fusion with a lysosome, the inner membrane and the contents of the vacuole are degraded. In microautophagy, cytoplasmic proteins are internalized into lysosomes by invagination of the lysosomal membrane. Chaperone-mediated autophagy to lysosomes is the most selective process for degradation of specifc cytoplasmic proteins. It requires assistance of proteins called chaperones. The chaperone protein\u2014that is, hsc73\u2014binds to the protein and helps transport it into the lysosomal lumen, where it is fnally degraded."
+        }
+    ],
+    "scores": [
+        0.03723266781515007,
+        0.03498709104623715,
+        0.03497549854298434,
+        0.0345617276442099,
+        0.03455005877525673,
+        0.03444161658848807,
+        0.033935459472044516,
+        0.032642230803713874,
+        0.027713096025869927,
+        0.027229975728155338,
+        0.026348616952528256,
+        0.0256556057854309,
+        0.025236697760542222,
+        0.02413963217302076,
+        0.02385970090515545,
+        0.02334458630286696,
+        0.02331002331002331,
+        0.023058106909038586,
+        0.022813852813852814,
+        0.0227822925502763,
+        0.022572287993622837,
+        0.021816323440339187,
+        0.02165095318886956,
+        0.021528138528138528,
+        0.020974576271186443,
+        0.020366354635065323,
+        0.019419614755130304,
+        0.017806267806267807,
+        0.017582753612109165,
+        0.016902011125374414,
+        0.016893997092016895,
+        0.016103059581320453
+    ]
+}

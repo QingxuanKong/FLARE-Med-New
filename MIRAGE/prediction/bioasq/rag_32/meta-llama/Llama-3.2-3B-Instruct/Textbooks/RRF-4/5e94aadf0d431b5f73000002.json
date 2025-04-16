@@ -1,0 +1,206 @@
+{
+    "id": "5e94aadf0d431b5f73000002",
+    "question": "Is Bcl-2-like protein 1 an pro apoptotic protein?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To determine if Bcl-2-like protein 1 is a pro-apoptotic protein, we need to understand the function of the Bcl-2 family of proteins in regulating apoptosis. The Bcl-2 family proteins can be broadly classified into two groups: pro-apoptotic and anti-apoptotic. Pro-apoptotic proteins promote apoptosis, while anti-apoptotic proteins inhibit apoptosis. Bcl-2 itself is an anti-apoptotic protein that binds to the mitochondrial membrane to block the release of cytochrome c, thereby preventing apoptosis. In contrast, pro-apoptotic proteins like Bax and Bak promote apoptosis by binding to the mitochondrial membrane and causing cytochrome c release. The question asks about Bcl-2-like protein 1, but the provided documents do not explicitly mention this protein. However, based on the general understanding of the Bcl-2 family proteins, if Bcl-2-like protein 1 is a member of the Bcl-2 family and does not inhibit apoptosis, it is likely to be a pro-apoptotic protein. This is because the Bcl-2 family proteins are divided into two main groups: pro-apoptotic and anti-apoptotic. Given the information provided, we can infer that Bcl-2-like protein 1 is likely to be a pro-apoptotic protein.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_2220",
+            "title": "Immunology_Janeway",
+            "content": "The anti-apoptotic Bcl-2 family members are induced by stimuli that promote cell survival. The best known of the anti-apoptotic proteins is Bcl-2 itself. The Bcl2 gene was first identified as an oncogene in a B-cell lymphoma, and its overexpression in tumors makes the cells more resistant to apoptotic stimuli and thus more likely to progress to an invasive cancer. Other members of the inhibitory family include Bcl-XL and Bcl-W. Anti-apoptotic proteins function by binding to the mitochondrial membrane to block the release of cytochrome c. The precise mechanism of inhibition is not clear, but they may function by directly blocking the function of the pro-apoptotic family members."
+        },
+        {
+            "id": "Pathology_Robbins_1300",
+            "title": "Pathology_Robbins",
+            "content": "Before delving into modes of resistance to apoptosis, a brief review of the intrinsic pathway is in order. Activation of this pathway leads to permeabilization of the mitochondrial outer membrane and release of molecules, such as cytochrome c, that initiate apoptosis. The integrity of the mitochondrial outer membrane is determined by a delicate balancing act between pro-apoptotic and anti-apoptotic members of the BCL2 protein family. The pro-apoptotic proteins BAX and BAK are required for apoptosis and directly promote mitochondrial permeabilization. Their action is inhibited by the anti-apoptotic members of this family, which are exemplified by BCL2, BCL-XL, and MCL1. A third set of proteins, the so-called \u201cBH3-only proteins,\u201d which include BAD, BID, and PUMA, shift the balance between the pro-apoptotic and anti-apoptotic family members by neutralizing the actions of anti-apoptotic proteins like BCL2 and BCL-XL, thereby promoting apoptosis. When the sum total of all the BH3-only"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5115",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mammalian Bcl2 family proteins regulate the intrinsic pathway of apoptosis mainly by controlling the release of cytochrome c and other intermembrane mitochondrial proteins into the cytosol. Some Bcl2 family proteins are pro-apoptotic and promote apoptosis by enhancing the release, whereas others are antiapoptotic and inhibit apoptosis by blocking the release. The pro-apoptotic and anti-apoptotic proteins can bind to each other in various combinations to form heterodimers in which the two proteins inhibit each other\u2019s function. The balance between the activities of these two functional classes of Bcl2 family proteins largely determines whether a mammalian cell lives or dies by the intrinsic pathway of apoptosis. As illustrated in Figure 18\u20138, the anti-apoptotic Bcl2 family proteins, including Bcl2 itself (the founding member of the Bcl2 family) and BclXL, share four distinctive Bcl2 homology (BH) domains (BH1\u20134). The pro-apoptotic Bcl2 family proteins"
+        },
+        {
+            "id": "Immunology_Janeway_2215",
+            "title": "Immunology_Janeway",
+            "content": "9-30 The intrinsic pathway of apoptosis is mediated by the release of cytochrome c from mitochondria. Apoptosis by the intrinsic pathway is triggered by the release of cytochrome c from mitochondria, which triggers the activation of caspases. Once in the cytoplasm, cytochrome c binds to a protein called Apaf-1 (apoptotic protease activating factor-1), stimulating its oligomerization to form the apoptosome. The apoptosome then recruits an initiator caspase, pro-caspase 9, aggregation of which promotes its self-cleavage and frees its catalytic domain to activate effector caspases (Fig. 9.42). The release of cytochrome c is controlled by interactions between members of the Bcl-2 family of proteins. The Bcl-2 family of proteins is defined by the presence of one or more Bcl-2 homology (BH) domains and can be divided into two general groups: members that promote apoptosis, and members that"
+        },
+        {
+            "id": "Immunology_Janeway_2218",
+            "title": "Immunology_Janeway",
+            "content": "c is bound by Fig. 9.43 General scheme of intrinsic pathway regulation by the Bcl-2 family of proteins. extracellular apoptotic stimuli activate a group of pro-apoptotic (sentinel) proteins. sentinel proteins can function either to block the protection provided by pro-survival, protector proteins or to directly activate pro-apoptotic, executioner proteins. In mammalian cells, apoptosis is mediated by the executioner proteins Bax, Bak, and Bok. In normal cells, these proteins are prevented from acting by the protector proteins (Bcl-2, Bcl-XL, and Bcl-W). The release of activated executioner proteins causes the release of cytochrome c and subsequent cell death, as shown in Fig. 9.42."
+        },
+        {
+            "id": "Immunology_Janeway_2219",
+            "title": "Immunology_Janeway",
+            "content": "Apoptotic stimuli Sentinels Bad, Bil, Bid, Bim, p53, PUMA, NOXA Death Protectors Bcl-2, Bcl-XL, Bcl-W Executioners Bax, Bak, Bok inhibit apoptosis (Fig. 9.43). Pro-apoptotic Bcl-2 family members, such as Bax, Bak, and Bok (referred to as executioners), bind to mitochondrial membranes and can directly cause cytochrome c release. How they do this is still not known, but they may form pores in the membranes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5123",
+            "title": "Cell_Biology_Alberts",
+            "content": "The BH3-only proteins are the largest subclass of Bcl2 family proteins. The cell either produces or activates them in response to an apoptotic stimulus, and they are thought to promote apoptosis mainly by inhibiting anti-apoptotic Bcl2 family Figure 18\u20138 The three classes of Bcl2 family proteins. Note that the Bh3 domain is the only Bh domain shared by all Bcl2 family members; it mediates the direct interactions between pro-apoptotic and anti-apoptotic family members. Figure 18\u20139 The role of pro-apoptotic effector Bcl2 family proteins (mainly Bax and Bak) in the release of mitochondrial intermembrane proteins in the intrinsic pathway of apoptosis. When activated by an apoptotic stimulus, the effector Bcl2 family proteins aggregate on the outer mitochondrial membrane and release cytochrome c and other proteins from the intermembrane space into the cytosol by an unknown mechanism."
+        },
+        {
+            "id": "Pathology_Robbins_221",
+            "title": "Pathology_Robbins",
+            "content": "become permeable, cytochrome c leaks out into the cytoplasm, triggering caspase activation and apoptotic death. A family of more than 20 proteins, the prototype of which is Bcl-2, controls the permeability of mitochondria. In healthy cells, Bcl-2 and the related protein Bcl-xL, which are produced in response to growth factors and other stimuli, maintain the integrity of mitochondrial membranes, in large part by holding two proapoptotic members of the family, Bax and Bak, in check. When cells are deprived of growth factors and survival signals, or are exposed to agents that damage DNA, or accumulate unacceptable amounts of misfolded proteins, a number of sensors are activated. These sensors are called BH3 proteins because they contan the third domain seen in Bcl-family proteins. They in turn shift this delicate, life-sustaining balance in favor of pro-apoptotic Bak and Bax. As a result, Bak and Bax dimerize, insert into the mitochondrial membrane, and form channels through which"
+        },
+        {
+            "id": "InternalMed_Harrison_6163",
+            "title": "InternalMed_Harrison",
+            "content": "The release of apoptosis-inducing proteins from the mitochondria is regulated by proand antiapoptotic members of the Bcl-2 family. Antiapoptotic members (e.g., Bcl-2, Bcl-XL, and Mcl-1) associate with the mitochondrial outer membrane via their carboxyl termini, exposing to the cytoplasm a hydrophobic binding pocket composed of Bcl-2 homology (BH) domains 1, 2, and 3 that is crucial for their activity. Perturbations of normal physiologic processes in specific cellular compartments lead to the activation of BH3-only proapoptotic family members (such as Bad, Bim, Bid, Puma, Noxa, and others) that can alter the conformation of the outer-membrane proteins Bax and Bak, which then oligomerize to form pores in the mitochondrial outer membrane resulting in cytochrome c release. If proteins composed only of BH3 domains are sequestered by Bcl-2, Bcl-XL, or Mcl-1, pores do not form and apoptosis-inducing proteins are not released from the mitochondria. The ratio of levels of antiapoptotic Bcl-2"
+        },
+        {
+            "id": "Pathology_Robbins_1301",
+            "title": "Pathology_Robbins",
+            "content": "the pro-apoptotic and anti-apoptotic family members by neutralizing the actions of anti-apoptotic proteins like BCL2 and BCL-XL, thereby promoting apoptosis. When the sum total of all the BH3-only proteins \u201coverwhelms\u201d the protective BCL2/BCL-XL factors, BAX and BAK are activated and form pores in the mitochondrial membrane. These allow mitochondrial cytochrome c to"
+        },
+        {
+            "id": "Immunology_Janeway_2221",
+            "title": "Immunology_Janeway",
+            "content": "A second family of pro-apoptotic Bcl-2 family members are termed 'sentinels' and are activated by apoptotic stimuli. Once activated, these proteins, which include Bad, Bid, and PUMA, can either act to block the activity of the antiapoptotic proteins or act directly to stimulate the activity of the executioner pro-apoptotic proteins. 9-31 Cytotoxic effector proteins that trigger apoptosis are contained in the granules of CD8 cytotoxic T cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5122",
+            "title": "Cell_Biology_Alberts",
+            "content": "The anti-apoptotic Bcl2 family proteins such as Bcl2 itself and BclXL are also located on the cytosolic surface of the outer mitochondrial membrane, where they help prevent inappropriate release of intermembrane proteins. The antiapoptotic Bcl2 family proteins inhibit apoptosis mainly by binding to and inhibiting pro-apoptotic Bcl2 family proteins\u2014either on the mitochondrial membrane or in the cytosol. On the outer mitochondrial membrane, for example, they bind to Bak and prevent it from oligomerizing, thereby inhibiting the release of cytochrome c and other intermembrane proteins. There are at least five mammalian anti-apoptotic Bcl2 family proteins, and every mammalian cell requires at least one to survive. Moreover, a number of these proteins must be inhibited for the intrinsic pathway to induce apoptosis; the BH3-only proteins mediate the inhibition."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6810",
+            "title": "Cell_Biology_Alberts",
+            "content": "Bcl2 family Family of intracellular proteins that either promote or inhibit apoptosis by regulating the release of cytochrome c and other mitochondrial proteins from the intermembrane space into the cytosol. BclXL Anti-apoptotic Bcl2 family protein of the outer mitochondrial membrane that binds and inhibits pro-apoptotic Bcl2 family proteins and prevents inappropriate activation of the intrinsic pathway of apoptosis. benign Of tumors: self-limiting in growth, and noninvasive."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5127",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 18\u201310 How pro-apoptotic BH3only and anti-apoptotic Bcl2 family proteins regulate the intrinsic pathway of apoptosis. (A) In the absence of an apoptotic stimulus, anti-apoptotic Bcl2 family proteins bind to and inhibit the effector Bcl2 family proteins on the mitochondrial outer membrane (and in the cytosol\u2014not shown). (B) In the presence of an apoptotic stimulus, Bh3-only proteins are activated and bind to the anti-apoptotic Bcl2 family proteins so that they can no longer inhibit the effector Bcl2 family proteins; the latter then become activated, aggregate in the outer mitochondrial membrane, and promote the release of intermembrane mitochondrial proteins into the cytosol. Some activated Bh3only proteins may stimulate mitochondrial protein release more directly by binding to and activating the effector Bcl2 family proteins. Although not shown, the antiapoptotic Bcl2 family proteins are bound to the mitochondrial surface."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5121",
+            "title": "Cell_Biology_Alberts",
+            "content": "When an apoptotic stimulus triggers the intrinsic pathway, the pro-apoptotic effector Bcl2 family proteins become activated and aggregate to form oligomers in the mitochondrial outer membrane, inducing the release of cytochrome c and other intermembrane proteins by an unknown mechanism (Figure 18\u20139). In mammalian cells, Bax and Bak are the main effector Bcl2 family proteins, and at least one of them is required for the intrinsic pathway of apoptosis to operate: mutant mouse cells that lack both proteins are resistant to all pro-apoptotic signals that normally activate this pathway. Whereas Bak is bound to the mitochondrial outer membrane even in the absence of an apoptotic signal, Bax is mainly located in the cytosol and translocates to the mitochondria only after an apoptotic signal activates it. As we discuss below, the activation of Bax and Bak usually depends on activated pro-apoptotic BH3-only proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5147",
+            "title": "Cell_Biology_Alberts",
+            "content": "Intracellular Bcl2 family proteins and IAP proteins tightly regulate the apoptotic program to ensure that cells kill themselves only when it benefits the animal. Both anti-apoptotic and pro-apoptotic Bcl2 family proteins regulate the intrinsic pathway by controlling the release of mitochondrial intermembrane proteins, while IAP proteins inhibit activated caspases and promote their degradation."
+        },
+        {
+            "id": "Immunology_Janeway_2217",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 9.42 In the intrinsic pathway, cytochrome c release from apaf-1. The resultant conformational change that ensues in apaf-1 mitochondria induces formation of the apoptosome, which induces self-assembly of the multimeric apoptosome, which recruits activates pro-caspase 9 to initiate programmed cell death. pro-caspase 9 (third panel). Clustering of pro-caspase 9 by the In normal cells, cytochrome c is confined to the mitochondria apoptosome activates it, allowing it to cleave downstream caspases, (first panel). however, during stimulation of the intrinsic pathway, such as caspase 3; this results in the activation of enzymes such as the mitochondria swell, allowing the cytochrome c to leak out ICad, which can cleave dna (fourth panel). into the cytosol (second panel), where cytochrome c is bound by Fig. 9.43 General scheme of intrinsic pathway regulation by the Bcl-2 family of proteins. extracellular apoptotic stimuli activate a group of pro-apoptotic (sentinel) proteins. sentinel"
+        },
+        {
+            "id": "InternalMed_Harrison_6164",
+            "title": "InternalMed_Harrison",
+            "content": "only of BH3 domains are sequestered by Bcl-2, Bcl-XL, or Mcl-1, pores do not form and apoptosis-inducing proteins are not released from the mitochondria. The ratio of levels of antiapoptotic Bcl-2 family members and the levels of proapoptotic BH3-only proteins at the mitochondrial membrane determines the activation state of the intrinsic pathway. The mitochondrion must therefore be recognized not only as an organelle with vital roles in intermediary metabolism and oxidative phosphorylation but also as a central regulatory structure of the apoptotic process."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5148",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 18\u201313 How the chemical ABT737 inhibits anti-apoptotic Bcl2 family proteins. As shown in Figure 18\u201310B, an apoptotic signal results in activation of Bh3-only proteins, which interact with a long hydrophobic groove in anti-apoptotic Bcl2 family proteins, thereby preventing them from blocking apoptosis. Using the crystal structure of the groove, the drug shown in (A), called ABt-737, was designed and synthesized to bind tightly in the groove, as shown for the anti-apoptotic Bcl2 family protein, BclXL, in (B). By inhibiting the activity of these proteins, the drug promotes apoptosis in any cell that depends on them for survival. (pDB code: 2YXJ.) how many forms of programmed cell death exist? What are the underlying mechanisms and benefits of each? thousands of caspase substrates have been identified. Which ones are the critical proteins that must be cleaved to trigger the major cell remodeling events underlying apoptosis?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5111",
+            "title": "Cell_Biology_Alberts",
+            "content": "A key protein in the intrinsic pathway is cytochrome c, a water-soluble component of the mitochondrial electron-transport chain. When released into the cytosol (Figure 18\u20136), it takes on a new function: it binds to an adaptor protein called Apaf1 (apoptotic protease activating factor-1), causing the Apaf1 to oligomerize into a wheel-like heptamer called an apoptosome. The Apaf1 proteins in the apoptosome then recruit initiator caspase-9 proteins, which are thought to be activated by proximity in the apoptosome, just as caspase-8 is activated in the DISC. The activated caspase-9 molecules then activate downstream executioner caspases to induce apoptosis (Figure 18\u20137). Bcl2 proteins regulate the Intrinsic pathway of Apoptosis"
+        },
+        {
+            "id": "Pathology_Robbins_1302",
+            "title": "Pathology_Robbins",
+            "content": "Deficiency of ROS growth factors Radiation and survival Chemicals signals Fig. 6.25 Intrinsic pathway of apoptosis and major mechanisms used by tumor cells to evade cell death. (1) Loss of p53, either through mutation or through antagonism by MDM2. (2) Reduced egress of cytochrome c from mitochondria as a result of upregulation of anti-apoptotic factors such as BCL2, BCL-XL, and MCL-1. IAP, Inhibitor of apoptosis. leak out into the cytosol, where it binds to APAF-1 and activates caspase-9, which in turn cleaves and activates executioner caspases such as caspase-3. Another group of factors that function as negative regulators of the intrinsic pathway is known as inhibitor of apoptosis proteins (IAPs), which bind caspase-9 and prevent apoptosis. Within this framework, it is possible to illustrate the major mechanisms by which apoptosis is evaded by cancer cells ("
+        },
+        {
+            "id": "Pathology_Robbins_219",
+            "title": "Pathology_Robbins",
+            "content": "PhagocyteMitochondria Receptor-ligand interactions \u2022 Fas \u2022 TNF receptor Cell injury \u2022 Growth factor withdrawal \u2022 DNA damage (by radiation, toxins, free radicals) \u2022 Protein misfolding (ER stress) Cytochrome c and other pro-apoptotic proteins Regulators (Bcl-2, Bcl-xL) Caspase activation Adaptor proteins Breakdown of cytoskeleton Endonuclease activation Ligands for phagocytic cell receptors Apoptotic body Nuclear fragmentation BH3 sensors Bcl-2 family effectors (Bax, Bak)"
+        },
+        {
+            "id": "InternalMed_Harrison_6166",
+            "title": "InternalMed_Harrison",
+            "content": "to associate with death-inducing BH3-only proteins. These compounds inhibit the antiapoptotic activities of Bcl-2 and Bcl-XL at nanomolar concentrations in the laboratory and are entering clinical trials."
+        },
+        {
+            "id": "Pathology_Robbins_266",
+            "title": "Pathology_Robbins",
+            "content": "Exposure of cells to radiation or chemotherapeutic agents, intracellular generation of ROS, and acquisition of mutations may all induce DNA damage, which if severe may trigger apoptotic death. Damage to DNA is sensed by intracellular sentinel proteins, which transmit signals that lead to the accumulation of p53 protein. p53 first arrests the cell cycle (at the G1 phase) to allow the DNA to be repaired before it is replicated (Chapter 6). However, if the damage is too great to be repaired successfully, p53 triggers apoptosis, mainly by stimulating BH3-only sensor proteins that ultimately activate Bax and Bak, proapoptotic members of the Bcl-2 family. When p53 is mutated or absent (as it is in certain cancers), cells with damaged DNA that would otherwise undergo apoptosis survive. In such cells, the DNA damage may result in mutations or DNA rearrangements (e.g., translocations) that lead to neoplastic transformation (Chapter 6)."
+        },
+        {
+            "id": "Immunology_Janeway_1576",
+            "title": "Immunology_Janeway",
+            "content": "death via multiple mechanisms. A major mechanism is the phosphorylation of the pro-apoptotic protein Bad. When phosphorylated, Bad can no longer bind to and inhibit the antiapoptotic (pro-survival) protein Bcl-2 (see Fig. 7.22). Another effect of activated Akt is to regulate the expression of homing and adhesion receptors that orchestrate the migratory properties of activated T cells (discussed in detail in Chapters 9 and 11). Activated Akt also functions to stimulate the cell\u2019s metabolism by increasing the utilization of glucose; this is mediated by increasing the activity of glycolytic enzymes and by inducing the upregulation of nutrient transporters on the T-cell membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6809",
+            "title": "Cell_Biology_Alberts",
+            "content": "basement membrane Thin mat of extracellular matrix that separates epithelial sheets, and many other types of cells such as muscle or fat cells, from connective tissue. Also called basal lamina. (Figure 19\u201351) Bax A main effector Bcl2 family protein of the intrinsic pathway of apoptosis in mammalian cells; located mainly in the cytosol and translocates to the mitochondria only after activation, usually by activated pro-apoptotic BH3-only proteins. B cell receptor (BCR) The transmembrane immunoglobulin protein on the surface of a B cell that serves as its receptor for antigen. Bcl2 Anti-apoptotic Bcl2 family protein of the outer mitochondrial membrane that binds and inhibits pro-apoptotic Bcl2 family proteins and prevents inappropriate activation of the intrinsic pathway of apoptosis."
+        },
+        {
+            "id": "InternalMed_Harrison_24627",
+            "title": "InternalMed_Harrison",
+            "content": "BAK are free to induce mitochondrial permeabilization with release of cytochrome c, which ultimately results in the activation of caspase 9 through the apoptosome. Caspase 9 then activates caspase 3. SMAC/DIABLO is also released after mitochondrial permeabilization and acts to block the action of inhibitors of apoptosis protein (IAPs), which inhibit caspase activation. There is potential cross-talk between the two pathways, which is mediated by the truncated form of BID (tBID) that is produced by caspase 8\u2013mediated BID cleavage; tBID acts to inhibit the BCL2-BCL-XL pathway and to activate BAX and BAK. There is debate (indicated by the question mark) as to whether proapoptotic BH3 molecules (e.g., BIM and PUMA) act directly on BAX and BAK to induce mitochondrial permeability or whether they act only on BCL2-BCL-XL. APAF1, apoptotic protease-activating factor 1; BH3, BCL homologue; TNF, tumor necrosis factor; TRAIL, TNF-related apoptosis-inducing ligand. (From RS Hotchkiss et al: N Engl"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5126",
+            "title": "Cell_Biology_Alberts",
+            "content": "As mentioned earlier, in some cells the extrinsic apoptotic pathway recruits the intrinsic pathway to amplify the caspase cascade to kill the cell. The BH3-only protein Bid is the link between the two pathways. Bid is normally inactive. However, when death receptors activate the extrinsic pathway in some cells, the initiator caspase, caspase-8, cleaves Bid, producing an active form of Bid that trans-locates to the outer mitochondrial membrane and inhibits anti-apoptotic Bcl2 family proteins, thereby amplifying the death signal."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4295",
+            "title": "Cell_Biology_Alberts",
+            "content": "proteins (of the Bcl2 family\u2014discussed in Chapter 18) in an inactive state. Once phosphorylated, Bad releases the inhibitory proteins, which now can block apoptosis and thereby promote cell survival. As shown, the phosphorylated Bad binds to a ubiquitous cytosolic protein called 14-3-3, which keeps Bad out of action."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5112",
+            "title": "Cell_Biology_Alberts",
+            "content": "Bcl2 proteins regulate the Intrinsic pathway of Apoptosis The intrinsic pathway of apoptosis is tightly regulated to ensure that cells kill themselves only when it is appropriate. A major class of intracellular regulators of the intrinsic pathway is the Bcl2 family of proteins, which, like the caspase family, has been conserved in evolution from worms to humans; a human Bcl2 protein, for example, can suppress apoptosis when expressed in the worm Caenorhabditis elegans."
+        },
+        {
+            "id": "Surgery_Schwartz_2097",
+            "title": "Surgery_Schwartz",
+            "content": "protein with low pI). The mitochondrial pathway can be stimulated by many factors, including DNA damage, reactive oxygen species, or the with-drawal of survival factors. The permeability of the mitochon-drial membrane determines whether the apoptotic pathway will proceed. The Bcl-2 family of regulatory proteins includes both proapoptotic proteins (e.g., Bax, BAD, and Bak) and antiapop-totic proteins (e.g., Bcl-2 and Bcl-xL). The activity of the Bcl-2 proteins is centered on the mitochondria, where they regulate LigandsPI3KILKEZH2GSK3MDM2ForkheadCaspase-9CaspasesFas-LAktIKKBadI\u02dcBp27p214E-BP1TSC1/2sosGrb2ShcsrcMEKKMEKSEKMAPKSAPKELKMYCCREBJUNS6KS6elF4EAlterations in geneexpressionMigrationGrowthProliferationAngiogenesisSurvivalNF-\u02dcBBcl-xLPLC-\u00b0IP31,2 diacyl-glycerolCa++mobilizationProteinkinase CRaf-1AdhesionmTORHER1/3/4HER2FAKRasFigure 10-7. The HER2 signaling pathway. HER2 can interact with different members of the HER family and activate mitogenic and antiapoptotic pathways. 4E-BP1 ="
+        },
+        {
+            "id": "Cell_Biology_Alberts_5134",
+            "title": "Cell_Biology_Alberts",
+            "content": "Survival factors usually bind to cell-surface receptors, which activate intracellular signaling pathways that suppress the apoptotic program, often by regulating members of the Bcl2 family of proteins. Some survival factors, for example, stimulate the synthesis of anti-apoptotic Bcl2 family proteins such as Bcl2 itself or BclXL (Figure 18\u201312A). Others act by inhibiting the function of pro-apoptotic BH3-only proteins such as Bad (Figure M18\u201312B). In Drosophila, some survival factors act by phosphorylating and inactivating anti-IAP proteins such as Hid, thereby enabling IAP proteins to suppress apoptosis (Figure 18\u201312C). Some developing neurons, like those illustrated in Figure 18\u201311, use an ingenious alternative approach: survival-factor receptors stimulate apoptosis\u2014by an unknown mechanism\u2014when they are not occupied, and then stop promoting death when survival factor binds. The end result in all these cases is the same: cell survival depends on survival factor binding."
+        }
+    ],
+    "scores": [
+        0.037808398781076044,
+        0.03734799192819169,
+        0.03708410810022202,
+        0.03704338987357855,
+        0.036971519803428984,
+        0.035847990288519815,
+        0.03571314055761765,
+        0.03547540883058735,
+        0.035434219099580784,
+        0.035186552839224595,
+        0.03513112010818027,
+        0.03494426112876924,
+        0.03464712276187686,
+        0.03461140579067602,
+        0.03434118524798059,
+        0.03388133138499068,
+        0.031737806400212336,
+        0.030820634991519276,
+        0.030429898818102666,
+        0.030420080050873453,
+        0.029412024525918908,
+        0.02885145220676086,
+        0.028561737423310543,
+        0.02806332416283977,
+        0.025705812748146845,
+        0.025042606516290727,
+        0.024541839902486665,
+        0.02419062419062419,
+        0.02390473651470719,
+        0.023312612239259567,
+        0.02300992360962376,
+        0.022711184121392766
+    ]
+}

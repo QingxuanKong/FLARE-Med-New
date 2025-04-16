@@ -1,0 +1,206 @@
+{
+    "id": "5e8101e3835f4e477700002e",
+    "question": "Is cathepsin L active in endosomes?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine if cathepsin L is active in endosomes, we need to understand the process of endosome maturation and the role of cathepsins in this process. According to Document [0], cathepsins, including cathepsin L, are cysteine proteases involved in the processing of intravesicular antigens. Document [11] states that in early endosomes, many internalized receptor proteins change their conformation and release their ligand, and some endocytosed ligands remain bound to their receptors, which are usually doomed to destruction in lysosomes. However, Document [17] mentions that patches of the endosomal membrane containing ubiquitylated receptors invaginate and pinch off to form intralumenal vesicles, which are mediated by ESCRT complexes and sequester the receptors away from the cytosol, terminating their signaling activity. Document [17] also states that late endosomes migrate along microtubules toward the interior of the cell, where they fuse with one another and with lysosomes to form endolysosomes, which degrade their contents. Document [13] states that cathepsin L is involved in the processing of antigens, but it is unclear whether cathepsin L is active in endosomes. However, Document [17] mentions that in thymic epithelial cells, cathepsin L cleaves the MHC class II molecule associated with Ii trimers, which is a different context. Based on these documents, it is unclear whether cathepsin L is active in endosomes. However, Document [17] mentions that in thymic epithelial cells, cathepsin L cleaves the MHC class II molecule associated with Ii trimers, which is a different context. Document [23] states that in thymic epithelial cells, cathepsin L cleaves the MHC class II molecule associated with Ii trimers, which is a different context. Based on these documents, it is unclear whether cathepsin L is active in endosomes. However, Document [17] mentions that in thymic epithelial cells, cathepsin L cleaves the MHC class II molecule associated with Ii trimers, which is a different context. Based on these documents, the answer to the question is not explicitly stated. However, considering the role of cathepsin L in antigen processing and the context of thymic epithelial cells, it is possible that cathepsin L is active in endosomes, but this is not explicitly stated in the documents. Therefore, the best answer is not explicitly stated in the documents. However, based on the information provided, the most likely answer is that cathepsin L is active in endosomes, but this is not explicitly stated in the documents. However, Document [17] does mention that in thymic epithelial cells, cathepsin L cleaves the MHC class II molecule associated with Ii trimers, which is a different context. Based on this information, the answer to the question is that cathepsin L is likely active in endosomes, but this is not explicitly stated in the documents. Considering the information provided, the answer to the question is that cathepsin L is likely active in endosomes, but this is not explicitly stated in the documents. However, based on the information provided, the most likely answer is that cathepsin L is active in endosomes, but this is not explicitly stated in the documents. The best answer is A.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_1273",
+            "title": "Immunology_Janeway",
+            "content": "Drugs such as chloroquine that raise the pH of endosomes, making them less acidic, inhibit the presentation of intravesicular antigens, suggesting that acid proteases are responsible for processing internalized antigen. These proteases include the cysteine proteases\u2014so called because they use a cysteine in their catalytic site\u2014known as cathepsins B, D, S, and L, of which L is the most active. Antigen processing can be mimicked to some extent by the digestion of proteins with these enzymes in vitro at acid pH. Cathepsins S and L may be the predominant proteases in the processing of vesicular antigens; mice that lack cathepsin B or cathepsin D process antigens normally, whereas mice with no cathepsin S show some deficiencies, including in cross-presentation. Asparagine endopeptidase (AEP), a cysteine protease cleaving after asparagines, is important for processing some antigens, such as the tetanus toxin antigen for MHC class II presentation, but is not required in all cases where"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3661",
+            "title": "Cell_Biology_Alberts",
+            "content": "sequester endocytosed signaling receptors inside the endosome, thus halting the receptor signaling activity. (5) Lysosome proteins are delivered from the TGN to the maturing endosome. Most of these events occur gradually but eventually lead to a complete transformation of the endosome into an early endolysosome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3662",
+            "title": "Cell_Biology_Alberts",
+            "content": "In addition to committing selected cargo for degradation, the maturation process is important for lysosome maintenance. The continual delivery of lysosome components from the TGN to maturing endosomes, ensures a steady supply of new lysosome proteins. The endocytosed materials mix in early endosomes with newly arrived acid hydrolases. Although mild digestion may start here, many hydrolases are synthesized and delivered as proenzymes, called zymogens, which contain extra inhibitory domains that keep the hydrolases inactive until these domains are proteolytically removed at later stages of endosome maturation. Moreover, the pH in early endosomes is not low enough to activate lysosomal hydrolases optimally. By these means, cells can retrieve membrane proteins intact from early endosomes and recycle them back to the plasma membrane. EsCrT protein complexes Mediate the formation of Intralumenal vesicles in Multivesicular bodies"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3660",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many changes occur during the maturation process. (1) The endosome changes shape and location, as the tubular domains are lost and the vacuolar domains are thoroughly modified. (2) Rab proteins, phosphoinositide lipids, fusion machinery (SNAREs and tethers), and microtubule motor proteins all participate in a molecular makeover of the cytosolic face of the endosome membrane, changing the functional characteristics of the organelle. (3) A V-type ATPase in the endosome membrane pumps H+ from the cytosol into the endosome lumen and acidifies the organelle. Crucially, the increasing acidity that accompanies maturation renders lysosomal hydrolases increasingly more active, influencing many receptor\u2013ligand interactions, thereby controlling receptor loading and unloading. (4) Intralumenal vesicles sequester endocytosed signaling receptors inside the endosome, thus halting the receptor signaling activity. (5) Lysosome proteins are delivered from the TGN to the maturing endosome. Most of these"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3628",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 13\u201347 Endosome maturation: the endocytic pathway from the plasma membrane to lysosomes. endocytic vesicles fuse near the cell periphery with an early endosome, which is the primary sorting station. Tubular portions of the early endosome bud off vesicles that recycle endocytosed cargo back to the plasma membrane\u2014either directly, or indirectly via recycling endosomes. recycling endosomes can store proteins until they are needed. conversion of early endosomes to late endosomes is accompanied by loss of the tubular projections. Membrane proteins destined for degradation are internalized in intralumenal vesicles. The developing late endosome, or multivesicular body, moves on microtubules to the cell interior. fully matured late endosomes no longer send vesicles to the plasma membrane, and they fuse with one another and with endolysosomes and lysosomes to degrade their contents. each stage of endosome maturation is connected via transport vesicles with the Tgn, providing a continuous"
+        },
+        {
+            "id": "Histology_Ross_196",
+            "title": "Histology_Ross",
+            "content": "Early and late endosomes differ in their cellular localization, morphology, and state of acidification and function. Early and late endosomes are localized in different areas of the cell. Early endosomes can be found in the more peripheral cytoplasm, whereas late endosomes are often positioned near FIGURE 2.16 \u2022 Pathways for delivery of newly synthesized lysosomal enzymes. Lysosomal enzymes (such as lysosomal hydrolases) are synthesized and glycosylated within the rough endoplasmic reticulum (rER). The enzymes then fold in a specifc way so that a signal patch is formed, which allows for further modifcation by the addition of M-6-P, which allows the enzyme to be targeted to specifc proteins that possess M-6-P receptor activity. M-6-P receptors are present in the TGN of the Golgi apparatus, where the lysosomal enzymes are sorted and packaged into vesicles later transported to the early or late endosomes."
+        },
+        {
+            "id": "Histology_Ross_195",
+            "title": "Histology_Ross",
+            "content": "and late endosomes, lysosomes, and the Golgi apparatus, which is involved in sorting and retrieving secreted prohydrolases destined for transport to endosomes (Fig. 2.16). The acidic environment of late endosomes causes the release of prohydrolases from the M-6-P receptors. Prohydrolases are next activated by cleavage and by removing phosphate groups from the mannose residues."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3689",
+            "title": "Cell_Biology_Alberts",
+            "content": "Early endosomes, rapidly mature into late endosomes. During maturation, patches of the endosomal membrane containing ubiquitylated receptors invaginate and pinch off to form intralumenal vesicles. This process is mediated by ESCRT complexes and sequesters the receptors away from the cytosol, which terminates their signaling activity. Late endosomes migrate along microtubules toward the interior of the cell where they fuse with one another and with lysosomes to form endolysosomes, where degradation occurs. In some cases, both receptor and ligand are transferred to a different plasma membrane domain, causing the ligand to be released at a different surface from where it originated, a process called transcytosis. In some cells, endocytosed plasma membrane proteins and lipids can be stored in recycling endosomes, for as long as necessary until they are needed. TransporT froM The Trans golgI neTwork To The cell exTerIor: exocyTosIs"
+        },
+        {
+            "id": "Histology_Ross_282",
+            "title": "Histology_Ross",
+            "content": "\u0081 Endosomes or lysosomes. Most proteins destined for organelles bear specific signal sequences. They are sorted in the TGN and delivered to specific organelles. However, TGN sorting mechanisms are never completely accurate. For instance, about 10% of lysosomal integral membrane proteins (limps) instead travel directly into early or late endosomes, take an extended route traveling via the apical plasma membrane (see Fig. 2.20), and from there move back into the endosomal pathways. Enzymes destined for lysosomes using M-6-P markers (see page 37) are delivered into early or late endosomes as they develop into mature lysosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3609",
+            "title": "Cell_Biology_Alberts",
+            "content": "How are lysosomal hydrolases recognized and selected in the TGN with the required accuracy? In animal cells they carry a unique marker in the form of mannose 6-phosphate (M6P) groups, which are added exclusively to the N-linked oligosaccharides of these soluble lysosomal enzymes as they pass through the lumen of the cis Golgi network (Figure 13\u201344). Transmembrane M6P receptor proteins, which are present in the TGN, recognize the M6P groups and bind to the lysosomal hydrolases on the lumenal side of the membrane and to adaptor proteins in assembling clathrin coats on the cytosolic side. In this way, the receptors help package the hydrolases into clathrin-coated vesicles that bud from the TGN and deliver their contents to early endosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3608",
+            "title": "Cell_Biology_Alberts",
+            "content": "a Mannose 6-phosphate receptor sorts lysosomal hydrolases in the Trans golgi network We now consider the pathway that delivers lysosomal hydrolases from the TGN to lysosomes. The enzymes are first delivered to endosomes in transport vesicles that bud from the TGN, before they move on to endolysosomes and lysosomes (see Figure 13\u201339). The vesicles that leave the TGN incorporate the lysosomal proteins and exclude the many other proteins being packaged into different transport vesicles for delivery elsewhere."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3649",
+            "title": "Cell_Biology_Alberts",
+            "content": "specific proteins are retrieved from early endosomes and returned to the plasma Membrane Early endosomes are the main sorting station in the endocytic pathway, just as the cis and trans Golgi networks serve this function in the secretory pathway. In the mildly acidic environment of the early endosome, many internalized receptor proteins change their conformation and release their ligand, as already discussed for the M6P receptors. Those endocytosed ligands that dissociate from their receptors in the early endosome are usually doomed to destruction in lysosomes (although cholesterol is an exception, as just discussed), along with the other soluble contents of the endosome. Some other endocytosed ligands, however, remain bound to their receptors, and thereby share the fate of the receptors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3659",
+            "title": "Cell_Biology_Alberts",
+            "content": "J. Tooze and M. hollinshead, J. Cell Biol. 118:813\u2013830, 1992.) Early endosomes have tubular and vacuolar domains (see Figure 13\u201353). Most of the membrane surface is in the tubules and most of the volume is in the vacuolar domain. During endosome maturation, the two domains have different fates: the vacuolar portions of the early endosome are retained and transformed into late endosomes; the tubular portions shrink. Maturing endosomes, also called multivesicular bodies, migrate along microtubules toward the cell interior, shedding membrane tubules and vesicles that recycle material to the plasma membrane and TGN, and receiving newly synthesized lysosomal proteins. As they concentrate in a perinuclear region of the cell, the multivesicular bodies fuse with each other, and eventually with endolysosomes and lysosomes (see Figure 13\u201347)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3620",
+            "title": "Cell_Biology_Alberts",
+            "content": "Lysosomes are specialized for the intracellular digestion of macromolecules. They contain unique membrane proteins and a wide variety of soluble hydrolytic enzymes that operate best at pH 5, which is the internal pH of lysosomes. An ATP-driven H+ pump in the lysosomal membrane maintains this low pH. Newly synthesized lysosomal proteins transported from the lumen of the ER, through the Golgi apparatus; they are then carried from the trans Golgi network to endosomes by means of clathrin-coated transport vesicles, before moving on to lysosomes."
+        },
+        {
+            "id": "Immunology_Janeway_1883",
+            "title": "Immunology_Janeway",
+            "content": "The critical role of the thymic cortical epithelium in positive selection raises the question whether there is anything distinctive about the antigen-presenting properties of these cells. The thymic stromal cells may simply be in closest proximity to the developing thymocytes, as there are very few macrophages and dendritic cells in the cortex to perform the antigen presentation. In addition, however, thymic epithelium differs from other tissues in the expression of key proteases that are involved in MHC class I and II antigen processing (see Section 6-8). Cortical epithelial cells express cathepsin L as opposed to the more widely expressed cathepsin S, and mice deficient in cathepsin L have severely impaired CD4 T-cell development. Thymic epithelial cells from mice lacking cathepsin L exhibit a relatively high proportion of MHC class II molecules on their surface that retain the class II invariant chain-associated peptide (CLIP) (see Fig. 6.11). Cortical epithelial cells also express"
+        },
+        {
+            "id": "Histology_Ross_193",
+            "title": "Histology_Ross",
+            "content": "\u0081 In the maturation model, early endosomes are formed de novo from endocytotic vesicles originating from the plasma membrane. Therefore, the composition of the early endosomal membrane changes progressively as some components are recycled between the cell surface and the Golgi apparatus. This maturation process leads to formation of late endosomes and then to lysosomes. Specific receptors present on early endosomes (e.g., for coated vesicles) are removed by recycling, degradation, or inactivation as this compartment matures. Both models actually complement rather than contradict each other in describing, identifying, and studying the pathways of internalized molecules. Endosomes destined to become lysosomes receive newly synthesized lysosomal enzymes that are targeted via the mannose-6-phosphate receptor."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3626",
+            "title": "Cell_Biology_Alberts",
+            "content": "and irreversibly commits its remaining contents to degradation: late endosomes fuse with one another and with lysosomes to form endolysosomes, which degrade their contents, as discussed earlier (Figure 13\u201347)."
+        },
+        {
+            "id": "Immunology_Janeway_1286",
+            "title": "Immunology_Janeway",
+            "content": "Trafficking of membrane proteins is controlled by cytosolic sorting tags. In this regard, Ii has a second function, which is to target delivery of the MHC class II molecules to a low-pH endosomal compartment where peptide loading can occur. The complex of MHC class II \u03b1:\u03b2 heterodimers with Ii trimers is retained for 2\u20134 hours in this compartment (see Fig. 6.11). During this time, the Ii molecule undergoes an initial cleavage by acid proteases to remove the trimerization domain, generating a truncated 22-kDa fragment of Ii called LIP22. This is further cleaved by cysteine proteases into a 10-kDa fragment called LIP10, which remains bound to the MHC class II molecule and retains it within the proteolytic compartment. A subsequent cleavage of LIP10 releases the MHC class II molecule from the membrane-associated Ii, leaving the CLIP fragment bound to the MHC molecule. This cleavage is carried out by cathepsin S in most MHC class II-positive cells but by cathepsin L in thymic epithelial"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3611",
+            "title": "Cell_Biology_Alberts",
+            "content": "Not all the hydrolase molecules that are tagged with M6P get to lysosomes. Some escape the normal packaging process in the trans Golgi network and are transported \u201cby default\u201d to the cell surface, where they are secreted into the extracellular fluid. Some M6P receptors, however, also take a detour to the plasma membrane, where they recapture the escaped lysosomal hydrolases and return them by receptor-mediated endocytosis (discussed later) to lysosomes via early and late endosomes. As lysosomal hydrolases require an acidic milieu to work, they can do little harm in the extracellular fluid, which usually has a neutral pH of 7.4."
+        },
+        {
+            "id": "Biochemistry_Lippincott_804",
+            "title": "Biochemistry_Lippinco",
+            "content": "[4] The pH of the endosome falls (due to the proton-pumping activity of endosomal ATPase), which allows separation of the LDL from its receptor. The receptors then migrate to one side of the endosome, whereas the LDL stay free within the lumen of the vesicle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3629",
+            "title": "Cell_Biology_Alberts",
+            "content": "they fuse with one another and with endolysosomes and lysosomes to degrade their contents. each stage of endosome maturation is connected via transport vesicles with the Tgn, providing a continuous supply of newly synthesized lysosomal proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3590",
+            "title": "Cell_Biology_Alberts",
+            "content": "The heterogeneous morphology of lysosomes contrasts with the relatively uniform structures of many other cell organelles. The diversity reflects the wide variety of digestive functions that acid hydrolases mediate, including the breakdown of intraand extracellular debris, the destruction of phagocytosed microorganisms, and the production of nutrients for the cell. Their morphological diversity, however, also reflects the way lysosomes form. Late endosomes containing material received from both the plasma membrane by endocytosis and newly synthesized lysosomal hydrolases fuse with preexisting lysosomes to form structures that are sometimes referred to as endolysosomes, which then fuse with one another (Figure 13\u201339). When the majority of the endocytosed material within an endolysosome has been digested so that only resistant or slowly digestible residues remain, these organelles become \u201cclassical\u201d lysosomes. These are relatively dense, round, and small, but they can enter the cycle"
+        },
+        {
+            "id": "Surgery_Schwartz_9540",
+            "title": "Surgery_Schwartz",
+            "content": "genetic deletion of cathepsin B eliminates trypsin activation and decreases the severity of pancreatitis in animal models.47 What leads to the colocalization of zymogens and lysosomal hydrolases is unclear, but injurious stimuli leading to sustained cytosolic calcium increase have been indicted. Blocking this calcium increase prevents colocalization and activation of trypsin, and it decreases injury due to pancreatitis.48 Based on these data, pre-ERCP supplementation of magnesium, a natural antagonist of calcium, is currently being evaluated as a strategy to decrease post-ERCP pancreatitis.49 Recent work has led to the novel hypothesis that the lysosomal hydrolase cathepsin B activates trypsinogen to trypsin within the colocalization vacuoles. Trypsin then permeabilizes these colocalization vacuoles causing the release of cathepsin B into the cytosol. Once in the cytosol, cathepsin B initiates apoptotic cell death by permeabilizing mitochondrial membranes, which allows cytochrome C to"
+        },
+        {
+            "id": "Immunology_Janeway_1287",
+            "title": "Immunology_Janeway",
+            "content": "membrane-associated Ii, leaving the CLIP fragment bound to the MHC molecule. This cleavage is carried out by cathepsin S in most MHC class II-positive cells but by cathepsin L in thymic epithelial cells. Being associated with CLIP, the MHC class II molecules cannot yet bind other peptides. However, since CLIP does not carry the Ii-encoded signals that retain the complex in the endocytic compartment, the MHC\u2013CLIP complex is now free to escape to the cell surface."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3616",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 13\u201345 The transport of newly synthesized lysosomal hydrolases to endosomes. The sequential action of two enzymes in the cis and trans golgi network adds mannose 6-phosphate (M6p) groups to the precursors of lysosomal enzymes (see figure 13\u201346). The M6p-tagged hydrolases then segregate from all other types of proteins in the Tgn because adaptor proteins (not shown) in the clathrin coat bind the M6p receptors, which, in turn, bind the M6p-modified lysosomal hydrolases. The clathrin-coated vesicles bud off from the Tgn, shed their coat, and fuse with early endosomes. at the lower ph of the endosome, the hydrolases dissociate from the M6p receptors, and the empty receptors are retrieved in retromercoated vesicles to the Tgn for further rounds of transport. In the endosomes, the phosphate is removed from the M6p attached to the hydrolases, which may further ensure that the hydrolases do not return to the Tgn with the receptor."
+        },
+        {
+            "id": "Pathology_Robbins_80",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 1.10 Material internalized by fluid-phase pinocytosis or receptor-mediated endocytosis passes from plasma membrane to early endosome to late endosome, and ultimately into the lysosome, becoming progressively more acidic in the process. The early endosome is the first acidic compartment encountered, whereas proteolytic enzymes only begin significant digestion in the late endosome; late endosomes mature into lysosomes."
+        },
+        {
+            "id": "Histology_Ross_217",
+            "title": "Histology_Ross",
+            "content": "Lysosomal membrane proteins are synthesized in the rER and have specific lysosomal targeting signal. As mentioned previously, the intracellular trafficking leading to the delivery of many soluble lysosomal enzymes to late endosomes and lysosomes involves the M-6-P signal and its receptor. All membrane proteins destined for lysosomes (and late endosomes) are synthesized in the rER and transported to and sorted in the Golgi apparatus. However, they do not contain the M-6-P signals and must be targeted to lysosomes by a different mechanism. The targeting signal for integral membrane proteins is represented by a short cytoplasmic C-terminus domain, which is recognized by adaptin protein complexes and packaged into clathrin-coated vesicles. These proteins reach their destination by one of two pathways: \u0081 In the constitutive secretory pathway, limps exit the"
+        },
+        {
+            "id": "Histology_Ross_221",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.20 \u2022 Lysosome biogenesis. This diagram shows regulated and constitutive pathways for delivery of lysosomal specifc membrane proteins into early and late endosomes. The lysosomal membrane possesses highly glycosylated specifc membrane proteins that protect the membrane from digestion by lysosomal enzymes. These lysosome-specifc proteins are synthesized in the rough endoplasmic reticulum, transported to the Golgi apparatus, and reach their destination by two pathways. Blue arrows indicate the constitutive secretory pathway in which certain lysosomal membrane proteins exit the Golgi apparatus and are delivered to the cell surface. From there they are endocytosed and, via the early and late endosomal compartments, fnally reach lysosomes. Green arrows indicate the endosomal Golgiderived coated vesicle secretory pathway. Here, other lysosomal proteins, after sorting and packaging, exit the Golgi apparatus in clathrin-coated vesicles to fuse with early and late endosomes."
+        },
+        {
+            "id": "Immunology_Janeway_262",
+            "title": "Immunology_Janeway",
+            "content": "phagosomes, where it is cleaved by neutrophil elastase that has been stored in primary granules. Cleavage separates the two domains, and the cleavage products either remain in the phagosome or are released from the neutrophil by exocytosis. The carboxyterminal peptide is a cationic amphipathic peptide that disrupts membranes and is toxic to a wide range of microorganisms. The amino-terminal peptide is similar in structure to a protein called cathelin, an inhibitor of cathepsin L (a lysosomal enzyme involved in antigen processing and protein degradation), but its role in immune defense is unclear. In keratinocytes, cathelicidins, like \u03b2-defensins, are stored and processed in the lamellar bodies."
+        },
+        {
+            "id": "Histology_Ross_200",
+            "title": "Histology_Ross",
+            "content": "MVBHpH 6.2 pH 5.5 pH 4.7 FIGURE 2.17 \u2022 Schematic diagram of endosomal compartments of the cell. This diagram shows the fate of protein (red circles) endocytosed from the cell surface and destined for lysosomal destruction. Proteins are frst found in endocytotic (coated) vesicles that deliver them to early endosomes, which are located in the peripheral part of cytoplasm. Because of the sorting capability of the early endosomes, receptors are usually recycled to the plasma membrane, and endocytosed proteins are transported via multi-vesicular bodies (MVB) to late endosomes positioned near the Golgi apparatus and the nucleus. The proteins transported to late endosomes eventually will be degraded in lysosomes. Note the acidifcation scale (left) that illustrates changes of pH from early endosomes to lysosomes. The acidifcation is accomplished by the active transport of protons into endosomal compartments."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3597",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 13\u201339 A model for lysosome maturation. late endosomes fuse with preexisting lysosomes (bottom arrow) or preexisting endolysosomes (top arrow). endolysosomes eventually mature into lysosomes as hydrolases complete the digestion of their contents, which can include intralumenal vesicles. lysosomes also fuse with phagosomes, as we discuss later. Figure 13\u201340 The plant cell vacuole."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3625",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once generated at the plasma membrane, most endocytic vesicles fuse with a common receiving compartment, the early endosome, where internalized cargo is sorted: some cargo molecules are returned to the plasma membrane, either directly or via a recycling endosome, and others are designated for degradation by inclusion in a late endosome. Late endosomes form from a bulbous, vacuolar portion of early endosomes by a process called endosome maturation. This conversion process changes the protein composition of the endosome membrane, patches of which invaginate and become incorporated within the organelles as intralumenal vesicles, while the endosome itself moves from the cell periphery to a location close to the nucleus. As an endosome matures, it ceases to recycle material to the plasma membrane and irreversibly commits its remaining contents to degradation: late endosomes fuse with one another and with lysosomes to form endolysosomes, which degrade their contents, as discussed earlier"
+        }
+    ],
+    "scores": [
+        0.035192536243915655,
+        0.034946287534725846,
+        0.03378737392083131,
+        0.03151228726097996,
+        0.02982579501035877,
+        0.029258891861906937,
+        0.029141693022982657,
+        0.028492634325913133,
+        0.028079347645714646,
+        0.027578461443132883,
+        0.026630496355694304,
+        0.026413539845631818,
+        0.02589752673504341,
+        0.024603174603174606,
+        0.024573945359269798,
+        0.024409041046730334,
+        0.02439749830259544,
+        0.02416289592760181,
+        0.024126282000297747,
+        0.023803772716816194,
+        0.023608800436706615,
+        0.023580484855355896,
+        0.02261517214165927,
+        0.02232288020504581,
+        0.022046426515338433,
+        0.021886088440797598,
+        0.021749891315108707,
+        0.0214674001277153,
+        0.021351690631732208,
+        0.020850168025762058,
+        0.02062876830318691,
+        0.020601619706598264
+    ]
+}

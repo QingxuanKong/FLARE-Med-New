@@ -1,0 +1,206 @@
+{
+    "id": "601c46f61cb411341a00001d",
+    "question": "Was golimumab tested for diabetes?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the documents provided and look for any information related to golimumab and its use in treating diabetes. One of the key documents (Document [12]) mentions that adalimumab, certolizumab pegol, etanercept, and golimumab are antibodies that bind and neutralize the biological activity of TNF-\\\\u00b1, but it does not mention golimumab being tested for diabetes. However, another document (Document [9]) discusses the treatment of moderate to severe ulcerative colitis and mentions that adalimumab and golimumab are approved for this condition but are less effective than intravenous infliximab. There is also a document (Document [16]) that discusses the remission rate of adalimumab in patients who initially responded to and then failed infliximab, but it does not mention golimumab. A thorough search of the documents does not reveal any information about golimumab being tested for diabetes. Therefore, the answer to the question is that golimumab was not tested for diabetes.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_4024",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Pharmacokinetics: Golimumab is administered subcutaneously and has a half-life of approximately 14 days. Concomitant use with methotrexate increases golimumab serum levels and decreases anti-golimumab antibodies. The recommended dose for the treatment of RA, PsA, and AS is 50 mg given every 4 weeks. A higher dose of golimumab is used for the treatment of ulcerative colitis as follows: 200 mg initially at week 0 followed by 100 mg at week 2 and every 4 weeks thereafter. 3. Indications: Golimumab with methotrexate is indicated for the treatment of moderately to severely active RA in adult patients. It is also indicated for the treatment of PsA and AS and moderate to severe ulcerative colitis. 1. Mechanism of Action: Infliximab (Figure 36\u20134) is a chimeric (25% mouse, 75% human) IgG1 monoclonal antibody that binds with high affinity to soluble and possibly membrane-bound TNF-\u03b1. Its mechanism of action probably is the same as that of adalimumab. 2."
+        },
+        {
+            "id": "Pharmacology_Katzung_6970",
+            "title": "Pharmacology_Katzung",
+            "content": "Four monoclonal antibodies to human TNF are approved for the treatment of IBD: infliximab, adalimumab, golimumab, and certolizumab (Table 62\u20133). Infliximab, adalimumab, and golimumab are antibodies of the IgG1 subclass. Certolizumab is a recombinant antibody that contains an Fab fragment that is conjugated to polyethylene glycol (PEG) but lacks an Fc portion. The Fab portion of infliximab is a chimeric mouse-human antibody, but adalimumab, certolizumab, and golimumab are fully humanized. Infliximab is administered as an intravenous infusion. At therapeutic doses of 5\u201310 mg/kg, the half-life of infliximab is approximately 8\u201310 days, resulting in plasma disappearance of antibodies over 8\u201312 weeks. Adalimumab, golimumab, and certolizumab are administered by subcutaneous injection. Their half-lives are approximately 2 weeks."
+        },
+        {
+            "id": "Pharmacology_Katzung_6976",
+            "title": "Pharmacology_Katzung",
+            "content": "Antibodies to the antibody (ATA) may develop with all four agents. These antibodies may attenuate or eliminate the clinical response and increase the likelihood of developing acute or delayed infusion or injection reactions. Antibody formation is much more likely in patients given episodic anti-TNF therapy than regular scheduled injections. In patients on chronic maintenance therapy, the prevalence of ATA with infliximab is 10%, with certolizumab 8%, and with adalimumab or golimumab 3%. Antibody development also is less likely in patients who receive concomitant therapy with immunomodulators (ie, 6-MP or methotrexate). Concomitant treatment with anti-TNF agents and immunomodulators may increase the risk of lymphoma."
+        },
+        {
+            "id": "Pharmacology_Katzung_6972",
+            "title": "Pharmacology_Katzung",
+            "content": "Infliximab, adalimumab, and certolizumab are approved for the acute and chronic treatment of patients with moderate to severe Crohn\u2019s disease who have had an inadequate response to conventional therapies. Infliximab, adalimumab, and golimumab are approved for the acute and chronic treatment of moderate to severe ulcerative colitis. With induction therapy, these approved agents lead to symptomatic improvement in 60% and disease remission in 30% of patients with moderate to severe Crohn\u2019s disease, including patients who have been dependent on glucocorticoids or who have not responded to 6-MP or methotrexate. The median time to clinical response is 2 weeks. Induction therapy is generally given as follows: infliximab 5 mg/kg intravenous infusion at 0, 2, and 6 weeks; adalimumab 160 mg (in divided doses) initially and 80 mg subcutaneous injection at 2 weeks; and certolizumab 400 mg subcutaneous injection at 0, 2, and 4 weeks. Patients who respond may be treated with chronic maintenance"
+        },
+        {
+            "id": "InternalMed_Harrison_22974",
+            "title": "InternalMed_Harrison",
+            "content": "Certolizumab pegol is a pegylated form of an anti-TNF Fab portion of an antibody administered SC once monthly. SC certolizumab pegol was effective for induction of clinical response in patients with active inflammatory CD. In the PRECISE II (Pegylated Antibody Fragment Evaluation in Crohn\u2019s Disease) trial of maintenance therapy with certolizumab in patients who responded to certolizumab induction, the results were similar to the CHARM trial. At week 26, the subgroup of patients who were infliximab na\u00efve had a response of 69% as compared to 44% in patients who had previously received infliximab. Golimumab is another fully human IgG1 antibody against TNF-\u03b1 and is currently approved for the treatment of moderately to severely active UC. All of the patients in the golimumab trial were infliximab-naive. Like adalimumab and certolizumab, golimumab is injected SC."
+        },
+        {
+            "id": "InternalMed_Harrison_13544",
+            "title": "InternalMed_Harrison",
+            "content": "golimumab, and etanercept, can neutralize this critical cytokine. The occasional result is severe mycobacterial or fungal infection; these associations indicate that TNF-\u03b1 is a crucial element in mycobacterial control. However, in cases without the above risk factors, much of the genetic basis of susceptibility to disseminated infection with NTM is accounted for by specific mutations in the interferon \u03b3 (IFN-\u03b3)/interleukin 12 (IL-12) synthesis and response pathways."
+        },
+        {
+            "id": "Pharmacology_Katzung_4023",
+            "title": "Pharmacology_Katzung",
+            "content": "3. Indications: Etanercept is approved for the treatment of RA, juvenile chronic arthritis, psoriasis, PsA, and AS. It can be used as monotherapy, although over 70% of patients taking etanercept are also using methotrexate. Etanercept decreases the rate of formation of new erosions relative to methotrexate alone. It is also being used in other rheumatic syndromes such as scleroderma, granulomatosis with polyangiitis (Wegener\u2019s granulomatosis), giant cell arteritis, Beh\u00e7et\u2019s disease, uveitis, and sarcoidosis. However, a comparative study of ustekinumab (an IL-12 and IL-23 blocker) and etanercept concluded that ustekinumab at a dose of 45 or 90 mg was superior to high-dose etanercept (50 mg twice weekly) over a 12-week period in patients with psoriasis. 1. Mechanism of Action: Golimumab is a human monoclonal antibody with a high affinity for soluble and membrane-bound TNF-\u03b1. Golimumab effectively neutralizes the inflammatory effects produced by TNF-\u03b1 seen in diseases such as RA. 2."
+        },
+        {
+            "id": "InternalMed_Harrison_25244",
+            "title": "InternalMed_Harrison",
+            "content": "of RA, slow radiographic progression of joint damage, and improve physical function and quality of life. Anti-TNF drugs are typically used in combination with background methotrexate therapy. This combination regimen, which affords maximal benefit in many cases, is often the next step for treatment of patients with an inadequate response to methotrexate therapy. Etanercept, adalimumab, certolizumab pegol, and golimumab have also been approved for use as monotherapy."
+        },
+        {
+            "id": "Pharmacology_Katzung_7013",
+            "title": "Pharmacology_Katzung",
+            "content": "Ordas I: Ulcerative colitis. Lancet 2012;380:1606. Pola S et al: Strategies for the care of adults hospitalized for active ulcerative colitis. Clin Gastroenterol Hepatol 2012;10:1315. Sandborn WJ et al: Adalimumab induces and maintains clinical remission in patients with moderate-to-severe ulcerative colitis. Gastroenterology 2012;142:257. Sandborn WJ et al: Subcutaneous golimumab induces clinical response and remission in patients with moderate to severe ulcerative colitis. Gastroenterology 2014;146:85. Sandborn WJ et al: Subcutaneous golimumab maintains clinical response in patients with moderate-to-severe ulcerative colitis. Gastroenterology 2014;146:96. Sandborn WJ et al: Vedolizumab as induction and maintenance therapy for Crohn\u2019s disease. N Engl J Med 2013;369:711."
+        },
+        {
+            "id": "Pharmacology_Katzung_6974",
+            "title": "Pharmacology_Katzung",
+            "content": "Infliximab is approved for the treatment of patients with moderate to severe ulcerative colitis who have had inadequate response to mesalamine or corticosteroids. After induction therapy of 5\u201310 mg/wk at 0, 2, and 6 weeks, 70% of patients have a clinical response and one third achieve a clinical remission. With continued maintenance infusions every 8 weeks, approximately 50% of patients have continued clinical response. Adalimumab and golimumab also are approved for the treatment of moderate to severe ulcerative colitis but appear to be less effective than intravenous infliximab. After induction therapy, less than 55% of patients have a clinical response and less than 20% achieve remission. The reason why subcutaneous anti-TNF formulations are less effective than intravenous infliximab is uncertain."
+        },
+        {
+            "id": "InternalMed_Harrison_25502",
+            "title": "InternalMed_Harrison",
+            "content": "FIGUrE 384-2 Spinal inflammation (spondylodiskitis) in a patient with ankylosing spondylitis and its dramatic response to treatment with infliximab. Gadolinium-enhanced T1-weighted magnetic resonance images, with fat saturation, at baseline and after 24 weeks of infliximab therapy. (From J Braun et al: Arthritis Rheum 54:1646, 2006.) Infliximab is given intravenously, 3\u20135 mg/kg body weight, and then repeated 2 weeks later, again 6 weeks later, and then at 8-week intervals. Etanercept is given by subcutaneous injection, 50 mg once weekly. Adalimumab is given by subcutaneous injection, 40 mg biweekly. Golimumab is given by subcutaneous injection, 50 or 100 mg every 4 weeks. Certolizumab pegol is given by subcutaneous injection, 400 mg every 4 weeks."
+        },
+        {
+            "id": "Pharmacology_Katzung_4085",
+            "title": "Pharmacology_Katzung",
+            "content": "Sodium salicylate Generic Sodium thiosalicylate Generic, Rexolate Sulindac Generic, Clinoril Suprofen Profenal (Ophthalmic) Tolmetin Generic, Tolectin DISEASE-MODIFYING ANTIRHEUMATIC DRUGS Abatacept Orencia Adalimumab Humira ACETAMINOPHEN AND OTHER ANALGESICS Acetaminophen Generic, Tylenol, Tempra, Panadol, Acephen, others Tramadol Ultram DRUGS USED IN GOUT GENERIC NAME AVAILABLE AS Anakinra Kineret Auranofin Ridaura Aurothioglucose Solganal Belimumab Benlysta Canakinumab Ilaris Certolizumab Cimzia Cyclophosphamide Generic, Cytoxan Cyclosporine Generic, Sandimmune Etanercept Enbrel Gold sodium thiomalate Generic, Aurolate Golimumab Simponi Infliximab Remicade Leflunomide Generic, Arava Methotrexate Generic, Rheumatrex Mycophenolate mofetil Generic, Cellcept Penicillamine Cuprimine, Depen Rilonacept Arcalyst Rituximab Rituxan Sulfasalazine Generic, Azulfidine Tocilizumab Actemra Tofacitinib Xeljanz Ketorolac tromethamine Generic, Toradol Allopurinol Generic, Zyloprim Colchicine"
+        },
+        {
+            "id": "InternalMed_Harrison_25243",
+            "title": "InternalMed_Harrison",
+            "content": "anti-TNF agents The development of TNF inhibitors was originally spurred by the experimental finding that TNF is a critical upstream mediator of joint inflammation. Currently, five agents that inhibit TNF-\u03b1 are approved for the treatment of RA. There are three different anti-TNF monoclonal antibodies. Infliximab is a chimeric (part mouse and human) monoclonal antibody, whereas adalimumab and golimumab are humanized monoclonal antibodies. Certolizumab pegol is a pegylated Fc-free fragment of a humanized monoclonal antibody with binding specificity for TNF-\u03b1. Lastly, etanercept is a soluble fusion protein comprising the TNF receptor 2 in covalent linkage with the Fc portion of IgG1. All of the TNF inhibitors have been shown in randomized controlled clinical trials to reduce the signs and symptoms of RA, slow radiographic progression of joint damage, and improve physical function and quality of life. Anti-TNF drugs are typically used in combination with background methotrexate therapy."
+        },
+        {
+            "id": "Pharmacology_Katzung_6973",
+            "title": "Pharmacology_Katzung",
+            "content": "divided doses) initially and 80 mg subcutaneous injection at 2 weeks; and certolizumab 400 mg subcutaneous injection at 0, 2, and 4 weeks. Patients who respond may be treated with chronic maintenance therapy, as follows: infliximab 5 mg/kg intravenous infusion every 8 weeks; adalimumab 40 mg subcutaneous injection every 2 weeks; certolizumab 400 mg subcutaneous injection every 4 weeks. With chronic, regularly scheduled therapy, clinical response is maintained in more than 60% of patients and disease remission in 40%. However, one-third of patients eventually lose response despite higher doses or more frequent injections. Loss of response in many patients may be due to the development of antibodies to the TNF antibody or to other mechanisms."
+        },
+        {
+            "id": "InternalMed_Harrison_25245",
+            "title": "InternalMed_Harrison",
+            "content": "Anti-TNF agents should be avoided in patients with active infection or a history of hypersensitivity to these agents and are contraindicated in patients with chronic hepatitis B infection or class III/IV congestive Rituximab 200\u2013400 mg/d orally (\u22646.5 mg/kg) Initial: 500 mg orally twice daily Maintenance: 1000\u20131500 mg twice daily Folic acid 1 mg/d to reduce toxicities Infliximab: 3 mg/kg IV at weeks 0, 2, 6, then every 8 weeks. May increase dose up to 10 mg/kg every 4 weeks Etanercept: 50 mg SQ weekly, or 25 mg SQ biweekly Adalimumab: 40 mg SQ every other week Golimumab: 50 mg SQ monthly Certolizumab: 400 mg SQ weeks 0, 2, 4, then 200 mg every other week Weight based: <60 kg: 500 mg 60\u2013100 kg: 750 mg >100 kg: 1000 mg IV dose at weeks 0, 2, and 4, and then every 4 weeks 1000 mg IV \u00d7 2, days 0 and 14 Premedicate with methylprednisolone 100 mg to decrease infusion reaction Risk bacterial, fungal infections Reactivation of latent TB Risk bacterial, viral infections"
+        },
+        {
+            "id": "Pharmacology_Katzung_4629",
+            "title": "Pharmacology_Katzung",
+            "content": "A 66-year-old obese Caucasian man presented to an academic Diabetes Center for advice regarding his diabetes treatment. His diabetes was diagnosed 10 years previously on routine testing. He was initially given metformin but when his control deteriorated, the metformin was stopped and insulin treatment initiated. The patient was taking 50 units of insulin glargine and an average of 25 units of insulin aspartate pre-meals. He had never seen a diabetes educator or a dietitian. He was checking his glucose levels 4 times a day. He was smoking half a pack of cigarettes a day. On examination, his weight was 132 kg (BMI 39.5); blood pressure 145/71; and signs of mild peripheral neuropathy were present. Laboratory tests noted an HbA1c value of 8.1%, urine albumin 3007 mg/g creatinine (normal <30), serum creatinine 0.86 mg/dL (0.61\u20131.24), total choles-terol 128 mg/dL, triglycerides 86 mg/dL, HDL cholesterol 38 mg/dL, and LDL cholesterol 73 mg/dL (on atorvastatin 40 mg daily). How would you"
+        },
+        {
+            "id": "InternalMed_Harrison_22973",
+            "title": "InternalMed_Harrison",
+            "content": "who had previously received infliximab. Another trial showed a remission rate of 21% at 4 weeks in patients who had initially responded to and then failed infliximab. In clinical practice, the remission rate in patients taking adalimumab increases with a dose increase to 40 mg weekly instead of every other week. Adalimumab is now also approved for the treatment of moderately to severely active UC."
+        },
+        {
+            "id": "InternalMed_Harrison_22972",
+            "title": "InternalMed_Harrison",
+            "content": "Adalimumab is a recombinant human monoclonal IgG1 antibody containing only human peptide sequences and is injected subcu taneously. Adalimumab binds TNF and neutralizes its function by blocking the interaction between TNF and its cell-surface receptor. Therefore, it seems to have a similar mechanism of action to infliximab but with less immunogenicity. Adalimumab has been approved for treatment of moderate to severe CD. CHARM (Crohn\u2019s Trial of the Fully Human Adalimumab for Remission Maintenance) is an adalimumab maintenance study in patients who responded to adalimumab induction therapy. About 50% of the patients in this trial were previously treated with infliximab. Remission rates ranged from 42\u201348% of infliximab-na\u00efve patients at 1 year compared with remission rates of 31\u201334% in patients who had previously received infliximab. Another trial showed a remission rate of 21% at 4 weeks in patients who had initially responded to and then failed infliximab. In clinical practice, the"
+        },
+        {
+            "id": "InternalMed_Harrison_27766",
+            "title": "InternalMed_Harrison",
+            "content": "additional risk factor for diabetes (Table 417-3). In contrast to type 2 DM, a long asymptomatic period of hyperglycemia is rare prior to the diagnosis of type 1 DM. A number of immunologic markers for type 1 DM are becoming available (discussed below), but their routine use outside a clinical trial is discouraged, pending the identification of clinically beneficial interventions for individuals at high risk for developing type 1 DM."
+        },
+        {
+            "id": "InternalMed_Harrison_27837",
+            "title": "InternalMed_Harrison",
+            "content": "Diabetes Mellitus: Management and Therapies guiDElinES foR ongoing, ComPREHEnSivE mEDiCAl CARE foR PATiEnTS wiTH DiAbETES Self-monitoring of blood glucose (individualized frequency) \u2022 HbA1c testing (2\u20134 times/year) Eye examination (annual or biannual; Chap. 419) Chap. 419) Screening for diabetic nephropathy (annual; Chap. 419) Lipid profile and serum creatinine (estimate GFR) (annual; Chap. 419) Consider antiplatelet therapy (Chap. 419) Abbreviations: GFR, glomerular filtration rate; HbA1c, hemoglobin A1c. for this comprehensive level of diabetes care. The treatment goals for patients with diabetes are summarized in Table 418-2 and should be individualized."
+        },
+        {
+            "id": "InternalMed_Harrison_26023",
+            "title": "InternalMed_Harrison",
+            "content": "disease, psoriasis), or drugs (alcohol, cytotoxic therapy, thiazides). Although nearly all patients with gout will demonstrate hyperuricemia at some time during their illness, up to 50% of patients with an acute gouty attack will have normal serum uric acid levels. Monitoring serum uric acid may be useful in assessing the response to urate-lowering therapy or chemotherapy, with the target goal being a serum urate <6 mg/dL."
+        },
+        {
+            "id": "Pharmacology_Katzung_6180",
+            "title": "Pharmacology_Katzung",
+            "content": "Mabs and Fusion Proteins Used as Immunomodulatory & Anti-Inflammatory Agents Adalimumab, certolizumab pegol, etanercept, golimumab, and infliximab are antibodies that bind and neutralize the biological activity of TNF-\u03b1, a proinflammatory cytokine that is important in adult and juvenile rheumatoid arthritis and similar inflammatory diseases such as psoriatic arthritis, ankylosing spondylitis, Crohn\u2019s disease, and ulcerative colitis. Abatacept and belatacept are recombinant fusion proteins composed of the extracellular domain of cytotoxic T-lymphocyteassociated antigen 4 (CTLA-4) fused to the Fc domains of human IgG1 (Figure 55\u20137). Abatacept is approved for use in rheumatoid and other forms of arthritis and is discussed in Chapter 36. Belatacept is approved to help prevent rejection in kidney transplants. Both fusion proteins block the activation of T cells by binding CD80, blocking the CD28 activation signal in T cells."
+        },
+        {
+            "id": "Pharmacology_Katzung_6971",
+            "title": "Pharmacology_Katzung",
+            "content": "All four agents bind to soluble and membrane-bound TNF with high affinity, preventing the cytokine from binding to its receptors. Binding of all three antibodies to membrane-bound TNF also causes reverse signaling that suppresses cytokine release. When infliximab, adalimumab, or golimumab bind to membrane-bound TNF, the Fc portion of the human IgG1 region promotes antibody-mediated apoptosis, complement activation, and cellular cytotoxicity of activated T lymphocytes and macrophages. Certolizumab, without an Fc portion, lacks these properties. TABLE 62\u20133 Anti-TNF antibodies used in inflammatory bowel disease. TNF, tumor necrosis factor."
+        },
+        {
+            "id": "Gynecology_Novak_900",
+            "title": "Gynecology_Novak",
+            "content": "4. Caffeinated beverages should not be consumed. 5. More than 150 g of carbohydrates should be ingested for 3 days before the test. 6. No drugs should be taken before the test. 7. The patient should not be bedridden or under stress. Patients who should be considered for diabetes testing are: All individuals 45 years of age or older (repeat at 3-year intervals) Persons with classic signs and symptoms of diabetes (i.e., polyuria, polydipsia, polyphagia, and weight loss) Ethnic groups at high risk (Pacific Islanders, Native Americans, African Americans,"
+        },
+        {
+            "id": "Pharmacology_Katzung_4742",
+            "title": "Pharmacology_Katzung",
+            "content": "in the trial group assigned to Canagliflozin; in 2017 the FDA issued a drug safety communication regarding the association. Cases of diabetic ketoacidosis have been reported with off-label use of SGLT2 inhibitors in patients with type 1 diabetes. Type 1 patients are taught to give less insulin if their glucose levels are not elevated. Because type 1 patients on an SGLT2 inhibitor may have normal glucose levels, they may either withhold or reduce their insulin doses to such a degree as to induce ketoacidosis. Therefore, SGLT2 inhibitors should not be used in patients with type 1 diabetes and in those patients labelled as having type 2 diabetes but who are very insulin deficient and prone to ketosis."
+        },
+        {
+            "id": "InternalMed_Harrison_24658",
+            "title": "InternalMed_Harrison",
+            "content": "Cytokines and Cytokine Inhibitors Several TNF inhibitors are used as biological therapies in the treatment of rheumatoid arthritis; these include monoclonal antibodies, TNF-R Fc fusion proteins, and Fab fragments. Use of anti-TNF-\u03b1 antibody therapies such as adalimumab, infliximab, and golimumab has resulted in clinical improvement in patients with these diseases and has opened the way for targeting TNF-\u03b1 to treat other severe forms of autoimmune and/or inflammatory disease. Blockage of TNF-\u03b1 has been effective in rheumatoid arthritis, psoriasis, Crohn\u2019s disease, and ankylosing spondylitis. Other cytokine inhibitors are recombinant soluble TNF-\u03b1 receptor (R) fused to human Ig and anakinra (soluble IL-1 receptor antagonist, or IL-1ra). The treatment of autoinflammatory syndromes (Table 372e-6) with recombinant IL-1 receptor antagonist can prevent symptoms in these syndromes, because the overproduction of IL-1\u03b2 is a hallmark of these diseases."
+        },
+        {
+            "id": "Immunology_Janeway_4250",
+            "title": "Immunology_Janeway",
+            "content": "Masharani, U.B., and Becker, J.: Teplizumab therapy for type 1 diabetes. Expert Opin. Biol. Ther. 2010, 10:459\u2013465. Pham, P.T., Lipshutz, G.S., Pham, P.T., Kawahji, J., Singer, J.S., and Pham, P.C.: The evolving role of alemtuzumab (Campath-1H) in renal transplantation. Drug Des. Dev. Ther. 2009, 3:41\u201349. Sageshima, J., Ciancio, G., Chen, L., and Burke, G.W.: Anti-interleukin-2 receptor antibodies\u2014basiliximab and daclizumab\u2014for the prevention of acute rejection in renal transplantation. Biologics 2009, 3:319\u2013336. 16-7 Depletion of autoreactive lymphocytes can treat autoimmune disease. Coiffier, B., Lepage, E., Briere, J., Herbrecht, R., Tilly, H., Bouabdallah, R., Morel, P., Van Den Neste, E., Salles, G., Gaulard, P., et al.: CHOP chemotherapy plus rituximab compared with CHOP alone in elderly patients with diffuse large-B-cell lymphoma. N. Engl. J. Med. 2002, 346:235\u2013242. References."
+        },
+        {
+            "id": "InternalMed_Harrison_13543",
+            "title": "InternalMed_Harrison",
+            "content": "Because exposure to NTM is essentially universal and disease is rare, it can be assumed that normal host defenses against these organisms must be strong and that otherwise healthy individuals in whom significant disease develops are highly likely to have specific susceptibility factors that permit NTM to become established, multiply, and cause disease. At the advent of HIV infection, CD4+ T lymphocytes were recognized as key effector cells against NTM; the development of disseminated MAC disease was highly correlated with a decline in CD4+ T lymphocyte numbers. Such a decrease has also been implicated in disseminated MAC infection in patients with idiopathic CD4+ T lymphocytopenia. Potent inhibitors of tumor necrosis factor \u03b1 (TNF-\u03b1), such as infliximab, adalimumab, certolizumab, golimumab, and etanercept, can neutralize this critical cytokine. The occasional result is severe mycobacterial or fungal infection; these associations indicate that TNF-\u03b1 is a crucial element in"
+        },
+        {
+            "id": "InternalMed_Harrison_21929",
+            "title": "InternalMed_Harrison",
+            "content": "years after the onset of diabetes. It is currently recommended to test patients with type 1 disease for microalbuminuria 5 years after diagnosis of diabetes and yearly thereafter and, because the time of onset of type 2 diabetes is often unknown, to test type 2 patients at the time of diagnosis of diabetes and yearly thereafter."
+        },
+        {
+            "id": "Pharmacology_Katzung_4013",
+            "title": "Pharmacology_Katzung",
+            "content": "In Europe, the starting dose of tocilizumab is 8 mg/kg up to 800 mg. Tocilizumab dosage in SJIA or PJIA follows an algorithm that accounts for body weight. Additionally, dosage modifications are recommended on the basis of certain laboratory changes such as elevated liver enzymes, neutropenia, and thrombocytopenia. 3. Indications: Tocilizumab is a bDMARD indicated for adult patients with moderately to severely active RA who have had an inadequate response to one or more DMARDs. It is also indicated in patients who are older than 2 years with active SJIA or active PJIA. A recent study showed that it is slightly more effective than adalimumab. There is an ongoing phase 3 study to test its use in SSc. 4."
+        },
+        {
+            "id": "InternalMed_Harrison_4693",
+            "title": "InternalMed_Harrison",
+            "content": "pyogenic arthritis (PAPA syndrome) is caused by mutations in PSTPIP1. In contrast to these syndromes of overexpression of proinflammatory cytokines, blockade of TNF-\u03b1 by the antagonists infliximab, adalimumab, certolizumab, golimumab, or etanercept has been associated with severe infections due to tuberculosis, nontuberculous mycobacteria, and fungi (Chap. 392)."
+        },
+        {
+            "id": "Pharmacology_Katzung_4653",
+            "title": "Pharmacology_Katzung",
+            "content": "and initially retain enough beta cell function to avoid ketosis. They can be treated at first with oral hypoglycemic agents but then need insulin as their beta cell function declines. Antibody studies in northern Europeans indicate that up to 10\u201315% of \u201ctype 2\u201d patients may actually have this milder form of type 1 diabetes (latent autoimmune diabetes of adulthood; LADA)."
+        }
+    ],
+    "scores": [
+        0.03760824800428761,
+        0.03344883930583728,
+        0.031218033806472117,
+        0.030281298183539578,
+        0.028415031570371375,
+        0.02666213622160882,
+        0.026445361492090466,
+        0.025806589903819482,
+        0.024694749694749694,
+        0.022834341222674037,
+        0.021479555837216956,
+        0.021095901425154273,
+        0.02075396386770323,
+        0.01934833212205475,
+        0.0178585665311329,
+        0.017304393227418516,
+        0.016823079596802223,
+        0.016677089847821555,
+        0.01642068873819971,
+        0.016129032258064516,
+        0.016076962809917356,
+        0.015764936817568395,
+        0.015640273704789834,
+        0.015419020715630885,
+        0.015297998180163785,
+        0.015151515151515152,
+        0.015115780445969125,
+        0.015044742729306487,
+        0.014840299887028858,
+        0.014743589743589743,
+        0.014699173805058544,
+        0.014511803985488195
+    ]
+}

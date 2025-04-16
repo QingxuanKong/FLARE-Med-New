@@ -1,0 +1,206 @@
+{
+    "id": "5e8220e6835f4e4777000032",
+    "question": "Is Protoporphyrinogen oxidase localized to the mitochondrium?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine if Protoporphyrinogen oxidase is localized to the mitochondrion, we need to analyze the given documents and look for information about the localization of this enzyme. From Document [0], we know that uroporphyrinogen decarboxylase (URO decarboxylase) catalyzes the sequential removal of the four carboxyl groups from the acetic acid side chains of URO gen III to form coproporphyrinogen (COPRO gen) III. This compound then enters the mitochondrion via a specific transporter, ABCB6. From Document [1], we know that coproporphyrinogen III enters the mitochondrion, and two propionate side chains are decarboxylated by coproporphyrinogen III oxidase to vinyl groups generating protoporphyrinogen IX. This suggests that protoporphyrinogen oxidase, the enzyme responsible for converting protoporphyrinogen IX to protoporphyrin IX, is indeed localized to the mitochondrion. From Document [1], we can see that COPRO oxidase, the sixth enzyme, catalyzes the decarboxylation of two of the four propionic acid groups to form the two vinyl groups of protoporphyrinogen (PROTO gen) IX, a decarboxylate porphyrinogen, which is a clear indication that protoporphyrinogen oxidase is localized to the mitochondrion. Therefore, the answer is A. yes.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_29086",
+            "title": "InternalMed_Harrison",
+            "content": "The fifth enzyme in the pathway, uroporphyrinogen decarboxylase (URO decarboxylase), catalyzes the sequential removal of the four carboxyl groups from the acetic acid side chains of URO\u2019gen III to form coproporphyrinogen (COPRO\u2019gen) III, a tetracarboxylate porphyrinogen. This compound then enters the mitochondrion via a specific transporter, ABCB6, where COPRO oxidase, the sixth enzyme, catalyzes the decarboxylation of two of the four propionic acid groups to form the two vinyl groups of protoporphyrinogen (PROTO\u2019gen) IX, a decarboxylate porphyrinogen. Next, PROTO oxidase oxidizes PROTO gen to protoporphyrin IX by the removal of six hydrogen atoms. The product of the reaction is a porphyrin (oxidized form), in contrast to the preceding tetrapyrrole intermediates, which are porphyrinogens (reduced forms). Finally, ferrous iron is inserted into protoporphyrin to form heme, a reaction catalyzed by the eighth enzyme in the pathway, ferrochelatase (also known as heme synthetase or"
+        },
+        {
+            "id": "Biochemistry_Lippincott_977",
+            "title": "Biochemistry_Lippinco",
+            "content": "3. Uroporphyrinogen formation: The condensation of four PBG produces the linear tetrapyrrole hydroxymethylbilane, which is cyclized and isomerized by uroporphyrinogen III synthase to produce the asymmetric uroporphyrinogen III. This cyclic tetrapyrrole undergoes decarboxylation of its acetate groups by uroporphyrinogen III decarboxylase (UROD), generating coproporphyrinogen III (Fig. 21.4). The reactions occur in the cytosol. 4. Heme formation: Coproporphyrinogen III enters the mitochondrion, and two propionate side chains are decarboxylated by coproporphyrinogen III oxidase to vinyl groups generating protoporphyrinogen IX, which is oxidized to protoporphyrin IX. The introduction of iron (as Fe2+) into protoporphyrin IX produces heme. This step can occur spontaneously, but the rate is enhanced by ferrochelatase, an enzyme that, like ALA dehydratase, is inhibited by lead (Fig. 21.5). C. Porphyrias"
+        },
+        {
+            "id": "InternalMed_Harrison_29098",
+            "title": "InternalMed_Harrison",
+            "content": "More extensive testing is justified when an initial test is positive. A substantial increase in PBG may be due to AIP, HCP, or VP. These acute porphyrias can be distinguished by measuring urinary porphyrins (using the same spot urine sample), fecal porphyrins, and plasma porphyrins. Assays for COPRO oxidase or PROTO oxidase are not widely available. More specifically, mutation analysis by sequencing the genes encoding HMB synthase, COPRO oxidase, and PROTO oxidase will detect almost all disease-causing mutations, and will be"
+        },
+        {
+            "id": "InternalMed_Harrison_31107",
+            "title": "InternalMed_Harrison",
+            "content": "The porphyrias are inherited in an autosomal dominant fashion. AIP is associated with porphobilinogen deaminase deficiency, HCP is caused by defects in coproporphyrin oxidase, and VP is associated with protoporphyrinogen oxidase deficiency. The pathogenesis of the neuropathy is not completely understood. Treatment with glucose and hematin may reduce the accumulation of heme precursors. Intravenous glucose is started at a rate of 10\u201320 g/h. If there is no improvement within 24 h, intravenous hematin 2\u20135 mg/kg per day for 3\u201314 days should be given."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3854",
+            "title": "Cell_Biology_Alberts",
+            "content": "iron\u2013sulfur cytochrome c Figure 14\u201326 The respiratory-chain mitochondria. the three proton-pumping CRISTA complexes of the mitochondrial respiratory chain of mammalian mitochondria assemble into large supercomplexes in the crista membrane. Supercomplexes can be isolated by mild detergent treatment of mitochondria, and their structure has been deciphered by single-particle cryoelectron microscopy. the bovine heart supercomplex has a total mass of 1.7 megadaltons. Shown is a schematic of such a complex that consists of NaDh dehydrogenase, cytochrome c reductase, and cytochrome c oxidase, as indicated. the facing quinol-binding sites of NaDh dehydrogenase and cytochrome c reductase, plus the short distance between the cytochrome c-binding sites in cytochrome c reductase and cytochrome c oxidase, facilitate fast, efficient electron transfer. Cofactors active in electron transport are marked as a yellow dot (flavin mononucleotide), red and yellow dots (iron\u2013sulfur clusters), Q (quinone),"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3843",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Cytochrome c Oxidase Complex Pumps Protons and Reduces O2 Using a Catalytic Iron\u2013Copper Center The final link in the mitochondrial electron-transport chain is cytochrome c oxidase. The cytochrome c oxidase complex accepts electrons from the soluble electron carrier cytochrome c, and it uses yet a different, third mechanism to pump protons across the inner mitochondrial membrane. The structure of the mammalian complex is illustrated in Figure 14\u201324. The atomic-resolution structures, combined with studies of the effect of mutations introduced into the enzyme by genetic engineering of the yeast and bacterial proteins, have revealed the detailed mechanisms of this electron-driven proton pump."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3850",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cytochrome c oxidase reaction accounts for about 90% of the total oxygen uptake in most cells. This protein complex is therefore crucial for all aerobic life. Cyanide and azide are extremely toxic because they bind to the heme iron atoms in cytochrome c oxidase much more tightly than does oxygen, thereby greatly reducing ATP production. the respiratory Chain Forms a Supercomplex in the Crista Membrane"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3848",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201324 The structure of cytochrome c oxidase. the final complex in the mitochondrial electron-transfer chain consists of 13 different protein subunits, with a total mass of 204,000 daltons. (a) the entire dimeric complex is shown, positioned in the crista membrane. the highly conserved subunits I (green), II (purple), and III (blue) are encoded by the mitochondrial genome, and they form the functional core of the enzyme."
+        },
+        {
+            "id": "Biochemistry_Lippincott_970",
+            "title": "Biochemistry_Lippinco",
+            "content": "II. PORPHYRIN METABOLISM Porphyrins are cyclic compounds that readily bind metal ions, usually ferrous (Fe2+) or ferric (Fe3+) iron. The most prevalent metalloporphyrin in humans is heme, which consists of one Fe2+ coordinated in the center of the tetrapyrrole ring of protoporphyrin IX (see p. 279). Heme is the prosthetic group for hemoglobin (Hb), myoglobin, the cytochromes, the cytochrome P450 (CYP) monooxygenase system, catalase, nitric oxide synthase, and peroxidase. These hemeproteins are rapidly synthesized and degraded. For example, 6\u20137 g of Hb is synthesized each day to replace heme lost through the normal turnover of erythrocytes. The synthesis and degradation of the associated porphyrins and recycling of the iron are coordinated with the turnover of hemeproteins. A. Structure"
+        },
+        {
+            "id": "InternalMed_Harrison_31106",
+            "title": "InternalMed_Harrison",
+            "content": "The CSF protein is typically normal or mildly elevated. Liver function tests and hematologic parameters are usually normal. Some patients are hyponatremic due to inappropriate secretion of antidiuretic hormone (Chap. 401e). The urine may appear brownish in color secondary to 2681 the high concentration of porphyrin metabolites. Accumulation of intermediary precursors of heme (i.e., d-aminolevulinic acid, porphobilinogen, uroporphobilinogen, coproporphyrinogen, and protoporphyrinogen) is found in urine. Specific enzyme activities can also be measured in erythrocytes and leukocytes. The primary abnormalities on EDx are marked reductions in compound motor action potential (CMAP) amplitudes and signs of active axonal degeneration on needle EMG. The porphyrias are inherited in an autosomal dominant fashion."
+        },
+        {
+            "id": "InternalMed_Harrison_29137",
+            "title": "InternalMed_Harrison",
+            "content": "Diagnosis Urinary ALA and PBG levels are increased during acute attacks, but may return to normal more quickly than in AIP. Increases in fecal protoporphyrin and COPRO III and in urinary COPRO III are more persistent. Plasma porphyrin levels also are increased, particularly when there are cutaneous lesions. VP can be distinguished rapidly from all other porphyrias by examining the fluorescence emission spectrum of porphyrins in plasma since VP has a unique fluorescence peak at neutral pH. Assays of PROTO oxidase activity in cultured fibroblasts or lymphocytes are not widely available. Over 174 mutations have been identified in the PPOX gene from unrelated VP patients (Human Gene Mutation Database; www.hgmd.org). The missense mutation R59W is the common mutation in most South Africans with VP of Dutch descent. Five missense mutations were common in English and French VP patients; however, most mutations have been found in only one or two families."
+        },
+        {
+            "id": "InternalMed_Harrison_29082",
+            "title": "InternalMed_Harrison",
+            "content": "The Porphyrias Abbreviations: ADP, 5-ALA dehydratase-deficient porphyria; AIP, acute intermittent porphyria; ALA, 5-aminolevulinic acid; CEP, congenital erythropoietic porphyria; COPRO I, coproporphyrin I; COPRO III, coproporphyrin III; EPP, erythropoietic protoporphyria; F, fecal; HCP, hereditary coporphyria; HEP, ; ISOCOPRO, isocoproporphyrin; P, plasma; PBG, porphobilinogen; PCT, porphyria cutanea tarda; PROTO, protoporphyrin IX; RBC, erythrocytes; U, urine; URO I, uroporphyrin I; URO III, uroporphyrin III; VP, variegate porphyria; XLP, X-linked protoporphyria. Source: Based on KE Anderson et al: Ann Intern Med 142:439, 2005. FIGURE 430-2 The heme biosynthetic pathway showing the eight enzymes and their substrates and products. Four of the enzymes are localized in the mitochondria and four in the cytosol."
+        },
+        {
+            "id": "Pathoma_Husain_107",
+            "title": "Pathoma_Husain",
+            "content": "IV. A. Anemia due to defective protoporphyrin synthesis 1. ..l.-protoporphyrin \u2794 ..l.-heme \u2794 ..l.-hemoglobin \u2794 microcytic anemia B. Protoporphyrin is synthesized via a series of reactions. 1. Aminolevulinic acid synthetase (ALAS) converts succinyl CoA to aminolevulinic acid (ALA) using vitamin B6 as a cofactor (rate-limiting step). 2. Aminolevulinic acid dehydratase (ALAD) converts ALA to porphobilinogen. 3. Additional reactions convert porphobilinogen to protoporphyrin. 4. Ferrochelatase attaches protoporphyrin to iron to make heme (final reaction; occurs in the mitochondria). C. Iron is transferred to erythroid precursors and enters the mitochondria to form heme. If protoporphyrin is deficient, iron remains trapped in mitochondria. 1. Iron-laden mitochondria form a ring around the nucleus of erythroid precursors; these cells are called ringed sideroblasts (hence, the term sideroblastic anemia, Fig. 5.2). D. Sideroblastic anemia can be congenital or acquired. 1."
+        },
+        {
+            "id": "InternalMed_Harrison_29087",
+            "title": "InternalMed_Harrison",
+            "content": "(reduced forms). Finally, ferrous iron is inserted into protoporphyrin to form heme, a reaction catalyzed by the eighth enzyme in the pathway, ferrochelatase (also known as heme synthetase or protoheme ferrolyase)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3849",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) the functional core of the complex. Electrons pass through this structure from cytochrome c via bound copper ions (blue spheres) and hemes (red) to an O2 molecule bound between heme a3 and a copper ion. the four protons needed to reduce O2 to water are taken up from the matrix; see also Figure 14\u201325. (C) this shows the symbol for cytochrome c oxidase used throughout this chapter. (pDB code: 2OCC.) 772 Chapter 14: Energy Conversion: Mitochondria and Chloroplasts on to oxygen at a special bimetallic center, where it remains clamped between a heme-linked iron atom and a copper ion until it has picked up a total of four electrons. Only then are the two oxygen atoms of the oxygen molecule safely released as two molecules of water (Figure 14\u201325)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4038",
+            "title": "Cell_Biology_Alberts",
+            "content": "14\u20137 If isolated mitochondria are incubated with a source of electrons such as succinate, but without oxygen, electrons enter the respiratory chain, reducing each of the electron carriers almost completely. When oxygen is then introduced, the carriers become oxidized at different rates (Figure Q14\u20131). How does this result allow you to order Figure Q14\u20131 rapid spectrophotometric analysis of the rates of oxidation of electron carriers in the respiratory chain (problem 14\u20137). Cytochromes a and a3 cannot be distinguished and thus are listed as cytochrome (a + a3). the electron carriers in the respiratory chain? What is their (A) direction of rotation order?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3953",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201350 Electron flow through the cytochrome b6-f complex to NADPH. the cytochrome b6-f complex is the functional equivalent of cytochrome c reductase (the cytochrome b-c1 complex) in mitochondria (see Figure 14\u201322). Like its mitochondrial homolog, the b6-f complex receives its electrons from a quinone and engages in a complicated Q cycle that pumps two protons across the membrane (details not shown). It hands its electrons, one at a time, to plastocyanin (pC). plastocyanin diffuses along the membrane surface to photosystem I and transfers the electrons via ferredoxin (Fd) to the ferredoxin-NaDp+ reductase (FNr), where they are utilized to produce NaDph. p700 is a special pair of chlorophylls that absorbs light of wavelength 700 nm."
+        },
+        {
+            "id": "InternalMed_Harrison_29080",
+            "title": "InternalMed_Harrison",
+            "content": "Abbreviations: AD, autosomal dominant; ALA, 5-aminolevulinic acid; AR, autosomal recessive; COPRO I, coproporphyrin I; COPRO III, coproporphyrin III; CP, cutaneous photosensitivity; ISOCOPRO, isocoproporphyrin; + Nv, neurovisceral; PBG, porphobilinogen; PROTO, protoporphyrin IX; URO I, uroporphyrin I; URO III, uroporphyrin III; XL, X-linked. aNumber of exons and those encoding separate housekeeping and erythroid-specific forms indicated in parentheses. bNumber of known mutations from the Human Gene Mutation Database (www.hgmd.org). cCrystallized from human (H), murine (M), Escherichia coli (E), Bacillus subtilis (B), or yeast (Y) purified enzyme; references in Protein Data Bank (www.rcsb.org). Abbreviations: C, cytoplasm; M, mitochondria. Source: From KE Anderson et al: Disorders of heme biosynthesis: X-linked sideroblastic anemia and the porphyrias, in The Metabolic and Molecular Bases of Inherited Diseases, CR Scriver et al (eds). New York, McGraw-Hill, 2001, pp 2991\u20133062."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3853",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201325The reaction of O2 with electrons in cytochrome c oxidase. Electrons from cytochrome c pass through the complex via bound copper ions (blue spheres)and hemes (red) to an O2 molecule bound between heme a3 and a copper ion. Iron ions are shown as red spheres. the iron atom in heme aserves as an electron queuing point where electrons are held so that they can be released to an O2 molecule (not shown) that is held at the bimetallic center active site, which is formed by the central iron of the other heme (heme a3) and a closely apposed copper atom. the four protons needed to reduce O2 to water are removed from the matrix. For each O2 molecule that undergoes the reaction 4e \u2013 + 4h+ + O2\u2192 2h2O, another four protons are pumped out of the matrix by mechanisms that are driven by allosteric changes in protein conformation (see Figure 14\u201328)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_972",
+            "title": "Biochemistry_Lippinco",
+            "content": "Side chain distribution: The side chains of porphyrins can be ordered around the tetrapyrrole nucleus in four different ways, designated by Roman numerals I to IV. Only type III porphyrins, which contain an asymmetric substitution on ring D (see Fig. 21.2), are physiologically important in humans. [Note: Protoporphyrin IX is a member of the type III series.] 3. Porphyrinogens: These porphyrin precursors (for example, uroporphyrinogen) exist in a chemically reduced, colorless form and serve as intermediates between porphobilinogen (PBG) and the oxidized, colored protoporphyrins in heme biosynthesis. B. Heme biosynthesis"
+        },
+        {
+            "id": "Biochemistry_Lippincott_253",
+            "title": "Biochemistry_Lippinco",
+            "content": "Cytochrome a + a3: Because this cytochrome complex (Complex IV) is the only electron carrier in which the heme iron has an available coordination site that can react directly with O2, it also is called cytochrome c oxidase. At Complex IV, the transported electrons, O2, and free H+ are brought together, and O2 is reduced to H2O (see Fig. 6.8). [Note: Four electrons are required to reduce one molecule of O2 to two molecules of H2O.] Cytochrome c oxidase contains Cu atoms that are required for this complicated reaction to occur. Electrons move from CuA to cytochrome a to cytochrome a3 (in association with CuB) to O2. 7."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3818",
+            "title": "Cell_Biology_Alberts",
+            "content": "\u02dcE0 = +30 \u2013 (\u2013320) = +350 mV The same calculation reveals that the transfer of one electron from ubiquinone to oxygen has an even more favorable \u02dcGo of \u201376 kJ/mole. The \u02dcGo value for the transfer of one electron from NADH to oxygen is the sum of these two values, \u2013110 kJ/mole. \u02dcGo = \u2013n(0.096) = \u20131(0.096)(350) = \u201334 kJ/mole \u00b0 \u00b0\u02dcE0 \u00b0 \u00b0 For the transfer of one electron from NADH to ubiquinone: Figure 14\u201315 The structure of the heme group attached covalently to cytochrome c. the porphyrin ring of the heme is shown in red. there are six different cytochromes in the respiratory chain. Because the hemes in different cytochromes have slightly different structures and are kept in different local environments by their respective proteins, each has a different affinity for an electron, and a slightly different spectroscopic signature. exploited by the membrane protein complexes in the respiratory chain to move electrons both within and between complexes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3826",
+            "title": "Cell_Biology_Alberts",
+            "content": "3. The cytochrome c oxidase complex contains two cytochrome hemes and three copper atoms. The complex accepts electrons one at a time from cytochrome c and passes them to molecular oxygen. In total, four electrons and four protons are needed to convert one molecule of oxygen to water. We have previously discussed how the redox potential reflects electron affinities. Figure 14\u201319 presents an outline of the redox potentials measured along the respiratory chain. These potentials change in three large steps, one across each proton-translocating respiratory complex. The change in redox potential between any two electron carriers is directly proportional to the free energy released when an electron transfers between them. Each complex acts as an energy-conversion device by harnessing some of this free-energy change to pump H+ across the inner membrane, thereby creating an electrochemical proton gradient as electrons pass along the chain."
+        },
+        {
+            "id": "InternalMed_Harrison_5106",
+            "title": "InternalMed_Harrison",
+            "content": "Muscle biopsy histochemical analysis is the cornerstone for investigation of patients with suspected mitochondrial disease. Histochemical analysis may show subsarcolemmal accumulation of mitochondria with the appearance of ragged red fibers. Electron microscopy might show abnormal mitochondria with paracrystalline inclusions. Muscle histochemistry may show cytochrome c oxidase (COX)\u2013deficient fibers, which indicate mitochondrial dysfunction (Fig. 85e-5). Respiratory chain complex assays may also show reduced enzyme function. Either of these two abnormalities confirms the presence of a mitochondrial disease, to be followed by an in-depth molecular genetic analysis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3259",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cytochrome oxidase is a large multiprotein complex located in the inner mitochondrial membrane, where it functions as the terminal enzyme in the electron-transport chain (discussed in Chapter 14). (a) The first 18 amino acids of the precursor to subunit iV of this enzyme serve as a signal sequence for import of the subunit into the mitochondrion. (B) When the signal sequence is folded as an \u03b1 helix, the positively charged amino acids (red) are clustered on one face of the helix, while the nonpolar ones (green) are clustered primarily on the opposite face. Uncharged polar amino acids are shaded orange; nitrogen atoms on the side chains of arg and Gln are colored blue. signal sequences that direct proteins into the matrix space always have the potential to form such an amphiphilic \u03b1 helix, which is recognized by specific receptor proteins on the mitochondrial surface. (C) The structure of a signal sequence (of alcohol dehydrogenase, another mitochondrial matrix enzyme), bound to an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3859",
+            "title": "Cell_Biology_Alberts",
+            "content": "The respiratory chain embedded in the inner mitochondrial membrane contains three respiratory enzyme complexes, through which electrons pass on their way from NADH to O2. In these complexes, electrons are transferred along a series of protein-bound electron carriers, including hemes and iron\u2013sulfur clusters. The energy released as the electrons move to lower and lower energy levels is used to pump protons by different mechanisms in the three respiratory enzyme complexes, each coupling lateral electron transport to vectorial proton transport across the membrane. Electrons are shuttled between enzyme complexes by the mobile electron carriers ubiquinone and cytochrome c to complete the electron-transport chain. The path of electron flow is NADH \u2192 NADH dehydrogenase complex \u2192 ubiquinone \u2192 cytochrome c reductase \u2192 cytochrome c \u2192 cytochrome c oxidase complex \u2192 molecular oxygen (O2)."
+        },
+        {
+            "id": "InternalMed_Harrison_29083",
+            "title": "InternalMed_Harrison",
+            "content": "the synthesis of CYPs, which are especially abundant in the liver (e.g., housekeeping) and erythroid-specific forms of ALA synthase are endoplasmic reticulum, and turn over more rapidly than many other encoded by separate genes located on chromosome 3p21.1 (ALAS1) hemoproteins, such as the mitochondrial respiratory cytochromes. As and Xp11.2 (ALAS2), respectively. Defects in the erythroid gene shown in Fig. 430-2, pathway intermediates are the porphyrin precur-ALAS2 that decrease its activity cause X-linked sideroblastic anemia sors, ALA and PBG, and porphyrins (mostly in their reduced forms, (XLSA). Recently, gain-of-function mutations in the last exon (11) of known as porphyrinogens). At least in humans, these intermediates do ALAS2 that increase its activity have been shown to cause an X-linked not accumulate in significant amounts under normal conditions or form of EPP, known as X-linked protoporphyria (XLP). have important physiologic functions. The second enzyme, ALA"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3825",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the mitochondrion, the three complexes are linked in series, serving as electron-transport-driven H+ pumps that pump protons out of the matrix to acidify the crista space (Figure 14\u201318): 1. The NADH dehydrogenase complex (often referred to as Complex I) is the largest of these respiratory enzyme complexes. It accepts electrons from NADH and passes them through a flavin mononucleotide and eight iron\u2013sulfur clusters to the lipid-soluble electron carrier ubiquinone. The reduced ubiquinol then transfers its electrons to cytochrome c reductase. 2. The cytochrome c reductase (also called the cytochrome b-c1 complex) is a large membrane protein assembly that functions as a dimer. Each monomer contains three cytochrome hemes and an iron\u2013sulfur cluster. The complex accepts electrons from ubiquinol and passes them on to the small, soluble protein cytochrome c, which is located in the crista space and carries electrons one at a time to cytochrome c oxidase. 3."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1010",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. acute intermittent porphyria. B. congenital erythropoietic porphyria. C. erythropoietic protoporphyria. D. hereditary coproporphyria. E. porphyria cutanea tarda. Correct answer = E. The disease is associated with a deficiency in uroporphyrinogen III decarboxylase (UROD), but clinical expression of the enzyme deficiency is influenced by hepatic injury caused by environmental (for example, ethanol) and infectious (for example, hepatitis B virus) agents. Exposure to sunlight can also be a precipitating factor. Clinical onset is typically during the fourth or fifth decade of life. Porphyrin accumulation leads to cutaneous symptoms and urine that is red to brown. Treatment of the patient\u2019s seizure disorder with phenytoin caused increased synthesis of \u03b4aminolevulinic acid synthase and, therefore, of uroporphyrinogen, the substrate of the deficient UROD. The laboratory and clinical findings are inconsistent with other porphyrias."
+        },
+        {
+            "id": "Biochemistry_Lippincott_979",
+            "title": "Biochemistry_Lippinco",
+            "content": "or in the liver. Hepatic porphyrias can be further classified as chronic or acute. In general, individuals with an enzyme defect prior to the synthesis of the tetrapyrroles manifest abdominal and neuropsychiatric signs, whereas those with enzyme defects leading to the accumulation of tetrapyrrole intermediates show photosensitivity (that is, their skin itches and burns [pruritus] when exposed to sunlight). [Note: Photosensitivity is a result of the oxidation of colorless porphyrinogens to colored porphyrins, which are photosensitizing molecules thought to participate in the formation of superoxide radicals from oxygen. These radicals can oxidatively damage membranes and cause the release of destructive enzymes from lysosomes.] a. Chronic hepatic porphyria: Porphyria cutanea tarda, the most common porphyria, is a chronic disease of the liver. The disease is associated with severe deficiency of UROD, but clinical expression of the deficiency is influenced by various factors, such as"
+        },
+        {
+            "id": "InternalMed_Harrison_29079",
+            "title": "InternalMed_Harrison",
+            "content": "These eight enzymes are encoded by nine genes, as the first enzyme in the cytosol. Heme is required for a variety of hemoproteins such in the pathway, 5\u2032-aminolevulinate synthase (ALA synthase), has as hemoglobin, myoglobin, respiratory cytochromes, and the cytochrome two genes that encode unique housekeeping (ALAS1) and erythroid-P450 enzymes (CYPs). Hemoglobin synthesis in erythroid precurspecific (ALAS2) isozymes. The first and last three enzymes in the sor cells accounts for approximately 85% of daily heme synthesis pathway are located in the mitochondrion, whereas the other four are in humans. Hepatocytes account for most of the rest, primarily for X-linked protoporphyria (XLP) ALA synthase 2 XL CP >100c Protoporphyrin \u2014 Protoporphyrin aPolymorphism in intron 3 of wild-type allele affects level of enzyme activity and clinical expression. bType I isomers. cIncreased activity due to \u201cgain-of-function\u201d mutations in ALAS2 exon 11."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4049",
+            "title": "Cell_Biology_Alberts",
+            "content": "Scheffler IE (1999) Mitochondria. New york/Chichester: Wiley-Liss. The Proton Pumps of the Electron-Transport Chain althoff t, Mills DJ, popot J-L & K\u00fchlbrandt W (2011) arrangement of electron transport chain components in bovine mitochondrial supercomplex I1III2IV1. EMBO J. 30, 4652\u20134664. Baradaran r, Berrisford JM, Minhas GS & Sazanov La (2013) Crystal structure of the entire respiratory complex I. Nature 494, 443\u2013448. Beinert h, holm rh & M\u00fcnck E (1997) Iron-sulfur clusters: nature\u2019s modular, multipurpose structures. Science 277, 653\u2013659. Berry Ea, Guergova-Kuras M, huang LS & Crofts ar (2000) Structure and function of cytochrome bc complexes. Annu. Rev. Biochem. 69, 1005\u20131075. Brandt U (2006) Energy converting NaDh:quinone oxidoreductase (complex I). Annu. Rev. Biochem. 75, 69\u201392. Chance B & Williams Gr (1955) a method for the localization of sites for oxidative phosphorylation. Nature 176, 250\u2013254."
+        }
+    ],
+    "scores": [
+        0.03638423102295266,
+        0.03449734121785689,
+        0.027529115328137878,
+        0.026156375919613114,
+        0.02606133883981709,
+        0.02400932400932401,
+        0.022746235246235244,
+        0.02152121643130482,
+        0.021043878314172697,
+        0.019237883832778392,
+        0.018957771787960466,
+        0.018750547621133797,
+        0.018295739348370928,
+        0.017862464648729662,
+        0.017331932773109245,
+        0.017220990391722098,
+        0.017174311926605505,
+        0.016998166172943998,
+        0.01678690344062153,
+        0.0167601683029453,
+        0.016437992974083646,
+        0.01616688396349413,
+        0.015773809523809523,
+        0.015570095722767477,
+        0.015268065268065269,
+        0.01514161220043573,
+        0.015107212475633527,
+        0.015085081950099175,
+        0.015073212747631352,
+        0.014642857142857141,
+        0.01457971733201091,
+        0.014453748006379585
+    ]
+}

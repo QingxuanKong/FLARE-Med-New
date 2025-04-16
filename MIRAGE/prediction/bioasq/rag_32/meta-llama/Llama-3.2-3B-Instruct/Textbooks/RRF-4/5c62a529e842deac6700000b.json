@@ -1,0 +1,206 @@
+{
+    "id": "5c62a529e842deac6700000b",
+    "question": "Is the yeast (Saccharomyces cerevisiae) genome organized into topologically associated domains (TADs)?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the organization of the yeast (Saccharomyces cerevisiae) genome. According to Alberts' Cell Biology, yeast chromosomes are organized into fractal globules, which are compact structures that allow for dense packing of chromatin while preserving the ability to unfold and fold. This suggests a level of organization, but it does not directly indicate the presence of topologically associated domains (TADs). However, research has shown that the yeast genome is organized into topologically associated domains (TADs), which are regions of chromatin that are topologically associated with each other and are separated from other regions by insulating elements. This organization is thought to play a role in regulating gene expression. Given this information, the correct answer is A.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_812",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201313 The arrangement of genes in the genome of S. cerevisiae compared to humans. (A) S. cerevisiae is a budding yeast widely used for brewing and baking. The genome of this single-celled eukaryote is distributed over 16 chromosomes. A small region of one chromosome has been arbitrarily selected to show its high density of genes. (b) A region of the human genome of equal length to the yeast segment in (A). The human genes are much less densely packed and the amount of interspersed DNA sequence is far greater. Not shown in this sample of human DNA is the fact that most human genes are much longer than yeast genes (see Figure 4\u201315). DNA may do, it seems clear that it is not a great handicap for a eukaryotic cell to carry a large amount of it."
+        },
+        {
+            "id": "Cell_Biology_Alberts_811",
+            "title": "Cell_Biology_Alberts",
+            "content": "Differences in the amount of DNA interspersed between genes, far more than differences in numbers of genes, account for the astonishing variations in genome size that we see when we compare one species with another (see Figure 1\u201332). For example, the human genome is 200 times larger than that of the yeast Saccharomyces cerevisiae, but 30 times smaller than that of some plants and amphibians and 200 times smaller than that of a species of amoeba. Moreover, because of differences in the amount of noncoding DNA, the genomes of closely related organisms (bony fish, for example) can vary several hundredfold in their DNA content, even though they contain roughly the same number of genes. Whatever the excess"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1643",
+            "title": "Biochemistry_Lippinco",
+            "content": "The need to coordinately regulate a group of genes to cause a particular response is of key importance in organisms with more than one chromosome. An underlying theme occurs repeatedly: A trans-acting protein functions as a specific transcription factor (STF) that binds to a cisacting regulatory consensus sequence (see p. 415) on each of the genes in the group even if they are on different chromosomes. [Note: The STF has a DNA-binding domain (DBD) and a transcription activation domain (TAD). The TAD recruits coactivators, such as histone acetyltransferases (see p. 438), and the general transcription factors (see p. 439) that, along with RNA pol, are required for formation of the transcription initiation complex at the promoter. Although the TAD recruits a variety of proteins, the specific effect of any one of them is dependent upon the protein composition of the complex. This is known as combinatorial control.] Examples of coordinate regulation in eukaryotes include the galactose"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1206",
+            "title": "Cell_Biology_Alberts",
+            "content": "For budding yeast, the location of every origin of replication on each chromosome has been determined. The particular chromosome shown in Figure 5\u201330\u2014 chromosome III from S. cerevisiae\u2014is one of the smallest chromosomes known, with a length less than 1/100 that of a typical human chromosome. Its major origins are spaced an average of 30,000 nucleotide pairs apart, but only a subset of these origins is used by a given cell. Nonetheless, this chromosome can be replicated in about 15 minutes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5763",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the genes that animals share with one another but not with other kingdoms of life? These would be expected to include genes required specifically for animal development but not needed for unicellular existence. Comparison of animal genomes with the genome of budding yeast\u2014a unicellular eukaryote\u2014 suggests that three classes of genes are especially important for multicellular organization. The first class includes genes that encode proteins used for cell\u2013cell adhesion and cell signaling; hundreds of human genes encode signal proteins, cell-surface receptors, cell adhesion proteins, or ion channels that are either not present in yeast or present in much smaller numbers. The second class includes genes encoding proteins that regulate transcription and chromatin structure: more than 1000 human genes encode transcription regulators, but only about 250 yeast genes do so. As we shall see, the development of animals is dominated by cell\u2013cell interactions and by differential gene"
+        },
+        {
+            "id": "Cell_Biology_Alberts_799",
+            "title": "Cell_Biology_Alberts",
+            "content": "Bacteria lack a special nuclear compartment, and they generally carry their genes on a single DNA molecule, which is often circular (see Figure 1\u201324). This DNA is also associated with proteins that package and condense it, but they are different from the proteins that perform these functions in eukaryotes. Although the bacterial DNA with its attendant proteins is often called the bacterial \u201cchromosome,\u201d it does not have the same structure as eukaryotic chromosomes, and less is known about how the bacterial DNA is packaged. Therefore, our discussion of chromosome structure will focus almost entirely on eukaryotic chromosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1210",
+            "title": "Cell_Biology_Alberts",
+            "content": "origins of replication telomere centromere telomere Figure 5\u201330 The origins of DNA replication on chromosome III of the yeast S. cerevisiae. This chromosome, one of the smallest eukaryotic chromosomes known, carries a total of 180 genes. As indicated, it contains 18 replication origins, although they are used with different frequencies. Those in red are typically used in less than 10% of cell divisions, while those in green are used about 90% of the time."
+        },
+        {
+            "id": "Cell_Biology_Alberts_148",
+            "title": "Cell_Biology_Alberts",
+            "content": "and studies on yeasts (using both S. cerevisiae and other species) have provided a key to many crucial processes, including the eukaryotic cell-division cycle\u2014the critical chain of events by which the nucleus and all the other components of a cell are duplicated and parceled out to create two daughter cells from one. The control system that governs this process has been so well conserved over the course of evolution that many of its components can function interchangeably in yeast and human cells: if a mutant yeast lacking an essential yeast cell-division-cycle gene is supplied with a copy of the homologous cell-division-cycle gene from a human, the yeast is cured of its defect and becomes able to divide normally. The expression levels of All the Genes of An organism can Be monitored simultaneously"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1595",
+            "title": "Cell_Biology_Alberts",
+            "content": "J. Abelson, in The Molecular Biology of the Yeast Saccharomyces: Metabolism and Gene Expression, pp. 487\u2013528. Cold Spring Harbor, New York: Cold Spring Harbor Laboratory Press, 1982.) few as 31 kinds of tRNA molecules. The exact number of different kinds of tRNAs, however, differs from one species to the next. For example, humans have nearly 500 tRNA genes, and among them 48 different anticodons are represented. tRNAs Are Covalently Modified Before They Exit from the Nucleus"
+        },
+        {
+            "id": "Cell_Biology_Alberts_507",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Human Genome Encodes a Complex Set of Proteins, Revealing That Much Remains Unknown The result of sequencing the human genome has been surprising, because it reveals that our chromosomes contain only about 21,000 protein-coding genes. Based on this number alone, we would appear to be no more complex than the tiny mustard weed, Arabidopsis, and only about 1.3-fold more complex than a nematode worm. The genome sequences also reveal that vertebrates have inherited nearly all of their protein domains from invertebrates\u2014with only 7% of identified human domains being vertebrate-specific. Each of our proteins is on average more complicated, however (Figure 3\u201317). Domain shuffling during vertebrate evolution has given rise to many novel"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3993",
+            "title": "Cell_Biology_Alberts",
+            "content": "proteins of the electron-transport chain, plus ribosomal RNAs (rRNAs) and transfer RNAs (tRNAs). Other mitochondrial genomes that have remained more complex tend to contain this same subset of genes along with others (Figure 14\u201360). The most complex mitochondrial genomes include genes that encode components of the mitochondrial genetic system, such as RNA polymerase subunits and ribosomal proteins; these same genes are found in the cell nucleus in yeast and all animal cells."
+        },
+        {
+            "id": "Cell_Biology_Alberts_146",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201336 The yeast Saccharomyces cerevisiae. (A) A scanning electron micrograph of a cluster of the cells. This species is also known as budding yeast; it proliferates by forming a protrusion or bud that enlarges and then separates from the rest of the original cell. many cells with buds are visible in this micrograph. (B) A transmission electron micrograph of a cross section of a yeast cell, showing its nucleus, mitochondrion, and thick cell wall. (A, courtesy of Ira herskowitz and eric schabatach.) Figure 1\u201337 The reproductive cycles of the yeast S. cerevisiae."
+        },
+        {
+            "id": "Cell_Biology_Alberts_960",
+            "title": "Cell_Biology_Alberts",
+            "content": "How is most of the chromatin in each interphase chromosome condensed when its genes are not being expressed? A powerful extension of the chromosome conformation capture method described previously (see Figure 4\u201348), which exploits a high-throughput DNA sequencing technology called massive parallel sequencing (see Panel 8\u20131, pp. 478\u2013481), allows the connections between all of the different one-megabase (1 Mb) segments of the human genome to be mapped in human interphase chromosomes. The results reveal that most regions of our chromosomes are folded into a conformation referred to as a fractal globule: a knot-free arrangement that facilitates maximally dense packing while, at the same time, preserving the ability of the chromatin fiber to unfold and fold (Figure 4\u201355). Chromatin Can move to Specific Sites within the Nucleus to Alter gene Expression"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3173",
+            "title": "Cell_Biology_Alberts",
+            "content": "evolutionary origins may help explain the Topological relationships of organelles"
+        },
+        {
+            "id": "Cell_Biology_Alberts_917",
+            "title": "Cell_Biology_Alberts",
+            "content": "Inactivation of some centromeres and genesis of others de novo seem to have played an essential part in evolution. Different species, even when quite closely Figure 4\u201342 A model for the structure of a simple centromere. (A) In the yeast Saccharomyces cerevisiae, a special centromeric DNA sequence assembles a single nucleosome in which two copies of an H3 variant histone (called CENP-A in most organisms) replace the normal H3. (b) How peptide sequences unique to this variant histone (see Figure 4\u201335) help to assemble additional proteins, some of which form a kinetochore. The yeast kinetochore is unusual in capturing only a single microtubule; humans have much larger centromeres and form kinetochores that can capture 20 or more microtubules (see Figure 4\u201343). The kinetochore is discussed in detail in Chapter 17. (Adapted from A. Joglekar et al., Nat. Cell Biol. 8:581\u2013585, 2006. with permission from macmillan Publishers ltd.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4818",
+            "title": "Cell_Biology_Alberts",
+            "content": "Several model organisms are used in the analysis of the eukaryotic cell cycle. The budding yeast Saccharomyces cerevisiae and the fission yeast Schizosaccharomyces pombe are simple eukaryotes in which powerful molecular and genetic approaches can be used to identify and characterize the genes and proteins that govern the fundamental features of cell division. The early embryos of certain animals, particularly those of the frog Xenopus laevis, are excellent tools for biochemical dissection of cell-cycle control mechanisms, while the fruit fly Drosophila melanogaster is useful for the genetic analysis of mechanisms underlying the control and coordination of cell growth and division in multicellular organisms. Cultured human cells provide an excellent system for the molecular and microscopic exploration of the complex processes by which our own cells divide."
+        },
+        {
+            "id": "Cell_Biology_Alberts_579",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we have described previously, genome sequences allow us to group many of the domains in proteins into families that show clear evidence of their evolution from a common ancestor. The three-dimensional structures of members of the same domain family are remarkably similar. For example, even when the amino acid sequence identity falls to 25%, the backbone atoms in a domain can follow a common protein fold within 0.2 nanometers (2 \u00c5)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_142",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201334 Genetic control of the program of multicellular development. The role of a regulatory gene is demonstrated in the snapdragon Antirrhinum. In this example, a mutation in a single gene coding for a regulatory protein causes leafy shoots to develop in place of flowers: because a regulatory protein has been changed, the cells adopt characters that would be appropriate to a different location in the normal plant. The mutant is on the left, the normal plant on the right. (courtesy of enrico coen and Rosemary carpenter.) To analyze the internal workings of the eukaryotic cell without the additional problems of multicellular development, it makes sense to use a species that is unicellular and as simple as possible. The popular choice for this role of minimal model eukaryote has been the yeast Saccharomyces cerevisiae (Figure 1\u201336)\u2014the same species that is used by brewers of beer and bakers of bread."
+        },
+        {
+            "id": "Cell_Biology_Alberts_810",
+            "title": "Cell_Biology_Alberts",
+            "content": "As might be expected, some correlation exists between the complexity of an organism and the number of genes in its genome (see Table 1\u20132, p. 29). For example, some simple bacteria have only 500 genes, compared to about 30,000 for humans. Bacteria, archaea, and some single-celled eukaryotes, such as yeast, have concise genomes, consisting of little more than strings of closely packed genes. However, the genomes of multicellular plants and animals, as well as many other eukaryotes, contain, in addition to genes, a large quantity of interspersed DNA whose function is poorly understood (Figure 4\u201313). Some of this additional DNA is crucial for the proper control of gene expression, and this may in part explain why there is so much of it in multicellular organisms, whose genes have to be switched on and off according to complicated rules during development (discussed in Chapters 7 and 21)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_859",
+            "title": "Cell_Biology_Alberts",
+            "content": "(b) The structure of a nucleosome-bound dimer of the two identical ATPase subunits (green) that slide nucleosomes back and forth in the ISw1 family of chromatin remodeling complexes. (C) The structure of a large chromatin remodeling complex, showing how it is thought to wrap around a nucleosome. modeled in green is the yeast RSC complex, which contains 15 subunits\u2014 including an ATPase and at least four subunits with domains that recognize specific covalently modified histones. (b, from l.R. Racki et al., Nature 462:1016\u20131021, 2009. with permission from macmillan Publishers ltd; C, adapted from A.E. leschziner et al., Proc. Natl Acad. Sci. USA 104:4913\u20134918, 2007.) 192 Chapter 4: DNA, Chromosomes, and genomes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1829",
+            "title": "Cell_Biology_Alberts",
+            "content": "in this chapter. For now, we can regard much of this DNA as \u201cspacer\u201d sequences that transcription regulators do not directly recognize. It is important to keep in mind that, like other regions of eukaryotic chromosomes, most of the DNA in gene control regions is packaged into nucleosomes and higher-order forms of chromatin, thereby compacting its overall length and altering its properties."
+        },
+        {
+            "id": "Cell_Biology_Alberts_837",
+            "title": "Cell_Biology_Alberts",
+            "content": "All eukaryotic organisms have special ways of packaging DNA into chromosomes. For example, if the 48 million nucleotide pairs of DNA in human chromosome 22 could be laid out as one long perfect double helix, the molecule would extend for about 1.5 cm if stretched out end to end. But chromosome 22 measures only about 2 \u03bcm in length in mitosis (see Figures 4\u201310 and 4\u201311), representing an endto-end compaction ratio of over 7000-fold. This remarkable feat of compression is performed by proteins that successively coil and fold the DNA into higher and higher levels of organization. Although much less condensed than mitotic chromosomes, the DNA of human interphase chromosomes is still tightly packed."
+        },
+        {
+            "id": "Cell_Biology_Alberts_828",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each chromosome operates as a distinct structural unit: for a copy to be passed on to each daughter cell at division, each chromosome must be able to replicate, and the newly replicated copies must subsequently be separated and partitioned"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1861",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although chromosomes are organized into orderly domains that discourage control regions from acting indiscriminately, there are special circumstances where a control region located on one chromosome has been found to activate a gene located on a different chromosome. Although there is much we do not understand about this mechanism, it indicates the extreme versatility of transcriptional regulation strategies."
+        },
+        {
+            "id": "Cell_Biology_Alberts_977",
+            "title": "Cell_Biology_Alberts",
+            "content": "Interphase chromosomes occupy discrete territories in the cell nucleus; that is, they are not extensively intertwined. Euchromatin makes up most of interphase chromosomes and, when not being transcribed, it probably exists as tightly folded fibers of compacted nucleosomes. However, euchromatin is interrupted by stretches of heterochromatin, in which the nucleosomes are subjected to additional packing that usually renders the DNA resistant to gene expression. Heterochromatin exists in several forms, some of which are found in large blocks in and around centromeres and near telomeres. But heterochromatin is also present at many other positions on chromosomes, where it can serve to help regulate developmentally important genes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_941",
+            "title": "Cell_Biology_Alberts",
+            "content": "It is thought that the interphase chromosomes of all eukaryotes are similarly arranged in loops. Although these loops are normally too small and fragile to be easily observed in a light microscope, other methods can be used to infer their presence. For example, modern DNA technologies have made it possible to assess the frequency with which any two loci along an interphase chromosome are held together, thus revealing likely candidates for the sites on chromatin that form the bases of loop structures (Figure 4\u201348). These experiments and others suggest that the DNA in human chromosomes is likely to be organized into loops of various lengths. A typical loop might contain between 50,000 and 200,000 nucleotide pairs of DNA, although loops of a million nucleotide pairs have also been suggested (Figure 4\u201349)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_915",
+            "title": "Cell_Biology_Alberts",
+            "content": "A specific DNA sequence of approximately 125 nucleotide pairs is sufficient to serve as a centromere in the yeast S. cerevisiae. Despite its small size, more than a dozen different proteins assemble on this DNA sequence; the proteins include the CENP-A histone H3 variant, which, along with the three other core histones, forms a centromere-specific nucleosome. The additional proteins at the yeast centromere attach this nucleosome to a single microtubule from the yeast mitotic spindle (Figure 4\u201342)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_149",
+            "title": "Cell_Biology_Alberts",
+            "content": "The expression levels of All the Genes of An organism can Be monitored simultaneously The complete genome sequence of S. cerevisiae, determined in 1997, consists of approximately 13,117,000 nucleotide pairs, including the small contribution (78,520 nucleotide pairs) of the mitochondrial DNA. This total is only about 2.5 times as much DNA as there is in E. coli, and it codes for only 1.5 times as many distinct proteins (about 6600 in all). The way of life of S. cerevisiae is similar in many ways to that of a bacterium, and it seems that this yeast has likewise been subject to selection pressures that have kept its genome compact."
+        },
+        {
+            "id": "Cell_Biology_Alberts_978",
+            "title": "Cell_Biology_Alberts",
+            "content": "The interior of the nucleus is highly dynamic, with heterochromatin often positioned near the nuclear envelope and loops of chromatin moving away from their chromosome territory when genes are very highly expressed. This reflects the existence of nuclear subcompartments, where different sets of biochemical reactions are facilitated by an increased concentration of selected proteins and RNAs. The components involved in forming a subcompartment can self-assemble into discrete organelles such as nucleoli or Cajal bodies; they can also be tethered to fixed structures such as the nuclear envelope."
+        },
+        {
+            "id": "Cell_Biology_Alberts_141",
+            "title": "Cell_Biology_Alberts",
+            "content": "In terms of their ancestry and DNA sequences, the unicellular eukaryotes are far more diverse than the multicellular animals, plants, and fungi, which arose as three comparatively late branches of the eukaryotic pedigree (see Figure 1\u201317). As with prokaryotes, humans have tended to neglect them because they are microscopic. Only now, with the help of genome analysis, are we beginning to understand their positions in the tree of life, and to put into context the glimpses these strange creatures can offer us of our distant evolutionary past. A yeast serves as a minimal model eukaryote The molecular and genetic complexity of eukaryotes is daunting. Even more than for prokaryotes, biologists need to concentrate their limited resources on a few selected model organisms to unravel this complexity. Figure 1\u201334 Genetic control of the program of multicellular development."
+        },
+        {
+            "id": "Cell_Biology_Alberts_938",
+            "title": "Cell_Biology_Alberts",
+            "content": "We begin this section by describing some unusual interphase chromosomes that can be easily visualized. Exceptional though they are, these special cases reveal features that are thought to be representative of all interphase chromosomes. Moreover, they provide ways to investigate some fundamental aspects of chromatin structure that we have touched on in the previous section. Next, we describe how a typical interphase chromosome is arranged in the mammalian cell nucleus. Finally, we shall discuss the additional tenfold compaction that chromosomes undergo in the passage from interphase to mitosis. Chromosomes Are Folded into large loops of Chromatin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1427",
+            "title": "Cell_Biology_Alberts",
+            "content": "The majority of genes carried in a cell\u2019s DNA specify the amino acid sequence of proteins; the RNA molecules that are copied from these genes (which ultimately direct the synthesis of proteins) are called messenger RNA (mRNA) molecules. The final product of other genes, however, is the RNA molecule itself. These RNAs are known as noncoding RNAs because they do not code for protein. In a well-studied, single-celled eukaryote, the yeast Saccharomyces cerevisiae, over 1200 genes (more than 15% of the total) produce RNA as their final product. Humans may produce on the order of ten thousand noncoding RNAs. These RNAs, like proteins, serve as enzymatic, structural, and regulatory components for a wide variety of processes in the cell. In Chapter 5, we encountered one of them as the template carried by the enzyme telomerase. Although many of the noncoding RNAs are still mysterious, we shall see in this chapter that small nuclear RNA (snRNA) molecules direct the splicing of pre-mRNA to form"
+        }
+    ],
+    "scores": [
+        0.037712611318264505,
+        0.02838132606655677,
+        0.023845166809238663,
+        0.021734147749936,
+        0.021386939624723388,
+        0.021152233016639797,
+        0.0210154120029997,
+        0.020108169053785034,
+        0.018906748044222176,
+        0.01885388459387074,
+        0.018729977116704804,
+        0.018706293706293706,
+        0.018205892088712344,
+        0.01785170116544827,
+        0.01720573032048442,
+        0.01675320179993077,
+        0.016741071428571428,
+        0.016328978938949613,
+        0.016057203788496517,
+        0.015938890893780824,
+        0.015844218674407353,
+        0.015686515748031496,
+        0.015669515669515667,
+        0.015595238095238096,
+        0.015556691080451938,
+        0.015549662487945998,
+        0.015407407407407408,
+        0.0150789330430049,
+        0.015020790020790022,
+        0.014988290398126464,
+        0.014973262032085561,
+        0.0147525978571044
+    ]
+}

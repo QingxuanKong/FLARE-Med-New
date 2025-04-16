@@ -1,0 +1,206 @@
+{
+    "id": "5e2e1d6afbd6abf43b000026",
+    "question": "Do MAIT cells have a role in multiple myeloma?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the provided documents and look for any information related to MAIT cells and multiple myeloma.\\n\\nFirst, we need to understand what MAIT cells are. MAIT cells are a type of T cell that recognizes metabolites of vitamin B derived mainly from the riboflavin metabolism pathway in microbes presented by the MR1 MHC class Ib molecule.\\n\\nNext, we need to see if there is any connection between MAIT cells and multiple myeloma. After reviewing the documents, we can see that MR1 is mentioned as a nonclassical MHC class I molecule that presents microbial folate metabolites to MAIT cells. Additionally, multiple myeloma is associated with dysregulation of the cyclin D1 and cyclin D3 genes, and it is also linked to the production of factors that upregulate the expression of RANKL by bone marrow stromal cells, which activates osteoclasts and leads to bone resorption.\\n\\nHowever, there is no direct information in the documents that links MAIT cells to the pathogenesis of multiple myeloma or its clinical manifestations. Therefore, we can conclude that MAIT cells do not have a direct role in multiple myeloma.\\n\\nHowever, based on the provided information, it can be inferred that MAIT cells may play a role in the immune response to infections that may be associated with multiple myeloma, such as bacterial infections, which can activate MAIT cells.\\n\\nThus, the answer to the question is that MAIT cells may have an indirect role in multiple myeloma through their activation in response to infections, but they are not directly involved in the pathogenesis of the disease.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_8880",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 136-4 Pathogenesis of multiple myeloma. Multiple myeloma (MM) cells interact with bone marrow stromal cells (BMSCs) and extracellular matrix proteins via adhesion molecules, triggering adhesion-mediated signaling as well as cytokine production. This triggers cytokinemediated signaling that provides growth, survival, and antiapoptotic effects as well as development of drug resistance."
+        },
+        {
+            "id": "Pathology_Robbins_2858",
+            "title": "Pathology_Robbins",
+            "content": "As with most other B cell malignancies, myeloma often has chromosomal translocations that fuse the IgH locus on chromosome 14 to oncogenes such as the cyclin D1 and cyclin D3 genes. As might be surmised from this, dysregulation of D cyclins is common in multiple myeloma and is believed to contribute to increases in cell proliferation. Proliferation of myeloma cells also is supported by the cytokine interleukin 6 (IL-6), which is produced by fibroblasts and macrophages in the bone marrow stroma. Late in the course, translocations involving MYC are sometimes observed, particularly in patients with aggressive disease. Multiple myeloma has a number of untoward effects on the skeleton, the immune system, and the kidney, all of which contribute to morbidity and mortality:"
+        },
+        {
+            "id": "Pathology_Robbins_2859",
+            "title": "Pathology_Robbins",
+            "content": "Multiple myeloma has a number of untoward effects on the skeleton, the immune system, and the kidney, all of which contribute to morbidity and mortality: Factors produced by neoplastic plasma cells mediate bone destruction, the major pathologic feature of multiple myeloma. Of particular importance, myelomaderived factors upregulate the expression of the receptor activator of NF-\u03baB ligand (RANKL) by bone marrow stromal cells, which in turn activate osteoclasts. Other factors released from tumor cells are potent inhibitors of osteoblast function. The net effect is increased bone resorption, leading to hypercalcemia and pathologic fractures."
+        },
+        {
+            "id": "InternalMed_Harrison_8891",
+            "title": "InternalMed_Harrison",
+            "content": "The diagnosis of myeloma requires marrow plasmacytosis (>10%), a serum and/or urine M component, and end organ damage detailed in Table 136-1. Bone marrow plasma cells are CD138 and either monoclonal kappa or lambda light chain positive. The most important differential diagnosis in patients with myeloma involves their separation from individuals with MGUS or smoldering multiple myeloma (SMM). MGUS is vastly more common than myeloma, occurring in 1% of the population older than age 50 years and in up to 10% of individuals older than age 75 years. The diagnostic criteria for MGUS, SMM, and myeloma are described in Table 136-1. Although ~1% of patients per year with MGUS go on to develop myeloma, all TABLE 136-1 DIAgNOsTIC CrITErIA fOr MuLTIPLE MYELOMA, MYELOMA VArIANTs, AND MONOCLONAL gAMMOPATHY Of uNDETErMINED sIgNIfICANCE Monoclonal Gammopathy of Undetermined Significance (MGUS)"
+        },
+        {
+            "id": "Immunology_Janeway_1411",
+            "title": "Immunology_Janeway",
+            "content": "molecules are encoded outside the MHC region. CD1c and CD1d can bind lipids and glycolipid antigens for presentation to iNKT cells expressing invariant T-cell receptors. The T-cell population called MAIT cells, which are abundant in humans, recognize vitamin B9 metabolites presented by the MR1 MHC class Ib molecule, suggesting that the MAIT cells have a \u2018transitional\u2019 role between innate and adaptive immunity. Likewise, many antigens that activate \u03b3:\u03b4 T cells may be indicators of stress or infection, and these cells are able to generate cytokines that amplify immune defense pathways."
+        },
+        {
+            "id": "Immunology_Janeway_1402",
+            "title": "Immunology_Janeway",
+            "content": "Another nonclassical MHC class Ib molecule is MR1 (MHC-related protein 1). MR1 associates with \u03b22-microglobulin and is encoded outside the MHC, but its function was originally known only in relation to a conserved population of \u03b1:\u03b2 T cells known as mucosal associated invariant T cells (MAIT cells). In Section 4-18, we introduced MAIT cells as one population of T cells expressing the CD8\u03b1 homodimer, but they are uniquely characterized by expressing an invariant \u03b1 chain of the T-cell receptor, specifically human V\u03b17.2J2\u2013J\u03b133 (or in mouse, V\u03b119) . This \u03b1 chain pairs with a limited number of V\u03b2 chains, typically V\u03b22 or V\u03b213. MAIT cells are very abundant in humans and can comprise up to 10% of the lymphocytes in the peripheral blood and tissues such as the liver. They are also present in mesenteric lymph nodes and the mucosa of the intestine. Studies of MAIT cells revealed that their development requires the expression of MR1, and further, that a wide spectrum of microbes, including"
+        },
+        {
+            "id": "InternalMed_Harrison_8874",
+            "title": "InternalMed_Harrison",
+            "content": "An estimated 24,050 new cases of myeloma were diagnosed in 2014, and 11,090 people died from the disease in the United States. Myeloma increases in incidence with age. The median age at diagnosis is 70 years; it is uncommon under age 40. Males are more commonly affected than females, and blacks have nearly twice the incidence of whites. Myeloma accounts for 1.3% of all malignancies in whites and 2% in blacks, and 13% of all hematologic cancers in whites and 33% in blacks. FIGURE 136-3 Multiple myeloma (marrow). The cells bear characteristic morphologic features of plasma cells, round or oval cells with an eccentric nucleus composed of coarsely clumped chromatin, a densely basophilic cytoplasm, and a perinuclear clear zone containing the Golgi apparatus. Binucleate and multinucleate malignant plasma cells can be seen. The incidence of myeloma is highest in African Americans"
+        },
+        {
+            "id": "Pathology_Robbins_2855",
+            "title": "Pathology_Robbins",
+            "content": "Multiple myeloma (plasma cell myeloma), the most important plasma cell neoplasm, usually presents as tumorous masses scattered throughout the skeletal system. Solitary plasmacytoma is an infrequent variant that presents as a single mass in bone or soft tissue. Smoldering myeloma is another uncommon variant defined by a lack of symptoms and a high plasma M component. Monoclonal gammopathy of undetermined significance (MGUS) is applied to patients without signs or symptoms who have small to moderately large M components in their blood. MGUS is very common in older adults and has a low but constant rate of transformation to a symptomatic monoclonal gammopathy, most often multiple myeloma. Primary or immunocyte-associated amyloidosis results from a monoclonal proliferation of plasma cells secreting light chains that are deposited as amyloid. Some http://ebooksmedicine.net patients have overt multiple myeloma, but others have only a minor clonal population of plasma cells in the marrow."
+        },
+        {
+            "id": "Immunology_Janeway_1403",
+            "title": "Immunology_Janeway",
+            "content": "mesenteric lymph nodes and the mucosa of the intestine. Studies of MAIT cells revealed that their development requires the expression of MR1, and further, that a wide spectrum of microbes, including diverse bacteria and yeast, can activate MAIT cells. However, when they were originally identified around a decade ago, it was unclear what, if any, ligand is being recognized by these cells."
+        },
+        {
+            "id": "Pathology_Robbins_2853",
+            "title": "Pathology_Robbins",
+            "content": "These B cell proliferations contain neoplastic plasma cells that virtually always secrete a monoclonal immunoglobulin or immunoglobulin fragment, which serve as tumor markers and often have pathologic consequences. Collectively, plasma cell neoplasms and related disorders account for about 15% of the deaths caused by lymphoid neoplasms. The most common and deadly of these neoplasms is multiple myeloma, of which there are about 15,000 new cases per year in the United States."
+        },
+        {
+            "id": "Pathology_Robbins_2860",
+            "title": "Pathology_Robbins",
+            "content": "Myeloma causes defects in humoral immunity. Through still-uncertain mechanisms, myeloma cells compromise the function of normal B cells. Ironically, although the plasma has elevated levels of immunoglobulin owing to the presence of an M protein, the production of functional antibodies often is profoundly depressed. As a result, patients are at high risk for bacterial infections."
+        },
+        {
+            "id": "InternalMed_Harrison_8873",
+            "title": "InternalMed_Harrison",
+            "content": "with frequency >20%; N-ras, K-ras, and B-raf mutations are most common and combined occur in over 40% of patients. There is also evidence of complex clusters of subclonal variants at diagnosis that acquire additional mutations over time, indicative of genomic evolution that may drive disease progression. The neoplastic event in myeloma may involve cells earlier in B-cell differentiation than the plasma cell. Interleukin (IL) 6 may play a role in driving myeloma cell proliferation. It remains difficult to distinguish benign from malignant plasma cells based on morphologic criteria in all but a few cases (Fig. 136-3)."
+        },
+        {
+            "id": "Immunology_Janeway_1405",
+            "title": "Immunology_Janeway",
+            "content": "refolded in the presence of supernatants from cultures of Salmonella typhimurium eventually led to the identification of several riboflavin metabolites that are formed by biosynthetic pathways in most bacteria and yeast. These metabolites not only bind to MR1, but also activate MAIT cells. Thus, MAIT cells are activated in response to infection by these organisms by detecting products specific to their folate metabolism. As such, MAIT cells appear to hold an intermediate place in the spectrum of innate and adaptive immunity, similar to iNKT cells, in that they use an antigen receptor assembled by somatic gene rearrangement, but recognize a molecular structure that falls within the definition of a PAMP."
+        },
+        {
+            "id": "Immunology_Janeway_4104",
+            "title": "Immunology_Janeway",
+            "content": "The microenvironments of some tumors also contain populations of myeloid cells, collectively called myeloid-derived suppressor cells (MDSCs), which can inhibit T-cell activation within the tumor. MDSCs may be heterogeneous, comprising both monocytic and polymorphonuclear cells, and are incompletely characterized at present. Several tumors of different tissue origins, such as melanoma, ovarian carcinoma, and B-cell lymphoma, have also been shown to produce the immunosuppressive cytokine IL-10, which can reduce dendritic cell activity and inhibit T-cell activation."
+        },
+        {
+            "id": "Immunology_Janeway_2928",
+            "title": "Immunology_Janeway",
+            "content": "CD1-restricted iNKT cells (see Section 6-18) and mucosal invariant T (MAIT) cells (see Section 6-19) are also present in the lamina propria, and account for 2\u20133% of lamina propria T cells in human small intestine. MAIT cells express an invariant TCR\u03b1 chain paired with a limited range of TCR\u03b2 chain and recognize metabolites of vitamin B derived mainly from the riboflavin metabolism pathway in microbes presented by MR1. 12-14 The intestinal epithelium is a unique compartment of the immune system."
+        },
+        {
+            "id": "Pathology_Robbins_2868",
+            "title": "Pathology_Robbins",
+            "content": "The prognosis is variable. Patients with multiple bony lesions, if untreated, rarely survive for more than 6 to 12 months, whereas patients with \u201csmoldering myeloma\u201d may be asymptomatic for many years. The median survival is 4 to 7 years. Although cures have yet to be achieved, new therapies offer hope. Myeloma cells are sensitive to inhibitors of the proteasome, a cellular organelle that degrades unwanted and misfolded proteins. As discussed in Chapter 2, misfolded proteins activate apoptotic pathways, and myeloma cells are prone to the accumulation of misfolded, unpaired immunoglobulin chains. Proteasome inhibitors likely induce myeloma cell death by exacerbating this inherent tendency. The thalidomide-like compound lenalidomide also is effective in treating myeloma, but through a different mechanism that involves its ability to stimulate the degradation of specific proteins with oncogenic activities. Biphosphonates, drugs that inhibit bone resorption, reduce pathologic fractures"
+        },
+        {
+            "id": "Immunology_Janeway_1406",
+            "title": "Immunology_Janeway",
+            "content": "6-20 \u03b3:\u03b4 T cells can recognize a variety of diverse ligands. \u03b3:\u03b4 T cells and \u03b1:\u03b2 T cells have been known to be distinct developmental lineages almost since the T-cell receptor genes were identified. But unlike \u03b1:\u03b2T cells, the function of \u03b3:\u03b4 T cells has remained somewhat obscure, due primarily to difficulty in identifying the ligands they recognize. Yet the abundance of \u03b3:\u03b4 T cells across vertebrate species, their rapid expansion to form more than 50% of the blood lymphocytes during infections, and their abundant cytokine production all argue for an important role in immunity. Over time, many different ligands recognized by \u03b3:\u03b4 T-cell clones have been identified (Fig. 6.29), and their diversity suggests that, like iNKT and MAIT cells, they hold an intermediate, or transitional, position in the spectrum of innate versus adaptive immunity."
+        },
+        {
+            "id": "InternalMed_Harrison_8881",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 136-5 Bony lesions in multiple myeloma. The skull dem-onstrates the typical \u201cpunched out\u201d lesions characteristic of multiple myeloma. The lesion represents a purely osteolytic lesion with little or no osteoblastic activity. (Courtesy of Dr. Geraldine Schechter; with permission.) of patients will have a serious infection at some time in their course. The susceptibility to infection has several contributing causes. First, patients with myeloma have diffuse hypogammaglobulinemia if the M component is excluded. The hypogammaglobulinemia is related to both decreased production and increased destruction of normal antibodies. Moreover, some patients generate a population of circulating regulatory cells in response to their myeloma that can suppress normal antibody synthesis. In the case of IgG myeloma, normal IgG antibodies are broken down more rapidly than normal because the catabolic rate for IgG antibodies varies directly with the serum concentration. The large M component results"
+        },
+        {
+            "id": "Immunology_Janeway_1373",
+            "title": "Immunology_Janeway",
+            "content": "So far we have focused on how peptide:MHC complexes\u2014the ligands for \u03b1:\u03b2 T cells\u2014are generated. We now turn to the question of how other types of T cells recognize their ligands and how these ligands are generated. Our current knowledge in this area is still incomplete, and is perhaps most apparent in the area of \u03b3:\u03b4 T cells, where a growing list of ligands for individual \u03b3:\u03b4T cells suggests an innate-like pattern of recognition. The recent discovery that the mucosal associated invariant T (MAIT) cells (see Section 4-18) recognize a microbial metabolite when it is presented by a nonpolymorphic MHC class I-like molecule solved a long-standing mystery regarding the function of this particular T-cell subset. Another invariant subset, the invariant NKT cells, provides a system for detecting and responding to lipid rather than peptide antigens. These findings suggest that these invariant and unconventional T cells operate somewhere between innate and adaptive immunity. In this part of the"
+        },
+        {
+            "id": "Immunology_Janeway_1416",
+            "title": "Immunology_Janeway",
+            "content": "Unconventional T-cell subsets include iNKT cells, MAIT cells, and \u03b3:\u03b4 T cells, which recognize nonpeptide ligands of various types. Some CD1 molecules bind self lipids and pathogen-derived lipid molecules and present them to iNKT cells. MAIT cells recognize vitamin metabolites that are specific to bacteria and yeast and that are presented by MR1. \u03b3:\u03b4 T cells are activated by a diverse array of ligands, including MHC class Ib molecules and EPCR, that are induced by infection or cellular stress. These T-cell subsets function in the transitional area between innate and adaptive immunity, relying on a repertoire of receptors produced by somatic gene rearrangement but recognizing ligands in a manner somewhat similar to the way PAMPs are recognized by TLRs and other fully innate receptors. Questions."
+        },
+        {
+            "id": "InternalMed_Harrison_6250",
+            "title": "InternalMed_Harrison",
+            "content": "A fraction of patients with this disorder go on to develop fatal multiple myeloma, but probably this occurs because of the accumulation of additional genetic lesions. Elucidation of the mechanisms that regulate this \u201corgan-like\u201d behavior of tumors may provide additional clues to cancer control and treatment."
+        },
+        {
+            "id": "Immunology_Janeway_4337",
+            "title": "Immunology_Janeway",
+            "content": "Starting in the 1950s, biochemists in search of a homogeneous preparation of antibody that they could subject to detailed chemical analysis turned to proteins produced by patients with multiple myeloma, a common tumor of plasma cells. It was known that antibodies are normally produced by plasma cells, and because this disease is associated with the presence of large amounts of a homogeneous gamma globulin called a myeloma protein in the patient\u2019s serum, it seemed likely that myeloma proteins would serve as models for"
+        },
+        {
+            "id": "First_Aid_Step2_415",
+            "title": "First_Aid_Step2",
+            "content": "The presence of M proteins alone is insuffcient for the diagnosis of multiple myeloma; MGUS is relatively common. Other lymphoproliferative diseases may also result in M proteins, including CLL, lymphoma, Waldenstr\u00f6m\u2019s macroglobulinemia, and amyloidosis. Patients should be evaluated with a skeletal survey, a bone marrow biopsy, serum and urine protein electrophoresis, and CBC. Treat with chemotherapy. Common initial treatment involves a combination of melphalan (an oral alkylating agent) and prednisone and other agents. Myeloma cells tend to become resistant to drugs by an MDR gene mechanism, and autologous stem cell transplantation may be used to support more intensive doses of chemotherapy."
+        },
+        {
+            "id": "Immunology_Janeway_1401",
+            "title": "Immunology_Janeway",
+            "content": "other MHC class Ib genes. They have been found only in a subset of these animal groups and appear to be missing in fish. This pattern of CD1 occurrence in the genomes of living species suggests the emergence of CD1 in an early terrestrial vertebrate. 6-19 The nonclassical MHC class I molecule MR1 presents microbial folate metabolites to MAIT cells."
+        },
+        {
+            "id": "InternalMed_Harrison_6249",
+            "title": "InternalMed_Harrison",
+            "content": "barriers (Chap. 102e). Specific cellular mechanisms promote entry or withdrawal of tumor cells from the cell cycle. For example, when a tumor recurs after surgery or chemotherapy, frequently its growth is accelerated and the growth fraction of the tumor is increased. This pattern is similar to that seen in regenerating organs. Partial resection of the liver results in the recruitment of cells into the cell cycle, and the resected liver volume is replaced. Similarly, chemotherapy-damaged bone marrow increases its growth to replace cells killed by chemotherapy. However, cancers do not recognize a limit on their expansion. Monoclonal gammopathy of uncertain significance may be an example of a clonal neoplasm with intrinsic features that stop its growth before a lethal tumor burden is reached. A fraction of patients with this disorder go on to develop fatal multiple myeloma, but probably this occurs because of the accumulation of additional genetic lesions. Elucidation of the mechanisms"
+        },
+        {
+            "id": "InternalMed_Harrison_8871",
+            "title": "InternalMed_Harrison",
+            "content": "Multiple myeloma represents a malignant proliferation of plasma cells derived from a single clone. The tumor, its products, and the host response to it result in a number of organ dysfunctions and symptoms, including bone pain or fracture, renal failure, susceptibility to infection, anemia, hypercalcemia, and occasionally clotting abnormalities, neurologic symptoms, and manifestations of hyperviscosity."
+        },
+        {
+            "id": "InternalMed_Harrison_8892",
+            "title": "InternalMed_Harrison",
+            "content": "TABLE 136-1 DIAgNOsTIC CrITErIA fOr MuLTIPLE MYELOMA, MYELOMA VArIANTs, AND MONOCLONAL gAMMOPATHY Of uNDETErMINED sIgNIfICANCE Monoclonal Gammopathy of Undetermined Significance (MGUS) M protein in serum <30 g/L Bone marrow clonal plasma cells <10% No evidence of other B cell proliferative disorders No myeloma-related organ or tissue impairment (no end organ damage, M protein in serum \u226530 g/L and/or Bone marrow clonal plasma cells \u226510% No myeloma-related organ or tissue impairment (no end organ damage, M protein in serum and/or urine Bone marrow (clonal) plasma cellsb or plasmacytoma Myeloma-related organ or tissue impairment (end organ damage, including No M protein in serum and/or urine with immunofixation Bone marrow clonal plasmacytosis \u226510% or plasmacytoma Myeloma-related organ or tissue impairment (end organ damage, including Solitary Plasmacytoma of Bone Single area of bone destruction due to clonal plasma cells Bone marrow not consistent with multiple myeloma"
+        },
+        {
+            "id": "Pathology_Robbins_3004",
+            "title": "Pathology_Robbins",
+            "content": "Wong TE, Brandow AM, Lim W, et al: Update on the use of hydroxy-urea therapy in sickle cell disease, Blood 124:3850, 2014. [A review focused on the beneficial effects of hydroxyurea in sickle cell disease.] Young NS, Bacigalupo A, Marsh JC: Aplastic anemia: pathophysiology and treatment, Biol Blood Marrow Transplant 16:S119, 2010. [Discussion of the role of the immune system and telomerase mutations in aplastic anemia.] Anderson KC, Carrasco RD: Pathogenesis of myeloma, Annu Rev Pathol 6:249, 2011. [A review of advances in understanding the molecular pathogenesis of multiple myeloma.] Arber DA, Orazi A, Hasserjian R, et al: The 2016 revision to the World Health Organization classification of myeloid neoplasms and acute leukemia, Blood 127:2391, 2016. [A report providing the rationale for revision of the WHO classification of myeloid neoplasms.] http://ebooksmedicine.net"
+        },
+        {
+            "id": "Immunology_Janeway_4733",
+            "title": "Immunology_Janeway",
+            "content": "macropinocytosis A process in which large amounts of extracellular \ufb02uid are taken up into an intracellular vesicle. This is one way in which dendritic cells can take up a wide variety of antigens from their surroundings. MAdCAM-1 Mucosal cell-adhesion molecule-1. A mucosal addressin that is recognized by the lymphocyte surface proteins L-selectin and VLA-4, enabling the specific homing of lymphocytes to mucosal tissues. MAIT cells See mucosal associated invariant T cells. major basic protein Protein released by activated eosinophils that acts on mast cells and basophils to cause their degranulation. major histocompatibility complex (MHC) A cluster of genes on human chromosome 6 that encodes a set of membrane glycoproteins called the MHC molecules. The MHC also encodes proteins involved in antigen processing and other aspects of host defense. The genes for the MHC molecules are the most polymorphic in the human genome, having large numbers of alleles at the various loci."
+        },
+        {
+            "id": "First_Aid_Step2_413",
+            "title": "First_Aid_Step2",
+            "content": "Five-year survival rates are very good and are 90% for stage I and II disease (nodal disease limited to one side of the diaphragm), 84% for stage III, and 65% for stage IV. Chemotherapy and radiation can lead to 2\u00b0 neoplasms such as AML, NHL, breast cancer, and thyroid cancer. Clonal proliferation of malignant plasma cells at varying stages of differentiation, with excessive production of monoclonal immunoglobulins or immunoglobulin fragments (kappa/lambda light chains). It is commonly believed The combination of anemia and bone pain must always raise suspicion of multiple myeloma. Bone pain at rest should raise concern for malignancy. Hypercalcemia manifests in symptoms of polyuria, constipation, confusion, nausea, vomiting, and lethargy. Because multiple myeloma is an osteoclastic process, a bone scan, which detects osteoblastic activity, may be ."
+        },
+        {
+            "id": "First_Aid_Step1_444",
+            "title": "First_Aid_Step1",
+            "content": "B = Bone marrow. Mediate cellular immune response. Originate from stem cells in the bone marrow, but mature in the thymus. Differentiate into cytotoxic T cells (express CD8, recognize MHC I), helper T cells (express CD4, recognize MHC II), and regulatory T cells. CD28 (costimulatory signal) necessary for T-cell activation. Most circulating lymphocytes are T cells (80%). T = Thymus. CD4+ helper T cells are the primary target of HIV. Rule of 8: MHC II \u00d7 CD4 = 8; MHC I \u00d7 CD8 = 8. Plasma cells Produce large amounts of antibody specific to Multiple myeloma is a plasma cell dyscrasia. a particular antigen. \u201cClock-face\u201d chromatin distribution and eccentric nucleus, abundant RER, and well-developed Golgi apparatus (arrows in A ). Found in bone marrow and normally do not circulate in peripheral blood."
+        },
+        {
+            "id": "Immunology_Janeway_923",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 4.27 The binding sites for CD4 and CD8 on MHC class II and class I molecules lie in the Ig-like domains. is extensively glycosylated, which is thought to maintain it in an extended conformation and protect it from cleavage by proteases. CD8\u03b1 chains can form homodimers, although these are usually not found when CD8\u03b2 is expressed. Naive T cells express CD8\u03b1\u03b2, but the CD8\u03b1\u03b1 homodimer can be expressed by highly activated effector and memory T cells. CD8\u03b1\u03b1 is also expressed by a population of intraepithelial lymphocytes known as mucosal associated invariant T cells (MAIT cells); these cells recognize metabolites of folic acid that are produced by bacteria in association with the nonclassical MHC class I molecule MR1, which we will describe in Chapter 6."
+        }
+    ],
+    "scores": [
+        0.03415746864671314,
+        0.03325158128796256,
+        0.03173167682399053,
+        0.030153268059946142,
+        0.028538299391658997,
+        0.027654979615244577,
+        0.027617276399415053,
+        0.027503036612875238,
+        0.027452882650902455,
+        0.02702984025460388,
+        0.025902380447834994,
+        0.025520945348531554,
+        0.02483033060169575,
+        0.02472195678717418,
+        0.02396593673965937,
+        0.02378043753606787,
+        0.022988505747126436,
+        0.022704610204610204,
+        0.022590973995067286,
+        0.022105794274851563,
+        0.021967482645232003,
+        0.02191269194206239,
+        0.021827199757685902,
+        0.02178039890655057,
+        0.021610655918544202,
+        0.021586740041928718,
+        0.021352017830891072,
+        0.020422444786851568,
+        0.019622132253711202,
+        0.018441715553523894,
+        0.017900990099009903,
+        0.017740429505135387
+    ]
+}

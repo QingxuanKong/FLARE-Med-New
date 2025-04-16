@@ -1,0 +1,206 @@
+{
+    "id": "5c5215e67e3cb0e231000004",
+    "question": "Have machine learning methods been used to predict the severity of major depressive disorder(MDD)?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the given documents and look for any mention of machine learning methods being used to predict the severity of major depressive disorder (MDD).\\n\\nDocument [6] (Title: InternalMed_Harrison) mentions 'Random Forests analysis/Machine learning' which is a collection of approaches that allow a computer to learn without being explicitly programmed. This suggests that machine learning methods have been used.\\n\\nHowever, there is no direct mention of MDD in this document. Let's look for other documents.\\n\\nDocument [27] (Title: Neurology_Adams) mentions 'DSM', which stands for Diagnostic and Statistical Manual of Mental Disorders. The DSM-5 is a manual used for psychiatric diagnoses, including MDD. The DSM-5 does not explicitly mention machine learning methods, but it does mention that 'accumulated evidence indicates that 50 percent of severely depressed patients do not show suppression of cortisol secretion, and a positive test can be obtained in a significant number of patients with other psychiatric disorders.' This suggests that researchers may be using machine learning methods to analyze these data.\\n\\nHowever, this is still not a direct mention of machine learning methods being used to predict the severity of MDD.\\n\\nLet's look for another document.\\n\\nDocument [11] (Title: Neurology_Adams) mentions 'formalized diagnostic criteria' for MDD, but it does not mention machine learning methods.\\n\\nHowever, Document [6] (Title: InternalMed_Harrison) mentions 'Random Forests machine learning' again, this time in the context of'Shotgun sequencing', which is a method used in research. This suggests that machine learning methods, specifically Random Forests, may be used in research related to MDD.\\n\\nBased on the available information, it appears that machine learning methods, specifically Random Forests, have been used in research related to MDD.\\n\\nHowever, we need to be cautious in our interpretation. The documents do not explicitly mention machine learning methods being used to predict the severity of MDD. We can only infer this based on the mention of Random Forests in the context of research.\\n\\nTherefore, the most accurate answer would be:\\n\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_31676",
+            "title": "InternalMed_Harrison",
+            "content": "Mood disorders are characterized by a disturbance in the regulation of mood, behavior, and affect. Mood disorders are subdivided into (1) depressive disorders, (2) bipolar disorders, and (3) depression in association with medical illness or alcohol and substance abuse (Chaps. 467 through 471e). Major depressive disorder (MDD) is differentiated from bipolar disorder by the absence of a manic or hypo-manic episode. The relationship between pure depressive syndromes and bipolar disorders is not well understood; MDD is more frequent in families of bipolar individuals, but the reverse is not true. In the Global Burden of Disease Study conducted by the World Health Organization, unipolar major depression ranked fourth among all diseases in terms of disability-adjusted life-years and was projected to rank second by the year 2020. In the United States, lost productivity directly related to mood disorders has been estimated at $55.1 billion per year."
+        },
+        {
+            "id": "Pharmacology_Katzung_3236",
+            "title": "Pharmacology_Katzung",
+            "content": "The diagnosis of depression still rests primarily on the clinical interview. Major depressive disorder (MDD) is characterized by depressed mood most of the time for at least 2 weeks or loss of interest or pleasure in most activities, or both. In addition, depression is characterized by disturbances in sleep and appetite as well as deficits in cognition and energy. Thoughts of guilt, worthlessness, and suicide are common. Coronary artery disease, diabetes, and stroke appear to be more common in depressed patients, and depression may considerably worsen the prognosis for patients with a variety of comorbid medical conditions."
+        },
+        {
+            "id": "Pharmacology_Katzung_3238",
+            "title": "Pharmacology_Katzung",
+            "content": "The primary indication for antidepressant agents is the treatment of MDD. Major depression, with a lifetime prevalence of around 17% in the USA and a point prevalence of 5%, is associated with substantial morbidity and mortality. MDD represents one of the most common causes of disability in the developed world. In addition, major depression is commonly associated with a variety of medical conditions\u2014from chronic pain to coronary artery disease. When depression coexists with other medical conditions, the patient\u2019s disease burden increases, and the quality of life\u2014and often the prognosis for effective treatment\u2014decreases significantly."
+        },
+        {
+            "id": "Pharmacology_Katzung_3240",
+            "title": "Pharmacology_Katzung",
+            "content": "There has been a marked shift in the last decade in our understanding of the pathophysiology of major depression. In addition to the older idea that a deficit in function or amount of mono-amines (the monoamine hypothesis) is central to the biology of depression, there is evidence that neurotrophic and endocrine factors play a major role (the neurotrophic hypothesis). Histologic studies, structural and functional brain imaging research, genetic findings, and steroid research all suggest a complex pathophysiology for MDD with important implications for drug treatment."
+        },
+        {
+            "id": "First_Aid_Step1_642",
+            "title": "First_Aid_Step1",
+            "content": "Persistent depressive Often milder than MDD; \u2265 2 depressive symptoms lasting \u2265 2 years (\u2265 1 year in children), with any disorder (dysthymia) remission lasting \u2264 2 months. MDD with seasonal Formerly called seasonal affective disorder. Major depressive episodes occurring only during a pattern particular season (usually winter) in \u2265 2 consecutive years and in most years across a lifetime. Atypical symptoms common. Depression with atypical features Characterized by mood reactivity (transient improvement in response to a positive event), hypersomnia, hyperphagia, leaden paralysis (heavy feeling in arms and legs), long-standing interpersonal rejection sensitivity. Most common subtype of depression. Treatment: CBT and SSRIs are first line. MAO inhibitors (MAOIs) are effective but not first line because of their risk profile."
+        },
+        {
+            "id": "Psichiatry_DSM-5_845",
+            "title": "Psichiatry_DSM-5",
+            "content": "Although an extensive literature exists describing neuroanatomical, neuroendocrino- logical, and neurophysiological correlates of major depressive disorder, no laboratory test has yielded results of sufficient sensitivity and specificity to be used as a diagnostic tool for this disorder. Until recently, hypothalamic-pituitary-adrenal axis hyperactivity had been the most extensively investigated abnormality associated with major depressive episodes, and it appears to be associated with melancholia, psychotic features, and risks for eventual suicide. Molecular studies have also implicated peripheral factors, including genetic vari- ants in neurotrophic factors and pro-in\ufb02ammatory cytokines. Additionally, functional cific neural systems supporting emotion processing, reward seeking, and emotion regula- tion in adults with major depression."
+        },
+        {
+            "id": "InternalMed_Harrison_5144",
+            "title": "InternalMed_Harrison",
+            "content": "Random Forests analysis/ Machine learning is a collection of approaches that allow a computer to learn without being explicitly programmed. Random Forests machine learning is a machine-learning method for classification and regression that uses multiple decision trees during a training step. Rarefaction A procedure in which subsampling is used to assess whether all the diversity present in a given sample or set of samples has been observed at a given sampling depth and to extrapolate how much additional sampling would be needed to observe all the diversity Resilience A community\u2019s ability to return to its initial state after a perturbation Shotgun sequencing A method for sequencing large DNA regions or collections of regions by fragmenting DNA and sequencing the resulting smaller sections"
+        },
+        {
+            "id": "Pharmacology_Katzung_3257",
+            "title": "Pharmacology_Katzung",
+            "content": "Neuroendocrine Factors in the Pathophysiology of Depression Depression is associated with a number of hormonal abnormalities. Among the most replicated of these findings are abnormalities in the HPA axis in patients with MDD. For example, MDD is associated with elevated cortisol levels (Figure 30\u20131), nonsuppression of adrenocorticotropic hormone (ACTH) release in the dexamethasone suppression test, and chronically elevated levels of corticotropin-releasing hormone. The significance of these HPA abnormalities is unclear, but they are thought to indicate a dysregulation of the stress hormone axis. More severe types of depression, such as psychotic depression, tend to be associated with HPA abnormalities more commonly than milder forms of major depression. It is well known that both exogenous glucocorticoids and endogenous elevation of cortisol are associated with mood symptoms and cognitive deficits similar to those seen in MDD."
+        },
+        {
+            "id": "First_Aid_Step2_999",
+            "title": "First_Aid_Step2",
+            "content": "T AB LE 2.1 4-4. Differential Diagnosis of Major Depression Symptoms of a depressive episode\u2014 Interest (loss of interest or pleasure in activities) Guilt (feelings of worthlessness or inappropriate guilt)"
+        },
+        {
+            "id": "Psichiatry_DSM-5_922",
+            "title": "Psichiatry_DSM-5",
+            "content": "Etiology (i.e., a causal relationship to another medical condition based on best clinical ev- idence) is the key variable in depressive disorder due to another medical condition. The listing of the medical conditions that are said to be able to induce major depression is never complete, and the clinician\u2019s best judgment is the essence of this diagnosis."
+        },
+        {
+            "id": "Pharmacology_Katzung_3244",
+            "title": "Pharmacology_Katzung",
+            "content": "Over 30 structural imaging studies suggest that major depression is associated with a 5\u201310% loss of volume in the hippocampus, although some studies have not replicated this finding. Depression and chronic stress states have also been associated with a substantial loss of volume in the anterior cingulate and medial orbital frontal cortex. Loss of volume in structures such as the hippocampus also appears to increase as a function of the duration of illness and the amount of time that the depression remains untreated."
+        },
+        {
+            "id": "Neurology_Adams_12140",
+            "title": "Neurology_Adams",
+            "content": "functioning. This is a useful listing but simply recapitulates the well-described emotional, conative, and physical aspects of endogenous depression. Several formalized diagnostic criteria have been devised for both screening and diagnosis of major depression (Table 48-2). These codify the clinical features discussed in previous paragraphs but separate major depression from bipolar disorder by requiring the absence of elements that suggest a manic or hypomanic episode and further exclude depression that is plausibly connected to personal distress or grieving due to a loss, or the effects of a drug or toxic substance."
+        },
+        {
+            "id": "Neurology_Adams_12181",
+            "title": "Neurology_Adams",
+            "content": "At the present time, it must also be conceded that there is no reliable biologic test for depression. One must resort to clinical analysis not only for diagnosis but also for the differentiation of special types of depressive reactions."
+        },
+        {
+            "id": "Psichiatry_DSM-5_406",
+            "title": "Psichiatry_DSM-5",
+            "content": "Specific learning disorder is more common in males than in females (ratios range from about 2:1 to 3:1) and cannot be attributed to factors such as ascertainment bias, definitional or measurement variation, language, race, or socioeconomic status. Specific learning disorder can have negative functional consequences across the lifespan, including lower academic attainment, higher rates of high school dropout, lower rates of postsecondary education, high levels of psychological distress and poorer overall mental health, higher rates of unemployment and under-employment, and lower incomes. School dropout and co-occurring depressive symptoms increase the risk for poor mental health outcomes, including suicidality, whereas high levels of social or emotional support predict better mental health outcomes."
+        },
+        {
+            "id": "InternalMed_Harrison_31691",
+            "title": "InternalMed_Harrison",
+            "content": "In some depressed patients, the mood disorder does not appear to be episodic and is not clearly associated with either psychosocial dysfunction or change from the individual\u2019s usual experience in life. Persistent depressive disorder (dysthymic disorder) consists of a pattern of chronic (at least 2 years), ongoing depressive symptoms that are usually less severe and/or less numerous than those found in major depression, but the functional consequences may be equivalent to or 2715 even greater; the two conditions are sometimes difficult to separate and can occur together (\u201cdouble depression\u201d). Many patients who exhibit a profile of pessimism, disinterest, and low self-esteem respond to antidepressant treatment. Persistent and chronic depressive disorders occur in approximately 2% of the general population."
+        },
+        {
+            "id": "Neurology_Adams_12163",
+            "title": "Neurology_Adams",
+            "content": "psychiatric illness, and presence of depression-provoking circumstances (Hirschfeld et al). Perhaps most important is the duration of illness before treatment, that is, earlier treatment is generally associated with a more favorable prognosis."
+        },
+        {
+            "id": "Neurology_Adams_12178",
+            "title": "Neurology_Adams",
+            "content": "Another set of observations that has continued to capture interest implicates a disorder of hypothalamic\u2013pituitary\u2013adrenal axis function (summarized by Schlesser et al). It had been found several decades ago that the parenteral administration of 1 to 2 mg of dexamethasone failed to suppress serum cortisol secretion while the patient was ill with endogenous depression, but did so after recovery. In a comparable series of reactive depressions, there was a normal suppression of cortisol secretion. Originally, the dexamethasone suppression test was believed to separate the 2 large groups of depressed patients and to predict the response to drug therapy. However, subsequent studies have shown that the specificity of this test was far less than earlier reports had indicated (Amsterdam et al; Insel et al). Accumulated evidence indicates that 50 percent of severely depressed patients do not show suppression of cortisol secretion, and a positive test can be obtained in a significant number of"
+        },
+        {
+            "id": "Psichiatry_DSM-5_869",
+            "title": "Psichiatry_DSM-5",
+            "content": "Temperamental. Factors predictive of poorer long\u2014term outcome include higher levels of neuroticism (negative affectivity), greater symptom severity, poorer global functioning, and presence of anxiety disorders or conduct disorder. Environmental. Childhood risk factors include parental loss or separation. Genetic and physiological. There are no clear differences in illness development, course, order. Earlier findings pertaining to either disorder are therefore likely to apply to per- sistent depressive disorder. It is thus likely that individuals with persistent depressive disorder will have a higher proportion of first-degree relatives with persistent depressive disorder than do individuals with major depressive disorder, and more depressive disor- ders in general. A number of brain regions (e.g., prefrontal cortex, anterior cingulate, amygdala, hip- pocampus) have been implicated in persistent depressive disorder. Possible polysomno\u2014 graphic abnormalities exist as well."
+        },
+        {
+            "id": "InternalMed_Harrison_26165",
+            "title": "InternalMed_Harrison",
+            "content": "FM, though speed of processing is age-appropriate. Symptoms of anxiety and depression are common, and the lifetime prevalence of mood disorders in patients with FM approaches 80%. Although depression is neither necessary nor sufficient for the diagnosis of FM, it is important to screen for major depressive disorders by querying for depressed mood and anhedonia. Analysis of genetic factors that are likely to predispose to FM reveals shared neurobiologic pathways with mood disorders, providing the basis for comorbidity (see later in this chapter)."
+        },
+        {
+            "id": "InternalMed_Harrison_31693",
+            "title": "InternalMed_Harrison",
+            "content": "Unipolar depressive disorders usually begin in early adulthood and recur episodically over the course of a lifetime. The best predictor of future risk is the number of past episodes; 50\u201360% of patients who have a first episode have at least one or two recurrences. Some patients experience multiple episodes that become more severe and frequent over time. The duration of an untreated episode varies greatly, ranging from a few months to \u22651 year. The pattern of recurrence and clinical progression in a developing episode are also variable. Within an individual, the nature of episodes (e.g., specific presenting symptoms, frequency and duration) may be similar over time. In a minority of patients, a severe depressive episode may progress to a psychotic state; in elderly patients, depressive symptoms may be associated with cognitive deficits mimicking dementia (\u201cpseudodementia\u201d). A seasonal pattern of depression, called seasonal affective disorder, may manifest with onset and remission of"
+        },
+        {
+            "id": "Neurology_Adams_12179",
+            "title": "Neurology_Adams",
+            "content": "et al). Accumulated evidence indicates that 50 percent of severely depressed patients do not show suppression of cortisol secretion, and a positive test can be obtained in a significant number of patients with other psychiatric disorders."
+        },
+        {
+            "id": "Pediatrics_Nelson_399",
+            "title": "Pediatrics_Nelson",
+            "content": "Light therapy has been shown to be beneficial for seasonal affective disorder and in MDD with a seasonal component. Electroconvulsive therapy is used in refractory and life-threatening depression. Depression is a chronic and debilitating illness that often starts in childhood or adolescence. It increases risk for future suicide, substance use, and other psychiatric sequelae. Adolescent depressive disorders are more likely to be recurrent into adulthood than childhood onset depression. Suicide is a fatal complication of MDD and surpasses motor vehicle accidents as a cause of death in adolescents. It has high prevalence among high school students with 20% having contemplated suicide and 8% having attempted each year. While the risk of suicide during an MDD episode is high, it can be paradoxically higher during start of treatment as energy and motivation improve with cognitive recovery from depression."
+        },
+        {
+            "id": "Neurology_Adams_12155",
+            "title": "Neurology_Adams",
+            "content": "The prevalence of bipolar disease cannot be stated with precision, mainly because of varying criteria used for diagnosis. Certainly depression and depressive episodes are ubiquitous and mania is less common. The apparent increase of the disease in the past 50 years probably reflects a growing awareness of the condition among both physicians and the laity. Studies of large groups of patients from relatively isolated areas of Iceland and the Danish islands of Bornholm and Sams\u00d8 indicated that 5 percent of men and 9 percent of women developed symptoms of major depression, mania, or both at some time during their lives (Goodwin and Guze). More recent studies, such as the one conducted by the National Comorbidity Survey, report lifetime prevalence for bipolar disorder in the United States as 4.5 percent (Merikangas et al). According to the Global Burden of Disease Study, the incidence of bipolar disease increased by about 50 percent between 1990 and 2013 but it is still considered rare by"
+        },
+        {
+            "id": "Pediatrics_Nelson_391",
+            "title": "Pediatrics_Nelson",
+            "content": "Dysthymic disorder (prevalence rate 0.6% to 1.7%) is a chronic, milder form of depression characterized by a depressed or irritable mood (subjectively or described by others) present for at least 1 year. Two of the following symptoms are also required: changes in appetite; sleep difficulty, fatigue; low self-esteem; poor concentration or difficulty with making decisions; and feelings of hopelessness. About 70% of children and adolescents with dysthymic disorder eventually develop major depression. The development of MDD after dysthymia is often referred to as double depression. Atypical depression is MDD characterized by hypersomnia, increased appetite with carbohydrate craving, weight gain, interpersonal rejection sensitivity, and mood reactivity."
+        },
+        {
+            "id": "Pharmacology_Katzung_3239",
+            "title": "Pharmacology_Katzung",
+            "content": "Some of the growth in antidepressant use may be related to the broad application of these agents for conditions other than major depression. For example, antidepressants have received US Food and Drug Administration (FDA) approvals for the treatment of panic disorder, generalized anxiety disorder (GAD), post-traumatic stress disorder (PTSD), and obsessive-compulsive disorder (OCD). In addition, antidepressants are commonly used to treat pain disorders such as neuropathic pain and the pain associated with fibromyalgia. Some antidepressants are used for treating premenstrual dysphoric disorder (PMDD), mitigating the vasomotor symptoms of menopause, and treating stress urinary incontinence. Thus, antidepressants have a broad spectrum of use in medical practice. However, their primary use remains the treatment for MDD."
+        },
+        {
+            "id": "Obstentrics_Williams_8497",
+            "title": "Obstentrics_Williams",
+            "content": "is the most recent version by the American Psychiatric Associa tion (2013). It assists in classiying mental disorders and speci fies criteria for each diagnosis. Of categories, depressive disorders are common. According to the National Institute of Mental Health (2010), the life time prevalence of depressive disorders in the United States is 21 percent. Historically, depressive disorders include major bipolar disorder with both manic and depressive episodes. It also includes dysthymia, which is chronic, mild depression. This is the most common depressive disorder, and the 12-month prevalence of major depressive episodes among U.S. women is 8.2 percent (Center for Behavioral Health Statistics and Quality, 2015). In 2011 to 2014, 16 percent of U.S. women had used an antidepressant in the prior month (Pratt, 2017). The diagnosis is made by identiying symptoms listed in Table 61-2, but very few patients manifest all of these."
+        },
+        {
+            "id": "Pharmacology_Katzung_3247",
+            "title": "Pharmacology_Katzung",
+            "content": "A proposed explanation for the discrepant findings on the role of neurotrophic factors in depression is that there are polymorphisms for BDNF that may yield very different effects. Mutations in the BDNF gene have been found to be associated with altered anxiety and depressive behavior in both animal and human studies. Thus, the neurotrophic hypothesis continues to be intensely investigated and has yielded new insights and potential targets in the treatment of MDD. The monoamine hypothesis of depression (Figure 30\u20132) suggests that depression is related to a deficiency in the amount or function of cortical and limbic serotonin (5-HT), norepinephrine (NE), and dopamine (DA)."
+        },
+        {
+            "id": "Neurology_Adams_12139",
+            "title": "Neurology_Adams",
+            "content": "According to DSM, an abstract of the essential diagnostic criteria of endogenous depression (\u201cmajor depressive syndrome\u201d) consist of a dysphoric mood or loss of interest or pleasure in all usual activities (including sexual activity) in combination with at several of the following symptoms: (1) disturbance of appetite and change in weight; (2) sleep disorder; (3) psychomotor retardation or agitation; (4) decreased energy and fatigue; (5) self-reproach, feelings of worthlessness or guilt; (6) indecisiveness, complaints of memory loss and difficulty in concentrating; and (7) thoughts of death or suicide or actual suicide attempts. In this diagnostic scheme, each of the 4 diagnostic symptoms should have been present for at least 2 weeks and the state should represent a departure from previous functioning. This is a useful listing but simply recapitulates the well-described emotional, conative, and physical aspects of endogenous depression. Several formalized diagnostic criteria have been"
+        },
+        {
+            "id": "InternalMed_Harrison_31581",
+            "title": "InternalMed_Harrison",
+            "content": "Despite these limitations, the past decade has seen significant advances. Neuroimaging methods are beginning to provide evidence of brain pathology, genome-wide association studies and high-throughput sequencing are at last revealing genes that confer risk for severe forms of mental illness, and investigations using better validated animal models are offering new insight into the molecular, cellular, and circuit mechanisms of disease pathogenesis. There is also excitement in the potential utility of neuron-like cells induced in vitro from a patient\u2019s peripheral tissues (e.g., fibroblasts) providing novel ways of studying disease pathophysiology and screening for new treatments. There is consequently justified optimism that the field of psychiatry will transition from behaviorally defined syndromes to true biologic disease entities and that such advances will drive the development of improved treatments and eventually cures and preventive measures. This chapter describes several"
+        },
+        {
+            "id": "Psichiatry_DSM-5_865",
+            "title": "Psichiatry_DSM-5",
+            "content": "With persistent major depressive episode: Full criteria for a major depressive epi- sode have been met throughout the preceding 2-year period. With intermittent major depressive episodes, with current episode: Full criteria for a major depressive episode are currently met. but there have been periods of at least 8 weeks in at least the preceding 2 years with symptoms below the threshold for a full major depressive episode. With intermittent major depressive episodes, without current episode: Full crite- ria for a major depressive episode are not currently met, but there has been one or more major depressive episodes in at least the preceding 2 years. Specify current severity: Mild (p. 188) Moderate (p. 188) Severe (p. 188)"
+        },
+        {
+            "id": "Neurology_Adams_12183",
+            "title": "Neurology_Adams",
+            "content": "to the effects of psychosocial stress? One is tempted to conclude that many depressions attributed to psychosocial stress are contaminating a group of endogenous depressions. Psychiatrists have also failed to find a consistent correlation between depressive illness and personality type or a particular psychodynamic mechanism. The biopsychosocial theories of mental illness have the most appeal in explaining depression but which elements are operative in any individual are difficult to discern."
+        },
+        {
+            "id": "InternalMed_Harrison_31616",
+            "title": "InternalMed_Harrison",
+            "content": "There is increasing evidence for the involvement of inflammatory mechanisms in a subset of depressed patients. These individuals display elevated blood levels of interleukin 6 (IL-6), tumor necrosis factor \u03b1 (TNF-\u03b1), and other cytokines. Moreover, rodents exposed to chronic stress exhibit similar increases in peripheral cytokines, and peripheral or central delivery of those cytokines to normal rodents increases their susceptibility to chronic stress. These findings have led to the novel idea of using peripheral cytokines as biomarkers of a subtype of depression and the potential utility of developing new antidepressants that oppose cytokine action."
+        }
+    ],
+    "scores": [
+        0.03761986182783321,
+        0.03609941061215424,
+        0.032578433428627145,
+        0.032478640788801215,
+        0.030906975470839253,
+        0.029071518997484093,
+        0.02643608167904843,
+        0.02494912494912495,
+        0.023448610213316096,
+        0.02295411220043573,
+        0.022895945572592898,
+        0.022873671044402754,
+        0.021567237766547516,
+        0.020913119454210614,
+        0.020802171413453807,
+        0.020507341463783156,
+        0.020427153491669618,
+        0.01899189918991899,
+        0.01878969654199012,
+        0.018424611223799865,
+        0.018326350187799156,
+        0.018234323432343234,
+        0.01743877473652286,
+        0.0172823023290313,
+        0.017009719839908517,
+        0.01690340909090909,
+        0.016902982468394216,
+        0.01656215921483097,
+        0.016312244089288074,
+        0.015919959728165116,
+        0.0158125,
+        0.015613696648179406
+    ]
+}

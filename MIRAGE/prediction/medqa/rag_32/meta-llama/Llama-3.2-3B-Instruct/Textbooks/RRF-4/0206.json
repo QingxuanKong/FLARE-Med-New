@@ -1,0 +1,208 @@
+{
+    "id": "0206",
+    "question": "Researchers are studying the inheritance pattern of mutations in the cystic fibrosis transmembrane regulator (CFTR) gene, the gene responsible for cystic fibrosis. It is believed that, in addition to the commonly found \u0394F508 mutation, a novel mutation in this gene is found in a particular population under study. Which of the following would most likely suggest that these two loci have a high probability of being closely linked?",
+    "options": {
+        "A": "LOD Score < 1",
+        "B": "LOD Score < 2",
+        "C": "LOD Score > 3",
+        "D": "LOD Score = 0"
+    },
+    "answer": "C",
+    "predict": "To answer this question, let's break down the concepts involved and analyze the options step by step. **Step 1: Understanding the concept of linkage disequilibrium (LD)** Linkage disequilibrium (LD) is a measure of the non-random association of alleles at two or more loci in a given population. In the context of genetic epidemiology, LD is often used to infer the likelihood of two genetic variants being linked on the same chromosome. **Step 2: Understanding the LOD score** The LOD (Log of Odds) score is a statistical measure used to assess the likelihood of two genetic variants being linked. A higher LOD score indicates a stronger association between the two variants. The LOD score can range from -\u221e (no association) to \u221e (strong association). **Step 3: Analyzing the options** Given the context of the question, we are looking for a LOD score that suggests a high probability of the two loci being closely linked. A high LOD score indicates a strong association between the two loci. - Option A (LOD Score < 1) suggests a weak association, which is unlikely to indicate a high probability of close linkage. - Option B (LOD Score < 2) also suggests a weak association, which is not indicative of close linkage. - Option D (LOD Score = 0) indicates no association, which is the opposite of what we're looking for. - Option C (LOD Score > 3) suggests a strong association, which is more likely to indicate a high probability of close linkage between the two loci. **Step 4: Drawing a conclusion** Based on the analysis, the LOD Score > 3 is the most likely to suggest that the two loci have a high probability of being closely linked. **Output:** ```json { \"step_by_step_thinking\": \"To determine if two genetic variants are closely linked, we need to analyze the LOD score. A high LOD score indicates a strong association between the variants. In this case, a LOD Score > 3 suggests a high probability of close linkage between the \u0394F508 and the novel mutation in the CFTR gene.\", \"answer_choice\": \"C\" } ```",
+    "snippets": [
+        {
+            "id": "Pediatrics_Nelson_2995",
+            "title": "Pediatrics_Nelson",
+            "content": "Cystic fibrosis (CF) is an autosomal recessive disorder that is the most common life-limiting genetic disease in whites. In the United States, the incidence of CF is approximately 1 in 3200 whites, 1 in 15,000 African Americans, and 1 in 31,000 persons of Asian heritage. The gene for CF, located on the long arm of chromosome 7, encodes for a polypeptide, the cystic fibrosis transmembrane regulator (CFTR), a chloride channel located on the apical surface of epithelial cells. CFTR is important for the proper movement of salt and water across cell membranes and maintaining the appropriate composition of various secretions, especially in the airways, liver, and pancreas. The most common mutation is a deletion of three base pairs resulting in the absence of phenylalanine at the 508 position (\u0394F508). More than 1500 mutations of the CFTR gene have been identified."
+        },
+        {
+            "id": "InternalMed_Harrison_24413",
+            "title": "InternalMed_Harrison",
+            "content": "Several other groups of investigators have documented mutations of CFTR. This gene functions as a cyclic AMP\u2013regulated chloride channel. In patients with cystic fibrosis, the high concentration of macromolecules can block the pancreatic ducts. It must be appreciated, however, that there is a great deal of heterogeneity in relationship to the CFTR gene defect. More than 1000 putative mutations of the CFTR gene have been identified. Attempts to elucidate the relationship between the genotype and pancreatic manifestations have been hampered by the number of mutations. The ability to detect CFTR mutations has led to the recognition that the clinical spectrum of the disease is broader than previously thought. Two studies have clarified the association between mutations of the CFTR gene and another monosymptomatic form of cystic fibrosis (i.e., chronic pancreatitis). It is estimated that in patients with idiopathic pancreatitis, the frequency of a single CFTR mutation is 11 times the"
+        },
+        {
+            "id": "Obstentrics_Williams_1913",
+            "title": "Obstentrics_Williams",
+            "content": "his disorder is caused by a mutation in the cystic ibrosis conductance transmembrane regulator (CFTR) gene, which is located on the long arm of chromosome 7 and encodes a chloride-channel protein. Although the most common CFTR gene mutation associated with classic cystic fibrosis (CF) is the .F508 mutation, more than 2000 mutations have been identiied (Cystic Fibrosis Mutation Database, 2016). CF may develop from either homozygosiy or compound heterozygosiy for mutations in the CFTR gene. In other words, one mutation must be present in each copy of the gene, but they need not be the same mutation. As expected, this results in a tremendous range of clinical disease severity. Median survival is approximately 37 years, but approximately 15 percent have milder disease and can survive for decades longer. Care for the pregnant woman with CF is discussed in Chapter 51 (p. 998)."
+        },
+        {
+            "id": "Pediatrics_Nelson_962",
+            "title": "Pediatrics_Nelson",
+            "content": "The gene is located at 6p21.3 within the HLA complex and within 0.005 centimorgans P450, subfamily XXI) (cM) of HLA B Cystic fibrosis (CF) 1:2500 whites The gene CF transmembrane conductance regulator (CFTR) is on chromosome 7q31.2 Friedreich ataxia (FA, frataxin) 1:25,000 Frataxin is a mitochondrial protein involved with iron metabolism and respiration. The gene is on chromosome 9q13-q21, and the common mutation is a GAA expanded triplet repeat located in the first intron of the gene. FA does not show anticipation Trait appears in siblings, not in their parents or their offspring On average, 25% of siblings of the proband are affected (at the time of conception, each sibling has a 25% chance of being affected) A normal sibling of an affected individual has a two thirds chance of being a carrier (heterozygote) Males and females are likely to be affected equally Rare traits are likely to be associated with parental consanguinity"
+        },
+        {
+            "id": "InternalMed_Harrison_32602",
+            "title": "InternalMed_Harrison",
+            "content": "If a disease phenotype can be caused by many mutations, a clinical laboratory result that is negative should be interpreted with care. For example, it is common to screen healthy pregnant women (and their partners) for mutations in the CFTR gene, which is mutated in patients with cystic fibrosis (CF). The goal of this screening is to identify women who are carriers of a CFTR mutation and therefore are at increased risk of having a baby with CF. Because CF is an autosomal recessive disorder, a fetus has a 1:4 chance of being affected if both parents are carriers of disease-causing CFTR mutations. The screening test approach that is commonly used to identify mutations in carriers detects 80\u201385% of all known disease-causing CFTR mutations in Caucasians and up to 97% of mutations among Ashkenazi Jews. A negative screening result therefore does not completely eliminate the possibility that a woman (or her partner) actually has a mutation. What can be inferred from a negative test result is"
+        },
+        {
+            "id": "InternalMed_Harrison_24415",
+            "title": "InternalMed_Harrison",
+            "content": "in the general population. It is unclear whether the CFTR mutation alone can lead to pancreatitis as an autosomal recessive disease. A study evaluated 39 patients with idiopathic chronic pancreatitis to assess the risk associated with these mutations. Patients with two CFTR mutations (compound heterozygotes) demonstrated CFTR function at a level between that seen in typical cystic fibrosis and cystic fibrosis carriers and had a 40-fold increased risk of pancreatitis. The presence of an N34S SPINK1 mutation increased the risk 20-fold. A combination of two CFTR mutations and an N34S SPINK1 mutation increased the risk of pancreatitis 900-fold. Knowledge of the genetic defects and downstream alterations in protein expression has led to the development of novel genetic therapy in cystic fibrosis children that potentiates the CFTR channel resulting in improvement in lung function, quality of life, and weight gain. Table 371-5 lists recognized causes of chronic pancreatitis and pancreatic"
+        },
+        {
+            "id": "Obstentrics_Williams_1733",
+            "title": "Obstentrics_Williams",
+            "content": "Genetic heterogeneiy explains how diferent genetic mechanisms can result in the same phenotype. Locus heterogeneiy indicates TABLE 13-3. Selected Monogenic (Mendelian) Disorders that a speciic disease phenotype can be caused by mutations in diferent genetic loci. It also explains why some diseases appear to follow more than one type of inheritance. An example is retinitis pigmentosa, which may develop following mutations in at least 35 diferent genes or loci and may result in autosomal dominant, autosomal recessive, or X-linked forms. Alelic heterogeneiy describes how diferent mutations of the same gene may afect presentation of a particular disease. For example, although only one gene has been associated with cystic ibrosis-the cystic ibrosis conductance transmembrane regulator gene-more than 2000 mutations in this gene have been described and result in variable disease severity (Chaps. 14 and 51, pp. 289 and 997)."
+        },
+        {
+            "id": "InternalMed_Harrison_4833",
+            "title": "InternalMed_Harrison",
+            "content": "Genotype and Phnotype \u2022 alleles, GenotyPes, anD HaPlotyPes An observed trait is referred to as a phenotype; the genetic information defining the phenotype is called the genotype. Alternative forms of a gene or a genetic marker are referred to as alleles. Alleles may be polymorphic variants of nucleic acids that have no apparent effect on gene expression or function. In other instances, these variants may have subtle effects on gene expression, thereby conferring adaptive advantages associated with genetic diversity. On the other hand, allelic variants may reflect mutations that clearly alter the function of a gene product. The common Glu6Val (E6V) sickle cell mutation in the \u03b2-globin gene and the \u0394F508 deletion of phenylalanine (F) in the CFTR gene are examples of allelic variants of these genes that result in disease. Because each individual has two copies of each chromosome (one inherited from the mother and one inherited from the father), he or she can have only two alleles at a"
+        },
+        {
+            "id": "InternalMed_Harrison_4912",
+            "title": "InternalMed_Harrison",
+            "content": "problems of discrimination by health insurers and employers. Mass screening programs harbor additional potential problems. For example, screening for the most common genetic alteration in cystic fibrosis, the \u0394F508 mutation with a frequency of ~70% in northern Europe, is feasible and seems to be effective. One has to keep in mind, however, that there is pronounced allelic heterogeneity and that the disease can be caused by about 2000 other mutations. The search for these less common mutations would substantially increase costs but not the effectiveness of the screening program as a whole. Next-generation genome sequencing permits comprehensive and cost-effective mutational analyses after selective enrichment of candidate genes. For example, tests that sequence all the common genes causing hereditary deafness are already commercially available. Occupational screening programs aim to detect individuals with increased risk for certain professional activities (e.g., \u03b11 antitrypsin"
+        },
+        {
+            "id": "InternalMed_Harrison_24414",
+            "title": "InternalMed_Harrison",
+            "content": "another monosymptomatic form of cystic fibrosis (i.e., chronic pancreatitis). It is estimated that in patients with idiopathic pancreatitis, the frequency of a single CFTR mutation is 11 times the expected frequency and the frequency of two mutant alleles is 80 times the expected frequency. In these studies, the patients were adults when the diagnosis of pancreatitis was made; none had any clinical evidence of pulmonary disease, and sweat test results were not diagnostic of cystic fibrosis. The prevalence of such mutations is unclear, and further studies are certainly needed. In addition, the therapeutic and prognostic implication of these findings with respect to managing pancreatitis remains to be determined. Long-term follow-up of affected patients is needed. CFTR mutations are common in the general population. It is unclear whether the CFTR mutation alone can lead to pancreatitis as an autosomal recessive disease. A study evaluated 39 patients with idiopathic chronic pancreatitis"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1739",
+            "title": "Biochemistry_Lippinco",
+            "content": "Prenatal diagnosis and carrier detection of cystic fibrosis: Cystic fibrosis is an autosomal-recessive genetic disease resulting from mutations in the gene for the cystic fibrosis transmembrane conductance regulator (CFTR) protein. The most common mutation is a three-base deletion that results in the loss of a phenylalanine residue from the CFTR protein (see p. 450). Because the mutant allele is three bases shorter than the normal allele, it is possible to distinguish them from each other by the size of the PCR products obtained by amplifying that portion of the DNA. Figure 34.22 illustrates how the results of such a PCR test can distinguish between homozygous normal, heterozygous (carriers), and homozygous mutant (affected) individuals. The simultaneous amplification of multiple regions of a target DNA using multiple primer pairs is known as multiplex PCR. It allows detection of the loss of \u22651 exons in a gene with many exons such as the gene for CFTR, which has 27 exons."
+        },
+        {
+            "id": "Histology_Ross_3213",
+            "title": "Histology_Ross",
+            "content": "Cystic fibrosis (CF, mucoviscidosis) is a chronic obstructive pulmonary disease of children and young adults. It is an autosomal recessive disorder caused by a mutation in a gene called the cystic fibrosis transmembrane conductance regulator (CFTR) located on chromosome 7. The product of this gene the Cl channel protein is involved in final alteration of mucus and digestive secretions, sweat, and tears. All mutations of CFTR gene results in abnormal epithelial transport of Cl that affects the viscosity of the secretion of the exocrine glands. Almost all exocrine glands secrete abnormally viscid mucus that obstructs the glands and their excretory ducts. The course of the disease is largely determined by the the CFTR gene could lead to the use of gene therapy in degree of pulmonary involvement. At birth, the lungs are the near future."
+        },
+        {
+            "id": "Surgery_Schwartz_9595",
+            "title": "Surgery_Schwartz",
+            "content": "that incapacitate an auto-protective process that normally prevents proteolysis within the pancreas.Cystic fibrosis, originally termed cystic fibrosis of the pancreas, results from a variety of mutations of the cystic fibro-sis transmembrane receptor (CFTR). The CFTR is present in pancreatic duct cells and controls the amount of chloride and bicarbonate secreted into the normally alkaline pancreatic juice. The CFTR gene contains over 4300 nucleotides, divided into 24 exons, which encode a 1480-amino acid protein. Over 1000 polymorphisms have been reported, and many are common. The CFTR mutation associated with the classic pulmonary dis-ease, F508, is rarely observed in chronic pancreatitis. But other CFTR mutations have been noted to be associated with chronic idiopathic pancreatitis, auto-immune pancreatitis, and pancreas divisum, in which the pulmonary, intestinal, and cutaneous manifestations of the disease are silent.110Many studies have been undertaken to determine whether"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1570",
+            "title": "Biochemistry_Lippinco",
+            "content": "Frameshift mutations: If one or two nucleotides are either deleted from or added to the coding region of an mRNA, a frameshift mutation occurs, altering the reading frame. This can result in a product with a radically different amino acid sequence or a truncated product due to the eventual creation of a termination codon (Fig. 32.5). If three nucleotides are added, a new amino acid is added to the peptide. If three are deleted, an amino acid is lost. Loss of three nucleotides maintains the reading frame but can result in serious pathology. For example, cystic fibrosis (CF), a chronic, progressive, inherited disease that primarily affects the pulmonary and digestive systems, is most commonly caused by deletion of three nucleotides from the coding region of a gene, resulting in the loss of phenylalanine (Phe, or F; see p. 5) at the 508th position (\u2206F508) in the CF transmembrane conductance regulator (CFTR) protein encoded by that gene. This \u2206F508 mutation prevents normal folding of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3004",
+            "title": "Cell_Biology_Alberts",
+            "content": "Yet another member of the ABC transporter family is the cystic fibrosis trans-membrane conductance regulator protein (CFTR), which was discovered through studies of the common genetic disease cystic fibrosis. This disease is caused by a mutation in the gene encoding CFTR, a Cl\u2013 transport protein in the plasma membrane of epithelial cells. CFTR regulates ion concentrations in the extracellular fluid, especially in the lung. One in 27 Caucasians carries a gene encoding a mutant form of this protein; in 1 in 2900, both copies of the gene are mutated, causing the disease. In contrast to other ABC transporters, ATP binding and hydrolysis in the CFTR protein do not drive the transport process. Instead, they control the opening and closing of a continuous channel, which provides a passive conduit for Cl\u2013 to move down its electrochemical gradient. Thus, some ABC proteins can function as transporters and others as gated channels."
+        },
+        {
+            "id": "Pharmacology_Katzung_1464",
+            "title": "Pharmacology_Katzung",
+            "content": "Cystic fibrosis is a serious autosomal-recessive inherited disease that causes defective Cl\u2212 secretion in the lung. The defective Cl\u2212 secretion is caused by mutations of the CFTR (cystic fibrosis transmembrane conductance regulator) Cl\u2212 channel, resulting in the generation of thick and dehydrated mucus and chronic bacterial infections. Although more than 1600 types of muta-tions have been identified in the CFTR gene, most current therapies to treat cystic fibrosis lung disease target downstream consequences of the disease that are secondary to loss of CFTR Cl\u2212 channel function. Recently, the FDA approved the use of a new CFTR potentiator drug, ivacaftor, for treatment of a subset of cystic fibrosis patients (4%) with a specific (G551D) mutation. Ivacaftor improves CFTR channel function, resulting in better lung function. Another CFTR modulator, crofelemer, which inhibits CFTR Cl\u2212 channels, has recently been approved by the FDA for the treatment of diarrhea induced by antiviral drugs."
+        },
+        {
+            "id": "InternalMed_Harrison_4785",
+            "title": "InternalMed_Harrison",
+            "content": "The field of functional genomics is based on the concept that understanding alterations of gene expression under various physiologic and pathologic conditions provides insight into the underlying functional role of the gene. By revealing specific gene expression profiles, this knowledge may be of diagnostic and therapeutic relevance. The large-scale study of expression profiles, which takes advantage of microarray and bead array technologies, is also referred to as transcriptomics 429 Known Genes (1260) SNPs (612,977) p22.3 p22.1p21.3 p21.1 p15.3 p15.1 p14.3 p14.1 p13 p12.3 p12.1 p11.2 q11.21 q11.22 q11.23 q21.11 p21.13 q21.3 q22.1q22.3q31.1 q31.2 q31.31 q31.33 q32.1 q36.1 q36.3 in 7q31.2 containing the CFTR gene is shown below. The CFTR gene contains 27 exons. More than 1900 mutations in this gene have been found in patients with cystic fibrosis. A 20-kb region encompassing exons 4\u20139 is shown further amplified to illustrate the SNPs in this region."
+        },
+        {
+            "id": "Pathology_Robbins_1531",
+            "title": "Pathology_Robbins",
+            "content": "Since the CFTR gene was cloned in 1989, more than 1800 disease-causing mutations have been identified. They can be classified on the basis of clinical course of CF or the nature of the underlying defect. Mechanistically, they may result in reduced quantity of functional CFTR that reaches the cell surface or reduced function of CFTR that reaches the cell surface. As we shall see these differences impact on the development of treatment strategies. They can also be classified as severe or mild, depending on the clinical phenotype. Severe mutations are associated with complete loss of CFTR protein function, whereas mild mutations allow some residual function. The most common severe CFTR mutation is a deletion of three nucleotides coding for phenylalanine at amino acid position 508 (\u0394F508). This causes misfolding and total loss of the CFTR. Worldwide, \u0394F508 mutation is found in approximately 70% of patients with CF. Since CF is an autosomal recessive disease, affected persons harbor"
+        },
+        {
+            "id": "InternalMed_Harrison_20336",
+            "title": "InternalMed_Harrison",
+            "content": "In addition, ongoing consistent attention to bronchial hygiene can promote secretion clearance and decrease the microbial load in the airways. Cystic fibrosis Eric J. Sorscher CLINICAL FEATURES Cystic fibrosis (CF) is an autosomal recessive exocrinopathy affecting multiple epithelial tissues. The gene product responsible for CF (the cystic fibrosis transmembrane conductance regulator [CFTR]) 313 serves as an anion channel in the apical (luminal) plasma membranes of epithelial cells and regulates volume and composition of exocrine secretion. An increasingly sophisticated understanding of CFTR molecular genetics and membrane protein biochemistry has facilitated CF drug discovery, with a number of new agents advancing through the clinical testing phase."
+        },
+        {
+            "id": "Pathology_Robbins_1532",
+            "title": "Pathology_Robbins",
+            "content": "This causes misfolding and total loss of the CFTR. Worldwide, \u0394F508 mutation is found in approximately 70% of patients with CF. Since CF is an autosomal recessive disease, affected persons harbor mutations on both alleles. As discussed later, the nature of mutations on the two alleles influences the overall phenotype, as well as organ-specific manifestations. Although CF remains one of the best-known examples of the \u201cone gene\u2013one disease\u201d axiom, there is increasing evidence that other genes modify the frequency and severity of organ-specific manifestations. Examples of modifier genes include mannose-binding lectin 2 (MBL2) and transforming growth factor-\u03b21 (TGF\u03b21). It is postulated that polymorphisms in these genes influence the ability of the lungs to tolerate infections with virulent microbes (see later), thus modifying the natural history of CF."
+        },
+        {
+            "id": "Pathology_Robbins_1527",
+            "title": "Pathology_Robbins",
+            "content": "With an incidence of 1 in 2500 live births in the United States, CF is the most common lethal genetic disease that affects white populations. The carrier frequency in the United States is 1 in 20 among Caucasians but significantly lower among African Americans, Asians, and Hispanics. CF follows simple autosomal recessive transmission, although even heterozygous carriers have a predisposition toward pulmonary and pancreatic disease at higher rates than the general population. The primary defect in CF is reduced production, or abnormal function of an epithelial chloride channel protein encoded by the CF transmembrane conductance regulator (CFTR) gene. Disruptive mutations in CFTR render the epithelial membranes relatively impermeable to chloride ions ("
+        },
+        {
+            "id": "Pathology_Robbins_75",
+            "title": "Pathology_Robbins",
+            "content": "As an example of the importance of the ER editing function, the disease cystic fibrosis most commonly results from misfolding of the CFTR membrane transporter protein. In cystic fibrosis, the most common mutation in the CFTR gene results in the loss of a single amino acid residue (phenylalanine 508), leading in turn to misfolding, ER retention, and degradation of the CFTR protein. The loss of CFTR function leads to abnormal epithelial chloride transport, hyperviscous bronchial secretions and recurrent airway infections (Chapter 7)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_594",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Cystic fibrosis CF is the most common lethal genetic disease in Caucasians of Northern European ancestry and has a prevalence of ~1:3,300 births in the United States. CF is an autosomal-recessive disorder caused by mutations to the gene for the CF transmembrane conductance regulator (CFTR) protein that functions as a chloride channel on epithelium in the pancreas, lungs, testes, and sweat glands. Defective CFTR results in decreased secretion of chloride and increased uptake of sodium and water. In the pancreas, the depletion of water on the cell surface results in thickened mucus that clogs the pancreatic ducts, preventing pancreatic enzymes from reaching the intestine, thereby leading to pancreatic insufficiency. Treatment includes replacement of these enzymes and supplementation with fat-soluble vitamins. [Note: CF also causes chronic lung infections with progressive pulmonary disease and male infertility.] C. Emulsification in the small intestine"
+        },
+        {
+            "id": "InternalMed_Harrison_20350",
+            "title": "InternalMed_Harrison",
+            "content": "The diagnosis of CF is based in part on clinical symptoms, family history, or positive newborn screening. CFTR mutation analysis together with sweat electrolyte measurements represent cardinal diagnostic tests. DNA-based evaluation typically surveys numerous disease-associated mutations; panels that identify 20\u201380 gene defects are FIGURE 313-1 Extrusion of mucus secretion onto the epithelial surface of airways in cystic fibrosis. A. Schematic of the surface epithelium and supporting glandular structure of the human airway."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1960",
+            "title": "Biochemistry_Lippinco",
+            "content": "Answer = A. The clinical manifestations of cystic fibrosis (CF) are the consequence of chloride retention with increased water absorption that causes mucus on an epithelial surface to be excessively thick and sticky. The result is pulmonary and gastrointestinal problems such as respiratory infection and impaired exocrine and endocrine pancreatic functions (pancreatic insufficiency). Impaired endocrine pancreatic function can result in diabetes with associated hyperglycemia. The genetic testing technique described, and one used in the diagnosis of CF, is the use of allele-specific oligonucleotides (ASO). Some mutations do result in increased degradation of the CF transmembrane conductance regulator (CFTR) protein, but degradation is initiated by tagging the protein with ubiquitin. Frameshift mutations alter the reading frame through the addition or deletion of nucleotides by a number not divisible by three. Because the \u2206F509 mutation is caused by the loss of three nucleotides that code"
+        },
+        {
+            "id": "Obstentrics_Williams_7057",
+            "title": "Obstentrics_Williams",
+            "content": "This autosomal recessive exocrinopathy is one of the most common fatal genetic disorders in whites. Cystic ibrosis is caused by one of more than 2000 mutations in a 230-kb gene on the long arm of chromosome 7 that encodes an amino acid polypeptide (Patel, 2015; Sorscher, 2015). his peptide functions as a chloride channel and is termed the cystic ibrosis transmembrane conductance regulator (CFTR). As discussed in Chapter 14 (p. 289), phenotypes vary widely, even among homozygotes for the common 6F508 mutation (Rowntree, 2003). Approximately 10 to 20 percent of afected newborns are diagnosed shortly after birth because of meconium peritonitis (Boczar, 2015; Sorscher, 2015). Currently, the median predicted survival is 37 years, and nearly 80 percent of females with cystic ibrosis now survive to adulthood (Gillet, 2002; Patel, 2015)."
+        },
+        {
+            "id": "InternalMed_Harrison_4904",
+            "title": "InternalMed_Harrison",
+            "content": "Allele frequencies vary among ethnic groups and geographic regions. For example, heterozygous mutations in the CFTR gene are relatively common in populations of European origin but are rare in the African population. Allele frequencies may vary because certain allelic variants confer a selective advantage. For example, heterozygotes for the sickle cell mutation, which is particularly common in West Africa, are more resistant to malarial infection because the erythrocytes of heterozygotes provide a less favorable environment for Plasmodium parasites. Although homozygosity for the sickle cell mutation is associated with severe anemia and sickle crises (Chap. 127), heterozygotes have a higher probability of survival because of the reduced morbidity and mortality from malaria; this phenomenon has led to an increased frequency of the mutant allele. Recessive conditions are more prevalent in geographically isolated populations because of the more restricted gene pool."
+        },
+        {
+            "id": "Surgery_Schwartz_9594",
+            "title": "Surgery_Schwartz",
+            "content": "transmembrane receptor CFTR results in trypsinogen stasis within the ducts due to insufficient secretion by duct cells. A mutation in claudin-2 (CLDN2) results in abnormal expression in acinar cells, instead of its normal location between duct cells, and is associated with the accelerated development of chronic pancreatitis in alcohol abusers. (Modified with permission from Solomon S, Whitcomb DC: Genetics of pancreatitis: an update for clinicians and genetic coun-selors, Curr Gastroenterol Rep. 2012 Apr;14(2):112-711.)are common in the general population as well, and the frequency of these mutations varies in different cohorts of idiopathic chronic pancreatitis, from 6.4% in France108 to 25.8% in the United States.109 Thus, hereditary pancreatitis results from one or more mutational defects that incapacitate an auto-protective process that normally prevents proteolysis within the pancreas.Cystic fibrosis, originally termed cystic fibrosis of the pancreas, results from a variety of"
+        },
+        {
+            "id": "InternalMed_Harrison_4930",
+            "title": "InternalMed_Harrison",
+            "content": "Many issues raised by the genome project are familiar, in principle, to medical practitioners. For example, an asymptomatic patient with increased low-density lipoprotein (LDL) cholesterol, high blood pressure, or a strong family history of early myocardial infarction is known to be at increased risk of coronary heart disease. In such cases, it is clear that the identification of risk factors and an appropriate intervention are beneficial. Likewise, patients with phenylketonuria, cystic fibrosis, or sickle cell anemia are often identified as having a genetic disease early in life. These precedents can be helpful for adapting policies that relate to genetic information. We can anticipate similar efforts, whether based on genotypes or other markers of genetic predisposition, to be applied to many disorders. One confounding aspect of the rapid expansion of information is that our ability to make clinical decisions often lags behind initial insights into genetic mechanisms of disease. For"
+        },
+        {
+            "id": "Obstentrics_Williams_1915",
+            "title": "Obstentrics_Williams",
+            "content": "lthough a negative screening test result does not preclude the possibility of carrying a less-common mutation, it reduces the risk substantively from the background rate. If both parents are carriers, chorionic villus sampling or amniocentesis can help determine whether the fetus has inherited one or both of the parental mutations. Counseling following identification of two disease-causing mutations is challenging, because phenotype prediction is reasonably accurate only for pancreatic disease, and then only for well-characterized mutations. Prognosis is most heavily afected by the degree of pulmonary disease, which varies considerably even among individuals with the most common genotype associated with classic disease, that is, those homozygous for the .F508 mutation. his likely relects the efect of genetic modiiers on protein function, which may further vary depending on the CFTR mutation and on exposure and susceptibility to environmental factors (Cutting, 2005; Drumm, 2005)."
+        },
+        {
+            "id": "InternalMed_Harrison_20355",
+            "title": "InternalMed_Harrison",
+            "content": "CF classically presents in childhood with chronic productive cough, malabsorption including steatorrhea, and failure to thrive. The disease is most common among whites (~1 in 3300 live births) and much less frequent among African-American (~1 in 15,000) or Asian populations (~1 in 33,000). Several \u201csevere\u201d defects that impair CFTR activity (including F508del, G551D, and truncation alleles) are predictive of pancreatic insufficiency, which is clinically evident in 80\u201390% of individuals with CF. These few specific genotype-phenotype correlations notwithstanding, genotype is, in general, a poor predictor of overall respiratory prognosis."
+        },
+        {
+            "id": "InternalMed_Harrison_4840",
+            "title": "InternalMed_Harrison",
+            "content": "to certain domains that are particularly critical for protein function. Allelic heterogeneity creates a practical problem for genetic testing because one must often examine the entire genetic locus for mutations, because these can differ in each patient. For example, there are currently 1963 reported mutations in the CFTR gene (Fig. 82-3). Mutational analysis may initially focus on a panel of mutations that are particularly frequent (often taking the ethnic background of the patient into account), but a negative result does not exclude the presence of a mutation elsewhere in the gene. One should also be aware that mutational analyses generally focus on the coding region of a gene without considering regulatory and intronic regions. Because disease-causing mutations may be located outside the coding regions, negative results need to be interpreted with caution. The advent of more comprehensive sequencing technologies greatly facilitates concomitant mutational analyses of several genes"
+        }
+    ],
+    "scores": [
+        0.039226779820839226,
+        0.038390911920323685,
+        0.03681705266012363,
+        0.03584611897291782,
+        0.03577881473102061,
+        0.03483040850668918,
+        0.03205936679489528,
+        0.029713063176440978,
+        0.028016195513293034,
+        0.027826462081162438,
+        0.027527612574341543,
+        0.026751985197748823,
+        0.0266932215234102,
+        0.02581863822871017,
+        0.025672637118926117,
+        0.025335803020366778,
+        0.025028894754092704,
+        0.02473157680743303,
+        0.02396214896214896,
+        0.023729656948835033,
+        0.023709148429790446,
+        0.02345605983083182,
+        0.023397134584289096,
+        0.02325420007982873,
+        0.022257757471920808,
+        0.020362198933627507,
+        0.018658215978164402,
+        0.0182394140625699,
+        0.01816130507033924,
+        0.016695652173913042,
+        0.01646787747357007,
+        0.016453503863575806
+    ]
+}

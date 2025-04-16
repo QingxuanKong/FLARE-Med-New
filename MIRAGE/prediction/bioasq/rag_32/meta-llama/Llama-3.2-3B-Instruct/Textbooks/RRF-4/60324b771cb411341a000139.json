@@ -1,0 +1,206 @@
+{
+    "id": "60324b771cb411341a000139",
+    "question": "Is the apilimod inhibitor effective against SARS-CoV-2?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents to find any information related to the apilimod inhibitor and its effectiveness against SARS-CoV-2. However, there is no direct information about the apilimod inhibitor in the given documents. We can infer that the apilimod inhibitor is likely a JAK inhibitor, as it is mentioned in document [11] (Title: Pharmacology_Katzung) as a targeted synthetic small molecule that selectively inhibits all members of the Janus kinase (JAK) family to varying degrees. JAK inhibitors, such as tofacitinib, have been studied for their effectiveness against various diseases, including rheumatoid arthritis. However, there is no specific information about the apilimod inhibitor in the context of SARS-CoV-2 or COVID-19 treatment. Therefore, based on the available information, we cannot conclude that the apilimod inhibitor is effective against SARS-CoV-2.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_14643",
+            "title": "InternalMed_Harrison",
+            "content": "There is no specific therapy for SARS with established efficacy. Although ribavirin has frequently been used, it has little if any activity against SARS-CoV in vitro, and no beneficial effect on the course of illness has been demonstrated. Because of suggestions that immunopathology may contribute to the disease, glucocorticoids have also been widely used, but their benefit, if any, likewise remains to be established. Supportive care to maintain pulmonary and other organ-system functions remains the mainstay of therapy. Similarly, there is no established antiviral therapy for MERS. Interferon \u03b12b and ribavirin have displayed activity against MERS-CoV in vitro and in a rhesus macaque model, but data are not available on its use in human cases of MERS. The approach to the treatment of common colds caused by coronaviruses is similar to that discussed above for rhinovirus-induced illnesses."
+        },
+        {
+            "id": "InternalMed_Harrison_14646",
+            "title": "InternalMed_Harrison",
+            "content": "Similarly, the WHO and the CDC have issued recommendations for identification, prevention, and control of MERS-CoV infections (www.cdc.gov/coronavirus/mers/index.html). Isolation precautions against airborne spread of infection should be instituted for patients hospitalized for suspected MERS, as described above for SARS. Vaccines have been developed against several animal coronaviruses but not against known human coronaviruses. The emergence of SARS-CoV and MERS-CoV has stimulated interest in the development of vaccines against such agents."
+        },
+        {
+            "id": "InternalMed_Harrison_14636",
+            "title": "InternalMed_Harrison",
+            "content": "SARS-CoV infects cells of the respiratory tract via the angiotensinconverting enzyme 2 receptor. The result is a systemic illness in which virus is also found in the bloodstream, in the urine, and (for up to 2 months) in the stool. Virus persists in the respiratory tract for 2\u20133 weeks, and titers peak ~10 days after the onset of systemic illness. Pulmonary pathology consists of hyaline membrane formation, desquamation of pneumocytes in alveolar spaces, and an interstitial infiltrate made up of lymphocytes and mononuclear cells. Giant cells are frequently seen, and coronavirus particles have been detected in type II pneumocytes. Elevated levels of proinflammatory cytokines and chemokines have been detected in sera from patients with SARS. Because MERS-CoV was so recently detected, little is known at present about its pathogenesis. However, it may well be similar to that of SARS-CoV."
+        },
+        {
+            "id": "InternalMed_Harrison_14637",
+            "title": "InternalMed_Harrison",
+            "content": "After an incubation period that generally lasts 2\u20137 days (range, 1\u201314 days), SARS usually begins as a systemic illness marked by the onset of fever, which is often accompanied by malaise, headache, and myalgias and is followed in 1\u20132 days by a nonproductive cough and dyspnea. Approximately 25% of patients have diarrhea. Chest x-rays can show a variety of infiltrates, including patchy areas of consolidation\u2014most frequently in peripheral and lower lung fields\u2014or interstitial infiltrates, which can progress to diffuse involvement. In severe cases, respiratory function may worsen during the second week of illness and progress to frank adult respiratory distress syndrome accompanied by multiorgan dysfunction. Risk factors for severe disease include an age of >50 years and comorbidities such as cardiovascular disease, diabetes, and hepatitis. Illness in pregnant women may be particularly severe, but SARS-CoV infection appears to be milder in children than in adults."
+        },
+        {
+            "id": "InternalMed_Harrison_14641",
+            "title": "InternalMed_Harrison",
+            "content": "A rapid diagnosis of SARS-CoV infection can be made by reverse-transcription PCR (RT-PCR) of respiratory tract samples and plasma early in the illness and of urine and stool later on. SARS-CoV can also be grown from respiratory tract samples by inoculation into Vero E6 tissue culture cells, in which a cytopathic effect is seen within days. RT-PCR appears to be more sensitive than tissue culture, but only around one-third of cases are positive by PCR at initial presentation. Serum antibodies can be detected by ELISA or immunofluorescence, and nearly all patients develop detectable serum antibodies within 28 days after the onset of illness."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5713",
+            "title": "Cell_Biology_Alberts",
+            "content": "The logic of combination therapies is the same as that behind the current treatment of HIV-AIDS with a cocktail of three different protease inhibitors: whereas there may always be some cells in the initial population carrying the rare mutations that confer resistance to any one drug treatment, there should be no cell carrying the whole set of rare mutations that would confer resistance to several different drugs delivered simultaneously. In contrast, sequential drug treatments will allow the few cells resistant to the first drug to multiply to large numbers. Within this large population of cells resistant to the first drug, a small number of cells are likely to have arisen that are resistant to the next drug also; and so on (Figure 20\u201346). We Now have the Tools to Devise Combination Therapies Tailored to the Individual Patient"
+        },
+        {
+            "id": "InternalMed_Harrison_14639",
+            "title": "InternalMed_Harrison",
+            "content": "The clinical features of common colds caused by human coronaviruses are similar to those of illness caused by rhinoviruses. In studies of volunteers, the mean incubation period of colds induced by corona-viruses (3 days) is somewhat longer than that of illness caused by rhinoviruses, and the duration of illness is somewhat shorter (mean, 6\u20137 days). In some studies, the amount of nasal discharge was greater in colds induced by coronaviruses than in those induced by rhinoviruses. Coronaviruses other than SARS-CoV have been recovered occasionally from infants with pneumonia and from military recruits with lower respiratory tract disease and have been associated with worsening of chronic bronchitis. Two novel coronaviruses, HCoV-NL63 and HCoVHKU1, have been isolated from patients hospitalized with acute respiratory illness. Their overall role as causes of human respiratory disease remains to be determined."
+        },
+        {
+            "id": "InternalMed_Harrison_11295",
+            "title": "InternalMed_Harrison",
+            "content": "VIRAL RESPIRATORY INFECTIONS: PANDEMIC INFLUENZA Infections caused by the severe acute respiratory syndrome globally in 2003 (Chap. 223), and in 2012 Middle East respiratory syndrome coronavirus (MERS-CoV) emerged as a more geographically localized problem (Chap. 223). For SARS, basic infection-control measures helped to keep the worldwide case and death counts at ~8000 and ~800, respectively, although the virus was unforgiving of lapses in protocol adherence or laboratory biosafety. The epidemiology of SARS\u2014spread largely in households once patients were ill or in hospitals\u2014contrasts markedly with that of influenza (Chap. 224), which is often contagious a day before symptom onset; can spread rapidly in the community among nonimmune persons; and, even in its seasonal variety, kills as many as 35,000 persons each year in the United States."
+        },
+        {
+            "id": "Pharmacology_Katzung_6227",
+            "title": "Pharmacology_Katzung",
+            "content": "Interferon beta-1b Betaseron, Extavia Interleukin-2 (IL-2, aldesleukin) Proleukin Mycophenolate mofetil Generic, CellCept GENERIC NAME AVAILABLE AS Pegademase bovine (bovine adenosine deaminase) Adagen Pegaptanib Macugen Peginterferon alfa-2a Pegasys Peginterferon alfa-2b PEG-Intron Pembrolizumab Keytruda Pertuzumab Perjeta Pomalidomide Pomalyst Ramucirumab Cyramza Ranibizumab Lucentis Raxibacumab ABthrax Reslizumab Cinqair Rho(D) immune globulin micro-dose RhoGam, others GENERIC NAME AVAILABLE AS Rilonacept Arcalyst Rituximab Rituxan Scorpion antivenom (equine (Fab)\u00a22) Anascorp Siltuximab Sylvant Sirolimus Generic, Rapamune Tacrolimus (FK 506) Generic, Prograf, others Teriflunomide Aubagio Thalidomide Thalomid Tocilizumab Actemra Trastuzumab Herceptin UstekinumabStelaraVedolizumabEntyvio*Several drugs discussed in this chapter are available as orphan drugs but are not listed here. Other drugs not listed here will be found in other chapters (see Index)."
+        },
+        {
+            "id": "InternalMed_Harrison_14617",
+            "title": "InternalMed_Harrison",
+            "content": "Frequency of Respiratory Syndromes aSevere acute respiratory syndrome\u2013associated coronavirus (SARS-CoV) caused epidemics of pneumonia from November 2002 to July 2003 (see text). bMiddle East respiratory syndrome coronavirus (MERS-CoV) has caused severe respiratory illnesses from 2012 to the time of this writing (2014); see text. cSerotypes 4 and 7 most commonly; also serotypes 14 and 21. dFever, cough, myalgia, malaise. eMay or may not have a respiratory component. than at 37\u00b0C (the temperature of the lower respiratory tract), whereas HRV-C viruses replicate well at either temperature. Of the 101 initially recognized serotypes of rhinovirus, 88 use intercellular adhesion molecule 1 (ICAM-1) as a cellular receptor and constitute the \u201cmajor\u201d receptor group, 12 use the low-density lipoprotein receptor (LDLR) and constitute the \u201cminor\u201d receptor group, and 1 uses decay-accelerating factor."
+        },
+        {
+            "id": "InternalMed_Harrison_14310",
+            "title": "InternalMed_Harrison",
+            "content": "IFN-\u03b1 and pegylated IFN-\u03b1 are active against hepatitis D, but high doses are required (9 million units three times per week for 48 weeks). IFN-\u03b1 elicited an SVR in 25\u201330% of patients, whereas pegylated IFN-\u03b1 had a variable effect, evoking an SVR in 17\u201343% of patients. However, long-term biochemical and histologic improvements have been seen, even in the absence of sustained inhibition of viral replication. Sofosbuvir is the prodrug of a uridine nucleoside inhibitor of the HCV RNA NS5B polymerase. Its metabolism to the active uridine nucleoside triphosphate results in chain termination. Sofosbuvir is active against all HCV genotypes (1\u20136) and has a median effective concentration (EC50) of 0.7\u20132.6 \u03bcM against NS5B. Resistance to sofosbuvir is conferred by an S282T substitution in NS5B, but clinically expressed resistance to treatment has only rarely been encountered in patients who receive sofosbuvir."
+        },
+        {
+            "id": "Pharmacology_Katzung_4035",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Mechanism of Action: Tofacitinib is a targeted synthetic small molecule (tsDMARD) that selectively inhibits all members of the Janus kinase (JAK; see Chapter 2) family to varying degrees. At therapeutic doses, tofacitinib exerts its effect mainly by inhibiting JAK3, and to a lesser extent JAK1, hence interrupting the JAK-STAT signaling pathway. This pathway plays a major role in the pathogenesis of autoimmune diseases including RA. The JAK3/JAK1 complex is responsible for signal transduction from the common \u03b3-chain receptor (IL2RG) for IL-2, -4, -7, -9, -15, and -21, which subsequently influences transcription of several genes that are crucial for the differentiation, proliferation, and function of NK cells and T and B lymphocytes. In addition, JAK1 (in combination with other JAKs) controls signal transduction from IL-6 and interferon receptors. RA patients receiving tofacitinib rapidly reduce C-reactive protein. 2."
+        },
+        {
+            "id": "InternalMed_Harrison_22986",
+            "title": "InternalMed_Harrison",
+            "content": "Tofacitinib is an oral inhibitor of Janus kinases 1, 3, and, to a lesser extent, 2. It is expected to block signaling involving common gamma chain\u2013containing cytokines including IL-2, IL-4, IL-7, IL-9, IL-15, and IL-21. These cytokines are integral to lymphocyte activation, function, and proliferation. It is effective in moderate to severe UC in clinical trials."
+        },
+        {
+            "id": "InternalMed_Harrison_14313",
+            "title": "InternalMed_Harrison",
+            "content": "BOCEPREVIR, TELAPREVIR This drug class is specifically designed to inhibit the 3/4A (NS3/4A) HCV protease. These agents resemble the HCV polypeptide and, when processed by the viral protease, form a covalent bond with the catalytic NS3 serine residues, block further activity, and prevent proteolytic cleavage of the HCV polyprotein into NS4A, NS4B, NS5A, and NS5B proteins. Boceprevir and telaprevir are linear ketoamide compounds that are active against HCV genotype 1 (1b > 1a) and much less so against genotypes 2 and 3. These first-generation protease inhibitors received approval for combination therapy (with IFN and ribavirin) for genotype 1 infection. Neither boceprevir nor telaprevir is now recommended for the treatment of hepatitis C. These drugs have been supplanted by sofosbuvir and by simeprevir, a second\u2010generation protease inhibitor with improved pharmacokinetic properties, fewer drug\u2013drug interactions, and less overall toxicity (see below)."
+        },
+        {
+            "id": "Immunology_Janeway_4066",
+            "title": "Immunology_Janeway",
+            "content": "16-9 Biologic agents can block cell migration to sites of inflammation and reduce immune responses."
+        },
+        {
+            "id": "InternalMed_Harrison_13654",
+            "title": "InternalMed_Harrison",
+            "content": "PNU 100480 and AZD 5847, modified versions of oxazolidinones and protein synthesis inhibitors, are undergoing phase 1 trials and appear to have greater efficacy than linezolid against M. tuberculosis. However, the adverse effect profiles of these compounds compared with that of linezolid need further investigation."
+        },
+        {
+            "id": "Pharmacology_Katzung_5507",
+            "title": "Pharmacology_Katzung",
+            "content": "The most common adverse events in patients receiving velpatasvir/sofosbuvir were headache and fatigue. NS5B is an RNA-dependent RNA polymerase involved in post-translational processing that is necessary for replication of HCV. The enzyme has a catalytic site for nucleoside binding and at least four other sites at which a non-nucleoside compound can bind and cause allosteric alteration. The enzyme\u2019s structure is highly conserved across all HCV genotypes, giving agents that inhibit NS5B efficacy against all six genotypes. There are two classes of polymerase inhibitors; these act at distinct stages of RNA synthesis. Nucleoside/nucleotide analogs (eg, sofosbuvir) target the catalytic site of NS5B, and are activated within the hepatocyte through phosphorylation to nucleoside triphosphate, which competes with nucleotides, resulting in chain termination. Non-nucleoside analogues (e.g., dasabuvir) act as allosteric inhibitors of NS5B."
+        },
+        {
+            "id": "InternalMed_Harrison_6535",
+            "title": "InternalMed_Harrison",
+            "content": "The availability of a variety of agents active against herpes-group viruses, including some new agents with a broader spectrum of activity, has heightened focus on the treatment of viral infections,"
+        },
+        {
+            "id": "InternalMed_Harrison_23732",
+            "title": "InternalMed_Harrison",
+            "content": "identified by the end of therapy, but many were identified during the posttreatment follow-up period. The likelihood of HBeAg loss in PEG IFN\u2212treated HBeAg-reactive patients is associated with HBV genotype A > B > C > D (shown for PEG IFN-\u03b12b but not for \u03b1-2a)."
+        },
+        {
+            "id": "Immunology_Janeway_4035",
+            "title": "Immunology_Janeway",
+            "content": "example, tofacitinib inhibits JAK3, interfering with signaling by IL-2 and IL-4, and somewhat more weakly JAK1, interfering with signaling by IL-6. Tofacitinib is approved for treatment of rheumatoid arthritis. Ruxolitinib inhibits JAK1 and JAK2 and has been approved for treating myelofibrosis, an abnormal proliferation of bone marrow progenitor cells that causes fibrosis."
+        },
+        {
+            "id": "Immunology_Janeway_3369",
+            "title": "Immunology_Janeway",
+            "content": "Viral entry inhibitors Viral integrase inhibitors Virus assembly Protease inhibitors Reverse transcriptase inhibitors. Nucleoside analogs and non-nucleoside analogs interrupt transcription of viral RNA into viral cDNA Fig. 3.39 Possible targets for interference with the HIV life and budding of infectious virions. as yet, only drugs that inhibit cycle. in principle, HiV could be attacked by therapeutic drugs at reverse transcriptase and protease action have been developed. multiple points in its life cycle: virus entry, reverse transcription of viral Combination therapy using different kinds of drugs is more effective Rna, insertion of viral cDna into cellular Dna by the viral integrase, than using a single drug. cleavage of viral polyproteins by the viral protease, and assembly"
+        },
+        {
+            "id": "Pathology_Robbins_1544",
+            "title": "Pathology_Robbins",
+            "content": "potentiator and the second a drug that increases the transport of the defective \u0394508 CFTR protein to the cell membrane. It is too early determine the impact of the emerging molecular therapies on prognosis and survival. Overall, improved management of CF have extended the median life expectancy to close to 40 years and, is steadily changing a lethal disease of childhood into a chronic disease of adults."
+        },
+        {
+            "id": "InternalMed_Harrison_14217",
+            "title": "InternalMed_Harrison",
+            "content": "Despite these complexities, the efficacy of a number of antiviral compounds has been clearly established in rigorously conducted and controlled studies. As summarized in Table 215e-1, this chapter reviews the antiviral drugs that are currently approved or are likely to be considered for approval in the near future for use against viral infections other than those caused by HIV. Antiretroviral drugs are reviewed in Chap. 226. (SEE ALSO CHAPS. 223 AND 224) ZANAMIVIR, OSELTAMIVIR, PERAMIVIR, AND LANINAMIVIR"
+        },
+        {
+            "id": "Pharmacology_Katzung_4092",
+            "title": "Pharmacology_Katzung",
+            "content": "Conklyn M et al: The JAK3 inhibitor CP-690550 selectively reduces NK and CD8+ cell numbers in cynomolgus monkey blood following chronic oral dosing. J Leukoc Biol 2004;76:6. Cronstein B: How does methotrexate suppress inflammation? Clin Exp Rheumatol 2010:28(Suppl 61):S21. De Lauretis A et al: Serum interleukin 6 is predictive of early functional decline and mortality in interstitial lung disease associated with systemic sclerosis. J Rheumatol 2013;40:435. Dinarello CA, Simon A, van der Meer JW: Treating inflammation by blocking interleukin-1 in a broad spectrum of diseases. Nat Rev Drug Discov 2012;11:8. Emery P et al: Golimumab, a human anti-tumor necrosis factor \u03b1 monoclonal antibody, injected subcutaneously every four weeks in methotrexate-na\u00efve patients with active rheumatoid arthritis. Arthritis Rheum 2009;60:2272."
+        },
+        {
+            "id": "InternalMed_Harrison_8524",
+            "title": "InternalMed_Harrison",
+            "content": "Class of Drugs Examples of Agents in Class Inhibitors of Mutant proteins Tyrosine kinase inhibitors Dasatinib, midostaurin, quizartinib, sorafenib IDH2 mutation inhibitor AG-221 Inhibitors of Cell Proliferation Inhibitors of Protein Synthesis and Degradation HSP-90 antagonists 17-Allylaminogeldanamycin (17-AAG), DMAG, or derivatives Nucleoside analogues Clofarabine, troxacitabine, elacytarabine, sapacitabine Compounds with Immuno-Mediated Mechanisms Antibodies CSL362 (anti-CD123), anti-CD33 (SGN33), anti-KIR Immunomodulatory Lenalidomide, interleukin 2, histamine dihydrochloride autologous HSCT (5% mortality rate), but the relapse rate is higher than with allogeneic HSCT, due to the absence of the graft-versusleukemia (GVL) effect seen with allogeneic HSCT and possible contamination of the autologous stem cells with residual tumor cells."
+        },
+        {
+            "id": "InternalMed_Harrison_25254",
+            "title": "InternalMed_Harrison",
+            "content": "Tofacitinib Tofacitinib is a small-molecule inhibitor that primarily inhibits JAK1 and JAK3, which mediate signaling of the receptors for the common \u03b3-chain-related cytokines IL-2, -4, -7, -9, -15, and -21 as well as IFN-\u03b3 and IL-6. These cytokines all play roles in promoting T and B cell activation as well as inflammation. Tofacitinib, an oral agent, has been shown in randomized, placebo-controlled clinical trials to improve the signs and symptoms of RA significantly over placebo. Major adverse events include elevated serum transaminases indicative of liver injury, neutropenia, increased cholesterol levels, and elevation in serum creatinine. Its use is also associated with an increased risk of infections. Tofacitinib can be used as mono-therapy or in combination with methotrexate. APPROACH TO THE PATIENT:"
+        },
+        {
+            "id": "InternalMed_Harrison_23878",
+            "title": "InternalMed_Harrison",
+            "content": "Among the novel antivirals are drugs with improved pharmacokinetic and resistance profiles, less treatment complexity, pangenotypic activity, fewer side effects, and fewer drug-drug interactions.* The pace of successful trials of all-oral regimens has accelerated. All-oral combinations of a second-generation protease inhibitor (asunaprevir) plus an NS5A inhibitor (daclatasvir); of a uridine nucleoside polymerase inhibitor (sofosbuvir)* plus ribavirin; of a polymerase inhibitor (sofosbuvir) plus an NS5A inhibitor (ledipasvir or daclatasvir) and ribavirin; and of combinations of a ritonavirboosted protease inhibitor (ABT-450) plus a nonnucleoside polymerase inhibitor (ABT-333) plus an NS5A inhibitor (ABT-267) with or without ribavirin have been studied in clinical trials. Several of these drug combinations have achieved SVR rates exceeding 90%, even approaching 100%, for both treatment-na\u00efve and treatment-experienced patients (including patients who failed to respond to first-generation"
+        },
+        {
+            "id": "InternalMed_Harrison_14630",
+            "title": "InternalMed_Harrison",
+            "content": "Coronaviruses are pleomorphic, single-stranded RNA viruses that measure 100\u2013160 nm in diameter. The name derives from the crown-like appearance produced by the club-shaped projections that stud the viral envelope. Coronaviruses infect a wide variety of animal species and have been divided into four genera. Coronaviruses that infect humans (HCoVs) fall into two genera: Alphacoronavirus 1204 and Betacoronavirus. Severe acute respiratory syndrome coronavirus (SARS-CoV) and Middle East respiratory syndrome coronavirus (MERS-CoV) are betacoronaviruses. In general, human coronaviruses have been difficult to cultivate in vitro, and some strains grow only in human tracheal organ cultures rather than in tissue culture. SARS-CoV and MERS-CoV are exceptions whose ready growth in African green monkey kidney (Vero E6) cells greatly facilitates their study."
+        },
+        {
+            "id": "Immunology_Janeway_4246",
+            "title": "Immunology_Janeway",
+            "content": "Crespo, J.L., and Hall, M.N.: Elucidating TOR signaling and rapamycin action: lessons from Saccharomyces cerevisiae. Microbiol. Mol. Biol. Rev. 2002, 66:579\u2013591. Fleischmann, R, Kremer, J., Cush, J., Schulze-Koops, H., Connell, C.A., Bradley, J.D., Gruben, D., Wallenstein, G.V., Zwillich, S.H., Kanik, K.S. et al.: Placebo-controlled trial of tofacitinib monotherapy in rheumatoid arthritis. N. Engl. J. Med. 2012, 367:495\u2013507. Pesu, M., Laurence, A., Kishore, N, Zwillich, S.H., Chan, G, and O'Shea, J.J.: Therapeutic targeting of Janus kinases. Immunol. Rev. 2008, 223:132\u2013142. 16-4 Antibodies against cell-surface molecules can be used to eliminate lymphocyte subsets or to inhibit lymphocyte function. Graca, L., Le Moine, A., Cobbold, S.P., and Waldmann, H.: Antibody-induced transplantation tolerance: the role of dominant regulation. Immunol. Res. 2003, 28:181\u2013191."
+        },
+        {
+            "id": "InternalMed_Harrison_14206",
+            "title": "InternalMed_Harrison",
+            "content": "Multiple steps in the life cycles of viruses can be effectively targeted by antiviral drugs (Chaps. 215e and 216). Nucleoside and nonnucleoside reverse transcriptase inhibitors prevent HIV provirus synthesis, whereas protease inhibitors block maturation of the HIV and HCV polyprotein after infection of the cell. Enfuvirtide is a small peptide derived from HIV gp41 that acts before cell infection by preventing a conformational change required for initial fusion of the virus with the cell membrane. Raltegravir is an integrase inhibitor that is approved for use with other anti-HIV drugs. Amantadine and rimantadine inhibit the influenza M2 protein, preventing release of viral RNA early during infection, whereas zanamivir and oseltamivir inhibit the influenza neuraminidase, which is necessary for the efficient release of mature virions from infected cells."
+        },
+        {
+            "id": "InternalMed_Harrison_12985",
+            "title": "InternalMed_Harrison",
+            "content": "or as a mixture, purified, and adsorbed to aluminum hydroxide for injection. This combination protects mice and various nonhuman primates in laboratory models of bubonic and pneumonic plague and has been evaluated in phase 2 clinical trials. Special ethical considerations with controlled clinical studies involving plague in humans make prelicensure field efficacy studies unlikely. In the United States, the FDA is therefore prepared to assess plague vaccines for human use under the Animal Rule, using efficacy data and other results from animal studies as well as antibodies and other correlates of immunity from human vaccine recipients (www.fda.gov/BiologicsBloodVaccines/ScienceRe search/BiologicsResearchAreas/ucm127288.htm). Live attenuated"
+        },
+        {
+            "id": "InternalMed_Harrison_23872",
+            "title": "InternalMed_Harrison",
+            "content": "indistinguishable efficacy of the two types of PEG IFN, despite a small advantage for PEG IFN-\u03b12a: For PEG IFN-\u03b12b and -\u03b12a, SVRs occurred in 28% versus 32%, respectively, of patients with genotypes 1 and 4 and in 62% versus 71%, respectively, of patients with genotypes 2 and 3."
+        }
+    ],
+    "scores": [
+        0.02887922359424286,
+        0.01951637471439452,
+        0.01951265943270512,
+        0.019142700128228614,
+        0.01913919413919414,
+        0.018433571185864764,
+        0.017470247177296307,
+        0.015970668655232414,
+        0.015058876811594204,
+        0.014760904105376456,
+        0.01455026455026455,
+        0.014496314496314496,
+        0.014442778610694653,
+        0.013753662917099915,
+        0.013471971066907775,
+        0.013111404367630156,
+        0.01152406592685009,
+        0.011518632121647197,
+        0.011002592391632,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009523809523809525,
+        0.009523809523809525,
+        0.009523809523809525,
+        0.009433962264150943,
+        0.009433962264150943
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "id": "0046",
+    "question": "A medical research study is evaluating an investigational novel drug (medication 1) compared with standard therapy (medication 2) in patients presenting to the emergency department with myocardial infarction (MI). The study enrolled a total of 3,000 subjects, 1,500 in each study arm. Follow-up was conducted at 45 days post-MI. The following are the results of the trial:\nEndpoints Medication 1 Medication 2 P-Value\nPrimary: death from cardiac causes 134 210 0.03\nSecondary: hyperkalemia 57 70 0.4\nWhat is the number needed to treat (NNT) for the primary endpoint of death from cardiac causes? (Round to the nearest whole number.)",
+    "options": {
+        "A": "5",
+        "B": "16",
+        "C": "20",
+        "D": "50"
+    },
+    "answer": "C",
+    "predict": "To calculate the number needed to treat (NNT), we need to first calculate the absolute risk reduction (ARR) and then take the reciprocal of the ARR. Step 1: Calculate the absolute risk reduction (ARR) ARR = (Risk in control group - Risk in treatment group) = (210/1500 - 134/1500) = (0.14 - 0.089) = 0.061 Step 2: Calculate the number needed to treat (NNT) NNT = 1 / ARR = 1 / 0.061 = 16.43 Rounded to the nearest whole number, NNT = 16 Therefore, the correct answer is: {\"step_by_step_thinking\": \"To calculate the number needed to treat (NNT), we first need to calculate the absolute risk reduction (ARR). ARR is the difference between the risk in the control group and the risk in the treatment group. In this case, the ARR is 0.061. Then, we take the reciprocal of the ARR to get the NNT. The NNT is approximately 16.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_280",
+            "title": "InternalMed_Harrison",
+            "content": "Meta-analyses typically focus on summary measures of relative treatment benefit, such as odds ratios or relative risks. Clinicians also should examine what absolute risk reduction (ARR) can be expected from the therapy. A useful summary metric of absolute treatment benefit is the number needed to treat (NNT) to prevent one adverse outcome event (e.g., death, stroke). NNT is simply 1/ARR. For example, if a hypothetical therapy reduced mortality rates over a 5-year follow-up by 33% (the relative treatment benefit) from 12% (control arm) to 8% (treatment arm), the ARR would be 12% \u2013 8% = 4%, and the NNT would be 1/0.04, or 25. Thus, it would be necessary to treat 25 patients for 5 years to prevent 1 death. If the hypothetical treatment was applied to a lower-risk population, say, with a 6% 5-year mortality, the 33% relative treatment benefit would reduce absolute mortality by 2% (from 6% to 4%), and the NNT for the same therapy in this lower-risk group of patients would be 50. Although"
+        },
+        {
+            "id": "InternalMed_Harrison_9358",
+            "title": "InternalMed_Harrison",
+            "content": "In a second trial, vorapaxar was compared with placebo for secondary prevention in 26,449 patients with prior MI, ischemic stroke, or peripheral arterial disease. Overall, vorapaxar reduced the risk for cardiovascular death, MI, or stroke by 13%, but doubled the risk of intracranial bleeding. In the prespecified subgroup of 17,779 patients with prior MI, however, vorapaxar reduced the risk for cardiovascular death, MI, or stroke by 20% compared with placebo (from 9.7% to 8.1%, respectively). The rate of intracranial hemorrhage was higher with vorapaxar than with placebo (0.6% and 0.4%, respectively; p = .076) as was the rate of moderate or severe bleeding (3.4% and 2.1%, respectively; P <0.0001). Based on these data, the drug is under consideration for regulatory approval in MI patients under the age of 75 years who have no history of stroke or transient ischemic attack and have a weight over 60 kg."
+        },
+        {
+            "id": "InternalMed_Harrison_18306",
+            "title": "InternalMed_Harrison",
+            "content": "Abbreviations: HF, heart failure; ICD, implantable cardioverter-defibrillator; LVD, left ventricular disease; LVEF, left ventricular ejection fraction; MI, myocardial infarction. medical therapy alone or medical therapy plus CABG. There was no significant difference between groups with respect to the primary endpoint of death from any cause. Patients assigned to CABG had lower rates of death from cardiovascular causes and of death from any cause or hospitalization for cardiovascular causes. An ancillary study of this trial also determined that the detection of hibernation pre-revascularization did not materially influence the efficacy of this approach, nor did it help to define a population unlikely to benefit if hibernation was not detected."
+        },
+        {
+            "id": "InternalMed_Harrison_9357",
+            "title": "InternalMed_Harrison",
+            "content": "Yes tively) with no significant increase in Long (2.0 h) serious bleeding. Based on these data, Short (s) cangrelor is currently under regula- Yes tory review. antagonist, vorapaxar is slowly eliminated with a half-life of about 200 h. When compared with placebo in 12,944 patients with acute coronary syndrome without ST-segment elevation, vorapaxar failed to significantly reduce the primary efficacy endpoint, a composite of cardiovascular death, MI, stroke, recurrent ischemia requiring rehospitalization, and urgent coronary revascularization. Moreover, vorapaxar was associated with increased rates of bleeding, including intracranial bleeding."
+        },
+        {
+            "id": "InternalMed_Harrison_9356",
+            "title": "InternalMed_Harrison",
+            "content": "efficacy endpoint, a composite of death, MI, ischemia-driven revascularization, and stent thrombosis, was 4.7% in the cangrelor group and 5.9% in the clopidogrel group (p = .005). The rates of severe bleeding, the primary safety endpoint, were 0.16% and 0.11% in the cangrelor and clopidogrel groups, respectively. Using the same efficacy endpoint, a prespecified meta-analysis of the three trials thrombosis (0.5% and 0.8%, respec-"
+        },
+        {
+            "id": "InternalMed_Harrison_9355",
+            "title": "InternalMed_Harrison",
+            "content": "Cangrelor An adenosine analogue, cangrelor binds reversibly to P2Y12 and inhibits its activity. The drug has a half-life of 3\u20136 min and is given IV as a bolus followed by an infusion. When stopped, platelet function recovers within 60 min. A trial comparing cangrelor with placebo during percutaneous coronary interventions and a study comparing cangrelor with clopidogrel after such procedures revealed little or no advantage of cangrelor. A third trial compared cangrelor (given as an IV bolus of 30 \u03bcg/kg followed by an infusion of 4 \u03bcg/kg per minute for at least 2 h, or for the duration of the procedure, whichever was longer) with a loading dose of clopidogrel (300 or 600 mg) in 11,145 patients undergoing urgent or elective percutaneous coronary intervention. The rate of the primary efficacy endpoint, a composite of death, MI, ischemia-driven revascularization, and stent thrombosis, was 4.7% in the cangrelor group and 5.9% in the clopidogrel group (p = .005). The rates of severe"
+        },
+        {
+            "id": "InternalMed_Harrison_29991",
+            "title": "InternalMed_Harrison",
+            "content": "or symptomatic stenosis. The 30-day risk of stroke was 4.1% in the stent group and 2.3% in the surgical group, but the 30-day risk of MI was 1.1% in the stent group and 2.3% in the surgery group, suggesting relative equivalence of risk between the procedures. At median follow-up of 2.5 years, the combined endpoint of stroke, MI, and death was the same (7.2% stent vs 6.8% surgery). The rate of restenosis at 2 years was also similar in both groups. The International Carotid Stenting (ICSS) trial randomized symptomatic patients to stents versus endarterectomy and found a different result: At 120 days, the incidence of stroke, MI, or death was 8.5% in the stenting group versus 5.2% in the endarterectomy group (p = .006); longer-term follow-up is currently under way. Differences between trial designs, selection of stent, and operator experience may explain these important differences. Until more data are available, there remains controversy as to who should receive a stent or have"
+        },
+        {
+            "id": "InternalMed_Harrison_19204",
+            "title": "InternalMed_Harrison",
+            "content": "Risk ratio 1.0 1.8 3.5 3.9 6.2 7.8 95% confidence \u2013 0.5\u20136.7 1.2\u201310.6 1.3\u201311.7 1.7\u201322.3 2.6\u201323.0 FIGURE 294-4 A. Death (D), myocardial infarction (MI), or need for urgent revascularization (UR) through 6 weeks by Thrombolysis in Myocardial Infarction (TIMI) Risk Score in the unfractionated heparin arm of the TIMI 11B trial. (From EM Antman et al: JAMA 284:835, 2000.) B. Mortality rate at 42 days by baseline cardiac troponin I levels in the TIMI 3B trial. (From EM Antman et al: N Engl J Med 335:1342, 1996.) <100 mmHg, or the dose reaches 200 \u03bcg/min. Topical or oral nitrates (Chap. 293) can be used when the pain has resolved, or they may replace intravenous nitroglycerin when the patient has been pain-free for 12\u201324 h. The only absolute contraindications to the use of nitrates are hypotension or the use of sildenafil or other phosphodiesterase-5 inhibitors within the previous 24\u201348 h."
+        },
+        {
+            "id": "InternalMed_Harrison_27562",
+            "title": "InternalMed_Harrison",
+            "content": "Primary-prevention trials also suggest an early increase in cardiovascular risk and an absence of cardioprotection with postmenopausal HT. In the WHI, women assigned to 5.6 years of estrogen-progestin therapy were 18% more likely to develop CHD (defined in primary analyses as nonfatal myocardial infarction or coronary death) than those assigned to placebo, although this risk elevation was not statistically significant. However, during the trial\u2019s first year, there was a significant 80% increase in risk, which diminished in subsequent years (p for trend by time = .03). In the estrogen-only arm of the WHI, no overall effect on CHD was observed during the 7.1 years of the trial or in any specific year of follow-up. This pattern of results was similar to that for the outcome of total myocardial infarction."
+        },
+        {
+            "id": "InternalMed_Harrison_18305",
+            "title": "InternalMed_Harrison",
+            "content": "Diminishing returns with Intervention at early stages of HF advanced disease most successful since sudden death diminishes as cause of death with advanced HF Timing of benefits LVEF should be evaluated on optimal medical therapy or after revascularization before ICD therapy is employed; no benefit to ICD implant within 40 days of an MI (unless for secondary prevention) Estimation of benefits and Patients and clinicians often over- prognosis estimate benefits of ICDs; an ICD discharge is not equivalent to an episode of sudden death (some ventricular arrhythmias terminate spontaneously); appropriate ICD discharges are associated with a worse near-term prognosis Abbreviations: HF, heart failure; ICD, implantable cardioverter-defibrillator; LVD, left ventricular disease; LVEF, left ventricular ejection fraction; MI, myocardial infarction."
+        },
+        {
+            "id": "InternalMed_Harrison_9333",
+            "title": "InternalMed_Harrison",
+            "content": "Prasugrel was compared with clopidogrel in 13,608 patients with acute coronary syndromes who were scheduled to undergo percutaneous coronary intervention. The incidence of the primary efficacy endpoint, a composite of cardiovascular death, MI, or stroke, was significantly lower with prasugrel than with clopidogrel (9.9% and 12.1%, respectively), mainly reflecting a reduction in the incidence of nonfatal MI. The incidence of stent thrombosis also was significantly lower with prasugrel (1.1% and 2.4%, respectively). However, these advantages were at the expense of significantly higher rates of fatal bleeding (0.4% and 0.1%, respectively) and life-threatening bleeding (1.4% and 0.9%, respectively) with prasugrel. Because patients older than age 75 years and those with a history of prior stroke or transient ischemic attack have a particularly high risk of bleeding, prasugrel should generally be avoided in older patients, and the drug is contraindicated in those with a history of"
+        },
+        {
+            "id": "InternalMed_Harrison_19387",
+            "title": "InternalMed_Harrison",
+            "content": "Investigation 2 Diabetes (BARI 2D) trials have shown that initial revascularization does not lead to better outcomes and can be safely delayed until symptoms worsen or evidence of severe ischemia on noninvasive testing occurs. When revascularization is indicated, the choice of PCI or CABG depends on a number of clinical and anatomic factors (Fig. 296e-4). The Synergy between Percutaneous Coronary Intervention with Taxus and Cardiac Surgery (SYNTAX) trial compared PCI with the paclitaxel drug-eluting stent to CABG in 1800 patients with three-vessel coronary disease or left main disease. The study found no difference in death or myocardial infarction at 1 year, but repeat revascularization was signifi-296e-3 cantly higher in the stent-treated group (13.5 vs. 5.9%), while stroke was significantly higher in the surgical group (2.2 vs. 0.6%). The primary endpoint of death, myocardial infarction, stroke, or revascularization was significantly better with CABG, particularly in those with the"
+        },
+        {
+            "id": "InternalMed_Harrison_21046",
+            "title": "InternalMed_Harrison",
+            "content": "category accounts for the largest number of events per year. CHF, con- However, many of the early deaths are nonsudden, diluting the poten gestive heart failure; EF, ejection fraction; MI, myocardial infarction; VT, tial benefit of strategies targeted specifically to SCD. Thus, although ventricular tachycardia. (After RJ Myerburg et al: Circulation 85:2, 1992.) post-MI beta blocker therapy has an identifiable benefit for both early SCD and nonsudden mortality risk, a total mortality benefit for implantable cardioverter-defibrillator (ICD) therapy early after MI has not been observed. 1767 A100 40 50 30 20 10 0 5\u201310%Arrhythmic risk markers 7\u201315%Hemodynamic risk markers \u02dc20%Acute M.I.; unstable AP \u00b030%Know disease; low power or non-specific markers ~50%First clinical event"
+        },
+        {
+            "id": "InternalMed_Harrison_9344",
+            "title": "InternalMed_Harrison",
+            "content": "syndrome with aspirin alone for secondary prevention in patients with ischemic who underwent percutaneous coronary intervention or cardiac sur-stroke. Vascular death, stroke, or MI occurred in 13% of patients gery. Based on these observations, some guidelines give ticagrelor given combination therapy and in 16% of those treated with aspirin preference over clopidogrel, particularly in higher risk patients. alone. Another trial randomized 20,332 patients with noncardioembolic ischemic stroke to either Aggrenox or clopidogrel. The primarydosing Ticagrelor is initiated with an oral loading dose of 180 mg efficacy endpoint of recurrent stroke occurred in 9.0% of those given followed by 90 mg twice daily. The dose does not require adjustment Aggrenox and in 8.8% of patients treated with clopidogrel. Althoughin patients with renal impairment, but the drug should be used with this difference was not statistically significant, the study failed to meet caution in patients with hepatic disease"
+        },
+        {
+            "id": "InternalMed_Harrison_18282",
+            "title": "InternalMed_Harrison",
+            "content": "the primary outcome measure of the combined risk of death or hospitalization for heart failure requiring intravenous treatment. The risk of angioedema was notably higher with omapatrilat than ACEIs alone. LCZ696 and ARB with an endopeptidase inhibitor have shown benefit in a large trial versus ARB alone."
+        },
+        {
+            "id": "InternalMed_Harrison_19598",
+            "title": "InternalMed_Harrison",
+            "content": "Currently, in practical terms, the presence of comorbidities often 1625 influences the selection of antihypertensive agents. A meta-analysis of more than 30 randomized trials of blood pressure\u2013lowering therapy indicates that for a given reduction in blood pressure, the major drug classes seem to produce similar overall net effects on total cardiovascular events. In both non-diabetic and diabetic hypertensive patients, most trials have failed to show significant differences in cardiovascular outcomes with different drug regimens as long as equivalent decreases in blood pressure were achieved. For example, the Antihypertensive and Lipid-Lowering Treatment to Prevent Heart Attack Trial (ALLHAT) demonstrated that the occurrence of CHD and nonfatal myocardial infarction, as well as overall mortality, was virtually identical in hypertensive patients treated with either an ACEI (lisinopril), a diuretic (chlorthalidone), or a calcium antagonist (amlodipine)."
+        },
+        {
+            "id": "InternalMed_Harrison_19259",
+            "title": "InternalMed_Harrison",
+            "content": "The term acute myocardial infarction (MI) should be used when there is evidence of myocardial necrosis in a clinical setting consistent with acute myocardial ischemia. Under these conditions, any one of the following criteria meets the diagnosis for MI: \u2022 Detection of a rise and/or fall of cardiac biomarker values (preferably cardiac troponin [cTn]) with at least one value above the 99th percentile upper reference limit (URL) and with at least one of the following: of pathologic Q waves in the electrocardiogram (ECG) evidence of new loss of viable myocardium or new regional wall death with symptoms suggestive of myocardial ischemia and presumed new ischemic ECG changes of new LBBB, but death occurred before cardiac biomarkers were obtained or before cardiac biomarker values would be increased."
+        },
+        {
+            "id": "InternalMed_Harrison_19388",
+            "title": "InternalMed_Harrison",
+            "content": "higher in the surgical group (2.2 vs. 0.6%). The primary endpoint of death, myocardial infarction, stroke, or revascularization was significantly better with CABG, particularly in those with the most extensive coronary artery disease. The 3-year results confirm these findings. The Future Revascularization Evaluation in Patients With Diabetes Mellitus: Optimal Management of Multivessel Disease (FREEDOM) trial randomized 1900 patients with diabetes and multivessel disease and showed a significantly lower primary endpoint of death, myocardial infarction, or stroke with CABG than PCI. These studies support CABG for those with the most severe left main and three-vessel disease or those with diabetes. Lesser degrees of multivessel disease in patients with or without diabetes have an equal outcome with PCI."
+        },
+        {
+            "id": "InternalMed_Harrison_19022",
+            "title": "InternalMed_Harrison",
+            "content": "PART 10 Disorders of the Cardiovascular System FIGuRE 291e-5 The Cholesterol Treatment Trialists Collaboration meta-analyzed 27 randomized clinical trials evaluating statin therapy. They found profound decreases in both major vascular events and vascular death (not shown) proportional to the magnitude of low-density lipoprotein (LDL) cholesterol reduction achieved with statin treatment. This diagram shows the results of this meta-analysis for vascular death. (From Lancet 380:581, 2012.) and Estrogen/Progestin Replacement Study (HERS), postmenopausal female survivors of acute MI were randomized to an estrogen/progestin combination or to placebo. This study showed no overall reduction in recurrent coronary events in the active treatment arm. Indeed, early in the 5-year course of this trial, a trend occurred toward an increase"
+        },
+        {
+            "id": "Pharmacology_Katzung_100",
+            "title": "Pharmacology_Katzung",
+            "content": "or not exposed to the drugs in question. Such epidemiologic studies add weight to conjectures but cannot control all confounding variables and therefore cannot conclusively prove cause and effect. Meta-analyses utilize rigorous evaluation and grouping of sim-ilar studies to increase the number of subjects studied and hence the statistical power of results obtained in multiple published studies. While the numbers may be dramatically increased by meta-analysis, the individual studies still suffer from their varying methods and end points, and a meta-analysis cannot prove cause and effect. Large randomized controlled trials (RCTs) are designed to answer specific questions about the effects of medications on clinical end points or important surrogate end points, using large enough samples of patients and allocating them to con-trol and experimental treatments using rigorous randomization methods. Randomization is the best method for distributing all foreseen confounding factors, as well"
+        },
+        {
+            "id": "InternalMed_Harrison_9335",
+            "title": "InternalMed_Harrison",
+            "content": "When prasugrel was compared with clopidogrel in 7243 patients with unstable angina or MI without ST-segment elevation, prasugrel failed to reduce the rate of the primary efficacy endpoint, which was a composite of cardiovascular death, MI, and stroke. Because of the negative results of this study, prasugrel is reserved for patients undergoing percutaneous coronary intervention. In this setting, prasugrel is usually given in conjunction with aspirin. To reduce the risk of bleeding, the daily aspirin dose should be \u2264100 mg."
+        },
+        {
+            "id": "InternalMed_Harrison_18260",
+            "title": "InternalMed_Harrison",
+            "content": "properties that are vasodilators in action. This makes the drug unsuitable in states of low output in the setting of hypotension. Two trials, the second Randomized Multicenter Evaluation of Intravenous Levosimendan Efficacy (REVIVE II) and Survival of Patients with Acute Heart Failure in Need of Intravenous Inotropic Support (SURVIVE), have tested this agent in ADHF. SURVIVE compared levosimendan with dobutamine, and despite an initial reduction in circulating B-type natriuretic peptide levels in the levosimendan group compared with patients in the dobutamine group, this drug did not reduce all-cause mortality at 180 days or affect any secondary clinical outcomes. The second trial compared levosimendan against traditional noninotropic therapy and found a modest improvement in symptoms with worsened short-term mortality and ventricular arrhythmias. Another drug that functions as a selective myosin activator, omecamtiv mecarbil, prolongs the ejection period and increases fractional"
+        },
+        {
+            "id": "InternalMed_Harrison_18321",
+            "title": "InternalMed_Harrison",
+            "content": "trials of HFrEF, patients from southwest Europe have a lower incidence of ischemic cardiomyopathy and those in North America tend to have more diabetes and prior coronary revascularization. There is also regional variation in medication use even after accounting for indication. In trials of ADHF, patients in Eastern Europe tend to be younger, with higher ejection fractions and lower natriuretic peptide levels. Patients from South America tend to have the lowest rates of comorbidities, revascularization, and device use. In contrast, patients from North America have the highest comorbidity burden with high revascularization and device use rates. Given geographic differences in baseline characteristics and clinical outcomes, the generalizability of therapeutic outcomes in patients in the United States and Western Europe may require verification."
+        },
+        {
+            "id": "InternalMed_Harrison_19025",
+            "title": "InternalMed_Harrison",
+            "content": "in vascular events in the treated women. Extended follow-up of this cohort did not disclose an accrual of benefit in the treatment group. The Women\u2019s Health Initiative (WHI) study arm, using a similar estrogen plus progesterone regimen, was halted due to a small but significant hazard of cardiovascular events, stroke, and breast cancer. The estrogen without progestin arm of WHI (conducted in women without a uterus) was stopped early due to an increase in strokes, and failed to afford protection from MI or CHD death during observation over 7 years. The excess cardiovascular events in these trials may result from an increase in thromboembolism (Chap. 413). Physicians should work with women to provide information and help weigh the small but evident CHD risk of estrogen \u00b1 progestin versus the benefits for postmenopausal symptoms and osteoporosis, taking personal preferences into account. Post hoc analyses of observational studies suggest that estrogen therapy in women younger than or"
+        },
+        {
+            "id": "Pharmacology_Katzung_3806",
+            "title": "Pharmacology_Katzung",
+            "content": "The paradigm shift in 1980 on the causation of acute myo-cardial infarction to acute coronary occlusion by a thrombus created the rationale for thrombolytic therapy of this com-mon lethal disease. At that time\u2014and for the first time\u2014 intravenous thrombolytic therapy for acute myocardial infarction in the European Cooperative Study Group trial was found to reduce mortality. Later studies, with thousands of patients in each trial, provided enough statistical power for the 20% reduction in mortality to be considered statisti-cally significant. Although the standard of care in areas with adequate facilities and experience in percutaneous coronary intervention (PCI) now favors catheterization and placement of a stent, thrombolytic therapy is still very important where PCI is not readily available. The proper selection of patients for thrombolytic therapy is critical. The diagnosis of acute myocardial infarction is made clinically and is confirmed by electrocardiography. Patients with"
+        },
+        {
+            "id": "Surgery_Schwartz_7911",
+            "title": "Surgery_Schwartz",
+            "content": "[2.74, 14.88]11.48 [2.63, 50.13]10.83 [3 .79, 30.96]4.25 [1.92, 9.38]30.08 [10.28, 88.06]8.11 [2.37, 27.84]6.44 [1.65, 25.21]5.73 [2.28, 14.42]8.44 [2.46, 29.01]8.45 [6.44, 11.10]SurgeryGlyc. Endp. NMedical/LifestyleGlyc. Endp. NHeterogeneity: Chi2 = 45 .43, df = 14 (P < 0.0001); I2 = 69%Test for overall effect: Z = 15.36 (P < 0.00001)FavorsMedical/Lifestyle0.0010.11011000FavorsSurgeryIncreasing Length of Follow-UpFigure 27-27. Glycemic endpoints of RCTs by length of follow-up. Forest plot of Peto odds ratios (ORs) of main glycemic end points, as defined in each trial, from published RCTs of bariatric/metabolic surgery compared with medical/lifestyle treatments for diabetes with data arranged in order of increasing length of follow-up. (Reproduced with permission from Cummings DE, Cohen RV: Bariatric/Metabolic Surgery to Treat Type 2 Diabetes in Patients With a BMI <35 kg/m2, Diabetes Care. 2016 Jun;39(6):924-933.)Brunicardi_Ch27_p1167-p1218.indd 120223/02/19 2:21 PM 1203THE"
+        },
+        {
+            "id": "InternalMed_Harrison_18271",
+            "title": "InternalMed_Harrison",
+            "content": "were receiving background beta blocker therapy was associated with an increase in adverse events without any added benefit compared with 1512 monotherapy for either group. Thus, the initial clinical strategy should be to use a two-drug combination first (ACEI and beta blocker; if beta blocker intolerant, then ACEI and ARB; if ACEI intolerant, then ARB and beta blocker). In symptomatic patients (NYHA class II\u2013IV), an aldosterone antagonist should be strongly considered, but four-drug therapy should be avoided. A recent trial called the Aliskiren Trial on Acute Heart Failure Outcomes (ASTRONAUT) tested a direct renin inhibitor, aliskiren, in addition to other heart failure medications, within a week after discharge from a hospitalization for decompensated HFrEF. No significant difference in cardiovascular death or hospitalization at 6 or 12 months was noted. Aliskiren was associated with a reduction in circulating natriuretic peptides, but any disease-modifying effect was overcome by"
+        },
+        {
+            "id": "InternalMed_Harrison_19306",
+            "title": "InternalMed_Harrison",
+            "content": "As noted previously (see \u201cManagement in the Emergency Department\u201d earlier), aspirin is the standard antiplatelet agent for patients with STEMI. The most compelling evidence for the benefits of antiplatelet therapy (mainly with aspirin) in STEMI is found in the comprehensive overview by the Antiplatelet Trialists\u2019 Collaboration. Data from nearly 20,000 patients with MI enrolled in 15 randomized trials were pooled and revealed a relative reduction of 27% in the mortality rate, from 14.2% in control patients to 10.4% in patients receiving antiplatelet agents."
+        },
+        {
+            "id": "Surgery_Schwartz_7868",
+            "title": "Surgery_Schwartz",
+            "content": "primary endpoint of the study) from any cause compared to usual care, with the most common causes of death being cancer and myocardial infarction196-201 (see Table 27-6).Utah Obesity Studies. Another important long-term obser-vational study performed in Utah from 1984 to 2002 included 7925 people who had undergone RYGB and 7925 weight, age, and sex matched controls. This study showed a 40% reduction in all-cause mortality (hazard ratio 0.60, 0.45 to 0.67; P <0.001) and a 49% (0.51, 0.36 to 0.73; P <0.001) and 92% (0.08, 0.01 to 0.47; P = 0.005) reduction in death from cardiovascular disease and death related to T2DM, respectively, at an average of 7.1 years later.202A separate ongoing prospective Utah Obesity Study involving over 400 RYGB cases and two nonrandomized, matched control groups\u2014each with over 400 and 300 severely obese subjects (one group were people seeking surgery that did not undergo operation; the other was a population-based severely obese control group)\u2014has found"
+        },
+        {
+            "id": "InternalMed_Harrison_21085",
+            "title": "InternalMed_Harrison",
+            "content": "Post-MI patients with EFs <35% and other markers of risk such as ambient ventricular arrhythmias, inducible ventricular tachyarrhythmias in the electrophysiology laboratory, and a history of heart failure are considered candidates for ICDs 40 days or more after the MI. Total mortality benefits in the range of a 20\u201335% reduction over 2\u20135 years have been observed in a series of clinical trials. One study suggested that an EF <30% was a sufficient marker of risk to indicate ICD benefit, and another demonstrated benefit for patients with Functional Class 2 or 3 heart failure and EFs \u226435%, regardless of etiology (ischemic or nonischemic) or the presence of ambient or induced arrhythmias (Chaps. 277 and 279). For patients with newly diagnosed heart failure and an EF <35%, the required delay between diagnosis and institution of medical therapy, and subsequent implantation of an ICD, is 90 days. In general, there appears to be a gradient of increasing ICD benefit with EFs ranging lower than"
+        },
+        {
+            "id": "InternalMed_Harrison_9332",
+            "title": "InternalMed_Harrison",
+            "content": "The combination of clopidogrel and aspirin is also effective in patients with unstable angina. Thus, in 12,562 such patients, the risk of cardiovascular death, MI, or stroke was 9.3% in those randomized to the combination of clopidogrel and aspirin and 11.4% in those given aspirin alone. This 20% relative risk reduction with combination therapy was highly statistically significant. However, combining clopidogrel with aspirin increases the risk of major bleeding to about 2% per year. This bleeding risk persists even if the daily dose of aspirin is \u2264100 mg. Therefore, the combination of clopidogrel and aspirin should only be used when there is a clear benefit. For example, this combination has not proven to be superior to clopidogrel alone in patients with acute ischemic stroke or to aspirin alone for primary prevention in those at risk for cardiovascular events."
+        },
+        {
+            "id": "InternalMed_Harrison_19280",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 295-4 Reperfusion therapy for patients with ST-segment elevation myocardial infarction (STEMI). The bold arrows and boxes are the preferred strategies. Performance of percutaneous coronary intervention (PCI) is dictated by an anatomically appropriate culprit stenosis. *Patients with cardiogenic shock or severe heart failure initially seen at a non\u2013PCI-capable hospital should be transferred for cardiac catheterization and revascularization as soon as possible, irrespective of time delay from myocardial infarction (MI) onset (Class I, LOE: B). \u2020Angiography and revascularization should not be performed within the first 2 to 3 hours after administration of fibrinolytic therapy. CABG, coronary artery bypass graft; DIDO, door-in\u2013door-out; FMC, first medical contact; LOE, level of evidence; STEMI, ST-elevation myocardial infarction. (Adapted with permission from P O\u2019Gara et al: Circulation 127:e362, 2013.) relative contraindications to beta blockade (PR interval greater than 0.24"
+        }
+    ],
+    "scores": [
+        0.037226400025422574,
+        0.032099110261239905,
+        0.029413649531715023,
+        0.02831379151586029,
+        0.02799094659140993,
+        0.023446478830351357,
+        0.023180898108518262,
+        0.02304003408940085,
+        0.02249831940843177,
+        0.02158959745072375,
+        0.018533687475923037,
+        0.018207282913165264,
+        0.01675077095598542,
+        0.016405517610820944,
+        0.01588901405110571,
+        0.015852130325814534,
+        0.0155011655011655,
+        0.015356661391477639,
+        0.015223542727787209,
+        0.01514161220043573,
+        0.015123088293820003,
+        0.01501831501831502,
+        0.014697120158887786,
+        0.014675841307386302,
+        0.014553770986017985,
+        0.014525835235526044,
+        0.014499275036248187,
+        0.01435897435897436,
+        0.014320521107851425,
+        0.014303959131545339,
+        0.013945578231292517,
+        0.013883587786259543
+    ]
+}

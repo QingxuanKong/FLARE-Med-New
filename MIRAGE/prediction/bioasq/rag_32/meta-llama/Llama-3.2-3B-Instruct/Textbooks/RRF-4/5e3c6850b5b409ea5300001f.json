@@ -1,0 +1,206 @@
+{
+    "id": "5e3c6850b5b409ea5300001f",
+    "question": "Is bortezomib a Proteasome inhibitor?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine if bortezomib is a proteasome inhibitor, we need to analyze the given documents and look for evidence that links bortezomib to the proteasome. According to Document [1] (Title: InternalMed_Harrison), bortezomib is an inhibitor of the proteasome, the multisubunit assembly of protease activities responsible for the selective degradation of proteins important in regulating activation of transcription factors, including nuclear factor-\\\\u00b1B (NF-\\\\u00b1B) and proteins regulating cell cycle progression. This suggests that bortezomib indeed targets the proteasome. Additionally, Document [2] (Title: Pharmacology_Katzung) states that bortezomib exerts its main cytotoxic effects through inhibition of the 26S proteosome, resulting in downregulation of the nuclear factor kappa B (NF-\\\\u00b1B) signaling pathway. This further confirms that bortezomib is a proteasome inhibitor. Based on the evidence from these documents, we can conclude that bortezomib is a proteasome inhibitor.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_6134",
+            "title": "InternalMed_Harrison",
+            "content": "toxic to tumor cells. The antitumor effects of proteasome inhibitors are more complicated and involve the inhibition of the degradation of multiple cellular proteins. Proteasome inhibitors (e.g., bortezomib [Velcade]) have activity in patients with multiple myeloma, including partial and complete remissions. Inhibitors of IKK are also in development, with the hope of more selectively blocking the degradation of I\u03baB, thus \u201clocking\u201d NF-\u03baB in an inhibitory complex and rendering the cancer cell more susceptible to apoptosis-inducing agents. Many other transcription factors are activated by phosphorylation, which can be prevented by tyrosine kinase inhibitors or serine/threonine kinase inhibitors, a number of which are currently in clinical trials."
+        },
+        {
+            "id": "InternalMed_Harrison_6382",
+            "title": "InternalMed_Harrison",
+            "content": "In hematologic neoplasms, bortezomib is an inhibitor of the proteasome, the multisubunit assembly of protease activities responsible for the selective degradation of proteins important in regulating activation of transcription factors, including nuclear factor-\u03baB (NF-\u03baB) and proteins regulating cell cycle progression. It has activity in multiple myeloma and certain lymphomas. Adverse effects include neuropathy, orthostatic hypotension with or without hyponatremia, and reversible thrombocytopenia. Carfilzomib is a proteasome inhibitor chemically unrelated to bortezomib without prominent neuropathy, but with evidence of a cytokine release syndrome, which can be a cardiopulmonary stress. Other agents active in multiple myeloma and certain other hematologic neoplasms include the immunomodulatory agents related to thalidomide, including lenalidomide and pomalidomide. All these agents collectively inhibit aberrant angiogenesis in the bone marrow microenvironment, as well as influence"
+        },
+        {
+            "id": "Pharmacology_Katzung_6010",
+            "title": "Pharmacology_Katzung",
+            "content": "Bortezomib was first approved for use in relapsing or refractory multiple myeloma and is now widely used as first-line therapy. This agent is thought to exert its main cytotoxic effects through inhibition of the 26S proteosome, resulting in downregulation of the nuclear factor kappa B (NF-\u03baB) signaling pathway, which is thought to be a major signaling pathway for this disease. Of note, inhibition of NF-\u03baB has also been shown to restore chemosensitivity. One potential advantage of bortezomib is that it can be administered by the intravenous or subcutaneous route. Carfilzomib is an epoxyketone 26S proteosome inhibitor that is approved for patients with multiple myeloma who have received at least two prior therapies, including bortezomib and an immunomodulatory agent. This agent is important as it is able to overcome resistance to bortezomib, and preclinical and clinical studies suggest that it has broad-spectrum activity in hematologic malignancies and solid tumors. Ixazomib is the"
+        },
+        {
+            "id": "Pharmacology_Katzung_6011",
+            "title": "Pharmacology_Katzung",
+            "content": "as it is able to overcome resistance to bortezomib, and preclinical and clinical studies suggest that it has broad-spectrum activity in hematologic malignancies and solid tumors. Ixazomib is the newest proteosome inhibitor to be approved in multiple myeloma, and in contrast to the other proteosome inhibitors, it is orally administered with good oral bioavailability. This agent can cause peripheral sensory neuropathy, but it is also associated with GI toxicity in the form of diarrhea and nausea and vomiting, thrombocytopenia, and hepatotoxicity."
+        },
+        {
+            "id": "InternalMed_Harrison_8917",
+            "title": "InternalMed_Harrison",
+            "content": "Relapsed myeloma can be treated with a number of agents including lenalidomide and/or bortezomib. These agents in combination with dexamethasone can achieve a partial response rate of up to 60% and a 10\u201315% complete response rate in patients with relapsed disease. The combination of bortezomib and liposomal doxorubicin is active in relapsed myeloma. Thalidomide, if not used as initial therapy, can achieve responses in refractory cases. The second-generation proteasome inhibitor carfilzomib and immunomodulatory agent pomalidomide have shown efficacy in relapsed and refractory MM, even MM refractory to lenalidomide and bortezomib. High-dose melphalan and stem cell transplantation, if not used earlier, also have activity as salvage therapy in patients with refractory disease."
+        },
+        {
+            "id": "InternalMed_Harrison_8908",
+            "title": "InternalMed_Harrison",
+            "content": "Thalidomide (200 mg daily), when combined with dexamethasone, achieved responses in two-thirds of newly diagnosed MM patients. Subsequently, lenalidomide (25 mg/d on days 1\u201321 every 4 weeks), an immunomodulatory derivative of thalidomide, and bortezomib (1.3 mg/m2 on days 1, 4, 8, and 11 every 3 weeks), a proteasome inhibitor, have each been combined with dexamethasone (40 mg once every week) and obtained high response rates (>80%) in newly diagnosed patients with MM. Importantly, their superior toxicity profile with improved efficacy has made them the preferred agents for induction therapy. Efforts to improve the fraction of patients responding and the degree of response have involved adding agents to the treatment regimen. The combination of lenalidomide, bortezomib, and dexamethasone achieves close to a 100% response rate and 30% complete response rate, making it one of the preferred induction regimens in transplant-eligible patients. Other similar three-drug combinations"
+        },
+        {
+            "id": "InternalMed_Harrison_8912",
+            "title": "InternalMed_Harrison",
+            "content": "survival (3-year survival 72 vs 59%) were observed with the combination of bortezomib and MP compared with MP alone. Lenalidomide added to MP followed by lenalidomide maintenance also prolonged progression-free survival compared with MP alone. These combinations of novel agents with MP also achieve high complete response rates (MPT, ~15%; MP plus bortezomib, ~30%; MP plus lenalidomide, ~20%; and MP, ~2\u20134%). Although combinations of MP with newer agents are an alternative in these patients, most studies favor continuous therapy with nonMP-containing regimens (e.g., lenalidomide plus dexamethasone) due to longer term safety profile and efficacy."
+        },
+        {
+            "id": "InternalMed_Harrison_7111",
+            "title": "InternalMed_Harrison",
+            "content": "The main effort now is the evaluation of combinations of the compounds listed in Tables 111-7 to 111-9 that target different pathways, as well as the combination of any of these targeted therapies, but especially sorafenib, with TACE or 90Yttrium radioembolization. Combining TACE with sorafenib appears to be safe in phase II studies with promising survival data, but randomized studies are still in progress. The same is true for intra-arterial 90Yttrium plus sorafenib as therapy for HCC and as bridge to transplant therapy. Ubiquitin-proteasome Bortezomib Abbreviations: EGF, epidermal growth factor; FGF1, fibroblast growth factor 1; IGF-I, insulin-like growth factor I; PDGF, platelet-derived growth factor; VEGF, vascular endothelial growth factor."
+        },
+        {
+            "id": "Surgery_Schwartz_2438",
+            "title": "Surgery_Schwartz",
+            "content": "cell killing, and (c) induction of apoptotic cell death. The use of Brunicardi_Ch11_p0355-p0396.indd 36201/03/19 6:53 PM 363TRANSPLANTATIONCHAPTER 11rituximab has grown to include the treatment of antibody-mediated rejection and use in desensitization protocols. Studies so far have been small, with rituximab usually used in conjunc-tion with plasmapheresis, steroids, and intravenous immuno-globulin (IVIG).33-35BortezomibA proteasome inhibitor, bortezomib is FDA approved for treat-ing multiple myeloma. It can directly target plasma cells. Tradi-tional treatments have been successful in removing antibodies, inhibiting antibody activity, or lowering antibody production; however, targeting mature antibody production in plasma cells has not met with success. Bortezomib has been shown to cause apoptosis of normal plasma cells, thereby decreasing alloan-tibody production in sensitized patients. Several case reports and series have described the use of bortezomib for the treat-ment of"
+        },
+        {
+            "id": "InternalMed_Harrison_8968",
+            "title": "InternalMed_Harrison",
+            "content": "For patients with impaired cardiac function or arrhythmias due to amyloid involvement of the myocardium, the median survival period is only ~6 months without treatment. In these patients, cardiac transplantation can be performed and followed by HDM/SCT to eliminate the noxious clone and prevent amyloid deposition in the transplanted heart or other organs. Novel anti\u2013plasma cell agents have been investigated for treatment of plasma cell diseases. The immunomodulators thalidomide, lenalidomide, and pomalidomide display activity; dosing may need to be adjusted compared to their usage for myeloma. The proteasome inhibitor bortezomib has also been found to be effective in single-center and multicenter trials. Anti-fibril small molecules and humanized monoclonal antibodies are also being tested. Clinical trials are essential in improving therapy for this rare disease."
+        },
+        {
+            "id": "First_Aid_Step1_485",
+            "title": "First_Aid_Step1",
+            "content": "clInIcal USe Non-Hodgkin lymphoma, CLL, ITP, rheumatoid arthritis, TTP, AIHA. adVeRSe eFFectS \u008f risk of progressive multifocal leukoencephalopathy. Bortezomib, carfilzomib mechanISm Proteasome inhibitors, induce arrest at G2-M phase and apoptosis. clInIcal USe Multiple myeloma, mantle cell lymphoma. adVeRSe eFFectS Peripheral neuropathy, herpes zoster reactivation. Tamoxifen, raloxifene mechanISm Selective estrogen receptor modulators (SERMs)\u2014receptor antagonists in breast and agonists in bone. Block the binding of estrogen to ER \u2295 cells. clInIcal USe Breast cancer treatment (tamoxifen only) and prevention. Raloxifene also useful to prevent osteoporosis."
+        },
+        {
+            "id": "InternalMed_Harrison_8883",
+            "title": "InternalMed_Harrison",
+            "content": "Some commonly used therapeutic agents, e.g., dexamethasone, suppress immune responses and increase susceptibility to bacterial and fungal infection, and bortezomib predisposes to herpesvirus reactivation."
+        },
+        {
+            "id": "InternalMed_Harrison_7113",
+            "title": "InternalMed_Harrison",
+            "content": "EGF receptor antagonists: erlotinib, gefitinib, lapatinib, cetuximab, brivanib Multikinase antagonists: sorafenib, sunitinib VEGF antagonist: bevacizumab VEGFR antagonist: ABT-869 (linifanib) mTOR antagonists: sirolimus, temsirolimus, everolimus Proteasome inhibitors: bortezomib Vitamin K 131I\u2013Ethiodol (lipiodol) 131I\u2013Ferritin 90Yttrium microspheres (TheraSphere, SIR-Spheres) 166Holmium, 188Rhenium Three-dimensional conformal radiation Proton beam high-dose radiotherapy Gamma knife, CyberKnife New targets: inhibitors of cyclin dependent kinases (Cdk), TRAIL induction caspases, and stem cells Abbreviations: EGF, epidermal growth factor; mTOR, mammalian target of rapamycin; VEGF, vascular endothelial growth factor; VEGFR, vascular endothelial growth factor receptor."
+        },
+        {
+            "id": "InternalMed_Harrison_6161",
+            "title": "InternalMed_Harrison",
+            "content": "with subsequent degradation of I\u03baB by the proteasome. Inhibition of IKK activity should selectively block the activation of NF-\u03baB target genes, many of which promote cell survival. Inhibitors of proteasome function are Food and Drug Administration approved and may work in part by preventing destruction of I\u03baB, thus blocking NF-\u03baB nuclear localization. NF-\u03baB is unlikely to be the only target for proteasome inhibitors."
+        },
+        {
+            "id": "Immunology_Janeway_1228",
+            "title": "Immunology_Janeway",
+            "content": "Various lines of evidence implicate the proteasome in the production of peptide ligands for MHC class I molecules. Experimentally tagging proteins with ubiquitin results in more efficient presentation of their peptides by MHC class I molecules, and inhibitors of the proteolytic activity of the proteasome inhibit antigen presentation by MHC class I molecules. Whether the proteasome is the only cytosolic protease capable of generating peptides for transport into the endoplasmic reticulum is not known."
+        },
+        {
+            "id": "Pathology_Robbins_2868",
+            "title": "Pathology_Robbins",
+            "content": "The prognosis is variable. Patients with multiple bony lesions, if untreated, rarely survive for more than 6 to 12 months, whereas patients with \u201csmoldering myeloma\u201d may be asymptomatic for many years. The median survival is 4 to 7 years. Although cures have yet to be achieved, new therapies offer hope. Myeloma cells are sensitive to inhibitors of the proteasome, a cellular organelle that degrades unwanted and misfolded proteins. As discussed in Chapter 2, misfolded proteins activate apoptotic pathways, and myeloma cells are prone to the accumulation of misfolded, unpaired immunoglobulin chains. Proteasome inhibitors likely induce myeloma cell death by exacerbating this inherent tendency. The thalidomide-like compound lenalidomide also is effective in treating myeloma, but through a different mechanism that involves its ability to stimulate the degradation of specific proteins with oncogenic activities. Biphosphonates, drugs that inhibit bone resorption, reduce pathologic fractures"
+        },
+        {
+            "id": "InternalMed_Harrison_6384",
+            "title": "InternalMed_Harrison",
+            "content": "Ibrutinib is representative a novel class of inhibitors directed at Bruton\u2019s tyrosine kinase, which is important in the function of B cells. Initially approved for use in mantle cell lymphoma, it is potentially applicable to a number of B cell neoplasms that depend on signals through the B cell antigen receptor. Janus kinases likewise function downstream of a variety of cytokine receptors to amplify cytokine signals, and Janus kinase inhibitors including ruxolitinib have approved activity in myelofibrosis to ameliorate splenomegaly and systemic symptoms. Vorinostat is an inhibitor of histone deacetylases, which are responsible for maintaining the proper orientation of histones on DNA, with resulting capacity for transcriptional readiness. Acetylated histones allow access of transcription factors to target genes and therefore"
+        },
+        {
+            "id": "InternalMed_Harrison_8909",
+            "title": "InternalMed_Harrison",
+            "content": "achieves close to a 100% response rate and 30% complete response rate, making it one of the preferred induction regimens in transplant-eligible patients. Other similar three-drug combinations (bortezomib, thalidomide, and dexamethasone or bortezomib, cyclophosphamide, and dexamethasone) also achieve >90% response rate. Herpes zoster prophylaxis is indicated if bortezomib is used, and neuropathy attendant to bortezomib can be decreased both by its subcutaneous administration and administration on a weekly schedule. Lenalidomide use requires prophylaxis for deep vein thrombosis (DVT) with either aspirin or warfarin or low-molecular-weight heparin if patients are at a greater risk of DVT. In patients receiving lenalidomide, stem cells should be collected within 6 months, because the continued use of lenalidomide may compromise the ability to collect adequate numbers of stem cells. Initial therapy is continued until maximal cytoreduction. In patients who are transplant candidates,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1706",
+            "title": "Cell_Biology_Alberts",
+            "content": "A crucial property of the proteasome, and one reason for the complexity of its design, is the processivity of its mechanism: in contrast to a \u201csimple\u201d protease that cleaves a substrate\u2019s polypeptide chain just once before dissociating, the proteasome keeps the entire substrate bound until all of it is converted into short peptides."
+        },
+        {
+            "id": "Immunology_Janeway_1417",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 6.1 Short Answer: Dendritic cells are capable of efficiently acquiring antigens from exogenous sources and presenting these them to T cells on MHC class I molecules. How is this different from every other cell in the body and why is it important? 6.2 Matching: Match the following terms with the appropriate description: A. Proteasome i. Displace the constitutive \u03b2 subunits of the catalytic chamber as a response to interferons B. 20S core ii. Composed of one catalytic core and two 19S regulatory caps C. LMP2, LMP7, iii. Large cylindrical complex of MECL-1 28 subunits arranged in four stacked rings D. PA28 iv. Targets protein for degradation E. Lysine 48 v. Binds the proteasome and ubiquitin increases the rate of protein release from the proteasome 6.3 True or False: MHC class I surface expression is not affected by the cell\u2019s capacity to transport peptides into the endoplasmic reticulum."
+        },
+        {
+            "id": "InternalMed_Harrison_24699",
+            "title": "InternalMed_Harrison",
+            "content": "Most of the peptides transported by TAP are produced in the cytosol by proteolytic cleavage of intracellular proteins by the multisubunit, multicatalytic proteasome, and inhibitors of the proteasome dramatically reduce expression of class I\u2013presented antigenic Chapter 373e The Major Histocompatibility Complex To cell surface Endoglycosidase H resistant Asn-linked oligosaccharide Endoglycosidase H sensitive Asn-linked oligosaccharide Degradation? alternative to calnexin Peptide trimming gp96TAP-independent peptides PDI Golgi ER lumen HSP70? HC/ribosome ERp57 HSP90?"
+        },
+        {
+            "id": "InternalMed_Harrison_8699",
+            "title": "InternalMed_Harrison",
+            "content": "vincristine, doxorubicin, dexamethasone, cytarabine, and methotrexate), in combination with rituximab, seems to be associated with better response rates, particularly in younger patients. Alternating two regimens, HyperC-VAD with rituximab added (R-HyperC-VAD) and rituximab plus high-dose methotrexate and cytarabine, can achieve complete responses in >80% of patients and an 8-year survival of 56%, comparable to regimens using high-dose therapy and autologous hematopoietic stem cell transplantation. Bendamustine plus rituximab has been found to induce complete responses in about 31% of patients, but the responses are generally not long lasting. Bortezomib and temsirolimus are single agents that induce transient partial responses in a minority of patients and are being added to primary combinations."
+        },
+        {
+            "id": "Histology_Ross_243",
+            "title": "Histology_Ross",
+            "content": "Two groups of pathologic conditions are associated with the malfunction of proteasome-mediated degradation. The frst group of diseases results from a loss of proteasome function because of mutations in the system of ubiquitinactivating enzymes. This leads to a decrease in protein degradation and their subsequent accumulation in the cell cytoplasm (e.g., in Angelman syndrome and Alzheimer\u2019s disease). The second group of diseases results from an accelerated degradation of proteins by overexpressed proteins involved in this system (e.g., infections with human papilloma virus). The recent discovery of specifc proteasome inhibitors holds promise for treatment of cancers and certain viral infections. The protein synthetic system of the cell consists of the rough endoplasmic reticulum and ribosomes."
+        },
+        {
+            "id": "InternalMed_Harrison_8929",
+            "title": "InternalMed_Harrison",
+            "content": "Control of serious hyperviscosity symptoms such as an altered state of consciousness or paresis can be achieved acutely by plasmapheresis because 80% of the IgM paraprotein is intravascular. The median survival of affected individuals is ~50 months, similar to that of MM. However, many patients with WM have indolent disease that does not require therapy. Pretreatment parameters including older age, male sex, general symptoms, and cytopenias define a high-risk population. Treatment is usually not initiated unless the disease is symptomatic or increasing anemia, hyperviscosity, lymphadenopathy, or hepatosplenomegaly is present. Bortezomib and bendamustine are two agents with significant efficacy in WM. Rituximab (anti-CD20) can produce responses, alone or combined with either of these two agents. Rituximab can produce IgM flare, so its use is initially withheld in patients with high IgM levels. Fludarabine (25 mg/m2 per day for 5 days every 4 weeks) and cladribine (0.1 mg/kg per day for"
+        },
+        {
+            "id": "InternalMed_Harrison_8882",
+            "title": "InternalMed_Harrison",
+            "content": "IgG myeloma, normal IgG antibodies are broken down more rapidly than normal because the catabolic rate for IgG antibodies varies directly with the serum concentration. The large M component results in fractional catabolic rates of 8\u201316% instead of the normal 2%. These patients have very poor antibody responses, especially to polysaccharide antigens such as those on bacterial cell walls. Most measures of T-cell function in myeloma are normal, but a subset of CD4+ cells may be decreased. Granulocyte lysozyme content is low, and granulocyte migration is not as rapid as normal in patients with myeloma, probably the result of a tumor product. There are also a variety of abnormalities in complement functions in myeloma patients. All these factors contribute to the immune deficiency of these patients. Some commonly used therapeutic agents, e.g., dexamethasone, suppress immune responses and increase susceptibility to bacterial and fungal infection, and bortezomib predisposes to herpesvirus"
+        },
+        {
+            "id": "InternalMed_Harrison_8911",
+            "title": "InternalMed_Harrison",
+            "content": "In patients who are not transplant candidates due to physiologic age >70 years, significant cardiopulmonary problems, or other comorbid illnesses, the same twoor three-drug combinations described above are considered standard of care as induction therapy. Previously, therapy consisting of intermittent pulses of melphalan, an alkylating agent, with prednisone (MP; melphalan, 0.25 mg/kg per day, and prednisone, 1 mg/kg per day for 4 days) every 4\u20136 weeks was used. However, a number of studies have combined novel agents with MP and reported superior response and survival outcomes. In patients >65 years old, combining thalidomide with MP (MPT) obtains higher response rates and overall survival compared with MP alone. Similarly, significantly improved response (71 vs 35%) and overall survival (3-year survival 72 vs 59%) were observed with the combination of bortezomib and MP compared with MP alone. Lenalidomide added to MP followed by lenalidomide maintenance also prolonged"
+        },
+        {
+            "id": "Surgery_Schwartz_2439",
+            "title": "Surgery_Schwartz",
+            "content": "cause apoptosis of normal plasma cells, thereby decreasing alloan-tibody production in sensitized patients. Several case reports and series have described the use of bortezomib for the treat-ment of antibody-mediated rejection and in desensitization protocols.34,36,37EculizumabA humanized monoclonal antibody with high affinity for C5, eculizumab is a first-in-class, FDA-approved agent for treat-ing paroxysmal nocturnal hemoglobinuria, hemolytic uremic syndrome, and generalized myasthenia gravis. It blocks the activation of the terminal complement cascade. Most antibody-mediated rejection episodes are associated with early comple-ment activation as evidenced on renal transplant biopsies by the presence of C4d+ staining of the peritubular capillaries. Given its highly selective mechanism of action, this agent is predicted to be useful to treat antibody-mediated rejection and to desensi-tize patients pretransplant. However, its serious adverse effects include an increased risk of"
+        },
+        {
+            "id": "Neurology_Adams_10528",
+            "title": "Neurology_Adams",
+            "content": "Antineoplastic drugs (See also Chap. 41.) Among chemotherapeutic agents in current use, particularly cisplatin, carboplatin, and bortezomib, are known to evoke a dose-dependent, predominantly sensory polyneuropathy, which begins several weeks after completion of therapy in at least half of the patients. Proprioception and vibratory sensation are most severely impaired. Some patients develop acrodynia and episodic color changes in the fingertips and toes suggesting that autonomic nerves are also involved; in severe cases there is sensory ataxia and pseudoathetosis. The severity of histopathologic changes in the peripheral nervous system corresponds to the concentration of platinum in these tissues, the highest being found in dorsal root ganglia. Secondary degeneration in the posterior columns is the basis for a Lhermitte symptom reported by some patients."
+        },
+        {
+            "id": "InternalMed_Harrison_21967",
+            "title": "InternalMed_Harrison",
+            "content": "helpful. Most patients respond within 2 weeks of daily plasmapheresis. Since TTP/HUS often has an autoimmune basis, there is an anecdotal role in relapsing patients for using splenectomy, steroids, immunosuppressive drugs, bortezomib, or rituximab, an anti-CD20 antibody. Patients with childhood HUS from infectious diarrhea are not given antibiotics, because antibiotics are thought to accelerate the release of the toxin and the diarrhea is usually self-limited. No intervention appears superior to supportive therapy in children with postdiarrheal HUS."
+        },
+        {
+            "id": "Immunology_Janeway_1227",
+            "title": "Immunology_Janeway",
+            "content": "with a general lack of sequence specificity into short peptides, which are subsequently released into the cytosol. The general degradative functions of the proteasome have been co-opted for antigen presentation, so that MHC molecules have evolved to work with the peptides that the proteasome can produce."
+        },
+        {
+            "id": "InternalMed_Harrison_21797",
+            "title": "InternalMed_Harrison",
+            "content": "Evidence of antibody-mediated injury is present when endothelial injury and deposition of complement component c4d is detected by fluorescence labeling. This is usually accompanied by detection of the antibody in the recipient blood. The prognosis is poor, and aggressive use of plasmapheresis, immunoglobulin infusions, anti-CD20 monoclonal antibody (rituximab) to target B lymphocytes, bortezomib to target antibody-producing plasma cells, and eculizumab to inhibit complement is indicated. The typical times after transplantation when the most common opportunistic infections occur are shown in Table 337-4. Prophylaxis for cytomegalovirus (CMV) and Pneumocystis jiroveci pneumonia is given for 6\u201312 months after transplantation."
+        },
+        {
+            "id": "InternalMed_Harrison_31156",
+            "title": "InternalMed_Harrison",
+            "content": "Drug Mechanism of Neurotoxicity Clinical Features Nerve Histopathology EMG/NCS Vinca alkaloids (vincristine, vinblastine, vindesine, vinorelbine) Taxanes (paclitaxel, docetaxel) Bortezomib (Velcade) Interfere with axonal microtubule assembly; impairs axonal transport Preferential damage to dorsal root ganglia: ? binds to and cross-links DNA ? inhibits protein synthesis ? impairs axonal transport Promotes axonal microtubule assembly; interferes with axonal transport Unknown; ? inhibition of neurotrophic growth factor binding; ? neuronal lysosomal storage Unknown; ? immunomodulating effects Unknown; ? selective Schwann cell toxicity; ? immunomodulating effects Unknown; ? selective dorsal root ganglia toxicity Unknown Symmetric, S-M, large-/ small-fiber PN; autonomic symptoms common; infrequent cranial neuropathies Symmetric, predominantly sensory PN; large-fiber modalities affected more than small-fiber Symmetric, length-dependent, sensory-predominant PN"
+        }
+    ],
+    "scores": [
+        0.03866268345559782,
+        0.03865907484262313,
+        0.038587961458320524,
+        0.03807827871357077,
+        0.03625996441530422,
+        0.035739276795207366,
+        0.03517730104434872,
+        0.034565787306047924,
+        0.028415031570371375,
+        0.027692830445124023,
+        0.027294512341241313,
+        0.026388688153394034,
+        0.024878207940954758,
+        0.024671952185308182,
+        0.02417112432823352,
+        0.023809962702845522,
+        0.023145886261481338,
+        0.022685605697221806,
+        0.022396853375114247,
+        0.022253371959006944,
+        0.02216877011805204,
+        0.021915571117720564,
+        0.021828940171192877,
+        0.02180871454127268,
+        0.02158361174608757,
+        0.021303983633543824,
+        0.0208041277258567,
+        0.020481759955444167,
+        0.020320317385866166,
+        0.020187845231760225,
+        0.0201432022084196,
+        0.020053085319210857
+    ]
+}

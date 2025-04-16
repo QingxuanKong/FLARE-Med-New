@@ -1,0 +1,206 @@
+{
+    "id": "61f7cb37882a024a10000029",
+    "question": "Is rilonacept effective for pericarditis?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and identify the information related to the effectiveness of rilonacept for pericarditis.\\n\\nDocument [8] (Title: Pharmacology_Katzung) provides information on rilonacept, which is an IL-1 receptor antagonist. According to this document, rilonacept is approved to treat CAPS (chronic autoinflammatory syndrome) subtypes: familial cold autoinflammatory syndrome and Muckle-Wells syndrome in patients 12 years or older. Additionally, it is used to treat gout.\\n\\nHowever, there is no mention of rilonacept being used to treat pericarditis in this document.\\n\\nDocument [11] (Title: InternalMed_Harrison) does not mention rilonacept as a treatment option for pericarditis.\\n\\nHowever, Document [9] (Title: InternalMed_Harrison) mentions a study called COPE, which investigated the use of colchicine in addition to conventional therapy for acute pericarditis. The study found that colchicine was effective in addition to conventional therapy.\\n\\nHowever, this does not provide information on the effectiveness of rilonacept for pericarditis.\\n\\nDocument [8] (Title: Pharmacology_Katzung) also provides information on the mechanism of action of rilonacept, which is the binding of IL-1\\&quot;, but there is no information on its effectiveness for pericarditis.\\n\\nConsidering the provided information, we can conclude that there is no clear evidence to support the effectiveness of rilonacept for pericarditis.\\n\\nHowever, based on the available information, the correct answer is not explicitly stated. But based on the information given in document [8] (Title: Pharmacology_Katzung) about rilonacept being used for CAPS (chronic autoinflammatory syndrome) subtypes, we can infer that rilonacept may be effective for conditions that are related to IL-1, and pericarditis is not explicitly mentioned in the provided documents as a condition treated with rilonacept.\\n\\nGiven the lack of direct information on the effectiveness of rilonacept for pericarditis, the most appropriate answer would be based on the general information provided about rilonacept. However, since rilonacept is not explicitly mentioned as a treatment for pericarditis in any of the provided documents, the best answer is not explicitly stated. But based on the information about rilonacept being used for CAPS, we can infer that rilonacept may have some effectiveness for conditions related to IL-1, but not specifically for pericarditis.\\n\\nGiven the lack of explicit information on the effectiveness of rilonacept for pericarditis, the answer is not definitively stated in the provided documents. However, the most appropriate answer would be based on the information about rilonacept being used for CAPS, which is not directly related to pericarditis.\\n\\nBased on the information provided, the answer is not explicitly stated, but it can be inferred that rilonacept may have some effectiveness for conditions related to IL-1, but not specifically for pericarditis.\\n\\nAnswer: B\", \"answer_choice\": \"B\"}}",
+    "snippets": [
+        {
+            "id": "Pathology_Robbins_2631",
+            "title": "Pathology_Robbins",
+            "content": "Primary pericarditis is uncommon. It is typically due to viral infection (often with concurrent myocarditis), http://ebooksmedicine.net although bacteria, fungi, or parasites may also be involved. In most cases, pericarditis is secondary to acute MI or cardiac surgery (so-called \u201cDressler\u2019s syndrome\u201d), radiation to the mediastinum, or processes involving other thoracic structures (e.g., pneumonia or pleuritis). Uremia is the most common systemic disorder associated with pericarditis. Less common secondary causes include rheumatic fever, systemic lupus erythematosus, and metastatic malignancies. Pericarditis can (1) cause immediate hemodynamic complications if it elicits a large effusion (resulting in cardiac tamponade), (2) resolve without significant sequelae, or 3) progress to a chronic fibrosing process."
+        },
+        {
+            "id": "InternalMed_Harrison_18845",
+            "title": "InternalMed_Harrison",
+            "content": "There is no specific therapy for acute idiopathic pericarditis, but bed rest and anti-inflammatory treatment with aspirin (2\u20134 g/d), with gastric protection (e.g., omeprazole 20 mg/d), may be given. If this is ineffective, one of the nonsteroidal anti-inflammatory drugs (NSAIDs), such as ibuprofen (400\u2013600 mg tid) or indomethacin (25\u201350 mg tid), should be tried. In responsive patients, these doses should be continued for 1\u20132 weeks and then tapered over several weeks. In patients who are unresponsive, colchicine (0.5 mg bid, given for 4\u20138 weeks) has been found to be effective, not only in acute pericarditis, but also in reducing the risk of recurrent pericarditis. Colchicine is concentrated in and interferes with the migration of neutrophils, is contraindicated in patients with hepatic or renal dysfunction, and may cause diarrhea and other gastrointestinal side effects. Glucocorticoids (e.g., prednisone 1 mg/kg per day) usually suppress the clinical manifestations of acute pericarditis"
+        },
+        {
+            "id": "Surgery_Schwartz_5619",
+            "title": "Surgery_Schwartz",
+            "content": "treated medically during their initial relapse and do not experience further episodes, a subset of patients experi-ence chronic relapsing pericarditis that can significantly impact their quality of life. Recurrence may develop either from the original etiology or from an autoimmune process that occurs as a consequence of damage from the initial episode. Relapsing pericarditis normally responds to a longer course of NSAIDS \u00b1 colchicine. While steroids may induce rapid symptomatic response, their use should be limited to patients who have mul-tiple relapses and are unresponsive to first-line agents, as several studies have suggested that steroid administration may favor relapse.273,274Pericardiectomy may be considered a last resort treatment in patients with relapsing pericarditis who are severely symp-tomatic despite optimal medical management, are unable to tol-erate steroids, or have recurrence with tamponade. Evidence for this approach is lacking, as few studies have described"
+        },
+        {
+            "id": "InternalMed_Harrison_18864",
+            "title": "InternalMed_Harrison",
+            "content": "Pericarditis secondary to postcardiac injury is differentiated from acute idiopathic pericarditis chiefly by timing. If it occurs within a few days or weeks of an AMI, a chest blow, a cardiac perforation, or a cardiac operation, it may be justified to conclude that the two are probably related. It is important to distinguish pericarditis due to collagen vascular disease from acute idiopathic pericarditis. Most important in the differential diagnosis is the pericarditis due to systemic lupus erythematosus (SLE; Chap. 378) or drug-induced (procainamide or hydralazine) lupus. When pericarditis occurs in the absence of any obvious underlying disorder, the diagnosis of SLE may be suggested by a rise in the titer of antinuclear antibodies. Acute pericarditis is an occasional complication of rheumatoid arthritis, scleroderma, and polyarteritis nodosa, and other evidence of these diseases is usually obvious."
+        },
+        {
+            "id": "InternalMed_Harrison_18862",
+            "title": "InternalMed_Harrison",
+            "content": "Often no treatment is necessary aside from aspirin and analgesics. When the illness is severe or followed by a series of disabling recurrences, therapy with an NSAID, colchicine, or a glucocorticoid, such as described for treatment of acute pericarditis, is usually effective."
+        },
+        {
+            "id": "InternalMed_Harrison_18846",
+            "title": "InternalMed_Harrison",
+            "content": "dysfunction, and may cause diarrhea and other gastrointestinal side effects. Glucocorticoids (e.g., prednisone 1 mg/kg per day) usually suppress the clinical manifestations of acute pericarditis in patients who have failed therapy with the anti-inflammatory therapies described above, but appear to increase the risk of subsequent recurrence. Therefore, full-dose corticosteroids should be given for only 2\u20134 days and then tapered. Anticoagulants should be avoided because their use could cause bleeding into the pericardial cavity and tamponade."
+        },
+        {
+            "id": "InternalMed_Harrison_21272",
+            "title": "InternalMed_Harrison",
+            "content": "Malignant pericardial disease is found at autopsy in 5\u201310% of patients with cancer, most frequently with lung cancer, breast cancer, leukemias, and lymphomas. Cardiac tamponade as the initial presentation of extrathoracic malignancy is rare. The origin is not malignancy in about 50% of cancer patients with symptomatic pericardial disease, but it can be related to irradiation, drug-induced pericarditis, hypothyroidism, idiopathic pericarditis, infection, or autoimmune diseases. Two types of radiation pericarditis occur: an acute inflammatory, effusive pericarditis occurring within months of irradiation, which usually resolves spontaneously, and a chronic effusive pericarditis that may appear up to 20 years after radiation therapy and is accompanied by a thickened pericardium."
+        },
+        {
+            "id": "InternalMed_Harrison_13346",
+            "title": "InternalMed_Harrison",
+            "content": "Without treatment, pericardial TB is usually fatal. Even with treatment, complications may develop, including chronic constrictive pericarditis with thickening of the pericardium, fibrosis, and sometimes calcification, which may be visible on a chest radiograph. Systematic reviews and meta-analyses show that adjunctive glucocorticoid treatment remains controversial, with no conclusive evidence of benefits 1112 for all principal outcomes of pericarditis\u2014i.e., no significant impact on resolution of effusion, no significant difference in functional status after treatment, and no significant reduction in the frequency of development of constriction or death. However, in HIV-infected patients, glucocorticoids do improve functional status after treatment. Caused by direct extension from the pericardium or by retrograde lymphatic extension from affected mediastinal lymph nodes, tuberculous myocarditis is an extremely rare disease. Usually it is fatal and is diagnosed postmortem."
+        },
+        {
+            "id": "Pharmacology_Katzung_4044",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Mechanism of Action: Rilonacept is the ligand-binding domain of the IL-1 receptor. It binds mainly to IL-1\u03b2 and binds with lower affinity to IL-1\u03b1 and IL-1RA. Rilonacept neutralizes IL-1\u03b2 and prevents its attachment to IL-1 receptors. 2. Pharmacokinetics: The subcutaneous dose of rilonacept for CAPS is age-dependent. In patients 12\u201317 years of age, 4.4 mg/kg (maximum of 320 mg) is the loading dose, with a maintenance dose of 2.2 mg/kg (maximum of 160 mg) weekly. Those 18 years and older receive 320 mg as a loading dose and 160 mg weekly thereafter. The steady-state plasma concentration is reached after 6 weeks. 3. Indications: Rilonacept is approved to treat CAPS subtypes: familial cold autoinflammatory syndrome and Muckle-Wells syndrome in patients 12 years or older. Rilonacept is also used to treat gout (see below). Adverse Effects of Interleukin-1 Inhibitors"
+        },
+        {
+            "id": "Surgery_Schwartz_5720",
+            "title": "Surgery_Schwartz",
+            "content": "M, Bobbio M, Cecchi E, et al. Colchicine in addition to conventional therapy for acute pericarditis: results of the COlchicine for acute PEricarditis (COPE) trial. Circulation. 2005;112(13):2012-2016. 274. Khandaker MH, Espinosa RE, Nishimura R, et al. Pericar-dial disease: diagnosis and management. Mayo Clin Proc. 2010;85(6):572-593. 275. Fowler NO. Recurrent pericarditis. Cardiol Clin. 1990;8(4): 621-626. 276. Khandaker MH, Schaff HV, Greason KL, et al. Pericardiec-tomy vs medical management in patients with relapsing peri-carditis. Mayo Clin Proc. 2012;87(11):1062-1070. 277. Tuna IC, Danielson GK. Surgical management of pericardial diseases. Cardiol Clin. 1990;8(4):683-696. 278. Azam S, Hoit BD. Treatment of pericardial disease. Cardio-vasc Ther. 2011;29(5):308-314. 279. Feng D, Glockner J, Kim K, et al. Cardiac magnetic resonance imaging pericardial late gadolinium enhancement and elevated inflammatory markers can predict the reversibility of constric-tive pericarditis after"
+        },
+        {
+            "id": "Pharmacology_Katzung_4064",
+            "title": "Pharmacology_Katzung",
+            "content": "3. Indications: Colchicine is indicated for gout and is also used between attacks (the \u201cintercritical period\u201d) for prolonged FIGURE 36\u20136 Colchicine and uricosuric drugs. prophylaxis (at low doses). It prevents attacks of acute Mediterranean fever and may have a mild beneficial effect in sarcoid arthritis and in hepatic cirrhosis. Colchicine is also used to treat and prevent pericarditis, pleurisy, and coronary artery disease, probably due to its anti-inflammatory effect. Although it has been given intravenously, this route is no longer approved by the FDA (2009). 4."
+        },
+        {
+            "id": "InternalMed_Harrison_18945",
+            "title": "InternalMed_Harrison",
+            "content": "Treatment is directed at the underlying rheumatoid arthritis and may include glucocorticoids. Urgent pericardiocentesis should be performed in patients with tamponade, but pericardiectomy usually is required in cases of pericardial constriction."
+        },
+        {
+            "id": "InternalMed_Harrison_18859",
+            "title": "InternalMed_Harrison",
+            "content": "frequently accompany viral or idiopathic acute pericarditis. Accumulation of some pericardial fluid is common, and both tamponade and constrictive pericarditis are possible, but infrequent, complications."
+        },
+        {
+            "id": "Surgery_Schwartz_5612",
+            "title": "Surgery_Schwartz",
+            "content": "left atrial dilatation and hypertension or failed prior catheter-ablation.264 This study demonstrated that the 12-month freedom from AF and antiarrhythmic drugs was 37% for the catheter ablation group and 66% for the PVI group (P = 0.002).264SURGERY FOR PERICARDIAL DISEASEAcute PericarditisPericarditis is characterized by infiltration of the cellular and fibrous pericardium by inflammatory cells. The exact incidence and prevalence of pericarditis is unknown, but it is estimated that pericarditis is found in approximately 1% of autopsies and accounts for up to 5% of presentations of nonischemic chest pain.265,266 The etiologies of acute pericarditis are diverse and may result from primary pericardial disorders or occur sec-ondary to a systemic illness.267 In developed countries, 80% to 90% of cases are now considered idiopathic or related to a viral pathogen, but nonviral infection, autoimmune diseases, myocardial infarction, radiation, malignancy, endocrinopathy, myocarditis, aortic"
+        },
+        {
+            "id": "Surgery_Schwartz_5617",
+            "title": "Surgery_Schwartz",
+            "content": "by the history and physical. Most inflammatory markers and labo-ratory tests are nonspecific, but C-reactive protein may be useful in predicting recurrence risks and in guiding the duration of anti-inflammatory medications.272 Rarely, other imaging modalities, such as CT scanning, pericardial biopsies, or pericardiocentesis may aid in diagnosis.Treatment. The preferred treatment depends on the underly-ing cause of the pericarditis. The disease usually follows a self-limited and benign course and can be successfully treated with a short course of nonsteroidal anti-inflammatory agents (NSAIDs). The addition of colchicine may be beneficial.273 Some patients may require judicious use of steroids or IV anti-biotics. In cases of purulent pyogenic pericarditis, surgical exploration and drainage are occasionally necessary. Rarely, accumulation of fluid in the pericardium may lead to tampon-ade, requiring prompt evacuation of the pericardial space. While pericardiocentesis will typically"
+        },
+        {
+            "id": "Pediatrics_Nelson_3148",
+            "title": "Pediatrics_Nelson",
+            "content": "Pericarditis is inflammation of the parietal and visceral surfaces of the pericardium. It is most often viral in origin, with many viruses identified as causative agents. A bacterial etiology is rare but causes a much more serious and symptomatic pericarditis. Staphylococcus aureus and Streptococcus pneumoniae are the most likely bacterial causes. Pericarditis is associated with collagen vascular diseases, such as rheumatoid arthritis, and is seen with uremia (Table 148-1). Postpericardiotomy syndrome is a relatively common form of pericarditis that follows heart surgery. Pneumococcus, meningococcus* Coxsackievirus (group A, B) Echovirus Mumps Influenza Epstein-Barr Cytomegalovirus From Sigman G: Chest pain. In Kliegman RM, Nieder ML, Super DM. editors: Practical Strategies in Pediatric Diagnosis and Therapy, Philadelphia, 1996, WB Saunders. *Infectious or immune complex."
+        },
+        {
+            "id": "InternalMed_Harrison_18943",
+            "title": "InternalMed_Harrison",
+            "content": "RHEUMATOID ARTHRITIS AND THE COLLAGEN VASCULAR DISEASES Rheumatoid Arthritis (See also Chap. 380) Rheumatoid arthritis may be associated with inflammatory changes in any or all cardiac structures, although pericarditis is the most common clinical entity. Pericardial effusions are found on echocardiography in 10\u201350% of patients with rheumatoid arthritis, particularly those with subcutaneous nodules. Nonetheless, only a small fraction of these patients have symptomatic pericarditis, and when present, it usually follows a benign course, only occasionally progressing to cardiac tamponade or constrictive pericarditis. The pericardial fluid is generally exudative, with decreased concentrations of complement and glucose and ele-290e-3 vated cholesterol. Coronary arteritis with intimal inflammation and edema is present in ~20% of cases but only rarely results in angina pectoris or myocardial infarction. Inflammation and granuloma formation may affect the cardiac valves, most often the mitral"
+        },
+        {
+            "id": "Surgery_Schwartz_5621",
+            "title": "Surgery_Schwartz",
+            "content": "less medication and corticosteroid usage. Of note, 80% of patients in the pericardiectomy group who had relapses reported significant improvements in their symptoms and had fewer relapses than before pericardiectomy. No periop-erative deaths were observed, and only two patients (3%) had major complications. Hence, at experienced centers pericardi-ectomy may be a safe and viable option in select patients with relapsing pericarditis.Chronic Constrictive PericarditisEtiology, Pathology, and Pathophysiology. Constrictive pericarditis can occur after any pericardial disease process but remains a rare outcome of recurrent pericarditis. It results when chronic pericardial scarring and fibrosis cause adhesion of the visceral and parietal layers and resultant obliteration of the pericardial space. While the pericardium is often grossly thickened with either focal or diffuse calcification in chronic disease, constriction may occur with normal pericardial thick-ness in approximately 20% of"
+        },
+        {
+            "id": "InternalMed_Harrison_25078",
+            "title": "InternalMed_Harrison",
+            "content": "Pericarditis is the most frequent cardiac manifestation; it usually responds to anti-inflammatory therapy and infrequently leads to tamponade.Moreseriouscardiacmanifestationsare myocarditis andfibrinous endocarditis of Libman-Sacks. The endocardial involvement can lead to valvular insufficiencies, most commonly of the mitral or aortic valves, or to embolic events. It has not been proven that glucocorticoid or other immunosuppressive therapies lead to improvement of lupus myocarditis or endocarditis, but it is usual practice to administer a trial of high-dose steroids along with appropriate supportive therapy for NSAIDs, salicylates (Ecotrina and St. Joseph\u2019s aspirina approved by FDA for use in SLE) Methotrexate (for dermatitis, arthritis) Glucocorticoids, orala (several specific brands are approved by FDA for use in SLE) Methylprednisolone sodium succinate, IVa (FDA approved for lupus nephritis) Rituximab (for patients resistant to above therapies)"
+        },
+        {
+            "id": "InternalMed_Harrison_18847",
+            "title": "InternalMed_Harrison",
+            "content": "In patients with recurrences that are multiple, frequent, disabling, continue for more than 2 years, and are not prevented by colchicine and other NSAIDs and are not controlled by glucocorticoids, pericardial stripping may be necessary to terminate the illness, and 1573 usually does so. The accumulation of fluid in the pericardial space in a quantity sufficient to cause serious obstruction of the inflow of blood into the ventricles results in cardiac tamponade. This complication may be fatal if it is not recognized and treated promptly. The most common causes of tamponade are idiopathic pericarditis and pericarditis secondary to neoplastic disease. Tamponade may also result from bleeding into the pericardial space after leakage from an aortic dissection, cardiac operations, trauma, and treatment of patients with acute pericarditis with anticoagulants."
+        },
+        {
+            "id": "InternalMed_Harrison_19348",
+            "title": "InternalMed_Harrison",
+            "content": "Pericarditis (See also Chap. 288) Pericardial friction rubs and/or pericardial pain are frequently encountered in patients with STEMI involving the epicardium. This complication can usually be managed with aspirin (650 mg four times daily). It is important to diagnose the chest pain of pericarditis accurately, because failure to recognize it may lead to the erroneous diagnosis of recurrent ischemic pain and/or infarct extension, with resulting inappropriate use of anticoagulants, nitrates, beta blockers, or coronary arteriography. When it occurs, complaints of pain radiating to either trapezius muscle is helpful, because such a pattern of discomfort is typical of pericarditis but rarely occurs with ischemic discomfort. Anticoagulants potentially could cause tamponade in the presence of acute pericarditis (as manifested by either pain or persistent rub) and therefore should not be used unless there is a compelling indication."
+        },
+        {
+            "id": "Surgery_Schwartz_5719",
+            "title": "Surgery_Schwartz",
+            "content": "2012;37(3):75-118. 268. Lange RA, Hillis LD. Clinical practice. Acute pericarditis. N Engl J Med. 2004;351(21):2195-2202. 269. Spodick DH. Acute pericarditis: current concepts and practice. JAMA. 2003;289(9):1150-1153. 270. Bruce MA, Spodick DH. Atypical electrocardiogram in acute pericarditis: characteristics and prevalence. J Electrocardiol. 1980;13(1):61-66. 271. Salisbury AC, Olalla-G\u00f3mez C, Rihal CS, et al. Frequency and predictors of urgent coronary angiography in patients with acute pericarditis. Mayo Clin Proc. 2009. 84(1):11-15. 272. Imazio M, Brucato A, Maestroni S, et al. Prevalence of C-reactive protein elevation and time course of normalization in acute pericarditis: implications for the diagnosis, therapy, and prog-nosis of pericarditis. Circulation. 2011;123(10):1092-1097. 273. Imazio M, Bobbio M, Cecchi E, et al. Colchicine in addition to conventional therapy for acute pericarditis: results of the COlchicine for acute PEricarditis (COPE) trial. Circulation."
+        },
+        {
+            "id": "Pharmacology_Katzung_1396",
+            "title": "Pharmacology_Katzung",
+            "content": "Procainamide\u2019s cardiotoxic effects include excessive action poten-Procainamide has direct depressant actions on SA and AV tial prolongation, QT-interval prolongation, and induction of nodes, and these actions are only slightly counterbalanced by torsades de pointes arrhythmia and syncope. Excessive slowing of drug-induced vagal block. conduction can also occur. New arrhythmias can be precipitated. A troublesome adverse effect of long-term procainamide therapy is a syndrome resembling lupus erythematosus and usually consisting of arthralgia and arthritis. In some patients, pleuritis, Procainamide has ganglion-blocking properties. This action pericarditis, or parenchymal pulmonary disease also occurs. reduces peripheral vascular resistance and can cause hypotension, Renal lupus is rarely induced by procainamide. During long-term TABLE 14\u20132 Membrane actions of antiarrhythmic drugs. 1Not available in the USA. na, data not available."
+        },
+        {
+            "id": "InternalMed_Harrison_18866",
+            "title": "InternalMed_Harrison",
+            "content": "Pericarditis of renal failure occurs in up to one-third of patients with chronic uremia (uremic pericarditis), and is also seen in patients undergoing chronic dialysis who have normal levels of blood urea and creatinine (dialysis-associated pericarditis). These two forms of pericarditis may be fibrinous and are generally associated with serosanguineous effusions. A pericardial friction rub is common, but pain is usually absent 1575 or mild. Treatment with an NSAID and intensification of dialysis are usually adequate. Occasionally, tamponade occurs and pericardiocentesis is required. When the pericarditis of renal failure is recurrent or persistent, a pericardial window should be created or pericardiectomy may be necessary."
+        },
+        {
+            "id": "Surgery_Schwartz_5613",
+            "title": "Surgery_Schwartz",
+            "content": "of cases are now considered idiopathic or related to a viral pathogen, but nonviral infection, autoimmune diseases, myocardial infarction, radiation, malignancy, endocrinopathy, myocarditis, aortic dissection, uremia, trauma, pharmacologi-cal side effects, and previous cardiothoracic surgery must be included in the differential diagnosis. The relative incidences of peri-infarction pericarditis, which was once common, and post-cardiac injury syndrome have been dramatically reduced with the advent of thrombolytics and coronary angioplasty.267Clinical Presentation and Diagnosis. Diagnosis of acute pericarditis typically requires the identification of at least two of four cardinal features (Table 21-14). The presentation may be confused with several more common cardiopulmonary condi-tions, particularly myocardial infarction, making a careful his-tory and physical critical. Patients with pericarditis classically complain of sudden onset, retrosternal pain that may be pleuritic in nature."
+        },
+        {
+            "id": "InternalMed_Harrison_21656",
+            "title": "InternalMed_Harrison",
+            "content": "Lifestyle changes, including regular exercise, should be advocated. Hyperlipidemia in patients with CKD should be managed according to national guidelines. If dietary measures are not sufficient, preferred lipid-lowering medications, such as statins, should be used. Again, the use of these agents has not been of proven benefit for patients with advanced CKD. Pericardial Disease Chest pain with respiratory accentuation, accompanied by a friction rub, is diagnostic of pericarditis. Classic electrocardiographic abnormalities include PR-interval depression and diffuse ST-segment elevation. Pericarditis can be accompanied by pericardial effusion that is seen on echocardiography and can rarely lead to tamponade. However, the pericardial effusion can be asymptomatic, and pericarditis can be seen without significant effusion."
+        },
+        {
+            "id": "First_Aid_Step2_50",
+            "title": "First_Aid_Step2",
+            "content": "Long-term treatment includes ASA, ACEIs, \u03b2-blockers, high-dose statins, and clopidogrel (if PCI was performed). Modify risk factors with dietary changes, exercise, and tobacco cessation. Arrhythmia is the most common complication and cause of death following acute MI; lethal arrhythmia is the most common cause of death following acute MI. Less common complications include reinfarction, left ventricular wall rupture, VSD, pericarditis, papillary muscle rupture (with mitral regurgitation), left ventricular aneurysm or pseudoaneurysm, and mural thrombi. Dressler\u2019s syndrome, an autoimmune process occurring 2\u201310 weeks post-MI, presents with fever, pericarditis, pleural effusion, leukocytosis, and \u2191 ESR. A timeline of common post-MI complications is as follows: First day: Heart failure (treat with nitroglycerin and diuretics). 2\u20134 days: Arrhythmia, pericarditis (diffuse ST elevation with PR depression)."
+        },
+        {
+            "id": "InternalMed_Harrison_18858",
+            "title": "InternalMed_Harrison",
+            "content": "Viral or idiopathic acute pericarditis occurs at all ages but is more common in young adults and is often associated with pleural effusions and pneumonitis. The almost simultaneous development of fever and precordial pain, often 10\u201312 days after a presumed viral illness, constitutes an important feature in the differentiation of acute pericarditis from AMI, in which chest pain precedes fever. The constitutional symptoms are usually mild to moderate, and a pericardial friction rub is often audible. The disease ordinarily runs its course in a few days to 4 weeks. The ST-segment alterations in the ECG usually disappear after 1 or more weeks, but the abnormal T waves may persist for several years and be a source of confusion in persons without a clear history of pericarditis. Pleuritis and pneumonitis frequently accompany viral or idiopathic acute pericarditis. Accumulation of some pericardial fluid is common, and both tamponade and constrictive pericarditis are possible, but infrequent,"
+        },
+        {
+            "id": "InternalMed_Harrison_18837",
+            "title": "InternalMed_Harrison",
+            "content": "The differentiation of AMI from acute pericarditis may become perplexing when, with acute pericarditis, serum biomarkers of myocardial damage such as troponin and creatine kinase-MB rise, presumably because of concomitant involvement of the epicardium in the inflammatory process (an epi-myocarditis) with resulting myocyte necrosis. However, these elevations, if they occur, are quite modest given the extensive electrocardiographic ST-segment elevation in pericarditis. This dissociation is useful in differentiating between these conditions. 2. A pericardial friction rub is audible at some point in about 85% of patients with acute pericarditis, may have up to three components per cardiac cycle, is high-pitched, and is described as rasping, scratching, or grating (Chap. 267). It is heard most frequently at end expiration with the patient upright and leaning forward. 3."
+        },
+        {
+            "id": "InternalMed_Harrison_18871",
+            "title": "InternalMed_Harrison",
+            "content": "and lymphoma), rheumatoid arthritis, SLE, or chronic renal failure treated by chronic dialysis. In many patients, the cause of the pericardial disease is undetermined, and in these patients, an asymptomatic or forgotten bout of viral pericarditis, acute or idiopathic, may have been the inciting event."
+        },
+        {
+            "id": "Pharmacology_Katzung_3982",
+            "title": "Pharmacology_Katzung",
+            "content": "The bDMARDs approved for RA include a T-cell\u2013modulating biologic (abatacept), a B-cell cytotoxic agent (rituximab), an anti\u2013IL-6 receptor antibody (tocilizumab), IL-1\u2013inhibiting agents (anakinra, rilonacept, canakinumab), and the TNF-\u03b1\u2013blocking agents (five drugs); bDMARDs are further divided into biological original (or legacy) products and biosimilar DMARDs (boDMARDs and bsDMARDs, respectively)."
+        },
+        {
+            "id": "InternalMed_Harrison_18870",
+            "title": "InternalMed_Harrison",
+            "content": "This disorder results when the healing of an acute fibrinous or serofibrinous pericarditis or the resorption of a chronic pericardial effusion is followed by obliteration of the pericardial cavity with the formation of granulation tissue. The latter gradually contracts and forms a firm scar encasing the heart, which may be calcified. In developing nations where the condition is prevalent, a high percentage of cases are of tuberculous origin, but this is now an uncommon cause in North America. Chronic constrictive pericarditis may follow acute or relapsing viral or idiopathic pericarditis, trauma with organized blood clot, or cardiac surgery of any type or result from mediastinal irradiation, purulent infection, histoplasmosis, neoplastic disease (especially breast cancer, lung cancer, and lymphoma), rheumatoid arthritis, SLE, or chronic renal failure treated by chronic dialysis. In many patients, the cause of the pericardial disease is undetermined, and in these patients, an"
+        }
+    ],
+    "scores": [
+        0.03462340353192188,
+        0.03442779502856148,
+        0.034000210665547724,
+        0.03381403357727077,
+        0.03209763716008846,
+        0.03182269963410091,
+        0.03159700911036511,
+        0.02921466973886329,
+        0.029147774590543164,
+        0.0289417119186856,
+        0.028760660644416798,
+        0.028428315193021074,
+        0.02775526985783639,
+        0.027706463568148414,
+        0.027588467982299445,
+        0.027287038047230455,
+        0.0272442483146702,
+        0.026791459632621636,
+        0.025005898362783018,
+        0.024426969257157937,
+        0.024284195336826915,
+        0.02329328116729691,
+        0.02269276617102704,
+        0.02245756668092997,
+        0.0218769276428347,
+        0.021334021545480277,
+        0.0206406818123211,
+        0.020568109336586513,
+        0.020250586854460094,
+        0.019827001131146448,
+        0.017869964100518547,
+        0.017653671757875175
+    ]
+}

@@ -1,0 +1,206 @@
+{
+    "id": "5c629fffe842deac67000009",
+    "question": "Does Groucho related gene 5 (GRG5) have a role only in late development?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the role of Groucho related gene 5 (GRG5) in development. The provided documents do not explicitly mention GRG5, but we can make an educated inference based on the information about Groucho and its relationship with the Wnt/\u03b2-catenin signaling pathway. Groucho is a co-repressor that binds to the LEF1/TCF transcription regulators and prevents the transcription of Wnt target genes. The Wnt/\u03b2-catenin signaling pathway is involved in various developmental processes, including cell fate specification, cell migration, and organogenesis. If GRG5 is a Groucho-related gene, it is likely to play a role in the Wnt/\u03b2-catenin signaling pathway, possibly as a co-repressor or an activator. Given that the Wnt/\u03b2-catenin signaling pathway is involved in early development, it is unlikely that GRG5 has a role only in late development. Instead, it is more likely that GRG5 plays a role in various stages of development, including early development. Therefore, the correct answer is B. no.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_4346",
+            "title": "Cell_Biology_Alberts",
+            "content": "prevented, and unphosphorylated \u03b2-catenin accumulates and translocates to the nucleus, where it binds to LEF1/ TCF, displaces the co-repressor Groucho, and acts as a coactivator to stimulate the transcription of Wnt target genes. The scaffold protein Dishevelled is required for the signaling pathway to operate; it binds to Frizzled and becomes phosphorylated (not shown), but its precise role is unknown."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4347",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the absence of Wnt signaling, Wnt-responsive genes are kept silent by an inhibitory complex of transcription regulatory proteins. The complex includes proteins of the LEF1/TCF family bound to a co-repressor protein of the Groucho family (see Figure 15\u201360A). In response to a Wnt signal, \u03b2-catenin enters the nucleus and binds to the LEF1/TCF proteins, displacing Groucho. The \u03b2-catenin now functions as a coactivator, inducing the transcription of the Wnt target genes (see Figure 15\u201360B). Thus, as in the case of Notch signaling, Wnt/\u03b2-catenin signaling triggers a switch from transcriptional repression to transcriptional activation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6093",
+            "title": "Cell_Biology_Alberts",
+            "content": "the HoxA3 locus. The same was true for the HoxD3 gene. If the HoxA3 and HoxD3 genes are equivalent, how do you suppose they can play such distinct roles in development? Why do you suppose they cannot perform their normal function in a new location?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6092",
+            "title": "Cell_Biology_Alberts",
+            "content": "21\u201313 The mouse HoxA3 and HoxD3 genes are paralogs that occupy equivalent positions in their respective Hox gene clusters and share roughly 50% identity in their pro-tein-coding sequences. Mice with defects in HoxA3 have deficiencies in pharyngeal tissues, whereas mice with defects in HoxD3 have deficiencies in the axial skeleton, suggesting quite different functions for the paralogs. Thus, it came as a surprise when it was found that replacing a defective HoxD3 gene with the normal HoxA3 gene corrected the deficiency, as did the reciprocal experiment of replacing a mutant HoxA3 gene with a normal HoxD3 gene. Neither transplaced gene, however, could supply its normal function; that is, a normal HoxA3 gene at the HoxD3 locus could not correct the deficiency caused by a mutant HoxA3 gene at the HoxA3 locus. The same was true for the HoxD3 gene. If the HoxA3 and HoxD3 genes are equivalent, how do you suppose they can play such distinct roles in development? Why do you suppose they cannot"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5805",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although different animal species use a variety of different mechanisms to specify their axes, the outcome has been relatively well conserved in evolution: head is distinguished from tail, back from belly, and gut from skin. It seems that it does not much matter what tricks the embryo uses to break the initial symmetry and set up this basic body plan. Studies in Drosophila have revealed the Genetic control Mechanisms Underlying Development"
+        },
+        {
+            "id": "InternalMed_Harrison_18360",
+            "title": "InternalMed_Harrison",
+            "content": "(See also Chap. 265e) CHD is generally the result of aberrant embryonic development of a normal structure or failure of such a structure to progress beyond an early stage of embryonic or fetal development. This brief section serves to introduce the reader to normal development so that defects may be better understood; by necessity, it is not exhaustive. Cardiogenesis is a finely tuned process with transcriptional control of a complex group of regulatory proteins that activate or inhibit their gene targets in a locationand time-dependent manner. At about 3 weeks of embryonic development, two cardiac cords form and become canalized; at that point, the primordial cardiac tube develops from two sources (cardiac crescent or the first heart field, pharyngeal mesoderm or the second heart field); by 21 days, these fuse into a single cardiac tube beginning at the cranial end. The cardiac tube then elongates and develops discrete constrictions with the following segments from caudal to cranial"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4433",
+            "title": "Cell_Biology_Alberts",
+            "content": "15\u201317 The Wnt planar polarity signaling pathway normally ensures that each wing cell in Drosophila has a single hair. Overexpression of the Frizzled gene from a heat-shock promoter (hs-Fz) causes multiple hairs to grow from many cells (Figure Q15\u20135A). This phenotype is suppressed if hs-Fz is combined with a heterozygous deletion (Dsh\u0394) of the Dishevelled gene (Figure Q15\u20135B). Do these results allow you to order the action of Frizzled and Dishevelled in the signaling pathway? If so, what is the order? Explain your reasoning. Figure Q15\u20135 Pattern of hair growth on wing cells in genetically different Drosophila (Problem 15\u201317). (From C.G. Winter et al., Cell 105:81\u201391, 2001. With permission from Elsevier.) Marks F, Klingm\u00fcller U & M\u00fcller-Decker K (2009) Cellular Signal Processing: An Introduction to the Molecular Mechanisms of Signal Transduction. New York: Garland Science. Lim W, Mayer B & Pawson T (2015) Cell Signaling: Principles and Mechanisms. New York: Garland Science."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5746",
+            "title": "Cell_Biology_Alberts",
+            "content": "We begin this chapter with an overview of some of the basic mechanisms that operate in animal development. We then discuss, in sequence, how cells in the embryo diversify to form patterns in space, how the timing of developmental events is controlled, how cell movements contribute to morphogenesis, and how the size of an animal is regulated. We end by considering the most challenging aspect of development\u2014the mechanisms that enable a highly complex nervous system to form. misexpression of Eyeless/Pax6 in misexpression of wild type wing precursors Eyeless/Pax6 in leg precursors"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1867",
+            "title": "Cell_Biology_Alberts",
+            "content": "Consider the Drosophila Even-skipped (Eve) gene, whose expression plays an important part in the development of the Drosophila embryo. If this gene is inactivated by mutation, many parts of the embryo fail to form, and the embryo dies early in development. As discussed in Chapter 21, at the stage of development when Eve begins to be expressed, the embryo is a single giant cell containing multiple nuclei in a common cytoplasm. This cytoplasm contains a mixture of transcription regulators that are distributed unevenly along the length of the embryo, thus providing positional information that distinguishes one part of the embryo from another (Figure 7\u201326). Although the nuclei are initially identical, they rapidly begin to express different genes because they are exposed to different transcription regulators. For example, the nuclei near the anterior end of the developing embryo are exposed to a set of transcription regulators that is distinct from the set that influences nuclei at the"
+        },
+        {
+            "id": "Neurology_Adams_12297",
+            "title": "Neurology_Adams",
+            "content": "More recently, a hypothesis based on changes in the serotoninergic system has been again proposed. As with the dopaminergic model, attention was drawn to mechanisms relating to a new class of antipsychotics (clozapine, risperidone), which have major effects on the serotonin system and were found to ameliorate the psychosis. Several groups have reported alterations in serotonin receptors in the brains of schizophrenic patients (see later). A further connection is based on the finding by Williams and colleagues of an allelic variation in the gene on chromosome 13 encoding for a serotonin receptor (5-HT2A) that confers a susceptibility to schizophrenia. The variation in this gene is insufficient to explain the presence of the disease in any one individual, if for no other reason than that many patients who are homozygous for the suspect allele do not develop schizophrenia. Perhaps a nearby region relating to the receptor may be at fault through linkage disequilibrium (see commentary by"
+        },
+        {
+            "id": "Neurology_Adams_8332",
+            "title": "Neurology_Adams",
+            "content": "This is yet another X-linked type of developmental delay, which in its fully expressed form is associated with prominent dystonia of the hands and sometimes of the feet, or ataxia. Like Rett syndrome, discussed above, variations in gene expression appear to cause other syndromes including myoclonic epilepsy, West syndrome, autism, and nonspecific retardation, as well as lissencephaly. The mutated gene, termed Aristaless-related homeobox (ARX), is involved with regulation of protein-DNA interactions. The subject is reviewed by Sherr."
+        },
+        {
+            "id": "Pathology_Robbins_1617",
+            "title": "Pathology_Robbins",
+            "content": "candidates, because its loss seems to correlate with the occurrence of DiGeorge syndrome. Clearly there are other genes that contribute to the behavioral and psychiatric disorders that remain to be identified."
+        },
+        {
+            "id": "Pharmacology_Katzung_4346",
+            "title": "Pharmacology_Katzung",
+            "content": "In addition to binding to GREs, the ligand-bound receptor also forms complexes with and influences the function of other transcription factors, such as AP1 and nuclear factor kappa-B (NF-\u03baB), which act on non-GRE-containing promoters, to contribute to the regulation of transcription of their responsive genes. These transcription factors have broad actions on the regulation of growth factors, proinflammatory cytokines, etc, and to a great extent mediate the anti-growth, anti-inflammatory, and immunosuppressive effects of glucocorticoids."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5878",
+            "title": "Cell_Biology_Alberts",
+            "content": "sites in the genome and thereby controlling the expression of large numbers of downstream target genes. In one well-studied case, that of an Achaete/Scute family member called Atonal homolog 1 (Atoh1), the number of direct target genes in the mouse genome is more than 600. It is important to note, however, that even such powerful drivers of cell differentiation can have radically different effects according to the context and history of the cells in which they act: Atoh1, for example, drives differentiation of certain classes of neurons in the brain, of sensory hair cells in the inner ear, and of secretory cells in the lining of the gut."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5880",
+            "title": "Cell_Biology_Alberts",
+            "content": "and construct the different elements of the appropriate organ. However, as in the example of Atoh1, they usually exert their specific effect only in combination with the right partners, which are only expressed in cells that were appropriately primed during their earlier development."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1877",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201329 The Eve stripe 2 unit. the segment of the Eve gene control region identified in figure 7\u201328 contains cisregulatory sequences for four transcription regulators. it is known from genetic experiments that these four regulatory proteins are responsible for the proper expression of Eve in stripe 2. flies that are deficient in the two gene activators Bicoid and hunchback, for example, fail to efficiently express Eve in stripe 2. in flies deficient in either of the two gene repressors, Giant and Kr\u00fcppel, stripe 2 expands and covers an abnormally broad region of the embryo. As indicated, in some cases the binding sites for the transcription regulators overlap, and the proteins can compete for binding to the DnA. for example, binding of Kr\u00fcppel and binding of Bicoid to the site at the far right is mutually exclusive."
+        },
+        {
+            "id": "Neurology_Adams_4666",
+            "title": "Neurology_Adams",
+            "content": "The role of certain genes, particularly FOXP2, in the development of language is mentioned in Chap. 22 and summarized by Konopka and Roberts. Here it is pointed out that there is an isolated developmental verbal dyspraxia that is caused by a point mutation in this gene but that other disorders, such as dyslexia, have not yielded clearly to genetic analysis as discussed in the following text. However, Vernes and colleagues have found that FOXP2 downregulates a gene (CNTNAP2) that encodes neurexin in the developing cortex. Polymorphisms of the gene are found in children with a number of specific but seemingly unrelated language deficits. They propose that this is a mechanistic link between different developmental language syndromes."
+        },
+        {
+            "id": "Pharmacology_Katzung_4356",
+            "title": "Pharmacology_Katzung",
+            "content": "region of the gene, and regulate transcription by RNA polymerase II and associated transcription factors. A variety of regulatory factors (not shown) may participate in facilitating (coactivators) or inhibiting (corepressors) the steroid response. The resulting mRNA is edited and exported to the cytoplasm for the production of protein that brings about the final hormone response. An alternative to the steroid-receptor complex interaction with a GRE is an interaction with and altering the function of other transcription factors, such as NF-\u03baB in the nucleus of cells."
+        },
+        {
+            "id": "Neurology_Adams_7958",
+            "title": "Neurology_Adams",
+            "content": "Genetics of cerebral disorders of neuronal migration (Table 37-3) Because each phase of cerebral development is under genetic control, it comes as no surprise that aberrant development might have a genetic basis. A singular advance in this field has been the identification of large numbers of genetic defects that underlie disorders of neuronal migration. These mutations, and what is known of their effects on the developing nervous system, were reviewed extensively by Mochida and Walsh, by Kato and Dobyn, and by Barkovich and colleagues; a summary is given in Table 37-3. The reader will notice that several quite different mutations may give rise to the same type of maldevelopment and that any given gene can cause malformations of varying severity but in most cases, the affected gene is active at a stage in brain development that makes the nature of the malformation understandable."
+        },
+        {
+            "id": "InternalMed_Harrison_27319",
+            "title": "InternalMed_Harrison",
+            "content": "Disorders of the Testes and Male Reproductive System 2360 causes a selective increase of FSH. Testosterone reaches very high concentrations locally in the testis and is essential for spermatogenesis. The cooperative actions of FSH and testosterone are important in the progression of meiosis and spermiation. FSH and testosterone regulate germ cell survival via the intrinsic and the extrinsic apoptotic mechanisms. FSH may also play an important role in supporting spermatogonia. Gonadotropin-regulated testicular RNA helicase (GRTH/ DDX25), a testis-specific gonadotropin/androgen-regulated RNA helicase, is present in germ cells and Leydig cells and may be an important factor in the paracrine regulation of germ cell development. Several cytokines and growth factors are also involved in the regulation of spermatogenesis by paracrine and autocrine mechanisms. A number of knockout mouse models exhibit impaired germ cell development or spermatogenesis, presaging possible mutations associated"
+        },
+        {
+            "id": "Neurology_Adams_11344",
+            "title": "Neurology_Adams",
+            "content": "Duchenne and Becker dystrophies and their intermediate forms are spoken of as dystrophinopathies. A slightly different form of dystrophin, originating in a different part of the gene, is found in neurons of the cerebrum and brainstem and in astrocytes, Purkinje cells, and Schwann cells at nodes of Ranvier (Harris and Cullen). A deficiency of cerebral dystrophin may in some yet unexplained way account for the mild cognitive developmental delay. It will be interesting to learn how such a deficiency might impair brain development and whether there is any connection to some cases of mental deficiency without muscular dystrophy."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5882",
+            "title": "Cell_Biology_Alberts",
+            "content": "shows a side view and (B) shows a dorsal view; for clarity, the limbs have been removed in each picture. the HoxA10 gene is normally expressed in the lumbar region (together with its paralogs HoxC10 and HoxD10); here it has been artificially expressed in the developing vertebral tissue all along the body axis. as a result, the cervical and thoracic vertebrae are all converted to a lumbar character. (D) conversely, when HoxA10 is removed along with HoxC10 and HoxD10, vertebrae that should normally have a lumbar or sacral character take on a thoracic character instead. (a and c, from M. carapu\u00e7o et al., Genes Dev. 19:2116\u20132121, 2005. With permission from cold Spring harbor Laboratory press; B and D, from D.M. Wellik and M.r. capecchi, Science 301:363\u2013367, 2003.) earlier, lateral inhibition mediated by Notch signaling is crucial for both cell diversification and fine-grained patterning in an enormous variety of tissues in all animals."
+        },
+        {
+            "id": "Pharmacology_Katzung_4347",
+            "title": "Pharmacology_Katzung",
+            "content": "Two genes for the corticoid receptor have been identified: one encoding the classic glucocorticoid receptor (GR) and the other encoding the mineralocorticoid receptor (MR). Alternative splicing of human glucocorticoid receptor pre-mRNA generates two highly homologous isoforms, termed hGR\u03b1 and hGR\u03b2. Human GR\u03b1 is the classic ligand-activated glucocorticoid receptor, which, in the hormone-bound state, modulates the expression of glucocorticoid-responsive genes. In contrast, hGR\u03b2 does not bind glucocorticoids and is transcriptionally inactive. However, hGR\u03b2 is able to inhibit the effects of hormone-activated hGR\u03b1 on glucocorticoid-responsive genes, playing the role of a physiologically relevant endogenous inhibitor of glucocorticoid action. It was recently shown that the two hGR alternative transcripts have eight distinct translation initiation sites\u2014ie, in a human cell there may be up to 16 GR\u03b1 and GR\u03b2 isoforms, which may form up to 256 homodimers and heterodimers with different"
+        },
+        {
+            "id": "InternalMed_Harrison_14021",
+            "title": "InternalMed_Harrison",
+            "content": "CLINICAL MANIFESTATIONS urethritis, Pyelonephritis, and urinary Calculi In many episodes of Chlamydia-negative nongonococcal urethritis, ureaplasmas may be the causative agent. These organisms may also cause chronic voiding symptoms in women. The common presence of ureaplasmas in the urethra of asymptomatic men suggests either that only certain serovars are pathogenic or that predisposing factors, such as lack of immunity, must exist in persons who develop symptomatic infection. Alternatively, disease may develop only upon initial exposure to urea-plasmas. Ureaplasmas have been implicated in epididymitis. M. genitalium also appears to cause urethritis. M. genitalium and ureaplasmas do not have a known role in prostatitis. M. hominis does not appear to play a primary etiologic role in urethritis, epididymitis, or prostatitis. Evidence suggests that M. hominis causes up to 5% of cases of acute pyelonephritis. Ureaplasmas have not been associated with this disease."
+        },
+        {
+            "id": "Neurology_Adams_8661",
+            "title": "Neurology_Adams",
+            "content": "Of similar interest as a modulating factor in the development of the disease is strong association between mutations in the glucocerebrosidase gene (other mutations of which causes Gaucher disease) among Ashkenazi Jews (Sidransky et al), the same population predominantly affected by polymorphisms of LRRK2. Although population studies allow only limited conclusions about clinical correlations, the glucocerebrosidase mutation is present more often in patients with a family history of the disease, have an earlier onset that in patients with a normal gene and a lower incidence of resting tremor. Mutations have been present in 7 percent of Parkinson patients who had their genes fully sequenced, making it a common genetic factor for the disease, particularly in this ethnographic population."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5791",
+            "title": "Cell_Biology_Alberts",
+            "content": "Embryos are simpler than adults, and they allow us to analyze such basic processes more easily. Studies of the early Drosophila embryo, for example, were crucial to the discovery of several conserved signaling pathways, including the Wnt, Hedgehog, and Notch pathways. They also provided the key to understanding the central role of these pathways in the maintenance of normal adult human tissues and in diseases such as cancer. In Chapter 22, we shall consider how other developmental mechanisms operate in the normal adult body, especially in tissues that are continually renewed by means of stem cells\u2014including the gut, skin, and the hematopoietic system. But now, we must look more closely at the way in which an early embryo generates its spatial pattern of specialized cells, beginning with the transformations that create the adult body plan."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1875",
+            "title": "Cell_Biology_Alberts",
+            "content": "must bind for this module\u2019s maximal activation. This simple regulatory scheme suffices to turn on the stripe 2 module (and therefore the expression of the Eve gene) only in those nuclei located where the levels of both Bicoid and Hunchback are high and both Kr\u00fcppel and Giant are absent\u2014a combination that occurs in only one region of the early embryo. It is not known exactly how these four transcription regulators interact with coactivators and co-repressors to specify the final level of transcription across the stripe, but the outcome very likely relies on competition between activators and repressors that act by the mechanisms outlined in Figures 7\u201317, 7\u201319, and 7\u201323."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4345",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 15\u201360 The Wnt/\u03b2-catenin signaling pathway. (A) In the absence of a Wnt signal, \u03b2-catenin that is not bound to cell\u2013cell adherens junctions (not shown) interacts with a degradation complex containing APC, axin, GSK3, and CK1. In this complex, \u03b2-catenin is phosphorylated by CK1 and then by GSK3, triggering its ubiquitylation and degradation in proteasomes. Wnt-responsive genes are kept inactive by the Groucho co-repressor protein bound to the transcription regulator LEF1/TCF. (B) Wnt binding to Frizzled and LRP clusters the two co-receptors together, and the cytosolic tail of LRP is phosphorylated by GSK3 and then by CK1. Axin binds to the phosphorylated LRP and is inactivated and/or degraded, resulting in disassembly of the degradation complex. The phosphorylation of \u03b2-catenin is thereby prevented, and unphosphorylated \u03b2-catenin accumulates and translocates to the nucleus, where it binds to LEF1/ TCF, displaces the co-repressor Groucho, and acts as a coactivator to stimulate the"
+        },
+        {
+            "id": "Neurology_Adams_8328",
+            "title": "Neurology_Adams",
+            "content": "This is yet another hereditary form of developmental delay, but one that affects girls. None of the cases in the extensive studies of Hagberg and coworkers (1983) was male. The responsible spontaneous mutation was shown to relate to a defect at chromosomal site Xq28, making it one of the X-linked developmental delays. A fatal outcome in boys because of a severe neonatal encephalopathy explains the expression of the disease only in girls, who are mosaics for the mutation. The involved gene, MECP2, is responsible for suppressing various other genes at critical stages of development (see Dunn and MacLeod). It has this effect by binding to methylated DNA. Defective function of the gene leads to an alteration in synaptogenesis and neural connectivity (Neul and Zoghbi). Severe inactivation of gene expression causes classic Rett syndrome, but it has become apparent that incomplete expression and mosaicism lead to a number of partial syndromes, including nonspecific developmental delay,"
+        },
+        {
+            "id": "Physiology_Levy_4152",
+            "title": "Physiology_Levy",
+            "content": "MREs \u2022 Recruitment of coactivator proteins and GTFs \u2022 Altered transcription of aldosterone-regulated genes \u2022 Dimerization \u2022 Nuclear transport \u2022 Binding to GREs \u2022 Recruitment of coactivator proteins and GTFs \u2022 Altered transcription of cortisol-regulated genes Cortisol Cortisol Cortisol GR-chaperone complex GR-cortisol complex Cortisone Cortisone Cortisone Blood"
+        },
+        {
+            "id": "Pharmacology_Katzung_1767",
+            "title": "Pharmacology_Katzung",
+            "content": "Although these peptides are generally considered individually, many belong to families, the members of which have similarities in structure and function and act on the same or related receptors. Examples are substance P, which belongs to the tachykinin family; calcitonin gene-related peptide and adrenomedullin (calcitonin family); vasoactive intestinal peptide (secretin-glucagon family); and neuropeptide Y (neuropeptide Y family). Many of these peptides were initially regarded as physiologic curiosities, but subsequent investigation showed that they play important roles not only in physiologic regulation, but also in a variety of disease states. Moreover, many drugs that alter the biosynthesis or actions of the peptides have been synthesized. In previous versions of this chapter, such drugs were often referred to as \u201cbeing under development\u201d or \u201chaving promise.\u201d"
+        },
+        {
+            "id": "Neurology_Adams_8057",
+            "title": "Neurology_Adams",
+            "content": "11. The Angelman syndrome, another cause of severe developmental delay, is associated with the identical chromosomal abnormality to that found in the Prader-Willi syndrome, but there is usually a maternally inherited single-gene defect. The difference in phenotype derives from a complex genetic phenomenon termed spatially restricted imprinting. The phenotype comprises severe developmental delay, microcephaly, refractory seizures, absence of speech, ataxia, inappropriate laughter, prominent jaw, thin upper lip, and prolonged tongue. Outstanding in its clinical presentation is an unusual marionette-like stance coupled with a persistent tendency to laugh and smile (hence the old name \u201chappy puppet syndrome\u201d)."
+        }
+    ],
+    "scores": [
+        0.028003873454186833,
+        0.02516624040920716,
+        0.019801980198019802,
+        0.01896117900790798,
+        0.016012909632571994,
+        0.015891811043250655,
+        0.0152073732718894,
+        0.01486949080017116,
+        0.014540337711069419,
+        0.0140625,
+        0.013720777802053746,
+        0.013604501014572957,
+        0.013178428992543782,
+        0.012677798392084105,
+        0.01162251655629139,
+        0.011562041849926697,
+        0.011497670730498562,
+        0.01093498599606698,
+        0.010152545866831581,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.00980392156862745,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009708737864077669,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009615384615384616,
+        0.009523809523809525,
+        0.009523809523809525
+    ]
+}
