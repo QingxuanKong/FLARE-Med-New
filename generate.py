@@ -2,6 +2,12 @@ import json
 from MedRAG.src.medrag import MedRAG
 import os
 import argparse
+from datasets import Dataset
+import torch, gc
+import time
+
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+start_time = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--config", type=str, help="Path to config JSON file")
@@ -15,6 +21,7 @@ parser.add_argument("--dataset_name", type=str, default="bioasq")
 
 args = parser.parse_args()
 
+
 # Load from specified config file if provided
 if args.config:
     with open(args.config) as f:
@@ -26,6 +33,7 @@ if args.config:
         for key, value in file_config.items():
             if key in vars(args) and parser.get_default(key) == getattr(args, key):
                 setattr(args, key, value)
+
 
 # Print final configuration
 print("Final arguments:")
@@ -60,6 +68,7 @@ for qid, qdata in dataset.items():
     )
 print(f"Total {len(qa_list)} questions in {task_key} dataset\n")
 
+
 # Initialize MedRAG
 current_dir = os.path.dirname(os.path.abspath(__file__))
 db_dir = os.path.join(current_dir, "MedRAG/src/data/corpus")
@@ -73,6 +82,7 @@ medrag = MedRAG(
     corpus_cache=True,  # Optional: speed up repeated runs
     cache_dir="MedRAG/src/llm/cache",  # Optional: cache directory for LLM
 )
+
 
 # Output results
 if args.rag:
@@ -89,10 +99,24 @@ else:
 os.makedirs(save_dir, exist_ok=True)
 print(f"Results will be saved to {save_dir}\n")
 
+
+# Existing files
+existing_files = set(os.listdir(save_dir))
+print(f"Found {len(existing_files)} existing files in {save_dir}\n")
+
 # Generate answer using retrieval
 for idx, qa in enumerate(qa_list):
-    if idx % 10 == 0:
+    if idx % 5 == 0:
         print(f"Processing question {idx + 1}/{len(qa_list)} ...")
+
+        elapsed = time.time() - start_time
+        avg_time = elapsed / (idx + 1)
+        remaining = (len(qa_list) - (idx + 1)) * avg_time
+        print(f"ETA: {int(remaining // 60)}m {int(remaining % 60)}s remaining")
+
+    if qa["id"] + ".json" in existing_files:
+        print(f"Skipping {qa['id']}, already exists")
+        continue
 
     question = qa["question"]
     options = qa["options"]
@@ -103,7 +127,8 @@ for idx, qa in enumerate(qa_list):
     qa["snippets"] = snippets
     qa["scores"] = scores
 
-    filename = os.path.join(save_dir, qa["id"] + ".json")
-
-    with open(filename, "w") as f:
+    with open(os.path.join(save_dir, qa["id"] + ".json"), "w") as f:
         json.dump(qa, f, indent=4)
+
+    gc.collect()
+    torch.cuda.empty_cache()
