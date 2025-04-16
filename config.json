@@ -1,0 +1,10 @@
+{
+    "corpus_name": "MedText",
+    "retriever_name": "BM25",
+    "llm_name": "axiong/PMC_LLaMA_13B",
+    "rag": true,
+    "k": 32,
+    "results_dir": "./prediction",
+    "dataset_name": "bioasq"
+  }
+  

@@ -16,11 +16,25 @@ parser.add_argument("--dataset_name", type=str, default="bioasq")
 
 args = parser.parse_args()
 
+config_args = {}
+if args.config:
+    with open(args.config) as f:
+        config_args = json.load(f)
+
+
+def get_arg(key, fallback=None):
+    return (
+        getattr(args, key)
+        if getattr(args, key) is not None
+        else config_args.get(key, fallback)
+    )
+
+
 # Read questions and options from json file
 with open("rawdata/benchmark.json", "r") as f:
     data = json.load(f)
 
-task_key = "bioasq"
+task_key = args.dataset_name
 dataset = data[task_key]
 
 qa_list = []
@@ -48,6 +62,7 @@ medrag = MedRAG(
     corpus_name=args.corpus_name,  # Must match folder in corpus/
     db_dir=db_dir,  # Parent directory containing MedCorp/
     corpus_cache=True,  # Optional: speed up repeated runs
+    cache_dir="MedRAG/src/llm/cache",  # Optional: cache directory for LLM
 )
 
 # Output results
