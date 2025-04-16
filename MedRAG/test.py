@@ -15,12 +15,12 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 db_dir = os.path.join(current_dir, "src/data/corpus")
 
 medrag = MedRAG(
-    llm_name="OpenAI/gpt-3.5-turbo-16k",  # or path to local model
+    llm_name="meta-llama/Meta-Llama-3-70B-Instruct",  # or path to local model
     rag=True,
-    retriever_name="BM25",
-    corpus_name="MedText",  # Must match folder in corpus/
+    retriever_name="RRF-4",
+    corpus_name="Textbooks",  # Must match folder in corpus/
     db_dir=db_dir,  # Parent directory containing MedCorp/
-    corpus_cache=True,  # Optional: speed up repeated runs
+    corpus_cache=False,  # Optional: speed up repeated runs
     cache_dir="src/llm/cache",  # Optional: cache directory for LLM
 )
 

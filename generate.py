@@ -90,11 +90,9 @@ os.makedirs(save_dir, exist_ok=True)
 print(f"Results will be saved to {save_dir}\n")
 
 # Generate answer using retrieval
-for idx, qa in enumerate(qa_list[10:]):
+for idx, qa in enumerate(qa_list):
     if idx % 10 == 0:
         print(f"Processing question {idx + 1}/{len(qa_list)} ...")
-
-    exit()
 
     question = qa["question"]
     options = qa["options"]

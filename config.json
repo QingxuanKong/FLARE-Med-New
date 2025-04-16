@@ -1,10 +1,10 @@
 {
-    "corpus_name": "MedText",
-    "retriever_name": "BM25",
-    "llm_name": "OpenAI/gpt-3.5-turbo-16k",
+    "corpus_name": "Textbooks",
+    "retriever_name": "RRF-4",
+    "llm_name": "meta-llama/Llama-3.1-8B-Instruct",
     "rag": true,
     "k": 32,
     "results_dir": "./prediction",
-    "dataset_name": "pubmedqa"
+    "dataset_name": "bioasq"
   }
   

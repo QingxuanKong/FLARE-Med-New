@@ -227,9 +227,12 @@ class MedRAG:
                     ),
                 )
             if "llama-3" in self.llm_name.lower():
+                print("generating ...")
                 response = self.model(
                     prompt,
-                    do_sample=False,
+                    do_sample=True,
+                    temperature=0.6,
+                    top_p=0.9,
                     eos_token_id=[
                         self.tokenizer.eos_token_id,
                         self.tokenizer.convert_tokens_to_ids("<|eot_id|>"),
@@ -240,10 +243,11 @@ class MedRAG:
                     stopping_criteria=stopping_criteria,
                     **kwargs,
                 )
+                print("finishing ...")
             else:
                 response = self.model(
                     prompt,
-                    do_sample=False,
+                    do_sample=True,
                     eos_token_id=self.tokenizer.eos_token_id,
                     pad_token_id=self.tokenizer.eos_token_id,
                     max_length=self.max_length,
