@@ -46,10 +46,10 @@ from src.utils import RetrievalSystem
 
 # Set the corpus name and path you used when chunking
 retriever = RetrievalSystem(
-    retriever_name="RRF-2",               # or "MedCPT"
-    corpus_name="StatPearls",              # make sure this matches your folder name
-    db_dir="src/data/corpus",                  # or absolute path to your corpus folder
-    cache=True
+    retriever_name="BM25",  # or "MedCPT"
+    corpus_name="Wikipedia",  # make sure this matches your folder name
+    db_dir="src/data/corpus",  # or absolute path to your corpus folder
+    cache=True,
 )
 
 query = "facial nerve lesion symptoms"
