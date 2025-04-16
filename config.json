@@ -1,0 +1,10 @@
+{
+    "corpus_name": "MedText",
+    "retriever_name": "BM25",
+    "llm_name": "OpenAI/gpt-3.5-turbo-16k",
+    "rag": true,
+    "k": 32,
+    "results_dir": "./prediction",
+    "dataset_name": "pubmedqa"
+  }
+  

@@ -13,10 +13,10 @@ import tiktoken
 import sys
 
 sys.path.append("src")
-from utils import RetrievalSystem, DocExtracter
-from template import *
+from .utils import RetrievalSystem, DocExtracter
+from .template import *
 
-from config import config
+from .config import config
 
 openai.api_type = (
     openai.api_type or os.getenv("OPENAI_API_TYPE") or config.get("api_type")

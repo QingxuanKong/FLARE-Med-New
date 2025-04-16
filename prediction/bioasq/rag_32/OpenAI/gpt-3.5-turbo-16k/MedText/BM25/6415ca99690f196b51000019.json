@@ -1,0 +1,206 @@
+{
+    "id": "6415ca99690f196b51000019",
+    "question": "Have chimeric antigen receptor (CAR)-T cell therapies been approved for the treatment of B cell malignancies?",
+    "options": {
+        "A": "yes",
+        "B": "no"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"Yes, CAR-T cell therapies have been approved for the treatment of B cell malignancies. According to Document [1], the first CAR-T cell treatment approved by the FDA in August 2017 was tisagenlecleucel, which is indicated for B-cell precursor acute lymphoblastic leukemia and relapsed or refractory large B-cell lymphoma. Another CAR-T cell treatment, axicabtagene ciloleucel, was also approved for the treatment of relapsed or refractory large B-cell lymphoma. Therefore, the answer is A. yes.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "article-145918_89",
+            "title": "Laboratory Evaluation of Acute Leukemia -- Clinical Significance -- Chimeric Antigen Receptor T-Cell Therapy",
+            "content": "Chimeric antigen receptor T-cell (CAR-T cell) therapy is a form of adoptive immunotherapy that involves the transfer of genetically modified T cells to stimulate an anti-leukemic immune response. For patients at very high risk of relapse or those who have relapsed after initial treatment, CAR-T cell therapy presents a promising option. This approach modifies a patient's T cells to specifically target leukemia cells. CAR-T cell therapy has demonstrated significant success in treating relapsed or refractory ALL, especially in patients with CD19-positive B-ALL. [80]"
+        },
+        {
+            "id": "article-37276_29",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Clinical Significance",
+            "content": "The first CAR-T cell treatment approved by the United States Food and Drug Administration(FDA) in August 2017 was tisagenlecleucel. It is indicated in patients up to 25 years of age with B-cell precursor acute lymphoblastic leukemia that is refractory or in the second or later relapse. It also has indications in adult patients with relapsed or refractory large B-cell lymphoma after\u00a02 or more lines of systemic therapy, including diffuse large B-cell lymphoma (DLBCL) not otherwise specified, high-grade B-cell lymphoma and DLBCL arising from follicular lymphoma. The second US FDA-approved CAR-T cell treatment, in October 2017, is axicabtagene ciloleucel, which is\u00a0indicated for the treatment of adult patients with relapsed or refractory large B-cell lymphoma after\u00a02 or more lines of systemic therapy, including DLBCL not otherwise specified, primary mediastinal large B-cell lymphoma, high-grade B-cell lymphoma, and DLBCL arising from follicular lymphoma. Neither treatment indicates patients with primary central nervous system(CNS) lymphoma. According to the US National Institute of Health clinical trial registration, multiple clinical trials are underway with CAR-T cell treatment for different malignancies, including multiple myeloma, CNS tumors, hepatocellular carcinoma, lung cancer, etc. [3] [4] [5] [6]"
+        },
+        {
+            "id": "article-153034_2",
+            "title": "CART Cell Therapy Toxicity -- Introduction",
+            "content": "Chimeric antigen receptor-T (CAR-T) cell therapy is a type of genetically modified immunotherapy that is directed at cancer\u00a0cells. The method involves\u00a0using an individual's own T-cells\u00a0(or donor cells in allogeneic CART), transduced with gene encodes ex vivo, then introduced to the patient. [1] CAR-T has changed the treatment paradigm for\u00a0hematological malignancies, such as B-cell lymphomas and multiple myeloma, and continues to be a promising approach for many other malignancies, including solid tumors. [2] [3] [4] [5]"
+        },
+        {
+            "id": "article-37276_3",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Indications",
+            "content": "Chimeric antigen receptors usually contain an extracellular domain that binds to a specific antigen on tumor cells, a\u00a0transmembrane domain, and intracellular domains that signal T-cell activation to attack tumor cells.\u00a0Tisagenlecleucel\u00a0is a cluster of differentiation\u00a0(CD) 19-directed genetically modified autologous T-cell\u00a0immunotherapy that involves reprogramming a patient\u2019s T-cells with a transgene encoding a CAR to identify and eliminate CD19-expressing cells, both malignant and normal. The CAR comprises a murine single-chain antibody fragment; this recognizes CD19 and fuses to intracellular signaling domains from 4-1BB (CD137) and CD3 zeta. The CD3 zeta\u00a0component is critical for initiating T-cell activation and anti-tumor activity, while 4-1BB enhances the expansion and\u00a0persistence of tisagenlecleucel. Upon binding to CD19-expressing cells, the CAR transmits a signal to promote T-cell\u00a0expansion, activation, target cell elimination, and persistence of the tisagenlecleucel cells. Axicabtagene ciloleucel\u00a0is another CD19-directed genetically modified autologous T-cell\u00a0immunotherapy\u00a0that binds to CD19-expressing cancer cells and normal B cells. Following anti-CD19 CAR T-cell\u00a0engagement with CD19-expressing target cells, the CD28 and CD3-zeta co-stimulatory domains activate downstream signaling cascades that lead to T-cell\u00a0activation, proliferation, acquisition of effector functions and secretion of inflammatory cytokines and chemokines. This sequence of events leads to the killing of CD19-expressing cells. [3] [4] [5] [6] [7]"
+        },
+        {
+            "id": "article-37276_4",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Indications",
+            "content": "Besides the\u00a02 approved medications\u00a0targeting CD19\u00a0on B lymphocytic cells treating B-cell malignancies, multiple\u00a0tumor-associated antigens\u00a0have\u00a0been under investigation in targeting\u00a0various types of cancer, especially in solid tumors. The following is a summary of reported tumor-associated antigens from a recent review, listing first the target and then the associated tumor(s):"
+        },
+        {
+            "id": "article-24595_34",
+            "title": "Non-Hodgkin Lymphoma -- Treatment / Management -- B Cell Lymphoma",
+            "content": "Diffuse Large B cell lymphoma: In Stage I or II, the R-CHOP regimen is often given for 3 to 6 cycles, with/without\u00a0radiation therapy to the lymph node that is affected. In stage III or IV,\u00a06 cycles of R-CHOP is the preferred\u00a0treatment. Imaging tests such as\u00a0PET/CT scans are done to evaluate treatment response after 2-4\u00a0cycles. Intrathecal chemotherapy or high doses of methotrexate intravenously is given to patients in the presence or at high risk of\u00a0central nervous system involvement. For \"Double-hit\" lymphomas, that is, with translocations of MYC and BCL2 or BCL6 as detected by FISH or standard cytogenetics, DA-EPOCH-R is preferred.\u00a0Refractory or relapsed\u00a0diffuse large B cell lymphoma can be treated with a salvage regimen followed by\u00a0bone marrow transplant\u00a0for eligible\u00a0patients or Chimeric antigen receptor T cell (CAR-T) cell therapy. [17] CAR-T therapy\u00a0is\u00a0a form of immunotherapy in which\u00a0the patient's T lymphocytes are genetically modified with a gene that encodes a CAR that targets the patient's cancer. CAR-T therapy has shown\u00a0effectiveness against refractory CD19-expressing B lymphoid malignancies. [18]"
+        },
+        {
+            "id": "article-153034_0",
+            "title": "CART Cell Therapy Toxicity -- Continuing Education Activity",
+            "content": "Chimeric antigen receptor-T (CAR-T) cell therapy is an evolving treatment entity used to treat relapsed/refractory cancers. It involves genetically modifying autologous or allogeneic T cells to express Chimeric Antigen Receptor (CAR) proteins that target specific cancer cells. Despite promising outcomes, these cells attack normal tissue cells expressing similar proteins on their surfaces. This cross-reactivity results in adverse events (AEs), leading to substantial mortality and morbidity. This activity reviews the evaluation and treatment of CAR-T toxicity and highlights the role of interprofessional teams in evaluating and treating patients with these AEs."
+        },
+        {
+            "id": "article-37276_0",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Continuing Education Activity",
+            "content": "Chimeric antigen receptors (CARs) are recombinant receptors for antigens that redirect the specificity and function of T lymphocytes or other immune cells in a single molecule. The concept of using CARs in cancer immunotherapy is that CARs, which are programmed to target tumor-associated antigens, can be replicated rapidly and homogeneously. Direct infusion of these armed tumor-targeting T cells bypasses the barriers and kinetics of active immunization. This activity describes the indications, contraindications, and complications of CART treatment and highlights the interprofessional team's role in managing cancer patients."
+        },
+        {
+            "id": "article-37276_2",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Introduction",
+            "content": "Chimeric antigen receptors\u00a0(CARs) are recombinant receptors for antigens that redirect the specificity and function of T lymphocytes or other immune cells in a single molecule. The concept of using CARs in cancer immunotherapy is that CARs, which are programmed to target tumor-associated antigens, can be replicated rapidly and homogeneously. Direct infusion of these armed tumor-targeting T-cells\u00a0bypass the barriers and kinetics of active immunization. Unlike general passive immunization using\u00a0a direct antibody, CAR-modified T-cells with supraphysiologic activities work as an active medication, interacting with tumor-associated\u00a0antigens, which results in both immediate and long-term effects of anti-neoplasm. [1] [2]"
+        },
+        {
+            "id": "article-23408_18",
+            "title": "Immunotherapy -- Indications -- CAR T-cell therapy",
+            "content": "In addition to these hematological malignancies, CAR T-cell therapy is also being investigated for certain types of solid tumors, although progress in this area has been more limited. Solid tumors being targeted with CAR T-cell therapy include: Multiple Myeloma: CAR T-cell therapy targeting BCMA (B-cell maturation antigen) has shown promise in treating relapsed or refractory multiple myeloma. Glioblastoma: CAR T-cell therapy targeting EGFRvIII (epidermal growth factor receptor variant III) has been investigated in glioblastoma, although results have been mixed. Sarcomas: CAR T-cell therapy is being explored in certain types of sarcomas, including osteosarcoma and synovial sarcoma, although research is still in the early stages."
+        },
+        {
+            "id": "article-24592_18",
+            "title": "Mantle Cell Lymphoma -- Treatment / Management",
+            "content": "Ibrutinib, acalabrutinib, zanubrutinib, venetoclax +/- rituximab, bortezomib +/- rituximab, lenalidomide plus rituximab, ibrutinib and lenalidomide + rituximab and chimeric antigen receptor T-cells (CAR-T) received FDA approval and several other agents including BiTE antibodies, antibody-drug conjugates and are under clinical trials. BCR- B cell receptor, BTK - Bruton's tyrosine kinase"
+        },
+        {
+            "id": "article-133174_3",
+            "title": "Tocilizumab -- Indications -- FDA-Approved Indications",
+            "content": "Cytokine release syndrome (Severe or life-threatening, CAR T-Cell therapy) Patients \u22652 years of age with chimeric antigen receptor (CAR) T\u00a0cell-induced severe or life-threatening cytokine release syndrome (CRS)"
+        },
+        {
+            "id": "article-36238_62",
+            "title": "Methylprednisolone -- Adverse Effects -- Drug-Drug Interactions",
+            "content": "Chimeric antigen receptor T-cell therapy (CAR T-cell therapy): There is concern regarding the use of prophylactic corticosteroids due to the potential risk of diminishing CAR T-cell activity in the context of CAR T-cell therapy. Despite these concerns, existing evidence suggests that administering corticosteroids to manage adverse effects such as cytokine release syndrome (CRS) does not significantly impact the therapeutic outcomes of CAR T-cell therapy. Nonetheless, it is prudent to use corticosteroids with caution. [66]"
+        },
+        {
+            "id": "article-23408_65",
+            "title": "Immunotherapy -- Mechanism of Action -- Several Immunotherapy Modalities Used in Cancer Treatment",
+            "content": "Cytokines\u00a0have successfully\u00a0treated certain malignancies. For example, IL-2 combined with interferon-\u03b3 for renal carcinoma, interferon-\u03b1 and \u03b2 for hairy leukemia, and TNF-\u03b1 used in various tumors caused a notable reduction of the mass. These cytokines upregulated the immune system by stimulating T-cell and NK cell activation and increased MHC class I expression. CAR T-cell therapy, or Chimeric Antigen Receptor T-cell therapy, is a groundbreaking immunotherapy approach used to treat certain types of cancer. Here are the key principles: [15] [6]"
+        },
+        {
+            "id": "article-37276_26",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Complications",
+            "content": "Cytokine-release syndrome is the most common adverse effect of CAR T-cell therapy. It presents with high fever, low blood pressure, and hypoxia, with or without multi-organ toxicities, including cardiovascular, gastrointestinal, respiratory, renal, hematological, and nervous system. The trigger for this condition is the activation of T-cells on the engagement of their T-cell receptors or CARs with cognate antigens expressed by the tumor cell. It typically occurs within the first week after CAR T-cell therapy and generally peaks within\u00a01 to\u00a02 weeks of cell administration. The management of cytokine-release syndrome is based on the grade, including temperature, systolic blood pressure, oxygen saturation, and possible toxicity to other organs. The primary points for management include supportive care\u00a0(ie,\u00a0acetaminophen and hypothermia blanket for fever; intravenous fluid for dehydration or hypotension; supplemental oxygen for hypoxia), corticosteroids, and\u00a0Interleukin-6 antagonists."
+        },
+        {
+            "id": "article-23408_16",
+            "title": "Immunotherapy -- Indications -- CAR T-cell therapy",
+            "content": "CAR T-cell therapy has primarily been investigated and approved for certain hematological malignancies, particularly B-cell malignancies. These include:"
+        },
+        {
+            "id": "article-37276_25",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Complications",
+            "content": "Multiple side effects are associated with CAR T-cell therapy. The most common\u00a02 are cytokine-release syndrome(CRS) and neurologic toxicities, also known as CAR-related encephalopathy syndrome\u00a0(CRES)."
+        },
+        {
+            "id": "article-145918_90",
+            "title": "Laboratory Evaluation of Acute Leukemia -- Clinical Significance -- Chimeric Antigen Receptor T-Cell Therapy",
+            "content": "Although CAR-T cell therapy is primarily used in ALL, ongoing research evaluates its efficacy in AML, particularly for patients with specific genetic markers such as CD33-positive, CD123-positive, or CLL-1 leukemic cells. This approach could offer a potentially curative option for AML patients who have not responded to other treatments. [81]"
+        },
+        {
+            "id": "article-23408_17",
+            "title": "Immunotherapy -- Indications -- CAR T-cell therapy",
+            "content": "B-cell Acute Lymphoblastic Leukemia (B-ALL): CAR T-cell therapy has\u00a0demonstrated remarkable efficacy in treating relapsed or refractory B-ALL, particularly in pediatric and young adult patients. Diffuse Large B-cell Lymphoma (DLBCL): CAR T-cell therapy has been approved for certain subtypes of DLBCL, including relapsed or refractory DLBCL after\u00a02 or more lines of systemic therapy. Follicular Lymphoma (FL): CAR T-cell therapy has demonstrated promising results in treating relapsed or refractory FL, especially in patients who have failed multiple lines of therapy. Mantle Cell Lymphoma (MCL): CAR T-cell therapy has shown efficacy in treating relapsed or refractory MCL, particularly in patients who have failed prior therapies. Chronic Lymphocytic Leukemia (CLL): While still investigational, CAR T-cell therapy is being studied in CLL, particularly in patients with high-risk disease or those who have relapsed after multiple lines of therapy."
+        },
+        {
+            "id": "article-153034_17",
+            "title": "CART Cell Therapy Toxicity -- Pathophysiology -- Immune Effector Cell-associated Neurotoxicity Syndrome\u00a0(ICANS)",
+            "content": "It is a form of clinical and neuropsychiatric disease manifestation that occurs within days to 2-3 weeks following CAR-T therapy administration. [29] The risk factors for ICANS include the presence of CRS, pre-existing neurologic dysfunction, high disease burden, elevated\u00a0LDH, thrombocytopenia, elevated ferritin within 72 hours after CAR-T cell administration, chimeric antigen receptor\u00a0(CAR) design such as CD28 costimulatory domain, certain hinge, transmembrane CAR domains, and lymphodepletion therapy with fludarabine and cyclophosphamide. [29]"
+        },
+        {
+            "id": "article-24580_124",
+            "title": "Lymphoma -- Treatment / Management -- Diffuse Large B- Cell Lymphoma",
+            "content": "The benefit of HD-SCT lies in the use of high doses of chemotherapy. A harvest of autologous peripheral blood stem cells before administration of high-dose chemotherapy allows for the use of chemotherapy doses, which are so bone marrow toxic that they would otherwise kill the patient, were it not for rescue by stem cell reinfusion. In cases where second-line therapies fail, clinical trials or allogeneic stem cell transplantation may be considered. [24] The latest advance in the management of relapsed/refractory DLBCL is the utilization of anti-CD19 chimeric antigen receptor (CAR) T-cell therapy. [25] [26]"
+        },
+        {
+            "id": "article-24587_20",
+            "title": "Follicular Lymphoma -- Treatment / Management",
+            "content": "Autologous hematopoietic stem cell transplantation is the preferred management for recurrent/relapsed patients or patients who have undergone a transformation to higher-grade lymphoma. Patients with advanced, relapsed, or refractory disease are encouraged to participate in clinical trials of new therapies like chimeric antigen receptor (CAR) T-cell therapy). [1] [13] [14]"
+        },
+        {
+            "id": "article-43836_22",
+            "title": "Soft Tissue Clear Cell Sarcoma -- Medical Oncology",
+            "content": "GFR806 CAR T\u00a0Cell\u00a0Immunotherapy for Recurrent/Refractory Solid Tumors in Children and Young Adults (NCT03618381) Testing Atezolizumab in People 2-17 Years Old With\u00a0Clear\u00a0Cell\u00a0Sarcoma\u00a0or Advanced Chondrosarcoma (NCT04458922) Clinical Trial of SP-2577 (Seclidemstat) in Patients With Relapsed or Refractory Ewing or Ewing-related\u00a0Sarcomas (NCT03600649) B7H3 CAR T\u00a0Cell\u00a0Immunotherapy for Recurrent/Refractory Solid Tumors in Children and Young Adults (NCT04483778) B7-H3-Specific Chimeric Antigen Receptor Autologous T-Cell\u00a0Therapy for Pediatric Patients With Solid Tumors (3CAR) (NCT04897321)"
+        },
+        {
+            "id": "article-37276_23",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Equipment",
+            "content": "For administering both CAR-T cell treatments, it is important to confirm the patient\u2019s identity with the patient identifiers on the infusion bag, as they are all for autologous use. A leuodepleting filter cannot be used, and central venous access is the recommended method for infusion. Interleukin-6 antagonists (ie, tocilizumab or siltuximab), corticosteroids, and emergent equipment are needed before infusion and during the recovery period in case of side effects."
+        },
+        {
+            "id": "article-37276_30",
+            "title": "Chimeric Antigen Receptor T-Cell Therapy -- Enhancing Healthcare Team Outcomes",
+            "content": "Providing CAR T-cell treatment to the patient requires an interprofessional team of healthcare professionals, including physicians in different specialties, nurses, pharmacists, and\u00a0laboratory technologists. CAR T-cell therapy preparation is from the patient's peripheral blood cells obtained via leukapheresis\u00a0and infused into the patient for tumor attack.\u00a0Clinicians\u00a0are required to perform both leukapheresis and infusion. Different specialty\u00a0clinicians may also be required; for example, in some facilities, the dialysis\u00a0clinician\u00a0performs leukapheresis, and an oncology\u00a0clinician delivers immunotherapy. The clinician's significant role is\u00a0to care for the patient, especially during and after the transfusion. Close attention is required to monitor adverse effects, including early symptoms and signs of cytokine-releasing syndrome and CAR-T-cell-related encephalopathy. Various physicians in different specialties are required, especially when adverse effects occur. Pharmacists\u00a0are important before treatment because\u00a0Interleukin-6 antagonists (ie, tocilizumab or siltuximab), corticosteroids, and emergent equipment are needed before infusion and during the recovery period in case of side effects. Critical care may also warranted if side effects are severe and need to stand by during and after the medication infusion. Neurology consultation and evaluation are required if neurotoxicity occurs. The adverse effect can happen in most organs or systems, interprofessional communication and opinion exchange are essential when taking care of a patient undergoing CAR-T cell therapy especially in the situation of any adverse effect."
+        },
+        {
+            "id": "InternalMed_Harrison_5437",
+            "title": "InternalMed_Harrison",
+            "content": "Because metastatic disease rather than uncontrolled growth of the primary tumor is the source of mortality for most cancers, there has been considerable interest in developing systemic gene therapy approaches. One strategy has been to promote more efficient recognition of tumor cells by the immune system. Approaches have included transduction of tumor cells with immune-enhancing genes encoding cytokines, chemokines, or co-stimulatory molecules; and ex vivo manipulation of dendritic cells to enhance the presentation of tumor antigens. Recently, considerable success has been achieved using lentiviral transduction of autologous lymphocytes with a cDNA encoding a chimeric antigen receptor (CAR). The CAR moiety consists of a tumor antigen-binding domain (e.g., an antibody to the B cell antigen CD19) fused to an intracellular signaling domain that allows T cell activation. The transduced lymphocytes can then recognize and destroy cells bearing the antigen. This CAR\u2013T cell approach has"
+        },
+        {
+            "id": "article-139619_34",
+            "title": "Relapsed and Refractory Multiple Myeloma -- Treatment / Management -- Treatment Options",
+            "content": "Various anti-myeloma drugs and their combinations are used to select treatment plans for RRMM patients. These include autologous stem cell transplantation, protease inhibitors (PIs), immunomodulatory drugs (IMiDs), targeted agents like monoclonal antibodies (mAbs), antibody-drug conjugates, chimeric antigen receptor T-cells (CAR-T-cells), biphasic T-cell engagers (BiTEs), selinexor, venetoclax, and many others."
+        },
+        {
+            "id": "article-153034_4",
+            "title": "CART Cell Therapy Toxicity -- Introduction",
+            "content": "Since then, more agents such as lisocabtagene maraleucel\u00a0(liso-cel) have made their way onto the market, demonstrating better tolerance. [11] Later, brexucabtagene autoleucel was approved for R/R mantle cell lymphoma (MCL). [12] More recently, anti-B-cell Maturation Antigen (BCMA) CAR-T, idecabtagene vicleucel (ide-cel, KarMMa), and ciltacabtagene autoleucel (cilta-cel, CARTITUDE-1) have been approved for R/R\u00a0multiple myeloma. [3] [4]"
+        },
+        {
+            "id": "article-153034_3",
+            "title": "CART Cell Therapy Toxicity -- Introduction",
+            "content": "Clusters of differentiation-19 (CD-19), a B cell surface marker, -directed CAR-T cells show encouraging outcomes in a variety of malignancies, including pediatric and B-cell acute lymphocytic leukemia (ALL), non-Hodgkin lymphoma (NHL), and chronic lymphocytic leukemia (CLL). The first approved CAR-T therapy\u00a0targeting CD-19, tisagenlecleucel (tisa-cel, ELIANA), was initially approved by the Food and Drug Administration (FDA) for patients with ALL in 2017,\u00a0and later diffuse large B-cell lymphoma (DLBCL), high-grade B-cell lymphoma, and DLBCL arising from follicular lymphoma (JULIET). [6] [7] [8] Around the same time, axicabtagene ciloleucel (axi-cel, ZUMA-1) gained approval for relapsed/refractory (R/R) DLBCL and later for R/R follicular lymphoma. [9] [10]"
+        },
+        {
+            "id": "Immunology_Janeway_4124",
+            "title": "Immunology_Janeway",
+            "content": "Another form of adoptive immunotherapy also uses retroviruses to introduce genes into a patient\u2019s T cells, but involves expressing a novel type of receptor, known as a chimeric antigen receptor (CAR). CARs are fusion receptors that contain extracellular antigen-specific domains fused to intracellular domains that provide signals for activation and co-stimulation. These receptors are introduced into T cells via retroviral vectors to produce so-called CAR T cells. This approach differs from conventional adoptive T-cell therapies as the use of a CAR allows the T cell\u2019s target specificity to be almost any molecule recognizable by an antibody rather than just peptide:MHC complexes. Recently this approach was used to target CD19 as a tumor rejection antigen in treating acute lymphocytic leukemia (ALL), an aggressive cancer of transformed B cells (Fig. 16.18). The CAR used in this case had an extracellular domain of an antibody that recognizes human CD19. The intracellular domain had three"
+        },
+        {
+            "id": "article-22272_23",
+            "title": "Glioblastoma Multiforme -- Treatment / Management",
+            "content": "Other therapeutic strategies include immune checkpoint inhibitors, cancer vaccines, oncolytic viruses, and chimeric antigen receptor (CAR) T-cell therapy. [17] [18] Active immunotherapy might benefit survival in GBM. [42] Molecular targeted therapies are comprised of the following: Mechanistic categories include kinase phosphorylation, cell cycle-related mechanisms, microenvironmental targets, and immunological targets. Key molecular targets include epidermal growth factor receptor (EGFR), mammalian target of rapamycin (mTOR), vascular endothelial growth factor (VEGF), and mitogen-activated protein kinase (MEK). [43]"
+        },
+        {
+            "id": "article-132354_12",
+            "title": "Relapsed and Refractory Follicular Lymphoma -- Treatment / Management",
+            "content": "CAR-T therapy is an option for patients with multiply relapsed follicular lymphomas.\u00a0CAR-T cells are created from the patient's T-lymphocytes that have been genetically modified (transfected) with a gene encoding a CAR to direct the T-cells against the lymphoma cells. The T-cells are genetically changed ex vivo, multiplied in a production facility, and then reinfused into the patient as a form of treatment. Axicabtagene ciloleucel (axi-cel) and tisagenlecleucel (tisa-cel) are CD19-directed CAR-T therapies that are approved by the Food and Drug Administration (FDA). [30] [31]"
+        }
+    ],
+    "scores": [
+        30.210500717163086,
+        29.33169937133789,
+        28.460100173950195,
+        27.33639907836914,
+        27.289199829101562,
+        27.159299850463867,
+        26.934499740600586,
+        26.826200485229492,
+        26.57469940185547,
+        26.310100555419922,
+        26.077499389648438,
+        25.586299896240234,
+        24.601699829101562,
+        24.492700576782227,
+        23.94529914855957,
+        23.647499084472656,
+        23.626800537109375,
+        23.29490089416504,
+        23.1914005279541,
+        22.78420066833496,
+        22.73349952697754,
+        22.72439956665039,
+        22.037700653076172,
+        21.580299377441406,
+        21.438600540161133,
+        21.42329978942871,
+        21.371000289916992,
+        21.29360008239746,
+        20.9552001953125,
+        20.78569984436035,
+        20.685199737548828,
+        20.59280014038086
+    ]
+}
