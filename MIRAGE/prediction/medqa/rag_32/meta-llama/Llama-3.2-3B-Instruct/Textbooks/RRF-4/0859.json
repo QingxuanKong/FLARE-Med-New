@@ -1,0 +1,208 @@
+{
+    "id": "0859",
+    "question": "A 58-year-old male presents with an acutely elevated blood pressure of 220/140 mmHg. The patient complains of a headache and chest pain, and he has been vomiting for the last several hours. Physical exam demonstrates papilledema and a depressed level of consciousness. To treat this patient's hypertensive emergency, he is started on an IV medication commonly used in this situation. The agent exerts its effect by releasing nitric oxide as a metabolite, which subsequently activates guanylate cyclase and increases production of cGMP in vascular smooth muscle. Which of the following clinical effects would be expected from administration of this medication?",
+    "options": {
+        "A": "Decreased cardiac contractility",
+        "B": "Increased left ventricular end-diastolic pressure",
+        "C": "Decreased stroke volume",
+        "D": "Decreased pulmonary capillary wedge pressure"
+    },
+    "answer": "D",
+    "predict": "To solve this question, we need to think step-by-step about the effects of the medication and the pathophysiology of the condition being treated. 1. **Condition being treated:** The patient has a hypertensive emergency, which is characterized by severely elevated blood pressure, headache, chest pain, vomiting, papilledema, and depressed level of consciousness. This suggests a malignant hypertension, which is a medical emergency that requires immediate treatment. 2. **Medication:** The medication administered is an IV agent that exerts its effect by releasing nitric oxide as a metabolite, which activates guanylate cyclase and increases production of cGMP in vascular smooth muscle. This is a description of nitroprusside, a potent vasodilator used in hypertensive emergencies. 3. **Mechanism of action of nitroprusside:** Nitroprusside releases nitric oxide (NO), which activates guanylyl cyclase in vascular smooth muscle, leading to an increase in cyclic guanosine monophosphate (cGMP). cGMP causes relaxation of vascular smooth muscle, resulting in vasodilation. 4. **Expected clinical effects:** With vasodilation, we can expect a decrease in peripheral vascular resistance. This would lead to: - Decreased afterload (the pressure against which the left ventricle must work to eject blood into the aorta), which would decrease the workload on the heart and subsequently decrease cardiac contractility. So, option A is correct. - Decreased peripheral resistance would also lead to a decrease in pulmonary capillary wedge pressure, as the reduced afterload would decrease the pressure in the pulmonary vasculature. So, option D is correct. - Decreased peripheral resistance would also lead to a decrease in left ventricular end-diastolic pressure, as the heart would not have to work as hard to fill the ventricles. So, option B is incorrect. - Decreased peripheral resistance would not directly decrease stroke volume, as the volume of blood ejected by the heart is determined by contractility and preload, not afterload. So, option C is incorrect. Therefore, the expected clinical effects of administering nitroprusside in this patient are decreased cardiac contractility (A) and decreased pulmonary capillary wedge pressure (D). Here is the answer in JSON format: {\"step_by_step_thinking\": \"The patient has a hypertensive emergency, and nitroprusside is administered, which releases nitric oxide to activate guanylyl cyclase and increase cGMP in vascular smooth muscle. This leads to vasodilation, decreasing peripheral resistance and afterload. As a result, cardiac contractility decreases and pulmonary capillary wedge pressure decreases.\", \"answer_choice\": \"A, D\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_1764",
+            "title": "Pharmacology_Katzung",
+            "content": "During a routine check and on two follow-up visits, a 45-year-old man was found to have high blood pressure (160\u2013165/95\u2013100 mm Hg). His physician initially prescribed hydrochlorothiazide, a diuretic commonly used to treat hyper-tension. His blood pressure was reduced by hydrochloro-thiazide but remained at a hypertensive level (145/95 mm Hg), and he was referred to the university hypertension clinic. Because the patient had elevated plasma renin activity and aldosterone concentration, hydrochlorothiazide was replaced with enalapril, an angiotensin-converting enzyme inhibitor. Enalapril lowered his blood pressure to almost normotensive levels. However, after several weeks on enalapril, the patient returned complaining of a persistent cough. In addition, some signs of angioedema were detected. How does enalapril lower blood pressure? Why does it occasionally cause coughing and angioedema? What other drugs could be used to inhibit the renin-angiotensin system and decrease blood pressure,"
+        },
+        {
+            "id": "Pharmacology_Katzung_1490",
+            "title": "Pharmacology_Katzung",
+            "content": "Ramin Sam, MD, Harlan E. Ives, MD, PhD, & David Pearce, MD A 65-year-old man has a history of diabetes and chronic kidney disease with baseline creatinine of 2.2 mg/dL. Despite five different antihypertensive drugs, his clinic blood pres-sure is 176/92 mm Hg; he has mild dyspnea on exertion and 2\u20133+ edema on exam. He has been taking furosemide 80 mg twice a day for 1 year now. At the clinic visit, hydrochlorothi-azide 25 mg daily is added for better blood pressure control and also to treat symptoms and signs of fluid overload. Two weeks later, the patient presents to the emergency depart-ment with symptoms of weakness, anorexia, and generalized malaise. His blood pressure is now 91/58 mm Hg, and he has lost 15 kg in 2 weeks. His laboratory tests are signifi-cant for a serum creatinine of 10.8 mg/dL. What has led to the acute kidney injury? What is the reason for the weight loss? What precautions could have been taken to avoid this hospitalization?"
+        },
+        {
+            "id": "Pharmacology_Katzung_1117",
+            "title": "Pharmacology_Katzung",
+            "content": "Hypertensive emergencies include hypertension associated with vascular damage (termed malignant hypertension) and hypertension associated with hemodynamic complications such as heart failure, stroke, or dissecting aortic aneurysm. The underlying pathologic process in malignant hypertension is a progressive arteriopathy with inflammation and necrosis of arterioles. Vascular lesions occur in the kidney, which releases renin, which in turn stimulates production of angiotensin and aldosterone, which further increase blood pressure. Hypertensive encephalopathy is a classic feature of malignant hypertension. Its clinical presentation consists of severe headache, mental confusion, and apprehension. Blurred vision, nausea and vomiting, and focal neurologic deficits are common. If untreated, the syndrome may progress over a period of 12\u201348 hours to convulsions, stupor, coma, and even death. Treatment of Hypertensive Emergencies"
+        },
+        {
+            "id": "InternalMed_Harrison_19922",
+            "title": "InternalMed_Harrison",
+            "content": "Phosphodiesterase Type-5 Inhibitors Nitric oxide derived from endothelial cells activates guanylyl cyclase, which, in turn, generates cGMP in vascular smooth muscle cells and platelets. cGMP is a second messenger that induces vasodilation through relaxation of the arterial smooth muscle cells and inhibits platelet activation. PDE5 enzymes metabolize cGMP. Therefore, cGMP PDE5 inhibitors prolong the vasodilatory effect of nitric oxide, especially within the pulmonary arterial bed where high concentrations of cGMP are found. There are currently two PDE5 inhibitors used for the treatment of PAH, sildenafil and tadalafil. Both agents have been shown to improve hemodynamics and 6MWD. Recently, the oral soluble guanylyl cyclase stimulator, riociguat, was approved for the treatment of both PAH and CTEPH."
+        },
+        {
+            "id": "InternalMed_Harrison_3805",
+            "title": "InternalMed_Harrison",
+            "content": "Neural input to smooth-muscle tone is crucial to the initiation and maintenance of an erection. There is also an intricate interaction between the corporal smooth-muscle cell and its overlying endothelial cell lining (Fig. 67-1). Nitric oxide, which induces vascular relaxation, promotes erection and is opposed by endothelin 1 (ET-1) and Rho kinase, which mediate vascular contraction. Nitric oxide is synthesized from l-arginine by nitric oxide synthase and is released from the nonadrenergic, noncholinergic (NANC) autonomic nerve supply to act postjunctionally on smooth-muscle cells. Nitric oxide increases the production of cyclic 3\u2032,5\u2032-guanosine monophosphate (cyclic GMP), which induces relaxation of smooth muscle (Fig. 67-2). Cyclic GMP is gradually broken down by phosphodiesterase type 5 (PDE-5). Inhibitors of PDE-5, such as the oral medications sildenafil, vardenafil, and tadalafil, maintain erections by reducing the breakdown of cyclic GMP. However, if nitric oxide is not produced"
+        },
+        {
+            "id": "First_Aid_Step1_331",
+            "title": "First_Aid_Step1",
+            "content": "ClINICAl uSE Dihydropyridines (except nimodipine): hypertension, angina (including vasospastic type), Raynaud phenomenon. Nimodipine: subarachnoid hemorrhage (prevents cerebral vasospasm). Nicardipine, clevidipine: hypertensive urgency or emergency. Non-dihydropyridines: hypertension, angina, atrial fibrillation/flutter. AdvERSE EFFECTS Gingival hyperplasia. Dihydropyridine: peripheral edema, flushing, dizziness. Non-dihydropyridine: cardiac depression, AV block, hyperprolactinemia (verapamil), constipation. MECHANISM \u008f cGMP \u008e smooth muscle relaxation. Vasodilates arterioles > veins; afterload reduction. ClINICAl uSE Severe hypertension (particularly acute), HF (with organic nitrate). Safe to use during pregnancy. Frequently coadministered with a \u03b2-blocker to prevent reflex tachycardia. AdvERSE EFFECTS Compensatory tachycardia (contraindicated in angina/CAD), fluid retention, headache, angina, drug-induced lupus."
+        },
+        {
+            "id": "InternalMed_Harrison_19138",
+            "title": "InternalMed_Harrison",
+            "content": "The organic nitrates are a valuable class of drugs in the management of angina pectoris (Table 293-4). Their major mechanisms of action include systemic venodilation with concomitant reduction in left ventricular end-diastolic volume and pressure, thereby reducing myocardial wall tension and oxygen requirements; dilation of epicardial coronary vessels; and increased blood flow in collateral vessels. When metabolized, organic nitrates release nitric oxide (NO) that binds to guanylyl cyclase in vascular smooth muscle cells, leading to an increase in cyclic guanosine monophosphate, which causes relaxation of vascular smooth muscle. Nitrates also exert antithrombotic activity by NO-dependent activation of platelet guanylyl cyclase, impairment of intraplatelet calcium flux, and platelet activation."
+        },
+        {
+            "id": "Pharmacology_Katzung_233",
+            "title": "Pharmacology_Katzung",
+            "content": "Increased cGMP concentration causes relaxation of vascular smooth muscle by a kinase-mediated mechanism that results in dephosphorylation of myosin light chains (see Figure 12\u20132). In these smooth muscle cells, cGMP synthesis can be elevated by two trans-membrane signaling mechanisms utilizing two different guanylyl cyclases. Atrial natriuretic peptide, a blood-borne peptide hormone, stimulates a transmembrane receptor by binding to its extracellular domain, thereby activating the guanylyl cyclase activity that resides in the receptor\u2019s intracellular domain. The other mechanism mediates responses to nitric oxide (NO; see Chapter 19), which is generated in vascular endothelial cells in response to natural vasodilator agents such as acetylcholine and histamine. After entering the target cell, nitric oxide binds to and activates a cytoplasmic guanylyl cyclase (see Figure 19\u20132). A number of useful vasodilating drugs, such as nitroglycerin and sodium nitroprusside used in treating cardiac"
+        },
+        {
+            "id": "InternalMed_Harrison_19617",
+            "title": "InternalMed_Harrison",
+            "content": "mean arterial blood pressure by no more than 25% within minutes to 2 h or to a blood pressure in the range of 160/100\u2013110 mmHg. This may be accomplished with IV nitroprusside, a short-acting vasodilator with a rapid onset of action that allows for minute-to-minute control of blood pressure. Parenteral labetalol and nicardipine are also effective agents for the treatment of hypertensive encephalopathy. In patients with malignant hypertension without encephalopathy or another catastrophic event, it is preferable to reduce blood pressure over hours or longer rather than minutes. This goal may effectively be achieved initially with frequent dosing of short-acting oral agents such as captopril, clonidine, and labetalol."
+        },
+        {
+            "id": "Biochemistry_Lippincott_520",
+            "title": "Biochemistry_Lippinco",
+            "content": "Nitric oxide and vascular endothelium NO is an important mediator in the control of vascular smooth muscle tone. NO is synthesized by eNOS in endothelial cells and diffuses to vascular smooth muscle, where it activates the cytosolic form of guanylyl cyclase (or, guanylate cyclase) to form cyclic guanosine monophosphate (cGMP). [Note: This reaction is analogous to the formation of cyclic adenosine monophosphate (cAMP) by adenylyl cyclase (see p. 95).] The resultant rise in cGMP causes activation of protein kinase G, which phosphorylates Ca2+ channels, causing decreased entry of Ca2+ into smooth muscle cells. This decreases the Ca2+\u2013CaM activation of myosin light-chain kinase, thereby decreasing smooth muscle contraction and favoring relaxation. Vasodilator nitrates, such as nitroglycerin, are metabolized to NO, which causes relaxation of vascular smooth muscle and, therefore, lowers blood pressure. Thus, NO can be envisioned as an endogenous nitrovasodilator. [Note: Under hypoxic"
+        },
+        {
+            "id": "Pharmacology_Katzung_1006",
+            "title": "Pharmacology_Katzung",
+            "content": "Neal L. Benowitz, MD A 35-year-old man presents with a blood pressure of 150/95 mm Hg. He has been generally healthy, is sedentary, drinks several cocktails per day, and does not smoke cigarettes. He has a family history of hypertension, and his father died of a myocardial infarction at age 55. Physical examination is remarkable only for moderate obesity. Total cholesterol is 220, and high-density lipoprotein (HDL) cholesterol level is 40 mg/dL. Fasting glucose is 105 mg/dL. Chest X-ray is normal. Electrocardiogram shows left ven-tricular enlargement. How would you treat this patient?"
+        },
+        {
+            "id": "Physiology_Levy_1971",
+            "title": "Physiology_Levy",
+            "content": "Of far greater importance in endothelium-mediated vascular dilation is the formation and release of nitric oxide (NO), a component of endothelium-derived relaxing factor (see Fig. 17.24 ). When endothelial cells are stimulated by acetylcholine or other vasodilator agents (e.g., adenosine triphosphate [ATP], bradykinin, serotonin, substance P, histamine), NO is released. These agents do not cause vasodilation in blood vessels lacking the endothelium. NO (synthesized from L-arginine) activates guanylyl cyclase in vascular smooth muscle to increase the concentration of cyclic guanosine monophosphate (cGMP), which produces relaxation by decreasing myofilament sensitivity to [Ca++]. Release of NO can be stimulated by the shear stress of blood flow on the endothelium. The drug nitroprusside also increases cGMP by acting directly on vascular smooth"
+        },
+        {
+            "id": "Pharmacology_Katzung_1081",
+            "title": "Pharmacology_Katzung",
+            "content": "Tachycardia, palpitations, angina, and edema are observed when doses of co-administered \u03b2 blockers and diuretics are inadequate. Headache, sweating, and hypertrichosis (the latter particularly bothersome in women) are relatively common. Minoxidil illustrates how one person\u2019s toxicity may become another person\u2019s therapy. Topical minoxidil (as Rogaine) is used as a stimulant to hair growth for correction of baldness. Sodium nitroprusside is a powerful parenterally administered vasodilator that is used in treating hypertensive emergencies as well as severe heart failure. Nitroprusside dilates both arterial and venous vessels, resulting in reduced peripheral vascular resistance and venous return. The action occurs as a result of activation of guanylyl cyclase, either via release of nitric oxide or by direct stimulation of the enzyme. The result is increased intracellular cGMP, which relaxes vascular smooth muscle (see Figure 12\u20132)."
+        },
+        {
+            "id": "Histology_Ross_2025",
+            "title": "Histology_Ross",
+            "content": "FIGURE 13.12 \u2022 Molecular mechanism of blood vessel vasodilatation. Relaxation of smooth muscle cells in the wall of the blood vessel causes an increase of its diameter and decreases in vascular resistance and systemic blood pressure. Nitric oxide (NO) produced by the endothelial nitric oxide synthase (eNOS) in endothelial cells is an important molecule regulating relaxation of vascular smooth muscles. Other molecules include ADP, vascular endothelial growth factor (VEGF ), bradykinin, prostacyclin (PGI2), and endothelium-derived hyperpolarizing factor (EDHF ). Shear stress produced between erythrocytes and endothelial cells as well as VEGF activate eNOS, increasing the production of NO. Once NO is produced, it diffuses to the underlying smooth muscles and activates guanylate cyclase production of cGMP, which in turn activates cGMP-dependent protein kinase G (PKG) metabolic pathways, causing smooth muscle relaxation. Metabolic stress of endothelial cells caused by increased levels of"
+        },
+        {
+            "id": "InternalMed_Harrison_19504",
+            "title": "InternalMed_Harrison",
+            "content": "Cerebral blood flow remains unchanged over a wide range of arterial pressures (mean arterial pressure of 50\u2013150 mmHg) through a process termed autoregulation of blood flow. In patients with the clinical syndrome of malignant hypertension, encephalopathy is related to failure of autoregulation of cerebral blood flow at the upper pressure limit, resulting in vasodilation and hyperperfusion. Signs and symptoms of hypertensive encephalopathy may include severe headache, nausea and vomiting (often of a projectile nature), focal neurologic signs, and alterations in mental status. Untreated, hypertensive encephalopathy may progress to stupor, coma, seizures, and death within hours. It is important to distinguish hypertensive encephalopathy from other neurologic syndromes that may be associated with hypertension, e.g., cerebral ischemia, hemorrhagic or thrombotic stroke, seizure disorder, mass lesions, pseudotumor cerebri, delirium tremens, meningitis, acute intermittent porphyria, traumatic"
+        },
+        {
+            "id": "Pharmacology_Katzung_1160",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Other smooth muscle organs\u2014Relaxation of smooth muscle of the bronchi, gastrointestinal tract (including biliary system), and genitourinary tract has been demonstrated experimentally. Because of their brief duration, these actions of the nitrates are rarely of any clinical value. During recent decades, the use of amyl nitrite and isobutyl nitrite (not nitrates) by inhalation as recreational (sex-enhancing) drugs has become popular with some segments of the population. Nitrites readily release nitric oxide in erectile tissue as well as vascular smooth muscle and activate guanylyl cyclase. The resulting increase in cGMP causes dephosphorylation of myosin light chains and relaxation (Figure 12\u20132), which enhances erection. This pharmacologic approach to erectile dysfunction is discussed in the Box: Drugs Used in the Treatment of Erectile Dysfunction. 3. Action on platelets\u2014Nitric oxide released from nitroglycerin stimulates guanylyl cyclase in platelets as in smooth muscle."
+        },
+        {
+            "id": "Pharmacology_Katzung_654",
+            "title": "Pharmacology_Katzung",
+            "content": "In the intact organism, intravascular injection of muscarinic agonists produces marked vasodilation. However, earlier studies of isolated blood vessels often showed a contractile response to these agents. It is now known that acetylcholine-induced vasodilation arises from activation of M3 receptors and requires the presence of intact endothelium (Figure 7\u20135). Muscarinic agonists release endothelium-derived relaxing factor (EDRF), identified as nitric oxide (NO), from the endothelial cells. The NO diffuses to adjacent vascular smooth muscle, where it activates guanylyl cyclase and increases cGMP, resulting in relaxation (see Figure 12\u20132). Isolated vessels prepared with the endothelium preserved consistently reproduce the vasodilation seen in the intact organism. The relaxing effect of acetylcholine was maximal at 3 \u00d7 10\u22127 M (Figure 7\u20135). This effect was eliminated in the absence of endothelium, and acetylcholine, at concentrations greater than 10\u22127 M, then caused contraction. This"
+        },
+        {
+            "id": "Pharmacology_Katzung_1140",
+            "title": "Pharmacology_Katzung",
+            "content": "The regulation of smooth muscle contraction and relaxation is shown schematically in Figure 12\u20131. The mechanisms of action of the major types of vasodilators are listed in Table 11\u20133. As shown in Figures 12\u20131 and 12\u20132, drugs may relax vascular smooth muscle in several ways: 1. Increasing cGMP: cGMP facilitates the dephosphorylation of myosin light chains, preventing the interaction of myosin with actin. Nitric oxide (NO) is an effective activator of soluble guanylyl cyclase and acts mainly through this mechanism. Important molecular donors of nitric oxide include nitroprusside (see Chapters 11 and 19) and the organic nitrates used in angina. Atherosclerotic disease may diminish endogenous endothelial NO synthesis, thus making the vascular smooth muscle more dependent upon exogenous sources of NO."
+        },
+        {
+            "id": "Histology_Ross_3817",
+            "title": "Histology_Ross",
+            "content": "outflow is also blocked, resulting in tumescence, and rigidity of the penis. Two neuromediators, acetylcholine and nitric oxide, are involved in the relaxation of smooth muscle during the initi-ation and maintenance of penile erection. nerve endings and acts primarily on the endothelial cells that line the vascular spaces of the corpora cavernosa. This causes the release of vasoactive intestinal peptide (VIP) and, more importantly, nitric oxide. \u0081 Nitric oxide (NO) activates guanylate cyclase in the trabecular smooth muscle cells to produce cyclic guanosine monophosphate (cGMP). cGMP causes the smooth muscle cells to relax. Sympathetic stimulation terminates penile erection by causing contraction of the trabecular smooth muscle cells of the helicine arteries. These events decrease the flow of blood to the corpora cavernosa, reducing blood pressure in the erectile tissue to normal venous pressure. The lower pressure within the corpus cavernosum allows the veins leading from the corpora"
+        },
+        {
+            "id": "Pharmacology_Katzung_3731",
+            "title": "Pharmacology_Katzung",
+            "content": "James L. Zehnder, MD and edema and is tender to touch. Oxygen saturation by fingertip pulse oximeter while breathing room air is 87% (normal > 90%). Ultrasound reveals a deep vein thrombosis in the left lower extremity; chest computed tomography scan confirms the presence of pulmonary emboli. Laboratory blood tests indicate elevated d-dimer levels. What therapy is indicated acutely? What are the long-term therapy options? How long should she be treated? Should this indi-vidual use oral contraceptives? A 25-year-old woman presents to the emergency depart-ment complaining of acute onset of shortness of breath and pleuritic pain. She had been in her usual state of health until 2 days prior when she noted that her left leg was swollen and red. Her only medication was oral contraceptives. Family history was significant for a history of \u201cblood clots\u201d in mul-tiple members of the maternal side of her family. Physical examination demonstrates an anxious woman with stable vital signs. The left"
+        },
+        {
+            "id": "Neurology_Adams_1464",
+            "title": "Neurology_Adams",
+            "content": "Lance (1976) described 21 cases of this type of headache, 16 in males and 5 in females. The headache took one of two forms: one in which pain typical of tension headache developed as sexual excitement increased, and another in which a severe, throbbing, \u201cexplosive\u201d headache occurred at the time of orgasm and persisted for several minutes or hours (orgasmic headache). The latter headaches were of such abruptness and severity as to suggest a ruptured aneurysm but the neurologic examination was negative in every instance, as was arteriography in 7 patients who were subjected to this procedure. In 18 patients who were followed for a period of 2 to 7 years, no other neurologic symptoms developed. Characteristically, the headache occurred on several consecutive occasions and then disappeared. In cases of repeated coital headache, indomethacin has been effective. Of course, so-called orgasmic headache is not always benign; a hypertensive hemorrhage, rupture of an aneurysm or vascular"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1854",
+            "title": "Biochemistry_Lippinco",
+            "content": "TQ5. What response to the DKA is apparent in MW? What response is likely occurring in the kidney? Hint: In addition to conversion to urea, how is toxic ammonia removed from the body? TQ6. What would be true about the levels of ketone bodies and glucose during periods of physiologic stress in individuals with impaired FA oxidation? Case 4: Hypoglycemia, Hyperketonemia, and Liver Dysfunction Patient Presentation: AK, a 59-year-old male with slurred speech, ataxia (loss of skeletal muscle coordination), and abdominal pain, was dropped off at the Emergency Department (ED). Focused History: AK is known to the ED staff from previous visits. He has a 6year history of chronic, excessive alcohol consumption. He is not known to take illicit drugs. At this ED visit, AK reports that he has been drinking heavily in the past day or so. He cannot recall having eaten anything in that time. There is evidence of recent vomiting, but no blood is apparent."
+        },
+        {
+            "id": "InternalMed_Harrison_19613",
+            "title": "InternalMed_Harrison",
+            "content": "Malignant hypertension is a syndrome associated with an abrupt increase of blood pressure in a patient with underlying hypertension or related to the sudden onset of hypertension in a previously normotensive individual. The absolute level of blood pressure is not as important as its rate of rise. Pathologically, the syndrome is associated with diffuse necrotizing vasculitis, arteriolar thrombi, and fibrin deposition in arteriolar walls. Fibrinoid necrosis has been observed in arterioles of kidney, brain, retina, and other organs. Clinically, the syndrome is recognized by progressive retinopathy (arteriolar spasm, hemorrhages, exudates, and papilledema), deteriorating renal function with proteinuria, microangiopathic hemolytic anemia, and encephalopathy. Historic inquiry should include questions about the use of monoamine oxidase inhibitors and recreational drugs (e.g., cocaine, amphetamines)."
+        },
+        {
+            "id": "Pharmacology_Katzung_4939",
+            "title": "Pharmacology_Katzung",
+            "content": "A 45-year-old man is brought to the local hospital emer-gency department by ambulance. His wife reports that he had been in his normal state of health until 3 days ago when he developed a fever and a productive cough. Dur-ing the last 24 hours he has complained of a headache and is increasingly confused. His wife reports that his medical history is significant only for hypertension, for which he takes hydrochlorothiazide and lisinopril, and that he is allergic to amoxicillin. She says that he developed a rash many years ago when prescribed amoxicillin for bron-chitis. In the emergency department, the man is febrile (38.7\u00b0C [101.7\u00b0F]), hypotensive (90/54 mmHg), tachypneic (36/min), and tachycardic (110/min). He has no signs of meningismus but is oriented only to person. A stat chest x-ray shows a left lower lung consolidation consistent with pneumonia. A CT scan is not concerning for lesions or elevated intracranial pressure. The plan is to start empiric antibiotics and perform a"
+        },
+        {
+            "id": "First_Aid_Step2_63",
+            "title": "First_Aid_Step2",
+            "content": "nial hemorrhage, papilledema, or ECG changes suggestive of ischemia or pulmonary edema. \u25a0Malignant hypertension: Diagnosed on the basis of progressive renal failure and/or encephalopathy with papilledema. Hypertensive urgencies: Can be treated with oral antihypertensives (e.g., \u03b2-blockers, clonidine, ACEIs) with the goal of gradually lowering BP over 24\u201348 hours (see Tables 2.1-16 and 2.1-17). Hypertensive emergencies: Treat with IV medications (labetalol, nitroprusside, nicardipine) with the goal of lowering mean arterial pressure by no more than 25% over the first two hours to prevent cerebral hypoperfusion or coronary insufficiency. T AB LE 2.1 -1 6. Major Classes of Antihypertensive Agents"
+        },
+        {
+            "id": "Surgery_Schwartz_11751",
+            "title": "Surgery_Schwartz",
+            "content": "and the European Male Aging Study (EMAS), exam-ined men age 40 to 79 years and found that ED rates increased with age.164,1659Brunicardi_Ch40_p1759-p1782.indd 177501/03/19 6:35 PM 1776SPECIFIC CONSIDERATIONSPART IIErections are triggered via sexual stimulation setting off a cascade of events. Nitric oxide is released from nerve fibers and activating guanylyl cyclase leading to an increase in cyclic guanosine monophosphate (cGMP). The cGMP pathway leads to smooth muscle relaxation within the corpora cavernosa allow-ing blood to fill the lacunar spaces. Once the lacunar spaces are full, the expanded tissue compresses the subtunical venules thereby trapping blood within the penis and blocking venous out-flow. Phosphodiesterase type-5 hydrolyzes cGMP to reverse the process.166There are multiple mechanisms leading to ED including vasculogenic, neurogenic, iatrogenic, and psychologic, but often it is multifactorial. Vasculogenic ED can be a result of cardiovascular disease and"
+        },
+        {
+            "id": "InternalMed_Harrison_1763",
+            "title": "InternalMed_Harrison",
+            "content": "The first step is to remove reversible causes\u2014usually vasoactive medications (Table 454-6). Next, nonpharmacologic interventions should be introduced. These interventions include patient education regarding staged moves from supine to upright; warnings about the hypotensive effects of large meals; instructions about the isometric counterpressure maneuvers that increase intravascular pressure (see above); and raising the head of the bed to reduce supine hypertension. Intravascular volume should be expanded by increasing dietary fluid and salt. If these nonpharmacologic measures fail, pharmacologic intervention with fludrocortisone acetate and vasoconstricting agents such as midodrine, L-dihydroxyphenylserine, and pseudoephedrine should be introduced. Some patients with intractable symptoms require additional therapy with supplementary agents that include pyridostigmine, yohimbine, desmopressin acetate (DDAVP), and erythropoietin (Chap. 454)."
+        },
+        {
+            "id": "Pharmacology_Katzung_914",
+            "title": "Pharmacology_Katzung",
+            "content": "David Robertson, MD, & Italo Biaggioni, MD* A 38-year-old man has been experiencing palpitations and headaches. He enjoyed good health until 1 year ago when spells of rapid heartbeat began. These became more severe and were eventually accompanied by throbbing headaches and drenching sweats. Physical examination revealed a blood pressure of 150/90 mm Hg and heart rate of 88 bpm. During the physical examination, palpation of the abdomen elicited a sudden and typical episode, with a rise in blood pressure to 210/120 mm Hg, heart rate to 122 bpm, profuse sweating, and facial pallor. This was accompanied by severe headache. What is the likely cause of his episodes? What caused the blood pressure and heart rate to rise so high during the examination? What treatments might help this patient?"
+        },
+        {
+            "id": "Physiology_Levy_260",
+            "title": "Physiology_Levy",
+            "content": "bSee U.S. Food and Drug Administration. FDA Drug Safety Communication: FDA Strengthens Warning That Non-aspirin Nonsteroidal Anti-inflammatory Drugs (NSAIDs) Can Cause Heart Attacks or Strokes. < http://www.fda.gov/ Drugs/DrugSafety/ucm451800.htm >; 2015 Accessed 25.07.16. ANP binds to the extracellular domain of the plasma membrane receptor guanylyl cyclase and induces a conformational change in the receptor that causes receptor dimerization and activation of guanylyl cyclase, which metabolizes GTP to cGMP. cGMP activates cGMP-dependent protein kinase, which phosphorylates proteins on specific serine and threonine residues. In the kidney, ANP inhibits reabsorption of sodium and water by the collecting duct (see Nitric oxide activates a soluble receptor guanylyl cyclase that converts GTP to cGMP, which relaxes smooth muscle. Because nitroglycerin increases blood concentrations of"
+        },
+        {
+            "id": "Neurology_Adams_9699",
+            "title": "Neurology_Adams",
+            "content": "serious degree, and hyperpyrexia, agitation, and pronounced hypotension may occur as well, sometimes with fatal issue. Unpredictable side effects may also accompany the simultaneous administration of barbiturates and MAO inhibitors. The abrupt occurrence of severe occipital headache, nausea, vomiting, pupillary dilatation, or visual blurring should suggest a hypertensive crisis. Treatment is with intravenous phentolamine 5 mg, nitroprusside, labetalol, or a calcium channel blocker administered slowly to prevent hypotension. Overdosage of MAO inhibitors may lead to coma, for which there is no treatment other than supportive care."
+        },
+        {
+            "id": "Pharmacology_Katzung_1167",
+            "title": "Pharmacology_Katzung",
+            "content": "ejaculation requires intact sympathetic motor function, while orgasm involves independent superficial and deep sensory nerves.) Physiologic erection occurs in response to the release of nitric oxide from nonadrenergic-non-cholinergic nerves (see Chapter 6) associated with parasympa-thetic discharge. Thus, parasympathetic motor innervation must be intact and nitric oxide synthesis must be active. (It appears that a similar process occurs in female erectile tissues.) Certain other smooth muscle relaxants\u2014eg, PGE1 analogs or \u03b1-adrenoceptor antagonists\u2014if present in high enough concentration, can inde-pendently cause sufficient cavernosal relaxation to result in erec-tion. As noted in the text, nitric oxide activates guanylyl cyclase, which increases the concentration of cGMP, and the latter second messenger stimulates the dephosphorylation of myosin light chains (Figure 12\u20132) and relaxation of the smooth muscle. Thus, any drug that increases cGMP might be of value in erectile"
+        },
+        {
+            "id": "Pharmacology_Katzung_2016",
+            "title": "Pharmacology_Katzung",
+            "content": "NO mediates its effects by covalent modification of proteins. There are three major targets of NO (Figure 19\u20131): 1. Metalloproteins\u2014NO interacts with metals, especially iron in heme, a prosthetic group in certain proteins. The major heme-containing target of NO is soluble guanylyl cyclase (sGC), an enzyme that generates cyclic guanosine monophosphate (cGMP) from guanosine triphosphate (GTP). When NO binds the heme in sGC, the enzyme is activated, resulting in an elevation in intracellular cGMP levels. cGMP activates protein kinase G (PKG), which phosphorylates specific proteins. In blood vessels, NO is released from endothelial cells to increase cGMP and PKG activity in vascular smooth muscle cells. The elevated PKG activity results in the phosphorylation of proteins that lead to reduced cytosolic calcium levels. Since calcium triggers contraction of smooth muscle, the NO-mediated reduction in cytosolic calcium leads to vasorelaxation."
+        }
+    ],
+    "scores": [
+        0.024803555210136052,
+        0.024697003279055267,
+        0.024618557603409322,
+        0.02432900432900433,
+        0.020423921977983185,
+        0.02033410415763357,
+        0.020009435891715006,
+        0.019424799622819428,
+        0.018883049790683174,
+        0.018605053651782624,
+        0.01793758043758044,
+        0.01770050125313283,
+        0.01748358528019545,
+        0.01710319164162015,
+        0.01689664883131512,
+        0.0168928470455188,
+        0.016576819407008087,
+        0.016483516483516484,
+        0.01588557516737675,
+        0.015756302521008403,
+        0.015556974516746966,
+        0.015546218487394958,
+        0.01537744641192917,
+        0.015335772707705553,
+        0.015281423155438904,
+        0.015189728304482404,
+        0.015182648401826484,
+        0.015151515151515152,
+        0.015123088293820003,
+        0.014784879996057364,
+        0.014706677480400108,
+        0.014644569522618304
+    ]
+}

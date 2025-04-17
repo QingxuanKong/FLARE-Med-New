@@ -1,0 +1,208 @@
+{
+    "id": "0652",
+    "question": "An 89-year-old woman is brought to the emergency department by her husband because of diarrhea and weakness for 4 days. She has 2\u20133 loose stools every day. She has also had 3 episodes of vomiting. She complains of a headache and blurry vision. Three weeks ago, she returned from a cruise trip to the Bahamas. She has congestive heart failure, atrial fibrillation, age-related macular degeneration, type 2 diabetes mellitus, and chronic renal failure. Current medications include warfarin, metoprolol, insulin, digoxin, ramipril, and spironolactone. Her temperature is 36.7\u00b0C (98\u00b0F), pulse is 61/min, and blood pressure is 108/74 mm Hg. The abdomen is soft, and there is diffuse, mild tenderness to palpation. Laboratory studies show:\nHemoglobin 12.9 g/dL\nLeukocyte count 7200/mm3\nPlatelet count 230,000/mm3\nSerum\nNa+ 137 mEq/L\nK+ 5.2 mEq/L\nGlucose 141 mg/dL\nCreatinine 1.3 mg/dL\nWhich of the following is the most appropriate next step in management?\"",
+    "options": {
+        "A": "Perform hemodialysis",
+        "B": "Perform C. difficile toxin assay",
+        "C": "Measure serum drug concentration",
+        "D": "Administer oral activated charcoal"
+    },
+    "answer": "C",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: ```json { \"step_by_step_thinking\": \"The patient presents with diarrhea, weakness, headache, and blurry vision after returning from a cruise trip to the Bahamas. Her laboratory studies show hyperkalemia (K+ 5.2 mEq/L), elevated creatinine (1.3 mg/dL), and a history of chronic renal failure. The patient is also taking warfarin, which can increase the risk of bleeding and worsen renal function. The patient's symptoms and laboratory results suggest the possibility of renal failure and hyperkalemia, which can be life-threatening. The most appropriate next step in management is to measure serum drug concentration to determine if warfarin levels are within a therapeutic range and to identify potential drug interactions. This will help guide further management and treatment.\", \"answer_choice\": \"C\" } ``` The reasoning behind this answer is as follows: * The patient's symptoms of diarrhea, weakness, headache, and blurry vision, combined with laboratory results of hyperkalemia and elevated creatinine, suggest renal failure. * The patient's history of chronic renal failure and use of warfarin, a medication that can increase the risk of bleeding and worsen renal function, further supports this diagnosis. * Measuring serum warfarin levels is crucial to determine if the patient's INR is within a therapeutic range and to identify potential drug interactions that may be contributing to her renal failure and hyperkalemia. * Performing hemodialysis (A) may be necessary if the patient's renal function is severely impaired, but it is not the immediate next step without further evaluation. * Performing a C. difficile toxin assay (B) may be relevant if the patient's diarrhea is suspected to be caused by a bacterial infection, but it is not directly related to her hyperkalemia and renal failure. * Administering oral activated charcoal (D) is not appropriate for this patient, as it is used to treat overdose or prevent reabsorption of certain medications, and it is not indicated in this scenario.",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_3641",
+            "title": "InternalMed_Harrison",
+            "content": "A 76-year-old woman presented with a several-month history of diarrhea, with marked worsening over the 2\u20133 weeks before admission (up to 12 stools a day). Review of systems was negative for fever, orthostatic dizziness, nausea and vomiting, or headache. Past medical history included hypertension, kidney stones, and hypercholesterolemia; medications included atenolol, spironolactone, and lovastatin. She also reliably consumed >2 L of liquid per day in management of the nephrolithiasis. The patient received 1 L of saline over the first 5 h of her hospital admission. On examination at hour 6, the heart rate was 72 sitting and 90 standing, and blood pressure was 105/50 mmHg lying and standing. Her jugular venous pressure (JVP) was indistinct with no peripheral edema. On abdominal examination, the patient had a slight increase in bowel sounds but a nontender abdomen and no organomegaly."
+        },
+        {
+            "id": "Pharmacology_Katzung_7019",
+            "title": "Pharmacology_Katzung",
+            "content": "Her social history is significant for alcohol use (three to four glasses of wine/night). Her vital signs include the following: temperature 99.8\u00b0F, blood pressure 132/64 mm Hg, pulse 78 bpm, and respiratory rate 15/min. On physical examination, she had left upper abdominal tenderness with evidence of hepatomegaly and mild scleral icterus. Laboratory data revealed the following: alanine aminotransferase, 527 IU/L (normal 10\u201335 IU/L); aspartate aminotransferase, 425 IU/L (normal < 35 IU/L); and bilirubin, 2.9 mg/dL (normal 0.1\u20130.3 mg/dL). What medications do OTC cold and flu preparations typically contain? Which of the OTC medications might have contrib-uted to the patient\u2019s current symptoms? KH, a 55-year-old woman, presents to the emergency department with nausea, vomiting, and complaints of new-onset flu symptoms over the past several days. Her past medical history is significant for allergic rhinitis and chronic lower back pain secondary to a work-related fall 2 years ago. Her"
+        },
+        {
+            "id": "Pharmacology_Katzung_1490",
+            "title": "Pharmacology_Katzung",
+            "content": "Ramin Sam, MD, Harlan E. Ives, MD, PhD, & David Pearce, MD A 65-year-old man has a history of diabetes and chronic kidney disease with baseline creatinine of 2.2 mg/dL. Despite five different antihypertensive drugs, his clinic blood pres-sure is 176/92 mm Hg; he has mild dyspnea on exertion and 2\u20133+ edema on exam. He has been taking furosemide 80 mg twice a day for 1 year now. At the clinic visit, hydrochlorothi-azide 25 mg daily is added for better blood pressure control and also to treat symptoms and signs of fluid overload. Two weeks later, the patient presents to the emergency depart-ment with symptoms of weakness, anorexia, and generalized malaise. His blood pressure is now 91/58 mm Hg, and he has lost 15 kg in 2 weeks. His laboratory tests are signifi-cant for a serum creatinine of 10.8 mg/dL. What has led to the acute kidney injury? What is the reason for the weight loss? What precautions could have been taken to avoid this hospitalization?"
+        },
+        {
+            "id": "InternalMed_Harrison_3630",
+            "title": "InternalMed_Harrison",
+            "content": "A 78-year-old man was admitted with pneumonia and hyponatremia. Plasma Na+ concentration was initially 129 meq/L, decreasing within 3 days to 118\u2013120 meq/L despite fluid restriction to 1 L/d. A chest computed tomography (CT) revealed a right 2.8 \u00d7 1.6 cm infrahilar mass and postobstructive pneumonia. The patient was an active smoker. Past medical history was notable for laryngeal carcinoma treated 15 years prior with radiation therapy, renal cell carcinoma, peripheral vascular disease, and hypothyroidism. On review of systems, he denied headache, nausea, and vomiting. He had chronic hip pain, managed with acetaminophen with codeine. Other medications included cilostazol, amoxicillin/clavulanate, digoxin, diltiazem, and thyroxine. He was euvolemic on examination, with no lymphadenopathy and a normal chest examination. Na+ 120 K+ 4.3 Cl\u2212 89 HCO3\u2212 23 BUN 8 Creat 1.0 Glu 93 Alb 3.1 Ca 8.9 Phos 2.8 Mg 2.0 Plasma osm 248 mOsm/kg Cortisol 25 \u03bcg/dL TSH 2.6 Uric acid 2.7 mg/dL"
+        },
+        {
+            "id": "Pharmacology_Katzung_7061",
+            "title": "Pharmacology_Katzung",
+            "content": "A 53-year-old woman with a history of knee osteoarthritis, high cholesterol, type 2 diabetes, and hypertension presents with new onset of hot flashes and a question about a dietary supplement. She is obese (body mass index [BMI] 33), does not exercise, and spends a good portion of her work day in a seated position. She eats a low-sugar diet and regularly eats packaged frozen meals for dinner because she doesn\u2019t have time to cook regularly. Her most recent laboratory values include a low-density lipoprotein (LDL) cholesterol that is above goal at 160 mg/dL (goal < 100 mg/dL) and a hemo-globin A1c that is well controlled at 6%. Her blood pressure is high at 160/100 mm Hg. Her prescription medications include simvastatin, metformin, and benazepril. She also takes over-the-counter ibuprofen for occasional knee pain and a multivitamin supplement once daily. She has heard good things about natural products and asks you if taking a garlic supplement daily could help to bring her blood"
+        },
+        {
+            "id": "InternalMed_Harrison_3642",
+            "title": "InternalMed_Harrison",
+            "content": "The plasma Na+ concentration on admission was 113 meq/L, with a creatinine of 2.35 (Table 64e-1). At hospital hour 7, the plasma Na+ concentration was 120 meq/L, potassium 5.4 meq/L, chloride 90 64e-5 meq/L, bicarbonate 22 meq/L, BUN 32 mg/dL, creatinine 2.02 mg/dL, glucose 89 mg/dL, total protein 5.0, and albumin 1.9. The hematocrit was 33.9, white count 7.6, and platelets 405. A morning cortisol was 19.5, with thyroid-stimulating hormone (TSH) of 1.7. The patient was treated with 1 \u03bcg of intravenous DDAVP, along with 75 mL/h of intravenous half-normal saline. After the plasma Na+ concentration dropped to 116 meq/L, intravenous fluid was switched to normal saline at the same infusion rate. The subsequent results are shown in Table 64e-1."
+        },
+        {
+            "id": "Anatomy_Gray_1249",
+            "title": "Anatomy_Gray",
+            "content": "This patient had no symptoms attributable to the pelvic kidney and she was discharged. A 19-year-old woman presented to the emergency department with a 36-hour history of lower abdominal pain that was sharp and initially intermittent, later becoming constant and severe. The patient also reported feeling nauseated and vomited once in the ER. She did not have diarrhea and had opened her bowels normally 8 hours before admission. She had no symptoms of dysuria. She was afebrile, slightly tachycardic at 95/min, and had a normal blood pressure. Blood results showed mild leukocytosis of 11.6 x 109/L and normal renal and liver function tests. She reported being sexually active with a long-term partner. She was never pregnant, and the urine pregnancy test on admission was negative."
+        },
+        {
+            "id": "InternalMed_Harrison_3656",
+            "title": "InternalMed_Harrison",
+            "content": "A 32-year-old man was admitted to the hospital with weakness and hypokalemia. The patient had been very healthy until 2 months previously when he developed intermittent leg weakness. His review of systems was otherwise negative. He denied drug or laxative abuse and was on no medications. Past medical history was unremarkable, with no history of neuromuscular disease. Family history was notable for a sister with thyroid disease. Physical examination was notable only for reduced deep tendon reflexes. Sodium 139 143 meq/L Potassium 2.0 3.8 meq/L Chloride 105 107 meq/L Bicarbonate 26 29 meq/L BUN 11 16 mg/dL Creatinine 0.6 1.0 mg/dL Calcium 8.8 8.8 mg/dL Phosphate 1.2 mg/dL Albumin 3.8 meq/L TSH 0.08 \u03bcIU/L (normal 0.2\u20135.39) Free T4 41 pmol/L (normal 10\u201327)"
+        },
+        {
+            "id": "InternalMed_Harrison_3650",
+            "title": "InternalMed_Harrison",
+            "content": "A 44-year-old woman was referred from a local hospital after presenting with flaccid paralysis. Severe hypokalemia was documented (2.0 meq/L), and an infusion containing KCl was initiated. PART 2 Cardinal Manifestations and Presentation of Diseases Sodium 140 meq/L Potassium 2.6 meq/L Chloride 115 meq/L Bicarbonate 15 meq/L Anion gap 10 meq/L BUN 22 mg/dL Creatinine 1.4 mg/dL pH 7.32 U PaCO2 30 mmHg HCO3\u2212 15 meq/L Rheumatoid factor positive, anti-Ro/SS-A positive, and anti-La/SS-B positive pH = 6.0, normal sediment without white or red blood cell casts and no bacteria. The urine protein-to-creatinine ratio was 0.150 g/g. Urinary electrolyte values were: Na+ 35, K+ 40, Cl\u2212 18 meq/L. Therefore, the urine anion gap was positive, indicating low urine NH4+ excretion."
+        },
+        {
+            "id": "Gynecology_Novak_6071",
+            "title": "Gynecology_Novak",
+            "content": "Management If outpatient management is appropriate, the patient should be instructed to limit her activity, to weigh herself daily, and to monitor her \ufb02uid intake (at least 1 L per day of mostly electrolyte-balanced \ufb02uid) and output. Daily follow-up by telephone or visit is important and the patient should be reassessed if she notes worsening of the symptoms or if her weight gain increases to more than 2 lb per day. Indications for hospitalization include an inability to tolerate oral hydration, hemodynamic instability, respiratory compromise, tense ascites, hemoconcentration, leukocytosis, hyponatremia, hyperkalemia, abnormal renal or liver function, and decreased oxygen saturation. Fluid intake and urine output need to be carefully measured, and admission to an intensive care setting can be considered if the patient has hyperkalemia, renal failure, respiratory failure, or thromboembolic disease. Although intravenous \ufb02uids may worsen ascities, they are essential to correct"
+        },
+        {
+            "id": "Pharmacology_Katzung_5664",
+            "title": "Pharmacology_Katzung",
+            "content": "Philip J. Rosenthal, MD A 5-year-old American girl presents with a 1-week history of intermittent chills, fever, and sweats. She had returned home 2 weeks earlier after leaving the USA for the first time to spend 3 weeks with her grandparents in Nigeria. She received all standard childhood immunizations, but no additional treat-ment before travel, since her parents have returned to their native Nigeria frequently without medical consequences. Three days ago, the child was seen in an outpatient clinic and diagnosed with a viral syndrome. Examination reveals a lethargic child, with a temperature of 39.8\u00b0C (103.6\u00b0F) and splenomegaly. She has no skin rash or lymphadenopathy. Ini-tial laboratory studies are remarkable for hematocrit 29.8%, platelets 45,000/mm3, creatinine 2.5 mg/dL (220 \u03bcmol/L), and mildly elevated bilirubin and transaminases. A blood smear shows ring forms of Plasmodium falciparum at 1.5% parasit-emia. What treatment should be started?"
+        },
+        {
+            "id": "InternalMed_Harrison_3617",
+            "title": "InternalMed_Harrison",
+            "content": "A 63-year-old man was admitted to the intensive care unit (ICU) with a severe aspiration pneumonia. Past medical history included schizophrenia, for which he required institutional care; treatment had included neuroleptics and intermittent lithium, the latter restarted 6 months before admission. The patient was treated with antibiotics and intubated for several days, with the development of polyuria (3\u20135 L/d), hypernatremia, and acute renal insufficiency; the peak plasma Na+ concentration was 156 meq/L, and peak creatinine was 2.6 mg/dL. Urine osmolality was measured once and reported as 157 mOsm/kg, with a coincident plasma osmolality of 318 mOsm/kg. Lithium was stopped on admission to the ICU. On physical examination, the patient was alert, extubated, and thirsty. Weight was 97.5 kg. Urine output for the previous 24 h had been 3.4 L, with an IV intake of 2 L/d of D5W."
+        },
+        {
+            "id": "Pharmacology_Katzung_6809",
+            "title": "Pharmacology_Katzung",
+            "content": "A 21-year-old woman comes with her parents to discuss therapeutic options for her Crohn\u2019s disease. She was diag-nosed with Crohn\u2019s disease 2 years ago, and it involves her terminal ileum and proximal colon, as confirmed by colonoscopy and small bowel radiography. She was initially treated with mesalamine and budesonide with good response, but over the last 2 months, she has had a relapse of her symptoms. She is experiencing fatigue, cramping, abdominal pains, and nonbloody diarrhea up to 10 times daily, and she has had a 15-lb weight loss. She has no other significant medical or surgical his-tory. Her current medications are mesalamine 2.4 g/d and budesonide 9 mg/d. She appears thin and tired. Abdominal examination reveals tenderness without guarding in the right lower quadrant; no masses are palpable. On perianal examination, there is no tenderness, fissure, or fistula. Her laboratory data are notable for anemia and elevated C-reactive protein. What are the options for immediate"
+        },
+        {
+            "id": "Pharmacology_Katzung_1130",
+            "title": "Pharmacology_Katzung",
+            "content": "Irbesartan Generic,Avapro Treatment of Angina Pectoris Bertram G. Katzung, MD, PhD* A 56-year-old woman presents in the office with a history of recent-onset chest discomfort when jogging or swimming vigorously. The pain is dull but poorly localized; it disap-pears after 5\u201310 minutes of rest. She has never smoked but has a history of hyperlipidemia (total cholesterol level of 245 mg/dL and low-density lipoprotein [LDL] of 160 mg/dL recorded 1 year ago) and admits that she has not been fol-lowing the recommended diet. Her father survived a \u201cheart attack\u201d at age 55, and an uncle died of some cardiac disease at age 60. On physical examination, the patient\u2019s blood pressure is 145/90 mm Hg, and her heart rate is 80 bpm. She is in no acute distress, and there are no other significant physical findings; an electrocardiogram is normal except for slight left ventricular hypertrophy. Assuming that a diagno-sis of stable effort angina is correct, what medical treatment should be implemented?"
+        },
+        {
+            "id": "Pharmacology_Katzung_5336",
+            "title": "Pharmacology_Katzung",
+            "content": "Sharon Safrin, MD A 35-year-old white woman who recently tested seropositive for both HIV and hepatitis B virus surface antigen is referred for evaluation. She is feeling well overall but reports a 25-pack-year smoking history. She drinks 3\u20134 beers per week and has no known medication allergies. She has a history of heroin use and is currently receiving methadone. Physical examination reveals normal vital signs and no abnormalities. White blood cell count is 5800 cells/mm3 with a normal differential, hemoglobin is 11.8 g/dL, all liver tests are within normal limits, CD4 cell count is 278 cells/mm3, and viral load (HIV RNA) is 110,000 copies/mL. What other laboratory tests should be ordered? Which antiretroviral medica-tions would you begin?"
+        },
+        {
+            "id": "InternalMed_Harrison_16419",
+            "title": "InternalMed_Harrison",
+            "content": "Severe normochromic, Hematocrit of <15% or hemoglobin level of normocytic anemia <50 g/L (<5 g/dL) with parasitemia <10,000/\u03bcL Renal failure Serum or plasma creatinine level of >265 \u03bcmol/L (>3 mg/dL); urine output (24 h) of <400 mL in adults or <12 mL/kg in children; no improvement with rehydration Pulmonary edema/adult Noncardiogenic pulmonary edema, often respiratory distress aggravated by overhydration syndrome Hypoglycemia Plasma glucose level of <2.2 mmol/L (<40 mg/dL) Hypotension/shock Systolic blood pressure of <50 mmHg in children 1\u20135 years or <80 mmHg in adults; core/ skin temperature difference of >10\u00b0C; capillary refill >2 s intravascular coagulation the gums, nose, and gastrointestinal tract and/or evidence of disseminated intravascular coagulation"
+        },
+        {
+            "id": "Pharmacology_Katzung_4230",
+            "title": "Pharmacology_Katzung",
+            "content": "JP is a 33-year-old woman who presents with complaints of fatigue requiring daytime naps, weight gain, cold intoler-ance, and muscle weakness for the last few months. These complaints are new since she used to always feel \u201chot,\u201d noted difficulty sleeping, and could eat anything that she wanted without gaining weight. She also would like to become preg-nant in the near future. Because of poor medication adherence to methimazole and propranolol, she received radioactive iodine (RAI) therapy, developed hypothyroidism, and was started on levothyroxine 100 mcg daily. Other medications include calcium carbonate three times daily to \u201cprotect her bones\u201d and omeprazole for \u201cheartburn.\u201d On physical exami-nation, her blood pressure is 130/89 mm Hg with a pulse of 50 bpm. Her weight is 136 lb (61.8 kg), an increase of 10 lb (4.5 kg) in the last year. Her thyroid gland is not palpable and her reflexes are delayed. Laboratory findings include a thyroid-stimulating hormone (TSH) level of 24.9 \u03bcIU/mL"
+        },
+        {
+            "id": "InternalMed_Harrison_19190",
+            "title": "InternalMed_Harrison",
+            "content": "History and Physical Examination The chest discomfort, often severe enough to be described as frank pain, is typically located in the sub-sternal region or sometimes in the epigastrium, and radiates to the left arm, left shoulder, and/or neck. Anginal \u201cequivalents\u201d such as dyspnea, epigastric discomfort, nausea, or weakness may occur instead of chest pain and appear to be more frequent in women, the elderly, and patients with diabetes mellitus. The physical examination resembles that in patients with stable angina (Chap. 293) and may be unremarkable. If the patient has a large area of myocardial ischemia or a large NSTEMI, the physical findings can include diaphoresis; pale, cool skin; sinus tachycardia; a third and/or fourth heart sound; basilar rales; and, sometimes, hypotension."
+        },
+        {
+            "id": "Pharmacology_Katzung_3849",
+            "title": "Pharmacology_Katzung",
+            "content": "A 42-year-old woman has heterozygous familial hyper-cholesterolemia (HeFH) but is otherwise well and has no symptoms of coronary or peripheral vascular disease. A carotid ultrasound was normal. Her mother had a myo-cardial infarction at age 51 and had no known risk factors other than her presumed HeFH. The patient also has ele-vated lipoprotein (a) at 2.5 times normal and low HDL-C (43 mg/dL). She developed muscle symptoms with each of 3 statins (atorvastatin, rosuvastatin, and simvastatin) so they were discontinued although she did not develop elevated levels of creatine kinase. Her untreated LDL-C is 235 mg/dL and triglycerides 125 mg/dL. Her LDL-C goal for primary prevention of arteriosclerotic vascular disease is in the 70-mg/dL range because of her multiple lipopro-tein risk factors and her mother\u2019s history of premature coronary artery disease. She has no other risk factors and her diet and exercise habits are excellent. How would you manage this patient?"
+        },
+        {
+            "id": "Pharmacology_Katzung_368",
+            "title": "Pharmacology_Katzung",
+            "content": "A 40-year-old woman presents to the emergency department of her local hospital somewhat disoriented, complaining of midsternal chest pain, abdominal pain, shaking, and vomiting for 2 days. She admits to having taken a \u201chandful\u201d of Lorcet (hydrocodone/acetaminophen, an opioid/nonopioid analgesic combination), Soma (carisoprodol, a centrally acting muscle relaxant), and Cymbalta (duloxetine HCl, an antidepressant/ antifibromyalgia agent) 2 days earlier. On physical examina-tion, the sclera of her eyes shows yellow discoloration. Labora-tory analyses of blood drawn within an hour of her admission reveal abnormal liver function as indicated by the increased indices: alkaline phosphatase 302 (41\u2013133),* alanine amino-transferase (ALT) 351 (7\u201356),* aspartate aminotransferase (AST) 1045 (0\u201335),* bilirubin 3.33 mg/dL (0.1\u20131.2),* and pro-thrombin time of 19.8 seconds (11\u201315).* In addition, plasma bicarbonate is reduced, and she has ~45% reduced glomerular filtration rate from the normal value"
+        },
+        {
+            "id": "Pharmacology_Katzung_1335",
+            "title": "Pharmacology_Katzung",
+            "content": "A 69-year-old retired teacher presents with a 1-month history of palpitations, intermittent shortness of breath, and fatigue. She has a history of hypertension. An electrocardiogram (ECG) shows atrial fibrillation with a ventricular response of 122 beats/min (bpm) and signs of left ventricular hypertrophy. She is anticoagulated with warfarin and started on sustained-release metoprolol, 50 mg/d. After 7 days, her rhythm reverts to normal sinus rhythm spontaneously. However, over the ensuing month, she continues to have intermittent palpita-tions and fatigue. Continuous ECG recording over a 48-hour period documents paroxysms of atrial fibrillation with heart rates of 88\u2013114 bpm. An echocardiogram shows a left ven-tricular ejection fraction of 38% (normal \u2265 60%) with no localized wall motion abnormality. At this stage, would you initiate treatment with an antiarrhythmic drug to maintain normal sinus rhythm, and if so, what drug would you choose?"
+        },
+        {
+            "id": "Pharmacology_Katzung_5171",
+            "title": "Pharmacology_Katzung",
+            "content": "A 59-year-old woman presents to an urgent care clinic with a 4-day history of frequent and painful urination. She has had fevers, chills, and flank pain for the past 2 days. Her physician advised her to come immediately to the clinic for evaluation. In the clinic she is febrile (38.5\u00b0C [101.3\u00b0F]) but otherwise stable and states she is not experiencing any nausea or vomiting. Her urine dipstick test is positive for leukocyte esterase. Urinalysis and urine culture are ordered. Her past medical history is significant for three urinary tract infections in the past year. Each episode was uncom-plicated, treated with trimethoprim-sulfamethoxazole, and promptly resolved. She also has osteoporosis for which she takes a daily calcium supplement. The decision is made to treat her with oral antibiotics for a complicated urinary tract infection with close follow-up. Given her history, what would be a reasonable empiric antibiotic choice? Depending on the antibiotic choice are there potential drug"
+        },
+        {
+            "id": "Pharmacology_Katzung_4939",
+            "title": "Pharmacology_Katzung",
+            "content": "A 45-year-old man is brought to the local hospital emer-gency department by ambulance. His wife reports that he had been in his normal state of health until 3 days ago when he developed a fever and a productive cough. Dur-ing the last 24 hours he has complained of a headache and is increasingly confused. His wife reports that his medical history is significant only for hypertension, for which he takes hydrochlorothiazide and lisinopril, and that he is allergic to amoxicillin. She says that he developed a rash many years ago when prescribed amoxicillin for bron-chitis. In the emergency department, the man is febrile (38.7\u00b0C [101.7\u00b0F]), hypotensive (90/54 mmHg), tachypneic (36/min), and tachycardic (110/min). He has no signs of meningismus but is oriented only to person. A stat chest x-ray shows a left lower lung consolidation consistent with pneumonia. A CT scan is not concerning for lesions or elevated intracranial pressure. The plan is to start empiric antibiotics and perform a"
+        },
+        {
+            "id": "InternalMed_Harrison_3597",
+            "title": "InternalMed_Harrison",
+            "content": "Fluid and Electrolyte Imbalances and Acid-Base Disturbances: Case Examples David B. Mount, Thomas D. DuBose, Jr. CASE 1 64e A 23-year-old woman was admitted with a 3-day history of fever, cough productive of blood-tinged sputum, confusion, and orthostasis. Past medical history included type 1 diabetes mellitus. A physical examination in the emergency department indicated postural hypo-tension, tachycardia, and Kussmaul respiration. The breath was noted to smell of \u201cacetone.\u201d Examination of the thorax suggested consolidation in the right lower lobe. Sodium 130 meq/L Potassium 5.0 meq/L Chloride 96 meq/L CO2 14 meq/L Blood urea nitrogen (BUN) 20 mg/dL Creatinine 1.3 mg/dL Glucose 450 mg/dL Pneumonic infiltrate, right lower lobe The diagnosis of the acid-base disorder should proceed in a stepwise fashion: 1. The normal anion gap (AG) is 8\u201310 meq/L, but in this case, the AG is elevated (20 meq/L). Therefore, the change in AG (\u0394AG) = ~10 meq/L. 2."
+        },
+        {
+            "id": "InternalMed_Harrison_3664",
+            "title": "InternalMed_Harrison",
+            "content": "A 66-year-old man was admitted to hospital with a plasma K+ concentration of 1.7 meq/L and profound weakness. The patient had noted progressive weakness over several days, to the point that he was unable to rise from bed. Past medical history was notable for small-cell lung cancer with metastases to brain, liver, and adrenals. The patient had been treated with one cycle of cisplatin/etoposide 1 year before this admission, which was complicated by acute kidney injury (peak creatinine of 5, with residual chronic kidney disease), and three subsequent cycles of cyclophosphamide/doxorubicin/vincristine, in addition to 15 treatments with whole-brain radiation. On physical examination, the patient was jaundiced. Blood pressure was 130/70 mmHg, increasing to 160/98 mmHg after 1 L of saline, with a JVP at 8 cm. There was generalized muscle weakness. Potassium 3.7 1.7 3.5 meq/L 7.47 Creatinine 2.8 2.9 2.3 mg/dL Magnesium 1.3 1.6 2.4 mg/dL Albumin 3.4 2.8 2.3 Total bilirubin 0.65 5.19 5.5"
+        },
+        {
+            "id": "Pharmacology_Katzung_3731",
+            "title": "Pharmacology_Katzung",
+            "content": "James L. Zehnder, MD and edema and is tender to touch. Oxygen saturation by fingertip pulse oximeter while breathing room air is 87% (normal > 90%). Ultrasound reveals a deep vein thrombosis in the left lower extremity; chest computed tomography scan confirms the presence of pulmonary emboli. Laboratory blood tests indicate elevated d-dimer levels. What therapy is indicated acutely? What are the long-term therapy options? How long should she be treated? Should this indi-vidual use oral contraceptives? A 25-year-old woman presents to the emergency depart-ment complaining of acute onset of shortness of breath and pleuritic pain. She had been in her usual state of health until 2 days prior when she noted that her left leg was swollen and red. Her only medication was oral contraceptives. Family history was significant for a history of \u201cblood clots\u201d in mul-tiple members of the maternal side of her family. Physical examination demonstrates an anxious woman with stable vital signs. The left"
+        },
+        {
+            "id": "InternalMed_Harrison_3643",
+            "title": "InternalMed_Harrison",
+            "content": "This patient presented with hypovolemic hyponatremia and a \u201cprerenal\u201d reduction in GFR, with an increase in serum creatinine. She had experienced diarrhea for some time and manifested an orthostatic tachycardia after a liter of normal saline. As expected for hypovolemic hyponatremia, the urine Na+ concentration was <20 meq/L in the absence of congestive heart failure or other causes of hypervolemic hyponatremia, and she responded to saline hydration with an increase in plasma Na+ concentration and a decrease in creatinine."
+        },
+        {
+            "id": "InternalMed_Harrison_15823",
+            "title": "InternalMed_Harrison",
+            "content": "Severe cases of HFRS evolve in four identifiable stages. The febrile stage lasts 3 or 4 days and is identified by the abrupt onset of fever, headache, severe myalgia, thirst, anorexia, and often nausea and vomiting. Photophobia, retroorbital pain, and pain on ocular movement are common, and the vision may become blurred with ciliary body inflammation. Flushing over the face, the V area of the neck, and the back is characteristic, as are pharyngeal injection, periorbital edema, and conjunctival suffusion. Petechiae often develop in areas of pressure, the conjunctivae, and the axillae. Back pain and tenderness to percussion at the costovertebral angle reflect massive retroperitoneal edema. Laboratory evidence of mild to moderate DIC is present. Other laboratory findings of HFRS include proteinuria and active urinary sediment. The hypotensive stage lasts from a few hours to 48 h and begins with falling blood pressure and sometimes shock. The relative bradycardia typical of the febrile"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1112",
+            "title": "Biochemistry_Lippinco",
+            "content": "3.3. A 39-year-old woman is brought to the emergency room complaining of weakness and dizziness. She recalls getting up early that morning to do her weekly errands and had skipped breakfast. She drank a cup of coffee for lunch and had nothing to eat during the day. She met with friends at 8 p.m. and had a few drinks. As the evening progressed, she soon became weak and dizzy and was taken to the hospital. Laboratory tests revealed her blood glucose to be 45 mg/dl (normal = 70\u201399). She was given orange juice and immediately felt better. The biochemical basis of her alcohol-induced hypoglycemia is an increase in: A. fatty acid oxidation. B. the ratio of the reduced oxidized forms of nicotinamide adenine dinucleotide. C. oxaloacetate and pyruvate. D. use of acetyl coenzyme A in fatty acid synthesis."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1914",
+            "title": "Biochemistry_Lippinco",
+            "content": "Patient Presentation: BE is a 45-year-old woman who presents with concerns about sudden (paroxysmal), intense, brief episodes of headache, sweating (diaphoresis), and a racing heart (palpitations). Focused History: BE reports that the attacks started ~3 weeks ago. They last from 2 to 10 minutes, during which time she feels quite anxious. During the attacks, it feels as though her heart is skipping beats (arrhythmia). At first, she thought the attacks were related to recent stress at work and maybe even menopause. The last time it happened, she was in a pharmacy and had her blood pressure taken. She was told it was 165/110 mm Hg. BE notes that she has lost weight (~8 lbs) in this period even though her appetite has been good."
+        },
+        {
+            "id": "InternalMed_Harrison_3631",
+            "title": "InternalMed_Harrison",
+            "content": "Na+ 120 K+ 4.3 Cl\u2212 89 HCO3\u2212 23 BUN 8 Creat 1.0 Glu 93 Alb 3.1 Ca 8.9 Phos 2.8 Mg 2.0 Plasma osm 248 mOsm/kg Cortisol 25 \u03bcg/dL TSH 2.6 Uric acid 2.7 mg/dL Urine: Na+ 97 K+ 22 Cl\u2212 86 Osm 597 The patient was treated with furosemide, 20 mg PO bid, and salt tablets. The plasma Na+ concentration increased to 129 meq/L with this therapy; however, the patient developed orthostatic hypotension and dizziness. He was started on demeclocycline, 600 mg PO in the morning and 300 mg in the evening, just before discharge from hospital. Plasma Na+ concentration increased to 140 meq/L with a BUN of 23 and creatinine of 1.4, at which point demeclocycline was reduced to 300 mg PO bid. Bronchoscopic biopsy eventually showed small-cell lung cancer; the patient declined chemotherapy and was admitted to hospice. What factors contributed to this patient\u2019s hyponatremia? What are the therapeutic options?"
+        },
+        {
+            "id": "Pharmacology_Katzung_2624",
+            "title": "Pharmacology_Katzung",
+            "content": "Helge Eilers, MD, & Spencer Yost, MD An elderly man with type 2 diabetes mellitus and ischemic pain in the lower extremity is scheduled for femoral-to-popliteal artery bypass surgery. He has a history of hyper-tension and coronary artery disease with symptoms of stable angina. He can walk only half a block before pain in his legs forces him to stop. He has a 50-pack-year smoking history but stopped 2 years ago. Medications include atenolol, atorvastatin, and hydrochlorothiazide. The nurse in the preoperative holding area obtains the following vital signs: temperature 36.8\u00b0C (98.2\u00b0F), blood pressure 168/100 mm Hg, heart rate 78 bpm, oxygen saturation by pulse oximeter 96% while breathing room air, and pain 5/10 in the right lower leg after walking into the hospital. What anesthetic agents will you choose for his anesthetic plan? Why? Does the choice of anesthetic make a difference?"
+        }
+    ],
+    "scores": [
+        0.038398133191047554,
+        0.027801980198019802,
+        0.027542555483731954,
+        0.027232459933254283,
+        0.026737723371324046,
+        0.024225758990377107,
+        0.02267110990667502,
+        0.021789868667917447,
+        0.021261696845047695,
+        0.020464717801452918,
+        0.0196078431372549,
+        0.019524680389283042,
+        0.018608274190756446,
+        0.018605053651782624,
+        0.01814449917898194,
+        0.017718715393133997,
+        0.017507645259938837,
+        0.017424242424242425,
+        0.017331932773109245,
+        0.01731893837156995,
+        0.01720573032048442,
+        0.01711402033204125,
+        0.016849557522123894,
+        0.01676094699350513,
+        0.01660465757199945,
+        0.016539092400218697,
+        0.016329239960172586,
+        0.016281512605042014,
+        0.016151332327802918,
+        0.016102551149280123,
+        0.015954415954415956,
+        0.015904692791485243
+    ]
+}

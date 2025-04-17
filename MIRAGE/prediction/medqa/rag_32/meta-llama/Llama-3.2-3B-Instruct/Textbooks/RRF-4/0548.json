@@ -1,0 +1,208 @@
+{
+    "id": "0548",
+    "question": "A 24-year-old man, who recently migrated from a developing country, presents to a physician because of a 2-year history of cough, blood in his sputum, fever, and weight loss. His sputum smear and culture confirm the diagnosis of pulmonary tuberculosis due to Mycobacterium tuberculosis. His Mantoux test is 2 mm \u00d7 3 mm, and his chest radiograph is normal. High-sensitivity enzyme-linked immunosorbent assay for HIV-1 and Western blot assay for HIV-1 are positive. His CD4+ T cell count is 90/\u03bcL and HIV RNA is 30,000 copies/mL. He is started on a 4-drug regimen consisting of isoniazid, rifampin, pyrazinamide, and ethambutol in appropriate doses. He becomes sputum smear-negative after 4 weeks and reports significant improvement in symptoms. After another 4 weeks, the physician removes pyrazinamide from the antitubercular regimen and adds antiretroviral therapy (dolutegravir/tenofovir/emtricitabine). After 3 weeks, the patient presents with complaints of fever and significantly increased cough for 3 days. There is no respiratory distress but generalized lymphadenopathy is present. His chest radiograph shows pulmonary infiltrates and mediastinal lymphadenopathy, sputum smear is negative, Mantoux test is 12 mm \u00d7 14 mm, CD4+ T cell count is 370/\u03bcL, and HIV RNA is 2,900 copies/mL. What is the most appropriate initial step in treatment?",
+    "options": {
+        "A": "Stop antiretroviral therapy and continue antitubercular therapy",
+        "B": "Change antitubercular therapy to isoniazid-rifampin-pyrazinamide-ethambutol-streptomycin",
+        "C": "Change antitubercular therapy to isoniazid-rifampin-ethambutol-streptomycin",
+        "D": "Continue antitubercular therapy and antiretroviral therapy without any change"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"The patient has a history of pulmonary tuberculosis, has been on antitubercular therapy with isoniazid, rifampin, pyrazinamide, and ethambutol, and has recently started antiretroviral therapy with dolutegravir/tenofovir/emtricitabine. The patient now presents with fever, increased cough, generalized lymphadenopathy, and pulmonary infiltrates on chest radiograph. The sputum smear is negative, but the Mantoux test has increased to 12 mm \\u00d7 14 mm, and the CD4+ T cell count has increased to 370/\\u00d7L. The patient's symptoms and radiographic findings suggest a possible reactivation of TB. The patient's CD4+ T cell count is still low, and the patient is immunocompromised due to HIV infection. The patient should be switched to a regimen that is more effective against TB, which is rifampin-streptomycin-ethambutol. The addition of streptomycin is necessary because the patient has not responded to the initial regimen and has a higher risk of drug-resistant TB. The antiretroviral therapy should be continued without any change to ensure the patient remains on effective HIV treatment. The patient should be closely monitored for any signs of treatment failure or drug resistance.\", \"answer_choice\": \"B\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_13587",
+            "title": "InternalMed_Harrison",
+            "content": "For active or suspected TB disease, clinical factors, including HIV co-infection, symptom duration, radiographic appearance, and public health concerns about TB transmission, drive diagnostic testing and treatment initiation. Multiple-drug regimens are used for the treatment of TB disease (Table 205e-2). Initially, an intensive phase consisting of four drugs\u2014isoniazid, rifampin, pyrazinamide, and ethambutol\u2014given for 2 months is followed by a continuation phase of isoniazid and rifampin for 4 months, for a total treatment duration of 6 months. The continuation phase is extended to 7 months (for a total treatment duration of 9 months) if the 2-month course of pyrazinamide is not completed or, for patients with cavitary pulmonary TB, if sputum cultures remain positive beyond 2 months of treatment (delayed culture conversion)."
+        },
+        {
+            "id": "InternalMed_Harrison_15149",
+            "title": "InternalMed_Harrison",
+            "content": "be an early clinical sign of HIV disease. In one study, the median CD4+ T cell count at presentation of TB was 326/\u03bcL. The clinical manifestations of TB in HIV-infected patients are quite varied and generally show different patterns as a function of the CD4+ T cell count. In patients with relatively high CD4+ T cell counts, the typical pattern of pulmonary reactivation occurs: patients present with fever, cough, dyspnea on exertion, weight loss, night sweats, and a chest x-ray revealing cavitary apical disease of the upper lobes. In patients with lower CD4+ T cell counts, disseminated disease is more common. In these patients the chest x-ray may reveal diffuse or lower-lobe bilateral reticulonodular infiltrates consistent with miliary spread, pleural effusions, and hilar and/or mediastinal adenopathy. Infection may be present in bone, brain, meninges, GI tract, lymph nodes (particularly cervical lymph nodes), and viscera. Some patients with advanced HIV infection and active TB may"
+        },
+        {
+            "id": "InternalMed_Harrison_15156",
+            "title": "InternalMed_Harrison",
+            "content": "the respiratory and GI tracts. MAC infection is a late complication of HIV infection, occurring predominantly in patients with CD4+ T cell counts of <50/\u03bcL. The average CD4+ T cell count at the time of diagnosis is 10/\u03bcL. The most common presentation is disseminated disease with fever, weight loss, and night sweats. At least 85% of patients with MAC infection are mycobacteremic, and large numbers of organisms can often be demonstrated on bone marrow biopsy. The chest x-ray is abnormal in ~25% of patients, with the most common pattern being that of a bilateral, lower-lobe infiltrate suggestive of miliary spread. Alveolar or nodular infiltrates and hilar and/or mediastinal adenopathy can also occur. Other clinical findings include endobronchial lesions, abdominal pain, diarrhea, and lymphadenopathy. Anemia and elevated liver alkaline phosphatase are common. The diagnosis is made by the culture of blood or involved tissue. The finding of two consecutive sputum samples positive for MAC is"
+        },
+        {
+            "id": "InternalMed_Harrison_13355",
+            "title": "InternalMed_Harrison",
+            "content": "with upper-lobe infiltrates and cavitation and without significant lymphadenopathy or pleural effusion. In late stages of HIV infection, when the CD4+ T cell count is <200/\u03bcL, a primary TB\u2013like pattern, with diffuse interstitial and subtle infiltrates, little or no cavitation, pleural effusion, and intrathoracic lymphadenopathy, is more common. However, these forms are becoming less common because of the expanded use of antiretroviral treatment (ART). Overall, sputum smears are less frequently positive among TB patients with HIV infection than among those without; thus, the diagnosis of TB may be difficult, especially in view of the variety of HIV-related pulmonary conditions mimicking TB. Extrapulmonary TB is common among HIV-infected patients. In various series, extrapulmonary TB\u2014alone or in association with pulmonary disease\u2014has been documented in 40\u201360% of all cases in HIV-co-infected individuals. The most common forms are lymphatic, disseminated, pleural, and pericardial."
+        },
+        {
+            "id": "First_Aid_Step2_440",
+            "title": "First_Aid_Step2",
+            "content": "Presents with cough, hemoptysis, dyspnea, weight loss, fatigue, night sweats, fever, cachexia, hypoxia, tachycardia, lymphadenopathy, an abnormal lung exam, and a prolonged (> 3-week) symptom duration. TB is a common cause of fever of unknown origin (FUO). HIV patients can present with atypical signs and symptoms and have higher rates of extrapulmonary TB. \u25a0 Active disease: Mycobacterial culture of sputum (or blood/tissue for extrapulmonary disease) is the gold standard but can take weeks to obtain. A sputum acid-fast stain (see Figure 2.8-3) can yield rapid preliminary results but lacks sensitivity. Three A.M. sputum samples for AFB stain and a mycobacterial culture are advised. If the results of the stain are but there is a high degree of clinical suspicion, proceed to bronchoscopy with bronchoalveolar lavage or biopsy. HIV patients have a high rate of sputum stains (i.e., a AFB smear accompanied by a culture)."
+        },
+        {
+            "id": "Obstentrics_Williams_7038",
+            "title": "Obstentrics_Williams",
+            "content": "Infection is via inhalation of Mycobacterium tuberculosis, which incites a granulomatous pulmonary reaction. In more than 90 percent of patients, infection is contained and is dor mant for long periods (Getahun, 2015; Zumla, 2013). In some, especially those who are immunocompromised or who have other diseases, tuberculosis becomes reactivated to cause clini cal disease. Manifestations usually include cough with minimal sputum production, low-grade fever, hemoptysis, and weight loss. Various iniltrative patterns are seen on chest radiograph, ated. Acid-fast bacilli are seen on stained smears of sputum in approximately two thirds of culture-positive individuals. Forms of extrapulmonary tuberculosis include lymphadenitis, pleural, genitourinary, skeletal, meningeal, gastrointestinal, and miliary or disseminated (Raviglione, 2015)."
+        },
+        {
+            "id": "InternalMed_Harrison_13356",
+            "title": "InternalMed_Harrison",
+            "content": "or in association with pulmonary disease\u2014has been documented in 40\u201360% of all cases in HIV-co-infected individuals. The most common forms are lymphatic, disseminated, pleural, and pericardial. Mycobacteremia and meningitis are also common, particularly in advanced HIV disease. The diagnosis of TB in HIV-infected patients may be complicated not only by the increased frequency of sputum-smear negativity (up to 40% in culture-proven pulmonary cases) but also by atypical radiographic findings, a lack of classic granuloma formation in the late stages, and a negative TST. The Xpert MTB/RIF assay (see \u201cNucleic Acid Amplification Technology,\u201d below) is the preferred initial diagnostic option, and therapy should be started on the basis of a positive result because treatment delays may be fatal. A negative Xpert MTB/RIF result does not exclude a diagnosis of TB, and culture remains the gold standard."
+        },
+        {
+            "id": "InternalMed_Harrison_15159",
+            "title": "InternalMed_Harrison",
+            "content": "Fungal infections of the lung, in addition to PCP, can be seen in patients with AIDS. Patients with pulmonary cryptococcal disease present with fever, cough, dyspnea, and, in some cases, hemoptysis. A focal or diffuse interstitial infiltrate is seen on chest x-ray in >90% of patients. In addition, one may see lobar disease, cavitary disease, pleural effusions, and hilar or mediastinal adenopathy. More than half of patients are fungemic, and 90% of patients have concomitant CNS infection. Coccidioides immitis is a mold that is endemic in the southwest United States. It can cause a reactivation pulmonary syndrome in patients with HIV infection. Most patients with this condition will have CD4+ T cell counts <250/\u03bcL. Patients present with fever, weight loss, cough, and extensive, diffuse reticulonodular infiltrates on chest x-ray. One may also see nodules, cavities, pleural effusions, and hilar adenopathy. While serologic testing is of value in the immunocompetent host, serologies are"
+        },
+        {
+            "id": "InternalMed_Harrison_11064",
+            "title": "InternalMed_Harrison",
+            "content": "M. tuberculosis isolate is known, ethambutol can be discontinued. If the clinical response is good, pyrazinamide can be discontinued after 8 weeks and isoniazid and rifampin continued alone for the next 6\u201312 months. A 6-month course of therapy is acceptable, but therapy should be prolonged for 9\u201312 months in patients who have an inadequate resolution of symptoms of meningitis or who have positive mycobacterial cultures of CSF during the course of therapy. Dexamethasone therapy is recommended for HIV-negative patients with tuberculous meningitis. The dose is 12\u201316 mg/d for 3 weeks, and then tapered over 3 weeks."
+        },
+        {
+            "id": "Pharmacology_Katzung_5216",
+            "title": "Pharmacology_Katzung",
+            "content": "Camille E. Beauduy, PharmD, & Lisa G. Winston, MD* A 60-year-old man presents to the emergency department with a 2-month history of fatigue, weight loss (10 kg), fevers, night sweats, and a productive cough. He is currently living with friends and has been intermittently homeless, spending time in shelters. He reports drinking about 6 beers per day. In the emergency department, a chest x-ray shows a right apical infiltrate. Given the high suspicion for pulmonary tuberculosis, the patient is placed in respiratory isolation. His first sputum smear shows many acid-fast bacilli, and an HIV test returns with a positive result. What drugs should be started for treatment of presumptive pulmonary tubercu-losis? Does the patient have a heightened risk of developing medication toxicity? If so, which medication(s) would be likely to cause toxicity?"
+        },
+        {
+            "id": "InternalMed_Harrison_13375",
+            "title": "InternalMed_Harrison",
+            "content": "Invasive diagnostic procedures are indicated for patients with suspected extrapulmonary TB. In addition to testing of specimens from involved sites (e.g., CSF for tuberculous meningitis, pleural fluid and biopsy samples for pleural disease), biopsy and culture of bone marrow and liver tissue have a good diagnostic yield in disseminated (miliary) TB, particularly in HIV-infected patients, who also have a high frequency of positive blood cultures. In some cases, culture or Xpert MTB/RIF assay results are negative but a clinical diagnosis of TB is supported by consistent epidemiologic evidence (e.g., a history of close contact with an infectious patient) and a compatible clinical and radiographic response to treatment. In the United States and other industrialized countries with low rates of TB, some patients with limited abnormalities on chest radiographs and sputum positive for AFB are infected with nontuberculous mycobacteria, most commonly organisms of the M. avium complex or M."
+        },
+        {
+            "id": "First_Aid_Step2_474",
+            "title": "First_Aid_Step2",
+            "content": "Fever, weight loss, hepatosplenomegaly, lymphadenopathy, nonproductive cough, and pancytopenia indicate disseminated infection (most often within 14 days). The differential includes atypical bacterial pneumonias, blastomycosis, coccidioidomycosis, TB, sarcoidosis, pneumoconiosis, and lymphoma. CXR shows diffuse nodular densities, focal infltrate, cavity, or hilar lymphadenopathy (chronic infection is usually cavitary). The urine and serum polysaccharide antigen test is the most sensitive test for making the initial diagnosis, monitoring response to therapy, and diagnosing relapse. Culture is also diagnostic (blood, sputum, bone marrow, CSF). The yeast form is seen with silver stain on biopsy (bone marrow, lymph node, liver) or bronchoalveolar lavage. Depends on the severity of disease and the host: Mild pulmonary disease or stable nodules: Treat supportively in the immunocompromised host. Chronic cavitary lesions: Give itraconazole for > 1 year."
+        },
+        {
+            "id": "InternalMed_Harrison_13395",
+            "title": "InternalMed_Harrison",
+            "content": "Standard short-course regimens are divided into an initial, or bactericidal, phase and a continuation, or sterilizing, phase. During the initial phase, the majority of the tubercle bacilli are killed, symptoms resolve, and usually the patient becomes noninfectious. The continuation phase is required to eliminate persisting mycobacteria and prevent relapse. The treatment regimen of choice for virtually all forms of drug-susceptible TB in adults consists of a 2-month initial (or intensive) phase of isoniazid, rifampin, pyrazinamide, and ethambutol followed by a 4-month continuation phase of isoniazid and rifampin (Table 202-3). This regimen can cure TB in more than 90% of patients. In children, most forms of TB in the absence of HIV infection or suspected isoniazid resistance can be safely treated without ethambutol in the intensive phase. Treatment should be given daily throughout the course. However, daily treatment during the intensive phase and intermittently (three times weekly)"
+        },
+        {
+            "id": "InternalMed_Harrison_15157",
+            "title": "InternalMed_Harrison",
+            "content": "Anemia and elevated liver alkaline phosphatase are common. The diagnosis is made by the culture of blood or involved tissue. The finding of two consecutive sputum samples positive for MAC is highly suggestive of pulmonary infection. Cultures may take 2 weeks to turn positive. Therapy consists of a macrolide, usually clarithromycin, with ethambutol. Some physicians elect to add a third drug from among rifabutin, ciprofloxacin, or amikacin in patients with extensive disease. Therapy was generally for life; however, with the use of cART it is possible to discontinue therapy in patients with sustained suppression of HIV replication and CD4+ T cell counts >100/\u03bcL for 3\u20136 months. Primary prophylaxis for MAC is indicated in patients with HIV infection and CD4+ T cell counts <50/\u03bcL (Table 226-11). This may be discontinued in patients in whom cART induces a sustained suppression of viral replication and an increase in CD4+ T cell count to >100/\u03bcL for \u22656 months."
+        },
+        {
+            "id": "First_Aid_Step2_479",
+            "title": "First_Aid_Step2",
+            "content": "Suspect P. jiroveci pneumonia in any HIV patient who presents with nonproductive cough and dyspnea. Treat CMV infection with ganciclovir. Virus isolation, culture, tissue examination, serum PCR. Treat with ganciclovir or foscarnet. Treat underlying disease if the patient is immunocompromised. Ubiquitous organisms causing pulmonary and disseminated infection in several demographic groups. The 1\u00b0 form occurs in apparently healthy nonsmokers (Lady Windermere syndrome); a 2\u00b0 pulmonary form affects patients with preexisting pulmonary disease such as COPD, TB, or CF. Disseminated infection occurs in AIDS patients with a CD4+ < 50. There is no evidence that behavioral change affects exposure. Disseminated M. avium infection in AIDS is associated with fever, weakness, and weight loss in patients who are not on HAART or chemoprophylaxis for MAC. Hepatosplenomegaly and lymphadenopathy are occasionally seen."
+        },
+        {
+            "id": "Surgery_Schwartz_4781",
+            "title": "Surgery_Schwartz",
+            "content": "accuracy. Chest CT scan can delineate the extent of parenchymal disease.Management Medical therapy is the primary treatment of pul-monary tuberculosis and is often initiated before a mycobacte-rial pathogen is definitively identified. Combinations of two or more drugs are routinely used in order to minimize resistance, which inevitably develops with only single-agent therapy. A current treatment algorithm is outlined in Fig. 19-32. Gener-ally, therapy lasts about 26 weeks (2 months intensive therapy followed by 4 months continuation therapy). A 7-month con-tinuation phase should be considered for patients with cavitary pulmonary TB who remain positive on sputum culture after the 2-month intensive therapy, those patients who did not receive pyrazinamide during the intensive phase, HIV-positive patients who did not receive concomitant antiretroviral therapy, and patients treated with INH and rifapentine once weekly (not rec-ommended) who have persistent positive sputum after 2 months of"
+        },
+        {
+            "id": "Pharmacology_Katzung_5285",
+            "title": "Pharmacology_Katzung",
+            "content": "Zhang Y, Yew WW: Mechanisms of drug resistance in Mycobacterium tuberculosis. Int J Tuberc Lung Dis 2009;13:1320. Zumla A et al: Current concepts\u2014Tuberculosis. N Engl J Med 2013;368:745. The patient should be started on four-drug therapy with rifampin, isoniazid, pyrazinamide, and ethambutol. He should also be started on antiretroviral therapy for HIV. If a protease-inhibitor-based antiretroviral regimen is used to treat his HIV, rifabutin should replace rifampin because of the serious drug-drug interactions between rifampin and protease inhibitors. If dolutegravir is chosen, it must be administered twice daily due to the interaction with rifampin; alternatively, rifabutin can be used in place of rifampin, and dolutegravir can be dosed once daily. The patient is at increased risk of developing hepatotoxicity from both isoniazid and pyrazinamide given his history of alcohol use. Harry W. Lampiris, MD, & Daniel S. Maddix, Pharm D"
+        },
+        {
+            "id": "Surgery_Schwartz_4787",
+            "title": "Surgery_Schwartz",
+            "content": "manifests as a productive cough, fever, wheezing, pulmo-nary infiltrates, eosinophilia, and elevation of IgE antibodies Brunicardi_Ch19_p0661-p0750.indd 71101/03/19 7:01 PM 712SPECIFIC CONSIDERATIONSPART IIINH/RIFINH/RIFINH/RIFINH/RIFINH/RIF/EMB*/PZA\u20200123469Time (months)INH/RPT\u2021\u00a7INH/RIF2-monthculture negativeHigh clinicalsuspicionfor activetuberculosis2-monthculture positiveCavitation on CXRorpositive AFB smearat 2 monthsNo cavitation on CXRandnegative AFB smearat 2 monthsNo cavitationCavitationFigure 19-32. Treatment algorithm for tuberculosis. Patients in whom tuberculosis is proven or strongly suspected should have treatment initiated with isoniazid (INH), rifampin (RIF), pyrazinamide (PZA), and ethambutol (EMB) for the initial 2 months. A repeat smear and cul-ture should be performed when 2 months of treatment has been completed. If cavities were seen on the initial chest radiograph (CXR) or the acid-fast bacillus (AFB) smear results are positive at completion of 2 months of"
+        },
+        {
+            "id": "InternalMed_Harrison_13354",
+            "title": "InternalMed_Harrison",
+            "content": "HIV-Associated TB (See also Chap. 226) TB is one of the most common diseases among HIV-infected persons worldwide and a major cause of death in this population; more specifically, it is responsible for an estimated 24% of all HIV-related mortality. In certain urban settings in some African countries, the rate of HIV infection among TB patients reaches 70\u201380%. A person with a positive TST who acquires HIV infection has a 3\u201313% annual risk of developing active TB. A new TB infection acquired by an HIV-infected individual may evolve to active disease in a matter of weeks rather than months or years. TB can appear at any stage of HIV infection, and its presentation varies with the stage. When CMI is only partially compromised, pulmonary TB presents in a typical manner (Figs. 202-6 and 202-7), with upper-lobe infiltrates and cavitation and without significant lymphadenopathy or pleural effusion. In late stages of HIV infection, when the CD4+ T cell count is <200/\u03bcL, a primary TB\u2013like"
+        },
+        {
+            "id": "InternalMed_Harrison_15150",
+            "title": "InternalMed_Harrison",
+            "content": "adenopathy. Infection may be present in bone, brain, meninges, GI tract, lymph nodes (particularly cervical lymph nodes), and viscera. Some patients with advanced HIV infection and active TB may have no symptoms of illness, and thus screening for TB should be part of the initial evaluation of every patient with HIV infection. Approximately 60\u201380% of HIV-infected patients with TB have pulmonary disease, and 30\u201340% have extrapulmonary disease. Respiratory isolation and a negative-pressure room should be used for patients in whom a diagnosis of pulmonary TB is being considered. This approach is critical to limit nosocomial and community spread of infection. Culture of the organism from an involved site provides a definitive diagnosis. Blood cultures are positive in 15% of patients. This figure is higher in patients with lower CD4 +T cell counts. In the setting of fulminant disease one cannot rely on the accuracy of a negative PPD skin test to rule out a diagnosis of TB. In addition,"
+        },
+        {
+            "id": "InternalMed_Harrison_13402",
+            "title": "InternalMed_Harrison",
+            "content": "Intolerance to Z 2 HRE 7 HR aAll drugs can be given daily or intermittently (three times weekly throughout). A twice-weekly regimen after 2\u20138 weeks of daily therapy during the initial phase is sometimes used, although it is not recommended by the WHO. bStreptomycin can be used in place of ethambutol but is no longer considered a first-line drug. cSome experts suggest extending the continuation phase to 7 months for patients with cavitary pulmonary tuberculosis who remain sputum culture\u2013positive after the initial phase of treatment. However, treatment in such patients must be guided by drug susceptibility testing to rule out drug-resistant TB. dA clinical trial showed that HIV-negative patients with noncavitary pulmonary tuberculosis who have negative sputum AFB smears after the initial phase of treatment can be given once-weekly rifapentine/isoniazid in the continuation phase. eThe 6-month regimen with pyrazinamide can probably be used safely during pregnancy and is recommended by the"
+        },
+        {
+            "id": "InternalMed_Harrison_15154",
+            "title": "InternalMed_Harrison",
+            "content": "M. tuberculosis, patients with CD4+ T cell counts <200 cells/\u03bcL should be retested if their CD4+ T cell counts rise to persistently above 200. Patients at risk of continued exposure to TB should be tested annually. HIV-infected individuals with a skin-test reaction of >5 mm, those with a positive IFN-\u03b3 release assay, or those who are close household contacts of persons with active TB should receive treatment with 9 months of isoniazid and pyridoxine."
+        },
+        {
+            "id": "InternalMed_Harrison_13377",
+            "title": "InternalMed_Harrison",
+            "content": "Patients with HIV-associated TB pose several diagnostic problems (see \u201cHIV-Associated TB,\u201d above). Moreover, HIV-infected patients with sputum culture\u2013positive, AFB-positive TB may present with a normal chest radiograph. The Xpert MTB/RIF assay is the preferred rapid diagnostic test in this population of patients because of simplicity of use and a sensitivity of ~60% among AFB-negative culture-positive cases and of 97% among AFB-positive cases. With the advent of ART, the occurrence of disseminated M. avium complex disease that can be confused with TB has become much less common."
+        },
+        {
+            "id": "Pharmacology_Katzung_5227",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 47\u20132 Recommended treatment for drug-susceptible tuberculosis. 1Experts recommend prolonged continuation phase (31 weeks) for patients with cavitation on initial chest radiograph and positive cultures at the end of the intensive treatment phase. 2May consider 5 days per week if needed for DOT. No studies compare 5 versus 7 doses per week, but extensive experience suggests efficacy of this regimen. DOT, directly observed therapy; EMB, ethambutol; HIV, human immunodeficiency virus; INH, isoniazid; PZA, pyrazinamide; RIF, rifampin. preexisting hepatic insufficiency and should be guided by serum concentrations if a reduction in dose is contemplated. Isoniazid inhibits several cytochrome P450 enzymes, leading to increased concentrations of such medications as phenytoin, carbamazepine, and benzodiazepines. However, when used in combination with rifampin, a potent CYP enzyme inducer, the concentrations of these medications are usually decreased."
+        },
+        {
+            "id": "Pathology_Robbins_3230",
+            "title": "Pathology_Robbins",
+            "content": "In immunosuppressed individuals (primarily HIVseropositive patients), M. avium complex infection manifests as a disseminated disease associated with systemic signs and symptoms (fever, night sweats, weight loss). Hepatosplenomegaly and lymphadenopathy, signifying involvement of the mononuclear phagocyte system by the opportunistic pathogen, is common, as are gastrointestinal symptoms such as diarrhea and malabsorption. Pulmonary involvement is often indistinguishable from tuberculosis in patients with AIDS. Disseminated M. avium complex infection in patients with AIDS tends to occur late in the clinical course, when CD4+ T cell counts have fallen below 100 cells/\u00b5L. Hence, tissue examination usually does not reveal granulomas; instead, foamy macrophages \u201cstuffed\u201d with atypical mycobacteria typically are seen. Histoplasmosis,Coccidioidomycosis,andBlastomycosis"
+        },
+        {
+            "id": "InternalMed_Harrison_13397",
+            "title": "InternalMed_Harrison",
+            "content": "should always receive their initial-phase regimen daily (see below). A continuation phase of once-weekly rifapentine and isoniazid has been shown to be equally effective for HIV-seronegative patients with noncavitary pulmonary TB who have negative sputum cultures at 2 months. Patients with cavitary pulmonary TB and delayed sputum-culture conversion (i.e., those who remain culture-positive at 2 months) should be tested immediately for drug-resistant TB, and a change of regimen should be considered. To prevent isoniazid-related neuropathy, pyridoxine (10\u201325 mg/d) should be added to the regimen given to persons at high risk of vitamin B6 deficiency (e.g., alcoholics; malnourished persons; pregnant and lactating women; and patients with conditions such as chronic renal failure, diabetes, and HIV infection, which are also associated with neuropathy). A full course of therapy (completion of treatment) is defined more accurately by the total number of doses taken than by the duration of"
+        },
+        {
+            "id": "First_Aid_Step2_471",
+            "title": "First_Aid_Step2",
+            "content": "P. jiroveci pneumonia CD4+ < 200/mm3, prior P. jiroveci infection, unexplained fever \u00d7 2 weeks, or HIV-related oral candidiasis. Single-strength TMP-SMX or dapsone +/\u2013 pyrimethamine. Discontinue prophylaxis when CD4+ is > 200 for \u2265 3 months. Mycobacterium avium complex (MAC) CD4+ < 50\u2013100/mm3. Weekly azithromycin or daily clarithromycin. Discontinue prophylaxis when CD4+ is > 100/mm3 for > 6 months. Toxoplasma gondii CD4+ < 100/mm3 + IgG serologies. Double-strength TMP-SMX. \u2014 M. tuberculosis PPD > 5 mm or \u201chigh risk\u201d (see TB section). Sensitive: INH \u00d7 9 months (+ pyridoxine) or rifampin +/\u2013 pyrazinamide \u00d7 2 months. Include pyridoxine with INH-containing regimens. Candida Multiple recurrences. Esophagitis: Fluconazole. Oral: Nystatin swish and swallow. \u2014 HSV Multiple recurrences. Acyclovir, famciclovir, or valacyclovir. \u2014 All patients. Pneumovax. Give every fve years or when CD4+ is < 200. All patients. Infuenza vaccine annually. \u2014 S. pneumoniae Inf uenza"
+        },
+        {
+            "id": "InternalMed_Harrison_13629",
+            "title": "InternalMed_Harrison",
+            "content": "Rifapentine Rifapentine is a semisynthetic cyclopentyl rifamycin, sharing a mechanism of action with rifampin. Rifapentine is lipophilic and has a prolonged half-life that permits weekly or twice-weekly dosing. Therefore, this drug is the subject of intensive clinical investigation aimed at determining optimal dosing and frequency of administration. Currently, rifapentine is an alternative to rifampin in the continuation phase of treatment for noncavitary drug-susceptible pulmonary TB in HIV-seronegative patients who have negative sputum smears at completion of the initial phase of treatment. When administered in these specific circumstances, rifapentine (10 mg/kg, up to 600 mg) is given once weekly with isoniazid. Because of higher rates of relapse, this regimen is not recommended for patients with TB disease and HIV co-infection. A large randomized controlled trial recently demonstrated that, for latent TB, a 12-dose (3-month) regimen of weekly DOT with a weight-based dose of"
+        },
+        {
+            "id": "InternalMed_Harrison_15151",
+            "title": "InternalMed_Harrison",
+            "content": "figure is higher in patients with lower CD4 +T cell counts. In the setting of fulminant disease one cannot rely on the accuracy of a negative PPD skin test to rule out a diagnosis of TB. In addition, IFN-\u03b3 release assays may be difficult to interpret due to high backgrounds as a consequence of HIV-associated immune activation. TB is one of the conditions associated with HIV infection for which cure is possible with appropriate therapy. Therapy for TB is generally the same in the HIV-infected patient as in the HIV-negative patient (Chap. 202). Due to the possibility of multidrug-resistant or extensively drug-resistant TB, drug susceptibility testing should be performed to guide therapy. Due to pharmacokinetic interactions, adjusted doses of rifabutin should be substituted for rifampin in patients receiving the HIV protease inhibitors or nonnucleoside reverse transcriptase inhibitors. Treatment is most effective in programs that involve directly observed therapy. Initiation of cART"
+        },
+        {
+            "id": "InternalMed_Harrison_15136",
+            "title": "InternalMed_Harrison",
+            "content": "patients have CD4+ T cell counts <200/\u03bcL. Recurrent fever, night sweats, thrush, and unexplained weight loss also are associated with an increased incidence of PCP. For these reasons, it is strongly recommended that all patients with CD4+ T cell counts <200/\u03bcL (or a CD4 percentage <15) receive some form of PCP prophylaxis. The incidence of PCP is approaching zero in patients with known HIV infection receiving appropriate cART and prophylaxis. In the United States, primary PCP is now occurring at a median CD4+ T cell count of 36/ \u03bcL, while secondary PCP is occurring at a median CD4+ T cell count of 10/\u03bcL. Patients with PCP generally present with fever and a cough that is usually nonproductive or productive of only scant amounts of white sputum. They may complain of a characteristic retrosternal chest pain that is worse on inspiration and is described as sharp or burning. HIV-associated PCP may have an indolent course characterized by weeks of vague symptoms and should be included in"
+        },
+        {
+            "id": "InternalMed_Harrison_13410",
+            "title": "InternalMed_Harrison",
+            "content": "phenomenon is presumably due to the expectoration and microscopic visualization of dead bacilli. As noted above, patients with cavitary disease in whom sputum culture conversion does not occur by 2 months require immediate testing for drug resistance. When a patient\u2019s sputum cultures remain positive at \u22653 months, treatment failure and drug resistance or poor adherence to the regimen are likely, and testing of drug resistance should guide the choice of the best treatment option (see below). A sputum specimen should be collected by the end of treatment to document cure. If mycobacterial cultures are not practical, then monitoring by AFB smear examination should be undertaken at 2, 5, and 6 months. Smears that are positive after 3 months of treatment when the patient is known to be adherent are indicative of treatment failure and possible drug resistance. Therefore, if not done at the start of treatment, drug susceptibility testing is mandatory at this stage. Bacteriologic monitoring of"
+        },
+        {
+            "id": "Pharmacology_Katzung_5286",
+            "title": "Pharmacology_Katzung",
+            "content": "Harry W. Lampiris, MD, & Daniel S. Maddix, Pharm D The patient is a 37-year-old African-American man who lives in San Jose, California. He was recently incarcerated near Bakersfield, California and returned to Oakland about 3 months ago. He is currently experiencing one month of severe headache and double vision. He has a temperature of 38.6\u00b0C (101.5\u00b0F) and the physical exam reveals nuchal rigidity and right-sided sixth cranial nerve palsy. MRI of his brain is normal, and lumbar puncture reveals 330 WBC with 20% eosinophils, protein 75, and glucose 20. HIV test is negative, TB skin test is negative, CSF cryptococcal antigen is negative, and CSF gram stain is negative. Patient receives empiric therapy for bacterial meningitis with van-comycin and ceftriaxone, and is unimproved after 72 hours of treatment. After 3 days a white mold is identified growing from his CSF culture. What medical therapy would be most appropriate now?"
+        }
+    ],
+    "scores": [
+        0.03692926139305075,
+        0.03617557057880485,
+        0.03544642332334097,
+        0.03417634577422744,
+        0.03327934923371159,
+        0.032750960421692135,
+        0.03161246577257772,
+        0.030012543622581978,
+        0.029999225528585107,
+        0.028066443007937158,
+        0.0277326286514372,
+        0.02753167554748215,
+        0.026966412479297874,
+        0.026687143874643875,
+        0.026261330187977515,
+        0.025983739129989712,
+        0.025726053881393686,
+        0.025464788666857446,
+        0.02521791203672899,
+        0.023727149377081536,
+        0.0235842683894367,
+        0.02345600075779104,
+        0.022762303579223046,
+        0.02055916460926329,
+        0.020425386194020755,
+        0.02033219397564623,
+        0.020220928334330958,
+        0.020028582528582528,
+        0.018925614159014205,
+        0.01869812145041503,
+        0.01855379188712522,
+        0.018068384378544806
+    ]
+}

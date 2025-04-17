@@ -1,0 +1,208 @@
+{
+    "id": "0415",
+    "question": "A research group has created a novel screening test for a rare disorder. A robust clinical trial is performed in a group of 100 subjects comparing the new screening test against the gold standard. The results are given in the table below:\nScreening test\\gold standard Disease present Disease absent\nPositive 45 15\nNegative 5 35\nWhich of the following is most correct regarding the statistical power of this new screening test?",
+    "options": {
+        "A": "Repeating the study would have no effect on the statistical power of the screening test.",
+        "B": "The power of the test is 0.8.",
+        "C": "If the specificity of this screening test were increased, the statistical power would increase.",
+        "D": "If the sensitivity of this screening test were decreased, the statistical power would decrease."
+    },
+    "answer": "D",
+    "predict": "Here is the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To determine the statistical power of the new screening test, we need to understand what statistical power is. Statistical power is the probability that the test will correctly identify the presence of the disease when it is present (sensitivity) and the absence of the disease when it is absent (specificity). The power of a test can be calculated using the following formula: Power = 1 - (1 - P(E))^(1 - \u03b2), where P(E) is the probability of a correct result (sensitivity + specificity / 2) and \u03b2 is the type I error rate (usually set to 0.05).\\n\\nIn this case, the table shows the following numbers:\\n\\n- True positives (disease present and test positive): 45\\n- False positives (disease absent and test positive): 15\\n- True negatives (disease absent and test negative): 35\\n- False negatives (disease present and test negative): 5\\n\\nWe can calculate the sensitivity and specificity as follows:\\nSensitivity = True positives / (True positives + False negatives) = 45 / (45 + 5) = 0.9000\\nSpecificity = True negatives / (True negatives + False positives) = 35 / (35 + 15) = 0.7000\\nNow, we can calculate the power of the test using the formula:\\nPower = 1 - (1 - (0.9000 + 0.7000) / 2)^(1 - 0.05) = 1 - (1 - 0.8000)^(0.95) = 1 - 0.2865 = 0.7135\\nSo, the power of the test is approximately 0.7135 or 71.35%\\n\\nGiven the options, we can evaluate them as follows:\\nA. Repeating the study would have no effect on the statistical power of the screening test. This is incorrect because repeating the study would likely increase the sample size and power.\\nB. The power of the test is 0.8. This is close to the calculated power of 0.7135, so it is a reasonable estimate.\\nC. If the specificity of this screening test were increased, the statistical power would increase. This is correct because higher specificity would lead to more true negatives, which would increase the power of the test.\\nD. If the sensitivity of this screening test were decreased, the statistical power would decrease. This is also correct because lower sensitivity would lead to more false negatives, which would decrease the power of the test.\\n\\nTherefore, the correct answer is C and D.\", \"answer_choice\": \"C,D\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_237",
+            "title": "InternalMed_Harrison",
+            "content": "The accuracy of diagnostic tests is defined in relation to an accepted \u201cgold standard,\u201d which defines the presumably true state of the patient (Table 3-1). Characterizing the diagnostic performance of a new test requires identifying an appropriate population (ideally, patients in whom the new test would be used) and applying both the new and the gold standard tests to all subjects. Biased estimates of test performance may occur from using an inappropriate population or from incompletely applying the gold standard test. By comparing the two tests, the characteristics of the new test are determined. The sensitivity or true-positive rate of the new test is the proportion of patients with disease (defined by the gold standard) who have a positive (new) test. This measure reflects how well the new test identifies patients with disease. The proportion of patients with disease who have a negative test is the false-negative rate and is calculated as 1 \u2013 sensitivity. Among patients without"
+        },
+        {
+            "id": "InternalMed_Harrison_5976",
+            "title": "InternalMed_Harrison",
+            "content": "The Accuracy of Screening A screening test\u2019s accuracy or ability to discriminate disease is described by four indices: sensitivity, specificity, positive predictive value, and negative predictive value (Table 100-2). Sensitivity, also called the true-positive rate, is the proportion of persons with the disease who test positive in the screen (i.e., the ability of the test to detect disease when it is present). Specificity, or 1 minus the false-positive rate, is the proportion of persons who do not have the disease that test negative in the screening test (i.e., the ability of a test to correctly identify that the disease is not present). The positive predictive value is the proportion of persons who test positive that actually have the disease. Similarly, negative predictive value is the proportion testing negative that do not have the disease. The sensitivity and specificity of a test are independent of the underlying prevalence (or risk) of the disease in the population screened,"
+        },
+        {
+            "id": "InternalMed_Harrison_32560",
+            "title": "InternalMed_Harrison",
+            "content": "Differences between Screening Tests and Confirmatory Tests It is important to distinguish between clinical laboratory tests that can be used to screen for disease and those that offer a confirmatory result. Screening tests are generally less expensive and more widely available than are confirmatory tests, which often require more specialized equipment or personnel. As a general principle, screening tests are designed to identify all individuals who have the disease of interest, even if, in the process, some healthy individuals are misidentified as possibly having the disease. In other words, maximization of the diagnostic sensitivity of screening tests inevitably comes at the expense of reduced diagnostic specificity. Confirmatory testing is intended to correctly separate those individuals who have a disease from those who do not."
+        },
+        {
+            "id": "InternalMed_Harrison_5983",
+            "title": "InternalMed_Harrison",
+            "content": "Assessment of Screening Tests Good clinical trial design can offset some biases of screening and demonstrate the relative risks and benefits of a screening test. A randomized controlled screening trial with cause-specific mortality as the endpoint provides the strongest support for a screening intervention. Overall mortality should also be reported to detect an adverse effect of screening and treatment on other disease outcomes (e.g., cardiovascular disease). In a randomized trial, two like populations are randomly established. One is given the usual standard of care (which may be no screening at all) and the other receives the screening intervention being assessed. The two populations are compared over time. Efficacy for the population studied is established when the group receiving the screening test has a better cause-specific mortality rate than the control group. Studies showing a reduction in the incidence of advanced-stage disease, improved survival, or a stage shift are weaker"
+        },
+        {
+            "id": "Obstentrics_Williams_1851",
+            "title": "Obstentrics_Williams",
+            "content": "Modified with permission from Dashe JS: Aneuploidy screening in pregnancy, Obstet Gynecol. 2016 Jul;128(1 ):181l-194. as a l:X ratio or as a percentage. he positive-predictive value value reported in a research trial is the proportion of women is directly afected by disease prevalence, so it is much higher with positive screening results who have afected fetuses for women aged 35 years and older than for younger women (see Table 14-4). Negative-predictive value is the proportion of (Table 14-5). Positive-predictive values can also be reported those with a negative screening test result who have unafected for cohorts of pregnancies. For example, the positive-predictive (euploid) fetuses. Because the prevalence of aneuploidy is so TABLE 14-4. Characteristics of Screening Tests for Trisomy 21 in Singletons Screening Test Rate Rate Predictive Valuea Quadruple screen: AFP, hCG, estriol, inhibin 80-82% 5% 3% First-trimester screen: NT, hCG, PAPP-A 80-84% 5% 3-4%"
+        },
+        {
+            "id": "First_Aid_Step1_260",
+            "title": "First_Aid_Step1",
+            "content": "Crossover studies (subjects act as their own controls) Matching (patients with similar characteristics in both treatment and control groups) Lead-time bias Early detection is confused Early detection makes it seem Measure \u201cback-end\u201d survival with \u008f survival like survival has increased, (adjust survival according to but the disease\u2019s natural the severity of disease at the history has not changed time of diagnosis) Length-time bias Screening test detects diseases A slowly progressive cancer A randomized controlled trial with long latency period, is more likely detected by a assigning subjects to the while those with shorter screening test than a rapidly screening program or to no latency period become progressive cancer screening symptomatic earlier Mode = most common value. Least affected by outliers. Measures of Standard deviation = how much variability \u03c3 = SD; n = sample size. dispersion exists in a set of values, around the mean of Variance = (SD)2. these values. SE = \u03c3/\u221an."
+        },
+        {
+            "id": "InternalMed_Harrison_7533",
+            "title": "InternalMed_Harrison",
+            "content": "results. Even a screening test with 98% specificity and 50% sensitivity would have a positive predictive value of only about 1%. A large randomized study of active screening versus usual standard care demonstrated that a screening program consisting of six annual CA-125 measurements and four annual transvaginal ultrasounds in a population of women age 55\u201374 was not effective at reducing death from ovarian cancer and was associated with significant morbidity in the screened arm due to complications associated with diagnostic testing in the screened group. Although ongoing studies are evaluating the utility of alternative screening strategies, currently screening of normal-risk women is not recommended outside of a clinical trial."
+        },
+        {
+            "id": "First_Aid_Step2_233",
+            "title": "First_Aid_Step2",
+            "content": "Confounding variables reduce the internal validity of a study. years earlier may give the impression that patients are living longer with the disease. \u25a0 Length bias: Occurs when screening tests detect a disproportionate number of slowly progressive diseases but miss rapidly progressive ones, leading to overestimation of the beneft of the screen. Example: A better prognosis for patients with cancer is celebrated after implementation of a new screening program. However, this test disproportionally detects slow-growing tumors, which generally tend to be less aggressive. Even with bias reduction, unsystematic random error is unavoidable owing to chance variation in studied data. Types of errors are as follows: Type I (\u03b1) error: Defned as the probability of saying that there is a difference in treatment effects between groups when in fact there is not (i.e., a false-conclusion)."
+        },
+        {
+            "id": "First_Aid_Step1_257",
+            "title": "First_Aid_Step1",
+            "content": "Accuracy (validity) The closeness of test results to the true values. Systematic error \u0090 accuracy in a test. The absence of systematic error or bias in a test. ROC curve demonstrates how well a diagnostic 1 test can distinguish between 2 groups (eg, disease vs healthy). Plots the true-positive rate (sensitivity) against the false-positive rate (1 \u2013 specificity). The better performing test will have a higher area under the curve (AUC), with the curve closer to the upper left corner. No predictive value (AUC = 0.5)TP rate (sensitivity) FP rate (1 \u2013 specifcity) 1 A ctual test (0.5 < AU C < 1 ) Selection bias Nonrandom sampling or treatment allocation of subjects such that study population is not representative of target population. Most commonly a sampling bias. Berkson bias\u2014cases and/ or controls selected from hospitals are less healthy and have different exposures than general population"
+        },
+        {
+            "id": "InternalMed_Harrison_238",
+            "title": "InternalMed_Harrison",
+            "content": "the new test identifies patients with disease. The proportion of patients with disease who have a negative test is the false-negative rate and is calculated as 1 \u2013 sensitivity. Among patients without disease, the proportion who have a negative test is the specificity, or true-negative rate. This measure reflects how well the new test correctly identifies patients without disease. Among patients without disease, the proportion who have a positive test is the false-positive rate, calculated as 1 \u2013 specificity. A perfect test would have a sensitivity of 100% and a specificity of 100% and would completely distinguish patients with disease from those without it."
+        },
+        {
+            "id": "First_Aid_Step2_219",
+            "title": "First_Aid_Step2",
+            "content": "Diseased people with a test result Sensitivity Nondiseased people with a test result 1 \u2212 specif city SnOUT: Sensitive tests rule OUT disease. SpIN: Specific tests rule IN disease. Because the predictive value of a test is affected by disease prevalence, it is advantageous to apply diagnostic tests to patients with an \u2191 likelihood of having the disease being sought (i.e., an at-risk population). If a test has an LR of 1, it does not change the pretest probability of disease. If the LR is 10, it makes disease 45% more likely. If the LR is 0.1, disease is 45% less likely. Diseased people with a test result 1 \u2212 sensitivity Nondiseased people with a test result Specif city If you see a set of COworkers being followed over time, think COhort study. Cohort studies are also known as longitudinal studies or incidence studies."
+        },
+        {
+            "id": "InternalMed_Harrison_5978",
+            "title": "InternalMed_Harrison",
+            "content": "Screening is most beneficial, efficient, and economical when the target disease is common in the population being screened. Specificity is at least as important to the ultimate feasibility and success of a screening test as sensitivity. Potential Biases of Screening Tests Common biases of screening are lead time, length-biased sampling, and selection. These biases can make a screening test seem beneficial when actually it is not (or even causes net harm). Whether beneficial or not, screening can create the false impression of an epidemic by increasing the number of cancers diagnosed. It can also produce a shift in the proportion of patients diagnosed at an early stage and inflate survival statistics without reducing mortality (i.e., the number of deaths from a given cancer relative to the number of those at risk for the cancer). In such a case, the apparent duration of survival (measured from date of diagnosis) increases without lives being saved or life expectancy changed."
+        },
+        {
+            "id": "Obstentrics_Williams_1881",
+            "title": "Obstentrics_Williams",
+            "content": "2. Sequential screening involves performing first-trimester screening and informing the patient of the results. his is coupled with the understanding that if the calculated risk value lies above a speciied threshold, she will receive counseling and will be ofered diagnostic testing. here are two testing strategies in this category: With stepwise sequential screening, women with firsttrimester screen results that confer risk for Down syndrome above a particular threshold are ofered invasive testing, and the remaining women receive secondtrimester screening. Using data from the First-and Second-Trimester Evaluation of Risk (FaSTER) trial, when the first-trimester threshold is set at approximately 1 :30, and the overall threshold is set at 1 :270, stepwise sequential screening resulted in a 92-percent detection rate of Down syndrome pregnancies, with a false-positive rate of 5 percent (see Table 14-4) (Cuckle, 2008)."
+        },
+        {
+            "id": "InternalMed_Harrison_246",
+            "title": "InternalMed_Harrison",
+            "content": "For a positive test, the likelihood ratio positive is calculated as the ratio of the true-positive rate to the false-positive rate (or sensitivity/ [1 \u2013 specificity]). For example, a test with a sensitivity of 0.90 and a specificity of 0.90 has a likelihood ratio of 0.90/(1 \u2013 0.90), or 9. Thus, for this hypothetical test, a \u201cpositive\u201d result is nine times more likely in a patient with the disease than in a patient without it. Most tests in medicine have likelihood ratios for a positive result between 1.5 and 20. Higher values are associated with tests that more substantially increase the posttest likelihood of disease. A very high likelihood ratio positive (exceeding 10) usually implies high specificity, so a positive high-specificity test helps \u201crule in\u201d disease. If sensitivity is excellent but specificity is less so, the likelihood ratio will be reduced substantially (e.g., with a 90% sensitivity but a 55% specificity, the likelihood ratio is 2.0)."
+        },
+        {
+            "id": "InternalMed_Harrison_247",
+            "title": "InternalMed_Harrison",
+            "content": "For a negative test, the corresponding likelihood ratio negative is the ratio of the false-negative rate to the true-negative rate (or [1 \u2013 sensitivity]/ specificity). Lower likelihood ratio values more substantially lower the posttest likelihood of disease. A very low likelihood ratio negative (falling below 0.10) usually implies high sensitivity, so a negative high-sensitivity test helps \u201crule out\u201d disease. The hypothetical test considered above with a sensitivity of 0.9 and a specificity of 0.9 would have a likelihood ratio for a negative test result of (1 \u2013 0.9)/0.9, or 0.11, meaning that a negative result is about one-tenth as likely in patients with disease than in those without disease (or 10 times more likely in those without disease than in those with disease)."
+        },
+        {
+            "id": "InternalMed_Harrison_2031",
+            "title": "InternalMed_Harrison",
+            "content": "The choice of laboratory tests in the evaluation of dementia is complex and should be tailored to the individual patient. The physician must take measures to avoid missing a reversible or treatable cause, yet no single treatable etiology is common; thus, a screen must use multiple tests, each of which has a low yield. Cost/benefit ratios are difficult to assess, and many laboratory screening algorithms for dementia discourage multiple tests. Nevertheless, even a test with only a 1\u20132% positive rate is worth undertaking if the alternative is missing a treatable cause of dementia. Table 35-3 lists most screening tests for dementia. The American Academy of Neurology recommends the routine measurement of a complete blood count, electrolytes, renal and thyroid function, a vitamin B12 level, and a neuroimaging study (computed tomography [CT] or MRI)."
+        },
+        {
+            "id": "InternalMed_Harrison_4273",
+            "title": "InternalMed_Harrison",
+            "content": "Recognition of the HLA associations with drug hypersensitiv ity has been acknowledged by recommendations to screen high-risk populations. Genetic screening for HLA-B*57:01 to prevent abacavir hypersensitivity, which carries a 100% negative predictive value when patch test confirmed and 55% positive predictive value generalizable across races, is becoming the clinical standard of care worldwide (number needed to treat = 13). The U.S. Food and Drug Administration recently mandated new labeling of carbamazepine recommending HLA-B*15:02 screening of Asian individuals prior to receiving a new prescription of the medication. The American College of Rheumatology has recommended HLA-B*58:01 screening of Han Chinese patients prescribed allopurinol. To date, screening for a single HLA (but not multiple HLA haplotypes) in specific populations has been determined to be cost-effective."
+        },
+        {
+            "id": "Obstentrics_Williams_1848",
+            "title": "Obstentrics_Williams",
+            "content": "Data from Meyers C, Adam R, Dungan J, et al: Aneuploidy in twin gestations: when is maternal age advanced? Obstet Gynecol. 1997 Feb;89(2):248-251l. sideration is that with all analyte-based screening tests, women 35 and older have higher rates of positive results (Kazerouni, 2011; Malone, 2005b). Importantly, neither sensitivity nor false-positive rate conveys individual risk. he statistic that patients and providers usually consider to be the test result is the positive-predictive value, which is the proportion of those with a positive screening result who actually have an aneuploid fetus. It may be expressed TABLE 14-3. Aneuploidy Screening Counseling Elements 1. All pregnant women have 3 options: screening, diagnostic testing, and no screening or testing. The purpose of a screening test is to provide information, not to dictate a course of action. Diagnostic testing is safe and effective and provides information that screening does not."
+        },
+        {
+            "id": "InternalMed_Harrison_239",
+            "title": "InternalMed_Harrison",
+            "content": "Calculating sensitivity and specificity requires selection of a threshold value or cut point above which the test is considered \u201cpositive.\u201d Making the cut point \u201cstricter\u201d (e.g., raising it) lowers sensitivity but improves specificity, whereas making it \u201claxer\u201d (e.g., lowering it) raises sensitivity but lowers specificity. This dynamic trade-off between more accurate identification of subjects with disease versus those without disease is often displayed graphically as a receiver operating characteristic (ROC) curve (Fig. 3-1) by plotting sensitivity (y axis) versus 1 \u2013 specificity (x axis). Each point on the curve represents a potential cut point with an associated sensitivity and specificity value. The area under the ROC curve often is used as a quantitative measure of the information content of a test. Values range from 0.5 (no diagnostic information from testing at all; the test is equivalent to flipping a coin) to 1.0 (perfect test). The choice of cut point should depend on the"
+        },
+        {
+            "id": "InternalMed_Harrison_32603",
+            "title": "InternalMed_Harrison",
+            "content": "Jews. A negative screening result therefore does not completely eliminate the possibility that a woman (or her partner) actually has a mutation. What can be inferred from a negative test result is that the risk of having a CF-affected baby has decreased significantly to an extent that depends on the woman\u2019s ethnic group and the mutations that were examined. The clinical laboratory should calculate and report the woman\u2019s new risk of being a carrier if the screening result is negative."
+        },
+        {
+            "id": "InternalMed_Harrison_241",
+            "title": "InternalMed_Harrison",
+            "content": "Unfortunately, there are no perfect tests. After every test is completed, the true disease state of the patient remains uncertain. Quantifying this residual uncertainty can be done with Bayes\u2019 rule, which provides a simple way to calculate the likelihood of disease after a test result or posttest probability from three parameters: the pretest probability of disease, the test sensitivity, and the test specificity. The pretest probability is a quantitative estimate of the likelihood of the diagnosis before the test is performed and is usually the prevalence of the disease in the underlying population although occasionally it can be the disease 0.9 0.8 0.7 0.6 0.5 0.4 0.3 0.2 0.1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 illustrates a trade-off that occurs between improved test sensitivity (accurate detection of patients with disease) and improved test specificity (accurate detection of patients without disease), because the test value defining when the test turns from \u201cnegative\u201d to"
+        },
+        {
+            "id": "InternalMed_Harrison_300",
+            "title": "InternalMed_Harrison",
+            "content": "Because screening and preventive interventions are recommended to asymptomatic individuals, they are held to a high standard for demonstrating a favorable risk-benefit ratio before implementation. In general, the principles of evidence-based medicine apply to demonstrating the efficacy of screening tests and preventive interventions, where randomized controlled trials (RCTs) with mortality outcomes are the gold standard. However, because RCTs are often not feasible, observational studies, such as case-control designs, have been used to assess the effectiveness of some interventions such as colorectal cancer screening. For some strategies, such as cervical cancer screening, the only data available are ecologic data demonstrating dramatic declines in mortality. Chapter 4 Screening and Prevention of Disease"
+        },
+        {
+            "id": "InternalMed_Harrison_15079",
+            "title": "InternalMed_Harrison",
+            "content": "The standard blood screening tests for HIV infection are based on the detection of antibodies to HIV. A common platform is the ELISA, also referred to as an enzyme immunoassay (EIA). This solid-phase assay is an extremely good screening test with a sensitivity of >99.5%. Most diagnostic laboratories use commercial kits that contain antigens from both HIV-1 and HIV-2 and thus are able to detect antibodies to either. These kits use both natural and recombinant antigens and are continuously updated to increase their sensitivity to newly discovered species, such as group O viruses (Fig. 226-1). The fourth-generation EIA tests combine detection of antibodies to HIV with detection of the p24 antigen of HIV. EIA tests are generally scored as positive (highly reactive), negative (nonreactive), or indeterminate (partially reactive). While the EIA is an extremely sensitive test, it is not optimal with regard to specificity. This is particularly true in studies of low-risk individuals, such as"
+        },
+        {
+            "id": "InternalMed_Harrison_5984",
+            "title": "InternalMed_Harrison",
+            "content": "test has a better cause-specific mortality rate than the control group. Studies showing a reduction in the incidence of advanced-stage disease, improved survival, or a stage shift are weaker (and possibly misleading) evidence of benefit. These latter criteria are early indicators but not sufficient to establish the value of a screening test."
+        },
+        {
+            "id": "Surgery_Schwartz_7419",
+            "title": "Surgery_Schwartz",
+            "content": "the patient has active H pylori infection.73 The predictive value (positive and negative) of any of these tests when used as a screening tool depends on the prevalence of H pylori infection in the screened population. A positive test is quite accurate in predicting H pylori infection, but a negative test can be unreliable. Thus, in the appropriate clinical setting, treatment for H pylori should be initiated on the basis of a positive test, but not necessarily withheld if the test is negative. Helicobacter infection should be treated when the diagnosis is made and eradication is confirmed.A positive serologic test is presumptive evidence of active infection if the patient has never been treated for H pylori. Histologic examination of gastric mucosal biopsy using special stains is the gold standard test for helicobacter infection. Other sensitive tests include commercially available rapid urease tests, which assay for the presence of urease in mucosal biopsy speci-mens (strong"
+        },
+        {
+            "id": "Obstentrics_Williams_1856",
+            "title": "Obstentrics_Williams",
+            "content": "Importantly, each screening test also has a predetermined value at which or above which it is deemed \"positive\" or abnormal. For second-trimester tests, this threshold has traditionally been set at the risk for fetal Down syndrome in a woman aged 35 years-approximately 1 in 270 in the second trimester (see Table 14-1). he threshold selected for a positive screen relects the laboratory requirement but is somewhat problematic, as it may bear no relationship to patient preference. However, a positive screening result may afect whether the patient is deemed \"high risk,\" receives formal genetic counseling, and is ofered diagnostic testing with chorionic villus sampling or amniocentesis. Thus, it behooves the provider to discuss the patient's preferences prior to screening."
+        },
+        {
+            "id": "Obstentrics_Williams_1849",
+            "title": "Obstentrics_Williams",
+            "content": "The purpose of a screening test is to provide information, not to dictate a course of action. Diagnostic testing is safe and effective and provides information that screening does not. 2. The diference between a screening test and a diagnostic test. Screening evaluates whether the pregnancy is at increased risk and estimates degree of risk. Detection rate, false-negative rate, and false-positive rate are provided. Cell-free DNA screening does not always provide a result. Irreversible management decisions should not be based on screening test results. With a positive screening result, a diagnostic test is recommended if the patient wants to know whether the fetus is affected. 3. Basic information is provided about each condition covered by the screening test (prevalence, associated abnormalities, prognosis), and screening test limitations. A benefit of diagnosis includes earlier identification of associated abnormalities."
+        },
+        {
+            "id": "InternalMed_Harrison_5977",
+            "title": "InternalMed_Harrison",
+            "content": "proportion testing negative that do not have the disease. The sensitivity and specificity of a test are independent of the underlying prevalence (or risk) of the disease in the population screened, but the predictive values depend strongly on the prevalence of the disease."
+        },
+        {
+            "id": "InternalMed_Harrison_6013",
+            "title": "InternalMed_Harrison",
+            "content": "The European Randomized Study of Screening for Prostate Cancer (ERSPC) was a multinational study that randomized approximately 182,000 men between age 50 and 74 years (with a predefined \u201ccore\u201d screening group of men age 55\u201369 years) to receive PSA testing or no screening. Recruitment and randomization procedures, as well as actual frequency of PSA testing, varied by country. After a median follow-up of 11 years, a 20% relative reduction in the risk of prostate cancer death in the screened arm was noted in the \u201ccore\u201d screening group. The trial found that 1055 men would need to be invited to screening, and 37 cases of prostate cancer detected, to avert 1 death from prostate cancer. Of the seven countries included in the mortality analysis, two demonstrated statistically significant reductions in prostate cancer deaths, whereas five did not. There was also an imbalance in treatment between the two study arms, with a higher proportion of men with clinically localized cancer receiving"
+        },
+        {
+            "id": "InternalMed_Harrison_32558",
+            "title": "InternalMed_Harrison",
+            "content": "One of the most frequent reasons for performing clinical laboratory tests is to support, confirm, or refute a diagnosis of disease that is suspected on the basis of other information sources, such as history, physical examination findings, and imaging studies. The following questions need to be considered: Which clinical laboratory tests may be of value in supporting, confirming, or excluding the clinical impression? What is the most efficient test-ordering strategy? Will a positive test result confirm the clinical impression or even definitively establish the diagnosis? Will a negative result disprove the clinical suspicion, and, if so, what further testing or alternative approach will be needed? What are the known sources of false-positive and false-negative results, and how are these misleading results recognized?"
+        },
+        {
+            "id": "InternalMed_Harrison_308",
+            "title": "InternalMed_Harrison",
+            "content": "Beginning regular exercise for a 40-year-old 9 months\u20132 years man (30 min, 3 times a week) result often varies across settings. For some tests such as screening mammography and screening chest CT, a false-positive result occurs when an abnormality is identified that is not malignant, requiring either a biopsy diagnosis or short-term follow-up. For other tests such as Pap smears, a false-positive result occurs because the test identifies a wide range of potentially premalignant states, only a small percentage of which would ever progress to an invasive cancer. This risk is closely tied to the risk of overdiagnosis in which the screening test identifies disease that would not have presented clinically in the patient\u2019s lifetime. Assessing the degree of overdiagnosis from a screening test is very difficult given the need for long-term follow-up of an unscreened population to determine the true incidence of disease over time. Recent estimates suggest that as much as 15\u201325% of breast"
+        },
+        {
+            "id": "Gynecology_Novak_286",
+            "title": "Gynecology_Novak",
+            "content": "Prevalence of disease is 9% Sensitivity: 95/100 = 95% Specificity: 950/1000 = 95% PPV: 95/145 = 65.5% NPV: 950/955 = 99.5% Figure 4.4 Comparison of sensitivity, specificity and predictive values when the prevalence of the disease varies. presented as sensitivity and specificity. The sensitivity and specificity represent the characteristics of a given diagnostic test and do not vary by population characteristics. In contrast the negative and positive predictive values of a test do vary with the baseline characteristics of a population such as prevalence of a disease (Fig. 4.4). Descriptive studies, case reports and case series, do not include comparison groups."
+        }
+    ],
+    "scores": [
+        0.03896222955628896,
+        0.037003250205318985,
+        0.02972654987148991,
+        0.027327731092436976,
+        0.0264948033227095,
+        0.02636021217525257,
+        0.02383907534183039,
+        0.023814516002016,
+        0.023709344425709863,
+        0.02360752954616089,
+        0.0235643758785931,
+        0.02296728878364484,
+        0.022027660396644354,
+        0.021951598338450423,
+        0.0191572968418606,
+        0.01882462172317245,
+        0.01778827233372688,
+        0.017246506095747842,
+        0.01686176142697882,
+        0.016680509413067552,
+        0.016312997347480106,
+        0.016281512605042014,
+        0.016050333846944015,
+        0.015858324077502158,
+        0.015826564739608216,
+        0.01581493425948896,
+        0.015669856459330143,
+        0.015406162464985995,
+        0.015194244604316547,
+        0.015189728304482404,
+        0.015188470066518847,
+        0.015182186234817813
+    ]
+}

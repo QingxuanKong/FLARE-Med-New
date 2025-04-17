@@ -1,0 +1,208 @@
+{
+    "id": "0600",
+    "question": "A medical student decides to join an immunology research center, which specifically works on capsular polysaccharide vaccine development against bacteria, such as Haemophilus influenzae type b (Hib), Neisseria meningitidis, and Streptococcus pneumoniae. As a member of a research team working on the Hib vaccine, he asks his senior colleague why capsular polysaccharides are conjugated to protein carriers like tetanus toxoid during vaccine development. Which of the following is the best response to this question?",
+    "options": {
+        "A": "Conjugation with a protein carrier generates IgG2 dominant antibody responses",
+        "B": "Conjugation with a protein carrier generates IgM dominant antibody responses",
+        "C": "Conjugation with a protein carrier improves vaccine stability",
+        "D": "Conjugation with a protein carrier provides effective protection to infants"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the concept of conjugate vaccines and the role of protein carriers in Hib vaccine development. Conjugate vaccines are a type of vaccine that combines a bacterial polysaccharide antigen with a protein carrier, such as tetanus toxoid. This combination is used to elicit a T-cell dependent immune response, which is more effective in young children who have limited T-cell responses to polysaccharide antigens. The protein carrier provides peptides that can be recognized by antigen-specific T cells, thus converting a T-cell independent response into a T-cell dependent antipolysaccharide antibody response. The correct answer can be deduced by considering the characteristics of conjugate vaccines and the specific case of Hib vaccine development.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_4206",
+            "title": "Immunology_Janeway",
+            "content": "Capsular polysaccharides can be harvested from bacterial growth medium and, because they are T-cell-independent antigens (see Section 10-1), they can be used on their own as vaccines. However, young children under the age Fig. 16.27 Conjugate vaccines take advantage of linked recognition to boost B-cell responses against polysaccharide antigens. The Hib vaccine against Haemophilus influenzae type b is a conjugate of bacterial polysaccharide and the tetanus toxoid protein. The B cell recognizes and binds the polysaccharide, internalizes and degrades the whole conjugate, and then displays toxoid-derived peptides on surface MHC class II molecules. Helper T cells generated in response to earlier vaccination against the toxoid recognize the complex on the B-cell surface and activate the B cell to produce anti-polysaccharide antibody. This antibody can then protect against infection with H. influenzae type b. Chapter 16: Manipulation of the Immune Response"
+        },
+        {
+            "id": "Immunology_Janeway_2517",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 10.1 Multiple Choice: Which of the following is not an antibody effector function? A. Opsonization B. Neutralization C. Complement activation D. Linked recognition E. NK-cell cytotoxicity F. Mast-cell degranulation 10.2 Short Answer: The Haemophilus influenzae type b (Hib) vaccine was initially composed only of the polysaccharide capsule of the organism, but this failed to mount potent antibody responses. Directly conjugating the Hib polysaccharide to a tetanus or diphtheria toxoid, however, yielded very potent antibody responses to Hib, and is the current vaccine formulation. Indicate which immunological phenomenon is taken advantage of by conjugating the Hib capsule-derived polysaccharide to a toxoid, and how it works to elicit a potent antibody response."
+        },
+        {
+            "id": "Immunology_Janeway_4205",
+            "title": "Immunology_Janeway",
+            "content": "16-27 Conjugate vaccines have been developed as a result of linked recognition between T and B cells. Many bacteria, including Neisseria meningitidis (meningococcus), Streptococcus pneumoniae (pneumococcus), and H. influenzae, have an outer capsule composed of polysaccharides that are speciesand type-specific for particular strains of the bacterium. The most effective defense against these microorganisms is opsonization of the polysaccharide coat with antibody. The aim of vaccination for these organisms is therefore to elicit antibodies against the polysaccharide capsules of the bacteria. However, effective acellular vaccines cannot be made from a single isolated constituent of a microorganism, since generation of an effective antibody response requires the participation of several types of cells, and this fact has led to the development of conjugate vaccines (Fig. 16.27)."
+        },
+        {
+            "id": "Immunology_Janeway_4210",
+            "title": "Immunology_Janeway",
+            "content": "Number of cases of 2 years cannot make good T-cell-independent antibody responses and cannot be vaccinated effectively with polysaccharide (PS) vaccines. An efficient way of overcoming this problem is to conjugate bacterial polysaccharides chemically to protein carriers (see Fig. 16.27). This carrier protein provides peptides that can be recognized by antigen-specific T cells, thus converting a T-cell-independent response into a T-cell-dependent antipolysaccharide antibody response. Using this approach, various conjugate vaccines have been developed against H. influenzae type b, an important cause of serious childhood chest infections and meningitis, and against N. meningitidis serogroup C, an important cause of meningitis, and these are now widely applied. The success of the latter vaccine in the United Kingdom is illustrated in Fig. 16.28, which shows that the incidence of meningitis C has been markedly reduced in comparison with meningitis B, against which there is currently no"
+        },
+        {
+            "id": "Pediatrics_Nelson_2018",
+            "title": "Pediatrics_Nelson",
+            "content": "Vaccinations may be with live attenuated viruses (measles, mumps, rubella [MMR], varicella, nasal influenza), inactivated or killed viruses (polio, hepatitis A, intramuscular influenza), recombinant products (hepatitis B, human papillomavirus), reassortants (rotavirus), or immunogenic components of bacteria (pertussis, Haemophilus influenzae type b, Neisseria meningitidis, and Streptococcus pneumoniae), including toxoids (diphtheria, tetanus). Many purified polysaccharides are T-independent antigens that initiate B-cell proliferation without involvement of CD4 T lymphocytes and are poor immunogens in children younger than 2 years of age. Conjugation of a polysaccharide to a protein carrier induces a T-dependent response in infants and creates immunogenic vaccines for H. influenzae type b, S. pneumoniae, and N. meningitidis."
+        },
+        {
+            "id": "Immunology_Janeway_4211",
+            "title": "Immunology_Janeway",
+            "content": "in the United Kingdom is illustrated in Fig. 16.28, which shows that the incidence of meningitis C has been markedly reduced in comparison with meningitis B, against which there is currently no vaccine. Endemic meningitis B is due to diverse serogroup B strains, so an ideal vaccine would target the group B capsular polysaccharide. Unfortunately, group B polysaccharide is identical to some polysialyl polysaccharides on human cells, and is poorly immunogenic due to tolerance of these self antigens. Some strategies to chemically modify the group B polysaccharide for use in a conjugate vaccine have been considered, but a major focus in group B meningococcal vaccine development has been to instead direct immunity against noncapsular antigens, which will be generally effective against endemic disease."
+        },
+        {
+            "id": "InternalMed_Harrison_12261",
+            "title": "InternalMed_Harrison",
+            "content": "Antibody to the capsule is important in protection from infection by Hib strains. The level of (maternally acquired) serum antibody to the capsular polysaccharide, which is a polymer of polyribitol ribose phosphate (PRP), declines from birth to 6 months of age and, in the absence of vaccination, remains low until ~2 or 3 years of age. The age at the antibody nadir correlates with that of the peak incidence of type b disease. Antibody to PRP then appears partly as a result of exposure to Hib or cross-reacting antigens. Systemic Hib disease is unusual after the age of 6 years because of the presence of protective antibody. Vaccines in which PRP is conjugated to protein carrier molecules have been developed and are now used widely. These vaccines generate an antibody response to PRP in infants and effectively prevent invasive infections in infants and children."
+        },
+        {
+            "id": "Immunology_Janeway_4240",
+            "title": "Immunology_Janeway",
+            "content": "16.7 Matching: Classify the currently used vaccines of the following organisms as live-attenuated (A), toxin-based (T), killed (K), or conjugate polysaccharide (P). A. ___ Corynebacterium diphtheriae B. ___ H. influenzae type B C. ___ Measles/mumps/rubella (MMR) D. ___ Bacille Calmette\u2013Gu\u00e9rin (BCG) E. ___ Influenza A virus F. ___ Sabin polio vaccine 16.8 Fill-in-the-Blanks: Vaccines have exhibited many phenomena that are beneficial and can be exploited. For example, when an antibody response against a bacterial polysaccharide is desired, it is conjugated to a protein to exploit the phenomenon of ____________________, thus ensuring T-dependent antibody responses. In addition, vaccines may protect against different subtypes of virus, as in the case of influenza, a phenomenon called _____________ immunity. When enough people in a population are vaccinated, ______ immunity is achieved, where even unvaccinated individuals are indirectly protected from infection."
+        },
+        {
+            "id": "First_Aid_Step1_130",
+            "title": "First_Aid_Step1",
+            "content": "Anaerobes are normal flora in GI tract, typically pathogenic elsewhere. AminO2glycosides are ineffective against anaerobes because these antibiotics require O2 to enter into bacterial cell. Examples are Pseudomonas aeruginosa, Streptococcus pneumoniae A , Haemophilus influenzae type b, Neisseria meningitidis, Escherichia coli, Salmonella, Klebsiella pneumoniae, and group B Strep. Their capsules serve as an antiphagocytic virulence factor. Capsular polysaccharide + protein conjugate serves as an antigen in vaccines. Please SHiNE my SKiS. Are opsonized, and then cleared by spleen. Asplenics (No Spleen Here) have \u0090 opsonizing ability and thus \u008f risk for severe infections; need vaccines to protect against: Some vaccines containing polysaccharide capsule antigens are conjugated to a carrier protein, enhancing immunogenicity by promoting T-cell activation and subsequent class switching. A polysaccharide antigen alone cannot be presented to T cells."
+        },
+        {
+            "id": "InternalMed_Harrison_11622",
+            "title": "InternalMed_Harrison",
+            "content": "Acquired Immunity Acquired immunity induced via contact following colonization or through cross-reactive antigens rests largely on the development of serum IgG antibody specific for the pneumococcal capsular polysaccharide. Nearly all polysaccharides are T cell\u2013 independent antigens; B cells can make antibodies to such antigens without T cell help. However, in children <1\u20132 years old, such B cell responses are poorly developed. This delayed ontogeny of capsule-specific IgG in young children is associated with susceptibility to pneumococcal infection (Fig. 171-5). The extremely high risk of pneumococcal infection in the absence of serum immunoglobulin (i.e., in conditions such as agammaglobulinemia) highlights the important role of capsular antibody in protection against disease. Each serotype\u2019s capsule is chemically distinct; thus immunity tends to be serotype specific, although some cross-immunity exists. For example, conjugate vaccine\u2013induced antibodies to serotype 6B prevent"
+        },
+        {
+            "id": "InternalMed_Harrison_9604",
+            "title": "InternalMed_Harrison",
+            "content": "Immunochemical studies of capsular polysaccharides have led to an appreciation of the tremendous chemical diversity that can result from the linking of a few monosaccharides. For example, three hexoses can link up in more than 300 different, potentially serologically distinct ways, while three amino acids have only six possible peptide combinations. Capsular polysaccharides have been used as effective vaccines against meningococcal meningitis as well as against pneumococcal and H. influenzae infections and may prove to be of value as vaccines against any organisms that express a nontoxic, immunogenic capsular polysaccharide. In addition, most encapsulated pathogens become virtually avirulent when capsule production is interrupted by genetic manipulation; this observation emphasizes the importance of this structure in pathogenesis. It is noteworthy that the capsule-like surface polysaccharide PNAG has been found as a conserved structure shared by many microbes but generally is a poor"
+        },
+        {
+            "id": "Immunology_Janeway_2416",
+            "title": "Immunology_Janeway",
+            "content": "Not all antibodies against bacterial polysaccharides are produced strictly through this TI-2 mechanism. We mentioned earlier the importance of antibodies against the capsular polysaccharide of Haemophilus influenzae type b in protective immunity to this bacterium. The immunodeficiency disease Wiskott\u2013Aldrich syndrome is caused by defects in T cells that impair their interaction with B cells (see Chapter 13). Patients with Wiskott\u2013Aldrich syndrome respond poorly to protein antigens, but, unexpectedly, also fail to make IgM and IgG antibody against polysaccharide antigens and are highly susceptible to infection with encapsulated bacteria such as H. influenzae. The failure to make IgM seems to be due in part to greatly reduced development of the marginal zone of the spleen, which contains B cells responsible for making much of the \u2018natural\u2019 IgM antibody against ubiquitous carbohydrate antigens. Thus, IgM and IgG antibodies induced by TI-2 antigens are likely to be an important part of"
+        },
+        {
+            "id": "InternalMed_Harrison_12167",
+            "title": "InternalMed_Harrison",
+            "content": "Conjugate Vaccines The poor immunogenicity of plain polysaccharide vaccines in infancy has been overcome by chemical conjugation of the polysaccharides to a carrier protein (CRM197, tetanus toxoid, or diphtheria toxoid). Conjugates that contain monovalent serogroup C polysaccharide and quadrivalent vaccines with A, C, Y, and W polysaccharides have been developed, as have vaccines including various other antigen combinations (e.g., tetanus conjugates with serogroup C"
+        },
+        {
+            "id": "InternalMed_Harrison_12169",
+            "title": "InternalMed_Harrison",
+            "content": "are presented to carrier peptide\u2013specific T cells, with the consequent production of both plasma cells and memory B cells. BCR, B-cell receptor; MHC, major histocompatibility complex; TCR, T-cell receptor. (Reprinted from AJ Pollard et al: Nat Rev Immunol 9:213, 2009.) 1002 and/or Y polysaccharide with Haemophilus influenzae type b polysaccharide). After immunization, peptides from the carrier protein are conventionally thought to be presented to peptide-specific T cells in association with major histocompatibility complex (MHC) class II molecules (some recent data suggesting that carrier protein peptide may actually be presented in association with an oligosaccharide and MHCII) by polysaccharide-specific B cells; the result is a T cell\u2013 dependent immune response that allows production of antibody and generation of an expanded B-cell memory pool. Unlike responses to booster doses of plain polysaccharides, responses to booster doses of conjugate vaccines have the characteristics of"
+        },
+        {
+            "id": "Pediatrics_Nelson_1632",
+            "title": "Pediatrics_Nelson",
+            "content": "Specific antibody titers after childhood vaccination (tetanus, diphtheria, Haemophilus influenzae type b, or Streptococcus pneumoniae vaccines) reflect the capacity of the immune system to synthesize specific antibodies and to develop memory B cells. If titers are low, immunization with a specific vaccine and titers obtained 4 to 6 weeks later confirm response to the immunization. Poor response to bacterial polysaccharide antigens is normal before 24 months of age but is also associated with IgG subclass deficiency or specific antibody deficiency. The development of protein-conjugate polysaccharide vaccines has prevented infections with these organisms in early childhood. Antibody responses to the S. pneumoniaeserotypes found in the 23-valent polysaccharide vaccine, but not in the conjugate vaccine, can be used to test antibody responses to polysaccharide antigens."
+        },
+        {
+            "id": "InternalMed_Harrison_6469",
+            "title": "InternalMed_Harrison",
+            "content": "167e and 183e). Because encapsulated bacteria (Streptococcus pneumoniae, Haemophilus influenzae, and Neisseria meningitidis) are the organisms most commonly associated with postsplenectomy sepsis, splenectomized persons should be vaccinated (and revaccinated; Table 104-2 and Chap. 148) against the capsular polysaccharides of these organisms. Many clinicians recommend giving splenectomized patients a small supply of antibiotics effective against S. pneumoniae,"
+        },
+        {
+            "id": "InternalMed_Harrison_8994",
+            "title": "InternalMed_Harrison",
+            "content": "In most people, A and B antigens are secreted by the cells and are present in the circulation. Nonsecretors are susceptible to a variety of infections (e.g., Candida albicans, Neisseria meningitidis, Streptococcus pneumoniae, Haemophilus influenzae) because many organisms may bind to polysaccharides on cells. Soluble blood group antigens may block this binding."
+        },
+        {
+            "id": "Pediatrics_Nelson_2114",
+            "title": "Pediatrics_Nelson",
+            "content": "Children between 2 months and 3 years of age are atincreased risk for infection with organisms with polysaccharide capsules, including S. pneumoniae, H. influenzae, N. meningitidis, and nontyphoidal Salmonella. Effective phagocytosisof these organisms requires opsonic antibody. Transplacentalmaternal IgG initially provides immunity to these organisms,but as the IgG gradually dissipates, risk of infection increases.In the United States, use of conjugate H. influenzae type b and S. pneumoniae vaccines has dramatically reduced the incidence of these infections. Determining the child\u2019s immunization status is essential to evaluate risk of these infections. An approach to evaluation of these children is outlined inFigure 96-1."
+        },
+        {
+            "id": "InternalMed_Harrison_12277",
+            "title": "InternalMed_Harrison",
+            "content": "All children should be immunized with an Hib conjugate vaccine, receiving the first dose at ~2 months of age, the rest of the primary series at 2\u20136 months of age, and a booster dose at 12\u201315 months of age. Specific recommendations vary for the different conjugate vaccines. The reader is referred to the recommendations of the American Academy of Pediatrics (Chap. 148 and www.cispimmunize.org). Currently, no vaccines are available specifically for the prevention of disease caused by nontypable H. influenzae. However, a vaccine that contains protein D\u2014a surface protein of H. influenzae\u2014conjugated to pneumococcal polysaccharides is licensed in other countries and is used widely in Europe. The vaccine has shown partial efficacy in preventing H. influenzae otitis media in clinical trials. Additional progress in the development of vaccines against nontypable H. influenzae is anticipated."
+        },
+        {
+            "id": "Immunology_Janeway_3208",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 13.17 Mechanisms used by bacteria to subvert the host immune system. listed are examples of immune evasion/subversion mechanisms used by different strains of extracellular and intracellular bacterial pathogens. examples of the strains of bacteria that employ each mechanism are listed in the far right column (e.g., Streptococcus pneumoniae, Porphyromonus gingivalis, Pseudomonas aeruginosa, Brucella abortus, Yersinia pestis). Fig. 13.18 Host defense against Streptococcus pneumoniae is type specific. the different strains of S. pneumoniae have antigenically distinct capsular polysaccharides. the capsule prevents effective phagocytosis until the bacterium is opsonized by specific antibody and complement, allowing phagocytes to destroy it. antibody against one type of"
+        },
+        {
+            "id": "Pharmacology_Katzung_7339",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE A\u20132 Recommended routine childhood immunization schedule. 1Three Hib conjugate vaccines are available for use: (1) oligosaccharide conjugate Hib vaccine (HbOC), (2) polyribosylribitol phosphate-tetanus toxoid conjugate (PRP-T), and (3) Haemophilus influenzae type b conjugate vaccine (meningococcal protein conjugate) (PRP-OMP). Children immunized with PRP-OMP at 2 and 4 months of age do not require a dose at 6 months of age. PRP-T should only be used for the booster dose in children aged 12\u201315 months. 2Two RV vaccines are available for use: (1) RV-1 (Rotarix) monovalent live, oral, human attenuated rotavirus vaccine is approved for a two-dose series, and (2) RV-5 (RotaTeq) pentavalent live, oral, human-bovine reassortant rotavirus vaccine is approved for a three-dose series."
+        },
+        {
+            "id": "InternalMed_Harrison_12165",
+            "title": "InternalMed_Harrison",
+            "content": "to follow booster doses of plain polysaccharide vaccines. The repeating units of these vaccines cross-link B cell receptors to drive specific memory B cells to become plasma cells and produce antibody. Because meningococcal polysaccharides are T cell\u2013independent antigens, no memory B cells are produced after immunization, and the memory B-cell pool is depleted such that fewer polysaccharide-specific cells are available to respond to a subsequent dose of vaccine (Fig. 180-6). The clinical relevance of hyporesponsiveness is unknown. Plain polysaccharide vaccines generally are not immunogenic in early childhood, pos-1001 sibly because marginal-zone B cells are involved in polysaccharide responses and maturation of the splenic marginal zone is not complete until 18 months to 2 years of age. The efficacy of the meningococcal serogroup C component is >90% in young adults; no efficacy data are available for the serogroup Y and W polysaccharides in this age group."
+        },
+        {
+            "id": "InternalMed_Harrison_12164",
+            "title": "InternalMed_Harrison",
+            "content": "Polysaccharide Vaccines Purified meningococcal capsular polysaccharide has been used for immunization since the 1960s. Meningococcal polysaccharide vaccines are currently formulated as either bivalent (serogroups A and C) or quadrivalent (serogroups A, C, Y, and W), with 50 \u03bcg of each polysaccharide per dose. Local reactions (erythema, induration, and tenderness) may occur in up to 40% of vaccinees, but serious adverse events (including febrile convulsions in young children) are very rarely reported. In adults, the vaccines are immunogenic, but immunity appears to be relatively short-lived (with antibody levels above baseline for only 2\u201310 years), and booster doses do not induce a further rise in antibody concentration. Indeed, a state of immunologic hyporesponsiveness has been widely reported to follow booster doses of plain polysaccharide vaccines. The repeating units of these vaccines cross-link B cell receptors to drive specific memory B cells to become plasma cells and produce"
+        },
+        {
+            "id": "InternalMed_Harrison_12170",
+            "title": "InternalMed_Harrison",
+            "content": "of antibody and generation of an expanded B-cell memory pool. Unlike responses to booster doses of plain polysaccharides, responses to booster doses of conjugate vaccines have the characteristics of memory responses. Indeed, conjugate vaccines overcome the hyporesponsiveness induced by plain polysaccharides by replenishing the memory pool. The reactogenicity of conjugate vaccines is similar to that of plain polysaccharide vaccines. The first widespread use of serogroup C meningococcal conjugate vaccine (MenC) came in 1999 in the United Kingdom after a rise in serogroup C disease. A mass vaccination campaign involving all individuals <19 years of age was undertaken, and the number of laboratory-confirmed serogroup C cases fell from 955 in 1998\u20131999 to just 29 in 2011\u20132012. The effectiveness of the immunization program was attributed both to direct protection of immunized persons and to reduced transmission of the organism in the population as a result of decreased rates of colonization"
+        },
+        {
+            "id": "InternalMed_Harrison_10162",
+            "title": "InternalMed_Harrison",
+            "content": "A pneumococcal polysaccharide vaccine (PPV23) and a protein conjugate pneumococcal vaccine (PCV13) are available in the United States. The former product contains capsular material from 23 pneumococcal serotypes; in the latter, capsular polysaccharide from 13 of the most frequent pneumococcal pathogens affecting children is linked to an immunogenic protein. PCV13 produces T cell\u2013dependent antigens that result in long-term immunologic memory. Administration of this vaccine to children has led to an overall decrease in the prevalence of antimicrobial-resistant pneumococci and in the incidence of invasive pneumococcal disease among both children and adults. However, vaccination can be followed by the replacement of vaccine serotypes with nonvaccine serotypes, as was seen with serotypes 19A and 35B after introduction of the original 7-valent conjugate vaccine. PCV13 now is also recommended for the elderly and for younger immunocompromised patients. Because of an increased risk of"
+        },
+        {
+            "id": "InternalMed_Harrison_11655",
+            "title": "InternalMed_Harrison",
+            "content": "Capsular Polysaccharide Vaccines The 23-valent pneumococcal polysaccharide vaccine (PPSV23), containing 25 \u03bcg of each capsular polysaccharide, has been licensed for use since 1983. Recommendations for its use vary by country. The U.S. Advisory Committee on Immunization Practices recommends PPSV23 for all persons \u226565 years of age and for those 2\u201364 years of age who have underlying medical conditions that put them at increased risk for pneumococcal disease or, if infected, disease of increased severity (Table 171-1; see also www.cdc .gov/vaccines/schedules/). The committee recently updated their recommendations to include the combined use of PPSV23 and a conjugate vaccine in at-risk individuals (see \u201cPolysaccharide\u2013Protein Conjugate Vaccines,\u201d below). Revaccination 5 years after the first dose is recommended for persons >2 years of age who have underlying medical conditions but not routinely for those whose only indication is an age of \u226565 years. PPSV23 does not induce an anamnestic"
+        },
+        {
+            "id": "Immunology_Janeway_4281",
+            "title": "Immunology_Janeway",
+            "content": "Brer, M., Dull, P.M., Rappuoli, R., and Costantino, P.: Chemistry of a new investigational quadrivalent meningococcal conjugate vaccine that is immunogenic at all ages. Vaccine 2009, 27:5574\u20135580. Levine, O.S., Knoll, M.D., Jones, A., Walker, D.G., Risko, N., and Gilani, Z.: Global status of Haemophilus influenzae type b and pneumococcal conjugate vaccines: evidence, policies, and introductions. Curr. Opin. Infect. Dis. 2010, 23:236\u2013241. Peltola, H., Kilpi, T., and Anttila, M.: Rapid disappearance of Haemophilus influenzae type b meningitis after routine childhood immunisation with conjugate vaccines. Lancet 1992, 340:592\u2013594. Rappuoli, R.: Conjugates and reverse vaccinology to eliminate bacterial meningitis. Vaccine 2001, 19:2319\u20132322. 16-28 Peptide-based vaccines can elicit protective immunity, but they require adjuvants and must be targeted to the appropriate cells and cell compartment to be effective."
+        },
+        {
+            "id": "Immunology_Janeway_4280",
+            "title": "Immunology_Janeway",
+            "content": "Decker, M.D., and Edwards, K.M.: Acellular pertussis vaccines. Pediatr. Clin. North Am. 2000, 47:309\u2013335. Madsen, K.M., Hviid, A., Vestergaard, M., Schendel, D., Wohlfahrt, J., Thorsen, P., Olsen, J., and Melbye, M.: A population-based study of measles, mumps, and rubella vaccination and autism. N. Engl. J. Med. 2002, 347:1477\u20131482. Mortimer, E.A.: Pertussis vaccines, in Plotkin, S.A., and Mortimer, E.A. (eds): Vaccines, 2nd ed. Philadelphia, W.B. Saunders Co., 1994. Poland, G.A.: Acellular pertussis vaccines: new vaccines for an old disease. Lancet 1996, 347:209\u2013210. 16-27 Conjugate vaccines have been developed as a result of linked recognition between T and B cells. Berry, D.S., Lynn, F., Lee, C.H., Frasch, C.E., and Bash, M.C.: Effect of O acetylation of Neisseria meningitidis serogroup A capsular polysaccharide on development of functional immune responses. Infect. Immun. 2002, 70:3707\u20133713."
+        },
+        {
+            "id": "Pharmacology_Katzung_7337",
+            "title": "Pharmacology_Katzung",
+            "content": "Yellow fever Live virus Subcutaneous One dose 10 years to 10 days Every 10 years 1. Laboratory personnel who may be exposed to yellow fever virus before travel 2. Travelers to areas where yellow fever occurs Zoster Live virus Subcutaneous One dose None All adults \u226560 years of age 1Dosages for the specific product, including variations for age, are best obtained from the manufacturer\u2019s package insert. 2One dose unless otherwise indicated. 3Three Hib conjugate vaccines are available for use: (1) oligosaccharide conjugate Hib vaccine (HbOC), (2) polyribosylribitol phosphate-tetanus toxoid conjugate (PRP-T), and (3) Haemophilus influenzae type b conjugate vaccine (meningococcal protein conjugate) (PRP-OMP)."
+        },
+        {
+            "id": "Pharmacology_Katzung_7333",
+            "title": "Pharmacology_Katzung",
+            "content": "Measles-Live virus Subcutaneous See Table A\u20132 None 1. For all children mumps-rubella 2. Adults born after 1956 (MMR) Meningococcal Bacterial Intramuscular One dose Every 5 years if 1. All adolescents conjugate polysaccharides there is continu-2. Preferred over polysaccharide vaccine in persons aged 11\u201355 years vaccine conjugated to ing high risk of 3. College freshman aged <22 years who live in dormitories 4. 5. Individuals with asplenia or complement deficiency (two-dose series) 6. Microbiologists who are routinely exposed to isolates of Neisseria meningitidis 7. HIV-positive men who have sex with men Meningococcal Bacterial Subcutaneous One dose Every 5 years if 1. Adult travelers >55 years to areas with hyperendemic or epidemic polysaccharide polysaccharides there is continu-meningococcal disease vaccine of serotypes ing high risk of A/C/Y/W-135"
+        },
+        {
+            "id": "Immunology_Janeway_4168",
+            "title": "Immunology_Janeway",
+            "content": "Immunization with such approaches is now considered so safe and so important that most states in the United States require all children to be immunized against several potentially deadly diseases. These include the the viral diseases measles, mumps, and polio, for which live-attenuated vaccines are used, as well as against tetanus (caused by Clostridium tetani), diphtheria (caused by Corynebacterium diphtheriae), and whooping cough (caused by Bordetella pertussis), for which vaccines composed of inactivated toxins or toxoids prepared from the respective bacteria are used. More recently, a vaccine has become available against H. influenzae type b (HiB), one of the causative agents of meningitis, as well as two vaccines for childhood diarrhea caused by rotaviruses, and, as described in Section 16-18, a vaccine for preventing HPV infection for protection against cervical cancer. Most vaccines are given to children within the first year of life. The vaccines against measles, mumps, and"
+        },
+        {
+            "id": "InternalMed_Harrison_11835",
+            "title": "InternalMed_Harrison",
+            "content": "Treatment of all pregnant women who are colonized or have risk factors for neonatal infection will result in exposure of up to one-third of pregnant women and newborns to antibiotics, with the attendant risks of allergic reactions and selection for resistant organisms. Although still in the developmental stages, a GBS vaccine may ultimately offer a better solution to prevention. Because transplacental passage of maternal antibodies produces protective antibody levels in newborns, efforts are under way to develop a vaccine against GBS that can be given to childbearing-age women before or during pregnancy. Results of phase 1 clinical trials of GBS capsular polysaccharide\u2013protein conjugate vaccines suggest that a multivalent conjugate vaccine would be safe and highly immunogenic."
+        }
+    ],
+    "scores": [
+        0.039120502569960025,
+        0.03832365995220212,
+        0.037886026478638535,
+        0.03707148849634845,
+        0.03640277583298668,
+        0.035519757905277706,
+        0.03484791761520378,
+        0.034319987402192206,
+        0.0334666795193111,
+        0.03233364322834804,
+        0.032042030357070754,
+        0.03121777226251972,
+        0.031125036221385106,
+        0.028289303289303288,
+        0.028223658806141062,
+        0.028152834310230475,
+        0.027200590404156823,
+        0.026385191757862567,
+        0.026098799873670912,
+        0.02586174179001183,
+        0.025816908721874057,
+        0.025431462976454815,
+        0.025301659125188537,
+        0.024732002950898422,
+        0.02436868686868687,
+        0.02427953335885244,
+        0.024105110697289468,
+        0.023667109941619746,
+        0.02364117364117364,
+        0.023128529501250397,
+        0.02293377149605008,
+        0.02236888514260777
+    ]
+}

@@ -9,7 +9,6 @@ import torch, gc
 import time
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
-start_time = time.time()
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--config", type=str, help="Path to config JSON file")
@@ -103,12 +102,20 @@ print(f"Results will be saved to {save_dir}\n")
 existing_files = set(os.listdir(save_dir))
 print(f"Found {len(existing_files)} existing files in {save_dir}\n")
 
+start_time = time.time()
+last_time = start_time
+
 # Generate answer using retrieval
 for idx, qa in enumerate(qa_list):
     if idx % 5 == 0:
         print(f"Processing question {idx + 1}/{len(qa_list)} ...")
 
-        elapsed = time.time() - start_time
+        this_time = time.time()
+        loop_time = this_time - last_time
+        last_time = this_time
+        print(f"Time elapsed: {int(loop_time // 60)}m {int(loop_time % 60)}s")
+
+        elapsed = this_time - start_time
         avg_time = elapsed / (idx + 1)
         remaining = (len(qa_list) - (idx + 1)) * avg_time
         print(f"ETA: {int(remaining // 60)}m {int(remaining % 60)}s remaining")

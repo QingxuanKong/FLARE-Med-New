@@ -1,0 +1,208 @@
+{
+    "id": "0674",
+    "question": "An experimental new drug in the treatment of diabetes mellitus type 2 was found to increase the levels of incretins by preventing their degradation at the endothelium. This further increased glucose-dependent insulin production. Which of the following drugs has a mechanism of action most similar to this new experimental drug?",
+    "options": {
+        "A": "Sitagliptin",
+        "B": "Glimepiride",
+        "C": "Canagliflozin",
+        "D": "Pioglitazone"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To solve this question, we need to understand the mechanism of action of the new experimental drug and the drugs listed in the options. The new experimental drug prevents the degradation of incretins at the endothelium, which increases glucose-dependent insulin production. This is similar to the mechanism of DPP-4 inhibitors, which also prevent the degradation of incretins (GLP-1 and GIP) at the endothelium. DPP-4 inhibitors are used to treat type 2 diabetes and work by inhibiting the enzyme dipeptidyl peptidase-4 (DPP-4), which breaks down GLP-1 and GIP. By inhibiting DPP-4, these drugs increase the levels of active incretins in the body, which in turn stimulates glucose-dependent insulin secretion. Therefore, the mechanism of action of the new experimental drug is most similar to that of DPP-4 inhibitors. The other options do not have a similar mechanism of action. Sitagliptin is a DPP-4 inhibitor, but it is not the only one. Glimepiride is a sulfonylurea, which stimulates insulin secretion by closing ATP-dependent potassium channels in the pancreatic beta cells. Canagliflozin is an SGLT2 inhibitor, which increases glucose excretion in the urine. Pioglitazone is a thiazolidinedione, which increases insulin sensitivity in peripheral tissues. \", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_4687",
+            "title": "Pharmacology_Katzung",
+            "content": "Hypertrophy of subcutaneous fatty tissue remains a problem if injected repeatedly at the same site. However, this may be corrected by avoiding the specific injection site. Several categories of glucose-lowering agents are available for patients with type 2 diabetes: (1) agents that bind to the sulfonylurea receptor and stimulate insulin secretion (sulfonylureas, meglitinides, d-phenylalanine derivatives); (2) agents that lower glucose levels by their actions on liver, muscle, and adipose tissue (biguanides, thiazolidinediones); (3) agents that principally slow the intestinal absorption of glucose (\u03b1-glucosidase inhibitors); agents that mimic incretin effect or prolong incretin action (GLP-1 receptor agonists, dipeptidyl peptidase 4 [DPP-4] inhibitors), (5) agents that inhibit the reabsorption of glucose in the kidney (sodium-glucose co-transporter inhibitors [SGLTs]), and agents that act by other or ill-defined mechanisms (pramlintide, bromocriptine, colesevelam)."
+        },
+        {
+            "id": "Pharmacology_Katzung_4722",
+            "title": "Pharmacology_Katzung",
+            "content": "An oral glucose load provokes a higher insulin response compared with an equivalent dose of glucose given intravenously. This is because the oral glucose causes a release of gut hormones (\u201cincretins\u201d), principally GLP-1 and glucose-dependent insulinotropic peptide (GIP), that amplify the glucose-induced insulin secretion. When GLP-1 is infused in patients with type 2 diabetes, it stimulates insulin release and lowers glucose levels. The GLP-1 effect is glucose dependent in that the insulin release is more pronounced when glucose levels are elevated but less so when glucose levels are normal. For this reason, GLP-1 has a lower risk for hypoglycemia than the sulfonylureas. In addition to its insulin stimulatory effect, GLP-1 has a number of other biologic effects. It suppresses glucagon secretion, delays gastric emptying, and reduces apoptosis of human islets in culture. In animals, GLP-1 inhibits feeding by a central nervous system mechanism. Type 2 diabetes patients on GLP-1 therapy"
+        },
+        {
+            "id": "Pharmacology_Katzung_4654",
+            "title": "Pharmacology_Katzung",
+            "content": "Type 2 diabetes is a heterogenous group of conditions characterized by tissue resistance to the action of insulin combined with a relative deficiency in insulin secretion. A given individual may have more resistance or more beta-cell deficiency, and the abnormalities may be mild or severe. Although the circulating endogenous insulin is sufficient to prevent ketoacidosis, it is inadequate to prevent hyperglycemia. Patients with type 2 diabetes can initially be controlled with diet, exercise and oral glucose lowering agents or non-insulin injectables. Some patients have progressive beta cell failure and eventually may also need insulin therapy. Other Specific Types of Diabetes Mellitus The \u201cother\u201d designation refers to multiple other specific causes of an elevated blood glucose: pancreatectomy, pancreatitis, non-pancreatic diseases, drug therapy, etc. For a detailed list the reader is referred to the reference Expert Committee, 2003."
+        },
+        {
+            "id": "InternalMed_Harrison_27928",
+            "title": "InternalMed_Harrison",
+            "content": "Treatment with insulin becomes necessary as type 2 DM enters the phase of relative insulin deficiency (as seen in long-standing DM) and is signaled by inadequate glycemic control with one or two oral glucose-lowering agents. Insulin alone or in combination should be used in patients who fail to reach the glycemic target. For example, a single dose of long-acting insulin at bedtime is often effective in combination with metformin. In contrast, insulin secretagogues have little utility once insulin therapy is started. Experience using incretin therapies and insulin is limited. As endogenous insulin production falls further, multiple injections of long-acting and short-acting insulin regimens are necessary to control postprandial glucose excursions. These insulin regimens are identical to the long-acting and short-acting combination regimens discussed above for type 1 DM. Because the hyperglycemia of type 2 DM tends to be more \u201cstable,\u201d these regimens can be increased in 10% increments"
+        },
+        {
+            "id": "InternalMed_Harrison_27903",
+            "title": "InternalMed_Harrison",
+            "content": "insulin secreTagogues\u2014agenTs THaT enHance glP-1 recePTor signaling peptidase IV [DPP-IV]). Thus, exenatide has prolonged GLP-1-like \u201cIncretins\u201d amplify glucose-stimulated insulin secretion (Chap. 417). action and binds to GLP-1 receptors found in islets, the gastrointesti-Agents that either act as a GLP-1 receptor agonist or enhance endog-nal tract, and the brain. Liraglutide, another GLP-1 receptor agonist, enous GLP-1 activity are approved for the treatment of type 2 DM is almost identical to native GLP-1 except for an amino acid substitu(Table 418-5). Agents in this class do not cause hypoglycemia because tion and addition of a fatty acyl group (coupled with a \u03b3-glutamic acid of the glucose-dependent nature of incretin-stimulated insulin secre-spacer) that promote binding to albumin and plasma proteins and protion (unless there is concomitant use of an agent that can lead to long its half-life. GLP-1 receptor agonists increase glucose-stimulated hypoglycemia\u2014sulfonylureas, etc.)."
+        },
+        {
+            "id": "Pathology_Robbins_4600",
+            "title": "Pathology_Robbins",
+            "content": "The most important stimulus that triggers insulin release from pancreatic beta cells is glucose itself. Oral intake of food leads to secretion of multiple hormones, notably the incretins produced by cells in the intestines. These hormones stimulate insulin secretion from beta cells, and also reduce glucagon secretion and delay gastric emptying, which promotes satiety. The incretin effect is significantly blunted in patients with type 2 diabetes, and restoring incretin function can lead to improved glycemic control and loss of weight (through restoration of satiety). These observations have resulted in the development of new classes of drugs for patients with type 2 diabetes that mimic incretins or enhance the levels of endogenous incretins through delaying their degradation."
+        },
+        {
+            "id": "Pharmacology_Katzung_4645",
+            "title": "Pharmacology_Katzung",
+            "content": "GLUT 1 All tissues, especially red cells, brain 1\u20132 GLUT 2 Beta cells of pancreas; liver, kidney; gut 15\u201320 GLUT 3 Brain, placenta <1 GLUT 4 Muscle, adipose ~5 GLUT 5 Gut, kidney 1\u20132 FIGURE 41\u20134 Insulin promotes synthesis (from circulating nutrients) and storage of glycogen, triglycerides, and protein in its major target tissues: liver, fat, and muscle. The release of insulin from the pancreas is stimulated by increased blood glucose, incretins, vagal nerve stimulation, and other factors (see text). Glucagon is extensively degraded in the liver and kidney as well as in plasma and at its tissue receptor sites. Its half-life in plasma is between 3 and 6 minutes, which is similar to that of insulin. Pharmacologic Effects of Glucagon A. Metabolic Effects"
+        },
+        {
+            "id": "Pharmacology_Katzung_4780",
+            "title": "Pharmacology_Katzung",
+            "content": "Andrianesis V, Doupis J: The role of kidney in glucose homeostasis\u2014SGLT2 inhibitors, a new approach in diabetes treatment. Expert Rev Clin Pharmacol 2013;6:519. Bennett WL et al: Comparative effectiveness and safety of medications for type 2 diabetes: An update including new drugs and 2-drug combinations. Ann Intern Med 2011;154:602. Erratum in: Ann Intern Med 2011;155:67. Butler PC et al: A critical analysis of the clinical use of incretin-based therapies: Are the GLP-1 therapies safe? Diabetes Care 2013;36:2118. Diabetes Prevention Program Research Group: Reduction in the incidence of type 2 diabetes with lifestyle intervention or metformin. N Engl J Med 2002;346:393. Expert Committee on the Diagnosis and Classification of Diabetes Mellitus: Report of the Expert Committee on the Diagnosis and Classification of Diabetes Mellitus. Diabetes Care 2003;26(Suppl 1):S5. Gaede P et al: Effect of a multifactorial intervention on mortality in type 2 diabetes. N Engl J Med 2008;358:580."
+        },
+        {
+            "id": "Physiology_Levy_3890",
+            "title": "Physiology_Levy",
+            "content": "4. The endocrine pancreas produces the hormones insulin, glucagon, somatostatin, gastrin, and pancreatic polypeptide. 5. Insulin is an anabolic hormone that is secreted in times of excess nutrient availability. It allows the body to use carbohydrates as energy sources and store nutrients. 6. Major stimuli for insulin secretion include increased serum glucose and some AAs. Activation of cholinergic (muscarinic) receptors also increases insulin secretion, whereas activation of \u03b12-adrenergic receptors inhibits insulin secretion. The gastrointestinal tract releases incretin hormones that stimulate pancreatic insulin secretion. GLP-1 is particularly potent in augmenting glucose-dependent stimulation of insulin secretion (GSIS). GLP-1 is degraded by dipeptidyl peptidase (DPP)-4. DPP-4\u2013 resistant GLP-1 analogues and inhibitors of DPP-4 are currently used to increase GSIS in patients with type 2 diabetes. 7."
+        },
+        {
+            "id": "InternalMed_Harrison_27774",
+            "title": "InternalMed_Harrison",
+            "content": "site for certain oral hypoglycemics (e.g., sulfonylureas, meglitinides); the other is an inwardly rectifying K+ channel protein (Kir6.2). Inhibition of this K+ channel induces beta cell membrane depolarization, which opens voltage-dependent calcium channels (leading to an influx of calcium) and stimulates insulin secretion. Insulin secretory profiles reveal a pulsatile pattern of hormone release, with small secretory bursts occurring about every 10 min, superimposed upon greater amplitude oscillations of about 80\u2013150 min. Incretins are released from neuroendocrine cells of the gastrointestinal tract following food ingestion and amplify glucose-stimulated insulin secretion and suppress glucagon secretion. Glucagon-like peptide 1 (GLP-1), the most potent incretin, is released from L cells in the small intestine and stimulates insulin secretion only when the blood glucose is above the fasting level. Incretin analogues or pharmacologic agents that prolong the activity of endogenous GLP-1"
+        },
+        {
+            "id": "Pharmacology_Katzung_4635",
+            "title": "Pharmacology_Katzung",
+            "content": "One mechanism of stimulated insulin release is diagrammed in Figure 41\u20132. As shown in the figure, hyperglycemia results in increased intracellular ATP levels, which close ATP-dependent potassium channels. Decreased outward potassium efflux results in depolarization of the beta cell and opening of voltage-gated calcium channels. The resulting increased intracellular calcium triggers secretion of the hormone. The insulin secretagogue drug group (sulfonylureas, meglitinides, and d-phenylalanine) exploits parts of this mechanism."
+        },
+        {
+            "id": "Pharmacology_Katzung_4705",
+            "title": "Pharmacology_Katzung",
+            "content": "Biguanides are recommended as first-line therapy for type 2 diabetes. Because metformin is an insulin-sparing agent and does not increase body weight or provoke hypoglycemia, it offers obvious advantages over insulin or sulfonylureas in treating hyperglycemia in such persons. The UKPDS reported that metformin therapy decreases the risk of macrovascular as well as microvascular disease; this is in contrast to the other therapies, which only modified microvascular morbidity. Biguanides are also indicated for use in combination with insulin secretagogues or thiazolidinediones in type 2 diabetics in whom oral monotherapy is inadequate. Metformin is useful in the prevention of type 2 diabetes; the landmark Diabetes Prevention Program concluded that metformin is efficacious in preventing the new onset of type 2 diabetes in middle-aged, obese persons with impaired glucose tolerance and fasting hyperglycemia. It is interesting that metformin did not prevent diabetes in older, leaner"
+        },
+        {
+            "id": "Neurology_Adams_10568",
+            "title": "Neurology_Adams",
+            "content": "Treatment The only preventive treatment for diabetic neuropathy is the maintenance of blood glucose concentration at close to normal range. The prevailing view, derived from long-term human studies, is that there is a relationship between peripheral nerve damage and inadequate regulation of the diabetes. This is supported by the findings of the National Diabetic Complications Trial, in which 715 patients with type 1 diabetes were followed for 6 to 10 years. There was a relation between strict glucose control by means of an intravenous insulin infusion system and a reduction or delay in the occurrence of painful neuropathic symptoms, retinopathy, and nephropathy. However, this came at the price of a threefold increase in hypoglycemic reactions (see also Samanta and Burden). Whether similar protective effects of glucose control apply to type 2 diabetes is not known, but for most patients rigid control is impractical. A number of small trials have been conducted with aldose reductase"
+        },
+        {
+            "id": "Gynecology_Novak_903",
+            "title": "Gynecology_Novak",
+            "content": "Oral Hypoglycemic Agents Oral hypoglycemic agents are recommended for many type 2 diabetic patients. The first oral hypoglycemic agents introduced were first-and second-generation sulfonylureas. Other classes of drugs that have different effects in patients with type 2 diabetes\u2014such as biguanides, thiazolidinediones, alpha-glucosidase inhibitors, and insulin secretagogues\u2014were introduced. The mode of action of sulfonylureas is based on two different mechanisms: (i) enhanced insulin secretion from the pancreas, and (ii) an extrapancreatic effect that is poorly understood. Endogenous insulin secretion (as measured by C-peptide) is necessary for oral hypoglycemic agents to work. If the fasting blood glucose on an adequate diabetic diet is greater than 250 mg/dL, there is little effect. Frequent evaluation to monitor control (every 3 to 4 months) is important. If glucose levels cannot be controlled with oral hypoglycemic agents (i.e., sulfonylureas) or other"
+        },
+        {
+            "id": "Pharmacology_Katzung_4737",
+            "title": "Pharmacology_Katzung",
+            "content": "Glucose is freely filtered by the renal glomeruli and is reabsorbed in the proximal tubules by the action of sodium-glucose transporters (SGLTs). Sodium-glucose transporter 2 (SGLT2) accounts for 90% of glucose reabsorption, and its inhibition causes glycosuria and lowers glucose levels in patients with type 2 diabetes. SGLT2 inhibitors lower glucose levels by changing the renal threshold and not by insulin action. The SGLT2 inhibitors canagliflozin, dapagliflozin, and empagliflozin, all oral medications, are approved for clinical use. Canagliflozin reduces the threshold for glycosuria from a plasma glucose threshold of approximately 180 mg/dL to 70\u201390 mg/dL. It has been shown to reduce HbA1c by 0.6\u20131% when used alone or in combination with other oral agents or insulin. It also results in modest weight loss of 2\u20135 kg. The usual dosage is 100 mg daily. Increasing the dosage to 300 mg daily in patients with normal renal function can lower the HbA1c by an additional 0.5%."
+        },
+        {
+            "id": "InternalMed_Harrison_27894",
+            "title": "InternalMed_Harrison",
+            "content": "Glucose-Lowering Agents Advances in the therapy of type 2 DM have generated oral glucose-lowering agents that target different pathophysiologic processes in type 2 DM. Based on their mechanisms of action, glucose-lowering agents are subdivided into agents that increase insulin secretion, reduce glucose production, increase insulin sensitivity, enhance GLP-1 action, or promote urinary excretion of glucose (Table 418-5). Glucose-lowering agents other than insulin (with the exception of amylin analogue and \u03b1-glucosidase inhibitors) are ineffective in type 1 DM and should not be used for glucose management of severely ill individuals with type 2 DM. Insulin is sometimes the initial glucose-lowering agent in type 2 DM. BiGuanideS Metformin, representative of this class of agents, reduces hepatic glucose production and improves peripheral glucose utilization slightly (Table 418-5). Metformin activates AMP-dependent protein kinase and enters cells through organic cation transporters"
+        },
+        {
+            "id": "Pharmacology_Katzung_4783",
+            "title": "Pharmacology_Katzung",
+            "content": "Nwose OM, Jones MR: Atypical mechanism of glucose modulation by colesevelam in patients with type 2 diabetes. Clin Med Insights Endocrinol Diabetes 2013;6:75. Ratner RE et al: Amylin replacement with pramlintide as an adjunct to insulin therapy improves long term glycemic and weight control in type 1 diabetes mellitus: A 1-year randomized controlled trial. Diabetic Med 2004; 21:1204. Reitman ML et al: Pharmacogenetics of metformin response: A step in the path toward personalized medicine. J Clin Invest 2007;117:1226. Rizzo M et al: Non-glycemic effects of pioglitazone and incretin-based therapies. Expert Opin Ther Targets 2013;17:739. Rosenstock J, Ferrannini E: Euglycemic diabetic ketoacidosis: A predictable, detectable, and preventable safety concern with SGLT2 inhibitors. Diabetes Care 2015;38:1638. Standl E, Schnell O: Alpha-glucosidase inhibitors 2012\u2014cardiovascular considerations and trial evaluation. Diab Vasc Dis Res 2012;9:163."
+        },
+        {
+            "id": "Pharmacology_Katzung_4688",
+            "title": "Pharmacology_Katzung",
+            "content": "Mechanism of Action The major action of sulfonylureas is to increase insulin release from the pancreas (Table 41\u20137). They bind to a 140-kDa high-affinity sulfonylurea receptor that is associated with a beta-cell inward rectifier ATP-sensitive potassium channel (Figure 41\u20132). Binding of a sulfonylurea inhibits the efflux of potassium ions through the channel and results in depolarization. Depolarization opens a voltage-gated calcium channel and results in calcium influx and the release of preformed insulin. TABLE 41\u20137 Regulation of insulin release in humans. Stimulants of insulin release Humoral: Glucose, mannose, leucine, arginine, other amino acids, fatty acids (high concentrations) Hormonal: Glucagon, glucagon-like peptide 1 (7\u201337), glucose-dependent insulinotropic polypeptide, cholecystokinin, gastrin Neural: \u03b2-Adrenergic stimulation, vagal stimulation Drugs: Sulfonylureas, meglitinide, nateglinide, isoproterenol, acetylcholine Inhibitors of insulin release"
+        },
+        {
+            "id": "Pharmacology_Katzung_4647",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 41\u20133 Endocrine effects of insulin. Effect on liver: Reversal of catabolic features of insulin deficiency Inhibits conversion of fatty acids and amino acids to keto acids Inhibits conversion of amino acids to glucose Promotes glucose storage as glycogen (induces glucokinase and glycogen synthase, inhibits phosphorylase) Effect on muscle: Effect on adipose tissue: Lipoprotein lipase is induced and activated by insulin to hydrolyze triglycerides from lipoproteins Glucose transport into cell provides glycerol phosphate to permit esterification of fatty acids supplied by lipoprotein transport Intracellular lipase is inhibited by insulin B. Cardiac Effects Glucagon has a potent inotropic and chronotropic effect on the heart, mediated by the cAMP mechanism described above. Thus, it produces an effect very similar to that of \u03b2-adrenoceptor agonists without requiring functioning \u03b2 receptors. C. Effects on Smooth Muscle"
+        },
+        {
+            "id": "Pharmacology_Katzung_4653",
+            "title": "Pharmacology_Katzung",
+            "content": "and initially retain enough beta cell function to avoid ketosis. They can be treated at first with oral hypoglycemic agents but then need insulin as their beta cell function declines. Antibody studies in northern Europeans indicate that up to 10\u201315% of \u201ctype 2\u201d patients may actually have this milder form of type 1 diabetes (latent autoimmune diabetes of adulthood; LADA)."
+        },
+        {
+            "id": "InternalMed_Harrison_27906",
+            "title": "InternalMed_Harrison",
+            "content": "DPP-IV inhibitors inhibit degradation of native GLP-1 and thus enhance the incretin effect. DPP-IV, which is widely expressed on the cell surface of endothelial cells and some lymphocytes, degrades a wide range of peptides (not GLP-1 specific). DPP-IV inhibitors promote insulin secretion in the absence of hypoglycemia or weight gain and appear to have a preferential effect on postprandial blood glucose. The levels of GLP-1 action in the patient are greater with the GLP-1 receptor agonists than with DPP-IV inhibitors. DPP-IV inhibitors are used either alone or in combination with other oral agents in type 2 DM. Reduced doses should be given to patients with renal insufficiency. Initial concerns about the pancreatic side effects of GLP-1 receptor agonists and DPP-IV inhibitors (pancreatitis, possible premalignant lesions) appear to be unfounded."
+        },
+        {
+            "id": "Pharmacology_Katzung_957",
+            "title": "Pharmacology_Katzung",
+            "content": "Glucagon is the primary hormone used to combat hypoglycemia; it is unclear to what extent \u03b2 antagonists impair recovery from hypoglycemia, but they should be used with caution in insulin-dependent diabetic patients. This may be particularly important in diabetic patients with inadequate glucagon reserve and in pancreatectomized patients since catecholamines may be the major factors in stimulating glucose release from the liver in response to hypoglycemia. Beta1-receptor\u2013selective drugs may be less prone to inhibit recovery from hypoglycemia. Beta-receptor antagonists are much safer in those type 2 diabetic patients who do not have hypoglycemic episodes."
+        },
+        {
+            "id": "InternalMed_Harrison_27898",
+            "title": "InternalMed_Harrison",
+            "content": "inSulin SecretaGoGueS\u2014aGentS tHat affect tHe atp-SenSitive K+ cHannel Insulin secretagogues stimulate insulin secretion by interacting with the ATP-sensitive potassium channel on the beta cell (Chap. 417). These drugs are most effective in individuals with type 2 DM of relatively recent onset (<5 years) who have residual endogenous insulin production. First-generation sulfonylureas (chlorpropamide, tolazamide, tolbutamide) have a longer half-life, a greater incidence of hypoglycemia, and more frequent drug interactions, and are no longer used. Second-generation sulfonylureas have a more rapid onset of action and better coverage of the postprandial glucose rise, but the shorter half-life of some agents may require more than once-a-day dosing. Sulfonylureas reduce both fasting and postprandial glucose and should be initiated at low doses and increased at 1to 2-week intervals based on SMBG. In general, sulfonylureas increase insulin acutely and thus should be taken shortly before a meal;"
+        },
+        {
+            "id": "Pharmacology_Katzung_4765",
+            "title": "Pharmacology_Katzung",
+            "content": "When the combination of oral agents and injectable GLP-1 receptor agonists fails to adequately control glucose levels, insulin therapy should be instituted. Various insulin regimens may be effective. Simply adding nighttime intermediateor long-acting insulin to the oral regimen may lead to improved fasting glucose levels and adequate control during the day. If daytime glucose levels are problematic, premixed insulins before breakfast and dinner may help. If such a regimen does not achieve adequate control or leads to unacceptable rates of hypoglycemia, a more intensive basal bolus insulin regimen (long-acting basal insulin) combined with rapid-acting analog before meals can be instituted. Metformin has been shown to be effective when combined with insulin therapy and should be continued. Pioglitazone can be used with insulin, but this combination is associated with more weight gain and peripheral and macular edema. Continuing with sulfonylureas, GLP-1 receptor agonists, DPP-4"
+        },
+        {
+            "id": "Pharmacology_Katzung_966",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 10\u20133 Drugs used in open-angle glaucoma. Drugs Mechanism Methods of Administration \u03b22 receptors are probably important in liver (recovery from hypoglycemia) and blood vessels (vasodilation). Nebivolol is the most highly selective \u03b21-adrenergic receptor blocker, although some of its metabolites do not have this level of specificity. Nebivolol has the additional quality of eliciting vasodilation. This is due to an action of the drug on endothelial nitric oxide production. Nebivolol may increase insulin sensitivity and does not adversely affect lipid profile. Agents of this type are sometimes referred to as third-generation \u03b2-blocking drugs because they activate nitric oxide synthase. In patients with metabolic syndrome, for an equivalent reduction of blood pressure and heart rate, metoprolol, but not nebivolol, decreased insulin sensitivity and increased oxidative stress."
+        },
+        {
+            "id": "Pathology_Robbins_4615",
+            "title": "Pathology_Robbins",
+            "content": "While insulin resistance by itself can lead to impaired glucose tolerance, beta cell dysfunction is an essential component in the development of overt diabetes. Beta cell function actually increases early in the disease process in most patients with type 2 diabetes, mainly as a compensatory measure to counter insulin resistance and maintain euglycemia. Eventually, however, beta cells are unable to adapt to the long-term demands of peripheral insulin resistance, and the hyperinsulinemic state gives way to a state of relative insulin deficiency. Several mechanisms have been implicated in causing beta cell dysfunction in type 2 diabetes, including the following: Abnormal incretin effect, leading to reduced secretion of hormones that promote insulin release (discussed earlier) Amyloid replacement of islets, present in more than 90% of diabetic islets (see ). It is unclear whether the amyloid is a cause or effect of beta cell \u201cburnout.\u201d"
+        },
+        {
+            "id": "Physiology_Levy_3812",
+            "title": "Physiology_Levy",
+            "content": "Ingested glucose has a greater effect on insulin secretion than injected glucose. This phenomenon, called the incretin effect, is due to stimulation by glucose of incretin hormones from the gastrointestinal tract. One clinically relevant incretin hormone is glucagon-like peptide 1 (GLP-1), which is released by L cells of the ileum in response to glucose in the ileal lumen ( Fig. 39.9 ). As a hormone, GLP-1 enters the circulation and ultimately binds to the Gs-coupled GLP1 receptor (GLP1R) on beta cells. This GLP1R/Gs/adenylyl cyclase/protein kinase A (PKA) signaling pathway amplifies the intracellular effects of Ca++ on insulin secretion. GLP-1 is rapidly degraded in the circulation by dipeptidyl peptidase 4 (DPP-4)."
+        },
+        {
+            "id": "InternalMed_Harrison_27775",
+            "title": "InternalMed_Harrison",
+            "content": "the small intestine and stimulates insulin secretion only when the blood glucose is above the fasting level. Incretin analogues or pharmacologic agents that prolong the activity of endogenous GLP-1 enhance insulin secretion."
+        },
+        {
+            "id": "Pharmacology_Katzung_4706",
+            "title": "Pharmacology_Katzung",
+            "content": "the new onset of type 2 diabetes in middle-aged, obese persons with impaired glucose tolerance and fasting hyperglycemia. It is interesting that metformin did not prevent diabetes in older, leaner prediabetics."
+        },
+        {
+            "id": "InternalMed_Harrison_27921",
+            "title": "InternalMed_Harrison",
+            "content": "Insulin secretagogues, biguanides, \u03b1-glucosidase inhibitors, thiazolidinediones, GLP-1 receptor agonists, DPP-IV inhibitors, SLGT2 inhibitors, and insulin are approved for monotherapy of type 2 DM. Although each class of oral glucose-lowering agents has advantages and disadvantages (Table 418-5), certain generalizations apply: (1) insulin secretagogues, biguanides, GLP-1 receptor agonists, and thiazolidinediones improve glycemic control to a similar degree (1\u20132% reduction in HbA1c) and are more effective than \u03b1-glucosidase inhibitors, DPP-IV inhibitors, and SLGT2 inhibitors; (2) assuming a similar degree of glycemic improvement, no clinical advantage to one class of drugs has been demonstrated; any therapy that improves glycemic control is likely beneficial; (3) insulin secretagogues, GLP-1 receptor agonists, DPP-IV inhibitors, \u03b1-glucosidase inhibitors, and SLGT2 inhibitors begin to lower the plasma glucose immediately, whereas the glucose-lowering effects of the biguanides and"
+        },
+        {
+            "id": "Pharmacology_Katzung_4639",
+            "title": "Pharmacology_Katzung",
+            "content": "FIGURE 41\u20132 One model of control of insulin release from the pancreatic beta cell by glucose and by sulfonylurea drugs. In the resting cell with normal (low) ATP levels, potassium diffuses down its concentration gradient through ATP-gated potassium channels, maintaining the intracellular potential at a fully polarized, negative level. Insulin release is minimal. If glucose concentration rises, ATP production increases, potassium channels close, and depolarization of the cell results. As in muscle and nerve, voltage-gated calcium channels open in response to depolarization, allowing more calcium to enter the cell. Increased intracellular calcium results in increased insulin secretion. Insulin secretagogues close the ATP-dependent potassium channel, thereby depolarizing the membrane and causing increased insulin release by the same mechanism."
+        },
+        {
+            "id": "Pharmacology_Katzung_4754",
+            "title": "Pharmacology_Katzung",
+            "content": "control group compared with the standard control group. The DCCT study, in addition, introduced the concept of glycemic memory, which comprises the long-term benefits of any significant period of glycemic control. During a 6-year follow-up period, both the intensively and conventionally treated groups had similar levels of glycemic control, and both had progression of carotid intimal-medial thickness. However, the intensively treated cohort had significantly less progression of intimal thickness. The United Kingdom Prospective Diabetes Study (UKPDS) was a very large randomized prospective study carried out to study the effects of intensive glycemic control with several types of therapies and the effects of blood pressure control in type 2 diabetic patients. A total of 3867 newly diagnosed type 2 diabetic patients were studied over 10 years. A significant frac-tion of these were overweight and hypertensive. Patients were given dietary treatment alone or intensive therapy with insulin,"
+        }
+    ],
+    "scores": [
+        0.03711832202710526,
+        0.03495362871982825,
+        0.03241643099002495,
+        0.031996662985432835,
+        0.030954283455830008,
+        0.028795820758546444,
+        0.02859907765415538,
+        0.02809966091699838,
+        0.026613374756041894,
+        0.026507351428264617,
+        0.025567124876186797,
+        0.02533633769816526,
+        0.02525127473652286,
+        0.024979638822936905,
+        0.02463784966239493,
+        0.023856024685783093,
+        0.02298554458279662,
+        0.02229132417811663,
+        0.021930394093271095,
+        0.021714639694806297,
+        0.021430761497202352,
+        0.020978972347932175,
+        0.01986477349560514,
+        0.01920875176993425,
+        0.018031189083820662,
+        0.017946241751166908,
+        0.01756503430273287,
+        0.01752123786407767,
+        0.017507645259938837,
+        0.016928571428571428,
+        0.016312997347480106,
+        0.01611875637104995
+    ]
+}

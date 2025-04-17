@@ -1,0 +1,208 @@
+{
+    "id": "0884",
+    "question": "The ribosome is an essential organelle that plays an important role in the synthesis of new proteins. The location of the ribosome within the cell can vary and provides a clue to the function of the particular cell. What ribosome location is essential for protein-secreting cells?",
+    "options": {
+        "A": "Rough endoplasmic reticulum",
+        "B": "Smooth endoplasmic reticulum",
+        "C": "Cytosol",
+        "D": "Nucleus"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of ribosomes in protein synthesis and the different locations where they can be found in a cell. Ribosomes are complex molecular machines that read the genetic code in messenger RNA (mRNA) and assemble amino acids into proteins. There are two main types of ribosomes: free ribosomes, which are found in the cytosol, and ribosomes associated with the endoplasmic reticulum (ER), which is also known as rough ER due to the presence of ribosomes on its surface. Rough ER is involved in the synthesis of proteins that are destined for secretion or incorporation into membranes, while smooth ER is involved in lipid synthesis and storage. In protein-secreting cells, such as those found in the liver or pancreas, the majority of proteins are synthesized on rough ER-bound ribosomes. This is because the rough ER provides a signal recognition particle (SRP) that recognizes signal sequences on the proteins and directs them to the ER membrane for further processing and secretion. On the other hand, cytosolic ribosomes are involved in the synthesis of proteins that are required within the cell or are destined for other organelles such as the nucleus, mitochondria, or peroxisomes. The nucleus is not a site of protein synthesis, but rather a repository of genetic material. Therefore, the location of the ribosome that is essential for protein-secreting cells is the rough endoplasmic reticulum (ER).\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1614",
+            "title": "Cell_Biology_Alberts",
+            "content": "The RNA Message Is Decoded in Ribosomes The synthesis of proteins is guided by information carried by mRNA molecules. To maintain the correct reading frame and to ensure accuracy (about 1 mistake every 10,000 amino acids), protein synthesis is performed in the ribosome, a complex catalytic machine made from more than 50 different proteins (the ribosomal proteins) and several RNA molecules, the ribosomal RNAs (rRNAs). A typical eukaryotic cell contains millions of ribosomes in its cytoplasm (Figure 6\u201360). The large and small ribosome subunits are assembled at the nucleolus, where newly transcribed and modified rRNAs associate with the ribosomal proteins that have been transported into the nucleus after their synthesis in the cytoplasm. These two ribosomal subunits are then exported to the cytoplasm, where they join together to synthesize proteins."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1580",
+            "title": "Biochemistry_Lippinco",
+            "content": "Cellular location: In eukaryotic cells, the ribosomes either are free in the cytosol or are in close association with the endoplasmic reticulum (which is then known as the rough endoplasmic reticulum, or RER). RER-associated ribosomes are responsible for synthesizing proteins (including glycoproteins; see p. 166) that are to be exported from the cell, incorporated into membranes, or imported into lysosomes (see p. 169 for an overview of the latter process). Cytosolic ribosomes synthesize proteins required in the cytosol itself or destined for the nucleus, mitochondria, or peroxisomes. [Note: Mitochondria contain their own ribosomes (55S) and their own unique, circular DNA. Most mitochondrial proteins, however, are encoded by nuclear DNA, synthesized completely in the cytosol, and then targeted to mitochondria.] F. Protein factors"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4034",
+            "title": "Cell_Biology_Alberts",
+            "content": "The ribosomes of chloroplasts closely resemble bacterial ribosomes, while the origin of mitochondrial ribosomes is more difficult to trace. Extensive protein similarities, however, suggest that both organelles originated when a primitive eukaryotic cell entered into a stable endosymbiotic relationship with a bacterium. Although some of the genes of these former bacteria still function to make organelle proteins and RNA, most of them have been transferred into the nuclear genome, where they encode bacteria-like enzymes that are synthesized on cytosolic ribosomes and then imported into the organelle. The mitochondrial DNA replication and DNA repair processes are substantially less effective than the corresponding processes in the cell nucleus. Damage therefore accumulates in the genome of mitochondria over time; this damage may be a substantial contributor to the aging of cells and organisms, and it can cause serious diseases. Which statements are true? Explain why or why not."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1564",
+            "title": "Cell_Biology_Alberts",
+            "content": "M phase, when the chromosomes condense, the nucleolus fragments and then disappears. Then, in the telophase part of mitosis, as chromosomes return to their semi-dispersed state, the tips of the 10 chromosomes reform small nucleoli, which progressively coalesce into a single nucleolus (Figure 6\u201343 and Figure 6\u201344). As might be expected, the size of the nucleolus reflects the number of ribosomes that the cell is producing. Its size therefore varies greatly in different cells and can change in a single cell, occupying 25% of the total nuclear volume in cells that are making unusually large amounts of protein. Ribosome assembly is a complex process, the most important features of which are outlined in Figure 6\u201345. In addition to its central role in ribosome biogenesis, the nucleolus is the site where other noncoding RNAs are produced and other"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1553",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because multiple rounds of translation of each mRNA molecule can provide an enormous amplification in the production of protein molecules, many of the proteins that are very abundant in a cell can be synthesized from genes that are present in a single copy per haploid genome (see Figure 6\u20133). In contrast, the RNA components of the ribosome are final gene products, and a growing mammalian cell must synthesize approximately 10 million copies of each type of ribosomal RNA in each cell generation to construct its 10 million ribosomes. The cell can produce adequate quantities of ribosomal RNAs only because it contains multiple copies of the rRNA genes that code for ribosomal RNAs (rRNAs). Even E. coli needs seven copies of its rRNA genes to meet the cell\u2019s need for ribosomes. Human cells contain about 200 rRNA gene copies per haploid genome, spread Figure 6\u201338 Schematic illustration of an export-ready mRNA molecule and its transport through the nuclear pore."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2005",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once a newly made eukaryotic mRNA molecule has passed through a nuclear pore and entered the cytosol, it is typically met by ribosomes, which translate it into a polypeptide chain (see Figure 6\u20138). Once the first round of translation \u201cpasses\u201d the nonsense-mediated decay test (see Figure 6\u201376), the mRNA is usually translated in earnest. If the mRNA encodes a protein that is destined to be secreted or expressed on the cell surface, a signal sequence at the protein\u2019s N-terminus will direct it to the endoplasmic reticulum (ER). In this case, as discussed in Chapter 12, components of the cell\u2019s protein-sorting apparatus recognize the signal sequence as soon as it emerges from the ribosome and direct the entire complex of ribosome, mRNA, and nascent protein to the membrane of the ER, where the remainder of the polypeptide chain is synthesized. In other cases, free ribosomes in the cytosol synthesize the entire protein, and signals in the completed polypeptide chain may then direct the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3167",
+            "title": "Cell_Biology_Alberts",
+            "content": "About half the total area of membrane in a eukaryotic cell encloses the labyrinthine spaces of the endoplasmic reticulum (ER). The rough ER has many ribosomes bound to its cytosolic surface. Ribosomes are organelles that are not membrane-enclosed; they synthesize both soluble and integral membrane proteins, most of which are destined either for secretion to the cell exterior or for other organelles. We shall see that, whereas proteins are transported into other membrane-enclosed organelles only after their synthesis is complete, they are transported into the ER as they are synthesized. This explains why the ER membrane is unique in having ribosomes tethered to it. The ER also produces most of the lipid for the rest of the cell and functions as a store for Ca2+ ions. Regions of the ER that lack bound ribosomes are called smooth ER. The ER sends many of its proteins and lipids to the Golgi apparatus, which often consists of organized stacks of disc-like compartments called Golgi"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1661",
+            "title": "Cell_Biology_Alberts",
+            "content": "The synthesis of most protein molecules takes between 20 seconds and several minutes. During this very short period, however, it is usual for multiple initiations to take place on each mRNA molecule being translated. As soon as the preceding ribosome has translated enough of the nucleotide sequence to move out of the way, the 5\u02b9 end of the mRNA is threaded into a new ribosome. The mRNA molecules being translated are therefore usually found in the form of polyribosomes (or polysomes): large cytoplasmic assemblies made up of several ribosomes spaced as close as 80 nucleotides apart along a single mRNA molecule (Figure 6\u201373). These multiple initiations allow the cell to make many more protein molecules in a given time than would be possible if each protein had to be completed before the next could start."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3418",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why does the signal-recognition particle have an indispensable rna subunit? Which statements are true? Explain why or why not. 12\u20131 Like the lumen of the ER, the interior of the nucleus is topologically equivalent to the outside of the cell. 12\u20132 ER-bound and free ribosomes, which are structurally and functionally identical, differ only in the proteins they happen to be making at a particular time. 12\u20133 To avoid the inevitable collisions that would occur if two-way traffic through a single pore were allowed, nuclear pore complexes are specialized so that some mediate import while others mediate export. 12\u20134 Peroxisomes are found in only a few specialized types of eukaryotic cell. Discuss the following problems. 12\u20135 What is the fate of a protein with no sorting signal?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_964",
+            "title": "Cell_Biology_Alberts",
+            "content": "Networks of macromolecules Form a Set of Distinct biochemical Environments inside the Nucleus In Chapter 6, we shall describe the function of a variety of subcompartments that are present within the nucleus. The largest and most obvious of these is the nucleolus, a structure well known to microscopists even in the nineteenth century (see Figure 4\u20139). The nucleolus is the cell\u2019s site of ribosome subunit formation, as well as the place where many other specialized reactions occur (see Figure 6\u201342): it consists of a network of RNAs and proteins concentrated around ribosomal RNA genes that are being actively transcribed. In eukaryotes, the genome contains multiple copies of the ribosomal RNA genes, and although they are typically clustered together in a single nucleolus, they are often located on several separate chromosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1664",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201372 The final phase of protein synthesis. The binding of a release factor to an A site bearing a stop codon terminates translation. The completed polypeptide is released and, in a series of reactions that requires additional proteins and GTP hydrolysis (not shown), the ribosome dissociates into its two separate subunits. messenger RNA Figure 6\u201373 A polyribosome. (A) Schematic drawing showing how a series of ribosomes can simultaneously translate the same eukaryotic mRNA molecule. (B) Electron micrograph of a polyribosome from a eukaryotic cell (Movie 6.10). (B, courtesy of John Heuser.) cytosol of the cell it is translated as isoleucine (see Table 14\u20133, p. 805). This type of deviation in the genetic code is \u201chardwired\u201d into the organisms or the organelles in which it occurs."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1578",
+            "title": "Biochemistry_Lippinco",
+            "content": "The small ribosomal subunit binds mRNA and determines the accuracy of translation by insuring correct base-pairing between the mRNA codon and the tRNA anticodon. The large ribosomal subunit catalyzes formation of the peptide bonds that link amino acid residues in a protein. 1. Ribosomal RNA: As discussed on p. 434, prokaryotic ribosomes contain three size species of rRNA, whereas eukaryotic ribosomes contain four (see Fig. 32.8). The rRNA are generated from a single pre-rRNA by the action of ribonucleases, and some bases and riboses are modified. 2. Ribosomal proteins: Ribosomal proteins are present in greater numbers in eukaryotic ribosomes than in prokaryotic ribosomes. These proteins play a variety of roles in the structure and function of the ribosome and its interactions with other components of the translation system. 3."
+        },
+        {
+            "id": "Histology_Ross_249",
+            "title": "Histology_Ross",
+            "content": "polysome. A polysome attached to the cytoplasmic surface of the rER can translate a single mRNA molecule and simultaneously produce many copies of a particular protein. In contrast, free ribosomes reside within the cytoplasm. They are not associated with any intracellular membranes and are structurally and functionally identical to polysomes of the rER. The differences between the structure of prokaryotic (bacterial) and eukaryotic ribosomes were exploited by researchers, who discovered chemical compounds (antibiotics) that bind to bacterial ribosomes, thereby destroying a bacterial infection without harming the cells of the infected individual. Several types of antibiotics, such as aminoglycosides (streptomycin), macrolides (erythromycin), lincosamides (clindamycin), tetracyclines, and chloramphenicol inhibit protein synthesis by binding to different portions of bacterial ribosomes. Signal peptides direct the post-translational transport of a protein."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1569",
+            "title": "Cell_Biology_Alberts",
+            "content": "Scientists have had difficulties in working out the function of these small sub-nuclear structures, in part because their appearances can change dramatically as cells traverse the cell cycle or respond to changes in their environment. Moreover, Figure 6\u201345 The function of the nucleolus in ribosome and other ribonucleoprotein synthesis. The 45S precursor rRNA is packaged in a large ribonucleoprotein particle containing many ribosomal proteins imported from the cytoplasm. While this particle remains at the nucleolus, selected components are added and others discarded as it is processed into immature large and small ribosomal subunits. The two ribosomal subunits attain their final functional form only after each is individually transported through the nuclear pores into the cytoplasm. Other ribonucleoprotein complexes, including telomerase shown here, are also assembled in the nucleolus."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3180",
+            "title": "Cell_Biology_Alberts",
+            "content": "The synthesis of all proteins begins on ribosomes in the cytosol, except for the few that are synthesized on the ribosomes of mitochondria and plastids. Their subsequent fate depends on their amino acid sequence, which can contain sorting signals that direct their delivery to locations outside the cytosol or to organelle surfaces. Some proteins do not have a sorting signal and consequently remain in the cytosol as permanent residents. Many others, however, have specific sorting signals that direct their transport from the cytosol into the nucleus, the ER, mitochondria, plastids, or peroxisomes; sorting signals can also direct the transport of proteins from the ER to other destinations in the cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2023",
+            "title": "Cell_Biology_Alberts",
+            "content": "We saw in Chapter 6 that eukaryotic translation typically begins at the first AUG downstream of the 5\u02b9end of the mRNA, which is the first AUG encountered by a scanning small ribosomal subunit. But the nucleotides immediately surrounding the AUG also influence the efficiency of translation initiation. If the recognition site is poor enough, scanning ribosomal subunits will sometimes ignore the first AUG codon in the mRNA and skip to the second or third AUG codon instead. This phenomenon, known as \u201cleaky scanning,\u201d is a strategy frequently used to produce two or more closely related proteins, differing only in their N-termini, from the same mRNA. A particularly important use of this mechanism is the production of the same protein with and without a signal sequence attached at its N-terminus. This allows the protein to be directed to two different locations in the cell (for example, to both mitochondria and the cytosol). Cells can regulate the relative abundance of the protein isoforms"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1722",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eukaryotic and bacterial ribosomes are closely related, despite differences in the number and size of their rRNA and protein components. The rRNA has the dominant role in translation, determining the overall structure of the ribosome, forming the binding sites for the tRNAs, matching the tRNAs to codons in the mRNA, and creating the active site of the peptidyl transferase enzyme that links amino acids together during translation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3785",
+            "title": "Cell_Biology_Alberts",
+            "content": "The matrix contains the genetic system of the mitochondrion, including the mitochondrial DNA and the ribosomes. The mitochondrial DNA (see section on genetic systems, p. 800) is organized into compact bodies\u2014the nucleoids\u2014by special scaffolding proteins that also function as transcription regulatory proteins. The large number of enzymes required for the maintenance of the mitochondrial genetic system, as well as for many other essential reactions to be outlined next, accounts for the very high protein concentration in the matrix; at more than 500 mg/mL, this concentration is close to that in a protein crystal. Mitochondria not only generate most of the cell\u2019s ATP; they also provide many other essential resources for biosynthesis and cell growth. Before describing in detail the remarkable machinery of the respiratory chain, we diverge briefly to touch on some of these important roles. Figure 14\u201310 A summary of the energy-converting metabolism in mitochondria."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1660",
+            "title": "Cell_Biology_Alberts",
+            "content": "During translation, the nascent polypeptide moves through a large, water-filled tunnel (approximately 10 nm \u00d7 1.5 nm) in the large subunit of the ribosome. The walls of this tunnel, made primarily of 23S rRNA, are a patchwork of tiny hydrophobic surfaces embedded in a more extensive hydrophilic surface. This structure is not complementary to any peptide, and thus provides a \u201cTeflon\u201d coating through which a polypeptide chain can easily slide. The dimensions of the tunnel suggest that nascent proteins are largely unstructured as they pass through the ribosome, although some \u03b1-helical regions of the protein can form before leaving the ribosome tunnel. As it leaves the ribosome, a newly synthesized protein must fold into its proper three-dimensional conformation to be useful to the cell. Later in this chapter we discuss how this folding occurs. First, however, we describe several additional aspects of the translation process itself."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3199",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each newly synthesized organelle protein must find its way from a ribosome in the cytosol, where the protein is made, to the organelle where it functions. It does so by following a specific pathway, guided by sorting signals in its amino acid sequence that function as either signal sequences or signal patches. Sorting signals are recognized by complementary sorting receptors, which deliver the protein to the appropriate target organelle. Proteins that function in the cytosol do not contain sorting signals and therefore remain there after they are synthesized. During cell division, organelles such as the ER and mitochondria are distributed to each daughter cell. These organelles contain information that is required for their construction, and so they cannot be made de novo. The TransporT of moleCUles BeTWeen The nUCleUs anD The CYTosol The nuclear envelope encloses the DNA and defines the nuclear compartment."
+        },
+        {
+            "id": "Histology_Ross_245",
+            "title": "Histology_Ross",
+            "content": "With the TEM, the rER appears as a series of interconnected, membrane-limited, \ufb02attened sacs called cisternae, with particles studding the exterior surface of the membrane (Fig. 2.25). These particles, called ribosomes , are attached to the membrane of the rER by ribosomal docking proteins. Ribosomes measure 15 to 20 nm in diameter and consist of a small and large subunit. Each subunit contains ribosomal RNA (rRNA) of different length as well as numerous different proteins. In many instances, the rER is continuous with the outer membrane of the nuclear envelope (see the next section). Groups of ribosomes form short spiral arrays called polyribosomes or polysomes (Fig. 2.26) in which many ribosomes are attached to a thread of messenger RNA (mRNA). Protein synthesis involves transcription and translation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1642",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Ribosome Is a Ribozyme The ribosome is a large complex composed of two-thirds RNA and one-third protein. The determination, in 2000, of the entire three-dimensional conformation of its large and small subunits is a major triumph of modern structural biology. The findings confirm earlier evidence that rRNAs\u2014and not proteins\u2014are responsible for the ribosome\u2019s overall structure, its ability to position tRNAs on the mRNA, and its catalytic activity in forming covalent peptide bonds. The ribosomal RNAs are folded into highly compact, precise three-dimensional structures that form the compact core of the ribosome and determine its overall shape (Figure 6\u201367)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1598",
+            "title": "Biochemistry_Lippinco",
+            "content": "Although most protein synthesis in eukaryotes is initiated in the cytoplasm, many proteins perform their functions within subcellular organelles or outside of the cell. Such proteins normally contain amino acid sequences that direct the proteins to their final locations. For example, secreted proteins are targeted during synthesis (cotranslational targeting) to the RER by the presence of an N-terminal hydrophobic signal sequence. The sequence is recognized by the signal recognition particle (SRP), a ribonucleoprotein that binds the ribosome, halts elongation, and delivers the ribosome\u2013peptide complex to an RER membrane channel (the translocon) via interaction with the SRP receptor. Translation resumes, the protein enters the RER lumen, and its signal sequence is cleaved (Fig. 32.15). The protein moves through the RER and the Golgi, is processed, packaged into vesicles, and secreted. Proteins targeted after synthesis (posttranslational) include nuclear proteins that contain an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1618",
+            "title": "Cell_Biology_Alberts",
+            "content": "When not actively synthesizing proteins, the two subunits of the ribosome are separate. They join together on an mRNA molecule, usually near its 5\u02b9 end, to initiate the synthesis of a protein. The mRNA is then pulled through the ribosome, three nucleotides at a time. As its codons enter the core of the ribosome, the mRNA nucleotide sequence is translated into an amino acid sequence using the tRNAs as adaptors to add each amino acid in the correct sequence to the growing end of the polypeptide chain. When a stop codon is encountered, the ribosome releases the finished protein, and its two subunits separate again. These subunits can then be used to start the synthesis of another protein on another mRNA molecule. Ribosomes operate with remarkable efficiency: in one second, a eukaryotic ribosome adds 2 amino acids to a polypeptide chain; the ribosomes of bacterial cells operate even faster, at a rate of about 20 amino acids per second."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3334",
+            "title": "Cell_Biology_Alberts",
+            "content": "cytosolic side of the ER membrane, are engaged in the synthesis of proteins that are being concurrently translocated into the ER. Free ribosomes, unattached to any membrane, synthesize all other proteins encoded by the nuclear genome. Membrane-bound and free ribosomes are structurally and functionally identical. They differ only in the proteins they are making at any given time."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1643",
+            "title": "Cell_Biology_Alberts",
+            "content": "In marked contrast to the central positions of the rRNAs, the ribosomal proteins are generally located on the surface and fill in the gaps and crevices of the folded RNA (Figure 6\u201368). Some of these proteins send out extended regions of polypeptide chain that penetrate short distances into holes in the RNA core (Figure 6\u201369). The main role of the ribosomal proteins seems to be to stabilize the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3337",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 12\u201338 Free and membrane-bound polyribosomes. (a) a common pool of ribosomes synthesizes the proteins that stay in the cytosol and those that are transported into the er. The er signal sequence on a newly formed polypeptide chain binds to srp, which directs the translating ribosome to the er membrane. The mrna molecule remains permanently bound to the er as part of a polyribosome, while the ribosomes that move along it are recycled; at the end of each round of protein synthesis, the ribosomal subunits are released and rejoin the common pool in the cytosol. (B) a thin section electron micrograph of polyribosomes attached to the er membrane. The plane of section in some places cuts through the er roughly parallel to the membrane, giving a face-on view of the rosettelike pattern of the polyribosomes. (B, courtesy of George palade.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3186",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 12\u20135 A simplified \u201croadmap\u201d of protein traffic within a eukaryotic cell. proteins can move from one compartment to another by gated transport (red), protein translocation (blue), or vesicular transport (green). The sorting signals that direct a given protein\u2019s movement through the system, and thereby determine its eventual location in the cell, are contained in each protein\u2019s amino acid sequence. The journey begins with the synthesis of a protein on a ribosome in the cytosol and, for many proteins, terminates when the protein reaches its final destination. other proteins shuttle back and forth between the nucleus and cytosol. at each intermediate station (boxes), a decision is made as to whether the protein is to be retained in that compartment or transported further. a sorting signal may direct either retention in or exit from a compartment."
+        },
+        {
+            "id": "Cell_Biology_Alberts_539",
+            "title": "Cell_Biology_Alberts",
+            "content": "Another complex macromolecular aggregate that can reassemble from its component parts is the bacterial ribosome. This structure is composed of about 55 different protein molecules and 3 different rRNA molecules. Incubating a mixture of the individual components under appropriate conditions in a test tube causes them to spontaneously re-form the original structure. Most importantly, such reconstituted ribosomes are able to catalyze protein synthesis. As might be expected, the reassembly of ribosomes follows a specific pathway: after certain proteins have bound to the RNA, this complex is then recognized by other proteins, and so on, until the structure is complete. It is still not clear how some of the more elaborate self-assembly processes are regulated. Many structures in the cell, for example, seem to have a precisely defined length that is many times greater than that of their component macromolecules. How such length determination is achieved is in many cases a mystery. In"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1719",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201387 The production of a protein by a eukaryotic cell. The final level of each protein in a eukaryotic cell depends upon the efficiency of each step depicted. The translation of the nucleotide sequence of an mRNA molecule into protein takes place in the cytosol on a large ribonucleoprotein assembly called a ribosome. Each amino acid used for protein synthesis is first attached to a tRNA molecule that recognizes, by complementary base-pair interactions, a particular set of three nucleotides (codons) in the mRNA. As an mRNA is threaded through a ribosome, its sequence of nucleotides is then read from one end to the other in sets of three according to the genetic code."
+        },
+        {
+            "id": "Histology_Ross_250",
+            "title": "Histology_Ross",
+            "content": "Signal peptides direct the post-translational transport of a protein. FIGURE 2.26 \u2022 Electron micrograph of the rER and polyribosome complexes. This image shows a small section of the rER adjacent to the nucleus sectioned in two planes. The reticulum has turned within the section. Thus, in the upper right and left, the membranes of the reticulum have been cut at a right angle to their surface. In the center, the reticulum has twisted and is shown as in an aerial view (from above the membrane). The large spiral cytoplasmic assemblies (arrows) are chains of ribosomes that form polyribosomes that are actively engaged in translation of the mRNA molecule. 38,000."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3166",
+            "title": "Cell_Biology_Alberts",
+            "content": "The ComparTmenTalizaTion of Cells The TransporT of moleCUles BeTWeen The nUCleUs anD The CYTosol The TransporT of proTeins inTo miToChonDria anD ChloroplasTs The enDoplasmiC reTiCUlUm 642 Chapter 12: intracellular Compartments and protein sorting endoplasmic reticulum with membrane-bound polyribosomes Figure 12\u20131 illustrates the major intracellular compartments common to eukaryotic cells. The nucleus contains the genome (aside from mitochondrial and chloroplast DNA), and it is the principal site of DNA and RNA synthesis. The surrounding cytoplasm consists of the cytosol and the cytoplasmic organelles suspended in it. The cytosol constitutes a little more than half the total volume of the cell, and it is the main site of protein synthesis and degradation. It also performs most of the cell\u2019s intermediary metabolism\u2014that is, the many reactions that degrade some small molecules and synthesize others to provide the building blocks for macromolecules (discussed in Chapter 2)."
+        }
+    ],
+    "scores": [
+        0.035925916911445394,
+        0.03180955680955681,
+        0.031065308614042397,
+        0.030883687017720277,
+        0.030373305440486574,
+        0.029508114865664577,
+        0.02947674765951265,
+        0.02751629395465012,
+        0.027180786421246817,
+        0.027112319075044758,
+        0.02688454401205287,
+        0.025877123518330193,
+        0.025732841258857463,
+        0.024832119575593926,
+        0.02461038128672381,
+        0.02344778555395144,
+        0.02316610301855075,
+        0.023025906090422217,
+        0.022954658747414754,
+        0.02233822293847893,
+        0.022333388718776454,
+        0.022304646306897023,
+        0.022263627461647263,
+        0.022137924968113645,
+        0.02152047455969557,
+        0.02130951341447019,
+        0.02093208242075556,
+        0.02077636459989401,
+        0.020587448770810403,
+        0.020342981997117336,
+        0.020008988862580023,
+        0.01999757304557094
+    ]
+}

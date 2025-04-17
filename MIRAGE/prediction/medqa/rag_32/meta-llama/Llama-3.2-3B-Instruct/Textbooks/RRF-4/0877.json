@@ -1,0 +1,208 @@
+{
+    "id": "0877",
+    "question": "A pulmonologist is analyzing the vital signs of patients with chronic obstructive pulmonary disease (COPD) who presented to an emergency room with respiratory distress and subsequently required intubation. The respiratory rates of 7 patients with COPD during their initial visit to the emergency room are shown:\nPatient 1 22 breaths per minute\nPatient 2 32 breaths per minute\nPatient 3 23 breaths per minute\nPatient 4 30 breaths per minute\nPatient 5 32 breaths per minute\nPatient 6 32 breaths per minute\nPatient 7 23 breaths per minute\nWhich of the following is the mode of these respiratory rates?\"",
+    "options": {
+        "A": "30 breaths per minute",
+        "B": "32 breaths per minute",
+        "C": "10 breaths per minute",
+        "D": "27.7 breaths per minute"
+    },
+    "answer": "B",
+    "predict": "Here's my step-by-step thinking and the answer in JSON format: **Step 1: Review the question and options** The question is asking for the mode of the respiratory rates of 7 patients with COPD who presented to the emergency room with respiratory distress and subsequently required intubation. **Step 2: Analyze the data** The respiratory rates of the 7 patients are: - Patient 1: 22 breaths per minute - Patient 2: 32 breaths per minute - Patient 3: 23 breaths per minute - Patient 4: 30 breaths per minute - Patient 5: 32 breaths per minute - Patient 6: 32 breaths per minute - Patient 7: 23 breaths per minute **Step 3: Identify the mode** The mode is the value that appears most frequently in the dataset. In this case, the value 32 breaths per minute appears three times, which is more than any other value. **Step 4: Select the correct answer** Based on the analysis, the correct answer is: ```json {\"step_by_step_thinking\": \"The respiratory rates of the 7 patients with COPD show that the value 32 breaths per minute appears most frequently, indicating that the mode of these respiratory rates is 32 breaths per minute.\", \"answer_choice\": \"B\"} ``` The final answer is B.",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_20167",
+            "title": "InternalMed_Harrison",
+            "content": "Clinical Features Patients are aware of increasing chest tightness, wheezing, and dyspnea that are often not or poorly relieved by their usual reliever inhaler. In severe exacerbations, patients may be so breathless that they are unable to complete sentences and may become cyanotic. Examination usually shows increased ventilation, hyperinflation, and tachycardia. Pulsus paradoxus may be present, but this is rarely a useful clinical sign. There is a marked fall in spirometric values and PEF. Arterial blood gases on air show hypoxemia, and PCO2 is usually low due to hyperventilation. A normal or rising PCO2 is an indication of impending respiratory failure and requires immediate monitoring and therapy. A chest roentgenogram is not usually informative but may show pneumonia or pneumothorax."
+        },
+        {
+            "id": "InternalMed_Harrison_19929",
+            "title": "InternalMed_Harrison",
+            "content": "The tempo of onset and the duration of a patient\u2019s dyspnea are likewise helpful in determining the etiology. Acute shortness of breath is usually associated with sudden physiologic changes, such as laryngeal edema, bronchospasm, myocardial infarction, pulmonary embolism, or pneumothorax. Patients with COPD and idiopathic pulmonary fibrosis (IPF) experience a gradual progression of dyspnea on exertion, punctuated by acute exacerbations of shortness of breath. In contrast, most asthmatics have normal breathing the majority of the time with recurrent episodes of dyspnea that are usually associated with specific triggers, such as an upper respiratory tract infection or exposure to allergens."
+        },
+        {
+            "id": "InternalMed_Harrison_19944",
+            "title": "InternalMed_Harrison",
+            "content": "Pulmonary Function Testing (See also Chap. 307) The initial pulmonary function test obtained is spirometry. This study is an effort-dependent test used to assess for obstructive pathophysiology as seen in asthma, COPD, and bronchiectasis. A diminished-forced expiratory volume in 1 sec (FEV1)/forced vital capacity (FVC) (often defined as <70% of the predicted value) is diagnostic of obstruction. In addition to measuring FEV1 and FVC, the clinician should examine the flow-volume loop (which is effort-independent). A plateau of the inspiratory and expiratory curves suggests large-airway obstruction in extrathoracic and intrathoracic locations, respectively."
+        },
+        {
+            "id": "InternalMed_Harrison_20802",
+            "title": "InternalMed_Harrison",
+            "content": "intermittent mandatory ventilation, or pressure-support ventilation, with the latter two modes often used simultaneously (Table 323-2). Assist-Control Ventilation (ACMV) ACMV is the most widely used mode of ventilation. In this mode, an inspiratory cycle is initiated either by the patient\u2019s inspiratory effort or, if none is detected within a specified time window, by a timer signal within the ventilator. Every breath delivered, whether patientor timer-triggered, consists of the operator-specified tidal volume. Ventilatory rate is determined either by the patient or by the operator-specified backup rate, whichever is of higher frequency. ACMV is commonly used for initiation of mechanical ventilation because it ensures a backup minute ventilation in the absence of an intact respiratory drive and allows for synchronization of the ventilator cycle with the patient\u2019s inspiratory effort."
+        },
+        {
+            "id": "Physiology_Levy_2568",
+            "title": "Physiology_Levy",
+            "content": "3. Pulmonary function tests (spirometry, flow-volume loop, body plethysmography) can detect abnormalities in lung function before individuals become symptomatic. Test results are compared with results obtained in normal individuals and vary with sex, ethnicity, age, and height. COPD is characterized by increases in lung volumes and airway resistance and by decreases in expiratory flow rates. Emphysema, a specific type of COPD, is further characterized by increased lung compliance. Restrictive lung diseases are characterized by decreases in lung volume, normal expiratory flow rates and resistance, and a marked decrease in lung compliance. 4."
+        },
+        {
+            "id": "InternalMed_Harrison_20389",
+            "title": "InternalMed_Harrison",
+            "content": "Although there is considerable variability in the relationships between the FEV1 and other physiologic abnormalities in COPD, certain generalizations may be made. The partial pressure of oxygen in arterial blood Pao2 usually remains near normal until the FEV1 is decreased to ~50% of predicted, and even much lower FEV1 values can be associated with a normal Pao2, at least at rest. An elevation of arterial level of carbon dioxide (Paco2) is not expected until the FEV1 is <25% of predicted and even then may not occur. Pulmonary hypertension severe enough to cause cor pulmonale and right ventricular failure due to COPD typically occurs in individuals who have marked decreases in FEV1 (<25% of predicted) and chronic hypoxemia (Pao2 <55 mmHg); however, recent evidence suggests that some patients will develop significant pulmonary hypertension independent of COPD severity (Chap. 304)."
+        },
+        {
+            "id": "InternalMed_Harrison_2742",
+            "title": "InternalMed_Harrison",
+            "content": "ASSESSING DYSPNEA Quality of Sensation Like pain assessment, dyspnea assessment begins with a determination of the quality of the patient\u2019s discomfort (Table 47e-1). Dyspnea questionnaires or lists of phrases commonly used TAblE 47e-1 ASSoCiATion oF QuAliTATivE DESCRiPToRS, CliniCAl CHARACTERiSTiCS, AnD PATHoPHySiologiC MECHAniSMS oF SHoRTnESS oF bREATH Chest tightness or Asthma, CHF constriction Increased work or effort COPD, asthma, neuroof breathing muscular disease, chest \u201cAir hunger,\u201d need to CHF, PE, COPD, asthma, breathe, urge to breathe pulmonary fibrosis Inability to get a deep Moderate to severe breath, unsatisfying asthma and COPD, pulbreath monary fibrosis, chest Heavy breathing, rapid Sedentary status in breathing, breathing healthy individual or more patient with cardiopul Abbreviations: CHF, congestive heart failure; COPD, chronic obstructive pulmonary disease; PE, pulmonary embolism. Bronchoconstriction, interstitial edema"
+        },
+        {
+            "id": "InternalMed_Harrison_20804",
+            "title": "InternalMed_Harrison",
+            "content": "Intermittent Mandatory Ventilation (IMV) With this mode, the operator sets the number of mandatory breaths of fixed volume to be delivered by the ventilator; between those breaths, the patient can breathe spontaneously. In the most frequently used synchronized mode (SIMV), mandatory breaths are delivered in synchrony with the patient\u2019s inspiratory efforts at a frequency determined by the operator. If the patient fails to initiate a breath, the ventilator delivers a fixed-tidal-volume breath and resets the internal timer for the next inspiratory cycle. SIMV differs from ACMV in that only a preset number of breaths are ventilator-assisted. SIMV allows patients with an intact respiratory drive to exercise inspiratory muscles between assisted breaths; thus it is useful for both supporting and weaning intubated patients. SIMV may be difficult to Peak, mean, and plateau airway pressures VE ABG I/E ratio Peak, mean, and plateau airway pressures VE ABG I/E ratio"
+        },
+        {
+            "id": "InternalMed_Harrison_18223",
+            "title": "InternalMed_Harrison",
+            "content": "Once patients with chronic pulmonary or pulmonary vascular disease develop cor pulmonale, the prognosis worsens. Although chronic obstructive pulmonary disease (COPD) and chronic bronchitis are responsible for approximately 50% of the cases of cor pulmonale in North America (Chap. 314), any disease that affects the pulmonary vasculature (Chap. 304) or parenchyma can lead to cor pulmonale (Table 279-4). Primary pulmonary vascular disorders are relatively rare causes of cor pulmonale, but cor pulmonale is extremely common with these conditions, given the magnitude of pulmonary hypertension present."
+        },
+        {
+            "id": "InternalMed_Harrison_20416",
+            "title": "InternalMed_Harrison",
+            "content": "Arterial blood gases and oximetry may demonstrate resting or exertional hypoxemia. Arterial blood gases provide additional information I Mild FEV1/FVC <0.7 and FEV1 \u226580% predicted II Moderate FEV1/FVC <0.7 and FEV1 \u226550% but <80% predicted III Severe FEV1/FVC <0.7 and FEV1 \u226530% but <50% predicted IV Very severe FEV1/FVC <0.7 and FEV1 <30% predicted Abbreviations: COPD, chronic obstructive pulmonary disease; GOLD, Global Initiative for Lung Disease. Source: From the Global Strategy for Diagnosis, Management and Prevention of COPD 2014, \u00a9 Global Initiative for Chronic Obstructive Lung Disease (GOLD), all rights reserved. Available from http://www.goldcopd.org."
+        },
+        {
+            "id": "Physiology_Levy_2620",
+            "title": "Physiology_Levy",
+            "content": "To measure the clinical effectiveness of gas exchange in the lung, PaO2 and PaCO2 are measured. PAO2 is calculated from the alveolar air equation ( Eq. 23.13 ). The difference between the calculated PAO2 and the measured PaO2 is the AaDO2. In individuals with normal lungs who are breathing room air, the AaDO2 is less than 15 mm Hg. The mean value rises approximately 3 mm Hg per decade of life after 30 years of age. Hence, an AaDO2 lower than 25 mm Hg is considered the upper limit of normal. Assume that an individual with pneumonia is receiving 30% supplemental O2 by face mask. Arterial blood gas pH is 7.40, PaCO2 is 44 mm Hg, and PaO2 is 70 mm Hg. What is the patient\u2019s AaDO2? (Assume that the patient is at sea level and the patient\u2019s respiratory quotient is 0.8.) According to the alveolar air equation ( Eq. 23.13 R 44PAO2 = [0 3. \u00d7 (760 \u2212 47)] \u2212 0 8. = 159 mm Hg Therefore, This high AaDO2 suggests that the patient has lung disease (in this case, pneumonia)."
+        },
+        {
+            "id": "Physiology_Levy_2598",
+            "title": "Physiology_Levy",
+            "content": "Equation 23.17 of an increase in resistance and, in the case of individuals with emphysema, an increase in compliance. As a result, such affected adults tend to breathe at a low respiratory rate. Imagine now what happens when individuals with COPD climb a flight of stairs. The increase in respiratory rate does not allow sufficient time for a full exhalation, and a process called dynamic hyperinflation occurs ( Fig. 23.4 ); lung volumes, which are already increased, increase further, the lung becomes less compliant, and the work of breathing is very high."
+        },
+        {
+            "id": "InternalMed_Harrison_20717",
+            "title": "InternalMed_Harrison",
+            "content": "(See also Chap. 323) Whereas a thorough understanding of the pathophysiology of respiratory failure is essential for optimal patient care, recognition of a patient\u2019s readiness to be liberated from mechanical ventilation is likewise important. Several studies have shown that daily spontaneous breathing trials can identify patients who are ready for extubation. Accordingly, all intubated, mechanically ventilated patients should undergo daily screening of respiratory function. If oxygenation is stable (i.e., PaO2/FIO2 [partial pressure of oxygen/fraction of inspired oxygen] >200 and PEEP \u22645 cmH2O), cough and airway reflexes are intact, and no vasopressor agents or sedatives are being administered, the patient has passed the screening test and should undergo a spontaneous breathing trial. This trial consists of a period of breathing through the endotracheal tube without ventilator support (both continuous positive airway pressure [CPAP] of 5 cmH2O and an open T-piece breathing system can"
+        },
+        {
+            "id": "InternalMed_Harrison_2746",
+            "title": "InternalMed_Harrison",
+            "content": "Respiratory System Dyspnea \u2022 DISEASES OF THE AIRWAYS Asthma and COPD, the most common obstructive lung diseases, are characterized by expiratory airflow obstruction, which typically leads to dynamic hyperinflation of the lungs and chest wall. Patients with moderate to severe disease have both increased resistive and elastic loads (a term that relates to the stiffness of the system) on the ventilatory muscles and experience increased work of breathing. Patients with acute bronchoconstriction also report a sense of tightness, which can exist even when lung function is still within the normal range. These patients are commonly tachypneic; this condition leads to hyperinflation and reduced respiratory system compliance and also limits tidal volume. Both the chest tightness and the tachypnea are probably due to stimulation of pulmonary receptors. Both asthma and COPD may lead to hypoxemia and hypercapnia from ventilation-perfusion (V/Q) mismatch (and diffusion limitation during exercise"
+        },
+        {
+            "id": "InternalMed_Harrison_20443",
+            "title": "InternalMed_Harrison",
+            "content": "Patients with severe underlying COPD, who are in moderate or severe distress, or those with focal findings should have a chest x-ray. Approximately 25% of x-rays in this clinical situation will be abnormal, with the most frequent findings being pneumonia and congestive heart failure. Patients with advanced COPD, those with a history of hypercarbia, those with mental status changes (confusion, sleepiness), or those in significant distress should have an arterial blood-gas measurement. The presence of hypercarbia, defined as a PCO2 >45 mmHg, has important implications for treatment (discussed below). In contrast to its utility in the management of exacerbations of asthma, measurement of pulmonary function has not been demonstrated to be helpful in the diagnosis or management of exacerbations of COPD."
+        },
+        {
+            "id": "Obstentrics_Williams_4117",
+            "title": "Obstentrics_Williams",
+            "content": "The Newborn 609 Once in place, the tube is used for tracheal suctioning only for a suspected obstructed airway. Otherwise, an appropriate positive-pressure device is attached to the endotracheal tube. Air pufs are delivered at a rate of 40 to 60 per minute with a force adequate to stabilize the heart rate. In term infants, opening pressures of 30 to 40 cm H20 typically will expand the alveoli without causing barotrauma. Once the lung is inflated, less pressure is typically needed (20 to 25 cm H20). For preterm infants, pressures of 20 to 25 cm Term? Good tone? Breathing/crying? H20 are typically used. An increase in heart rate and peripheral oxygen saturation (Sp02) levels within acceptable ranges reflect a positive response."
+        },
+        {
+            "id": "InternalMed_Harrison_2755",
+            "title": "InternalMed_Harrison",
+            "content": "The physical examination should begin during the interview of the patient. Inability of the patient to speak in full sentences before stopping to get a deep breath suggests a condition that leads to stimulation of the controller or impairment of the ventilatory pump with reduced vital capacity. Evidence of increased work of breathing (supraclavicular retractions; use of accessory muscles of ventilation; and the tripod position, characterized by sitting with the hands braced on the knees) is indicative of increased airway resistance or stiffness of the lungs and the chest wall. When measuring the vital signs, the physician should accurately assess the respiratory rate and measure the pulsus paradoxus (Chap. 288); if the systolic pressure decreases by >10 mmHg, the presence of COPD, acute asthma, or pericardial disease should be considered. During the general examination, signs of anemia (pale conjunctivae), cyanosis, and cirrhosis (spider angiomata, gynecomastia) should be sought."
+        },
+        {
+            "id": "InternalMed_Harrison_20414",
+            "title": "InternalMed_Harrison",
+            "content": "The hallmark of COPD is airflow obstruction (discussed above). Pulmonary function testing shows airflow obstruction with a reduction in FEV1 and FEV1/FVC (Chap. 306e). With worsening disease severity, lung volumes may increase, resulting in an increase in total lung capacity, functional residual capacity, and residual volume. In patients with emphysema, the diffusing capacity may be reduced, reflecting the lung parenchymal destruction characteristic of the disease. The degree of airflow obstruction is an important prognostic factor in COPD and is the basis for the Global Initiative for Lung Disease (GOLD) severity classification (Table 314-1). More recently it has been shown that a multifactorial index incorporating airflow obstruction, exercise performance, dyspnea, and body mass index is a better predictor of mortality rate than pulmonary function alone. In 2011, the GOLD added an additional classification system incorporating symptoms and exacerbation history; the utility of this"
+        },
+        {
+            "id": "Pediatrics_Nelson_839",
+            "title": "Pediatrics_Nelson",
+            "content": "Chronic respiratory failure (with acute exacerbations) is often due to chronic lung disease (bronchopulmonary dysplasia, cystic fibrosis), neurologic or neuromuscular abnormalities, and congenital anomalies. Early signs of hypoxic respiratory failure include tachypnea and tachycardia in attempt to improve minute ventilation and cardiac output and to maintain delivery of oxygenated blood to the tissues. Further progression of disease may result in dyspnea, nasal flaring, grunting, use of accessory muscles of respiration, and diaphoresis. Late signs of inadequate oxygen delivery include cyanosis and altered mental status (initially confusion and agitation). Signs and symptoms of hypercarbic respiratory failure include attempts to increase minute ventilation (tachypnea and increased depth of breathing) and altered mental status (somnolence)."
+        },
+        {
+            "id": "InternalMed_Harrison_2743",
+            "title": "InternalMed_Harrison",
+            "content": "Abbreviations: CHF, congestive heart failure; COPD, chronic obstructive pulmonary disease; PE, pulmonary embolism. Bronchoconstriction, interstitial edema Airway obstruction, neuromuscular disease Increased drive to breathe 47e-2 by patients assist those who have difficulty describing their breathing sensations. Sensory Intensity A modified Borg scale or visual analogue scale can be utilized to measure dyspnea at rest, immediately following exercise, or on recall of a reproducible physical task, such as climbing the stairs at home. An alternative approach is to gain a sense of the patient\u2019s disability by inquiring about what activities are possible. These methods indirectly assess dyspnea and may be affected by nonrespiratory factors, such as leg arthritis or weakness. The Baseline Dyspnea Index and the Chronic Respiratory Disease Questionnaire are commonly used tools for this purpose."
+        },
+        {
+            "id": "InternalMed_Harrison_20729",
+            "title": "InternalMed_Harrison",
+            "content": "quantitative assessment of airway resistance. Accordingly, during volume-controlled ventilation, patients with increases in airway resistance typically have increased peak airway pressures as well as abnormally high gradients between peak and plateau airway pressures (typically >15 cmH2O) at an inspiratory flow rate of 1 L/sec. The compliance of the respiratory system is defined by the change in pressure of the respiratory system per unit change in volume."
+        },
+        {
+            "id": "Surgery_Schwartz_2845",
+            "title": "Surgery_Schwartz",
+            "content": "pulmonary mechanics.78 The Tobin Index (fre-quency [breaths per minute]/tidal volume [L]), also known as the rapid shallow breathing index, is perhaps the best negative predictive instrument.79 If the result equals less than 105, then Table 12-13Inclusion criteria for the acute respiratory distress syndromeAcute onsetPredisposing conditionPao2:Fio2 <200 (regardless of positive end-expiratory pressure)Bilateral infiltratesPulmonary artery occlusion pressure <18 mmHgNo clinical evidence of right heart failureFio2 = fraction of inspired oxygen; Pao2 = partial pressure of arterial oxygen.there is nearly a 70% chance the patient will pass extubation. If the score is greater than 105, the patient has an approximately 80% chance of failing extubation. Other parameters such as the negative inspiratory force, minute ventilation, and respiratory rate are used, but individually these have no better predictive value than the rapid shallow breathing index.80Malnutrition and poor nutritional"
+        },
+        {
+            "id": "Physiology_Levy_2564",
+            "title": "Physiology_Levy",
+            "content": "ventilation requires more flow resistance force to overcome) ( Fig. 22.9 ). Normal individuals and individuals with lung disease adopt respiratory patterns that minimize the work of breathing. For this reason, individuals with pulmonary fibrosis (increased elastic work) breathe more shallowly and rapidly, and those with obstructive lung disease (normal elastic work but increased resistive work) breathe more slowly and deeply. 60 50 40 Total work Elastic work Nonelastic work 20 10 30 10 20 30 40 Mechanical work (kg-m/min) Respiratory rate (no./min)"
+        },
+        {
+            "id": "InternalMed_Harrison_20028",
+            "title": "InternalMed_Harrison",
+            "content": "The role of magnetic resonance imaging (MRI) in the evaluation of respiratory system disease is less well-defined than that of CT. Magnetic resonance (MR) provides poorer spatial resolution and less detail of the pulmonary parenchyma and, for these reasons, is currently not considered a substitute for CT in imaging the thorax. However, the use of hyperpolarized gas in conjunction with MR has led to the investigational use of MR for imaging the lungs, particularly in obstructive lung disease. In addition, imaging performed during an inhalation and exhalation can provide dynamic information on lung function. Of note, MR examinations are difficult to obtain among several subgroups of patients. Patients who cannot lie still or who cannot lie on their backs may have MRIs that are of poor quality; some tests require patients to hold their breaths for 15\u201325 seconds at a time in order to get good MRIs. MRI is generally avoided in unstable and/ or ventilated patients and those with severe"
+        },
+        {
+            "id": "InternalMed_Harrison_20441",
+            "title": "InternalMed_Harrison",
+            "content": "Patient Assessment An attempt should be made to establish the severity of the exacerbation as well as the severity of preexisting COPD. The more severe either of these two components, the more likely that the patient will require hospital admission. The history should include quantification of the degree of dyspnea by asking about breathlessness during activities of daily living and typical activities for the patient. The patient should be asked about fever; change in character of sputum; any ill contacts; and associated symptoms such as nausea, vomiting, diarrhea, myalgias, and chills. Inquiring about the frequency and severity of prior exacerbations can provide important information."
+        },
+        {
+            "id": "InternalMed_Harrison_20450",
+            "title": "InternalMed_Harrison",
+            "content": "Invasive (conventional) mechanical ventilation via an endotracheal tube is indicated for patients with severe respiratory distress despite initial therapy, life-threatening hypoxemia, severe hypercarbia and/or acidosis, markedly impaired mental status, respiratory arrest, hemodynamic instability, or other complications. The goal of mechanical ventilation is to correct the aforementioned conditions. Factors to consider during mechanical ventilatory support include the need to provide sufficient expiratory time in patients with severe airflow obstruction and the presence of auto-PEEP (positive end-expiratory pressure), which can result in patients having to generate significant respiratory effort to trigger a breath during a demand mode of ventilation. The mortality rate of patients requiring mechanical ventilatory support is 17\u201330% for that particular hospitalization. For patients age >65 admitted to the intensive care unit for treatment, the mortality rate doubles over the next year"
+        },
+        {
+            "id": "InternalMed_Harrison_19937",
+            "title": "InternalMed_Harrison",
+            "content": "Physical Examination The clinician\u2019s suspicion of respiratory disease often begins with a patient\u2019s vital signs. The respiratory rate is often informative, whether elevated (tachypnea) or depressed (hypopnea). In addition, pulse oximetry should be measured, as many patients with respiratory disease have hypoxemia, either at rest or with exertion. The classic structure of the respiratory examination proceeds through inspection, percussion, palpation, and auscultation as described below. Often, however, auscultatory findings will lead the clinician to perform further percussion or palpation in order to clarify these findings."
+        },
+        {
+            "id": "InternalMed_Harrison_20806",
+            "title": "InternalMed_Harrison",
+            "content": "Pressure-Support Ventilation (PSV) This form of ventilation is patient-triggered, flow-cycled, and pressure-limited. It provides graded assistance and differs from the other two modes in that the operator sets the pressure level (rather than the volume) to augment every spontaneous respiratory effort. The level of pressure is adjusted by observing the patient\u2019s respiratory frequency. During PSV, the inspiration is terminated when inspiratory airflow falls below a certain level; in most ventilators, this flow rate cannot be adjusted by the operator. With PSV, patients receive ventilator assistance only when the ventilator detects an inspiratory effort. PSV is often used in combination with SIMV to ensure volume-cycled backup for patients whose respiratory drive is depressed. PSV is well tolerated by most patients who are being weaned from MV; PSV parameters can be set to provide full ventilatory support and can be withdrawn to load the respiratory muscles gradually."
+        },
+        {
+            "id": "InternalMed_Harrison_20437",
+            "title": "InternalMed_Harrison",
+            "content": "Exacerbations are a prominent feature of the natural history of COPD. Exacerbations are episodes of increased dyspnea and cough and change in the amount and character of sputum. They may or may not be accompanied by other signs of illness, including fever, myalgias, and sore throat. Self-reported health-related quality of life correlates with frequency of exacerbations more closely than it does with the degree of airflow obstruction. Economic analyses have shown that >70% of COPD-related health care expenditures go to emergency department visits and hospital care; this translates to >$10 billion annually in the United States. The frequency of exacerbations increases as airflow obstruction increases; patients with moderate to severe airflow obstruction (GOLD stage III or IV; Table 314-1) on average have one to three episodes per year. However, some individuals with very severe airflow obstruction do not have frequent exacerbations; the history of prior exacerbations is a strong"
+        },
+        {
+            "id": "Physiology_Levy_2569",
+            "title": "Physiology_Levy",
+            "content": "4. The equal pressure point is the point at which the pressure inside and surrounding the airway is the same. The location of the equal pressure point is dynamic. Specifically, as lung volume and elastic recoil decrease, the equal pressure point moves toward the alveolus in normal individuals. In individuals with chronic obstructive pulmonary disease (COPD), the equal pressure point at any lung volume is closer to the alveolus. Expiratory flow limitation occurs at the equal pressure point. 5. Energy is expended during breathing to overcome the inherent mechanical properties of the lung. Respiratory muscle fatigue is the most common cause of respiratory failure. Individuals breathe at a respiratory rate to minimize work. For individuals with increased airway resistance, work is minimized by breathing at lower frequencies. For individuals with restrictive lung diseases, work is minimized by shallow breathing at high frequencies. 6."
+        },
+        {
+            "id": "InternalMed_Harrison_20384",
+            "title": "InternalMed_Harrison",
+            "content": "Airflow limitation, also known as airflow obstruction, is typically determined by spirometry, which involves forced expiratory maneuvers after the subject has inhaled to total lung capacity. Key parameters obtained from spirometry include the volume of air exhaled within the first second of the forced expiratory maneuver (FEV1) and the total volume of air exhaled during the entire spirometric maneuver (forced vital capacity [FVC]). Patients with airflow obstruction related to COPD have a chronically reduced ratio of FEV1/FVC. In contrast to asthma, the reduced FEV1 in COPD seldom shows large responses to inhaled bronchodilators, although improvements up to 15% are common. Asthma patients can also develop chronic (not fully reversible) airflow obstruction."
+        },
+        {
+            "id": "First_Aid_Step2_1059",
+            "title": "First_Aid_Step2",
+            "content": "Presents with cough, episodic wheezing, dyspnea, and/or chest tightness. Symptoms often worsen at night or early in the morning. Exam reveals wheezing, prolonged expiratory duration (\u2193 I/E ratio), accessory muscle use, tachypnea, tachycardia, \u2193 breath sounds (late sign), \u2193O2 saturation (late sign), hyperresonance, and possible pulsus paradoxus. \u25a0ABGs: Mild hypoxia and respiratory alkalosis. Normalizing PCO2, respiratory acidosis, and more severe hypoxia in an acute exacerbation warrant close observation, as they may indicate fatigue and impending respiratory failure. F IGU R E 2.1 5-1. Lung volumes in the interpretation of pulmonary function tests. (Reproduced, with permission, from Gomella LG et al. Clinician\u2019s Pocket Reference, 11th ed. New York: McGraw-Hill, 2006: Fig. 18-1.) T AB LE 2.1 5-1. Obstructive vs. Restrictive Lung Diseasea a FEV1 = forced expiratory volume in one second; FVC = forced vital capacity."
+        }
+    ],
+    "scores": [
+        0.02705739313860487,
+        0.025351704739678328,
+        0.024433189655172414,
+        0.02262100644453586,
+        0.022315544959960878,
+        0.021186359792700997,
+        0.021080259889484993,
+        0.020930995535256947,
+        0.01951637471439452,
+        0.01896117900790798,
+        0.018682042595086074,
+        0.01818331413526411,
+        0.017855538092960366,
+        0.017810192850156777,
+        0.01710319164162015,
+        0.015968310948814755,
+        0.015696649029982364,
+        0.01568133691981915,
+        0.015502515502515503,
+        0.015460621912234816,
+        0.015358455378201963,
+        0.015264293419633226,
+        0.01525768535262206,
+        0.015213675213675216,
+        0.015101410934744267,
+        0.01487125591171834,
+        0.014833059660645867,
+        0.014775925525005413,
+        0.014536003080477474,
+        0.014440621415910751,
+        0.01430976430976431,
+        0.014081051908546756
+    ]
+}

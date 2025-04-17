@@ -1,0 +1,208 @@
+{
+    "id": "1188",
+    "question": "After a T cell progenitor leaves the bone marrow, most of its development takes place in the thymus. It passes through several stages during its maturation. Positive selection is an important process during maturation of T lymphocytes, and it ensures the preservation of self-major histocompatibility complex (MHC)-restricted T cells. During which of the following developmental stages does a T cell undergo this process?",
+    "options": {
+        "A": "Pre-T cell",
+        "B": "Double-positive T cell",
+        "C": "Single-positive CD4+ T cell",
+        "D": "Single-positive CD8+ T cell"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To determine the correct answer, let's go through the stages of T cell development in the thymus and identify where positive selection occurs. According to the documents, T cell development begins with the migration of T cell progenitors from the bone marrow to the thymus. In the thymus, T cells undergo several stages of development, including the expression of pre-T cell receptors, the commitment to either the \\u03b2:\\u03b2 or \\u03b1:\\u03b2 lineage, and the expression of CD4 and CD8 co-receptors. Positive selection occurs after the expression of these co-receptors, but before the cells differentiate into single-positive CD4+ or CD8+ T cells. Positive selection is a critical process that ensures the preservation of self-major histocompatibility complex (MHC)-restricted T cells. Based on this information, let's evaluate the options: A. Pre-T cell: This stage occurs before the expression of CD4 and CD8 co-receptors, so positive selection does not occur during this stage. B. Double-positive T cell: This stage occurs after the expression of CD4 and CD8 co-receptors, and positive selection does occur during this stage. C. Single-positive CD4+ T cell: This stage occurs after positive selection, so positive selection does not occur during this stage. D. Single-positive CD8+ T cell: This stage also occurs after positive selection, so positive selection does not occur during this stage. Therefore, the correct answer is B. Double-positive T cell.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Immunology_Janeway_1788",
+            "title": "Immunology_Janeway",
+            "content": "Like B cells, T lymphocytes derive from the multipotent hematopoietic stem cells in the bone marrow. However, their progenitor cells migrate from the bone marrow via the blood to the thymus, where they mature (Fig. 8.15); this is the reason for the name thymus-dependent (T) lymphocytes, or T cells. T-cell development parallels that of B cells in many ways, including the orderly and stepwise rearrangement of antigen-receptor genes, the sequential testing for successful gene rearrangement, and the eventual assembly of a heterodimeric antigen receptor. Nevertheless, T-cell development in the thymus has some features not seen for B cells, such as the generation of two distinct lineages of T cells expressing antigen receptors encoded by distinct genes, the \u03b3:\u03b4 lineage and the \u03b1:\u03b2 lineage. Developing T cells, which are known generally as thymocytes, also undergo rigorous selection that depends on interactions with thymic cells and that shapes the mature repertoire of T cells to ensure self"
+        },
+        {
+            "id": "Immunology_Janeway_1791",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 8.15 T cells undergo development in the thymus and migrate to the peripheral lymphoid organs, where they are activated by foreign antigens. T-cell precursors migrate from the bone marrow to the thymus, where they commit to the T-cell lineage following Notch receptor signaling. In the thymus, T-cell receptor genes are rearranged (top first panel); \u03b1:\u03b2 T-cell receptors that are compatible with self MHC molecules transmit a survival signal on interacting with thymic epithelium, leading to positive selection of the cells that bear them. Self-reactive receptors transmit a signal that leads to cell death, and cells bearing them are removed from the repertoire in a process of negative selection (top second panel). T cells that survive selection mature and leave the thymus to circulate in the periphery; they repeatedly leave the blood to migrate through the peripheral lymphoid organs, where they may encounter their specific foreign antigen and become activated (top third panel)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6721",
+            "title": "Cell_Biology_Alberts",
+            "content": "T cell development begins when bone-marrow-derived lymphoid progenitor cells enter the thymus from the bloodstream. There, the cells receive a variety of signals from thymus stromal cells, epithelial cells, macrophages, and dendritic cells, which promote their stepwise development into mature thymocytes. At one step, the progenitor cells are induced to express V(D)J recombinase and begin to rearrange their TCR gene segments. Soon thereafter, the cells express both CD4 and CD8 co-receptors, and these so-called double\u2011positive thymocytes migrate inward and interact with thymus dendritic cells or epithelial cells expressing self peptides bound to class I and class II MHC proteins. If the TCR on the thymocyte binds with high affinity to these complexes, a strong signal will be transmitted, causing the cell to undergo apoptosis. This process, called negative selection, is an example of clonal deletion (see Figure 24\u201321), and it eliminates thymocytes that could potentially attack normal"
+        },
+        {
+            "id": "Pediatrics_Nelson_1658",
+            "title": "Pediatrics_Nelson",
+            "content": "precursors in the thymus (see Fig. 73-2), where they undergoseveral stages of development characterized by DNA recombination of the variable region of T-cell antigen receptor genes togenerate a diverse T-cell receptor repertoire. A process of positive selection occurs in the thymus to select thymocytes withantigen receptors that can interact with major histocompatibility complex (MHC) molecules to ensure their survival (see Fig. 73-2). Thymocytes differentiate into CD4 or CD8 T cells if theyinteract with MHC class II or class I molecules, respectively.Some of the positively selected thymocytes, however, haveantigen receptors that recognize self-antigens presented byMHC molecules in the thymus. These cells are deleted in the thymus by a process of negative selection. Positive selectionand negative selection in the thymus ensure that the mature Tcells that leave the thymus can function with the individual\u2019sMHC molecules and recognize a multitude of foreign antigenswithout mounting"
+        },
+        {
+            "id": "Immunology_Janeway_1789",
+            "title": "Immunology_Janeway",
+            "content": "T cells, which are known generally as thymocytes, also undergo rigorous selection that depends on interactions with thymic cells and that shapes the mature repertoire of T cells to ensure self MHC restriction as well as self-tolerance. We begin with a general overview of the stages of thymocyte development and its relationship to thymic anatomy before considering gene rearrangement and the mechanisms of selection."
+        },
+        {
+            "id": "Immunology_Janeway_1911",
+            "title": "Immunology_Janeway",
+            "content": "The stages of thymocyte development up to the expression of the pre-T-cell receptor\u2014including the decision between commitment to either the \u03b1:\u03b2 or the \u03b3:\u03b4 lineage\u2014are all independent of interactions with peptide:MHC antigens. With the successful rearrangement of \u03b1-chain genes and expression of the T-cell receptor, \u03b1:\u03b2 thymocytes undergo further development that is determined by the interactions of their T-cell receptors with self peptides presented by the MHC molecules on the thymic stroma. CD4+CD8+ double-positive thymocytes whose receptors interact with self peptide:self MHC complexes on thymic cortical epithelial cells are positively selected, and will eventually mature into CD4 or CD8 single-positive cells. T cells that react too strongly with self antigens are deleted in the thymus, a process driven by bone marrow-derived antigen-presenting cells and AIRE-expressing epithelial cells in the medullary region of the thymus. The outcome of positive and negative selection is the"
+        },
+        {
+            "id": "Immunology_Janeway_1820",
+            "title": "Immunology_Janeway",
+            "content": "thymic cortical epithelial cells and the receptors of developing T cells has a crucial role in positive selection, as we will see later in this chapter. After positive selection, developing T cells migrate from the cortex to the medulla. The medulla contains fewer lymphocytes, and those present are predominantly the newly matured single-positive T cells that will eventually leave the thymus. The medulla plays a role in negative selection. The antigen-presenting cells in this environment include dendritic cells that express co-stimulatory molecules, which are generally absent from the cortex. In addition, specialized medullary epithelial cells present peripheral antigens for the negative selection of T cells reactive for these self antigens. 8-15 T cells with \u03b1:\u03b2or \u03b3:\u03b4 receptors arise from a common progenitor."
+        },
+        {
+            "id": "Immunology_Janeway_1854",
+            "title": "Immunology_Janeway",
+            "content": "T-cell progenitors develop along the \u03b3:\u03b4 or the \u03b1:\u03b2 T-cell lineages. Early in ontogeny, the production of \u03b3:\u03b4 T cells predominates over \u03b1:\u03b2 T cells, and these cells populate several peripheral tissues, including the skin, the intestine, and other mucosal and epithelial surfaces. These subsets predominantly develop from fetal liver, rather than bone marrow, stem cells. Later, more than 90% of thymocytes express \u03b1:\u03b2 T-cell receptors. In developing thymocytes, the \u03b3, \u03b4, and \u03b2 genes are the first to rearrange. Cells of the \u03b1:\u03b2 lineage that rearrange a functional beta chain form a pre-T-cell receptor that signals thymocyte proliferation, \u03b1-chain gene rearrangement, and CD4 and CD8 expression. Most steps in T-cell development take place in the thymic cortex, whereas the medulla contains mainly mature T cells. Positive and negative selection of T cells."
+        },
+        {
+            "id": "Immunology_Janeway_1856",
+            "title": "Immunology_Janeway",
+            "content": "T-cell precursors committed to the \u03b1:\u03b2 lineage at the DN3 stage undergo vigorous proliferation in the subcapsular region and progress to the DN4 stage. These cells then rapidly transit through an immature CD8 single-positive stage and become double-positive cells that express low levels of the T-cell receptor and both the CD4 and CD8 co-receptors as they move deeper into the thymic cortex. These double-positive cells have a life-span of only about 3\u20134 days unless they are rescued by engagement of their T-cell receptor. The rescue of double-positive cells from programmed cell death and their maturation into CD4 or CD8 single-positive cells is the process known as positive selection. Only about 10\u201330% of the T-cell receptors generated by gene rearrangement will be able to recognize self peptide:self MHC complexes and thus function in self MHC-restricted responses to foreign antigens (see Chapter 4); those that have this capability are selected for survival in the thymus. Double-positive"
+        },
+        {
+            "id": "Immunology_Janeway_1855",
+            "title": "Immunology_Janeway",
+            "content": "Positive and negative selection of T cells. Up to the stage at which an \u03b1:\u03b2 receptor is produced, T-cell development is independent of MHC proteins or antigen. From this point onward, developmental decisions in the \u03b1:\u03b2 T-cell lineage depend on the interaction of the receptor with peptide:MHC ligands it encounters in the thymus, and we now consider this phase of T-cell development."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6762",
+            "title": "Cell_Biology_Alberts",
+            "content": "A combination of positive and negative selection operates during T cell development in the thymus to help ensure that only T cells with potentially useful TCRs survive, mature, and emigrate, while all of the others die by apoptosis. The na\u00efve TH and TC cells that leave the thymus constantly receive survival signals when their TCRs recognize self\u2011peptide\u2013MHC complexes, but they can only be activated when their TCRs encounter foreign peptides in the grooves of MHC proteins on an activated dendritic cell. The natural Treg cells that leave the thymus suppress self\u2011reactive lymphocytes to help maintain self\u2011tolerance."
+        },
+        {
+            "id": "Immunology_Janeway_1914",
+            "title": "Immunology_Janeway",
+            "content": "In this chapter we have learned about the formation of the B-cell and T-cell lineages from an uncommitted hematopoietic stem cell. The somatic gene rearrangements that generate the highly diverse repertoire of antigen receptors\u2014immunoglobulin for B cells, and the T-cell receptor for T cells\u2014 occur in the early stages of the development of T cells and B cells from a common bone marrow-derived lymphoid progenitor. Mammalian B-cell development takes place in fetal liver and, after birth, in the bone marrow; T cells also originate from stem cells in the fetal liver or the bone marrow, but undergo most of their development in the thymus. Much of the somatic recombination machinery, including the RAG proteins that are an essential part of the V(D)J recombinase, is common to both B and T cells. In both B and T cells, gene rearrangements begin with the loci that contain D gene segments, and proceed successively at each locus. The first step in B-cell development is the rearrangement of the"
+        },
+        {
+            "id": "Immunology_Janeway_1793",
+            "title": "Immunology_Janeway",
+            "content": "Precursors commit to the T-cell lineage following Notch signaling and initiate T-cell receptor gene rearrangements Activated T cells proliferate and eliminate infection Mature T cells encounter foreign antigens in the peripheral lymphoid organs and are activated Immature T cells that recognize self MHC receive signals for survival. Those that interact strongly with self antigen are removed from the repertoire T-cell precursor mature T cell dendritic cell macrophage Notch thymic stromal cell thymus lymph node spleen self MHC activates kills gastro-intestinal tract T-cell progenitors develop in the bone marrow and migrate to the thymus where the cells complete their development by rearranging their antigenreceptor genes and undergoing repertoire selection Mature T cells migrate to the peripheral lymphoid organs Activated T cells migrate to sites of infection"
+        },
+        {
+            "id": "Immunology_Janeway_1810",
+            "title": "Immunology_Janeway",
+            "content": "When progenitor cells first enter the thymus from the bone marrow, they lack most of the surface molecules characteristic of mature T cells, and their receptor genes are not rearranged. These cells give rise to the major population of \u03b1:\u03b2 T cells and the minor population of \u03b3:\u03b4 T cells. If injected into the peripheral circulation, these lymphoid progenitors can even give rise to B cells and NK cells, although it is uncertain whether individual thymic progenitor cells retain this multipotency, or whether the progenitor cell population consists of a mixture of cells, only some of which are fully committed to the \u03b1\u03b2or \u03b3\u03b4 T-cell lineage."
+        },
+        {
+            "id": "Immunology_Janeway_1866",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 8.26 Positive selection is demonstrated by the development of T cells expressing rearranged T-cell receptor transgenes. In mice transgenic for rearranged \u03b1:\u03b2 T-cell receptor genes, the maturation of T cells depends on the MHC haplotype expressed in the thymus. If the transgenic mice express the same MHC haplotype in their thymic stromal cells as the mouse from which the rearranged TCR\u03b1-chain and TCR\u03b2-chain genes originally developed (both MHCa, top panel), then the T cells expressing the transgenic T-cell receptor will develop from the double-positive stage (pale green) into mature T cells (dark green), in this case mature CD8+ single-positive cells. If the MHCa-restricted TCR transgenes are genetically crossed into a different MHC background (MHCb, yellow, bottom panel), then developing T cells expressing the transgenic receptor will progress to the double-positive stage but will fail to mature further. This failure is due to the absence of an interaction between the transgenic"
+        },
+        {
+            "id": "Immunology_Janeway_1862",
+            "title": "Immunology_Janeway",
+            "content": "Such experiments also discovered the fate of T cells that fail positive selection. Rearranged receptor genes from a mature T cell specific for a peptide presented by a particular MHC molecule were introduced into a recipient mouse lacking that MHC molecule, and the fate of thymocytes was investigated by staining with antibodies specific for the transgenic receptor. Antibodies against other molecules, such as CD4 and CD8, were used at the same time to mark the stages of T-cell development. It was found that cells that fail to recognize the MHC molecules present on the thymic epithelium never progress further than the double-positive stage and die in the thymus within 3 or 4 days of their last division. 8-20 Positive selection acts on a repertoire of T-cell receptors with inherent specificity for MHC molecules."
+        },
+        {
+            "id": "Immunology_Janeway_1682",
+            "title": "Immunology_Janeway",
+            "content": "In this chapter we describe the different stages of the development of B cells and T cells in mice and humans from the uncommitted stem cell in the bone marrow up to the mature, functionally specialized lymphocyte with its unique antigen receptor ready to respond to a foreign antigen. The final stages in the life history of a mature lymphocyte, in which an encounter with its antigen activates it to become an effector or memory lymphocyte, are discussed in Chapters 9\u201311. We now know that the Band T-cell development that predominates during late fetal life and after birth is distinct from waves of lymphocyte development that take place earlier in fetal ontogeny. These earlier waves originate from stem cells found in the fetal liver and in even more primitive hematopoietic tissues in the developing embryo. Unlike the lymphocytes that develop from bone marrow stem cells, B and T cells that develop from these early fetal progenitors generally populate mucosal and epithelial tissues and"
+        },
+        {
+            "id": "Immunology_Janeway_1909",
+            "title": "Immunology_Janeway",
+            "content": "Many autoreactive T cells are purged during their development in the thymus. As discussed in Section 8-23, this negative selection process is facilitated by the AIRE protein, which promotes the expression of many tissue-specific antigens in thymic medullary epithelial cells. Nonetheless, not all self antigens are expressed in the thymus, and some autoreactive T cells complete their maturation and migrate to the periphery. Our understanding of the fates of autoreactive T cells in the periphery comes mainly from the study of mice transgenic for self-reactive T-cell receptors. In some cases, T cells reacting to self antigens in the periphery are eliminated. This usually follows a brief period of activation and cell division, and so is known as activation-induced cell death. In other cases, the self-reactive cells may be rendered anergic. When studied in vitro, these anergic T cells prove refractory to signals delivered through the T-cell receptor."
+        },
+        {
+            "id": "Immunology_Janeway_1675",
+            "title": "Immunology_Janeway",
+            "content": "numbers of new lymphocytes, which migrate to populate the peripheral lymphoid tissues (also called secondary lymphoid tissues) such as lymph nodes, spleen, and mucosal lymphoid tissue. In mature individuals, the development of new T cells in the thymus slows down, and peripheral T-cell numbers are maintained by the division of mature T cells outside the central lymphoid organs. New B cells, in contrast, are continually produced from the bone marrow, even in adults. This chapter will focus on the development of T cells and B cells from their uncommitted progenitors, with an emphasis on the major populations of CD4+ and CD8+ T cells and B cells. The development of additional subsets of T cells and B cells, such as invariant NKT (iNKT) cells, Treg cells, \u03b3:\u03b4 TCR+ T cells, B-1 B cells, and marginal zone B cells will be briefly discussed."
+        },
+        {
+            "id": "Histology_Ross_2283",
+            "title": "Histology_Ross",
+            "content": "FIGURE 14.28 \u2022 Schematic drawing of the major steps in thymic education. The process of multipotential lymphatic stem cell (CFU-L) molecule, indicating the middle stage of T-cell differentiation. As maturation progresses, the cells express TCRs, CD3, CD4, and CD8 molecules. These cells are then presented with epithelioreticular (erc) cells. If the lymphocyte recognizes self MHC and self or foreign antigen, then it will survive the selection (positive TCR selection); if not, death of the cell will occur. Cells that pass the positive selection test leave the cortex and enter the medulla. Here they undergo to self-antigen displayed by self MHC are typeV eliminated (negative selection). Cells that survive erc that selection then become either cytotoxic CD8 T lymphocytes or helper CD4 T lymphocytes."
+        },
+        {
+            "id": "Immunology_Janeway_1871",
+            "title": "Immunology_Janeway",
+            "content": "At the time of positive selection, the thymocyte expresses both CD4 and CD8 co-receptor molecules. By the end of thymic selection, mature \u03b1:\u03b2 T cells ready for export to the periphery have stopped expressing one of these co-receptors. The majority of these cells belong to the conventional CD4 or CD8 T-cell lineages. Less abundant subsets, such as iNKT cells and a subset of regulatory T cells expressing CD4 and high levels of CD25, also develop in the thymus from CD4+CD8+ cells. Moreover, almost all mature T cells that express CD4 have receptors that recognize peptides bound to self MHC class II molecules and are programmed to become cytokine-secreting helper T cells. In contrast, most of the cells that express CD8 have receptors that recognize peptides bound to self MHC class I molecules and are programmed to become cytotoxic effector cells. Thus, positive selection also determines the cell-surface phenotype and functional potential of the mature T cell, selecting the appropriate"
+        },
+        {
+            "id": "Immunology_Janeway_1803",
+            "title": "Immunology_Janeway",
+            "content": "8-12 T-cell precursors proliferate extensively in the thymus, but most die there. T-cell precursors arriving in the thymus from the bone marrow spend up to a week differentiating there before they enter a phase of intense proliferation. In a young adult mouse the thymus contains about 108 to 2 \u00d7 108 thymocytes. About 5 \u00d7 107 new cells are generated each day; however, only about 106 to 2 \u00d7 106 (roughly 2\u20134%) of these leave the thymus each day as mature T cells. Despite the disparity between the number of T cells generated in the thymus and the number leaving, the thymus does not continue to grow in size or cell number. This is because about 98% of the thymocytes that develop in the thymus also die in the thymus by apoptosis (see Section 1-14). Cells undergoing apoptosis are recognized and ingested by macrophages, and apoptotic bodies, which are the residual condensed chromatin of apoptotic cells, are seen inside macrophages throughout the thymic cortex (Fig. 8.19). This apparently"
+        },
+        {
+            "id": "Immunology_Janeway_1912",
+            "title": "Immunology_Janeway",
+            "content": "a process driven by bone marrow-derived antigen-presenting cells and AIRE-expressing epithelial cells in the medullary region of the thymus. The outcome of positive and negative selection is the generation of a mature conventional T-cell repertoire that is both MHC-restricted and self-tolerant. Some non-conventional T-cell lineages undergo \u2018agonist\u2019 selection following strong T-cell receptor signaling. Precisely how the recognition of self peptide:self MHC ligands by the T-cell receptor leads to either positive or negative selection remains an unsolved problem."
+        },
+        {
+            "id": "Immunology_Janeway_1868",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 8.27 The MHC molecules that induce positive selection determine co-receptor specificity. In mice transgenic for T-cell receptors restricted by an MHC class I molecule (top panel), the mature T cells that develop all have the CD8 (red) phenotype. In mice transgenic for receptors restricted by an MHC class II molecule (bottom panel), all mature T cells have the CD4 (blue) phenotype. In both cases, normal numbers of immature, double-positive thymocytes (half blue, half red) are found. The specificity of the T-cell receptor determines the outcome of the developmental pathway, ensuring that the only T cells that mature are those equipped with a co-receptor that is able to bind the same self MHC molecule as the T-cell receptor."
+        },
+        {
+            "id": "Histology_Ross_2281",
+            "title": "Histology_Ross",
+            "content": "The expression of CD2 and CD7 molecules on the T-cell surface indicates an early stage of differentiation (doublenegative stage). The double-negative term refers to lack of both CD4 and CD8 molecules. This early stage is followed by the expression of the CD1 molecule, which indicates the middle stage of T-cell differentiation. As maturation progresses, the T-cells express TCRs, CD3, and both CD4 and CD8 molecules. This is the double-positive stage of T-cells differentiation. These cells are then presented with selfand foreign antigens by type II and III epithelioreticular cells. If the lymphocyte recognizes self-MHC molecules and selfor foreign antigen, it will survive, a process called positive selection. If not, the cell will die. Cells that pass the positive-selection test leave the cortex and enter the medulla. Here, they undergo another selection process in which cells that recognize self-antigen displayed by self-MHC are eliminated, a process called negative selection. The cells"
+        },
+        {
+            "id": "Immunology_Janeway_1683",
+            "title": "Immunology_Janeway",
+            "content": "developing embryo. Unlike the lymphocytes that develop from bone marrow stem cells, B and T cells that develop from these early fetal progenitors generally populate mucosal and epithelial tissues and function in innate immune responses. In the adult, these subsets of lymphocytes are minority populations in secondary lymphoid tissues. This chapter will focus on B and T cells that develop from bone marrow stem cells and that comprise the cells of the adaptive immune response (see Figs 1.7 and 1.20). The chapter is divided into three parts. The first two describe B-cell and T-cell development, respectively. In the third section, we discuss the positive and negative selection of T cells in the thymus."
+        },
+        {
+            "id": "Immunology_Janeway_1857",
+            "title": "Immunology_Janeway",
+            "content": "MHC complexes and thus function in self MHC-restricted responses to foreign antigens (see Chapter 4); those that have this capability are selected for survival in the thymus. Double-positive cells also undergo negative selection: T cells whose receptors recognize self peptide:self MHC complexes too strongly undergo apoptosis, thus eliminating potentially self-reactive cells. In this section, we examine the interactions between developing double-positive thymocytes and different thymic components and discuss the mechanisms by which these interactions shape the mature T-cell repertoire."
+        },
+        {
+            "id": "Immunology_Janeway_1677",
+            "title": "Immunology_Janeway",
+            "content": "how the specificity and affinity of the receptor for self ligands are tested to determine whether the immature lymphocyte will either survive and join the mature repertoire, or die. In general, it seems that developing lymphocytes whose receptors interact weakly with self antigens, or that bind self antigens in a particular way, receive a signal that enables them to survive. This process, known as positive selection, is particularly critical in the development of \u03b1:\u03b2 T cells, which recognize composite antigens consisting of peptides bound to MHC molecules, because it ensures that an individual\u2019s T cells will be able to respond to peptides bound to one\u2019s own MHC molecules."
+        },
+        {
+            "id": "Pathology_Robbins_861",
+            "title": "Pathology_Robbins",
+            "content": "The principal mechanism of central tolerance is the antigen-induced deletion (death) of self-reactive T lymphocytes and B lymphocytes during their maturation in central (generative) lymphoid organs (i.e., in the thymus for T cells and in the bone marrow for B cells). In the thymus, many autologous (self) protein antigens are processed and presented by thymic APCs. Any immature T cell that encounters such a self antigen undergoes apoptosis (a process called deletion, or negative selection), and the T cells that complete their maturation are thereby depleted of self-reactive cells. An exciting advance has been the identification of a protein called AIRE (autoimmune regulator), which stimulates expression of some peripheral tissue-restricted self antigens in the thymus and is thus critical for deletion of immature T cells specific for these antigens. Mutations in the AIRE gene are the cause of an autoimmune polyendocrinopathy (Chapter 20). Not all immature T cells that see self antigens"
+        },
+        {
+            "id": "Immunology_Janeway_1898",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 8.31 The affinity model of T-cell positive and negative selection. Random TCR\u03b1 and \u03b2 chain gene rearrangements generate a large pool of immature thymocytes expressing a varied repertoire of specificities. The T-cell receptors on many of these cells fail to have sufficient binding strength to the self peptide:self MHC complexes on thymic epithelium and so receive no signals. These cells die by neglect. Another fraction of immature thymocytes are positively selected because their T-cell receptors bind with sufficient strength to the self peptide:self MHC complexes on thymic epithelium to generate T-cell receptor-dependent survival signals. From this cohort of positively selected thymocytes, negative selection removes those thymocytes whose receptors have excessively strong reactivity to self peptides complexed with self MHC molecules (resulting in clonal deletion), thereby establishing self-tolerance of the mature T-cell population. A small subset of positively selected cells"
+        },
+        {
+            "id": "Gynecology_Novak_549",
+            "title": "Gynecology_Novak",
+            "content": "T lymphocytes have a central role in the generation of immune responses by acting as helper cells in both humoral and cellular immune responses and by acting as effector cells in cellular responses. T-cell precursors originate in bone marrow and move to the thymus, where they mature into functional T cells. During their thymic maturation, T cells that can recognize antigen in the context of the major histocompatibility complex (MHC) molecules are selected, while self-responding T cells are removed (75)."
+        },
+        {
+            "id": "Immunology_Janeway_1859",
+            "title": "Immunology_Janeway",
+            "content": "Early experiments using bone marrow chimeras (see Appendix I, Section A-32) and thymic grafting provided evidence that MHC molecules in the thymus influence the MHC-restricted T-cell repertoire. However, mice transgenic for rearranged T-cell receptor genes provided the first conclusive evidence that the interaction of the T cell with self peptide:self MHC complexes is necessary for the survival of immature T cells and their maturation into naive CD4 or CD8 T cells. For these experiments, the rearranged \u03b1and \u03b2-chain genes were cloned from a T-cell clone (see Appendix I, Section A-20) whose origin, antigen specificity, and MHC restriction were known. When such genes are introduced into the mouse genome, they are expressed early during thymocyte development. As a consequence of expressing functional transgene-encoded TCR\u03b1-and \u03b2-chain proteins in developing T cells, the rearrangement of endogenous T-cell receptor genes is inhibited, albeit to different degrees. In general, endogenous"
+        }
+    ],
+    "scores": [
+        0.03749988431131916,
+        0.03658602446294211,
+        0.03602567191716177,
+        0.03526509112768887,
+        0.03460183416497739,
+        0.03444217436222005,
+        0.034366080783458416,
+        0.033219158829214335,
+        0.03267963428391236,
+        0.03192156871260349,
+        0.031830667916294825,
+        0.030955296999387632,
+        0.03089446079208735,
+        0.030121232237932595,
+        0.029831379197280593,
+        0.029683239352525675,
+        0.0295210507595762,
+        0.029138742409940653,
+        0.027768737105772857,
+        0.027692830445124023,
+        0.027401243486025847,
+        0.027040358624654322,
+        0.02687728937728938,
+        0.026843426551966337,
+        0.026540616246498595,
+        0.026483343777665046,
+        0.025564043564963952,
+        0.02547462822686366,
+        0.025034649145321084,
+        0.024621898726438173,
+        0.023876089480000785,
+        0.023488175675675675
+    ]
+}

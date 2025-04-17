@@ -1,0 +1,208 @@
+{
+    "id": "0290",
+    "question": "In a study, 2 groups are placed on different statin medications, statin A and statin B. Baseline LDL levels are drawn for each group and are subsequently measured every 3 months for 1 year. Average baseline LDL levels for each group were identical. The group receiving statin A exhibited an 11 mg/dL greater reduction in LDL in comparison to the statin B group. Statistical analysis reports a p-value of 0.052. Which of the following best describes the meaning of this p-value?",
+    "options": {
+        "A": "If 100 similar experiments were conducted, 5.2 of them would show similar results",
+        "B": "There is a 5.2% chance that A is more effective than B is due to chance",
+        "C": "There is a 94.8% chance that the difference observed reflects a real difference",
+        "D": "This is a statistically significant result"
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To determine the meaning of the p-value, we need to understand what a p-value represents. The p-value is the probability of observing the results (or more extreme results) assuming that the null hypothesis is true. In this case, the null hypothesis is that statin A and statin B have the same effect on LDL levels. The p-value of 0.052 indicates that if we conduct many repeated experiments (100 similar experiments), we would expect about 5.2% of them to show a difference in LDL reduction between statin A and statin B due to chance. This does not necessarily mean that the observed difference is statistically significant. Option A is incorrect because it implies that 5.2 experiments would show a difference in favor of statin A, which is not the correct interpretation of the p-value. Option B is correct because it accurately describes the meaning of the p-value. The p-value of 0.052 indicates that there is a 5.2% chance that the observed difference in LDL reduction between statin A and statin B is due to chance. Option C is incorrect because it incorrectly states that there is a 94.8% chance that the difference observed reflects a real difference. The p-value of 0.052 does not provide any information about the size of the effect or the probability that the observed difference is due to a real effect. Option D is incorrect because the p-value of 0.052 does not indicate that the difference between statin A and statin B is statistically significant. A p-value of 0.052 is considered to be at the threshold of statistical significance, but it is not sufficient to conclude that the difference is statistically significant.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_29959",
+            "title": "InternalMed_Harrison",
+            "content": "Several trials have confirmed that statin drugs reduce the risk of 2569 stroke even in patients without elevated LDL or low HDL. The Stroke Prevention by Aggressive Reduction in Cholesterol Levels (SPARCL) trial showed benefit in secondary stroke reduction for patients with recent stroke or TIA who were prescribed atorvastatin, 80 mg/d. The primary prevention trial, Justification for the Use of Statins in Prevention: An Intervention Trial Evaluating Rosuvastatin (JUPITER), found that patients with low LDL (<130 mg/dL) caused by elevated C-reactive protein benefitted by daily use of this statin. Primary stroke occurrence was reduced by 51% (hazard ratio 0.49, p = .004), and there was no increase in the rates of intracranial hemorrhage. Meta-analysis has also supported a primary treatment effect for statins given acutely for ischemic stroke. Therefore, a statin should be considered in all patients with prior ischemic stroke. Tobacco smoking should be discouraged in all patients (Chap."
+        },
+        {
+            "id": "InternalMed_Harrison_28263",
+            "title": "InternalMed_Harrison",
+            "content": "Otherwise, the decision to initiate LDL-lowering drug therapy is generally determined by the level of cardiovascular risk. In patients with established CVD, statin therapy is well supported by clinical trial data and should be used regardless of the LDL-C level. For patients >40 years old without clinical CVD, the AHA/ACC risk calculator (http://my.americanheart .org/professional/StatementsGuidelines/PreventionGuidelines/ Prevention-Guidelines_UCM_457698_SubHomePage.jsp) can be used to determine the 10-year absolute risk for CVD, and current guidelines suggest that a 10-year risk >7.5% merits consideration of statin therapy regardless of plasma LDL-C level. For younger patients, the assessment of lifetime risk of CVD may help inform the decision to start a statin."
+        },
+        {
+            "id": "InternalMed_Harrison_19006",
+            "title": "InternalMed_Harrison",
+            "content": "The 2013 guideline focus on statins reflects an extensive body of rigorous evidence that supports the effectiveness of this class of drugs PART 10 Disorders of the Cardiovascular System Low HDL cholesterola (<1.0 mmol/L [<40 mg/dL]) Family history of premature CHD aHDL cholesterol \u22651.6 mmol/L (\u226560 mg/dL) has been viewed as a \u201cnegative\u201d risk factor. Abbreviations: BMI, body mass index; BP, blood pressure; CHD, coronary heart disease; HDL, high-density lipoprotein; LDL, low-density lipoprotein. in cardiovascular event reduction and an acceptable risk-benefit relationship (Fig. 291e-5). Moreover, because almost all statins are now available as generic statins medications, cost has become much less of an impediment to their use."
+        },
+        {
+            "id": "InternalMed_Harrison_28264",
+            "title": "InternalMed_Harrison",
+            "content": "HmG-coa reductaSe inHiBitorS (StatinS) Statins inhibit HMG-CoA reductase, a key enzyme in cholesterol biosynthesis. By inhibiting cholesterol biosynthesis, statins lead to increased hepatic LDL receptor activity and accelerated clearance of circulating LDL, resulting in a dose-dependent reduction in plasma levels of LDL-C. The magnitude of LDL lowering associated with statin treatment varies widely among individuals, but once a patient is on a statin, the doubling of the statin dose produces an ~6% further reduction in the level of plasma LDL-C. The statins currently available differ in their LDL-C\u2013reducing potency (Table 421-5). Currently, there is no convincing evidence that any of the different statins confer an advantage that is independent of the effect on LDL-C. Statins also reduce plasma TGs in a dose-dependent fashion, which is roughly proportional to their LDL-C\u2013lowering effects (if the TGs are <400 mg/dL). Statins have a modest HDL-raising effect (5\u201310%) that is not"
+        },
+        {
+            "id": "InternalMed_Harrison_19017",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 291e The Pathogenesis, Prevention, and Treatment of Atherosclerosis Moderate-to-high intensity statin \u02dc7.5% estimated 10-y ASCVD risk and age 40\u201375 y ASCVD prevention benefit of statin therapy may be less clear in other groups In selected individuals, consider additional factors influencing ASCVD risk and potential ASCVD risk benefits and adverse effects, drug\u2013drug interactions, and patient preferences for statin treatment FIGuRE 291e-4 Major recommendations for statin therapy for atherosclerotic cardiovascular disease (ASCVD) prevention. LDL-C, low-density lipoprotein cholesterol. (From NJ Stone et al: J Am Coll Cardiol, 2013, doi: 10.1016/j.jacc.2013.11.002.)"
+        },
+        {
+            "id": "InternalMed_Harrison_19016",
+            "title": "InternalMed_Harrison",
+            "content": "Heart-healthy lifestyle habits are the foundation of ASCVD prevention. In individuals not receiving cholesterol-lowering drug therapy, recalculate estimated 10-y ASCVD risk every 4\u20136 y in individuals aged 40-75 y without clinical ASCVD or diabetes and with LDL\u2013C 70-189 mg/dL. Age >75 y OR if not candidate for high-intensity statin Moderate-intensity statin High-intensity statin (Moderate-intensity statin if not candidate for high-intensity statin) Moderate-intensity statin Estimated 10-y ASCVD risk \u02dc7.5% High-intensity statin Estimate 10-y ASCVD risk with pooled cohort equations Clinical ASCVD LDL\u2013C \u02dc190 mg/dL Diabetes Type 1 or 2 age 40\u201375 y Yes Yes Yes Yes Age \u00b075 y High-intensity statin (Moderate-intensity statin if not candidate for high-intensity statin) No No No Yes CHAPTER 291e The Pathogenesis, Prevention, and Treatment of Atherosclerosis Moderate-to-high intensity statin \u02dc7.5% estimated 10-y ASCVD risk and age 40\u201375 y"
+        },
+        {
+            "id": "InternalMed_Harrison_28313",
+            "title": "InternalMed_Harrison",
+            "content": "LDL CHOLESTEROL (SEE ALSO CHAP. 421) The rationale for the NCEP:ATPIII\u2019s development of criteria for the metabolic syndrome was to go beyond LDL cholesterol in identifying and reducing the risk of CVD. The working assumption by the panel was that LDL cholesterol goals had already been achieved and that increasing evidence supports a linear reduction in CVD events as a result of progressive lowering of LDL cholesterol with statins. For patients with the metabolic syndrome and diabetes, a statin should be prescribed. For those patients with diabetes and known CVD, the current evidence supports a maximum of penultimate dose of a potent statin (e.g., atorvastatin or rosuvastatin). For those patients with the metabolic syndrome but without diabetes, a score that predicts a 10-year CVD risk exceeding 7.5% should also take a statin. With a 10-year risk of <7.5%, use of statin therapy is not evidence based."
+        },
+        {
+            "id": "InternalMed_Harrison_28058",
+            "title": "InternalMed_Harrison",
+            "content": "CVD should be as follows: LDL <2.6 mmol/L (100 mg/dL); HDL >1 mmol/L (40 mg/ dL) in men and >13 mmol/L (50 mg/dL) in women; and triglycerides <1.7 mmol/L (150 mg/dL). In patients >40 years, the ADA recommends addition of a statin, regardless of the LDL level, in patients with CHD and those without CHD who have CHD risk factors. Recently released guidelines by the American College of Cardiology (ACC) and American Heart Association (AHA) differ slightly and recommend that diabetic individuals aged 40\u201375 without CHD and a LDL of 70\u2013189 mg/dl receive \u201cmoderate\u201d intensity statin therapy (Chap. 291e). Improvement in glycemic control will lower triglycerides and have a modest beneficial effect by raising HDL."
+        },
+        {
+            "id": "InternalMed_Harrison_19022",
+            "title": "InternalMed_Harrison",
+            "content": "PART 10 Disorders of the Cardiovascular System FIGuRE 291e-5 The Cholesterol Treatment Trialists Collaboration meta-analyzed 27 randomized clinical trials evaluating statin therapy. They found profound decreases in both major vascular events and vascular death (not shown) proportional to the magnitude of low-density lipoprotein (LDL) cholesterol reduction achieved with statin treatment. This diagram shows the results of this meta-analysis for vascular death. (From Lancet 380:581, 2012.) and Estrogen/Progestin Replacement Study (HERS), postmenopausal female survivors of acute MI were randomized to an estrogen/progestin combination or to placebo. This study showed no overall reduction in recurrent coronary events in the active treatment arm. Indeed, early in the 5-year course of this trial, a trend occurred toward an increase"
+        },
+        {
+            "id": "InternalMed_Harrison_28268",
+            "title": "InternalMed_Harrison",
+            "content": "patients taking statins, because an small excess percentage of those taking statins will develop diabetes elevated CK in the absence of symptoms does not predict the devel-but the benefits associated with the reduction in cardiovascular opment of myopathy and does not necessarily suggest the need for events outweigh the increase in incidence of diabetes. Statins are the discontinuing the drug. drug class of choice for LDL-C reduction and are by far the most"
+        },
+        {
+            "id": "InternalMed_Harrison_19021",
+            "title": "InternalMed_Harrison",
+            "content": "Male Sex/Postmenopausal State Decades of observational studies have verified excess coronary risk in men compared with premenopausal women. After menopause, however, coronary risk accelerates in women. Although observational and experimental studies have suggested that estrogen therapy reduces coronary risk, large-scale randomized clinical trials have not demonstrated a net benefit of estrogen with or without progestins on CHD outcomes. In the Heart LDL cholesterol reduction (mmol/L) with statin treatment 1 0 5 10 15 20 1.5 2 2.5 <5% \u02dc5% to <10% \u02dc10% to <20% \u02dc20% to <30% \u02dc30% 2.7 2.2 1.2 1.7 46 38 30 20 21 16 11 14 11 8 754 25 17 8 risk of PART 10 Disorders of the Cardiovascular System FIGuRE 291e-5 The Cholesterol Treatment Trialists Collaboration meta-analyzed 27 randomized clinical trials evaluating statin therapy."
+        },
+        {
+            "id": "InternalMed_Harrison_28193",
+            "title": "InternalMed_Harrison",
+            "content": "disease [CVD] or >300 mg/dL without CVD) on maximally tolerated drug therapy are candidates for LDL apheresis, a physical method of purging the blood of LDL in which the LDL particles are selectively removed from the circulation; LDL apheresis is usually performed every 2 weeks. A new class of drugs known as PCSK9 inhibitors is under clinical development and has the potential to effectively control LDL-C levels in the vast majority of patients with heterozygous FH who are inadequately controlled on a statin alone or who are statin intolerant."
+        },
+        {
+            "id": "InternalMed_Harrison_28265",
+            "title": "InternalMed_Harrison",
+            "content": "reduce plasma TGs in a dose-dependent fashion, which is roughly proportional to their LDL-C\u2013lowering effects (if the TGs are <400 mg/dL). Statins have a modest HDL-raising effect (5\u201310%) that is not generally dose-dependent."
+        },
+        {
+            "id": "InternalMed_Harrison_19003",
+            "title": "InternalMed_Harrison",
+            "content": "The 2013 cholesterol guideline focused on 3-hydroxy-3-methylglutaryl coenzyme A (HMG-CoA) reductase inhibitors (statins) rather than other classes of lipid-modulating drugs, including fibric acid derivatives, cholesterol absorption inhibitors such as ezetimibe, and niacin products. The guideline cites the lack of contemporary randomized clinical trial evidence that supports the efficacy of these nonstatin lipid-modifying agents in cardiovascular event reduction. The cholesterol guideline defined four statin benefit groups (Table 291e-2): (1) all individuals who have clinical atherosclerotic cardiovascular disease (ASCVD), therefore considered \u201csecondary prevention\u201d; (2) those with LDL cholesterol \u2265190 mg/dL without a secondary cause such as a high intake of saturated or trans fats, various drugs, or certain diseases; (3) individuals with diabetes without established cardiovascular disease who are 40\u201375 years old and have LDL cholesterol of 70\u2013189 mg/dL; and (4) those without"
+        },
+        {
+            "id": "InternalMed_Harrison_19032",
+            "title": "InternalMed_Harrison",
+            "content": "Statin therapy likely reduces cardiovascular events in part by muting the inflammatory aspects of the pathogenesis of atherosclerosis. For example, in statin trials conducted in both primary (JUPITER) and secondary (PROVE-IT/TIMI-22) prevention populations, prespecified analyses showed that those who achieved lower levels of both LDL and CRP had better clinical outcomes than did those who only reached the lower level of either the inflammatory marker or the atherogenic lipoprotein (Fig. 291e-7). The anti-inflammatory effect of statins appears independent of LDL lowering, because these two variables correlated very poorly in individual subjects in multiple clinical trials."
+        },
+        {
+            "id": "InternalMed_Harrison_27911",
+            "title": "InternalMed_Harrison",
+            "content": "Rosiglitazone raises low-density lipoprotein (LDL), high-density 2415 lipoprotein (HDL), and triglycerides slightly. Pioglitazone raises HDL to a greater degree and LDL a lesser degree but lowers triglycerides. The clinical significance of the lipid changes with these agents is not known and may be difficult to ascertain because most patients with type 2 DM are also treated with a statin."
+        },
+        {
+            "id": "InternalMed_Harrison_19008",
+            "title": "InternalMed_Harrison",
+            "content": "LDL-lowering therapies do not appear to exert their beneficial effect on cardiovascular events by causing a marked \u201cregression\u201d of stenoses. Studies of lipid lowering monitored by angiography or by intravascular imaging modalities have shown at best a modest reduction in coronary artery stenoses over the duration of study, despite abundant evidence of event reduction. These results suggest that the beneficial mechanism of lipid lowering by statins does not require a substantial reduction in the fixed stenoses. Rather, the benefit may derive from \u201cstabilization\u201d of atherosclerotic lesions without substantially decreased stenosis. \u2265190 mg/dL without secondary cause (e.g., saturated/trans fats, drugs, certain diseases) prevention with diabetes mellitus: age 40\u201375 years, LDL-C 70\u2013189 mg/dL prevention without diabetes mellitus: age 40\u201375 years, LDL-C 70\u2013189 mg/dL, estimated ASCVD risk \u22657.5% Abbreviations: ACC/AHA, American College of Cardiology and American Heart Association;"
+        },
+        {
+            "id": "InternalMed_Harrison_19005",
+            "title": "InternalMed_Harrison",
+            "content": "The 2013 guideline emphasized a patient-centered approach and recommended that clinicians and patients engage in a risk-benefit conversation before starting statin therapy and not rely solely on calculated risks or arbitrary category assignment. It further emphasizes that medications do not supplant a healthy lifestyle. The guideline also provides some practical suggestions regarding management of muscle symptoms attributed to statins, an issue of considerable concern to many patients and practitioners alike. In a major departure from prior guidelines, the 2013 guideline eliminates LDL targets as goals of therapy. The panel did so because major clinical trials did not titrate therapy to a goal, but rather used fixed doses of statins. Instead, the new guideline suggests different intensities of statin therapy based on risk category (Fig. 291e-4). The 2013 guideline focus on statins reflects an extensive body of rigorous evidence that supports the effectiveness of this class of drugs"
+        },
+        {
+            "id": "Pharmacology_Katzung_3938",
+            "title": "Pharmacology_Katzung",
+            "content": "Rodriguez F: Association between intensity of statin therapy and mortality in patients with atherosclerotic cardiovascular disease. JAMA Cardiol 2016;2:47. Silverman MG et al: Association between lowering LDL-C and cardiovascular risk reduction among different therapeutic interventions: A systematic review and meta-analysis. JAMA Cardiol 2016;316:1289. Stone NJ et al: 2013 ACC/AHA guidelines on the treatment of blood cholesterol to reduce atherosclerotic cardiovascular risk in adults. A report of the American College of Cardiology/American Heart Association task force on practice guidelines. Circulation 2014; 129 (25 Suppl 2):S1. Erratum: Circulation 2015;132:e396. Swiger JK et al: Statins and cognition: A systematic review and meta-analysis of short and long term cognitive effects. Mayo Clin Proceed 2013;88:1213."
+        },
+        {
+            "id": "InternalMed_Harrison_19134",
+            "title": "InternalMed_Harrison",
+            "content": "1588 DYSLIPIDEMIA The treatment of dyslipidemia is central in aiming for long-term relief from angina, reduced need for revascularization, and reduction in myocardial infarction and death. The control of lipids can be achieved by the combination of a diet low in saturated and trans-unsaturated fatty acids, exercise, and weight loss. Nearly always, HMG-CoA reductase inhibitors (statins) are required and can lower LDL cholesterol (25\u201350%), raise HDL cholesterol (5\u20139%), and lower triglycerides (5\u201330%). A powerful treatment effect of statins on atherosclerosis, IHD, and outcomes is seen regardless of the pretreatment LDL cholesterol level. Fibrates or niacin can be used to raise HDL cholesterol and lower triglycerides (Chaps. 291e and 421). Controlled trials with lipid-regulating regimens have shown equal proportional benefit for men, women, the elderly, diabetic patients, and smokers. Compliance with the health-promoting behaviors listed above is generally very poor, and a conscientious"
+        },
+        {
+            "id": "InternalMed_Harrison_21751",
+            "title": "InternalMed_Harrison",
+            "content": "risk reduction in ESRD patients; none have demonstrated consistent benefit. Two clinical trials of statin agents in ESRD demonstrated significant reductions in low-density lipoprotein (LDL) cholesterol concentrations, but no significant reductions in death or cardiovascular events (Die Deutsche Diabetes Dialyse Studie [4D] and A Study to Evaluate the Use of Rosuvastatin in Subjects on Regular Hemodialysis [AURORA]). The Study of Heart and Renal Protection (SHARP), which included patients on dialysisand nondialysis-requiring CKD, showed a 17% reduction in the rate of major cardiovascular events or cardiovascular death with simvastatin-ezetimibe treatment. Most experts recommend conventional cardioprotective strategies (e.g., lipid-lowering agents, aspirin, inhibitors of the renin-angiotensin-aldosterone system, and \u03b2-adrenergic antagonists) in dialysis patients based on the patients\u2019 cardiovascular risk profile, which appears to be increased by more than an order of magnitude relative"
+        },
+        {
+            "id": "InternalMed_Harrison_28056",
+            "title": "InternalMed_Harrison",
+            "content": "Almost all treatment studies of diabetic dyslipidemia have been performed in individuals with type 2 DM because of the greater frequency of dyslipidemia in this form of diabetes. Interventional studies have shown that the beneficial effects of LDL reduction with statins are similar in the diabetic and nondiabetic populations. Large prospective trials of primary and secondary intervention for CHD have included some individuals with type 2 DM, and subset analyses have consistently found that reductions in LDL reduce cardiovascular events and morbidity in individuals with DM. No prospective studies have addressed similar questions in individuals with type 1 DM. Because the frequency of CVD is low in children and young adults with diabetes, assessment of cardiovascular risk should be incorporated into the guidelines discussed below."
+        },
+        {
+            "id": "InternalMed_Harrison_25075",
+            "title": "InternalMed_Harrison",
+            "content": "for, intensity of, and duration of anti-inflammatory and/or anticoagulant therapies. In SLE, myocardial infarctions are primarily manifestations of accelerated atherosclerosis. The increased risk for vascular events is three-to tenfold overall, and is highest in women <49 years old. Characteristics associated with increased risk for atherosclerosis include older age, hypertension, dyslipidemia, dysfunctional proinflammatory high-density lipoproteins, repeated high scores for disease activity, high cumulative or daily doses of glucocorticoids, and high levels of homocysteine. When it is most likely that an event results from clotting, long-term anticoagulation is the therapy of choice. Two processes can occur at once\u2014vasculitis plus bland vascular occlusions\u2014in which case it is appropriate to treat with anticoagulation plus immunosuppression. Statin therapies reduce levels of low-density lipoproteins (LDL) in SLE patients; reduction of cardiac events by statins has been shown in SLE"
+        },
+        {
+            "id": "Neurology_Adams_6408",
+            "title": "Neurology_Adams",
+            "content": "In a trial of statins, the institution of high doses of drug reduced the incidence of subsequent stroke after a TIA or first stroke by 2 percent over 5 years (see Stroke Prevention by Aggressive Reduction in Cholesterol Investigators [SPARCL trial]). Other large studies with lower doses of statin drugs have not shown this effect. These findings with high doses have, at the moment, been adopted into routine practice. Recent guidelines encourage LDL concentrations of less than 70 mg/dL for secondary stroke prevention. Early anticoagulation after an acute stroke carries an uncertain risk of hemorrhagic transformation of an ischemic infarct. In particular, patients with very large cerebral infarcts that have a component of deep (basal ganglionic) tissue damage, especially in those patients who are also hypertensive, there may be a risk of anticoagulant-related hemorrhage into the acute infarct\u2014\u201chemorrhagic conversion\u201d (Shields et al)."
+        },
+        {
+            "id": "InternalMed_Harrison_28317",
+            "title": "InternalMed_Harrison",
+            "content": "A fibrate (gemfibrozil or fenofibrate) is the drug of choice to lower fasting triglyceride levels, which are typically reduced by 30\u201345%. Concomitant administration with drugs metabolized by the 3A4 cytochrome P450 system (including some statins) increases the risk of myopathy. In these cases, fenofibrate may be preferable to gemfibrozil. In the Veterans Affairs HDL Intervention Trial, gemfibrozil was administered to men with known CHD and levels of HDL cholesterol <40 mg/dL. A coronary disease event and mortality rate benefit was experienced predominantly among men with hyperinsulinemia and/or diabetes, many of whom were identified retrospectively as having the metabolic syndrome. Of note, the degree of triglyceride lowering in this trial did not predict benefit. Although levels of LDL cholesterol did not change, a decrease in LDL particle number correlated with benefit. Several additional clinical trials have not shown The Metabolic Syndrome"
+        },
+        {
+            "id": "Pharmacology_Katzung_3894",
+            "title": "Pharmacology_Katzung",
+            "content": "on a mass basis and is given in doses of 10\u201380 mg daily. Atorvastatin is given in doses of 10\u201380 mg/d, and rosuvastatin at 5\u201340 mg/d. The dose-response curves of pravastatin and especially of fluvastatin tend to level off in the upper part of the dosage range in patients with moderate to severe hypercholesterolemia. Those of other statins are somewhat more linear."
+        },
+        {
+            "id": "InternalMed_Harrison_28320",
+            "title": "InternalMed_Harrison",
+            "content": "HDL CHOLESTEROL (SEE ALSO CHAP. 421) Very few lipid-modifying compounds increase HDL cholesterol levels. Statins, fibrates, and bile acid sequestrants have modest effects (5\u201310%), whereas ezetimibe and omega-3 fatty acids have no effect. Nicotinic acid is the only currently available drug with predictable HDL cholesterol-raising properties. The response is dose related, and nicotinic acid can increase HDL cholesterol by ~30% above baseline. After several trials of nicotinic acid versus placebo in statin-treated patients, there is still no evidence that raising HDL with nicotinic acid beneficially affects CVD events in patients with or without the metabolic syndrome. BLOOD PRESSURE (SEE ALSO CHAP. 298) The direct relationship between blood pressure and all-cause mortality rate has been well established in studies comparing patients"
+        },
+        {
+            "id": "InternalMed_Harrison_19018",
+            "title": "InternalMed_Harrison",
+            "content": "Therapeutic objectives for intervention in these patients include addressing the underlying causes, including obesity and low physical activity, by initiating lifestyle measures (see below). Establishing that strict glycemic control reduces the risk of macrovascular complications of diabetes has proved much more elusive than the beneficial effects on microvascular complications such as retinopathy and renal disease. Indeed, \u201ctight\u201d glycemic control may increase adverse events in patients with type 2 diabetes, lending even greater importance to aggressive control of other aspects of risk in this patient population. In this regard, multiple clinical trials have demonstrated unequivocal benefit of statin therapy in diabetic patients over all ranges of LDL cholesterol levels (but not those with end-stage renal disease or advanced heart failure). Among the oral hypoglycemic agents, metformin possesses the best evidence base for cardiovascular event reduction. The novel oral hypoglycemic"
+        },
+        {
+            "id": "InternalMed_Harrison_28059",
+            "title": "InternalMed_Harrison",
+            "content": "If the patient is known to have CHD, the ADA recommends an LDL goal of <18 mmol/L (70 mg/dL) as an \u201coption\u201d (in keeping with evidence that such a goal is beneficial in nondiabetic individuals with CHD [Chap. 421]). The ACC/AHA guidelines do not advocate a specific LDL for statin therapy. HMG-CoA reductase inhibitors are the agents of choice for lowering LDL. Combination therapy with an HMG-CoA reductase inhibitor and a fibrate or another lipid-lowering agent (ezetimibe, niacin) may be considered but increases the possibility of side effects such as myositis and has not been shown to be beneficial. Nicotinic acid effectively raises HDL and can be used in patients with diabetes, but may worsen glycemic control and increase insulin resistance and has not been shown to provide additional benefit beyond statin therapy alone. Bile acid\u2013binding resins should not be used if hypertriglyceridemia is present. In large clinical trials, statin usage is associated with a mild increase in the risk"
+        },
+        {
+            "id": "InternalMed_Harrison_28262",
+            "title": "InternalMed_Harrison",
+            "content": "Lifestyle The first approach to a patient with hypercholesterolemia and high cardiovascular risk is to make any necessary lifestyle changes. In obese patients, efforts should be made to reduce body weight to the ideal level. Patients should receive dietary counseling to reduce the content of saturated fats, trans fats, and cholesterol in the diet. Regular aerobic exercise has relatively little impact on reducing plasma LDL-C levels, although it has cardiovascular benefits independent of LDL lowering. Pharmacologic Therapy for Hypercholesterolemia The decision to use LDL-lowering drug therapy (Table 421-5)\u2014with a statin being first-line therapy\u2014depends on the level of LDL-C as well as the level of cardiovascular risk. In general, patients with a Mendelian disorder of elevated LDL-C such as FH must be treated to reduce the very high lifetime risk of CVD, and treatment should be initiated as early as possible in adulthood or, in some cases, during childhood."
+        },
+        {
+            "id": "InternalMed_Harrison_32585",
+            "title": "InternalMed_Harrison",
+            "content": "2. An alternative approach to using population means and standard deviations is to define a range of analyte values that is judged to be consistent with health on the basis of expert consensus opinion. These ranges are often referred to as decision limits. Examples of reference ranges established in this way include those for total, high-density, and low-density cholesterol (Table 480e-2). Such ranges may deviate considerably from those that would be established if the analyte concentrations of the population (mean \u00b1 2 standard deviations) were used as a basis for establishing the reference range. For example, the \u201cdesirable\u201d total cholesterol value according to the National Cholesterol Education Program is <200 mg/dL. This value is actually very close to the mean concentration among U.S. adults; in fact, almost one-half of"
+        },
+        {
+            "id": "InternalMed_Harrison_25076",
+            "title": "InternalMed_Harrison",
+            "content": "to treat with anticoagulation plus immunosuppression. Statin therapies reduce levels of low-density lipoproteins (LDL) in SLE patients; reduction of cardiac events by statins has been shown in SLE patients with renal transplants but not in other SLE cohorts to date."
+        }
+    ],
+    "scores": [
+        0.03702684613668476,
+        0.03602012339958338,
+        0.035696970923281536,
+        0.03537339705016012,
+        0.03510536856807209,
+        0.034616542103173116,
+        0.03442713116008571,
+        0.033111250919041504,
+        0.03213586500988076,
+        0.03185750166978933,
+        0.03148469810457458,
+        0.02976135584256757,
+        0.028267324746197985,
+        0.02806354126561004,
+        0.02760972796308757,
+        0.02754785574413614,
+        0.02537599124965819,
+        0.024785405128272833,
+        0.024278908895929603,
+        0.0229328925596257,
+        0.022739033588073214,
+        0.022383403271736085,
+        0.02228579903572283,
+        0.022049176627850935,
+        0.021721923536439668,
+        0.021683754556953424,
+        0.02161732152739347,
+        0.02121335454668788,
+        0.020851166885983135,
+        0.01953298771515587,
+        0.019142700128228614,
+        0.019074503153215138
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "id": "1235",
+    "question": "A 21-year-old female presents to the clinic requesting prenatal counseling. She was born with a disease that has led her to have recurrent upper respiratory infections throughout her life requiring antibiotic prophylaxis and chest physiotherapy as well as pancreatic enzyme replacement therapy. She marries a man (without this disease phenotype) from a population where the prevalence of this disease is 1/100. What is the chance that their child will have the disease of interest?",
+    "options": {
+        "A": "9/100",
+        "B": "1/10",
+        "C": "81/100",
+        "D": "9/10"
+    },
+    "answer": "A",
+    "predict": "To determine the chance that the child will have the disease, we need to consider the genotype of the parents and the mode of inheritance of the disease. The disease is an autosomal recessive disorder, which means that a person needs to inherit two copies of the mutated gene (one from each parent) to express the disease. Let's analyze the situation: * The 21-year-old female has the disease phenotype, which means she is likely homozygous recessive (aa) for the mutated gene. * Her partner (the man) does not have the disease phenotype, which means he is likely homozygous dominant (AA) or heterozygous (Aa) for the mutated gene. * The prevalence of the disease in the population is 1/100, which means the frequency of the mutated gene is 1/100. Since the disease is autosomal recessive, we can use the following genotype-phenotype relationships: * AA or Aa: normal phenotype (not affected) * aa: disease phenotype (affected) Now, let's analyze the possible genotypes of the parents: * The 21-year-old female (homozygous recessive, aa) * The man (heterozygous, Aa or AA) To determine the probability that the child will have the disease, we need to calculate the probability of each possible genotype of the child and then multiply it by the probability of expressing the disease phenotype. Let's assume the man is heterozygous (Aa). * Probability of the man being Aa: 99/100 (since the prevalence of the disease is 1/100) * Probability of the man being AA: 1/100 (since the prevalence of the disease is 1/100) * Probability of the child being aa (homozygous recessive): 25% (1/4) if the man is Aa, since there is a 50% chance of inheriting the mutated gene from each parent * Probability of the child being Aa (heterozygous): 75% (3/4) if the man is Aa, since there is a 50% chance of inheriting the normal gene from each parent Now, let's calculate the probability of the child expressing the disease phenotype: * Probability of the child being aa (homozygous recessive) and expressing the disease phenotype: 25% (1/4) x 1/100 (probability of the man being AA) = 1/400 * Probability of the child being Aa (heterozygous) and expressing the disease phenotype: 75% (3/4) x 99/100 (probability of the man being Aa) = 0.5625 Since the child cannot be homozygous dominant (AA), the only possible genotype is Aa. Therefore, the probability that the child will have the disease phenotype is 0.5625. To convert this to a percentage, multiply by 100: 0.5625 x 100 = 56.25% Since the options are not exact percentages, we can approximate the answer to the nearest whole number. The chance that the child will have the disease is approximately 56%. The final answer in JSON format is: {\"step_by_step_thinking\": \"To determine the chance that the child will have the disease, we need to consider the genotype of the parents and the mode of inheritance of the disease. The disease is an autosomal recessive disorder, which means that a person needs to inherit two copies of the mutated gene (one from each parent) to express the disease. The 21-year-old female has the disease phenotype, which means she is likely homozygous recessive (aa) for the mutated gene. Her partner (the man) does not have the disease phenotype, which means he is likely heterozygous (Aa) or homozygous dominant (AA) for the mutated gene. The prevalence of the disease in the population is 1/100, which means the frequency of the mutated gene is 1/100. Assuming the man is heterozygous (Aa), the probability of the child being aa (homozygous recessive) is 25% (1/4), and the probability of the child being Aa (heterozygous) is 75% (3/4). The probability of the child expressing the disease phenotype is 0.5625, which is approximately 56.25%. Therefore, the chance that the child will have the disease is approximately 56%.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Pathology_Robbins_1493",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 The use of proactive prenatal genetic screening in high-risk populations (e.g., persons of Ashkenazi Jewish descent) has significantly reduced the incidence ( 7.1 ) of certain genetic disorders such as Tay-Sachs disease. Disorders of Autosomal Dominant Inheritance Disorders of autosomal dominant inheritance are manifested in the heterozygous state, so at least one parent in an index case usually is affected. Both males and females can be affected, and both sexes can transmit the condition. When an affected person marries an unaffected one, each child has one chance in two of having the disease. The following features also pertain to autosomal dominant diseases: With any autosomal dominant disorder, some patients do not have affected parents. Such patients owe their disorder to new mutations involving either the egg or the sperm from which they were derived. Their siblings are neither affected nor at increased risk for development of the disease."
+        },
+        {
+            "id": "Obstentrics_Williams_1915",
+            "title": "Obstentrics_Williams",
+            "content": "lthough a negative screening test result does not preclude the possibility of carrying a less-common mutation, it reduces the risk substantively from the background rate. If both parents are carriers, chorionic villus sampling or amniocentesis can help determine whether the fetus has inherited one or both of the parental mutations. Counseling following identification of two disease-causing mutations is challenging, because phenotype prediction is reasonably accurate only for pancreatic disease, and then only for well-characterized mutations. Prognosis is most heavily afected by the degree of pulmonary disease, which varies considerably even among individuals with the most common genotype associated with classic disease, that is, those homozygous for the .F508 mutation. his likely relects the efect of genetic modiiers on protein function, which may further vary depending on the CFTR mutation and on exposure and susceptibility to environmental factors (Cutting, 2005; Drumm, 2005)."
+        },
+        {
+            "id": "InternalMed_Harrison_32602",
+            "title": "InternalMed_Harrison",
+            "content": "If a disease phenotype can be caused by many mutations, a clinical laboratory result that is negative should be interpreted with care. For example, it is common to screen healthy pregnant women (and their partners) for mutations in the CFTR gene, which is mutated in patients with cystic fibrosis (CF). The goal of this screening is to identify women who are carriers of a CFTR mutation and therefore are at increased risk of having a baby with CF. Because CF is an autosomal recessive disorder, a fetus has a 1:4 chance of being affected if both parents are carriers of disease-causing CFTR mutations. The screening test approach that is commonly used to identify mutations in carriers detects 80\u201385% of all known disease-causing CFTR mutations in Caucasians and up to 97% of mutations among Ashkenazi Jews. A negative screening result therefore does not completely eliminate the possibility that a woman (or her partner) actually has a mutation. What can be inferred from a negative test result is"
+        },
+        {
+            "id": "InternalMed_Harrison_20355",
+            "title": "InternalMed_Harrison",
+            "content": "CF classically presents in childhood with chronic productive cough, malabsorption including steatorrhea, and failure to thrive. The disease is most common among whites (~1 in 3300 live births) and much less frequent among African-American (~1 in 15,000) or Asian populations (~1 in 33,000). Several \u201csevere\u201d defects that impair CFTR activity (including F508del, G551D, and truncation alleles) are predictive of pancreatic insufficiency, which is clinically evident in 80\u201390% of individuals with CF. These few specific genotype-phenotype correlations notwithstanding, genotype is, in general, a poor predictor of overall respiratory prognosis."
+        },
+        {
+            "id": "Pharmacology_Katzung_5050",
+            "title": "Pharmacology_Katzung",
+            "content": "Camille E. Beauduy, PharmD, & Lisa G. Winston, MD motion tenderness is present. A first-catch urine specimen is obtained for chlamydia and gonorrhea nucleic acid amplifi-cation testing. A urine pregnancy test is also ordered as the patient reports she \u201cmissed her last period.\u201d Pending these results, the decision is made to treat her presumptively for chlamydial cervicitis. What are two potential treatment options for her possible chlamydial infection? How does her potential pregnancy affect the treatment decision? A 22-year-old woman presents to her college medical clinic complaining of a 2-week history of vaginal discharge. She denies any fever or abdominal pain but does report vaginal bleeding after sexual intercourse. When questioned about her sexual activity, she reports having vaginal intercourse, at times unprotected, with two men in the last 6 months. A pelvic examination is performed and is positive for muco-purulent discharge from the endocervical canal. No cervical"
+        },
+        {
+            "id": "Pharmacology_Katzung_5664",
+            "title": "Pharmacology_Katzung",
+            "content": "Philip J. Rosenthal, MD A 5-year-old American girl presents with a 1-week history of intermittent chills, fever, and sweats. She had returned home 2 weeks earlier after leaving the USA for the first time to spend 3 weeks with her grandparents in Nigeria. She received all standard childhood immunizations, but no additional treat-ment before travel, since her parents have returned to their native Nigeria frequently without medical consequences. Three days ago, the child was seen in an outpatient clinic and diagnosed with a viral syndrome. Examination reveals a lethargic child, with a temperature of 39.8\u00b0C (103.6\u00b0F) and splenomegaly. She has no skin rash or lymphadenopathy. Ini-tial laboratory studies are remarkable for hematocrit 29.8%, platelets 45,000/mm3, creatinine 2.5 mg/dL (220 \u03bcmol/L), and mildly elevated bilirubin and transaminases. A blood smear shows ring forms of Plasmodium falciparum at 1.5% parasit-emia. What treatment should be started?"
+        },
+        {
+            "id": "Pharmacology_Katzung_2047",
+            "title": "Pharmacology_Katzung",
+            "content": "Joshua M. Galanter, MD, & Homer A. Boushey, MD and respirations are 32/min. Her mother states that she has used her albuterol inhaler several times a day for the past 3 days and twice during the previous night. She took an additional two puffs on her way to the emergency department, but her mother states that \u201cthe inhaler didn\u2019t seem to be helping so I told her not to take any more.\u201d What emergency measures are indicated? How should her long-term management be altered? A 14-year-old girl with a history of asthma requiring daily inhaled corticosteroid therapy and allergies to house dust mites, cats, grasses, and ragweed presents to the emergency department in mid-September, reporting a recent \u201ccold\u201d com-plicated by worsening shortness of breath and audible inspi-ratory and expiratory wheezing. She appears frightened and refuses to lie down but is not cyanotic. Her pulse is 120 bpm,"
+        },
+        {
+            "id": "Pharmacology_Katzung_3731",
+            "title": "Pharmacology_Katzung",
+            "content": "James L. Zehnder, MD and edema and is tender to touch. Oxygen saturation by fingertip pulse oximeter while breathing room air is 87% (normal > 90%). Ultrasound reveals a deep vein thrombosis in the left lower extremity; chest computed tomography scan confirms the presence of pulmonary emboli. Laboratory blood tests indicate elevated d-dimer levels. What therapy is indicated acutely? What are the long-term therapy options? How long should she be treated? Should this indi-vidual use oral contraceptives? A 25-year-old woman presents to the emergency depart-ment complaining of acute onset of shortness of breath and pleuritic pain. She had been in her usual state of health until 2 days prior when she noted that her left leg was swollen and red. Her only medication was oral contraceptives. Family history was significant for a history of \u201cblood clots\u201d in mul-tiple members of the maternal side of her family. Physical examination demonstrates an anxious woman with stable vital signs. The left"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1761",
+            "title": "Biochemistry_Lippinco",
+            "content": "4.2. An Ashkenazi Jewish couple has their 6-month-old son evaluated for listlessness, poor head control, and a fixed gaze. Tay-Sachs disease, an autosomal-recessive disease of lipid degradation, is diagnosed. The couple also has a daughter. The family\u2019s pedigree is shown to the right, along with Southern blots of a restriction fragment length polymorphism very closely linked to the gene for hexosaminidase A, which is defective in Tay-Sachs disease. Which of the statements below is most accurate with respect to the daughter? A. She has a 25% chance of having Tay-Sachs disease. B. She has a 50% chance of having Tay-Sachs disease. C. She has Tay-Sachs disease. D. She is a carrier for Tay-Sachs disease. E. She is homozygous normal."
+        },
+        {
+            "id": "Pharmacology_Katzung_6233",
+            "title": "Pharmacology_Katzung",
+            "content": "Introduction to Toxicology: Occupational & Environmental Daniel T. Teitelbaum, MD* A 6-year-old girl is brought to the emergency department by her parents. She is comatose, tachypneic (25 breaths per minute), and tachycardic (150 bpm), but she appears flushed, and fingertip pulse oximetry is normal (97%) breathing room air. Questioning of her parents reveals that they are homeless and have been living in their car (a small van). The nights have been cold, and they have used a small char-coal burner to keep warm inside the vehicle. What is the most likely diagnosis? What treatment should be instituted immediately? If her mother is pregnant, what additional measures should be taken?"
+        },
+        {
+            "id": "Pharmacology_Katzung_4332",
+            "title": "Pharmacology_Katzung",
+            "content": "George P. Chrousos, MD A 19-year-old man complains of anorexia, fatigue, dizziness, and weight loss of 8 months\u2019 duration. The examining physician discovers postural hypotension and moderate vitiligo (depigmented areas of skin) and obtains routine blood tests. She finds hyponatremia, hyperkalemia, and acidosis and suspects Addison\u2019s disease. She performs a standard ACTH 1\u201324 stimulation test, which reveals an insufficient plasma cortisol response compatible with primary adrenal insuf-ficiency. The diagnosis of autoimmune Addison\u2019s disease is made, and the patient must start replacement of the hormones he cannot produce himself. How should this patient be treated? What precautions should he take?"
+        },
+        {
+            "id": "Pharmacology_Katzung_5171",
+            "title": "Pharmacology_Katzung",
+            "content": "A 59-year-old woman presents to an urgent care clinic with a 4-day history of frequent and painful urination. She has had fevers, chills, and flank pain for the past 2 days. Her physician advised her to come immediately to the clinic for evaluation. In the clinic she is febrile (38.5\u00b0C [101.3\u00b0F]) but otherwise stable and states she is not experiencing any nausea or vomiting. Her urine dipstick test is positive for leukocyte esterase. Urinalysis and urine culture are ordered. Her past medical history is significant for three urinary tract infections in the past year. Each episode was uncom-plicated, treated with trimethoprim-sulfamethoxazole, and promptly resolved. She also has osteoporosis for which she takes a daily calcium supplement. The decision is made to treat her with oral antibiotics for a complicated urinary tract infection with close follow-up. Given her history, what would be a reasonable empiric antibiotic choice? Depending on the antibiotic choice are there potential drug"
+        },
+        {
+            "id": "First_Aid_Step2_1247",
+            "title": "First_Aid_Step2",
+            "content": "An active 13-year-old boy has anterior knee pain. Diagnosis? Bone is fractured in a fall on an outstretched hand. Complication of scaphoid fracture. Signs suggesting radial nerve damage with humeral fracture. A young child presents with proximal muscle weakness, waddling gait, and pronounced calf muscles. A first-born female who was born in breech position is found to have asymmetric skin folds on her newborn exam. Diagnosis? Treatment? An 11-year-old obese African-American boy presents with sudden onset of limp. Diagnosis? Workup? The most common 1\u00b0 malignant tumor of bone. Pseudogout. Polymyalgia rheumatica. Osgood-Schlatter disease. Distal radius (Colles\u2019 fracture). Avascular necrosis. Wrist drop, loss of thumb abduction. Duchenne muscular dystrophy. Developmental dysplasia of the hip. If severe, consider a Pavlik harness to maintain abduction. Slipped capital femoral epiphysis. AP and frog-leg lateral view. Multiple myeloma."
+        },
+        {
+            "id": "Obstentrics_Williams_1916",
+            "title": "Obstentrics_Williams",
+            "content": "his autosomal recessive disorder results in spinal cord motor neuron degeneration that leads to skeletal muscle atrophy and generalized weakness. here is currently no efective treatment. The prevalence of spinal muscular atrophy (SA) is 1 in 6,000 to 10,000 live births. Types I, II, III, and IV are caused by mutations in the survival motor neuron (SMN1) gene, which is TABLE 14-1e1. Cystic Fibrosis Detection and Carrier Rates before and ater Testing Ashkenazi Jewish 94.0 1/24 1 in 384 Caucasian 88.3 '1125 1 in 206 Hispanic American 71.7 1/58 1 in 203 African American 64.5 1/61 1 in 171 Asian American 48.9 1/94 1 in 183 Data from American College of Medical Genetics, 2006."
+        },
+        {
+            "id": "Pharmacology_Katzung_2257",
+            "title": "Pharmacology_Katzung",
+            "content": "Anthony J. Trevor, PhD not overweight, and she takes no prescription drugs. She drinks decaffeinated coffee but only one cup in the morning; however, she drinks as many as six cans per day of diet cola. She drinks a glass of wine with her evening meal but does not like stronger spirits. What other aspects of this patient\u2019s history would you like to know? What therapeutic measures are appropriate for this patient? What drug, or drugs, (if any) would you prescribe? At her annual physical examination, a 53-year-old middle school teacher complains that she has been having difficulty falling asleep, and after falling asleep, she awakens several times during the night. These episodes now occur almost nightly and are interfering with her ability to teach. She has tried various over-the-counter sleep remedies, but they were of little help and she experienced \u201changover\u201d effects on the day following their use. Her general health is good, she is"
+        },
+        {
+            "id": "Surgery_Schwartz_9589",
+            "title": "Surgery_Schwartz",
+            "content": "of the disease despite extensive testing, and are said to have \u201cidiopathic\u201d chronic pancreatitis.Genetic CausesIn 1952, Comfort and Steinberg reported a kindred of \u201cheredi-tary chronic relapsing pancreatitis\u201d after treating the proband, a 24-year-old woman, at the Mayo Clinic.99 Subsequently, familial patterns of chronic, nonalcoholic pancreatitis have been described worldwide, and a familiar pattern has emerged. Typically, patients first present in childhood or adolescence with abdominal pain and are found to have chronic calcific pan-creatitis on imaging studies. Progressive pancreatic dysfunction is common, and many patients present with symptoms due to pancreatic duct obstruction. The risk of subsequent carcinoma formation is increased, reaching a prevalence, in some series, of 40%, but the age of onset for carcinoma is typically >50 years old.100 The disorder is characterized by an autosomal dominant pattern of inheritance, with 80% penetrance and variable expres-sion. The"
+        },
+        {
+            "id": "Pathology_Robbins_1540",
+            "title": "Pathology_Robbins",
+            "content": "Cardiorespiratory complications, such as chronic cough, persistent lung infections, obstructive pulmonary disease, and cor pulmonale, constitute the most common cause of death (accounting for approximately 80% of fatalities) in patients who receive follow-up care in most CF centers in the United States. By 18 years of age, 80% of patients with classic CF harbor P. aeruginosa, and 3.5% harbor B. cepacia. With the indiscriminate use of antibiotic prophylaxis, there has been an unfortunate resurgence of resistant strains of Pseudomonas in many patients. Significant liver disease occurs late in the natural history of CF and is foreshadowed by pulmonary and pancreatic involvement; with increasing life expectancy, liver disease is now the third most common cause of death in patients with CF (after cardiopulmonary and transplant-related complications). More extensive DNA sequencing has shown that the spectrum of diseases caused by germline CFTR mutations (either biallelic or in heterozygous"
+        },
+        {
+            "id": "First_Aid_Step2_912",
+            "title": "First_Aid_Step2",
+            "content": "Pulmonary manifestations are managed with chest physical therapy, bronchodilators, corticosteroids, antibiotics, and DNase. Administer pancreatic enzymes and fat-soluble vitamins A, D, E, and K for malabsorption. Nutritional counseling and support with a high-calorie and high-protein diet are essential for health maintenance. \u25a0Patients who have severe disease (but who can tolerate surgery) may be candidates for lung or pancreas transplants. Life expectancy was once around 20 years, but with newer treatments it is increasing to past age 30."
+        },
+        {
+            "id": "Pharmacology_Katzung_6809",
+            "title": "Pharmacology_Katzung",
+            "content": "A 21-year-old woman comes with her parents to discuss therapeutic options for her Crohn\u2019s disease. She was diag-nosed with Crohn\u2019s disease 2 years ago, and it involves her terminal ileum and proximal colon, as confirmed by colonoscopy and small bowel radiography. She was initially treated with mesalamine and budesonide with good response, but over the last 2 months, she has had a relapse of her symptoms. She is experiencing fatigue, cramping, abdominal pains, and nonbloody diarrhea up to 10 times daily, and she has had a 15-lb weight loss. She has no other significant medical or surgical his-tory. Her current medications are mesalamine 2.4 g/d and budesonide 9 mg/d. She appears thin and tired. Abdominal examination reveals tenderness without guarding in the right lower quadrant; no masses are palpable. On perianal examination, there is no tenderness, fissure, or fistula. Her laboratory data are notable for anemia and elevated C-reactive protein. What are the options for immediate"
+        },
+        {
+            "id": "Biochemistry_Lippincott_175",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. .1. A 30-year-old woman of Northern European ancestry presents with progressive dyspnea (shortness of breath). She denies the use of cigarettes. Family history reveals that her sister also has problems with her lungs. Which one of the following etiologies most likely explains this patient\u2019s pulmonary symptoms? A. Deficiency in dietary vitamin C B. Deficiency of \u03b11-antitrypsin C. Deficiency of prolyl hydroxylase D. Decreased elastase activity E. Increased collagenase activity"
+        },
+        {
+            "id": "Obstentrics_Williams_7063",
+            "title": "Obstentrics_Williams",
+            "content": "Pregnancy outcome is inversely related to severity of lung dysfunction. Advanced chronic lung disease, hypoxia, and frequent infections may prove deleterious. At least in the past, cor pulmonale was common, but even that does not preclude successful pregnancy (Cameron, 2005). In some women, pancreatic dyunction may cause poor maternal nutrition. Otherwise normal pregnancy-induced insulin resistance frequently results in gestational diabetes after midpregnancy (Hardin, 2005). In one study of 48 pregnancies, half had pancreatic insuiciency and a third required insulin (horpe-Beeston, 2013). Up to 25 percent of patients develop diabetes by age 20, and diabetes is most frequent with the Phe508del homozygous mutation (Giacobbe, 2012; Patel, 2015)."
+        },
+        {
+            "id": "InternalMed_Harrison_4866",
+            "title": "InternalMed_Harrison",
+            "content": "In most instances, an affected individual is the offspring of heterozygous parents. In this situation, there is a 25% chance that the offspring will have a normal genotype, a 50% probability of a heterozygous state, and a 25% risk of homozygosity for the recessive alleles (Figs. 82-10, 82-13B). In the case of one unaffected heterozygous and one affected homozygous parent, the probability of disease increases to 50% for each child. In this instance, the pedigree analysis mimics an autosomal dominant mode of inheritance (pseudodominance). In contrast to autosomal dominant disorders, new mutations in recessive alleles are rarely manifest because they usually result in an asymptomatic carrier state."
+        },
+        {
+            "id": "First_Aid_Step1_47",
+            "title": "First_Aid_Step1",
+            "content": "TREATMENT Multifactorial: chest physiotherapy, albuterol, aerosolized dornase alfa (DNase), and hypertonic saline facilitate mucus clearance. Azithromycin used as anti-inflammatory agent. Ibuprofen slows disease progression. Pancreatic enzyme replacement therapy for pancreatic insufficiency. In patients with Phe508 deletion: combination of lumacaftor (corrects misfolded proteins and improves their transport to cell surface) and ivacaftor (opens Cl\u2013 channels \u2022 improved chloride transport). Ornithine transcarbamylase deficiency, Fabry disease, Wiskott-Aldrich syndrome, Ocular albinism, G6PD deficiency, Hunter syndrome, Bruton agammaglobulinemia, Hemophilia A and B, Lesch-Nyhan syndrome, Duchenne (and Becker) muscular dystrophy. X-inactivation (lyonization)\u2014one copy of female X chromosome forms a transcriptionally inactive Barr body. Female carriers variably affected depending on the pattern of inactivation of the X chromosome carrying the mutant vs normal gene."
+        },
+        {
+            "id": "Pharmacology_Katzung_4444",
+            "title": "Pharmacology_Katzung",
+            "content": "The Gonadal Hormones & Inhibitors George P. Chrousos, MD A 25-year-old woman with menarche at 13 years and menstrual periods until about 1 year ago complains of hot flushes, skin and vaginal dryness, weakness, poor sleep, and scanty and infrequent menstrual periods of a year\u2019s dura-tion. She visits her gynecologist, who obtains plasma levels of follicle-stimulating hormone and luteinizing hormone, both of which are moderately elevated. She is diagnosed with premature ovarian failure, and estrogen and pro-gesterone replacement therapy is recommended. A dual-energy absorptiometry scan (DEXA) reveals a bone density t-score of <2.5 SD, ie, frank osteoporosis. How should the ovarian hormones she lacks be replaced? What extra mea-sures should she take for her osteoporosis while receiving treatment? \u25a0 THE OVARY (ESTROGENS, PROGESTINS, OTHER OVARIAN HORMONES, ORAL CONTRACEPTIVES, INHIBITORS & ANTAGONISTS, & OVULATIONINDUCING AGENTS)"
+        },
+        {
+            "id": "Obstentrics_Williams_2120",
+            "title": "Obstentrics_Williams",
+            "content": "Typically, carrier parents are identified after the birth of an afected child. Molecular genetic testing is clinically available, initially using sequence analysis of the CP21A2 gene, which encodes the 21-hydroxylase enzyme (Nimkarn, 2016). If this is uninformative, gene-targeted deletion/duplication analy sis is performed, and additional testing such as whole exome sequencing may be considered (Chap. 13, p. 272). A goal of prenatal diagnosis is to limit dexamethasone expo sure in males and in unafected females. Prenatal diagnosis villi-at 10 to 12 weeks' gestation-or on amniocytes after 15 weeks. Cell-free DNA testing of maternal serum has potential to replace invasive tests such as chorionic villus sampling and amniocentesis for CAH (Chap. 13, p. 273). Determination of (Devaney, 2011). In the research setting, cell-free DNA testing using hybridization probes lanking the CP21A2 gene can be efective as early as 5617 weeks' gestation (New, 2014)."
+        },
+        {
+            "id": "Pharmacology_Katzung_5",
+            "title": "Pharmacology_Katzung",
+            "content": "Introduction: The Nature of Drugs & Drug Development & Regulation Bertram G. Katzung, MD, PhD* A 78-year-old woman is brought to the hospital because of suspected aspirin overdose. She has taken aspirin for joint pain for many years without incident, but during the past year, she has exhibited many signs of cognitive decline. Her caregiver finds her confused, hyperventilating, and vomiting. The care-giver finds an empty bottle of aspirin tablets and calls 9-1-1. In the emergency department, samples of venous and arterial blood are obtained while the airway, breathing, and circulation are evaluated. An intravenous (IV) drip is started, and gastro-intestinal decontamination is begun. After blood gas results are reported, sodium bicarbonate is administered via the IV. What is the purpose of the sodium bicarbonate?"
+        },
+        {
+            "id": "Pharmacology_Katzung_3233",
+            "title": "Pharmacology_Katzung",
+            "content": "Charles DeBattista, MD house and has no motivation, interest, or energy to pursue recreational activities that she once enjoyed such as hiking. She describes herself as \u201cchronically miserable and worried all the time.\u201d Her medical history is notable for chronic neck pain from a motor vehicle accident for which she is being treated with tramadol and meperidine. In addition, she is on hydrochlorothiazide and propranolol for hypertension. The patient has a history of one depressive episode after a divorce that was treated successfully with fluoxetine. Medical workup including complete blood cell count, thyroid func-tion tests, and a chemistry panel reveals no abnormalities. She is started on fluoxetine for a presumed major depressive episode and referred for cognitive behavioral psychotherapy. What CYP450 and pharmacodynamic interactions might be associated with fluoxetine use in this patient? Which class of antidepressants would be contraindicated in this patient? A 47-year-old woman"
+        },
+        {
+            "id": "InternalMed_Harrison_5425",
+            "title": "InternalMed_Harrison",
+            "content": "These features of AAV were used to develop the first licensed gene therapy product in Europe, an AAV vector for treatment of the autosomal recessive disorder lipoprotein lipase (LPL) deficiency. This rare disorder (1\u20132/million) is due to loss-of-function mutations in the gene encoding LPL, an enzyme normally produced in skeletal muscle and required for the catabolism of triglyceride-rich lipoproteins and chylomicrons. Affected individuals have lipemic serum and may have eruptive xanthomas, hepatosplenomegaly, and in some cases, recurrent bouts of acute pancreatitis. Clinical trials demonstrated the safety of intramuscular injection of AAV-LPL and its efficacy in reducing frequency of pancreatitis episodes in affected individuals, leading to drug approval in Europe. Additional clinical trials currently under way that use AAV vectors in the setting of genetic disease include those for muscular dystrophies, \u03b11 antitrypsin deficiency, Parkinson\u2019s disease, Batten\u2019s disease, hemophilia B,"
+        },
+        {
+            "id": "InternalMed_Harrison_29234",
+            "title": "InternalMed_Harrison",
+            "content": "There are two current treatments for the MPS I diseases. Hematopoietic stem cell transplantation (HSCT) is the standard treatment for patients presenting at <2 years of age who appear to have or are at risk for neurologic degeneration. HSCT results in stabilization of CNS disease and reverses hepatosplenomegaly. It also beneficially affects cardiac and respiratory disease. HSCT does not eliminate corneal disease or result in the resolution of progressive skeletal disease. Enzyme therapy effectively addresses hepatosplenomegaly and alleviates cardiac and respiratory disease. The enzyme does not effectively penetrate the CNS and does not directly affect CNS disease. Enzyme therapy and HSCT appear to have similar effects on visceral signs and symptoms. Enzyme therapy poses a lower risk of life-threatening complications and may therefore be advantageous for patients who have attenuated manifestations without CNS disease. A combination of enzyme therapy and HSCT has been used, with enzyme"
+        },
+        {
+            "id": "First_Aid_Step2_1261",
+            "title": "First_Aid_Step2",
+            "content": "A 13-year-old boy has a history of theft, vandalism, and violence toward family pets. A five-month-old girl has \u2193 head growth, truncal dyscoordination, and \u2193 social interaction. A patient hasn\u2019t slept for days, lost $20,000 gambling, is agitated, and has pressured speech. Diagnosis? Treatment? After a minor fender bender, a man wears a neck brace and requests permanent disability. A nurse presents with severe hypoglycemia; blood analysis reveals no elevation in C-peptide. A patient continues to use cocaine after being in jail, losing his job, and not paying child support. A violent patient has vertical and horizontal nystagmus. A woman who was abused as a child frequently feels outside of or detached from her body. A man has repeated, intense urges to rub his body against unsuspecting passengers on a bus. A schizophrenic patient takes haloperidol for one year and develops uncontrollable tongue movements. Diagnosis? Treatment?"
+        },
+        {
+            "id": "Obstentrics_Williams_1917",
+            "title": "Obstentrics_Williams",
+            "content": "Data from American College of Medical Genetics, 2006. located on the long arm of chromosome 5 (5q 13.2) and encodes the SMN protein. Types I and II account for 80 percent of cases and are both lethal (American College of Obstetricians and Gynecologists, 2017b). SMA type I, known as WerdnigHofmann, is the most severe. Disease onset is within the first 6 months, and afected children die of respiratory failure by age 2 years. Type II generally has onset before age 2 years, and the age at death can range from 2 years to the third decade of life. Type III also presents before age 2 years, with disease severity that is milder and more variable. Type IV does not present until adulthood."
+        },
+        {
+            "id": "InternalMed_Harrison_5041",
+            "title": "InternalMed_Harrison",
+            "content": "Previous history of a child with birth defects or a genetic disorder Personal or family history suggestive of a genetic disorder Chapter 84 The Practice of Genetics in Clinical Medicine disorders, asymptomatic patients should be advised that a positive test result does not always translate into future disease development. In addition, the role of nongenetic factors, such as environmental exposures and lifestyle, must be discussed in the context of multi-factorial disease risk and disease prevention. Finally, patients should understand the natural history of the disease as well as the potential options for intervention, including screening, prevention, and in certain circumstances, pharmacologic treatment or prophylactic surgery."
+        }
+    ],
+    "scores": [
+        0.029144261021070705,
+        0.023899613448714805,
+        0.023155959201642214,
+        0.021051282781400383,
+        0.01916024935826916,
+        0.018404390037990714,
+        0.01837336704593342,
+        0.018041446566436407,
+        0.01770873786407767,
+        0.016945516945516943,
+        0.01692624991110163,
+        0.016255534471853256,
+        0.015948659295971536,
+        0.01573283424961984,
+        0.015574650912996778,
+        0.015429338103756709,
+        0.015173285821024196,
+        0.01513975155279503,
+        0.015055629274267634,
+        0.014823717948717948,
+        0.014666666666666668,
+        0.014355742296918767,
+        0.014088612514574427,
+        0.013710178365427279,
+        0.013314967860422407,
+        0.013264462809917357,
+        0.013247282608695652,
+        0.013098068660576482,
+        0.012676508344030809,
+        0.012389313267206324,
+        0.011982922541527642,
+        0.011019367372958534
+    ]
+}

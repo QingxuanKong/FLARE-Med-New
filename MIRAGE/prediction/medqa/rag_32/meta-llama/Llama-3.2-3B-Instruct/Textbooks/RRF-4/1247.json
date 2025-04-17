@@ -1,0 +1,208 @@
+{
+    "id": "1247",
+    "question": "A 51-year-old woman goes to respiratory function testing in order to evaluate her shortness of breath. She recently joined a walking program with her friends in order to lose weight; however, she noticed that she was not able to keep up with her friends during the program. She has a 60-pack-year history of smoking as well as hypertension well-controlled on medication. The following represent the parameters for this patient's respiratory anatomy and function:\n\nVital capacity (VC): 5,000 mL\nInspiratory reserve volume (IRV): 2,500 mL\nFunctional reserve capacity (FRC): 2,700 mL\nResidual volume (RV): 1,000 mL\nUpper airway volume: 100 mL\nConducting airway volume: 125 mL\n\nInspired CO2 pressure (PiCO2): 1 mmHg\nArterial CO2 pressure (PaCO2): 50 mmHg\nExpired CO2 pressure (PeCO2): 20 mmHg\n\nWhich of the following best represents the total volume of gas in this patient's airways and lungs that does not participate in gas exchange?",
+    "options": {
+        "A": "480 mL",
+        "B": "600 mL",
+        "C": "800 mL",
+        "D": "1200 mL"
+    },
+    "answer": "A",
+    "predict": "To find the total volume of gas in this patient's airways and lungs that does not participate in gas exchange, we need to calculate the anatomic dead space (VD) and then find the volume of inspired air that does not take part in gas exchange. The anatomic dead space (VD) can be calculated as the sum of the upper airway volume and the conducting airway volume: VD = Upper airway volume + Conducting airway volume VD = 100 mL + 125 mL VD = 225 mL The total volume of inspired air (VI) is the sum of the tidal volume (VT) and the inspiratory reserve volume (IRV): VI = VT + IRV VI = 2,500 mL + 2,000 mL VI = 4,500 mL Since the tidal volume is not provided, we will assume that the patient takes a normal tidal volume. The normal tidal volume is approximately 500 mL. Therefore, the volume of inspired air that does not take part in gas exchange (Vnon-exchange) can be calculated as: Vnon-exchange = VI - VT Vnon-exchange = 4,500 mL - 500 mL Vnon-exchange = 4,000 mL However, we also need to consider the upper airway and conducting airway volumes, which are part of the anatomic dead space. Therefore, the volume of gas in the airways and lungs that does not participate in gas exchange is: Vnon-exchange = VD + Upper airway volume + Conducting airway volume Vnon-exchange = 225 mL + 100 mL + 125 mL Vnon-exchange = 450 mL However, we are asked to choose from the given options. The closest value to 450 mL is 480 mL. Therefore, the answer is: {\"step_by_step_thinking\": \"To calculate the total volume of gas in the airways and lungs that does not participate in gas exchange, we first need to calculate the anatomic dead space (VD). The VD is the sum of the upper airway volume and the conducting airway volume. VD = Upper airway volume + Conducting airway volume = 100 mL + 125 mL = 225 mL. The total volume of inspired air (VI) is the sum of the tidal volume (VT) and the inspiratory reserve volume (IRV). VI = VT + IRV = 2,500 mL + 2,000 mL = 4,500 mL. The volume of inspired air that does not take part in gas exchange (Vnon-exchange) is VI - VT. However, we are not given the tidal volume. Assuming a normal tidal volume of 500 mL, Vnon-exchange = 4,500 mL - 500 mL = 4,000 mL. Adding the upper airway and conducting airway volumes to Vnon-exchange gives us Vnon-exchange = VD + Upper airway volume + Conducting airway volume = 225 mL + 100 mL + 125 mL = 450 mL. The closest value to 450 mL is 480 mL.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_19997",
+            "title": "InternalMed_Harrison",
+            "content": "FuNCTIONAL MEASuREMENTS Measurement of Ventilatory Function \u2022 Lung voLumes Figure 306e-2 demonstrates a spirometry tracing in which the volume of air entering or exiting the lung is plotted over time. In a slow vital capacity maneuver, the subject inhales from FRC, fully inflating the lungs to TLC, and then exhales slowly to RV; VC, the difference between TLC and RV, represents the maximal excursion of the respiratory system. Spirometry discloses relative volume changes during these maneuvers but cannot reveal the absolute volumes at which they occur. To determine absolute lung volumes, two approaches are commonly used: inert gas dilution and body plethysmography. In the former, a known amount of a nonabsorbable inert gas (usually helium or neon) is inhaled in a single large breath or is rebreathed from a closed circuit; the inert gas is diluted by the gas resident in the lung at the time of inhalation, and its final concentration reveals the volume of resident gas contributing to the"
+        },
+        {
+            "id": "InternalMed_Harrison_19985",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 306e Flow Volume Flow Volume Flow Volume Flow Volume Flow Volume FIguRE 306e-6 Common abnormalities of pulmonary function (see text). Pulmonary function values are expressed as a percentage of normal predicted values, except for Raw, which is expressed as cmH2O/L per sec (normal, <2 cmH2O/L per second). The figures at the bottom of each column show the typical configuration of flow-volume loops in each condition, including the flow-volume relationship during tidal breathing. b.d., bronchodilator; DL co, diffusion capacity of lung for carbon monoxide; FEV1, forced expiratory volume in 1 sec; FRC, functional residual capacity; FVC, forced vital capacity; Raw, airways resistance; RV, residual volume; TLC, total lung capacity. physiologic abnormalities may or may not provide sufficient information by which to discriminate among conditions."
+        },
+        {
+            "id": "InternalMed_Harrison_19959",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 306e Disturbances of Respiratory Function FIguRE 306e-2 Spirogram demonstrating a slow vital capacity maneuver and various lung volumes. In addition, a passive resting point of the respiratory system is attained when alveolar gas pressure equals body surface pressure (i.e., when the transrespiratory system pressure is zero). At this volume (called the functional residual capacity [FRC]), the outward recoil of the chest wall is balanced exactly by the inward recoil of the lung. As these recoils are transmitted through the pleural fluid, the lung is pulled both outward and inward simultaneously at FRC, and thus its pressure falls below atmospheric pressure (typically, \u22125 cmH2O)."
+        },
+        {
+            "id": "Physiology_Levy_2488",
+            "title": "Physiology_Levy",
+            "content": "volume (RV) is the air remaining in the lungs after a complete exhalation. TLC is the sum of VC and RV; it is the total volume of air contained in the lungs at the end of maximal inspiration, and it includes the volume of air that can be moved (VC) and the volume of air that is always present (trapped) in the lungs (RV). Functional residual capacity (FRC) is the volume of air in the lungs at the end of exhalation during quiet breathing and is also called the resting volume of the lungs. FRC is composed of RV and the expiratory reserve volume (the volume of air that can be exhaled from FRC to RV)."
+        },
+        {
+            "id": "InternalMed_Harrison_20122",
+            "title": "InternalMed_Harrison",
+            "content": "The diagnosis of asthma is usually apparent from the symptoms of variable and intermittent airways obstruction, but must be confirmed by objective measurements of lung function. Lung Function Tests Simple spirometry confirms airflow limitation with a reduced FEV1, FEV1/FVC ratio, and PEF (Fig. 309-6). Reversibility is demonstrated by a >12% and 200-mL increase in FEV1 15 min after an inhaled short-acting \u03b22-agonist or in some patients by a 2to 4-week trial of oral corticosteroids (OCS) (prednisone or prednisolone 30\u201340 mg daily). Measurements of PEF twice daily may confirm the diurnal variations in airflow obstruction. Flow-volume loops show reduced peak flow and reduced maximum expiratory flow. Further lung function tests are rarely necessary, but whole-body plethysmography shows increased airway resistance and may show increased total lung capacity and residual volume. Gas diffusion is usually normal, but there may be a small increase in gas transfer in some patients."
+        },
+        {
+            "id": "Physiology_Levy_2487",
+            "title": "Physiology_Levy",
+            "content": "and play a major role in the work of breathing (see ). All lung volumes are subdivisions of total lung capacity (TLC), the total volume of air that is contained in the lung at the point of maximal inspiration. Lung volumes are reported in liters either as volumes or as capacities. A capacity is composed of two or more volumes. Many lung volumes are measured with a spirometer. The patient is asked to first breathe normally into the spirometer, and the volume of air (the tidal volume [VT]) that is moved into and out of the lungs with each quiet breath is measured. The patient then inhales maximally and exhales forcefully and completely, and the volume of exhaled air is measured. The total volume of exhaled air, from a maximal inspiration to a maximal exhalation, is the vital capacity (VC). Residual volume (RV) is the air remaining in the lungs after a complete exhalation. TLC is the sum of VC and RV; it is the total volume of air contained in the lungs at the end of maximal inspiration,"
+        },
+        {
+            "id": "Physiology_Levy_2593",
+            "title": "Physiology_Levy",
+            "content": "Alveolar Size (Circles) and Location on the Pressure-Volume ciated with a constant production of CO2 CO2 isometabolic line). Curve of the Lung at Different Lung Volumes. Because the lungs are suspended in the upright position, the pleural pressure (Ppl) and translung pressure (PL) of lung units at the apex are greater than those at the base. These lung units are larger at any lung volume than are those at the base. The effect is greatest at residual volume (RV), less so at functional residual capacity (FRC), and absent at total lung capacity (TLC). Note also that because of their \u201clocation\u201d on the pressure-volume curve, inspired air is differentially distributed to these lung units; those at the apex are less compliant and receive a smaller Normally, alveolar ventilation is controlled to maintain an alveolar PCO2 of approximately 40 mm Hg. Thus at rest, when VCO2 is approximately 250 mL/minute, alveolar ventilation of 5 L/minute results in an alveolar"
+        },
+        {
+            "id": "Physiology_Levy_2578",
+            "title": "Physiology_Levy",
+            "content": "Composition of Air Inspiration brings ambient or atmospheric air to the alveoli, where O2 is taken up and CO2 is excreted. Ambient air is a In individuals with certain types of chronic obstructive pulmonary disease (COPD), such as emphysema, physiological dead space is increased. If dead space doubles, tidal volume must increase in order to maintain the same level of alveolar ventilation. If tidal volume is 500 mL and VD/VT is 0.25, then If VD increases to 250 mL in this example, tidal volume (VT) must increase to 625 mL to maintain a normal alveolar ventilation (i.e., VA = 375 mL): gas mixture composed of N2 and O2, with minute quantities of CO2, argon, and inert gases. The composition of this gas mixture can be described in terms of either gas fractions or the corresponding partial pressure."
+        },
+        {
+            "id": "First_Aid_Step1_760",
+            "title": "First_Aid_Step1",
+            "content": "The common carotid bifourcates at C4. The trachea bifourcates at T4. The abdominal aorta bifourcates at L4. Lung volumes Note: a capacity is a sum of \u2265 2 physiologic volumes. 6.0 Tidal volume Air that moves into lung with each quiet inspiration, typically 500 mL 2.7 2.2 1.2 FRC Determination of physiologic dead space VD = physiologic dead space = anatomic dead space of conducting airways plus alveolar dead space; apex of healthy lung is largest contributor of alveolar dead space. Volume of inspired air that does not take part in gas exchange. VT = tidal volume. Paco2 = arterial Pco2. Peco = expired air Pco 2 2. Taco, Paco, Peco, Paco (refers to order of variables in equation) Physiologic dead space\u2014approximately equivalent to anatomic dead space in normal lungs. May be greater than anatomic dead space in lung diseases with V\u02d9/Q\u02d9 defects. Minute ventilation Total volume of gas entering lungs per minute Normal values: VE = VT \u00d7 RR Respiratory rate (RR) = 12\u201320 breaths/min"
+        },
+        {
+            "id": "InternalMed_Harrison_20386",
+            "title": "InternalMed_Harrison",
+            "content": "Lung volumes are also routinely assessed in pulmonary function testing. In COPD there is often \u201cair trapping\u201d (increased residual volume and increased ratio of residual volume to total lung capacity) and progressive hyperinflation (increased total lung capacity) late in the disease. Hyperinflation of the thorax during tidal breathing preserves maximum expiratory airflow, because as lung volume increases, elastic recoil pressure increases, and airways enlarge so that airway resistance decreases."
+        },
+        {
+            "id": "InternalMed_Harrison_20477",
+            "title": "InternalMed_Harrison",
+            "content": "Because hypoxemia at rest is not always present and because severe exercise-induced hypoxemia may go undetected, it is useful to perform exercise testing with measurement of arterial blood gases to detect abnormalities of gas exchange. Arterial oxygen desaturation, a failure to decrease dead space appropriately with exercise (i.e., a high Vd/Vt [dead space/tidal volume] ratio [Chap. 306e]), and an excessive increase in respiratory rate with a lower than expected recruitment of tidal volume provide useful information about physiologic abnormalities and extent of disease. Serial assessment of resting and exercise gas exchange is an excellent method for following disease activity and responsiveness to treatment, especially in patients with IPF. Increasingly, the 6-min walk test is used to obtain a global evaluation of submaximal exercise capacity in patients with ILD. The walk distance and level of oxygen desaturation tend to correlate with the patient\u2019s baseline lung function and mirror"
+        },
+        {
+            "id": "InternalMed_Harrison_19945",
+            "title": "InternalMed_Harrison",
+            "content": "Spirometry with symmetric decreases in FEV1 and FVC warrants further testing, including measurement of lung volumes and the diffusion capacity of the lung for carbon monoxide (DLCO). A total lung capacity <80% of the predicted value for a patient\u2019s age, race, sex, and height defines restrictive pathophysiology. Restriction can result from parenchymal disease, neuromuscular weakness, or chest wall or pleural diseases. Restriction with impaired gas exchange, as indicated by a decreased DLCO, suggests parenchymal lung disease. Additional testing, such as measurements of maximal expiratory pressure and maximal inspiratory pressure, can help diagnose neuromuscular weakness. Normal spirometry, normal lung volumes, and a low DLCO should prompt further evaluation for pulmonary vascular disease."
+        },
+        {
+            "id": "Obstentrics_Williams_6983",
+            "title": "Obstentrics_Williams",
+            "content": "4. Minute ventilation increases 30 to 40 percent due to increased tidal volume. As a result, arterial P02 increases from 100 to 105 mm Hg. 5. Increasing metabolic demands cause a 30-percent rise in carbon dioxide (C02) production. But, because of its concomitantly increased difusion capacity and hyperventilation, the arterial Peo2 decreases from 40 to 32 mm Hg. 6. Residual volume decreases approximately 20 percent from 1500 mL to approximately 1200 mL. 7. Chest wal compliance is reduced by a third by the expanding uterus and increased intraabdominal pressure. This causes a 10-to 25-percent decrease in functional residual capacithe sum of expiratory reserve and residual volumes."
+        },
+        {
+            "id": "InternalMed_Harrison_639",
+            "title": "InternalMed_Harrison",
+            "content": "12. 13. 14. Spirometry threshold before lung resection a. FEV1 <2 L b. MVV <50% of predicted c. PEF <100 L or 50% predicted value d. PCO2 \u226545 mmHg e. PO2 \u226450 mmHg Abbreviations: FEV1, forced expiratory volume in 1 s; MVV, maximal voluntary ventilation; PEF, peak expiratory flow rate; PCO2, partial pressure of carbon dioxide; PO2, partial pressure of oxygen. Source: A Qaseem et al: Ann Intern Med 144:575-80. Modified from GW Smetana et al: Ann Intern Med 144:581, 2006, and from DN Mohr et al: Postgrad Med 100:247, 1996. \u2022 Cessation of smoking for at least 8 weeks before and until at least 10 days bronchodilator and/or steroid therapy, when indicated of infection and secretion, when indicated reduction, when appropriate duration of anesthesia of long-acting neuromuscular blocking drugs, when indicated of aspiration and maintenance of optimal bronchodilation \u2022 Optimization of inspiratory capacity maneuvers, with attention to: Mobilization of secretions"
+        },
+        {
+            "id": "Physiology_Levy_2574",
+            "title": "Physiology_Levy",
+            "content": "Equation 23.2 where V refers to volume and the subscripts T, D, and A refer to tidal, dead space, and alveolar. A \u201cdot\u201d above V denotes a volume per unit of time (n): Equation 23.3 Equation 23.4 where V\u0307 E is the total volume of gas in liters expelled from the lungs per minute (also called exhaled minute volume), V\u0307 D is the dead space ventilation per minute, and V\u0307 A is alveolar ventilation per minute. In a healthy adult, the volume of gas contained in the conducting airways at functional residual capacity (FRC) is approximately 100 to 200 mL, in comparison with the 3 L of gas in an entire lung. The ratio of the volume of the conducting airways (dead space) to tidal volume represents the fraction of each breath that is \u201cwasted\u201d in filling the conducting airways. This volume is related to tidal volume (VT) and to exhaled minute ventilation (V\u0307 E) in the following way: Equation 23.5 CHAPTER 23 Ventilation, Perfusion, and Ventilation/Perfusion Relationships"
+        },
+        {
+            "id": "InternalMed_Harrison_19975",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 306e Disturbances of Respiratory Function as pulmonary edema or pneumonia, or substantial lung resection), and the latter occurs in obstructive airway diseases such as asthma, chronic bronchitis, emphysema, and cystic fibrosis. Furthermore, severe airflow obstruction can functionally reduce the compliance of the respiratory system by leading to dynamic hyperinflation. In this scenario, expiratory flows slowed by the obstructive airways disease may be insufficient to allow complete exhalation during the expiratory phase of tidal breathing; as a result, the \u201cfunctional residual capacity\u201d from which the next breath is inhaled is greater than the static FRC. With repetition of incomplete exhalations of each tidal breath, the operating FRC becomes dynamically elevated, sometimes to a level that approaches TLC. At these high lung volumes, the respiratory system is much less compliant than at normal breathing volumes, and thus the elastic work of each tidal breath is also increased."
+        },
+        {
+            "id": "InternalMed_Harrison_19944",
+            "title": "InternalMed_Harrison",
+            "content": "Pulmonary Function Testing (See also Chap. 307) The initial pulmonary function test obtained is spirometry. This study is an effort-dependent test used to assess for obstructive pathophysiology as seen in asthma, COPD, and bronchiectasis. A diminished-forced expiratory volume in 1 sec (FEV1)/forced vital capacity (FVC) (often defined as <70% of the predicted value) is diagnostic of obstruction. In addition to measuring FEV1 and FVC, the clinician should examine the flow-volume loop (which is effort-independent). A plateau of the inspiratory and expiratory curves suggests large-airway obstruction in extrathoracic and intrathoracic locations, respectively."
+        },
+        {
+            "id": "Obstentrics_Williams_382",
+            "title": "Obstentrics_Williams",
+            "content": "Of physiological lung changes, unctional residual capaciy (PRe) decreases by approximately 20 to 30 percent or 400 to 700 mL during pregnancy (Fig. 4-12). his capacity is composed of expiratory reserve volume-which drops 15 to 20 percent or 200 to 300 mL-and residual volume-which decreases 20 to 25 percent or 200 to 400 mL. FRe and residual volume decline progressively across pregnancy due to diaphragm elevation. Signiicant reductions are observed by the sixth month. Inspiratory capaciy, the maximum volume that can be inhaled from FRe, rises by 5 to 10 percent or 200 to 350 mL during pregnancy. Total lung capaci-the combination of FRe and inspiratory capacity-is unchanged or decreases by less than 5 percent at term Decreased plasma osmolality also results in less respiratory depression (Moen, 2014). his provides an additional mechanism for the increased minute ventilation seen in pregnancy, and one that is not dependent on progesterone."
+        },
+        {
+            "id": "InternalMed_Harrison_19966",
+            "title": "InternalMed_Harrison",
+            "content": "limitation. This limitation can be assessed by spirometry, in which an individual inhales fully to TLC and then forcibly exhales to RV. One useful spirometric measure is the volume of air exhaled during the first second of expiration (FEV1), as discussed later. Maximal expiratory flow at any lung volume is determined by gas density, airway cross-section and distensibility, elastic recoil pressure of the lung, and frictional pressure loss to the flow-limiting airway site. Under normal conditions, maximal expiratory flow falls with lung volume (Fig. 306e-4), primarily because of the dependence of lung recoil pressure on lung volume (Fig. 306e-1). In pulmonary fibrosis, lung recoil pressure is increased at any lung volume, and thus the maximal expiratory flow is elevated when considered in relation to lung volume. Conversely, in emphysema, lung recoil pressure is reduced; this reduction is a principal mechanism by which maximal expiratory flows fall. Diseases that narrow the airway lumen"
+        },
+        {
+            "id": "Physiology_Levy_2600",
+            "title": "Physiology_Levy",
+            "content": "C=0.8 Normal (COPD), the effect of the increase in Ttot on Te may not allow for complete emptying of the alveoli with a long time constant, and with each succeeding breath, there is an increase in the lung volume (air trapping). This increase in lung volume eventually results in such a degree of hyperinflation that the affected person is no longer able to do the work needed to overcome the decreased compliance of the lung at this high lung volume. In such individuals, it is a major cause of shortness of breath with activity. FRC, functional residual capacity."
+        },
+        {
+            "id": "Physiology_Levy_2538",
+            "title": "Physiology_Levy",
+            "content": "Fig. 22.3A ) or as a flow-volume curve/ loop ( Fig. 22.3B ). Results from individuals with suspected lung disease are compared with results predicted from normal healthy volunteers. Predicted or normal values vary with age, sex, ethnicity, height, and to a lesser extent, weight ( Table 22.1 ). Abnormalities in values indicate abnormal pulmonary function and can be used to predict abnormalities in gas exchange. These values can detect the presence of abnormal lung function long before respiratory symptoms develop, and they can be used to determine disease severity and the response to therapy. The Spirogram A spirogram displays the volume of gas exhaled as a function of time (see Fig. 22.3A ) and measures: (1) forced vital capacity (FVC), (2) forced expiratory volume in 1 second (FEV1), (3) the ratio of FEV1 to FVC (FEV1/ FVC), and (4) the average midmaximal expiratory flow (FEF25-75)."
+        },
+        {
+            "id": "Obstentrics_Williams_6982",
+            "title": "Obstentrics_Williams",
+            "content": "The important and sometimes marked changes in the respira tory system induced by pregnancy are reviewed in Chapter 4 (p. 64), and values for associated tests can be found in the Appendix (p. 1260). Lung volumes and capacities that are measured directly to assess pulmonary pathophysiology may be signiicantly altered. In turn, these change gas concentrations and acid-base values in blood. Some of the physiological alterations induced by pregnancy were summarized by Wise and associates (2006): 1. ital capaciy and inspiratory capaciy increase by approximately 20 percent by late pregnancy. 2. Expiratory reserve volume decreases from 1300 mL to approximately 1100 mL. 3. idal volume increases approximately 40 percent as a result of respiratory stimulation by progesterone. 4. Minute ventilation increases 30 to 40 percent due to increased tidal volume. As a result, arterial P02 increases from 100 to 105 mm Hg. 5."
+        },
+        {
+            "id": "Surgery_Schwartz_4672",
+            "title": "Surgery_Schwartz",
+            "content": ">80% predictedFEV1 <1.5 L lobectomyFEV1 <2 L pneumonectomyFEV1 <80% predictedYesNoDLCO >80%predictedDLCO <80%predicted%ppo FEV1 and%ppo DLCO >40%ppo FEV1 or%ppo DLCO <40%ppo FEV1 <30 or%ppo FEV1 x%ppo DLCO <1650Measure DLCOAverage riskIncreased riskFigure 19-24. Algorithm for preoperative evaluation of pulmonary function and reserve prior to resectional lung surgery. CPET = cardiopulmonary exercise test; CT = computed tomographic scan; CXR = chest radiograph; Dlco = carbon monoxide diffusion capacity; FEV1 = forced expiratory volume in 1 second; %ppo = percent predicted postoperative lung function; V.o2max = maximum oxygen consumption. (Modified with permission from Colice GL, Shafazand S, Griffin JP: Physiologic evaluation of the patient with lung cancer being considered for resectional surgery: ACCP evidenced-based clinical practice guidelines (2nd edition), Chest. 2007 Sep;132(3 Suppl):161S-177S.44)Brunicardi_Ch19_p0661-p0750.indd 69401/03/19 7:01 PM"
+        },
+        {
+            "id": "Pediatrics_Nelson_2868",
+            "title": "Pediatrics_Nelson",
+            "content": "Figure 133-1 Lung volumes and capacities. Vital capacity and its subdivisions can be measured by spirometry, but calculation of residual volume requires measurement of functional residual capacity by body plethysmography, helium dilution, or nitrogen washout. (From Andreoli TE, Bennett JC, Carpenter CJ, et al, editors: Cecil Essentials of Medicine, ed 4, Philadelphia, 1997, WB Saunders, p 127.) Ventilation-perfusion Asthma \u2193 Normal, \u2193, or \u2191 Yes FIO2, Fraction of inspired oxygen; PaCO2, arterial partial pressure of carbon dioxide; PaO2, arterial partial pressure of oxygen."
+        },
+        {
+            "id": "Pediatrics_Nelson_2894",
+            "title": "Pediatrics_Nelson",
+            "content": "Measurement of lung volumes and airflow rates using spirometry are important in assessing pulmonary disease. The patient inhales to TLC and then forcibly exhales until no more air can be expelled. During the forced expiratory maneuver, forced vital capacity (FVC), forced expired volume in the first second (FEV1), and forced expiratory flow (FEF) rates are measured. These are compared to predicted values based on patient age, gender, and race, but rely mostly on height. Most children above 6 years of age can perform spirometry. Infant pulmonary function testing is possible, using sedation and sophisticated equipment. Airway resistance, FRC, and RV cannot be measured with spirometry and require other techniques, such as body plethysmography. Helium dilution can also measure TLC and RV by determining the magnitude of dilution of inhaled helium in the air within the lung, but may underestimate air trapping."
+        },
+        {
+            "id": "Surgery_Schwartz_4666",
+            "title": "Surgery_Schwartz",
+            "content": "would pose a significantly higher risk.It is not uncommon to encounter patients with significant reductions in their percent predicted FEV1 and Dlco whose his-tory shows a functional status that is inconsistent with the pul-monary function tests. In these circumstances, exercise testing that yields maximal oxygen consumption (v. o2max ) has emerged as a valuable decision-making technique to help patients with abnormal FEV1 and Dlco (Table 19-12). Values <10 mL/kg/min are associated with a 26% mortality after major pulmonary Brunicardi_Ch19_p0661-p0750.indd 69201/03/19 7:01 PM"
+        },
+        {
+            "id": "Pediatrics_Nelson_2869",
+            "title": "Pediatrics_Nelson",
+            "content": "Ventilation-perfusion Asthma \u2193 Normal, \u2193, or \u2191 Yes FIO2, Fraction of inspired oxygen; PaCO2, arterial partial pressure of carbon dioxide; PaO2, arterial partial pressure of oxygen. the functional residual capacity (FRC). This gas volume maintains exchange of O2 during exhalation. Total lung capacity (TLC) is the volume of gas in the lungs at the end of maximal inhalation and residual volume (RV) is the volume of gas left in the lungs at the end of a maximal exhalation. Vital capacity (VC) is the maximal amount of air that can be expelled fromthe lungs and is the difference between TLC and RV."
+        },
+        {
+            "id": "InternalMed_Harrison_20729",
+            "title": "InternalMed_Harrison",
+            "content": "quantitative assessment of airway resistance. Accordingly, during volume-controlled ventilation, patients with increases in airway resistance typically have increased peak airway pressures as well as abnormally high gradients between peak and plateau airway pressures (typically >15 cmH2O) at an inspiratory flow rate of 1 L/sec. The compliance of the respiratory system is defined by the change in pressure of the respiratory system per unit change in volume."
+        },
+        {
+            "id": "InternalMed_Harrison_19977",
+            "title": "InternalMed_Harrison",
+            "content": "Adequacy of Ventilation As noted above, the respiratory control system that sets the rate of ventilation responds to chemical signals, including arterial CO2 and oxygen tensions and blood pH, and to volitional needs, such as the need to inhale deeply before playing a long phrase on the trumpet. Disturbances in ventilation are discussed in Chap. 318. The focus of this chapter is on the relationship between ventilation of the lung and CO2 elimination. At the end of each tidal exhalation, the conducting airways are filled with alveolar gas that had not reached the mouth when expiratory flow stopped. During the ensuing inhalation, fresh gas immediately enters the airway tree at the mouth, but the gas first entering the alveoli at the start of inhalation is that same alveolar gas in the conducting airways that had just left the alveoli. Accordingly, fresh gas does not enter the alveoli until the volume of the conducting airways has been inspired."
+        },
+        {
+            "id": "InternalMed_Harrison_2763",
+            "title": "InternalMed_Harrison",
+            "content": "If a patient has evidence of both pulmonary and cardiac disease, a cardiopulmonary exercise test should be carried out to determine which system is responsible for the exercise limitation. If, at peak exercise, the patient achieves predicted maximal ventilation, demonstrates an increase in dead space or hypoxemia, or develops bronchospasm, the respiratory system is probably the cause of the problem. Alternatively, if the heart rate is >85% of the predicted maximum, if the anaerobic threshold occurs early, if the blood pressure becomes excessively high or decreases during exercise, if the O2 pulse (O2 consumption/heart rate, an indicator of stroke volume) falls, or if there are ischemic changes on the electrocardiogram, an abnormality of the cardiovascular system is likely the explanation for the breathing discomfort. PART 2 Cardinal Manifestations and Presentation of Diseases"
+        },
+        {
+            "id": "First_Aid_Step1_761",
+            "title": "First_Aid_Step1",
+            "content": "Minute ventilation Total volume of gas entering lungs per minute Normal values: VE = VT \u00d7 RR Respiratory rate (RR) = 12\u201320 breaths/min Alveolar ventilation Volume of gas that reaches alveoli each minute T V = 150 mL/breath Elastic recoil Tendency for lungs to collapse inward and chest wall to spring outward. At FRC, airway and alveolar pressures equal atmospheric pressure (called zero), and intrapleural pressure is negative (preventing atelectasis). The inward pull of the lung is balanced by the outward pull of the chest wall. System pressure is atmospheric. Pulmonary vascular resistance (PVR) is at a minimum. 0.5 0.0 +2 Compliance Change in lung volume for a change in pressure (\u0394V/\u0394P). Inversely proportional to wall stiffness and increased by surfactant. 6 \u2022 \u008f compliance = lung easier to fill (eg, emphysema, aging) \u2022 \u0090 compliance = lung harder to fill (eg, 4 pulmonary fibrosis, pneumonia, ARDS, pulmonary edema)"
+        },
+        {
+            "id": "InternalMed_Harrison_19969",
+            "title": "InternalMed_Harrison",
+            "content": "A BC This volume is called the anatomic 306e-3 dead space (VD). Quiet breathing with tidal volumes smaller than the anatomic dead space introduces no fresh gas into the alveoli at all; only that part of the inspired tidal volume (VT) that is greater than the VD introduces fresh gas into the alveoli. The dead space can be further increased functionally if some of the inspired tidal volume is delivered to a part of the lung that receives no pulmonary blood flow and \u02dc Increasing volume thus cannot contribute to gas exchange (e.g., the portion of the lung distal to a FIguRE 306e-4 Flow-volume loops. A. Normal. B. Airflow obstruction. C. Fixed central airway large pulmonary embolus). In this situ- obstruction. RV, residual volume; TLC, total lung capacity. E\u02d9V(exhaled minute ventilationation,"
+        }
+    ],
+    "scores": [
+        0.03545175708799203,
+        0.034017806597704696,
+        0.03381661856425046,
+        0.032065243478052174,
+        0.029980676176984612,
+        0.02920961470519138,
+        0.027759883794366554,
+        0.026968540149420385,
+        0.026742359770568252,
+        0.026385570950788344,
+        0.02602601235637324,
+        0.025744091399431204,
+        0.024656687333149827,
+        0.02433563324255441,
+        0.02425064288010286,
+        0.02406129129281425,
+        0.024056603773584907,
+        0.02380996270284552,
+        0.023332074397724608,
+        0.023007318088162157,
+        0.022096188747731397,
+        0.021618095467674885,
+        0.02072685647046786,
+        0.02025142330971444,
+        0.01997983227499488,
+        0.01966667788585597,
+        0.019417475728155338,
+        0.019300877893056664,
+        0.019213401000460227,
+        0.017778128950695322,
+        0.017424242424242425,
+        0.01736732259988074
+    ]
+}
