@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-125",
+    "question": "The electron transport chain, which is embedded in the mitochondrial membrane, exists primarily to generate new molecules of ATP for use by the cell. This is accomplished by a positive gradient of H+ ions that are formed outside the membrane which then pass back through a specialized channel known as ATP synthase. The energy created from this phosphorylates an ATP to an ATP, known as oxidative phosphorylation. The mechanism by which H+ returns to the inside of the mitochondria is known as what?",
+    "options": {
+        "A": "Passive transport",
+        "B": "Passive diffusion",
+        "C": "Active transport",
+        "D": "Endocytosis"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine the correct answer, let's break down the process of how H+ ions return to the inside of the mitochondria and how it relates to the electron transport chain and oxidative phosphorylation.\\n\\nThe electron transport chain in the mitochondrial membrane generates a positive gradient of H+ ions outside the membrane, which then pass through a specialized channel known as ATP synthase. This process is driven by the movement of electrons through the electron transport chain and is a crucial step in oxidative phosphorylation.\\n\\nThe question asks about the mechanism by which H+ ions return to the inside of the mitochondria.\\n\\nLet's examine the options provided:\\n\\nA. Passive transport: This is a process where substances move across a membrane from an area of higher concentration to an area of lower concentration without the need for energy. While passive transport does occur in the mitochondria, it is not the primary mechanism by which H+ ions return to the inside of the mitochondria.\\n\\nB. Passive diffusion: This is a type of passive transport where substances move across a membrane from an area of higher concentration to an area of lower concentration due to concentration gradients. While diffusion does play a role in the movement of H+ ions, it is not the primary mechanism by which H+ ions return to the inside of the mitochondria.\\n\\nC. Active transport: This is a process where substances are moved across a membrane from an area of lower concentration to an area of higher concentration against the concentration gradient, requiring energy. In the case of H+ ions returning to the inside of the mitochondria, energy is required to pump H+ ions back across the membrane, which is achieved through the enzyme ATP synthase. This process is driven by the energy generated from the electron transport chain.\\n\\nD. Endocytosis: This is a type of active transport where cells take in substances by engulfing them with a portion of the cell membrane. This process is not relevant to the movement of H+ ions back into the mitochondria.\\n\\nBased on the analysis, the correct answer is C. Active transport, as it is the process by which H+ ions are pumped back across the membrane using energy from the electron transport chain and ATP synthase.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Histology_Ross_301",
+            "title": "Histology_Ross",
+            "content": "electrochemical proton gradient. This gradient creates a large proton motive force that causes the movement of H to occur down its electrochemical gradient through a large, membrane-bound enzyme called ATP synthase. ATP synthase provides a pathway across the inner mitochondrial membrane in which H ions are used to drive the energetically unfavorable reactions leading to synthesis of ATP. This movement of protons back to the mitochondrial matrix is referred to as chemiosmotic coupling. The newly produced ATP is transported from the matrix to the intermembrane space by the voltage gradient\u2013driven ATP/ADP exchange protein located in the inner mitochondrial membrane. From here, ATP leaves the mitochondria via voltage-dependent anion channels in the outer membrane to enter the cytoplasm. At the same time, ADP produced in the cytoplasm rapidly enters the mitochondria for recharging."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3898",
+            "title": "Cell_Biology_Alberts",
+            "content": "The large amount of free energy released when H+ flows back into the matrix from the cristae provides the basis for ATP production on the matrix side of mitochondrial cristae membranes by a remarkable protein machine\u2014the ATP synthase. The ATP synthase functions like a miniature turbine, and it is a reversible device that can couple proton flow to either ATP synthesis or ATP hydrolysis. The transmembrane electrochemical gradient that drives ATP production in mitochondria also drives the active transport of selected metabolites across the inner mitochondrial membrane, including an efficient ADP/ATP exchange between the mitochondrion and the cytosol that keeps the cell\u2019s ATP pool highly charged. The resulting high cellular concentration of ATP makes the free-energy change for ATP hydrolysis extremely favorable, allowing this hydrolysis reaction to drive a very large number of energy-requiring processes throughout the cell. The universal presence of ATP synthase in bacteria, mitochondria,"
+        },
+        {
+            "id": "Biochemistry_Lippincott_259",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Chemiosmotic hypothesis The chemiosmotic hypothesis (also known as the Mitchell hypothesis) explains how the free energy generated by the transport of electrons by the ETC is used to produce ATP from ADP + Pi. 1. Proton pump: Electron transport is coupled to ADP phosphorylation by the pumping of H+ across the inner mitochondrial membrane, from the matrix to the intermembrane space, at Complexes I, III, and IV. For each pair of electrons transferred from NADH to O2, 10 H+ are pumped. This creates an electrical gradient (with more positive charges on the cytosolic side of the membrane than on the matrix side) and a pH (chemical) gradient (the cytosolic side of the membrane is at a lower pH than the matrix side), as shown in Figure 6.13. The energy (proton-motive force) generated by these gradients is sufficient to drive ATP synthesis. Thus, the H+ gradient serves as the common intermediate that couples oxidation to phosphorylation. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3786",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201310 A summary of the energy-converting metabolism in mitochondria. pyruvate and fatty acids enter the mitochondrion (top of the figure) and are broken down to acetyl Coa. the acetyl Coa is metabolized by the citric acid cycle, which reduces NaD+ to NaDh, which then passes its high-energy electrons to the first complex in the electron-transport chain. In the process of oxidative phosphorylation, these electrons pass along the electron-transport chain in the inner membrane cristae to oxygen (O2). this electron transport generates a proton gradient, which drives the production of atp by the atp synthase (see Figure 14\u20133). Electrons from the oxidation of succinate, a reaction intermediate in the citric acid cycle (see panel 2\u20139, pp. 106\u2013107), take a separate path to enter this electron-transport chain (not shown, see p. 772)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3805",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mitochondrial matrix contains a large variety of enzymes, including those that convert pyruvate and fatty acids to acetyl CoA and those that oxidize this acetyl CoA to CO2 through the citric acid cycle. These oxidation reactions produce large amounts of NADH, whose high-energy electrons are passed to the respiratory chain. The respiratory chain then uses the energy derived from transporting electrons from NADH to molecular oxygen to pump H+ out of the matrix. This produces a large electrochemical proton gradient across the inner mitochondrial membrane, composed of contributions from both a membrane potential and a pH difference. This electrochemical gradient exerts a force to drive H+ back into the matrix. This proton-motive force is harnessed both to produce ATP and for the selective transport of metabolites across the inner mitochondrial membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_373",
+            "title": "Cell_Biology_Alberts",
+            "content": "Most chemical energy is released in the last stage in the degradation of a food molecule. In this final process, NADH and FADH2 transfer the electrons that they gained when oxidizing food-derived organic molecules to the electron-transport chain, which is embedded in the inner membrane of the mitochondrion (see Figure 14\u201310). As the electrons pass along this long chain of specialized electron acceptor and donor molecules, they fall to successively lower energy states. The energy that the electrons release in this process pumps H+ ions (protons) across the membrane\u2014from the innermost mitochondrial compartment (the matrix) to the intermembrane space (and then to the cytosol)\u2014generating a gradient of H+ ions (Figure 2\u201360). This gradient serves as a major source of energy for cells, being tapped like a battery to drive a variety of energy-requiring reactions. The most prominent of these reactions is the generation of ATP by the phosphorylation of ADP."
+        },
+        {
+            "id": "Biochemistry_Lippincott_262",
+            "title": "Biochemistry_Lippinco",
+            "content": "a. Coupling in oxidative phosphorylation: In normal mitochondria, ATP synthesis is coupled to electron transport through the H+ gradient. Increasing (or decreasing) one process has the same effect on the other. For example, hydrolysis of ATP to ADP and Pi in energy-requiring reactions increases the availability of substrates for ATP synthase and, thus, increases H+ flow through the enzyme. Electron transport and H+ pumping by the ETC increase to maintain the H+ gradient and allow ATP synthesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3886",
+            "title": "Cell_Biology_Alberts",
+            "content": "Special transport proteins Exchange atp and aDp through the Inner Membrane Like all biological membranes, the inner mitochondrial membrane contains numerous specific transport proteins that allow particular substances to pass through. One of the most abundant of these is the ADP/ATP carrier protein (Figure 14\u201334). This carrier shuttles the ATP produced in the matrix through the inner membrane to the intermembrane space, from where it diffuses through the outer mitochondrial membrane to the cytosol. In exchange, ADP passes from the cytosol into the matrix for recycling into ATP. ATP4\u2013 has one more negative charge than ADP3\u2013, and the exchange of ATP and ADP is driven by the electrochemical gradient across the inner membrane, so that the more negatively charged ATP is pushed out of the matrix, and the less negatively charged ADP is pulled in. The ADP/ATP carrier is but one member of a mitochondrial carrier family: the inner CYTOSOL pH 7.4 inner membraneMATRIX pH 7.9 ATP synthase"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3797",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201312 The major net energy conversion catalyzed by the mitochondrion. In the process of oxidative phosphorylation, the mitochondrial inner membrane serves as a device that changes one form of chemical-bond energy to another, converting a major part of the energy of NaDh oxidation into phosphate-bond energy in atp. Figure 14\u201313 A comparison of biological oxidation with combustion. (a) If hydrogen were simply burned, nearly all of the energy would be released in the form of heat. (B) In biological oxidation reactions, about half of the released energy is stored in a form useful to the cell by means of the electron-transport chain (the respiratory chain) in the crista membrane of the mitochondrion. Only the rest of the energy is released as heat. In the cell, the protons and electrons shown here as being derived from h2 are removed from hydrogen atoms that are covalently linked to NaDh molecules."
+        },
+        {
+            "id": "Histology_Ross_299",
+            "title": "Histology_Ross",
+            "content": "Mitochondria contain the enzyme system that generates ATP by means of the citric acid cycle and oxidative phosphorylation. Mitochondria generate ATP in a variety of metabolic pathways, including oxidative phosphorylation, the citric acid cycle, and -oxidation of fatty acids. The energy generated from these reactions, which take place in the mitochondrial matrix, is represented by hydrogen ions (H ) derived from reduced NADH. These ions drive a series of proton pumps located within the inner mitochondrial membrane that transfer H from the matrix to the intermembrane space (Fig. 2.38). These pumps constitute the electron-transport chain of respiratory enzymes (see Fig. 2.37). The transfer of H across the inner mitochondrial membrane establishes an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3795",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although the citric acid cycle that takes place in the mitochondrial matrix is considered to be part of aerobic metabolism, it does not itself use oxygen. Only the final step of oxidative metabolism consumes molecular oxygen (O2) directly (see Figure 14\u201310). Nearly all the energy available from metabolizing carbohydrates, fats, and other foodstuffs in earlier stages is saved in the form of energy-rich compounds that feed electrons into the respiratory chain in the inner mitochondrial membrane. These electrons, most of which are carried by NADH, finally combine with O2 at the end of the respiratory chain to form water. The energy released during the complex series of electron transfers from NADH to O2 is harnessed in the inner membrane to generate an electrochemical gradient that drives the conversion of ADP + Pi to ATP. For this reason, the term oxidative phosphorylation is used to describe this final series of reactions (Figure 14\u201312)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_381",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201360 The generation of an H+ gradient across a membrane by electron-transport reactions. an electron held in a high-energy state (derived, for example, from the oxidation of a metabolite) is passed sequentially by carriers a, B, and C to a lower energy state. in this diagram, carrier B is arranged in the membrane in such a way that it takes up h+ from one side and releases it to the other as the electron passes. The result is an h+ gradient. as discussed in Chapter 14, this gradient is an important form of energy that is harnessed by other membrane proteins to drive the formation of aTp (for an actual example, see figure 14\u201321)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_279",
+            "title": "Biochemistry_Lippinco",
+            "content": ".3. Explain why and how the malate-aspartate shuttle moves nicotinamide adenine dinucleotide reducing equivalents from the cytosol to the mitochondrial matrix. There is no transporter for nicotinamide adenine dinucleotide (NADH) in the inner mitochondrial membrane. However, cytoplasmic NADH can be oxidized to NAD+ by malate dehydrogenase as oxaloacetate (OAA) is reduced to malate. The malate is transported across the inner membrane to the matrix where the mitochondrial isozyme of malate dehydrogenase oxidizes it to OAA as mitochondrial NAD+ is reduced to NADH. This NADH can be oxidized by Complex I of the electron transport chain, generating three ATP through the coupled processes of oxidative phosphorylation. .4. Carbon monoxide (CO) binds to and inhibits Complex IV of the electron transport chain. What effect, if any, should this respiratory inhibitor have on phosphorylation of adenosine diphosphate (ADP) to ATP?"
+        },
+        {
+            "id": "Biochemistry_Lippincott_243",
+            "title": "Biochemistry_Lippinco",
+            "content": "Energy-rich molecules, such as glucose, are metabolized by a series of oxidation reactions ultimately yielding carbon dioxide and water (H2O), as shown in Figure 6.6. The metabolic intermediates of these reactions donate electrons to specific coenzymes, nicotinamide adenine dinucleotide (NAD+) and flavin adenine dinucleotide (FAD), to form the energy-rich reduced forms, NADH and FADH2. These reduced coenzymes can, in turn, each donate a pair of electrons to a specialized set of electron carriers, collectively called the electron transport chain (ETC), described in this section. As electrons are passed down the ETC, they lose much of their free energy. This energy is used to move H+ across the inner mitochondrial membrane, creating a H+ gradient that drives the production of ATP from ADP and inorganic phosphate (Pi), described on p. 77. The coupling of electron transport with ATP synthesis is called oxidative phosphorylation, sometimes denoted as OXPHOS. It proceeds continuously in all"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3885",
+            "title": "Cell_Biology_Alberts",
+            "content": "Electron tomography suggests that the proton pumps of the respiratory chain are located in the membrane regions at either side of the dimer rows. Protons pumped into the crista space by these respiratory-chain complexes are thought to diffuse very rapidly along the membrane surface, with the ATP synthase rows creating a proton \u201csink\u201d at the cristae tips (Figure 14\u201333). In vitro studies suggest that the ATP synthase needs a proton gradient of about 2 pH units to produce ATP at the rate required by the cell, irrespective of the membrane potential. The H+ gradient across the inner mitochondrial membrane is only 0.5 to 0.6 pH units. The cristae thus seem to work as proton traps that enable the ATP synthase to make efficient use of the protons pumped out of the mitochondrial matrix. As we shall see in the next section, this elaborate arrangement of membrane protein complexes is absent in chloroplasts, where the H+ gradient is much higher."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3762",
+            "title": "Cell_Biology_Alberts",
+            "content": "molecular oxygen (O2) to produce water. The energy released at each step as the electrons flow down this path from the energy-rich NADH to the low-energy water molecule drives H+ pumps in the inner mitochondrial membrane, utilizing three different membrane protein complexes. Together, these complexes generate the proton-motive force harnessed by ATP synthase to produce the ATP that serves as the universal energy currency throughout the cell (see Chapter 2)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2980",
+            "title": "Cell_Biology_Alberts",
+            "content": "Structurally related to the V-type pumps is a distinct family of F-type ATPases, more commonly called ATP synthases because they normally work in reverse: instead of using ATP hydrolysis to drive H+ transport, they use the H+ gradient across the membrane to drive the synthesis of ATP from ADP and phosphate (see Figure 14\u201330). ATP synthases are found in the plasma membrane of bacteria, the inner membrane of mitochondria, and the thylakoid membrane of chloroplasts. The H+ gradient is generated either during the electron-transport steps of oxidative phosphorylation (in aerobic bacteria and mitochondria), during photosynthesis (in chloroplasts), or by the light-driven H+ pump (bacteriorhodopsin) in Halobacterium. We discuss some of these proteins in detail in Chapter 14. For the remainder of this section, we focus on P-type pumps and ABC transporters. A P-type ATPase Pumps Ca2+ into the Sarcoplasmic Reticulum in Muscle Cells"
+        },
+        {
+            "id": "Biochemistry_Lippincott_274",
+            "title": "Biochemistry_Lippinco",
+            "content": "H+ per NADH oxidized. This process creates electrical and pH gradients across the inner mitochondrial membrane. After H+ have been transferred to the cytosolic side of the membrane, they reenter the matrix by passing through the Fo H+ channel in ATP synthase (Complex V), dissipating the pH and electrical gradients and causing conformational changes in the F1 \u03b2 subunits of the synthase that result in the synthesis of ATP from ADP + inorganic phosphate. Electron transport and phosphorylation are tightly coupled in oxidative phosphorylation ([OXPHOS] Fig. 6.18). Inhibition of one process inhibits the other. These processes can be uncoupled by uncoupling protein-1 of the inner mitochondrial membrane of brown adipocytes and by synthetic compounds such as 2,4-dinitrophenol and aspirin, all of which dissipate the H+ gradient. In uncoupled mitochondria, the energy produced by electron transport is released as heat rather than being used to synthesize ATP. Mutations in mitochondrial DNA, which"
+        },
+        {
+            "id": "Biochemistry_Lippincott_260",
+            "title": "Biochemistry_Lippinco",
+            "content": "ATP synthase: The multisubunit enzyme ATP synthase ([Complex V] Fig. 6.14) synthesizes ATP using the energy of the H+ gradient. It contains a membrane domain (Fo) that spans the inner mitochondrial membrane and an extramembranous domain (F1) that appears as a sphere that protrudes into the mitochondrial matrix (see Fig. 6.13). The chemiosmotic hypothesis proposes that after H+ have been pumped to the cytosolic side of the inner mitochondrial membrane, they reenter the matrix by passing through a H+ channel in the Fo domain, driving rotation of the c ring of Fo and, at the same time, dissipating the pH and electrical gradients. Rotation in Fo causes conformational changes in the three \u03b2 subunits of F1 that allow them to bind ADP + Pi, phosphorylate ADP to ATP, and release ATP. One complete rotation of the c ring produces three ATP. [Note: ATP synthase is also called F1/Fo-ATPase because the enzyme can also catalyze the hydrolysis of ATP to ADP and Pi.] contains eight subunits. One"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3799",
+            "title": "Cell_Biology_Alberts",
+            "content": "the Energy Derived from Oxidation Is Stored as an Electrochemical Gradient In mitochondria, the process of electron transport begins when two electrons and a proton are removed from NADH (to regenerate NAD+). These electrons are passed to the first of about 20 different electron carriers in the respiratory chain. The electrons start at a large negative redox potential (see Panel 14\u20131, p. 765)\u2014 that is, at a high energy level\u2014which gradually drops as they pass along the chain. The proteins involved are grouped into three large respiratory enzyme complexes, each composed of protein subunits that sit in the inner mitochondrial membrane. Each complex in the chain has a higher affinity for electrons than its predecessor, and electrons pass sequentially from one complex to the next until they are finally transferred to molecular oxygen, which has the highest electron affinity of all."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4039",
+            "title": "Cell_Biology_Alberts",
+            "content": "14\u20138 Normally, the flow of electrons to O2 is tightly linked to the production of ATP via the electrochemical gradient. If ATP synthase is inhibited, for example, electrons do not flow down the electron-transport chain and respiration ceases. Since the 1940s, several substances\u2014 such as 2,4-dinitrophenol\u2014have been known to uncouple electron flow from ATP synthesis. Dinitrophenol was once prescribed as a diet drug to aid in weight loss. How would an uncoupler of oxidative phosphorylation pro mote weight loss? Why do you suppose dinitrophenol is (B) no longer prescribed? 5 14\u20139 In actively respiring liver mitochondria, the pH in 4 the matrix is about half a pH unit higher than it is in the cytosol. Assuming that the cytosol is at pH 7 and the matrix is a sphere with a diameter of 1 \u03bcm [V = (4/3)\u03c0r3], calcu late the total number of protons in the matrix of a respiring liver mitochondrion. If the matrix began at pH 7 (equal to that in the cytosol), how many protons would have to be pumped"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4037",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is the mutation rate so much higher in mitochondria than in the nucleus (and chloroplasts)? Could this high rate have been useful to the cell? What mechanisms and pathways have been used during evolution to transfer genes from the mitochondrion to the nucleus? how many seconds would it take the heart to consume an amount of ATP equal to its steady-state levels? (Complete oxidation of one molecule of glucose to CO2 yields 30 ATP, 26 of which are derived by oxidative phosphorylation using the 12 pairs of electrons captured in the electron carriers NADH and FADH2.) 14\u20136 Both H+ and Ca2+ are ions that move through the cytosol. Why is the movement of H+ ions so much faster than that of Ca2+ ions? How do you suppose the speed of these two ions would be affected by freezing the solution? Would you expect them to move faster or slower? Explain your answer."
+        },
+        {
+            "id": "Biochemistry_Lippincott_246",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Mitochondrial membranes: The mitochondrion contains an outer and an inner membrane separated by the intermembrane space. Although the outer membrane contains special channels (formed by the protein porin), making it freely permeable to most ions and small molecules, the inner membrane is a specialized structure that is impermeable to most small ions, including H+, and small molecules such as ATP, ADP, pyruvate, and other metabolites important to mitochondrial function (Fig. 6.7). Specialized carriers or transport systems are required to move ions or molecules across this membrane. The inner mitochondrial membrane is unusually rich in proteins, over half of which are directly involved in oxidative phosphorylation. It also contains convolutions, called cristae, which greatly increase its surface area."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3780",
+            "title": "Cell_Biology_Alberts",
+            "content": "is because it contains many porin molecules, a special class of \u03b2-barrel-type membrane protein that creates aqueous pores across the membrane (see Figure 10\u201323). As a consequence, the intermembrane space between the outer and inner membrane has the same pH and ionic composition as the cytoplasm, and there is no electrochemical gradient across the outer membrane. If purified mitochondria are gently disrupted and then fractionated (Figure 14\u20139), the biochemical composition of membranes and mitochondrial compartments can be determined. the Inner Membrane Cristae Contain the Machinery for Electron transport and atp Synthesis Unlike the outer mitochondrial membrane, the inner mitochondrial membrane is a diffusion barrier to ions and small molecules, just like the bacterial inner membrane. However, selected ions, most notably protons and phosphate, as well as essential metabolites such as ATP and ADP, can pass through it by means of special transport proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6953",
+            "title": "Cell_Biology_Alberts",
+            "content": "myosin Type of motor protein that uses the energy of ATP hydrolysis to move along actin filaments. Na+-K+ pump (Na+-K+ ATPase) Transmembrane carrier protein found in the plasma membrane of most animal cells that pumps Na+ out of and K+ into the cell, using energy derived from ATP hydrolysis. (Figure 11\u201315) NAD+/NADH (nicotinamide adenine dinucleotide/reduced nicotinamide adenine dinucleotide) Electron carrier system that participates in oxidation\u2013reduction reactions, such as the oxidation of food molecules. NAD+ accepts the equivalent of a hydride ion (H\u2013, a proton plus two electrons) to become the activated carrier NADH. The NADH formed donates its high-energy electrons to the ATP-generating process of oxidative phosphorylation. (Figure 2\u201336) NADH dehydrogenase complex First of the three electron-driven proton pumps in the mitochondrial respiratory chain, also known as Complex I. It accepts electrons from NADH and passes them to a quinone. (Figure 14\u201318)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3860",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we have just discussed, the three proton pumps of the respiratory chain each contribute to the formation of an electrochemical proton gradient across the inner mitochondrial membrane. This gradient drives ATP synthesis by ATP synthase, a large membrane-bound protein complex that performs the extraordinary feat of converting the energy contained in this electrochemical gradient into biologically useful, chemical-bond energy in the form of ATP (see Figure 14\u201310). Protons flow down their electrochemical gradient through the membrane part of this proton turbine, thereby driving the synthesis of ATP from ADP and Pi in the extramembranous part of the complex. As discussed in Chapter 2, the formation of ATP from ADP and inorganic phosphate is highly unfavorable energetically. As we shall see, ATP synthase can produce ATP only because of allosteric shape changes in this protein complex that directly couple ATP synthesis to the energetically favorable flow of protons across its membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3788",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mitochondria are critical for buffering the redox potential in the cytosol. Cells need a constant supply of the electron acceptor NAD+ for the central reaction in glycolysis that converts glyceraldehyde 3-phosphate to 1,3-bisphosphoglycerate (see Figure 2\u201348). This NAD+ is converted to NADH in the process, and the NAD+ needs to be regenerated by transferring the high-energy NADH electrons somewhere. The NADH electrons will eventually be used to help drive oxidative phosphorylation inside the mitochondrion. But the inner mitochondrial membrane is impermeable to NADH. The electrons are therefore passed from the NADH to smaller molecules in the cytosol that can move through the inner mitochondrial membrane. Once in the matrix, these smaller molecules transfer their electrons to NAD+ to form mitochondrial NADH, after which they are returned to the cytosol for recharging\u2014creating a so-called shuttle system for the NADH electrons."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3893",
+            "title": "Cell_Biology_Alberts",
+            "content": "Despite this diversity, the plasma membrane of the vast majority of bacteria contains an ATP synthase that is very similar to the one in mitochondria. In bacteria that use an electron-transport chain to harvest energy, the electron-transport chain pumps H+ out of the cell and thereby establishes a proton-motive force across the plasma membrane that drives the ATP synthase to make ATP. In other bacteria, the ATP synthase works in reverse, using the ATP produced by glycolysis to pump H+ and establish a proton gradient across the plasma membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3881",
+            "title": "Cell_Biology_Alberts",
+            "content": "In principle, ATP synthase can also run in reverse as an ATP-powered proton pump that converts the energy of ATP back into a proton gradient across the membrane. In many bacteria, the rotor of the ATP synthase in the plasma membrane changes direction routinely, from ATP synthesis mode in aerobic respiration, to ATP hydrolysis mode in anaerobic metabolism. In this latter case, ATP hydrolysis serves to maintain the proton gradient across the plasma membrane, which is used to power many other essential cell functions including nutrient transport and the rotation of bacterial flagella. The V-type ATPases that acidify certain cellular organelles are architecturally similar to the F-type ATP synthases, but they normally function in reverse (see Figure 13\u201337). Mitochondrial Cristae help to Make atp Synthesis Efficient (A)"
+        },
+        {
+            "id": "Histology_Ross_1297",
+            "title": "Histology_Ross",
+            "content": "The mitochondria in the cytoplasm of brown adipose tissue cells contain uncoupling protein (UCP-1), which uncouples the oxidation of fatty acids from the production of ATP. Therefore, protons are allowed to travel from the inter-membrane space back to the mitochondrial matrix along the gradient without passing through ATP synthase and thus without producing ATP. This can occur since an alternative pathway for the protons return is available through an UCP-1 that facilitates proton transport across the inner mitochondrial membrane. The movement of protons from the inner mitochondrial compartment dissipates the mitochondrial proton gradient, thus uncoupling respiration from ATP synthesis. The energy produced by the mitochondria is then dissipated as heat in process known as thermogenesis. The metabolic activity of brown adipose tissue is regulated by the sympathetic nerve system and is related to ambient outdoor temperature."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6972",
+            "title": "Cell_Biology_Alberts",
+            "content": "oxidation (verb oxidize) Loss of electrons from an atom, as occurs during the addition of oxygen to a molecule or when a hydrogen is removed. Opposite of reduction. (Figure 2\u201320) oxidative phosphorylation Process in bacteria and mitochondria in which ATP formation is driven by the transfer of electrons through the electron transport chain to molecular oxygen. Involves the intermediate generation of a proton gradient (pH gradient) across a membrane and a chemiosmotic coupling of that gradient to the ATP synthase. (Figures 14\u201312) oxidative phosphorylation Process in bacteria and mitochondria in which ATP formation is driven by the transfer of electrons through the electron-transport chain to molecular oxygen. Involves the intermediate generation of an electrochemical proton gradient across a membrane and a chemiosmotic coupling of that gradient to the ATP synthase. (Figure 14\u201310)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3859",
+            "title": "Cell_Biology_Alberts",
+            "content": "The respiratory chain embedded in the inner mitochondrial membrane contains three respiratory enzyme complexes, through which electrons pass on their way from NADH to O2. In these complexes, electrons are transferred along a series of protein-bound electron carriers, including hemes and iron\u2013sulfur clusters. The energy released as the electrons move to lower and lower energy levels is used to pump protons by different mechanisms in the three respiratory enzyme complexes, each coupling lateral electron transport to vectorial proton transport across the membrane. Electrons are shuttled between enzyme complexes by the mobile electron carriers ubiquinone and cytochrome c to complete the electron-transport chain. The path of electron flow is NADH \u2192 NADH dehydrogenase complex \u2192 ubiquinone \u2192 cytochrome c reductase \u2192 cytochrome c \u2192 cytochrome c oxidase complex \u2192 molecular oxygen (O2)."
+        }
+    ],
+    "scores": [
+        0.03649109126301819,
+        0.03532090888888421,
+        0.03446684777269485,
+        0.03425324675324675,
+        0.03326258484597135,
+        0.033085518020955614,
+        0.03220497825760984,
+        0.03196376098882259,
+        0.030370238589416673,
+        0.02958720561097544,
+        0.029169355984695552,
+        0.029167202076026355,
+        0.02846166875841246,
+        0.02831701205483412,
+        0.0277659109895952,
+        0.0276237767739781,
+        0.02754182754182754,
+        0.026815644787387218,
+        0.026340941782118252,
+        0.02593796559664093,
+        0.02581503586028418,
+        0.0255607453899674,
+        0.02545960328979197,
+        0.025389092383361685,
+        0.025336222069176614,
+        0.025145180023228804,
+        0.02479882795416776,
+        0.024435623914661374,
+        0.0244095761210075,
+        0.02302018771478317,
+        0.022399500916286508,
+        0.02230385347611054
+    ],
+    "execution_time": 111.05969548225403
+}

@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-087",
+    "question": "Among primates, a high degree of sexual dimorphism in a species usually indicates intense competition between",
+    "options": {
+        "A": "males in order to obtain individual food resources",
+        "B": "males in order to obtain mates",
+        "C": "females in order to obtain individual food resources",
+        "D": "females in order to obtain mates"
+    },
+    "answer": "B",
+    "predict": "Based on the provided documents, I will analyze the question step by step: 1. The question asks about the relationship between sexual dimorphism in primates and competition for resources or mates. 2. Document [1] (Title: InternalMed_Harrison) mentions that in a hostile environment, survival is highest for species that have large numbers of offspring and short lifespan, whereas in a safe and abundant environment, survival is highest for those species that invest resources in a smaller number of offspring and a longer life. 3. However, this document does not directly address the relationship between sexual dimorphism and competition for resources or mates. 4. Document [16] (Title: Neurology_Adams) discusses the role of olfactory systems in sexual attraction and how humans can discriminate between a large number of odorants, but it does not address competition for resources. 5. Document [19] (Title: Cell_Biology_Alberts) mentions that males and females differ in their sex chromosomes and that mammals have evolved a dosage compensation mechanism to equalize the dosage of X-chromosome gene products between males and females, but it does not discuss competition for resources or mates. 6. Document [20] (Title: InternalMed_Harrison) discusses the factors that influence bone remodeling and osteoporosis, but it does not address the relationship between sexual dimorphism and competition for resources or mates. 7. Document [22] (Title: Neurology_Adams) discusses the role of the hypothalamus in sexual development and the differences in suprachiasmatic nucleus size between males and females, but it does not address competition for resources. 8. Document [23] (Title: Cell_Biology_Alberts) mentions that the great majority of mutations that are not harmful are selectively neutral and can spread in a population, but it does not discuss competition for resources or mates. 9. Document [26] (Title: Cell_Biology_Alberts) discusses the process of mutation and natural selection, but it does not address the relationship between sexual dimorphism and competition for resources or mates. 10. Document [27] (Title: Cell_Biology_Alberts) does not mention competition for resources or mates. However, Document [2] (Title: Immunology_Janeway) mentions that autoimmune diseases are more common in females than males and that some disorders (SLE and MS) show a high degree of sexual dimorphism. This suggests that there may be differences in competition between the sexes. Based on this analysis, I will choose answer B) males in order to obtain mates. ```json {\"step_by_step_thinking\": \"Based on the analysis of the provided documents, the relationship between sexual dimorphism in primates and competition for resources or mates is not explicitly stated. However, Document [2] (Title: Immunology_Janeway) suggests that autoimmune diseases are more common in females than males, which may indicate differences in competition between the sexes. Therefore, the most likely answer is B) males in order to obtain mates.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_99",
+            "title": "Cell_Biology_Alberts",
+            "content": "Sexual reproduction is widespread (although not universal), especially among eukaryotes. Even bacteria indulge from time to time in controlled sexual exchanges of DNA with other members of their own species. Natural selection has clearly favored organisms that can reproduce sexually, although evolutionary theorists dispute precisely what that selective advantage is. The Function of a Gene can often Be deduced from Its sequence"
+        },
+        {
+            "id": "InternalMed_Harrison_5528",
+            "title": "InternalMed_Harrison",
+            "content": "Life history theory. Evolution is influenced by the way that limited resources are allocated to all aspects of life including development, sexual maturation, reproduction, number of offspring, and senescence and death. Therefore, \u201ctrade-offs\u201d occur between these phases of life. For example, in a hostile environment, survival is highest for those species that have large numbers of offspring and short lifespan, whereas in a safe and abundant environment, survival is highest for those species that invest resources in a smaller number of offspring and a longer life."
+        },
+        {
+            "id": "Immunology_Janeway_3833",
+            "title": "Immunology_Janeway",
+            "content": "15-18 Autoimmune diseases have a strong genetic component. It is increasingly clear that some individuals are genetically predisposed to autoimmunity. Perhaps the clearest demonstration of this is found in inbred mouse strains that are prone to various types of autoimmune diseases. Mice of the NOD strain are very likely to get diabetes, with female mice becoming diabetic faster than males (Fig. 15.31). For reasons that are still unclear, many autoimmune diseases are more common in females than in males (see Fig. 15.37 below), with some disorders (SLE and MS) showing a high degree of sexual dimorphism. Autoimmune diseases in humans also have a genetic component. Some autoimmune diseases, including type 1 diabetes, run in families, suggesting a role for genetic susceptibility. Most convincingly, if one identical (monozygotic) twin is affected, the other twin is quite likely to be affected as well, whereas concordance of disease is much less in nonidentical (dizygotic) twins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_173",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201345 Times of divergence of different vertebrates. The scale on the left shows the estimated date and geological era of the last common ancestor of each specified pair of animals. each time estimate is based on comparisons of the amino acid sequences of orthologous proteins; the longer the animals of a pair have had to evolve independently, the smaller the percentage of amino acids that remain identical. The time scale has been calibrated to match the fossil evidence showing that the last common ancestor of mammals and birds lived 310 million years ago."
+        },
+        {
+            "id": "Cell_Biology_Alberts_96",
+            "title": "Cell_Biology_Alberts",
+            "content": "sex Results in horizontal exchanges of Genetic Information Within a species Horizontal gene transfer among prokaryotes has a parallel in a phenomenon familiar to us all: sex. In addition to the usual vertical transfer of genetic material from parent to offspring, sexual reproduction causes a large-scale horizontal transfer of genetic information between two initially separate cell lineages\u2014those of the father and the mother. A key feature of sex, of course, is that the genetic exchange normally occurs only between individuals of the same species. But no matter whether they occur within a species or between species, horizontal gene Figure 1\u201322 The viral transfer of DNA into a cell. (A) An electron micrograph of particles of a bacterial virus, the T4 bacteriophage. The head of this virus contains the viral dnA; the tail contains the apparatus for injecting the dnA into a host bacterium. (B) A cross section of an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1945",
+            "title": "Cell_Biology_Alberts",
+            "content": "Males and females differ in their sex chromosomes. Females have two X chromosomes, whereas males have one X and one Y chromosome. As a result, female cells contain twice as many copies of X-chromosome genes as do male cells. In mammals, the X and Y sex chromosomes differ radically in gene content: the X chromosome is large and contains more than a thousand genes, whereas the Y chromosome is small and contains less than 100 genes. Mammals have evolved a dosage compensation mechanism to equalize the dosage of X-chromosome gene products between males and females. The correct ratio of X chromosome to auto-some (non-sex chromosome) gene products is carefully controlled, and mutations that interfere with this dosage compensation are generally lethal."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1061",
+            "title": "Cell_Biology_Alberts",
+            "content": "compared. For example, typical human and chimpanzee DNA sequences differ from one another by about 1%. In contrast, when the same region of the genome is sampled from two randomly chosen humans, the differences are typically about 0.1%. For more distantly related organisms, the interspecies differences outshine intraspecies variation even more dramatically. However, each \u201cfixed difference\u201d between the human and the chimpanzee (in other words, each difference that is now characteristic of all or nearly all individuals of each species) started out as a new mutation in a single individual. If the size of the interbreeding population in which the mutation occurred is N, the initial allele frequency for a new mutation would be 1/(2N) for a diploid organism. How does such a rare mutation become fixed in the population, and hence become a characteristic of the species rather than of a few scattered individuals?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_170",
+            "title": "Cell_Biology_Alberts",
+            "content": "For a more exact measure of how closely mammalian species resemble one another genetically, we can compare the nucleotide sequences of corresponding (orthologous) genes, or the amino acid sequences of the proteins that these genes encode. The results for individual genes and proteins vary widely. But typically, if we line up the amino acid sequence of a human protein with that of the orthologous protein from, say, an elephant, about 85% of the amino acids are identical. A similar comparison between human and bird shows an amino acid identity of about 70%\u2014twice as many differences, because the bird and the mammalian lineages have had twice as long to diverge as those of the elephant and the human (Figure 1\u201345)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_168",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mouse Is the Predominant mammalian model organism Mammals have typically two times as many genes as Drosophila, a genome that is 16 times larger, and millions or billions of times as many cells in their adult bodies. In terms of genome size and function, cell biology, and molecular mechanisms, mammals are nevertheless a highly uniform group of organisms. Even anatomically, the differences among mammals are chiefly a matter of size and proportions; it is hard to think of a human body part that does not have a counterpart in elephants and mice, and vice versa. Evolution plays freely with quantitative features, but it does not readily change the logic of the structure."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5990",
+            "title": "Cell_Biology_Alberts",
+            "content": "One of the most fundamental aspects of animal development is one we know surprisingly little about\u2014how the size of an animal or an organ is determined. Why, for example, do we grow to be so much larger than a mouse? Even within a species, size can vary greatly; a Great Dane, for instance, can weigh over 40 times more than a Chihuahua (Figure 21\u201357). Three variables define the size of an organ or organism: the number of cells, the size of the cells, and the quantity of extracellular material per cell. Size differences can arise from changes in any of these factors (Figure 21\u201358). If we compare a mouse with a human, for example, we find that the difference lies chiefly in the number of cells, there being roughly 3000 times more cells in a human, corresponding to a body that is roughly 3000 times more massive. Wild and cultivated species of food plants, on the other hand, often differ in body size chiefly because of differences of cell size."
+        },
+        {
+            "id": "Cell_Biology_Alberts_992",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genome Sequences of Two Species Differ in Proportion to the length of Time Since They Have Separately Evolved The differences between the genomes of species alive today have accumulated over more than 3 billion years. Although we lack a direct record of changes over time, scientists can reconstruct the process of genome evolution from detailed comparisons of the genomes of contemporary organisms. The basic organizing framework for comparative genomics is the phylogenetic tree. A simple example is the tree describing the divergence of humans from the great apes (Figure 4\u201363). The primary support for this tree comes from comparisons of gene or protein sequences. For example, comparisons between the sequences of human genes or proteins and those of the great apes typically reveal the fewest differences between human and chimpanzee and the most between human and orangutan."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1006",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Comparison of Human and mouse Chromosomes Shows How the Structures of genomes Diverge As would be expected, the human and chimpanzee genomes are much more alike than are the human and mouse genomes, even though all three genomes are roughly the same size and contain nearly identical sets of genes. Mouse and human lineages have had approximately 80 million years to diverge through accumulated mutations, versus 6 million years for humans and chimpanzees. In addition, as indicated in Figure 4\u201366, rodent lineages (represented by the rat and the mouse) have unusually fast molecular clocks, and have diverged from the human lineage more rapidly than otherwise expected."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5760",
+            "title": "Cell_Biology_Alberts",
+            "content": "The anatomical features that animals share have undergone many extreme modifications in the course of evolution. As a result, the differences between species are usually more striking to our human eye than the similarities. But at the level of the underlying molecular mechanisms and the macromolecules that mediate them, the reverse is true: the similarities among all animals are profound and extensive. Through more than half a billion years of evolutionary divergence, all animals have retained unmistakably similar sets of genes and proteins that are responsible for generating their body plans and for forming their specialized cells and organs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_998",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201364 Tracing the ancestral sequence from a sequence comparison of the coding regions of human and chimpanzee leptin genes. Reading left to right and top to bottom, a continuous gene is illustrated. leptin is a hormone that regulates food intake and energy utilization in response to the adequacy of 300-nucleotide segment of a leptin-coding fat reserves. As indicated by the codons boxed in green, only 5 nucleotides (of 120 441 total) differ between the two species. moreover, in only one of the five positions does the difference in nucleotide lead to a difference in the encoded amino acid. For each of the five variant nucleotide positions, the corresponding sequence in the gorilla is also indicated. In two cases, sequence, while in three cases it agrees with the chimpanzee sequence."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1064",
+            "title": "Cell_Biology_Alberts",
+            "content": "for an idealized interbreeding population, on the assumption of constant population size and random mating, as well as selective neutrality for the mutations. While neither of the first two assumptions is a good description of human population history, study of this idealized case reveals the general principles in a clear and simple way."
+        },
+        {
+            "id": "Cell_Biology_Alberts_997",
+            "title": "Cell_Biology_Alberts",
+            "content": "For much less closely related organisms, such as humans and chickens (which have evolved separately for about 300 million years), the sequence conservation found in genes is almost entirely due to purifying selection (that is, selection that eliminates individuals carrying mutations that interfere with important genetic functions), rather than to an inadequate time for mutations to occur. Phylogenetic Trees Constructed from a Comparison of DNA Sequences Trace the Relationships of All Organisms Phylogenetic trees based on molecular sequence data can be compared with the fossil record, and we get our best view of evolution by integrating the two approaches. The fossil record remains essential as a source of absolute dates, human\u2013chimpanzee comparisons show divergences of approximately 1.2%. (modified from F.C. Chen and w.H. li, Am. J. Hum. Genet. 68:444\u2013456, 2001.)"
+        },
+        {
+            "id": "Neurology_Adams_1753",
+            "title": "Neurology_Adams",
+            "content": "\u201cto carry\u201d; hormon, \u201cexciting\u201d), that is, odorants exuded from the body, as well as perfumes, play a part in sexual attraction; noxious body odors may repel. In certain vertebrates the olfactory system is remarkably well developed, rivaling the sensitivity of the visual system. Though humans were thought to be capable of discriminating as many as 10,000 different odorants based on work by Reed and others, recent experimental studies by Bushdid and colleagues have shown that this may be a vast underestimation."
+        },
+        {
+            "id": "Immunology_Janeway_3275",
+            "title": "Immunology_Janeway",
+            "content": "Fig. 13.27 Phylogenetic origins of HIV-1 and HIV-2. HiV-1 shows marked genetic variability and is classified on the basis of genomic sequence into four major groups: M (main), O (outlier), n (non-M, non-O), and P (non-M, non-n, non-O), which are further diversified into subtypes, or clades, that are designated by the letters a to K. in different parts of the world, different subtypes predominate. Phylogenetic analyses of chimpanzee simian immunodeficiency virus (SiVcpz), gorilla SiV (SiVgor), and HiV-1 sequences demonstrate that the four groups of HiV-1 (M, n, O, and P) originated from four independent cross-species transmission events: two transfers of SiVcpzPtt from central chimpanzees (subspecies Pan troglodytes troglodytes, or Ptt) gave rise to HiV-1 groups M and n, while two transfers of SiVgor from western lowland gorillas (subspecies Gorilla gorilla gorilla) gave rise to HiV-1 groups O and P. Similarly, separate zoonotic transmissions of SiVsmm from sooty mangabey monkeys to"
+        },
+        {
+            "id": "Immunology_Janeway_3277",
+            "title": "Immunology_Janeway",
+            "content": "to humans on at least four independent occasions from chimpanzees or western lowland gorillas, whereas HIV2 originated in the sooty mangabey (Fig. 13.27). The best estimate is that the most prevalent of the four major variants of HIV1, group M (responsible for ~99% of HIV1 infections worldwide), was transmitted to humans from chimpanzees in the first half of the twentieth century; transmission of group O also dates to the early twentieth century, whereas the two other HIV1 variants (groups N and P) appear to have been transmitted more recently. As is true for other zoonotic infections where there has been insufficient time for pathogen and host to coevolve to an equilibrium that attenuates virulence, SIV is generally less pathogenic in its nonhuman primate host than is HIV in its human host. Thus, whereas development of AIDS is nearly universal in HIV1infected humans that do not receive treatment, development of AIDS in SIVinfected nonhuman primates is considerably more variable, with"
+        },
+        {
+            "id": "Physiology_Levy_4302",
+            "title": "Physiology_Levy",
+            "content": "Unlike most other organ systems, the reproductive systems undergo significant changes in their activity during the life span of a man or woman ( Fig. 44.29 ). Development of the reproductive systems occurs in utero and results in female or male fetuses. After birth and during infancy, the reproductive systems are largely quiescent. At puberty the hypothalamic-pituitary-gonadal axes \u201cwake up\u201d and the gonads begin producing sex steroids, which in turn induce the sexually dimorphic changes in appearance and behavior associated with men and women. The reproductive life span of women is set by their ovarian reserve and degree of follicular development (see earlier) and ends at menopause, usually in the fifth decade of life. Loss of estrogen production by the ovaries has a clear clinical impact on many postmenopausal women. Men continue to produce sperm throughout life but can experience a decline in androgen production (andropause), which is associated with its own clinical sequelae."
+        },
+        {
+            "id": "InternalMed_Harrison_28691",
+            "title": "InternalMed_Harrison",
+            "content": "Osteoporosis results from bone loss due to age-related changes in bone remodeling as well as extrinsic and intrinsic factors that exaggerate this process. These changes may be superimposed on a low peak bone mass. Consequently, understanding the bone remodeling process is fundamental to understanding the pathophysiology of osteoporosis (Chap. 423). During growth, the skeleton increases in size by linear growth and by apposition of new bone tissue on the outer surfaces of the cortex (Fig. 425-4). The latter process is called modeling, a process that also allows the long bones to adapt in shape to the stresses placed on them. Increased sex hormone production at puberty is required for skeletal maturation, which reaches maximum mass and density in early adulthood. It is around puberty that the sexual dimorphism in skeletal size becomes obvious, although true bone density remains similar between the sexes. Nutrition and lifestyle also play an important role in growth, although genetic"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1010",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201366 A phylogenetic tree showing the evolutionary relationships of some present-day mammals. The length of each line is proportional to the number of \u201cneutral substitutions\u201d\u2014that is, nucleotide changes at sites where there is assumed to be no purifying selection. (Adapted from g.m. Cooper et al., Genome Res. 15:901\u2013913, 2005. with permission from Cold Spring Harbor laboratory Press.) Good evidence for the loss of DNA sequences in small blocks during evolution can be obtained from a detailed comparison of regions of synteny in the human and mouse genomes. The comparative shrinkage of the mouse genome can be clearly seen from such comparisons, with the net loss of sequences scattered throughout the long stretches of DNA that are otherwise homologous (Figure 4\u201368)."
+        },
+        {
+            "id": "Neurology_Adams_4447",
+            "title": "Neurology_Adams",
+            "content": "Oxytocin initiates uterine contraction and promotes lactation. Its release is stimulated by distention of the cervix, labor, breastfeeding, and estrogen. The effects of oxytocin are inhibited by alcohol. Role of the Hypothalamus in Sexual Development (See Also Chap. 27) The hypothalamus also plays a critical role in the development of human sexuality and its expression, a theme elaborated further in the next chapter. The suprachiasmatic nucleus and the number of neurons it contains are considerably larger in men than in women, a dimorphism that becomes evident during postnatal development. Studies by LeVay have suggested that the interstitial nucleus of the hypothalamus is smaller in homosexual males compared to heterosexual males, although the biologic evidence has been sharply challenged (Byne) and more research is needed to understand the implications of the reported association. These issues are addressed further in the section on sexual development in Chap. 27."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1005",
+            "title": "Cell_Biology_Alberts",
+            "content": "In general, molecular clocks, appropriately chosen, have a finer time resolution than the fossil record, and they are a more reliable guide to the detailed structure of phylogenetic trees than are classical methods of tree construction, which are based on family resemblances in anatomy and embryonic development. For example, the precise family tree of great apes and humans was not settled until sufficient molecular sequence data accumulated in the 1980s to produce the pedigree shown previously in Figure 4\u201363. And with huge amounts of DNA sequence now determined from a wide variety of mammals, much better estimates of our relationship to them are being obtained (Figure 4\u201366). A Comparison of Human and mouse Chromosomes Shows How the Structures of genomes Diverge"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1041",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many questions remain to be answered about these phenomena and what they mean. One possible interpretation is that the logic\u2014the circuit diagram\u2014of the gene regulatory network in vertebrates was established early, and that more recent evolutionary change has mainly occurred through the tuning of quantitative parameters. This could help to explain why, among the mammals, for example, the basic body plan\u2014the topology of the tissues and organs\u2014has been largely conserved. gene Duplication Also Provides an Important Source of genetic Novelty During Evolution Evolution depends on the creation of new genes, as well as on the modification of those that already exist. How does this occur? When we compare organisms that seem very different\u2014a primate with a rodent, for example, or a mouse with a fish\u2014we rarely encounter genes in the one species that have no homolog in the reception of extracellular signals HUMAN 500 400 300 200 100 0 millions of years before present"
+        },
+        {
+            "id": "Psichiatry_DSM-5_3290",
+            "title": "Psichiatry_DSM-5",
+            "content": "The most widely applicable framework for assessing the strength of a paraphilia itself is one in which examinees\u2019 paraphilic sexual fantasies, urges, or behaviors are evaluated in relation to their normophilic sexual interests and behaviors. In a clinical interview or on self\u2014administered questionnaires, examinees can be asked whether their paraphilic sexual fantasies, urges, or behaviors are weaker than, approximately equal to, or stronger than their normophilic sexual interests and behaviors. This same type of comparison can be, and usually is, employed in psychophysiological measures of sexual interest, such as pe- nile plethysmography in males or viewing time in males and females. Diagnostic Criteria 302.82 (F65.3) A. Over a period of at least 6 months, recurrent and intense sexual arousal from observ- ing an unsuspecting person who is naked, in the process of disrobing, or engaging in sexual activity. as manifested by fantasies, urges, or behaviors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_76",
+            "title": "Cell_Biology_Alberts",
+            "content": "competition for limited resources, it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of error and trial\u2014of mutation and natural selection\u2014organisms evolve: their genetic specifications change, giving them new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1063",
+            "title": "Cell_Biology_Alberts",
+            "content": "The great majority of mutations that are not harmful are not beneficial either. These selectively neutral mutations can also spread and become fixed in a population, and they make a large contribution to evolutionary change in genomes. For example, as we saw earlier, they account for most of the DNA sequence differences between apes and humans. The spread of neutral mutations is not as rapid as the spread of the rare strongly advantageous mutations. It depends on a random variation in the number of mutation-bearing progeny produced by each mutation-bearing individual, causing changes in the relative frequency of the mutant allele in the population. Through a sort of \u201crandom walk\u201d process, the mutant allele may eventually become extinct, or it may become commonplace. This can be modeled mathematically for an idealized interbreeding population, on the assumption of constant population size and random mating, as well as selective neutrality for the mutations. While neither of the first"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1074",
+            "title": "Cell_Biology_Alberts",
+            "content": "that most of these SNPs have little or no effect on human fitness. This is as expected, since deleterious variants will have been selected against during human evolution and, unlike SNPs, should therefore be rare."
+        },
+        {
+            "id": "Cell_Biology_Alberts_993",
+            "title": "Cell_Biology_Alberts",
+            "content": "For closely related organisms such as humans and chimpanzees, it is relatively easy to reconstruct the gene sequences of the extinct, last common ancestor of the two species (Figure 4\u201364). The close similarity between human and chimpanzee genes is mainly due to the short time that has been available for the accumulation of mutations in the two diverging lineages, rather than to functional constraints TRANSPOSONS nonrepetitive DNA that is"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1000",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201365 The very different rates of evolution of exons and introns, as illustrated by comparing a portion of the mouse and human leptin genes. Positions where the sequences differ by a single nucleotide substitution are boxed in green, and positions that differ by the addition or deletion of nucleotides are boxed in yellow. Note that, thanks to purifying selection, the coding sequence of the exon is much more conserved than is the adjacent intron sequence. based on radioisotope decay in the rock formations in which fossils are found. Because the fossil record has many gaps, however, precise divergence times between species are difficult to establish, even for species that leave good fossils with distinctive morphology."
+        },
+        {
+            "id": "Neurology_Adams_3662",
+            "title": "Neurology_Adams",
+            "content": "The superior and inferior parietal lobules and adjacent parts of the temporal and occipital lobes are relatively much larger in humans than in any of the other primates and are relatively slow in attaining their fully functional state (beyond age 7 years). This area of heteromodal cortex has large fiber connections with the frontal, occipital, and temporal lobes of the same hemisphere and, through the middle part of the corpus callosum, with corresponding parts of the opposite hemisphere."
+        }
+    ],
+    "scores": [
+        0.03317444384517555,
+        0.024758580316042205,
+        0.024230694029794626,
+        0.0227286470143613,
+        0.02236953276659169,
+        0.02131259105896787,
+        0.01995067732450354,
+        0.01886960391633289,
+        0.018614718614718615,
+        0.018612631670620824,
+        0.018255746411086217,
+        0.017946241751166908,
+        0.017308397506417307,
+        0.016608391608391608,
+        0.016145371660124096,
+        0.016004097048844507,
+        0.015783343040186373,
+        0.015685328185328185,
+        0.015396323615501698,
+        0.015351122027464553,
+        0.015231599886331344,
+        0.015214624551660304,
+        0.015053523639607493,
+        0.014955849889624725,
+        0.014949803579223046,
+        0.01469404186795491,
+        0.01462251655629139,
+        0.014500433567781097,
+        0.014252486762013164,
+        0.013849557522123895,
+        0.013642249352571217,
+        0.013617977528089888
+    ],
+    "execution_time": 48.8710515499115
+}

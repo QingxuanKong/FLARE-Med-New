@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-055",
+    "question": "In an experiment, the first cleavage plane of an amphibian zygote was manipulated so that the gray crescent was contained in only one of the two blastomeres that result from the first cleavage. The two blastomeres were then separated. What is the expected fate of the blastomeres?",
+    "options": {
+        "A": "The blastomere with the gray crescent will grow in size more quickly than the one without the gray crescent.",
+        "B": "The blastomere with the gray crescent will form a complete, but small, embryo.",
+        "C": "The blastomere without the gray crescent will form a complete, but small, embryo.",
+        "D": "The blastomere with the gray crescent will stop dividing and die before the second cleavage."
+    },
+    "answer": "B",
+    "predict": "Here is the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To solve this question, we need to understand the role of the gray crescent in amphibian embryonic development. The gray crescent is a region of the zygote that contains the future dorsal-ventral (D-V) axis, which is established through cortical rotation after fertilization. In amphibians, the D-V axis is crucial for the proper patterning and development of the embryo. If the first cleavage plane is manipulated so that the gray crescent is contained in only one of the two blastomeres, it will likely disrupt the establishment of the D-V axis. As a result, the blastomere without the gray crescent will be missing the signals necessary for its proper development, and it will likely not form a complete embryo. On the other hand, the blastomere with the gray crescent will still have the necessary signals for its proper development and will likely form a complete, but small, embryo. Therefore, the expected fate of the blastomeres is that the blastomere without the gray crescent will form a complete, but small, embryo, and the blastomere with the gray crescent will form a complete, but small, embryo as well, but the question is asking for a single answer so the best choice is the one with the blastomere without the gray crescent will form a complete, but small, embryo.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5862",
+            "title": "Cell_Biology_Alberts",
+            "content": "In contrast to the Drosophila syncytial embryo, the fertilized frog egg undergoes rapid cleavage divisions that result in an embryo consisting of thousands of cells. Patterning must therefore be mediated by extracellular signal molecules Figure 21\u201328 Blastula fate map in a frog embryo. the endoderm derives from the most vegetal blastomeres (yellow), the ectoderm from the most animal (blue), and the mesoderm from a middle set (green) that contributes also to endoderm and ectoderm. Different cell types derive from different positions along the dorsoventral axis. Figure 21\u201329 Induction of a secondary axis by the Organizer. an amphibian embryo receives a graft of a small cluster of cells taken from a specific site, called the Organizer region, on the dorsal side of another embryo at the same stage. Signals from the graft organize the behavior of neighboring cells of the host embryo, causing development of a pair of conjoined (Siamese) twins. See Movie 21.4. [after"
+        },
+        {
+            "id": "Obstentrics_Williams_551",
+            "title": "Obstentrics_Williams",
+            "content": "After fertilization, the zygote-a diploid cell with 46 chromosomes-undergoes cleavage, and zygote cells produced by this division are called blastomeres (Fig. 5-7). In the two-cell FIGURE 5-7 Zygote cleavage and blastocyst formation. The morula period begins at the 12-to 16-cell stage and ends when the blastocyst forms, which occurs when there are 50 to 60 blastomeres present. The polar bodies, shown in the 2-cell stage, are small nonfunctional cells that soon degenerate. zygote, the blastomeres and polar body continue to be surrounded by the zona pellucida. he zygote undergoes slow cleavage for 3 days while still remaining in the fallopian tube. As the blastomeres continue to divide, a solid mulberry-like ball of cells-the morula-is produced. The morula enters the uterine cavity approximately 3 days after fertilization. Gradual accumulation of luid beween the morula cells leads to formation of the early blastocyst."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5786",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cell diversification does not always depend on extracellular signals: in some cases, daughter cells are born different as a result of an asymmetric cell division, in which some important molecule or molecules are distributed unequally between the two daughters. This asymmetric inheritance ensures that the two daughter cells develop differently (Figure 21\u201312). Asymmetric division is a common feature of early development, where the fertilized egg already has an internal pattern and cleavage of this large cell segregates different determinants into separate blastomeres. We shall see that asymmetric division also plays a part in some later developmental processes. Initial patterns are established in Small Fields of cells and refined by Sequential Induction as the embryo Grows"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5800",
+            "title": "Cell_Biology_Alberts",
+            "content": "At one extreme, the egg is spherically symmetrical, and the axes only become defined during embryogenesis. The mouse comes close to being an example, with little obvious sign of polarity in the egg. Correspondingly, the blastomeres produced by the first few cell divisions seem to be all alike and are remarkably adaptable. If the early mouse embryo is split in two, a pair of identical twins can be produced\u2014two complete, normal individuals from a single cell. Similarly, if one of the cells in a two-cell mouse embryo is destroyed by pricking it with a needle and the resulting \u201chalf-embryo\u201d is placed in the uterus of a foster mother to develop, in many cases a perfectly normal mouse will emerge."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5859",
+            "title": "Cell_Biology_Alberts",
+            "content": "As noted earlier, the origins of the embryonic axes and the three germ layers in the frog can be traced back to the blastula (see Figure 21\u20133A). By labeling individual blastomeres, we can track cells through all their divisions, transformations, and migrations and see what they become and where they come from. The precursors of ectoderm, mesoderm, and endoderm are arranged in order along the animal-vegetal axis of the blastula: the endoderm derives from the most vegetal blastomeres, the ectoderm from the most animal, and the mesoderm from a middle set. Within each of these territories, the cells have diverse fates according to their positions along the D-V axis of the later embryo. For ectoderm, epidermal precursors are located ventrally, and future neurons are found dorsally; for mesoderm, precursors for notochord, muscle, kidney, and blood are arranged from dorsal to ventral. All this can be represented by a fate map that shows which cell types derive from which regions of the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5932",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, miRNAs can sharpen developmental transitions by blocking and removing mRNAs that define an earlier developmental stage. But how is the timing of miRNA expression itself controlled? In the case of the miRNAs that disable maternal mRNAs in frogs and fish, expression is activated at the end of the series of rapid, synchronous divisions that cleave the fertilized egg into many smaller cells. As the division rate of these blastomeres slows, widespread transcription of the embryo\u2019s genome begins (Figure 21\u201343). This event, where the embryo\u2019s own genome largely takes over control of development from maternal macromolecules, is called the maternal-zygotic transition (MZT), and it occurs with roughly similar timing in most animal species, with the exception of mammals."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5933",
+            "title": "Cell_Biology_Alberts",
+            "content": "One trigger for the MZT appears to be the nuclear-to-cytoplasmic ratio. During cleavage, the total amount of cytoplasm in the embryo remains constant, but the number of cell nuclei increases exponentially. As a critical threshold is reached in the ratio of cytoplasm to DNA, the cell cycles lengthen and transcription is initiated. Thus, haploid embryos undergo the MZT one cell cycle later than diploid embryos, which contain twice as much DNA per cell. According to one Figure 21\u201343 The maternal-zygotic transition in a zebrafish embryo."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4972",
+            "title": "Cell_Biology_Alberts",
+            "content": "Studies of the fertilized eggs of marine invertebrates first revealed the importance of spindle microtubules in determining the placement of the contractile ring. After fertilization, these embryos cleave rapidly without intervening periods of growth. In this way, the original egg is progressively divided into smaller and smaller cells. Because the cytoplasm is clear, the spindle can be observed in real time with a microscope. If the spindle is tugged into a new position with a fine glass needle in early anaphase, the incipient cleavage furrow disappears, and a new one develops in accord with the new spindle site\u2014supporting the idea that signals generated by the spindle induce local furrow formation. How does the mitotic spindle specify the site of division? Three general mechanisms have been proposed, and most cells appear to employ a combination of these (Figure 17\u201345). The first is termed the astral stimulation model, in which the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5761",
+            "title": "Cell_Biology_Alberts",
+            "content": "This astonishing degree of evolutionary conservation was discovered not by broad surveys of animal diversity, but through intensive study of a small number of representative species\u2014the model organisms discussed in Chapter 1. For animal developmental biology, the most important have been the fly Drosophila melanogaster, the frog Xenopus laevis, the roundworm Caenorhabditis elegans, the mouse Mus musculus, and the zebrafish Danio rerio. In discussing the mechanisms of development, we shall draw our examples mainly from these few species. Figure 21\u20134 The lineage from blastomere to differentiated cell type. as development proceeds, cells become more and more specialized. Blastomeres have the potential to give rise to most or all cell types. Under the influence of signaling molecules and gene regulatory factors, cells acquire more restricted fates until they differentiate into highly specialized cell types, such as the pancreatic \u03b2-islet cells that secrete the hormone insulin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5860",
+            "title": "Cell_Biology_Alberts",
+            "content": "precursors for notochord, muscle, kidney, and blood are arranged from dorsal to ventral. All this can be represented by a fate map that shows which cell types derive from which regions of the blastula (Figure 21\u201328). The fate map confronts us with the central question: how are the cells in different positions driven toward their different fates? We have already explained how maternal factors deposited in the developing frog egg define its animal-vegetal axis, and how cortical rotation triggered by fertilization defines the orientation of the dorsoventral axis (see Figure 21\u201314). But how does the establishment of axes lead on to the subdivision of the embryo into the future body parts?"
+        },
+        {
+            "id": "Obstentrics_Williams_1958",
+            "title": "Obstentrics_Williams",
+            "content": "2. Blastomere biopsy is done at the 6-to 8-cell (cleavage) stage when an embryo is 3 days old. his allows both maternal and paternal genomes to be evaluated. One cell is typically removed through a hole made in the zona pellucida (Fig. 14-8). A limitation of using this technique for aneuploidy assessment is that because of mitotic nondisjunction, mosaicism of the blastomeres may not reflect the chromosomal complement of the developing embryo (American Society for Reproductive Medicine, 2008). In addition, the implantation rate of normal embryos is slightly lower following this technique."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6286",
+            "title": "Cell_Biology_Alberts",
+            "content": "If we cannot switch the basic character of a specialized cell by changing its environment, can we do so by interfering with its inner workings in a more direct and drastic way? An extreme treatment of this sort is to take the nucleus of the cell and transplant it into the cytoplasm of a large cell of a different type. If the specialized character is defined and maintained by cytoplasmic factors, the transplanted nucleus should switch its pattern of gene expression to conform with that of the host cell. In Chapter 7, we described a famous experiment of this sort, using the frog Xenopus. In this experiment, the nucleus of a differentiated cell (a cell from the lining of a tadpole\u2019s gut) was used to replace the nucleus of an oocyte (an egg-cell precursor arrested in prophase of the first meiotic division, in readiness for fertilization). The resulting hybrid cell went on, in a certain fraction of cases, to develop into a complete normal frog (see Figure 7\u20132A). This was crucial evidence"
+        },
+        {
+            "id": "Obstentrics_Williams_1520",
+            "title": "Obstentrics_Williams",
+            "content": "\u2022 Exposure must occur during a critical developmental period. o Thepreimplantation period is the 2 weeks between fertilization and implantation and is known as the \"all or none\" period. As the zygote undergoes cleavage, an insult damaging a large number of cells typically causes embryonic death. However, if only a few cells are injured, compensation may be possible and allow normal development (Clayton-Smith, 1996). From animal data, insults that appreciably diminish the cell number in the inner cell mass may produce a dose-dependent diminution in body length or size (Iahnaccone, 1987). Fertilization to bilaminar disc formation FIGURE 12-2 Timing of organogenesis during the embryonic period. (Reproduced with permission from Salder W: Langman's Medical Embryology, 6th ed. Baltimore, Williams & Wilkins; 1990.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4979",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201346 An experiment demonstrating the influence of the position of microtubule asters on the subsequent plane of cleavage in a large egg cell. If the mitotic spindle is mechanically pushed to one side of the cell with a glass bead, the membrane furrowing is incomplete, failing to occur on the opposite side of the cell. subsequent cleavages occur not only at the midzone of each of the two subsequent mitotic spindles (yellow arrowheads), but also between the two adjacent asters that are not linked by a mitotic spindle\u2014but in this abnormal cell share the same cytoplasm (red arrowhead). apparently, the contractile ring that produces the cleavage furrow in these cells always forms in the region midway between two asters, suggesting that the asters somehow alter the adjacent region of cell cortex to induce furrow formation between them. The phragmoplast guides Cytokinesis in Higher plants"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5750",
+            "title": "Cell_Biology_Alberts",
+            "content": "The shared anatomical features of animals develop through conserved mechanisms. After fertilization, the zygote usually divides rapidly, or cleaves, to form many smaller cells; during this cleavage, the embryo, which cannot yet feed, does not grow. This phase of development is initially driven and controlled entirely by the material deposited in the egg by the mother. The embryonic genome remains inactive until a point is reached when maternal mRNAs and proteins rather abruptly begin to be degraded. The embryo\u2019s genome is activated, and the cells cohere to form a blastula\u2014typically a solid or a hollow fluid-filled ball of cells. Complex cell rearrangements called gastrulation (from the Greek \u201cgaster,\u201d meaning \u201cbelly\u201d) then transform the blastula into a multilayered structure containing a rudimentary internal gut (Figure 21\u20133). Some cells of the blastula remain external, constituting the ectoderm, which will give rise to the epidermis and the nervous system; other cells invaginate,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5807",
+            "title": "Cell_Biology_Alberts",
+            "content": "To understand how the early developmental machinery operates in Drosophila, it is important to note a peculiarity of fly development. Like the eggs of other insects, but unlike most vertebrates, the Drosophila egg\u2014shaped like a cucumber\u2014begins its development with an extraordinarily rapid series of nuclear divisions without cell division, producing multiple nuclei in a common cytoplasm\u2014a syncytium. The nuclei then migrate to the cell cortex, forming a structure called the syncytial blastoderm. After about 6000 nuclei have been produced, the plasma membrane folds inward between them and partitions them into separate cells, converting the syncytial blastoderm into the cellular blastoderm (Figure 21\u201315)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4993",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. elegans. The fertilized egg is shown in the left micrographs and the two daughter cells in the right micrographs. The cells above have been stained with a blue, dna-binding, fluorescent dye to show the nucleus (and polar bodies); they are viewed by both differential-interference-contrast and fluorescence microscopy. The cells below are the same cells stained with an antibody against p-granules and viewed by fluorescence microscopy. These small granules are made of Rna and proteins and determine which cells become germ cells. They are distributed randomly throughout the cytoplasm of the unfertilized egg (not shown) but become segregated to the posterior pole of the fertilized egg. The cleavage plane is oriented to ensure that only the posterior daughter cell receives the p-granules when the egg divides. The same segregation process is repeated in several subsequent cell divisions, so that the p-granules end up only in cells that give rise to eggs and sperm. (Courtesy of susan"
+        },
+        {
+            "id": "Histology_Ross_3923",
+            "title": "Histology_Ross",
+            "content": "After penetrating the zona pellucida, the spermatozoon enters the perivitelline space between the zona pellucida and the oocyte plasma membrane (or oolemma). Here the spermatozoon plasma membrane fuses with the oolemma, and the nucleus of the sperm head is finally incorporated into the oocyte. It forms the male pronucleus containing 23 paternal chromosomes. After the alignment and dissolution of nuclear membranes of the two pronuclei, the resulting zygote, with its diploid (2n) complement of 46 chromosomes, undergoes a mitotic division or first cleavage. This two-cell stage marks the beginning of embryonic development. Before spermatozoa can fertilize the secondary oocyte, they must acquire more thrust to penetrate the corona radiata and zona pellucida."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5858",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the following pages, we discuss how vertebrate embryos are patterned by the interplay of signaling molecules and transcription regulators. We begin by discussing the formation and patterning of the embryonic axes in amphibians, taking the frog Xenopus as our example. We have already broached this topic earlier in the chapter. Here, we pick up the thread and draw comparisons with the fly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5184",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 19\u20137 Sorting out. Cells from different layers of an early amphibian embryo will sort out according to their origins. In the classical experiment shown here, mesoderm cells (green), neural plate cells (blue), and epidermal cells (red) have been disaggregated and then reaggregated in a random mixture. they sort out into an arrangement reminiscent of a normal embryo, with a \u201cneural tube\u201d internally, epidermis externally, and mesoderm in between. (Modified from p.L. townes and J. holtfreter, J. Exp. Zool. 128:53\u2013120, 1955. With permission from Wiley-Liss.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6287",
+            "title": "Cell_Biology_Alberts",
+            "content": "division, in readiness for fertilization). The resulting hybrid cell went on, in a certain fraction of cases, to develop into a complete normal frog (see Figure 7\u20132A). This was crucial evidence for what is now a central principle of developmental biology: the cell nucleus, even that of a differentiated cell, contains a complete genome, capable of supporting development of all normal cell types. At the same time, the experiment showed that cytoplasmic factors can indeed reprogram a nucleus: the oocyte cytoplasm can drive the gut cell nucleus back to an early embryonic state, from which it can then step through the changing patterns of gene expression that lead all the way to a complete adult organism."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4965",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201341 Cytokinesis. (a) The actin\u2013myosin bundles of the contractile ring are oriented as shown, so that their contraction pulls the membrane inward. (B) In this low-magnification scanning electron micrograph of a cleaving frog egg, the cleavage furrow is especially prominent, as the cell is unusually large. The furrowing of the cell membrane is caused by the activity of the contractile ring underneath it. (C) The surface of a furrow at higher magnification. (B and C, from H.W. Beams and R.g. kessel, Am. Sci. 64:279\u2013290, 1976. With permission from sigma Xi.) contractile ring of actin and myosin flaments in cleavage furrow (A) 0.5 \u00b5m nucleate the assembly of parallel arrays of linear, unbranched actin filaments (discussed in Chapter 16). After anaphase, the overlapping arrays of actin and myosin II filaments contract to generate the force that divides the cytoplasm in two. Once contraction begins, the ring exerts a force large enough to bend a fine glass needle that is inserted in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5797",
+            "title": "Cell_Biology_Alberts",
+            "content": "Different animals Use Different Mechanisms to establish their primary axes of polarization Surprisingly, the earliest steps of animal development are among the most variable, even within a phylum. A frog, a chicken, and a mammal, for example, even though they develop in similar ways later, make eggs that differ radically in size and structure, and they begin their development with different sequences of cell divisions and cell specializations. Gastrulation occurs in all animal embryos, but the details of its timing, of the associated pattern of cell movements, and of the shape and size of the embryo as gastrulation proceeds are highly variable. Likewise, there is great variation in the time and manner in which the primary axes of the body become marked out. However, this polarization of the embryo usually becomes discernible very early, before gastrulation begins: it is the first step of spatial patterning."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5811",
+            "title": "Cell_Biology_Alberts",
+            "content": "the head end of the embryo (Figure 21\u201316). The different concentrations of Bicoid along the A-P axis help determine different cell fates by regulating the transcrip tion of genes in the nuclei of the syncytial blastoderm (discussed in Chapter 7)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_166",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Frog and the Zebrafish Provide Accessible models for vertebrate development Frogs have long been used to study the early steps of embryonic development in vertebrates, because their eggs are big, easy to manipulate, and fertilized outside of the animal, so that the subsequent development of the early embryo is easily followed (Figure 1\u201343). Xenopus laevis, in particular, continues to be an important model organism, even though it is poorly suited for genetic analysis (Movie 1.6 and see Movie 21.1)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6091",
+            "title": "Cell_Biology_Alberts",
+            "content": "21\u201312 It was clear from the early days of studying development that certain \u201cmorphogenetic\u201d substances were present in the egg and segregated asymmetrically into cells of the developing embryo. One such investigation in ascidian (sea squirt) embryos examined endodermal alkaline phosphatase, which could be visualized by a histochemical stain. Treatment of embryos with cytochalasin B stopped cell division, but did not block expression of alkaline phosphatase at the appropriate time. Treatment with actinomycin D, which blocks transcription, did not interfere with expression of alkaline phosphatase. Treatment with puromycin, which blocks translation, eliminated expression of alkaline phosphatase. What is the likely nature of the morphogenetic substance that gives rise to alkaline phosphatase?"
+        },
+        {
+            "id": "Histology_Ross_3987",
+            "title": "Histology_Ross",
+            "content": "The cell mass resulting from the series of mitotic divisions is known as a morula (L. morum, mulberry), and the individual cells are known as blastomeres. During the third day after fertilization, the morula, which has reached a 12to 16cell stage and is still surrounded by the zona pellucida, enters the uterine cavity. The morula remains free in the uterus for about a day while continued cell division and development occur. The early embryo gives rise to a blastocyst, a hollow sphere of cells with a centrally located clump of cells. This inner cell mass will give rise to the tissues of the embryo proper; the surrounding layer of cells, the outer cell mass, will form the trophoblast and then the placenta (Fig. 23.17)."
+        },
+        {
+            "id": "Physiology_Levy_4312",
+            "title": "Physiology_Levy",
+            "content": "The activated egg completes the second meiotic division as the sperm DNA decondenses and a pronucleus forms around it ( Fig. 44.32). Once the egg has completed meiosis, CHAPTER 44 The Male and Female Reproductive Systems a pronucleus forms around the female chromosomes as well. A centrosome contributed by the sperm becomes a microtubule organizing center from which microtubules extend until they contact the female pronucleus. The male and female DNA replicate as the two pronuclei are pulled together. Once the pronuclei contact each other, the nuclear membranes break down, the chromosomes align on a common metaphase plate, and the first cleavage occurs. Fertilization typically occurs on day 16 to 17 of the men strual cycle, and implantation occurs about 6 days later. Thus the first week of embryogenesis takes place within the lumens of the oviduct and uterus. For most of this time the embryo remains encapsulated by the zona pellucida."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5803",
+            "title": "Cell_Biology_Alberts",
+            "content": "The D-V axis of the Xenopus embryo, by contrast, is defined through the act of fertilization. Following entry of the sperm, the outer cortex of the egg cytoplasm rotates relative to the central core of the egg, so that the animal pole of the cortex becomes slightly shifted to one side (Figure 21\u201314). Treatments that block the rotation allow cleavage to occur normally but produce an embryo with a central gut and no dorsal structures or D-V asymmetry. Thus, this cortical rotation is required to define the D-V axis of the future body by creating the D-V axis of the egg."
+        },
+        {
+            "id": "Gynecology_Novak_6029",
+            "title": "Gynecology_Novak",
+            "content": "Embryo Development Initial embryo development is typically assessed 15 to 20 hours after insemination or ICSI, when fertilization is characterized by the presence of two pronuclei and the extrusion of the second polar body (9,361,362). Embryos are examined again for cleavage after 24 to 30 hours of culture (9). The first embryo cleavage occurs approximately 21 hours after fertilization, and subsequent divisions occur every 12 to 15 hours up to the eight-cell stage on the 3rd day of embryo development (363). Compaction to form the 16-cell morula occurs on the 4th day of embryo development, and differentiation of the inner cell mass and trophectoderm to form a blastocyst (containing a \ufb02uid-filled area called a blastocele) is completed by the 5th or 6th day (364,365)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5823",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201319 Examples of the phenotypes of mutations affecting egg-polarity genes and the three types of segmentation genes. In each case, the areas shaded in green on the normal larva (left) are deleted in the mutant or are replaced by mirror-image duplicates of the unaffected regions. (Modified from c. N\u00fcsslein-Volhard and e. Wieschaus, Nature 287:795\u2013801, 1980. With permission from Macmillan publishers Ltd.) a morphogen and activates different sets of genes at different positions along the A-P axis: some gap genes are only activated in regions with high levels of Bicoid, others only where levels of Bicoid are lower. After the gap gene products refine their positions by mutual repression, they provide a second tier of positional signals that act more locally to regulate finer details of patterning. Gap genes act by controlling the expression of yet other genes, including the pair-rule genes. The pair-rule genes, in turn, collaborate with one another and with the gap genes to set up"
+        },
+        {
+            "id": "Cell_Biology_Alberts_925",
+            "title": "Cell_Biology_Alberts",
+            "content": "One type of evidence comes from studies in which the nucleus of a cell from a frog or tadpole is transplanted into a frog egg whose own nucleus has been removed (an enucleated egg). In a classic set of experiments performed in 1968, it was shown that a nucleus taken from a differentiated donor cell can be reprogrammed in this way to support development of a whole new tadpole (see Figure 7\u20132). But this reprogramming occurs only with difficulty, and it becomes less and less efficient as nuclei from older animals are used. Thus, for example, less than 2% of the enucleated eggs injected with a nucleus from a tadpole epithelial cell developed to the swimming tadpole stage, compared with 35% when the donor nuclei were taken instead from an early (gastrula-stage) embryo. With new experimental tools, the cause of this resistance to reprogramming can now be traced. It arises, at least in part, because specific chromatin structures in the original differentiated nucleus tend to persist and be"
+        }
+    ],
+    "scores": [
+        0.03754744611421743,
+        0.03749147293245948,
+        0.03632992137665035,
+        0.03610127213062768,
+        0.03305450287924454,
+        0.03182767689617181,
+        0.029343920573734493,
+        0.02617654920829599,
+        0.025364788117081698,
+        0.025301659125188537,
+        0.02474035776856625,
+        0.023762671437090044,
+        0.023125111271361853,
+        0.022797643335341115,
+        0.02275995377665721,
+        0.02032561981226303,
+        0.020235220524991607,
+        0.019839680236057936,
+        0.019470439728680206,
+        0.018255746411086217,
+        0.017946241751166908,
+        0.01789188849490357,
+        0.017624223602484473,
+        0.017105175345558957,
+        0.017009009009009007,
+        0.016835016835016835,
+        0.01660465757199945,
+        0.01658653846153846,
+        0.01655805293257082,
+        0.016368556530922052,
+        0.016337285902503294,
+        0.01604859335038363
+    ],
+    "execution_time": 11.033112049102783
+}

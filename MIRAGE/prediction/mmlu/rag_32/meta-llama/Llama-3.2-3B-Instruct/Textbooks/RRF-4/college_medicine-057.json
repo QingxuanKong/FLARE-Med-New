@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-057",
+    "question": "A certain molecule acts by binding to cytochrome oxidase A3, the final enzyme in the electron transport chain. Administration of a large dose of this substance to a human would likely:",
+    "options": {
+        "A": "Lead to death due to an inability of the cell to pass electrons to oxygen, thus stopping aerobic respiration and asphyxiating the cells.",
+        "B": "Lead to death due to an inadequate supply of ADP to accept a phosphate group at the ATP synthase enzyme.",
+        "C": "Have no effect as cells would switch which macronutrient they metabolize to circumvent the blocked biochemical pathway.",
+        "D": "Increase the cell\u2019s ATP production as negative feedback would cause the cell to up-regulate anaerobic pathways."
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to understand the role of cytochrome oxidase A3 in the electron transport chain and how a molecule that binds to this enzyme would affect cellular respiration.\\n\\nCytochrome oxidase A3 is the final enzyme in the electron transport chain, and it plays a crucial role in passing electrons to molecular oxygen, which is then reduced to water.\\n\\nIf a molecule binds to cytochrome oxidase A3, it would block the electron transport chain at this point, preventing electrons from being passed to oxygen.\\n\\nThis would lead to a halt in aerobic respiration, as the cell would be unable to generate ATP through the normal process of oxidative phosphorylation.\\n\\nAs a result, the cell would not be able to produce energy, leading to a lack of ATP, which is essential for various cellular functions.\\n\\nThe lack of ATP would lead to a range of cellular problems, including asphyxiation of the cells, as they would not be able to maintain proper cellular functions.\\n\\nTherefore, administration of a large dose of a molecule that binds to cytochrome oxidase A3 would likely lead to death due to an inability of the cell to pass electrons to oxygen, thus stopping aerobic respiration and asphyxiating the cells.\\n\\nThe correct answer is A.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_3826",
+            "title": "Cell_Biology_Alberts",
+            "content": "3. The cytochrome c oxidase complex contains two cytochrome hemes and three copper atoms. The complex accepts electrons one at a time from cytochrome c and passes them to molecular oxygen. In total, four electrons and four protons are needed to convert one molecule of oxygen to water. We have previously discussed how the redox potential reflects electron affinities. Figure 14\u201319 presents an outline of the redox potentials measured along the respiratory chain. These potentials change in three large steps, one across each proton-translocating respiratory complex. The change in redox potential between any two electron carriers is directly proportional to the free energy released when an electron transfers between them. Each complex acts as an energy-conversion device by harnessing some of this free-energy change to pump H+ across the inner membrane, thereby creating an electrochemical proton gradient as electrons pass along the chain."
+        },
+        {
+            "id": "Biochemistry_Lippincott_253",
+            "title": "Biochemistry_Lippinco",
+            "content": "Cytochrome a + a3: Because this cytochrome complex (Complex IV) is the only electron carrier in which the heme iron has an available coordination site that can react directly with O2, it also is called cytochrome c oxidase. At Complex IV, the transported electrons, O2, and free H+ are brought together, and O2 is reduced to H2O (see Fig. 6.8). [Note: Four electrons are required to reduce one molecule of O2 to two molecules of H2O.] Cytochrome c oxidase contains Cu atoms that are required for this complicated reaction to occur. Electrons move from CuA to cytochrome a to cytochrome a3 (in association with CuB) to O2. 7."
+        },
+        {
+            "id": "InternalMed_Harrison_17171",
+            "title": "InternalMed_Harrison",
+            "content": "Mechanism Cyanide directly poisons the last step in the mitochondrial electron transport chain, cytochrome a3, which results in a shutdown of cellular energy production. Tissues are poisoned in direct proportion to their metabolic rate, with the carotid baroreceptors and the brain\u2014the most metabolically active tissues in the body\u2014affected fastest and most severely. This poisoning results from cyanide\u2019s high affinity for certain metals, notably Co and Fe+++. Cytochrome a3 contains Fe+++, to which CN\u2212 binds. Cyanide-poisoned tissues cannot extract oxygen from the blood; even though pulmonary oxygen exchange and cardiac function are preserved, cells die of hypoxia\u2014i.e., 262e-7 of histotoxic rather than cardiopulmonary cause."
+        },
+        {
+            "id": "Biochemistry_Lippincott_265",
+            "title": "Biochemistry_Lippinco",
+            "content": "Synthetic uncouplers: Electron transport and phosphorylation of ADP can also be uncoupled by compounds that shuttle H+ across the inner mitochondrial membrane, dissipating the gradient. The classic example is 2,4-dinitrophenol, a lipophilic H+ carrier (ionophore) that readily diffuses through the mitochondrial membrane (Fig. 6.16). This uncoupler causes electron transport to proceed at a rapid rate without establishing a H+ gradient, much as do the UCP. Again, energy is released as heat rather than being used to synthesize ATP. [Note: In high doses, aspirin and other salicylates uncouple oxidative phosphorylation. This explains the fever that accompanies toxic overdoses of these drugs.] B. Membrane transport systems The inner mitochondrial membrane is impermeable to most charged or hydrophilic substances. However, it contains numerous transport proteins that permit passage of certain molecules from the cytosol to the mitochondrial matrix. 1."
+        },
+        {
+            "id": "Pharmacology_Katzung_381",
+            "title": "Pharmacology_Katzung",
+            "content": "(ferrous) form, it binds carbon monoxide to give a complex that absorbs light maximally at 450 nm. The relative abundance MICROSOMAL MIXED FUNCTION of P450s, compared with that of the reductase in the liver, OXIDASE SYSTEM & PHASE I REACTIONS contributes to making P450 heme reduction a rate-limiting step in hepatic drug oxidations. Many drug-metabolizing enzymes are located in the lipophilic Microsomal drug oxidations require P450, P450 reductase, endoplasmic reticulum membranes of the liver and other tissues. NADPH, and molecular oxygen. A simplified scheme of the When these lamellar membranes are isolated by homogenization oxidative cycle is presented in Figure 4\u20133. Briefly, oxidized (Fe+3) FIGURE 4\u20133 Cytochrome P450 cycle in drug oxidations. e\u2013, electron; RH, parent drug; ROH, oxidized metabolite."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4038",
+            "title": "Cell_Biology_Alberts",
+            "content": "14\u20137 If isolated mitochondria are incubated with a source of electrons such as succinate, but without oxygen, electrons enter the respiratory chain, reducing each of the electron carriers almost completely. When oxygen is then introduced, the carriers become oxidized at different rates (Figure Q14\u20131). How does this result allow you to order Figure Q14\u20131 rapid spectrophotometric analysis of the rates of oxidation of electron carriers in the respiratory chain (problem 14\u20137). Cytochromes a and a3 cannot be distinguished and thus are listed as cytochrome (a + a3). the electron carriers in the respiratory chain? What is their (A) direction of rotation order?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3845",
+            "title": "Cell_Biology_Alberts",
+            "content": "up an additional three electrons wherever it can get them, with destructive effects on its immediate environment. We can tolerate oxygen in the air we breathe only because the uptake of the first electron by the O2 molecule is slow, allowing cells to use enzymes to control electron uptake by oxygen. Thus, cytochrome c oxidase holds"
+        },
+        {
+            "id": "Pharmacology_Katzung_380",
+            "title": "Pharmacology_Katzung",
+            "content": "Although drug biotransformation in vivo can occur by spon-which serves as the terminal oxidase. In fact, the microsomal taneous, noncatalyzed chemical reactions, most transformations membrane harbors multiple forms of this hemoprotein, and are catalyzed by specific cellular enzymes. At the subcellular level, this multiplicity is increased by repeated administration of or these enzymes may be located in the endoplasmic reticulum, exposure to exogenous chemicals (see text that follows). The mitochondria, cytosol, lysosomes, or even the nuclear envelope or name cytochrome P450 (abbreviated as P450 or CYP) is derived from the spectral properties of this hemoprotein. In its reduced plasma membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3853",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201325The reaction of O2 with electrons in cytochrome c oxidase. Electrons from cytochrome c pass through the complex via bound copper ions (blue spheres)and hemes (red) to an O2 molecule bound between heme a3 and a copper ion. Iron ions are shown as red spheres. the iron atom in heme aserves as an electron queuing point where electrons are held so that they can be released to an O2 molecule (not shown) that is held at the bimetallic center active site, which is formed by the central iron of the other heme (heme a3) and a closely apposed copper atom. the four protons needed to reduce O2 to water are removed from the matrix. For each O2 molecule that undergoes the reaction 4e \u2013 + 4h+ + O2\u2192 2h2O, another four protons are pumped out of the matrix by mechanisms that are driven by allosteric changes in protein conformation (see Figure 14\u201328)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3843",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Cytochrome c Oxidase Complex Pumps Protons and Reduces O2 Using a Catalytic Iron\u2013Copper Center The final link in the mitochondrial electron-transport chain is cytochrome c oxidase. The cytochrome c oxidase complex accepts electrons from the soluble electron carrier cytochrome c, and it uses yet a different, third mechanism to pump protons across the inner mitochondrial membrane. The structure of the mammalian complex is illustrated in Figure 14\u201324. The atomic-resolution structures, combined with studies of the effect of mutations introduced into the enzyme by genetic engineering of the yeast and bacterial proteins, have revealed the detailed mechanisms of this electron-driven proton pump."
+        },
+        {
+            "id": "InternalMed_Harrison_32150",
+            "title": "InternalMed_Harrison",
+            "content": "Other agents Chloral hydrate, ethchlorvynol, glutethimide, meprobamate, methaqualone, methyprylon Cytochrome oxidase Cyanide, hydrogen sulfide inhibitors Inhibition of mitochondrial cytochrome oxidase, with consequent blockage of electron transport and oxidative metabolism. Carbon monoxide also binds to hemoglobin and myoglobin and prevents oxygen binding, transport, and tissue uptake. (Binding to hemoglobin shifts the oxygen dissociation curve to the left.) Oxidation of hemoglobin iron from ferrous (Fe2+) to ferric (Fe3+) state prevents oxygen binding, transport, and tissue uptake. (Methemoglobinemia shifts oxygen dissociation curve to the left.) Oxidation of hemoglobin protein causes hemoglobin precipitation and hemolytic anemia (manifesting as Heinz bodies and \"bite cells\" on peripheral-blood smear)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_276",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. .1. 2,4-Dinitrophenol (DNP), an uncoupler of oxidative phosphorylation, was used as a weight-loss agent in the 1930s. Reports of fatal overdoses led to its discontinuation in 1939. Which of the following would most likely be true concerning individuals taking 2,4-DNP? A. ATP levels in the mitochondria are greater than normal. B. Body temperature is elevated as a result of hypermetabolism. C. Cyanide has no effect on electron flow. D. The proton gradient across the inner mitochondrial membrane is greater than normal. E. The rate of electron transport is abnormally low."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6850",
+            "title": "Cell_Biology_Alberts",
+            "content": "cytochrome c Soluble component of the mitochondrial electron-transport chain. Its release into the cytosol from the mitochondrial intermembrane space also initiates apoptosis. (Figure 14\u201326) cytochrome c oxidase complex Third of the three electron-driven proton pumps in the respiratory chain. It accepts electrons from cytochrome c and generates water using molecular oxygen as an electron acceptor. (Figure 14\u201318) cytochrome c reductase Second of the three electron-driven proton pumps in the respiratory chain. Accepts electrons from ubiquinone and passes them to cytochrome c. (Figure 14\u201318) cytokine Extracellular signal protein or peptide that acts as a local mediator in cell\u2013cell communication."
+        },
+        {
+            "id": "Pharmacology_Katzung_6248",
+            "title": "Pharmacology_Katzung",
+            "content": "Toxic reactions may differ depending on the quantity of exposure, its duration, and the rate at which the exposure takes place. An exposure to a toxic substance that is absorbed by the target human or animal results in a dose. Acute exposure indicates a single exposure or multiple exposures that occur over a brief period from seconds to 1\u20132 days. Intense, rapidly absorbed acute doses of substances that may ordinarily be detoxified by enzymatic mechanisms in small doses may overwhelm the body\u2019s ability to detoxify the substance and may result in serious or even fatal toxicity. The same amount of the substance, absorbed slowly, may result in little or no toxicity. This is the case with cyanide exposure. Rhodanese, a mitochondrial enzyme present in humans, effectively detoxifies cyanide to relatively nontoxic thiocyanate when cyanide is presented in small amounts, but the enzyme is overwhelmed by large, rapidly encountered cyanide doses, with lethal effect."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3818",
+            "title": "Cell_Biology_Alberts",
+            "content": "\u02dcE0 = +30 \u2013 (\u2013320) = +350 mV The same calculation reveals that the transfer of one electron from ubiquinone to oxygen has an even more favorable \u02dcGo of \u201376 kJ/mole. The \u02dcGo value for the transfer of one electron from NADH to oxygen is the sum of these two values, \u2013110 kJ/mole. \u02dcGo = \u2013n(0.096) = \u20131(0.096)(350) = \u201334 kJ/mole \u00b0 \u00b0\u02dcE0 \u00b0 \u00b0 For the transfer of one electron from NADH to ubiquinone: Figure 14\u201315 The structure of the heme group attached covalently to cytochrome c. the porphyrin ring of the heme is shown in red. there are six different cytochromes in the respiratory chain. Because the hemes in different cytochromes have slightly different structures and are kept in different local environments by their respective proteins, each has a different affinity for an electron, and a slightly different spectroscopic signature. exploited by the membrane protein complexes in the respiratory chain to move electrons both within and between complexes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3799",
+            "title": "Cell_Biology_Alberts",
+            "content": "the Energy Derived from Oxidation Is Stored as an Electrochemical Gradient In mitochondria, the process of electron transport begins when two electrons and a proton are removed from NADH (to regenerate NAD+). These electrons are passed to the first of about 20 different electron carriers in the respiratory chain. The electrons start at a large negative redox potential (see Panel 14\u20131, p. 765)\u2014 that is, at a high energy level\u2014which gradually drops as they pass along the chain. The proteins involved are grouped into three large respiratory enzyme complexes, each composed of protein subunits that sit in the inner mitochondrial membrane. Each complex in the chain has a higher affinity for electrons than its predecessor, and electrons pass sequentially from one complex to the next until they are finally transferred to molecular oxygen, which has the highest electron affinity of all."
+        },
+        {
+            "id": "Biochemistry_Lippincott_542",
+            "title": "Biochemistry_Lippinco",
+            "content": "3.3. An individual who has recently been prescribed a drug (atorvastatin) to lower cholesterol levels is advised to limit consumption of grapefruit juice, because high intake of the juice reportedly results in an increased level of the drug in the blood, increasing the risk of side effects. Atorvastatin is a substrate for the cytochrome P450 enzyme CYP3A4, and grapefruit juice inhibits the enzyme. Which statement concerning CYP enzymes is most likely correct? They: A. accept electrons from reduced nicotinamide adenine dinucleotide. B. catalyze the hydroxylation of hydrophobic molecules. C. differ from nitric oxide synthase in that they contain heme. D. function in association with an oxidase."
+        },
+        {
+            "id": "Pharmacology_Katzung_6259",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Mechanism of action\u2014CO combines tightly but reversibly with the oxygen-binding sites of hemoglobin and has an affinity for hemoglobin that is about 220 times that of oxygen. The product formed\u2014carboxyhemoglobin\u2014cannot transport oxygen. Furthermore, the presence of carboxyhemoglobin interferes with the dissociation of oxygen from the remaining oxyhemoglobin as a result of the Bohr effect. This reduces the transfer of oxygen to tissues. Organs with the highest oxygen demand (the brain, heart, and kidneys) are most seriously affected. Normal nonsmoking adults have carboxyhemoglobin levels of less than 1% saturation (1% of total hemoglobin is in the form of carboxyhemoglobin); this has been attributed to the endogenous formation of CO from heme catabolism. Smokers may exhibit 5\u201310% CO saturation. The level depends on their smoking habits. A person who breathes air that contains 0.1% CO (1000 ppm) would have a carboxyhemoglobin level of about 50% in a short period of time. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3850",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cytochrome c oxidase reaction accounts for about 90% of the total oxygen uptake in most cells. This protein complex is therefore crucial for all aerobic life. Cyanide and azide are extremely toxic because they bind to the heme iron atoms in cytochrome c oxidase much more tightly than does oxygen, thereby greatly reducing ATP production. the respiratory Chain Forms a Supercomplex in the Crista Membrane"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3821",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the mitochondrial electron-transport chain, six different cytochrome hemes, eight iron\u2013sulfur clusters, three copper atoms, a flavin mononucleotide (another electron-transfer cofactor), and ubiquinone work in a defined sequence to carry electrons from NADH to O2. In total, this pathway involves more than 60 different polypeptides arranged in three large membrane protein complexes, each of which binds several of the above electron-carrying cofactors."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3848",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201324 The structure of cytochrome c oxidase. the final complex in the mitochondrial electron-transfer chain consists of 13 different protein subunits, with a total mass of 204,000 daltons. (a) the entire dimeric complex is shown, positioned in the crista membrane. the highly conserved subunits I (green), II (purple), and III (blue) are encoded by the mitochondrial genome, and they form the functional core of the enzyme."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3825",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the mitochondrion, the three complexes are linked in series, serving as electron-transport-driven H+ pumps that pump protons out of the matrix to acidify the crista space (Figure 14\u201318): 1. The NADH dehydrogenase complex (often referred to as Complex I) is the largest of these respiratory enzyme complexes. It accepts electrons from NADH and passes them through a flavin mononucleotide and eight iron\u2013sulfur clusters to the lipid-soluble electron carrier ubiquinone. The reduced ubiquinol then transfers its electrons to cytochrome c reductase. 2. The cytochrome c reductase (also called the cytochrome b-c1 complex) is a large membrane protein assembly that functions as a dimer. Each monomer contains three cytochrome hemes and an iron\u2013sulfur cluster. The complex accepts electrons from ubiquinol and passes them on to the small, soluble protein cytochrome c, which is located in the crista space and carries electrons one at a time to cytochrome c oxidase. 3."
+        },
+        {
+            "id": "Biochemistry_Lippincott_254",
+            "title": "Biochemistry_Lippinco",
+            "content": "7. Site-specific inhibitors: Inhibitors of specific sites in the ETC have been identified and are illustrated in Figure 6.10. These respiratory inhibitors prevent the passage of electrons by binding to a component of the chain, blocking the oxidation-reduction reaction. Therefore, all electron carriers before the block are fully reduced, whereas those located after the block are oxidized. [Note: Inhibition of the ETC inhibits ATP synthesis because these processes are tightly coupled (see p. 78).] NaN3 = sodium azide. Leakage of electrons from the ETC produces reactive oxygen species (ROS), such as superoxide (O2\u2212\u00b7), hydrogen peroxide (H2O2), and hydroxyl radicals (OH\u00b7). ROS damage DNA and proteins and cause lipid peroxidation. Enzymes such as superoxide dismutase (SOD), catalase, and glutathione peroxidase are cellular defenses against ROS (see p. 148). D. Free energy release during electron transport"
+        },
+        {
+            "id": "Pharmacology_Katzung_82",
+            "title": "Pharmacology_Katzung",
+            "content": "At the molecular level, the compound would be screened for activity on the target, for example, receptor binding affinity to cell membranes containing the homologous animal receptors (or if possible, on the cloned human receptors). Early studies would be done to predict effects that might later cause undesired drug metabolism or toxicologic complications. For example, studies on liver cytochrome P450 enzymes would be performed to determine whether the molecule of interest is likely to be a substrate or inhibitor of these enzymes or to alter the metabolism of other drugs."
+        },
+        {
+            "id": "Neurology_Adams_513",
+            "title": "Neurology_Adams",
+            "content": "Further insight into these systems and into the mechanism of Parkinson disease came from the discovery that the parkinsonian syndrome is largely reproduced in humans and primates by the toxin 1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine (MPTP). This toxin was discovered when drug abusers self-administered an analogue of meperidine. The molecule binds with high affinity to monoamine oxidase (MAO), an extraneural enzyme that transforms it to pyridinium, a metabolite that is bound by melanin in the dopaminergic nigral neurons and destroys the cells, probably by interfering with mitochondrial function. In monkeys made parkinsonian by the administration of MPTP, electrophysiologic studies have shown increased activity in the internal globus pallidus and decreased activity in the external globus pallidus, as predicted from the above described models. The end result is increased inhibition of thalamocortical neurons."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3849",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) the functional core of the complex. Electrons pass through this structure from cytochrome c via bound copper ions (blue spheres) and hemes (red) to an O2 molecule bound between heme a3 and a copper ion. the four protons needed to reduce O2 to water are taken up from the matrix; see also Figure 14\u201325. (C) this shows the symbol for cytochrome c oxidase used throughout this chapter. (pDB code: 2OCC.) 772 Chapter 14: Energy Conversion: Mitochondria and Chloroplasts on to oxygen at a special bimetallic center, where it remains clamped between a heme-linked iron atom and a copper ion until it has picked up a total of four electrons. Only then are the two oxygen atoms of the oxygen molecule safely released as two molecules of water (Figure 14\u201325)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_248",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Organization The inner mitochondrial membrane contains four separate protein complexes, called Complexes I, II, III, and IV that each contain part of the ETC (Fig. 6.8). These complexes accept or donate electrons to the relatively mobile electron carrier coenzyme Q (CoQ) and cytochrome c. Each carrier in the ETC can receive electrons from an electron donor and can subsequently donate electrons to the next acceptor in the chain. The electrons ultimately combine with O2 and H+ to form H2O. This requirement for O2 makes the electron transport process the respiratory chain, which accounts for the greatest portion of the body\u2019s use of O2. C. Reactions"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3859",
+            "title": "Cell_Biology_Alberts",
+            "content": "The respiratory chain embedded in the inner mitochondrial membrane contains three respiratory enzyme complexes, through which electrons pass on their way from NADH to O2. In these complexes, electrons are transferred along a series of protein-bound electron carriers, including hemes and iron\u2013sulfur clusters. The energy released as the electrons move to lower and lower energy levels is used to pump protons by different mechanisms in the three respiratory enzyme complexes, each coupling lateral electron transport to vectorial proton transport across the membrane. Electrons are shuttled between enzyme complexes by the mobile electron carriers ubiquinone and cytochrome c to complete the electron-transport chain. The path of electron flow is NADH \u2192 NADH dehydrogenase complex \u2192 ubiquinone \u2192 cytochrome c reductase \u2192 cytochrome c \u2192 cytochrome c oxidase complex \u2192 molecular oxygen (O2)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3854",
+            "title": "Cell_Biology_Alberts",
+            "content": "iron\u2013sulfur cytochrome c Figure 14\u201326 The respiratory-chain mitochondria. the three proton-pumping CRISTA complexes of the mitochondrial respiratory chain of mammalian mitochondria assemble into large supercomplexes in the crista membrane. Supercomplexes can be isolated by mild detergent treatment of mitochondria, and their structure has been deciphered by single-particle cryoelectron microscopy. the bovine heart supercomplex has a total mass of 1.7 megadaltons. Shown is a schematic of such a complex that consists of NaDh dehydrogenase, cytochrome c reductase, and cytochrome c oxidase, as indicated. the facing quinol-binding sites of NaDh dehydrogenase and cytochrome c reductase, plus the short distance between the cytochrome c-binding sites in cytochrome c reductase and cytochrome c oxidase, facilitate fast, efficient electron transfer. Cofactors active in electron transport are marked as a yellow dot (flavin mononucleotide), red and yellow dots (iron\u2013sulfur clusters), Q (quinone),"
+        },
+        {
+            "id": "Biochemistry_Lippincott_252",
+            "title": "Biochemistry_Lippinco",
+            "content": "80) and acyl CoA dehydrogenases (see p. 192). CoQ transfers electrons to Complex III (cytochrome bc1). Thus, a function of CoQ is to link the flavoprotein dehydrogenases to the cytochromes. 5. Cytochromes: The remaining members of the ETC are cytochrome proteins. Each contains a heme group (a porphyrin ring plus iron). Unlike the heme groups of hemoglobin, the cytochrome iron is reversibly converted from its ferric (Fe3+) to its ferrous (Fe2+) form as a normal part of its function as an acceptor and donor of electrons. Electrons are passed along the chain from cytochrome bc1 (Complex III), to cytochrome c, and then to cytochromes a + a3 ([Complex IV] see Fig. 6.8). As electrons flow, four H+ are pumped across the inner mitochondrial membrane at Complex III and two at Complex IV. [Note: Cytochrome c is located in the intermembrane space, loosely associated with the outer face of the inner membrane. As seen with CoQ, cytochrome c is a mobile electron carrier.] 6."
+        },
+        {
+            "id": "InternalMed_Harrison_17175",
+            "title": "InternalMed_Harrison",
+            "content": "The classic two-step cyanide antidote kit includes two IV solutions: sodium nitrite and sodium thiosulfate. It may also include amyl nitrite perles for inhalation. Nitrites are methemoglobin formers; when administered to a patient, nitrite converts a fraction of the body\u2019s hemoglobin into methemoglobin by converting heme iron from Fe++ to Fe+++. CN\u2013 has a greater affinity for methemoglobin Fe+++ than for cytochrome a3. As a result, administration of nitrite creates a \u201csink\u201d of cyanmethemoglobin; formation of methemoglobin pulls CN\u2013 off mitochondrial cytochrome a3, allowing cellular respiration to resume. Recent work suggests that nitrites may also work via a second mechanism involving the neurotransmitter nitrous oxide; if so, this mechanism may explain why cyanide-poisoned patients improve after nitrite administration faster than is explained by the known rate of methemoglobin formation."
+        },
+        {
+            "id": "Surgery_Schwartz_266",
+            "title": "Surgery_Schwartz",
+            "content": "messengers, particularly in the immune system.105,106Oxygen radicals (superoxide anion, hydroxyl radical, hydrogen peroxide) are produced as a by-product of oxygen metabolism. The main areas of ROS production are oxida-tive processes involving the mitochondrial electron transport chain as well as those mediated by NADPH oxidases (NOX), a large class of ROS producing enzymes. Additional metabolic enzymes such as lipoxygenases, cytochrome P-450 and b5, and cyclooxygenases also produce ROS as by-products of their reactions.107 The synthesis of ROS is regulated at several check-points and via complex signaling mechanisms, including Ca2+ signaling, phosphorylation, and small G protein activation, which influence both the recruitment of the molecules required for NOX function and the synthesis of ROS in the mitochondria. Not surprisingly, NOX activation is triggered by a number of inflammatory mediators (e.g., TNF, chemokines, lysophospho-lipids, complement, and leukotrienes).Host cells are"
+        }
+    ],
+    "scores": [
+        0.03572553847783205,
+        0.03558648903788786,
+        0.032864378533307384,
+        0.031779576481178434,
+        0.031300119747329706,
+        0.029116963745338828,
+        0.027310555107165277,
+        0.026770809835325964,
+        0.026238898082196163,
+        0.026087144572673058,
+        0.02596679563849965,
+        0.02553982553982554,
+        0.025416994290077467,
+        0.02540549968025115,
+        0.02486879558797367,
+        0.02436969759168035,
+        0.024275444639797417,
+        0.024174311926605505,
+        0.024121430424339153,
+        0.022613244772974807,
+        0.022433386339836325,
+        0.02243238304093567,
+        0.022273009836545142,
+        0.0220397916403475,
+        0.0219813925346099,
+        0.021553158051712665,
+        0.01850493697278923,
+        0.016616008105369808,
+        0.016511936339522547,
+        0.016328978938949613,
+        0.016144283415051523,
+        0.016002016002016003
+    ],
+    "execution_time": 22.833304166793823
+}

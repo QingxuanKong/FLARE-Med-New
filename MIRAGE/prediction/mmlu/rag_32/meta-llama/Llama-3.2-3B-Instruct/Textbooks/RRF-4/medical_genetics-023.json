@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-023",
+    "question": "Homeobox sequences",
+    "options": {
+        "A": "are present in the genome of many animal species",
+        "B": "are found in prokaryotes but not in eukaryotes",
+        "C": "were identified as the integration sites for bacterial viruses",
+        "D": "represent integration sites for transposable elements"
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, let's analyze the given documents and options. The documents mention that homeobox sequences are highly conserved in the genome of many animal species, and they play a crucial role in determining the body plan of animals. They are also mentioned as being part of the Hox gene complexes, which are essential for patterning the body axis in animals. Option A states that homeobox sequences are present in the genome of many animal species, which aligns with the information provided in the documents. Options B, C, and D are incorrect based on the information provided in the documents. Therefore, the correct answer is A.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5839",
+            "title": "Cell_Biology_Alberts",
+            "content": "The products of the Hox genes, the Hox proteins, are transcription regulators, all of which possess a highly conserved, 60-amino-acid-long DNA-binding homeodomain (see p. 376). The corresponding motif in the DNA sequence is called a \u201chomeobox,\u201d from which, by abbreviation, the Hox complex takes its name. There are many homeobox-containing genes, but only those located in a Hox complex are Hox genes. The Hox proteins can be viewed as molecular address labels possessed by the cells of each segment: these labels give the cells in each region a positional value\u2014that is, an intrinsic character that differs according to a cell\u2019s location. If the address labels in a developing Drosophila segment are changed, the segment behaves as though it were located somewhere else; if all the Hox genes in an embryo are deleted, the body segments in the larva will all be alike."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1090",
+            "title": "Cell_Biology_Alberts",
+            "content": "4\u201314 Mobile pieces of DNA\u2014transposable elements\u2014 that insert themselves into chromosomes and accumulate during evolution make up more than 40% of the human genome. Transposable elements of four types\u2014long interspersed nuclear elements (LINEs), short interspersed nuclear elements (SINEs), long terminal repeat (LTR) retrotransposons, and DNA transposons\u2014are inserted more-or-less randomly throughout the human genome. These elements are conspicuously rare at the four homeobox gene clusters, HoxA, HoxB, HoxC, and HoxD, as illustrated for HoxD in Figure Q4\u20134, along with an equivalent region of chromosome 22, which lacks a Hox cluster. Each Hox cluster is about 100 kb in length and contains 9 to 11 genes, whose differential expression along the anteroposterior axis of the developing embryo establishes the basic body plan for humans (and for other animals). Why do you suppose that transposable elements are so rare in the Hox clusters?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_494",
+            "title": "Cell_Biology_Alberts",
+            "content": "than has the amino acid sequence. In many cases, the amino acid sequences have diverged so far that we cannot be certain of a family relationship between two proteins without determining their three-dimensional structures. The yeast \u03b12 protein and the Drosophila engrailed protein, for example, are both gene regulatory proteins in the homeodomain family (discussed in Chapter 7). Because they are identical in only 17 of their 60 amino acid residues, their relationship became certain only by comparing their three-dimensional structures (Figure 3\u201313). Many similar examples show that two proteins with more than 25% identity in their amino acid sequences usually share the same overall structure."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5835",
+            "title": "Cell_Biology_Alberts",
+            "content": "that a whole set of genes, the homeotic selector genes, or Hox genes, serve to permanently specify the A-P characters of the whole set of animal segments. These genes are all related to one another as members of a multigene family."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1445",
+            "title": "Cell_Biology_Alberts",
+            "content": "The DNA sequences of individual bacterial promoters differ in ways that determine their strength (the number of initiation events per unit time of the promoter). Evolutionary processes have fine-tuned each to initiate as often as necessary and have thereby created a wide spectrum of promoter strengths. Promoters for genes that code for abundant proteins are much stronger than those associated with genes that encode rare proteins, and the nucleotide sequences of their promoters are responsible for these differences. Like bacterial promoters, transcription terminators also have a wide range of sequences, with the potential to form a simple hairpin RNA structure being the most important common feature. Since an almost unlimited number of nucleotide sequences have this potential, terminator sequences are even more heterogeneous than promoter sequences."
+        },
+        {
+            "id": "Cell_Biology_Alberts_994",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201362 A representation of the nucleotide sequence content of the sequenced human genome. The lINEs (long interspersed nuclear elements), SINEs (short interspersed nuclear elements), retroviral-like elements, and DNA-only transposons are mobile genetic elements that have multiplied in our genome by replicating themselves and inserting the new copies in different positions. These mobile genetic elements are discussed in Chapter 5 (see Table 5\u20133, p. 267). Simple sequence repeats are short nucleotide sequences (less than 14 nucleotide pairs) that are repeated again and again for long stretches. Segmental duplications are large blocks of DNA sequence (1000\u2013200,000 nucleotide pairs) that are present at two or more locations in the genome. The most highly repeated blocks of DNA in heterochromatin have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5"
+        },
+        {
+            "id": "InternalMed_Harrison_27365",
+            "title": "InternalMed_Harrison",
+            "content": "homeobox gene 3; NELF, nasal embryonic LHRH factor; PC1, prohormone convertase 1; PROK2, prokineticin 2; PROP1, Prophet of Pit 1; SF1, steroidogenic factor 1; TAC3, tachykinin 3; TAC3R, tachykinin 3 receptor."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5840",
+            "title": "Cell_Biology_Alberts",
+            "content": "To a first approximation, each Hox gene is normally expressed in those regions that develop abnormally when that gene is mutated or absent. How does each Hox protein give a segment its permanent identity? All the Hox proteins are similar in their DNA-binding regions, but they are very different in the regions that interact with the other proteins with which the Hox proteins form transcriptional regulatory complexes. The different protein partners act together with the Hox proteins to dictate which DNA binding sites will be recognized, as well as whether the effect on transcription at those sites will be activation or repression. Acting in this way, the Hox proteins modulate the actions of many other transcription regulators. Hundreds of genes are under this type of Hox-modulated control, including genes for cell\u2013cell signaling, transcriptional regulation, cell polarity, cell adhesion, cytoskeletal function, cell growth, and cell death, all conspiring (in ways that are not yet"
+        },
+        {
+            "id": "Pathology_Robbins_4075",
+            "title": "Pathology_Robbins",
+            "content": "Very rarely, the pancreas may be totally absent, a condition usually (but not invariably) associated with additional severe malformations that are incompatible with life. Pancreatic duodenal homeobox 1 (PDX1) is a homeodomain transcription factor critical for normal pancreatic development, and germline mutations of this gene have been associated with pancreatic agenesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1792",
+            "title": "Cell_Biology_Alberts",
+            "content": "by exactly one turn of the DNA helix (3.4 nm); thus both recognition helices of the dimer can ft into the major groove of DNA. Not long after the frst transcription regulators were discovered in bacteria, genetic analyses of the fruit fy Drosophila led to the characterization of an important class of genes, the homeotic selector genes, that play a critical part in orchestrating fy development (discussed in Chapter 21). It was later shown that these genes coded for transcription regulators that bound DNA through a structural motif named the homeodomain. Two different views of the same structure are shown. (A) The homeodomain is folded into three \u02dc helices, which are packed tightly together by hydrophobic interactions. The part containing helices 2 and 3 closely resembles the helix\u2013turn\u2013helix motif. (B) The recognition helix (helix 3, red) forms important contacts with the major groove of DNA. The asparagine (Asn) of helix 3, for example, contacts an adenine, as shown in Figure 7\u20138. A"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5832",
+            "title": "Cell_Biology_Alberts",
+            "content": "Hox Genes permanently pattern the a-p axis As animal development proceeds, the body becomes more and more complex. But again and again, in every species and at every level of organization, we find that complex structures are made by repeating a few basic themes, with variations. Thus, a limited number of basic differentiated cell types, such as muscle cells or fibroblasts, recur with subtle individual variations in different sites. These cell types are organized into a limited variety of tissue types, such as muscle or tendon, which again are repeated with subtle variations in different regions of the body. From the various tissues, organs such as teeth or digits are built\u2014 molars and incisors, fingers and thumbs and toes\u2014a few basic kinds of structure, repeated with variations."
+        },
+        {
+            "id": "InternalMed_Harrison_5357",
+            "title": "InternalMed_Harrison",
+            "content": "leukemia; it may promote leukemic stem cell self-renewal when it is overexpressed. Other transcription regulators have also been associated with self-renewal, particularly homeobox, or \u201chox,\u201d genes. These transcription factors are named for their ability to govern large numbers of genes, including those determining body patterning in invertebrates. HoxB4 is capable of inducing extensive self-renewal of stem cells through its DNA-binding motif. Other members of the hox family of genes have been noted to affect normal stem cells, but they are also associated with leukemia. External signals that may influence the relative self-renewal versus differentiation outcomes of stem cell cycling include specific Wnt ligands. Intracellular signal transducing intermediates are also implicated in regulating self-renewal. They include PTEN, an inhibitor of the AKT pathway, and STAT5, both of which are downstream of activated growth factor receptors and necessary for normal stem cell functions"
+        },
+        {
+            "id": "InternalMed_Harrison_5356",
+            "title": "InternalMed_Harrison",
+            "content": "Some limited understanding of self-renewal exists and, intriguingly, implicates gene products that are associated with the chromatin state, a high-order organization of chromosomal DNA that influences transcription. These include members of the polycomb family, a group of zinc finger\u2013containing transcriptional regulators that interact with the chromatin structure, contributing to the accessibility of groups of genes for transcription. One member, Bmi-1, is important in enabling hematopoietic stem cell self-renewal through modification of cell cycle regulators such as the cyclin-dependent kinase inhibitors. In the absence of Bmi-1 or of the transcriptional regulator, Gfi-1, hematopoietic stem cells decline in number and function. In contrast, dysregulation of Bmi-1 has been associated with leukemia; it may promote leukemic stem cell self-renewal when it is overexpressed. Other transcription regulators have also been associated with self-renewal, particularly homeobox, or \u201chox,\u201d genes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5902",
+            "title": "Cell_Biology_Alberts",
+            "content": "Superimposed on the pattern of gene expression that repeats itself in every segment, there is a serial pattern of expression of Hox genes that confer on each segment a different identity. These genes are grouped in complexes and are arranged in a sequence that matches their sequence of expression along the A-P axis of the body. Although Hox gene expression is initiated in the embryo, it is subsequently maintained by the action of chromatin-binding proteins of the Polycomb and Trithorax group, which stamp the chromatin of the Hox complex with a heritable record of its embryonic state of repression or activation, respectively. Hox complexes homologous to that of Drosophila are found in virtually every type of animal, where they help pattern the A-P axis of the body."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5844",
+            "title": "Cell_Biology_Alberts",
+            "content": "these phenomena are still not well understood, but their consequences are profound. We shall see that the serial organization of gene expression in the Hox complex is a fundamental feature that has been highly conserved in the course of animal evolution."
+        },
+        {
+            "id": "Cell_Biology_Alberts_982",
+            "title": "Cell_Biology_Alberts",
+            "content": "As emphasized in Chapter 3, the recognition of sequence similarity has become a major tool for inferring gene and protein function. Although a sequence match does not guarantee similarity in function, it has proved to be an excellent clue. Thus, it is often possible to predict the function of genes in humans for which no biochemical or genetic information is available simply by comparing their nucleotide sequences with the sequences of genes that have been characterized in other more readily studied organisms. In general, the sequences of individual genes are much more tightly conserved than is overall genome structure. Features of genome organization such as genome size, number of chromosomes, order of genes along chromosomes, abundance and size of introns, and amount of repetitive DNA are found to differ greatly when comparing distant organisms, as does the number of genes that each organism contains."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5871",
+            "title": "Cell_Biology_Alberts",
+            "content": "The ordering of the genes within each vertebrate Hox complex is essentially the same as in the insect Hox complex, suggesting that all four vertebrate complexes originated by duplications of a single primordial complex and have preserved its basic organization. Most tellingly, when the expression patterns of the Hox genes are examined in the vertebrate embryo, it turns out that the members of each complex are expressed in a head-to-tail series along the axis of the body, just as they are in Drosophila. As in Drosophila, vertebrate Hox gene expression patterns are often aligned with vertebrate segments. This alignment is especially clear in the hindbrain (see Figure 21\u201332), where the segments are called rhombomeres."
+        },
+        {
+            "id": "Surgery_Schwartz_3305",
+            "title": "Surgery_Schwartz",
+            "content": "of structural motifs in these DNA-binding transcription factors facilitate this recognition and interaction. These include the helix-turn-helix, the homeodo-main motif, the zinc finger, the leucine zipper, and the helix-loop-helix motifs.Human GenomeGenome is a collective term for all genes present in one organ-ism. The human genome contains DNA sequences of 3 billion base pairs, carried by 23 pairs of chromosomes. The human genome has an estimated 25,000 to 30,000 genes, and overall it is 99.9% identical in all people.7,8 Approximately 3 million locations where single-base DNA differences exist have been identified and termed single nucleotide polymorphisms. Single nucleotide polymorphisms may be critical determinants of human variation in disease susceptibility and responses to envi-ronmental factors.The completion of the human genome sequence in 2003 represented another great milestone in modern science. The Human Genome Project created the field of genomics, which is the study of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_493",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201313 a comparison of a class of Dna-binding domains, called homeodomains, in a pair of proteins from two organisms separated by more than a billion years of evolution. (A) A ribbon model of the structure common to both proteins. (B) A trace of the \u03b1-carbon positions. The three-dimensional structures shown were determined by x-ray crystallography for the yeast \u03b12 protein (green) and the Drosophila engrailed protein (red). (C) A comparison of amino acid sequences for the region of the proteins shown in (A) and (B). Black dots mark sites with identical amino acids. Orange dots indicate the position of a three-amino-acid insert in the \u03b12 protein. (Adapted from C. Wolberger et al., Cell 67:517\u2013528, 1991. With permission from Elsevier.) protein family has been more highly conserved than has the amino acid sequence. In many cases, the amino acid sequences have diverged so far that we cannot be certain of a family relationship between two proteins without determining their"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2230",
+            "title": "Cell_Biology_Alberts",
+            "content": "Searching a collection of known sequences for similar genes or proteins is typically done over the Internet, and it simply involves selecting a database and entering the desired sequence. A sequence-alignment program\u2014the most popular is BLAST\u2014scans the database for similar sequences by sliding the submitted sequence along the archived sequences until a cluster of residues falls into full or partial alignment (Figure 8\u201323). Such comparisons can predict the functions of individual proteins, families of proteins, or even most of the protein complement of a newly sequenced organism."
+        },
+        {
+            "id": "Pathology_Robbins_1631",
+            "title": "Pathology_Robbins",
+            "content": "and follicles (streak ovaries). Because patients with Turner syndrome also have other (nongonadal) abnormalities, it follows that genes required for normal growth and development of somatic tissues also must reside on the X chromosome. Among the genes involved in the Turner phenotype is the short stature homeobox (SHOX) gene at Xp22.33. This is one of the genes that remain active in both X chromosomes and is unique in having an active homologue on the short arm of the Y chromosome. Thus, both normal males and females have two active copies of this gene. Loss of one copy of SHOX gives rise to short stature. Indeed, deletions of the SHOX gene are noted in 2% to 5% of otherwise normal children with short stature. Whereas loss of one copy of SHOX can explain the growth deficit in Turner syndrome, it cannot explain other important clinical features such as cardiac malformations and endocrine abnormalities. Clearly, several other genes located on the X chromosome also are involved."
+        },
+        {
+            "id": "InternalMed_Harrison_5160",
+            "title": "InternalMed_Harrison",
+            "content": "sequenced in batch in a highly parallel next-generation DNA sequencer. (C) The resulting reads are then processed, with barcodes denoting which sample the sequence came from. After barcode sequences are removed in silico, reads are aligned and grouped according to a specified level of shared identity; e.g., sequences that share \u226597% nucleotide sequence identity are regarded as representing a species. Once reads are binned into operational taxonomic units (OTUs) in this fashion, they are placed on a phylogenetic tree of all known bacteria and their phylogeny is inferred."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1733",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Constructing primer: It is not necessary to know the nucleotide sequence of the target DNA in the PCR method. However, it is necessary to know the nucleotide sequence of short segments on each side of the target DNA. These stretches, called flanking sequences, bracket the DNA sequence of interest. The nucleotide sequences of the flanking regions are used to construct two, single-stranded oligonucleotides, usually 20\u2013 35 nucleotides long, which are complementary to the respective flanking sequences. The 3\u2032-hydroxyl end of each oligonucleotide points toward the target sequence (see Fig. 34.20). These synthetic oligonucleotides function as primers in PCR. 2. Denaturing DNA: The target DNA to be amplified is heated to ~95\u00b0C to separate the dsDNA into single strands. 3. Annealing primers: The separated strands are cooled to ~50\u00b0C and the two primers (one for each strand) anneal to a complementary sequence on the ssDNA. 4."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5876",
+            "title": "Cell_Biology_Alberts",
+            "content": "the complexes are thought to have evolved as follows: first, in some common ancestor of worms, flies, and vertebrates, a single primordial homeotic selector gene underwent repeated duplication to form a series of such genes in tandem\u2014the ancestral Hox complex. In the Drosophila sublineage, this single complex became split into separate Antennapedia and Bithorax complexes. Meanwhile, in the lineage leading to the mammals, the whole complex was repeatedly duplicated to give four Hox complexes. the parallelism is not perfect because apparently some individual genes have been duplicated and others lost. Still others have been co-opted for different purposes (genes in parentheses in the top line) over the time that has elapsed since the complexes diverged. (Based on a diagram courtesy of William McGinnis.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1876",
+            "title": "Cell_Biology_Alberts",
+            "content": "The stripe 2 element is autonomous, inasmuch as it specifies stripe 2 when isolated from its normal context (see Figure 7\u201328). The other stripe regulatory modules are thought to be constructed similarly, reading positional information provided by other combinations of transcription regulators. The entire Eve gene control region binds more than 20 different transcription regulators. Seven combinations of regulators\u2014one combination for each stripe\u2014specify Eve expression, while many other combinations (all those found in the interstripe regions of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3192",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each signal sequence specifies a particular destination in the cell. Proteins destined for initial transfer to the ER usually have a signal sequence at their Nterminus that characteristically includes a sequence composed of about 5\u201310 hydrophobic amino acids. Many of these proteins will in turn pass from the ER to the Golgi apparatus, but those with a specific signal sequence of four amino acids at their C-terminus are recognized as ER residents and are returned to the ER. Proteins destined for mitochondria have signal sequences of yet another type, in which positively charged amino acids alternate with hydrophobic ones. Finally, many proteins destined for peroxisomes have a signal sequence of three characteristic amino acids at their C-terminus."
+        },
+        {
+            "id": "Cell_Biology_Alberts_995",
+            "title": "Cell_Biology_Alberts",
+            "content": "have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5 humans and the great apes based on nucleotide sequence data. As indicated, the sequences of the genomes of all four millions of years before present species are estimated to differ from the sequence of the genome of their last common ancestor by a little over 1.5%. because changes occur independently on both diverging lineages, pairwise comparisons reveal twice the sequence divergence from the last common ancestor. For example, human\u2013orangutan comparisons typically show sequence 1.0 0.5 0.0 divergences of a little over 3%, while that have kept the sequences the same. Evidence for this view comes from the observation that the human and chimpanzee genomes are nearly identical even where there is no functional constraint on the nucleotide sequence\u2014such as in the third position of \u201csynonymous\u201d codons"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5841",
+            "title": "Cell_Biology_Alberts",
+            "content": "including genes for cell\u2013cell signaling, transcriptional regulation, cell polarity, cell adhesion, cytoskeletal function, cell growth, and cell death, all conspiring (in ways that are not yet understood) to give each segment its distinctive Hox-dependent character."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5895",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the preceding sections, we have seen that animals contain the same essential cell types, have a similar collection of genes, and share many of the molecular mechanisms of pattern formation. But how can we square this with the radical differences that we see in the body structures of animals as diverse as a worm, a fly, a frog, and a mouse? We asserted earlier, in a general way, that these differences usually seem to reflect differences in the regulatory DNA that calls into play the components of the conserved basic kit of parts. We must now examine the evidence a little more closely."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1780",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription of each gene is, in turn, controlled by its own collection of cis-regulatory sequences. These typically lie near the gene, often in the intergenic region directly upstream from the transcription start point of the gene. Although a few genes are controlled by a single cis-regulatory sequence that is recognized by a single transcription regulator, the majority have complex arrangements of cis-regulatory sequences, each of which is recognized by a different transcription regulator. It is therefore the positions, identity, and arrangement of cis-regulatory sequences\u2014which are an important part of the information embedded in the genome\u2014that ultimately determine the time and place that each gene is transcribed. We begin our discussion by describing how transcription regulators recognize cis-regulatory sequences. the Sequence of nucleotides in the DnA Double helix Can Be read by proteins"
+        },
+        {
+            "id": "InternalMed_Harrison_4783",
+            "title": "InternalMed_Harrison",
+            "content": "at a large distance from the proximal promoter. The globin and the immunoglobulin genes, for example, contain locus control regions that are several kilobases away from the structural sequences of the gene. Specific groups of transcription factors that bind to these promoter and enhancer sequences provide a combinatorial code for regulating transcription. In this manner, relatively ubiquitous factors interact with more restricted factors to allow each gene to be expressed and regulated in a unique manner that is dependent on developmental state, cell type, and numerous extracellular stimuli. Regulatory factors also bind within the gene itself, particularly in the intronic regions. The transcription factors that bind to DNA actually represent only the first level of regulatory control. Other proteins\u2014co-activators and co-repressors\u2014interact with the DNA-binding transcription factors to generate large regulatory complexes. These complexes are subject to control by numerous"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1443",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) On the basis of a comparison of 300 promoters, the frequencies of each of the four nucleotides at each position in the promoter are given. The consensus sequence, shown below the graph, reflects the most common nucleotide found at each position in the collection of promoters. These promoters are characterized by two hexameric DNA sequences\u2014the \u201335 sequence and the \u201310 sequence, named for their approximate location relative to the start point of transcription (designated +1). The sequence of nucleotides between the \u201335 and \u201310 hexamers shows no significant similarities among promoters."
+        }
+    ],
+    "scores": [
+        0.03578679156499678,
+        0.03565786813506386,
+        0.02584097859327217,
+        0.025286047628112346,
+        0.020888948410041217,
+        0.020260995341212267,
+        0.01878969654199012,
+        0.018452380952380953,
+        0.01837336704593342,
+        0.017652928083506027,
+        0.01677805625174046,
+        0.016539092400218697,
+        0.016464237516869096,
+        0.016375404530744337,
+        0.016298946531504672,
+        0.015938531877063754,
+        0.01521430908496019,
+        0.015039523662868289,
+        0.014880063700607146,
+        0.014610995574041486,
+        0.014181622573230964,
+        0.01384895533831704,
+        0.013722367928062945,
+        0.013189143341815097,
+        0.013048102094240838,
+        0.012968540829986613,
+        0.012924593077264832,
+        0.012663790348354107,
+        0.01265178221699961,
+        0.012349901200790395,
+        0.01231060606060606,
+        0.012217765894236482
+    ],
+    "execution_time": 5.811013698577881
+}

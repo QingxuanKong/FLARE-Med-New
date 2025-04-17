@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-136",
+    "question": "A female fruit fly bearing linked genes that produce the phenotype gray body and normal wings mates with a male fruit fly of phenotype black body and vestigial wings. The presence of gray-bodied, vestigialwinged flies among the progeny is best explained by",
+    "options": {
+        "A": "crossing over",
+        "B": "independent assortment",
+        "C": "segregation of alleles",
+        "D": "penetrance"
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the answer in JSON format: ```json { \"step_by_step_thinking\": \"To solve this problem, we need to understand the genetic principles involved in inheritance. The female fruit fly has gray body and normal wings, while the male has black body and vestigial wings. We are asked to determine why the presence of gray-bodied, vestigial-winged flies appears among the progeny. First, let's analyze the possible genotypes of the parents: - The female has gray body and normal wings, which suggests that she is heterozygous for a gene that controls body color (e.g., 'G' for gray and 'g' for black) and has a normal allele for wing development (e.g., 'W' for normal wings and 'w' for vestigial wings). Her genotype could be Gg or Gg. - The male has black body and vestigial wings, suggesting he is homozygous recessive for the body color gene (gg) and homozygous recessive for the wing development gene (ww). Now, let's consider the possible genotypes of the offspring: - If the female is GG or Gg, she can contribute either a G or g allele to each offspring. Since the male is gg, he can only contribute a g allele. Therefore, the possible genotypes of the offspring are Gg and gg. - The Gg genotype will express the gray body trait, and the gg genotype will express the black body trait. However, the wing development gene is recessive, so the Gg genotype will express normal wings, while the gg genotype will express vestigial wings. Now, let's analyze the options: - A. Crossing over: This process involves the exchange of genetic material between homologous chromosomes during meiosis. It can result in the creation of new combinations of alleles, but it doesn't directly explain the presence of gray-bodied, vestigial-winged flies. - B. Independent assortment: This process involves the random separation of chromosomes during meiosis, which can result in the creation of new combinations of alleles. However, it doesn't directly explain the presence of gray-bodied, vestigial-winged flies. - C. Segregation of alleles: This process involves the separation of alleles during meiosis, which can result in the creation of offspring with different combinations of alleles. In this case, the segregation of the body color and wing development genes can result in offspring with gray bodies and normal wings (Gg) and black bodies and vestigial wings (gg). - D. Penetrance: This term refers to the expression of a trait in an individual based on their genotype. While penetrance can affect the expression of traits, it doesn't explain the presence of gray-bodied, vestigial-winged flies among the progeny. Based on the analysis, the presence of gray-bodied, vestigial-winged flies among the progeny is best explained by the segregation of alleles, specifically the segregation of the body color and wing development genes. \", \"answer_choice\": \"C\" } ``` The final answer is C.",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_880",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201332 The discovery of position effects on gene expression. The White gene in the fruit fly Drosophila controls eye pigment production and is named after the mutation that first identified it. wild-type flies with a normal White gene (White+) have normal pigment production, which gives them red eyes, but if the White gene is mutated and inactivated, the mutant flies (White\u2013) make no pigment and have white eyes. In flies in which a normal White gene has been moved near a region of heterochromatin, the eyes are mottled, with both red and white patches. The white patches represent cell lineages in which the White gene has been silenced by the effects of the heterochromatin. In contrast, the red patches represent cell lineages in which the White gene is expressed. Early in development, when the heterochromatin is first formed, it spreads into neighboring euchromatin to different extents in different embryonic cells (see Figure 4\u201331). The presence of large patches of red and white"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2099",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q7\u20133 pedigrees reflecting maternal and paternal imprinting (problem 7\u201312). in one pedigree, the gene is paternally imprinted; in the other, it is maternally imprinted. in generations 3 and 4, only one of the two parents in the indicated matings is shown; the other parent is a normal individual from outside this pedigree. Affected individuals are represented by red circles for females and red squares for males. Dotted yellow symbols indicate individuals that carry the deletion but do not display the phenotype. 7\u201313 If you insert a \u03b2-galactosidase gene lacking its own transcription control region into a cluster of piRNA genes in Drosophila, you find that \u03b2-galactosidase expression from a normal copy elsewhere in the genome is strongly inhibited in the fly\u2019s germ cells. If the inactive \u03b2-galactosidase gene is inserted outside the piRNA gene cluster, the normal gene is properly expressed. What do you suppose is the basis for this observation? How would you test your hypothesis?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2344",
+            "title": "Cell_Biology_Alberts",
+            "content": "Ultimately, one wishes to determine how genes\u2014and the proteins they encode\u2014 function in the intact organism. Although it may seem counterintuitive, one of the most direct ways to find out what a gene does is to see what happens to the organism when that gene is missing. Studying mutant organisms that have acquired changes or deletions in their nucleotide sequences is a time-honored practice in biology and forms the basis of the important field of genetics. Because mutations can disrupt cell processes, mutants often hold the key to understanding gene function. In the classical genetic approach, one begins by isolating mutants that have an interesting or unusual appearance: fruit flies with white eyes or curly wings, for example. Working backward from the phenotype\u2014the appearance or behavior of the individual\u2014one then determines the organism\u2019s genotype, the form of the gene responsible for that characteristic (Panel 8\u20132)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5834",
+            "title": "Cell_Biology_Alberts",
+            "content": "The first glimpse of the answer to this problem came over 80 years ago, with the discovery of a set of mutations in Drosophila that cause bizarre disturbances in the organization of the adult fly. In the Antennapedia mutant, for example, legs sprout from the head in place of antennae, whereas in the Bithorax mutant, portions of an extra pair of wings appear where normally there should be the much smaller appendages called halteres (Figure 21\u201323). These mutations transform parts of the body into structures appropriate to other positions, and they are called homeotic mutations (from the Greek \u201chomoios,\u201d meaning similar) because the transformation is between structures of a recognizably similar general type, changing one kind of limb, or one kind of segment, into another. It was eventually discovered that a whole set of genes, the homeotic selector genes, or Hox genes, serve to permanently specify the A-P characters of the whole set of animal segments. These genes are all related to one"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5837",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201323 Homeotic mutations. Ultrabithorax, or Ubx, is one of three genes in the Bithorax gene complex (a Hox gene cluster). Ubx is responsible for all of the differences between the second and third thoracic segments. (a, B) Ubx loss-of-function mutations transform the haltere-bearing segment (a) into a wing-bearing segment, resulting in four-winged flies (B). (c) Ubx gain-of-function in the second thoracic segment transforms this wing-bearing segment into a halterebearing segment, resulting in wingless flies. (courtesy of richard Mann.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_156",
+            "title": "Cell_Biology_Alberts",
+            "content": "studies in Drosophila Provide a key to vertebrate development The fruit fly Drosophila melanogaster (Figure 1\u201340) has been used as a model genetic organism for longer than any other; in fact, the foundations of classical genetics were built to a large extent on studies of this insect. Over 80 years ago, it provided, for example, definitive proof that genes\u2014the abstract units of hereditary information\u2014are carried on chromosomes, concrete physical objects whose behavior had been closely followed in the eukaryotic cell with the light microscope, but whose function was at first unknown. The proof depended on one of the many features that make Drosophila peculiarly convenient for genetics\u2014the giant chromosomes, with characteristic banded appearance, that are visible in Figure 1\u201338 Arabidopsis thaliana, the plant chosen as the primary model for studying plant molecular genetics. (courtesy of Toni hayden and the John Innes Foundation.) 0.2 mm"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5813",
+            "title": "Cell_Biology_Alberts",
+            "content": "The egg-polarity genes have a further special feature: they are all maternal-effect genes, in that it is the mother\u2019s genome rather than the zygote\u2019s genome that is critical. For example, a fly whose chromosomes are mutant in both copies of the Bicoid gene but who is born from a mother carrying one normal copy of Bicoid develops perfectly normally, without any defects in the head pattern. However, if that offspring is a female, she cannot deposit any functional Bicoid mRNA into her own eggs, which will therefore develop into headless embryos, regardless of the father\u2019s genotype. The egg-polarity genes act first in a hierarchy of gene systems that define a progressively more detailed pattern of body parts. In the next few pages, we begin with the molecular mechanisms that pattern the developing Drosophila embryo and larva along the A-P axis, before considering the patterning along the D-V axis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5836",
+            "title": "Cell_Biology_Alberts",
+            "content": "There are eight Hox genes in the fly, and they all lie in one or the other of two gene clusters known as the Bithorax complex and the Antennapedia complex. wild type loss of Ubx gain of Ubx Figure 21\u201322 The pattern of expression of Engrailed, a segment-polarity gene. the Engrailed pattern is shown in a 10hour embryo and an adult (whose wings have been removed in this preparation). the pattern is revealed by constructing a strain of Drosophila containing the control sequences of the Engrailed gene coupled to the coding sequence of the reporter LacZ, whose product is detected histochemically through the brown product generated by immunohistochemistry against LacZ (10-hour embryo) or through the blue product generated by a reaction that LacZ catalyzes (adult). Note that the Engrailed pattern, once established, is preserved throughout the animal\u2019s life. (courtesy of tom Kornberg.) Figure 21\u201323 Homeotic mutations."
+        },
+        {
+            "id": "Cell_Biology_Alberts_160",
+            "title": "Cell_Biology_Alberts",
+            "content": "Drosophila requires only 9 days to progress from a fertilized egg to an adult; it is vastly easier and cheaper to breed than any vertebrate, and its genome is much smaller\u2014about 200 million nucleotide pairs, compared with 3200 million for a human. This genome codes for about 15,000 proteins, and mutants can now be obtained for essentially any gene. But there is also another, deeper reason why genetic mechanisms that are hard to discover in a vertebrate are often readily revealed in the fly. This relates, as we now explain, to the frequency of gene duplication, which is substantially greater in vertebrate genomes than in the fly genome and has probably been crucial in making vertebrates the complex and subtle creatures that they are. The vertebrate Genome Is a Product of Repeated duplications"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2368",
+            "title": "Cell_Biology_Alberts",
+            "content": "genes. To test complementation in a diploid organism, an individual that is homozygous for one mutation\u2014that is, it possesses two identical alleles of the mutant gene in question\u2014is mated with an individual that is homozygous for the other mutation. If the two mutations are in the same gene, the offspring show the mutant phenotype, because they still will have no normal copies of the gene in question (Figure 8\u201348). If, in contrast, the mutations fall in different genes, the resulting offspring show a normal phenotype, because they retain one normal copy (and one mutant copy) of each gene; the mutations thereby complement one another and restore a normal phenotype. Complementation testing of mutants identified during genetic screens has revealed, for example, that 5 different genes are required for yeast to digest the sugar galactose, 20 genes are needed for E. coli to build a functional flagellum, 48 genes are involved in assembling bacteriophage T4 viral particles, and hundreds of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1983",
+            "title": "Cell_Biology_Alberts",
+            "content": "Until then, a gene had been defined operationally as a region of the genome that segregates as a single unit during meiosis and gives rise to a definable phenotypic trait, such as a red or a white eye in Drosophila or a round or wrinkled seed in peas. The work on Neurospora showed that most genes correspond to a region of the genome that directs the synthesis of a single enzyme. This led to the hypothesis that one gene encodes one polypeptide chain. The hypothesis proved fruitful for subsequent research; as more was learned about the mechanism of gene expression in the 1960s, a gene became identified as that stretch of DNA that was transcribed into the RNA coding for a single polypeptide chain (or a single structural RNA such as a tRNA or an rRNA molecule). The discovery of split genes and introns in the late 1970s could be readily accommodated by the original definition of a gene, provided that a single polypeptide chain was specified by the RNA transcribed from any one DNA sequence."
+        },
+        {
+            "id": "Cell_Biology_Alberts_877",
+            "title": "Cell_Biology_Alberts",
+            "content": "In chromosome breakage-and-rejoining events of the sort just described, the zone of silencing, where euchromatin is converted to a heterochromatic state, spreads for different distances in different early cells in the fly embryo. Remarkably, these differences then are perpetuated for the rest of the animal\u2019s life: in each cell, once the heterochromatic condition is established on a piece of chromatin, it tends to be stably inherited by all of that cell\u2019s progeny (Figure 4\u201331). This remarkable phenomenon, called position effect variegation, was first recognized through a detailed genetic analysis of the mottled loss of red pigment in the fly eye (Figure 4\u201332). It shares features with the extensive spread of heterochromatin that inactivates one of the two X chromosomes in female mammals. There too, a random process acts in each cell of the early embryo to dictate which X chromosome will be inactivated, and that same X chromosome then remains inactive in all the cell\u2019s progeny, creating"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6097",
+            "title": "Cell_Biology_Alberts",
+            "content": "21\u201316 The extracellular protein factor Decapentaplegic (Dpp) is critical for proper wing development in Drosophila (Figure Q21\u20133A). It is normally expressed in a narrow stripe in the middle of the wing, along the anterior\u2013posterior boundary. Flies that are defective for Dpp form stunted \u201cwings\u201d (Figure Q21\u20133B). If an additional copy of the gene is placed under control of a promoter that is active in the anterior part of the wing, or in the posterior Figure Q21\u20132 Somite formation in zebrafish embryos (problem 21\u201315)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2347",
+            "title": "Cell_Biology_Alberts",
+            "content": "Before the advent of gene cloning technology, most genes were identified by the abnormalities produced when the gene was mutated. Indeed, the very concept of the gene was deduced from the heritability of such abnormalities. This classical genetic approach\u2014identifying the genes responsible for mutant phenotypes\u2014is most easily performed in organisms that reproduce rapidly and are amenable to genetic manipulation, such as bacteria, yeasts, nematode worms, and fruit flies. Although spontaneous mutants can sometimes be found by examining extremely PANeL 8\u20132: Review of Classical Genetics GENES AND PHENOTYPES Gene: a functional unit of inheritance, usually corresponding to the segment of DNA coding for a single protein. Genome: all of an organism\u2019s DNA sequences. locus:the site of the gene in the genome Wild-type: the normal, Mutant: differing from the alleles:alternative forms of a gene naturally occurring type wild-type because of a genetic change (a mutation)"
+        },
+        {
+            "id": "InternalMed_Harrison_5524",
+            "title": "InternalMed_Harrison",
+            "content": "survival. Aging is seen as the random degeneration resulting from the inability of evolution to prevent it, i.e., the nonadaptive consequence of evolutionary \u201cneglect.\u201d This conclusion is supported by studies that restricted reproduction to later life in the fruit fly, Drosophila melanogaster, thus permitting natural selection to operate on later life traits and leading to an increase in longevity. There are some species of plants and animals that do not appear to age, or at least they undergo an extremely slow aging process, termed \u201cnegligible senescence.\u201d The mortality rates of these species are relatively constant with time, and they do not display any obvious phenotypic changes of aging. Conversely, there are some living things that undergo programmed death immediately after reproduction, such as annual plants and semelparous animals (Fig. 94e-4). However, many other living things from yeast to humans undergo a gradual aging process leading to death that is surprisingly similar at"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5806",
+            "title": "Cell_Biology_Alberts",
+            "content": "It is the fly Drosophila, more than any other organism, that has provided the key to our present understanding of how genes govern development. Decades of genetic study culminated in a large-scale genetic screen, focusing especially on the early embryo and searching for mutations that disrupt its pattern. This revealed that the key developmental genes fall into a relatively small set of functional classes defined by their mutant phenotypes. The discovery of these genes and the subsequent analysis of their functions was a famous tour de force and had a revolutionary impact on all of developmental biology, earning its discoverers a Nobel Prize. Some parts of the developmental machinery revealed in this way are conserved between flies and vertebrates, some parts not. But the logic of the experimental approach and the general strategies of genetic control that it revealed have transformed our understanding of multicellular development in general."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5838",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genes in the Bithorax complex control the differences among the abdominal and thoracic segments of the body, while those in the Antennapedia complex control the differences among thoracic and head segments. Comparisons with other species show that the same genes are present in essentially all animals, including humans. These comparisons also reveal that the Antennapedia and Bithorax complexes are the two halves of a single entity, called the Hox complex, that has become split in the course of the fly\u2019s evolution, and whose members operate in a coordinated way to exert their control over the head-to-tail pattern of the body."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1878",
+            "title": "Cell_Biology_Alberts",
+            "content": "the embryo) keep the stripe elements silent. A large and complex control region is thereby built from a series of smaller modules, each of which consists of a unique arrangement of short cis-regulatory sequences recognized by specific transcription regulators. The Eve gene itself encodes a transcription regulator, which, after its pattern of expression is set up in seven stripes, controls the expression of other Drosophila genes. As development proceeds, the embryo is thus subdivided into finer and finer regions that eventually give rise to the different body parts of the adult fly, as discussed in Chapter 21."
+        },
+        {
+            "id": "Cell_Biology_Alberts_163",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201341 Giant chromosomes from salivary gland cells of Drosophila. Because many rounds of dnA replication have occurred without an intervening cell division, each of the chromosomes in these unusual cells contains over 1000 identical dnA molecules, all aligned in register. This makes them easy to see in the light microscope, where they display a characteristic and reproducible banding pattern. specific bands can be identified as the locations of specific genes: a mutant fly with a region of the banding pattern missing shows a phenotype reflecting loss of the genes in that region. Genes that are being transcribed at a high rate correspond to bands with a \u201cpuffed\u201d appearance. The bands stained dark brown in the micrograph are sites where a particular regulatory protein is bound to the dnA. (courtesy of B. Zink and R. Paro, from R. Paro, Trends Genet. 6:416\u2013421, 1990. With permission from elsevier.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1109",
+            "title": "Cell_Biology_Alberts",
+            "content": "Low Mutation Rates Are Necessary for Life as We Know It Since many mutations are deleterious, no species can afford to allow them to accumulate at a high rate in its germ cells. Although the observed mutation frequency is low, it is nevertheless thought to limit the number of essential proteins that any organism can depend upon to perhaps 30,000. More than this, and the probability that at least one critical component will suffer a damaging mutation becomes catastrophically high. By an extension of the same argument, a mutation frequency tenfold higher would limit an organism to about 3000 essential genes. In this case, evolution would have been limited to organisms considerably less complex than a fruit fly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_875",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201331 The cause of position effect variegation in Drosophila. (A) Heterochromatin (green) is normally prevented from spreading into adjacent regions of euchromatin (red) by barrier DNA sequences, which we shall discuss shortly. In flies that inherit certain chromosomal rearrangements, however, this barrier is no longer present. (b) During the early development of such flies, heterochromatin can spread into neighboring chromosomal DNA, proceeding for different distances in different cells. This spreading soon stops, but the established pattern of heterochromatin is subsequently inherited, so that large clones of progeny cells are produced that have the same neighboring genes condensed into heterochromatin and thereby inactivated (hence the \u201cvariegated\u201d appearance of some of these flies; see Figure 4\u201332). Although \u201cspreading\u201d is used to describe the formation of new heterochromatin close to previously existing heterochromatin, the term may not be wholly accurate. There is evidence"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2662",
+            "title": "Cell_Biology_Alberts",
+            "content": "First, interactions between one protein and another can be monitored by fluorescence resonance energy transfer, also called F\u00f6rster resonance energy Figure 9\u201323 Green fluorescent protein (GFP) as a reporter. For this experiment, carried out in the fruit fly, the gFp gene was joined (using recombinant Dna techniques) to a fly promoter that is active only in a specialized set of neurons. this image of a live fly embryo was captured by a fluorescence microscope and shows approximately 20 neurons, each with long projections (axons and dendrites) that communicate with other (nonfluorescent) cells. these neurons are located just under the surface of the animal and allow it to sense its immediate environment. (From W.B. grueber et al., Curr. Biol. 13:618\u2013626, 2003. With permission from elsevier.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1891",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although it was once thought that cell differentiation was irreversible, it is now clear that by manipulating combinations of master transcription regulators, cell types and differentiation pathways can be readily altered. Combinations of Master transcription regulators Specify Cell types by Controlling the expression of Many Genes As we saw in the introduction of this chapter, different cell types of multicellular organisms differ enormously in the proteins and RNAs they express. For example, only muscle cells express special types of actin and myosin that form the contractile Figure 7\u201335 Expression of the Drosophila Eyeless gene in precursor cells of the leg triggers the development of an eye on the leg. (A) Simplified diagrams showing the result when a fruit fly larva contains either the normally expressed Eyeless gene (left) or an Eyeless gene that is additionally expressed artificially in cells that normally give rise to leg tissue (right)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2367",
+            "title": "Cell_Biology_Alberts",
+            "content": "A large-scale genetic screen can turn up many different mutations that show the same phenotype. These defects might lie in different genes that function in the same process, or they might represent different mutations in the same gene. Alternative forms of the same gene are known as alleles. The most common difference between alleles is a substitution of a single nucleotide pair, but different alleles can also bear deletions, substitutions, and duplications. How can we tell, then, whether two mutations that produce the same phenotype occur in the same gene or in different genes? If the mutations are recessive\u2014if, for example, they represent a loss of function of a particular gene\u2014a complementation test can be used to ascertain whether the mutations fall in the same gene or in different genes. To test complementation in a diploid organism, an individual that is homozygous for one mutation\u2014that is, it possesses two identical alleles of the mutant gene in question\u2014is mated with an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5817",
+            "title": "Cell_Biology_Alberts",
+            "content": "The body of an insect is divided along its A-P axis into a series of segments. The segments are repetitions of a theme with variations: each segment forms highly specialized structures, but all built according to a similar fundamental plan (Figure 21\u201318). The gradients of transcription regulators set up along the A-P axis in the early embryo by the egg-polarity genes are the prelude to creation of the segments. These regulators initiate the orderly transcription of segmentation genes, which refine the pattern of gene expression to define the boundaries and ground plan of the individual segments. Segmentation genes are expressed by subsets of cells in the embryo, and their products are the first components that the embryo\u2019s own genome contributes to embryonic development; they are therefore called zygotic-effect genes, to distinguish them from the earlier-acting maternal-effect genes. Mutations in segmentation genes can alter either the number of segments or their basic internal"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5744",
+            "title": "Cell_Biology_Alberts",
+            "content": "At first glance, one would no more expect the worm, the flea, the eagle, and the giant squid all to be generated by the same developmental mechanisms than one would suppose that the same methods were used to make a shoe and an airplane. Remarkably, however, research in the past 30 years has revealed that much of the basic machinery of development is essentially the same in all animals\u2014not just in all vertebrates, but in all the major phyla of invertebrates too. Recognizably similar, evolutionarily related molecules define the specialized animal cell types, mark the differences between body regions, and help create the animal body pattern. Homologous proteins are often functionally interchangeable between very different species. Thus, a human protein produced artificially in a fly, for example, can perform the same function as the fly\u2019s own version of that protein (Figure 21\u20132). Thanks to an underlying unity of mechanisms, developmental biologists have been making great strides toward"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4433",
+            "title": "Cell_Biology_Alberts",
+            "content": "15\u201317 The Wnt planar polarity signaling pathway normally ensures that each wing cell in Drosophila has a single hair. Overexpression of the Frizzled gene from a heat-shock promoter (hs-Fz) causes multiple hairs to grow from many cells (Figure Q15\u20135A). This phenotype is suppressed if hs-Fz is combined with a heterozygous deletion (Dsh\u0394) of the Dishevelled gene (Figure Q15\u20135B). Do these results allow you to order the action of Frizzled and Dishevelled in the signaling pathway? If so, what is the order? Explain your reasoning. Figure Q15\u20135 Pattern of hair growth on wing cells in genetically different Drosophila (Problem 15\u201317). (From C.G. Winter et al., Cell 105:81\u201391, 2001. With permission from Elsevier.) Marks F, Klingm\u00fcller U & M\u00fcller-Decker K (2009) Cellular Signal Processing: An Introduction to the Molecular Mechanisms of Signal Transduction. New York: Garland Science. Lim W, Mayer B & Pawson T (2015) Cell Signaling: Principles and Mechanisms. New York: Garland Science."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5883",
+            "title": "Cell_Biology_Alberts",
+            "content": "One example is the development of sensory bristles in Drosophila, most easily seen on the fly\u2019s back, but also present on most of its other exposed surfaces. Each of these is a miniature sense organ, consisting of a sensory neuron and a small set of supporting cells. Some bristles respond to chemical stimuli, others to mechanical stimuli, but they are all constructed in a similar way (Figure 21\u201334). The pro-neural genes Achaete and Scute mentioned earlier mark the patches of epidermis within which bristles will form. Mutations that eliminate the expression of these genes at some of their usual sites block development of bristles at just those sites, and mutations that cause expression in abnormal sites cause bristles to develop there."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5875",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201332 The Hox complexes of an insect and a mammal, compared and related to body regions. the genes of the Antennapedia and Bithorax complexes of Drosophila are shown in their chromosomal order in the top line. the corresponding genes of the four mammalian Hox complexes are shown below, also in chromosomal order. the gene expression domains in fly and mammal are indicated in a simplified form by color in the cartoons of animals above and below. there is a remarkable parallelism. however, the details of the patterns depend on developmental stage and vary somewhat from one mammalian Hox complex to another. also, in many cases, genes shown here as expressed in an anterior domain are also expressed more posteriorly, overlapping the domains of more posterior Hox genes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6001",
+            "title": "Cell_Biology_Alberts",
+            "content": "The imaginal discs of Drosophila provide another striking example of homeostatic size control. These are epithelial pouches that grow by cell proliferation during the larval period and, during the pupal stage, form the organs and extremities of the adult fly (Figure 21\u201360). Experiments have been chiefly done on the wing imaginal disc. Mutations in components of the cell-cycle control machinery can be used to speed up or slow down the rate of cell division in the disc. Remarkably, such mutations can result in an excessive number of abnormally small cells Figure 21\u201360 The imaginal discs in the Drosophila larva (below) and the structures in the adult (above) that they give rise to. [after J.W. Fristrom et al., in problems in Biology: rNa in Development (e.W. hanley, ed.), p. 382. Salt Lake city: University of Utah press, 1969.]"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2353",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the simplest type of complementation test, an individual who is homozygous for one mutation is mated with an individual who is homozygous for the other. The phenotype of the offspring gives the answer to the question. NONCOMPLEMENTATION: TWO INDEPENDENT MUTATIONS IN THE SAME GENE hybrid offspring shows normal phenotype: hybrid offspring shows mutant phenotype: one normal copy of each gene is present no normal copies of the mutated gene are present large populations\u2014thousands or tens of thousands of individual organisms\u2014isolating mutant individuals is much more efficient if one generates mutations with chemicals or radiation that damage DNA. By treating organisms with such mutagens, very large numbers of mutant individuals can be created quickly and then screened for a particular defect of interest, as we discuss shortly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_942",
+            "title": "Cell_Biology_Alberts",
+            "content": "Further insight has come from another unusual class of cells\u2014the polytene cells of flies, such as the fruit fly Drosophila. Some types of cells, in many organisms, grow abnormally large through multiple cycles of DNA synthesis without cell division. Such cells, containing increased numbers of standard chromosomes, are said to be polyploid. In the salivary glands of fly larvae, this process is taken to an extreme degree, creating huge cells that contain hundreds or thousands of copies of the Figure 4\u201347 lampbrush chromosomes."
+        }
+    ],
+    "scores": [
+        0.03903264276007433,
+        0.038466822607690895,
+        0.03759069877424706,
+        0.03532907696882091,
+        0.03384113495304313,
+        0.03297393165021232,
+        0.03275448529267685,
+        0.03188315866887295,
+        0.029164706121312358,
+        0.028908072580411903,
+        0.028533096622961954,
+        0.02829149830828708,
+        0.02700965188911187,
+        0.026480241097750247,
+        0.026369845392233592,
+        0.024993087557603686,
+        0.024731182795698924,
+        0.023462866669312903,
+        0.02279500158177792,
+        0.022763347763347763,
+        0.022751184503901897,
+        0.022298715538847116,
+        0.02188915212171026,
+        0.021550834489875804,
+        0.02096854798407248,
+        0.02068432774954514,
+        0.020428381142666856,
+        0.02004020311272935,
+        0.019275744854671546,
+        0.019255209937378094,
+        0.018836457357075915,
+        0.018518518518518517
+    ],
+    "execution_time": 35.047582387924194
+}

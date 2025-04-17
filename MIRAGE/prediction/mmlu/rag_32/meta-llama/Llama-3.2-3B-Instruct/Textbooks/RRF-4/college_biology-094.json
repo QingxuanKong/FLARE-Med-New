@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-094",
+    "question": "Which of the following is encoded by the src oncogene and catalyzes the specific addition of phosphate groups to cellular proteins?",
+    "options": {
+        "A": "Protein phosphatase",
+        "B": "Adenylate cyclase",
+        "C": "G protein-linked receptor",
+        "D": "Tyrosine kinase"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of the src oncogene and its relationship to protein phosphorylation. The src oncogene encodes a protein called Src, which is a tyrosine kinase. Tyrosine kinases are enzymes that catalyze the addition of phosphate groups to tyrosine residues on target proteins. Given this information, let's evaluate the options provided.\\n\\nOption A: Protein phosphatase is incorrect because it is the enzyme that removes phosphate groups from proteins, not adds them.\\n\\nOption B: Adenylate cyclase is not directly related to the src oncogene or protein phosphorylation. It is an enzyme that generates cyclic AMP from ATP.\\n\\nOption C: G protein-linked receptor is a type of receptor that activates G proteins, but it is not directly involved in the addition of phosphate groups to proteins.\\n\\nOption D: Tyrosine kinase is the correct answer because it is the enzyme encoded by the src oncogene that catalyzes the specific addition of phosphate groups to tyrosine residues on target proteins.\\n\\nTherefore, the correct answer is D. Tyrosine kinase.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_748",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Why is each successive peak in Figure Q3\u20132B a little higher than the one before? D. Why does the force collapse so abruptly after each peak? 3\u201312 Rous sarcoma virus (RSV) carries an oncogene called Src, which encodes a continuously active protein tyrosine kinase that leads to unchecked cell proliferation. Normally, Src carries an attached fatty acid (myristoylate) group that allows it to bind to the cytoplasmic side of the plasma membrane. A mutant version of Src that does not allow attachment of myristoylate does not bind to the membrane. Infection of cells with RSV encoding either the normal or the mutant form of Src leads to the same high level of protein tyrosine kinase activity, but the mutant Src does not cause cell proliferation. a."
+        },
+        {
+            "id": "Cell_Biology_Alberts_671",
+            "title": "Cell_Biology_Alberts",
+            "content": "As a result of the combined activities of protein kinases and protein phosphatases, the phosphate groups on proteins are continually turning over\u2014being added and then rapidly removed. Such phosphorylation cycles may seem wasteful, but they are important in allowing the phosphorylated proteins to switch rapidly from one state to another: the more rapid the cycle, the faster a population of protein molecules can change its state of phosphorylation in response to a sudden change in its phosphorylation rate (see Figure 15\u201314). The energy required to drive this phosphorylation cycle is derived from the free energy of ATP hydrolysis, one molecule of which is consumed for each phosphorylation event. The Regulation of the Src Protein Kinase Reveals How a Protein Can Function as a Microprocessor"
+        },
+        {
+            "id": "Cell_Biology_Alberts_680",
+            "title": "Cell_Biology_Alberts",
+            "content": "Src-type protein kinase activity turns on fully only if the answers to all of the above questions are yes Figure 3\u201366 GTP-binding proteins as molecular switches. The activity of a GTP-binding protein (also called a GTPase) generally requires the presence of a tightly bound GTP molecule (switch \u201con\u201d). Hydrolysis of this GTP molecule by the GTP-binding protein produces GDP and inorganic phosphate (Pi), and it causes the protein to convert to a different, usually inactive, conformation (switch \u201coff\u201d). Resetting the switch requires that the tightly bound GDP dissociates. This is a slow step that is greatly accelerated by specific signals; once the GDP has dissociated, a molecule of GTP is quickly rebound. modified with a different type of polyubiquitin chain. These modifications have different functional consequences for the protein that is targeted (Figure 3\u201369B)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_673",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Src family of protein kinases (see Figure 3\u201310) exhibits such behavior. The Src protein (pronounced \u201csarc\u201d and named for the type of tumor, a sarcoma, that its deregulation can cause) was the first tyrosine kinase to be discovered. It is now known to be part of a subfamily of nine very similar protein kinases, which are found only in multicellular animals. As indicated by the evolutionary tree in Figure 3\u201362, sequence comparisons suggest that tyrosine kinases as a group were a relatively late innovation that branched off from the serine/threonine kinases, with the Src subfamily being only one subgroup of the tyrosine kinases created in this way. The Src protein and its relatives contain a short N-terminal region that becomes covalently linked to a strongly hydrophobic fatty acid, which anchors the kinase at the cytoplasmic face of the plasma membrane. Next along the linear sequence of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5531",
+            "title": "Cell_Biology_Alberts",
+            "content": "This Nobel Prize-winning finding was followed by a flood of discoveries of other viral oncogenes carried by retroviruses that cause cancer in nonhuman animals. Each such oncogene turned out to have a counterpart proto-oncogene in the normal vertebrate genome. As was the case for Src, these other oncogenes generally differed from their normal counterparts, either in structure or in level of expression. But how did this relate to typical human cancers, most of which are not infectious and in which retroviruses play no part? Figure 20\u201317 Cancer-critical mutations fall into two readily distinguishable categories, dominant and recessive."
+        },
+        {
+            "id": "Cell_Biology_Alberts_670",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201361 Protein phosphorylation. Many thousands of proteins in a typical eukaryotic cell are modified by the covalent addition of a phosphate group. (A) The general reaction transfers a phosphate group from ATP to an amino acid side chain of the target protein by a protein kinase. Removal of the phosphate group is catalyzed by a second enzyme, a protein phosphatase. In this example, the phosphate is added to a serine side chain; in other cases, the phosphate is instead linked to the \u2013OH group of a threonine or a tyrosine in the protein. (B) The phosphorylation of a protein by a protein kinase can either increase or decrease the protein\u2019s activity, depending on the site of phosphorylation and the structure of the protein. phosphorylate either a serine or a threonine side chain, and many are organized into clusters that seem to reflect their function\u2014in transmembrane signal transduction, intracellular signal amplification, cell-cycle control, and so on."
+        },
+        {
+            "id": "Cell_Biology_Alberts_666",
+            "title": "Cell_Biology_Alberts",
+            "content": "Protein phosphorylation involves the enzyme-catalyzed transfer of the terminal phosphate group of an ATP molecule to the hydroxyl group on a serine, threonine, or tyrosine side chain of the protein (Figure 3\u201361). A protein kinase catalyzes this reaction, and the reaction is essentially unidirectional because of the large amount of free energy released when the phosphate\u2013phosphate bond in ATP is broken to produce ADP (discussed in Chapter 2). A protein phosphatase catalyzes the reverse reaction of phosphate removal, or dephosphorylation. Cells contain hundreds of different protein kinases, each responsible for phosphorylating a different protein or set of proteins. There are also many different protein phosphatases; some are highly specific and remove phosphate groups from only one or a few proteins, whereas others act on a broad range of proteins and are targeted to specific substrates by regulatory subunits. The state of phosphorylation of a protein at any moment, and thus its"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4314",
+            "title": "Cell_Biology_Alberts",
+            "content": "catalytic subunits are responsible for removing phosphate groups from phosphorylated serines and threonines on proteins, there are about 100 protein tyrosine phosphatases encoded in the human genome, including some dual-specificity phosphatases that also dephosphorylate serines and threonines. Like tyrosine kinases, the tyrosine phosphatases occur in both cytoplasmic and transmembrane forms. Unlike serine/threonine protein phosphatases, which generally have broad specificity, most tyrosine phosphatases display exquisite specificity for their substrates, removing phosphate groups from only selected phosphotyrosines on a subset of proteins. Together, these phosphatases ensure that tyrosine phosphorylations are short-lived and that the level of tyrosine phosphorylation in resting cells is very low. They do not, however, simply continuously reverse the effects of protein tyrosine kinases; they are often regulated to act only at the appropriate time and place."
+        },
+        {
+            "id": "Cell_Biology_Alberts_672",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Regulation of the Src Protein Kinase Reveals How a Protein Can Function as a Microprocessor The hundreds of different protein kinases in a eukaryotic cell are organized into complex networks of signaling pathways that help to coordinate the cell\u2019s activities, drive the cell cycle, and relay signals into the cell from the cell\u2019s environment. Many of the extracellular signals involved need to be both integrated and amplified by the cell. Individual protein kinases (and other signaling proteins) serve as input\u2013output devices, or \u201cmicroprocessors,\u201d in the integration process. An important part of the input to these signal-processing proteins comes from the control that is exerted by phosphates added and removed from them by protein kinases and protein phosphatases, respectively."
+        },
+        {
+            "id": "Cell_Biology_Alberts_660",
+            "title": "Cell_Biology_Alberts",
+            "content": "A phosphorylation event can affect the protein that is modified in three important ways. First, because each phosphate group carries two negative charges, the enzyme-catalyzed addition of a phosphate group to a protein can cause a major conformational change in the protein by, for example, attracting a cluster of positively charged amino acid side chains. This can, in turn, affect the binding of ligands elsewhere on the protein surface, dramatically changing the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_749",
+            "title": "Cell_Biology_Alberts",
+            "content": "a. Assuming that the normal Src is all bound to the plasma membrane and that the mutant Src is distributed throughout the cytoplasm, calculate their relative concentrations in the neighborhood of the plasma membrane. For the purposes of this calculation, assume that the cell is a sphere with a radius (r) of 10 \u03bcm and that the mutant Src is distributed throughout the cell, whereas the normal Src is confined to a 4-nm-thick layer immediately beneath the membrane. [For this problem, assume that the membrane has no thickness. The volume of a sphere is (4/3)\u03c0r3.] b. The target (X) for phosphorylation by Src resides in the membrane. Explain why the mutant Src does not cause cell proliferation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4089",
+            "title": "Cell_Biology_Alberts",
+            "content": "The largest class of molecular switches consists of proteins that are activated or inactivated by phosphorylation (discussed in Chapter 3). For these proteins, the switch is thrown in one direction by a protein kinase, which covalently adds one or more phosphate groups to specific amino acids on the signaling protein, and in the other direction by a protein phosphatase, which removes the phosphate groups (Figure 15\u20137A). The activity of any protein regulated by phosphorylation depends on the balance between the activities of the kinases that phosphorylate it and of the phosphatases that dephosphorylate it. About 30\u201350% of human proteins contain covalently attached phosphate, and the human genome encodes about 520 protein kinases and about 150 protein phosphatases. A typical mammalian cell makes use of hundreds of distinct types of protein kinases at any moment."
+        },
+        {
+            "id": "Cell_Biology_Alberts_665",
+            "title": "Cell_Biology_Alberts",
+            "content": "Reversible protein phosphorylation controls the activity, structure, and cellular localization of both enzymes and many other types of proteins in eukaryotic cells. In fact, this regulation is so extensive that more than one-third of the 10,000 or so proteins in a typical mammalian cell are thought to be phosphorylated at any given time\u2014many with more than one phosphate. As might be expected, the addition and removal of phosphate groups from specific proteins often occur in response to signals that specify some change in a cell\u2019s state. For example, the complicated series of events that takes place as a eukaryotic cell divides is largely timed in this way (discussed in Chapter 17), and many of the signals mediating cell\u2013cell interactions are relayed from the plasma membrane to the nucleus by a cascade of protein phosphorylation events (discussed in Chapter 15). A Eukaryotic Cell Contains a Large Collection of Protein Kinases and Protein Phosphatases"
+        },
+        {
+            "id": "Pathology_Robbins_112",
+            "title": "Pathology_Robbins",
+            "content": "Several kinds of receptors have no intrinsic catalytic activity (e.g., immune receptors, some cytokine receptors, and integrins). For these, a separate intracellular protein\u2014known as a nonreceptor tyrosine kinase\u2014 interacts with receptors after ligand binding and phosphorylates specific motifs on the receptor or other proteins. The cellular homolog of the transforming protein of the Rous sarcoma virus, called SRC, is the prototype for an important family of such nonreceptor tyrosine kinases (Src-family kinases). SRC contains unique functional regions called Src-homology (SH) domains; SH2 domains typically bind to receptors phosphorylated by another kinase, allowing the aggregation of multiple enzymes, whereas SH3 domains mediate protein\u2013protein interactions, often involving proline-rich domains."
+        },
+        {
+            "id": "Cell_Biology_Alberts_664",
+            "title": "Cell_Biology_Alberts",
+            "content": "protein\u2019s activity. When a second enzyme removes the phosphate group, the protein returns to its original conformation and restores its initial activity. Second, an attached phosphate group can form part of a structure that the binding sites of other proteins recognize. As previously discussed, the SH2 domain binds to a short peptide sequence containing a phosphorylated tyrosine side chain (see Figure 3\u201340B). More than ten other common domains provide binding sites for attaching their protein to phosphorylated peptides in other protein molecules, each recognizing a phosphorylated amino acid side chain in a different protein context. Third, the addition of a phosphate group can mask a binding site that otherwise holds two proteins together, and thereby disrupt protein\u2013protein interactions. As a result, protein phosphorylation and dephosphorylation very often drive the regulated assembly and disassembly of protein complexes (see, for example, Figure 15\u201311)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2834",
+            "title": "Cell_Biology_Alberts",
+            "content": "Proteins that function on only one side of the lipid bilayer, by contrast, are often associated exclusively with either the lipid monolayer or a protein domain on that side. Some intracellular signaling proteins, for example, that help relay extracellular signals into the cell interior are bound to the cytosolic half of the plasma membrane by one or more covalently attached lipid groups, which can be fatty acid chains or prenyl groups (Figure 10\u201318). In some cases, myristic acid, a saturated 14-carbon fatty acid, is added to the N-terminal amino group of the protein during its synthesis on a ribosome. All members of the Src family of cytoplasmic protein tyrosine kinases (discussed in Chapter 15) are myristoylated in this way. Membrane attachment through a single lipid anchor is not very strong, however, and a second lipid group is often added to anchor proteins more firmly to a membrane. For most Src kinases, the second lipid modification is the attachment of palmitic acid, a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6997",
+            "title": "Cell_Biology_Alberts",
+            "content": "protein glycosylation Process of transferring a single saccharide or preformed precursor oligosaccharide to proteins. protein kinase Enzyme that transfers the terminal phosphate group of ATP to one or more specific amino acids (serine, threonine, or tyrosine) of a target protein. protein kinase C (PKC) Ca2+-dependent protein kinase that, when activated by diacylglycerol and an increase in the concentration of cytosolic Ca2+, phosphorylates target proteins on specific serine and threonine residues. (Figure 15\u201329) protein phosphatase Enzyme that catalyzes phosphate removal from amino acids of a target protein. protein subunit An individual protein chain in a protein composed of more than one chain. protein translocation Process of moving a protein across a membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4090",
+            "title": "Cell_Biology_Alberts",
+            "content": "Protein kinases attach phosphate to the hydroxyl group of specific amino acids on the target protein. There are two main types of protein kinase. The great majority are serine/threonine kinases, which phosphorylate the hydroxyl groups of serines and threonines in their targets. Others are tyrosine kinases, which phosphorylate proteins on tyrosines. The two types of protein kinase are closely related members of a large family, differing primarily in the structure of their protein substrate binding sites. Many intracellular signaling proteins controlled by phosphorylation are themselves protein kinases, and these are often organized into kinase cascades. In such a cascade, one protein kinase, activated by phosphorylation, phosphorylates the next protein kinase in the sequence, and so on, relaying the signal onward and, in some cases, amplifying it or spreading it to other signaling pathways."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4103",
+            "title": "Cell_Biology_Alberts",
+            "content": "There are many types of interaction domains in signaling proteins. Src homology 2 (SH2) domains and phosphotyrosine-binding (PTB) domains, for example, bind to phosphorylated tyrosines in a particular peptide sequence on activated receptors or intracellular signaling proteins. Src homology 3 (SH3) domains bind to short, proline-rich amino acid sequences. Some pleckstrin homology (PH) domains bind to the charged head groups of specific phosphoinositides that are produced in the plasma membrane in response to an extracellular signal; they Figure 15\u201310 Three types of intracellular signaling complexes. (A) A receptor and some of the intracellular signaling proteins it activates in sequence are preassembled into a signaling complex on the inactive receptor by a large scaffold protein."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4304",
+            "title": "Cell_Biology_Alberts",
+            "content": "Src itself, as well as several other family members, can also bind to activated RTKs; in these cases, the receptor and cytoplasmic kinases mutually stimulate each other\u2019s catalytic activity, thereby strengthening and prolonging the signal (see Figure 15\u201351). There are even some G proteins (Gs and Gi) that can activate Src, which is one way that the activation of GPCRs can lead to tyrosine phosphorylation of intracellular signaling proteins and effector proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6998",
+            "title": "Cell_Biology_Alberts",
+            "content": "protein subunit An individual protein chain in a protein composed of more than one chain. protein translocation Process of moving a protein across a membrane. protein translocator Membrane-bound protein that mediates the transport of another protein across a membrane. (Figure 12\u201321) protein tyrosine phosphatase Enzyme that removes phosphate groups from phosphorylated tyrosine residues on proteins. proteoglycan Molecule consisting of one or more glycosaminoglycan chains attached to a core protein. (Figure 19\u201338) proteomics Study of all the proteins, including all the covalently modified forms of each, produced by a cell, tissue, or organism. Proteomics often investigates changes in this larger set of proteins\u2014in \u201cthe proteome\u201d\u2014caused by changes in the environment or by extracellular signals. proto-oncogene Normal gene, usually concerned with the regulation of cell proliferation, that can be converted into a cancer-promoting oncogene by mutation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_684",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201367 The structure of the Ras protein in its GTP-bound form. This monomeric GTPase illustrates the structure of a GTP-binding domain, which is present in a large family of GTP-binding proteins. The red regions change their conformation when the GTP molecule is hydrolyzed to GDP and inorganic phosphate by the protein; the GDP remains bound to the protein, while the inorganic phosphate is released. The special role of the \u201cswitch helix\u201d in proteins related to Ras is explained in the text (see Figure 3\u201372 and Movie 15.7). Figure 3\u201368 a comparison of two major intracellular signaling mechanisms in eukaryotic cells. In both cases, a signaling protein is activated by the addition of a phosphate group and inactivated by the removal of this phosphate. Note that the addition of a phosphate to a protein can also be inhibitory. (Adapted from E.R. Kantrowitz and W.N. Lipscomb, Trends Biochem. Sci. 15:53\u201359, 1990.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5530",
+            "title": "Cell_Biology_Alberts",
+            "content": "that the virus had picked up on its travels. v-Src was unmistakably similar, but not identical, to a gene\u2014c-Src\u2014that was discovered in the normal vertebrate genome. c-Src had evidently been caught up accidentally by the retrovirus from the genome of a previously infected host cell, and it had undergone mutation in the process to become an oncogene (v-Src)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4094",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 15\u20137 Two types of intracellular signaling proteins that act as molecular switches. (A) A protein kinase covalently adds a phosphate from ATP to the signaling protein, and a protein phosphatase removes the phosphate. Although not shown, many signaling proteins are activated by dephosphorylation rather than by phosphorylation. (B) A GTP-binding protein is induced to exchange its bound GDP for GTP, which activates the protein; the protein then inactivates itself by hydrolyzing its bound GTP to GDP. signaling molecules share the cytoplasm with a crowd of closely related signaling molecules that control a diverse array of cellular processes. It is inevitable that an occasional signaling molecule will bind or modify the wrong partner, potentially creating unwanted cross-talk and interference between signaling systems. How does a signal remain strong, precise, and specific under these noisy conditions?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_486",
+            "title": "Cell_Biology_Alberts",
+            "content": "Only a very small fraction of this vast set of conceivable polypeptide chains would adopt a stable three-dimensional conformation\u2014by some estimates, less Figure 3\u201310 a protein formed from multiple domains. In the Src protein shown, a C-terminal domain with two lobes (yellow and orange) forms a protein kinase enzyme, while the SH2 and SH3 domains perform regulatory functions. (A) A ribbon model, with ATP substrate in red. (B) A space-filling model, with ATP substrate in red. Note that the site that binds ATP is positioned at the interface of the two lobes that form the kinase. The structure of the SH2 domain was illustrated in Figure 3\u20136. (PDB code: 2SRC.)"
+        },
+        {
+            "id": "Pathology_Robbins_1222",
+            "title": "Pathology_Robbins",
+            "content": "Mutations in genes that regulate some or all of these cellular traits are seen in every cancer; accordingly, these traits form the basis of the following discussion of the molecular origins of cancer. Of note, by convention, gene symbols are italicized but their protein products are not (e.g., RB gene and RB protein, TP53 and p53, MYC and MYC). The self-sufficiency in growth that characterizes cancer cells generally stems from gain-of-function mutations that convert proto-oncogenes to oncogenes. Oncogenes encode proteins called oncoproteins that promote cell growth, even in the absence of normal growth-promoting signals. To appreciate how oncogenes drive inappropriate cell growth, it is helpful to review briefly the sequence of events that characterize normal cell proliferation (introduced in Chapter 1). Under physiologic conditions, cell proliferation can be readily resolved into the following steps: 1. Binding of a growth factor to its specific receptor on the cell membrane 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_480",
+            "title": "Cell_Biology_Alberts",
+            "content": "Studies of the conformation, function, and evolution of proteins have also revealed the central importance of a unit of organization distinct from these four. This is the protein domain, a substructure produced by any contiguous part of a polypeptide chain that can fold independently of the rest of the protein into a compact, stable structure. A domain usually contains between 40 and 350 amino acids, and it is the modular unit from which many larger proteins are constructed. The different domains of a protein are often associated with different functions. Figure 3\u201310 shows an example\u2014the Src protein kinase, which functions in signaling pathways inside vertebrate cells (Src is pronounced \u201csarc\u201d). This protein stripe of hydrophobic helices wrap around each other to minimize exposure of hydrophobic amino acid side chains to aqueous environment 0.5 nm"
+        },
+        {
+            "id": "Cell_Biology_Alberts_674",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201362 an evolutionary tree of selected protein kinases. A higher eukaryotic cell contains hundreds of such enzymes, and the human genome codes for more than 500. Note that only some of these, those discussed in this book, are shown. Figure 3\u201364 The activation of a Src-type protein kinase by two sequential events. As described in the text, the requirement for multiple upstream events to trigger these processes allows the kinase to serve as a signal integrator (Movie 3.11). (Adapted from S.C. Harrison et al., Cell 112:737\u2013740, 2003. With permission from Elsevier.) Figure 3\u201365 How a Src-type protein kinase acts as a signal-integrating device. A disruption of the inhibitory interaction illustrated for the SH3 domain (green) occurs when its binding to the indicated orange linker region is replaced with its higher-affinity binding to an activating ligand."
+        },
+        {
+            "id": "Immunology_Janeway_710",
+            "title": "Immunology_Janeway",
+            "content": "(src homology region 2-containing protein tyrosine phosphatase-1) and SHP-2, which become localized near the cell membrane. These phosphatases inhibit signaling induced by other receptors by removing phosphates from tyrosine residues on other intracellular signaling molecules."
+        },
+        {
+            "id": "Biochemistry_Lippincott_212",
+            "title": "Biochemistry_Lippinco",
+            "content": "Figure5.17Feedbackinhibitionofametabolicpathway. B. Covalent modification Many enzymes are regulated by covalent modification, most often by the addition or removal of phosphate groups from specific serine, threonine, or tyrosine residues of the enzyme. Protein phosphorylation is recognized as one of the primary ways in which cellular processes are regulated. 1. Phosphorylation and dephosphorylation: Phosphorylation reactions are catalyzed by a family of enzymes called protein kinases that use ATP as the phosphate donor. Phosphate groups are cleaved from phosphorylated enzymes by the action of phosphoprotein phosphatases (Fig. 5.18). 2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_543",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. catalyze the hydroxylation of hydrophobic molecules. C. differ from nitric oxide synthase in that they contain heme. D. function in association with an oxidase. Correct answer = B. The CYP enzymes hydroxylate hydrophobic compounds, making them more water soluble. Reduced nicotinamide adenine dinucleotide phosphate (NADPH) from the pentose phosphate pathway is the electron donor. Both the CYP enzymes and the nitric oxide synthase isozymes contain heme. 3.4. In male patients who are hemizygous for X-linked glucose 6-phosphate dehydrogenase deficiency, pathophysiologic consequences are more apparent in red blood cells (RBC) than in other cells such as in the liver. Which one of the following provides the most reasonable explanation for this different response? A. Excess glucose 6-phosphate in the liver, but not in RBC, can be channeled to glycogen, thereby averting cellular damage."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6751",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 24\u201346 early signaling events in a b cell activated by the binding of specific foreign antigen to its bCRs. If the antigen is on the surface of a pathogen or is a soluble macromolecule with two or more identical antigenic determinants (as shown), it cross-links adjacent Bcrs, causing them and their associated invariant chains to cluster, as shown. A Src-like cytoplasmic tyrosine kinase (which can be Fyn or Lyn) is associated with the cytosolic tail of Ig\u03b2; it joins the cluster and phosphorylates both the Ig\u03b1 and Ig\u03b2 invariant chains (for simplicity, only the phosphorylation on Ig\u03b2 is shown). A transmembrane protein tyrosine phosphatase called CD45 is also required to remove inactivating phosphates from these Src-like kinases (not shown). The resulting phosphotyrosines on Ig\u03b1 and Ig\u03b2 serve as docking sites for another Src-like tyrosine kinase called Syk, which becomes phosphorylated and thereby activated to relay the signal downstream."
+        }
+    ],
+    "scores": [
+        0.0370368444407466,
+        0.03530591486723092,
+        0.03410911746247707,
+        0.03189095665419385,
+        0.02932674178318778,
+        0.028395141272058923,
+        0.027357626061869617,
+        0.026570877995737947,
+        0.02543106571035282,
+        0.024935127765316444,
+        0.024167933088941308,
+        0.02413099742821105,
+        0.023970338136709075,
+        0.02334402047169706,
+        0.023313924523601943,
+        0.023099050422732414,
+        0.02299637327321772,
+        0.02258098518126428,
+        0.021367817491814316,
+        0.021336460810145022,
+        0.02033167579386067,
+        0.01987628949065119,
+        0.01979102162065675,
+        0.019111023656478203,
+        0.01904761904761905,
+        0.018624393624393623,
+        0.0185654874278366,
+        0.017820370663709804,
+        0.017162182258942817,
+        0.016845434543454343,
+        0.016783216783216783,
+        0.016632160110420978
+    ],
+    "execution_time": 39.42641258239746
+}

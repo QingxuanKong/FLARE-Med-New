@@ -1,0 +1,209 @@
+{
+    "id": "professional_medicine-005",
+    "question": "Six healthy subjects participate in a study of muscle metabolism during which hyperglycemia and hyperinsulinemia is induced. Muscle biopsy specimens obtained from the subjects during the resting state show significantly increased concentrations of malonyl-CoA. The increased malonyl-CoA concentration most likely directly inhibits which of the following processes in these subjects?",
+    "options": {
+        "A": "Fatty acid oxidation",
+        "B": "Fatty acid synthesis",
+        "C": "Gluconeogenesis",
+        "D": "Glycogenolysis"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of malonyl-CoA in muscle metabolism and how it relates to the given options.\\n\\nMalonyl-CoA is a key regulator of fatty acid metabolism. It is produced by the enzyme acetyl-CoA carboxylase (ACC) and is involved in fatty acid synthesis. In the presence of high insulin levels, ACC is inhibited, leading to decreased malonyl-CoA production and increased fatty acid oxidation.\\n\\nHowever, in the context of the question, we are told that muscle biopsy specimens show significantly increased concentrations of malonyl-CoA in the resting state. This suggests that insulin levels are low, leading to increased ACC activity and malonyl-CoA production.\\n\\nNow, let's examine the options:\\nA. Fatty acid oxidation: Malonyl-CoA actually inhibits fatty acid oxidation, not promotes it. So, this is not the correct answer.\\nB. Fatty acid synthesis: Malonyl-CoA is a key intermediate in fatty acid synthesis, and its increased concentration would promote fatty acid synthesis, not inhibit it. So, this is not the correct answer.\\nC. Gluconeogenesis: Malonyl-CoA can inhibit gluconeogenesis by inhibiting the enzyme pyruvate carboxylase, which is involved in gluconeogenesis. So, this is a possible answer.\\nD. Glycogenolysis: Malonyl-CoA does not have a direct inhibitory effect on glycogenolysis. So, this is not the correct answer.\\n\\nBased on the above analysis, the correct answer is C. Gluconeogenesis.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_27852",
+            "title": "InternalMed_Harrison",
+            "content": "Despite its benefits, exercise presents challenges for individuals with DM because they lack the normal glucoregulatory mechanisms (normally, insulin falls and glucagon rises during exercise). Skeletal muscle is a major site for metabolic fuel consumption in the resting state, and the increased muscle activity during vigorous, aerobic exercise greatly increases fuel requirements. Individuals with type 1 DM are prone to either hyperglycemia or hypoglycemia during exercise, depending on the preexercise plasma glucose, the circulating insulin level, and the level of exercise-induced catecholamines. If the insulin level is too low, the rise in catecholamines may increase the plasma glucose excessively, promote ketone body formation, and possibly lead to ketoacidosis. Conversely, if the circulating insulin level is excessive, this relative hyperinsulinemia may reduce hepatic glucose production (decreased glycogenolysis, decreased gluconeogenesis) and increase glucose entry into muscle,"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1156",
+            "title": "Biochemistry_Lippinco",
+            "content": "X. RESTING SKELETAL MUSCLE IN FASTING Resting muscle switches from glucose to FA as its major fuel source in fasting. [Note: By contrast, exercising muscle initially uses creatine phosphate and its glycogen stores. During intense exercise, glucose 6-phosphate from glycogenolysis is converted to lactate by anaerobic glycolysis (see p. 118). The lactate is used by the liver for gluconeogenesis (Cori cycle; see p. 118). As these glycogen reserves are depleted, free FA provided by the degradation of TAG in adipose tissue become the dominant energy source. The contraction-based rise in AMP activates AMPK that phosphorylates and inactivates the muscle isozyme of ACC, decreasing malonyl CoA and allowing FA oxidation (see p. 183).] A. Carbohydrate metabolism p. 97) and subsequent glucose metabolism are decreased because circulating insulin levels are low. Therefore, the glucose from hepatic gluconeogenesis is unavailable to muscle and adipose. B. Lipid metabolism"
+        },
+        {
+            "id": "Neurology_Adams_11447",
+            "title": "Neurology_Adams",
+            "content": "Resting muscle derives approximately 70 percent of its energy from the oxidation of long-chain fatty acids. As stated earlier, the circumstances during exercise are somewhat different. During a short period of intense exercise, the muscle uses carbohydrate derived from glycogen stores; myophosphorylase is the enzyme that initiates the metabolism of glycogen. With longer aerobic exercise, blood flow to muscle and the availability of glucose and fatty acids are increased. At first, glucose is the main source of energy during exercise; later, with exhaustion of glycogen stores, energy is provided by oxidation of fatty acids. Thus, muscle failure at a certain phase of exercise is predictive of the type of energy failure. A rising blood concentration of \u03b2-hydroxybutyrate reflects the increasing oxidation of fatty acids, and an increase in blood lactate reflects the anaerobic metabolism of glucose. The cytochrome oxidative mechanisms are essential in both aerobic and anaerobic muscle"
+        },
+        {
+            "id": "InternalMed_Harrison_17346",
+            "title": "InternalMed_Harrison",
+            "content": "In the fasted, resting state, circulating FFA concentrations and their myocardial uptake are high, and they furnish most of the heart\u2019s acetyl-CoA (~70%). In the fed state, with elevations of blood increased preload, and increased and reduced contractility are shown in the glucose and insulin, glucose oxidation increases and pressure-volume plane. Left. Effects of increases in preload and afterload on the"
+        },
+        {
+            "id": "InternalMed_Harrison_27799",
+            "title": "InternalMed_Harrison",
+            "content": "Metabolic Abnormalities \u2022 abnormal muscle and faT meTabolism Insulin resistance, the decreased ability of insulin to act effectively on target tissues (especially muscle, liver, and fat), is a prominent feature of type 2 DM and results from a combination of genetic susceptibility and obesity. Insulin resistance is relative, however, because supranormal levels of circulating insulin will normalize the plasma glucose. Insulin dose-response curves exhibit a rightward shift, indicating reduced sensitivity, and a reduced maximal response, indicating an overall decrease in maximum glucose utilization (30\u201360% lower than in normal individuals). Insulin resistance impairs glucose utilization by insulin-sensitive tissues and increases hepatic glucose output; both effects contribute to the hyperglycemia. Increased hepatic glucose output predominantly accounts for increased FPG levels, whereas decreased peripheral glucose usage results in postprandial hyperglycemia. In skeletal muscle, there is a"
+        },
+        {
+            "id": "Physiology_Levy_3838",
+            "title": "Physiology_Levy",
+            "content": "Palmitate synthesis requires the coenzyme NADPH. A major source of NADPH is the pentose phosphate pathway (PPP; see Fig. 39.12 ). The first reaction converts G6P to 6-phosphogluconolactone by the enzyme glucose-6-phosphate dehydrogenase (G6PD; reaction 4D). Insulin increases G6PD gene expression through the transcription factor SREBP1C. By activating steps that lead to generation of malonyl CoA, insulin indirectly inhibits oxidation of FFAs. Malonyl CoA inhibits the activity of CPT-I, which transports FFAs from the cytosol into the mitochondria (reaction 12D). As a result, FFAs that are synthesized by DNL cannot be transported into mitochondria, where they undergo \u03b2-oxidation (reaction 13F). Thus increased malonyl CoA prevents the futile cycle of FFA synthesis to FFA oxidation."
+        },
+        {
+            "id": "Biochemistry_Lippincott_658",
+            "title": "Biochemistry_Lippinco",
+            "content": "b. Carnitine shuttle inhibitor: Malonyl CoA inhibits CPT-I, thus preventing the entry of long-chain acyl groups into the mitochondrial matrix. Therefore, when fatty acid synthesis is occurring in the cytosol (as indicated by the presence of malonyl CoA), the newly made palmitate cannot be transferred into mitochondria and degraded. [Note: Muscle tissue, although it does not synthesize fatty acids, contains the mitochondrial isozyme of ACC (ACC2), allowing regulation of \u03b2oxidation. The liver contains both isozymes.] Fatty acid oxidation is also regulated by the acetyl CoA/CoA ratio: As the ratio increases, the CoA-requiring thiolase reaction decreases (Fig. 16.17). nicotinamide adenine dinucleotide. c."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1852",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. are made in mitochondria from acetyl coenzyme A (CoA) primarily produced by the oxidation of glucose. B. are utilized by many tissues, particularly the liver, after conversion to acetyl CoA. C. include acetoacetate, which can impart a fruity odor to the breath. D. require albumin for transport through the blood. E. utilized in energy metabolism are organic acids that can add to the proton load of the body. RQ3. Adipose lipolysis followed by \u03b2-oxidation of the fatty acid (FA) products is required for the generation of ketone bodies. Which of the following statements concerning the generation and use of FA is correct? A. Mitochondrial \u03b2-oxidation of FA is inhibited by malonyl CoA. B. Production of FA from adipose lipolysis is upregulated by insulin. C. The acetyl CoA product of FA \u03b2-oxidation favors the use of pyruvate for gluconeogenesis by activating the pyruvate dehydrogenase complex. D. The \u03b2-oxidation of FA utilizes reducing equivalents generated by gluconeogenesis."
+        },
+        {
+            "id": "InternalMed_Harrison_31377",
+            "title": "InternalMed_Harrison",
+            "content": "Forearm Exercise Test In myopathies with intermittent symptoms, and especially those associated with myoglobinuria, there may be a defect in glycolysis. Many variations of the forearm exercise test exist. For safety, the test should not be performed under ischemic conditions to avoid an unnecessary insult to the muscle, causing rhabdomyolysis. The test is performed by placing a small indwelling catheter into an antecubital vein. A baseline blood sample is obtained for lactic acid and ammonia. The forearm muscles are exercised by asking the patient to vigorously open and close the hand for 1 min. Blood is then obtained at intervals of 1, 2, 4, 6, and 10 min for comparison with the baseline sample. A threeto fourfold rise of lactic acid is typical. The simultaneous measurement of ammonia serves as a control, because it should also rise with exercise. In patients with myophosphorylase deficiency or other glycolytic defects, the lactic acid rise will be absent or below normal, while the"
+        },
+        {
+            "id": "InternalMed_Harrison_26390",
+            "title": "InternalMed_Harrison",
+            "content": "GH secretion is pulsatile, with highest peak levels occurring at night, generally correlating with sleep onset. GH secretory rates decline markedly with age so that hormone levels in middle age are about 15% of pubertal levels. These changes are paralleled by an age-related decline in lean muscle mass. GH secretion is also reduced in obese individuals, although IGF-I levels may not be suppressed, suggesting a change in the setpoint for feedback control. Elevated GH levels occur within an 401e-3 hour of deep sleep onset as well as after exercise, physical stress, and trauma and during sepsis. Integrated 24-h GH secretion is higher in women and is also enhanced by estrogen replacement likely reflective of increased peripheral GH-resistance. Using standard assays, random GH measurements are undetectable in ~50% of daytime samples obtained from healthy subjects and are also undetectable in most obese and elderly subjects. Thus, single random GH measurements do not distinguish patients"
+        },
+        {
+            "id": "InternalMed_Harrison_27853",
+            "title": "InternalMed_Harrison",
+            "content": "insulin level is excessive, this relative hyperinsulinemia may reduce hepatic glucose production (decreased glycogenolysis, decreased gluconeogenesis) and increase glucose entry into muscle, leading to hypoglycemia."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1208",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. 5.1. Three patients being evaluated for gestational diabetes are given an oral glucose tolerance test. Based on the data shown below, which patient is prediabetic? A. Patient #1 B. Patient #2 C. Patient #3 D. None Correct answer = B. Patient #2 has a normal fasting blood glucose (FBG) but an impaired glucose tolerance (GT) as reflected in her blood glucose level at 2 hours and, so, is described as prediabetic. Patient #1 has a normal FBG and GT, whereas patient #3 has diabetes. 5.2. Relative or absolute lack of insulin in humans would result in which one of the following reactions in the liver? A. Decreased activity of hormone-sensitive lipase B. Decreased gluconeogenesis from lactate C. Decreased glycogenolysis D. Increased formation of 3-hydroxybutyrate E. Increased glycogenesis"
+        },
+        {
+            "id": "InternalMed_Harrison_28084",
+            "title": "InternalMed_Harrison",
+            "content": "Plasma glucose concentrations are normally maintained within a relatively narrow range\u2014roughly 70\u2013110 mg/dL (3.9\u20136.1 mmol/L) in the fasting state, with transient higher excursions after a meal\u2014 despite wide variations in exogenous glucose delivery from meals and in endogenous glucose utilization by, for example, exercising muscle. Between meals and during fasting, plasma glucose levels are maintained by endogenous glucose production, hepatic glycogenolysis, and hepatic (and renal) gluconeogenesis (Fig. 420-1). Although hepatic glycogen stores are usually sufficient to maintain plasma glucose levels for \u223c8 h, this period can be shorter if glucose demand is increased by exercise or if glycogen stores are depleted by illness or starvation."
+        },
+        {
+            "id": "Physiology_Levy_1401",
+            "title": "Physiology_Levy",
+            "content": "Muscle cells contain glycogen, which can be metabolized during muscle contraction to provide glucose for oxidative phosphorylation and glycolysis, both of which generate ATP to replenish the ATP store. Muscle cells can also take up glucose from blood, a process that is stimulated by insulin (see"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1887",
+            "title": "Biochemistry_Lippinco",
+            "content": "RQ3.Correct answer = A. Malonyl CoA, an intermediate of FA synthesis, inhibits FA \u03b2-oxidation through inhibition of carnitine palmitoyltransferase I. Lipolysis occurs when the insulin/counterregulatory hormone ratio decreases. Acetyl CoA, the product of FA \u03b2-oxidation, inhibits the pyruvate dehydrogenase (PDH) complex through activation of PDH kinase and activates pyruvate carboxylase. Acetyl CoA, then, pushes pyruvate to gluconeogenesis. \u03b2-Oxidation generates reduced nicotinamide adenine dinucleotide (NADH), the reducing equivalent required for gluconeogenesis. FA are not readily catabolized for energy by the brain. Case 3: Answers to Thought Questions"
+        },
+        {
+            "id": "Physiology_Levy_1436",
+            "title": "Physiology_Levy",
+            "content": "All healthy persons can maintain some level of continuous muscular activity that is supported by oxidative metabolism. This level can be greatly increased by a regular exercise regimen that is sufficient to induce adaptive responses. The adaptive response of skeletal muscle fibers to endurance exercise is mainly the result of an increase in the oxidative metabolic capacity of the motor units involved. This demand places an increased load on the cardiovascular and respiratory systems and increases the capacity of the heart and respiratory muscles. The latter effects are responsible for the principal health benefits associated with endurance exercise."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1136",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. RESTING SKELETAL MUSCLE Skeletal muscle accounts for ~40% of the body mass in individuals of healthy weight, and it can use glucose, amino acids, FA, and ketone bodies as fuel. In the well-fed state, muscle takes up glucose via GLUT-4 (for energy and glycogen synthesis) and amino acids (for energy and protein synthesis). In contrast to liver, there is no covalent regulation of PFK-2 in skeletal muscle. However, in the cardiac isozyme, the kinase domain is activated by epinephrine-mediated phosphorylation (see p. 100). Skeletal muscle is unique in being able to respond to substantial changes in the demand for ATP that accompanies contraction. At rest, muscle accounts for ~25% of the oxygen (O2) consumption of the body, whereas during vigorous exercise, it is responsible for up to 90%. This underscores the fact that skeletal muscle, despite its potential for transient periods of anaerobic glycolysis, is an oxidative tissue."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1851",
+            "title": "Biochemistry_Lippinco",
+            "content": "Review Questions: Choose the ONE best answer. RQ1. Which of the following statements concerning T1D is correct? A. Diagnosis can be made by measuring the level of glucose or glycated hemoglobin (HbA1c) in the blood. B. During periods of physiologic stress, the urine of an individual with T1D would likely test negative for reducing sugars. C. T1D is associated with obesity and a sedentary lifestyle. D. The characteristic metabolic abnormalities seen in T1D result from insensitivity to both insulin and glucagon. E. Treatment with exogenous insulin allows normalization of blood glucose (euglycemia). RQ2. DKA occurs when the rate of ketone body production is greater than the rate of utilization. Which of the following statements concerning ketone body metabolism is correct? Ketone bodies: A. are made in mitochondria from acetyl coenzyme A (CoA) primarily produced by the oxidation of glucose. B. are utilized by many tissues, particularly the liver, after conversion to acetyl CoA."
+        },
+        {
+            "id": "Physiology_Levy_3845",
+            "title": "Physiology_Levy",
+            "content": "Fig. 39.15 ). Glucose tolerance refers to the ability of an individual to minimize the increase in blood glucose concentration after a meal. A primary way by which insulin promotes glucose tolerance is activation of glucose transporters in skeletal muscle. Insulin stimulates translocation of preexisting GLUT4 transporters to the cell membrane (reaction 1D). Insulin also promotes storage of glucose in muscle as glycogen (reaction 2D) and promotes oxidation of glucose through glycolysis (reaction 3D). During the fasting phase, low insulin results in a low number of GLUT4 transporters at the membrane (reaction 1F), so these cells consume less glucose (glucose sparing). Skeletal muscle fibers with mitochondria switch to the use of FFAs from adipocytes and KBs from hepatocytes (reaction 3F). Skeletal myocytes do not express glucagon receptors. Uptake of FFAs and KBs and their oxidation for ATP is largely upregulated by intracellular Ca++ levels and a high AMP:ATP ratio. Exercise also"
+        },
+        {
+            "id": "Neurology_Adams_11446",
+            "title": "Neurology_Adams",
+            "content": "The Nature of Primary Metabolic Myopathies The chemical energy for muscle contraction is provided by the hydrolysis of adenosine triphosphate (ATP) to adenosine diphosphate (ADP); ATP is restored by phosphocreatine and ADP acting in combination. These reactions are particularly important during brief, high-intensity exercise. During periods of prolonged muscle activity, rephosphorylation requires the availability of carbohydrates, fatty acids, and ketones, which are catabolized in mitochondria. Glycogen is the main sarcoplasmic source of carbohydrate, but blood glucose also moves freely in and out of muscle cells as needed during sustained exercise. The fatty acids in the blood, derived mainly from adipose tissue and intracellular lipid stores, constitute the other major source of energy. Carbohydrate is metabolized during aerobic and anaerobic phases of metabolism; the fatty acids are metabolized only aerobically."
+        },
+        {
+            "id": "Physiology_Levy_1403",
+            "title": "Physiology_Levy",
+            "content": "Fatty acids represent an important source of energy for muscle cells during prolonged exercise. Muscle cells contain fatty acids but can also take up fatty acids from blood. In addition, muscle cells can store triglycerides, which can be hydrolyzed when needed to produce fatty acids. The fatty acids are subjected to \u03b2 oxidation within the mitochondria. For fatty acids to enter the mitochondria, however, they are converted to acylcarnitine in the cytosol and then transported into the mitochondria, where they are converted to acyl coenzyme A (CoA). Within the mitochondria, the acyl CoA is subjected to \u03b2 oxidation and yields acetyl CoA, which then enters the citric acid cycle and ultimately produces ATP."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1137",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Carbohydrate metabolism 1. Increased glucose transport: The transient increase in plasma glucose and insulin after a carbohydrate-rich meal leads to an increase in glucose transport into muscle cells (myocytes) by GLUT-4 (see p. 97 and Fig. 24.7, ), thereby reducing blood glucose. Glucose is phosphorylated to glucose 6-phosphate by hexokinase and metabolized to meet the energy needs of myocytes. 2. Increased glycogenesis: The increased insulin/glucagon ratio and the availability of glucose 6-phosphate favor glycogen synthesis, particularly if glycogen stores have been depleted as a result of exercise (see p. 126 and Fig. 24.7, ). B. Fat metabolism FA are released from chylomicrons and VLDL by the action of LPL (see pp. 228 and 231). However, FA are of secondary importance as a fuel for resting muscle during the well-fed state, in which glucose is the primary source of energy. C. Amino acid metabolism 1."
+        },
+        {
+            "id": "Physiology_Levy_1402",
+            "title": "Physiology_Levy",
+            "content": "Chapter 39). The cytosolic enzyme phosphory lase releases glucose 1-phosphate residues from glycogen, which are then metabolized by a combination of glycolysis (in the cytosol) and oxidative phosphorylation (in the mitochondria) to yield the equivalent of 37 mol of ATP per mole of glucose 1-phosphate. Blood glucose yields 36 mol of ATP per mole of glucose because 1 ATP is used to phosphorylate glucose at the start of glycolysis. These ATP yields, however, are dependent on an adequate oxygen supply. Under anaerobic conditions, in contrast, metabolism of glycogen and glucose yields only 3 and 2 mol of ATP per mole of glucose 1-phosphate and glucose, respectively (along with 2 mol of lactate). As discussed later, muscle fatigue during prolonged exercise is associated with depletion of glycogen stores in the muscle."
+        },
+        {
+            "id": "Biochemistry_Lippincott_424",
+            "title": "Biochemistry_Lippinco",
+            "content": "dioxide. Choose the ONE best answer. 0.1. Which one of the following statements concerning gluconeogenesis is correct? A. It is an energy-producing (exergonic) process. B. It is important in maintaining blood glucose during a 2-day fast. C. It is inhibited by a fall in the insulin/glucagon ratio. D. It occurs in the cytosol of muscle cells. E. It uses carbon skeletons provided by fatty acid degradation."
+        },
+        {
+            "id": "Neurology_Adams_4007",
+            "title": "Neurology_Adams",
+            "content": "Complaints of muscle weakness are also frequent among such patients, but Lloyd and coworkers, who studied their neuromuscular performance and compared them with control subjects, found no difference in maximal isometric strength or endurance in repetitive submaximal exercise and no change in intramuscular acidosis, serum creatine kinase (CK) levels, or depletion of energy substrates. These individuals share with depressed patients a subnormal response to cortical magnetic motor stimulation after exercise (Samii et al), which can be said to match their symptoms of reduced endurance but otherwise is difficult to interpret. In a small number of affected persons, a chronic but usually mild hypotension, elicited with tilt-table testing and reversed by mineralocorticoids, has been proposed as a cause of chronic fatigue (Rowe et al). Electromyography and nerve conduction studies are typically normal, as is the spinal fluid, but the electroencephalogram (EEG) may be mildly and nonspecifically"
+        },
+        {
+            "id": "InternalMed_Harrison_27854",
+            "title": "InternalMed_Harrison",
+            "content": "To avoid exercise-related hyperor hypoglycemia, individuals with type 1 DM should (1) monitor blood glucose before, during, and after exercise; (2) delay exercise if blood glucose is >14 mmol/L (250 mg/ dL) and ketones are present; (3) if the blood glucose is <5.6 mmol/L (100 mg/dL), ingest carbohydrate before exercising; (4) monitor glu cose during exercise and ingest carbohydrate to prevent hypoglycemia; (5) decrease insulin doses (based on previous experience) before exercise and inject insulin into a nonexercising area; and (6) learn individual glucose responses to different types of exercise and increase food intake for up to 24 h after exercise, depending on intensity and duration of exercise. In individuals with type 2 DM, exercise-related hypoglycemia is less common but can occur in individuals taking either insulin or insulin secretagogues."
+        },
+        {
+            "id": "InternalMed_Harrison_824",
+            "title": "InternalMed_Harrison",
+            "content": "(Source: The Baltimore Longitudinal study of Aging 2010; unpublished data.) Survivors, n = 3680 Non-survivors, n = 3680 FIgURE 11-9 Cross-sectional differences and longitudinal changes in muscle strength over a 27-year follow-up. Note that persons who died during the follow-up had lower baseline muscle strength. (From T Rantanen et al: J Appl Physiol 85:2047, 1998.) 1.8 1.6 1.4 1.2 1.0 0.8 0.6 FIgURE 11-10 Longitudinal changes in aerobic capacity in participants in the Baltimore Longitudinal Study of Aging. (From JL Fleg: FIgURE 11-11 Changes in resting metabolic rate with aging. Circulation 112:674, 2005.) (Unpublished data from the Baltimore Longitudinal Study of Aging.) taBLe 11-3 horMones that deCrease, reMaIn staBLe, and InCrease WIth aGInG Chapter 11 Clinical Problems of Aging"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1188",
+            "title": "Biochemistry_Lippinco",
+            "content": "exercise promotes glucose uptake into muscle and decreases the need for exogenous insulin, patients are advised to check blood glucose levels before or after intensive exercise to prevent or abort hypoglycemia."
+        },
+        {
+            "id": "Neurology_Adams_11865",
+            "title": "Neurology_Adams",
+            "content": "The pathogenesis of malignant hyperthermia has been the subject of numerous investigations. During the rigor phase, oxygen consumption in muscle increases threefold and serum lactate, 15to 20-fold. Muscle from most affected individuals is abnormally sensitive to caffeine, which induces contracture in vitro. It has been postulated that halothane acts in a manner similar to caffeine\u2014that is, to release calcium from the sarcoplasmic reticulum and prevent its reaccumulation, thus interfering with relaxation of the muscle. The essential physiologic change is one of increased intracellular calcium."
+        },
+        {
+            "id": "Physiology_Levy_1406",
+            "title": "Physiology_Levy",
+            "content": "Fig. 12.18 are approximately equal). As indicated earlier, the additional oxygen used during recovery from exercise represents the energy requirements for restoring normal cellular metabolite levels. The ability of muscle to meet energy needs is a major determinant of the duration of the exercise. However, fatigue is not the result of depletion of energy stores. Instead, metabolic byproducts seem to be important factors in the onset of fatigue. Fatigue may potentially occur at any of the points involved in muscle contraction, from the brain to the muscle cells, as well as in the cardiovascular and respiratory systems that maintain energy supplies (i.e., fatty acids and glucose) and oxygen delivery to the exercising muscle. Several factors have been implicated in muscle fatigue. During brief periods of tetany, the oxygen supply to the muscle is adequate as long as the circulation is intact. However, the force/stress generated during these brief"
+        },
+        {
+            "id": "Neurology_Adams_11448",
+            "title": "Neurology_Adams",
+            "content": "oxidation of fatty acids, and an increase in blood lactate reflects the anaerobic metabolism of glucose. The cytochrome oxidative mechanisms are essential in both aerobic and anaerobic muscle metabolism; these mechanisms are considered in Chap. 36 in relation to the mitochondrial diseases in which muscle tissue is prominently involved, and they are referred to here only briefly."
+        },
+        {
+            "id": "Surgery_Schwartz_417",
+            "title": "Surgery_Schwartz",
+            "content": "22 to 25 kcal/kg per day drawn from carbohydrate, lipid, and protein sources. This requirement can substantially increase during severe stress states, such as those seen in patients with burn injuries.In the healthy adult, principal sources of fuel during short-term fasting (<5 days) are derived from muscle protein and body fat, with fat being the most abundant source of energy (Table 2-8). The normal adult body contains 300 to 400 g of carbohydrates in the form of glycogen, of which 75 to 100 g are stored in the liver. Approximately 200 to 250 g of glycogen are stored within skeletal, cardiac, and smooth muscle cells. The greater glycogen stores within the muscle are not read-ily available for systemic use due to a deficiency in glucose-6-phosphatase but are available for the energy needs of muscle cells. Therefore, in the fasting state, hepatic glycogen stores are rapidly and preferentially depleted, which results in a fall of serum glucose concentration within hours (<16"
+        }
+    ],
+    "scores": [
+        0.02685501308751565,
+        0.0256385494434746,
+        0.023204368804793783,
+        0.02244402756820684,
+        0.018350930115636,
+        0.017948717948717947,
+        0.017720530835284937,
+        0.017699115044247787,
+        0.017615384615384616,
+        0.016960114983830397,
+        0.016581719334012913,
+        0.016403361344537813,
+        0.015752765752765754,
+        0.01569676181617348,
+        0.01558331312151346,
+        0.015039523662868289,
+        0.014999442399910783,
+        0.014991728701406122,
+        0.014844003022778798,
+        0.014724967555156234,
+        0.01452714154278243,
+        0.014344997182232696,
+        0.0142549629275293,
+        0.014236410698878342,
+        0.014145551533625452,
+        0.01413690476190476,
+        0.014102564102564105,
+        0.013669097747809732,
+        0.013460607926802447,
+        0.0127445049405122,
+        0.012514619883040937,
+        0.012514529252227818
+    ],
+    "execution_time": 32.12053894996643
+}

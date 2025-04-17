@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-037",
+    "question": "A homeotic mutation is one which",
+    "options": {
+        "A": "is present in only one form in an individual",
+        "B": "substitutes one body part for another in development",
+        "C": "results in development of a tumor",
+        "D": "is wild type at one temperature and abnormal at another"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the given options in relation to the concept of homeotic mutations. Homeotic mutations refer to genetic alterations that cause a change in the identity of a body part during development. This typically involves a transformation of one body part into another part of a different type, often in a similar or homologous region. Let's examine each option in light of this definition:\\n\\nA. is present in only one form in an individual - This option does not directly describe the effects of a homeotic mutation, which involves a transformation of one body part into another, not a restriction to a single form.\\n\\nB. substitutes one body part for another in development - This option aligns with the definition of homeotic mutations, which involve a transformation of one body part into another during development.\\n\\nC. results in development of a tumor - While homeotic mutations can have significant effects on development, the development of a tumor is not a characteristic specifically associated with homeotic mutations. Tumors are typically the result of other types of genetic alterations.\\n\\nD. is wild type at one temperature and abnormal at another - This option describes a phenomenon related to temperature-sensitive mutations, not homeotic mutations.\\n\\nBased on the analysis, the correct answer is the option that accurately describes the effect of a homeotic mutation on development.\\n\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5834",
+            "title": "Cell_Biology_Alberts",
+            "content": "The first glimpse of the answer to this problem came over 80 years ago, with the discovery of a set of mutations in Drosophila that cause bizarre disturbances in the organization of the adult fly. In the Antennapedia mutant, for example, legs sprout from the head in place of antennae, whereas in the Bithorax mutant, portions of an extra pair of wings appear where normally there should be the much smaller appendages called halteres (Figure 21\u201323). These mutations transform parts of the body into structures appropriate to other positions, and they are called homeotic mutations (from the Greek \u201chomoios,\u201d meaning similar) because the transformation is between structures of a recognizably similar general type, changing one kind of limb, or one kind of segment, into another. It was eventually discovered that a whole set of genes, the homeotic selector genes, or Hox genes, serve to permanently specify the A-P characters of the whole set of animal segments. These genes are all related to one"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2363",
+            "title": "Cell_Biology_Alberts",
+            "content": "An important early step in the genetic analysis of any mutant cell or organism is to determine whether the mutation causes a loss or a gain of function. A standard test is to determine whether the mutation is dominant or recessive. A dominant mutation is one that still causes the mutant phenotype in the presence of a single copy of the wild-type gene. A recessive mutation is one that is no longer able to cause the mutant phenotype in the presence of a single wild-type copy of the gene. Although cases have been described in which a loss-of-function mutation is dominant or a gain-of-function mutation is recessive, in the vast majority of cases, recessive mutations are loss of function and dominant mutations are gain Figure 8\u201346 Screening for temperature-sensitive bacterial or yeast mutants."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1062",
+            "title": "Cell_Biology_Alberts",
+            "content": "The answer to this question depends on the functional consequences of the mutation. If the mutation has a significantly deleterious effect, it will simply be eliminated by purifying selection and will not become fixed. (In the most extreme case, the individual carrying the mutation will die without producing progeny.) Conversely, the rare mutations that confer a major reproductive advantage on individuals who inherit them can spread rapidly in the population. Because humans reproduce sexually and genetic recombination occurs each time a gamete is formed (discussed in Chapter 5), the genome of each individual who has inherited the mutation will be a unique recombinational mosaic of segments inherited from a large number of ancestors. The selected mutation along with a modest amount of neighboring sequence\u2014ultimately inherited from the individual in which the mutation occurred\u2014will simply be one piece of this huge mosaic."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5836",
+            "title": "Cell_Biology_Alberts",
+            "content": "There are eight Hox genes in the fly, and they all lie in one or the other of two gene clusters known as the Bithorax complex and the Antennapedia complex. wild type loss of Ubx gain of Ubx Figure 21\u201322 The pattern of expression of Engrailed, a segment-polarity gene. the Engrailed pattern is shown in a 10hour embryo and an adult (whose wings have been removed in this preparation). the pattern is revealed by constructing a strain of Drosophila containing the control sequences of the Engrailed gene coupled to the coding sequence of the reporter LacZ, whose product is detected histochemically through the brown product generated by immunohistochemistry against LacZ (10-hour embryo) or through the blue product generated by a reaction that LacZ catalyzes (adult). Note that the Engrailed pattern, once established, is preserved throughout the animal\u2019s life. (courtesy of tom Kornberg.) Figure 21\u201323 Homeotic mutations."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6903",
+            "title": "Cell_Biology_Alberts",
+            "content": "Holliday junction (cross-strand exchange) X-shaped structure observed in DNA undergoing recombination, in which the two DNA molecules are held together at the site of crossing-over, also called a cross-strand exchange. (Figure 5\u201355) homeotic selector gene In Drosophila development, a gene that defines and preserves the differences between body segments. homolog One of two or more genes that are similar in sequence as a result of derivation from the same ancestral gene. The term covers both orthologs and paralogs. (Figure 1\u201321) See homologous chromosomes. homologous Genes, proteins, or body structures that are similar as a result of a shared evolutionary origin. homologous chromosomes (homologs) The maternal and paternal copies of a particular chromosome in a diploid cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5835",
+            "title": "Cell_Biology_Alberts",
+            "content": "that a whole set of genes, the homeotic selector genes, or Hox genes, serve to permanently specify the A-P characters of the whole set of animal segments. These genes are all related to one another as members of a multigene family."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5837",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201323 Homeotic mutations. Ultrabithorax, or Ubx, is one of three genes in the Bithorax gene complex (a Hox gene cluster). Ubx is responsible for all of the differences between the second and third thoracic segments. (a, B) Ubx loss-of-function mutations transform the haltere-bearing segment (a) into a wing-bearing segment, resulting in four-winged flies (B). (c) Ubx gain-of-function in the second thoracic segment transforms this wing-bearing segment into a halterebearing segment, resulting in wingless flies. (courtesy of richard Mann.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1063",
+            "title": "Cell_Biology_Alberts",
+            "content": "The great majority of mutations that are not harmful are not beneficial either. These selectively neutral mutations can also spread and become fixed in a population, and they make a large contribution to evolutionary change in genomes. For example, as we saw earlier, they account for most of the DNA sequence differences between apes and humans. The spread of neutral mutations is not as rapid as the spread of the rare strongly advantageous mutations. It depends on a random variation in the number of mutation-bearing progeny produced by each mutation-bearing individual, causing changes in the relative frequency of the mutant allele in the population. Through a sort of \u201crandom walk\u201d process, the mutant allele may eventually become extinct, or it may become commonplace. This can be modeled mathematically for an idealized interbreeding population, on the assumption of constant population size and random mating, as well as selective neutrality for the mutations. While neither of the first"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2353",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the simplest type of complementation test, an individual who is homozygous for one mutation is mated with an individual who is homozygous for the other. The phenotype of the offspring gives the answer to the question. NONCOMPLEMENTATION: TWO INDEPENDENT MUTATIONS IN THE SAME GENE hybrid offspring shows normal phenotype: hybrid offspring shows mutant phenotype: one normal copy of each gene is present no normal copies of the mutated gene are present large populations\u2014thousands or tens of thousands of individual organisms\u2014isolating mutant individuals is much more efficient if one generates mutations with chemicals or radiation that damage DNA. By treating organisms with such mutagens, very large numbers of mutant individuals can be created quickly and then screened for a particular defect of interest, as we discuss shortly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2348",
+            "title": "Cell_Biology_Alberts",
+            "content": "Wild-type: the normal, Mutant: differing from the alleles:alternative forms of a gene naturally occurring type wild-type because of a genetic change (a mutation) GENOTYPE: the specifc set of alleles forming the genome of an individual PHENOTYPE: the visible character of the individual allele A is dominant (relative to a); allele a is recessive (relative to A) In the example above, the phenotype of the heterozygote is the same as that of one of the homozygotes; in cases where it is different from both, the two alleles are said to be co-dominant. a chromosome at the beginning of the cell cycle, in G1 phase; the single long bar centromere represents one long double helix of DNA a chromosome near the end of the cell cycle, in metaphase; it is duplicated and condensed, consisting of mother father two identical sister chromatids (each containing one DNA double helix) joined at the centromere."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2366",
+            "title": "Cell_Biology_Alberts",
+            "content": "of function. It is easy to determine if a mutation is dominant or recessive. One simply mates a mutant with a wild type to obtain diploid cells or organisms. The progeny from the mating will be heterozygous for the mutation. If the mutant phenotype is no longer observed, one can conclude that the mutation is recessive and is very likely to be a loss-of-function mutation (see Panel 8\u20132). Complementation Tests Reveal Whether Two Mutations Are in the Same Gene or Different Genes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2347",
+            "title": "Cell_Biology_Alberts",
+            "content": "Before the advent of gene cloning technology, most genes were identified by the abnormalities produced when the gene was mutated. Indeed, the very concept of the gene was deduced from the heritability of such abnormalities. This classical genetic approach\u2014identifying the genes responsible for mutant phenotypes\u2014is most easily performed in organisms that reproduce rapidly and are amenable to genetic manipulation, such as bacteria, yeasts, nematode worms, and fruit flies. Although spontaneous mutants can sometimes be found by examining extremely PANeL 8\u20132: Review of Classical Genetics GENES AND PHENOTYPES Gene: a functional unit of inheritance, usually corresponding to the segment of DNA coding for a single protein. Genome: all of an organism\u2019s DNA sequences. locus:the site of the gene in the genome Wild-type: the normal, Mutant: differing from the alleles:alternative forms of a gene naturally occurring type wild-type because of a genetic change (a mutation)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1049",
+            "title": "Cell_Biology_Alberts",
+            "content": "copies have remained active. In many cases, the most obvious functional difference between the duplicated genes is that they are expressed in different tissues or at different stages of development. One attractive theory to explain such an end result imagines that different, mildly deleterious mutations occur quickly in both copies of a duplicated gene set. For example, one copy might lose expression in a particular tissue as a result of a regulatory mutation, while the other copy loses expression in a second tissue. Following such an occurrence, both gene copies would be required to provide the full range of functions that were once supplied by a single gene; hence, both copies would now be protected from loss through inactivating mutations. Over a longer period, each copy could then undergo further changes through which it could acquire new, specialized features. The Evolution of the globin gene Family Shows How DNA Duplications Contribute to the Evolution of Organisms"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2352",
+            "title": "Cell_Biology_Alberts",
+            "content": "COMPLEMENTATION: MUTATIONS IN TWO DIFFERENT GENES DELETION: deletes a segment of a chromosome TRANSLOCATION: breaks off a segment from one chromosome and attaches it to another gain-of-function mutation: increases the activity of the gene or makes it active in inappropriate circumstances; these mutations are usually dominant. dominant-negative mutation: dominant-acting mutation that blocks gene activity, causing a loss-of-function phenotype even in the presence of a normal copy of the gene. This phenomenon occurs when the mutant gene product interferes with the function of the normal gene product. suppressor mutation: suppresses the phenotypic effect of another mutation, so that the double mutant seems normal. An intragenic suppressor mutation lies within the gene affected by the frst mutation; an extragenic suppressor mutation lies in a second gene\u2014often one whose product interacts directly with the product of the frst."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2344",
+            "title": "Cell_Biology_Alberts",
+            "content": "Ultimately, one wishes to determine how genes\u2014and the proteins they encode\u2014 function in the intact organism. Although it may seem counterintuitive, one of the most direct ways to find out what a gene does is to see what happens to the organism when that gene is missing. Studying mutant organisms that have acquired changes or deletions in their nucleotide sequences is a time-honored practice in biology and forms the basis of the important field of genetics. Because mutations can disrupt cell processes, mutants often hold the key to understanding gene function. In the classical genetic approach, one begins by isolating mutants that have an interesting or unusual appearance: fruit flies with white eyes or curly wings, for example. Working backward from the phenotype\u2014the appearance or behavior of the individual\u2014one then determines the organism\u2019s genotype, the form of the gene responsible for that characteristic (Panel 8\u20132)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5849",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201325 The role of genes of the Polycomb group. (a) photograph of a wild-type Drosophila embryo. (B) photograph of a mutant embryo defective for the gene Extra sex combs (Esc) and derived from a mother also lacking this gene. the gene belongs to the Polycomb group. essentially all segments have been transformed to resemble the most posterior abdominal segment. In the mutant, the pattern of expression of the homeotic selector genes, which is roughly normal initially, is unstable in such a way that all these genes soon become switched on all along the body axis. (From G. Struhl, Nature 293:36\u201341, 1981. With permission from Macmillan publishers Ltd.) this axis in the egg (see Figure 21\u201317), and it then progresses through zygotic gene products that further subdivide the D-V axis in the embryo."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2367",
+            "title": "Cell_Biology_Alberts",
+            "content": "A large-scale genetic screen can turn up many different mutations that show the same phenotype. These defects might lie in different genes that function in the same process, or they might represent different mutations in the same gene. Alternative forms of the same gene are known as alleles. The most common difference between alleles is a substitution of a single nucleotide pair, but different alleles can also bear deletions, substitutions, and duplications. How can we tell, then, whether two mutations that produce the same phenotype occur in the same gene or in different genes? If the mutations are recessive\u2014if, for example, they represent a loss of function of a particular gene\u2014a complementation test can be used to ascertain whether the mutations fall in the same gene or in different genes. To test complementation in a diploid organism, an individual that is homozygous for one mutation\u2014that is, it possesses two identical alleles of the mutant gene in question\u2014is mated with an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2351",
+            "title": "Cell_Biology_Alberts",
+            "content": "loss-of-function mutation: either reduces or abolishes the activity of the gene. These are the most common class of mutations. Loss-of-function mutations are usually recessive\u2014the organism can usually function normally as long as it retains at least one normal copy of the affected gene. null mutation: a loss-of-function mutation that completely abolishes the activity of the gene. TWO GENES OR ONE? Given two mutations that produce the same phenotype, how can we tell whether they are mutations in the same gene? If the mutations are recessive (as they most often are), the answer can be found by a complementation test. COMPLEMENTATION: MUTATIONS IN TWO DIFFERENT GENES DELETION: deletes a segment of a chromosome"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5821",
+            "title": "Cell_Biology_Alberts",
+            "content": "In parallel with the segmentation process, a further set of genes\u2014the homeotic selector, or Hox, genes\u2014serves to define and preserve the differences between one segment and the next, as we describe shortly. The phenotypes of the various segmentation mutants suggest that the segmentation genes form a coordinated system that subdivides the embryo progressively into smaller and smaller domains along the A-P axis, each distinguished by a different pattern of gene expression. Molecular genetics has helped to reveal how this system works. a hierarchy of Gene regulatory Interactions Subdivides the Drosophila embryo"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5831",
+            "title": "Cell_Biology_Alberts",
+            "content": "In addition to regulating the segment-polarity genes, the products of pair-rule genes collaborate with those of gap genes to induce the precisely localized activation of a further set of genes\u2014originally called homeotic selector genes and now often called Hox genes, for reasons that will become clear shortly. It is the Hox genes that permanently distinguish one segment from another. In the next section, we examine these important genes in detail and consider their role in cell memory; we shall see that this role is critical in a wide range of animals, including ourselves. Hox Genes permanently pattern the a-p axis"
+        },
+        {
+            "id": "Cell_Biology_Alberts_84",
+            "title": "Cell_Biology_Alberts",
+            "content": "Intragenic mutation: an existing gene can be randomly modified by changes in its DNA sequence, through various types of error that occur mainly in the process of DNA replication. 2. Gene duplication: an existing gene can be accidentally duplicated so as to create a pair of initially identical genes within a single cell; these two genes may then diverge in the course of evolution. 3. DNA segment shuffling: two or more existing genes can break and rejoin to make a hybrid gene consisting of DNA segments that originally belonged to separate genes. 4. Horizontal (intercellular) transfer: a piece of DNA can be transferred from the genome of one cell to that of another\u2014even to that of another species. This process is in contrast with the usual vertical transfer of genetic information from parent to progeny. Each of these types of change leaves a characteristic trace in the DNA sequence of the organism, and there is clear evidence that all four processes have frequently"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2350",
+            "title": "Cell_Biology_Alberts",
+            "content": "MEIOSIS AND GENETIC RECOMBINATION The greater the distance chromosome, the greater is the chance that they will be RECOMBINATION site of crossing-over occurring at a site between them. If two genes are thus reassorted in x% of gametes, they are said to be separated on a chromosome by a genetic map AB distance of x map units (or genotype ab haploid gametes (eggs or sperm) x centimorgans). POINT MUTATION: maps to a single site in the genome, corresponding to a single nucleotide pair or a very small part of a single gene INVERSION: inverts a segment of a chromosome lethal mutation: causes the developing organism to die prematurely. conditional mutation: produces its phenotypic effect only under certain conditions, called the restrictive conditions. Under other conditions\u2014the permissive conditions\u2014the effect is not seen. For a temperature-sensitive mutation, the restrictive condition typically is high temperature, while the permissive condition is low temperature."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2375",
+            "title": "Cell_Biology_Alberts",
+            "content": "If a DNA-damaging chemical was used to generate the mutations, identifying the inactivated gene is often more laborious, but there are several powerful strategies available. If the genome size of the organism is small (for example, for bacteria or simple eukaryotes), it is possible to simply determine the genome sequence of the mutant organism and identify the affected gene by comparison with the wild-type sequence. Because of the continuous accumulation of neutral mutations, there will probably be differences between the two genome sequences in addition to the mutation responsible for the phenotype. One way of proving that a mutation is causative is to introduce the putative mutation back into a normal organism and determine whether or not it causes the mutant phenotype. We will discuss how this is accomplished later in the chapter."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6905",
+            "title": "Cell_Biology_Alberts",
+            "content": "hormone Signal molecule secreted by an endocrine cell into the bloodstream, which can then carry the signal to distant target cells. Hox complex A gene complex consisting of a series of Hox genes Hox genes Genes coding for transcription regulators, each gene containing a homeodomain, and specifying body-region differences. Hox mutations typically cause homeotic transformations. Hox proteins Transcription regulator proteins encoded by Hox genes; possess a highly conserved, 60-amino-acid-long DNA-binding homeodomain. HPV Human papillomavirus; infects the cervical epithelium and is important as a cause of carcinoma of the uterine cervix."
+        },
+        {
+            "id": "Neurology_Adams_7479",
+            "title": "Neurology_Adams",
+            "content": "Autosomal dominant mutations usually cause manifest disease in heterozygotes, but variations in the size of the gene abnormality can produce any one of several phenotypes. This poses a challenge to the current clinical and pathologic classifications of disease. Moreover, an identical clinical syndrome may be traced to a gene on two different chromosomes. Even more surprising, an estimated 28 percent of all gene loci have polymorphic rather than monomorphic effects\u2014that is, the same mutation has several different phenotypic expressions. Another problem is that of differentiating dominant from recessive inheritance. In small families, in which only one descendant is afflicted and the parent is seemingly normal, one may mistakenly conclude that the inheritance is recessive. Other characteristics of mutational diseases are penetrance, a measure of the proportion of individuals with a given genotype who will show the phenotype, and expressivity, referring to the severity of disease in an"
+        },
+        {
+            "id": "InternalMed_Harrison_4839",
+            "title": "InternalMed_Harrison",
+            "content": "allelic HeteroGeneity Allelic heterogeneity refers to the fact that different mutations in the same genetic locus can cause an identical or similar phenotype. For example, many different mutations of the \u03b2-globin locus can cause \u03b2 thalassemia (Table 82-3) (Fig. 82-9). In essence, allelic heterogeneity reflects the fact that many different mutations are capable of altering protein structure and function. For this reason, maps of inactivating mutations in genes usually show a near-random distribution. Exceptions include (1) a founder effect, in which a particular mutation that does not affect reproductive capacity can be traced to a single individual; (2) \u201chot spots\u201d for mutations, in which the nature of the DNA sequence predisposes to a recurring mutation; and (3) localization of mutations to certain domains that are particularly critical for protein function. Allelic heterogeneity creates a practical problem for genetic testing because one must often examine the entire genetic locus"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1109",
+            "title": "Cell_Biology_Alberts",
+            "content": "Low Mutation Rates Are Necessary for Life as We Know It Since many mutations are deleterious, no species can afford to allow them to accumulate at a high rate in its germ cells. Although the observed mutation frequency is low, it is nevertheless thought to limit the number of essential proteins that any organism can depend upon to perhaps 30,000. More than this, and the probability that at least one critical component will suffer a damaging mutation becomes catastrophically high. By an extension of the same argument, a mutation frequency tenfold higher would limit an organism to about 3000 essential genes. In this case, evolution would have been limited to organisms considerably less complex than a fruit fly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5820",
+            "title": "Cell_Biology_Alberts",
+            "content": "10 segment-polarity genes, in which mutations produce a normal number of segments but with a part of each segment deleted and replaced by a mirror-image duplicate of all or part of the rest of the segment."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6092",
+            "title": "Cell_Biology_Alberts",
+            "content": "21\u201313 The mouse HoxA3 and HoxD3 genes are paralogs that occupy equivalent positions in their respective Hox gene clusters and share roughly 50% identity in their pro-tein-coding sequences. Mice with defects in HoxA3 have deficiencies in pharyngeal tissues, whereas mice with defects in HoxD3 have deficiencies in the axial skeleton, suggesting quite different functions for the paralogs. Thus, it came as a surprise when it was found that replacing a defective HoxD3 gene with the normal HoxA3 gene corrected the deficiency, as did the reciprocal experiment of replacing a mutant HoxA3 gene with a normal HoxD3 gene. Neither transplaced gene, however, could supply its normal function; that is, a normal HoxA3 gene at the HoxD3 locus could not correct the deficiency caused by a mutant HoxA3 gene at the HoxA3 locus. The same was true for the HoxD3 gene. If the HoxA3 and HoxD3 genes are equivalent, how do you suppose they can play such distinct roles in development? Why do you suppose they cannot"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5818",
+            "title": "Cell_Biology_Alberts",
+            "content": "called zygotic-effect genes, to distinguish them from the earlier-acting maternal-effect genes. Mutations in segmentation genes can alter either the number of segments or their basic internal organization."
+        },
+        {
+            "id": "Surgery_Schwartz_2141",
+            "title": "Surgery_Schwartz",
+            "content": "that a single mutation is not sufficient for tumorigenesis. Alfred Knudson hypothesized that hereditary retinoblastoma involves two mutations, of which one is germ-line and one somatic, whereas nonhereditary retinoblastoma is due to two somatic mutations (Fig. 10-12).53 Thus, both heredi-tary and nonhereditary forms of retinoblastoma involve the same number of mutations, a hypothesis known as Knudson\u2019s \u201ctwo-hit\u201d hypothesis. A \u201chit\u201d may be a point mutation, a chro-mosomal deletion referred to as allelic loss, or a loss of hetero-zygosity, or silencing of an existing gene. Approximately 40% of retinoblastomas are hereditary and due to germline mutations in the RB1 gene. Children with hereditary RB are also at risk for developing a midline intracranial tumor, most commonly pineoblastoma.p53 and Li-Fraumeni Syndrome. Li-Fraumeni syndrome (LFS) was first defined on the basis of observed clustering of malignancies, including early-onset breast cancer, soft tissue sarcomas, brain tumors,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1044",
+            "title": "Cell_Biology_Alberts",
+            "content": "What is the fate of newly duplicated genes? In most cases, there is presumed to be little or no selection\u2014at least initially\u2014to maintain the duplicated state since either copy can provide an equivalent function. Hence, many duplication events are likely to be followed by loss-of-function mutations in one or the other gene. This cycle would functionally restore the one-gene state that preceded the duplication. Indeed, there are many examples in contemporary genomes where one copy of a duplicated gene can be seen to have become irreversibly inactivated by multiple mutations. Over time, the sequence similarity between such a pseudogene and the functional gene whose duplication produced it would be expected to be eroded by the accumulation of many mutations in the pseudogene\u2014the homologous relationship eventually becoming undetectable."
+        }
+    ],
+    "scores": [
+        0.03798530113363432,
+        0.03392807863308544,
+        0.03274965581654922,
+        0.028758084743613226,
+        0.02812718378756114,
+        0.026751344380368396,
+        0.02578068264342774,
+        0.025376587396560853,
+        0.02423328305681247,
+        0.023615248813858545,
+        0.023604269293924465,
+        0.023555223206727243,
+        0.02341565371226388,
+        0.02333763585073763,
+        0.023215446022463566,
+        0.023034756839166108,
+        0.022808474422217263,
+        0.022707320476083155,
+        0.02249455337690632,
+        0.021610219173869606,
+        0.02146042363433668,
+        0.021001024065540195,
+        0.017593297791317596,
+        0.01734232565033721,
+        0.017078071182548796,
+        0.016411084207694375,
+        0.016260162601626018,
+        0.016083916083916083,
+        0.01601246105919003,
+        0.015502515502515503,
+        0.015356661391477639,
+        0.015265436318067897
+    ],
+    "execution_time": 50.119426012039185
+}

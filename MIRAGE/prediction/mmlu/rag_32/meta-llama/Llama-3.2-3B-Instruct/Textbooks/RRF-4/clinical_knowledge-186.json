@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-186",
+    "question": "Under what circumstances would you use antibiotics prior to catheterization?",
+    "options": {
+        "A": "If the patient has had a catheter in situ for a week.",
+        "B": "If the patient does not have urinary tract infection.",
+        "C": "If patient has an artificial heart valve.",
+        "D": "If the patient requests them."
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the relevant documents provided. The key points are as follows: Prophylactic antibiotic administration at the time of catheter removal has been reported to decrease the risk of UTI. In the setting of long-term catheter use, systemic antibiotics, bladder-acidifying agents, antimicrobial bladder washes, topical disinfectants, and antimicrobial drainage-bag solutions have all been ineffective at preventing the onset of bacteriuria and have been associated with the emergence of resistant organisms. Infection control is critical in the ICU. Catheter-related bloodstream infections derive largely from the cutaneous microflora of the insertion site, with pathogens migrating extraluminaly to the catheter tip, usually during the first week after insertion. The use of antimicrobial catheters impregnated with silver or nitrofurazone has not been shown to provide significant clinical benefit in terms of reducing rates of catheter-related bloodstream infections. According to the Surviving Sepsis guidelines, empiric antibiotic therapy should be initiated within the first hour of the patient's care in patients who develop sepsis or nosocomial infection. Given these points, let's evaluate the options. Option A is incorrect because the use of antibiotics before catheterization is not recommended for patients who have had a catheter in situ for a week. Option B is correct because the use of antibiotics prior to catheterization is recommended for patients who are at high risk of infection, such as those with certain medical conditions, but it is not explicitly stated in the provided documents. Option C is incorrect because cardiac catheterization is a sterile procedure, so antibiotic prophylaxis is not required. Option D is incorrect because the use of antibiotics prior to catheterization should be based on clinical judgment and not solely on patient request. Therefore, the correct answer is B.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_11264",
+            "title": "InternalMed_Harrison",
+            "content": "Administration of systemic antimicrobial agents for other purposes decreases the risk of UTI during the first 4 days of catheterization, after which resistant bacteria or yeasts emerge as pathogens. Prophylactic antibiotic administration at the time of catheter removal has been reported to decrease the risk of UTI. Selective decontamination of the gut also is associated with a reduced risk. Again, however, none of these approaches is routine. Irrigation of catheters, with or without antimicrobial agents, may actually increase the risk of infection. A condom catheter for men without bladder obstruction may be more acceptable than an indwelling catheter and may lessen the risk of UTI if maintained carefully. The role of suprapubic catheters in preventing infection is not well defined."
+        },
+        {
+            "id": "Pediatrics_Nelson_2528",
+            "title": "Pediatrics_Nelson",
+            "content": "Antibiotic-lock is a method of sterilizing intravascular catheters by using high concentrations of antibiotics infused into the portion of the catheter between the hub and the vessel entry. The solution is allowed to dwell within the catheter segment for several hours. It also may be useful for treatment of catheter-associated infections and for prevention of infection. Aseptic technique is essential during catheter insertion. Catheters that are placed during emergency situations should be replaced as soon as medically feasible. Care of indwelling catheters involves meticulous attention to sterile technique whenever the system is entered. Care of the catheter entry site commonly involves a topical antibiotic or disinfectant. Catheters that are no longer necessary should be removed."
+        },
+        {
+            "id": "InternalMed_Harrison_10733",
+            "title": "InternalMed_Harrison",
+            "content": "In the setting of long-term catheter use, systemic antibiotics, bladder-acidifying agents, antimicrobial bladder washes, topical disinfectants, and antimicrobial drainage-bag solutions have all been ineffective at preventing the onset of bacteriuria and have been associated with the emergence of resistant organisms. The best strategy for prevention of CAUTI is to avoid insertion of unnecessary catheters and to remove catheters once they are no longer necessary. Evidence is insufficient to recommend suprapubic catheters and condom catheters as alternatives to indwelling urinary catheters as a means to prevent CAUTI. However, intermittent catheterization may be preferable to long-term indwelling urethral catheterization in certain populations (e.g., spinal cord\u2013injured persons) to prevent both infectious and anatomic complications. Antimicrobial catheters impregnated with silver or nitrofurazone have not been shown to provide significant clinical benefit in terms of reducing rates of"
+        },
+        {
+            "id": "InternalMed_Harrison_5845",
+            "title": "InternalMed_Harrison",
+            "content": "Infectious Infections of the central access catheter rarely occur in the first 72 h. Fever during this period is usually attributable to infection elsewhere or another cause. Fever that develops during parenteral SNS can be addressed by checking the catheter site and, if the site looks clean, exchanging the catheter over a wire, with cultures taken through the catheter and at the catheter tip. If these cultures are negative, as they usually are, the new catheter can continue to be used. If a culture is positive for a relatively nonpathogenic bacterium like Staphylococcus epidermidis, a second exchange over a wire with repeat cultures or replacement of the catheter can be considered in light of the clinical circumstances. If cultures are positive for more pathogenic bacteria or for fungi like Candida albicans, it is generally best to replace the catheter at a new site. Whether antibiotic treatment is required is a clinical decision, but C. albicans grown from the blood culture in a"
+        },
+        {
+            "id": "InternalMed_Harrison_11261",
+            "title": "InternalMed_Harrison",
+            "content": "Prevention of Surgical-Site Infections Choose a surgeon wisely. Administer prophylactic antibiotics within 1 h before surgery; discontinue within 24 h. Limit any hair removal to the time of surgery; use clippers or do not remove hair at all. Prepare surgical site with chlorhexidine-alcohol. Maintain normal perioperative glucose levels (cardiac surgery patients).a Maintain perioperative normothermia (colorectal surgery patients).a Prevention of Urinary Tract Infections Place bladder catheters only when absolutely needed (e.g., to relieve obstruction), not solely for the provider\u2019s convenience. Use aseptic technique for catheter insertion and urinary tract instrumentation. Minimize manipulation or opening of drainage systems. Ask daily: Is the bladder catheter needed? Remove catheter if not needed. Prevention of Pathogen Cross-Transmission Cleanse hands with alcohol hand rub before and after all contacts with patients or their environments."
+        },
+        {
+            "id": "Pediatrics_Nelson_2530",
+            "title": "Pediatrics_Nelson",
+            "content": "The most important risk factors for urinary tract infections (UTIs) are the presence of catheters, instrumentation, and anatomic abnormalities (see Chapter 114). Organisms enter the bladder through the catheter by instillation of contaminated irrigation fluids, backflow of contaminated urine from the drainage bag, or ascent of bacteria around the meatus along the outside of the catheter. Indwelling catheters facilitate direct access to the bladder and should have a closed drainage system. After simple, straight catheterization, the incidence of UTI is 1% to 2%. Organisms that cause catheter-associated UTIs include fecal flora, such as gram-negative enteric bacilli, most commonly Escherichia coli, and Enterococcus. With concomitant antibiotic treatment, resistant organisms predominate, and fungi emerge as pathogens."
+        },
+        {
+            "id": "InternalMed_Harrison_11259",
+            "title": "InternalMed_Harrison",
+            "content": "Urinary tract infections (UTIs) account for ~30\u201340% of nosocomial infections; up to 3% of bacteriuric patients develop bacteremia. Although UTIs contribute at most 15% to prolongation of hospital stay and may have an attributable cost in the range of only $1300, these infections are reservoirs and sources for spread of antibiotic-resistant bacteria. Most nosocomial UTIs are associated with preceding instrumentation or indwelling bladder catheters, which create a 3\u20137% risk of infection each day. UTIs generally are caused by pathogens that spread up the periurethral space from the patient\u2019s perineum or gastrointestinal tract\u2014the most common pathogenesis in women\u2014or via intraluminal contamination of urinary catheters, usually due to cross-infection by caregivers who are irrigating catheters or emptying drainage bags. Pathogens come occasionally from Prevention of Central Venous Catheter Infections Catheter insertion bundle:"
+        },
+        {
+            "id": "InternalMed_Harrison_11285",
+            "title": "InternalMed_Harrison",
+            "content": "risk of infection) or of vancomycin or alcohol (as catheter flushes or \u201clocks\u201d\u2014 i.e., concentrated anti-infective solutions instilled into the catheter lumen) for high-risk patients. Vascular device\u2013related infection is suspected on the basis of the appearance of the catheter site or the presence of fever or bacteremia without another source in patients with vascular catheters. The diagnosis is confirmed by the recovery of the same species of microorganism from peripheral-blood cultures (preferably two samples drawn from peripheral veins by separate venipunctures) and from semiquantitative or quantitative cultures of the vascular catheter tip. Less commonly used diagnostic measures include (1) differential (faster) time to positivity (>2 h) for blood drawn through the vascular access device than for a sample from a peripheral vein and (2) differences in quantitative cultures (a threefold or greater \u201cstep-up\u201d) for blood samples drawn simultaneously from a peripheral vein and from a"
+        },
+        {
+            "id": "Surgery_Schwartz_2814",
+            "title": "Surgery_Schwartz",
+            "content": "tailored antibiotic therapy. Using a check-list when inserting central venous catheters has been shown to significantly decrease rates of line infections.63 Following a checklist strategy and close monitoring of catheters has resulted in significant reductions in infection rates for numerous institu-tions, and many are now reporting zero annual infection rates.Arterial Lines. Arterial lines are placed to facilitate arterial blood gas sampling and hemodynamic monitoring. The use of ultrasound to assist in placement of these catheters has become commonplace and markedly reduces the number of attempts and time for insertion completion.Arterial access requires a sterile Seldinger technique, and a variety of arteries are used, including the radial, femoral, bra-chial, axillary, dorsalis pedis, or superficial temporal arteries. Although complications occur less than 1% of the time, they can be catastrophic. Complications include thrombosis, bleed-ing, hematoma, arterial spasm (nonthrombotic"
+        },
+        {
+            "id": "InternalMed_Harrison_5847",
+            "title": "InternalMed_Harrison",
+            "content": "Catheter infections can be minimized by dedicating the feeding catheter to TPN, without blood sampling or medication administration. Central catheter infections are a serious complication, with an attributed mortality rate of 12\u201325%. Fewer than three infections per 1000 catheter-days should occur in central venous catheters dedicated to feeding. At-home TPN catheter infections may be treated through 98e-8 the catheter without its removal, particularly if the offending organism is S. epidermidis. Clearing of the biofilm and fibrin sheath by local treatment of the catheter with indwelling alteplase may increase the likelihood of eradication. Antibiotic lock therapy with high concentrations of antibiotic, with or without heparin in addition to systemic therapy, may improve efficacy. Sepsis with hypotension should precipitate catheter removal in either the temporary or the permanent TPN setting."
+        },
+        {
+            "id": "Surgery_Schwartz_1235",
+            "title": "Surgery_Schwartz",
+            "content": "venous catheter.A number of studies have demonstrated the importance of early empiric antibiotic therapy in patients who develop sep-sis or nosocomial infection; the Surviving Sepsis guidelines advocate for initiation of treatment within the first hour of the patient\u2019s care. This therapy should be initiated as soon as pos-sible with broad-spectrum antibiotics directed against the most likely organisms. Use of institutionand unit-specific sensitivity patterns are critical in selecting an appropriate agent for patients with nosocomial infection. Obtain appropriate cultures before Table 6-10Summary of Surviving Sepsis Campaign guidelinesInitial Evaluation and Infection IssuesInitial resuscitation: Begin resuscitation immediately in patients with hypotension or elevated serum lactate with resuscitation goal of at least 30 mL/kg IV crystalloid given in the first 3 hours.Ongoing fluid administration should be guided by physiologic response as measured by clinical variables (e.g., heart"
+        },
+        {
+            "id": "InternalMed_Harrison_11284",
+            "title": "InternalMed_Harrison",
+            "content": "application of aseptic technique when accessing pressure transducers or other vascular ports. Unresolved issues include the role of gut translocation rather than vascular access sites as a cause of primary bacteremia in immunocompromised patients and the implications for surveillance definitions; the best frequency for rotation of CVC sites (given that guidewire-assisted catheter changes at the same site do not lessen and can even increase infection risk); the appropriate role of mupirocin ointment, a topical antibiotic with excellent antistaphylococcal activity, in site care; the relative degrees of risk posed by peripherally inserted central catheters (PICC lines); and the risk-benefit of prophylactic use of heparin (to avoid catheter thrombi, which may be associated with increased risk of infection) or of vancomycin or alcohol (as catheter flushes or \u201clocks\u201d\u2014 i.e., concentrated anti-infective solutions instilled into the catheter lumen) for high-risk patients. Vascular"
+        },
+        {
+            "id": "Pediatrics_Nelson_2525",
+            "title": "Pediatrics_Nelson",
+            "content": "Available @ StudentConsult.com The treatment of catheter-related infection depends on the site of the infection and the pathogen involved. Catheters that are no longer necessary should be removed if infection is suspected. Catheter-associated bacteremia can be treated with simple catheter removal, removal plus antibiotics, or, in a stable patient, an attempt of antibiotic therapy alone (Fig. 1211). Infection with organisms of low virulence may be manifested by fever alone, and removal of the catheter frequently is followed by prompt defervescence and complete resolution of infection. Empirical initial therapy for suspected infection should include antibiotics active against gram-negative organisms such as a broad-spectrum cephalosporin, and against"
+        },
+        {
+            "id": "InternalMed_Harrison_11263",
+            "title": "InternalMed_Harrison",
+            "content": "inadequately disinfected urologic equipment and rarely from contaminated supplies. Hospitals should monitor essential performance measures for preventing nosocomial UTIs (Table 168-4). Prompts to clinicians to assess a patient\u2019s need for continued use of an indwelling bladder catheter can improve removal rates and lessen the risk of UTI. Guidelines for managing postoperative urinary retention (e.g., with bladder scanners) also may limit the use or duration of catheterization. Other approaches to the prevention of UTIs have included the use of topical meatal antimicrobial agents, drainage bag disinfectants, and anti-infective catheters. None of the latter three measures is considered routine."
+        },
+        {
+            "id": "InternalMed_Harrison_20737",
+            "title": "InternalMed_Harrison",
+            "content": "Many therapeutic interventions in the ICU are invasive and predispose patients to infectious complications. These interventions include endotracheal intubation, indwelling vascular catheters, transurethral bladder catheters, and other catheters placed into sterile body cavities (e.g., tube thoracostomy, percutaneous intraabdominal drainage catheterization). The longer such devices remain in place, the more prone to these infections patients become. For example, ventilator-associated pneumonia correlates strongly with the duration of intubation and mechanical ventilation. Therefore, an important aspect of preventive care is the timely removal of invasive devices as soon as they are no longer needed. Moreover, multidrug-resistant organisms are commonplace in the ICU."
+        },
+        {
+            "id": "InternalMed_Harrison_17797",
+            "title": "InternalMed_Harrison",
+            "content": "Cardiac catheterization is performed after the patient has fasted for 6 hours and has received intravenous conscious sedation to remain awake but sedated during the procedure. All patients with suspected coronary artery disease are pretreated with 325 mg aspirin. In patients in whom the procedure is likely to progress to a percutaneous coronary intervention, an additional antiplatelet agent should be started: clopidogrel (600-mg loading dose and 75 mg daily) or prasugrel (60-mg loading dose and 10 mg daily), or ticagrelor (180-mg loading and 90 mg twice daily). Prasugrel should not be selected for individuals with prior stroke or transient ischemic attack. Warfarin is held starting 2\u20133 days prior to the catheterization to allow the international normalized ratio (INR) to fall to <1.7 and limit access-site bleeding complications. Cardiac catheterization is a sterile procedure, so antibiotic prophylaxis is not required."
+        },
+        {
+            "id": "Surgery_Schwartz_1229",
+            "title": "Surgery_Schwartz",
+            "content": "these devices are increasingly used for physiologic monitoring, vascular access, drug delivery, and hyperalimentation. Among the sev-eral million catheters inserted each year in the United States, approximately 25% will become colonized, and approximately 5% will be associated with bacteremia. Duration of catheteriza-tion, insertion or manipulation under emergency or nonsterile conditions, use for hyperalimentation, and the use of multilu-men catheters increase the risk of infection. Use of a central line insertion protocol that includes full barrier precautions and chlorhexidine skin prep has been shown to decrease the inci-dence of infection.80 Although no randomized trials have been performed, peripherally inserted central venous catheters have a catheter-related infection rate similar to those inserted in the subclavian or jugular veins.81Many patients who develop intravascular catheter infec-tions are asymptomatic, often exhibiting solely an elevation in the blood WBC count."
+        },
+        {
+            "id": "Pediatrics_Nelson_2523",
+            "title": "Pediatrics_Nelson",
+            "content": "Chapter 121 u Infections Associated with Medical Devices 395 Tunneled? Tunneled? Hemodynamically unstable or no improvement after 72 hours persistently positive culture or endocarditis/ thrombophlebitis or pocket infection cellulitis AND: NOT TERMINALLY ILL LINE NEEDED? YES1 line >1 line Antibiotic through all lumina consider thrombolytic agents YES NO NO YES NO YES NO NO Insertion easy? REMOVE THE LINE YES Figure 121-1 Management of central venous catheter infection. (From De Paw BE, Verweij PE: Infections in patients with hematologic malignancies. In Mandell GL, Bennett JE, Dolin R, editors: Principles and Practice of Infectious Diseases, ed 6, Philadelphia, 2005, Churchill Livingstone, Fig. 307-1, p 3434.) other immunodeficiencies (see Chapter 120). Infection rates are lower for tunneled and implanted catheters. Catheters inserted in emergency settings are more likely to be infected than catheters placed electively."
+        },
+        {
+            "id": "InternalMed_Harrison_10731",
+            "title": "InternalMed_Harrison",
+            "content": "The formation of biofilm\u2014a living layer of uropathogens\u2014on the urinary catheter is central to the pathogenesis of CAUTI and affects both therapeutic and preventive strategies. Organisms in a biofilm are relatively resistant to killing by antibiotics, and eradication of a catheter-associated biofilm is difficult without removal of the device itself. Furthermore, because catheters provide a conduit for bacteria to enter the bladder, bacteriuria is inevitable with longterm catheter use. The typical signs and symptoms of UTI, including pain, urgency, dysuria, fever, peripheral leukocytosis, and pyuria, have less predictive value for the diagnosis of infection in catheterized patients. Furthermore, the presence of bacteria in the urine of a patient who is febrile and catheterized does not necessarily predict CAUTI, and other explanations for the fever should be considered."
+        },
+        {
+            "id": "InternalMed_Harrison_11281",
+            "title": "InternalMed_Harrison",
+            "content": "Catheter-related bloodstream infections derive largely from the cutaneous microflora of the insertion site, with pathogens migrating extraluminally to the catheter tip, usually during the first week after insertion. In addition, contamination of the hubs of CVCs or of the ports of \u201cneedle-less\u201d systems may lead to intraluminal infection over longer periods, particularly with surgically implanted or cuffed catheters. Intrinsic (during the manufacturing process) or extrinsic (on-site in a health care facility) contamination of infusate, although rare, is the most common cause of epidemic device-related bloodstream infection; extrinsic contamination may cause up to half of endemic bacteremias related to arterial infusions used for hemodynamic monitoring. The most common pathogens isolated from vascular device\u2013associated bacteremias include coagulase-negative staphylococci, S. aureus (with \u226550% of isolates in the United States resistant to methicillin), enterococci, nosocomial"
+        },
+        {
+            "id": "Surgery_Schwartz_1230",
+            "title": "Surgery_Schwartz",
+            "content": "to those inserted in the subclavian or jugular veins.81Many patients who develop intravascular catheter infec-tions are asymptomatic, often exhibiting solely an elevation in the blood WBC count. Blood cultures obtained from a peripheral site and drawn through the catheter that reveals the presence of the same organism increase the index of suspicion for the pres-ence of a catheter infection. Obvious purulence at the exit site of the skin tunnel, severe sepsis syndrome due to any type of organism when other potential causes have been excluded, or bacteremia due to gram-negative aerobes or fungi should lead to catheter removal. Selected catheter infections due to low-virulence microbes such as S epidermidis can be effectively treated in approximately 50% to 60% of patients with a 14to 21-day course of an antibiotic, which should be considered when no other vascular access site exists.82 The use of antibi-otic-bonded catheters and chlorhexidine sponges at the insertion"
+        },
+        {
+            "id": "InternalMed_Harrison_11265",
+            "title": "InternalMed_Harrison",
+            "content": "Treatment of UTIs is based on the results of quantitative urine cultures (Chap. 162). The most common pathogens are Escherichia coli, nosocomial gram-negative bacilli, enterococci, and Candida. Several caveats apply in the treatment of institutionally acquired infection. First, in patients with chronic indwelling bladder catheters, especially those in long-term-care facilities, \u201ccatheter flora\u201d\u2014microorganisms living on encrustations within the catheter lumen\u2014may differ from actual urinary tract pathogens. Therefore, for suspected UTI in the setting of chronic catheterization (especially in women), it is useful to replace the bladder catheter and to obtain a freshly voided urine specimen. Second, as in all nosocomial infections, at the time treatment is initiated on the basis of a positive culture, it is useful to repeat the culture to verify the persistence of infection. Third, the frequency with which UTIs occur may lead to the erroneous assumption that the urinary tract alone is the"
+        },
+        {
+            "id": "InternalMed_Harrison_5833",
+            "title": "InternalMed_Harrison",
+            "content": "Catheters are made of Silastic\u00ae, polyurethane, or polyvinyl chloride. Silastic catheters are less thrombogenic and are best for tunneled catheters. Polyurethane is best for temporary catheters. To avoid infection, dressing changes with dry gauze should be performed at regular intervals by nurses skilled in catheter care. Chlorhexidine solution is more effective than alcohol or iodine compounds. Appropriate monitoring for patients receiving PN is summarized in Table 98e-6. Even though premixed solutions of crystalline amino acids and dextrose are in common use, the future of evidence-based PN lies in computer-controlled sterile compounders that rapidly and inexpensively General sense of well-being"
+        },
+        {
+            "id": "InternalMed_Harrison_10732",
+            "title": "InternalMed_Harrison",
+            "content": "The etiology of CAUTI is diverse, and urine culture results are essential to guide treatment. Fairly good evidence supports the practice of catheter change during treatment for CAUTI. The goal is to remove biofilm-associated organisms that could serve as a nidus for reinfection. Pathology studies reveal that many patients with long-term catheters have occult pyelonephritis. A randomized trial in persons with spinal cord injury who were undergoing intermittent catheterization found that relapse was more common after 3 days of therapy than after 14 days. In general, a 7to 14-day course of antibiotics is recommended, but further studies on the optimal duration of therapy are needed."
+        },
+        {
+            "id": "InternalMed_Harrison_32613",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 481e Clinical Procedure Tutorial: Central Venous Catheter Placement"
+        },
+        {
+            "id": "Surgery_Schwartz_511",
+            "title": "Surgery_Schwartz",
+            "content": "use of multilumen catheters may be associated with a slightly increased risk of infection. This is most likely asso-ciated with greater catheter manipulation and intensive use. The rate of catheter infection is highest for those placed in the femoral vein, lower for those in the jugular vein, and lowest for those in the subclavian vein. When catheters are indwelling for <3 days, infection risks are negligible. If indwelling time is 3 to 7 days, the infection risk is 3% to 5%. Indwelling times of >7 days are associated with a catheter infection risk of 5% to 10%. Strict adherence to barrier precautions also reduces the rate of infection as can the implementation of procedure checklists to ensure compliance with evidence-based guidelines shown to reduce infectious risk.276Other complications related to catheter placement include the development of pneumothorax, hemothorax, hydrothorax, subclavian artery injury, thoracic duct injury, cardiac arrhyth-mia, air embolism, catheter"
+        },
+        {
+            "id": "InternalMed_Harrison_11260",
+            "title": "InternalMed_Harrison",
+            "content": "Prevention of Central Venous Catheter Infections Catheter insertion bundle: Educate personnel about catheter insertion and care. Use chlorhexidine to prepare the insertion site. Use maximal barrier precautions and asepsis during catheter insertion. Consolidate insertion supplies (e.g., in an insertion kit or cart). Use a checklist to enhance adherence to the \u201cinsertion bundle.\u201d Empower nurses to halt insertion if asepsis is breached. Catheter maintenance bundle: Cleanse patients daily with chlorhexidine. Maintain clean, dry dressings. Enforce hand hygiene among health care workers. Ask daily: Is the catheter needed? Remove catheter if not needed or used. Prevention of Ventilator-Associated Events Elevate head of bed to 30\u201345 degrees. Decontaminate oropharynx regularly with chlorhexidine (controversial). Give \u201csedation vacation\u201d and assess readiness to extubate daily. Use peptic ulcer disease prophylaxis. Use deep-vein thrombosis prophylaxis (unless contraindicated)."
+        },
+        {
+            "id": "InternalMed_Harrison_11287",
+            "title": "InternalMed_Harrison",
+            "content": "one-fourth of patients with intravascular catheter\u2013 associated S. aureus bacteremia who were studied by transesophageal echocardiography had evidence of endocarditis; this test may be useful in determining the appropriate duration of treatment. Detailed consensus guidelines for the management of intravascular catheter\u2013related infections have been published and recommend catheter removal in most cases of bacteremia or fungemia due to nontunneled CVCs. When attempting to salvage a potentially infected catheter, some clinicians use the \u201cantibiotic lock\u201d technique, which may facilitate penetration of infected biofilms, in addition to systemic antimicrobial therapy (see www.idsociety.org/Other_Guidelines/). The authors of the consensus treatment guidelines advise that the decision to remove a tunneled catheter or implanted device suspected of being the source of bacteremia or fungemia should be based on the severity of the patient\u2019s illness, the strength of evidence that the device is"
+        },
+        {
+            "id": "InternalMed_Harrison_6489",
+            "title": "InternalMed_Harrison",
+            "content": "species other than aeruginosa, and carbapenem-resistant Enterobacteriaceae are likely to be very difficult to eradicate with antibiotics alone. Similarly, isolation of Bacillus, Corynebacterium, and Mycobacterium species should prompt removal of the catheter."
+        },
+        {
+            "id": "InternalMed_Harrison_20738",
+            "title": "InternalMed_Harrison",
+            "content": "Infection control is critical in the ICU. Care bundles, which include measures such as frequent hand washing, are effective but underutilized strategies. Other components of care bundles, such as protective isolation of patients colonized or infected by drug-resistant organisms, are also commonly used. Silver-coated endotracheal tubes reportedly reduce the incidence of ventilator-associated pneumonia. Studies evaluating multifaceted, evidence-based strategies to decrease catheter-related bloodstream infections have shown improved outcomes with strict adherence to measures such as hand washing, full-barrier precautions during catheter insertion, chlorhexidine skin preparation, avoidance of the femoral site, and timely catheter removal."
+        },
+        {
+            "id": "Gynecology_Novak_3601",
+            "title": "Gynecology_Novak",
+            "content": "Despite the high incidence of urinary tract infections in the postoperative period, few of these infections are serious. Most are confined to the lower urinary tract, and pyelonephritis is a rare complication (88). Catheterization of the urinary tract, either intermittently or continuously with the use of an indwelling catheter, is implicated as a main cause of urinary tract contamination (89). More than 1 million catheter-associated urinary tract infections occur yearly in the United States, and catheter-associated bacteria remains the most common etiology of gram-negative bacteremia in hospitalized patients. Bacteria adhere to the surface of urinary catheters and grow within bile films, which appear to protect embedded bacteria from antibiotics, making treatment less effective. The use of urinary tract catheters should be minimized. An indwelling catheter should be removed or replaced in a patient undergoing treatment for catheter-related infections."
+        },
+        {
+            "id": "InternalMed_Harrison_11577",
+            "title": "InternalMed_Harrison",
+            "content": "In an era of increasing prevalence of multidrug-resistant bacteria and with a substantial amount of inappropriate antimicrobial use, the need for rational antimicrobial prescribing has never been greater. Antimicrobial stewardship describes the practice of promoting the selection of the appropriate drug, dosage, route, and duration of antimicrobial therapy. Antimicrobial stewardship programs implement a variety of strategies to (1) improve patient care through appropriate Condition Antibacterial Agentsa Timing or Duration of Prophylaxis Clean (cardiac, thoracic, neurologic, orthopedic, vascular, plastic) Clean (ophthalmic) Clean-contaminated (hysterectomy, gastroduodenal, biliary, unobstructed small intestine, urologic) Clean-contaminated (colorectal, appendectomy) Cefazolin (vancomycin,b clindamycin) Topical neomycin\u2013polymyxin B\u2013gramicidin, topical moxifloxacin Cefazolin + metronidazole, ampicillin-sulbactamc (clindamycin)"
+        }
+    ],
+    "scores": [
+        0.028583678225301758,
+        0.027803215303215303,
+        0.026614718614718615,
+        0.0258836861042433,
+        0.025852514919011083,
+        0.025328272852117313,
+        0.025259085416860304,
+        0.0248536545709684,
+        0.02455689907731226,
+        0.02353153050681984,
+        0.023316810699054488,
+        0.02323020117137764,
+        0.021749622926093518,
+        0.02161779930236306,
+        0.021317957940039833,
+        0.021257340145360466,
+        0.021160373500545254,
+        0.021030560271646858,
+        0.02060330101052359,
+        0.020242585150921102,
+        0.02022604808588499,
+        0.01991566497516208,
+        0.018782967732547562,
+        0.018183320935614512,
+        0.017973200673995025,
+        0.017391304347826087,
+        0.0170995670995671,
+        0.016558529332251957,
+        0.016473581999598204,
+        0.016437992974083646,
+        0.016411084207694375,
+        0.016328978938949613
+    ],
+    "execution_time": 18.276610612869263
+}

@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-011",
+    "question": "Targeting of a newly synthesized protein is most likely to require two different signal peptides for which of the following destinations?",
+    "options": {
+        "A": "Plasma membrane",
+        "B": "Lysosome",
+        "C": "Cytosol",
+        "D": "Chloroplast"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the role of signal peptides in protein targeting. Signal peptides are sequences of amino acids at the N-terminus of a protein that direct the protein to a specific destination within the cell. Each organelle or cellular compartment has its own specific signal sequence that guides the protein to its destination. The question asks which destination requires two different signal peptides. We need to analyze each option and determine if it requires two signal peptides. Option A, plasma membrane, typically requires one signal peptide, the N-terminal signal sequence that directs the protein to the ER and then to the Golgi apparatus, which then packages it into vesicles for secretion. Option B, lysosome, requires one signal peptide, the M6P tag, which directs the protein to the Golgi apparatus and then to the lysosome. Option C, cytosol, does not require a signal peptide as proteins that remain in the cytosol do not need to be directed to a specific destination. Option D, chloroplast, requires one signal peptide, the targeting sequence that directs the protein to the chloroplast. Based on the analysis, options A, B, and D require one signal peptide each, while option C does not require a signal peptide. Therefore, the correct answer is not among these options. However, considering the context of the question, the correct answer is that targeting of a newly synthesized protein to the plasma membrane, lysosome, or chloroplast typically requires one signal peptide. The correct answer is not listed in the options, but the correct answer is that none of the options A, B, or D require two signal peptides. However, for the purpose of multiple-choice format, we can consider the closest answer as option A, as it is the one that requires a signal peptide, but not necessarily two. But, given the provided options, it seems there isn't a clear correct answer. However, I will choose option A, as it is the one that requires a signal peptide, and that is the closest to the correct answer.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_3193",
+            "title": "Cell_Biology_Alberts",
+            "content": "Table 12\u20133 presents some specific signal sequences. Experiments in which the peptide is transferred from one protein to another by genetic engineering techniques have demonstrated the importance of each of these signal sequences for protein targeting. Placing the N-terminal ER signal sequence at the beginning of a cytosolic protein, for example, redirects the protein to the ER; removing or mutating the signal sequence of an ER protein causes its retention in the cytosol. Signal sequences are therefore both necessary and sufficient for protein targeting. Even though their amino acid sequences can vary greatly, the signal sequences of proteins having the same destination are functionally interchangeable; physical properties, such as hydrophobicity, often seem to be more important in the signal-recognition process than the exact amino acid sequence."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3194",
+            "title": "Cell_Biology_Alberts",
+            "content": "Signal sequences are recognized by complementary sorting receptors that guide proteins to their appropriate destination, where the receptors unload their cargo. The receptors function catalytically: after completing one round of targeting, they return to their point of origin to be reused. Most sorting receptors budding vesicle with contents selected for recognize classes of proteins rather than an individual protein species. They can therefore be viewed as public transportation systems, dedicated to delivering numerous different components to their correct location in the cell. most organelles Cannot Be Constructed De Novo: They require information in the organelle itself"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3704",
+            "title": "Cell_Biology_Alberts",
+            "content": "acid sequence. In still more complex cases, a variety of peptide signaling molecules are synthesized as parts of a single polyprotein that acts as a precursor for multiple end products, which are individually cleaved from the initial polypeptide chain. The same polyprotein may be processed in various ways to produce different peptides in different cell types (Figure 13\u201366)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3199",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each newly synthesized organelle protein must find its way from a ribosome in the cytosol, where the protein is made, to the organelle where it functions. It does so by following a specific pathway, guided by sorting signals in its amino acid sequence that function as either signal sequences or signal patches. Sorting signals are recognized by complementary sorting receptors, which deliver the protein to the appropriate target organelle. Proteins that function in the cytosol do not contain sorting signals and therefore remain there after they are synthesized. During cell division, organelles such as the ER and mitochondria are distributed to each daughter cell. These organelles contain information that is required for their construction, and so they cannot be made de novo. The TransporT of moleCUles BeTWeen The nUCleUs anD The CYTosol The nuclear envelope encloses the DNA and defines the nuclear compartment."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3705",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is proteolytic processing so common in the secretory pathway? Some of the peptides produced in this way, such as the enkephalins (five-amino-acid neuropeptides with morphine-like activity), are undoubtedly too short in their mature forms to be co-translationally transported into the ER lumen or to include the necessary signal for packaging into secretory vesicles. In addition, for secreted hydrolytic enzymes\u2014or any other protein whose activity could be harmful inside the cell that makes it\u2014delaying activation of the protein until it reaches a secretory vesicle, or until after it has been secreted, has a clear advantage: the delay prevents the protein from acting prematurely inside the cell in which it is synthesized. secretory vesicles wait near the plasma Membrane until signaled to release Their contents"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2005",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once a newly made eukaryotic mRNA molecule has passed through a nuclear pore and entered the cytosol, it is typically met by ribosomes, which translate it into a polypeptide chain (see Figure 6\u20138). Once the first round of translation \u201cpasses\u201d the nonsense-mediated decay test (see Figure 6\u201376), the mRNA is usually translated in earnest. If the mRNA encodes a protein that is destined to be secreted or expressed on the cell surface, a signal sequence at the protein\u2019s N-terminus will direct it to the endoplasmic reticulum (ER). In this case, as discussed in Chapter 12, components of the cell\u2019s protein-sorting apparatus recognize the signal sequence as soon as it emerges from the ribosome and direct the entire complex of ribosome, mRNA, and nascent protein to the membrane of the ER, where the remainder of the polypeptide chain is synthesized. In other cases, free ribosomes in the cytosol synthesize the entire protein, and signals in the completed polypeptide chain may then direct the"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1598",
+            "title": "Biochemistry_Lippinco",
+            "content": "Although most protein synthesis in eukaryotes is initiated in the cytoplasm, many proteins perform their functions within subcellular organelles or outside of the cell. Such proteins normally contain amino acid sequences that direct the proteins to their final locations. For example, secreted proteins are targeted during synthesis (cotranslational targeting) to the RER by the presence of an N-terminal hydrophobic signal sequence. The sequence is recognized by the signal recognition particle (SRP), a ribonucleoprotein that binds the ribosome, halts elongation, and delivers the ribosome\u2013peptide complex to an RER membrane channel (the translocon) via interaction with the SRP receptor. Translation resumes, the protein enters the RER lumen, and its signal sequence is cleaved (Fig. 32.15). The protein moves through the RER and the Golgi, is processed, packaged into vesicles, and secreted. Proteins targeted after synthesis (posttranslational) include nuclear proteins that contain an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3192",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each signal sequence specifies a particular destination in the cell. Proteins destined for initial transfer to the ER usually have a signal sequence at their Nterminus that characteristically includes a sequence composed of about 5\u201310 hydrophobic amino acids. Many of these proteins will in turn pass from the ER to the Golgi apparatus, but those with a specific signal sequence of four amino acids at their C-terminus are recognized as ER residents and are returned to the ER. Proteins destined for mitochondria have signal sequences of yet another type, in which positively charged amino acids alternate with hydrophobic ones. Finally, many proteins destined for peroxisomes have a signal sequence of three characteristic amino acids at their C-terminus."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1961",
+            "title": "Biochemistry_Lippinco",
+            "content": "mutations alter the reading frame through the addition or deletion of nucleotides by a number not divisible by three. Because the \u2206F509 mutation is caused by the loss of three nucleotides that code for phenylalanine (F) at position 509 in the CFTR protein, it is not a frameshift mutation. Answer = A. Targeting of proteins destined to function as components of the plasma membrane is an example of cotranslational targeting. It involves the initiation of translation on cytosolic ribosomes; recognition of the amino (N)terminal signal sequence in the protein by the signal recognition particle; movement of the protein-synthesizing complex to the outer face of the membrane of the endoplasmic reticulum (ER); and continuation of protein synthesis, such that the protein is threaded into the lumen of the ER and packaged into vesicles that travel to and through the Golgi and eventually fuse with the plasma membrane. The N-terminal signal sequence is removed by a peptidase in the lumen of the ER."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3321",
+            "title": "Cell_Biology_Alberts",
+            "content": "signal sequences Were first Discovered in proteins imported into the rough er The ER captures selected proteins from the cytosol as they are being synthesized. These proteins are of two types: transmembrane proteins, which are only partly translocated across the ER membrane and become embedded in it, and water-soluble proteins, which are fully translocated across the ER membrane and are released into the ER lumen. Some of the transmembrane proteins function in the ER, but many are destined to reside in the plasma membrane or the membrane of another organelle. The water-soluble proteins are destined either for secretion or for residence in the lumen of the ER or of another organelle. All of these proteins, regardless of their subsequent fate, are directed to the ER membrane by an ER signal sequence, which initiates their translocation by a common mechanism."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3703",
+            "title": "Cell_Biology_Alberts",
+            "content": "contain clathrin patches, which are no longer seen on the mature secretory vesicle. (b, courtesy of lelio orci.) as well as many secreted hydrolytic enzymes, are synthesized as inactive precursors. Proteolysis is necessary to liberate the active molecules from these precursor proteins. The cleavages occur in the secretory vesicles and sometimes in the extracellular fluid after secretion. Additionally, many of the precursor proteins have an N-terminal pro-peptide that is cleaved off to yield the mature protein. These proteins are synthesized as pre-pro-proteins, the pre-peptide consisting of the ER signal peptide that is cleaved off earlier in the rough ER (see Figure 12\u201336). In other cases, peptide signaling molecules are made as polyproteins that contain multiple copies of the same amino acid sequence. In still more complex cases, a variety of peptide signaling molecules are synthesized as parts of a single polyprotein that acts as a precursor for multiple end products, which are"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3186",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 12\u20135 A simplified \u201croadmap\u201d of protein traffic within a eukaryotic cell. proteins can move from one compartment to another by gated transport (red), protein translocation (blue), or vesicular transport (green). The sorting signals that direct a given protein\u2019s movement through the system, and thereby determine its eventual location in the cell, are contained in each protein\u2019s amino acid sequence. The journey begins with the synthesis of a protein on a ribosome in the cytosol and, for many proteins, terminates when the protein reaches its final destination. other proteins shuttle back and forth between the nucleus and cytosol. at each intermediate station (boxes), a decision is made as to whether the protein is to be retained in that compartment or transported further. a sorting signal may direct either retention in or exit from a compartment."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3180",
+            "title": "Cell_Biology_Alberts",
+            "content": "The synthesis of all proteins begins on ribosomes in the cytosol, except for the few that are synthesized on the ribosomes of mitochondria and plastids. Their subsequent fate depends on their amino acid sequence, which can contain sorting signals that direct their delivery to locations outside the cytosol or to organelle surfaces. Some proteins do not have a sorting signal and consequently remain in the cytosol as permanent residents. Many others, however, have specific sorting signals that direct their transport from the cytosol into the nucleus, the ER, mitochondria, plastids, or peroxisomes; sorting signals can also direct the transport of proteins from the ER to other destinations in the cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3417",
+            "title": "Cell_Biology_Alberts",
+            "content": "how do nuclear import receptors negotiate the tangled gel-like interior of a nuclear pore complex so efficiently? is the nuclear pore complex a rigid structure or can it expand and contract, depending on the cargo transported? sequence comparisons show that signal sequences for an individual protein such as insulin are quite conserved across species, much more so than would be expected from our current understanding that all that matters for their function are general structural features such as hydrophobicity. What other functions might signal sequences have that could account for their evolutionary sequence conservation? how are polyribosomes on the endoplasmic reticulum membrane arranged so that the next initiating ribosome will find an unoccupied translocator? Why does the signal-recognition particle have an indispensable rna subunit? Which statements are true? Explain why or why not."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3322",
+            "title": "Cell_Biology_Alberts",
+            "content": "Signal sequences (and the signal sequence strategy of protein sorting) were first discovered in the early 1970s in secreted proteins that are translocated across the ER membrane as a first step toward their eventual discharge from the cell. In the key experiment, the mRNA encoding a secreted protein was translated by ribosomes in vitro. When microsomes were omitted from this cell-free system, the protein synthesized was slightly larger than the normal secreted protein. In the presence of microsomes derived from the rough ER, however, a protein of the correct size was produced. According to the signal hypothesis, the size difference reflects the initial presence of a signal sequence that directs the secreted protein"
+        },
+        {
+            "id": "Histology_Ross_251",
+            "title": "Histology_Ross",
+            "content": "Most proteins that are synthesized for export or to become a part of specific organelles (such as the plasma membrane, mitochondrial matrix, endoplasmic reticulum, or nucleus) require sorting signals that direct proteins to their correct destinations. These signal sequences (signal peptides) are often found in the sequence of the first group of 15 to 60 amino acids on the amino-terminus of a newly synthesized protein. For instance, almost all proteins that are transported to the endoplasmic reticulum have a signal sequence consisting of five to ten hydrophobic amino acids on their amino-termini. The signal sequence of the nascent peptide interacts with a signal-recognition particle (SRP), which arrests further growth of the polypeptide chain. The complex containing the SRP\u2013polyribosome complex with arrested polypeptide synthesis is then relocated toward the rER excision of introns release of translational arrest"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3692",
+            "title": "Cell_Biology_Alberts",
+            "content": "A cell capable of regulated secretion must separate at least three classes of proteins before they leave the TGN\u2014those destined for lysosomes (via endosomes), those destined for secretory vesicles, and those destined for immediate delivery to the cell surface (Figure 13\u201363). We have already discussed how proteins destined for lysosomes are tagged with M6P for packaging into specific departing vesicles, and analogous signals are thought to direct secretory proteins into secretory vesicles. The nonselective constitutive secretory pathway transports most other proteins directly to the cell surface. Because entry into this pathway does not require a particular signal, it is also called the default pathway. Thus, in an unpolarized cell such as a white blood cell or a fibroblast, it seems that any protein in the lumen of the Golgi apparatus is automatically carried by the constitutive pathway to the cell surface unless it is specifically returned to the ER, retained as a resident protein in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3191",
+            "title": "Cell_Biology_Alberts",
+            "content": "signal sequences and sorting receptors Direct proteins to the Correct Cell address Most protein sorting signals involved in transmembrane transport reside in a stretch of amino acid sequence, typically 15\u201360 residues long. Such signal sequences are often found at the N-terminus of the polypeptide chain, and in many cases specialized signal peptidases remove the signal sequence from the finished protein once the sorting process is complete. Signal sequences can also be internal stretches of amino acids, which remain part of the protein. Such signals are used in gated transport into the nucleus. Sorting signals can also be composed of multiple internal amino acid sequences that form a specific three-dimensional arrangement of atoms on the protein\u2019s surface; such signal patches are sometimes used for nuclear import and in vesicular transport."
+        },
+        {
+            "id": "Histology_Ross_252",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.27 \u2022 Summary of events during protein synthesis. Proteins synthesis begins within the nucleus with transcription, during which the genetic code for a protein is transcribed from DNA to mRNA precursors. After post-transcriptional modifcations of the premRNA molecule\u2014which include RNA cleavage, excision of introns, rejoining of exons, and capping by addition of poly(A) tracks at the 3 end and methylguanosine cap at the 5 end\u2014 the resulting mRNA molecule leaves the nucleus into the cytoplasm. In the cytoplasm, the mRNA sequence is read by the ribosomal complex in the process of translation to form a polypeptide chain. The frst group of 15 to 60 amino acids on the amino-terminus of a newly synthesized polypeptide forms a signal sequence (signal peptide) that directs protein to its destination (i.e., lumen of rER). The signal peptide interacts with a signal-recognition particle (SRP), which arrests further growth of the polypeptide chain until its relocation toward the rER"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3401",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 12\u201352 The attachment of a GPI anchor to a protein in the ER. Gpianchored proteins are targeted to the er membrane by an n-terminal signal sequence (not shown), which is removed (see figure 12\u201342). immediately after the completion of protein synthesis, the precursor protein remains anchored in the er membrane by a hydrophobic C-terminal sequence of 15\u201320 amino acids; the rest of the protein is in the er lumen. Within less than a minute, an enzyme in the er cuts the protein free from its membrane-bound C-terminus and simultaneously attaches the new C-terminus to an amino group on a preassembled Gpi intermediate. The sugar chain contains an inositol attached to the lipid from which the Gpi anchor derives its name. it is followed by a glucosamine and three mannoses. The terminal mannose links to a phosphoethanolamine that provides the amino group to attach the protein. The signal that specifies this modification is contained within the hydrophobic C-terminal sequence and a few"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3324",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 12\u201335 The signal hypothesis. a simplified view of protein translocation across the er membrane, as originally proposed. When the er signal sequence emerges from the ribosome, it directs the ribosome to a translocator on the er membrane that forms a pore in the membrane through which the polypeptide is translocated. a signal peptidase is closely associated with the translocator and clips off the signal sequence during translation, and the mature protein is released into the lumen of the er immediately after its synthesis is completed. The translocator is closed until the ribosome has bound, so that the permeability barrier of the er membrane is maintained at all times."
+        },
+        {
+            "id": "Cell_Biology_Alberts_7030",
+            "title": "Cell_Biology_Alberts",
+            "content": "is the N-terminal sequence of 20 or so amino acids that directs nascent secretory and transmembrane proteins to the endoplasmic reticulum. (Table 12\u20133, p. 648) signal-recognition particle (SRP) Ribonucleoprotein particle that binds an ER signal sequence on a partially synthesized polypeptide chain and directs the polypeptide and its attached ribosome to the endoplasmic reticulum. (Figure 12\u201336) signaling center Cluster of specialized cells in developing tissues that serves as a source of developmental signals\u2014for example, the generation of a morphogen gradient."
+        },
+        {
+            "id": "Biochemistry_Lippincott_155",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Pro-\u03b1 chain formation: Collagen is one of many proteins that normally function outside of cells. Like most proteins produced for export, the newly synthesized polypeptide precursors of \u03b1 chains (prepro-\u03b1 chains) contain a special amino acid sequence at their amino (N)-terminal ends. This sequence acts as a signal that, in the absence of additional signals, targets the polypeptide being synthesized for secretion from the cell. The signal sequence facilitates the binding of ribosomes to the rough endoplasmic reticulum (RER) and directs the passage of the prepro-\u03b1 chain into the lumen of the RER. The signal sequence is rapidly cleaved in the lumen to yield a precursor of collagen called a pro-\u03b1 chain (see Fig. 4.7). 2."
+        },
+        {
+            "id": "InternalMed_Harrison_24716",
+            "title": "InternalMed_Harrison",
+            "content": "(Fig. 373e-3B) The intracellular assembly of class II molecules occurs within a specialized compartmentalized pathway that differs dramatically from the class I pathway described above. As illustrated in Fig. 373e-3B, the class II molecule assembles in the ER in association with a chaperone molecule, known as the invariant chain. The invariant chain performs at least two roles. First, it binds to the class II molecule and blocks the peptide-binding groove, thus preventing antigenic peptides from binding. This role of the invariant chain appears to account for one of the important differences between class I and class II MHC pathways, since it can explain why class I molecules present endogenous peptides from proteins newly synthesized in the ER but class II molecules generally do not. Second, the invariant chain contains molecular localization signals that direct the class II molecule to traffic into post-Golgi compartments known as endosomes, which develop into specialized acidic"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3735",
+            "title": "Cell_Biology_Alberts",
+            "content": "secreted proteins)? Proteins are delivered from the TGN to the plasma membrane by the constitutive pathway unless they are diverted into other pathways or retained in the Golgi apparatus. In polarized cells, the transport pathways from the TGN to the plasma membrane operate selectively to ensure that different sets of membrane proteins, secreted proteins, and lipids are delivered to the different domains of the plasma membrane. Which statements are true? Explain why or why not. 13\u20131 In all events involving fusion of a vesicle to a target membrane, the cytosolic leaflets of the vesicle and target bilayers always fuse together, as do the leaflets that are not in contact with the cytosol. 13\u20132 There is one strict requirement for the exit of a protein from the ER: it must be correctly folded."
+        },
+        {
+            "id": "Cell_Biology_Alberts_740",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the functions of the surprisingly large amount of unfolded polypeptide chain found in proteins? How many types of protein functions remain to be discovered? What are the most promising approaches for discovering them? When will scientists be able to take any amino acid sequence and accurately predict both that protein\u2019s three-dimensional conformations and its chemical properties? What breakthroughs will be needed to accomplish this important goal? Are there ways to reveal the detailed workings of a protein machine that do not require the purification of each of its component parts in large amounts, so that the machine\u2019s functions can be reconstituted and dissected using chemical techniques in a test tube? What are the roles of the dozens of different types of covalent modifications of proteins that have been found in addition to those listed in Table 3\u20133? Which ones are critical for cell function and why?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3255",
+            "title": "Cell_Biology_Alberts",
+            "content": "Proteins imported into mitochondria are usually taken up from the cytosol within seconds or minutes of their release from ribosomes. Thus, in contrast to protein translocation into the ER, which often takes place simultaneously with translation by a ribosome docked on the rough ER membrane (described later), mitochondrial proteins are first fully synthesized as mitochondrial precursor proteins in the cytosol and then translocated into mitochondria by a post-translational mechanism. One or more signal sequences direct all mitochondrial precursor proteins to their appropriate mitochondrial subcompartment. Many proteins entering the matrix space contain a signal sequence at their N-terminus that a signal peptidase rapidly removes after import. Other imported proteins, including all outer membrane and many inner membrane and intermembrane space proteins, have internal signal sequences that are not removed. The signal sequences are both necessary and sufficient for the import and correct"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3369",
+            "title": "Cell_Biology_Alberts",
+            "content": "long thought that these proteins are released from the ribosome and the hydrophobic C-terminal tail spontaneously partitions into the ER membrane. Such a mechanism could not explain, however, why ER tail-anchored proteins insert into the ER membrane selectively and not also into all other membranes in the cell. It is now clear that a specialized targeting machinery is involved that is fueled by ATP hydrolysis (Figure 12\u201346). Although the components and details differ, this post-translational targeting mechanism is conceptually similar to SRP-dependent protein targeting (see Figure 12\u201337)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6698",
+            "title": "Cell_Biology_Alberts",
+            "content": "There are important differences between the class I and class II MHC proteins with regard to the cell types that express them and the origin of the peptides in their peptide-binding grooves. Almost all of our nucleated cells express class I proteins. Their peptide-binding groove displays one of a diverse collection of peptides (typically 8\u201310 amino acids in length). In a healthy cell, the peptides originate from the cell\u2019s own cytosolic and nuclear proteins that have undergone partial degradation in proteasomes in the processes of normal protein turnover and quality control mechanisms. Some of the peptide fragments produced in this way are actively transported into the lumen of the endoplasmic reticulum (ER), through a specialized transporter in the ER membrane, where they are loaded onto newly synthesized class I MHC \u03b1 chains; once a peptide binds, the \u03b1 chain can assemble with its partner chain. The resulting self-peptide\u2013MHC complex is then transported through the Golgi apparatus"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3370",
+            "title": "Cell_Biology_Alberts",
+            "content": "Not all tail-anchored proteins are inserted into the ER, however. Some proteins contain a C-terminal membrane anchor that contains additional sorting information that directs the protein to mitochondria or peroxisomes. How these proteins are sorted there remains unknown. Translocated polypeptide Chains fold and assemble in the lumen of the rough er Many of the proteins in the lumen of the ER are in transit, en route to other destinations; others, however, normally reside there and are present at high concentrations. These ER resident proteins contain an ER retention signal of four amino acids at their C-terminus that is responsible for retaining the protein in the ER (see Table 12\u20133. p. 648; discussed in Chapter 13). Some of these proteins function as catalysts that help the many proteins that are translocated into the ER lumen to fold and assemble correctly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3358",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 12\u201342 How a single-pass transmembrane protein with a cleaved ER signal sequence is integrated into the ER membrane. in this protein, the co-translational translocation process is initiated by an n-terminal er signal sequence (red) that functions as a start-transfer signal, opening the translocator as in figure 12\u201335. in addition to this start-transfer sequence, however, the protein also contains a stop-transfer sequence (orange); when this sequence enters the translocator and interacts with a binding site within the pore, the translocator opens at the seam and discharges the protein laterally into the lipid bilayer, where the stop-transfer sequence remains to anchor the protein in the membrane. (in this figure and the two figures that follow, the ribosomes have been omitted for clarity.) (Figure 12\u201344). In more complex multipass proteins, in which many hydrophobic \u03b1 helices span the bilayer, a second start-transfer sequence reinitiates translocation further down the polypeptide"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1622",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once protein synthesis has been initiated, each new amino acid is added to the elongating chain in a cycle of reactions containing four major steps: tRNA binding (step 1), peptide bond formation (step 2), large subunit translocation (step 3), and small subunit translocation (step 4). As a result of the two translocation steps, the entire ribosome moves three nucleotides along the mRNA and is positioned to start the next cycle. Figure 6\u201364 illustrates this four-step process, beginning at a point at which three amino acids have already been linked together and there is a tRNA molecule in the P site on the ribosome, covalently joined to the C-terminal end of the short polypeptide. In step 1, a tRNA carrying the next amino acid in the chain binds to the ribosomal A site by forming base pairs with the mRNA codon positioned there, so that the P site and the A site contain adjacent bound tRNAs. In step 2, the carboxyl end of the polypeptide chain is released from the tRNA at the P site (by"
+        }
+    ],
+    "scores": [
+        0.03760824800428761,
+        0.03312775047833809,
+        0.028933928489766052,
+        0.02830356618048383,
+        0.025552865213882163,
+        0.02438727884280533,
+        0.023477506580521657,
+        0.02256896421656147,
+        0.022426657204669888,
+        0.022357013457556932,
+        0.021657856691063522,
+        0.021433921616184674,
+        0.02135737490799006,
+        0.021131431638678016,
+        0.01906318082788671,
+        0.01899189918991899,
+        0.01889290329258763,
+        0.01871774687308668,
+        0.016657638136511378,
+        0.016317169069462647,
+        0.016002016002016003,
+        0.015954415954415956,
+        0.01588177581555065,
+        0.015338122933059643,
+        0.015113777878410506,
+        0.015092920829304973,
+        0.014962978198272317,
+        0.014957264957264958,
+        0.01488095238095238,
+        0.014681295715778475,
+        0.014558022622538752,
+        0.01444906444906445
+    ],
+    "execution_time": 25.098101377487183
+}

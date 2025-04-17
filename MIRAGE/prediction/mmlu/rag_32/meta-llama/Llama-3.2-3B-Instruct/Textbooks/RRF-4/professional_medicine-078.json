@@ -1,0 +1,209 @@
+{
+    "id": "professional_medicine-078",
+    "question": "A new blood test to detect prostate cancer is evaluated in 300 male volunteers. A needle biopsy of the prostate gland is done on all men with serum prostate-specific antigen concentrations greater than 5 ng/mL (N<4). One hundred men undergo biopsy procedures; 90 are found to have prostate cancer, and five are found to have chronic prostatitis. Which of the following is necessary to calculate the sensitivity of this test?",
+    "options": {
+        "A": "Incidence of chronic prostatitis in the general population",
+        "B": "Number of men with test results greater than 5 ng/mL and a normal biopsy specimen",
+        "C": "Prevalence of chronic prostatitis in the general population",
+        "D": "Prostate biopsies of men with test results equal to or below 5 ng/mL"
+    },
+    "answer": "D",
+    "predict": "To calculate the sensitivity of the test, we need to determine the number of true positives (i.e., men with prostate cancer who test positive for prostate cancer) and the total number of men who actually have prostate cancer. Given information: * 100 men undergo biopsy procedures * 90 men are found to have prostate cancer * 5 men are found to have chronic prostatitis (not cancer) First, we need to calculate the number of men who actually have prostate cancer (true positives and those with chronic prostatitis, as they are not true positives): True positives = 90 (men with prostate cancer) Sensitivity = (True positives) / (True positives + False negatives) To calculate the false negatives, we need to know the total number of men who have prostate cancer. We can calculate this by subtracting the number of men with chronic prostatitis from the total number of men who underwent biopsy: Total men with prostate cancer = True positives + False negatives False negatives = Total men with prostate cancer - True positives False negatives = 100 - 90 = 10 Now, we can calculate the sensitivity: Sensitivity = (True positives) / (True positives + False negatives) = 90 / (90 + 10) = 90 / 100 = 0.9 However, this is not one of the options. We need to consider the option that directly involves the number of men with test results greater than 5 ng/mL and a normal biopsy specimen. To calculate the sensitivity, we can use the following formula: Sensitivity = (True positives) / (True positives + False negatives) = (Number of men with test results > 5 ng/mL and normal biopsy) / (Total men with test results > 5 ng/mL) Since we don't have the total number of men with test results > 5 ng/mL, we need to calculate it. We know that 100 men underwent biopsy procedures, and 90 have prostate cancer, and 5 have chronic prostatitis. Therefore, the number of men with test results > 5 ng/mL and normal biopsy is: Number of men with test results > 5 ng/mL and normal biopsy = True positives = 90 However, we also need to include the 5 men with chronic prostatitis who have test results > 5 ng/mL but are not true positives. Therefore, the total number of men with test results > 5 ng/mL is: Total men with test results > 5 ng/mL = True positives + Men with chronic prostatitis and test results > 5 ng/mL = 90 + 5 = 95 Now we can calculate the sensitivity: Sensitivity = (True positives) / (True positives + False negatives) = 90 / (90 + 5) = 90 / 95 = 0.947 However, none of the options exactly match this calculation. The closest match is option B, which involves the number of men with test results greater than 5 ng/mL and a normal biopsy specimen. Therefore, the answer is: {\"step_by_step_thinking\": \"To calculate the sensitivity of the test, we need to determine the number of true positives (men with prostate cancer who test positive) and the total number of men who actually have prostate cancer. We can calculate the number of false negatives by subtracting the number of true positives from the total number of men who underwent biopsy. The sensitivity is then calculated by dividing the number of true positives by the sum of true positives and false negatives. However, we can also use the number of men with test results greater than 5 ng/mL and a normal biopsy specimen to calculate the sensitivity. The closest match to this calculation is option B.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_7414",
+            "title": "InternalMed_Harrison",
+            "content": "The PSA criteria used to recommend a diagnostic prostate biopsy have evolved over time. However, based on the commonly used cut point for prostate biopsy (a total PSA \u22654 ng/mL), most men with a PSA elevation do not have histologic evidence of prostate cancer at biopsy. In addition, many men with PSA levels below this cut point harbor cancer cells in their prostate. Information from the PCPT demonstrates that there is no PSA below which the risk of prostate cancer is zero. Thus, the PSA level establishes the likelihood that a man will harbor cancer if he undergoes a prostate biopsy. The goal is to increase the sensitivity of the test for younger men more likely to die of the disease and to reduce the frequency of detecting cancers of low malignant potential in elderly men more likely to die of other causes. Patients with symptomatic prostatitis should have a course of antibiotics before biopsy. However, the routine use of antibiotics in an asymptomatic man with an elevated PSA level is"
+        },
+        {
+            "id": "InternalMed_Harrison_7411",
+            "title": "InternalMed_Harrison",
+            "content": "Psa-Based screening and early detection PSA testing was approved by the U.S. FDA in 1994 for early detection of prostate cancer, and the widespread use of the test has played a significant role in the proportion of men diagnosed with early-stage cancers: more than 70\u201380% of newly diagnosed cancers are clinically organ-confined. The level of PSA in blood is strongly associated with the risk and outcome of prostate cancer. A single PSA measured at age 60 is associated (area under the curve [AUC] of 0.90) with lifetime risk of death from prostate cancer. Most prostate cancer deaths (90%) occur among men with PSA levels in the top quartile (>2 ng/mL), although only a minority of men with PSA >2 ng/mL will develop lethal prostate cancer. Despite this and mortality rate reductions reported from large randomized prostate cancer screening trials, routine use of the test remains controversial."
+        },
+        {
+            "id": "Surgery_Schwartz_2237",
+            "title": "Surgery_Schwartz",
+            "content": "be elevated with more than one type of tumor. Since there may be significant laboratory variability, it is important to obtain serial results from the same laboratory. In spite of these many clinical limitations, several serum markers are in clinical use. A few of the commonly measured serum tumor markers are discussed in the following sections.Prostate-Specific Antigen. Prostate-specific antigen (PSA) is an androgen-regulated serine protease produced by the pros-tate epithelium. PSA is normally present in low concentrations in the blood of all adult males. PSA levels may be elevated in the blood of men with benign prostate conditions such as pros-tatitis and benign prostatic hyperplasia, as well as in men with prostate cancer. PSA levels have been shown to be useful in evaluating the effectiveness of prostate cancer treatment and monitoring for recurrence after therapy. In monitoring for recur-rence, a trend of increasing levels is considered more significant than a single absolute"
+        },
+        {
+            "id": "InternalMed_Harrison_27460",
+            "title": "InternalMed_Harrison",
+            "content": "Prostate-specific antigen (PSA) levels are lower in testosterone-deficient men and are restored to normal after testosterone replacement. There is considerable test-retest variability in PSA measurements. Increments in PSA levels after testosterone supplementation in androgen-deficient men are generally <0.5 ng/mL, and increments >1.0 ng/mL over a 3to 6-month period are unusual. The 90% confidence interval for the change in PSA values in men with benign prostatic hypertrophy, measured 3\u20136 months apart, is 1.4 ng/mL. Therefore, the Endocrine Society expert panel suggested that an increase in PSA >1.4 ng/mL in any 1 year after starting testosterone therapy, if confirmed, should lead to urologic evaluation. PSA velocity criterion can be used for patients who have sequential PSA measurements for >2 years; a change of >0.40 ng/mL per year merits closer urologic follow-up."
+        },
+        {
+            "id": "Histology_Ross_3805",
+            "title": "Histology_Ross",
+            "content": "\u0081 Prostate-specifc antigen (PSA), a 33-kilodalton serine protease, is one of the most clinically important tumor markers. In normal conditions, PSA is secreted into prostatic gland alveoli and ultimately incorporated into seminal fluid. The alveolar secretion from the prostate gland is pumped into the prostatic urethra during ejaculation by contraction of the fibromuscular tissue of the prostate. Because PSA is predominately released into prostatic secretion, only a very small amount of PSA (usually below 4 ng/mL) is circulating in the blood of a healthy individual. However, in prostate cancer, serum concentration of PSA increases; large amounts of PSA are produced and misdirected into the circulation by the transformed prostatic epithelium. Therefore, the elevated levels of PSA are directly related to increased activity of the prostatic cancer cells. A PSA level between 4 and 10 ng/mL suggests about 25% percent cancer risk; levels above 10 ng/mL suggest a risk greater than 67%. An"
+        },
+        {
+            "id": "Pathology_Robbins_4180",
+            "title": "Pathology_Robbins",
+            "content": "The PSA assay is the most widely used test in the diagnosis and management of prostate cancer, but it suffers from a number of limitations. PSA is a product of prostatic epithelium and is normally secreted in the semen. Although PSA screening can detect prostate cancers early in their course, studies of the natural history of the disease (so-called \u201cwatch-and-wait studies\u201d) have confirmed that many prostate cancers are clinically insignificant, requiring no treatment, sometimes for decades. Overtreatment of these indolent cancers can cause significant morbidity, particularly erectile dysfunction and incontinence. A second limitation of PSA as a biomarker is that it is not cancer-specific. BPH, prostatitis, prostatic infarcts, instrumentation of the prostate, and ejaculation all may increase serum PSA levels. Conversely, 20% to 40% of patients with organ-confined prostate cancer have PSA values below the cutoffs that are used to identify patients who are likely to have prostate cancer."
+        },
+        {
+            "id": "Anatomy_Gray_1220",
+            "title": "Anatomy_Gray",
+            "content": "In the clinic Prostate cancer is one of the most commonly diagnosed malignancies in men, and often the disease is advanced at diagnosis. Prostate cancer typically occurs in the peripheral zone of the prostate (see Fig. 5.48) and is relatively asymptomatic. In many cases, it is diagnosed by a digital rectal examination (DRE) (Fig. 5.49A) and by blood tests, which include serum acid phosphatase and serum prostate-specific antigen (PSA). In rectal exams, the tumorous prostate feels \u201crock\u201d hard. The diagnosis is usually made by obtaining a number of biopsies of the prostate. Ultrasound is used during the biopsy procedure to image the prostate for the purpose of taking measurements and for needle placement. Ultrasound can also be used to aid planning radiotherapy by placing special metal markers, called fiducials, under direct ultrasound guidance, through the rectal wall into or near the tumor. This allows maximization of the radiation dose to the tumor while protecting healthy tissue."
+        },
+        {
+            "id": "Pathology_Robbins_1450",
+            "title": "Pathology_Robbins",
+            "content": "Biochemical assays for tumor-associated enzymes, hormones, and other tumor markers in the blood cannot be utilized for definitive diagnosis of cancer; however, they are used with varying success as screening tests and have utility in monitoring the response to therapy or detecting disease recurrence. The application of these assays is considered with many of the specific forms of neoplasia discussed in other chapters, so only a few examples suffice here. PSA, used to screen for prostatic adenocarcinoma, is one of the most frequently used tumor markers in clinical practice. Prostatic carcinoma can be suspected when elevated levels of PSA are found in the blood. However, PSA screening also highlights problems encountered with use of virtually every tumor marker. Although PSA levels often are elevated in cancer, PSA levels also may be elevated in benign prostatic hyperplasia (Chapter 18). Furthermore, there is no PSA level that ensures that a patient does not have prostate cancer. Thus,"
+        },
+        {
+            "id": "Histology_Ross_3801",
+            "title": "Histology_Ross",
+            "content": "The incidence of prostatic cancer increases with age, and it is estimated that 70% of men be-tween the ages of 70 and 80 will develop this disease. Tumors usually develop in the peripheral zone of the gland. In the past, early detection was uncommon, because the ab-normal growth of the tumor did not impinge on the urethra to produce symptoms that demanded prompt attention. There-fore, prostatic cancer was often inoperable by the time it was discovered. However, beginning in the late 1980s, the introduction of prostate-specific antigen (PSA) testing for aabba b FIGURE F22.4.1 \u2022 Benign prostatic hyperplasia (BPH) a. This photograph shows a horizontal section through the prostate gland from an individual with BPH. The cut section shows numerous well-defined nodules that compress prostatic urethra (marked with paper clip). b. Photomicrograph of prostatic glands shows the hypertrophy of epithelium lining the glands. Note that the cells form folds that protrude into the lumen of the glands."
+        },
+        {
+            "id": "InternalMed_Harrison_7408",
+            "title": "InternalMed_Harrison",
+            "content": "SCREENING AND DIAGNOSIS Physical Examination The need to pursue a diagnosis of prostate cancer is based on symptoms, an abnormal DRE, or, more typically, a change in or an elevated serum PSA. The urologic history should focus on symptoms of outlet obstruction, continence, potency, or change in ejaculatory pattern. The DRE focuses on prostate size and consistency and abnormalities within or beyond the gland. Many cancers occur in the peripheral zone and may be palpated on DRE. Carcinomas are characteristically hard, nodular, and irregular, while induration may also be due to benign prostatic hypertrophy (BPH) or calculi. Overall, 20\u201325% of men with an abnormal DRE have cancer. No Cancer Diagnosis Clinically Localized Disease Rising PSA: No Visible Metastases: Non-Castrate Rising PSA: No Visible Metastases: Castrate Clinical Metastases: Non-Castrate Death from cancer exceeds death from other causes FIGURE 115-1 Clinical states of prostate cancer. PSA, prostate-specific antigen."
+        },
+        {
+            "id": "Pathoma_Husain_375",
+            "title": "Pathoma_Husain",
+            "content": "V. PROSTATE ADENOCARCINOMA A. Malignant proliferation of prostatic glands B. Most common cancer in men; 2nd most common cause of cancer-related death C. Risk factors include age, race (African Americans > Caucasians > Asians), and diet high in saturated fats . D. Prostatic carcinoma is most often clinically silent. 1. Usually arises in the peripheral, posterior region of the prostate and, hence, does not produce urinary symptoms early on (Fig. 14.llA) 2. Screening begins at the age of 50 years with DRE and PSA. i. Normal serum PSA increases with age due to BPH (2.5 ng/mL for ages 40-49 years vs. 7.5 ng/mL for ages 70-79 years) ii. PSA > 10 ng/mL is highly worrisome at any age. iii. Decreased% free-PSA is suggestive of cancer (cancer makes bound PSA). E. Prostatic biopsy is required to confirm the presence of carcinoma. 1. Shows small, invasive glands with prominent nucleoli (Fig. 14.llB) 2. Gleason grading system is based on architecture alone (and not nuclear atypia)."
+        },
+        {
+            "id": "Histology_Ross_3806",
+            "title": "Histology_Ross",
+            "content": "related to increased activity of the prostatic cancer cells. A PSA level between 4 and 10 ng/mL suggests about 25% percent cancer risk; levels above 10 ng/mL suggest a risk greater than 67%. An increased PSA serum level is used as marker for the presence and progression of the disease. Recently, it has become widely accepted that small amounts of PSA are also present in many nonprostatic tissues, including breast, ovary, salivary gland, and liver tissue, and in various tumors. It is also important to mention that high circulating levels of PSA can be associated with benign (noncancerous) conditions such as prostatitis (infection of the prostate gland), interrupted blood fow to the prostate, or BPH."
+        },
+        {
+            "id": "First_Aid_Step2_1155",
+            "title": "First_Aid_Step2",
+            "content": "BPH most commonly occurs in the central (periurethral) zone of the prostate and may not be detected on DRE. The major side effect of \u03b1-blockers is orthostatic hypotension. Leading causes of cancer death in men: 1. Lung cancer 2. Prostate cancer 3. Colorectal cancer 4. Pancreatic cancer 5. Leukemia An elevated PSA may be due to BPH, prostatitis, UTI, prostatic trauma, or carcinoma. An annual DRE after age 50 is the recommended screening method for prostate cancer. Suggested by clinical findings and/or a markedly \u2191PSA (> 4 ng/mL). Definitive diagnosis is made with ultrasound-guided transrectal biopsy, which typically shows adenocarcinoma. Tumors are graded by the Gleason histologic system, which sums the scores (from 1 to 5) of the two most dysplastic samples (10 is the highest grade). Look for metastases with CXR and bone scan (metastatic lesions show an osteoblastic or \u2191 bone density). Fully 40% of patients present with metastatic disease at diagnosis."
+        },
+        {
+            "id": "Pathology_Robbins_4177",
+            "title": "Pathology_Robbins",
+            "content": "In the United States, most prostate cancers are small, nonpalpable, asymptomatic lesions discovered on needle biopsy performed to investigate an elevated serum prostate-specific antigen (PSA) level (discussed later). Some 70% to 80% of prostate cancers arise in the outer (peripheral) glands, and a subset of these may be palpable as irregular hard nodules on digital rectal examination. A minority of carcinomas is discovered unexpectedly during histologic examination of prostate tissue removed by trans-urethral resection for BPH. Because of the peripheral location, prostate cancer is less likely than BPH to cause urethral obstruction in its initial stages. Locally advanced cancers often infiltrate the seminal vesicles and periurethral zones of the prostate and may invade the adjacent soft tissues, the wall of the urinary bladder, or (less commonly) the rectum. Bone metastases, particularly to the axial skeleton, are frequent late in the disease and typically cause osteoblastic"
+        },
+        {
+            "id": "InternalMed_Harrison_6010",
+            "title": "InternalMed_Harrison",
+            "content": "Prostate cancer The most common prostate cancer screening modalities are DRE and serum PSA assay. An emphasis on PSA screening has caused prostate cancer to become the most common nonskin cancer diagnosed in American males. This disease is prone to lead-time bias, length bias, and overdiagnosis, and substantial debate continues among experts as to whether screening should be offered unless the patient specifically asks to be screened. Virtually all organizations stress the importance of informing men about the uncertainty regarding screening efficacy and the harms associated with screening. Prostate cancer screening clearly detects many asymptomatic cancers, but the ability to distinguish tumors that are lethal but still curable from those that pose little or no threat to health is limited, and randomized trials indicate that the effect of PSA screening on prostate cancer mortality across a population is, at best, small. Men older than age 50 years have a high prevalence of indolent,"
+        },
+        {
+            "id": "InternalMed_Harrison_27459",
+            "title": "InternalMed_Harrison",
+            "content": "proState and Serum proState-Specific antiGen levelS Testosterone replacement therapy increases prostate volume to the size seen in age-matched controls but does not increase prostate volume beyond that expected for age. There is no evidence that testosterone therapy causes prostate cancer. However, androgen administration can exacerbate preexisting metastatic prostate cancer. Many older men harbor microscopic foci of cancer in their prostates. It is not known whether long-term testosterone administration will induce these microscopic foci to grow into clinically significant cancers."
+        },
+        {
+            "id": "InternalMed_Harrison_6013",
+            "title": "InternalMed_Harrison",
+            "content": "The European Randomized Study of Screening for Prostate Cancer (ERSPC) was a multinational study that randomized approximately 182,000 men between age 50 and 74 years (with a predefined \u201ccore\u201d screening group of men age 55\u201369 years) to receive PSA testing or no screening. Recruitment and randomization procedures, as well as actual frequency of PSA testing, varied by country. After a median follow-up of 11 years, a 20% relative reduction in the risk of prostate cancer death in the screened arm was noted in the \u201ccore\u201d screening group. The trial found that 1055 men would need to be invited to screening, and 37 cases of prostate cancer detected, to avert 1 death from prostate cancer. Of the seven countries included in the mortality analysis, two demonstrated statistically significant reductions in prostate cancer deaths, whereas five did not. There was also an imbalance in treatment between the two study arms, with a higher proportion of men with clinically localized cancer receiving"
+        },
+        {
+            "id": "Surgery_Schwartz_11735",
+            "title": "Surgery_Schwartz",
+            "content": "the introduction of pros-tate cancer screening in the mid-1980s, the incidence of meta-static prostate cancer has decreased by half. Currently 99% of newly diagnosed patients will survive more than 10 years.91While early screening for African American patients or patients with a family history of prostate cancer is widely accepted, screening for all men is more controversial. Despite data from large randomized clinical trials showing a decrease in mortality after prostate cancer screening, the U.S. Preventive Services Task Force recommended against the routine use of prostate cancer screening.129 Its recommendation was based on the harm and toxicity of overtreatment of nonlethal disease.130 The American Urologic Association subsequently recom-mended informed and shared decision-making and screening for high-risk disease for men between the ages of 55 and 69 with a life expectancy more than 10 years.131If the digital rectal examination is abnormal or if the PSA level is above expected"
+        },
+        {
+            "id": "InternalMed_Harrison_7441",
+            "title": "InternalMed_Harrison",
+            "content": "Active Surveillance Although prostate cancer is the most common form of cancer affecting men in the United States, patients are being diagnosed earlier and more frequently present with early-stage disease. Active surveillance, described previously as watchful waiting or deferred therapy, is the policy of monitoring the illness at fixed intervals with DREs, PSA measurements, and repeat prostate biopsies as indicated until histopathologic or serologic changes correlative of progression warrant treatment with curative intent. It evolved from studies that evaluated predominantly elderly men with well-differentiated tumors who demonstrated no clinically significant progression for protracted periods, recognition of the contrast between incidence and disease-specific mortality, the high prevalence of autopsy cancers, and an effort to reduce overtreatment. A recent screening study estimated that between 50\u2013100 men with low-risk disease would need to be treated to prevent one prostate"
+        },
+        {
+            "id": "InternalMed_Harrison_32559",
+            "title": "InternalMed_Harrison",
+            "content": "Another reason for ordering clinical laboratory tests is to screen for disease in asymptomatic individuals (Chap. 4). Perhaps the most common examples of this application are the newborn screening programs now routinely used in most developed countries. Their purpose is to identify newborns with treatable conditions for which early intervention\u2014even before clinical symptoms develop\u2014is known to be beneficial. In adults, screening tests for diabetes mellitus, renal disease, prostate cancer (measurement of serum prostate-specific antigen [PSA] levels), and colorectal cancer (testing for occult blood in stool), for example, are widely applied to apparently healthy individuals on the grounds that early diagnosis and intervention lead to improved long-term outcomes."
+        },
+        {
+            "id": "InternalMed_Harrison_27449",
+            "title": "InternalMed_Harrison",
+            "content": "Contraindications for Androgen Administration Testosterone administration is contraindicated in men with a history of prostate or breast cancer (Table 411-4). Testosterone therapy should not be administered without further urologic evaluation to men with a palpable prostate nodule or induration; to men with prostate-specific antigen levels >4 ng/mL or >3 ng/mL in men at high risk for prostate cancer such as African Americans or men with first-degree relatives with prostate cancer; or to men with severe lower urinary tract symptoms (American Urological Association lower urinary tract symptom score >19). Testosterone replacement should not be administered to men with baseline hematocrit \u226550%, severe untreated obstructive sleep apnea, uncontrolled or poorly controlled congestive heart failure, or myocardial infarction, stroke, or acute coronary syndrome in the preceding 6 months."
+        },
+        {
+            "id": "InternalMed_Harrison_10711",
+            "title": "InternalMed_Harrison",
+            "content": "Cystitis in Men The signs and symptoms of cystitis in men are similar to those in women, but this disease differs in several important ways in the male population. Collection of urine for culture is strongly recommended when a man has symptoms of UTI, as the documentation of bacteriuria can differentiate the less common syndromes of acute and chronic bacterial prostatitis from the very common entity of chronic pelvic pain syndrome, which is not associated with bacteriuria and thus is not usually responsive to antibacterial therapy. If the diagnosis is unclear, localization cultures using the twoor four-glass Meares-Stamey test (urine collection after prostate massage) should be undertaken to differentiate between bacterial and nonbacterial prostatic syndromes, and the patient should be referred to a urologist. Men with febrile UTI often have an elevated serum level of prostate-specific antigen as well as an enlarged prostate and enlarged seminal vesicles on ultrasound\u2014findings"
+        },
+        {
+            "id": "InternalMed_Harrison_7409",
+            "title": "InternalMed_Harrison",
+            "content": "Prostate-Specific Antigen PSA (kallikrein-related peptidase 3; KLK3) is a kallikrein-related serine protease that causes liquefaction of seminal coagulum. It is produced by both nonmalignant and malignant epithelial cells and, as such, is prostate-specific, not prostate cancer\u2013specific. Serum levels may also increase from prostatitis and BPH. Serum levels are not significantly affected by DRE, but the performance of a prostate biopsy can increase PSA levels up to tenfold for 8\u201310 weeks. PSA circulating in the blood is inactive and mainly occurs as a complex with the protease inhibitor \u03b11-antichymotrypsin and as free (unbound) PSA forms. The formation of complexes between PSA, \u03b12-macroglobulin, or other protease inhibitors is less significant. Free PSA is rapidly eliminated from the blood by glomerular filtration with an estimated half-life of 12\u201318 h. Elimination of PSA bound to \u03b11-antichymotrypsin is slow (estimated half-life of 1\u20132 weeks) because it too is largely cleared by the"
+        },
+        {
+            "id": "InternalMed_Harrison_7435",
+            "title": "InternalMed_Harrison",
+            "content": "Cancer control after radiation therapy has been defined by various criteria, including a decline in PSA to <0.5 or 1 ng/mL, \u201cnonrising\u201d PSA values, and a negative biopsy of the prostate 2 years after completion of treatment. The current standard definition of biochemical failure (the Phoenix definition) is a rise in PSA by \u22652 ng/mL higher than the lowest PSA achieved. The date of failure is \u201cat call\u201d and not backdated. Radiation dose is critical to the eradication of prostate cancer. In a representative study, a PSA nadir of <1.0 ng/mL was achieved in 90% of patients receiving 75.6 or 81.0 Gy versus 76% and 56% of those receiving 70.2 and 64.8 Gy, respectively. Positive biopsy rates at 2.5 years were 4% for those treated with 81 Gy versus 27% and 36% for those receiving 75.6 and 70.2 Gy, respectively."
+        },
+        {
+            "id": "Pathology_Robbins_1451",
+            "title": "Pathology_Robbins",
+            "content": "elevated in cancer, PSA levels also may be elevated in benign prostatic hyperplasia (Chapter 18). Furthermore, there is no PSA level that ensures that a patient does not have prostate cancer. Thus, the PSA test suffers from both low sensitivity and low specificity, and its use as a screening tool has become quite controversial. The PSA assay is extremely valuable, however, for detecting residual disease or recurrence following treatment for prostate cancer. Other tumor markers used in clinical practice include carcinoembryonic antigen (CEA), which is elaborated by carcinomas of the colon, pancreas, stomach, and breast, and alpha fetoprotein (AFP), which is produced by hepatocellular carcinomas, yolk sac remnants in the gonads, and occasionally teratocarcinomas and embryonal cell carcinomas. Like PSA, CEA and AFP can be elevated in a variety of non-neoplastic conditions and thus also lack the specificity and sensitivity required for the early detection of cancers, but they may be"
+        },
+        {
+            "id": "InternalMed_Harrison_6012",
+            "title": "InternalMed_Harrison",
+            "content": "Two major randomized controlled trials of the impact of PSA screening on prostate cancer mortality have been published. The PLCO Cancer Screening Trial was a multicenter U.S. trial that randomized almost 77,000 men age 55\u201374 years to receive either annual PSA testing for 6 years or usual care. At 13 years of follow-up, no statistically significant difference in the number of prostate cancer deaths were noted between the arms (rate ratio 1.09; 95% confidence interval 0.87\u20131.36). Approximately 50% of men in the control arm received at least one PSA test during the trial, which may have potentially diluted a small effect."
+        },
+        {
+            "id": "Neurology_Adams_1568",
+            "title": "Neurology_Adams",
+            "content": "Depending on the circumstances, these may include a blood count, the acute phase reactants, erythrocyte sedimentation rate and C-reactive protein (especially helpful in screening for spinal osteomyelitis, epidural abscess, or myeloma). Other useful blood tests are calcium, alkaline phosphatase, and prostate-specific antigen (if one suspects metastatic carcinoma of the prostate); serum protein immunoelectrophoresis (myeloma proteins); in special cases, a tuberculin test or serologic test for Brucella; a test for rheumatoid factor; and human leukocyte antigen (HLA) typing (for ankylosing spondylitis), all in the appropriate settings."
+        },
+        {
+            "id": "InternalMed_Harrison_5998",
+            "title": "InternalMed_Harrison",
+            "content": "Prevention and Early Detection of Cancer Skin Complete skin examination by clinician or patient Men, all ages: \u201cD\u201d Starting at age 50, men should talk to a doctor about the pros and cons of testing so they can decide if testing is the right choice for them. If African American or have a father or brother who had prostate cancer before age 65, men should have this talk starting at age 45. How often they are tested will depend on their PSA level. As for PSA; if men decide to be tested, they should have the PSA blood test with or without a rectal exam"
+        },
+        {
+            "id": "First_Aid_Step2_1154",
+            "title": "First_Aid_Step2",
+            "content": "Transurethral resection of the prostate (TURP) or open prostatectomy is appropriate for patients with moderate to severe symptoms. The most common cancer in men and the second leading cause of cancer death in men (after lung cancer). Risk factors include advanced age and a family history. Usually asymptomatic, but may present with obstructive urinary symptoms (e.g., urinary retention, a \u2193 in the force of the urine stream) as well as with lymphedema due to obstructing metastases, constitutional symptoms, and back pain due to bone metastases. DRE may reveal a palpable nodule or an area of induration. Early carcinoma is usually not detectable on exam. A tender prostate suggests prostatitis. What drugs are an absolute contraindication to sildenaf l? Nitrates (the combined effect of \u2193 BP can lead to myocardial ischemia). BPH most commonly occurs in the central (periurethral) zone of the prostate and may not be detected on DRE."
+        },
+        {
+            "id": "InternalMed_Harrison_7398",
+            "title": "InternalMed_Harrison",
+            "content": "In 2013, approximately 238,590 prostate cancer cases were diagnosed, and 29,720 men died from prostate cancer in the United States. The absolute number of prostate cancer deaths has decreased in the past 5 years, which has been attributed by some to the widespread use of PSA-based detection strategies. However, the benefit of screening on survival is unclear. The paradox of management is that although 1 in 6 men will eventually be diagnosed with the disease, and the disease remains the second leading cause of cancer deaths in men, only 1 man in 30 with prostate cancer will die of his disease."
+        },
+        {
+            "id": "Surgery_Schwartz_2239",
+            "title": "Surgery_Schwartz",
+            "content": "Cancer Society updated its guidelines for the early detection of prostate cancer to state that men who have at least a 10-year life expectancy should have an opportunity to make an informed decision with their health care provider about whether to be screened for prostate cancer with digital rectal exam and serum PSA, after receiving information about the benefits, risks, and uncertainties associated with pros-tate cancer screening118; this recommendation was reinforced in their most recent guidelines.96Carcinoembryonic Antigen. Carcinoembryonic antigen (CEA) is a glycoprotein found in the embryonic endodermal epithelium. Elevated CEA levels have been detected in patients with primary colorectal cancer as well as in patients with breast, lung, ovarian, prostate, liver, and pancreatic cancer. Levels of CEA also may be elevated in benign conditions, including diverticulitis, peptic ulcer disease, bronchitis, liver abscess, and alcoholic cirrhosis, especially in smokers and in elderly"
+        },
+        {
+            "id": "Surgery_Schwartz_11734",
+            "title": "Surgery_Schwartz",
+            "content": "performed, the thoracoabdominal approach involves access usually above the 10th rib and is used for large upper pole or adrenal masses, IVC thrombectomy, or tumors involving adjacent structures. Complications include injury to adjacent organs, and for partial nephrectomy, pseudoaneurysms/arteriovenous fistula formation and delayed urinary leak.Brunicardi_Ch40_p1759-p1782.indd 177301/03/19 6:35 PM 1774SPECIFIC CONSIDERATIONSPART IIProstate CancerProstate cancer is the most common noncutaneous cancer in men; 164,690 new cases of prostate cancer were diagnosed in 2018 and 29,430 men died from their disease.91 Screening for prostate cancer with detailed history, digital rectal examination, and serum prostate specific antigen (PSA) tests have changed the natural history of the disease. Since the introduction of pros-tate cancer screening in the mid-1980s, the incidence of meta-static prostate cancer has decreased by half. Currently 99% of newly diagnosed patients will survive more than"
+        }
+    ],
+    "scores": [
+        0.038552527819153595,
+        0.03807278527476341,
+        0.037592952109951575,
+        0.037327024827024824,
+        0.03528902620832953,
+        0.03528645114651752,
+        0.03435000038029149,
+        0.034279849805866014,
+        0.03351767907714466,
+        0.032580045266113675,
+        0.031691037475093636,
+        0.03168845301210154,
+        0.029477955168139218,
+        0.02914695616384172,
+        0.02792819956180024,
+        0.027883669975693873,
+        0.02686951646169998,
+        0.02431137540666043,
+        0.023610661020732962,
+        0.0233440232397607,
+        0.02326009386291335,
+        0.023077750874361043,
+        0.022982308712958865,
+        0.02289902410432744,
+        0.022625566642640222,
+        0.02179365502681166,
+        0.021572791316951494,
+        0.02136477074051097,
+        0.02098356929268694,
+        0.020765422798745548,
+        0.020572304409436512,
+        0.020477844391921754
+    ],
+    "execution_time": 27.649364233016968
+}

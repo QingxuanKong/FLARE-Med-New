@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-058",
+    "question": "Regarding exons, which, if any, of the following statements is correct?",
+    "options": {
+        "A": "Some exons in protein-coding genes consist of noncoding DNA.",
+        "B": "The first exon of a protein-coding gene always contains the translational start site.",
+        "C": "The last exon of a protein-coding gene always contains the normal termination codon.",
+        "D": "A coding exon is always translated in just one of the three possible forward reading frames."
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to analyze each option and determine its accuracy based on the provided documents.\\n\\nOption A: Some exons in protein-coding genes consist of noncoding DNA.\\nThis statement is true. According to Document [9], most of the remaining sequence in a gene consists of long stretches of noncoding DNA that interrupt the relatively short segments of DNA that code for protein.\\n\\nOption B: The first exon of a protein-coding gene always contains the translational start site.\\nThis statement is false. Document [9] states that the actual chemistry of splicing can take place later, and the actual chemistry of splicing can begin on an RNA molecule while it is still being elongated by RNA polymerase at its 3\u2019 end. This means that the first exon may not always contain the translational start site.\\n\\nOption C: The last exon of a protein-coding gene always contains the normal termination codon.\\nThis statement is false. Document [9] states that the majority of human genes thus consist of a long string of alternating exons and introns, with most of the gene consisting of introns. This suggests that the last exon may not always contain the normal termination codon.\\n\\nOption D: A coding exon is always translated in just one of the three possible forward reading frames.\\nThis statement is false. Document [9] states that the actual chemistry of splicing can take place later, and the actual chemistry of splicing can begin on an RNA molecule while it is still being elongated by RNA polymerase at its 3\u2019 end. This means that the translation can start from different exons, and therefore, a coding exon is not always translated in just one of the three possible forward reading frames.\\n\\nTherefore, the correct answer is:\\n\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1745",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) Splicing patterns for four \u03b1-tropomyosin mRNAs. Splicing is indicated by lines connecting the exons that are included in the mRNA. 6\u20138 The human \u03b1-tropomyosin gene is alternatively spliced to produce different forms of \u03b1-tropomyosin mRNA in different cell types (Figure Q6\u20133). For all forms of the mRNA, the protein sequences encoded by exon 1 are the same, as are the protein sequences encoded by exon 10. Exons 2 and 3 are alternative exons used in different mRNAs, as are exons 7 and 8. Which of the following statements about exons 2 and 3 is the most accurate? Is that statement also the most accurate one for exons 7 and 8? Explain your answers. A. Exons 2 and 3 must have the same number of nucleotides. b. Exons 2 and 3 must each contain an integral number of codons (that is, the number of nucleotides divided by 3 must be an integer). C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1554",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Exon 1 will be too short. B. Exon 1 will be too long. C. Exon 2 will be too short. D. Exon 2 will be too long. E. Exon 2 will be missing. Correct answer = D. Because the mutation creates an additional splice-acceptor site (the 3\u2032-end) upstream of the normal acceptor site of intron 1, the 19 nucleotides that are usually found at the 3\u2032-end of the excised intron 1 lariat can remain behind as part of exon 2. The presence of these extra nucleotides in the coding region of the mutant messenger RNA (mRNA) molecule will prevent the ribosome from translating the message into a normal \u03b2-globin protein molecule. Those mRNA for which the normal splice site is used to remove the first intron will be normal, and their translation will produce normal \u03b2-globin protein."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1553",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. 1.1. An 8-month-old male with severe anemia is found to have \u03b2-thalassemia. Genetic analysis shows that one of his \u03b2-globin genes has a mutation that creates a new splice-acceptor site 19 nucleotides upstream of the normal splice-acceptor site of the first intron. Which of the following best describes the new messenger RNA molecule that can be produced from this mutant gene? A. Exon 1 will be too short. B. Exon 1 will be too long. C. Exon 2 will be too short. D. Exon 2 will be too long. E. Exon 2 will be missing."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1905",
+            "title": "Biochemistry_Lippinco",
+            "content": "Case-Related Questions: Choose the ONE best answer. Q1. Mutations to the gene for \u03b2 globin that result in decreased production of the protein are the cause of \u03b2-thalassemia. The mutations primarily affect gene transcription or posttranscriptional processing of the messenger RNA (mRNA) product. Which of the following statements concerning mRNA is correct? A. Eukaryotic mRNA is polycistronic. B. mRNA synthesis involves trans-acting factors binding to cis-acting elements. C. mRNA synthesis is terminated at the DNA base sequence thymine adenine guanine (TAG). D. Polyadenylation of the 5\u2032-end of eukaryotic mRNA requires a methyl donor."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1520",
+            "title": "Cell_Biology_Alberts",
+            "content": "In principle, since any one of several different codons can be used to code for a given amino acid, there is freedom to evolve the exon nucleotide sequence so as to form a binding site for an SR protein, without necessarily affecting the amino acid sequence that the exon specifies. Both the marking of exon and intron boundaries and the assembly of the spli ceosome begin on an RNA molecule while it is still being elongated by RNA poly merase at its 3\u02b9 end. However, the actual chemistry of splicing can take place later. This delay means that intron sequences are not necessarily removed from a pre mRNA molecule in the order in which they occur along the RNA chain. Figure 6\u201330 Two types of splicing errors. (A) Exon skipping. (B) Cryptic splice-site selection. Cryptic splicing signals are nucleotide sequences of RNA that closely resemble true splicing signals and are sometimes mistakenly used by the spliceosome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1083",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other sequence comparisons show that a great deal of the genetic complexity of present-day organisms is due to the expansion of ancient gene families. DNA duplication followed by sequence divergence has clearly been a major source of genetic novelty during evolution. On a more recent time scale, the genomes of any two humans will differ from each other both because of nucleotide substitutions (single-nucleotide polymorphisms, or SNPs) and because of inherited DNA gains and DNA losses that cause copy number variations (CNVs). Understanding the effects of these differences will improve both medicine and our understanding of human biology. Which statements are true? explain why or why not. How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1746",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2). 6\u20139 After treating cells with a chemical mutagen, you isolate two mutants. One carries alanine and the other carries methionine at a site in the protein that normally contains valine (Figure Q6\u20134). After treating these two mutants again with the mutagen, you isolate mutants from each that now carry threonine at the site of the original valine (Figure Q6\u20134). Assuming that all mutations involve single-nucleotide changes, deduce the codons that are used for valine, methionine, threonine, and alanine at the affected site. Would you expect to be able to isolate valineto-threonine mutants in one step? 6\u201310 Which of the following mutational changes would you predict to be the most deleterious to gene function? Explain your answers."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1919",
+            "title": "Biochemistry_Lippinco",
+            "content": "Case-Related Questions: Choose the ONE best answer. Q1. Which of the following statements about DNA repair mechanisms is correct? DNA repair: A. is performed only by eukaryotes. B. of double-strand breaks is error free. C. of mismatched bases involves repair of the parental strand. D. of UV radiation\u2013induced pyrimidine dimers involves removal of a short oligonucleotide containing the dimer. E. of uracil produced by the deamination of cytosine requires the actions of endo-and exonucleases to remove the uracil base. Q2. Which one of the following statements about DNA synthesis (replication) is correct? Replication: A. in both eukaryotes and prokaryotes requires an RNA primer. B. in eukaryotes requires condensation of chromatin. C. in prokaryotes is accomplished by a single DNA polymerase. D. is initiated at random sites in the genome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_814",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Nucleotide Sequence of the Human genome Shows How Our genes Are Arranged With the publication of the full DNA sequence of the human genome in 2004, it became possible to see in detail how the genes are arranged along each of our chromosomes (Figure 4\u201315). It will be many decades before the information contained in the human genome sequence is fully analyzed, but it has already stimulated new experiments that have had major effects on the content of every chapter in this book. (A) human chromosome 22 in its mitotic conformation, composed of two double-stranded DNA molecules, each 48 \u00d7106 nucleotide pairs long 10% of chromosome arm ~40 genes (B) \u00d710 1% of chromosome arm containing 4 genes (C) one gene of 3.4 \u00d7104 nucleotide pairs (D) exon intron"
+        },
+        {
+            "id": "InternalMed_Harrison_4770",
+            "title": "InternalMed_Harrison",
+            "content": "that are subject to complex posttranslational modification such as phosphorylation. Exons refer to the portion of genes that are eventually spliced together to form mRNA. Introns refer to the spacing regions between the exons that are spliced out of precursor RNAs during RNA processing. The gene locus also includes regions that are necessary to control its expression (Fig. 82-2). Current 427 estimates predict 20,687 protein-coding genes in the human genome with an average of about four different coding transcripts per gene. Remarkably, the exome only constitutes 1.14% of the genome. In addition, thousands of noncoding transcripts (RNAs of various length such as microRNAs and long noncoding RNAs), which function, at least in part, as transcriptional and posttranscriptional regulators of gene expression, have been identified. Aberrant expression of microRNAs has been found to play a pathogenic role in numerous diseases."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1521",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201331 Variation in intron and exon lengths in the human, worm, and fly genomes. (A) Size distribution of exons. (B) Size distribution of introns. Note that exon length is much more uniform than intron length. (Adapted from International Human Genome Sequencing Consortium, Nature 409:860\u2013921, 2001. With permission from Macmillan Publishers Ltd.) percentage of introns percentage of exons 100 200 300 400 500 600 700 800 900 1000 <100 100\u20132000 2000\u20135000 5000\u201330,000 >30,000 exon length (nucleotide pairs) intron length (nucleotide pairs)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1503",
+            "title": "Cell_Biology_Alberts",
+            "content": "The high variability of the splicing consensus sequences presents a special challenge for scientists attempting to decipher genome sequences. Introns range in size from about 10 nucleotides to over 100,000 nucleotides, and choosing the precise borders of each intron is a difficult task even with the aid of powerful computers. The possibility of alternative splicing compounds the problem of predicting protein sequences solely from a genome sequence. This difficulty is one of the main barriers to identifying all of the genes in a complete genome sequence, and it is one of the primary reasons why we know only the approximate number of different proteins produced by the human genome. RNA Splicing Is Performed by the Spliceosome"
+        },
+        {
+            "id": "InternalMed_Harrison_4840",
+            "title": "InternalMed_Harrison",
+            "content": "to certain domains that are particularly critical for protein function. Allelic heterogeneity creates a practical problem for genetic testing because one must often examine the entire genetic locus for mutations, because these can differ in each patient. For example, there are currently 1963 reported mutations in the CFTR gene (Fig. 82-3). Mutational analysis may initially focus on a panel of mutations that are particularly frequent (often taking the ethnic background of the patient into account), but a negative result does not exclude the presence of a mutation elsewhere in the gene. One should also be aware that mutational analyses generally focus on the coding region of a gene without considering regulatory and intronic regions. Because disease-causing mutations may be located outside the coding regions, negative results need to be interpreted with caution. The advent of more comprehensive sequencing technologies greatly facilitates concomitant mutational analyses of several genes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1972",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201356 Five patterns of alternative RNA splicing. in each case, a single type of rnA transcript is spliced in two alternative ways to produce two distinct mrnAs (1 and 2). the dark blue boxes mark exon sequences 1 that are retained in both mrnAs. the light blue boxes mark possible exon 2 sequences that are included in only one of the mrnAs. the boxes are joined by red lines to indicate where intron sequences (yellow) are removed. (Adapted from h. Keren et al. Nat. Rev. Genet. 11:345\u2013355, 2010. with permission from Macmillan publishers ltd.)"
+        },
+        {
+            "id": "InternalMed_Harrison_4809",
+            "title": "InternalMed_Harrison",
+            "content": "TRANSMISSION OF GENETIC DISEASE Origins and Types of Mutations A mutation can be defined as any change in the primary nucleotide sequence of DNA regardless of phenotypes. Mutations can occur in all domains of a gene (Fig. 82-9). A point mutation occurring within the coding region leads to an amino acid substitution if the codon is altered (Fig. 82-10). Point mutations that introduce a premature stop codon result in a truncated protein. Large deletions may affect a portion of a gene or an entire gene, whereas small deletions and insertions alter the reading frame if they do not represent a multiple of three bases. These \u201cframeshift\u201d mutations lead to an entirely altered carboxy terminus. Mutations in intronic sequences or in exon junctions may destroy or create splice donor or splice acceptor sites. Mutations may also be found in the regulatory sequences of genes, resulting in reduced or enhanced gene transcription."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1765",
+            "title": "Cell_Biology_Alberts",
+            "content": "J.B. Gurdon, Sci. Am. 219:24\u201335, 1968.) unfertilized MEIOTIC SPINDLE egg cell AND ASSOCIATED CHROMOSOMES REMOVED no. of reads no. of reads (B) start of transcription exons introns CELL LINE still do not have an exact answer to this fundamental question, we can make several general statements. 1. Many processes are common to all cells, and any two cells in a single organism therefore have many gene products in common. These include the structural proteins of chromosomes, RNA and DNA polymerases, DNA repair enzymes, ribosomal proteins and RNAs, the enzymes that catalyze the central reactions of metabolism, and many of the proteins that form the cytoskeleton such as actin (Figure 7\u20133A). 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1744",
+            "title": "Cell_Biology_Alberts",
+            "content": "merase were free to rotate about the axis of the DNA as it progressed along the template? glass slide Figure Q6\u20133 Alternatively spliced mRNAs from the human \u03b1-tropomyosin gene (Problem 6\u20138). (A) Exons in the human \u03b1-tropomyosin gene. The locations and relative sizes of exons are shown by the blue and red rectangles, with alternative exons in red. (B) Splicing patterns for four \u03b1-tropomyosin mRNAs. Splicing is indicated by lines connecting the exons that are included in the mRNA."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1916",
+            "title": "Biochemistry_Lippinco",
+            "content": "Q1. Pheochromocytomas secrete norepinephrine (NE) and epinephrine. Which of the following statements concerning the synthesis and degradation of these two biogenic amines is correct? A. The substrate for their synthesis is tryptophan, which is hydroxylated to 3,4-dihydroxyphenylalanine (DOPA) by tetrahydrobiopterin-requiring tryptophan hydroxylase. B. The conversion of DOPA to dopamine utilizes a pyridoxal phosphate\u2013 requiring carboxylase. C. The conversion of NE to epinephrine requires vitamin C. D. Degradation involves methylation by catechol-O-methyltransferase and produces normetanephrine from NE and metanephrine from epinephrine. E. Normetanephrine and metanephrine are oxidatively deaminated to homovanillic acid by monoamine oxidase. Q2. Which of the following statements concerning the actions of epinephrine and/or NE are correct? A. NE functions as a neurotransmitter and a hormone."
+        },
+        {
+            "id": "Cell_Biology_Alberts_819",
+            "title": "Cell_Biology_Alberts",
+            "content": "A second notable feature of the human genome is the large average gene size\u2014about 27,000 nucleotide pairs. As discussed above, a typical gene carries in its linear sequence of nucleotides the information for the linear sequence of the amino acids of a protein. Only about 1300 nucleotide pairs are required to encode a protein of average size (about 430 amino acids in humans). Most of the remaining sequence in a gene consists of long stretches of noncoding DNA that interrupt the relatively short segments of DNA that code for protein. As will be discussed in detail in Chapter 6, the coding sequences are called exons; the intervening (noncoding) sequences in genes are called introns (see Figure 4\u201315 and Table 4\u20131). The majority of human genes thus consist of a long string of alternating exons and introns, with most of the gene consisting of introns. In contrast, the majority of genes from organisms with concise genomes lack introns. This accounts for the much smaller size of their genes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2325",
+            "title": "Cell_Biology_Alberts",
+            "content": "This strategy works very well for compact genomes, where intron sequences are rare and ORFs often extend for many hundreds of amino acids. However, in many animals and plants, the average exon size is 150\u2013200 nucleotide pairs (see Figure 6\u201331) and additional information is usually required to unambiguously locate all the exons of a gene. Although it is possible to search genomes for splicing signals and other features that help to identify exons (codon bias, for example), one of the most powerful methods is simply to sequence the total RNA produced from the genome in living cells. As can be seen in Figure 7\u20133, this RNA-seq information, when mapped onto the genome sequence, can be used to accurately locate all the introns and exons of even complex genes. By sequencing total RNA from different cell types, it is also possible to identify cases of alternative splicing (see Figure 6\u201326)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1168",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. 4.1. Which one of the following is elevated in plasma during the absorptive (well-fed) state as compared with the postabsorptive (fasted) state? A. Acetoacetate B. Chylomicrons C. Free fatty acids D. Glucagon Correct answer = B. Triacylglycerol-rich chylomicrons are synthesized in (and released from) the intestine following ingestion of a meal. Acetoacetate, free fatty acids, and glucagon are elevated in the fasted state, not the absorptive state. 4.2. Which one of the following statements concerning liver in the absorptive state is correct? A. Fructose 2,6-bisphosphate is elevated. B. Insulin stimulates the uptake of glucose. C. Most enzymes that are regulated by covalent modification are in the phosphorylated state. D. The oxidation of acetyl coenzyme A is increased. E. The synthesis of glucokinase is repressed."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1984",
+            "title": "Cell_Biology_Alberts",
+            "content": "introns in the late 1970s could be readily accommodated by the original definition of a gene, provided that a single polypeptide chain was specified by the RNA transcribed from any one DNA sequence. But it is now clear that many DNA sequences in higher eukaryotic cells can produce a set of distinct (but related) proteins by means of alternative RNA splicing. How, then, is a gene to be defined?"
+        },
+        {
+            "id": "Pathology_Robbins_1480",
+            "title": "Pathology_Robbins",
+            "content": "Details of specific mutations and their effects are discussed along with the relevant disorders throughout this book. Cited here are some common examples of gene mutations and their effects: Point mutations result from the substitution of a single nucleotide base by a different base, resulting in the replacement of one amino acid by another in the protein product. The mutation in the \u03b2-globin chain of hemoglobin giving rise to sickle cell anemia is an excellent example of a point mutation that alters the meaning of the genetic code. Such mutations are sometimes called missense mutations. By contrast, certain point mutations may change an amino acid codon to a chain termination codon, or a stop codon. Such \u201cnonsense\u201d mutations interrupt translation, and in most cases RNAs are rapidly degraded, a phenomenon called nonsense mediated decay, such that little or no protein is formed."
+        },
+        {
+            "id": "Biochemistry_Lippincott_80",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. It may be found in typical globular proteins. C. It is stabilized by interchain hydrogen bonds. D. It is an example of secondary structure. E. It may be found in supersecondary structures. Correct answer = C. The \u03b2-sheet is stabilized by interchain hydrogen bonds formed between separate polypeptide chains and by intrachain hydrogen bonds formed between regions of a single polypeptide. The \u03b1-helix, however, is stabilized only by intrachain hydrogen bonds. Statements A, B, D, and E are true for both of these secondary structural elements. .4. An 80-year-old man presented with impairment of intellectual function and alterations in behavior. His family reported progressive disorientation and memory loss over the last 6 months. There is no family history of dementia. The patient was tentatively diagnosed with Alzheimer disease (AD). Which one of the following best describes AD? A. It is associated with \u03b2-amyloid, an abnormal protein with an altered amino acid sequence."
+        },
+        {
+            "id": "Biochemistry_Lippincott_967",
+            "title": "Biochemistry_Lippinco",
+            "content": "0.5. Which one of the following statements concerning amino acids is correct? A. Alanine is ketogenic. B. Amino acids that are catabolized to acetyl coenzyme A are glucogenic. C. Branched-chain amino acids are catabolized primarily in the liver. D. Cysteine is essential for individuals consuming a diet severely limited in methionine. Correct answer = D. Methionine is the precursor of cysteine, which becomes essential if methionine is severely restricted. Alanine is a key glucogenic amino acid. Acetyl coenzyme A (CoA) cannot be used for the net synthesis of glucose. Amino acids catabolized to acetyl CoA are ketogenic. Branched-chain amino acids are catabolized primarily in skeletal muscle. 0.6. In an individual with the dihydrolipoyl dehydrogenase (E3)-deficient form of maple syrup urine disease, why would lactic acidosis be an expected finding?"
+        },
+        {
+            "id": "Biochemistry_Lippincott_138",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. .1. Which one of the following statements concerning the hemoglobins is correct? A. HbA is the most abundant hemoglobin in normal adults. B. Fetal blood has a lower affinity for oxygen than does adult blood because HbF has an increased affinity for 2,3-bisphosphoglycerate. C. The globin chain composition of HbF is \u03b12\u03b42. D. HbA1c differs from HbA by a single, genetically determined amino acid substitution. E. HbA2 appears early in fetal life."
+        },
+        {
+            "id": "Biochemistry_Lippincott_140",
+            "title": "Biochemistry_Lippinco",
+            "content": ".2. Which one of the following statements concerning the ability of acidosis to precipitate a crisis in sickle cell anemia is correct? A. Acidosis decreases the solubility of HbS. B. Acidosis increases the oxygen affinity of hemoglobin. C. Acidosis favors the conversion of hemoglobin from the taut to the relaxed conformation. D. Acidosis shifts the oxygen-dissociation curve to the left. E. Acidosis decreases the ability of 2,3-bisphosphoglycerate to bind to hemoglobin. Correct answer = A. HbS is significantly less soluble in the deoxygenated form, compared with oxyhemoglobin S. Decreased pH (acidosis) causes the oxygen-dissociation curve to shift to the right, indicating decreased oxygen affinity (increased delivery). This favors the formation of the deoxy, or taut, form of hemoglobin and can precipitate a sickle cell crisis. The binding of 2,3bisphosphoglycerate is increased, because it binds only to the deoxy form of hemoglobin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1519",
+            "title": "Cell_Biology_Alberts",
+            "content": "size of exons, the cell increases the accuracy with which it deposits the initial splicing components on the nascent RNA and thereby avoids \u201cnear miss\u201d splice sites. How the SR proteins discriminate exon sequences from intron sequences is not understood in detail; however, it is known that some of the SR proteins bind preferentially to specific RNA sequences in exons, termed splicing enhancers."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1908",
+            "title": "Biochemistry_Lippinco",
+            "content": "Treatment: KL is prescribed doxycycline, an antibiotic in the tetracycline family. Monitoring of KL will continue until all symptoms have completely resolved. Blood is drawn for clinical laboratory tests. Prognosis: Patients treated with the appropriate antibiotic in the early stages of Lyme disease typically recover quickly and completely. Case-Related Questions: Choose the ONE best answer. Q1. Antibiotics in the tetracycline class inhibit protein synthesis (translation) at the initiation step. Which of the following statements about translation is correct? A. In eukaryotic translation, the initiating amino acid is formylated methionine. B. Only the charged initiating transfer RNA goes directly to the ribosomal A site. C. Peptidyltransferase is a ribozyme that forms the peptide bond between two amino acids. D. Prokaryotic translation can be inhibited by the phosphorylation of initiation factor 2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1909",
+            "title": "Biochemistry_Lippinco",
+            "content": "C. Peptidyltransferase is a ribozyme that forms the peptide bond between two amino acids. D. Prokaryotic translation can be inhibited by the phosphorylation of initiation factor 2. E. Termination of translation is independent of guanosine triphosphate hydrolysis. F. The Shine-Dalgarno sequence facilitates the binding of the large ribosomal subunit to eukaryotic messenger RNA (mRNA). Q2. The Centers for Disease Control and Prevention recommends a two-tier testing procedure for Lyme disease that involves a screening enzyme-linked immunosorbent assay (ELISA) followed by a confirmatory western blot analysis on any sample with a positive or equivocal ELISA result. Which of the following statements about these testing procedures is correct? A. Both techniques are used to detect specific mRNA. B. Both techniques involve the use of antibodies. C. ELISA requires the use of electrophoresis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1978",
+            "title": "Cell_Biology_Alberts",
+            "content": "In some cases, alternative RNA splicing occurs because there is an intron sequence ambiguity: the standard spliceosome mechanism for removing intron sequences (discussed in Chapter 6) is unable to distinguish clearly between two or more alternative pairings of 5\u02b9 and 3\u02b9 splice sites, so that different choices are made by chance on different individual transcripts. Where such constitutive alternative splicing occurs, several versions of the protein encoded by the gene are made in all cells in which the gene is expressed."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1851",
+            "title": "Biochemistry_Lippinco",
+            "content": "Review Questions: Choose the ONE best answer. RQ1. Which of the following statements concerning T1D is correct? A. Diagnosis can be made by measuring the level of glucose or glycated hemoglobin (HbA1c) in the blood. B. During periods of physiologic stress, the urine of an individual with T1D would likely test negative for reducing sugars. C. T1D is associated with obesity and a sedentary lifestyle. D. The characteristic metabolic abnormalities seen in T1D result from insensitivity to both insulin and glucagon. E. Treatment with exogenous insulin allows normalization of blood glucose (euglycemia). RQ2. DKA occurs when the rate of ketone body production is greater than the rate of utilization. Which of the following statements concerning ketone body metabolism is correct? Ketone bodies: A. are made in mitochondria from acetyl coenzyme A (CoA) primarily produced by the oxidation of glucose. B. are utilized by many tissues, particularly the liver, after conversion to acetyl CoA."
+        }
+    ],
+    "scores": [
+        0.0297029702970297,
+        0.027236871962069913,
+        0.026084487849193733,
+        0.023934660510483503,
+        0.021026234082938418,
+        0.020047814207650273,
+        0.01960972796308757,
+        0.018558295386201563,
+        0.018550073726339864,
+        0.018350930115636,
+        0.018205892088712344,
+        0.017507645259938837,
+        0.017028985507246377,
+        0.016960114983830397,
+        0.016946778711484593,
+        0.016597796143250687,
+        0.01646825396825397,
+        0.016339869281045753,
+        0.01597542242703533,
+        0.015881742104941664,
+        0.015796828482896895,
+        0.015751937984496124,
+        0.015470004723665564,
+        0.015369890778065533,
+        0.01536231884057971,
+        0.015289449112978524,
+        0.015161014534055287,
+        0.015026132404181184,
+        0.014926189174412248,
+        0.014868744872846595,
+        0.014709063378758382,
+        0.014705156674068593
+    ],
+    "execution_time": 14.311171054840088
+}

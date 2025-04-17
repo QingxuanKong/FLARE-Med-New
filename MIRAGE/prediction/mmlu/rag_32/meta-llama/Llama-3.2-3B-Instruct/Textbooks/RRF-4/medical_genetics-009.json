@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-009",
+    "question": "Exon skipping is associated with:",
+    "options": {
+        "A": "nonsense mutations.",
+        "B": "regulatory mutations.",
+        "C": "RNA processing mutations.",
+        "D": "silent mutations."
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand what exon skipping is and what type of mutations are associated with it. Exon skipping is a process in RNA splicing where a portion of the exons are removed from the pre-mRNA, resulting in a mature mRNA molecule that contains different exons than the normal splicing pattern. This can lead to a different protein being produced or a protein with a different function. Now, let's examine the options given in the question and relate them to exon skipping.\\n\\nExon skipping is most commonly associated with mutations that affect the splicing process, such as those that create new splice-acceptor sites or disrupt the normal splicing machinery. These types of mutations can lead to the skipping of exons during RNA splicing.\\n\\nOption A, nonsense mutations, can also lead to exon skipping. Nonsense mutations are point mutations that create a premature stop codon in the protein sequence, which can lead to the skipping of exons during splicing. However, not all nonsense mutations result in exon skipping.\\n\\nOption B, regulatory mutations, can also affect splicing, but they are not the primary cause of exon skipping. Regulatory mutations can affect the binding of splicing factors or the structure of the pre-mRNA, but they do not necessarily lead to exon skipping.\\n\\nOption C, RNA processing mutations, is the correct answer. RNA processing mutations, such as those that create new splice-acceptor sites or disrupt the normal splicing machinery, are the primary cause of exon skipping. These mutations can lead to the skipping of exons during RNA splicing and result in a different protein being produced.\\n\\nOption D, silent mutations, are not associated with exon skipping. Silent mutations are point mutations that do not change the amino acid sequence of the protein, and they do not affect splicing.\\n\\nTherefore, the correct answer is C. RNA processing mutations.\", \"answer_choice\": \"C\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1517",
+            "title": "Cell_Biology_Alberts",
+            "content": "portion of exon 2 exon 1 exon 3 exon 1 6\u201322), and these components are transferred directly from the polymerase to the RNA as the RNA emerges from the polymerase. This strategy helps the cell keep track of introns and exons: for example, the snRNPs that assemble at a 5\u02b9 splice site are initially presented only with the single 3\u02b9 splice site that emerges next from the polymerase; the potential sites further downstream have not yet been synthe sized. The coordination of transcription with splicing is especially important in preventing inappropriate exon skipping."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1520",
+            "title": "Cell_Biology_Alberts",
+            "content": "In principle, since any one of several different codons can be used to code for a given amino acid, there is freedom to evolve the exon nucleotide sequence so as to form a binding site for an SR protein, without necessarily affecting the amino acid sequence that the exon specifies. Both the marking of exon and intron boundaries and the assembly of the spli ceosome begin on an RNA molecule while it is still being elongated by RNA poly merase at its 3\u02b9 end. However, the actual chemistry of splicing can take place later. This delay means that intron sequences are not necessarily removed from a pre mRNA molecule in the order in which they occur along the RNA chain. Figure 6\u201330 Two types of splicing errors. (A) Exon skipping. (B) Cryptic splice-site selection. Cryptic splicing signals are nucleotide sequences of RNA that closely resemble true splicing signals and are sometimes mistakenly used by the spliceosome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1527",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201332 The exon definition hypothesis. According to this idea, SR proteins bind to each exon sequence in the pre-mRNA and thereby help to guide the snRNPs to the proper intron/ exon boundaries. This demarcation of exons by the SR proteins occurs cotranscriptionally, beginning at the CBC (cap-binding complex) at the 5\u02b9 end. It has been proposed that a group of proteins known as the heterogeneous nuclear ribonucleoproteins (hnRNPs) may preferentially associate with intron sequences, further helping the spliceosome distinguish introns from exons. (Adapted from R. Reed, Curr. Opin. Cell Biol. 12:340\u2013345, 2000. With permission from Elsevier.) splicing plays important roles in the development of cystic fibrosis, frontotemporal dementia, Parkinson\u2019s disease, retinitis pigmentosa, spinal muscular atrophy, myotonic dystrophy, premature aging, and cancer. It has been estimated that of the many point mutations that cause inherited human diseases, 10% produce aberrant splicing of the gene"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1519",
+            "title": "Cell_Biology_Alberts",
+            "content": "size of exons, the cell increases the accuracy with which it deposits the initial splicing components on the nascent RNA and thereby avoids \u201cnear miss\u201d splice sites. How the SR proteins discriminate exon sequences from intron sequences is not understood in detail; however, it is known that some of the SR proteins bind preferentially to specific RNA sequences in exons, termed splicing enhancers."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1497",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each splicing event removes one intron, proceeding through two sequential phosphoryl-transfer reactions known as transesterifications; these join two exons together while removing the intron between them as a \u201clariat\u201d (Figure 6\u201325). The machinery that catalyzes pre-mRNA splicing is complex, consisting of five addi-tional RNA molecules and several hundred proteins, and it hydrolyzes many ATP molecules per splicing event. This complexity ensures that splicing is accurate, while at the same time being flexible enough to deal with the enormous variety of introns found in a typical eukaryotic cell. It may seem wasteful to remove large numbers of introns by RNA splicing. In attempting to explain why it occurs, scientists have pointed out that the exon\u2013 intron arrangement would seem to facilitate the emergence of new and useful proteins over evolutionary time scales. Thus, the presence of numerous introns in DNA allows genetic recombination to readily combine the exons of different genes,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1534",
+            "title": "Cell_Biology_Alberts",
+            "content": "The position of the 3\u02b9 end of each mRNA molecule is specified by signals encoded in the genome (Figure 6\u201334). These signals are transcribed into RNA as the RNA polymerase II moves through them, and they are then recognized (as RNA) by a series of RNA-binding proteins and RNA-processing enzymes (Figure 6\u201335). Two multisubunit proteins, called CstF (cleavage stimulation factor) and CPSF (cleavage and polyadenylation specificity factor), are of special importance. intron sequences normal mRNA is formed from three exons A SINGLE-NUCLEOTIDE CHANGE THAT DESTROYS A NORMAL SPLICE SITE, THEREBY CAUSING EXON SKIPPING mRNA with exon 2 missing A SINGLE-NUCLEOTIDE CHANGE THAT DESTROYS A NORMAL SPLICE SITE, THEREBY ACTIVATING A CRYPTIC SPLICE SITE mRNA with extended exon 3 mRNA with extra exon inserted between exon 2 and exon 3 Figure 6\u201333 Abnormal processing of the \u03b2-globin primary RNA transcript in humans with the disease \u03b2 thalassemia."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1522",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although it may seem at first counterintuitive, the way a gene is packaged into chromatin can affect how the RNA transcript of that gene is ultimately spliced. Nucleosomes tend to be positioned over exons (which are, on average, close to the length of DNA in a nucleosome), and it has been proposed that these act as \u201cspeed bumps,\u201d allowing the proteins responsible for exon definition to assemble on the RNA as it emerges from the polymerase. In addition, changes in chromatin structure are used to alter splicing patterns. There are two ways this can happen. First, because splicing and transcription are coupled, the rate at which RNA polymerase moves along DNA can affect RNA splicing. For example, if polymerase is moving slowly, exon skipping (see Figure 6\u201330A) is minimized: assembly of the initial spliceosome may be complete before an alternative choice of splice site even emerges from the RNA polymerase. The nucleosomes in condensed chromatin can cause polymerase to pause; the pattern"
+        },
+        {
+            "id": "Neurology_Adams_11438",
+            "title": "Neurology_Adams",
+            "content": "With another remarkable approach, it has been possible to cause the skipping of selected exons during splicing of pre-mRNA and to correct the open reading frame in mutated dystrophin. For example, van Deutekom and colleagues have been able to elicit expression of normal dystrophin in the anterior tibialis at the site of injection of an antisense oligonucleotide that promotes the exon skipping. The same oligonucleotide administered subcutaneously for 5 weeks was shown by Goermans and coworkers to produce dystrophin expression and modestly improve the ability of patients to accomplish a standardized 6-min walk test."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1526",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, for example, a mutation in a nucleotide sequence critical for splicing of a particular intron does not necessarily prevent splicing of that intron altogether. Instead, the mutation typically creates a new pattern of splicing (Figure 6\u201333). Most commonly, an exon is simply skipped (Figure 6\u201333B). In other cases, the mutation causes a cryptic splice junction to be efficiently used (Figure 6\u201333C). Apparently, the splicing machinery has evolved to pick out the best possible pattern of splice junctions, and if the optimal one is damaged by mutation, it will seek out the next best pattern, and so on. This inherent plasticity in the process of RNA splicing suggests that changes in splicing patterns caused by random mutations have been important in the evolution of genes and organisms. It also means that mutations that affect splicing can be severely detrimental to the organism: in addition to the \u03b2 thalassemia, example presented in Figure 6\u201333, aberrant"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1546",
+            "title": "Biochemistry_Lippinco",
+            "content": "Effect of splice site mutations: Mutations at splice sites can lead to improper splicing and the production of aberrant proteins. It is estimated that at least 20% of all genetic diseases are a result of mutations that affect RNA splicing. For example, mutations that cause the incorrect splicing of \u03b2-globin mRNA are responsible for some cases of \u03b2-thalassemia, a disease in which the production of the \u03b2globin protein is defective (see p. 38). Splice site mutations can result in exons being skipped (removed) or introns retained. They can also activate cryptic splice sites, which are sites that contain the 5\u2032 or 3\u2032 consensus sequence but are not normally used."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1556",
+            "title": "Biochemistry_Lippinco",
+            "content": "C. Capping of dystrophin messenger RNA will be defective. D. Splicing of dystrophin messenger RNA will be defective. E. Tailing of dystrophin messenger RNA will be defective. Correct answer = A. Mutations in the promoter typically prevent formation of the RNA polymerase II transcription initiation complex, resulting in a decrease in the initiation of messenger RNA (mRNA) synthesis. A deficiency of dystrophin mRNA will result in a deficiency in the production of the dystrophin protein. Capping, splicing, and tailing defects are not a consequence of promoter mutations. They can, however, result in mRNA with decreased stability (capping and tailing defects) or an mRNA in which exons have been skipped (lost) or introns retained (splicing defects). 1.3. A mutation to this sequence in eukaryotic messenger RNA (mRNA) will affect the process by which the 3\u2032-end polyadenylate (poly-A) tail is added to the mRNA. A. AAUAAA B. CAAT C. CCA D. GU\u2026 A\u2026AG E. TATAAA"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1554",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Exon 1 will be too short. B. Exon 1 will be too long. C. Exon 2 will be too short. D. Exon 2 will be too long. E. Exon 2 will be missing. Correct answer = D. Because the mutation creates an additional splice-acceptor site (the 3\u2032-end) upstream of the normal acceptor site of intron 1, the 19 nucleotides that are usually found at the 3\u2032-end of the excised intron 1 lariat can remain behind as part of exon 2. The presence of these extra nucleotides in the coding region of the mutant messenger RNA (mRNA) molecule will prevent the ribosome from translating the message into a normal \u03b2-globin protein molecule. Those mRNA for which the normal splice site is used to remove the first intron will be normal, and their translation will produce normal \u03b2-globin protein."
+        },
+        {
+            "id": "InternalMed_Harrison_4770",
+            "title": "InternalMed_Harrison",
+            "content": "that are subject to complex posttranslational modification such as phosphorylation. Exons refer to the portion of genes that are eventually spliced together to form mRNA. Introns refer to the spacing regions between the exons that are spliced out of precursor RNAs during RNA processing. The gene locus also includes regions that are necessary to control its expression (Fig. 82-2). Current 427 estimates predict 20,687 protein-coding genes in the human genome with an average of about four different coding transcripts per gene. Remarkably, the exome only constitutes 1.14% of the genome. In addition, thousands of noncoding transcripts (RNAs of various length such as microRNAs and long noncoding RNAs), which function, at least in part, as transcriptional and posttranscriptional regulators of gene expression, have been identified. Aberrant expression of microRNAs has been found to play a pathogenic role in numerous diseases."
+        },
+        {
+            "id": "InternalMed_Harrison_29622",
+            "title": "InternalMed_Harrison",
+            "content": "The role of splicing variation as a contributor to neurologic disease is another area of active investigation. Alternative splicing refers to the inclusion of different combinations of exons in mature mRNA, resulting in the potential for many different protein products encoded by a single gene. Alternative splicing represents a powerful mechanism for generation of complexity and variation, and this mechanism appears to be highly prevalent in the nervous system, affecting key processes such as neurotransmitter receptors and ion channels. Numerous diseases are already known to result from abnormalities in alternative splicing. Increased inclusion of exon 10\u2013containing transcripts of MAPT can cause frontotemporal dementia. Aberrant splicing also contributes to the pathogenesis of Duchenne\u2019s, myotonic, and facioscapulohumeral muscular dystrophies; ataxia telangiectasia; neurofibromatosis; some inherited ataxias; and fragile X syndrome, among other disorders. It is also likely that subtle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1518",
+            "title": "Cell_Biology_Alberts",
+            "content": "A strategy called \u201cexon definition\u201d also helps cells choose the appropriate splice sites. Exon size tends to be much more uniform than intron size, averaging about 150 nucleotide pairs across a wide variety of eukaryotic organisms (Figure 6\u201331). Through exon definition, the splicing machinery can seek out the relatively homogeneously sized exon sequences. As RNA synthesis proceeds, a group of additional components (most notably SR proteins, so-named because they con help to mark off each 3\u02b9and 5\u02b9 splice site, starting at the 5\u02b9 end of the RNA (Figure 6\u201332). These proteins, in turn, recruit U1 snRNA, which marks the downstream exon boundary, and U2 snRNA, which specifies the upstream one. By specifically marking the exons in this way and thereby taking advantage of the relatively uni form size of exons, the cell increases the accuracy with which it deposits the initial splicing components on the nascent RNA and thereby avoids \u201cnear miss\u201d splice sites. How the SR proteins discriminate"
+        },
+        {
+            "id": "First_Aid_Step1_12",
+            "title": "First_Aid_Step1",
+            "content": "Primary transcript combines with small nuclear ribonucleoproteins (snRNPs) and other proteins to form spliceosome. RNA polymerases P P OOH 3\u02dcOH 3\u02dcCleavage at 5\u02dcsplice site; lariat-shaped (loop) intermediate is generated. Cleavage at 3\u02dcsplice site; lariat is released to precisely remove intron and join 2 exons. Exon 1 Exon 2 Spliceosome+P UGAAG3\u02dcExon 1 Mature mRNA Exon 2 P UGAAG"
+        },
+        {
+            "id": "First_Aid_Step1_8",
+            "title": "First_Aid_Step1",
+            "content": "Nonsense mutation Nucleotide substitution results in early stop codon (UGA, UAA, UAG). Usually results in nonfunctional protein. Stop the nonsense! Other mutations Frameshift mutation Deletion or insertion of a number of nucleotides not divisible by 3 \u2022 misreading of all nucleotides downstream. Protein may be shorter or longer, and its function may be disrupted or altered. Examples include Duchenne muscular dystrophy, Tay-Sachs disease. Splice site mutation Retained intron in mRNA \u2022 protein with impaired or altered function. Examples include rare causes of cancers, dementia, epilepsy, some types of \u03b2-thalassemia, Gaucher disease, Marfan syndrome. Lac operon Classic example of a genetic response to an environmental change. Glucose is the preferred metabolic substrate in E coli, but when glucose is absent and lactose is available, the lac operon is activated to switch to lactose metabolism. Mechanism of shift:"
+        },
+        {
+            "id": "Surgery_Schwartz_2170",
+            "title": "Surgery_Schwartz",
+            "content": "is an autosomal domi-nant cancer syndrome that results from germline mutations in the E-cadherin gene, CDH1. Carriers of CDH1 mutations have a 70% to 80% chance of developing gastric cancer.84 Furthermore, mutations of CDH1 have been described in sporadic cancers of the ovary, endometrium, breast, and thyroid. However, frequent mutations have been identified in only two particular tumors: dif-fuse gastric carcinomas and lobular breast carcinomas. Invasive lobular breast carcinomas often show inactivating mutations in combination with a loss of heterozygosity of the wild-type CDH1 allele.85 Interestingly, in gastric carcinomas the predominant mutations are exon skipping causing in-frame deletions, whereas most mutations identified in lobular breast cancers are premature stop codons; this suggests a genotype-phenotype correlation.RET Proto-Oncogene and Multiple Endocrine Neoplasia Type 2The RET (rearranged during transfection) gene encodes for a transmembrane receptor tyrosine kinase"
+        },
+        {
+            "id": "Surgery_Schwartz_2161",
+            "title": "Surgery_Schwartz",
+            "content": "its importance in cancer initiation. The germline mutations in APC may arise from point mutations, insertions, or deletions that lead to a premature stop codon and a truncated, functionally inactive protein. The risk of developing specific manifestations of FAP is correlated with the position of the FAP mutations, a phenomenon referred to as genotype-phenotype correlation. For example, desmoids usually are associated with mutations between codons 1403 and 1578.68,69 Mutations in the extreme 5\u2032 or 3\u2032 ends of APC, or in the alternatively spliced region of exon 9, are associated with an attenuated version of FAP. Better understanding of the genotype-phenotype correla-tions may assist in patient counseling and therapeutic planning.Mismatch Repair Genes and Hereditary Nonpolyposis Colorectal Cancer. Hereditary nonpolyposis colorectal cancer (HNPCC), also referred to as Lynch syndrome, is an autoso-mal dominant hereditary cancer syndrome that predisposes to a wide spectrum of cancers,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1516",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201329 One of the many rearrangements that take place in the spliceosome during pre-mRNA splicing. This example comes from the yeast Saccharomyces cerevisiae, in which the nucleotide sequences involved are slightly different from those in human cells. The exchange of U1 snRNP for U6 snRNP occurs just before the first phosphoryltransfer reaction (see Figure 6\u201328). This exchange requires the 5\u02b9 splice site to be read by two different snRNPs, thereby increasing the accuracy of 5\u02b9 splice-site selection by the spliceosome. portion of exon 2 exon 1 exon 3 exon 1 6\u201322), and these components are transferred directly from the polymerase to the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1745",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) Splicing patterns for four \u03b1-tropomyosin mRNAs. Splicing is indicated by lines connecting the exons that are included in the mRNA. 6\u20138 The human \u03b1-tropomyosin gene is alternatively spliced to produce different forms of \u03b1-tropomyosin mRNA in different cell types (Figure Q6\u20133). For all forms of the mRNA, the protein sequences encoded by exon 1 are the same, as are the protein sequences encoded by exon 10. Exons 2 and 3 are alternative exons used in different mRNAs, as are exons 7 and 8. Which of the following statements about exons 2 and 3 is the most accurate? Is that statement also the most accurate one for exons 7 and 8? Explain your answers. A. Exons 2 and 3 must have the same number of nucleotides. b. Exons 2 and 3 must each contain an integral number of codons (that is, the number of nucleotides divided by 3 must be an integer). C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2)."
+        },
+        {
+            "id": "InternalMed_Harrison_8374",
+            "title": "InternalMed_Harrison",
+            "content": "Genomics has illuminated the role of point mutations in the pathophysiology of MDS. Recurrent somatic mutations, acquired in the abnormal marrow cells and absent in the germline, have been identified in almost 100 genes. Many of the same genes are also mutated in AML without MDS, whereas others are distinctive in subtypes of MDS. A prominent example of the latter is the discovery of mutations in genes of the RNA splicing machinery, especially SF3B1, which strongly associate with sideroblastic anemia. Some mutations correlate with prognosis: spliceosome defects with favorable outcome, and mutations in EZH2, TP53, RUNX1, and ASXL1 with poor outcome. Mutations and cytogenetic abnormalities are not independent: TP53 mutations associate with complex cytogenetic abnormalities and TET2 mutations with normal cytogenetics. Correlation and exclusion in the pattern of mutations indicate a functional genomic architecture. Analysis of deep sequencing results in patients whose MDS evolved to AML"
+        },
+        {
+            "id": "Pathology_Robbins_4961",
+            "title": "Pathology_Robbins",
+            "content": "Treatment of patients with dystrophinopathies is challenging. Current treatment consists primarily of supportive care. Definitive therapy requires restoration of dystrophin levels in skeletal and cardiac muscle fibers. Genetic approaches to accomplish this are being tested in clinical trials. One strategy involves the expression of anti-sense RNAs that alter RNA splicing so as to cause \u201cskipping\u201d of exons containing deleterious mutations, thus permitting the expression of a truncated, but partially functional, dystrophin protein. A second strategy involves the use of drugs that promote ribosomal \u201cread-through\u201d of stop codons, another ploy that may enable the synthesis of some functional dystrophin protein. Other forms of muscular dystrophy share features with DMD and BMD but have distinct clinical, genetic, and pathologic features."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1515",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other Properties of Pre-mRNA and Its Synthesis Help to Explain the Choice of Proper Splice Sites As we have seen, intron sequences vary enormously in size, with some being in excess of 100,000 nucleotides. If splice-site selection were determined solely by the snRNPs acting on a preformed, protein-free RNA molecule, we would expect frequent splicing mistakes\u2014such as exon skipping and the use of \u201ccryptic\u201d splice sites (Figure 6\u201330). The fidelity mechanisms built into the spliceosome to suppress errors, however, are supplemented by two additional strategies that further increase the accuracy of splicing. The first is a simple consequence of splicing being coupled to transcription. As transcription proceeds, the phosphorylated tail of RNA polymerase carries several components of the spliceosome (see Figure Figure 6\u201329 One of the many rearrangements that take place in the spliceosome during pre-mRNA splicing."
+        },
+        {
+            "id": "InternalMed_Harrison_23346",
+            "title": "InternalMed_Harrison",
+            "content": "amino acids common to all of the isoforms. mRNAs for specific isoforms are assembled by splicing a particular first exon such as the bilirubin-specific exon A1 to exons 2 to 5. The resulting message Renal Excretion of Bilirubin Conjugates encodes a complete enzyme, in this particular case bilirubin-UDP-glucuronosyltransferase (UGT1A1). Unconjugated bilirubin is not excreted Mutations in a first exon affect only a single isoform. Those in exons 2\u20135 affect all enzymes encoded in urine, as it is too tightly bound to by the UGT1 complex. albumin for effective glomerular filtra tion and there is no tubular mechanism for its renal secretion. In contrast, the bilirubin conjugates are readily filtered other substrates have been designated the UGT1 family. These at the glomerulus and can appear in urine in disorders characterizedare expressed from a single gene complex by alternative promoter by increased bilirubin conjugates in the circulation.usage. This gene complex contains multiple"
+        },
+        {
+            "id": "InternalMed_Harrison_30522",
+            "title": "InternalMed_Harrison",
+            "content": "6p22-p23 with CAG repeats (exonic); leucine-rich acidic nuclear protein (LANP), region-specific interaction protein 12q23-q24.1 with CAG repeats (exonic) 14q24.3-q32 with CAG repeats (exonic); codes for ubiquitin protease (inactive with polyglutamine expansion); altered turnover of cellular proteins due to proteosome dysfunction 16q22.1-ter; pleckstrin homology domain-containing protein, family G, member 4 (PLEKHG4; puratrophin-1: Purkinje cell atrophy associated protein-1, including spectrin repeat and the guanine-nucleotide exchange factor, GEF for Rho GTPases) 11p12-q12; \u03b2-III spectrin mutations; (SPTBN2); stabilizes glutamate transporter EAAT4; descendants of President Abraham Lincoln 19p13.2 with CAG repeats in \u03b11A-voltage\u2013dependent calcium channel gene (exonic); CACNA1A protein, P/Q type calcium channel subunit 3p14.1-p21.1 with CAG repeats (exonic); ataxin-7; subunit of GCN5, histone acetyltransferase-containing complexes; ataxin-7 binding protein; Cbl-associated protein (CAP;"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1535",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201333 Abnormal processing of the \u03b2-globin primary RNA transcript in humans with the disease \u03b2 thalassemia. In the examples shown, the disease (a severe anemia due to aberrant hemoglobin synthesis) is caused by splice-site mutations found in the genomes of affected patients. The dark blue boxes represent the three normal exon sequences; the red lines connect the 5\u02b9 and 3\u02b9 splice sites that are used. In (B), (C), and (D), the light blue boxes depict new nucleotide sequences included in the final mRNA molecule as a result of the mutation denoted by the black arrowhead. Note that when a mutation leaves a normal splice site without a partner, an exon is skipped (B) or one or more abnormal cryptic splice sites nearby is used as the partner site (C). [Adapted in part from S.H. Orkin, in The Molecular Basis of Blood Diseases (G. Stamatoyannopoulos et al., eds.), pp. 106\u2013126. Philadelphia: Saunders, 1987.] degraded in the nucleus"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1650",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Messenger RNA processing and use Eukaryotic mRNA undergoes several processing events before it is exported from the nucleus to the cytoplasm for use in protein synthesis. Capping at the 5\u2032-end (see p. 441), polyadenylation at the 3\u2032-end (see p. 442), and splicing (see p. 442) are essential for the production of a functional eukaryotic messenger from most pre-mRNA. Variations in splicing and polyadenylation can affect gene expression. In addition, messenger stability also affects gene expression. 1. Alternative splicing: Tissue-specific protein isoforms can be made from the same pre-mRNA through alternative splicing, which can involve exon skipping (loss), intron retention, and use of alternative splice-donor or -acceptor sites (Fig. 33.12). For example, the pre-mRNA for tropomyosin (TM) undergoes tissue-specific alternative splicing to yield a number of TM isoforms (see p. 443). [Note: Over 90% of all human genes undergo alternative splicing.] 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1978",
+            "title": "Cell_Biology_Alberts",
+            "content": "In some cases, alternative RNA splicing occurs because there is an intron sequence ambiguity: the standard spliceosome mechanism for removing intron sequences (discussed in Chapter 6) is unable to distinguish clearly between two or more alternative pairings of 5\u02b9 and 3\u02b9 splice sites, so that different choices are made by chance on different individual transcripts. Where such constitutive alternative splicing occurs, several versions of the protein encoded by the gene are made in all cells in which the gene is expressed."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1553",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. 1.1. An 8-month-old male with severe anemia is found to have \u03b2-thalassemia. Genetic analysis shows that one of his \u03b2-globin genes has a mutation that creates a new splice-acceptor site 19 nucleotides upstream of the normal splice-acceptor site of the first intron. Which of the following best describes the new messenger RNA molecule that can be produced from this mutant gene? A. Exon 1 will be too short. B. Exon 1 will be too long. C. Exon 2 will be too short. D. Exon 2 will be too long. E. Exon 2 will be missing."
+        },
+        {
+            "id": "InternalMed_Harrison_30529",
+            "title": "InternalMed_Harrison",
+            "content": "Creutzfeldt-Jakob disease 10q23.31; phosphatase and tensin homolog (PTEN); Cowden\u2019s; Lhermitte-Duclos syndrome 19p13.2; exon 21; missense ala570val; val606phe mutations 1p36.31-p36.23 13q14.2; integral membrane protein 2B (ITM2B) 12p13.31 with CAG repeats (exonic) 9q13-q21.1 with intronic GAA repeats, in intron at end of exon 1"
+        },
+        {
+            "id": "InternalMed_Harrison_31393",
+            "title": "InternalMed_Harrison",
+            "content": "Glucocorticoids, administered as prednisone in a dose of 0.75 mg/kg per day, significantly slow progression of Duchenne dystrophy for up to 3 years. Some patients cannot tolerate glucocorticoid therapy; weight gain and increased risk of fractures in particular represent a significant deterrent for some boys. As in other recessively inherited dystrophies presumed to arise from loss of function of a critical muscle gene, there is optimism that Duchenne disease may benefit from novel therapies that either replace the defective gene or missing protein or implement downstream corrections (e.g., skipping mutated exons or reading through mutations that introduce stop codons). This less severe form of X-linked recessive muscular dystrophy results from allelic defects of the same gene responsible for Duchenne dystrophy. Becker muscular dystrophy is ~10 times less frequent than Duchenne."
+        }
+    ],
+    "scores": [
+        0.03841120537393106,
+        0.03602095969352607,
+        0.03418976612172729,
+        0.03104322707925639,
+        0.030516720515902936,
+        0.02807127155680004,
+        0.027719161438456784,
+        0.02764141960414529,
+        0.02746427613684251,
+        0.026325176571306272,
+        0.025576428328721906,
+        0.024644311469884578,
+        0.02463175395920354,
+        0.02260888708257129,
+        0.02220423603450005,
+        0.021807502841985602,
+        0.021515596167100203,
+        0.021420443439166735,
+        0.021216565447732268,
+        0.020085768651841755,
+        0.020011607581172777,
+        0.019944217012766483,
+        0.01916024935826916,
+        0.018706293706293706,
+        0.018192437099082148,
+        0.018162393162393164,
+        0.016628206868467492,
+        0.016372627639668538,
+        0.016264462809917356,
+        0.016174948240165632,
+        0.016173348320219806,
+        0.01592157842157842
+    ],
+    "execution_time": 25.029442310333252
+}

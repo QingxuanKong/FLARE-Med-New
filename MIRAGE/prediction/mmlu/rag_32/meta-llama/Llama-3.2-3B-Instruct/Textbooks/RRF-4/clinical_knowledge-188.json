@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-188",
+    "question": "The rate limiting enzyme of glycolysis is:",
+    "options": {
+        "A": "phosphorylase.",
+        "B": "hexokinase.",
+        "C": "pyruvate dehydrogenase.",
+        "D": "phosphofructokinase."
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To determine the rate-limiting enzyme of glycolysis, we need to consider the regulation and kinetics of the pathway. Glycolysis is a complex process involving 10 steps, each catalyzed by a different enzyme. The rate-limiting step is the slowest step in the pathway, which determines the overall rate of glycolysis.\\n\\nThe regulation of glycolysis is primarily controlled by the enzyme phosphofructokinase-1 (PFK-1), which is allosterically activated by fructose 2,6-bisphosphate and inhibited by ATP. However, PFK-1 is not the rate-limiting step itself.\\n\\nThe rate-limiting step is actually step 1, catalyzed by hexokinase/glucokinase. This enzyme is the first step in the pathway, converting glucose to glucose-6-phosphate, and it is the slowest step in glycolysis. The enzyme is allosterically activated by ATP and inhibited by AMP, which makes it a key regulator of glycolytic flux.\\n\\nTherefore, the correct answer is B. hexokinase.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_345",
+            "title": "Cell_Biology_Alberts",
+            "content": "Glycolysis illustrates how enzymes Couple oxidation to energy storage The formation of ATP during glycolysis provides a particularly clear demonstration of how enzymes couple energetically unfavorable reactions with favorable ones, thereby driving the many chemical reactions that make life possible. Two central reactions in glycolysis (steps 6 and 7) convert the three-carbon sugar intermediate glyceraldehyde 3-phosphate (an aldehyde) into 3-phosphoglycerate (a carboxylic acid; see Panel 2\u20138, pp. 104\u2013105), thus oxidizing an aldehyde group to a carboxylic acid group. The overall reaction releases enough free energy to convert a molecule of ADP to ATP and to transfer two electrons (and a proton) from the aldehyde to NAD+ to form NADH, while still liberating enough heat to the environment to make the overall reaction energetically favorable (\u2206G\u00b0 for the overall reaction is \u201312.5 kJ/mole)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_342",
+            "title": "Cell_Biology_Alberts",
+            "content": "Energy-yielding pathways like these, in which organic molecules both donate and accept electrons (and which are often, as in these cases, anaerobic), are called one molecule of glucose OH to be fructose 1,6 six-carbon sugar to two three-carbon sugarsSTEP 5 two molecules of glyceraldehyde Figure 2\u201346 an outline of glycolysis. each of the 10 steps shown is catalyzed by a different enzyme. note that step 4 cleaves a six-carbon sugar into two three-carbon sugars, so that the number of molecules at every stage after this doubles. as indicated, step 6 begins the energy-generation phase of glycolysis. Because two molecules of aTp are hydrolyzed in the early, energy-investment phase, glycolysis results in the net synthesis of 2 aTp and 2 naDh molecules per molecule of glucose (see also panel 2\u20138). Figure 2\u201347 Two pathways for the anaerobic breakdown of pyruvate."
+        },
+        {
+            "id": "Cell_Biology_Alberts_338",
+            "title": "Cell_Biology_Alberts",
+            "content": "The glycolytic pathway is outlined in Figure 2\u201346 and shown in more detail in Panel 2\u20138 (pp. 104\u2013105) and Movie 2.5. Glycolysis involves a sequence of 10 separate reactions, each producing a different sugar intermediate and each catalyzed by a different enzyme. Like most enzymes, these have names ending in ase\u2014such as isomerase and dehydrogenase\u2014to indicate the type of reaction they catalyze. Although no molecular oxygen is used in glycolysis, oxidation occurs, in that electrons are removed by NAD+ (producing NADH) from some of the carbons derived from the glucose molecule. The stepwise nature of the process releases the energy of oxidation in small packets, so that much of it can be stored in activated carrier molecules rather than all of it being released as heat (see Figure 2\u201345). Thus, some of the energy released by oxidation drives the direct synthesis of ATP molecules from ADP and Pi, and some remains with the electrons in the electron carrier NADH."
+        },
+        {
+            "id": "Pathology_Robbins_242",
+            "title": "Pathology_Robbins",
+            "content": "of intracellular glycogen. Understandably, normal tissues with a greater glycolytic capacity because of the presence of glycogen (e.g., the liver and striated muscle) are more likely to survive hypoxia and decreased oxidative phosphorylation than tissues with limited glucose stores (e.g., the brain). Although it seems counterintuitive, rapidly proliferating normal cells and cancer cells rely on aerobic glycolysis to produce much of their energy, a phenomenon referred to as the Warburg effect. The reason for this is that although glycolysis yields less ATP per molecule of glucose burned than oxidative phosphorylation, metabolites generated by glycolysis and the TCA cycle serve as precursors for the synthesis of cellular constituents (e.g., proteins, lipids, and nucleic acids) that are needed for cell growth and division. Alterations in cellular metabolism are frequently seen in cancer cells, so they are discussed in more detail in Chapter 6."
+        },
+        {
+            "id": "Cell_Biology_Alberts_348",
+            "title": "Cell_Biology_Alberts",
+            "content": "The oxidation of an aldehyde to a carboxylic acid releases energy, much of which is captured in the activated carriers ATP and NADH. Figure 2\u201348 energy storage in steps 6 and 7 of glycolysis. (a) in step 6, the enzyme glyceraldehyde 3-phosphate dehydrogenase couples the energetically favorable oxidation of an aldehyde to the energetically unfavorable formation of a high-energy phosphate bond. at the same time, it enables energy to be stored in naDh. The formation of the high-energy phosphate bond is driven by the oxidation reaction, and the enzyme thereby acts like the \u201cpaddle wheel\u201d coupler in figure 2\u201332B. in step 7, the newly formed high-energy phosphate bond in 1,3-bisphosphoglycerate is transferred to aDp, forming a molecule of aTp and leaving a free carboxylic acid group on the oxidized sugar. The part of the molecule that undergoes a change is shaded in blue; the rest of the molecule remains unchanged throughout all these reactions."
+        },
+        {
+            "id": "Biochemistry_Lippincott_472",
+            "title": "Biochemistry_Lippinco",
+            "content": "C. Kinetics The rate of fructose metabolism is more rapid than that of glucose because triose production from fructose 1-phosphate bypasses phosphofructokinase-1, the major rate-limiting step in glycolysis (see p. 99). D. Disorders"
+        },
+        {
+            "id": "Biochemistry_Lippincott_404",
+            "title": "Biochemistry_Lippinco",
+            "content": "Some tissues, such as the brain, red blood cells (RBC), kidney medulla, lens and cornea of the eye, testes, and exercising muscle, require a continuous supply of glucose as a metabolic fuel. Liver glycogen, an essential postprandial source of glucose, can meet these needs for <24 hours in the absence of dietary intake of carbohydrate (see p. 125). During a prolonged fast, however, hepatic glycogen stores are depleted, and glucose is made from noncarbohydrate precursors. The formation of glucose does not occur by a simple reversal of glycolysis, because the overall equilibrium of glycolysis strongly favors pyruvate formation (that is, the change in standard free energy [\u2206G0] is negative). Instead, glucose is synthesized de novo by a special pathway, gluconeogenesis, which requires both mitochondrial and cytosolic enzymes. [Note: Deficiencies of gluconeogenic enzymes cause hypoglycemia.] During an overnight fast, ~90% of gluconeogenesis occurs in the liver, with the remaining ~10%"
+        },
+        {
+            "id": "Biochemistry_Lippincott_327",
+            "title": "Biochemistry_Lippinco",
+            "content": "The glycolytic pathway is used by all tissues for the oxidation of glucose to provide energy (as ATP) and intermediates for other metabolic pathways. Glycolysis is at the hub of carbohydrate metabolism because virtually all sugars, whether arising from the diet or from catabolic reactions in the body, can ultimately be converted to glucose (Fig. 8.9A). Pyruvate is the end product of glycolysis in cells with mitochondria and an adequate supply of O2. This series of ten reactions is called aerobic glycolysis because O2 is required to reoxidize the NADH formed during the oxidation of glyceraldehyde 3-phosphate (Fig. 8.9B). Aerobic glycolysis sets the stage for the oxidative decarboxylation of pyruvate to acetyl CoA, a major fuel of the TCA cycle. Alternatively, pyruvate is reduced to lactate as NADH is oxidized to NAD+ (Fig. 8.9C). This conversion of glucose to lactate is called anaerobic glycolysis because it can occur without the participation of O2. Anaerobic glycolysis allows the"
+        },
+        {
+            "id": "Biochemistry_Lippincott_359",
+            "title": "Biochemistry_Lippinco",
+            "content": "L. Energy yield from glycolysis Despite the production of some ATP by substrate-level phosphorylation during glycolysis, the end product, pyruvate or lactate, still contains most of the energy originally contained in glucose. The TCA cycle is required to release that energy completely (see p. 109). 1. Anaerobic glycolysis: A net of two molecules of ATP are generated for each molecule of glucose converted to two molecules of lactate (Fig. 8.22). There is no net production or consumption of NADH. 2. Aerobic glycolysis: The generation of ATP is the same as in anaerobic glycolysis (that is, a net gain of two ATP per molecule of glucose). Two molecules of NADH are also produced per molecule of glucose. Ongoing aerobic glycolysis requires the oxidation of most of this NADH by the ETC, producing three ATP for each NADH molecule entering the chain (see p. 77). [Note: NADH cannot cross the inner mitochondrial membrane, and substrate shuttles are required (see p. 79).]"
+        },
+        {
+            "id": "Cell_Biology_Alberts_337",
+            "title": "Cell_Biology_Alberts",
+            "content": "Glycolysis is a Central aTp-producing pathway The major process for oxidizing sugars is the sequence of reactions known as glycolysis\u2014from the Greek glukus, \u201csweet,\u201d and lusis, \u201crupture.\u201d Glycolysis produces ATP without the involvement of molecular oxygen (O2 gas). It occurs in the cytosol of most cells, including many anaerobic microorganisms. Glycolysis probably evolved early in the history of life, before photosynthetic organisms introduced oxygen into the atmosphere. During glycolysis, a glucose molecule with six carbon atoms is converted into two molecules of pyruvate, each of which contains three carbon atoms. For each glucose molecule, two molecules of ATP are hydrolyzed to provide energy to drive the early steps, but four molecules of ATP are produced in the later steps. At the end of glycolysis, there is consequently a net gain of two molecules of ATP for each glucose molecule broken down. Two molecules of the activated carrier NADH are also produced."
+        },
+        {
+            "id": "Cell_Biology_Alberts_350",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have shown this particular oxidation process in some detail because it provides a clear example of enzyme-mediated energy storage through coupled reactions (Figure 2\u201349). Steps 6 and 7 are the only reactions in glycolysis that create a high-energy phosphate linkage directly from inorganic phosphate. As such, they account for the net yield of two ATP molecules and two NADH molecules per molecule of glucose (see Panel 2\u20138, pp. 104\u2013105). As we have just seen, ATP can be formed readily from ADP when a reaction intermediate is formed with a phosphate bond of higher energy than the terminal phosphate bond in ATP. Phosphate bonds can be ordered in energy by comparing the standard free-energy change (\u2206G\u00b0) for the breakage of each bond by hydrolysis. Figure 2\u201350 compares the high-energy phosphoanhydride bonds in ATP with the energy of some other phosphate bonds, several of which are generated during glycolysis."
+        },
+        {
+            "id": "Biochemistry_Lippincott_417",
+            "title": "Biochemistry_Lippinco",
+            "content": "F. Summary of the reactions of glycolysis and gluconeogenesis Of the 11 reactions required to convert pyruvate to free glucose, 7 are catalyzed by reversible glycolytic enzymes (Fig. 10.7). The 3 irreversible reactions (catalyzed by hexokinase/glucokinase, PFK-1, and PK) are circumvented by reactions catalyzed by glucose 6-phosphatase, fructose 1,6-bisphosphatase, PC, and PEPCK. In gluconeogenesis, the equilibria of the reversible glycolytic reactions are pushed toward glucose synthesis as a result of the essentially irreversible formation of PEP, fructose 6-phosphate, and glucose by the gluconeogenic enzymes. [Note: The stoichiometry of gluconeogenesis from two pyruvate molecules couples the cleavage of six high-energy phosphate bonds and the oxidation of two NADH with the formation of one glucose molecule (see Fig. 10.7).] IV. REGULATION"
+        },
+        {
+            "id": "Biochemistry_Lippincott_394",
+            "title": "Biochemistry_Lippinco",
+            "content": "IV. CYCLE REGULATION In contrast to glycolysis, which is regulated primarily by PFK-1, the TCA cycle is controlled by the regulation of several enzymes (see Fig. 9.8). The most important of these regulated enzymes are those that catalyze reactions with highly negative \u2206G0: citrate synthase, isocitrate dehydrogenase, and the \u03b1ketoglutarate dehydrogenase complex. Reducing equivalents needed for oxidative phosphorylation are generated by the PDHC and the TCA cycle, and both processes are upregulated in response to a decrease in the ATP/ADP ratio. V. CHAPTER SUMMARY"
+        },
+        {
+            "id": "Cell_Biology_Alberts_607",
+            "title": "Cell_Biology_Alberts",
+            "content": "WHY ANALYZE THE KINETICS OF ENZYMES? Enzymes are the most selective and powerful catalysts known. An understanding of their detailed mechanisms provides a critical tool for the discovery of new drugs, for the large-scale industrial synthesis of useful chemicals, and for appreciating the chemistry of cells and organisms. A detailed study of the rates of the chemical reactions that are catalyzed by a purifed enzyme\u2014more specifcally how these rates change with changes in conditions such as the concentrations of substrates, products, inhibitors, and regulatory ligands\u2014allows biochemists to fgure out exactly how each enzyme works. For example, this is the way that the ATP-producing reactions of glycolysis, shown previously in Figure 2\u201348, were deciphered\u2014allowing us to appreciate the rationale for this critical enzymatic pathway. In this Panel, we introduce the important feld of enzyme kinetics, which has been indispensable for deriving much of the detailed knowledge that we now have about"
+        },
+        {
+            "id": "Biochemistry_Lippincott_352",
+            "title": "Biochemistry_Lippinco",
+            "content": "3. Pyruvate kinase deficiency: Because mature RBC lack mitochondria, they are completely dependent on glycolysis for ATP production. ATP is required to meet the metabolic needs of RBC and to fuel the ion pumps necessary for the maintenance of the flexible, biconcave shape that allows them to squeeze through narrow capillaries. The anemia observed in glycolytic enzyme deficiencies is a consequence of the reduced rate of glycolysis, leading to decreased ATP production by substrate-level phosphorylation. The resulting alterations in the RBC membrane lead to changes in cell shape and, ultimately, to phagocytosis by cells of the mononuclear phagocyte system, particularly splenic macrophages. The premature death and lysis of RBC result in mild-to-severe nonspherocytic hemolytic anemia, with the severe form requiring regular transfusions. Among patients with rare genetic defects of glycolytic enzymes, the majority has a deficiency in PK. [Note: Liver PK is encoded by the same gene as the RBC"
+        },
+        {
+            "id": "Physiology_Levy_1402",
+            "title": "Physiology_Levy",
+            "content": "Chapter 39). The cytosolic enzyme phosphory lase releases glucose 1-phosphate residues from glycogen, which are then metabolized by a combination of glycolysis (in the cytosol) and oxidative phosphorylation (in the mitochondria) to yield the equivalent of 37 mol of ATP per mole of glucose 1-phosphate. Blood glucose yields 36 mol of ATP per mole of glucose because 1 ATP is used to phosphorylate glucose at the start of glycolysis. These ATP yields, however, are dependent on an adequate oxygen supply. Under anaerobic conditions, in contrast, metabolism of glycogen and glucose yields only 3 and 2 mol of ATP per mole of glucose 1-phosphate and glucose, respectively (along with 2 mol of lactate). As discussed later, muscle fatigue during prolonged exercise is associated with depletion of glycogen stores in the muscle."
+        },
+        {
+            "id": "Biochemistry_Lippincott_369",
+            "title": "Biochemistry_Lippinco",
+            "content": "PFK-1. A total of two ATP are used during this phase of glycolysis. Fructose 1,6-bisphosphate is cleaved to form two trioses that are further metabolized by the glycolytic pathway, forming pyruvate. During this phase, four ATP and two nicotinamide adenine dinucleotide (NADH) are produced per glucose molecule. The final step in pyruvate synthesis from phosphoenolpyruvate is catalyzed by pyruvate kinase (PK). This enzyme is allosterically activated by fructose 1,6-bisphosphate, and the hepatic isozyme is inhibited covalently by glucagon via the cAMP pathway. PK deficiency accounts for the majority of all inherited defects in glycolytic enzymes. Effects are restricted to RBC and present as mild-tosevere chronic, nonspherocytic hemolytic anemia. Glycolytic gene transcription is enhanced by insulin and glucose. In anaerobic glycolysis, NADH is reoxidized to NAD+ by the reduction of pyruvate to lactate via lactate dehydrogenase. This occurs in cells such as RBC that lack mitochondria and in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5504",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) Cells that are not proliferating will normally oxidize nearly all of the glucose that they import from the blood to produce ATP through the oxidative phosphorylation that takes place in their mitochondria. Only when deprived of oxygen will these cells generate most of their ATP from glycolysis, converting the pyruvate produced to lactate in order to regenerate the NAD+ that they need to keep glycolysis going (see Figure 2\u201347). (B) Tumor cells, by contrast, will generally produce abundant lactate even in the presence of oxygen. This results from a greatly increased rate of glycolysis that is fed by a very large increase in the rate of glucose import. In this way, tumor cells resemble the rapidly proliferating cells in embryos (and during tissue repair), which likewise require for biosynthesis a large supply of the small-molecule building blocks that can be produced from imported glucose (see also Figure 20\u201326)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1871",
+            "title": "Biochemistry_Lippinco",
+            "content": "of the reduced to oxidized forms of NAD. Under anaerobic conditions, pyruvate produced in glycolysis is reduced to lactate by lactate dehydrogenase as NADH is oxidized to NAD+. NAD+ is required for continued glycolysis. Because fewer ATP molecules are produced per molecule of substrate in substrate-level phosphorylation relative to oxidative phosphorylation, there is a compensatory increase in the rate of glycolysis under anaerobic conditions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_437",
+            "title": "Cell_Biology_Alberts",
+            "content": "the carbonyl oxygen from carbon 1 to carbon 2, forming a ketose from an aldose sugar. (See Panel 2\u20133, pp. 70\u201371.) The new hydroxyl group on carbon 1 is phosphorylated by ATP, in preparation for the formation of two three-carbon sugar phosphates. The entry of sugars into glycolysis is controlled at this step, through regulation of the enzyme phosphofructokinase. fructose 6-phosphate fructose 1,6-bisphosphate + (ring form) OHCCHOHaldolase (open-chain form) CCHOHCHOHCHOHCH2OCH2OOCCHOHHCH2OCH2OOOH2CCH2OOHOOHOHfructose 1,6-bisphosphate dihydroxyacetone phosphate glyceraldehyde 3-phosphate OFor each step, the part of the molecule that undergoes a change is shadowed in blue, and the name of the enzyme that catalyzes the reaction is in a yellow box. ATPATPADPADPP P P P P PP P P P P P P P CH2OStep 1 Step 2 Step 3 Step 4 104 PaNel 2\u20138: Details of the 10 Steps of Glycolysis + + enolase phosphoglycerate mutase + OO\u2013CCHOHCH2O3-phosphoglycerate OO\u2013CCHOCH2OH2-phosphoglycerate"
+        },
+        {
+            "id": "Biochemistry_Lippincott_342",
+            "title": "Biochemistry_Lippinco",
+            "content": "(see p. 121). The reciprocal actions of fructose 2,6-bisphosphate on glycolysis (activation) and gluconeogenesis (inhibition) insure that both pathways are not fully active at the same time, preventing a futile cycle of glucose oxidation to pyruvate followed by glucose resynthesis from pyruvate.] a."
+        },
+        {
+            "id": "Cell_Biology_Alberts_343",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201347 Two pathways for the anaerobic breakdown of pyruvate. (a) When there is inadequate oxygen, for example, in a muscle cell undergoing vigorous contraction, the pyruvate produced by glycolysis is converted to lactate as shown. This reaction regenerates the naD+ consumed in step 6 of glycolysis, but the whole pathway yields much less energy overall than complete oxidation. (B) in some organisms that can grow anaerobically, such as yeasts, pyruvate is C regeneration C converted via acetaldehyde into carbon dioxide and ethanol. again, this pathway CO HCOH regenerates naD+ from naDh, as required to enable glycolysis to continue. Both (a) and (B) are examples of fermentations."
+        },
+        {
+            "id": "First_Aid_Step1_65",
+            "title": "First_Aid_Step1",
+            "content": "Mitochondria Fatty acid oxidation (\u03b2-oxidation), acetyl-CoA production, TCA cycle, oxidative phosphorylation, ketogenesis. Cytoplasm Glycolysis, HMP shunt, and synthesis of cholesterol (SER), proteins (ribosomes, RER), fatty acids, and nucleotides. Both Heme synthesis, Urea cycle, Gluconeogenesis. HUGs take two (both). Enzyme terminology An enzyme\u2019s name often describes its function. For example, glucokinase is an enzyme that catalyzes the phosphorylation of glucose using a molecule of ATP. The following are commonly used enzyme descriptors. Kinase Catalyzes transfer of a phosphate group from a high-energy molecule (usually ATP) to a substrate (eg, phosphofructokinase). Phosphorylase Adds inorganic phosphate onto substrate without using ATP (eg, glycogen phosphorylase). Phosphatase Removes phosphate group from substrate (eg, fructose-1,6-bisphosphatase). Dehydrogenase Catalyzes oxidation-reduction reactions (eg, pyruvate dehydrogenase)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_606",
+            "title": "Cell_Biology_Alberts",
+            "content": "rate of reaction Figure 3\u201346 enzyme kinetics. The rate of an enzyme reaction (V) increases as the substrate concentration increases until a maximum value (Vmax) is reached. At this point all substrate-binding sites on the enzyme molecules are fully occupied, and the rate of reaction is limited by the rate of the catalytic process on the enzyme surface. For most enzymes, the concentration of substrate at which the reaction rate is half-maximal (Km) is a measure of how tightly the substrate is bound, with a large value of Km corresponding to weak binding."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3863",
+            "title": "Cell_Biology_Alberts",
+            "content": "phosphorylation, each pair of electrons donated by the NADH produced in mitochondria can provide energy for the formation of about 2.5 molecules of ATP. Oxidative phosphorylation also produces 1.5 ATP molecules per electron pair from the FADH2 produced by succinate dehydrogenase in the mitochondrial matrix, and from the NADH molecules produced by glycolysis in the cytosol. From the product yields of glycolysis and the citric acid cycle, we can calculate that the complete oxidation of one molecule of glucose\u2014starting with glycolysis and ending with oxidative phosphorylation\u2014gives a net yield of about 30 molecules of ATP. Nearly all this ATP is produced by the mitochondrial ATP synthase."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1125",
+            "title": "Biochemistry_Lippinco",
+            "content": "4. Increased glycolysis: In the liver, glycolysis is significant only during the absorptive period following a carbohydrate-rich meal. The conversion of glucose to pyruvate is stimulated by the elevated insulin/glucagon ratio that results in increased amounts of the regulated enzymes of glycolysis: glucokinase, PFK-1, and pyruvate kinase ([PK] see p. 105). Additionally, PFK-1 is allosterically activated by fructose 2,6bisphosphate generated by the active (dephosphorylated) kinase domain of bifunctional PFK-2. PK is dephosphorylated and active. Pyruvate dehydrogenase (PDH), which converts pyruvate to acetyl CoA, is active (dephosphorylated) because pyruvate inhibits"
+        },
+        {
+            "id": "Biochemistry_Lippincott_418",
+            "title": "Biochemistry_Lippinco",
+            "content": "IV. REGULATION The moment-to-moment regulation of gluconeogenesis is determined primarily by the circulating level of glucagon and by the availability of gluconeogenic substrates. In addition, slow adaptive changes in enzyme amount result from an alteration in the rate of enzyme synthesis or degradation or both. [Note: Hormonal control of the glucoregulatory system is presented in Chapter 23.] This peptide hormone from pancreatic islet \u03b1 cells (see p. 313) stimulates gluconeogenesis by three mechanisms. 1. Changes in allosteric effectors: Glucagon lowers hepatic fructose 2,6bisphosphate, resulting in fructose 1,6-bisphosphatase activation and PFK-1 inhibition, thereby favoring gluconeogenesis over glycolysis (see Fig. 10.5). [Note: See pp. 99\u2013100 for the role of fructose 2,6bisphosphate in glycolysis regulation.] 2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_408",
+            "title": "Biochemistry_Lippinco",
+            "content": "195) and are termed ketogenic.] III. REACTIONS Seven glycolytic reactions are reversible and are used in the synthesis of glucose from lactate or pyruvate. However, three glycolytic reactions are irreversible and must be circumvented by four alternate reactions that energetically favor the synthesis of glucose. These irreversible reactions, which together are unique to gluconeogenesis, are described below. A. Pyruvate carboxylation The first roadblock to overcome in the synthesis of glucose from pyruvate is the irreversible conversion in glycolysis of PEP to pyruvate by pyruvate kinase (PK). In gluconeogenesis, pyruvate is carboxylated by pyruvate carboxylase (PC) to OAA, which is converted to PEP by PEPcarboxykinase (PEPCK) (Fig. 10.3). mitochondrial and cytosolic isozymes of malate dehydrogenase; GTP and GDP = guanosine tri-and diphosphates; ADP = adenosine diphosphate."
+        },
+        {
+            "id": "Biochemistry_Lippincott_426",
+            "title": "Biochemistry_Lippinco",
+            "content": "0.2. Which reaction in the diagram below would be inhibited in the presence of large amounts of avidin, an egg white protein that binds and sequesters biotin? Correct answer = C. Pyruvate is carboxylated to oxaloacetate by pyruvate carboxylase, a biotin-requiring enzyme. B (pyruvate dehydrogenase complex) requires thiamine pyrophosphate, lipoic acid, flavin and nicotinamide adenine dinucleotides (FAD and NAD+), and coenzyme A; D (transaminase) requires pyridoxal phosphate; E (lactate dehydrogenase) requires NADH. 0.3. Which one of the following reactions is unique to gluconeogenesis? A. 1,3-Bisphosphoglycerate \u2192 3-phosphoglycerate B. Lactate \u2192 pyruvate C. Oxaloacetate \u2192 phosphoenolpyruvate D. Phosphoenolpyruvate \u2192 pyruvate Correct answer = C. The other reactions are common to both gluconeogenesis and glycolysis. 0.4. Use the chart below to show the effect of adenosine monophosphate (AMP) and fructose 2,6-bisphosphate on the listed enzymes of gluconeogenesis and glycolysis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_392",
+            "title": "Cell_Biology_Alberts",
+            "content": "2\u201310 A histidine side chain is known to play an important role in the catalytic mechanism of an enzyme; however, it is not clear whether histidine is required in its protonated (charged) or unprotonated (uncharged) state. To answer this question you measure enzyme activity over a range of pH, with the results shown in Figure Q2\u20131. Which form of histidine is required for enzyme activity? activity as a function of ph (problem 2\u201310). 2\u201311 The three molecules in Figure Q2\u20132 contain the seven most common reactive groups in biology. Most molecules in the cell are built from these functional groups. Indicate and name the functional groups in these molecules. O Figure Q2\u20132 Three molecules that illustrate the seven most common functional groups in biology (problem 2\u201311). 1,3-Bisphosphoglycerate and O pyruvate are intermediates in glycolysis and cysteine is an amino acid."
+        },
+        {
+            "id": "Biochemistry_Lippincott_345",
+            "title": "Biochemistry_Lippinco",
+            "content": "F. Glyceraldehyde 3-phosphate oxidation The conversion of glyceraldehyde 3-phosphate to 1,3-bisphosphoglycerate (1,3-BPG) by glyceraldehyde 3-phosphate dehydrogenase is the first oxidation-reduction reaction of glycolysis (Fig. 8.18). [Note: Because there is a limited amount of NAD+ in the cell, the NADH formed by the dehydrogenase reaction must be oxidized for glycolysis to continue. Two major mechanisms for oxidizing NADH to NAD+ are the reduction of pyruvate to lactate by lactate dehydrogenase (LDH) (anaerobic, see p. 96) and the electron transport chain ([ETC] aerobic, see p. 74). Because NADH cannot cross the inner mitochondrial membrane, the ETC requires the malate-aspartate and glycerol 3-phosphate substrate shuttles to move NADH reducing equivalents into the mitochondrial matrix (see p. 79).] 1."
+        },
+        {
+            "id": "InternalMed_Harrison_20923",
+            "title": "InternalMed_Harrison",
+            "content": "glycolysis. The local accumulation of lactic acid, a consequence of increased glycolysis, may decrease extracellular pH and contribute to the slowdown in cellular metabolism that occurs within affected tissues."
+        }
+    ],
+    "scores": [
+        0.03573543602691377,
+        0.03539440153764678,
+        0.034096443329397874,
+        0.0333586788332669,
+        0.030990329156033385,
+        0.030844703472786963,
+        0.03074003530955761,
+        0.030512291504968696,
+        0.030153078237332907,
+        0.03004165506064673,
+        0.02946997488072744,
+        0.029233788592427333,
+        0.028705036579052327,
+        0.028365932236518412,
+        0.02633694473254516,
+        0.026279237332972258,
+        0.024801285988440502,
+        0.024600669536107126,
+        0.02427536231884058,
+        0.024202679163901793,
+        0.023716699155295645,
+        0.02289031315005341,
+        0.0227525978571044,
+        0.022309936980727967,
+        0.022171578421578422,
+        0.0221623240491165,
+        0.02182867842097051,
+        0.021428040045061325,
+        0.021293344924176567,
+        0.020940531684143074,
+        0.020933822110746673,
+        0.020766614298518584
+    ],
+    "execution_time": 38.881202697753906
+}

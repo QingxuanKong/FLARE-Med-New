@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-121",
+    "question": "Which of the following would be the most dependable environmental signal that a plant in a temperate ecosystem could use to initiate flowering at the correct time of the year?",
+    "options": {
+        "A": "Circadian rhythm",
+        "B": "Photoperiod",
+        "C": "Changing air temperature",
+        "D": "Fluctuations in abscisic acid levels"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To determine the most dependable environmental signal that a plant in a temperate ecosystem could use to initiate flowering at the correct time of the year, we need to consider the characteristics of each option. First, let's consider the circadian rhythm (A). While the circadian rhythm is an internal clock that regulates many physiological processes in plants, it is not directly related to the external environmental cues that trigger flowering. Next, let's consider photoperiod (B). Photoperiod refers to the length of daylight hours, which is a critical environmental cue for many plants to initiate flowering. In temperate ecosystems, the day length changes throughout the year, providing a clear signal for plants to flower at the correct time. Now, let's consider changing air temperature (C). While temperature can affect plant growth and development, it is not a reliable cue for flowering initiation. Temperature fluctuations can be unpredictable and may not provide a consistent signal for flowering. Finally, let's consider fluctuations in abscisic acid levels (D). Abscisic acid is a plant hormone involved in stress responses, such as drought and cold stress, but it is not directly related to flowering initiation. Based on this analysis, the most dependable environmental signal that a plant in a temperate ecosystem could use to initiate flowering at the correct time of the year is photoperiod.\"} \"answer_choice\": \"B\"",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5941",
+            "title": "Cell_Biology_Alberts",
+            "content": "environmental cues Determine the time of Flowering Another striking example of environmentally controlled developmental timing is the flowering of plants. Flowering involves a transformation of the behavior of the cells at the growing apex of the plant shoot\u2014the apical meristem. During ordinary vegetative growth, these cells behave as stem cells, generating a steady succession of new leaves and new segments of stalk. In flowering, the meristem cells switch to making the components of a flower, with its sepals and petals, its stamens carrying pollen, and its ovary containing the female gametes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5942",
+            "title": "Cell_Biology_Alberts",
+            "content": "To time the switch correctly, the plant has to take account of both past and present conditions. One important cue, for many plants, is day length. To sense this, the plant uses its circadian clock\u2014an endogenous 24-hour rhythm of gene expression\u2014to generate a signal for flowering only when there is light for the appropriate part of the day. The clock itself is influenced by light, and the plant in effect uses the clock to compare past to present lighting conditions. Important parts of the genetic circuitry underlying these phenomena have been identified, including the phytochromes and cryptochromes that act as light receptors (discussed in Chapter 15). The flowering signal that is carried from the leaves to the stem cells via the vasculature depends on the product of Flowering locus T (Ft)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5943",
+            "title": "Cell_Biology_Alberts",
+            "content": "But this signal will trigger flowering only if the plant is in a receptive condition from prior long-term cold exposure. Many plants need winter before they will flower\u2014a process called vernalization. Cold over a period of weeks or months progressively reduces the level of expression of a remarkable gene called Flowering locus C (Flc). Flc encodes a transcriptional repressor that suppresses expression of the Ft flowering promoter. How does vernalization shut down Flc so as to lift the block to flowering? The effect involves a noncoding RNA called Coolair that overlaps with the Flc gene and is produced when the temperature is low (Figure 21\u201344). Together with cold-induced chromatin modifiers, including Polycomb-group proteins, Coolair coordinates the switching of Flc chromatin to a silent state (discussed in Chapters 4 and 7). The degree of silencing depends on the length of cold exposure enabling the plants to distinguish the odd chilly night from the whole of winter."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5945",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mutations affecting the regulation of Flc expression alter the time of flowering and thus the ability of a plant to flourish in a given climate. The whole control system governing the switch to flowering is thus of vital importance for agriculture, especially in an era of rapid climate change. The example of vernalization suggests a general point about the role of chromatin modification in developmental timing. The plant uses changes in chromatin to record its experience of prolonged cold. It may be that in other organisms\u2014animals as well as plants\u2014slow, progressive changes in chromatin structure provide long-term timers for those mysterious developmental processes that unfold slowly, over a period of days, weeks, months, or years. Such chromatin timers may be among the most important clocks in the embryo, but as yet we understand very little about them."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4396",
+            "title": "Cell_Biology_Alberts",
+            "content": "In plants, as in animals, cells are in constant communication with one another. Plant cells communicate to coordinate their activities in response to the changing conditions of light, dark, and temperature, which guide the plant\u2019s cycle of growth, flowering, and fruiting. Plant cells also communicate to coordinate activities in their roots, stems, and leaves. In this final section, we consider how plant cells signal to one another and how they respond to light. Less is known about the receptors and intracellular signaling mechanisms involved in cell communication in plants than is known in animals, and we will concentrate mainly on how the receptors and intracellular signaling mechanisms differ from those used by animals."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5944",
+            "title": "Cell_Biology_Alberts",
+            "content": "The effect on the chromatin is long lasting, persisting through many rounds of cell division even as the weather grows warmer. Thus vernalization creates a persistent block in production of Flc, enabling the Ft signal to be generated when day length is sufficiently long. Figure 21\u201344 Temporal control of flowering in Arabidopsis. the Flc gene is active and blocks flowering when plants have been grown without exposure to winterlike temperatures. exposure to a prolonged period of cold leads to the production of the noncoding rNa Coolair, which overlaps with the Flc gene. coolair induces long-term chromatin changes that turn off Flc. these changes persist after the end of the cold period and allow the plant to flower when other environmental conditions are favorable for flowering."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5949",
+            "title": "Cell_Biology_Alberts",
+            "content": "hormones: as a tadpole grows, for example, thyroid hormone levels surge and trigger its metamorphosis into a frog. Environmental control of developmental timing is especially striking in plants and reveals the presence of molecular timers that act over the long term. In vernalization, for example, prolonged cold induces changes in chromatin that chart the passage through winter so as to allow flowering only in the spring. Slow, progressive changes in chromatin structure are likely to be important timers in the long-term programming of development in animals too."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4413",
+            "title": "Cell_Biology_Alberts",
+            "content": "Phytochromes Detect Red Light, and Cryptochromes Detect Blue Light Plant development is greatly influenced by environmental conditions. Unlike animals, plants cannot move when conditions become unfavorable; they have to adapt or they die. The most important environmental influence on plants is of root downward side of root"
+        },
+        {
+            "id": "Cell_Biology_Alberts_152",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because of the close evolutionary relationship between all flowering plants, we can, once again, get insight into the cell and molecular biology of this whole class of organisms by focusing on just one or a few species for detailed analysis. Out of the several hundred thousand species of flowering plants on Earth today, molecular biologists have chosen to concentrate their efforts on a small weed, the common Thale cress Arabidopsis thaliana (Figure 1\u201338), which can be grown indoors in large numbers and produces thousands of offspring per plant after 8\u201310 weeks. Arabidopsis has a total genome size of approximately 220 million nucleotide pairs, about 17 times the size of yeast\u2019s (see Table 1\u20132). The World of Animal cells Is Represented By a Worm, a Fly, a Fish, a mouse, and a human"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5940",
+            "title": "Cell_Biology_Alberts",
+            "content": "A surge of thyroid hormone triggers metamorphosis, but how is the timing of the surge controlled? One mechanism depends on coupling hormone synthesis to the size of the thyroid gland, which reflects the size of the tadpole. Only when the gland attains a certain size does it produce enough thyroid hormone to initiate metamorphosis. However, environmental cues other than nutrition also play a part: conditions such as temperature and light are sensed by the nervous system, which regulates the secretion of another tier of hormones (neurohormones) that stimulate the secretion of thyroid hormone. Thus, tadpole-intrinsic factors such as size combine with environmental factors to determine when metamorphosis begins. environmental cues Determine the time of Flowering"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4399",
+            "title": "Cell_Biology_Alberts",
+            "content": "Notch, Wnt, or Hedgehog encoded by the completely sequenced genome of Arabidopsis thaliana, the small flowering plant. Similarly, plants do not seem to use cyclic AMP for intracellular signaling. Nevertheless, the general strategies underlying signaling are frequently very similar in plants and animals. Both, for example, use enzyme-coupled cell-surface receptors, as we now discuss. Receptor Serine/Threonine Kinases Are the Largest Class of Cell-Surface Receptors in Plants"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4416",
+            "title": "Cell_Biology_Alberts",
+            "content": "T. Paciorek et al., Nature 435:1251\u20131256, 2005. With permission from Macmillan Publishers Ltd.) light, which is their energy source and has a major role throughout their entire life cycle\u2014from germination, through seedling development, to flowering and senescence. Plants have thus evolved a large set of light-sensitive proteins to monitor the quantity, quality, direction, and duration of light. These are usually referred to as photoreceptors. However, because the term photoreceptor is also used for light-sensitive cells in the animal retina (see Figure 15\u201338), we shall use the term photoprotein instead."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4407",
+            "title": "Cell_Biology_Alberts",
+            "content": "Regulated Positioning of Auxin Transporters Patterns Plant Growth The plant hormone auxin, which is generally indole-3-acetic acid (Figure 15\u201371A), binds to receptor proteins in the nucleus. It helps plants grow toward light, grow upward rather than branch out, and grow their roots downward. It also regulates organ initiation and positioning and helps plants flower and bear fruit. Like ethylene (and like some of the animal signal molecules we have described in this chapter), auxin influences gene expression by controlling the degradation of transcription regulators. It works by stimulating the ubiquitylation and degradation of repressor proteins that block the transcription of auxin target genes in unstimulated cells (Figure 15\u201371B and C). Auxin is unique in the way that it is transported. Unlike animal hormones, which are usually secreted by a specific endocrine organ and transported to target"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4422",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 15\u201373 One way in which phytochromes mediate a light response in plant cells. When activated by red light, the phytochrome, which is a dimeric protein kinase, phosphorylates itself and then moves into the nucleus, where it activates transcription regulatory proteins to stimulate the transcription of red-lightresponsive genes. How does a cell integrate the information received from its many different cell-surface receptors to make all-or-none decisions? Much of what we know about cell signaling comes from biochemical studies of isolated proteins in test tubes. What is the precise quantitative behavior of intracellular signaling networks in an intact cell, or in an intact animal, where countless other signals and cell components might influence signaling specificity and strength? How do intracellular signaling circuits generate specific and dynamic signaling patterns such as oscillations and waves, and how are these patterns sensed and interpreted by the cell?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4046",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Assuming that it takes eight photons to fix one molecule of CO2 as carbohydrate under optimal conditions (8\u201310 photons is the currently accepted value), calculate how long it would take a tomato plant with a leaf area of 1 square meter to make a mole of glucose from CO2. Assume that photons strike the leaf at the rate calculated above and, furthermore, that all the photons are absorbed and used to fix CO2. D. If it takes 468 kJ/mole to fix a mole of CO2 into carbohydrate, what is the efficiency of conversion of light energy into chemical energy after photon capture? Assume again that eight photons of red light (680 nm) are required to fix one molecule of CO2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2358",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because defects in genes that are required for fundamental cell processes\u2014 RNA synthesis and processing or cell-cycle control, for example\u2014are usually lethal, the functions of these genes are often studied in individuals with Figure 8\u201344 Insertional mutant of the snapdragon, Antirrhinum. A mutation in a single gene coding for a regulatory protein causes leafy shoots (left) to develop in place of flowers, which occur in the normal plant (right). The mutation causes cells to adopt a character that would be appropriate to a different part of the normal plant, so instead of a flower, the cells produce a leafy shoot. (Courtesy of Enrico Coen and Rosemary Carpenter.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5436",
+            "title": "Cell_Biology_Alberts",
+            "content": "the final ordered arrays of signals to cells, shape of the cell and, ultimately, of the plant as a whole. might the exact spatial relationships between such signals carry a message beyond that of the individual signals themselves?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_142",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201334 Genetic control of the program of multicellular development. The role of a regulatory gene is demonstrated in the snapdragon Antirrhinum. In this example, a mutation in a single gene coding for a regulatory protein causes leafy shoots to develop in place of flowers: because a regulatory protein has been changed, the cells adopt characters that would be appropriate to a different location in the normal plant. The mutant is on the left, the normal plant on the right. (courtesy of enrico coen and Rosemary carpenter.) To analyze the internal workings of the eukaryotic cell without the additional problems of multicellular development, it makes sense to use a species that is unicellular and as simple as possible. The popular choice for this role of minimal model eukaryote has been the yeast Saccharomyces cerevisiae (Figure 1\u201336)\u2014the same species that is used by brewers of beer and bakers of bread."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4403",
+            "title": "Cell_Biology_Alberts",
+            "content": "Ethylene Blocks the Degradation of Specific Transcription Regulatory Proteins in the Nucleus Various plant growth regulators (also called plant hormones) help to coordinate plant development. They include ethylene, auxin, cytokinins, gibberellins, and abscisic acid, as well as brassinosteroids. Growth regulators are all small molecules made by most plant cells. They diffuse readily through cell walls and can either act locally or be transported to influence cells further away. Each growth regulator can have multiple effects. The specific effect depends on environmental conditions, the nutritional state of the plant, the responsiveness of the target cells, and which other growth regulators are acting."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5433",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this way, plant cells can change their direction of expansion by a sudden What WE DON\u2019t KNOW change in the orientation of their cortical array of microtubules. Because plant cells cannot move (being constrained by their walls), the entire morphology of \u2022 What are the regulatory mechanisms a multicellular plant presumably depends on a coordinated, highly patterned that control the rearrangement of deployment of cortical microtubule orientations during plant development. It is cell\u2013cell junctions in epithelia during early development? What roles do not known how these orientations are controlled, although it has been shown that the microtubules can reorient rapidly in response to extracellular stimuli, includ these rearrangements? ing plant growth regulators such as ethylene and auxins (discussed in Chapter 15)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_151",
+            "title": "Cell_Biology_Alberts",
+            "content": "Arabidopsis has Been chosen out of 300,000 species As a model Plant The large multicellular organisms that we see around us\u2014the flowers and trees and animals\u2014seem fantastically varied, but they are much closer to one another in their evolutionary origins, and more similar in their basic cell biology, than the great host of microscopic single-celled organisms. Thus, while bacteria and archaea are separated by perhaps 3.5 billion years of evolution, vertebrates and insects are separated by about 700 million years, fish and mammals by about 450 million years, and the different species of flowering plants by only about 150 million years."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1879",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eve exemplifies the complex control regions found in plants and animals. As this example shows, control regions can respond to many different inputs, integrate this information, and produce a complex spatial and temporal output as development proceeds. However, exactly how all these mechanisms work together to produce the final output is understood only in broad outline (Figure 7\u201331)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4373",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus far, we have focused on the control of gene expression by extracellular signal molecules produced by other cells. We now turn to gene regulation by a more global environmental signal: the cycle of light and darkness that results from the Earth\u2019s rotation. Life on Earth evolved in the presence of a daily cycle of day and night, and many present-day organisms (ranging from archaea to plants and humans) possess an internal rhythm that dictates different behaviors at different times of day. These behaviors range from the cyclical change in metabolic enzyme activities of a bacterium to the elaborate sleep\u2013wake cycles of humans. The internal oscillators that control such diurnal rhythms are called circadian clocks."
+        },
+        {
+            "id": "Pathology_Robbins_1823",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 8.1A ), as well as ozone (an important air pollutant, discussed later), and methane. These gases, along with water vapor, produce the so-called \u201cgreenhouse effect\u201d by absorbing energy radiated from Earth\u2019s surface that otherwise would be lost into space. The annual average level of atmospheric CO2 (about 401 ppm) in 2015 was higher than at any point in approximately 650,000 years and, without changes in human behavior, is expected to increase to 500 to 1200 ppm by the end of this century\u2014levels not experienced for tens of millions of years. This increase stems not only from increased CO2 production but also from deforestation and the attendant decrease in carbon fixation by plants. Depending on the computer model used, increased levels of greenhouse gases are projected to cause the global temperature to rise by 2\u00b0C to 5\u00b0C by the year 2100 ("
+        },
+        {
+            "id": "Cell_Biology_Alberts_4398",
+            "title": "Cell_Biology_Alberts",
+            "content": "If multicellularity evolved independently in plants and animals, the molecules and mechanisms used for cell communication will have evolved separately and would be expected to be different. There should be some degree of resemblance, however, because the genes in both plants and animals diverged from those contained by their last common unicellular ancestor. Thus, whereas both plants and animals use nitric oxide, cyclic GMP, Ca2+, and Rho family GTPases for signaling, there are no homologs of the nuclear receptor family, Ras, JAK, STAT, TGF\u03b2, Figure 15\u201368 The proposed divergence of plant and animal lineages from a common unicellular eukaryotic ancestor. The plant lineage acquired chloroplasts after the two lineages diverged. Both lineages independently gave rise to multicellular organisms\u2014plants and animals. (Paintings courtesy of John Innes Foundation.) unicellular ancestor of animals unicellular ancestor of plants CHLOROPLASTS chloroplast"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4044",
+            "title": "Cell_Biology_Alberts",
+            "content": "14\u201311 How much energy is available in visible light? How much energy does sunlight deliver to Earth? How efficient Figure Q14\u20132 Experimental set-up for observing rotation of the \u03b3 subunit of atp synthase (problem 14\u201310). (a) the immobilized \u03b13\u03b23\u03b3 complex. the \u03b2 subunits are anchored to a solid support and a fluorescent actin filament is attached to the \u03b3 subunit. (B) Stepwise revolution of the actin filament. the indicated trace is a typical example from one experiment. the inset shows the positions in the revolution at which the actin filament pauses. (B, from r. yasuda et al., Cell 93:1117\u20131124, 1998. With permission from Elsevier.) are plants at converting light energy into chemical energy? The answers to these questions provide an important backdrop to the subject of photosynthesis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4404",
+            "title": "Cell_Biology_Alberts",
+            "content": "Ethylene is an important example. This small gas molecule (Figure 15\u201369A) can influence plant development in various ways; it can, for example, promote fruit ripening, leaf abscission, and plant senescence. It also functions as a stress signal in response to wounding, infection, flooding, and so on. When the shoot of a germinating seedling, for instance, encounters an obstacle, ethylene promotes a complex response that allows the seedling to safely bypass the obstacle (Figure 15\u201369B and C). Plants have various ethylene receptors, which are located in the endoplasmic reticulum and are all structurally related. They are dimeric, multipass transmembrane proteins, with a copper-containing ethylene-binding domain and a domain that interacts with a cytoplasmic protein called CTR1, which is closely related Figure 15\u201369 The ethylene-mediated triple response that occurs when the growing shoot of a germinating seedling encounters an obstacle underground."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5434",
+            "title": "Cell_Biology_Alberts",
+            "content": "ing plant growth regulators such as ethylene and auxins (discussed in Chapter 15). Microtubules are not, however, the only cytoskeletal elements that influence \u2022 how do extracellular matrix proteins wall deposition. Local foci of cortical actin filaments can also direct the deposition and carbohydrates influence the of new wall material at specific sites on the cell surface, contributing to the elabo-localization and actions of extracellular rate final shaping of many differentiated plant cells. receptors?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_194",
+            "title": "Cell_Biology_Alberts",
+            "content": "1\u201310 Animal cells have neither cell walls nor chloroplasts, whereas plant cells have both. Fungal cells are somewhere in between; they have cell walls but lack chloroplasts. Are fungal cells more likely to be animal cells that gained the ability to make cell walls, or plant cells that lost their chloroplasts? This question represented a difficult issue for early investigators who sought to assign evolutionary relationships based solely on cell characteristics and morphology. How do you suppose that this question was eventually decided?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4405",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) The structure of ethylene. (B) In the absence of obstacles, the shoot grows upward and is long and thin. (C) If the shoot encounters an obstacle, such as a piece of gravel in the soil, the seedling responds to the encounter in three ways. First, it thickens its stem, which can then exert more force on the obstacle. Second, it shields the tip of the shoot (at top) by increasing the curvature of a specialized hook structure. Third, it reduces the shoot\u2019s tendency to grow away from the direction of gravity, so as to avoid the obstacle. (Courtesy of Melanie Webb.) in sequence to the Raf MAP kinase kinase kinase discussed earlier (see Figure 15\u201349). Surprisingly, it is the empty receptors that are active and keep CTR1 active. By an unknown signaling mechanism, active CTR1 stimulates the ubiquitylation and degradation in proteasomes of a nuclear transcription regulator called EIN3, which is required for the transcription of ethylene-responsive genes. In this way, the empty but active"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4442",
+            "title": "Cell_Biology_Alberts",
+            "content": "Niehrs C (2012) The complex world of WNT receptor signalling. Nat. Rev. Mol. Cell Biol. 13, 767\u2013779. Chen M, Chory J & Fankhauser C (2004) Light signal transduction in higher plants. Annu. Rev. Genet. 38, 87\u2013117. Dievart A & Clark SE (2004) LRR-containing receptors regulating plant development and defense. Development 131, 251\u2013261. Kim TW & Wang ZY (2010) Brassinosteroid signal transduction from receptor kinases to transcription factors. Annu. Rev. Plant Biol. 61, 681\u2013704. Mockaitis K & Estelle M (2008) Auxin receptors and plant development: a new signaling paradigm. Annu. Rev. Cell Dev. Biol. 24, 55\u201380. Stepanova AN & Alonso JM (2009) Ethylene signaling and response: where different regulatory modules meet. Curr. Opin. Plant Biol. 12, 548\u2013555. The Cytoskeleton 16"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5740",
+            "title": "Cell_Biology_Alberts",
+            "content": "Plants and animals have very different ways of life, and they use different developmental strategies; in this chapter, we focus mainly on animals. Four processes are fundamental to animal development: (1) cell proliferation, which produces many cells from one; (2) cell\u2013cell interactions, which coordinate the behavior of each cell with that of its neighbors; (3) cell specialization, or differentiation, which creates cells with different characteristics at different positions; and (4) cell movement, which rearranges the cells to form structured tissues and organs (Figure 21\u20131). It is on the fourth point that plant development differs radically: plant cells are unable to migrate or move independently through the embryo because each one is contained within a cell wall, through which it is cemented to its neighbors, as discussed in Chapter 19."
+        }
+    ],
+    "scores": [
+        0.038942795500415746,
+        0.038941174337213946,
+        0.03865002311604253,
+        0.037884248321520576,
+        0.03658439172457864,
+        0.035978284494009624,
+        0.035856952326128864,
+        0.034389398984293544,
+        0.03223255173679622,
+        0.03160988819007687,
+        0.030226697618001966,
+        0.02953191547636981,
+        0.028825280818561116,
+        0.027300705825695666,
+        0.02692823269959785,
+        0.02620492942295034,
+        0.02598850920768729,
+        0.02428509995572587,
+        0.022740326701762723,
+        0.02244085532302093,
+        0.021534371893354255,
+        0.021272473159265615,
+        0.02007947523214699,
+        0.01959187915742794,
+        0.0193927304964539,
+        0.01842373427750276,
+        0.016771929824561403,
+        0.01668520578420467,
+        0.016597796143250687,
+        0.015966921119592876,
+        0.015423410743607788,
+        0.015069615069615069
+    ],
+    "execution_time": 21.566152334213257
+}

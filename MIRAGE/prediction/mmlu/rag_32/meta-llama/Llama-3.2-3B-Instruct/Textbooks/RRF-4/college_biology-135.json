@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-135",
+    "question": "A quote from a natural resources text states: \"Whenever the original ecosystem becomes restructured by man, it tends to become simplified, with a resultant disruption of the stabilizing influences of density-dependent regulatory factors.\" This implies that in a disturbed ecosystem",
+    "options": {
+        "A": "there exist large populations of a low number of species",
+        "B": "population levels of a species are kept at equilibrium through natural regulatory mechanisms",
+        "C": "a given prey organism is subject to higher predation rates by more diverse predators",
+        "D": "a given prey organism is less likely to undergo a population surge"
+    },
+    "answer": "A",
+    "predict": "Here's my step-by-step thinking and the answer in JSON format: **Step 1:** Understand the quote and the concept of ecosystem simplification. The quote mentions that when an ecosystem is restructured by humans, it tends to become simplified, leading to a disruption of natural regulatory mechanisms. **Step 2:** Identify the key concept of density-dependent regulatory factors. Density-dependent regulatory factors refer to mechanisms that maintain a balance in population levels of a species through interactions with other species in the ecosystem. **Step 3:** Analyze the options in relation to the concept of density-dependent regulatory factors. - Option A: \"there exist large populations of a low number of species\" does not directly relate to the concept of density-dependent regulatory factors. - Option B: \"population levels of a species are kept at equilibrium through natural regulatory mechanisms\" is a good match, as density-dependent regulatory factors help maintain equilibrium in population levels. - Option C: \"a given prey organism is subject to higher predation rates by more diverse predators\" introduces a new concept of predation, which is not directly related to the concept of density-dependent regulatory factors. - Option D: \"a given prey organism is less likely to undergo a population surge\" also introduces a new concept of population surge, which is not directly related to the concept of density-dependent regulatory factors. **Step 4:** Choose the correct answer based on the analysis. Based on the analysis, the correct answer is: {\"step_by_step_thinking\": \"The correct answer is B because it directly relates to the concept of density-dependent regulatory factors, which maintain population levels of a species in equilibrium. The quote implies that when an ecosystem is restructured, these regulatory mechanisms are disrupted, leading to simplification and potential changes in population dynamics.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_5164",
+            "title": "InternalMed_Harrison",
+            "content": "enteropathogenic versus commensal Escherichia coli). Differences in perfused ecosystem exposed to the complex and varying set of sub-genome content among strains of a given species reflect differences stances we ingest, to adapt to changing circumstances rather than in community membership as well as differences in the selective pres-depending on one strain to occupy a given niche important for proper sures these strains experience within and between habitats. Horizontal community functioning. In ecologic studies of different environments, gene transfer among members of a microbiota\u2014mediated by phage, such as grasslands, forests, and reefs, increased diversity within a com-plasmids, and other mechanisms\u2014is a major contributor to this munity increases its capacity to respond to disturbances and to restore strain-level variation. itself (i.e., its resilience); the same is likely true of microbial ecosystems."
+        },
+        {
+            "id": "Cell_Biology_Alberts_59",
+            "title": "Cell_Biology_Alberts",
+            "content": "multicellular animals, e.g., tube worms population of microbes lives in the neighborhood of the vent, thriving on this austere diet and harvesting free energy from reactions between the available chemicals. Other organisms\u2014clams, mussels, and giant marine worms\u2014in turn live off the microbes at the vent, forming an entire ecosystem analogous to the world of plants and animals that we belong to, but powered by geochemical energy instead of light (Figure 1\u201312)."
+        },
+        {
+            "id": "InternalMed_Harrison_5199",
+            "title": "InternalMed_Harrison",
+            "content": "vary dramatically in their representation among different samples, with different characteristic bacterial phyla in the oral versus the fecal microbiota; e.g., members of the Actinobacteria and Fusobacteria are far more common in the mouth than in the gut, while members of Bacteroidetes are far more common in fecal samples. In contrast, metabolic pathways are far more consistently represented in different samples, even when the species that contribute to these pathways are completely different. These results suggest a high degree of functional redundancy in microbial ecosystems\u2014similar to that observed in macroecosystems, in which many fundamentally different lineages of organisms can play the same ecologic roles (e.g., pollinator or top predator). (Adapted from Human Microbiome Project Consortium: Nature 486:207, 2012; and CA Lozupone et al: Nature 489:220, 2012.) understanding of our microbiota. Few high-resolution time series of way for defining stability at the strain level than"
+        },
+        {
+            "id": "InternalMed_Harrison_5194",
+            "title": "InternalMed_Harrison",
+            "content": "by macro-ecologists suggests that species are added to the community without respect to function, automatically endowing the community with functional redundancy. If applicable to the microbial world, neutral community assembly would predict a high level of variation in the types of microbial lineages that occupy a given body habitat in different individuals, although the broad functions encoded in the microbiomes of these communities could be quite similar."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2498",
+            "title": "Cell_Biology_Alberts",
+            "content": "The most important and basic insights for which we, as biologists, depend on mathematics concern the behavior of regulatory systems over time. This is the central theme of dynamics, and it was for the solution of problems in dynamics that the techniques of calculus were developed, by Newton and Leibniz, in the seventeenth century. Briefly, the general problem is this: if we are given the rates of change of a set of variables that characterize the system at any instant, how can we compute its future state? The problem becomes especially interesting, and the predictions often remarkable, when the rates of change themselves depend on the values of the state variables, as in systems with feedback."
+        },
+        {
+            "id": "InternalMed_Harrison_5273",
+            "title": "InternalMed_Harrison",
+            "content": "There are unique properties of scale-free biologic systems that reflect their evolution and promote their adaptability and survival. Biologic networks likely evolved one node at a time in a process in which new nodes are more likely to link to a highly connected node than to a sparsely connected node. Furthermore, scale-free networks can become sparsely linked to one another, yielding more complex, modular scale-free topologies. This evolutionary growth of biologic networks has three important properties that affect system function and survival. First, this scale-free addition of new nodes promotes system redundancy, which minimizes the consequences of errors and accommodates adverse perturbations to the system robustly with minimal effects on critical functions (unless the highly connected nodes are the focus of the perturbation). Second, this resulting network redundancy provides a survival advantage to the system. In complex gene networks, for example, mutations or polymorphisms in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2547",
+            "title": "Cell_Biology_Alberts",
+            "content": "Biological regulatory systems are exposed to frequent and sometimes extreme variations in external conditions or the concentrations or activities of key components. The ability of these systems to function normally in the face of such perturbations is called robustness. If we understand a complex system to the extent that we can reproduce its behavior with a computational model, then the robustness of the system can be assessed by determining how well its normal function persists following changes in various parameters, such as rate constants and component concentrations. We have already seen, for example, how the presence of negative feedback reduces the sensitivity of the steady state to changes in the values of the system\u2019s parameters (see Figure 8\u201377). Considerations of robustness also apply to dynamic behaviors. Thus, for example, when discussing negative feedback, we described how the behavior of a system tends to become more oscillatory as the number of components that"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5897",
+            "title": "Cell_Biology_Alberts",
+            "content": "It is not yet possible to trace the genetic steps that have led to all the spectacular diversity of animals. Their lineages have diverged over hundreds of millions of years, and in most cases too many changes have occurred for us to be able to say that this or that feature results from this or that mutation. The picture is clearer, however, for more recent evolutionary events. Studies of both closely related animal populations and plant populations whose members have different morphologies have revealed that dramatic developmental effects can result from subtle changes in regulatory DNA."
+        },
+        {
+            "id": "InternalMed_Harrison_5205",
+            "title": "InternalMed_Harrison",
+            "content": "In any body habitat, the microbial-community state after disturbance may be degraded. However, this degraded state may itself be resilient, and it may therefore be difficult to restore a more functional state. For example, Clostridium difficile infection can persist for years. The development and resilience of a degraded state may be driven by positive feedback loops, such as reactive oxygen species cascades involving host macrophages that promote the further growth of proinflammatory Proteobacteria, as well as negative-feedback loops such as depletion of the butyrate needed for promotion of a healthy gut epithelial barrier and further establishment of beneficial members of the microbiota. Consequently, microbiota-based therapies may require either (1) the elimination of a feedback loop that prevents establishment of a new community or (2) identification of a direction for change and a stimulus of sufficient magnitude (e.g., invasion and establishment of microbes from a fecal"
+        },
+        {
+            "id": "Cell_Biology_Alberts_135",
+            "title": "Cell_Biology_Alberts",
+            "content": "Much of our noncoding DNA is almost certainly dispensable junk, retained like a mass of old papers because, when there is little pressure to keep an archive small, it is easier to retain everything than to sort out the valuable information and discard the rest. Certain exceptional eukaryotic species, such as the puffer fish, bear witness to the profligacy of their relatives; they have somehow managed to rid themselves of large quantities of noncoding DNA. Yet they appear similar in structure, behavior, and fitness to related species that have vastly more such DNA (see Figure 4\u201371)."
+        },
+        {
+            "id": "InternalMed_Harrison_5196",
+            "title": "InternalMed_Harrison",
+            "content": "their patterns of gene expression and metabolism in response to alterations in nutrient availability. Thus the sum of all the activities of the members of a microbial community can be viewed as an emergent rather than a fixed property."
+        },
+        {
+            "id": "InternalMed_Harrison_5202",
+            "title": "InternalMed_Harrison",
+            "content": "Resilience The ability of a microbiota or microbiome to rebound from a short-term perturbation, such as antibiotic administration or an infection, is defined as its resilience. This capacity can be visualized as a ball rolling over a landscape of local minima; essentially, the community moves into a new state and, to recover, must move through another, unstable state. In some cases, recovery will lead to the original stable state; in others, it will lead to a new stable state, which may be either healthy or unhealthy. Changes in, for example, diet or host physiologic status may introduce alterations into the landscape itself, making it easier to move from the initial state to any one of a number of other states, potentially with different health consequences. Microbial communities in our body habitats differ widely in resilience. For example, hand washing leads to profound changes in the microbial community, greatly increasing diversity (presumably because of the preferential removal"
+        },
+        {
+            "id": "Pharmacology_Katzung_6245",
+            "title": "Pharmacology_Katzung",
+            "content": "Ecotoxicology is concerned with the toxic effects of chemical and physical agents on populations and communities of living organisms within defined ecosystems; it includes the transfer pathways of those agents and their interactions with the environment. Traditional toxicology is concerned with toxic effects on individual organisms; ecotoxicology is concerned with the impact on populations of living organisms or on ecosystems. Ecotoxicology research has become one of the foremost areas of study for toxicologists. Hazard is the ability of a chemical agent to cause injury in a given situation or setting; the conditions of use and exposure are primary considerations. To assess hazard, one needs to have knowledge about both the inherent toxicity of the substance and the amounts to which individuals are liable to be exposed. Hazard is often a description based on subjective estimates rather than objective evaluation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_76",
+            "title": "Cell_Biology_Alberts",
+            "content": "competition for limited resources, it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of error and trial\u2014of mutation and natural selection\u2014organisms evolve: their genetic specifications change, giving them new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully."
+        },
+        {
+            "id": "Cell_Biology_Alberts_256",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201316 a simple thermodynamic analysis of a living cell. in the diagram on the left, the molecules of both the cell and the rest of the universe (the sea of matter) are depicted in a relatively disordered state. in the diagram on the right, the cell has taken in energy from food molecules and released heat through reactions that order the molecules the cell contains. The heat released increases the disorder in the environment around the cell (depicted by jagged arrows and distorted molecules, indicating increased molecular motions caused by heat). as a result, the second law of thermodynamics\u2014which states that the amount of disorder in the universe must always increase\u2014is satisfied as the cell grows and divides. for a detailed discussion, see panel 2\u20137 (pp. 102\u2013103)."
+        },
+        {
+            "id": "Physiology_Levy_104",
+            "title": "Physiology_Levy",
+            "content": "To illustrate the concept of steady-state balance, consider a river on which a dam is built to create a synthetic lake. Each day, water enters the lake from the various streams and rivers that feed it. In addition, water is added by underground springs, rain, and snow. At the same time, water is lost through the spillways of the dam and by the process of evaporation. For the level of the lake to remain constant (i.e., steady-state balance), the rate at which water is added, regardless of source, must be exactly matched by the amount of water lost, again regardless of route. Because the addition of water is not easily controlled and the loss by evaporation cannot be controlled, the only way to maintain a constant level of the lake is to regulate the amount that is lost through the spillways. To understand steady-state balance as it applies to the human body, the following key concepts are important. 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2524",
+            "title": "Cell_Biology_Alberts",
+            "content": "The results reveal several important properties of negative feedback. First, rather surprisingly, negative feedback increases the speed of the response to the activating input. As shown in Figure 8\u201376C, the system with negative feedback reaches its new steady state faster than the system with no feedback. Second, negative feedback is useful for protecting cells from perturbations that continuously arise in the cell\u2019s internal environment\u2014due either to random variations in the birth and death of molecules or to fluctuations in environmental variables such as temperature and nutritional supplies. Let us imagine, for example, that \u03b2A, the transcription rate constant for gene A, fluctuates by 25% of its value and ask whether and how much the levels of protein R are affected. The results, shown in Figure 8\u201377, reveal that a change in \u03b2A causes a smaller change in the steady-state value of R when the network has negative feedback."
+        },
+        {
+            "id": "Cell_Biology_Alberts_255",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cell cannot derive any benefit from the heat energy it releases unless the heat-generating reactions inside the cell are directly linked to the processes that generate molecular order. It is the tight coupling of heat production to an increase sea of matter cell Figure 2\u201315 an everyday illustration of the spontaneous drive toward disorder. Reversing this tendency toward disorder requires an intentional effort and an input of energy: it is not spontaneous. in fact, from the second law of thermodynamics, we can be certain that the human intervention required will release enough heat to the environment to more than compensate for the reordering of the items in this room."
+        },
+        {
+            "id": "Physiology_Levy_3081",
+            "title": "Physiology_Levy",
+            "content": "The remnants of the meal entering the colon interact with a vast assortment of bacteria and other microorganisms. This enteric microbial ecosystem is established shortly after birth, matures as the child grows, and fluctuates in predictable ways in healthy individuals depending on factors such as diet or circadian rhythms. More drastic perturbations in the microbiota can be provoked by antibiotics or introduction of an aggressive pathogen and may then take considerable time to resolve. The enteric bacterial ecosystem contributes to GI physiology in a surprising number of ways. Indeed, the large intestine (and to a lesser extent the distal portion of the small intestine) is an unusual organ in that it maintains a symbiotic relationship with such an extensive microbiota, whereas other body compartments are largely sterile."
+        },
+        {
+            "id": "Cell_Biology_Alberts_50",
+            "title": "Cell_Biology_Alberts",
+            "content": "Living things are not confined to the familiar temperate realm of land, water, and sunlight inhabited by plants and plant-eating animals. They can be found in the darkest depths of the ocean, in hot volcanic mud, in pools beneath the frozen surface of the Antarctic, and buried kilometers deep in the Earth\u2019s crust. The creatures that live in these extreme environments are generally unfamiliar, not only because they are inaccessible, but also because they are mostly microscopic. In more homely habitats, too, most organisms are too small for us to see without special equipment: they tend to go unnoticed, unless they cause a disease or rot the timbers of our houses. Yet microorganisms make up most of the total mass of living matter on our planet. Only recently, through new methods of molecular analysis and specifically through the analysis of DNA sequences, have we begun to get a picture of life on Earth that is not grossly distorted by our biased perspective as large animals living on"
+        },
+        {
+            "id": "InternalMed_Harrison_5190",
+            "title": "InternalMed_Harrison",
+            "content": "Co-Occurrence Analysis Co-occurrence analysis seeks to identify which phylotypes are co-distributed across individuals in a given body habitat and/or between habitats and to determine the factors that explain the observed patterns of co-distribution. Positive correlations tend to reflect shared preferences for certain environmental features, while negative correlations typically reflect divergent preferences or a competitive relationship. Syntrophic (cross-feeding) relationships reflect interdependent interactions based on nutrient-sharing strategies. For example, in food webs, the products of one organism\u2019s metabolism can be used by the other for its own unique metabolic capabilities (e.g., the interactions between fermentative organisms and methanogens)."
+        },
+        {
+            "id": "Pathology_Robbins_1823",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 8.1A ), as well as ozone (an important air pollutant, discussed later), and methane. These gases, along with water vapor, produce the so-called \u201cgreenhouse effect\u201d by absorbing energy radiated from Earth\u2019s surface that otherwise would be lost into space. The annual average level of atmospheric CO2 (about 401 ppm) in 2015 was higher than at any point in approximately 650,000 years and, without changes in human behavior, is expected to increase to 500 to 1200 ppm by the end of this century\u2014levels not experienced for tens of millions of years. This increase stems not only from increased CO2 production but also from deforestation and the attendant decrease in carbon fixation by plants. Depending on the computer model used, increased levels of greenhouse gases are projected to cause the global temperature to rise by 2\u00b0C to 5\u00b0C by the year 2100 ("
+        },
+        {
+            "id": "InternalMed_Harrison_5274",
+            "title": "InternalMed_Harrison",
+            "content": "nodes are the focus of the perturbation). Second, this resulting network redundancy provides a survival advantage to the system. In complex gene networks, for example, mutations or polymorphisms in weakly linked genes account for biodiversity and biologic variability without disrupting the critical functions of the system; only mutations in highly linked (essential) genes (hubs) can shut down the system and cause embryonic lethality. Third, scale-free biologic systems facilitate the flow of information (e.g., metabolite flux) across the system compared with randomly organized biologic systems; this so-called \u201csmall-world\u201d property of the system (in which the clustered nature of the highly linked hubs defines a local neighborhood within the network that communicates through weaker, less frequent links to other clusters) minimizes the energy cost for the dynamic action of the system (e.g., minimizes the transition time between states in a metabolic network)."
+        },
+        {
+            "id": "InternalMed_Harrison_5176",
+            "title": "InternalMed_Harrison",
+            "content": "perspective, each of us consists of not just one isolated island but rather a whole archipelago of distinct habitats that exchange microbes with one another and with the outside environment at some as yet undetermined level. Before we can discuss these differences and understand their relevance to human disease, it is important to understand some basic terms and ecologic principles."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4449",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cytoskeletal Filaments Adapt to Form Dynamic or Stable Structures Cytoskeletal systems are dynamic and adaptable, organized more like ant trails than interstate highways. A single trail of ants may persist for many hours, extending from the ant nest to a delectable picnic site, but the individual ants within the trail are anything but static. If the ant scouts find a new and better source of food, or if the picnickers clean up and leave, the dynamic structure adapts with astonishing rapidity. In a similar way, large-scale cytoskeletal structures can change or persist, according to need, lasting for lengths of time ranging from less than a minute up to the cell\u2019s lifetime. But the individual macromolecular components that make up these structures are in a constant state of flux. Thus, like the alteration of an ant trail, a structural rearrangement in a cell requires little extra energy when conditions change."
+        },
+        {
+            "id": "InternalMed_Harrison_5138",
+            "title": "InternalMed_Harrison",
+            "content": "Culture-independent A type of analysis in which the culture of microbes is not required but rather information is extracted directly from environmental analysis samples Diversity (alpha and Alpha diversity measures the effective number of species (kinds of organisms) at the level of individual habitats, sites, or samples. Beta beta) diversity measures differences in the number of kinds of organisms across habitats, sites, or samples. Domains of life The three major branches of life on Earth: the Eukarya (including humans), the Bacteria, and the Archaea Dysbiosis Any deleterious condition arising from a structural and/or functional aberration in one or more of the host organism\u2019s microbial communities Gnotobiotics The rearing of animals under sterile (germ-free) conditions. These animals can subsequently be colonized at various stages of the life cycle with defined collections of microbes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_192",
+            "title": "Cell_Biology_Alberts",
+            "content": "1\u20136 It is not so difficult to imagine what it means to feed on the organic molecules that living things produce. That is, after all, what we do. But what does it mean to \u201cfeed\u201d on sunlight, as phototrophs do? Or, even stranger, to \u201cfeed\u201d on rocks, as lithotrophs do? Where is the \u201cfood,\u201d for example, in the mixture of chemicals (H2S, H2, CO, Mn+, Fe2+, Ni2+, CH4, and NH4+) that spews from a hydrothermal vent? 1\u20137 How many possible different trees (branching patterns) can in theory be drawn to display the evolution of bacteria, archaea, and eukaryotes, assuming that they all arose from a common ancestor? 1\u20138 The genes for ribosomal RNA are highly conserved (relatively few sequence changes) in all organisms on Earth; thus, they have evolved very slowly over time. Were ribosomal RNA genes \u201cborn\u201d perfect?"
+        },
+        {
+            "id": "InternalMed_Harrison_5270",
+            "title": "InternalMed_Harrison",
+            "content": "Defined in this way, most biologic systems are complex systems that can be represented as networks whose behaviors are not readily predictable from simple reductionist principles. The nodes, for example, can be metabolites that are linked by the enzymes that cause their transformations, transcription factors that are linked by the genes whose expression they influence, or proteins in an interaction network that are linked by cofactors that facilitate interactions or by thermodynamic forces that facilitate their physical association. Biologic systems typically are organized as scale-free, rather than stochastic, networks of nodes. Scale-free networks are those in which a few nodes have many links to other nodes (highly linked nodes, or hubs) but most nodes have only a few links (weakly linked nodes). The term scale-free refers to the fact that the connectivity of nodes in the network is invariant with respect to the size of the network. This is quite different from two other common"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6266",
+            "title": "Cell_Biology_Alberts",
+            "content": "Schmidtea mediterranea is a small freshwater flatworm, or planarian, just under a centimeter long when grown to full size (Figure 22\u201335). It has an epidermis, a gut, 0.2 mm pharynx a brain, a pair of primitive eyes, a peripheral nervous system, musculature, and excretory and reproductive organs\u2014most of the basic body parts familiar in other animals, although all relatively simple by vertebrate standards and built from about 20\u201325 distinct differentiated cell types. For more than a century, planarians such as Schmidtea have intrigued biologists because of their extraordinary capacity for regeneration: a small tissue fragment taken from almost any part of the body will reorganize itself and grow to form a complete new animal. This property goes with another: when the animal is starved, it gets smaller and smaller, by reducing its cell numbers while maintaining essentially normal body proportions. This behavior is called degrowth, and it can continue until the animal is as little as"
+        },
+        {
+            "id": "InternalMed_Harrison_5193",
+            "title": "InternalMed_Harrison",
+            "content": "Functional Redundancy Functional redundancy arises when functions are performed by many bacterial taxa. Thus interpersonal differences in microbial bacterial diversity (i.e., which bacteria are present) are not necessarily accompanied by comparable degrees of difference in functional diversity (i.e., what these bacteria can do). Characterization of a microbiome by shotgun sequencing is important because, unlike SSU rRNA analyses, shotgun sequencing provides a direct readout of the genes (and, via comparative genomics, their functions) in a given community. One fundamental question is the degree to which variations in the species occupying a given body habitat correlate with variations in a community\u2019s functional capabilities. For example, the neutral theory of community assembly developed by macro-ecologists suggests that species are added to the community without respect to function, automatically endowing the community with functional redundancy. If applicable to the microbial"
+        },
+        {
+            "id": "Cell_Biology_Alberts_250",
+            "title": "Cell_Biology_Alberts",
+            "content": "The amount of disorder in a system can be quantified and expressed as the entropy of the system: the greater the disorder, the greater the entropy. Thus, another way to express the second law of thermodynamics is to say that systems will change spontaneously toward arrangements with greater entropy."
+        },
+        {
+            "id": "Cell_Biology_Alberts_51",
+            "title": "Cell_Biology_Alberts",
+            "content": "analysis and specifically through the analysis of DNA sequences, have we begun to get a picture of life on Earth that is not grossly distorted by our biased perspective as large animals living on dry land."
+        }
+    ],
+    "scores": [
+        0.036306309202348806,
+        0.030089822877023026,
+        0.027851458885941646,
+        0.026578079946831458,
+        0.026390558913183346,
+        0.024252343254364983,
+        0.023148148148148147,
+        0.02210919065688194,
+        0.02162849492570855,
+        0.02111082374240269,
+        0.01869812145041503,
+        0.018404390037990714,
+        0.017973200673995025,
+        0.017078071182548796,
+        0.017038102084831058,
+        0.016979382178782906,
+        0.016902011125374414,
+        0.016584766584766583,
+        0.01646825396825397,
+        0.016373124592302675,
+        0.016255534471853256,
+        0.016070863650743436,
+        0.015901482544237205,
+        0.015683962264150943,
+        0.015675990675990677,
+        0.015516224188790562,
+        0.015326715392167557,
+        0.015316315205327414,
+        0.015258760733348805,
+        0.014896867838044309,
+        0.014871403106697226,
+        0.01476388444728707
+    ],
+    "execution_time": 12.120758533477783
+}

@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-194",
+    "question": "The complete resynthesis of phosphocreatine after very high intensity exercise normally takes:",
+    "options": {
+        "A": "about 10 seconds.",
+        "B": "about 30 seconds.",
+        "C": "about 1 minute.",
+        "D": "about 4 minutes."
+    },
+    "answer": "D",
+    "predict": "To determine the correct answer, we need to analyze the information provided in the relevant documents. From Document [7] (Title: Physiology_Levy), we know that \"The creatine phosphate store represents the immediate high-energy source for replenishing the ATP supply in skeletal muscle, especially during intense exercise.\" Additionally, \"The creatine phosphokinase-catalyzed reaction is reversible, and the muscle cell replenishes the creatine phosphate pool during recovery from fatigue by using ATP synthesized through oxidative phosphorylation.\" Document [11] (Title: Biochemistry_Lippinco) mentions that \"Creatine is synthesized in the liver and kidneys from glycine and the guanidino group of arginine, plus a methyl group from SAM. Animal products are dietary sources. Creatine is reversibly phosphorylated to creatine phosphate by creatine kinase, using ATP as the phosphate donor.\" Document [7] (Title: Physiology_Levy) also mentions that \"The creatine phosphate store represents the immediate high-energy source for replenishing the ATP supply in skeletal muscle, especially during intense exercise.\" and \"During recovery from fatigue, the muscle cell replenishes the creatine phosphate pool during recovery from fatigue by using ATP synthesized through oxidative phosphorylation.\" Considering these points, the complete resynthesis of phosphocreatine after very high-intensity exercise normally takes a short period of time, allowing the muscle to replenish its ATP supply. This suggests that the correct answer is B. about 30 seconds. Here is the output in JSON format: {\"step_by_step_thinking\": \"The complete resynthesis of phosphocreatine after very high-intensity exercise normally takes a short period of time, as the muscle replenishes its ATP supply through oxidative phosphorylation. Document [7] (Title: Physiology_Levy) and Document [11] (Title: Biochemistry_Lippinco) provide relevant information on the role of creatine phosphokinase and the reversibility of the creatine phosphate-catalyzed reaction. Given these points, the correct answer is B. about 30 seconds.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Physiology_Levy_1400",
+            "title": "Physiology_Levy",
+            "content": "Although much of the creatine phosphokinase is present in the myoplasm, a small amount is located in the thick filament (near the M line). The creatine phosphokinase in the thick filament may participate in the rapid resynthesis of ATP near the myosin heads during muscle contraction. The phosphate store created, however, is only about five times the size of the ATP store and thus cannot support prolonged periods of contraction (less than a minute of maximal muscle activity). Skeletal muscle fatigue during intense exercise is associated with depletion of the creatine phosphate store, although as described subsequently, this does not necessarily imply that the fatigue is caused by depletion of the creatine phosphate store. Because the creatine phosphokinase\u2013catalyzed reaction is reversible, the muscle cell replenishes the creatine phosphate pool during recovery from fatigue by using ATP synthesized through oxidative phosphorylation."
+        },
+        {
+            "id": "Neurology_Adams_11446",
+            "title": "Neurology_Adams",
+            "content": "The Nature of Primary Metabolic Myopathies The chemical energy for muscle contraction is provided by the hydrolysis of adenosine triphosphate (ATP) to adenosine diphosphate (ADP); ATP is restored by phosphocreatine and ADP acting in combination. These reactions are particularly important during brief, high-intensity exercise. During periods of prolonged muscle activity, rephosphorylation requires the availability of carbohydrates, fatty acids, and ketones, which are catabolized in mitochondria. Glycogen is the main sarcoplasmic source of carbohydrate, but blood glucose also moves freely in and out of muscle cells as needed during sustained exercise. The fatty acids in the blood, derived mainly from adipose tissue and intracellular lipid stores, constitute the other major source of energy. Carbohydrate is metabolized during aerobic and anaerobic phases of metabolism; the fatty acids are metabolized only aerobically."
+        },
+        {
+            "id": "Neurology_Adams_11145",
+            "title": "Neurology_Adams",
+            "content": "by as much as 30 percent, and overuse increases the size by about the same amount (work hypertrophy). Normally, type 1 (oxidative enzyme-rich) fibers are slightly smaller than type 2 (phosphorylative enzyme-rich) fibers; the numerical proportions of the 2 fiber types vary in different muscles in accordance with the natural functions of that muscle. The exercising of young animal muscle causes a hypertrophy of high-oxidative type 1 fibers and an increase in the proportion of low-oxidative type 2 fibers; aging muscle lacks this capacity; exercise produces only an increase in the proportion of type 2 fibers (Silbermann et al). No such data are available in humans, but clinical observation suggests that with aging, the capacity of muscle to respond to intense, sustained exercise is diminished."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1002",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. Creatine Creatine phosphate (also called phosphocreatine), the phosphorylated derivative of creatine found in muscle, is a high-energy compound that provides a small but rapidly mobilized reserve of high-energy phosphates that can be reversibly transferred to adenosine diphosphate (Fig. 21.19) to maintain the intracellular level of ATP during the first few minutes of intense muscular contraction. [Note: The amount of creatine phosphate in the body is proportional to the muscle mass.] 1. Synthesis: Creatine is synthesized in the liver and kidneys from glycine and the guanidino group of arginine, plus a methyl group from SAM (see Fig. 21.19). Animal products are dietary sources. Creatine is reversibly phosphorylated to creatine phosphate by creatine kinase, using ATP as the phosphate donor. [Note: The presence of creatine kinase (MB isozyme) in the plasma is indicative of heart damage and is used in the diagnosis of myocardial infarction (see p. 65).] 2."
+        },
+        {
+            "id": "InternalMed_Harrison_31447",
+            "title": "InternalMed_Harrison",
+            "content": "Clinical muscle manifestations in these conditions usually begin in adolescence. Symptoms are precipitated by brief bursts of high-intensity exercise such as running or lifting heavy objects. A history of myalgia and muscle stiffness usually precedes the intensely painful muscle contractures, which may be followed by myoglobinuria. Acute renal failure accompanies significant pigmenturia. Certain features help distinguish some enzyme defects. In McArdle\u2019s disease, exercise tolerance can be enhanced by a slow induction phase (warm-up) or brief periods of rest, allowing for the start of the \u201csecond-wind\u201d phenomenon (switching to utilization of fatty acids). Varying degrees of hemolytic anemia accompany deficiencies of both phosphofructokinase (mild) and phosphoglycerate kinase (severe). In phosphoglycerate kinase deficiency, the usual clinical presentation is a seizure disorder associated with mental retardation; exercise intolerance is an infrequent manifestation."
+        },
+        {
+            "id": "Physiology_Levy_1404",
+            "title": "Physiology_Levy",
+            "content": "If the energy demands of exercise cannot be met by oxidative phosphorylation, an oxygen debt is incurred. After completion of exercise, respiration remains above the resting level in order to \u201crepay\u201d this oxygen debt. The extra oxygen consumption during this recovery phase is used to restore metabolite levels (such as creatine phosphate and ATP) and to metabolize the lactate generated by glycolysis. The increased cardiac and respiratory work during recovery also contributes to the increased oxygen consumption seen at this time and explains why more oxygen has to be \u201crepaid\u201d than was \u201cborrowed.\u201d Some oxygen debt occurs even with low levels of exercise because slow oxidative motor units consume considerable ATP, derived from creatine phosphate or glycolysis, before oxidative metabolism can increase ATP production to meet steady-state requirements. The oxygen debt is much greater with strenuous exercise, when fast glycolytic motor units are used (Fig. 12.18 ). The oxygen debt is"
+        },
+        {
+            "id": "Histology_Ross_1544",
+            "title": "Histology_Ross",
+            "content": "Like all cells, muscle cells depend on the energy source contained in the high-energy phosphate bonds of ATP and phosphocreatine. The energy stored in these high-energy phosphate bonds comes from the metabolism of fatty acids and glucose. Glucose is the primary metabolic sub-strate in actively contracting muscle. It is derived from the general circulation as well as from the breakdown of glyco-gen, which is normally stored in the muscle fiber cyto-plasm. As much as 1% of the dry weight of skeletal and cardiac muscle may be glycogen. In rapidly contracting muscles, such as the leg muscles in running or the extraocular muscles, most of the energy for contraction is supplied by anaerobic glycolysis of stored glycogen. The buildup of intermediary metabolites from this pathway, particularly lactic acid, can produce an oxygen deficit that causes ischemic pain (cramps) in cases of extreme muscular exertion. Most of the energy used by muscle recovering from contraction or by resting muscle is"
+        },
+        {
+            "id": "Physiology_Levy_1399",
+            "title": "Physiology_Levy",
+            "content": "Muscle cells convert chemical energy to mechanical energy. ATP is the energy source used for this conversion. The ATP pool in skeletal muscle is small and capable of supporting only a few contractions if not replenished. This pool, however, is continually replenished during contraction, as described later, so that even when the muscle fatigues, ATP stores are only modestly decreased. Muscle cells contain creatine phosphate, which is used to convert ADP to ATP and thus replenish the ATP store during muscle contraction. The creatine phosphate store represents the immediate high-energy source for replenishing the ATP supply in skeletal muscle, especially during intense exercise. The enzyme creatine phosphokinase catalyzes the reaction:"
+        },
+        {
+            "id": "Neurology_Adams_11447",
+            "title": "Neurology_Adams",
+            "content": "Resting muscle derives approximately 70 percent of its energy from the oxidation of long-chain fatty acids. As stated earlier, the circumstances during exercise are somewhat different. During a short period of intense exercise, the muscle uses carbohydrate derived from glycogen stores; myophosphorylase is the enzyme that initiates the metabolism of glycogen. With longer aerobic exercise, blood flow to muscle and the availability of glucose and fatty acids are increased. At first, glucose is the main source of energy during exercise; later, with exhaustion of glycogen stores, energy is provided by oxidation of fatty acids. Thus, muscle failure at a certain phase of exercise is predictive of the type of energy failure. A rising blood concentration of \u03b2-hydroxybutyrate reflects the increasing oxidation of fatty acids, and an increase in blood lactate reflects the anaerobic metabolism of glucose. The cytochrome oxidative mechanisms are essential in both aerobic and anaerobic muscle"
+        },
+        {
+            "id": "Neurology_Adams_7859",
+            "title": "Neurology_Adams",
+            "content": "A second unifying feature of these diseases is an elevation of lactate concentration or of the lactate-to-pyruvate ratio in the blood and CSF; this is the result of the respiratory chain abnormalities. These elevations are most prominent after exercise, infection, fever, or alcohol ingestion and in some conditions are capable of inducing recurrent ketoacidotic coma, which may be the presenting manifestation of a mitochondrial disease. Leigh syndrome and MELAS particularly have a tendency to exhibit elevations of lactate; however, the diagnosis of either cannot be excluded in the presence of normal levels of this substance, even after provocation by exercise (see further on for a description of testing for elevated lactate). Using phosphorus MRI scans, one can compare levels of inorganic phosphate to phosphocreatine levels in muscle; in genetic muscle diseases of several types, this ratio increases, but it is highest in those of mitochondrial origin."
+        },
+        {
+            "id": "Physiology_Levy_1409",
+            "title": "Physiology_Levy",
+            "content": "During intense exercise, accumulation of inorganic phosphate (Pi) and lactic acid in the myoplasm accounts for muscle fatigue. The accumulation of lactic acid, to levels as high as 15 to 26 mmol/L, decreases myoplasmic pH (from \u22487 to \u22486.2) and inhibits actin-myosin interactions. This decrease in pH reduces the sensitivity of the actin-myosin interaction to Ca++ by altering Ca++ binding to troponin C and by decreasing the maximum number of actin-myosin interactions. Pi has also been implicated as an important factor in the development of fatigue during intense exercise, inasmuch as phosphate concentrations can increase from approximately 2 mmol/L at rest to nearly 40 mmol/L in working muscle. Such an elevation in [Pi] can reduce tension by at least the following three different mechanisms: \u2022Fig. 12.19."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1136",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. RESTING SKELETAL MUSCLE Skeletal muscle accounts for ~40% of the body mass in individuals of healthy weight, and it can use glucose, amino acids, FA, and ketone bodies as fuel. In the well-fed state, muscle takes up glucose via GLUT-4 (for energy and glycogen synthesis) and amino acids (for energy and protein synthesis). In contrast to liver, there is no covalent regulation of PFK-2 in skeletal muscle. However, in the cardiac isozyme, the kinase domain is activated by epinephrine-mediated phosphorylation (see p. 100). Skeletal muscle is unique in being able to respond to substantial changes in the demand for ATP that accompanies contraction. At rest, muscle accounts for ~25% of the oxygen (O2) consumption of the body, whereas during vigorous exercise, it is responsible for up to 90%. This underscores the fact that skeletal muscle, despite its potential for transient periods of anaerobic glycolysis, is an oxidative tissue."
+        },
+        {
+            "id": "Physiology_Levy_1402",
+            "title": "Physiology_Levy",
+            "content": "Chapter 39). The cytosolic enzyme phosphory lase releases glucose 1-phosphate residues from glycogen, which are then metabolized by a combination of glycolysis (in the cytosol) and oxidative phosphorylation (in the mitochondria) to yield the equivalent of 37 mol of ATP per mole of glucose 1-phosphate. Blood glucose yields 36 mol of ATP per mole of glucose because 1 ATP is used to phosphorylate glucose at the start of glycolysis. These ATP yields, however, are dependent on an adequate oxygen supply. Under anaerobic conditions, in contrast, metabolism of glycogen and glucose yields only 3 and 2 mol of ATP per mole of glucose 1-phosphate and glucose, respectively (along with 2 mol of lactate). As discussed later, muscle fatigue during prolonged exercise is associated with depletion of glycogen stores in the muscle."
+        },
+        {
+            "id": "Physiology_Levy_1412",
+            "title": "Physiology_Levy",
+            "content": "Regardless of whether the muscle is fatigued as a consequence of high-intensity exercise or prolonged exercise, the myoplasmic ATP level does not decrease substantially. In view of the reliance of all cells on the availability of ATP to maintain viability, fatigue has been described as a protective mechanism to minimize the risk of muscle cell injury or death. Consequently, it is likely that skeletal muscle cells have developed redundant systems to ensure that ATP levels do not drop to dangerously low levels and hence risk the viability of the cell."
+        },
+        {
+            "id": "Physiology_Levy_1408",
+            "title": "Physiology_Levy",
+            "content": "tetanic periods decays rapidly to a level that can be maintained for long periods ( Fig. 12.19 ). This decay represents the rapid and almost total failure of the fast motor units. The decline in force/stress is paralleled by depletion of glycogen and creatine phosphate stores and the accumulation of lactic acid. Of importance is that the decline in force/ stress occurs when the ATP pool is not greatly reduced, so that the muscle fibers do not go into rigor. In contrast, the slow motor units are able to meet the energy demands of fibers under this condition, and they do not exhibit significant fatigue, even after many hours. Evidently, some factor associated with energy metabolism can inhibit contraction (e.g., in the fast fibers), but this factor has not been clearly identified."
+        },
+        {
+            "id": "Physiology_Levy_1407",
+            "title": "Physiology_Levy",
+            "content": "Rate of energy expenditure \u2022Fig. 12.18. An Oxygen Debt Is Incurred by the Exercising of Muscle When the Rate of Energy Expenditure Exceeds the Rate of Energy Production by Oxidative Metabolism. Upper panel, Energyexpenditureduringstrenuousexercise.Lower panel, Energyexpenditureduringenduranceexercise.Seetextfordetails. tetanic periods decays rapidly to a level that can be maintained for long periods ("
+        },
+        {
+            "id": "Physiology_Levy_2365",
+            "title": "Physiology_Levy",
+            "content": "During exhaustive exercise, the compensatory mechanisms begin to fail. The heart rate attains a maximal level of approximately 180 beats per minute, and stroke volume reaches a plateau. The heart rate may then decrease, which results in a fall in blood pressure. The exercising individual also frequently becomes dehydrated. Sympathetic vasoconstrictor activity supersedes the vasodilator influence on vessels of the skin so that the rate of heat loss is decreased. Body temperature is normally elevated during exercise. A reduction in heat loss through cutaneous vasoconstriction can lead to very high body temperatures and to acute distress during severe exercise. Tissue pH and blood pH decrease as a result of increased production of lactic acid and CO2. The reduced pH may be a key factor that determines \u2022Fig. 19.19 Cardiovascularadjustmentsinexercise.Plus signs indicateincreasedactivity,andminus signs"
+        },
+        {
+            "id": "First_Aid_Step1_93",
+            "title": "First_Aid_Step1",
+            "content": "Duration of exercise Fasting and starvation Priorities are to supply sufficient glucose to the brain and RBCs and to preserve protein. Fed state (after a Glycolysis and aerobic respiration. meal) Fasting (between Hepatic glycogenolysis (major); hepatic meals) gluconeogenesis, adipose release of FFA (minor). Starvation days 1\u20133 Blood glucose levels maintained by: Adipose release of FFA Muscle and liver, which shift fuel use from glucose to FFA Insulin stimulates storage of lipids, proteins, and glycogen. Glucagon and epinephrine stimulate use of fuel reserves. Glycogen reserves depleted after day 1. RBCs lack mitochondria and therefore cannot use ketones. Weeks of starvation Carbohydrate Protein Fat 1 2 3 4 5 6 7 80 2 10 12 0 Starvation after day 3 Adipose stores (ketone bodies become the main source of energy for the brain). After these are depleted, vital protein degradation accelerates, leading to organ failure and death. Amount of excess stores determines survival time."
+        },
+        {
+            "id": "Physiology_Levy_2346",
+            "title": "Physiology_Levy",
+            "content": "The major circulatory adjustment to prolonged exercise occurs in the vasculature of the active muscles. Local formation of vasoactive metabolites causes marked dilation of the resistance vessels. This dilation progresses with increases in the intensity of exercise. Potassium is one of the vasodilator substances released by the contracting muscle, and this ion may be partly responsible for the initial decrease in vascular resistance in the active muscles. Other contributing factors may be the release of adenosine and a decrease in tissue pH during sustained exercise. The local accumulation of metabolites causes the terminal arterioles to relax, and blood flow through the muscle may increase 15to 20-fold above the resting level. This metabolic vasodilation of the precapillary vessels in active muscles occurs very soon after the onset of exercise. The decrease in TPR enables the heart to pump more blood at a lesser load, and it pumps more efficiently than if TPR were unchanged (see \u2022Fig."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1156",
+            "title": "Biochemistry_Lippinco",
+            "content": "X. RESTING SKELETAL MUSCLE IN FASTING Resting muscle switches from glucose to FA as its major fuel source in fasting. [Note: By contrast, exercising muscle initially uses creatine phosphate and its glycogen stores. During intense exercise, glucose 6-phosphate from glycogenolysis is converted to lactate by anaerobic glycolysis (see p. 118). The lactate is used by the liver for gluconeogenesis (Cori cycle; see p. 118). As these glycogen reserves are depleted, free FA provided by the degradation of TAG in adipose tissue become the dominant energy source. The contraction-based rise in AMP activates AMPK that phosphorylates and inactivates the muscle isozyme of ACC, decreasing malonyl CoA and allowing FA oxidation (see p. 183).] A. Carbohydrate metabolism p. 97) and subsequent glucose metabolism are decreased because circulating insulin levels are low. Therefore, the glucose from hepatic gluconeogenesis is unavailable to muscle and adipose. B. Lipid metabolism"
+        },
+        {
+            "id": "Physiology_Levy_3846",
+            "title": "Physiology_Levy",
+            "content": "Skeletal myocytes do not express glucagon receptors. Uptake of FFAs and KBs and their oxidation for ATP is largely upregulated by intracellular Ca++ levels and a high AMP:ATP ratio. Exercise also activates these pathways, as does glycogenolysis (reaction 2F), through adrenergic receptor stimulation."
+        },
+        {
+            "id": "Histology_Ross_1545",
+            "title": "Histology_Ross",
+            "content": "acid, can produce an oxygen deficit that causes ischemic pain (cramps) in cases of extreme muscular exertion. Most of the energy used by muscle recovering from contraction or by resting muscle is derived from oxidative phosphorylation. This process closely follows the -oxidation of fatty acids in mitochondria that liberates two carbon fragments. The oxygen needed for oxidative phosphorylation and other terminal metabolic reactions is derived from hemoglobin in circulating erythrocytes and from oxygen bound to myoglobin stored in the mus-cle cells."
+        },
+        {
+            "id": "Physiology_Levy_1865",
+            "title": "Physiology_Levy",
+            "content": "Fig. 16.46) provides energy for contractile work (actin-myosin interaction and cell shortening), pumping Ca++ back into the sarcoplasmic reticulum at the end of systole and maintaining normal ion gradients (low Na+ and high K+ in the cell). Approximately two thirds of the ATP hydrolyzed by the heart is used to fuel contractile work, and the remaining third is used for ion pumps and \u201chousekeeping\u201d functions such as synthesis of proteins and nucleic acids. The Ca++-ATPase of the sarcoplasmic reticulum is the primary ion pump consuming ATP. This process occurs during the end of systole, when cytosolic Ca++ is rapidly sequestered into the sarcoplasmic reticulum to initiate diastolic relaxation. In the healthy heart, the rate of ATP hydrolysis is exquisitely matched to the rate of ATP resynthesis. There is no significant change in the concentration of ATP or ADP even with the onset of heavy exercise."
+        },
+        {
+            "id": "Physiology_Levy_2367",
+            "title": "Physiology_Levy",
+            "content": "the maximal amount of exercise that a given individual can tolerate. Muscle pain, a subjective feeling of exhaustion, and loss of the will to continue determine exercise tolerance. A summary of the neural and local effects of exercise on the cardiovascular system is diagrammed in Fig. 19.19 When exercise stops, the heart rate and cardiac output quickly decrease: The sympathetic drive to the heart is essentially removed. In contrast, TPR remains low for some time after the exercise is stopped, presumably because vasodilator metabolites have accumulated in the muscles during the exercise period. As a result of the reduced cardiac output and persistence of vasodilation in the muscles, arterial pressure falls, often below preexercise levels, for brief periods. Blood pressure is then stabilized at normal levels by the baroreceptor reflexes. Limits of Exercise Performance"
+        },
+        {
+            "id": "InternalMed_Harrison_31451",
+            "title": "InternalMed_Harrison",
+            "content": "Carnitine Palmitoyltransferase Deficiency CPT II deficiency is the most common recognizable cause of recurrent myoglobinuria, more common than the glycolytic defects. Onset is usually in the teenage years or early twenties. Muscle pain and myoglobinuria typically occur after prolonged exercise but can also be precipitated by fasting or infections; up to 20% of patients do not exhibit myoglobinuria, however. Strength is normal between attacks. In contrast to disorders caused by defects in glycolysis, in which muscle cramps follow short, intense bursts of exercise, the muscle pain in CPT II deficiency does not occur until the limits of utilization have been exceeded and muscle breakdown has already begun. Episodes of rhabdomyolysis may produce severe weakness. In young children and newborns, CPT II deficiency can present with a very severe clinical picture including hypoketotic hypoglycemia, cardiomyopathy, liver failure, and sudden death."
+        },
+        {
+            "id": "Physiology_Levy_1406",
+            "title": "Physiology_Levy",
+            "content": "Fig. 12.18 are approximately equal). As indicated earlier, the additional oxygen used during recovery from exercise represents the energy requirements for restoring normal cellular metabolite levels. The ability of muscle to meet energy needs is a major determinant of the duration of the exercise. However, fatigue is not the result of depletion of energy stores. Instead, metabolic byproducts seem to be important factors in the onset of fatigue. Fatigue may potentially occur at any of the points involved in muscle contraction, from the brain to the muscle cells, as well as in the cardiovascular and respiratory systems that maintain energy supplies (i.e., fatty acids and glucose) and oxygen delivery to the exercising muscle. Several factors have been implicated in muscle fatigue. During brief periods of tetany, the oxygen supply to the muscle is adequate as long as the circulation is intact. However, the force/stress generated during these brief"
+        },
+        {
+            "id": "Neurology_Adams_302",
+            "title": "Neurology_Adams",
+            "content": "Fat and bone marrow have a high-signal intensity in MR images, whereas fascia, ligaments, and cortical bone lack signal intensity. In T1-weighted images, normal muscle has a low signal and dystrophic muscle, a slightly increased signal; in T2-weighted images, dystrophic muscle has a slightly increased (brighter) signal. Given its sensitivity to these dystrophic changes in muscle, MRI is particularly effective in determining the topographic distribution of muscle involvement in a dystrophy (see Chap. 45). Spectroscopic MRI in metabolically determined myopathies has the capacity to quantitate levels of selected biochemical constituents of muscle, including intracellular pH and levels of metabolic intermediates such as phosphocreatine. This technique is particularly effective in demonstrating subnormal generation of intracellular acidosis after a limb is exercised in disorders of glycogenolysis and of glycolysis. Some individuals with mitochondrial disease of muscle will demonstrate"
+        },
+        {
+            "id": "Physiology_Levy_1437",
+            "title": "Physiology_Levy",
+            "content": "Muscle strength can be increased by regular massive efforts that involve most motor units. Such efforts recruit fast glycolytic motor units, as well as slow oxidative motor units. During these efforts, blood supply to the working muscles may be interrupted as tissue pressures rise above intravascular pressure. The reduced blood flow limits the duration of the contraction. Regular maximal-strength exercise, such as weightlifting, induces the synthesis of more myofibrils and hence hypertrophy of the active muscle cells. The increased stress also induces the growth of tendons and bones. Endurance exercise does not cause fast motor units to become slow, nor does maximal muscular effort produce a shift from slow to fast motor units. Thus any practical exercise regimen, when superimposed on normal daily activities, probably does not alter muscle fiber phenotype."
+        },
+        {
+            "id": "InternalMed_Harrison_820",
+            "title": "InternalMed_Harrison",
+            "content": "Balance Between Energy Availability and Energy demand Release of phosphate from ATP provides every living cell with the energy required for life. However, the storage of ATP is only enough for 6 sec; therefore, ATP is constantly resynthesized. Although ATP can be resynthesized by anaerobic glycolysis, most of the energy used in the body is generated through aerobic metabolism. Therefore, energy consumption is usually estimated indirectly by oxygen consumption (indirect calorimetry). There is currently no method to measure true \u201cfitness,\u201d which is the maximal energy that can be produced by an organism over extended periods. Thus, fitness is estimated indirectly from peak oxygen consumption (MVo ), often during a maximal treadmill test. gressively with aging (Fig. 11-10), and the rate of decline is accelerated in persons who are sedentary and in those affected by chronic diseases."
+        },
+        {
+            "id": "Physiology_Levy_2734",
+            "title": "Physiology_Levy",
+            "content": "Exercise is remarkable because of the lack of significant changes in blood gases. Except at maximal exertion, changes in PaCO2 and PaO2 are minimal during exercise. Arterial pH remains within normal values during moderate exercise. During strenuous exercise, arterial pH begins to fall as lactic acid is liberated from muscles during anaerobic metabolism. This decrease in arterial pH stimulates ventilation that is out of proportion to the level of exercise. The level of exercise at which sustained metabolic (lactic) acidosis begins is called the anaerobic threshold (see Fig. 25.7 Abnormalities in the Control of Breathing"
+        },
+        {
+            "id": "Neurology_Adams_303",
+            "title": "Neurology_Adams",
+            "content": "subnormal generation of intracellular acidosis after a limb is exercised in disorders of glycogenolysis and of glycolysis. Some individuals with mitochondrial disease of muscle will demonstrate rapid depletion of energy supplies and profound delays in recovery that can be quantified and used as an end point for treatments."
+        },
+        {
+            "id": "Neurology_Adams_11466",
+            "title": "Neurology_Adams",
+            "content": "Treatment The main treatment is a planned reduction and intermittency in physical activity. Sucrose, taken as 75 g in a beverage, has been shown by Vissing and Haller to cause a short-lived improvement in exercise tolerance, and they propose that exercise-induced rhabdomyolysis can be avoided by a well-timed drink. Fructose and creatine taken orally are also said to be helpful in some cases, but the reported results are not as impressive as they are for sucrose. Improvement has also been described after the administration of glucagon (Kono et al) and with a high-protein diet (Slonim and Goans), but these effects are not consistent. Other Forms of Glycogenosis (See Table 45-5)"
+        }
+    ],
+    "scores": [
+        0.038319630282355965,
+        0.03483115694309311,
+        0.033551639463003734,
+        0.032826185001833916,
+        0.0327326013047104,
+        0.029032860343539954,
+        0.027472527472527472,
+        0.026999688764394646,
+        0.02560750158177792,
+        0.025322434512257075,
+        0.025047110014732588,
+        0.024452364377142127,
+        0.02393027676046544,
+        0.02296745400193676,
+        0.022240095977291315,
+        0.02161165406601512,
+        0.02154219101273297,
+        0.02119920789862222,
+        0.020959024635495226,
+        0.02031379594281009,
+        0.01989915906293937,
+        0.018441715553523894,
+        0.017698425074068297,
+        0.017698425074068297,
+        0.017662620603797072,
+        0.016483145308383435,
+        0.016479937467430955,
+        0.0164021164021164,
+        0.015874015748031496,
+        0.015858324077502158,
+        0.015705838876570587,
+        0.01565940787863959
+    ],
+    "execution_time": 59.8682861328125
+}

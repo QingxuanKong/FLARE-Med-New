@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-094",
+    "question": "Complete the following sentence. The Philadelphia chromosome:",
+    "options": {
+        "A": "is an example of gene amplification.",
+        "B": "is a product of a reciprocal translocation.",
+        "C": "causes Burkitt's lymphoma.",
+        "D": "causes retinoblastoma."
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to analyze the provided documents and understand the definition and characteristics of the Philadelphia chromosome. The Philadelphia chromosome is a well-known chromosomal abnormality in chronic myelogenous leukemia (CML). According to Document [1] (Title: Pathology_Robbins), it is a result of a reciprocal translocation between chromosomes 9 and 22. This translocation leads to the fusion of portions of the BCR gene on chromosome 22 and the ABL gene on chromosome 9, resulting in the creation of a novel tyrosine kinase with potent transforming activity. This is further supported by Document [4] (Title: InternalMed_Harrison), which states that the Philadelphia chromosome is a cytogenetic abnormality that results from a reciprocal translocation between chromosomes 9 and 22. Therefore, the correct answer is the option that describes this process.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_4935",
+            "title": "InternalMed_Harrison",
+            "content": "thereafter, in 1960, a small, structurally abnormal chromosome was recognized in the cells of some patients with chronic myelogenous leukemia (CML), and this abnormal chromosome is now known as the Philadelphia chromosome."
+        },
+        {
+            "id": "Pathology_Robbins_1200",
+            "title": "Pathology_Robbins",
+            "content": "is the Philadelphia (Ph) chromosome in chronic myeloid leukemia, consisting of a balanced reciprocal translocation between chromosomes 9 and 22 (see Fig. 6.14 ). As a consequence, the derivative chromosome 22 (the Philadelphia chromosome) appears smaller than normal. This cytogenetic change is seen in more than 90% of cases of chronic myeloid leukemia and results in the fusion of portions of the BCR gene on chromosome 22 and the ABL gene on chromosome 9. The few Philadelphia chromosome\u2013negative cases harbor a cryptic (cytogenetically silent) BCR-ABL fusion gene, the presence of which is the sine qua non of chronic myeloid leukemia. As discussed later, the BCR-ABL fusion gene encodes a novel tyrosine kinase with potent transforming activity."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5481",
+            "title": "Cell_Biology_Alberts",
+            "content": "Clearly, if a mutation in a single gene were enough to convert a typical healthy cell into a cancer cell, we would not be viable organisms. Many lines of evidence indicate that the development of a cancer typically requires that a substantial number of independent, rare genetic and epigenetic accidents occur in the lineage that emanates from a single cell. One such indication comes from epidemiological studies of the incidence of cancer as a function of age (Figure 20\u20136). If a Figure 20\u20135 The translocation between chromosomes 9 and 22 responsible for chronic myelogenous leukemia. The normal structures of chromosomes 9 and 22 are shown at the left. When a translocation occurs between them at the indicated site, the result is the abnormal pair at the right. The smaller of the two resulting abnormal chromosomes (22q\u2013) is called the Philadelphia chromosome, after the city where the abnormality was first recorded."
+        },
+        {
+            "id": "Gynecology_Novak_538",
+            "title": "Gynecology_Novak",
+            "content": "Deletions and rearrangements re\ufb02ect gross changes in the DNA template that may result in the synthesis of a markedly altered protein product. Somatic mutations may involve chromosomal translocations that result in chimeric transcripts with juxtaposition of one gene to the regulatory region of another gene. This mutation type is most commonly reported in leukemias, lymphomas, and mesenchymal tumors. The Philadelphia chromosome in chronic myeloid leukemia, for example, is the result of a reciprocal translocation between one chromosome 9 and one chromosome 22. The DNA sequence removed from chromosome 9 contains the proto-oncogene c-ABL and inserts into the BCR gene sequence on chromosome 22 (Philadelphia chromosome). The resulting chimeric BCR-ABL gene product functions as a constitutively active tyrosine kinase and stimulates cellular proliferation by such mechanisms as an increase of growth factors."
+        },
+        {
+            "id": "InternalMed_Harrison_8570",
+            "title": "InternalMed_Harrison",
+            "content": "Cytogenetic and Molecular Findings The diagnosis of CML is straightforward and depends on documenting t(9;22)(q34;q11.2), which is found in 90% of cases. This is known as the Philadelphia-chromosome abnormality (discovered in Philadelphia) and was initially identified as a shortened chromosome, later identified to be chromosome 22 (22q\u2013) (Fig. 133-1). Some patients may have complex translocations (variant Ph) involving three or more translocations that include chromosomes 9 and 22 and one or more other chromosomes. Others may have a \u201cmasked Ph,\u201d involving translocations between chromosome 9 and a chromosome other than 22. The prognosis of these patients and their response to TKI therapy are similar to those in patients with Ph. About 5\u201310% of patients may have additional chromosomal abnormalities in the Ph-positive cells. These usually involve trisomy 8, a double Ph, isochromosome 17 or 17p deletion, 20q\u2013, or others. This is referred to as clonal evolution and was historically a sign"
+        },
+        {
+            "id": "Pathology_Robbins_1485",
+            "title": "Pathology_Robbins",
+            "content": "structural alterations, including amplifications, deletions, and translocations. The so-called \u201cPhiladelphia chromosome\u201d\u2014translocation t(9;22) between the BCR and ABL genes in chronic myeloid leukemia (Chapter 12)\u2014is a classic example."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5473",
+            "title": "Cell_Biology_Alberts",
+            "content": "One way of proving clonal origin is through molecular analysis of the chromosomes in tumor cells. In almost all patients with chronic myelogenous leukemia (CML), for example, we can distinguish the leukemic white blood cells from the patient\u2019s normal cells by a specific chromosomal abnormality: the so-called Philadelphia chromosome, created by a translocation between the long arms of chromosomes 9 and 22 (Figure 20\u20135). When the DNA at the site of translocation is cloned and sequenced, it is found that the site of breakage and rejoining of the translocated fragments is identical in all the leukemic cells in any given patient, but that this site differs slightly (by a few hundred or thousand base pairs) from one patient to another. This is the expected result if, and only if, the cancer in each patient arises from a unique accident occurring in a single cell. We will see later"
+        },
+        {
+            "id": "InternalMed_Harrison_8558",
+            "title": "InternalMed_Harrison",
+            "content": "Experimental models have established the causal relationship between the Ph-related BCR-ABL1 molecular events and the development of CML. In animal models, expression of BCR-ABL1 in normal hematopoietic cells produced CML-like disorders or lymphoid leukemia, demonstrating the leukemogenic potential of BCR-ABL1 as a single oncogenic abnormality. q34q11.2 t(9;22)(q34;q11.2) FIGURE 133-1 A. The Philadelphia (Ph) chromosome cytogenetic abnormality. B. Breakpoints in the long arms of chromosome 9 (ABL locus) and chromosome 22 (BCR regions) result in three different BCR-ABL oncoprotein messages, p210BCR-ABL1 (most common message in chronic myeloid leukemia [CML]), p190BCR-ABL1 (present in two-thirds of patients with Ph-positive acute lymphocytic leukemia; rare in CML), and p230BCR-ABL1 (rare in CML and associated with an indolent course). (\u00a9 2013 The University of Texas MD Anderson Cancer Center.)"
+        },
+        {
+            "id": "InternalMed_Harrison_6041",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 101e-3 Specific translocation seen in chronic myeloid leukemia (CML). The Philadelphia chromosome (Ph) is derived from a reciprocal translocation between chromosomes 9 and 22 with the breakpoint joining the sequences of the ABL oncogene with the BCR gene. The fusion of these DNA sequences allows the generation of an entirely novel fusion protein with modified function. in tumors will likely be a formidable task, considering that several hundred genes are thought to control the mitotic checkpoint and other cellular processes ensuring proper chromosome segregation. Regardless of the mechanisms underlying CIN, the measurement of the number of chromosomal alterations present in tumors is now possible with both cytogenetic and molecular techniques, and several studies have shown that this information can be useful for prognostic purposes. In addition, because the mitotic checkpoint is essential for cellular viability, it may become a target for novel therapeutic approaches."
+        },
+        {
+            "id": "Obstentrics_Williams_1817",
+            "title": "Obstentrics_Williams",
+            "content": "Nussbaum L, McInnes R, Willard HF (eds): Clinical cytogenetics: disorders of the autosomes and sex chromosomes. In hompson & hompson Genetics in Medicine, 7th ed. Philadelphia, Saunders, 2007"
+        },
+        {
+            "id": "InternalMed_Harrison_4934",
+            "title": "InternalMed_Harrison",
+            "content": "Chromosome Disorders Nancy B. Spinner, Laura K. Conlin CHROMOSOME DISORDERS Alterations of the chromosomes (numerical and structural) occur in about 1% of the general population, in 8% of stillbirths, and in close to 50% of spontaneously aborted fetuses. The 3 \u00d7 109 base pairs that 83e encode the human genome are packaged into 23 pairs of chromosomes, which consist of discrete portions of DNA, bound to several classes of regulatory proteins. Technical advances that led to the ability to analyze human chromosomes immediately translated into the revelation that human disorders can be caused by an abnormality of chromosome number. In 1959, the clinically recognizable disorder, Down syndrome, was demonstrated to result from having three copies of chromosome 21 (trisomy 21). Very soon thereafter, in 1960, a small, structurally abnormal chromosome was recognized in the cells of some patients with chronic myelogenous leukemia (CML), and this abnormal chromosome is now known as the"
+        },
+        {
+            "id": "InternalMed_Harrison_8566",
+            "title": "InternalMed_Harrison",
+            "content": "Cytogenetic clonal evolution other than the Philadelphia chromosome Sokal risk Low Intermediate High and others. Patients who present with, or progress to, the accelerated 689 or blastic phases have additional symptoms including unexplained fever, significant weight loss, severe fatigue, bone and joint aches, bleeding and thrombotic events, and infections."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5485",
+            "title": "Cell_Biology_Alberts",
+            "content": "The concept that the development of a cancer requires a gradual accumulation of mutations in a number of different genes helps to explain the well-known phenomenon of tumor progression, whereby an initial mild disorder of cell behavior evolves gradually into a full-blown cancer. Chronic myelogenous leukemia again provides a clear example. It begins as a disorder characterized by a nonlethal overproduction of white blood cells and continues in this form for several years before changing into a much more rapidly progressing illness that usually ends in death within a few months. In the early chronic phase, the leukemic cells are distinguished mainly by the chromosomal translocation (the Philadelphia chromosome) mentioned previously, although there may well be other, less visible"
+        },
+        {
+            "id": "Cell_Biology_Alberts_807",
+            "title": "Cell_Biology_Alberts",
+            "content": "U. Francke, Cytogenet. Cell Genet. 31:24\u2013 32, 1981. with permission from the author.) Figure 4\u201312 Aberrant human chromosomes. (A) Two normal human chromosomes, 4 and 6. (b) In an individual carrying a balanced chromosomal translocation, the DNA double helix in one chromosome has crossed over with the DNA double helix in the other chromosome due to an abnormal recombination event. The chromosome painting technique used on the chromosomes in each of the sets allows the identification of even short pieces of chromosomes that have become translocated, a frequent event in cancer cells. (Courtesy of Zhenya Tang and the NIgmS Human genetic Cell Repository at the Coriell Institute for medical Research: gm21880.)"
+        },
+        {
+            "id": "InternalMed_Harrison_4975",
+            "title": "InternalMed_Harrison",
+            "content": "Structural chromosome abnormalities include deletions, duplications, translocations, inversions, as well as other types of abnormalities, each relatively rare, but nonetheless contributing to clinical disease resulting from chromosome anomalies. These rare alterations include isochromosomes, ring chromosomes, dicentric chromosomes, and marker chromosomes (structurally abnormal chromosomes that cannot be identified based on cytogenetics alone). Both translocations and inversions can be completely balanced in some cases, such that there is no disruption of coding regions of the genome, with a completely normal clinical phenotype; however, carriers are at risk for unbalanced forms of these rearrangements in their offspring."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5690",
+            "title": "Cell_Biology_Alberts",
+            "content": "The chimeric Bcr-Abl protein is an obvious target for therapeutic attack. Searches for synthetic drug molecules that can inhibit the activity of tyrosine kinases discovered one, called imatinib (trade name Gleevec\u00ae), that blocks Bcr-Abl (Figure 20\u201343). When the drug was first given to patients with CML, nearly all of them showed a dramatic response, with an apparent disappearance of the cells carrying the Philadelphia chromosome in over 80% of patients. The response appears relatively durable: after years of continuous treatment, many patients have not progressed to later stages of the disease\u2014although imatinib-resistant cancers emerge with a probability of about 5% per year during the early years."
+        },
+        {
+            "id": "InternalMed_Harrison_8549",
+            "title": "InternalMed_Harrison",
+            "content": "Chronic Myeloid Leukemia Hagop Kantarjian, Jorge Cortes Chronic myeloid leukemia (CML) is a clonal hematopoietic stem cell disorder. The disease is driven by the BCR-ABL1 chimeric gene prod-uct, a constitutively active tyrosine kinase, resulting from a reciprocal balanced translocation between the long arms of chromosomes 9 and 133 22, t(9;22) (q34;q11.2), cytogenetically detected as the Philadelphia chromosome (Ph) (Fig. 133-1). Untreated, the course of CML may be biphasic or triphasic, with an early indolent or chronic phase, followed often by an accelerated phase and a terminal blastic phase. Before the era of selective BCR-ABL1 tyrosine kinase inhibitors (TKIs), the median survival in CML was 3\u20137 years, and the 10-year survival rate was 30% or less. Introduced into CML therapy in 2000, TKIs have revolutionized the treatment, natural history, and prognosis of CML. Today, the estimated 10-year survival rate with imatinib mesylate, the first BCR-ABL1 TKI approved, is 85%. Allogeneic"
+        },
+        {
+            "id": "InternalMed_Harrison_6039",
+            "title": "InternalMed_Harrison",
+            "content": "The first reproducible chromosome abnormality detected in human malignancy was the Philadelphia chromosome detected in CML. This cytogenetic abnormality is generated by reciprocal translocation involving the ABL oncogene on chromosome 9, encoding a tyrosine kinase, being placed in proximity to the BCR (breakpoint cluster region) gene on chromosome 22. Figure 101e-3 illustrates the generation of the translocation and its protein product. The consequence of expression of the BCR-ABL gene product is the activation of signal transduction pathways leading to cell growth independent of normal external signals. Imatinib (marketed as Gleevec), a drug that specifically blocks the activity of Abl tyrosine kinase, has shown remarkable efficacy with little toxicity in patients with CML. It is hoped that knowledge of genetic alterations in other cancers will likewise lead to mechanism-based design and development of a new generation of chemotherapeutic agents."
+        },
+        {
+            "id": "InternalMed_Harrison_4938",
+            "title": "InternalMed_Harrison",
+            "content": "The first chromosome disorders identified had very striking and generally severe phenotypes, because the abnormalities involved large regions of the genome, but as methods have become more sensitive, it is now possible to recognize many more subtle phenotypes, often involving smaller genomic regions."
+        },
+        {
+            "id": "First_Aid_Step2_404",
+            "title": "First_Aid_Step2",
+            "content": "Chronic: Without treatment, typically lasts 3.5\u20135.0 years. Signs and symptoms are as described above. Infection and bleeding complications are rare. Accelerated: A transition toward blast crisis, with an \u2191 in peripheral and bone marrow blood counts. Should be suspected when the differential shows an abrupt \u2191 in basophils and thrombocytopenia < 100,000. Blast: Resembles acute leukemia; survival is 3\u20136 months. \u25a0Diagnosed by the clinical picture, including labs; cytogenetic analysis usually reveals the Philadelphia chromosome. TAB LE 2.7 -7. Clinical Staging of CLL (Rai Staging) CBwC shows a very high WBC\u2014often > 100,000 at diagnosis, and sometimes reaching > 500,000. Differential shows granulocytes in all stages of maturation. Rarely, the WBC count will be so elevated as to cause a hyperviscosity syndrome. Leukocyte alkaline phosphatase is low; LDH, uric acid, and B12 levels are elevated."
+        },
+        {
+            "id": "InternalMed_Harrison_4945",
+            "title": "InternalMed_Harrison",
+            "content": "p22.3 p2 p21.3 p arm p11.2 centromere q1 q21.1 FIGuRE 83e-1 Ideogram of the X chromosome and a G-banded X chromosome. The labeling of the X ideogram shows the positioning of the p and q arms, the centromere, and the telomeres. The numbering of the bands is also demonstrated, indicating the broadest subbands (p1, p2, q1, q2) and the further subdivisions to the right. Numbering begins at the centromere and moves out along each arm toward the telomeres."
+        },
+        {
+            "id": "Physiology_Levy_3376",
+            "title": "Physiology_Levy",
+            "content": "Giebisch G, Satlin L. Regulation of potassium excretion. In: Alpern RJ, et al., eds. Seldin and Giebisch\u2019s The Kidney: Physiology and Pathophysiology. 5th ed. Philadelphia: Academic Press; 2012. Moe OW, et al. Renal transport of glucose, amino acids, sodium, chloride, and water. In: Taal MW, et al., eds. Brenner and Rector\u2019s The Kidney. 9th ed. Philadelphia: Saunders; 2012. Preisig P, et al. Cellular mechanisms of renal tubular acidification. In: Alpern RJ, et al., eds. Seldin and Giebisch\u2019s The Kidney: Physiology and Pathophysiology. 5th ed. Philadelphia: Academic Press; 2012. Sands JM, Layton H. The urine concentrating mechanism and urea transporters. In: Alpern RJ, et al., eds. Seldin and Giebisch\u2019s The Kidney: Physiology and Pathophysiology. 5th ed. Philadelphia: Academic Press; 2012. Upon completion of this chapter the student should be able to answer the following questions: 1."
+        },
+        {
+            "id": "InternalMed_Harrison_9105",
+            "title": "InternalMed_Harrison",
+            "content": "Similar to patients with AML, adults with acute lymphocytic leukemia who do not achieve a complete response to induction chemotherapy can be cured in 15\u201320% of cases with immediate transplantation. Cure rates improve to 30\u201350% in second remission, and therefore transplantation can be recommended for adults who have persistent disease after induction chemotherapy or who have subsequently relapsed. Transplantation in first remission results in cure rates about 55%. Transplantation appears to offer a clear advantage over chemotherapy for patients with high-risk disease, such as those with Philadelphia chromosome\u2013positive disease. Debate continues about whether adults with standard-risk disease should be transplanted in first remission or whether transplantation should be reserved until relapse. Autologous transplantation is associated with a higher relapse rate but a somewhat lower risk of nonrelapse mortality when compared to allogeneic transplantation. There is no obvious role of"
+        },
+        {
+            "id": "InternalMed_Harrison_391",
+            "title": "InternalMed_Harrison",
+            "content": "Gene Drugs Effect of Genetic Variantsa Chapter 5 Principles of Clinical Pharmacology K-ras mutation Panitumumab, cetuximab Lack of efficacy with KRAS mutation Philadelphia Busulfan, dasatinib, nilotinib, Decreased efficacy in Philadelphia chromosome\u2013negative chronic chromosome imatinib myelogenous leukemia aDrug effect in homozygotes unless otherwise specified. Note: EM, extensive metabolizer (normal enzymatic activity); PM, poor metabolizer (homozygote for reduced or loss of function allele); UM, ultra-rapid metabolizer (enzymatic activity much greater than normal, e.g., with gene duplication, Fig. 5-6). Further data at U.S. Food and Drug Administration: http://www.fda.gov/Drugs/ ScienceResearch/ResearchAreas/Pharmacogenetics/ucm083378.htm; or Pharmacogenetics Research Network/Knowledge Base: http://www.pharmgkb.org."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5689",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we saw earlier, chronic myelogenous leukemia (CML) is usually associated with a particular chromosomal translocation, visible as the Philadelphia chromosome (see Figure 20\u20135). This results from chromosome breakage and rejoining at the sites of two specific genes, Abl and Bcr. The fusion of these genes creates a hybrid gene, called Bcr-Abl, that codes for a chimeric protein consisting of the N-terminal fragment of Bcr fused to the C-terminal portion of Abl (Figure 20\u201342). Abl is a tyrosine kinase involved in cell signaling. The substitution of the Bcr fragment for the normal N-terminus of Abl makes it hyperactive, so that it stimulates inappropriate proliferation of the hemopoietic precursor cells that contain it and prevents these cells from dying by apoptosis\u2014which many of them would normally do. As a result, excessive numbers of white blood cells accumulate in the bloodstream, producing CML."
+        },
+        {
+            "id": "Obstentrics_Williams_1731",
+            "title": "Obstentrics_Williams",
+            "content": "A monogenic or mendelian disorder is caused by a mutation or alteration in a single locus or gene in one or both members of a gene pair. Types of mendelian inheritance include autosomal dominant, autosomal recessive, X-linked, and Y-linked. Other monogenic inheritance patterns, described subsequently, include mitochondrial inheritance, uniparental disomy, imprinting, and trinucleotide repeat expansion-also termed anticipation. By age 25, approximately 0.4 percent of the population exhibits an abnormality attributed to a monogenic disorder, and 2 percent will have at least one such disorder during their lifetime (Table 13-3)."
+        },
+        {
+            "id": "InternalMed_Harrison_6367",
+            "title": "InternalMed_Harrison",
+            "content": "In hematologic tumors, the prototypic agent of this type is imatinib, which targets the ATP binding site of the p210bcr-abl protein tyrosine kinase that is formed as the result of the chromosome 9;22 translocation producing the Philadelphia chromosome in CML. Imatinib is superior to interferon plus chemotherapy in the initial treatment of the chronic phase of this disorder. It has lesser activity in the blast phase of CML, where the cells may have acquired additional mutations in p210bcr-abl itself or other genetic lesions. Its side effects are relatively tolerable in most patients and include hepatic dysfunction, diarrhea, and fluid retention. Rarely, patients receiving imatinib have decreased cardiac function, which may persist after discontinuation of the drug. The quality of response to imatinib enters into the decision about when to refer patients with CML for consideration of transplant approaches. Nilotinib is a tyrosine protein kinase inhibitor with a similar spectrum of"
+        },
+        {
+            "id": "Pathoma_Husain_147",
+            "title": "Pathoma_Husain",
+            "content": "II. CHRONIC MYELOID LEUKEMIA (CML) A. Neoplastic proliferation of mature myeloid cells, especially granulocytes and their precursors; basophils are characteristically increased (Fig. 6.11). B. Driven by t(9;22) (Philadelphia chromosome) which generates a BCR-ABL fusion protein with increased tyrosine kinase activity. 1. First line treatment is imatinib, which blocks tyrosine kinase activity. C. Splenomegaly is common. Enlarging spleen suggests progression to accelerated phase of disease; transformation to acute leukemia usually follows shortly thereafter. 1. Can transform to AML (2/3 of cases) or ALL (1/3 of cases) since mutation is in a pluripotent stem cell. D. CML is distinguished from a leukemoid reaction (reactive neutrophilic leukocytosis) by 1. Negative leukocyte alkaline phosphatase (LAP) stain (granulocytes in a leukemoid reaction are LAP positive) 2. Increased basophils (absent with leukemoid reaction) 3. III. POLYCYTHEMIA VERA (PV)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5691",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 20\u201342 The conversion of the Abl proto-oncogene into an oncogene in patients with chronic myelogenous leukemia. The chromosome translocation responsible joins the Bcr gene on chromosome 22 to the Abl gene from chromosome 9, thereby generating a Philadelphia chromosome (see Figure 20\u20135). The resulting fusion protein has the N-terminus of the Bcr protein joined to the C-terminus of the Abl tyrosine protein kinase; in consequence, the Abl kinase domain becomes inappropriately active, driving excessive proliferation of a clone of hemopoietic cells in the bone marrow. Figure 20\u201343 How imatinib (Gleevec) blocks the activity of Bcr-Abl protein and halts chronic myelogenous leukemia."
+        },
+        {
+            "id": "Pediatrics_Nelson_1031",
+            "title": "Pediatrics_Nelson",
+            "content": "Duplications and deletions occur secondary to misalignment and unequal crossing over during meiosis. Small extra chromosomes are found in a small percentage of the population (0.06%). These \u201cmarker\u201d chromosomes sometimes are associated with mental retardation and other abnormalities, and other times they have no apparent phenotypic effects."
+        },
+        {
+            "id": "Obstentrics_Williams_1708",
+            "title": "Obstentrics_Williams",
+            "content": "\u2022 Abnormalities of Chromosome Structure Structural chromosomal abnormalities include deletions, duplications, translocations, isochromosomes, inversions, ring chromosomes, and mosaicism (see Table 13-1). heir overall birth prevalence approximates 0.3 percent (Nussbaum, 2007). Identiication of a structural chromosomal abnormality raises two primary questions. First, what phenotypic abnormalities or later developmental abnormalities are associated with this finding? Second, is evaluation of parental karyotype indicated-speciically, are the parents at increased risk of carrying this abnormality? If so, what is their risk of having future afected ofspring?"
+        },
+        {
+            "id": "Immunology_Janeway_1651",
+            "title": "Immunology_Janeway",
+            "content": "A. a mutation in Ras that enhances its GTpase activity B. overexpression of Gefs C. depletion of GTp in the cytoplasm D. overexpression of Gaps E. a mutation in Ras that renders it unsusceptible to the activities of Gaps 7.5 Matching: order (by numbering 1\u20135) the downstream signaling events that occur immediately after T-cell receptor engagement: ____ LaT and SLp-76, scaffold proteins linked by Gads, are phosphorylated ____ Zap-70, a tandem Sh2 domain containing kinase, binds to iTams ____ Recruitment and activation of Sh2, ph, and pX domain-containing proteins ____ pi 3-kinase is activated and produces pip3 ____ phosphorylation of iTams by Lck, a Src-family kinase 7.6 Fill-in-the-Blanks: for each of the following sentences, fill in the blanks with the best word selected from the list below. each word should be used only once."
+        }
+    ],
+    "scores": [
+        0.03665915484508009,
+        0.03405897865328328,
+        0.03183373640153736,
+        0.028676734987414597,
+        0.027990950985580958,
+        0.026651593521773903,
+        0.026261330187977515,
+        0.026181447660320902,
+        0.0252278136778325,
+        0.02467155757117933,
+        0.023496634380151156,
+        0.022816561279176722,
+        0.021689614616008997,
+        0.021542477116704803,
+        0.02038212414152264,
+        0.01927632116311362,
+        0.018883049790683174,
+        0.017238828055637763,
+        0.01721132897603486,
+        0.01689664883131512,
+        0.01686176142697882,
+        0.016718054128126072,
+        0.01593726283835062,
+        0.015737905695039803,
+        0.015390965915791957,
+        0.015188470066518847,
+        0.01499011640676477,
+        0.01466795615731786,
+        0.01444672131147541,
+        0.01436752224153799,
+        0.01414858514148585,
+        0.013911007025761125
+    ],
+    "execution_time": 14.80665922164917
+}

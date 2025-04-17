@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-018",
+    "question": "Which of the following most accurately describes a retrotransposon?",
+    "options": {
+        "A": "A DNA sequence that can move from one site in the genome to another without replicating",
+        "B": "A DNA sequence that can be deleted from the genome without consequence",
+        "C": "A DNA sequence that replicates via an RNA intermediate",
+        "D": "A DNA sequence that replicates via a protein intermediate"
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the characteristics of retrotransposons as described in the provided documents. According to Document [1], retrotransposons are transposable elements that move via a mechanism that requires an RNA intermediate, which is then converted to DNA. This process involves transcription of the element into RNA, followed by reverse transcription of the RNA into DNA. This process is similar to the replication mechanism of retroviruses. In Document [7], it is stated that retrotransposons are characterized by the presence of an RNA copy that is used as a template for DNA synthesis. In Document [8], it is mentioned that retrotransposons are transcribed to RNA, which is used as a template for DNA synthesis by a reverse transcriptase encoded by the transposon. Therefore, the key characteristic of retrotransposons is that they replicate via an RNA intermediate. This matches option C. Options A and B do not accurately describe the mechanism of retrotransposons, as they do not involve an RNA intermediate. Option D is incorrect because while some transposons may use a protein intermediate, retrotransposons specifically use an RNA intermediate.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1338",
+            "title": "Cell_Biology_Alberts",
+            "content": "On the basis of their structure and transposition mechanism, transposons can be grouped into three large classes: DNA-only transposons, retroviral-like retrotransposons, and nonretroviral retrotransposons. The differences among them are briefly outlined in Table 5\u20134, and each class will be discussed in turn."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1377",
+            "title": "Cell_Biology_Alberts",
+            "content": "tive site-specific recombination processes. In most cases, this movement is random and happens at a very low frequency. Mobile genetic elements include transposons, which move within a single cell (and its descendants), plus those viruses whose genomes can integrate into the genomes of their host cells. ways of repairing it. Are there still There are three classes of transposons: the DNA-only transposons, the retrovi other, undiscovered ways that cells ral-like retrotransposons, and the nonretroviral retrotransposons. All but the last have for repairing DNA? have close relatives among the viruses. Although viruses and transposable elements can be viewed as parasites, many of the new arrangements of DNA sequences that \u2022 Do the many \u201cdead\u201d transposons their site-specific recombination events produce have played an important part in in the human genome provide any creating the genetic variation crucial for the evolution of cells and organisms. benefits to humans?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1355",
+            "title": "Cell_Biology_Alberts",
+            "content": "Inspection of the human genome sequence reveals that the bulk of nonretro ber of the SINE (short interspersed nuclear element) family\u2014do not carry their viral retrotransposons\u2014for example, the many copies of the Alu element, a mem-target DNA own endonuclease or reverse transcriptase genes. Nonetheless, they have suc cessfully amplified themselves to become major constituents of our genome, pre- sumably by pirating enzymes encoded by other transposons. Together the LINEs and SINEs make up over 30% of the human genome (see Figure 4\u201362); there are 500,000 copies of the former and over a million of the latter. Figure 5\u201363 Transposition by a nonretroviral retrotransposon."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1360",
+            "title": "Cell_Biology_Alberts",
+            "content": "today. Only a single family of retroviral-like retrotransposons is believed to have transposed in the human genome since the divergence of human and chimpanzee approximately 6 million years ago. The nonretroviral retrotransposons are also ancient, but in contrast to other types, some are still moving in our genome, as mentioned previously. For example, it is estimated that de novo movement of an Alu element is seen once in every 100\u2013200 human births. The movement of nonretroviral retrotransposons is responsible for a small but significant fraction of new human mutations\u2014perhaps two mutations out of every thousand."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1359",
+            "title": "Cell_Biology_Alberts",
+            "content": "The nucleotide sequence of the human genome provides a rich fossil record of the activity of transposons over evolutionary time spans. By carefully comparing the nucleotide sequences of the approximately 3 million transposable element remnants in the human genome, it has been possible to broadly reconstruct the movements of transposons in our ancestors\u2019 genomes over the past several hundred million years. For example, the DNA-only transposons appear to have been very active well before the divergence of humans and Old World monkeys (25\u201335 million years ago), but because they gradually accumulated inactivating mutations, they have been dormant in the human lineage since that time. Likewise, although our genome is littered with relics of retroviral-like retrotransposons, none appear to be active today. Only a single family of retroviral-like retrotransposons is believed to have transposed in the human genome since the divergence of human and chimpanzee approximately 6 million years ago."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1354",
+            "title": "Cell_Biology_Alberts",
+            "content": "binds to L1 RNA Nonretroviral retrotransposons are found in many organisms and move via a 5\u02dc distinct mechanism that requires a complex of an endonuclease and a reverse transcriptase. As illustrated in Figure 5\u201363, the RNA and reverse transcriptase CLEAVAGE OF FIRST STRAND have a much more direct role in the recombination event than they do in the ret- roviral-like retrotransposons described above."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1358",
+            "title": "Cell_Biology_Alberts",
+            "content": "Intriguingly, different types of transposons predominate in different organisms. For example, the vast majority of bacterial transposons are DNA-only types, with a few related to the nonretroviral retrotransposons also present. In yeasts, the main mobile elements are retroviral-like retrotransposons. In Drosophila, DNA-based, retroviral, and nonretroviral transposons are all found. Finally, the human genome contains all three types of transposon, but as discussed below, their evolutionary histories are strikingly different. Genome Sequences Reveal the Approximate Times at Which Transposable Elements Have Moved"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1357",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have described several types of transposable elements: (1) DNA-only transposons, the movement of which is based on DNA breaking and joining reactions; (2) retroviral-like retrotransposons, which also move via DNA breakage and joining, but where RNA has a key role as a template to generate the DNA recombination substrate; and (3) nonretroviral retrotransposons, in which an RNA copy of the element is central to the incorporation of the element into the target DNA, acting as a direct template for a DNA target-primed reverse transcription event."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1353",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Large Fraction of the Human Genome Is Composed of Nonretroviral Retrotransposons A significant fraction of many vertebrate chromosomes is made up of repeated DNA sequences. In human chromosomes, these repeats are mostly mutated and truncated versions of nonretroviral retrotransposons, the third major type of transposon (see Table 5\u20134). Although most of these transposons in the human genome are immobile, a few retain the ability to move. Relatively recent movements of the L1 element (sometimes referred to as a LINE or long interspersed nuclear element) have been identified, some of which result in human disease; for example, a particular type of hemophilia results from an L1 insertion into the gene encoding the blood-clotting protein Factor VIII (see Figure 6\u201324). binds to L1 RNA"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1351",
+            "title": "Cell_Biology_Alberts",
+            "content": "A large family of transposons called retroviral-like retrotransposons (see Table 5\u20134) move themselves in and out of chromosomes by a mechanism that is similar to that used by retroviruses. These elements are present in organisms as diverse as yeasts, flies, and mammals; unlike viruses, they have no intrinsic ability to leave their resident cell but are passed along to all descendants of that cell through the normal processes of DNA replication and cell division. The first step in their transposition is the transcription of the entire transposon, producing an RNA copy of the element that is typically several thousand nucleotides long. This transcript, which is translated as a messenger RNA by the host cell, encodes a reverse transcriptase enzyme. This enzyme makes a double-strand DNA copy of the RNA molecule via an RNA\u2013DNA hybrid intermediate, precisely mirroring the early stages of infection by a retrovirus (see Figure 5\u201362). Like a retrovirus, the linear, double-strand DNA molecule"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1350",
+            "title": "Cell_Biology_Alberts",
+            "content": "transposase called integrase. Integrase then inserts the viral DNA into the chromosome by a mechanism similar to that used by the cut-and-paste DNA-only transposons (see Figure 5\u201361). Retroviral-like Retrotransposons Resemble Retroviruses, but Lack a Protein Coat"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1663",
+            "title": "Biochemistry_Lippinco",
+            "content": "Mobile DNA elements: Transposons (Tn) are mobile segments of DNA that move in an essentially random manner from one site to another on the same or a different chromosome. Movement is mediated by transposase, an enzyme encoded by the Tn itself. Movement can be direct, in which transposase cuts out and then inserts the Tn at a new site, or replicative, in which the Tn is copied and the copy inserted elsewhere while the original remains in place. In eukaryotes, including humans, replicative transposition frequently involves an RNA intermediate made by a reverse transcriptase (see p. 424), in which case the Tn is called a retrotransposon. Transposition has contributed to structural variation in the genome but also has the potential to alter gene expression and even to cause disease. Tn comprise ~50% of the human genome, with retrotransposons accounting for 90% of Tn. Although the vast majority of these retrotransposons have lost the ability to move, some are still active. Their"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1090",
+            "title": "Cell_Biology_Alberts",
+            "content": "4\u201314 Mobile pieces of DNA\u2014transposable elements\u2014 that insert themselves into chromosomes and accumulate during evolution make up more than 40% of the human genome. Transposable elements of four types\u2014long interspersed nuclear elements (LINEs), short interspersed nuclear elements (SINEs), long terminal repeat (LTR) retrotransposons, and DNA transposons\u2014are inserted more-or-less randomly throughout the human genome. These elements are conspicuously rare at the four homeobox gene clusters, HoxA, HoxB, HoxC, and HoxD, as illustrated for HoxD in Figure Q4\u20134, along with an equivalent region of chromosome 22, which lacks a Hox cluster. Each Hox cluster is about 100 kb in length and contains 9 to 11 genes, whose differential expression along the anteroposterior axis of the developing embryo establishes the basic body plan for humans (and for other animals). Why do you suppose that transposable elements are so rare in the Hox clusters?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1361",
+            "title": "Cell_Biology_Alberts",
+            "content": "The situation in mice is significantly different. Although the mouse and human genomes contain roughly the same density of the three types of transposons, both types of retrotransposons are still actively transposing in the mouse genome, being responsible for approximately 10% of new mutations. Although we are only beginning to understand how the movements of transposons have shaped the genomes of present-day mammals, it has been proposed that bursts in transposition activity could have been responsible for critical speciation events during the radiation of the mammalian lineages from a common ancestor, a process that began approximately 170 million years ago. At present, we can only wonder how many of our uniquely human qualities arose from the past activity of the many mobile genetic elements whose remnants are found today scattered throughout our chromosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1356",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201363 Transposition by a nonretroviral retrotransposon. Transposition of the L1 element (red) begins when an endonuclease attached to the L1 reverse transcriptase (green) and the L1 RNA (blue) nick the target DNA at the point at which insertion will occur. This cleavage releases a 3\u02b9-OH DNA end in the target DNA, which is then used as a primer for the reverse transcription step shown. This generates a single-strand DNA copy of the 3\u02dc element that is directly linked to the target DNA. In subsequent reactions, further processing of the single-strand DNA copy results in the generation of a new double-strand DNA copy of the L1 element that is inserted at the site of the initial nick."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1347",
+            "title": "Cell_Biology_Alberts",
+            "content": "Some Viruses Use a Transposition Mechanism to Move Themselves Into Host-Cell Chromosomes Certain viruses are considered mobile genetic elements because they use transposition mechanisms to integrate their genomes into that of their host cell. However, unlike transposons, these viruses encode proteins that package their genetic information into virus particles that can infect other cells. Many of the viruses that insert themselves into a host chromosome do so by employing one of the first two mechanisms listed in Table 5\u20134; namely, by behaving like DNA-only transposons or like retroviral-like retrotransposons. Indeed, much of our knowledge of these mechanisms has come from studies of particular viruses that employ them."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6961",
+            "title": "Cell_Biology_Alberts",
+            "content": "nonretroviral retrotransposons Type of transposable element that moves by being first transcribed into an RNA copy that is converted to DNA by reverse transcriptase then inserted elsewhere in the genome. The mechanism of insertion differs from that of the retroviral-like transposons. (Table 5\u20134, p. 288) nonsense-mediated mRNA decay Mechanism for degrading aberrant mRNAs containing in-frame internal stop codons before they can be translated into protein. (Figure 6\u201376) normal flora The human microbiota consisting of approximately 1014 bacterial, fungal, and protozoan cells, representing thousands of microbial species. Notch Transmembrane receptor protein (and latent transcription regulator) involved in many cell-fate choices in animal development, for example in the specification of nerve cells from ectodermal epithelium. Its ligands are cell-surface proteins such as Delta and Serrate. (Figure 15\u201359)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1352",
+            "title": "Cell_Biology_Alberts",
+            "content": "of the RNA molecule via an RNA\u2013DNA hybrid intermediate, precisely mirroring the early stages of infection by a retrovirus (see Figure 5\u201362). Like a retrovirus, the linear, double-strand DNA molecule then integrates into a site on the chromosome using an integrase enzyme that is also encoded by the element. The structure and mechanisms of these integrases closely resemble those of the transposases of DNA-only transposons."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1475",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. Reverse transcriptases As seen with telomerase, reverse transcriptases are RNA-directed DNA pols. A reverse transcriptase is involved in the replication of retroviruses, such as human immunodeficiency virus (HIV). These viruses carry their genome in the form of ssRNA molecules. Following infection of a host cell, the viral enzyme reverse transcriptase uses the viral RNA as a template for the 5\u2032\u21923\u2032 synthesis of viral DNA, which then becomes integrated into host chromosomes. Reverse transcriptase activity is also seen with transposons, DNA elements that can move about the genome (see p. 477). In eukaryotes, most transposons are transcribed to RNA, the RNA is used as a template for DNA synthesis by a reverse transcriptase encoded by the transposon, and the DNA is randomly inserted into the genome. [Note: Transposons that involve an RNA intermediate are called retrotransposons or retroposons.] E. DNA replication inhibition by nucleoside analogs"
+        },
+        {
+            "id": "Cell_Biology_Alberts_7014",
+            "title": "Cell_Biology_Alberts",
+            "content": "retinoblastoma protein (Rb protein) Tumor suppressor protein involved in the regulation of cell division. Mutated in the cancer retinoblastoma, as well as in many other tumors. Its normal activity is to regulate the eukaryotic cell cycle by binding to and inhibiting the E2F proteins, thus blocking progression to DNA replication and cell division. (Figure 17\u201361) retroviral-like retrotransposons A large family of transposons that move themselves in and out of chromosomes by a mechanism similar to that used by retroviruses, being first transcribed into an RNA copy that is converted to DNA by reverse transcriptase then inserted elsewhere in the genome. (Table 5\u20134, p. 288) retrovirus RNA-containing virus that replicates in a cell by first making an RNA\u2013DNA intermediate and then a double-strand DNA molecule that becomes integrated into the cell\u2019s DNA. (Figure 5\u201362) reverse genetics Approach to discovering gene function that starts from the DNA (gene) and its protein product and then"
+        },
+        {
+            "id": "Cell_Biology_Alberts_991",
+            "title": "Cell_Biology_Alberts",
+            "content": "sequences and segments of existing genes. Over long periods of evolutionary time, DNA transposition events have profoundly affected genomes, so much so that nearly half of the DNA in the human genome consists of recognizable relics of past transposition events (Figure 4\u201362). Even more of our genome is thought to have been derived from transpositions that occurred so long ago (>108 years) that the sequences can no longer be traced to transposons."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1024",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201371 Comparison of the genomic sequences of the human and Fugu genes encoding the protein huntingtin. both genes (indicated in red) contain 67 short exons that align in 1:1 correspondence to one another; these exons are connected by curved lines. The human gene is 7.5 times larger than the Fugu gene (180,000 versus 24,000 nucleotide pairs). The size difference is entirely due to larger introns in the human gene. The larger size of the human introns is due in part to the presence of retrotransposons (discussed in Chapter 5), whose positions are represented by green vertical lines; the Fugu introns lack retrotransposons. In humans, mutation of the huntingtin gene causes Huntington\u2019s disease, an inherited neurodegenerative disorder. (Adapted from S. baxendale et al., Nat. Genet. 10:67\u201376, 1995. with permission from macmillan Publishers ltd.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1341",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA-only transposons can relocate from a donor site to a target site by cutand-paste transposition (Figure 5\u201361). Here, the transposon is literally excised from one spot on a genome and inserted into another. This reaction produces a short duplication of the target DNA sequence at the insertion site; these direct repeat sequences that flank the transposon serve as convenient records of prior transposition events. Such \u201csignatures\u201d often provide valuable clues in identifying transposons in genome sequences."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1348",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transposition has a key role in the life cycle of many viruses. Most notable are the retroviruses, which include the human AIDS virus, HIV. Outside the cell, a retrovirus exists as a single-strand RNA genome packed into a protein shell or capsid along with a virus-encoded reverse transcriptase enzyme. During the infection process, the viral RNA enters a cell and is converted to a double-strand DNA molecule by the action of this crucial enzyme, which is able to polymerize DNA on either an RNA or a DNA template (Figure 5\u201362). The term retrovirus refers to the virus\u2019s ability to reverse the usual flow of genetic information, which normally is from DNA to RNA (see Figure 1\u20134). Once the reverse transcriptase has produced a double-strand DNA molecule, specific sequences near its two ends are recognized by a virus-encoded"
+        },
+        {
+            "id": "Cell_Biology_Alberts_994",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201362 A representation of the nucleotide sequence content of the sequenced human genome. The lINEs (long interspersed nuclear elements), SINEs (short interspersed nuclear elements), retroviral-like elements, and DNA-only transposons are mobile genetic elements that have multiplied in our genome by replicating themselves and inserting the new copies in different positions. These mobile genetic elements are discussed in Chapter 5 (see Table 5\u20133, p. 267). Simple sequence repeats are short nucleotide sequences (less than 14 nucleotide pairs) that are repeated again and again for long stretches. Segmental duplications are large blocks of DNA sequence (1000\u2013200,000 nucleotide pairs) that are present at two or more locations in the genome. The most highly repeated blocks of DNA in heterochromatin have not yet been completely sequenced; therefore about 10% of human DNA sequences are not represented in this diagram. (Data courtesy of E. margulies.) showing the relationship between 1.5"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1337",
+            "title": "Cell_Biology_Alberts",
+            "content": "Through Transposition, Mobile Genetic Elements Can Insert Into Any DNA Sequence Mobile elements that move by way of transposition are called transposons, or transposable elements. In transposition, a specific enzyme, usually encoded by the transposon itself and typically called a transposase, acts on specific DNA sequences at each end of the transposon, causing it to insert into a new target DNA site. Most transposons are only modestly selective in choosing their target site, and they can therefore insert themselves into many different locations in a genome. In particular, there is no general requirement for sequence similarity between the ends of the element and the target sequence. Most transposons move only rarely. In bacteria, where it is possible to measure the frequency accurately, transposons typically move once every 105 cell divisions. More frequent movement would probably destroy the host cell\u2019s genome."
+        },
+        {
+            "id": "InternalMed_Harrison_14780",
+            "title": "InternalMed_Harrison",
+            "content": "Retroviruses can be either exogenously acquired (by infection with an infected cell or a free virion capable of replication) or transmitted in the germline as endogenous virus. Endogenous retroviruses are often replication defective. The human genome contains endogenous retroviral sequences, but there are no known replication-competent endogenous retroviruses in humans."
+        },
+        {
+            "id": "InternalMed_Harrison_14767",
+            "title": "InternalMed_Harrison",
+            "content": "The wide variety of interactions of a retrovirus with its host range from completely benign events (e.g., silent carriage of endogenous retroviral sequences in the germline genome of many animal species) to rapidly fatal infections (e.g., exogenous infection with an oncogenic virus such as Rous sarcoma virus in chickens). The ability of retroviruses to acquire and alter the structure and function of host cell sequences has revolutionized our understanding of molecular carcinogenesis. The viruses can insert into the germline genome of the host cell and behave as a transposable or movable genetic element. They can activate or inactivate genes near the site of integration into the genome. They can rapidly alter their own genome by recombination and mutation under selective environmental stimuli."
+        },
+        {
+            "id": "InternalMed_Harrison_14782",
+            "title": "InternalMed_Harrison",
+            "content": "of their genome that is required for replication. Such viruses need helper viruses to reproduce, a feature that may explain why these acute transforming retroviruses are rare in nature. All human retroviruses identified to date are exogenous and are not acutely transforming (i.e., they lack a transforming oncogene)."
+        },
+        {
+            "id": "InternalMed_Harrison_14783",
+            "title": "InternalMed_Harrison",
+            "content": "These remarkable properties of retroviruses have led to experimental efforts to use them as vectors to insert specific genes into particular cell types, a process known as gene therapy or gene transfer. The process could be used to repair a genetic defect or to introduce a new property that could be used therapeutically; for example, a gene (e.g., thymidine kinase) that would make a tumor cell susceptible to killing by a drug (e.g., ganciclovir) could be inserted. One source of concern about the use of retroviral vectors in humans is that replication-competent viruses might rescue endogenous retroviral replication, with unpredictable results. This concern is not merely hypothetical: the detection of proteins encoded by endogenous retroviral sequences on the surface of cancer cells implies that the genetic events leading to the cancer were able to activate the synthesis of these usually silent genes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1745",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) Splicing patterns for four \u03b1-tropomyosin mRNAs. Splicing is indicated by lines connecting the exons that are included in the mRNA. 6\u20138 The human \u03b1-tropomyosin gene is alternatively spliced to produce different forms of \u03b1-tropomyosin mRNA in different cell types (Figure Q6\u20133). For all forms of the mRNA, the protein sequences encoded by exon 1 are the same, as are the protein sequences encoded by exon 10. Exons 2 and 3 are alternative exons used in different mRNAs, as are exons 7 and 8. Which of the following statements about exons 2 and 3 is the most accurate? Is that statement also the most accurate one for exons 7 and 8? Explain your answers. A. Exons 2 and 3 must have the same number of nucleotides. b. Exons 2 and 3 must each contain an integral number of codons (that is, the number of nucleotides divided by 3 must be an integer). C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2)."
+        },
+        {
+            "id": "InternalMed_Harrison_14771",
+            "title": "InternalMed_Harrison",
+            "content": "called long terminal repeats (LTRs). The ends of the retroviral RNA genome differ slightly in sequence from the integrated retroviral DNA. In the latter, the LTR sequences are repeated in both the 5\u2032 and the 3\u2032 terminus of the virus. The LTRs contain sequences involved in initiating the expression of the viral proteins, the integration of the provirus, and the polyadenylation of viral RNAs. The primer binding site, which is critical for the initiation of reverse transcription, and the viral packaging sequences are located outside the LTR sequences. The coding regions include the gag (group-specific antigen, core protein), pol (RNA-dependent DNA polymerase), and env (envelope) genes. The gag gene encodes a precursor polyprotein that is cleaved to form three to five capsid proteins; a fraction of the Gag precursor proteins also contain a protease responsible for cleaving the Gag and Pol polyproteins. A Gag-Pol polyprotein gives rise to the protease that is responsible for cleaving the"
+        }
+    ],
+    "scores": [
+        0.03771854474447072,
+        0.03743783571833778,
+        0.03698296109025087,
+        0.03679803955033313,
+        0.03673636222596159,
+        0.0363091598385716,
+        0.035987688317603315,
+        0.0355208248097537,
+        0.03469028212405696,
+        0.03412335243612634,
+        0.03378461161480029,
+        0.032851283376109416,
+        0.029212169123700032,
+        0.02711782579039216,
+        0.02538274352332072,
+        0.024416605256693688,
+        0.023575757575757576,
+        0.02353353750973868,
+        0.023303103455775208,
+        0.022135586796101878,
+        0.021578029642545772,
+        0.02022147816381847,
+        0.019366231253023707,
+        0.019324214608815265,
+        0.018424611223799865,
+        0.017954918644573818,
+        0.01774915573706118,
+        0.0168928470455188,
+        0.016743729858483956,
+        0.0166459455725929,
+        0.016547008547008548,
+        0.016463414634146342
+    ],
+    "execution_time": 40.70281791687012
+}

@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-008",
+    "question": "The concept of punctuated equilibrium refers to",
+    "options": {
+        "A": "oscillating ecological successional stages",
+        "B": "ecological succession arrested by sudden environmental changes, e.g., fire",
+        "C": "persistent predator-prey relationships in relatively stable environments",
+        "D": "bursts of speciation followed by relatively unchanging lineages"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the concept of punctuated equilibrium. This concept was first introduced by paleontologist Niles Eldredge and biologist Stephen Jay Gould in 1972. The term refers to a model of evolution that describes the process of evolution as a series of rapid changes or speciation events (punctuations) followed by long periods of stability or stasis (equilibrium). This model is often contrasted with the traditional view of gradualism, which suggests that evolution occurs through a steady, continuous process. The punctuated equilibrium model suggests that species undergo rapid changes in response to environmental pressures, followed by periods of stability, and then another period of rapid change. This process repeats over time, resulting in a series of distinct species or lineages. The key concept to understand here is that punctuated equilibrium refers to bursts of speciation followed by relatively unchanging lineages. \", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_2544",
+            "title": "Cell_Biology_Alberts",
+            "content": "trajectories converge on only Once this system adopts a fate by settling in one of the two steady states, does two of them. The middle steady state is avoided: it is unstable, being unable to it have the ability to switch to the other state? The numerical solution of Equation attract any trajectories. (B) Imagine that the system is at the upper-left steady state and experiences a perturbation (black arrows), such as a random fluctuation in the production rates of X and/or Y. If the perturbation is small (arrow 1), the system will return to the same steady state. On the other hand, a perturbation that drives the system beyond the unstable (middle) steady state (arrow 2) causes it to switch to the lower-right steady state. The set of perturbations that a system can withstand without switching from one steady state to the other is known as the region of concentration of X concentration of X attraction of that steady state."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2547",
+            "title": "Cell_Biology_Alberts",
+            "content": "Biological regulatory systems are exposed to frequent and sometimes extreme variations in external conditions or the concentrations or activities of key components. The ability of these systems to function normally in the face of such perturbations is called robustness. If we understand a complex system to the extent that we can reproduce its behavior with a computational model, then the robustness of the system can be assessed by determining how well its normal function persists following changes in various parameters, such as rate constants and component concentrations. We have already seen, for example, how the presence of negative feedback reduces the sensitivity of the steady state to changes in the values of the system\u2019s parameters (see Figure 8\u201377). Considerations of robustness also apply to dynamic behaviors. Thus, for example, when discussing negative feedback, we described how the behavior of a system tends to become more oscillatory as the number of components that"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2498",
+            "title": "Cell_Biology_Alberts",
+            "content": "The most important and basic insights for which we, as biologists, depend on mathematics concern the behavior of regulatory systems over time. This is the central theme of dynamics, and it was for the solution of problems in dynamics that the techniques of calculus were developed, by Newton and Leibniz, in the seventeenth century. Briefly, the general problem is this: if we are given the rates of change of a set of variables that characterize the system at any instant, how can we compute its future state? The problem becomes especially interesting, and the predictions often remarkable, when the rates of change themselves depend on the values of the state variables, as in systems with feedback."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2525",
+            "title": "Cell_Biology_Alberts",
+            "content": "A beautiful thing happens when a negative feedback loop contains some delay mechanism that slows the feedback signal through the loop: rather than generating a new stable state as in a rapid negative feedback loop, a delayed loop generates pulses, or oscillations, in the levels of its components. This can be seen, for example, if the number of components in a negative feedback loop increases, which leads to delays in the amount of time required for the cycle of signals to be completed. Figure 8\u201378 compares the behavior of two network motifs\u2014one with a three-stage and one with a five-stage negative feedback loop. Using the same kinetic parameters at each stage in the two loops, one finds that stable oscillations arise in the longer loop, while in the shorter loop the same parameters lead to relatively rapid convergence to a stable steady state."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3867",
+            "title": "Cell_Biology_Alberts",
+            "content": "ADP phosphate rate constant thus, = = equilibrium constant K concentration synthesis of ATP rate constant or abbreviated, At equilibrium the reaction has no net effect on the disorder of For the reaction the universe, so \u00b0G = 0. Therefore, at equilibrium, [ATP]the following equation applies: But the concentrations of reactants at equilibrium must satisfy the equilibrium equation: Therefore, at equilibrium, where \u00b0G and \u00b0Go are in Joules per mole, R is the gas constant (8.3 J/mole K), T is the absolute temperature (K), and all the concentrations are in moles per liter. We thus see that whereas \u00b0Go indicates the equilibrium point for a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2545",
+            "title": "Cell_Biology_Alberts",
+            "content": "set 8\u20139 can again provide an answer. In Figure 8\u201382B, we show the solution of this equation set for two perturbations from the upper-left steady state. For a small perturbation, the system returns to its original steady state. But the larger perturbation causes the system to switch to the alternate steady state. Thus, this system can be switched from one stable steady state to the other by subjecting it to an input (or a perturbation) that is large enough to make the other steady state more attractive. More generally, every stable steady state has a corresponding region of attraction, which can be intuitively thought of as the range of perturbations (of [X] or [Y] in this example) for which the dynamic trajectories converge back to that particular steady state, rather than switch to the other one."
+        },
+        {
+            "id": "Cell_Biology_Alberts_294",
+            "title": "Cell_Biology_Alberts",
+            "content": "We can define the equilibrium constant, K, for the reaction Y \u2192X as where [X] is the concentration of the product and [Y] is the concentration of the reactant at equilibrium. Remembering that \u2206G = \u2206G\u00b0 + RT ln [X]/[Y], and that \u2206G = 0 at equilibrium, we see that At 37\u00b0C, where RT = 2.58, the equilibrium equation is therefore: \u2206G\u00b0 = \u20132.58 ln K"
+        },
+        {
+            "id": "Physiology_Levy_103",
+            "title": "Physiology_Levy",
+            "content": "Concept of Steady-State Balance The human body is an \u201copen system,\u201d which means that substances are added to the body each day and, similarly, substances are lost from the body each day. The amounts added to or lost from the body can vary widely, depending on the environment, access to food and water, disease processes, and even cultural norms. In such an open system, homeostasis occurs through the process of steady-state balance."
+        },
+        {
+            "id": "Immunology_Janeway_4095",
+            "title": "Immunology_Janeway",
+            "content": "According to the immunoediting hypothesis, those tumor cells that survive the equilibrium phase have acquired additional changes, either due to additional mutations or from selection during the equilibrium phase, that prevent their elimination by the immune system. In an immunocompetent individual, the equilibrium phase of the immune response continually removes tumor cells, delaying tumor growth; if the immune system is compromised, the equilibrium phase quickly turns into escape, as no tumor cells at all are removed. An excellent clinical example to support the presence of the equilibrium phase is the occurrence of cancer in recipients of organ transplants. One study reported the development of melanoma between 1 and 2 years after transplantation in two patients who had received kidneys from the same donor, a patient who had had successfully treated malignant melanoma 16 years before her death. Presumably, melanoma cells, which are known to spread easily to other organs, were"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2542",
+            "title": "Cell_Biology_Alberts",
+            "content": "We emphasized earlier that positive feedback typically generates a bistable system with two stable steady states. Why does the system modeled in Figure 8\u201381D have three? This conundrum can be explained by solving the reaction rate equations (Equation set 8\u20139, Figure 8\u201381B) for various different starting conditions of [X] and [Y], determining all values of [X] and [Y] as a function of time. Starting Figure 8\u201382 Analysis of the stability of a system\u2019s steady states. (A) The dotted with each set of initial concentrations of [X] and [Y], these calculations produce lines are the nullclines for the system shown a so-called trajectory of points, each indicated by a curved green line on Figure in Figure 8\u201381. Also shown are dynamic 8\u201382A. A fascinating pattern emerges: each trajectory moves across the plot and trajectories (green) that show the changes settles in one of two steady states, but never in the third (middle steady state). over time in [X] and [Y], starting at a variety We conclude"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2546",
+            "title": "Cell_Biology_Alberts",
+            "content": "The concept of a region of attraction has interesting implications for the heritability of transcriptional states and the transition rates between them. If the region of attraction around one steady state is large, for example, then most cells in the population will assume this particular state. Furthermore, this state is likely to be inherited by daughter cells, since minor perturbations, like those ensuing from an asymmetric distribution of molecules during cell division, will rarely be sufficient to induce switching to the other steady state. We should expect that the use of positive feedback, coupled to cooperativity, will quite often be associated with systems requiring stable cell memory. Robustness Is an Important Characteristic of Biological Networks"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2577",
+            "title": "Cell_Biology_Alberts",
+            "content": "cells, so as to follow all of their Regulatory systems often employ network motifs that generate useful behaviors: changes in real time? a rapid negative feedback loop dampens the response to input signals; a delayed negative feedback loop creates a biochemical oscillator; positive feedback yields a models to accurately describe the systems that generate transient signal pulses or respond only to sustained inputs. enormous complexity of cellular The dynamic behavior of these network motifs can be dissected in detail with deter-networks and to predict undiscovered ministic and stochastic mathematical modeling. components and mechanisms? Which statements are true? explain why or why not. Discuss the following problems."
+        },
+        {
+            "id": "Cell_Biology_Alberts_293",
+            "title": "Cell_Biology_Alberts",
+            "content": "The equilibrium Constant and \u2206G\u00b0 are Readily Derived from each other Inspection of the above equation reveals that the \u2206G equals the value of \u2206G\u00b0 when the concentrations of Y and X are equal. But as any favorable reaction proceeds, the concentrations of the products will increase as the concentration of the substrates decreases. This change in relative concentrations will cause [X]/[Y] to become increasingly large, making the initially favorable \u2206G less and less negative (the logarithm of a number x is positive for x > 1, negative for x < 1, and zero for x =1). Eventually, when \u2206G = 0, a chemical equilibrium will be attained; here there is no net change in free energy to drive the reaction in either direction, inasmuch as the concentration effect just balances the push given to the reaction by \u2206G\u00b0. As a result, the ratio of product to substrate reaches a constant value at chemical equilibrium (Figure 2\u201330)."
+        },
+        {
+            "id": "Physiology_Levy_70",
+            "title": "Physiology_Levy",
+            "content": "Fig. 1.6B Eq. 1.4 can be used to derive the Nernst equation for the situation in which a molecule is at equilibrium across the membrane (i.e., \u0394\u00b5 = 0): Equation 1.5a Equation 1.5b The value of Vm calculated with the Nernst equation represents the equilibrium condition and is referred to as the Nernst equilibrium potential (Ex, the Vm at which there is no net transport of the molecule across the membrane). It should be apparent that the Nernst equilibrium potential quantitates the energy in a concentration gradient and expresses that energy in millivolts. For example, for the cell depicted in"
+        },
+        {
+            "id": "Physiology_Levy_104",
+            "title": "Physiology_Levy",
+            "content": "To illustrate the concept of steady-state balance, consider a river on which a dam is built to create a synthetic lake. Each day, water enters the lake from the various streams and rivers that feed it. In addition, water is added by underground springs, rain, and snow. At the same time, water is lost through the spillways of the dam and by the process of evaporation. For the level of the lake to remain constant (i.e., steady-state balance), the rate at which water is added, regardless of source, must be exactly matched by the amount of water lost, again regardless of route. Because the addition of water is not easily controlled and the loss by evaporation cannot be controlled, the only way to maintain a constant level of the lake is to regulate the amount that is lost through the spillways. To understand steady-state balance as it applies to the human body, the following key concepts are important. 1."
+        },
+        {
+            "id": "InternalMed_Harrison_5268",
+            "title": "InternalMed_Harrison",
+            "content": "the nodes are linearly linked with occasional feedback or feedforward loops modulating system throughput in highly predictable ways. By contrast, complex systems are nodes that are linked in more complicated, nonlinear networks; the behavior of these systems by definition is inherently more difficult to predict owing to the nature of the interacting links, the dependence of the system\u2019s behavior on its initial conditions, and the inability to measure the overall state of the system at any specific time with great precision. Complex systems can be depicted as a network of lower-complexity interacting components or modules, each of which can be reduced further to simpler analyzable canonical motifs (such as feedback and feedforward loops, or negative and positive autoregulation); however, a central property of complex systems is that simplifying their structures by identifying and characterizing the individual nodes and links or even simpler substructures does not necessarily yield a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_250",
+            "title": "Cell_Biology_Alberts",
+            "content": "The amount of disorder in a system can be quantified and expressed as the entropy of the system: the greater the disorder, the greater the entropy. Thus, another way to express the second law of thermodynamics is to say that systems will change spontaneously toward arrangements with greater entropy."
+        },
+        {
+            "id": "Immunology_Janeway_4091",
+            "title": "Immunology_Janeway",
+            "content": "cells\u2014the phenomenon previously referred to as immune surveillance (Fig. 16.13). If elimination is not completely successful, what follows is an \u2018equilibrium phase,\u2019 in which tumor cells undergo changes or mutations that aid their survival as a result of the selection pressure imposed by the immune system. During the equilibrium phase, a process known as cancer immunoediting continuously shapes the properties of the tumor cells that survive. In the final \u2018escape phase,\u2019 tumor cells that have acquired the ability to elude the attentions of the immune system and grow unimpeded become clinically detectable."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5918",
+            "title": "Cell_Biology_Alberts",
+            "content": "the amount of Hes protein product builds up until it is sufficient to block Hes gene transcription; synthesis of the protein ceases; the protein then decays, permitting transcription to begin again; and so on, cyclically (Figure 21\u201339). The period of oscillation, which determines the size of each somite, depends on the delay in the feedback loop. This equals the sum of the gestation delays and accumulation delays (that is, the molecular lifetimes) of the Hes mRNA and protein molecules, according to the additive principle discussed earlier. Mathematical modeling (see Chapter 8) allows us to relate these basic molecular parameters to the cycle time of the segmentation clock: to a first approximation, the cycle period is simply equal to twice the total delay in the negative feedback loop, and thus twice the sum of the delays occurring at each step of the loop."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2513",
+            "title": "Cell_Biology_Alberts",
+            "content": "We can see from Equation 8\u20136 (see Figure 8\u201374C) that when the concentration of protein A rises, protein X increases to a new steady-state value, [Xst]. But this cannot happen instantaneously. Instead, X changes dynamically according to the solution of its differential rate equation (Equation 8\u20135). The solution of this equation reveals that the concentration of X over time is related to its steady-state concentration according to the equation in Figure 8\u201374D. Once again, mathematics uncovers a simple but important concept that is not intuitively obvious: following a sudden increase in [A], [X] rises to a new steady state at an exponential rate that is inversely related to its lifetime; the faster X is degraded, the less time it takes it to reach its new steady-state value (Figure 8\u201374E). The faster response time comes at a higher metabolic cost, however, since proteins with a rapid response time must be produced and degraded at a high rate. For proteins that are not rapidly turned"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2537",
+            "title": "Cell_Biology_Alberts",
+            "content": "Equations 8\u201310 and 8\u201311 can be used to carry out an intriguing mathematical procedure called a nullcline analysis. These equations define the relationships between the concentration of X at steady state, [Xst], and the concentration of Y at steady state, [Yst], which must be simultaneously satisfied. We can plug in different values for [Yst] in Equation 8\u201310, and calculate the corresponding [Xst] for each of these values. We can then graph [Xst] as a function of [Yst]. Next, we repeat the process by varying [Xst] in Equation 8\u201311 to graph the resulting [Yst]. The intersections of these two graphs determine the theoretically possible steady states of the system. For systems in which the Hill coefficients hX and hY are much larger than 1, the lines in the two graphs intersect at three locations (Figure 8\u201381D). In other systems that have the same arrangement of regulators but different parameters, there might only be one intersection, indicating the presence of only a single"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2543",
+            "title": "Cell_Biology_Alberts",
+            "content": "the plot and trajectories (green) that show the changes settles in one of two steady states, but never in the third (middle steady state). over time in [X] and [Y], starting at a variety We conclude that the middle steady state is unstable because it cannot \u201cattract\u201d of different initial concentrations (determined by solution of Equation set 8\u20139; see Figure any trajectories. The system therefore has only two stable steady states. Thus, the 8\u201381B). By plotting [X] versus [Y] at each number of stable steady states in a system need not be equal to the total number time point, we find that, although there are of its theoretically possible steady states. In fact, stable steady states are usually three possible steady states in this system, separated by unstable ones, as in our example. the dynamic trajectories converge on only Once this system adopts a fate by settling in one of the two steady states, does two of them. The middle steady state is avoided: it is unstable, being unable to it"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2500",
+            "title": "Cell_Biology_Alberts",
+            "content": "The most common strategy for solving this problem is to use ordinary differential equations. The equations that describe biochemical reactions have a simple premise: the rate of change in the concentration of any molecular species X (that is, d[X]/dt) is given by the balance of the rate of its appearance with that of its disappearance. For our example, the rate of change in the concentration of the bound promoter complex, [A:pX], is determined by the rates of complex assembly and disassembly. We can incorporate these rates into the differential equation shown in Figure 8\u201373A (Equation 8\u20134). When [A] changes, Equation 8\u20134 can be solved to generate the concentration of [A:pX] as a function of time. Notice that when kon [A][pX] = koff [A:pX], then d[A:pX]/dt = 0 and [A:pX] stops changing. At this point, the system has reached the steady state."
+        },
+        {
+            "id": "Cell_Biology_Alberts_659",
+            "title": "Cell_Biology_Alberts",
+            "content": "As an alternative to this induced fit model for a cooperative allosteric transition, we can view such a symmetric enzyme as having only two possible conformations, corresponding to the \u201cenzyme on\u201d and \u201cenzyme off\u201d structures in Figure 3\u201360. In this view, ligand binding perturbs an all-or-none equilibrium between these two states, thereby changing the proportion of active molecules. Both models represent true and useful concepts. Proteins are regulated by more than the reversible binding of other molecules. A second method that eukaryotic cells use extensively to regulate a protein\u2019s function is the covalent addition of a smaller molecule to one or more of its amino acid side chains. The most common such regulatory modification in higher eukaryotes is the addition of a phosphate group. We shall therefore use protein phosphorylation to illustrate some of the general principles involved in the control of protein function through the modification of amino acid side chains."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2504",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201373 Using differential equations to study the dynamics and steady-state behavior of a biological system. (A) Equation 8\u20134 is an ordinary differential equation for calculating the rate of change in the formation of bound promoter complex in response to a change in other components. (B) Formation of [A:pX] after a tenfold increase in [A], as determined by solving Equation 8\u20134. In blue is the solution corresponding to kon = 0.5 \u00d7 107 sec\u20131 M\u20131 and koff = 0.5 \u00d7 10\u20131 sec\u20131. In this case, it takes [A:pX ] about 5, 20, and 40 seconds to reach 50, 90, and 99 percent of the new steady-state value. For the red curve, the kon and koff values are doubled, and the system reaches the same steady state more rapidly."
+        },
+        {
+            "id": "InternalMed_Harrison_21446",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 332e Cellular and Molecular Biology of the Kidney adaptation of the Kidney to Injury Joseph V. Bonventre Many years ago Claude Bernard (1878) introduced the concepts of milieu ext\u00e9rieur (the environment where an organism lives) and a 333e milieu int\u00e9rieur (the environment in which the tissues of that organism live). He argued that the milieu int\u00e9rieur varied very little and that there were vital mechanisms that functioned to maintain this internal environment constant. Walter B. Cannon later extended these concepts by recognizing that the constancy of the internal state, which he termed the homeostatic state, was evidence of physiologic mechanisms that act to maintain this minimal variability. In higher animals, the plasma is maintained remarkably constant in composition both within an individual and among individuals. The kidney plays a vital role in this constancy. The kidney changes the composition of the urine to maintain electrolyte and acid-base balance and can produce"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2536",
+            "title": "Cell_Biology_Alberts",
+            "content": "To illustrate how positive feedback can generate stable states, let us focus on a simple positive feedback loop containing two repressors, X and Y, each of which inhibits expression of the other (Figure 8\u201381A). As we saw with Equation set 8\u20138 (Figure 8\u201376B) earlier, we can create differential equations describing the rate of change of [X] and [Y] (Equation set 8\u20139, Figure 8\u201381B). We can further modify these equations to include cooperativity by adding Hill coefficients. As we did earlier, we can then create equations for calculating the concentrations of [X] and [Y] when the system reaches a steady state (that is, when (d[X]/dt ) = 0 and (d[Y]/dt ) = 0; Equations 8\u201310 and 8\u201311, Figure 8\u201381C)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2548",
+            "title": "Cell_Biology_Alberts",
+            "content": "also apply to dynamic behaviors. Thus, for example, when discussing negative feedback, we described how the behavior of a system tends to become more oscillatory as the number of components that constitute the feedback loop increases. If we use different values of the parameters in models derived for systems like those in Figure 8\u201378, we find that the system with the longer loop tends to exhibit stable oscillations within a much broader range of parameters, indicating that this system provides a more robust oscillator. We can perform similar calculations to determine the ability of different systems to achieve robust bistability arising from positive feedback. Thus, one benefit of computational models is that they allow us to probe the robustness of biological networks in a systematic and rigorous way."
+        },
+        {
+            "id": "InternalMed_Harrison_1122",
+            "title": "InternalMed_Harrison",
+            "content": "One branch of economics\u2014positive economics\u2014seeks to explain actual phenomena without making a judgment about the desirability of those phenomena. Another branch\u2014normative economics\u2014seeks to prescribe what should happen and, in particular, what public policy should be developed to ensure that it happens. The main result of the application of normative economics is that, under certain very special assumptions, competitive markets result in a system in which no one can be made better off without another person\u2019s being made worse off. These assumptions do not hold in medical care, in part because of selection and moral hazard; economists term the result a market failure. By contrast, as the discussion of administered prices in this chapter indicates, even a beneficent regulator will introduce distortions from lack of sufficient information; moreover, there is no guarantee that a regulator will be beneficent, as periodic corruption scandals show. Economists term this phenomenon regulatory"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2540",
+            "title": "Cell_Biology_Alberts",
+            "content": "larger than 1), resulting in the presence of multiple intersections of the nullclines\u2013\u2013suggesting that the system can assume multiple discrete steady states. In plot (E), the binding of protein X to the promoter of gene Y was not cooperative (hX close to 1), resulting in only one nullcline intersection and thus just one likely steady state."
+        },
+        {
+            "id": "Cell_Biology_Alberts_435",
+            "title": "Cell_Biology_Alberts",
+            "content": "merely refects the fact that cells keep the ATP hydrolysis reaction as much as 10 orders of magnitude away from equilibrium. If a reaction reaches equilibrium, \u02dcG = 0, the reaction then proceeds at precisely equal rates in the forward and backward direction. For ATP hydrolysis, equilibrium is reached when the vast majority of the ATP has been hydrolyzed, as occurs in a dead cell."
+        },
+        {
+            "id": "InternalMed_Harrison_5267",
+            "title": "InternalMed_Harrison",
+            "content": "To understand how best to apply the principles of systems biology to human biomedicine, it is necessary to review briefly the building blocks of any biologic system and the determinants of system complexity. All systems can be analyzed by defining their static topology (architecture) and their dynamic (i.e., time-dependent) response to perturbation. In the discussion that follows, system properties are described that derive from the consequences of topology (form) or dynamic response (function). Any system of interacting elements can be represented schematically as a network in which the individual elements are depicted as nodes and their connections are depicted as links. The nature of the links among nodes reflects the degree of complexity of the system. Simple systems are those in which the nodes are linearly linked with occasional feedback or feedforward loops modulating system throughput in highly predictable ways. By contrast, complex systems are nodes that are linked in more"
+        }
+    ],
+    "scores": [
+        0.026681859184351703,
+        0.02418211111563254,
+        0.023824305906630365,
+        0.023770355005602845,
+        0.02357653954479714,
+        0.0234134385784698,
+        0.02087517152053758,
+        0.018442971273159952,
+        0.017900990099009903,
+        0.01780392156862745,
+        0.017652928083506027,
+        0.01713418160786582,
+        0.01703930865486392,
+        0.016993188680570183,
+        0.0168928470455188,
+        0.01675320179993077,
+        0.016312244089288074,
+        0.01628768523249872,
+        0.016203253613325558,
+        0.015889029003783105,
+        0.015716374269005847,
+        0.015710259639023807,
+        0.015048671402262563,
+        0.014796026210103572,
+        0.014653784219001612,
+        0.014581694204038816,
+        0.01437847866419295,
+        0.01436752224153799,
+        0.013776034370038293,
+        0.01356412130069419,
+        0.012749800159872104,
+        0.012355356476297125
+    ],
+    "execution_time": 40.209866523742676
+}

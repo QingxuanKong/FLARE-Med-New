@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-073",
+    "question": "Approximately what fraction of the human genome encodes proteins?",
+    "options": {
+        "A": "2%",
+        "B": "25%",
+        "C": "50%",
+        "D": "90%"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine the fraction of the human genome that encodes proteins, we need to consider the information provided in the documents. Document [2] states that the human genome contains about 3.2 billion DNA base pairs, and Document [2] also states that there are approximately 20,000 protein-encoding genes. We can calculate the fraction of the genome that encodes proteins by dividing the number of protein-encoding genes by the total number of DNA base pairs in the human genome.\\n\\nThe fraction of the human genome that encodes proteins can be calculated as follows:\\n\\nFraction = (Number of protein-encoding genes) / (Total number of DNA base pairs in the human genome)\\n\\nFraction = 20,000 / 3,200,000,000\\n\\nFraction = 0.00625\\n\\nFraction = 0.625%\\n\\nHowever, this is not among the answer choices. Looking at Document [2] again, it mentions that 20,000 protein-encoding genes comprise just 1.5% of the genome. This information is more relevant to the question.\\n\\nThe fraction of the human genome that encodes proteins is 1.5%.\\n\\nAnswer Choice D is the correct answer.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_507",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Human Genome Encodes a Complex Set of Proteins, Revealing That Much Remains Unknown The result of sequencing the human genome has been surprising, because it reveals that our chromosomes contain only about 21,000 protein-coding genes. Based on this number alone, we would appear to be no more complex than the tiny mustard weed, Arabidopsis, and only about 1.3-fold more complex than a nematode worm. The genome sequences also reveal that vertebrates have inherited nearly all of their protein domains from invertebrates\u2014with only 7% of identified human domains being vertebrate-specific. Each of our proteins is on average more complicated, however (Figure 3\u201317). Domain shuffling during vertebrate evolution has given rise to many novel"
+        },
+        {
+            "id": "Cell_Biology_Alberts_819",
+            "title": "Cell_Biology_Alberts",
+            "content": "A second notable feature of the human genome is the large average gene size\u2014about 27,000 nucleotide pairs. As discussed above, a typical gene carries in its linear sequence of nucleotides the information for the linear sequence of the amino acids of a protein. Only about 1300 nucleotide pairs are required to encode a protein of average size (about 430 amino acids in humans). Most of the remaining sequence in a gene consists of long stretches of noncoding DNA that interrupt the relatively short segments of DNA that code for protein. As will be discussed in detail in Chapter 6, the coding sequences are called exons; the intervening (noncoding) sequences in genes are called introns (see Figure 4\u201315 and Table 4\u20131). The majority of human genes thus consist of a long string of alternating exons and introns, with most of the gene consisting of introns. In contrast, the majority of genes from organisms with concise genomes lack introns. This accounts for the much smaller size of their genes"
+        },
+        {
+            "id": "Pathology_Robbins_2",
+            "title": "Pathology_Robbins",
+            "content": "The human genome contains about 3.2 billion DNA base pairs. Yet, within the genome there are only roughly 20,000 protein-encoding genes, comprising just 1.5% of the genome. The proteins encoded by these genes are the fundamental constituents of cells, functioning as enzymes, structural elements, and signaling molecules. Although 20,000 underestimates the actual number of proteins encoded (many genes produce multiple RNA transcripts that encode distinct protein isoforms), it is nevertheless startling that worms composed of fewer than 1000 cells\u2014 and with genomes 30-fold smaller\u2014are also assembled from roughly 20,000 protein-encoding genes. Perhaps even more unsettling is that many of these proteins are recognizable homologs of molecules expressed in humans. What then separates humans from worms?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1407",
+            "title": "Cell_Biology_Alberts",
+            "content": "The problems that cells face in decoding genomes can be appreciated by considering a tiny portion of the human genome (Figure 6\u20132). The region illustrated represents less than 1/2000th of our genome and includes at least 48 genes that encode proteins and 6 genes for noncoding RNAs. When we consider the entire human genome, we can only marvel at the capacity of our cells to rapidly and accurately handle such large amounts of information."
+        },
+        {
+            "id": "Cell_Biology_Alberts_821",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201316 Scale of the human genome. If drawn with a 1 mm space between each nucleotide pair, as in (A), the human genome would extend 3200 km (approximately 2000 miles), far enough to stretch across the center of Africa, the site of our human origins (red line in b). At this scale, there would be, on average, a protein-coding gene every 150 m. An average gene would extend for 30 m, but the coding sequences in this gene would add up to only just over a meter."
+        },
+        {
+            "id": "Cell_Biology_Alberts_823",
+            "title": "Cell_Biology_Alberts",
+            "content": "Research in the last decade has surprised biologists with the discovery that, in addition to 21,000 protein-coding genes, the human genome contains many thousands of genes that encode RNA molecules that do not produce proteins, but instead have a variety of other important functions. What is thus far known about these molecules will be presented in Chapters 6 and 7. Last, but not least, the nucleotide sequence of the human genome has revealed that the archive of information needed to produce a human seems to be in an alarming state of chaos. As one commentator described our genome, \u201cIn some ways it may resemble your garage/bedroom/refrigerator/life: highly individualistic, but unkempt; little evidence of organization; much accumulated clutter (referred to by the uninitiated as \u2018junk\u2019); virtually nothing ever discarded; and the few patently valuable items indiscriminately, apparently carelessly, scattered throughout.\u201d We shall discuss how this is thought to have come about in the final"
+        },
+        {
+            "id": "Cell_Biology_Alberts_506",
+            "title": "Cell_Biology_Alberts",
+            "content": "Certain Pairs of Domains Are Found Together in Many Proteins We can construct a large table displaying domain usage for each organism whose genome sequence is known. For example, the human genome contains the DNA sequences for about 1000 immunoglobulin domains, 500 protein kinase domains, 250 DNA-binding homeodomains, 300 SH3 domains, and 120 SH2 domains. In addition, we find that more than two-thirds of all proteins consist of two or more domains, and that the same pairs of domains occur repeatedly in the same relative arrangement in a protein. Although half of all domain families are common to archaea, bacteria, and eukaryotes, only about 5% of the two-domain combinations are similarly shared. This pattern suggests that most proteins containing especially useful two-domain combinations arose through domain shuffling relatively late in evolution. The Human Genome Encodes a Complex Set of Proteins, Revealing That Much Remains Unknown"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2302",
+            "title": "Cell_Biology_Alberts",
+            "content": "To Be Useful, Genome Sequences Must Be Annotated Long strings of nucleotides, at first glance, reveal nothing about how this genetic information directs the development of a living organism\u2014or even what types of DNA, protein, and RNA molecules are produced by a genome. The process of genome annotation attempts to mark out all the genes (both protein-coding and noncoding) in a genome and ascribe a role to each. It also seeks to understand more subtle types of genome information, such as the cis-regulatory sequences that specify the time and place that a given gene is expressed and whether its mRNA undergoes alternative splicing to produce different protein isotypes. Clearly, this is a daunting task, and we are far short of completing it for any form of life, even the simplest bacterium. For many organisms, we know the approximate number of genes, and, for very simple organisms, we understand the functions of about half their genes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2327",
+            "title": "Cell_Biology_Alberts",
+            "content": "But even for protein-coding genes that have been unambiguously identified, we still have much to learn. Thousands of genomes have been sequenced, and we know from comparative genomics that many organisms share the same basic set of proteins. However, the functions of a very large number of identified proteins remain unknown. Depending on the organism, approximately one-third of the proteins encoded by a sequenced genome do not clearly resemble any protein that has been studied biochemically. This observation underscores a limitation of the emerging field of genomics: although comparative analysis of genomes reveals a great deal of information about the relationships between genes and organisms, it often does not provide immediate information about how these genes function, or what roles they have in the physiology of an organism. Comparison of the full Figure 8\u201340 Finding the regions in a DNA sequence that encode a protein."
+        },
+        {
+            "id": "Cell_Biology_Alberts_788",
+            "title": "Cell_Biology_Alberts",
+            "content": "The complete store of information in an organism\u2019s DNA is called its genome, and it specifies all the RNA molecules and proteins that the organism will ever synthesize. (The term genome is also used to describe the DNA that carries this information.) The amount of information contained in genomes is staggering. The nucleotide sequence of a very small human gene, written out in the four-letter nucleotide alphabet, occupies a quarter of a page of text (Figure 4\u20138), while the complete sequence of nucleotides in the human genome would fill more than a thousand books the size of this one. In addition to other critical information, it includes roughly 21,000 protein-coding genes, which (through alternative splicing; see p. 415) give rise to a much greater number of distinct proteins. In Eukaryotes, DNA Is Enclosed in a Cell Nucleus"
+        },
+        {
+            "id": "Cell_Biology_Alberts_983",
+            "title": "Cell_Biology_Alberts",
+            "content": "A first obstacle in interpreting the sequence of the 3.2 billion nucleotide pairs in the human genome is the fact that much of it is probably functionally unimportant. The regions of the genome that code for the amino acid sequences of proteins (the exons) are typically found in short segments (average size about 145 nucleotide pairs), small islands in a sea of DNA whose exact nucleotide sequence is thought to be mostly of little consequence. This arrangement makes it difficult to identify all the exons in a stretch of DNA, and it is often hard too to determine exactly where a gene begins and ends."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2331",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the last section, we saw how protein-coding genes can be identified in genome sequences. Using the genetic code (and provided the intron and exon boundaries are known), the amino acid sequence of any protein coded in a genome can be deduced. As was discussed earlier, this sequence can often provide an important clue to the protein\u2019s function if found to be similar to the amino acid sequence of a protein that has already been studied (see Figure 8\u201323). Although this strategy is often successful, it typically provides only the likely biochemical function of the protein; for example, whether the protein resembles a kinase or a protease. It usually remains for the experimenter to verify (or refute) this assignment and, most importantly, to discover the protein\u2019s biological function in the whole organism; that is, to what attributes of the organism does the kinase or the protease contribute and in what molecular pathways does it function? Nowadays, most new proteins are \u201cdiscovered\u201d"
+        },
+        {
+            "id": "Histology_Ross_410",
+            "title": "Histology_Ross",
+            "content": "The human genome encompasses the entire length of human DNA that contains the genetic information packaged in all 46 chromosomes. Sequencing of the human genome took about 13 years and was successfully completed in 2003 by the Human Genome Project. The human genome contains a 2.85-billion base pair consensus sequence of nucleotides, which are arranged in about 23,000 protein-coding genes. For years it was thought that genes were usually present in two copies in a genome. However, recent discoveries have revealed that large segments of DNA can vary in numbers of copies. Such copy number variations (CNVs) are widespread in the human genome and most likely lead to genetic imbalances. For instance, genes that were thought to always occur in two copies per genome have sometimes one, three, or more copies. A previous definition of a gene as a segment of DNA involved in producing a polypeptide chain has been recently updated to now read as being a union of genomic sequences encoding a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5763",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the genes that animals share with one another but not with other kingdoms of life? These would be expected to include genes required specifically for animal development but not needed for unicellular existence. Comparison of animal genomes with the genome of budding yeast\u2014a unicellular eukaryote\u2014 suggests that three classes of genes are especially important for multicellular organization. The first class includes genes that encode proteins used for cell\u2013cell adhesion and cell signaling; hundreds of human genes encode signal proteins, cell-surface receptors, cell adhesion proteins, or ion channels that are either not present in yeast or present in much smaller numbers. The second class includes genes encoding proteins that regulate transcription and chromatin structure: more than 1000 human genes encode transcription regulators, but only about 250 yeast genes do so. As we shall see, the development of animals is dominated by cell\u2013cell interactions and by differential gene"
+        },
+        {
+            "id": "Cell_Biology_Alberts_177",
+            "title": "Cell_Biology_Alberts",
+            "content": "What precisely do we mean when we speak of the human genome? Whose genome? On average, any two people taken at random differ in about one or two in every 1000 nucleotide pairs in their DNA sequence. The genome of the human species is, properly speaking, a very complex thing, embracing the entire pool of variant genes found in the human population. Knowledge of this variation is helping us to understand, for example, why some people are prone to one disease, others to another; why some respond well to a drug, others badly. It is also providing clues to our history\u2014the population movements and minglings of our ancestors, the infections they suffered, the diets they ate. All these things have left traces in the variant forms of genes that survive today in the human communities that populate the globe. To understand cells and organisms Will Require mathematics, computers, and Quantitative Information"
+        },
+        {
+            "id": "Cell_Biology_Alberts_496",
+            "title": "Cell_Biology_Alberts",
+            "content": "Protein families are readily recognized when the genome of any organism is sequenced; for example, the determination of the DNA sequence for the entire human genome has revealed that we contain about 21,000 protein-coding genes. (Note, however, that as a result of alternative RNA splicing, human cells can produce much more than 21,000 different proteins, as will be explained in Chapter 6.) Through sequence comparisons, we can assign the products of at least 40% of our protein-coding genes to known protein structures, belonging to more than 500 different protein families. Most of the proteins in each family have evolved to perform somewhat different functions, as for the enzymes elastase and chymotrypsin illustrated previously in Figure 3\u201312. As explained in Chapter 1 (see Figure 1\u201321), these are sometimes called paralogs to distinguish them from the many corresponding proteins in different organisms (orthologs, such as mouse and human elastase)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2303",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we discuss broadly how genes are identified in genome sequences and what clues we can discern about their roles from simply inspecting their sequences. Later in the chapter, we turn to the more difficult problem of experimentally determining gene function. How does one begin to make sense of a genome sequence? The first step is usually to translate in silico the entire genome into protein. There are six different reading frames for any piece of double-stranded DNA (three on each strand). We saw in Chapter 6 that a random sequence of nucleotides, read in frame, will PANeL 8\u20131: DNA Sequencing Methods"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1778",
+            "title": "Cell_Biology_Alberts",
+            "content": "How does a cell determine which of its thousands of genes to transcribe? Perhaps the most important concept, one that applies to all species on Earth, is based on a group of proteins known as transcription regulators. These proteins recognize specific sequences of DNA (typically 5\u201310 nucleotide pairs in length) that are often called cis-regulatory sequences, because they must be on the same chromosome (that is, in cis) to the genes they control. Transcription regulators bind to these sequences, which are dispersed throughout genomes, and this binding puts into motion a series of reactions that ultimately specify which genes are to be transcribed and at what rate. Approximately 10% of the protein-coding genes of most organisms are devoted to transcription regulators, making them one of the largest classes of proteins in the cell. In most cases, a given transcription regulator recognizes its own cis-regulatory sequence, which is different from those recognized by all the other"
+        },
+        {
+            "id": "Pathology_Robbins_3",
+            "title": "Pathology_Robbins",
+            "content": "The answer is not completely known, but evidence supports the assertion that the difference lies in the 98.5% of the human genome that does not encode proteins. The function of such long stretches of DNA (which has been called the \u201cdark matter\u201d of the genome) was mysterious for many years. However, it is now clear that more than 85% of the human genome is ultimately transcribed, with almost 80% being devoted to the regulation of gene expression. It follows that whereas proteins provide the building blocks http://ebooksmedicine.net Euchromatin Nucleus (dense, inactive) (disperse, active)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_817",
+            "title": "Cell_Biology_Alberts",
+            "content": "The human genome (3.2 \u00d7 109 nucleotide pairs) is the totality of genetic information belonging to our species. Almost all of this genome is distributed over the 22 different autosomes and 2 sex chromosomes (see Figures 4\u201310 and 4\u201311) found within the nucleus. A minute fraction of the human genome (16,569 nucleotide pairs\u2014in multiple copies per cell) is found in the mitochondria (introduced in Chapter 1, and discussed in detail in Chapter 14). The term human genome sequence refers to the complete nucleotide sequence of DNA in the 24 nuclear chromosomes and the mitochondria. being diploid, a human somatic cell nucleus contains roughly twice the haploid amount of DNA, or 6.4 \u00d7 109 nucleotide pairs, when not duplicating its chromosomes in preparation for division. (Adapted from International Human genome Sequencing Consortium, Nature 409:860\u2013921, 2001. with permission from macmillan Publishers ltd.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_816",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201315 The organization of genes on a human chromosome. (A) Chromosome 22, one of the smallest human chromosomes, contains 48 \u00d7 106 nucleotide pairs and makes up approximately 1.5% of the human genome. most of the left arm of chromosome 22 consists of short repeated sequences of DNA that are packaged in a particularly compact form of chromatin (heterochromatin) discussed later in this chapter. (b) A tenfold expansion of a portion of chromosome 22, with about 40 genes indicated. Those in dark brown are known genes and those in red are predicted genes. (C) An expanded portion of (b) showing four genes. (D) The intron\u2013exon arrangement of a typical gene is shown after a further tenfold expansion. Each exon (red) codes for a portion of the protein, while the DNA sequence of the introns (gray) is relatively unimportant, as discussed in detail in Chapter 6."
+        },
+        {
+            "id": "Cell_Biology_Alberts_498",
+            "title": "Cell_Biology_Alberts",
+            "content": "The present database of known protein sequences contains more than twenty million entries, and it is growing very rapidly as more and more genomes are sequenced\u2014revealing huge numbers of new genes that encode proteins. The encoded polypeptides range widely in size, from 6 amino acids to a gigantic protein of 33,000 amino acids. Protein comparisons are important because related structures often imply related functions. Many years of experimentation can be saved by discovering that a new protein has an amino acid sequence similarity with a protein of known function. Such sequence relationships, for example, first indicated that certain genes that cause mammalian cells to become cancerous encode protein kinases (discussed in Chapter 20)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_740",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the functions of the surprisingly large amount of unfolded polypeptide chain found in proteins? How many types of protein functions remain to be discovered? What are the most promising approaches for discovering them? When will scientists be able to take any amino acid sequence and accurately predict both that protein\u2019s three-dimensional conformations and its chemical properties? What breakthroughs will be needed to accomplish this important goal? Are there ways to reveal the detailed workings of a protein machine that do not require the purification of each of its component parts in large amounts, so that the machine\u2019s functions can be reconstituted and dissected using chemical techniques in a test tube? What are the roles of the dozens of different types of covalent modifications of proteins that have been found in addition to those listed in Table 3\u20133? Which ones are critical for cell function and why?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1353",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Large Fraction of the Human Genome Is Composed of Nonretroviral Retrotransposons A significant fraction of many vertebrate chromosomes is made up of repeated DNA sequences. In human chromosomes, these repeats are mostly mutated and truncated versions of nonretroviral retrotransposons, the third major type of transposon (see Table 5\u20134). Although most of these transposons in the human genome are immobile, a few retain the ability to move. Relatively recent movements of the L1 element (sometimes referred to as a LINE or long interspersed nuclear element) have been identified, some of which result in human disease; for example, a particular type of hemophilia results from an L1 insertion into the gene encoding the blood-clotting protein Factor VIII (see Figure 6\u201324). binds to L1 RNA"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2269",
+            "title": "Cell_Biology_Alberts",
+            "content": "An alternative strategy, one that enriches for protein-coding genes, is to begin the cloning process by selecting only those DNA sequences that are transcribed into mRNA and thus correspond to protein-encoding genes. This is done by extracting the mRNA from cells and then making a DNA copy of each mRNA Figure 8\u201330 Human genomic libraries containing DNA fragments that represent the whole human genome can be constructed using restriction nucleases and DNA ligase. Such a genomic library consists of a set of bacteria, each carrying a different fragment of human DNA. For simplicity, only the colored DNA fragments are shown in the library; in reality, all of the different gray fragments will also be represented."
+        },
+        {
+            "id": "Cell_Biology_Alberts_982",
+            "title": "Cell_Biology_Alberts",
+            "content": "As emphasized in Chapter 3, the recognition of sequence similarity has become a major tool for inferring gene and protein function. Although a sequence match does not guarantee similarity in function, it has proved to be an excellent clue. Thus, it is often possible to predict the function of genes in humans for which no biochemical or genetic information is available simply by comparing their nucleotide sequences with the sequences of genes that have been characterized in other more readily studied organisms. In general, the sequences of individual genes are much more tightly conserved than is overall genome structure. Features of genome organization such as genome size, number of chromosomes, order of genes along chromosomes, abundance and size of introns, and amount of repetitive DNA are found to differ greatly when comparing distant organisms, as does the number of genes that each organism contains."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1403",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20131 The pathway from DNA to protein. The flow of genetic information from DNA to RNA (transcription) and from RNA to protein (translation) occurs in all living cells. human X chromosome: 155 million nucleotide base pairs (~5% of genome) total length of this section = 1.25 million nucleotide pairs"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2300",
+            "title": "Cell_Biology_Alberts",
+            "content": "The original \u201creference\u201d sequence of the human genome, completed in 2003, cost over $1 billion and required many scientists from around the world working together for 13 years. The enormous progress made in the past decade makes it possible for a single person to complete the sequence of an individual human genome in less than a day."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2378",
+            "title": "Cell_Biology_Alberts",
+            "content": "population is so large, spontaneous, nonlethal mutations have arisen in all human genes\u2014many times over. A substantial proportion of these remain in the genomes of present-day humans. The most deleterious of these mutations are discovered when the mutant individuals call attention to themselves by seeking medical help. With the recent advances that have enabled the sequencing of entire human genomes cheaply and quickly, we can now identify such mutations and study their evolution and inheritance in ways that were impossible even a few years ago. By comparing the sequences of thousands of human genomes from all around the world, we can begin to identify directly the DNA differences that distinguish one individual from another. These differences hold clues to our evolutionary origins and can be used to explore the roots of disease. Linked Blocks of Polymorphisms Have Been Passed Down from Our Ancestors"
+        },
+        {
+            "id": "Cell_Biology_Alberts_986",
+            "title": "Cell_Biology_Alberts",
+            "content": "The power of this method can be increased by including in such comparisons the genomes of large numbers of species whose genomes have been sequenced, such as rat, chicken, fish, dog, and chimpanzee, as well as mouse and human. By revealing in this way the results of a very long natural \u201cexperiment,\u201d lasting for hundreds of millions of years, such comparative DNA sequencing studies have highlighted the most interesting regions in our genome. The comparisons reveal that roughly 5% of the human genome consists of \u201cmultispecies conserved sequences.\u201d To our great surprise, only about one-third of these sequences code for proteins (see Table 4\u20131, p. 184). Many of the remaining conserved sequences consist of DNA containing clusters of protein-binding sites that are involved in gene regulation, while others produce RNA molecules that are not translated into protein but are important for other known purposes. But, even in the most intensively studied species, the function of the majority of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1767",
+            "title": "Cell_Biology_Alberts",
+            "content": "3. Studies of the number of different RNAs suggest that, at any one time, a typical human cell expresses 30\u201360% of its approximately 30,000 genes at some level. There are about 21,000 protein-coding genes and a roughly estimated 9000 noncoding RNA genes in humans. When the patterns of RNA expression in different human cell lines are compared, the level of expression of almost every gene is found to vary from one cell type to another. A few of these differences are striking, like those of hemoglobin and tyrosine aminotransferase noted above, but most are much more subtle. But even those genes that are expressed in all cell types usually vary in their level of expression from one cell type to the next. 4."
+        },
+        {
+            "id": "InternalMed_Harrison_4768",
+            "title": "InternalMed_Harrison",
+            "content": "various lengths, it is possible to generate the tremendous diversity of primary protein structure. DNA length is normally measured in units of 1000 bp (kilobases, kb) or 1,000,000 bp (megabases, Mb). Not all DNA encodes genes. In fact, genes account for only ~10\u201315% of DNA. Much of the remaining DNA consists of sequences, often of highly repetitive nature, the function of which is poorly understood. These repetitive DNA regions, along with nonrepetitive sequences that do not encode genes, serve, in part, a structural role in the packaging of DNA into chromatin (i.e., DNA bound to histone proteins, and chromosomes) and exert regulatory functions (Fig. 82-1)."
+        }
+    ],
+    "scores": [
+        0.03630824101900445,
+        0.035490043243518975,
+        0.03509607203574712,
+        0.03210275467028711,
+        0.031216851425088885,
+        0.030942253488982458,
+        0.027963902443131825,
+        0.025699156978702224,
+        0.02539318363676276,
+        0.025178742587743233,
+        0.024954513738617394,
+        0.024910972321044264,
+        0.024603479745145422,
+        0.023824772583127464,
+        0.023622916534186855,
+        0.023354552900007444,
+        0.02309455456823878,
+        0.02154453373253078,
+        0.021538404656368162,
+        0.021086670703698247,
+        0.021015674150842562,
+        0.01827849783981389,
+        0.017980970811159493,
+        0.017489400363416112,
+        0.01731634182908546,
+        0.017048327674637,
+        0.016968651136036815,
+        0.016335978835978836,
+        0.01625538582060321,
+        0.016202498698594484,
+        0.016035959424163276,
+        0.01589323627540188
+    ],
+    "execution_time": 10.628019094467163
+}

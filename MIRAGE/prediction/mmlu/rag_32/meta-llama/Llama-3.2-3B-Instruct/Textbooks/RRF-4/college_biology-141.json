@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-141",
+    "question": "In plants, proton pumps are involved in the process of loading sugars into the phloem for transport. Which of the following is true about this process?",
+    "options": {
+        "A": "It is passive.",
+        "B": "It depends on DNA.",
+        "C": "It requires ATP.",
+        "D": "It translocates starch."
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's break down the process of loading sugars into the phloem for transport in plants and analyze the options given.\\n\\nFirst, we need to understand that the phloem is a type of vascular tissue in plants that transports sugars and other organic compounds produced by photosynthesis from the leaves to the rest of the plant. This process is crucial for plant nutrition and growth.\\n\\nNext, let's examine the options given:\\n\\nA. It is passive. - This option suggests that the loading of sugars into the phloem is a passive process, meaning it doesn't require energy input. However, the loading of sugars into the phloem is an active process that requires energy.\\n\\nB. It depends on DNA. - DNA is not directly involved in the process of loading sugars into the phloem. This process is a physiological function of the plant cells.\\n\\nC. It requires ATP. - This option is correct. The loading of sugars into the phloem requires energy, which is provided by ATP. The energy is used to pump sugars into the phloem against the concentration gradient, allowing them to be transported to other parts of the plant.\\n\\nD. It translocates starch. - While starch is a type of carbohydrate that is stored in plants, the process of loading sugars into the phloem is not primarily about translocating starch. Starch is a separate process that involves the synthesis and storage of carbohydrates in the form of starch granules.\\n\\nTherefore, the correct answer is C. It requires ATP.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_3896",
+            "title": "Cell_Biology_Alberts",
+            "content": "As we discuss next, an ATP synthase coupled to chemiosmotic processes is also a central feature of plants, where it plays critical roles in both mitochondria and chloroplasts. Figure 14\u201336 The importance of H+-driven transport in bacteria. a proton-motive force generated across the plasma membrane pumps nutrients into the cell and expels Na+. (a) In an aerobic bacterium, a respiratory chain fed by the oxidation of substrates produces an electrochemical proton gradient across the plasma membrane. this gradient is then harnessed to make atp, as well as to transport nutrients (proline, succinate, lactose, and lysine) into the cell and to pump Na+ out of the cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2979",
+            "title": "Cell_Biology_Alberts",
+            "content": "2. ABC transporters (ATP-Binding Cassette transporters) differ structurally from P-type ATPases and primarily pump small molecules across cell membranes. 3. V-type pumps are turbine-like protein machines, constructed from multiple different subunits. The V-type proton pump transfers H+ into organelles such as lysosomes, synaptic vesicles, and plant or yeast vacuoles (V = vacuolar), to acidify the interior of these organelles (see Figure 13\u201337)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3765",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u20134 Electron-transport processes. (a) the mitochondrion converts energy from chemical fuels. (B) the chloroplast converts energy from sunlight. In both cases, electron flow is indicated by blue arrows. Each of the protein complexes (green) is embedded in a membrane. In the mitochondrion, fats and carbohydrates from food molecules are fed into the citric acid cycle and provide electrons to generate the energy-rich compound NaDh from NaD+. these electrons then flow down an energy gradient as they pass from one complex to the next in the electron-transport chain, until they combine with molecular O2 in the last complex to produce water. the energy released at each stage is harnessed to pump h+ across the membrane. In the chloroplast, by contrast, electrons are extracted from water through the action of light in the photosystem II complex and molecular O2 is released. the electrons pass on to the next complex in the chain, which uses some of their energy to pump protons across the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3894",
+            "title": "Cell_Biology_Alberts",
+            "content": "Bacteria, including the strict anaerobes, maintain a proton gradient across their plasma membrane that is harnessed to drive many other processes. It can be used to drive a flagellar motor, for example (Figure 14\u201335). This gradient is harnessed to pump Na+ out of the bacterium via a Na+\u2013H+ antiporter that takes the place of the Na+-K+ pump of eukaryotic cells. The gradient is also used for the active inward transport of nutrients, such as most amino acids and many sugars: each nutrient is dragged into the cell along with one or more protons through a specific symporter (Figure 14\u201336; see also Chapter 11). In animal cells, by contrast, most inward transport across the plasma membrane is driven by the Na+ gradient (high Na+ outside, low Na+ inside) that is established by the Na+-K+ pump (see Figure 11\u201315)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_712",
+            "title": "Cell_Biology_Alberts",
+            "content": "One such pump, the ATP synthase, harnesses a gradient of proton concentration produced by electron-transport processes to produce most of the ATP used in the living world. This ubiquitous pump has a central role in energy conversion, and we shall discuss its three-dimensional structure and mechanism in Chapter 14. Proteins Often Form Large Complexes That Function as Protein Machines"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3911",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, the formation of ATP, NADPH, and O2 (which requires light energy directly) and the conversion of CO2 to carbohydrate (which requires light energy only indirectly) are separate processes (Figure 14\u201339). However, they are linked by elaborate feedback mechanisms that allow a plant to manufacture sugars only when it is appropriate to do so. Several of the chloroplast enzymes required for carbon fixation, for example, are inactive in the dark and reactivated by light-stimulated electron-transport processes. Carbon Fixation Uses atp and NaDph to Convert CO2 into Sugars"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3759",
+            "title": "Cell_Biology_Alberts",
+            "content": "(\u201cosmotic\u201d). The chemiosmotic process occurs in two linked stages, both of which are performed by protein complexes in a membrane. Stage 1: High-energy electrons (derived from the oxidation of food molecules, from pigments excited by sunlight, or from other sources described later) are transferred along a series of electron-transport protein complexes that form an electron-transport chain embedded in a membrane. Each electron transfer releases a small amount of energy that is used to pump protons (H+) and thereby generate a large electrochemical gradient across the membrane (Figure 14\u20132). As discussed in Chapter 11, such an electrochemical gradient provides a way of storing energy, and it can be harnessed to do useful work when ions flow back across the membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3798",
+            "title": "Cell_Biology_Alberts",
+            "content": "produce two protons, pass through a series of electron carriers in the inner mitochondrial membrane. At each of three distinct steps along the way (marked by the three electron-transport complexes of the respiratory chain, see below), much of the energy is utilized for pumping protons across the membrane. At the end of the electron-transport chain, the electrons and protons recombine with molecular oxygen into water. Water is a very low-energy molecule and is thus very stable; it can serve as an electron donor only when a large amount of energy from an external source is spent on splitting it into protons, electrons, and molecular oxygen. This is exactly what happens in oxygenic photosynthesis, where the external energy source is the sun, as we shall see later in the section on chloroplasts (p. 782). the Energy Derived from Oxidation Is Stored as an Electrochemical Gradient"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3596",
+            "title": "Cell_Biology_Alberts",
+            "content": "The vacuole is important as a homeostatic device, enabling plant cells to withstand wide variations in their environment. When the pH in the environment drops, for example, the flux of H+ into the cytosol is balanced, at least in part, by an increased transport of H+ into the vacuole, which tends to keep the pH in the cytosol constant. Similarly, many plant cells maintain an almost constant turgor pressure despite large changes in the tonicity of the fluid in their immediate environment. They do so by changing the osmotic pressure of the cytosol and vacuole\u2014in part by the controlled breakdown and resynthesis of polymers such as polyphosphate in the vacuole, and in part by altering the transport rates of sugars,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3922",
+            "title": "Cell_Biology_Alberts",
+            "content": "The glyceraldehyde 3-phosphate exported from chloroplasts into the cytosol can also be converted into many other metabolites, including the disaccharide sucrose. Sucrose is the major form in which sugar is transported between the cells of a plant: just as glucose is transported in the blood of animals, so sucrose is exported from the leaves to provide carbohydrate to the rest of the plant. the thylakoid Membranes of Chloroplasts Contain the protein Complexes required for photosynthesis and atp Generation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3925",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201342 How chloroplasts and mitochondria collaborate to supply cells with both metabolites and ATP. (a)the inner chloroplast membrane is impermeable to the atp and NaDph that are produced in the stroma during the light reactions of photosynthesis. these molecules are therefore funneled into the carbon-fixation cycle, where they are used to make sugars. the resulting sugars and their metabolites are either stored within the chloroplast\u2014in the form of starch or fat\u2014or exported to the rest of the plant cell. there, they can enter the energy-generating pathway that ends in atp synthesis linked to oxidative phosphorylation inside the mitochondrion. Unlike the chloroplast, mitochondrial membranes contain a specific transporter that makes them permeable to atp (see Figure 14\u201334). Note that the O2 released to the atmosphere by photosynthesis in chloroplasts is used for oxidative phosphorylation in mitochondria; similarly, the CO2 released by the citric acid cycle in mitochondria is used"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3895",
+            "title": "Cell_Biology_Alberts",
+            "content": "Some unusual bacteria have adapted to live in a very alkaline environment and yet must maintain their cytoplasm at a physiological pH. For these cells, any attempt to generate an electrochemical H+ gradient would be opposed by a large H+ concentration gradient in the wrong direction (H+ higher inside than outside). Presumably for this reason, some of these bacteria substitute Na+ for H+ in all of their chemiosmotic mechanisms. The respiratory chain pumps Na+ out of the cell, the transport systems and flagellar motor are driven by an inward flux of Na+, and a Na+-driven ATP synthase synthesizes ATP. The existence of such bacteria demonstrates a critical point: the principle of chemiosmosis is more fundamental than the proton-motive force on which it is normally based. As we discuss next, an ATP synthase coupled to chemiosmotic processes is also a central feature of plants, where it plays critical roles in both mitochondria and chloroplasts."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3912",
+            "title": "Cell_Biology_Alberts",
+            "content": "Carbon Fixation Uses atp and NaDph to Convert CO2 into Sugars We have seen earlier in this chapter how animal cells produce ATP by using the large amount of free energy released when carbohydrates are oxidized to CO2 and H2O. The reverse reaction, in which plants make carbohydrate from CO2 and H2O, takes place in the chloroplast stroma. The large amounts of ATP and NADPH produced by the photosynthetic electron-transfer reactions are required to drive this energetically unfavorable reaction. Figure 14\u201339 A summary of the energy-converting metabolism in chloroplasts."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3969",
+            "title": "Cell_Biology_Alberts",
+            "content": "ATP-driven proton pump working in reverse to make ATP Eventually, some bacteria would have developed H+-pumping electron-transport systems that were so efficient that they could harvest more redox energy than they needed to maintain their internal pH. Such cells would probably have generated large electrochemical proton gradients, which they could then use to produce ATP. Protons could leak back into the cell through the ATP-driven H+ pumps, essentially running them in reverse so that they synthesized ATP (stage 3 in Figure 14\u201355). Because such cells would require much less of the dwindling supply of fermentable nutrients, they would have proliferated at the expense of their neighbors. By providing an Inexhaustible Source of reducing power, photosynthetic Bacteria Overcame a Major Evolutionary Obstacle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_711",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) As discussed in Chapter 11, in eukaryotes an opposite process occurs, causing selected substrate molecules to be pumped out of the cell. (C) The structure of a bacterial ABC transporter (see Movie 11.5). (C, from R.J. Dawson and K.P. Locher, Nature 443:180\u2013185, 2006. With permission from Macmillan Publishers Ltd; PDB code: 2HYD). function in other ways. Among the most notable are the rotary pumps that couple the hydrolysis of ATP to the transport of H+ ions (protons). These pumps resemble miniature turbines, and they are used to acidify the interior of lysosomes and other eukaryotic organelles. Like other ion pumps that create ion gradients, they can function in reverse to catalyze the reaction ADP + Pi \u2192 ATP, if the gradient across their membrane of the ion that they transport is steep enough."
+        },
+        {
+            "id": "Cell_Biology_Alberts_358",
+            "title": "Cell_Biology_Alberts",
+            "content": "The sugar and ATP needed by plant cells are largely produced in separate organelles: sugars in chloroplasts (the organelles specialized for photosynthesis), 2 Figure 2\u201352 How sugars are produced from glycogen. Glucose subunits are released from glycogen by the enzyme glycogen phosphorylase. This produces glucose 1-phosphate, which is rapidly converted to glucose 6-phosphate for OH glycolysis. Figure 2\u201353 Some plant seeds that serve as important foods for humans."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3857",
+            "title": "Cell_Biology_Alberts",
+            "content": "But how can electron transport cause allosteric changes in protein conformations that pump protons? From the most basic point of view, if electron transport drives sequential allosteric changes in protein conformation that alter the redox state of the components, these conformational changes can be connected to protein wires that allow the protein to pump H+ across the crista membrane. This type of H+ pumping requires at least three distinct conformations for the pump protein, as schematically illustrated in Figure 14\u201328. Figure 14\u201327 Proton movement through water and proteins. (a) protons move rapidly through water, hopping from one h2O molecule to the next by the continuous formation and dissociation of hydronium ions, h3O+ (see Chapter 2). In this diagram, proton jumps are indicated by red arrows."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3960",
+            "title": "Cell_Biology_Alberts",
+            "content": "the proton-Motive Force for atp production in Mitochondria and Chloroplasts Is Essentially the Same The proton gradient across the thylakoid membrane depends both on the proton-pumping activity of the cytochrome b6-f complex and on the photosynthetic activity of the two photosystems, which in turn depends on light intensity. In chloroplasts exposed to light, H+ is pumped out of the stroma (pH around 8, similar to the mitochondrial matrix) into the thylakoid space (pH 5\u20136), creating a gradient of 2\u20133 pH units across the thylakoid membrane, representing a proton-motive force of about 180 mV. This is very similar to the proton-motive force in respiring mitochondria. However, a membrane potential across the inner mitochondrial membrane makes the largest contribution to the proton-motive force that drives the mitochondrial ATP synthase to make ATP, whereas a H+ gradient predominates for chloroplasts."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2955",
+            "title": "Cell_Biology_Alberts",
+            "content": "We begin our discussion of active membrane transport by considering a class of coupled transporters that are driven by ion concentration gradients. These proteins have a crucial role in the transport of small metabolites across membranes in all cells. We then discuss ATP-driven pumps, including the Na+-K+ pump that is found in the plasma membrane of most animal cells. Examples of the third class of active transport\u2014lightor redox-driven pumps\u2014are discussed in Chapter 14. Some transporters simply passively mediate the movement of a single solute from one side of the membrane to the other at a rate determined by their Vmax and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3806",
+            "title": "Cell_Biology_Alberts",
+            "content": "Having considered in general terms how a mitochondrion uses electron transport to generate a proton-motive force, we now turn to the molecular mechanisms that underlie this membrane-based energy-conversion process. In describing the respiratory chain of mitochondria, we accomplish the larger purpose of explaining how an electron-transport process can pump protons across a membrane. As stated at the beginning of this chapter, mitochondria, chloroplasts, archaea, and bacteria use very similar chemiosmotic mechanisms. In fact, these mechanisms underlie the function of all living organisms\u2014including anaerobes that derive all their energy from electron transfers between two inorganic molecules, as we shall see later. We start with some of the basic principles on which all of these processes depend. the redox potential Is a Measure of Electron affinities"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3897",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) When the same bacterium grows under anaerobic conditions, it derives its atp from glycolysis. as indicated, the atp synthase in the plasma membrane then hydrolyzes some of this atp to establish an electrochemical proton gradient that drives the same transport processes that depend on respiratory chain proton-pumping in (a). Figure 14\u201335 The rotation of the bacterial flagellum driven by H+ flow. the flagellum is attached to a series of protein rings (pink), which are embedded in the outer and inner membranes and rotate with the flagellum. the rotation is driven by a flow of protons through an outer ring of proteins (the stator) by mechanisms that may resemble those used by the atp synthase. however, the flow of protons in the flagellar motor is always toward the cytosol, both during clockwise and counterclockwise rotation, whereas in atp synthase this flow reverses with the direction of rotation (Movie 14.8)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2967",
+            "title": "Cell_Biology_Alberts",
+            "content": "Some other types of important membrane transport proteins are also built from inverted repeats. Examples even include channel proteins such as the aquaporin water channel (discussed later) and the Sec61 channel through which nascent polypeptides move into the endoplasmic reticulum (discussed in Chapter 12). It is thought that these channels evolved from coupled transporters, in which the gating functions were lost, allowing them to open toward both sides of the membrane simultaneously to provide a continuous path across the membrane. In bacteria, yeasts, and plants, as well as in many membrane-enclosed organelles of animal cells, most ion-driven active transport systems depend on H+ rather than Na+ gradients, reflecting the predominance of H+ pumps in these membranes. An electrochemical H+ gradient across the bacterial plasma membrane, for example, drives the inward active transport of many sugars and amino acids. Transporters in the Plasma Membrane Regulate Cytosolic pH"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3888",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201333 ATP synthase dimers at cristae ridges and ATP production. at the crista ridges, the atp synthases (yellow) form a sink for protons (red). the proton pumps of the electron-transport chain (green) are located in the membrane regions on either side of the crista. as illustrated, protons tend to diffuse along the membrane from their source to the proton sink created by the atp synthase. this allows efficient atp production despite the small h+ gradient between the cytosol and matrix. Red arrows show the direction of the proton flow."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3025",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Membrane Potential in Animal Cells Depends Mainly on K+ Leak Channels and the K+ Gradient Across the Plasma Membrane A membrane potential arises when there is a difference in the electrical charge on the two sides of a membrane, due to a slight excess of positive ions over negative ones on one side and a slight deficit on the other. Such charge differences can result both from active electrogenic pumping (see p. 608) and from passive ion diffusion. As we discuss in Chapter 14, electrogenic H+ pumps in the mitochondrial inner membrane generate most of the membrane potential across this membrane. Electrogenic pumps also generate most of the electrical potential across the plasma membrane in plants and fungi. In typical animal cells, however, passive ion movements make the largest contribution to the electrical potential across the plasma membrane."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6865",
+            "title": "Cell_Biology_Alberts",
+            "content": "electron microscope Microscope that uses a beam of electrons to create the image. electron microscope (EM) tomography Technique for viewing three-dimensional specimens in the electron microscope in which multiple views are taken from different directions by tilting the specimen holder. The views are combined computationally to give a three-dimensional image. electron-transport chain Series of reactions in which electron carrier molecules pass electrons \u201cdown the chain\u201d from higher to successively lower energy levels. The energy released during such electron movement can be used to power various processes. Electron-transport chains present in the inner mitochondrial membrane (called the respiratory chain) and in the thylakoid membrane of chloroplasts generate a proton gradient across the membrane that is used to drive ATP synthesis. See especially Figures 14\u201318 and 14\u201352."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3966",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201355 How ATP synthesis by chemiosmosis might have evolved in stages. the first stage could have involved the evolution of an atpase that pumped protons out of the cell using the energy of atp hydrolysis. Stage 2 could have involved the evolution of a different proton pump, driven by an electron-transport chain. Stage 3 would then have linked these two systems together to generate a primitive atp synthase that used the protons pumped by the electron-transport chain to synthesize atp. an early bacterium with this final system would have had a selective advantage over bacteria with neither of the systems or only one."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2980",
+            "title": "Cell_Biology_Alberts",
+            "content": "Structurally related to the V-type pumps is a distinct family of F-type ATPases, more commonly called ATP synthases because they normally work in reverse: instead of using ATP hydrolysis to drive H+ transport, they use the H+ gradient across the membrane to drive the synthesis of ATP from ADP and phosphate (see Figure 14\u201330). ATP synthases are found in the plasma membrane of bacteria, the inner membrane of mitochondria, and the thylakoid membrane of chloroplasts. The H+ gradient is generated either during the electron-transport steps of oxidative phosphorylation (in aerobic bacteria and mitochondria), during photosynthesis (in chloroplasts), or by the light-driven H+ pump (bacteriorhodopsin) in Halobacterium. We discuss some of these proteins in detail in Chapter 14. For the remainder of this section, we focus on P-type pumps and ABC transporters. A P-type ATPase Pumps Ca2+ into the Sarcoplasmic Reticulum in Muscle Cells"
+        },
+        {
+            "id": "Cell_Biology_Alberts_359",
+            "title": "Cell_Biology_Alberts",
+            "content": "Corn, nuts, and peas all contain rich stores of starch and fat that provide the young plant embryo in the seed with energy and building blocks for biosynthesis. (Courtesy of the John innes foundation.) and ATP in mitochondria. Although plants produce abundant amounts of both ATP and NADPH in their chloroplasts, this organelle is isolated from the rest of its plant cell by a membrane that is impermeable to both types of activated carrier molecules. Moreover, the plant contains many cells\u2014such as those in the roots\u2014 that lack chloroplasts and therefore cannot produce their own sugars. Thus, sugars are exported from chloroplasts to the mitochondria present in all cells of the plant. Most of the ATP needed for general plant cell metabolism is synthesized in these mitochondria, using exactly the same pathways for the oxidative breakdown of sugars as in nonphotosynthetic organisms; this ATP is then passed to the rest of the cell (see Figure 14\u201342)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6972",
+            "title": "Cell_Biology_Alberts",
+            "content": "oxidation (verb oxidize) Loss of electrons from an atom, as occurs during the addition of oxygen to a molecule or when a hydrogen is removed. Opposite of reduction. (Figure 2\u201320) oxidative phosphorylation Process in bacteria and mitochondria in which ATP formation is driven by the transfer of electrons through the electron transport chain to molecular oxygen. Involves the intermediate generation of a proton gradient (pH gradient) across a membrane and a chemiosmotic coupling of that gradient to the ATP synthase. (Figures 14\u201312) oxidative phosphorylation Process in bacteria and mitochondria in which ATP formation is driven by the transfer of electrons through the electron-transport chain to molecular oxygen. Involves the intermediate generation of an electrochemical proton gradient across a membrane and a chemiosmotic coupling of that gradient to the ATP synthase. (Figure 14\u201310)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3910",
+            "title": "Cell_Biology_Alberts",
+            "content": "2. The carbon-fixation reactions do not require sunlight. Here the ATP and NADPH generated by the light reactions serve as the source of energy and reducing power, respectively, to drive the conversion of CO2 to carbohydrate. These carbon-fixation reactions begin in the chloroplast stroma, where they generate the three-carbon sugar glyceraldehyde 3-phosphate. This simple sugar is exported to the cytosol, where it is used to produce sucrose and many other organic metabolites in the leaves of the plant. The sucrose is then exported to meet the metabolic needs of the nonphotosynthetic plant tissues, serving as a source of both carbon skeletons and energy for growth."
+        },
+        {
+            "id": "Histology_Ross_215",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.19 \u2022 Schematic diagram of a lysosome. This diagram shows a few selected lysosomal enzymes residing inside the lysosome and their respective substrates. The major lysosomal membrane-specifc proteins, as well as a few other proteins associated H membrane impermeable to enzymes; contains specific lysosomal proteins, lamps, limps, and lgps with membrane transport, are also shown. endosomes. In addition, lysosomes and late endosomes contain proton (H ) pumps that transport H ions into the lysosomal lumen, maintaining a low pH (4.7). The lysosomal membrane also contains transport proteins that transport the final products of digestion (amino acids, sugars, nucleotides) to the cytoplasm, where they are used in the synthetic processes of the cell or are exocytosed."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3915",
+            "title": "Cell_Biology_Alberts",
+            "content": "In a plant cell, a variety of metabolites produced in the chloroplast are exported to the cytoplasm for biosyntheses. Some of the sugar produced is stored in the form of starch granules in the chloroplast, but the rest is transported throughout the plant as sucrose or converted to starch in special storage tissues. these storage tissues serve as a major food source for animals. carbon ribulose 1,5-bisphosphate intermediate 2 molecules of dioxide 3-phosphoglycerate"
+        }
+    ],
+    "scores": [
+        0.03931463963072492,
+        0.03429039250957059,
+        0.03189270749240764,
+        0.030240045495821904,
+        0.02910618197723222,
+        0.02849843440606779,
+        0.028038628038628038,
+        0.026693649833395748,
+        0.026198418161143846,
+        0.02600343252903474,
+        0.025686003475717555,
+        0.0247735407184835,
+        0.02454284799219143,
+        0.024414620217018845,
+        0.02420525799203433,
+        0.023452032746800376,
+        0.023033361139935028,
+        0.022516146735635855,
+        0.02248102139406487,
+        0.02245607880966997,
+        0.022204647204647203,
+        0.0210710177764612,
+        0.019522045280117667,
+        0.01896117900790798,
+        0.018628066804611293,
+        0.01778093883357041,
+        0.017170228445099484,
+        0.017073525138041265,
+        0.01692155196828094,
+        0.0168928470455188,
+        0.0166052895882156,
+        0.016601495506620018
+    ],
+    "execution_time": 25.24432945251465
+}

@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-000",
+    "question": "Based on the characteristic population curves that result from plotting population growth of a species, the most effective means of controlling the mosquito population is to",
+    "options": {
+        "A": "maintain the population at a point corresponding to the midpoint of its logistic curve",
+        "B": "opt for zero population control once the K value of the curve has been reached",
+        "C": "reduce the carrying capacity cif the environment to lower the K value",
+        "D": "increase the mortality rate"
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To determine the most effective means of controlling the mosquito population, we need to understand the logistic growth curve, which models population growth in the presence of limiting factors such as food, water, and space. The logistic curve has a characteristic S-shape, with a rapid increase in population at first, followed by a slower increase as the population approaches its carrying capacity (K). The point at which the population growth rate is half of its maximum value is called the carrying capacity (K). The logistic growth curve can be described by the equation: dP/dt = rP(1 - P/K), where P is the population size, r is the intrinsic growth rate, and K is the carrying capacity. In the context of mosquito population control, the most effective means of controlling the population would be to reduce the carrying capacity (K) of the environment, as this would slow down the population growth rate and eventually lead to a decline in population size. This can be achieved by reducing the availability of resources such as food, water, and space that support the mosquito population. Option A, maintaining the population at a point corresponding to the midpoint of its logistic curve, would not be effective as it would not address the underlying limiting factors and would not lead to a decline in population size. Option B, opt for zero population control once the K value of the curve has been reached, is not a viable option as it would mean eliminating the mosquito population entirely, which may not be feasible or desirable. Option D, increasing the mortality rate, would not be an effective means of controlling the mosquito population as it would not address the underlying factors that support the population growth and may even lead to an increase in population size if the mortality rate is not sufficient to keep pace with the birth rate. Therefore, the most effective means of controlling the mosquito population is to reduce the carrying capacity (K) of the environment, making option C the correct answer.\", \"answer_choice\": \"C\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_10031",
+            "title": "InternalMed_Harrison",
+            "content": "Although rising temperature has the potential to expand the viable range of disease, malaria incidence is not associated with temperature in a strictly linear fashion. While mosquitoes and parasites may adapt to a warming climate, the present optimal temperature for malaria transmission is ~25\u00b0C, with a range of transmission temperatures between 16\u00b0C and 34\u00b0C. Rising temperatures also can have differential effects on parasite development during external incubation and on the mosquitoes\u2019 gonotrophic cycle. Asynchrony between these two temperature-sensitive processes has been shown to decrease the vectorial capacity of mosquitoes.1 1rVc is the vectorial capacity relative to the vector-to-human population ratio and is defined by the equation rVc = a2bhbme\u2013\u03bcmn/\u03bcm where a is the vector biting rate; bh is the probability of vector-to-human transmission per bite; bm is the probability of human-to-vector infection per bite; n is the duration of the extrinsic incubation period; and \u03bcm is the"
+        },
+        {
+            "id": "InternalMed_Harrison_10030",
+            "title": "InternalMed_Harrison",
+            "content": "Malaria \u2022 TEMPERATURE Higher temperatures promote higher mosquito-biting rates, shorter parasite reproductive cycles, and the potential for the survival of mosquito vectors of Plasmodium infection in locations previously too cold to sustain them. Recent modeling experiments identify highland areas of East Africa and South America as perhaps most vulnerable to increased malarial incidence as a result of rising temperatures. In addition, a recent analysis of interannual malaria in Ecuador and Colombia has documented a greater incidence of malaria at higher altitudes in warmer years. Highland populations may be more vulnerable to malaria epidemics because they lack immunity."
+        },
+        {
+            "id": "InternalMed_Harrison_16401",
+            "title": "InternalMed_Harrison",
+            "content": "The principal determinants of the epidemiology of malaria are the number (density), the human-biting habits, and the longevity of the anopheline mosquito vectors. More than 100 of the >400 anopheline species can transmit malaria, but the ~40 species that do so commonly vary considerably in their efficiency as malaria vectors. More specifically, the transmission of malaria is directly proportional to the density of the vector, the square of the number of human bites per day per mosquito, and the tenth power of the probability of the mosquito\u2019s surviving for 1 day. Mosquito longevity is particularly important because the portion of the parasite\u2019s life cycle that takes place within the mosquito\u2014from gametocyte ingestion to subsequent inoculation (sporogony)\u2014lasts 8\u201330 days, depending on ambient temperature; thus, to transmit malaria, the mosquito must survive for >7 days. Sporogony is not completed at cooler temperatures\u2014i.e., <16\u00b0C (60.8\u00b0F) for P. vivax and <21\u00b0C (69.8\u00b0F) for P."
+        },
+        {
+            "id": "InternalMed_Harrison_16402",
+            "title": "InternalMed_Harrison",
+            "content": "on ambient temperature; thus, to transmit malaria, the mosquito must survive for >7 days. Sporogony is not completed at cooler temperatures\u2014i.e., <16\u00b0C (60.8\u00b0F) for P. vivax and <21\u00b0C (69.8\u00b0F) for P. falciparum; thus transmission does not occur below these temperatures or at high altitudes, although malaria outbreaks and transmission have occurred in the highlands (>1500 m) of eastern Africa, which were previously free of vectors. The most effective mosquito vectors of malaria are those, such as Anopheles gambiae in Africa, that are long-lived, occur in high densities in tropical climates, breed readily, and bite humans in preference to other animals. The entomologic inoculation rate (i.e., the number of sporozoitepositive mosquito bites per person per year) is the most common measure of malaria transmission and varies from <1 in some parts of Latin America and Southeast Asia to >300 in parts of tropical Africa."
+        },
+        {
+            "id": "InternalMed_Harrison_10041",
+            "title": "InternalMed_Harrison",
+            "content": "Whether the disease will ultimately move northward will depend on reservoir availability and mosquito control programs, among other factors. Lyme Disease In the past few decades, Ixodes scapularis, the primary tick vector for Lyme disease as well as for anaplasmosis and babesiosis in New England, has become established in Canada because of warming temperatures. With climate change, the range of the tick is expected to expand further (Fig. 151e-8). Lyme disease, caused by the spirochete Borrelia burgdorferi, is the most commonly reported vector-borne disease in North America, with ~30,000 cases per year. The model used in Fig. 151e-8 showed 95% FIGURE 151e-6 Distribution of Aedes aegypti mosquitoes (turquoise) and dengue fever epidemics (red). (Map produced by the Agricultural Research Service of the U.S. Department of Agriculture.) 0.21 0.12 0.06 0.03 \u20130.03 \u20130.06 0.52 0.41 0.26 0.12 0.06 0.03 \u20130.03 \u20130.06 \u20130.12 \u20130.26 \u20130.41 \u20130.52"
+        },
+        {
+            "id": "InternalMed_Harrison_10029",
+            "title": "InternalMed_Harrison",
+            "content": "Because insects are cold-blooded, ambient temperature dictates their geographic distribution. With increases in temperatures (in particular, nighttime minimum temperatures), insects are freed to move poleward and up mountainsides. At the same time, as new areas become climatically suitable, current mosquito habitats may become unsuitable as a result of heat extremes. In addition, insects tend to be sensitive to water availability. Mosquitoes that transmit malaria, dengue, and other infections may breed in pools of water created by heavy downpours. As has been observed in the Amazon, breeding pools can also appear during periods of drought when rivers recede and leave behind stagnant pools of water for Anopheles mosquitoes. These circumstances have raised interest in the potentially favorable impact of water-cycle intensification on the spread of mosquito-borne disease."
+        },
+        {
+            "id": "InternalMed_Harrison_10039",
+            "title": "InternalMed_Harrison",
+            "content": "Days (EIP length and development to adult) FIGURE 151e-5 Effects of temperature on variables associated with dengue transmission. Shown are the number of days required for development of immature Aedes aegypti mosquitoes to adults, the length of the dengue virus type 2 extrinsic incubation period (EIP), the percentage of A. aegypti mosquitoes that complete a blood meal within 30 min after a blood source is made available, and the percentage of hatched A. aegypti larvae surviving to adulthood. (Reproduced from CW Morin et al: Climate and dengue transmission: evidence and implications."
+        },
+        {
+            "id": "InternalMed_Harrison_16399",
+            "title": "InternalMed_Harrison",
+            "content": "rates of morbidity and mortality due to malaria are considerable during early childhood. Immunity against disease is hard won in these areas, and the burden of disease in young children is high; by adulthood, however, most malarial infections are asymptomatic. As control measures progress and urbanization expands, environmental conditions become less conducive to transmission, and all age groups may lose protective immunity and become susceptible to illness. Constant, frequent, year-round infection is termed stable transmission. In areas where transmission is low, erratic, or focal, full protective immunity is not acquired, and symptomatic disease may occur at all ages. This situation usually exists in hypoendemic areas and is termed unstable transmission. Even in stable-transmission areas, there is often an increased incidence of symptomatic malaria coinciding with increased mosquito breeding and transmission during the rainy season. Malaria can behave like an epidemic disease in"
+        },
+        {
+            "id": "InternalMed_Harrison_10042",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 151e-7 Trend of annually averaged global dengue epidemic potential (rVc). Differences in rVc are based on 30-year averages of temperature and daily temperature range. A. Differences between 1980\u20132009 and 1901\u20131930. B. Differences between 2070\u20132099 and 1980\u20132009. The mean value of rVc was averaged from five global climate models under RCP8.5, a scenario of high greenhouse-gas emission. The color bar describes the values of the rVc. (From J Liu-Helmersson et al: Vectorial capacity of Aedes aegypti: effects of temperature and implications for global dengue epidemic potential. PLoS ONE 9:e89783, 2014 [doi:10.1371/journal.pone.0089783].) accuracy in predicting current I. scapularis distribution and suggests substantial expansion of tick habitat and consequently of populations at risk for the diseases this tick transmits, particularly in Quebec, Iowa, and Arkansas, by 2080. Of note, some areas on the Gulf Coast may become less suitable for ticks by the end of the century."
+        },
+        {
+            "id": "InternalMed_Harrison_10033",
+            "title": "InternalMed_Harrison",
+            "content": "PRECIPITATION The abundance of Anopheles mosquitoes is strongly correlated with the availability of surface water pools for mosquito breeding, and biting rates have been linked to soil moisture (a surrogate for breeding pools). Research in the East African highlands has documented that increased variance in rainfall over time has strengthened the association between precipitation and disease incidence. These disease-promoting effects of precipitation may be countered by the potential for extreme rainfall to flush mosquito larvae from breeding sites."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6416",
+            "title": "Cell_Biology_Alberts",
+            "content": "Primary pathogens, however, need not wait for a wound to gain access to their host. One efficient way for such a pathogen to cross the skin is to catch a ride in the saliva of a biting arthropod. A diverse group of bacteria, viruses, and protozoa has developed the ability to survive in insects and then use them as vectors to spread from one mammalian host to another. As discussed earlier, the Plasmodium protozoan that causes malaria develops through several forms in its life cycle, including some that are specialized for survival in a human and others that are specialized for survival in a mosquito (see Figure 23\u20139). Viruses that are spread by insect bites cause yellow fever and Dengue fever, as well as many kinds of viral encephalitis (inflammation of the brain). These viruses replicate in both insect cells and mammalian cells, as required for their transmission by an insect vector."
+        },
+        {
+            "id": "InternalMed_Harrison_10036",
+            "title": "InternalMed_Harrison",
+            "content": "Dengue Like malaria epidemics, dengue fever epidemics depend on temperature (Fig. 151e-5). Higher temperatures increase the rate of larval development and accelerate the emergence of adult Aedes mosquitoes. The daily temperature range may also influence dengue virus transmission, with a smaller range corresponding to a higher transmission potential. Temperatures <15\u00b0C or >36\u00b0C also substantially reduce mosquito feeding. In a Rhesus model of dengue, viral replication can occur in as little as 7 days with temperatures of >32\u201335\u00b0C; at 30\u00b0C, replication takes \u226512 days; and replication does not reliably occur at 26\u00b0C. Research on dengue in New Caledonia has shown peak transmission at ~32\u00b0C, reflecting combined effects of a shorter extrinsic incubation period, a higher feeding frequency, and more rapid development of mosquitoes. Along with temperature, peak relative humidity is a strong predictor of dengue outbreaks."
+        },
+        {
+            "id": "InternalMed_Harrison_15770",
+            "title": "InternalMed_Harrison",
+            "content": "This decline in incidence may reflect in part the integrated approach to mosquito management that has been employed in irrigation projects and the increasing use of 1317 agricultural pesticides. The decreased incidence of western equine encephalitis almost certainly reflects the increased tendency for humans to be indoors behind closed windows at dusk\u2014the peak biting period by the major vector."
+        },
+        {
+            "id": "InternalMed_Harrison_10040",
+            "title": "InternalMed_Harrison",
+            "content": "Environ Health Perspect 121:1264, 2013.) been mostly a disease of African nations. Climate models predict that, should competent vectors be present, conditions will be suitable for Chikungunya virus to gain a foothold in Western Europe, especially France, in the first half of the twenty-first century. In North America, areas favorable to West Nile virus outbreaks are expected to shift northward in this century. Current hotspots in North America are the California Central Valley, southwestern Arizona, southern Texas, and Louisiana, which have both compatible climates and avian reservoirs for the disease. By mid-century, the upper Midwest and New England will be more climatically suited to West Nile virus; by the end of the century, the area of risk may shift even further north to southern Canada. Whether the disease will ultimately move northward will depend on reservoir availability and mosquito control programs, among other factors."
+        },
+        {
+            "id": "InternalMed_Harrison_10035",
+            "title": "InternalMed_Harrison",
+            "content": "Despite intensive efforts, malaria remains the single greatest vector-borne disease cause of morbidity and death in the world. Particularly in regions that are most affected by malaria and where the public health infrastructure is inadequate to contain it, climate modeling may provide a useful tool in determining where the disease may spread. Recent modeling studies in sub-Saharan Africa have suggested that, although East African nations may encompass regions that will become more climatically suitable for malaria over this century, West African nations may not. By 2100, temperatures in West Africa may largely exceed those optimal for malaria transmission, and the climate may become drier; in contrast, higher temperatures and changes in precipitation may allow malaria to move up the mountainsides of East African countries. Climate change may create conditions favorable to malaria in subtropical and temperate regions of the Americas, Europe, and Asia as well."
+        },
+        {
+            "id": "InternalMed_Harrison_16387",
+            "title": "InternalMed_Harrison",
+            "content": "Malaria is a protozoan disease transmitted by the bite of infected Anopheles mosquitoes. The most important of the parasitic diseases of humans, it is transmitted in 106 countries containing 3 billion people and causes approximately 2000 deaths each day; mortality rates are decreasing as a result of highly effective control programs in several countries. Malaria has been eliminated from the United States, Canada, Europe, and Russia; in the late twentieth and early twenty-first centuries, however, its prevalence rose in many parts of the tropics. Increases in the drug resistance of the parasite, the insecticide resistance of its vectors, and human travel and migration have contributed to this resurgence. Occasional local transmission after importation of malaria has occurred in several southern and eastern areas of the United States and in Europe, indicating the continual danger to non-malarious countries. Although there are many successful new control initiatives as well as promising"
+        },
+        {
+            "id": "InternalMed_Harrison_10032",
+            "title": "InternalMed_Harrison",
+            "content": "rate; bh is the probability of vector-to-human transmission per bite; bm is the probability of human-to-vector infection per bite; n is the duration of the extrinsic incubation period; and \u03bcm is the vector mortality rate."
+        },
+        {
+            "id": "InternalMed_Harrison_16398",
+            "title": "InternalMed_Harrison",
+            "content": "The epidemiology of malaria is complex and may vary considerably even within relatively small geographic areas. Endemicity traditionally has been defined in terms of parasitemia rates or palpable-spleen rates in children 2\u20139 years of age and classified as hypoendemic (<10%), mesoendemic (11\u201350%), hyperendemic (51\u201375%), and holoendemic (>75%). Until recently, it was uncommon to use these indices for planning control programs; however, many countries are now conducting national surveys to assess program progress. In holoand hyperendemic areas (e.g., certain regions of tropical Africa or coastal New Guinea) where there is intense P. falciparum transmission, people may sustain more than one infectious mosquito bite per day and are infected repeatedly throughout their lives. In such settings, rates of morbidity and mortality due to malaria are considerable during early childhood. Immunity against disease is hard won in these areas, and the burden of disease in young children is high; by"
+        },
+        {
+            "id": "InternalMed_Harrison_10038",
+            "title": "InternalMed_Harrison",
+            "content": "The current global distribution of dengue largely overlaps the geographic spread of Aedes mosquitoes (Fig. 151e-6). The presence of Aedes without dengue endemicity in large regions of North and South America and Africa illustrates the relevance of variables other than climate to disease incidence. Nevertheless, coupled climatic\u2013 epidemiologic modeling suggests dramatic shifts in the relative vectorial capacity for dengue by the end of this century should little or no mitigation of greenhouse gas emissions occur (Fig. 151e-7). Other Arbovirus Infections Climate change may favor increased geographic spread of other arboviral diseases, including Chikungunya virus disease, West Nile virus disease, and eastern equine encephalitis. Chikungunya virus disease emerged in Italy in 2007, having previously Days (EIP length and development to adult)"
+        },
+        {
+            "id": "InternalMed_Harrison_16494",
+            "title": "InternalMed_Harrison",
+            "content": "Simple measures to reduce the frequency of infected-mosquito bites in malarious areas are very important. These measures include the avoidance of exposure to mosquitoes at their peak feeding times (usually dusk to dawn) and the use of insect repellents containing 10\u201335% DEET (or, if DEET is unacceptable, 7% picaridin), suitable clothing, and ITNs or other insecticide-impregnated materials. Widespread use of bed nets treated with residual pyrethroids reduces the incidence of malaria in areas where vectors bite indoors at night. (Table 248-8; wwwnc.cdc.gov/travel/yellowbook/2014/chapter-3infectious-diseases-related-to-travel/malaria) Recommendations for prophylaxis depend on knowledge of local patterns of Plasmodium species drug sensitivity and the likelihood of acquiring malarial infection. When there is uncertainty, drugs effective against resistant"
+        },
+        {
+            "id": "Pathology_Robbins_1825",
+            "title": "Pathology_Robbins",
+            "content": "Vector-borne infectious diseases, such as malaria and dengue fever, resulting from changes in vector number and geographic distribution related to increased temperatures, crop failures, and more extreme weather variation (e.g., more frequent and severe El Ni\u00f1o events). Malnutrition, caused by changes in local climate that disrupt crop production. Such changes are anticipated to be most severe in tropical locations, in which average 1958-2015 Correlation Coefficient: 0.90947 \u20130.4 \u20130.2 0 0.2 0.4 0.6 0.8 A Global temperature anomaly (\u00b0 C) Fig. 8.1 Climatechange,pastandfuture.(A)CorrelationofCO2levelsmeasuredattheMaunaLoaObservatoryinHawaiiwithaverageglobaltemperaturetrendssincethemid-1960s.\u201cGlobaltemperature\u201dinanygivenyearwasdeducedattheHadleyCenter(UnitedKingdom)frommeasurementstakenatmorethan3000weatherstationslocatedaroundtheglobe."
+        },
+        {
+            "id": "InternalMed_Harrison_16971",
+            "title": "InternalMed_Harrison",
+            "content": "transmission has decreased. The third approach to control in endemic communities entails selective use of chemotherapy for individuals posing the highest risk of transmission (i.e., those with heavy infections). The availability of praziquantel\u2014a broad-spectrum, safe, and effective anthelmintic agent\u2014provides a means for reducing the reservoirs of infection in human populations. However, the existence of most of these helminthic infections as zoonoses in several animal species complicates control efforts."
+        },
+        {
+            "id": "InternalMed_Harrison_16394",
+            "title": "InternalMed_Harrison",
+            "content": "FIGuRE 248-1 The malaria transmission cycle from mosquito to human and targets of immunity. RBC, red blood cell. 1370 longer-lived sexual forms (gametocytes) that can transmit malaria. In falciparum malaria, a delay of several asexual cycles precedes this switch to gametocytogenesis. After being ingested in the blood meal of a biting female anopheline mosquito, the male and female gametocytes form a zygote in the insect\u2019s midgut. This zygote matures into an ookinete, which penetrates and encysts in the mosquito\u2019s gut wall. The resulting oocyst expands by asexual division until it bursts to liberate myriad motile sporozoites, which then migrate in the hemolymph to the salivary gland of the mosquito to await inoculation into another human at the next feeding. Senegal The Gambia Guinea-"
+        },
+        {
+            "id": "Pharmacology_Katzung_5670",
+            "title": "Pharmacology_Katzung",
+            "content": "When patients are counseled on the prevention of malaria, it is imperative to emphasize measures to prevent mosquito bites (eg, with insect repellents, insecticides, and bed nets), because parasites are increasingly resistant to multiple drugs and no chemoprophylactic regimen is fully protective. Current recommendations from the U.S. Centers for Disease Control and Prevention (CDC) include the use of chloroquine for chemoprophylaxis in the few areas infested by only chloroquine-sensitive malaria parasites (principally Hispaniola and Central America west of the Panama Canal), and mefloquine, Malarone, * or doxycycline for most other malarious areas, with doxycycline preferred for areas with a high prevalence of multidrug-resistant falciparum malaria (principally border areas of Thailand) (Table 52\u20132). CDC recommendations should be checked regularly (Phone: 770-488-7788; after hours 770-488-7100; Internet: www.cdc.gov/malaria), because these may change in response to changing resistance"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6417",
+            "title": "Cell_Biology_Alberts",
+            "content": "The efficient spread of a pathogen via an insect vector requires that an individual insect consumes a blood meal from an infected host and transfers the pathogen to a naive host. In a few striking cases, the pathogen alters the behavior of the insect so that its transmission to a new host is more likely. An example is the bacterium Yersinia pestis, which causes bubonic plague. It multiplies in the flea\u2019s foregut to form aggregated masses that physically block the digestive tract; during each repeated, but futile, attempt at feeding, some of the bacteria in the foregut are flushed into the bite site, thus transmitting plague to a new host (Figure 23\u201314)."
+        },
+        {
+            "id": "InternalMed_Harrison_16400",
+            "title": "InternalMed_Harrison",
+            "content": "there is often an increased incidence of symptomatic malaria coinciding with increased mosquito breeding and transmission during the rainy season. Malaria can behave like an epidemic disease in some areas, particularly those with unstable malaria, such as northern India (the Punjab region), the horn of Africa, Rwanda, Burundi, southern Africa, and Madagascar. An epidemic can develop when there are changes in environmental, economic, or social conditions, such as heavy rains following drought or migrations (usually of refugees or workers) from a nonmalarious region to an area of high transmission, along with failure to invest in national programs; a breakdown in malaria control and prevention services caused by war or civil disorder can intensify epidemic conditions. This situation usually results in considerable mortality among all age groups."
+        },
+        {
+            "id": "InternalMed_Harrison_15775",
+            "title": "InternalMed_Harrison",
+            "content": "Efforts at prevention of viral infection are best based on vector control, which, however, may be expensive or impossible. For mosquito control, destruction of breeding sites is generally the most economically and environmentally sound approach. Emerging containment technologies include the release of genetically modified mosquitoes and the spread of Wolbachia bacteria to limit mosquito multiplication rates. Depending on the vector and its habits, other possible approaches include the use of screens or other barriers (e.g., permethrin-impregnated bed nets) to prevent the vector from entering dwellings, judicious application of arthropod repellents such as N,N,-diethyltoluamide (DEET) to the skin, wearing of long-sleeved and ideally permethrin-impregnated clothing, and avoidance of the vectors\u2019 habitats and times of peak activity."
+        },
+        {
+            "id": "InternalMed_Harrison_15785",
+            "title": "InternalMed_Harrison",
+            "content": "Sandfly fever is found in the circum-Mediterranean area, extending to the east through the Balkans into parts of China as well as into western Asia. Chagres virus is endemic in Panama. Sandflies are found in both rural and urban settings and are known for their short flight ranges and their small sizes; the latter enables them to penetrate standard mosquito screens and netting. Epidemics have been described in the wake of natural disasters and wars. After World War II, extensive spraying in parts of Europe to control malaria greatly reduced sandfly populations and sandfly fever Naples virus transmission; the incidence of sandfly fever continues to be low."
+        },
+        {
+            "id": "InternalMed_Harrison_10034",
+            "title": "InternalMed_Harrison",
+            "content": "PROJECTIONS Climate models have begun to deliver output on regional scales, permitting projections of climate-suitable regions to assist national and local health authorities. Climate models speak to the temperature and precipitation ranges necessary for malaria transmission but do not\u2014and cannot\u2014account for the capacity of malaria control programs to halt the spread of disease. The global reduction in malaria distribution over the past century makes it clear that, even with climate change, malaria occurs in far fewer places today because of public health interventions."
+        },
+        {
+            "id": "Pediatrics_Nelson_2573",
+            "title": "Pediatrics_Nelson",
+            "content": "There are two components of malaria prevention: reduction of exposure to infected mosquitoes and chemoprophylaxis. Mosquito protection is necessary because no prophylactic regimen can guarantee protection in every instance due to the widespread development of resistant organisms. Chemoprophylaxis is necessary for all visitors to and residents of the tropics who have not lived there since infancy. Children of nonimmune women should have chemoprophylaxis from birth. Children of women from endemic areas have passive immunity until 3 to 6 months of age, after which they are increasingly likely to acquire malaria. Specific chemoprophylaxis should be guided by the distribution of resistance pattern and determined before making specific recommendations ( http://www.cdc.gov/malaria/travelers/country_table/a.html ).Mefloquine, doxycycline, chloroquine, and Malarone are commonly prescribed medications. Available @ StudentConsult.com"
+        },
+        {
+            "id": "Pharmacology_Katzung_5666",
+            "title": "Pharmacology_Katzung",
+            "content": "An anopheline mosquito inoculates plasmodium sporozoites to initiate human infection (Figure 52\u20131). Circulating sporozoites rapidly invade liver cells, and exoerythrocytic stage tissue schizonts mature in the liver. Merozoites are subsequently released from the liver and invade erythrocytes. Only erythrocytic parasites cause clinical illness. Repeated cycles of infection can lead to the infection of many erythrocytes and serious disease. Sexual stage gametocytes also develop in erythrocytes before being taken up by mosquitoes, where they develop into infective sporozoites."
+        },
+        {
+            "id": "Pharmacology_Katzung_255",
+            "title": "Pharmacology_Katzung",
+            "content": "of such responses plotted against the log of the dose produces a gaussian normal curve of variation (colored areas, Figure 2\u201316). When these responses are summated, the resulting cumulative frequency distribution constitutes a quantal dose-effect curve (or dose-percent curve) of the proportion or percentage of individuals who exhibit the effect plotted as a function of log dose."
+        }
+    ],
+    "scores": [
+        0.03485925433219767,
+        0.03220861471230062,
+        0.028964170926896612,
+        0.027920470618490418,
+        0.027089294885905058,
+        0.026891132123690265,
+        0.02532625677786968,
+        0.0249392487441739,
+        0.024862380060399862,
+        0.02484830989503887,
+        0.024403317514562615,
+        0.024351033461561946,
+        0.023940135103657115,
+        0.0233293297923132,
+        0.02274010574405831,
+        0.021430309309097187,
+        0.020993408449854443,
+        0.0185086155674391,
+        0.018424611223799865,
+        0.017786561264822136,
+        0.017551892551892552,
+        0.017216117216117217,
+        0.015973630831643,
+        0.01596617442887795,
+        0.015512265512265512,
+        0.015504807692307693,
+        0.01529533004284862,
+        0.015051208057488824,
+        0.014818067065473903,
+        0.014718614718614718,
+        0.014709051724137931,
+        0.014337101747173689
+    ],
+    "execution_time": 13.76936388015747
+}

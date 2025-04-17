@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-043",
+    "question": "A nonsense mutation involves:",
+    "options": {
+        "A": "a regulatory sequence.",
+        "B": "an AG splice acceptor site.",
+        "C": "the creation of a different amino acid.",
+        "D": "the creation of a stop codon."
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To determine the correct answer, let's break down the concept of a nonsense mutation. A nonsense mutation is a type of point mutation that results in the creation of a premature stop codon, leading to the termination of protein synthesis. This occurs when a single nucleotide change in the DNA sequence alters a codon to a stop codon, UAA, UAG, or UGA. As a result, the translation process is interrupted, and the protein is truncated. Now, let's analyze each option in relation to the definition of a nonsense mutation.\\n\\nOption A: a regulatory sequence. - While regulatory sequences are important in gene expression, they are not directly related to the definition of a nonsense mutation.\\n\\nOption B: an AG splice acceptor site. - An AG splice acceptor site is involved in the splicing process, but it is not the primary characteristic of a nonsense mutation.\\n\\nOption C: the creation of a different amino acid. - This option is incorrect because a nonsense mutation does not result in the creation of a different amino acid; instead, it leads to the termination of protein synthesis.\\n\\nOption D: the creation of a stop codon. - This is the correct answer. A nonsense mutation involves the creation of a premature stop codon (UAA, UAG, or UGA), which leads to the termination of protein synthesis.\\n\\nanswer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Pediatrics_Nelson_948",
+            "title": "Pediatrics_Nelson",
+            "content": "Disease may be caused by changes or mutations in the DNA sequence, with the point mutation, a change in a single DNA base, being the most common type. A point mutation that changes a codon and the resulting amino acid thatgoes into the protein is referred to as a missense mutation. A nonsense mutation is a point mutation that changes thecodon to a \u201cstop\u201d codon so that transcription stops prematurely. A frameshift mutation often stems from the loss or addition of one or more DNA bases; this causes a shift in how the DNA is transcribed and generally leads to premature stop codons."
+        },
+        {
+            "id": "Pathology_Robbins_1480",
+            "title": "Pathology_Robbins",
+            "content": "Details of specific mutations and their effects are discussed along with the relevant disorders throughout this book. Cited here are some common examples of gene mutations and their effects: Point mutations result from the substitution of a single nucleotide base by a different base, resulting in the replacement of one amino acid by another in the protein product. The mutation in the \u03b2-globin chain of hemoglobin giving rise to sickle cell anemia is an excellent example of a point mutation that alters the meaning of the genetic code. Such mutations are sometimes called missense mutations. By contrast, certain point mutations may change an amino acid codon to a chain termination codon, or a stop codon. Such \u201cnonsense\u201d mutations interrupt translation, and in most cases RNAs are rapidly degraded, a phenomenon called nonsense mediated decay, such that little or no protein is formed."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1679",
+            "title": "Cell_Biology_Alberts",
+            "content": "The nonsense-mediated surveillance pathway also plays an important role in mitigating the symptoms of many inherited human diseases. As we have seen, inherited diseases are usually caused by mutations that spoil the function of a key protein, such as hemoglobin or one of the blood-clotting factors. Approximately one-third of all genetic disorders in humans result from nonsense mutations or mutations (such as frameshift mutations or splice-site mutations) that place nonsense mutations into the gene\u2019s reading frame. In individuals that carry one mutant and one functional gene, nonsense-mediated decay eliminates the aberrant mRNA and thereby prevents a potentially toxic protein from being made. Without this safeguard, individuals with one functional and one mutant \u201cdisease gene\u201d would likely suffer much more severe symptoms. Some Proteins Begin to Fold While Still Being Synthesized"
+        },
+        {
+            "id": "First_Aid_Step1_8",
+            "title": "First_Aid_Step1",
+            "content": "Nonsense mutation Nucleotide substitution results in early stop codon (UGA, UAA, UAG). Usually results in nonfunctional protein. Stop the nonsense! Other mutations Frameshift mutation Deletion or insertion of a number of nucleotides not divisible by 3 \u2022 misreading of all nucleotides downstream. Protein may be shorter or longer, and its function may be disrupted or altered. Examples include Duchenne muscular dystrophy, Tay-Sachs disease. Splice site mutation Retained intron in mRNA \u2022 protein with impaired or altered function. Examples include rare causes of cancers, dementia, epilepsy, some types of \u03b2-thalassemia, Gaucher disease, Marfan syndrome. Lac operon Classic example of a genetic response to an environmental change. Glucose is the preferred metabolic substrate in E coli, but when glucose is absent and lactose is available, the lac operon is activated to switch to lactose metabolism. Mechanism of shift:"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1566",
+            "title": "Biochemistry_Lippinco",
+            "content": "3. Nonsense mutation: The codon containing the changed base may become a termination codon. For example, if the Ser codon UCA is changed at the second base and becomes UAA, the new codon causes premature termination of translation at that point and the production of a shortened (truncated) protein. This is termed a nonsense mutation. [Note: The nonsense-mediated degradation pathway can degrade mRNA containing premature stops.] 4. Other mutations: These can alter the amount or structure of the protein produced by translation."
+        },
+        {
+            "id": "InternalMed_Harrison_4811",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 82-9 Point mutations causing \u03b2 thalassemia as example of allelic heterogeneity. The \u03b2-globin gene is located in the globin gene cluster. Point mutations can be located in the promoter, the CAP site, the 5\u2019-untranslated region, the initiation codon, each of the three exons, the introns, or the polyadenylation signal. Many mutations introduce missense or nonsense mutations, whereas others cause defective RNA splicing. Not shown here are deletion mutations of the \u03b2-globin gene or larger deletions of the globin locus that can also result in thalassemia. \u25bc, promoter mutations; *, CAP site; \u2022, 5\u2019UTR; 1 , initiation codon; \u2666, defective RNA processing; \u2726, missense and nonsense Chapter 82 Principles of Human Genetics A, Poly A signal."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2351",
+            "title": "Cell_Biology_Alberts",
+            "content": "loss-of-function mutation: either reduces or abolishes the activity of the gene. These are the most common class of mutations. Loss-of-function mutations are usually recessive\u2014the organism can usually function normally as long as it retains at least one normal copy of the affected gene. null mutation: a loss-of-function mutation that completely abolishes the activity of the gene. TWO GENES OR ONE? Given two mutations that produce the same phenotype, how can we tell whether they are mutations in the same gene? If the mutations are recessive (as they most often are), the answer can be found by a complementation test. COMPLEMENTATION: MUTATIONS IN TWO DIFFERENT GENES DELETION: deletes a segment of a chromosome"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1674",
+            "title": "Cell_Biology_Alberts",
+            "content": "The most powerful mRNA surveillance system, called nonsense-mediated mRNA decay, eliminates defective mRNAs before they move away from the nucleus. This mechanism is brought into play when the cell determines that an mRNA molecule has a nonsense (stop) codon (UAA, UAG, or UGA) in the \u201cwrong\u201d place. This situation is likely to arise in an mRNA molecule that has been improperly spliced, because aberrant splicing will usually result in the random introduction of a nonsense codon into the reading frame of the mRNA\u2014especially in organisms, such as humans, that have a large average intron size (see Figure 6\u201331B)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1676",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nonsense-mediated decay may have been especially important in evolution, allowing eukaryotic cells to more easily explore new genes formed by DNA rearrangements, mutations, or alternative patterns of splicing\u2014by selecting only those mRNAs for translation that can produce a full-length protein. Nonsense-mediated decay is also important in cells of the developing immune system, where the extensive DNA rearrangements that occur (see Figure 24\u201328) often generate mRNA SURVIVES, EFFICIENT TRANSLATION Upf TRIGGERS mRNA DEGRADATION"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1677",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201376 Nonsense-mediated mRNA decay. As shown on the right, the failure to correctly splice a pre-mRNA often introduces a premature stop codon into the reading frame for the protein. These abnormal mRNAs are destroyed by the nonsense-mediated decay mechanism. To activate this mechanism, an mRNA molecule, bearing exon junction complexes (EJCs) to mark successfully completed splices, is first met by a ribosome that performs a \u201ctest\u201d round of translation. As the mRNA passes through the tight channel of the ribosome, the EJCs are stripped off, and successful mRNAs are released to undergo multiple rounds of translation (left side). However, if an in-frame stop codon is encountered before the final EJC is reached (right side), the mRNA undergoes nonsense-mediated decay, which is triggered by the Upf proteins (green) that bind to each EJC. Note that this mechanism ensures that nonsense-mediated decay is triggered only when the premature stop codon is in the same reading frame as that of"
+        },
+        {
+            "id": "First_Aid_Step1_7",
+            "title": "First_Aid_Step1",
+            "content": "H Prokaryotes only. Degrades RNA primer; Same functions as DNA polymerase III, also replaces it with DNA. excises RNA primer with 5\u2032 \u008e 3\u2032 exonuclease. I Catalyzes the formation of a phosphodiester Joins Okazaki fragments. bond within a strand of double-stranded DNA. Ligase Links DNA. Mutations in DNA Severity of damage: silent << missense < nonsense < frameshift. Types of single nucleotide (point) mutations: \u2022 Transition\u2014purine to purine (eg, A to G) or pyrimidine to pyrimidine (eg, C to T). \u0083Transversion\u2014purine to pyrimidine (eg, A to T) or pyrimidine to purine (eg, C to G). Single nucleotide substitutions Silent mutation Nucleotide substitution codes for same (synonymous) amino acid; often base change in 3rd position of codon (tRNA wobble). Missense mutation Nucleotide substitution results in changed amino acid (called conservative if new amino acid has similar chemical structure). Examples include sickle cell disease (substitution of glutamic acid with valine)."
+        },
+        {
+            "id": "InternalMed_Harrison_20349",
+            "title": "InternalMed_Harrison",
+            "content": "HCO3 in the presence of ATP (a class III abnormality). Individuals with at least one G551D allele represent 4\u20135% of CF patients in North America. CFTR nonsense alleles such as G542X, R553X, and W1282X (premature termination codon replaces glycine, arginine, or tryptophan at positions 542, 553, or 1282, respectively) are among the common class I defects, in addition to large deletions or other major disruptions of the gene. The W1282X mutation, for example, is prevalent among individuals of Ashkenazi descent and is a predominant CF genotype in Israel. Additional categories of CFTR mutation include defects in the ion channel pore (class IV), RNA splicing (class V), and increased plasma membrane turnover (class VI) (Fig. 313-2)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1605",
+            "title": "Biochemistry_Lippinco",
+            "content": "Codons are composed of three nucleotide bases presented in the messenger RNA (mRNA) language of adenine (A), guanine (G), cytosine (C), and uracil (U). They are always written 5\u2032\u21923\u2032. Of the 64 possible three-base combinations, 61 code for the 20 standard amino acids and 3 signal termination of protein synthesis (translation). Altering the nucleotide sequence in a codon can cause silent mutations (the altered codon codes for the original amino acid), missense mutations (the altered codon codes for a different amino acid), or nonsense mutations (the altered codon is a termination codon). Characteristics of the genetic code include specificity, universality, and degeneracy, and it is nonoverlapping and commaless (Fig. 32.17). Requirements for protein synthesis include all the amino acids that eventually appear in the finished protein; at least one specific type of transfer RNA (tRNA) for each amino acid; one aminoacyl-tRNA synthetase for each amino acid; the mRNA coding for the protein"
+        },
+        {
+            "id": "InternalMed_Harrison_32605",
+            "title": "InternalMed_Harrison",
+            "content": "Genetic testing has limitations that are often unique to this field. Results may be inconclusive. For example, a search for mutations in a gene that is suspected of causing a disease may fail to reveal any known disease-causing mutations. A mutation may be discovered that is of unknown clinical significance. In this situation, consideration of the predicted change in the amino acid sequence of the encoded protein may suggest a biologic effect\u2014e.g., replacement of a charged amino acid by one of the opposite charge or by a neutral amino acid; replacement of an amino acid by one of a different size; or replacement of an amino acid that is conserved across multiple species. Further information may be obtained by determining whether the mutation is found in healthy individuals. Even with all of these considerations, it is not uncommon that the biologic significance of an identified mutation remains uncertain, and further research may be needed to assess its significance."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2352",
+            "title": "Cell_Biology_Alberts",
+            "content": "COMPLEMENTATION: MUTATIONS IN TWO DIFFERENT GENES DELETION: deletes a segment of a chromosome TRANSLOCATION: breaks off a segment from one chromosome and attaches it to another gain-of-function mutation: increases the activity of the gene or makes it active in inappropriate circumstances; these mutations are usually dominant. dominant-negative mutation: dominant-acting mutation that blocks gene activity, causing a loss-of-function phenotype even in the presence of a normal copy of the gene. This phenomenon occurs when the mutant gene product interferes with the function of the normal gene product. suppressor mutation: suppresses the phenotypic effect of another mutation, so that the double mutant seems normal. An intragenic suppressor mutation lies within the gene affected by the frst mutation; an extragenic suppressor mutation lies in a second gene\u2014often one whose product interacts directly with the product of the frst."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2362",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mutations Can Cause Loss or Gain of Protein Function Gene mutations are generally classed as \u201closs of function\u201d or \u201cgain of function.\u201d A loss-of-function mutation results in a gene product that either does not work or works too little; thus, it can reveal the normal function of the gene. A gain-of-function mutation results in a gene product that works too much, works at the wrong time or place, or works in a new way (Figure 8\u201347)."
+        },
+        {
+            "id": "Neurology_Adams_8799",
+            "title": "Neurology_Adams",
+            "content": "The pattern of inheritance is autosomal recessive. It has been shown that in virtually all cases the mutation is an expansion of a GAA trinucleotide repeat within FXN that that codes for the protein. (It is of interest that this mutation is within an intron). In a small proportion of cases, the mutation is a missense mutation rather than an expansion. In either case, the consequence of the mutation is a reduction in levels of frataxin and loss of its function. Cases in which the mutation allows the presence of some residual protein have a milder course."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1931",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Excessive pancreatic secretion of insulin in CF commonly results in hypoglycemia. C. Genetic testing for CF may involve the use of a set of probes for the most common mutations, a technique known as restriction fragment length polymorphism analysis. D. Some mutations result in premature degradation of the CFTR protein through tagging with ubiquinone followed by proteasome-mediated proteolysis. E. The most common mutation, \u2206F508, results in the loss of a codon for phenylalanine (F) and is classified as a frameshift mutation. Q2. The CFTR protein is an intrinsic plasma membrane glycoprotein. Targeting of proteins destined to function as components of membranes: A. includes transport to and through the Golgi. B. involves an amino-terminal signal sequence that is retained in the functional protein. C. occurs after the protein has been completely synthesized (that is, posttranslationally)."
+        },
+        {
+            "id": "InternalMed_Harrison_4813",
+            "title": "InternalMed_Harrison",
+            "content": "Polymorphisms are sequence variations that have a frequency of at least 1%. Usually, they do not result in a perceptible phenotype. Often they consist of single base-pair substitutions that do not alter the protein coding sequence because of the degenerate nature of the genetic code (synonymous polymorphism), although it is possible that some might alter mRNA stability, translation, or the amino acid sequence (nonsynonymous polymorphism) (Fig. 82-10). The detection of sequence variants poses a practical problem because mutations is much greater in the male germline than the female germline, in which rates of aneuploidy are increased (Chap. 83e). Thus, the incidence of new point mutations in spermatogonia increases with paternal age (e.g., achondrodysplasia, Marfan\u2019s syndrome, neurofibromatosis). It is estimated that about 1 in 10 sperm carries a new deleterious mutation. The rates for new mutations are calculated most readily for autosomal dominant and X-linked disorders and are"
+        },
+        {
+            "id": "Pathology_Robbins_1481",
+            "title": "Pathology_Robbins",
+            "content": "Frameshift mutations occur when the insertion or deletion of one or two base pairs alters the reading frame of the DNA strand."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1678",
+            "title": "Cell_Biology_Alberts",
+            "content": "the Upf proteins (green) that bind to each EJC. Note that this mechanism ensures that nonsense-mediated decay is triggered only when the premature stop codon is in the same reading frame as that of the normal protein. (Adapted from J. Lykke-Andersen et al., Cell 103:1121\u20131131, 2000. With permission from Elsevier.) premature termination codons. The surveillance system degrades the mRNAs produced from such rearranged genes, thereby avoiding the potential toxic effects of truncated proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2390",
+            "title": "Cell_Biology_Alberts",
+            "content": "Now that DNA sequencing has become fast and inexpensive, the most efficient and cost-effective way to identify these rare, large-effect mutations is by sequencing the genomes of affected individuals, along with those of their parents and siblings as controls. Reverse Genetics Begins with a Known Gene and Determines Which Cell Processes Require Its Function"
+        },
+        {
+            "id": "InternalMed_Harrison_4809",
+            "title": "InternalMed_Harrison",
+            "content": "TRANSMISSION OF GENETIC DISEASE Origins and Types of Mutations A mutation can be defined as any change in the primary nucleotide sequence of DNA regardless of phenotypes. Mutations can occur in all domains of a gene (Fig. 82-9). A point mutation occurring within the coding region leads to an amino acid substitution if the codon is altered (Fig. 82-10). Point mutations that introduce a premature stop codon result in a truncated protein. Large deletions may affect a portion of a gene or an entire gene, whereas small deletions and insertions alter the reading frame if they do not represent a multiple of three bases. These \u201cframeshift\u201d mutations lead to an entirely altered carboxy terminus. Mutations in intronic sequences or in exon junctions may destroy or create splice donor or splice acceptor sites. Mutations may also be found in the regulatory sequences of genes, resulting in reduced or enhanced gene transcription."
+        },
+        {
+            "id": "Pathology_Robbins_1197",
+            "title": "Pathology_Robbins",
+            "content": "Point mutations can either activate or inactivate the protein products of the affected genes depending on their precise position and consequence. Point mutations that convert proto-oncogenes into oncogenes generally produce a gain-of-function by altering amino acid residues in a domain that normally holds the protein\u2019s activity in check. A cardinal example is point mutations that convert the RAS gene into a cancer gene, one of the most comment events in human cancers. By contrast, point mutations (as well as larger aberrations, such as insertions and deletions) in tumor suppressor genes reduce or disable the function of the encoded protein. The tumor suppressor gene that is most commonly affected by point mutations in cancer is TP53, a prototypical \u201cguardian\u201d type tumor suppressor gene (discussed later)."
+        },
+        {
+            "id": "InternalMed_Harrison_4816",
+            "title": "InternalMed_Harrison",
+            "content": "mutation rates Mutations represent an important cause of genetic diversity as well as disease. Mutation rates are difficult to determine in humans because many mutations are silent and because testing is often not adequate to detect the phenotypic consequences. Mutation rates vary in different genes but are estimated to occur at a rate of ~10\u221210/bp per cell division. Germline mutation rates (as opposed to somatic mutations) are relevant in the transmission of genetic disease. Because the population of oocytes is established very early in development, only ~20 cell divisions are required for completed oogenesis, whereas spermatogenesis involves ~30 divisions by the time of puberty and 20 cell divisions each year thereafter. Consequently, the probability of acquiring new point 1 bp Deletion with frameshift"
+        },
+        {
+            "id": "InternalMed_Harrison_4806",
+            "title": "InternalMed_Harrison",
+            "content": "Zygote syndrome. Unequal crossing-over between homologous genes can result in fusion gene mutations, as illustrated by color blindness. Mutations involving single nucleotides are referred to as point mutations. Substitutions are called transitions if a purine is replaced by another purine base (A \u2194 G) or if a pyrimidine is replaced by another pyrimidine (C \u2194 T). Changes from a purine to a pyrimidine, or vice versa, are referred to as transversions. If the DNA sequence change occurs in a coding region and alters an amino acid, it is called a missense mutation. Depending on the functional consequences of such a missense mutation, amino acid substitutions in different regions of the protein can lead to distinct"
+        },
+        {
+            "id": "Surgery_Schwartz_8516",
+            "title": "Surgery_Schwartz",
+            "content": "well.The APC gene is a tumor suppressor gene. Mutations in both alleles are necessary to initiate polyp formation. The majority of mutations are premature stop codons, which result in a truncated APC protein. In FAP, the site of mutation correlates with the clinical severity of the disease. For example, mutations in either the 3\u2032 or 5\u2032 end of the gene result in attenuated forms of FAP (AFAP), whereas mutations in the center of the gene result in more virulent disease. Thus, knowledge of the specific mutation in a family may help guide clinical decision-making.10APC inactivation alone does not result in a carcinoma. Instead, this mutation sets the stage for the accumulation of genetic damage that results in malignancy. Additional mutations may include activation or inactivation of a variety of genes.One of the most commonly involved genes in colorectal cancer is K-ras. K-ras, a signaling molecule in the epidermal growth factor receptor (EGFR) pathway, is classified as a proto-oncogene"
+        },
+        {
+            "id": "InternalMed_Harrison_18686",
+            "title": "InternalMed_Harrison",
+            "content": "Most familial cardiomyopathies are inherited in an autosomal dominant pattern, with occasional autosomal recessive and X-linked inheritance (Table 287-3). Missense mutations with amino acid substitutions are the most common in cardiomyopathy. Expressed mutant proteins may interfere with function of the normal allele through a dominant negative mechanism. Mutations introducing a premature stop codon (nonsense) or shift in the reading frame (frameshift) may create a truncated or unstable protein the lack of which causes cardiomyopathy (haploinsufficiency). Deletions or duplications of an entire exon or gene are uncommon causes of cardiomyopathy, except for the dystrophinopathies."
+        },
+        {
+            "id": "InternalMed_Harrison_28993",
+            "title": "InternalMed_Harrison",
+            "content": "FBN1 gene mutations are scattered throughout its 65 coding exons. Most are private mutations, but about 10% are recurrent new mutations that are largely located in CpG sequences known to be \u201chot spots.\u201d Most severe mutations are located in the central codons (24\u201332). About one-third of the mutations introduce premature termination codons, and about two-thirds are missense mutations that alter calcium-binding domains in the repetitive epidermal growth factor\u2013 like domains of the protein. Rarer mutations alter the processing of the protein. As in many genetic diseases, the severity of the phenotype cannot be predicted from the nature of the mutation."
+        },
+        {
+            "id": "InternalMed_Harrison_4829",
+            "title": "InternalMed_Harrison",
+            "content": "Functional Consequences of Mutations Functionally, mutations can be broadly classified as gain-of-function and loss-of-function mutations. Gain-of-function mutations are typically dominant (e.g., they result in phenotypic alterations when a single allele is affected). Inactivating mutations are usually recessive, and an affected individual is homozygous or compound heterozygous (e.g., carrying two different mutant alleles of the same gene) for the disease-causing mutations. Alternatively, mutation in a single allele can result in haploinsufficiency, a situation in which one normal allele is not sufficient to maintain a normal phenotype. Haploinsufficiency is a commonly observed mechanism in diseases associated with mutations in transcription factors (Table 82-2). Remarkably, the clinical features among patients with an identical mutation in a transcription factor often vary significantly. One mechanism underlying this variability consists in the influence of modifying genes."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1570",
+            "title": "Biochemistry_Lippinco",
+            "content": "Frameshift mutations: If one or two nucleotides are either deleted from or added to the coding region of an mRNA, a frameshift mutation occurs, altering the reading frame. This can result in a product with a radically different amino acid sequence or a truncated product due to the eventual creation of a termination codon (Fig. 32.5). If three nucleotides are added, a new amino acid is added to the peptide. If three are deleted, an amino acid is lost. Loss of three nucleotides maintains the reading frame but can result in serious pathology. For example, cystic fibrosis (CF), a chronic, progressive, inherited disease that primarily affects the pulmonary and digestive systems, is most commonly caused by deletion of three nucleotides from the coding region of a gene, resulting in the loss of phenylalanine (Phe, or F; see p. 5) at the 508th position (\u2206F508) in the CF transmembrane conductance regulator (CFTR) protein encoded by that gene. This \u2206F508 mutation prevents normal folding of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1526",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, for example, a mutation in a nucleotide sequence critical for splicing of a particular intron does not necessarily prevent splicing of that intron altogether. Instead, the mutation typically creates a new pattern of splicing (Figure 6\u201333). Most commonly, an exon is simply skipped (Figure 6\u201333B). In other cases, the mutation causes a cryptic splice junction to be efficiently used (Figure 6\u201333C). Apparently, the splicing machinery has evolved to pick out the best possible pattern of splice junctions, and if the optimal one is damaged by mutation, it will seek out the next best pattern, and so on. This inherent plasticity in the process of RNA splicing suggests that changes in splicing patterns caused by random mutations have been important in the evolution of genes and organisms. It also means that mutations that affect splicing can be severely detrimental to the organism: in addition to the \u03b2 thalassemia, example presented in Figure 6\u201333, aberrant"
+        }
+    ],
+    "scores": [
+        0.03859167674000993,
+        0.038107191262531065,
+        0.03636804324295609,
+        0.03496115427302996,
+        0.028441230861276548,
+        0.027320045798306665,
+        0.025453958449969345,
+        0.02543003330404905,
+        0.025152889438603724,
+        0.024462365591397847,
+        0.02425807509427775,
+        0.022745852270175136,
+        0.02228407065305461,
+        0.021654173874047025,
+        0.02138714859113303,
+        0.02134131599198142,
+        0.021253846233007113,
+        0.02095238095238095,
+        0.020699646765180893,
+        0.020297749895321838,
+        0.019929537602149244,
+        0.01968226947040664,
+        0.019417475728155338,
+        0.019196273110842963,
+        0.019192094246685075,
+        0.018859126984126985,
+        0.018553264156279232,
+        0.018424611223799865,
+        0.017966484047695776,
+        0.017427884615384616,
+        0.01731893837156995,
+        0.017304393227418516
+    ],
+    "execution_time": 10.25072193145752
+}

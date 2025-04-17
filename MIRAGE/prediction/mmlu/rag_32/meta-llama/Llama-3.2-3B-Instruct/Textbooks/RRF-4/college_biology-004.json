@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-004",
+    "question": "Synthesis of an RNA/DNA hybrid from a single-stranded RNA template requires",
+    "options": {
+        "A": "a DNA or RNA primer and reverse transcriptase",
+        "B": "a DNA or RNA primer and DNA polymerase",
+        "C": "RNase only",
+        "D": "reverse transcriptase only"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To synthesize an RNA/DNA hybrid from a single-stranded RNA template, we need to understand the process of reverse transcription, which involves the conversion of RNA into DNA. This process requires an enzyme called reverse transcriptase. However, reverse transcriptase alone cannot synthesize the RNA/DNA hybrid directly. Instead, it needs a primer to start the reaction. The primer can be either DNA or RNA. The primer provides a starting point for the reverse transcriptase to attach to and begin the synthesis of DNA. After the DNA is synthesized, the RNA template is degraded, leaving behind the newly synthesized DNA strand, which is an RNA/DNA hybrid.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1134",
+            "title": "Cell_Biology_Alberts",
+            "content": "The chemical structure of RNA was introduced in Chapter 1 and is described in detail in Chapter 6. Here, we note only that RNA is very similar in structure to DNA. A strand of RNA can form base pairs with a strand of DNA, generating a DNA\u2013RNA hybrid double helix if the two nucleotide sequences are complementary. Thus, the same templating principle used for DNA synthesis guides the synthesis of RNA primers. Because an RNA primer contains a properly base-paired nucleotide with a 3\u02b9-OH group at one end, it can be elongated by the DNA polymerase at this end to begin an Okazaki fragment. The synthesis of each Okazaki fragment ends when this DNA polymerase runs into the RNA primer attached to the 5\u02b9 end of the previous fragment. To produce a continuous DNA chain from the many DNA fragments made on the lagging strand, a special DNA repair system acts quickly to erase the old RNA primer and replace it with DNA. An enzyme called DNA ligase then joins the 3\u02b9end of the new DNA fragment to the"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1457",
+            "title": "Biochemistry_Lippinco",
+            "content": "Primase: A specific RNA polymerase, called primase (DnaG), synthesizes the short stretches of RNA (~10 nucleotides long) that are complementary and antiparallel to the DNA template. In the resulting hybrid duplex, the U (uracil) in RNA pairs with A in DNA. As shown in Figure 30.16, these short RNA sequences are constantly being synthesized at the replication fork on the lagging strand, but only one RNA sequence at the origin of replication is required on the leading strand. The substrates for this process are 5\u2032-ribonucleoside triphosphates, and pyrophosphate is released as each ribonucleoside monophosphate is added through formation of a 3\u2032\u21925\u2032-phosphodiester bond. [Note: The RNA primer is later removed, as described in F. below.] 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2273",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201331 The synthesis of cDNA. Total mRNA is extracted from a particular tissue, and the enzyme reverse transcriptase (see Figure 5\u201362) is used to produce DNA copies (cDNA) of the mRNA molecules. For simplicity, the copying of just one of these mRNAs into cDNA is illustrated. A short oligonucleotide complementary to the poly-A tail at the 3\u02b9 end of the mRNA (discussed in Chapter 6) is first hybridized to the RNA to act as a primer for the reverse transcriptase, which then copies the RNA into a complementary DNA chain, thereby forming a DNA\u2013RNA hybrid helix. Treating the DNA\u2013RNA hybrid with a specialized nuclease (RNAse H) that attacks only the RNA produces nicks and gaps in the RNA strand. DNA polymerase then copies the remaining single-stranded cDNA into double-stranded cDNA. Because DNA polymerase can synthesize through the bound RNA molecules, the RNA fragment that is base-paired to the 3\u02b9 end of the first DNA strand usually acts as the primer for the second strand synthesis,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1413",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription Produces RNA Complementary to One Strand of DNA The RNA in a cell is made by DNA transcription, a process that has certain similarities to the process of DNA replication discussed in Chapter 5. Transcription begins with the opening and unwinding of a small portion of the DNA double helix to expose the bases on each DNA strand. One of the two strands of the DNA double helix then acts as a template for the synthesis of an RNA molecule. As in DNA replication, the nucleotide sequence of the RNA chain is determined by the complementary base-pairing between incoming nucleotides and the DNA Figure 6\u20134 A short length of RNA. The phosphodiester chemical linkage between nucleotides in RNA is the same as that in DNA."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1515",
+            "title": "Biochemistry_Lippinco",
+            "content": "In bacteria, one species of RNA pol synthesizes all of the RNA except for the short RNA primers needed for DNA replication [Note: RNA primers are synthesized by the specialized, monomeric enzyme primase (see p. 418).] RNA pol is a multisubunit enzyme that recognizes a nucleotide sequence (the promoter region) at the beginning of a length of DNA that is to be transcribed. It next makes a complementary RNA copy of the DNA template strand and then recognizes the end of the DNA sequence to be transcribed (the termination region). RNA is synthesized from its 5\u2032-end to its 3\u2032-end, antiparallel to its DNA template strand (see p. 415). The template is copied as it is in DNA synthesis, in which a guanine (G) on the DNA specifies a cytosine (C) in the RNA, a C specifies a G, a thymine (T) specifies an adenine (A), but an A specifies a uracil (U) instead of a T (Fig. 31.5). The RNA, then, is complementary to the DNA template (antisense, minus) strand and identical to the coding (sense, plus)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1733",
+            "title": "Cell_Biology_Alberts",
+            "content": "large pool of double-stranded DNA molecules, each with a different, randomly generated nucleotide sequence large pool of single-stranded RNA molecules, each with a different, randomly generated nucleotide sequence only the rare RNA molecules able to phosphorylate themselves incorporate sulfur molecules that fail to bind to the rare RNA molecules that can catalyze their own phosphorylation using ATP as a substrate But the efficient synthesis of RNA by such complementary templating mechanisms requires catalysts to promote the polymerization reaction: without catalysts, polymer formation is slow, error-prone, and inefficient."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1523",
+            "title": "Biochemistry_Lippinco",
+            "content": "Termination: The elongation of the single-stranded RNA chain continues until a termination signal is reached. Termination can be intrinsic (occur without additional proteins) or dependent upon the participation of a protein known as the \u03c1 (rho) factor. a. \u03c1-Independent: Seen with most prokaryotic genes, this requires that a sequence in the DNA template generates a sequence in the nascent (newly made) RNA that is self-complementary (Fig. 31.9). This allows the RNA to fold back on itself, forming a GC-rich stem (stabilized by hydrogen bonds) plus a loop. This structure is known as a \u201chairpin.\u201d Additionally, just beyond the hairpin, the RNA transcript contains a string of Us at the 3\u2032-end. The bonding of these Us to the complementary As of the DNA template is weak. This facilitates the separation of the newly synthesized RNA from its DNA template, as the double helix \u201czips up\u201d behind the RNA pol."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1423",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20138 DNA transcription produces a single-stranded RNA molecule that is complementary to one strand of the DNA double helix. Note that the sequence of bases in the RNA molecule produced is the same as the sequence of bases in the non-template DNA strand, except that a U replaces every T base in the DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_17",
+            "title": "Cell_Biology_Alberts",
+            "content": "The same segment of DNA can be used repeatedly to guide the synthesis of many identical RNA molecules. Thus, whereas the cell\u2019s archive of genetic information in the form of DNA is fixed and sacrosanct, these RNA transcripts are Figure 1\u20133 The copying of genetic information by DNA replication. In this process, the two strands of a dnA double helix are pulled apart, and each serves as a template for synthesis of a new complementary strand. Figure 1\u20134 From DNA to protein. Genetic information is read out and put to use through a two-step process. First, in transcription, segments of the dnA sequence are used to guide the synthesis of molecules of RnA. Then, in translation, the RnA molecules are used to guide the synthesis of molecules of protein."
+        },
+        {
+            "id": "InternalMed_Harrison_9992",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 150e-2 Strategies for amplification and/or detection of a target\u2013probe complex. DNA or RNA extracted from microorganisms is heated to create single-stranded (ss) DNA/RNA containing appropriate target sequences. These target sequences may be hybridized directly (direct detection) with probes attached to reporter molecules; they may be amplified by repetitive cycles of complementary strand extension (polymerase chain reaction) before attachment of a reporter probe; or the original target\u2013probe signal may be amplified via hybridization with an additional probe containing multiple copies of a secondary reporter target sequence (branched-chain DNA, or bDNA). DNA/RNA hybrids also can be \u201ccaptured\u201d on a solid support (hybrid capture), with antibody to the DNA/RNA hybrids used to concentrate them and a second antibody CHAPTER 150e Laboratory Diagnosis of Infectious Diseases coupled to a reporter molecule attached to the captured hybrid."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1456",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. RNA primer DNA pols cannot initiate synthesis of a complementary strand of DNA on a totally single-stranded template. Rather, they require an RNA primer, which is a short piece of RNA base-paired to the DNA template, thereby forming a double-stranded DNA\u2013RNA hybrid. The free hydroxyl group on the 3\u2032end of the RNA primer serves as the first acceptor of a deoxynucleotide by action of a DNA pol (Fig. 30.15). [Note: Recall that glycogen synthase also requires a primer (see p. 126).] 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1147",
+            "title": "Cell_Biology_Alberts",
+            "content": "single-stranded region of DNA template with short regions of base-paired \u201chairpins\u201d Figure 5\u201315 The effect of single-strand DNA-binding proteins (SSb proteins) on the structure of single-strand DNA. Because each protein molecule prefers to bind next to a previously bound molecule, long rows of this protein form on a DNA single strand. This cooperative binding straightens out the DNA template and facilitates the DNA polymerization process. The \u201chairpin helices\u201d shown in the bare, single-strand DNA result from a chance matching of short regions of complementary nucleotide sequence; they are similar to the short helices that typically form in RNA molecules (see Figure 1\u20136)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1417",
+            "title": "Cell_Biology_Alberts",
+            "content": "The enzymes that perform transcription are called RNA polymerases. Like the DNA polymerase that catalyzes DNA replication (discussed in Chapter 5), RNA polymerases catalyze the formation of the phosphodiester bonds that link the nucleotides together to form a linear chain. The RNA polymerase moves stepwise along the DNA, unwinding the DNA helix just ahead of the active site for polymerization to expose a new region of the template strand for complementary Figure 6\u20137 RNA can fold into specific structures. RNA is largely single-stranded, but it often contains short stretches of nucleotides that can form conventional base pairs with complementary sequences found elsewhere on the same molecule. These interactions, along with additional \u201cnonconventional\u201d base-pair interactions, allow an RNA molecule to fold into a three-dimensional structure that is determined by its sequence of nucleotides (Movie 6.1)."
+        },
+        {
+            "id": "Histology_Ross_57",
+            "title": "Histology_Ross",
+            "content": "Hybridization is a method of localizing messenger RNA (mRNA) or DNA by hybridizing the sequence of interest to a complementary strand of a nucleotide probe. In general, the term hybridization describes the ability of single-stranded RNA or DNA molecules to interact (hybridize) with complementary sequences. In the laboratory, hybridization requires the isolation of DNA or RNA, which is then mixed with a complementary nucleotide sequence (called a nucleotide probe). Hybrids are detected most often using a radioactive label attached to one component of the hybrid. Binding of the probe and sequence can take place in a solution or on a nitrocellulose membrane. In in situ hybridization, the binding of the nucleotide probe to the DNA or RNA sequence of interest is performed within cells or tissues, such as cultured cells or whole embryos. This technique allows the localization of specific nucleotide sequences as small as 10 to 20 copies of mRNA or DNA per cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1133",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Special Nucleotide-Polymerizing Enzyme Synthesizes Short RNA Primer Molecules on the Lagging Strand For the leading strand, a primer is needed only at the start of replication: once a replication fork is established, the DNA polymerase is continuously presented with a base-paired chain end on which to add new nucleotides. On the lagging side of the fork, however, each time the DNA polymerase completes a short DNA Okazaki fragment (which takes a few seconds), it must start synthesizing a completely new fragment at a site further along the template strand (see Figure 5\u20137). A special mechanism produces the base-paired primer strand required by the DNA polymerase molecules. The mechanism depends on an enzyme called DNA primase, which uses ribonucleoside triphosphates to synthesize short RNA primers on the lagging strand (Figure 5\u201310). In eukaryotes, these primers are about 10 nucleotides long and are made at intervals of 100\u2013200 nucleotides on the lagging strand."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1137",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201311 The synthesis of one of many DNA fragments on the lagging strand. In eukaryotes, RNA primers are made at intervals spaced by about 200 nucleotides on the lagging strand, and each RNA primer is approximately 10 nucleotides long. This primer is erased by a special DNA repair enzyme (an RNAse H) that recognizes an RNA strand in an RNA/DNA helix and fragments it; this leaves gaps that are filled in by DNA polymerase and DNA ligase. DNA polymerase adds to new RNA primer to start new Okazaki fragment sealing by DNA ligase joins new Okazaki fragment to the growing chain Special Proteins Help to Open Up the DNA Double Helix in Front of the Replication Fork"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2285",
+            "title": "Cell_Biology_Alberts",
+            "content": "The success of PCR depends both on the selectivity of DNA hybridization and on the ability of DNA polymerase to copy a DNA template faithfully through repeated rounds of replication in vitro. As discussed in Chapter 5, this enzyme adds nucleotides to the 3\u02b9 end of a growing strand of DNA (see Figure 5\u20134). To copy DNA, the polymerase requires a primer\u2014a short nucleotide sequence that provides a 3\u02b9 end from which synthesis can begin. For PCR, the primers are designed by the experimenter, synthesized chemically, and, by hybridizing to genomic DNA, \u201ctell\u201d the polymerase which part of the genome to copy. As discussed in the previous section, DNA primers (in essence, the same type of molecules as DNA probes but without a radioactive or fluorescent label) can be designed to uniquely locate any position on a genome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1416",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription, however, differs from DNA replication in several crucial ways. Unlike a newly formed DNA strand, the RNA strand does not remain hydrogen-bonded to the DNA template strand. Instead, just behind the region where the ribonucleotides are being added, the RNA chain is displaced and the DNA helix re-forms. Thus, the RNA molecules produced by transcription are released from the DNA template as single strands. In addition, because they are copied from only a limited region of the DNA, RNA molecules are much shorter than DNA molecules. A DNA molecule in a human chromosome can be up to 250 million nucleotide-pairs long; in contrast, most RNAs are no more than a few thousand nucleotides long, and many are considerably shorter."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2279",
+            "title": "Cell_Biology_Alberts",
+            "content": "This fundamental capacity of a single-stranded nucleic acid molecule, either DNA or RNA, to form a double helix with a single-stranded molecule of a complementary sequence provides a powerful and sensitive technique for detecting specific nucleotide sequences. Today, one simply designs a short, single-stranded DNA molecule (often called a DNA probe) that is complementary to the nucleotide sequence of interest. Because the nucleotide sequences of so many genomes are known\u2014and are stored in publicly accessible databases\u2014designing a probe to hybridize anywhere in a genome is straightforward. Probes are single-stranded, typically 30 nucleotides in length, and are usually synthesized chemically by a commercial service for pennies per nucleotide. A DNA sequence of 30 nucleotides will occur by chance only once every 1 \u00d7 1018 nucleotides (430); so, even in the human genome of 3 \u00d7 109 nucleotide pairs, a DNA probe designed to match a particular 30-nucleotide sequence will be highly unlikely to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1293",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201347 DNA hybridization. DNA double helices can re-form from their separated strands in a reaction that depends on the random collision of two complementary DNA strands. The vast majority of such collisions are not productive, as shown on the left, but a few result in a short region where complementary base pairs have formed (helix nucleation). A rapid zippering then leads to the formation of a complete double helix. Through this trial-and-error process, a DNA strand will find its complementary partner even in the midst of millions of nonmatching DNA strands. DNA polymerase utilizes a pristine template to restore damaged DNA. However, instead of using the partner complementary strand as a template, as occurs in most DNA repair pathways, homologous recombination exploits a complementary strand from a separate DNA duplex. Strand Exchange Is Carried Out by the RecA/Rad51 Protein"
+        },
+        {
+            "id": "Surgery_Schwartz_3376",
+            "title": "Surgery_Schwartz",
+            "content": "serve as primers for in vitro DNA synthesis, which is performed by a DNA polymerase, and they determine the segment of the DNA that is amplified. A. PCR starts with a double-stranded DNA, and each cycle of the reaction begins with a brief heat treatment to separate the two strands (Step 1). After strand separation, cooling of the DNA in the presence of a large excess of the two primer DNA oligonucleotides allows these primers to hybridize to complementary sequences in the two DNA strands (Step 2). This mixture is then incubated with DNA polymerase and the four deoxyribonucleoside triphosphates so that DNA is synthesized, starting from the two primers (Step 3). The entire cycle is then begun again by a heat treatment to separate the newly synthesized DNA strands. B. As the procedure is performed over and over again, the newly synthesized fragments serve as templates in their turn, and, within a few cycles, the predominant DNA is identical to the sequence bracketed by and including the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1418",
+            "title": "Cell_Biology_Alberts",
+            "content": "Diagram of a folded RNA structure showing only conventional base-pair interactions. (B) Structure with both conventional (red) and nonconventional (green) base-pair interactions. Structure of an actual RNA, one that catalyzes its own splicing (see p. 324). Each conventional base-pair interaction is indicated by a \u201crung\u201d in the double helix. Bases in other configurations are indicated by broken rungs. base-pairing. In this way, the growing RNA chain is extended by one nucleotide at a time in the 5\u02b9-to-3\u02b9direction (Figure 6\u20139). The substrates are ribonucleoside triphosphates (ATP, CTP, UTP, and GTP); as in DNA replication, the hydrolysis of high-energy bonds provides the energy needed to drive the reaction forward (see Figure 5\u20134 and Movie 6.2)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1424",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u20139 DNA is transcribed by the enzyme RNA polymerase. The RNA polymerase (pale blue) moves stepwise along the DNA, unwinding the DNA helix at its active site indicated by the Mg2+ (red), which is required for catalysis. As it progresses, the polymerase adds nucleotides one by one to the RNA chain at the polymerization site, using an exposed DNA strand as a template. The RNA transcript is thus a complementary copy of one of the two DNA strands. A short region of DNA/RNA helix (approximately nine nucleotide pairs in length) is formed only transiently, and a \u201cwindow\u201d of DNA/RNA helix therefore moves along the DNA with the polymerase as the DNA double helix reforms behind it. The incoming nucleotides are in the form of ribonucleoside triphosphates (ATP, UTP, CTP, and GTP), and the energy stored in their phosphate\u2013 phosphate bonds provides the driving force for the polymerization reaction (see Figure 5\u20134). The figure, based on an x-ray crystallographic structure, shows a cutaway view"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2340",
+            "title": "Cell_Biology_Alberts",
+            "content": "The procedures used to obtain DNA clones that correspond in sequence to mRNA molecules are the same, except that a DNA copy of the mRNA sequence, called cDNA, is first made. Unlike genomic DNA clones, cDNA clones lack intron sequences, making them the clones of choice for analyzing the protein product of a gene. Nucleic acid hybridization reactions provide a sensitive means of detecting any nucleotide sequence of interest. The enormous specificity of this hybridization reaction allows any single-stranded sequence of nucleotides to be labeled with a radioisotope or chemical and used as a probe to find a complementary partner strand, even in a cell or cell extract that contains millions of different DNA and RNA sequences. DNA hybridization also makes it possible to use PCR to amplify any section of any genome once its sequence is known. direction of electrophoresis"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1434",
+            "title": "Cell_Biology_Alberts",
+            "content": "The tightly bound RNA polymerase holoenzyme at a promoter opens up the double helix to expose a short stretch of nucleotides on each strand (step 2 in Figure 6\u201311A). The region of unpaired DNA (about 10 nucleotides) is called the transcription bubble and it is stabilized by the binding of \u03c3 factor to the unpaired bases on one of the exposed strands. The other exposed DNA strand then acts as a template for complementary base-pairing with incoming ribonucleotides, two of which are joined together by the polymerase to begin an RNA chain (step 3 in Figure 6\u201311A). The first ten or so nucleotides of RNA are synthesized using a \u201cscrunching\u201d mechanism, in which RNA polymerase remains bound to the promoter and pulls the upstream DNA into its active site, thereby expanding the transcription bubble. This process creates considerable stress and the short RNAs are often released, thereby relieving the stress and forcing the polymerase, which remains in place, to begin synthesis over again."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1696",
+            "title": "Biochemistry_Lippinco",
+            "content": "A (HbA). This mRNA can be used as a template to make a cDNA molecule using the enzyme reverse transcriptase (Fig. 34.7). Therefore, the resulting cDNA is a double-stranded copy of mRNA. [Note: The template mRNA is isolated from transfer RNA and ribosomal RNA by the presence of its poly-A tail.] cDNA can be amplified by biologic cloning or by PCR. It can be used as a probe to locate the gene that encodes the original mRNA (or fragments of the gene) in mixtures containing many unrelated DNA fragments. If the mRNA used as a template is a mixture of many different size species, the resulting cDNA is heterogeneous. These mixtures can be cloned to form a cDNA library. Because cDNA has no introns, it can be cloned into an expression vector for the synthesis of eukaryotic proteins by bacteria (Fig. 34.8). These special plasmids contain a bacterial promoter for transcription of the cDNA and a Shine-Dalgarno (SD) sequence (see p. 454) that allows the bacterial ribosome to initiate translation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_47",
+            "title": "Cell_Biology_Alberts",
+            "content": "The individual cell is the minimal self-reproducing unit of living matter, and it consists of a self-replicating collection of catalysts. Central to this reproduction is the transmission of genetic information to progeny cells. Every cell on our planet stores its genetic information in the same chemical form\u2014as double-stranded DNA. The cell replicates its information by separating the paired DNA strands and using each as a template for polymerization to make a new DNA strand with a complementary sequence of nucleotides. The same strategy of templated polymerization is used to transcribe portions of the information from DNA into molecules of the closely related polymer, RNA. These RNA molecules in turn guide the synthesis of protein molecules by the more complex machinery of translation, involving a large multi-molecular machine, the ribosome. Proteins are the principal catalysts for almost all the chemical reactions in the cell; their other functions include the selective import and"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1458",
+            "title": "Biochemistry_Lippinco",
+            "content": "Primosome: The addition of primase converts the prepriming complex of proteins required for DNA strand separation (see p. 415) to a primosome. The primosome makes the RNA primer required for leading-strand synthesis and initiates Okazaki fragment formation in discontinuous lagging-strand synthesis. As with DNA synthesis, the direction of synthesis of the primer is 5\u2032\u21923\u2032. E. Chain elongation Prokaryotic (and eukaryotic) DNA pols elongate a new DNA strand by adding deoxyribonucleotides, one at a time, to the 3\u2032-end of the growing chain (see Fig. 30.16). The sequence of nucleotides that are added is dictated by the base sequence of the template strand with which the incoming nucleotides are paired."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1422",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although not nearly as accurate as the DNA polymerases that replicate DNA, RNA polymerases nonetheless have a modest proofreading mechanism. If an incorrect ribonucleotide is added to the growing RNA chain, the polymerase can back up, and the active site of the enzyme can perform an excision reaction that resembles the reverse of the polymerization reaction, except that a water molecule replaces the pyrophosphate and a nucleoside monophosphate is released. Given that DNA and RNA polymerases both carry out template-dependent nucleotide polymerization, it might be expected that the two types of enzymes would be structurally related. However, x-ray crystallographic studies reveal that, other than containing a critical Mg2+ ion at the catalytic site, the two enzymes are quite different. Template-dependent nucleotide-polymerizing enzymes seem to have arisen at least twice during the early evolution of cells. One lineage led to the short region of DNA/RNA helix 5\u02dc5\u02dc direction of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2271",
+            "title": "Cell_Biology_Alberts",
+            "content": "millions of genomic DNA fragments molecule present\u2014a so-called complementary DNA, or cDNA. The copying reaction is catalyzed by the reverse transcriptase enzyme of retroviruses, which synthesizes a complementary DNA chain on an RNA template. The single-stranded cDNA molecules synthesized by the reverse transcriptase are converted by DNA polymerase into double-stranded cDNA molecules, and these molecules are inserted into a plasmid or virus vector and cloned (Figure 8\u201331). Each clone obtained in this way is called a cDNA clone, and the entire collection of clones derived from one mRNA preparation constitutes a cDNA library."
+        },
+        {
+            "id": "InternalMed_Harrison_15098",
+            "title": "InternalMed_Harrison",
+            "content": "the viral particles. In the TMA assay, a cDNA copy of viral RNA is made using primers that contain a promoter sequence for T7 RNA polymerase. T7 polymerase is then added to produce multiple copies of RNA amplicon from the DNA template. It is qualified at 100 copies/mL. The NASBA technique involves the isothermal amplification of a sequence within the gag region of HIV in the presence of internal standards and employs the production of multiple RNA copies through the action of T7-RNA polymerase. The resulting RNA species are quantitated through hybridization with a molecular beacon DNA probe that is quenched in the absence of hybridization. The lower limit of detection for the NucliSENS assay is 80 copies/mL."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1738",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201392 An RNA molecule that can catalyze its own synthesis. This hypothetical process would require catalysis both of the production of a second RNA strand of complementary nucleotide sequence (not shown) and the use of this second RNA molecule as a template to form many molecules of RNA with the original sequence. The red rays represent the active site of this hypothetical RNA enzyme. Figure 6\u201393 The hypothesis that RNA preceded DNA and proteins in evolution. In the earliest cells, RNA molecules (or their close analogs) would have had combined genetic, structural, and catalytic functions. In present-day cells, DNA is the repository of genetic information, and proteins perform the vast majority of catalytic functions in cells. RNA primarily functions today as a go-between in protein synthesis, although it remains a catalyst for a small number of crucial reactions."
+        }
+    ],
+    "scores": [
+        0.037262656046593595,
+        0.03620576835179183,
+        0.03522311895055052,
+        0.03469175531855416,
+        0.034422457536444614,
+        0.0341138374372409,
+        0.032645443169158586,
+        0.03111540695283911,
+        0.029300134649922826,
+        0.028002699055330635,
+        0.027834992968450364,
+        0.02760083290378617,
+        0.02714263485319548,
+        0.027050455575445415,
+        0.02703267283199069,
+        0.02668400526274782,
+        0.026158439009069247,
+        0.025730954835432446,
+        0.024853522693982864,
+        0.024423139753328434,
+        0.0244110193562201,
+        0.024267328113481958,
+        0.024165723719601552,
+        0.02412231903746906,
+        0.022337363128500775,
+        0.02229645144205306,
+        0.021664863633775552,
+        0.02138070522752354,
+        0.021317949774382623,
+        0.021154848926366654,
+        0.020910095739981514,
+        0.02071917295484489
+    ],
+    "execution_time": 57.205225467681885
+}

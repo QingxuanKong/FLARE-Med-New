@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-078",
+    "question": "If the activity of an enzyme is constant over a broad range of pH values, it is likely that",
+    "options": {
+        "A": "only ionizing groups on the enzyme participate in the reaction",
+        "B": "only ionizing groups on the substrate participate in the reaction",
+        "C": "ionizing groups on both the enzyme and substrate participate in the reaction",
+        "D": "no ionizing groups on the enzyme or substrate participate in the reaction"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To solve this question, we need to understand the relationship between enzyme activity, pH, and ionizing groups. The key concept here is that the activity of an enzyme can be affected by the pH level, as it can influence the ionization state of ionizable groups on the enzyme. If the enzyme activity is constant over a broad range of pH values, it suggests that the ionizing groups on the enzyme are not participating in the reaction. This is because changes in pH would affect the ionization state of these groups, leading to changes in enzyme activity. Therefore, we need to evaluate the options based on this understanding.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Biochemistry_Lippincott_195",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. pH effect on enzyme denaturation: Extremes of pH can also lead to denaturation of the enzyme, because the structure of the catalytically active protein molecule depends on the ionic character of the amino acid side chains. 3. Variable pH optimum: The pH at which maximal enzyme activity is achieved is different for different enzymes and often reflects the [H+] at which the enzyme functions in the body. For example, pepsin, a digestive enzyme in the stomach, is maximally active at pH 2, whereas other enzymes, designed to work at neutral pH, are denatured by such an acidic environment (Fig. 5.8). VI. MICHAELIS-MENTEN KINETICS"
+        },
+        {
+            "id": "Biochemistry_Lippincott_194",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Velocity decrease with higher temperature: Further elevation of the temperature causes a decrease in reaction velocity as a result of temperature-induced denaturation of the enzyme (see Fig. 5.7). The optimum temperature for most human enzymes is between 35\u00b0C and 40\u00b0C. Human enzymes start to denature (see p. 20) at temperatures above 40\u00b0C, but thermophilic bacteria found in hot springs have optimum temperatures of 70\u00b0C. C. pH 1. pH effect on active site ionization: The concentration of protons ([H+]) affects reaction velocity in several ways. First, the catalytic process usually requires that the enzyme and substrate have specific chemical groups in either an ionized or unionized state in order to interact. For example, catalytic activity may require that an amino group of the enzyme be in the protonated form (\u2212NH3+). Because this group is deprotonated at alkaline pH, the rate of the reaction declines. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_613",
+            "title": "Cell_Biology_Alberts",
+            "content": "the ratio kcat/Km is equivalent to the rate constant for the reaction between free enzyme and free substrate. A comparison of kcat/Km for the same enzyme with different substrates, or for two enzymes with their different substrates, is widely used as a measure of enzyme effectiveness. For simplicity, in this Panel we have discussed enzymes that have only one substrate, such as the lysozyme enzyme described in the text (see p. 144). Most enzymes have two substrates, one of which is often an active carrier"
+        },
+        {
+            "id": "Cell_Biology_Alberts_609",
+            "title": "Cell_Biology_Alberts",
+            "content": "STEADY-STATE ENZYME KINETICS Many enzymes have only one substrate, which they bind and then process to produce products according to the scheme outlined in Figure 3\u201350A. In this case, the reaction is written as Here we have assumed that the reverse reaction, in which E + P recombine to form EP and then ES, occurs so rarely that we can ignore it. In this case, EP need not be represented, and we can express the rate of the reaction\u2014known as its velocity, V, as where [ES] is the concentration of the enzyme\u2013substrate complex, and kcat is the turnover number, a rate constant that has a value equal to the number of substrate molecules processed per enzyme molecule each second. But how does the value of [ES] relate to the concentrations that we know directly, which are the total concentration of the enzyme, [Eo], and the concentration of the substrate, [S]? When enzyme and substrate are frst mixed, the concentration [ES] will rise rapidly from zero to a so-called steady-state level, as"
+        },
+        {
+            "id": "Cell_Biology_Alberts_392",
+            "title": "Cell_Biology_Alberts",
+            "content": "2\u201310 A histidine side chain is known to play an important role in the catalytic mechanism of an enzyme; however, it is not clear whether histidine is required in its protonated (charged) or unprotonated (uncharged) state. To answer this question you measure enzyme activity over a range of pH, with the results shown in Figure Q2\u20131. Which form of histidine is required for enzyme activity? activity as a function of ph (problem 2\u201310). 2\u201311 The three molecules in Figure Q2\u20132 contain the seven most common reactive groups in biology. Most molecules in the cell are built from these functional groups. Indicate and name the functional groups in these molecules. O Figure Q2\u20132 Three molecules that illustrate the seven most common functional groups in biology (problem 2\u201311). 1,3-Bisphosphoglycerate and O pyruvate are intermediates in glycolysis and cysteine is an amino acid."
+        },
+        {
+            "id": "Cell_Biology_Alberts_612",
+            "title": "Cell_Biology_Alberts",
+            "content": "THE SIGNIFICANCE OF Km, kcat, and kcat /Km As described in the text, Km is an approximate measure of substrate affnity for the enzyme: it is numerically equal to the concentration of [S] at V = 0.5 Vmax. In general, a lower value of Km means tighter substrate binding. In fact, for those cases where kcat is much smaller than k\u20131, the Km will be equal to Kd, the dissociation constant for substrate binding to the enzyme (Kd = 1/Ka; see Figure 3\u201344). We have seen that k cat is the turnover number for the enzyme. At very low substrate concentrations, where 20 0 0 2 4 6 8 40 60 80 [S] mmole/liter To obtain Vmax and Km from such data, a double-reciprocal [S] << Km, most of the enzyme is free. Thus we can think of [E] = [Eo], so that the Michaelis\u2013Menten equation becomes V = kcat/Km [E][S]. Thus, the ratio kcat/Km is equivalent to the rate constant for the reaction between free enzyme and free substrate. A comparison of kcat/Km for the same enzyme with different substrates, or for two enzymes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_606",
+            "title": "Cell_Biology_Alberts",
+            "content": "rate of reaction Figure 3\u201346 enzyme kinetics. The rate of an enzyme reaction (V) increases as the substrate concentration increases until a maximum value (Vmax) is reached. At this point all substrate-binding sites on the enzyme molecules are fully occupied, and the rate of reaction is limited by the rate of the catalytic process on the enzyme surface. For most enzymes, the concentration of substrate at which the reaction rate is half-maximal (Km) is a measure of how tightly the substrate is bound, with a large value of Km corresponding to weak binding."
+        },
+        {
+            "id": "Cell_Biology_Alberts_604",
+            "title": "Cell_Biology_Alberts",
+            "content": "The other kinetic parameter frequently used to characterize an enzyme is its Km, the concentration of substrate that allows the reaction to proceed at one-half its maximum rate (0.5 Vmax) (see Figure 3\u201346). A low Km value means that the enzyme reaches its maximum catalytic rate at a low concentration of substrate and generally indicates that the enzyme binds to its substrate very tightly, whereas a high Km value corresponds to weak binding. The methods used to characterize enzymes in this way are explained in Panel 3\u20132 (pp. 142\u2013143)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_192",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. FACTORS AFFECTING REACTION VELOCITY Enzymes can be isolated from cells and their properties studied in a test tube (that is, in vitro). Different enzymes show different responses to changes in substrate concentration, temperature, and pH. This section describes factors that influence the reaction velocity of enzymes. Enzymic responses to these factors give us valuable clues as to how enzymes function in living cells (that is, in vivo). A. Substrate concentration 1. Maximal velocity: The rate or velocity of a reaction (v) is the number of substrate molecules converted to product per unit time. Velocity is usually expressed as \u00b5mol of product formed per minute. The rate of an enzyme-catalyzed reaction increases with substrate concentration until a maximal velocity (Vmax) is reached (Fig. 5.6). The leveling off of the reaction rate at high substrate concentrations reflects the saturation with substrate of all available binding sites on the enzyme molecules present. 2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_199",
+            "title": "Biochemistry_Lippinco",
+            "content": "b. Large Km: A numerically large (high) Km reflects a low affinity of enzyme for substrate because a high concentration of substrate is needed to half-saturate the enzyme. 2. Velocity relationship to enzyme concentration: The rate of the reaction is directly proportional to the enzyme concentration because [S] is not limiting. For example, if the enzyme concentration is halved, the initial rates of the reaction (vo) and that of Vmax are reduced to half that of the original. 3. Reaction order: When [S] is much less (<<) than Km, the velocity of the reaction is approximately proportional to the substrate concentration (Fig. 5.10). The rate of reaction is then said to be first order with respect to substrate. When [S] is much greater (>>) than Km, the velocity is constant and equal to Vmax. The rate of reaction is then independent of substrate concentration (the enzyme is saturated with substrate) and is said to be zero order with respect to substrate concentration (see Fig. 5.10)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_617",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because this tight binding greatly lowers the energy of the transition state, the enzyme greatly accelerates a particular reaction by lowering the activation energy that is required (Figure 3\u201347). Figure 3\u201348 compares the spontaneous reaction rates and the corresponding enzyme-catalyzed rates for five enzymes. Rate accelerations range from 109 to 1023. Enzymes not only bind tightly to a transition state, they also contain precisely positioned atoms that alter the electron distributions in the atoms that participate directly in the making and breaking of covalent bonds. Peptide bonds, for example, can be hydrolyzed in the absence of an enzyme by exposing a polypeptide to either a strong acid or a strong base. Enzymes are unique, however, in being able to use acid and base catalysis simultaneously, because the rigid framework of the protein constrains the acidic and basic residues and prevents them from combining with each other, as they would do in solution (Figure 3\u201349)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_662",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201359 enzyme activity versus the concentration of inhibitory ligand for single-subunit and multisubunit allosteric enzymes. For an enzyme with a single subunit (red line), a drop from 90% enzyme activity to 10% activity (indicated by the two dots on the curve) requires a 100-fold increase in the concentration of inhibitor. The enzyme activity is calculated from the simple equilibrium relationship K = [IP]/[I][P], where P is active protein, I is inhibitor, and IP is the inactive protein bound to inhibitor. An identical curve applies to any simple binding interaction between two molecules, A and B. In contrast, a multisubunit allosteric enzyme can respond in a switchlike manner to a change in ligand concentration: the steep response is caused by a cooperative binding of the ligand molecules, as explained in Figure 3\u201360. Here, the green line represents the idealized result expected for the cooperative binding of two inhibitory ligand molecules to an allosteric enzyme with two"
+        },
+        {
+            "id": "Cell_Biology_Alberts_663",
+            "title": "Cell_Biology_Alberts",
+            "content": "molecules, as explained in Figure 3\u201360. Here, the green line represents the idealized result expected for the cooperative binding of two inhibitory ligand molecules to an allosteric enzyme with two subunits, and the blue line shows the idealized response of an enzyme with four subunits. As indicated by the two dots on each of these curves, the more complex enzymes drop from 90% to 10% activity over a much narrower range of inhibitor concentration than does the enzyme composed of a single subunit."
+        },
+        {
+            "id": "Biochemistry_Lippincott_225",
+            "title": "Biochemistry_Lippinco",
+            "content": "products, it does not change the equilibrium of the reaction. Most enzymes show Michaelis-Menten kinetics, and a plot of the initial reaction velocity (vo) against substrate concentration ([S]) has a hyperbolic shape similar to the oxygen-dissociation curve of myoglobin. A Lineweaver-Burk plot of 1/v and 1/[S] allows determination of Vmax (maximal velocity) and Km (Michaelis constant, which reflects affinity for substrate). Any substance that can decrease the velocity of an enzyme-catalyzed reaction is called an inhibitor. The two most common types of reversible inhibition are competitive (which increases the apparent Km) and noncompetitive (which decreases the apparent Vmax). In contrast, the multisubunit allosteric enzymes show a sigmoidal curve similar in shape to the oxygen-dissociation curve of hemoglobin. They typically catalyze the committed step of a pathway. Allosteric enzymes are regulated by molecules called effectors that bind noncovalently at a site other than the active"
+        },
+        {
+            "id": "Biochemistry_Lippincott_208",
+            "title": "Biochemistry_Lippinco",
+            "content": "VIII. ENZYME REGULATION The regulation of the reaction velocity of enzymes is essential if an organism is to coordinate its numerous metabolic processes. The rates of most enzymes are responsive to changes in substrate concentration, because the intracellular level of many substrates is in the range of the Km. Thus, an increase in substrate concentration prompts an increase in reaction rate, which tends to return the concentration of substrate toward normal. In addition, some enzymes with specialized regulatory functions respond to allosteric effectors and/or covalent modification or they show altered rates of enzyme synthesis (or degradation) when physiologic conditions are changed. A. Allosteric enzymes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_603",
+            "title": "Cell_Biology_Alberts",
+            "content": "For a protein that catalyzes a chemical reaction (an enzyme), the binding of each substrate molecule to the protein is an essential prelude. In the simplest case, if we denote the enzyme by E, the substrate by S, and the product by P, the basic reaction path is E + S \u2192 ES \u2192EP \u2192 E + P. There is a limit to the amount of substrate that a single enzyme molecule can process in a given time. Although an increase in the concentration of substrate increases the rate at which product is formed, this rate eventually reaches a maximum value (Figure 3\u201346). At that point the enzyme molecule is saturated with substrate, and the rate of reaction (Vmax) depends only on how rapidly the enzyme can process the substrate molecule. This maximum rate divided by the enzyme concentration is called the turnover number. Turnover numbers are often about 1000 substrate molecules processed per second per enzyme molecule, although turnover numbers between 1 and 10,000 are known."
+        },
+        {
+            "id": "Biochemistry_Lippincott_197",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Steady-state assumption: The concentration of the ES complex does not change with time (the steady-state assumption), that is, the rate of formation of ES is equal to that of the breakdown of ES (to E + S and to E + P). In general, an intermediate in a series of reactions is said to be in steady state when its rate of synthesis is equal to its rate of degradation. 3. Initial velocity: Initial reaction velocities (vo) are used in the analysis of enzyme reactions. This means that the rate of the reaction is measured as soon as enzyme and substrate are mixed. At that time, the concentration of product is very small, and therefore, the rate of the back reaction from product to substrate can be ignored."
+        },
+        {
+            "id": "Biochemistry_Lippincott_214",
+            "title": "Biochemistry_Lippinco",
+            "content": "The regulatory mechanisms described above modify the activity of existing enzyme molecules. However, cells can also regulate the amount of enzyme present by altering the rate of enzyme degradation or, more typically, the rate of enzyme synthesis. The increase (induction) or decrease (repression) of enzyme synthesis leads to an alteration in the total population of active sites. Enzymes subject to regulation of synthesis are often those that are needed at only one stage of development or under selected physiologic conditions. For example, elevated levels of insulin as a result of high blood glucose levels cause an increase in the synthesis of key enzymes involved in glucose metabolism (see p. 105). In contrast, enzymes that are in constant use are usually not regulated by altering the rate of enzyme synthesis. Alterations in enzyme levels as a result of induction or repression of protein synthesis are slow (hours to days), compared with allosterically or covalently regulated changes in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_610",
+            "title": "Cell_Biology_Alberts",
+            "content": "of the enzyme, [Eo], and the concentration of the substrate, [S]? When enzyme and substrate are frst mixed, the concentration [ES] will rise rapidly from zero to a so-called steady-state level, as illustrated below. E + S E + P ES k1 k\u20131 kcat V = kcat [ES]"
+        },
+        {
+            "id": "Cell_Biology_Alberts_637",
+            "title": "Cell_Biology_Alberts",
+            "content": "The rates of reactions in cells are rapid because enzyme catalysis is so effective. Some enzymes have become so efficient that there is no possibility of further useful improvement. The factor that limits the reaction rate is no longer the enzyme\u2019s intrinsic speed of action; rather, it is the frequency with which the enzyme collides with its substrate. Such a reaction is said to be diffusion-limited (see Panel 3\u20132, pp. 142\u2013143)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_210",
+            "title": "Biochemistry_Lippinco",
+            "content": "Homotropic effectors: When the substrate itself serves as an effector, the effect is said to be homotropic. Most often, an allosteric substrate functions as a positive effector. In such a case, the presence of a substrate molecule at one site on the enzyme enhances the catalytic properties of the other substrate-binding sites. That is, their binding sites exhibit cooperativity. These enzymes show a sigmoidal curve when vo is plotted against substrate concentration, as shown in Figure 5.16. This contrasts with the hyperbolic curve characteristic of enzymes following Michaelis-Menten kinetics, as previously discussed. [Note: The concept of cooperativity of substrate binding is analogous to the binding of oxygen to hemoglobin (see p. 29).] 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_611",
+            "title": "Cell_Biology_Alberts",
+            "content": "At this steady state, [ES] is nearly constant, so that or, since the concentration of the free enzyme, [E], is equal to [Eo] \u2013 [ES], Rearranging, and defning the constant Km as we get or, remembering that V = kcat [ES], we obtain the famous Michaelis\u2013Menten equation As [S] is increased to higher and higher levels, essentially all of the enzyme will be bound to substrate at steady state; at this point, a maximum rate of reaction, Vmax , will be reached where V = Vmax = kcat [Eo]. Thus, it is convenient to rewrite the Michaelis\u2013Menten equation as rate of ES formation k1 [E][S] rate of ES breakdown k\u20131 [ES] + kcat [ES] = k1 k\u20131 + kcat [ES] = [E][S] = [Eo] \u2013 [ES] [S] k1 k\u20131 + kcat k1 k\u20131 + kcat Km + [S] kcat [Eo][S] [ES] = [Eo][S] Km + [S] V = Km + [S] Vmax [S]V = THE DOUBLE-RECIPROCAL PLOT A typical plot of V versus [S] for an enzyme that follows Michaelis\u2013Menten kinetics is shown below. From this plot, neither the value of Vmax nor of Km is immediately clear."
+        },
+        {
+            "id": "Biochemistry_Lippincott_196",
+            "title": "Biochemistry_Lippinco",
+            "content": "VI. MICHAELIS-MENTEN KINETICS Leonor Michaelis and Maude Menten proposed a simple model that accounts for most of the features of many enzyme-catalyzed reactions. In this model, the enzyme reversibly combines with its substrate to form an ES complex that subsequently yields product, regenerating the free enzyme. The reaction model, involving one substrate molecule, is represented below: where S is the substrate. E is the enzyme. ES is the enzyme\u2013substrate complex. P is the product. k1, k\u22121, and k2 (or, kcat) are rate constants. A. Michaelis-Menten equation The Michaelis-Menten equation describes how reaction velocity varies with substrate concentration: The following assumptions are made in deriving the Michaelis-Menten rate equation. 1. Enzyme and substrate relative concentrations: The substrate concentration ([S]) is much greater than the concentration of enzyme so that the percentage of total substrate bound by the enzyme at any one time is small. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_275",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201324 Directing substrate molecules through a specific reaction pathway by enzyme catalysis. a substrate molecule in a cell (green ball) is converted into a different molecule (blue ball) by means of a series of enzyme-catalyzed reactions. as indicated (yellow box), several reactions are energetically favorable at each step, but only one is catalyzed by each enzyme. sets of enzymes thereby determine the exact reaction pathway that is followed by each molecule inside the cell. has a unique shape containing an active site, a pocket or groove in the enzyme into which only particular substrates will fit (Figure 2\u201325). Like all other catalysts, enzyme molecules themselves remain unchanged after participating in a reaction and therefore can function over and over again. In Chapter 3, we discuss further how enzymes work. how enzymes find Their substrates: The enormous Rapidity of molecular motions"
+        },
+        {
+            "id": "Biochemistry_Lippincott_198",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Important conclusions 1. Km characteristics: Km, the Michaelis constant, is characteristic of an enzyme and its particular substrate and reflects the affinity of the enzyme for that substrate. Km is numerically equal to the substrate concentration at which the reaction velocity is equal to one half Vmax. Km does not vary with enzyme concentration. a. Small Km: A numerically small (low) Km reflects a high affinity of the enzyme for substrate, because a low concentration of substrate is needed to half-saturate the enzyme\u2014that is, to reach a velocity that is one half Vmax (Fig. 5.9). b. Large Km: A numerically large (high) Km reflects a low affinity of enzyme for substrate because a high concentration of substrate is needed to half-saturate the enzyme. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_638",
+            "title": "Cell_Biology_Alberts",
+            "content": "The amount of product produced by an enzyme will depend on the concentration of both the enzyme and its substrate. If a sequence of reactions is to occur extremely rapidly, each metabolic intermediate and enzyme involved must be present in high concentration. However, given the enormous number of different reactions performed by a cell, there are limits to the concentrations that can be achieved. In fact, most metabolites are present in micromolar (10\u20136 M) concentrations, and most enzyme concentrations are much lower. How is it possible, therefore, to maintain very fast metabolic rates?"
+        },
+        {
+            "id": "Biochemistry_Lippincott_200",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. Lineweaver-Burk plot When vo is plotted against [S], it is not always possible to determine when Vmax has been achieved because of the gradual upward slope of the hyperbolic curve at high substrate concentrations. However, if 1/vo is plotted versus 1/[S], a straight line is obtained (Fig. 5.11). This plot, the Lineweaver-Burk plot (also called a double-reciprocal plot) can be used to calculate Km and Vmax as well as to determine the mechanism of action of enzyme inhibitors. The equation describing the Lineweaver-Burk plot is: where the intercept on the x axis is equal to \u2212 1/Km, and the intercept on the y axis is equal to 1/Vmax. [Note: The slope = Km/Vmax.] VII. ENZYME INHIBITION"
+        },
+        {
+            "id": "Cell_Biology_Alberts_273",
+            "title": "Cell_Biology_Alberts",
+            "content": "The success of living organisms is attributable to a cell\u2019s ability to make enzymes of many types, each with precisely specified properties. Each enzyme Figure 2\u201323 enzymes cannot change the equilibrium point for reactions. enzymes, like all catalysts, speed up the forward and backward rates of a reaction by the same factor. Therefore, for both the catalyzed and the uncatalyzed reactions shown here, the number of molecules undergoing the transition X \u2192 Y is equal to the number of molecules undergoing the transition Y \u2192 X when the ratio of Y molecules to X molecules is 3 to 1. in other words, the two reactions reach equilibrium at exactly the same point."
+        },
+        {
+            "id": "Cell_Biology_Alberts_293",
+            "title": "Cell_Biology_Alberts",
+            "content": "The equilibrium Constant and \u2206G\u00b0 are Readily Derived from each other Inspection of the above equation reveals that the \u2206G equals the value of \u2206G\u00b0 when the concentrations of Y and X are equal. But as any favorable reaction proceeds, the concentrations of the products will increase as the concentration of the substrates decreases. This change in relative concentrations will cause [X]/[Y] to become increasingly large, making the initially favorable \u2206G less and less negative (the logarithm of a number x is positive for x > 1, negative for x < 1, and zero for x =1). Eventually, when \u2206G = 0, a chemical equilibrium will be attained; here there is no net change in free energy to drive the reaction in either direction, inasmuch as the concentration effect just balances the push given to the reaction by \u2206G\u00b0. As a result, the ratio of product to substrate reaches a constant value at chemical equilibrium (Figure 2\u201330)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_188",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Rate of reaction: For molecules to react, they must contain sufficient energy to overcome the energy barrier of the transition state. In the absence of an enzyme, only a small proportion of a population of molecules may possess enough energy to achieve the transition state between reactant and product. The rate of reaction is determined by the number of such energized molecules. In general, the lower the Ea, the more molecules have sufficient energy to pass through the transition state and, therefore, the faster the rate of the reaction. 3. Alternate reaction pathway: An enzyme allows a reaction to proceed rapidly under conditions prevailing in the cell by providing an alternate reaction pathway with a lower Ea (see Fig. 5.4). The enzyme does not change the free energies of the reactants (substrates) or products and, therefore, does not change the equilibrium of the reaction (see p. 70). It does, however, accelerate the rate by which equilibrium is reached."
+        },
+        {
+            "id": "Biochemistry_Lippincott_193",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Shape of the enzyme kinetics curve: Most enzymes show Michaelis-Menten kinetics (see p. 58), in which the plot of initial reaction velocity (vo) against substrate concentration is hyperbolic (similar in shape to that of the oxygen-dissociation curve of myoglobin; see p. 29). In contrast, allosteric enzymes do not follow Michaelis-Menten kinetics and show a sigmoidal curve (see Fig. 5.6) that is similar in shape to the oxygen-dissociation curve of hemoglobin (see p. 29). B. Temperature 1. Velocity increase with temperature: The reaction velocity increases with temperature until a peak velocity is reached (Fig. 5.7). This increase is the result of the increased number of substrate molecules having sufficient energy to pass over the energy barrier and form the products of the reaction. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_434",
+            "title": "Cell_Biology_Alberts",
+            "content": "species after the reaction and comparing this value with the sum of free energies before the reaction; for common substances the required free-energy values can be found from published tables. In this way, one can predict the direction of a reaction and thereby readily check the feasibility of any proposed mechanism. Thus, for example, from the observed values for the magnitude of the electrochemical proton gradient across the inner mitochondrial membrane and the \u02dcG for ATP hydrolysis inside the mitochondrion, one can be certain that ATP synthase requires the passage of more than one proton for each molecule of ATP that it synthesizes. The value of \u02dcG for a reaction is a direct measure of how far the reaction is from equilibrium. The large negative value for ATP hydrolysis in a cell merely refects the fact that cells keep the ATP hydrolysis reaction as much as 10 orders of magnitude away from equilibrium. If a reaction reaches equilibrium, \u02dcG = 0, the reaction then proceeds at"
+        }
+    ],
+    "scores": [
+        0.03716574551910513,
+        0.03569608560704207,
+        0.0326850281004101,
+        0.03217262672269583,
+        0.03108481425854887,
+        0.030938424053178152,
+        0.028868987222346827,
+        0.02884793200327181,
+        0.02849714309203765,
+        0.026679046350750364,
+        0.02624187186867072,
+        0.02556235984025563,
+        0.02522777807111721,
+        0.02435897435897436,
+        0.023153409090909093,
+        0.0225794997238223,
+        0.022018125727017272,
+        0.021848515181848514,
+        0.02089864332295899,
+        0.020720972996182314,
+        0.02047952533800214,
+        0.02041139785063099,
+        0.019937947692820257,
+        0.01927841028884672,
+        0.018812930577636458,
+        0.01838731443994602,
+        0.018267862736622526,
+        0.01813657098695774,
+        0.01764264745985659,
+        0.017564043564963952,
+        0.017427884615384616,
+        0.017331932773109245
+    ],
+    "execution_time": 35.09638571739197
+}

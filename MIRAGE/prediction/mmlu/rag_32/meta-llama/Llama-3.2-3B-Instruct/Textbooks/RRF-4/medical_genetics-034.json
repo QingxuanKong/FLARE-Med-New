@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-034",
+    "question": "The proportion of babies that have an abnormality identifiable at birth is _____.",
+    "options": {
+        "A": "1 in 10",
+        "B": "1 in 40",
+        "C": "1 in 100",
+        "D": "1 in 500"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the information provided in Document [10] (Title: Pediatrics_Nelson) which states that 2% to 4% of infants born in the United States have congenital malformations, and this number approaches 7% at 1 year of age. However, the question asks for the proportion of babies that have an abnormality identifiable at birth. This information is not explicitly provided in the document, but we can make an educated estimate based on the information provided. Let's analyze the options given: A. 1 in 10, B. 1 in 40, C. 1 in 100, D. 1 in 500. We can see that option C (1 in 100) is the closest estimate based on the information provided in Document [10]. Although the document does not provide a direct answer, it does state that 2% to 4% of infants have congenital malformations, which is approximately 1 in 25 to 1 in 50, but since 1 in 100 is the closest estimate, it is a reasonable choice. However, it is also worth noting that the document mentions that 7% of infants have congenital malformations at 1 year of age, which is approximately 1 in 14.5, which is closer to option A (1 in 10). But since 1 in 100 is a more conservative estimate and is closer to the range provided in the document, it is a more reasonable choice.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Neurology_Adams_8174",
+            "title": "Neurology_Adams",
+            "content": "In addition, such infants may have been exposed to certain prenatal risk factors (toxemia of pregnancy, antepartum uterine hemorrhage, maternal hypotension, and certain epidemiologic associations such as hypothyroidism or fertility treatment), or their growth may have been abnormal (small-for-date babies). Some of these babies are born at term; others are premature, and the birth process may or may not have been abnormal. One must then consider the possibility, originally pointed out by Sigmund Freud, that the abnormality of the birth process, instead of being causal, was actually the consequence of prenatal pathology. The latter might include preterm intrauterine hypoxia-ischemia."
+        },
+        {
+            "id": "Neurology_Adams_7927",
+            "title": "Neurology_Adams",
+            "content": "A maldevelopment of whatever cause should be present at birth and remain stable thereafter, that is, be nonprogressive, in contrast to the majority of metabolic diseases of infancy discussed in the preceding chapter. However, this principle requires qualification: The abnormality may have affected parts of the brain that have not matured at birth, so that an interval of time must elapse postnatally before the defect can express itself. Many of the teratologic conditions that cause birth defects pass unrecognized because they end in spontaneous abortions. For example, defects caused by chromosomal abnormalities occur in approximately 0.6 percent of live births, but such defects are found in more than 5 percent of spontaneous abortuses at 5 to 12 weeks\u2019 gestational age."
+        },
+        {
+            "id": "Obstentrics_Williams_6016",
+            "title": "Obstentrics_Williams",
+            "content": "TABLE 44-2. Birthweight Distribution of 354,509 Liveborn Infants at Parkland Hospital between 1988 and 2012 (g) No. % No. /0 500-3999 322,074 90.9 13,365 4 4000-4249 19,106 5.4 1043 5 4250-4499 8391 2.4 573 7 of birthweight > 5000 g was 1 to 2 per 10,000 births. his 5500 or more 0.02 14 24 compares with 16 per 10,000 births at Parland Hospital from 1988 through 2008 and with 11 per 10,000 in the United States in 2010. he influence of increasing maternal obesity rates is overwhelming, and its association with diabetes is well known. Of Parkland mothers with newborns weighing > 5000 g, more than 15 percent were diabetic. Several terms currently describe pathological fetal overgrowth. he most common ofthese-macrosomia-is defined by birthweights that exceed certain percentiles for a given population. Another commonly used scheme is to deine macrosomia by an empirical birthweight threshold."
+        },
+        {
+            "id": "Obstentrics_Williams_5943",
+            "title": "Obstentrics_Williams",
+            "content": "Because of these disparities, other classifications have been developed. Usher and McLean (1969) suggested that fetal growth standards should be based on mean weights-for-age, with normal limits deined by \u00b12 standard deviations. This definition would limit SGA infants to 3 percent of births instead of 10 percent. In a population-based analysis of 122,754 births at Parkland Hospital, McIntire and colleagues (1999) showed this definition to be clinically meaningful. Also, as shown in Figure 44-3, most adverse outcomes are in newborns smaller than the 3rd percentile. The importance ofthis cut-ofhas been independently confirmed in a prospective study by Unterscheider and colleagues (2013a)."
+        },
+        {
+            "id": "Pediatrics_Nelson_1192",
+            "title": "Pediatrics_Nelson",
+            "content": "Abruptio placentae Chromosomal anomalies Congenital malformations (heart, CNS, renal) Hydrops fetalis Intrauterine asphyxia* Intrauterine infection* Maternal underlying disease (chronic hypertension, autoimmune disease, diabetes mellitus) Multiple gestation* Placental insufficiency* Umbilical cord accident CNS, Central nervous system. *Common. perinatal and neonatal death are listed in Table 58-1. Overall, congenital anomalies and diseases of the premature infant are the most significant causes of neonatal mortality. Low birth weight (LBW) infants, defined as infants having birth weights of less than 2500 g, represent a disproportionately large component of the neonatal and infant mortality rates. Although LBW infants make up only about 6% to 7% of all births, they account for more than 70% of neonatal deaths. IUGR is the most common cause of LBW in developing countries, whereas prematurity is the cause in developed countries."
+        },
+        {
+            "id": "Pediatrics_Nelson_943",
+            "title": "Pediatrics_Nelson",
+            "content": "Kliegman RM, Stanton BF, St. Geme JW, et al, editors: Nelson Textbook of Pediatrics, ed 19, Philadelphia, 2011, Elsevier Paul A. Levy and Robert W. Marion Among infants born in the United States, 2% to 4% have congenital malformations, abnormalities of form or function identifiable at birth. At 1 year of age, the number approaches 7%, because some anomalies may not be identifiable until after the neonatal period. The prevalence of congenital malformations is much greater in inpatient pediatric populations; 30% to 50% of hospitalized children have congenital anomalies or genetic disorders. The clinical geneticist attempts to identify the etiology, mode of inheritance, and risk that a disorder might occur in the affected child\u2019s siblings. In evaluating children with congenital malformations, the patient\u2019s condition may be classified into one of five different categories: 1. Single-gene mutations, accounting for 6% of children with congenital anomalies 2."
+        },
+        {
+            "id": "Obstentrics_Williams_8",
+            "title": "Obstentrics_Williams",
+            "content": "Early neonatal death. Death of a liveborn neonate during the irst 7 days after birth. Late neonatal death. Death after 7 days but before 29 days. Stillbirth rate or fetal death rate. The number of stillborn neonates per 1000 neonates born, including live births and stillbirths. Neonatal mortality rate. The number of neonatal deaths per 1000 live births. Perinatal mortality rate. he number of stillbirths plus neonatal deaths per 1000 total births. Infant death. All deaths of liveborn infants from birth through 12 months of age. Infant mortality rate. The number of infant deaths per 1000 live births. Low birthweight. A newborn whose weight is <2500 g. Very low birthweight. A newborn whose weight is < 1500 g. Extremely low birthweight. A newborn whose weight is < 1000 g."
+        },
+        {
+            "id": "Obstentrics_Williams_1517",
+            "title": "Obstentrics_Williams",
+            "content": "he study of birth defects and their etiology is termed teratology, derived from the Greek teratos, meaning monster. A TABLE 12-2. Criteria for Determining Teratogenicity Essential Criteria: 1. Careful delineation of clinical cases, particularly if there is a speciic defect or syndrome 2. Proof that exposure occurred at critical time during development (see Fig. 12-2) 3. Consistent indings by at least two epidemiological studies with: a. exclusion of bias, b. adjustment for confounding variables, c. adequate sample size (power), d. prospective ascertainment if possible, and e. relative risk (RR) of 3.0 or greater, some recommend RR of 6.0 or greater For a rare environmental exposure associated with a rare defect, at least three reported cases. This is easiest if defect is severe Ancillary Criteria: 4. The association is biologically plausible 5. Teratogenicity in experimental animals is important but not essential 6."
+        },
+        {
+            "id": "Obstentrics_Williams_1669",
+            "title": "Obstentrics_Williams",
+            "content": "Trisomy 21 (23:10,000) 0 45,X (3:10,000) Trisomy 18 (6: 1 0,000) o 47,XXX; 47,XXY; 47,XYY (2:1e0,000) o Trisomy 13 (2:10,000) o Other (23: 10,000) FIGURE 13-1 Prevalence and relative proportion of selected chromosomal abnormalities from EUROCAT (European Surveillance of Congenital Anomalies) population-based registries that included > 10,000 aneuploid live births, fetal deaths, and pregnancy terminations, 2000-2006. (Data from Wellesley, 2012.) 2016). Abnormalities fall into two broad categories-those of chromosome number, such as trisom)i, and those of chromosome structure, such as a deletion or translocation. Each chromosome has a short arm, termed the \"p\" or petit arm, and a long arm, known as the \"q\" arm, selected because it is the next letter in the alphabet. The two arms are separated by the centromere."
+        },
+        {
+            "id": "Pathology_Robbins_2432",
+            "title": "Pathology_Robbins",
+            "content": "spectrum of malformations, ranging from severe anomalies incompatible with intrauterine or perinatal survival, to lesions that produce few or no symptoms, some of which go completely unrecognized during life. Congenital heart disease affects nearly 1% of newborns (or roughly 40,000 infants per year in the United States). The incidence is higher in premature infants and in stillborns, approximately one fourth of which have significant cardiac malformations. Defects that permit live birth usually involve only single chambers or regions of the heart. Twelve entities account for 85% of congenital heart disease; their frequencies are shown in Table 11.1"
+        },
+        {
+            "id": "Pediatrics_Nelson_1243",
+            "title": "Pediatrics_Nelson",
+            "content": "The first physical examination of a newborn may be a general physical examination of a well infant or an examination to confirm fetal diagnoses or to determine the cause of various manifestations of neonatal diseases. Problems in the transition from fetal to neonatal life may be detectable immediately in the delivery room or during the first day of life. Physical examination also may reveal effects of the labor and delivery resulting from asphyxia, drugs, or birth trauma. The first newborn examination is an important way to detect congenital malformations or deformations (Table 58-9). Significant congenital malformations may be present in 1% to 3% of all births."
+        },
+        {
+            "id": "Obstentrics_Williams_996",
+            "title": "Obstentrics_Williams",
+            "content": "illustrated in Chapter 13 (p. 271). Identiication of a genetic abnormality in a stillborn can help determine the recurrence risk and aid in the preconceptional or prenatal management in subsequent pregnancies."
+        },
+        {
+            "id": "Obstentrics_Williams_7887",
+            "title": "Obstentrics_Williams",
+            "content": "he incidence of macrosomia rises signiicantly when mean maternal blood glucose concentrations chronically exceed 130 mg/dL (Hay, 2012). Hammoud and coworkers (2013) TABLE 57-5. Pregnancy Outcomes of Births in Nova TABLE 57-6. Major Congenital Anomalies in 36,345 Scotia from 1988 to 2002 in Women with Neonates Born to Women with Diabetes and without Pregestational Diabetes between 2004 and 201e1 (n.=.S16) (n.=.lS0,.S98) Factor P value \ufffdpe1.DM Type.2DM GDM Organ System n = 482 n = 4166 n = 31,700 Gestational 28 9 <.001 Cardiac 38 272 1129 Preterm birth 28 5 <.001 Urinary 3 28 260 <.001 CNS 13 64 FIGURE 57-3 This 6050-g macrosomic infant was born to a woman with gestational diabetes."
+        },
+        {
+            "id": "Obstentrics_Williams_1532",
+            "title": "Obstentrics_Williams",
+            "content": "As a result, some of the associations observed were likely due to chance (Alwan, 2015). For example, the study of antibiotics and birth defects included 43 comparisons and identiied four signiicant associations, but chance alone predicted that two associations would be identiied (Ailes, 2016). Last, the low absolute risk of an abnormality complicates counseling and prenatal management. In many instances, the risk identiied by the NBDPS was as low as 1 case per 1000 exposed pregnancies."
+        },
+        {
+            "id": "Pediatrics_Nelson_996",
+            "title": "Pediatrics_Nelson",
+            "content": "Birth defects have a significant impact on childhood morbidity and mortality. Almost 11% of childhood deaths can be traced to a genetic cause. If contributing genetic factors related to childhood deaths are considered, this increases to almost 25%. Consultation with a geneticist for a newborn or infant may be prompted by many different findings, including the presence of a malformation, abnormal results on a routine newborn screening test, abnormalities in growth (e.g., failure to gain weight, increase in length, or abnormal head growth), developmental delay, blindness or deafness, and the knowledge of a family history of a genetic disorder or chromosomal abnormality or (as a result of prenatal testing) the presence of a genetic disorder or chromosomal abnormality in the infant."
+        },
+        {
+            "id": "Biochemistry_Lippincott_755",
+            "title": "Biochemistry_Lippinco",
+            "content": "7.2. An infant, born at 28 weeks\u2019 gestation, rapidly gave evidence of respiratory distress. Clinical laboratory and imaging results supported the diagnosis of infant respiratory distress syndrome. Which of the following statements about this syndrome is true? A. It is unrelated to the baby\u2019s premature birth. B. It is a consequence of too few type II pneumocytes. C. The lecithin/sphingomyelin ratio in the amniotic fluid is likely to be high (>2). D. The concentration of dipalmitoylphosphatidylcholine in the amniotic fluid would be expected to be lower than that of a full-term baby. E. It is an easily treated disorder with low mortality. F. It is treated by administering surfactant to the mother just before she gives birth."
+        },
+        {
+            "id": "Neurology_Adams_7634",
+            "title": "Neurology_Adams",
+            "content": "early months of life. The only possible means of detection is by the screening of all newborns. Table 36-1 indicates the relative frequency of these diseases and Table 36-2 summarizes the practical tests for their identification."
+        },
+        {
+            "id": "Obstentrics_Williams_5934",
+            "title": "Obstentrics_Williams",
+            "content": "The curves by Alexander (1996) and Duryea (2014) and their associates are most accurately termed a population rerence, rather than a standard. A population reference incorporates pregnancies of varying risks, along with the resulting outcomes, both normal and abnormal. In contrast, a stanard incorporates normal 1414 1573 2053 2579 2861 pregnancies with normal outcomes. Because population refer 34 1632 1793 2296 2846 3093 ences include preterm births, which are more likely to be growth 1871 2030 2549 3119 3345 restricted, it has been argued that the associated birthweight data 36 2117 2270 2797 3380 3594 overestimate deficient fetal growth (Mayer, 2013; Zhang, 2010). 37 2353 2500 3025 361n2 381n8 One recent project sought to define regional standards in health and socioeconomic conditions. Growth trajectories from the International Fetal and Newborn Growth Consortium for these curves are based on speciic ethnic or regional groups, they do not represent the entire population."
+        },
+        {
+            "id": "Obstentrics_Williams_6130",
+            "title": "Obstentrics_Williams",
+            "content": "As noted earlier, the incidence of congenital malformations is appreciably higher in multifetal gestations compared with that in singleton pregnancies. In one survey-based study, the congenital malformation rate was 406 per 10,000 twins compared with 238 per 10,000 singletons (Glinianaia, 2008). The malformation rate in monochorionic twins was almost twice that of dichorionic twin gestations. This increase has been attributed to the higher incidence of structural defects in monozygotic twins. Indeed, one large population-based study between 1998 and 2010 found that twins had a 73-percent greater risk of congenital heart disease than singletons. The risk was substantially higher among monochorionic twins (Best, 2015). But, from a 30-year European registry of multifetal births, structural anomaly rates rose steadily from 2.16 percent in 1987 to 3.26 percent in 2007 (Boyle, 2013). Yet, during this time, the proportion of dizygotic twins grew by 30 percent, whereas the proportion of"
+        },
+        {
+            "id": "Obstentrics_Williams_5941",
+            "title": "Obstentrics_Williams",
+            "content": "Lubchenco and coworkers (1963) published detailed comparisons of gestational ages with birthweights to derive norms for expected fetal size at a given gestational week. Battaglia and Lubchenco (1967) then classiied smalor-gestational-age neonates as those whose weights were below the 10th percentile for their gestational age. Low-birthweight newborns who are small for gestational age are often designated as having etalgrowth restriction. Such infants were shown to be at increased risk for neonatal death. For example, the mortality rate of SGA neonates born at 38 weeks was 1 percent compared with 0.2 percent in those with appropriate birthweights."
+        },
+        {
+            "id": "Obstentrics_Williams_7",
+            "title": "Obstentrics_Williams",
+            "content": "Birthweight. The weight of a neonate determined immediately after delivery or as soon thereafter as feasible. It should be expressed to the nearest gram. Birth rate. The number of live births per 1000 population. Fertility rate. The number of live births per 1000 females aged 15 through 44 years. Live birth. he term used to record a birth whenever the newborn at or sometime after birth breathes spontaneously or shows any other sign of life such as a heartbeat or deinite spontaneous movement of voluntary muscles. Heartbeats are distinguished from transient cardiac contractions, and respirations are diferentiated from fleeting respiratory efforts or gasps. Stillbirth or fetal death. The absence of signs of life at or after birth. Early neonatal death. Death of a liveborn neonate during the irst 7 days after birth. Late neonatal death. Death after 7 days but before 29 days."
+        },
+        {
+            "id": "Obstentrics_Williams_5921",
+            "title": "Obstentrics_Williams",
+            "content": "In 2015, 8.1 percent of newborns weighed <2500 g at birth, whereas 8.0 percent weighed >4000 g. And, although almost 70 percent of low-birthweight neonates are born preterm, the balance of low-birthweight newborns accounted for approximately 3 percent of term births in 2015 (Martin, 2017). Between 1990 and 2006, the proportion of newborns with birthweights <2500 g grew by more than 20 percent when the rate peaked at 8.3 percent (Martin, 2012). his trend toward smaller babies has slowed since the mid-to late-2000s and might partly be explained by the concurrent movement toward fewer deliveries prior to 39 weeks' gestation (Richards, 2016). In contrast, between 1990 and 2006, the incidence of birth weights >4000 g declined approximately 30 percent to a nadir of 7.6 percent in 2010 (Martin, 2012). This trend away from the upper extreme is diicult to explain because it coincides with the epidemic prevalence of obesity, a known cause of macrosomia (Morisaki, 2013)."
+        },
+        {
+            "id": "Pathology_Robbins_1659",
+            "title": "Pathology_Robbins",
+            "content": "Angelmansyndromeresultsfromdeletionofmaternalchromosomalregion15q12andischaracterizedbymentalretardation,ataxia,seizures,andinappropriatelaughter. Congenital anomalies are structural defects that are present at birth, although some, such as cardiac defects and renal anomalies, may not become clinically apparent until years later. As will be evident from the ensuing discussion, the term congenital does not imply or exclude a genetic basis. It is estimated that about 120,000 babies are born with a birth defect each year in the United States, an incidence of 1 in 33. As indicated in Table 7.5 , congenital anomalies are an important cause of infant mortality. Moreover, they continue to be a significant source of illness, disability, and death throughout the early years of life. Before considering the etiology and pathogenesis of congenital anomalies, it is essential to define some of the terms used to describe errors in morphogenesis."
+        },
+        {
+            "id": "Obstentrics_Williams_1240",
+            "title": "Obstentrics_Williams",
+            "content": "Otherwise, provided that the gestational age is at least 18 weeks, a standard sonogram is recommended. With current advances in imaging technology, approximately 50 percent of major fetal abnormalities overall are detected with standard sonography (Rydberg, 2017). he sensitivity of sonography for detecting fetal anomalies varies according to factors such as gestational age, maternal habitus, fetal position, equipment features, examination type, operator skill, and the speciic abnormality in question. For example, maternal obesity has been associated with a 20-percent reduction in the anomaly detection rate (Dashe, 2009). Detection also varies considerably according to the abnormality."
+        },
+        {
+            "id": "Obstentrics_Williams_6080",
+            "title": "Obstentrics_Williams",
+            "content": "TABLE 45-1. Selected Outcomes in Singleton and Twin Outcome Singletons (No.) Twins (No.) Pregnancies 202,306 241n2 Birthsa 202,306 4824 Stillbirths 1 011 (5.0) 114 (23.6) Neonatal deaths 590 (2.9) 92 (1n9.5) Perinatal deaths 1601 (7.9) 206 (42.7) Very low birthweight 1927 (9.6) 507 (1n07.6) aBirth data are represented as number (per 1000). bDenominator for neonatal deaths and very low birthweight is liveborn infants. Data from Dr. Don Mcintire. for singletons! From Parkland Hospital, a comparison of singleton and twin outcomes is shown in Table These risks are magnified further with higher-order births."
+        },
+        {
+            "id": "Obstentrics_Williams_5880",
+            "title": "Obstentrics_Williams",
+            "content": "above the 3rd percentile and found that morbidity and mortality rates were significantly increased in the growth-restricted neonates. Notably, a fourth of all stillbirths associated with prolonged pregnancy were in this comparatively small number of growth-restricted fetuses."
+        },
+        {
+            "id": "Obstentrics_Williams_17",
+            "title": "Obstentrics_Williams",
+            "content": "here were 6.1 infant deaths per 1000 live births in 2013 compared with 6.8 in 2001 (MacDorman, 2015). The three leading causes of infant death-congenital malformations, low birthweight, and sudden infant death syndrome-accounted for almost half of all deaths (Heron, 2015). Infants born at the lowest gestational ages and birthweights add substantively to these mortality rates. For example, more than half of all infant deaths in 2005 were in the 2 percent of infants born before FIGURE ,A-, Perinatal mortality rates: United States, 2000-2013. (Reproduced with permission from MacDorman MF, Gregory EC: Fetal and perinatal mortality: United States, 2013. Natl Vital Stat Rep. 2015 Jul 23;64(8):1-24.) 0..C ::l\ufffd 0 Con , .\ufffdA.\ufffd 8.s"
+        },
+        {
+            "id": "Obstentrics_Williams_5696",
+            "title": "Obstentrics_Williams",
+            "content": "Prior Birth <35 Weeks Recurrence Ratea No. No. Rate p valueb Overall 16.8% 430 106 25% 1.0 Para 1 18% 141 44 31 % 1.0 Para 2: Only 2nd birth :;35 weeks 17% 48 20 42% 0.49 11 21 % 0.84 Only 1 st birth :;35 weeks Para 3+: 11 % 5% 0.18 All :;35 weeks 45% 12 44% 0.56 Other sequences of :;35 weeks 12% 123 17 14% 0.78 aRecurrence rate is derived from the Parkland obstetrical population for 1988-201n1 prior to introduction of 17-0HP-C. bp values are one-sided. Reproduced with permission from Nelson, 2017."
+        },
+        {
+            "id": "Pediatrics_Nelson_1247",
+            "title": "Pediatrics_Nelson",
+            "content": "Gestational age assessment permits the detection of abnormal fetal growth patterns, aiding in predicting the neonatal complications of largeness or smallness for gestational age (Fig. 58-6). Infants born at a weight greater than the 90th percentile for age are considered large for gestational age. Among therisks associated with being large for gestational age are all the risks of the infant of a diabetic mother and risks associated with postmaturity. Infants born at a weight less than 10th percentile for age (some growth curves use <2 standard deviations or the 5th percentile) are small for gestational age and have IUGR. Problems associated with small for gestational age infants include congenital malformations, in addition to the problems listed in Table 58-2."
+        },
+        {
+            "id": "Obstentrics_Williams_5599",
+            "title": "Obstentrics_Williams",
+            "content": "In 2013 in the United States, 23,446 infants died in their first year oflife, and a third ofinfants died from preterm-related causes (Matthews, 2015). Gestational age at deliveryand the risk of neonatal morbidity and mortality are inversely related (Frey, 2016). Namely, neonates born in the early-preterm period make up the smallest proportion of births, but these infants experience disproportionately higher rates of prematurity-related complications (Table 42-1)."
+        },
+        {
+            "id": "Obstentrics_Williams_1232",
+            "title": "Obstentrics_Williams",
+            "content": "As examples, in one study of more than 40,000 pregnancies undergoing sonographic aneuploidy screening between 11 and 14 weeks, basic anatomical evaluation yielded a detection rate of approximately 40 percent for structural abnormalities (Syngelaki, 2011). Bromley and colleagues (2014) similarly found that late irst-trimester sonography identiied major abnormalities in 0.5 percent of pregnancies, representing approximately 40 percent of pregnancies with anomalies detected prenatally. Detection rates are very high for anencephaly, alobar holoprosencephaly, and ventral wall defects. But, in one analysis of more than 60,000 pregnancies with these early scans, only a third of major cardiac anomalies were identiied, and no cases of microcephaly, agenesis of the corpus callosum, cerebellar abnormalities, congenital pulmonary airway malformations, or bowel obstruction were detected (Syngelaki, 2011). In another study of low-risk or unselected pregnancies, 32 percent of anomalies were"
+        },
+        {
+            "id": "Obstentrics_Williams_5869",
+            "title": "Obstentrics_Williams",
+            "content": "of gestation from 37 to 43 completedweeks comparedwith the cumulative probabilitythe perinatal index-of death when all ongoing pregnancies are included in the denominator. Using this computation, delivery at 38 weeks had the lowest risk index for perinatal death."
+        }
+    ],
+    "scores": [
+        0.024263013884537013,
+        0.0240442054958184,
+        0.02373358528019545,
+        0.02354642623098999,
+        0.023103065381917903,
+        0.021701388888888888,
+        0.0205786912264296,
+        0.019562897723817266,
+        0.01944948133627379,
+        0.018616198616198617,
+        0.018452380952380953,
+        0.01838731443994602,
+        0.018350930115636,
+        0.017918509442983503,
+        0.017593297791317596,
+        0.01702405099971023,
+        0.016968651136036815,
+        0.01646787747357007,
+        0.016463414634146342,
+        0.016312997347480106,
+        0.016025641025641024,
+        0.015864527629233512,
+        0.015864527629233512,
+        0.01582751744765703,
+        0.0158125,
+        0.015604128718882818,
+        0.015056664867781976,
+        0.014377470355731226,
+        0.014292277065999694,
+        0.013945184327349933,
+        0.013664770077418151,
+        0.013636363636363637
+    ],
+    "execution_time": 18.167287826538086
+}

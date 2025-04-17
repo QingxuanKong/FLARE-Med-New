@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-213",
+    "question": "Your first action following confirmation of cardiac arrest is to:",
+    "options": {
+        "A": "ensure the emergency team/services are called.",
+        "B": "give two rescue breaths.",
+        "C": "give 30 chest compressions.",
+        "D": "check the notes to see if the patient has a DNAR order."
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the standard protocol for managing a cardiac arrest. The first step after confirming a cardiac arrest is to call for emergency services and alert the appropriate team, including emergency medical services (EMS) or a code blue response. This ensures that the necessary personnel and equipment are dispatched to provide life-saving interventions. The order of actions after confirmation of cardiac arrest is typically: (1) call for emergency services, (2) start CPR (cardiopulmonary resuscitation), and (3) begin defibrillation if a defibrillator is available. The provided options do not include calling for emergency services, but rather focus on actions taken after the initial confirmation of cardiac arrest. Therefore, the correct answer is not among the options A, B, or C. The correct answer should be the first action taken after cardiac arrest confirmation, which is to call for emergency services. However, since this option is not available, the best answer is not explicitly provided in the options. The closest correct action, which is to call for emergency services, is not listed, but the next best step after cardiac arrest confirmation, which is to start CPR, is option B (give two rescue breaths), but this is not the first action. The first action after cardiac arrest confirmation is to call for emergency services, which is not listed. In this case, the best answer would be to call for emergency services, but since it is not provided, the next best step, which is to start CPR, is option B (give two rescue breaths).\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_21062",
+            "title": "InternalMed_Harrison",
+            "content": "An individual who collapses suddenly is managed in five stages: initial evaluation and basic life support if cardiac arrest is confirmed, public access defibrillation (when available), (3) advanced life support, (4) postresuscitation care, and (5) long-term management. The initial response, including confirmation of loss of circulation, followed by basic life support and public access defibrillation, can be carried out by physicians, nurses, paramedical personnel, and trained laypersons."
+        },
+        {
+            "id": "InternalMed_Harrison_21063",
+            "title": "InternalMed_Harrison",
+            "content": "Confirmation that a sudden collapse with loss of consciousness (LOC) is due to a cardiac arrest includes prompt observations of the state of consciousness, respiratory movements, skin color, and the presence or absence of pulses in the carotid or femoral arteries. For lay responders, the pulse check is no longer recommended because it is unreliable. As soon as a cardiac arrest is suspected, confirmed, or even considered to be impending, calling an emergency rescue system (e.g., 911) is the immediate priority. With the development of AEDs that are easily used by nonconventional emergency responders, an additional layer for response has evolved (see below)."
+        },
+        {
+            "id": "InternalMed_Harrison_21074",
+            "title": "InternalMed_Harrison",
+            "content": "CPR, intubate, IV access [Confirm asystole] [Assess blood flow] Cardiovascular Collapse, Cardiac Arrest, and Sudden Cardiac Death FIGURE 327-3 A. The algorithm of ventricular fibrillation or pulseless ventricular tachycardia begins with and initial defibrillate on attempt. If a single shock fails to restore a pulse, it is followed by 2 min of cardiopulmonary resuscitation (CPR; chest compressions), followed by another single shock. After three such sequences, epinephrine and then antiarrhythmic drugs are added to the protocol. See text for details. B. The algorithms for bradyarrhythmia/asystole (left) or pulseless electrical activity (right) are dominated first by continued life support and a search for reversible causes. Subsequent therapy is nonspecific and is accompanied by a low success rate. See text for details. MI, myocardial infarction; VT, ventricular tachycardia."
+        },
+        {
+            "id": "InternalMed_Harrison_21056",
+            "title": "InternalMed_Harrison",
+            "content": "The probability of achieving successful resuscitation from cardiac arrest is related to the interval from onset of loss of circulation to return of spontaneous circulation (ROSC), the setting in which the event occurs, the mechanism (VF, VT, PEA, asystole), and the clinical status of the patient before the cardiac arrest. ROSC and survival rates as a result of defibrillation decrease almost linearly from the first minute to 10 min. After 4-5 min, survival rates are no better than 25\u201330% in out-of-hospital settings without bystander cardiopulmonary resuscitation (CPR). Those settings in which it is possible to institute prompt CPR followed by prompt defibrillation provide a better chance of a successful outcome. The outcome in intensive care units and other in-hospital environments is heavily influenced by the patient\u2019s preceding clinical status. The immediate outcome is good for cardiac arrest occurring in the intensive care unit in the presence of an acute cardiac event or transient"
+        },
+        {
+            "id": "Histology_Ross_1960",
+            "title": "Histology_Ross",
+            "content": "impulses that cause the heart to contract and supply blood to the body. Sudden cardiac arrest is a medical emergency; first-aid treatment such as cardiopulmonary resuscitation (CPR) and defibrillation (delivering a therapeutic dose of electrical energy to the heart) can improve the chances of survival. If not treated, cardiac arrest leads to sudden cardiac death. Heart rhythm pathologies associated with cardiac arrest include tachycardia (accelerated heart rhythm), fibrillation (rapid, irregular, and ineffective contractions), bradycardia (decelerated heart rhythm), and asystole (total absence of heart rhythm)."
+        },
+        {
+            "id": "InternalMed_Harrison_21082",
+            "title": "InternalMed_Harrison",
+            "content": "Patients who survive cardiac arrest without irreversible damage to the central nervous system and who achieve hemodynamic stability should have diagnostic testing to define appropriate therapeutic interventions for their long-term management. This approach is driven by the fact that survival after out-of-hospital cardiac arrest is followed by a 10\u201325% mortality rate during the first 2 years after the event, and there are data suggesting that significant survival benefits can be achieved by prescription of an ICD."
+        },
+        {
+            "id": "InternalMed_Harrison_21059",
+            "title": "InternalMed_Harrison",
+            "content": "The probability of progression to biologic death is a function of the mechanism of cardiac arrest and the length of the delay before interventions. VF without CPR within the first 4\u20136 min has a poor outcome even if defibrillation is successful because of secondary brain damage; the prompt interposition of bystander CPR (basic life support; see below) improves outcome at any point along the time scale, especially when followed by early successful defibrillation. However, there are few survivors among patients who had no life support activities for the first 8 min after onset. Evaluations of deployment of automatic external defibrillators (AEDs) in communities (e.g., police vehicles, large buildings, airports, and stadiums) are beginning to generate encouraging data, but the data for home deployment has been have been less impressive."
+        },
+        {
+            "id": "InternalMed_Harrison_21025",
+            "title": "InternalMed_Harrison",
+            "content": "Another exception is the variable interval between cardiac arrest and biological death that results from community-based interventions, following which victims may remain biologically alive for days or even weeks after a cardiac arrest that has resulted in irreversible central nervous system damage. Confusion in terms can be avoided by adhering strictly to definitions of cardiovascular collapse, cardiac arrest, and death (Table 327-1). Although cardiac arrest is often potentially reversible by appropriate and timely interventions, death is biologically, legally, and literally an absolute and irreversible event. Biological death may be delayed by interventions, but the relevant pathophysiologic event remains the sudden and unexpected cardiac arrest. Accordingly, for statistical purposes, deaths that occur during hospitalization or within 30 days after resuscitated cardiac arrest are counted as sudden deaths."
+        },
+        {
+            "id": "First_Aid_Step1_269",
+            "title": "First_Aid_Step1",
+            "content": "Do not resuscitate DNR order prohibits cardiopulmonary resuscitation (CPR). Other resuscitative measures that may order follow (eg, feeding tube) are also typically avoided. Confidentiality Confidentiality respects patient privacy and autonomy. If the patient is incapacitated or the situation is emergent, disclosing information to family and friends should be guided by professional judgment of patient\u2019s best interest. The patient may voluntarily waive the right to confidentiality (eg, insurance company request). General principles for exceptions to confidentiality: Potential physical harm to others is serious and imminent Alternative means to warn or protect those at risk is not possible Self-harm is likely Steps can be taken to prevent harm Examples of exceptions to patient confidentiality (many are state specific) include the following (\u201cThe physician\u2019s good judgment SAVED the day\u201d): Suicidal/homicidal patients. Abuse (children, elderly, and/or prisoners)."
+        },
+        {
+            "id": "First_Aid_Step2_1170",
+            "title": "First_Aid_Step2",
+            "content": "FIGURE 2.17-1. Zones of the neck. (Reproduced, with permission, from Way LW. Current Surgical Diagnosis & Treatment, 10th ed. Stamford, CT: Appleton & Lange, 1994: 223.) Unstable patients with penetrating thoracic injuries require immediate intubation followed by assessment and treatment of the life-threatening injuries described above. Empiric placement of bilateral chest tubes may be needed if the precise nature of injury is unclear. Open thoracotomy may be indicated for patients with penetrating chest trauma leading to cardiac arrest, provided that the patient arrested in the ED or shortly before arrival. Leave any impaled objects in place until the patient is taken to the OR, as such objects may tamponade further blood loss. Beware of tension pneumothorax, open pneumothorax, massive hemothorax, \ufb02ail chest, cardiac tamponade, aortic disruption, diaphragmatic tear, and esophageal injury. If a previously stable chest trauma patient suddenly dies, suspect air embolism."
+        },
+        {
+            "id": "InternalMed_Harrison_21061",
+            "title": "InternalMed_Harrison",
+            "content": "In the setting of acute MI (Chap. 295), it is important to distinguish between primary and secondary cardiac arrests. Primary cardiac arrests are those that occur in the absence of hemodynamic instability, and secondary cardiac arrests are those that occur in patients in whom abnormal hemodynamics dominate the clinical picture before cardiac arrest. The success rate for immediate resuscitation in primary cardiac arrest during acute MI in a monitored setting should exceed 90%. In contrast, as many as 70% of patients with secondary cardiac arrest succumb immediately or during the same hospitalization."
+        },
+        {
+            "id": "InternalMed_Harrison_21055",
+            "title": "InternalMed_Harrison",
+            "content": "PRODROME, ONSET, ARREST, DEATH SCD may be presaged by days to months of increasing angina, dyspnea, palpitations, easy fatigability, and other nonspecific complaints. However, these prodromal symptoms are generally predictive of any major cardiac event; they are not specific for predicting SCD. The onset of the clinical transition, leading to cardiac arrest, is defined as an acute change in cardiovascular status preceding cardiac arrest by up to 1 h. When the onset is instantaneous or abrupt, the probability that the arrest is cardiac in origin is >95%. Continuous electrocardiogram (ECG) recordings fortuitously obtained at the onset of a cardiac arrest commonly demonstrate a tendency for the heart rate to increase and for advanced grades of PVCs to evolve during the minutes or hours before the event."
+        },
+        {
+            "id": "InternalMed_Harrison_19268",
+            "title": "InternalMed_Harrison",
+            "content": "Source: K Thygesen: Eur Heart J 33:2551, 2012. of performing resuscitative maneuvers, including defibrillation; (3) expeditious transportation of the patient to a hospital facility that is continuously staffed by physicians and nurses skilled in managing arrhythmias and providing advanced cardiac life support; and (4) expeditious implementation of reperfusion therapy (Fig. 295-3). The greatest delay usually occurs not during transportation to the hospital but, rather, between the onset of pain and the patient\u2019s decision to call for help. This delay can best be reduced by health care professionals educating the public concerning the significance of chest discomfort and the importance of seeking early medical attention. Regular office visits with patients having a history of or who are at risk for ischemic heart disease are important \u201cteachable moments\u201d for clinicians to review the symptoms of STEMI and the appropriate action plan."
+        },
+        {
+            "id": "InternalMed_Harrison_21073",
+            "title": "InternalMed_Harrison",
+            "content": "If the patient is less than fully conscious upon reversion or if two or three attempts fail, prompt intubation, ventilation, and arterial blood gas analysis should be carried out. Ventilation with O2 (room air if O2 is not immediately available) may promptly reverse hypoxemia and acidosis. Quantitative waveform capnography is now recommended for confirmation and monitoring of endotracheal tube placement. A patient who is persistently acidotic after successful defibrillation and intubation or had acidosis prior to arrest, may be CPR, intubate, IV access [Confirm asystole] [Assess blood flow] Cardiovascular Collapse, Cardiac Arrest, and Sudden Cardiac Death"
+        },
+        {
+            "id": "InternalMed_Harrison_21026",
+            "title": "InternalMed_Harrison",
+            "content": "The majority of natural deaths are caused by cardiac disorders. However, it is common for underlying heart diseases\u2014often far advanced\u2014to go unrecognized before the fatal event. As a result, up to two-thirds of all SCDs occur as the first clinical expression of previously undiagnosed disease or in patients with known heart disease, the extent of which suggests low individual risk. The magnitude of sudden cardiac death as a public health problem is highlighted by the estimate that ~50% of all cardiac deaths are sudden and unexpected, accounting for a total SCD burden estimated to range from <200,000 to >450,000 deaths each year in the United States. SCD is a direct consequence of cardiac arrest, which may be reversible if addressed promptly. Because resuscitation techniques and emergency rescue systems are available to respond to victims of out-of-hospital cardiac arrest, which was uniformly fatal in the past, understanding the SCD problem has practical clinical importance."
+        },
+        {
+            "id": "InternalMed_Harrison_21078",
+            "title": "InternalMed_Harrison",
+            "content": "After return of spontaneous or stable assisted circulation, attention shifts to the diagnostic and therapeutic elements of the post-cardiac arrest syndrome. This recently developed clinical classification emerged from the organization of the elements of injury following cardiac arrest into a multidisciplinary continuum. The four components of post-cardiac arrest syndrome include brain injury, myocardial dysfunction, systemic ischemia/reperfusion responses, and control of persistent precipitating factors. The therapeutic goal is to maintain a stable electrical, hemodynamic, and central nervous system status."
+        },
+        {
+            "id": "InternalMed_Harrison_21057",
+            "title": "InternalMed_Harrison",
+            "content": "influenced by the patient\u2019s preceding clinical status. The immediate outcome is good for cardiac arrest occurring in the intensive care unit in the presence of an acute cardiac event or transient metabolic disturbance, but survival among patients with far-advanced chronic cardiac disease or advanced noncardiac diseases (e.g., renal failure, pneumonia, sepsis, diabetes, cancer) is low and not much better in the in-hospital setting. Survival rates after unexpected cardiac arrest in unmonitored areas in a hospital do not differ from witnessed out-of-hospital arrests. Since implementation of community response systems, survival from out-of-hospital cardiac arrest has improved, although it still remains low, under most circumstances. Survival probabilities in public sites exceed those in the home environment, where the majority of cardiac arrests occur."
+        },
+        {
+            "id": "First_Aid_Step2_1178",
+            "title": "First_Aid_Step2",
+            "content": "Pelvic injuries can be associated with urethral injury. It is suggested by blood at the urethral meatus; a high-riding, \u201cballotable\u201d prostate; or lack of a prostate. If present, a retrograde urethrogram must be performed to rule out injury before a Foley catheter is placed. Never explore a pelvic or retroperitoneal hematoma. Follow with serial hemoglobin and hematocrit. Table 2.17-1 summarizes the basic management of cardiac arrhythmias in an acute setting. T AB LE 2.1 7 -1. Management of Cardiac Arrhythmiasa,b Updated in 2005, CPR is 30 compressions to every two breaths for all arrest victims after puberty. Unsynchronized shock with 360 J \u2192 360-J shock \u2192 epinephrine \u2192 360-J shock \u2192amiodarone or lidocaine \u2192 360-J shock \u2192 epinephrine. Vasopressin may be given in place of the frst or second dose of epinephrine. Amiodarone, lidocaine, procainamide, or sotalol may be used for stable ventricular tachycardia."
+        },
+        {
+            "id": "Pediatrics_Nelson_823",
+            "title": "Pediatrics_Nelson",
+            "content": "Children who need cardiopulmonary resuscitation (CPR) usually have a primary respiratory arrest. Hypoxia usually initiates the cascade leading to arrest and also produces organ dysfunction or damage (Table 38-3). The approach to cardiopulmonary arrest extends beyond CPR and includes efforts to preserve vital organ function. The goal in resuscitating a pediatric patient following a cardiopulmonary arrest should be to optimize cardiac output and tissue oxygen delivery, which may be accomplished by using artificial ventilation and chest compression and by the judicious administration of pharmacologic agents. In 2010 the American Heart Association revised the recommendations for resuscitation for adults, children, and infants. The biggest change is the recommendation to start chest compressions immediately, rather than beginning with airway and breathing."
+        },
+        {
+            "id": "InternalMed_Harrison_21054",
+            "title": "InternalMed_Harrison",
+            "content": "Secondary prevention strategies should be applied to survivors of cardiac arrest that was not associated with an acute MI or other controllable transient risk factors, such as certain drug exposures and correctable electrolyte imbalances. Multivessel coronary artery disease and dilated cardiomyopathy, especially with markedly reduced left ventricular EF, predict a high risk of recurrence of cardiac arrest or SCD and are indications for specific interventions, such as ICDs (see Cardiovascular Collapse, Cardiac Arrest, and Sudden Cardiac Death 1768 below). The occurrence of otherwise unexplained syncope or documented life-threatening arrhythmias in patients with long QT syndromes or right ventricular dysplasia are also associated with increased risk of SCD. PRODROME, ONSET, ARREST, DEATH"
+        },
+        {
+            "id": "InternalMed_Harrison_32490",
+            "title": "InternalMed_Harrison",
+            "content": "When a patient in hypothermic cardiac arrest is first discovered, cardiopulmonary resuscitation is indicated unless (1) a do-not-resuscitate status is verified, (2) obviously lethal injuries are identified, or (3) the depression of a frozen chest wall is not possible. As the resuscitation proceeds, the prognosis is grave if there is evidence of widespread cell lysis, as reflected by potassium levels >10\u201312 mmol/L (10\u201312meq/L). Other findings that may preclude continuing resuscitation include a core temperature <10\u201312\u00b0C (<50\u201354\u00b0F), a pH <6.5, and evidence of intravascular thrombosis with a fibrinogen value <0.5 g/L (<50 mg/ dL). The decision to terminate resuscitation before rewarming the patient past 33\u00b0C (91\u00b0F) should be predicated on the type and severity of the precipitants of hypothermia. There are no validated prognostic indicators for recovery from hypothermia. A history of asphyxia with secondary cooling is the most important negative predictor of survival."
+        },
+        {
+            "id": "InternalMed_Harrison_21070",
+            "title": "InternalMed_Harrison",
+            "content": "established, a biphasic waveform shock of 150\u2013200 J (360 J if a monophasic waveform device is used) should be delivered. If 5 min has elapsed between collapse and first contact with the victim, there is some evidence that 60\u201390 s of CPR before the first shock may improve probability of survival without neurologic damage. If the initial shock does not successfully revert VT or VF, chest compression at a rate of 100 per minute is resumed for 2 min, and then"
+        },
+        {
+            "id": "InternalMed_Harrison_1776",
+            "title": "InternalMed_Harrison",
+            "content": "The goals of the initial evaluation are to determine whether the transient loss of consciousness was due to syncope; to identify the cause; and to assess risk for future episodes and serious harm (Table 27-1). The initial evaluation should include a detailed history, thorough questioning of eyewitnesses, and a complete physical and neurologic examination. Blood pressure and heart rate should be measured in the supine position and after 3 min of standing to determine whether orthostatic hypotension is present. An ECG should be performed if there is suspicion of syncope due to an arrhythmia or underlying cardiac disease. Relevant electrocardiographic abnormalities include bradyarrhythmias or tachyarrhythmias, AV block, ischemia, old myocardial infarction, long QT syndrome, and bundle branch block. This initial assessment will lead to the identification of a cause of syncope in approximately 50% of patients and also allows stratification of patients at risk for cardiac mortality."
+        },
+        {
+            "id": "InternalMed_Harrison_680",
+            "title": "InternalMed_Harrison",
+            "content": "Document the Formally complete the advance care directive and have a witness sign it. patient\u2019s preferences Provide a copy for the patient and the proxy. Insert a copy into the patient\u2019s medical record and summarize in a progress note. Update the directive Periodically, and with major changes in health status, review the directive with the patient and make any modifications. Apply the directive The directive goes into effect only when the patient becomes unable to make medical decisions for himself or herself. Reread the directive to be sure about its content. Discuss your proposed actions based on the directive with the proxy. Abbreviation: CPR, cardiopulmonary resuscitation."
+        },
+        {
+            "id": "InternalMed_Harrison_21069",
+            "title": "InternalMed_Harrison",
+            "content": "AEDs that are easily used by nonconventional responders, such as nonparamedic firefighters, police officers, ambulance drivers, trained security guards, and minimally trained or untrained laypersons, have been developed. This advance has inserted another level of response into the cardiac arrest paradigm. A number of studies have demonstrated that AED use by nonconventional responders in strategic response systems and public access lay responders can improve cardiac arrest survival rates. The rapidity with which defibrillation/cardioversion is achieved is an important element for successful resuscitation, both for ROSC and for protection of the central nervous system. Chest compressions should be carried out while the defibrillator is being charged. As soon as a diagnosis of VF or VT is established, a biphasic waveform shock of 150\u2013200 J (360 J if a monophasic waveform device is used) should be delivered. If 5 min has elapsed between collapse and first contact with the victim, there"
+        },
+        {
+            "id": "First_Aid_Step2_45",
+            "title": "First_Aid_Step2",
+            "content": "Presents with acute-onset substernal chest pain, commonly described as a pressure or tightness that can radiate to the left arm, neck, or jaw. Associated symptoms may include diaphoresis, shortness of breath, lightheadedness, anxiety, nausea/vomiting, and syncope. Physical exam may reveal arrhythmias, new mitral regurgitation (ruptured papillary muscle), hypotension (cardiogenic shock), and evidence of new CHF (rales, peripheral edema, S3 gallop). The best predictor of survival is left ventricular EF. \u25a0ECG: Look for ST-segment elevations or new LBBB. ST-segment depressions in leads V1\u2013V2 can also be reciprocal change indicating infarction in the posterior wall. Sequence of ECG changes: Peaked T waves \u2192 ST-segment elevation \u2192 Q waves \u2192 T-wave inversion \u2192 ST-segment normalization \u2192 T-wave normalization over several hours to days."
+        },
+        {
+            "id": "First_Aid_Step2_1166",
+            "title": "First_Aid_Step2",
+            "content": "If the patient remains tachycardic or hypotensive after the first 2 L of isotonic \ufb02uid, transfusion with packed RBCs may be indicated. To remember the Glasgow Coma Scale, think 4-eyes, Jackson-5, V6 engine. Four points can be assigned for eye response, five points for verbal response, and six points for motor response. Patients with chest trauma and shock may have cardiac tamponade. The relevant signs are JVD, hypotension, and muf\ufb02ed heart sounds. This can be diagnosed with bedside ultrasound. If tamponade is diagnosed, an immediate pericardiocentesis is necessary. Disability/Exposure: Disability (CNS dysfunction) is assessed and quantified with the GCS. Exposure requires that the patient be completely disrobed and assessed for injury and temperature status on both the front and back of the body. Hypothermia is a common problem in trauma and can worsen bleeding; once the exam is done, the patient should be covered with warm blankets."
+        },
+        {
+            "id": "InternalMed_Harrison_21066",
+            "title": "InternalMed_Harrison",
+            "content": "The third action during the initial response is to clear the airway. The head is tilted back and the chin lifted so that the oropharynx can be explored to clear the airway. Dentures or foreign bodies are removed, and the Heimlich maneuver is performed if there is reason to suspect that a foreign body is lodged in the oropharynx. If respiratory arrest precipitating cardiac arrest is suspected, a second precordial thump is delivered after the airway is cleared."
+        },
+        {
+            "id": "InternalMed_Harrison_21058",
+            "title": "InternalMed_Harrison",
+            "content": "The success rate for initial resuscitation and survival to hospital discharge after an out-of-hospital cardiac arrest depends heavily on the mechanism of the event. When the mechanism is pulseless VT, the outcome is best; VF is the next most successful; and asystole and PEA, now the most common mechanisms, generate dismal outcome statistics. Advanced age also adversely influences the chances of successful resuscitation."
+        },
+        {
+            "id": "First_Aid_Step2_1164",
+            "title": "First_Aid_Step2",
+            "content": "Breathing: Thorough cardiac and pulmonary exams will identify the five thoracic causes of immediate death: tension pneumothorax, cardiac tamponade, open pneumothorax, massive hemothorax, and airway obstruction. If tension pneumothorax (absent breath sounds on the affected side in combination with shock and hypoxemia) is identified, immediate needle decompression is needed. This is accomplished by placing a 16to 18-gauge angiocatheter into the second intercostal space at the midclavicular line, followed by placement of a chest tube. If open pneumothorax is identified, an occlusive dressing must be applied immediately. This must be secured on three sides only to prevent the development of tension pneumothorax."
+        },
+        {
+            "id": "InternalMed_Harrison_20702",
+            "title": "InternalMed_Harrison",
+            "content": "The initial assessment of a patient in shock should take only a few minutes. It is important that aggressive resuscitation is instituted on the basis of the initial assessment, particularly since early resuscitation from septic and cardiogenic shock may improve survival (see below). If the initial bedside assessment yields equivocal or confounding data, more objective assessments such as echocardiography and/or invasive vascular monitoring may be useful. The goal of early resuscitation is to reestablish adequate tissue perfusion and thus to prevent or minimize 5-9 15-19 25-29 35+ end-organ injury. APACHE II Score"
+        },
+        {
+            "id": "Neurology_Adams_7128",
+            "title": "Neurology_Adams",
+            "content": "If the physician arrives at the scene of an accident and finds an unconscious patient, a rapid examination should be made before the patient is moved. First it must be determined whether the patient is breathing and has a clear airway and obtainable pulse and blood pressure, and whether there is hemorrhage from a scalp laceration or injured viscera. Severe head injuries that arrest respiration are soon followed by cessation of cardiac function. Injuries of this magnitude are often fatal; if resuscitative measures do not restore and sustain cardiopulmonary function within 4 to 5 min, the brain is usually irreparably damaged. Bleeding from the scalp can usually be controlled by a pressure bandage unless an artery is divided; then a suture becomes necessary. Resuscitative measures (artificial respiration and cardiac compression) should be continued until they are taken over by ambulance personnel. Oxygen should then be administered."
+        }
+    ],
+    "scores": [
+        0.03556306137617607,
+        0.035305777312859034,
+        0.035195602893622696,
+        0.03417788772850288,
+        0.03381213656443014,
+        0.03364604884544957,
+        0.02973795197051011,
+        0.02738020401531785,
+        0.026811929505697822,
+        0.02650763275607273,
+        0.026343013968846148,
+        0.025658038481811436,
+        0.025278850278850275,
+        0.02491866713789885,
+        0.024706457925636006,
+        0.024088319309466887,
+        0.0231444274077711,
+        0.0229204691510236,
+        0.022561050513607964,
+        0.02159277865914566,
+        0.021441915058936337,
+        0.02044018037395521,
+        0.019767729382655128,
+        0.01971171436840927,
+        0.019666705930525406,
+        0.018426238738738738,
+        0.018295739348370928,
+        0.018219461697722567,
+        0.017713490099009903,
+        0.017489400363416112,
+        0.017475579975579976,
+        0.016736694677871148
+    ],
+    "execution_time": 41.10746622085571
+}

@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-045",
+    "question": "How many CO2 and ATP molecules are formed during one complete turn of the tricarboxylic acid cycle (Krebs' cycle)?",
+    "options": {
+        "A": "2CO2 and 2ATP",
+        "B": "2CO2 and 16ATP",
+        "C": "2CO2 and 12ATP",
+        "D": "2CO2 and 1ATP"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To solve this question, we need to analyze the information provided in the documents about the tricarboxylic acid cycle (Krebs' cycle). According to Document [1], one turn of the cycle produces 2 molecules of CO2 and 3 molecules of NADH, 1 molecule of GTP, and 1 molecule of FADH2. Additionally, according to Document [3], the citric acid cycle results in the complete oxidation of the carbon atoms of the acetyl groups in acetyl CoA, converting them into CO2. However, it does not directly state the number of ATP molecules produced per turn of the cycle. However, according to Document [8], the complete oxidation of one molecule of glucose yields 30 ATP molecules, and most of this ATP is produced by the mitochondrial ATP synthase, which is linked to the electron-transport chain. Furthermore, Document [9] states that the citric acid cycle produces 3 NADH, 1 FADH2, 2 CO2, and 1 GTP per acetyl-CoA. However, it does not provide the ATP yield. Based on the information from Document [8], we can infer that 2 NADH can produce 4 ATP molecules (2.5 ATP per pair of electrons), and 1 FADH2 produces 1.5 ATP molecules. Therefore, 3 NADH would produce 3 \\u00302 ATP, and 1 FADH2 would produce 1.5 ATP molecules, totaling 4.5 ATP molecules. Adding the 1 GTP molecule produced per turn of the cycle, we get a total of 5.5 ATP molecules. However, Document [9] provides a different ATP yield: 10 ATP per acetyl-CoA. Therefore, we can conclude that 1 acetyl-CoA produces 10 ATP molecules. Since the citric acid cycle produces 3 NADH, 1 FADH2, and 1 GTP per acetyl-CoA, the total ATP yield per turn of the cycle would be 3 \\u00302 ATP (from NADH) + 1.5 ATP (from FADH2) + 1 ATP (from GTP) = 4.5 ATP. However, this contradicts the statement in Document [9]. Therefore, we must rely on the information in Document [9], which states that the citric acid cycle produces 10 ATP per acetyl-CoA. Given that the cycle produces 3 NADH, 1 FADH2, and 1 GTP per acetyl-CoA, the total ATP yield per turn of the cycle is 10 ATP. Since the cycle produces 2 CO2 molecules per acetyl-CoA, the correct answer is 2 CO2 and 10 ATP.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_367",
+            "title": "Cell_Biology_Alberts",
+            "content": "tricarboxylic acid cycle or the Krebs cycle. The citric acid cycle accounts for about two-thirds of the total oxidation of carbon compounds in most cells, and its major end products are CO2 and high-energy electrons in the form of NADH. The CO2 is released as a waste product, while the high-energy electrons from NADH are passed to a membrane-bound electron-transport chain (discussed in Chapter 14), eventually combining with O2 to produce H2O. The citric acid cycle itself does not use gaseous O2 (it uses oxygen atoms from H2O). But the cycle does require O2 in subsequent reactions to keep it going. This is because there is no other efficient way for the NADH to get rid of its electrons and thus regenerate the NAD+ that is needed."
+        },
+        {
+            "id": "Cell_Biology_Alberts_374",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201357 Simple overview of the citric acid cycle. The reaction of acetyl Coa with oxaloacetate starts the cycle by producing citrate (citric acid). in each turn of the cycle, two molecules of Co2 are produced as waste products, plus three molecules of naDh, one molecule of GTp, and one molecule of faDh2. The number of carbon atoms in each intermediate is shown in a yellow box. for details, see panel 2\u20139 (pp. 106\u2013107). O Figure 2\u201358 The structure of GTP. GTp and GDp are close relatives of aTp and aDp, respectively."
+        },
+        {
+            "id": "Cell_Biology_Alberts_368",
+            "title": "Cell_Biology_Alberts",
+            "content": "The citric acid cycle takes place inside mitochondria in eukaryotic cells. It results in the complete oxidation of the carbon atoms of the acetyl groups in acetyl CoA, converting them into CO2. But the acetyl group is not oxidized directly. Instead, this group is transferred from acetyl CoA to a larger, four-carbon molecule, oxaloacetate, to form the six-carbon tricarboxylic acid, citric acid, for which the subsequent cycle of reactions is named. The citric acid molecule is then gradually oxidized, allowing the energy of this oxidation to be harnessed to produce energy-rich activated carrier molecules. The chain of eight reactions forms a cycle because at the end the oxaloacetate is regenerated and enters a new turn of the cycle, as shown in outline in Figure 2\u201357."
+        },
+        {
+            "id": "Cell_Biology_Alberts_371",
+            "title": "Cell_Biology_Alberts",
+            "content": "NET RESULT: ONE TURN OF THE CYCLE PRODUCES THREE NADH, ONE GTP, AND ONE FADH2 MOLECULE, AND RELEASES TWO MOLECULES OF CO2 process of oxidative phosphorylation, the only step in the oxidative catabolism of foodstuffs that directly requires gaseous oxygen (O2) from the atmosphere. Panel 2\u20139 (pp. 106\u2013107) and Movie 2.6 present the complete citric acid cycle. Water, rather than molecular oxygen, supplies the extra oxygen atoms required to make CO2 from the acetyl groups entering the citric acid cycle. As illustrated in the panel, three molecules of water are split in each cycle, and the oxygen atoms of some of them are ultimately used to make CO2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_376",
+            "title": "Biochemistry_Lippinco",
+            "content": "I. CYCLE OVERVIEW The tricarboxylic acid cycle ([TCA cycle] also called the citric acid cycle, or the Krebs cycle) plays several roles in metabolism. It is the final pathway where the oxidative catabolism of carbohydrates, amino acids, and fatty acids converge, their carbon skeletons being converted to carbon dioxide (CO2), as shown in cycle. The TCA cycle is an aerobic pathway, because oxygen (O2) is required as the final electron acceptor. Reactions such as the catabolism of some amino acids generate intermediates of the cycle and are called anaplerotic (from the Greek for \u201cfilling up\u201d) reactions. The TCA cycle also provides intermediates for a number of important anabolic reactions, such as glucose formation from the carbon skeletons of some amino acids and the synthesis of some amino acids (see p. 267) and heme (see p. 278). Therefore, this cycle should not be viewed as a closed system but, instead, as an open one with compounds entering and leaving as required."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3784",
+            "title": "Cell_Biology_Alberts",
+            "content": "The acetyl groups in acetyl CoA are oxidized in the matrix via the citric acid cycle, also called the Krebs cycle (see Figure 2\u201357 and Movie 2.6). The oxidation of these carbon atoms in acetyl CoA produces CO2, which diffuses out of the mitochondrion to be released to the environment as a waste product. More importantly, the citric acid cycle saves a great deal of the bond energy released by this oxidation in the form of electrons carried by NADH. This NADH transfers its electrons from the matrix to the electron-transport chain in the inner mitochondrial membrane, where\u2014through the chemiosmotic coupling process described previously (see Figures 14\u20132 and 14\u20133)\u2014the energy that was carried by NADH electrons is converted into phosphate-bond energy in ATP. Figure 14\u201310 outlines this sequence of reactions schematically."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6831",
+            "title": "Cell_Biology_Alberts",
+            "content": "citric acid cycle [tricarboxylic acid (TCA) cycle, Krebs cycle] Central metabolic pathway found in aerobic organisms. Oxidizes acetyl groups derived from food molecules, generating the activated carriers NADH and FADH2, some GTP, and waste CO2. In eukaryotic cells, it occurs in the mitochondria. (Panel 2\u20139, pp. 106\u2013107) clamp loader Protein complex that utilizes ATP hydrolysis to load the sliding clamp on to a primer\u2013template junction in the process of DNA replication."
+        },
+        {
+            "id": "Cell_Biology_Alberts_369",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have thus far discussed only one of the three types of activated carrier molecules that are produced by the citric acid cycle; NADH, the reduced form of the NAD+/NADH electron carrier system (see Figure 2\u201336). In addition to three molecules of NADH, each turn of the cycle also produces one molecule of FADH2 (reduced flavin adenine dinucleotide) from FAD (see Figure 2\u201339), and one molecule of the ribonucleoside triphosphate GTP from GDP. The structure of GTP is illustrated in Figure 2\u201358. GTP is a close relative of ATP, and the transfer of its terminal phosphate group to ADP produces one ATP molecule in each cycle. As we discuss shortly, the energy that is stored in the readily transferred electrons of NADH and FADH2 will be utilized subsequently for ATP production through the rest of hydrocarbon tail fatty acyl CoA shortened by two carbons"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3863",
+            "title": "Cell_Biology_Alberts",
+            "content": "phosphorylation, each pair of electrons donated by the NADH produced in mitochondria can provide energy for the formation of about 2.5 molecules of ATP. Oxidative phosphorylation also produces 1.5 ATP molecules per electron pair from the FADH2 produced by succinate dehydrogenase in the mitochondrial matrix, and from the NADH molecules produced by glycolysis in the cytosol. From the product yields of glycolysis and the citric acid cycle, we can calculate that the complete oxidation of one molecule of glucose\u2014starting with glycolysis and ending with oxidative phosphorylation\u2014gives a net yield of about 30 molecules of ATP. Nearly all this ATP is produced by the mitochondrial ATP synthase."
+        },
+        {
+            "id": "First_Aid_Step1_72",
+            "title": "First_Aid_Step1",
+            "content": "Also called Krebs cycle. Pyruvate \u008e acetyl-CoA produces 1 NADH, 1 CO2. The TCA cycle produces 3 NADH, 1 FADH2, 2 CO2, 1 GTP per acetyl-CoA = 10 ATP/ acetyl-CoA (2\u00d7 everything per glucose). TCA cycle reactions occur in the mitochondria. \u03b1-ketoglutarate dehydrogenase complex requires the same cofactors as the pyruvate dehydrogenase complex (vitamins B1, B2, B3, B5, lipoic acid). Citrate Is Krebs\u2019 Starting Substrate For Making Oxaloacetate. Electron transport NADH electrons from glycolysis enter mitochondria via the malate-aspartate or glycerol-3chain and oxidative phosphate shuttle. FADH2 electrons are transferred to complex II (at a lower energy level than phosphorylation NADH). The passage of electrons results in the formation of a proton gradient that, coupled to oxidative phosphorylation, drives the production of ATP."
+        },
+        {
+            "id": "Cell_Biology_Alberts_375",
+            "title": "Cell_Biology_Alberts",
+            "content": "O Figure 2\u201358 The structure of GTP. GTp and GDp are close relatives of aTp and aDp, respectively. At the end of this series of electron transfers, the electrons are passed to molecules of oxygen gas (O2) that have diffused into the mitochondrion, which simultaneously combine with protons (H+) from the surrounding solution to produce water. The electrons have now reached a low energy level, and all the available energy has been extracted from the oxidized food molecule. This process, termed oxidative phosphorylation (Figure 2\u201361), also occurs in the plasma membrane of bacteria. As one of the most remarkable achievements of cell evolution, it is a central topic of Chapter 14. In total, the complete oxidation of a molecule of glucose to H2O and CO2 is used by the cell to produce about 30 molecules of ATP. In contrast, only 2 molecules of ATP are produced per molecule of glucose by glycolysis alone. amino acids and nucleotides are part of the nitrogen Cycle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_364",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Citric acid Cycle Generates naDh by oxidizing acetyl Groups to Co2 In the nineteenth century, biologists noticed that in the absence of air cells produce lactic acid (for example, in muscle) or ethanol (for example, in yeast), while in its presence they consume O2 and produce CO2 and H2O. Efforts to define the pathways of aerobic metabolism eventually focused on the oxidation of pyruvate and led in 1937 to the discovery of the citric acid cycle, also known as the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_376",
+            "title": "Cell_Biology_Alberts",
+            "content": "amino acids and nucleotides are part of the nitrogen Cycle So far we have concentrated mainly on carbohydrate metabolism and have not yet considered the metabolism of nitrogen or sulfur. These two elements are important constituents of biological macromolecules. Nitrogen and sulfur atoms pass Figure 2\u201359 Glycolysis and the citric acid cycle provide the precursors needed to synthesize many important biological molecules. The amino acids, nucleotides, lipids, sugars, and other molecules\u2014shown here as products\u2014in turn serve as the precursors for the many macromolecules of the cell. each black arrow in this diagram denotes a single enzyme-catalyzed reaction; the red arrows generally represent pathways with many steps that are required to produce the indicated products. from compound to compound and between organisms and their environment in a series of reversible cycles."
+        },
+        {
+            "id": "Cell_Biology_Alberts_442",
+            "title": "Cell_Biology_Alberts",
+            "content": "HSCoAHSHSCoAHSCoACH2OCCOO\u2013COO\u2013CH2OOCCOO\u2013COO\u2013COO\u2013CH2CH3Cnext cycle + Step 1 Step 2 Step 3 Step 4 Step 6 Step 7 Step 8 Step 5 citrate (6C) isocitrate (6C) succinyl CoA (4C)succinate (4C) fumarate (4C) malate (4C) oxaloacetate (4C) oxaloacetate (4C) pyruvate \u02dc-ketoglutarate (5C) + H+ + H+ + H+ + H+ (2C) CITRIC ACID CYCLE Overview of the complete citric acid cycle. The two carbons from acetyl CoA that enter this turn of the cycle (shadowed in red ) will be converted to CO2 in subsequent turns of the cycle: it is the two carbons shadowed in blue that are converted to CO2 in this cycle. CGTPGDPNADHNADHNADHNAD+NAD+NAD+Pi FADFADH2Step 1 106 PaNel 2\u20139: The Complete Citric acid Cycle NADHNAD+ reaction, in which water is aconitaseadded back, moves the hydroxyl group from one carbon atom to its neighbor."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3918",
+            "title": "Cell_Biology_Alberts",
+            "content": "The elaborate series of reactions in which CO2 combines with ribulose 1,5-bisphosphate to produce a simple sugar\u2014a portion of which is used to regenerate ribulose 1,5-bisphosphate\u2014forms a cycle, called the carbon-fixation cycle, or the Calvin cycle (Figure 14\u201341). This cycle was one of the first metabolic pathways to be worked out by applying radioisotopes as tracers in biochemistry. As indicated, each turn of the cycle converts six molecules of 3-phosphoglycerate to three molecules of ribulose 1,5-bisphosphate plus one molecule of glyceraldehyde 3-phosphate. Glyceraldehyde 3-phosphate, the three-carbon sugar produced by the cycle, then provides the starting material for the synthesis of many other sugars and all of the other organic molecules that form the plant. Sugars Generated by Carbon Fixation Can Be Stored as Starch or Consumed to produce atp"
+        },
+        {
+            "id": "Cell_Biology_Alberts_443",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the frst of four oxidation steps in the cycle, the carbon carrying the hydroxyl group is converted to a carbonyl group. The immediate product is unstable, losing CO2 while still bound to the enzyme. The \u02dc-ketoglutarate dehydrogenase complex closely resembles the large enzyme complex that converts pyruvate to acetyl CoA, the pyruvate dehydrogenase complex in Figure 13\u201310. It likewise catalyzes an oxidation that produces NADH, CO2, and a high-energy thioester bond to coenzyme A (CoA). A phosphate molecule from solution displaces the CoA, forming a high-energy phosphate linkage to succinate. This phosphate is then passed to GDP to form GTP. (In bacteria and plants, ATP is formed instead.) In the third oxidation step in the cycle, FAD accepts two hydrogen atoms from succinate. The addition of water to fumarate places a hydroxyl group next to a carbonyl carbon. COO\u2013COO\u2013HOHHHHCCCisocitrate isocitrate dehydrogenase CO2COO\u2013COO\u2013COO\u2013HHHOCCCoxalosuccinate intermediate COO\u2013+ H+"
+        },
+        {
+            "id": "Cell_Biology_Alberts_382",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201361 The final stages of oxidation of food molecules. molecules of naDh and faDh2 (faDh2 is not shown) are produced by the citric acid cycle. These activated carriers donate high-energy electrons that are eventually used to reduce oxygen gas to water. a major portion of the energy released during the transfer of these electrons along an electron-transfer chain in the mitochondrial inner membrane (or in the plasma membrane of bacteria) is harnessed to drive the synthesis of aTp\u2014 hence the name oxidative phosphorylation (discussed in Chapter 14). metabolism is highly organized and Regulated One gets a sense of the intricacy of a cell as a chemical machine from the relation of glycolysis and the citric acid cycle to the other metabolic pathways sketched out in Figure 2\u201363. This chart represents only some of the enzymatic pathways in a human cell. It is obvious that our discussion of cell metabolism has dealt with only a tiny fraction of the broad field of cell chemistry."
+        },
+        {
+            "id": "Cell_Biology_Alberts_372",
+            "title": "Cell_Biology_Alberts",
+            "content": "In addition to pyruvate and fatty acids, some amino acids pass from the cytosol into mitochondria, where they are also converted into acetyl CoA or one of the other intermediates of the citric acid cycle. Thus, in the eukaryotic cell, the mitochondrion is the center toward which all energy-yielding processes lead, whether they begin with sugars, fats, or proteins. Both the citric acid cycle and glycolysis also function as starting points for important biosynthetic reactions by producing vital carbon-containing intermediates, such as oxaloacetate and \u03b1-ketoglutarate. Some of these substances produced by catabolism are transferred back from the mitochondria to the cytosol, where they serve in anabolic reactions as precursors for the synthesis of many essential molecules, such as amino acids (Figure 2\u201359). electron Transport Drives the synthesis of the majority of the aTp in most Cells"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4037",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is the mutation rate so much higher in mitochondria than in the nucleus (and chloroplasts)? Could this high rate have been useful to the cell? What mechanisms and pathways have been used during evolution to transfer genes from the mitochondrion to the nucleus? how many seconds would it take the heart to consume an amount of ATP equal to its steady-state levels? (Complete oxidation of one molecule of glucose to CO2 yields 30 ATP, 26 of which are derived by oxidative phosphorylation using the 12 pairs of electrons captured in the electron carriers NADH and FADH2.) 14\u20136 Both H+ and Ca2+ are ions that move through the cytosol. Why is the movement of H+ ions so much faster than that of Ca2+ ions? How do you suppose the speed of these two ions would be affected by freezing the solution? Would you expect them to move faster or slower? Explain your answer."
+        },
+        {
+            "id": "Physiology_Levy_3783",
+            "title": "Physiology_Levy",
+            "content": "metabolize G6P to pyruvate via the glycolytic pathway, which yields a small amount of ATP without requiring mitochondria or O2. Cells without mitochondria ferment pyruvate to lactate and export lactate as waste. Most cells import pyruvate into mitochondria, convert it to acetyl CoA by pyruvate dehydrogenase, and then condense acetyl CoA with oxaloacetate to form citrate. Citrate is cycled through the tricarboxylic acid (TCA) cycle back to oxaloacetate. This metabolism of pyruvate through the TCA cycle releases CO2 as waste and generates guanosine triphosphate (GTP) along with flavin adenine dinucleotide hydride (FADH2) and nicotine adenine dinucleotide hydride (NADH). FADH2 and NADH are used by the electron transport system and oxidative phosphorylation to ultimately generate relatively large amounts of ATP through a process that is absolutely dependent on O2. Cells with no or very few mitochondria (e.g., erythrocytes, lens cells of the eye) are absolutely dependent on glucose for"
+        },
+        {
+            "id": "Cell_Biology_Alberts_388",
+            "title": "Cell_Biology_Alberts",
+            "content": "should we search for? \u2022 is the shared chemistry inside all Glucose and other food molecules are broken down by controlled stepwise oxidation living cells a clue for deciphering the to provide chemical energy in the form of ATP and NADH. There are three main sets environment on earth where the first of reactions that act in series, the products of each being the starting material for the cells originated? for example, what next: glycolysis (which occurs in the cytosol), the citric acid cycle (in the mitochon-might we conclude from the universally shared high K+/na+ ratio, neutral ph, drial matrix), and oxidative phosphorylation (on the inner mitochondrial mem and central role of phosphates?"
+        },
+        {
+            "id": "Biochemistry_Lippincott_393",
+            "title": "Biochemistry_Lippinco",
+            "content": "III. ENERGY PRODUCED BY THE CYCLE Four pairs of electrons are transferred during one turn of the TCA cycle: three pairs reducing three NAD+ to NADH and one pair reducing FAD to FADH2. Oxidation of one NADH by the ETC leads to formation of three ATP, whereas oxidation of FADH2 produces two ATP (see p. 77). The total yield of ATP from the oxidation of one acetyl CoA is shown in Figure 9.7. Figure 9.8 summarizes the reactions of the TCA cycle. [Note: The cycle does not involve the net consumption or production of intermediates. Two carbons entering as acetyl CoA are balanced by two CO2 exiting.] dinucleotides; GDP and GTP = guanosine di-and triphosphates; Pi = inorganic phosphate. IV. CYCLE REGULATION"
+        },
+        {
+            "id": "Cell_Biology_Alberts_363",
+            "title": "Cell_Biology_Alberts",
+            "content": "Sugars and fats are the major energy sources for most nonphotosynthetic organisms, including humans. However, most of the useful energy that can be extracted from the oxidation of both types of foodstuffs remains stored in the acetyl CoA molecules that are produced by the two types of reactions just described. The citric acid cycle of reactions, in which the acetyl group (\u2013COCH3) in acetyl CoA is oxidized to CO2 and H2O, is therefore central to the energy metabolism of aerobic organisms. In eukaryotes, these reactions all take place in mitochondria. We should therefore not be surprised to discover that the mitochondrion is the place where most of the ATP is produced in animal cells. In contrast, aerobic bacteria carry out all of their reactions, including the citric acid cycle, in a single compartment, the cytosol. The Citric acid Cycle Generates naDh by oxidizing acetyl Groups to Co2"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3921",
+            "title": "Cell_Biology_Alberts",
+            "content": "6 6 6 6 6 6 \u00d7 3-phosphoglycerate 6 \u00d7 1,3-bisphosphoglycerate 6 \u00d7 glyceraldehyde 3-phosphate 1 MOLECULE OF GLYCERALDEHYDE 3-PHOSPHATE LEAVES THE CYCLE 5 \u00d7 glyceraldehyde 3-phosphate 3 \u00d7ribulose 1,5-bisphosphate 3C 5C 3C 3C3C Rubisco ATPADPATPADPNADPHNADP+Pi Pi CARBON-FIXATION (CALVIN) CYCLE NET RESULT: For every 3 molecules of CO2 that enter the cycle, 1 molecule of glyceraldehyde 3-phosphate is produced and 9 molecules of ATP + 6 molecules of NADPH are consumed REGENERATIONCARBOXYLATIONREDUCTION sugars, fats, amino acids glycolytic pathway (see Figure 2\u201346), where it is converted to pyruvate. Both that pyruvate and the fatty acids can enter the plant cell mitochondria and be fed into the citric acid cycle, ultimately leading to the production of large amounts of ATP by oxidative phosphorylation (Figure 14\u201342). Plants use this ATP in the same way that animal cells and other nonphotosynthetic organisms do to power a variety of metabolic reactions."
+        },
+        {
+            "id": "Histology_Ross_297",
+            "title": "Histology_Ross",
+            "content": "\u0081 Intermembrane space. This space is located between the inner and outer membranes and contains specific enzymes that use the ATP generated in the inner membrane. These enzymes include creatine kinase, adenylate kinase, and cytochrome c. The latter is an important factor in initiating apoptosis (see page 94). \u0081 Matrix. The mitochondrial matrix is surrounded by the inner mitochondrial membrane and contains the soluble enzymes of the citric acid cycle (Krebs cycle) and the enzymes involved in fatty-acid -oxidation. The major products of the matrix are CO2 and reduced NADH, which is the source of electrons for the electron-transport chain."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3925",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201342 How chloroplasts and mitochondria collaborate to supply cells with both metabolites and ATP. (a)the inner chloroplast membrane is impermeable to the atp and NaDph that are produced in the stroma during the light reactions of photosynthesis. these molecules are therefore funneled into the carbon-fixation cycle, where they are used to make sugars. the resulting sugars and their metabolites are either stored within the chloroplast\u2014in the form of starch or fat\u2014or exported to the rest of the plant cell. there, they can enter the energy-generating pathway that ends in atp synthesis linked to oxidative phosphorylation inside the mitochondrion. Unlike the chloroplast, mitochondrial membranes contain a specific transporter that makes them permeable to atp (see Figure 14\u201334). Note that the O2 released to the atmosphere by photosynthesis in chloroplasts is used for oxidative phosphorylation in mitochondria; similarly, the CO2 released by the citric acid cycle in mitochondria is used"
+        },
+        {
+            "id": "Biochemistry_Lippincott_314",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Hydrolysis of complex molecules: In the first stage, complex molecules are broken down into their component building blocks. For example, proteins are degraded to amino acids, polysaccharides to monosaccharides, and fats (triacylglycerols) to free fatty acids and glycerol. 2. Conversion of building blocks to simple intermediates: In the second stage, these diverse building blocks are further degraded to acetyl coenzyme A (CoA) and a few other simple molecules. Some energy is captured as ATP, but the amount is small compared with the energy produced during the third stage of catabolism. 3. Oxidation of acetyl coenzyme A: The tricarboxylic acid (TCA) cycle (see p. 109) is the final common pathway in the oxidation of fuel molecules that produce acetyl CoA. Oxidation of acetyl CoA generates large amounts of ATP via oxidative phosphorylation as electrons flow from NADH and flavin adenine dinucleotide (FADH2) to oxygen ([O2] see p. 73). C. Anabolic pathways"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3924",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201341 The carbon-fixation cycle. this central metabolic pathway allows organic molecules to be produced from CO2 and h2O. In the first stage of the cycle (carboxylation), CO2 is added to ribulose 1,5-bisphosphate, as shown in Figure 14\u201340. In the second stage (reduction), atp and NaDph are consumed to produce glyceraldehyde 3-phosphate molecules. In the final stage (regeneration), some of the glyceraldehyde 3-phosphate produced is used to regenerate ribulose 1,5-bisphosphate. Other glyceraldehyde 3-phosphate molecules are either converted to starch and fat in the chloroplast stroma, or transported out of the chloroplast into the cytosol. the number of carbon atoms in each type of molecule is indicated in yellow. there are many intermediates between glyceraldehyde 3-phosphate and ribulose 5-phosphate, but they have been omitted here for clarity. the entry of water into the cycle is also not shown (but see Figure 14\u201340)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_345",
+            "title": "Cell_Biology_Alberts",
+            "content": "Glycolysis illustrates how enzymes Couple oxidation to energy storage The formation of ATP during glycolysis provides a particularly clear demonstration of how enzymes couple energetically unfavorable reactions with favorable ones, thereby driving the many chemical reactions that make life possible. Two central reactions in glycolysis (steps 6 and 7) convert the three-carbon sugar intermediate glyceraldehyde 3-phosphate (an aldehyde) into 3-phosphoglycerate (a carboxylic acid; see Panel 2\u20138, pp. 104\u2013105), thus oxidizing an aldehyde group to a carboxylic acid group. The overall reaction releases enough free energy to convert a molecule of ADP to ATP and to transfer two electrons (and a proton) from the aldehyde to NAD+ to form NADH, while still liberating enough heat to the environment to make the overall reaction energetically favorable (\u2206G\u00b0 for the overall reaction is \u201312.5 kJ/mole)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_260",
+            "title": "Cell_Biology_Alberts",
+            "content": "Photosynthesis (discussed in detail in Chapter 14) and respiration are complementary processes (Figure 2\u201318). This means that the transactions between plants and animals are not all one way. Plants, animals, and microorganisms have existed together on this planet for so long that many of them have become an essential part of the others\u2019 environments. The oxygen released by photosynthesis is consumed in the combustion of organic molecules during aerobic respiration. And some of the CO2 molecules that are fixed today into organic molecules by photosynthesis in a green leaf were yesterday released into the atmosphere by the respiration of an animal\u2014or by the respiration of a fungus or bacterium decomposing dead organic matter. We therefore see that carbon utilization forms a huge cycle that involves the biosphere (all of the living organisms on Earth) as a whole (Figure 2\u201319). Similarly, atoms of nitrogen, phosphorus, and sulfur move between the living and nonliving worlds in cycles that"
+        },
+        {
+            "id": "Cell_Biology_Alberts_340",
+            "title": "Cell_Biology_Alberts",
+            "content": "large activation energy overcome by the heat from a fre all free energy is released as heat; none is stored Two molecules of NADH are formed per molecule of glucose in the course of glycolysis. In aerobic organisms, these NADH molecules donate their electrons to the electron-transport chain described in Chapter 14, and the NAD+ formed from the NADH is used again for glycolysis (see step 6 in Panel 2\u20138, pp. 104\u2013105). fermentations produce aTp in the absence of oxygen For most animal and plant cells, glycolysis is only a prelude to the final stage of the breakdown of food molecules. In these cells, the pyruvate formed by glycolysis is rapidly transported into the mitochondria, where it is converted into CO2 plus acetyl CoA, whose acetyl group is then completely oxidized to CO2 and H2O."
+        },
+        {
+            "id": "Cell_Biology_Alberts_451",
+            "title": "Cell_Biology_Alberts",
+            "content": "fell D (1997) Understanding the Control of metabolism. london: portland press. fothergill-Gilmore la (1986) The evolution of the glycolytic pathway. Trends Biochem. Sci. 11, 47\u201351. friedmann hC (2004) from Butyribacterium to E. coli: an essay on unity in biochemistry. Perspect. Biol. Med. 47, 47\u201366. heinrich R, mel\u00e9ndez-hevia e, montero f et al. (1999) The structural design of glycolysis: an evolutionary approach. Biochem. Soc. Trans. 27, 294\u2013298. huynen ma, Dandekar T & Bork p (1999) Variation and evolution of the citric-acid cycle: a genomic perspective. Trends Microbiol. 7, 281\u2013291. Koonin eV (2014) The origins of cellular life. Antonie van Leeuwenhoek 106, 27\u201341. Kornberg hl (2000) Krebs and his trinity of cycles. Nat. Rev. Mol. Cell Biol. 1, 225\u2013228. Krebs ha (1970) The history of the tricarboxylic acid cycle. Perspect. Biol. Med. 14, 154\u2013170. Krebs ha & martin a (1981) Reminiscences and Reflections. oxford/ new York: Clarendon press/oxford University press."
+        }
+    ],
+    "scores": [
+        0.03893385044254986,
+        0.037103927348676125,
+        0.037095413044814285,
+        0.037075496005045235,
+        0.03706819438180401,
+        0.03626448687924098,
+        0.03382821591302816,
+        0.03250695817153611,
+        0.03159730522823785,
+        0.03139998309846381,
+        0.030413430196491516,
+        0.02991537214002796,
+        0.02833036887146003,
+        0.02702702702702703,
+        0.02566329617146314,
+        0.02395881820047348,
+        0.023933978479433023,
+        0.023876190547074835,
+        0.02387139999471691,
+        0.023808381664727873,
+        0.02376448687924098,
+        0.02373525825398155,
+        0.023246376811594204,
+        0.02298554458279662,
+        0.022660390457000627,
+        0.02188481713911553,
+        0.021699176303292104,
+        0.021346811891282184,
+        0.0204547572453639,
+        0.019881284174312445,
+        0.019506537770798905,
+        0.019079213989302377
+    ],
+    "execution_time": 80.46421813964844
+}

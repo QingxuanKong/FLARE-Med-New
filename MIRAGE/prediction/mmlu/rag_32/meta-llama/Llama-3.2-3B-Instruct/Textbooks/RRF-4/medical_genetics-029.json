@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-029",
+    "question": "If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.",
+    "options": {
+        "A": "1 in 4",
+        "B": "1 in 2",
+        "C": "2 in 3",
+        "D": "1"
+    },
+    "answer": "D",
+    "predict": "To solve this question, let's break down the concept of autosomal recessive disorders and how they are inherited. Autosomal recessive disorders are caused by mutations in one of the two copies of a gene that an individual inherits from each parent. For an individual to be affected by an autosomal recessive disorder, they must inherit two copies of the mutated gene (one from each parent). Since both parents are affected, they are likely to be homozygous for the mutated gene (having two copies of the mutated allele). When both parents are affected, the probability that each child will inherit two copies of the mutated gene (homozygous for the mutated allele) can be calculated as follows: - Each child has a 25% chance of inheriting the mutated allele from each parent (since each parent is likely to be homozygous for the mutated gene). - To inherit two copies of the mutated gene (homozygous), a child must inherit the mutated allele from both parents. - The probability of inheriting the mutated allele from both parents is the product of the probabilities of inheriting the mutated allele from each parent: 0.25 * 0.25 = 0.0625 (or 6.25%). However, since we are interested in the probability of inheriting two normal alleles (homozygous for the normal allele) or two mutated alleles (homozygous for the mutated allele), we must consider the entire probability space. The sum of the probabilities of all possible genotypes is 1. - The probability of inheriting two normal alleles (homozygous for the normal allele) is 0.75 (1 - 0.0625). - Therefore, the probability of inheriting two mutated alleles (homozygous for the mutated allele) is 0.0625. Since we want to find the probability that each child will be affected (homozygous for the mutated allele), we add the probabilities of inheriting two mutated alleles and two normal alleles: 0.0625 + 0.0625 = 0.125. To convert this to a fraction, we simplify 0.125 to 1/8. However, the question asks for the probability that each of their children will be affected, which is the same as the probability of inheriting two mutated alleles. The fraction 1/8 does not directly answer the question. Since the question is multiple-choice, let's evaluate the options given. A. 1 in 4 is equivalent to 0.25, which is not the correct probability. B. 1 in 2 is equivalent to 0.5, which is also not the correct probability. C. 2 in 3 is equivalent to 0.6666..., which is not the correct probability. D. 1 is incorrect because it implies a 100% chance, which is not the case. However, reevaluating the question, we realize that we made an incorrect assumption about the genotype of the parents. If both parents are affected, they are likely to be heterozygous for the mutated gene (having one copy of the mutated allele and one copy of the normal allele). In this case, the probability that each child will be affected (homozygous for the mutated allele) is 0.25 * 0.25 = 0.0625 or 1 in 16. However, this is still not among the options. Looking at the options, the closest answer is: A. 1 in 4, which is equivalent to 0.25, but we calculated the probability to be 1 in 16. However, if we re-evaluate the question, we realize that the probability of two parents being heterozygous for the mutated gene and each child inheriting the mutated allele is indeed 1 in 4, since the probability of each child inheriting the mutated allele from each parent is 0.5. Therefore, the correct answer is: {\"step_by_step_thinking\": \"Given that both parents are affected with the same autosomal recessive disorder, the probability that each of their children will be affected is 1 in 4, as each child has a 50% chance of inheriting the mutated allele from each parent.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_4861",
+            "title": "InternalMed_Harrison",
+            "content": "In autosomal dominant disorders, individuals are affected in successive generations; the disease does not occur in the offspring of unaffected individuals. Males and females are affected with equal frequency because the defective gene resides on one of the 22 autosomes (Fig. 82-13A). Autosomal dominant mutations alter one of the two alleles at a given locus. Because the alleles segregate randomly at meiosis, the probability that an offspring will be affected is 50%. Unless there is a new germline mutation, an affected individual has an affected parent. Children with a normal genotype do not transmit the disorder. Due to differences in penetrance or expressivity (see above), the Chapter 82 Principles of Human Genetics Heterozygous Heterozygous Female male female carrier of X-linked trait FIGURE 82-11 Standard pedigree symbols."
+        },
+        {
+            "id": "InternalMed_Harrison_4866",
+            "title": "InternalMed_Harrison",
+            "content": "In most instances, an affected individual is the offspring of heterozygous parents. In this situation, there is a 25% chance that the offspring will have a normal genotype, a 50% probability of a heterozygous state, and a 25% risk of homozygosity for the recessive alleles (Figs. 82-10, 82-13B). In the case of one unaffected heterozygous and one affected homozygous parent, the probability of disease increases to 50% for each child. In this instance, the pedigree analysis mimics an autosomal dominant mode of inheritance (pseudodominance). In contrast to autosomal dominant disorders, new mutations in recessive alleles are rarely manifest because they usually result in an asymptomatic carrier state."
+        },
+        {
+            "id": "Pathology_Robbins_1497",
+            "title": "Pathology_Robbins",
+            "content": "Disorders of Autosomal Recessive Inheritance Disorders of autosomal recessive inheritance are manifested in the homozygous state. They occur when both of the alleles at a given gene locus are mutants. Therefore, such disorders are characterized by the following features: (1) The trait does not usually affect the parents, who are carriers of one diseased allele, but multiple siblings may show the disease; (2) siblings have one chance in four of being affected (i.e., the recurrence risk is 25% for each birth); and (3) if the mutant gene occurs with a low frequency in the population, there is a strong likelihood that the affected patient (the proband) is the product of a consanguineous marriage. They make up the largest group of mendelian disorders. In contrast with the features of autosomal dominant diseases, the following features generally apply to most autosomal recessive disorders: The expression of the defect tends to be more uniform than in autosomal dominant disorders."
+        },
+        {
+            "id": "First_Aid_Step1_40",
+            "title": "First_Aid_Step1",
+            "content": "Modes of inheritance Autosomal dominant Often due to defects in structural genes. Many generations, both males and females are affected. AaaaAaAaaaaa Often pleiotropic (multiple apparently unrelated effects) and variably expressive (different between individuals). Family history crucial to diagnosis. With one affected (heterozygous) parent, on average, 1/2 of children affected. Autosomal recessive With 2 carrier (heterozygous) parents, on average: Often due to enzyme deficiencies. Usually seen \u00bc of children will be affected (homozygous), in only 1 generation. Commonly more severe 1/2 of children will be carriers, and \u00bc of than dominant disorders; patients often present children will be neither affected nor carriers. in childhood. Aa \u008f risk in consanguineous families. Unaffected individual with affected sibling has 2/3 probability of being a carrier."
+        },
+        {
+            "id": "Pediatrics_Nelson_955",
+            "title": "Pediatrics_Nelson",
+            "content": "Affected individual Individual with decreased penetrance Figure 47-2 Pedigree showing decreased penetrance for an auto-somal dominant disorder. Proband (arrow) is affected. Maternal grandfather also is affected. The individual\u2019s mother is presumed to be the carrier of the gene, even though she may show only slight symptoms of disease. Each child of an affected parent has a one in two chance of being affected Males and females are equally affected Male-to-male transmission occurs Traits generally involve mutations in genes that code for regulatory nerve roots and sciatica. People with ACH have normal life spans and normal intelligence."
+        },
+        {
+            "id": "Pediatrics_Nelson_950",
+            "title": "Pediatrics_Nelson",
+            "content": "Figure 47-1 Pedigree showing affected individuals and carriers. To be useful, pedigrees should include representatives of at least three generations of family members. If a single copy of a gene bearing a mutation is sufficient to cause disease and that gene is not on one of the sex chromosomes, that condition is inherited in an AD fashion (Table 47-1). In AD disorders, an affected parent has a 50% chance of passing the mutated gene to each child (Fig. 47-2; Table 47-2). Possessing one working gene and one nonworking gene is termed heterozygous. If both copies are the same, they are referred to as homozygous."
+        },
+        {
+            "id": "First_Aid_Step1_39",
+            "title": "First_Aid_Step1",
+            "content": "If p and q represent the frequencies of alleles A and a, respectively, in a population, then p + q = 1: p2 = frequency of homozygosity for allele A q2 = frequency of homozygosity for allele a 2pq = frequency of heterozygosity (carrier frequency, if an autosomal recessive disease) Therefore, the sum of the frequencies of these genotypes is p2 + 2pq + q2 = 1. The frequency of an X-linked recessive disease in males = q and in females = q2. Hardy-Weinberg law assumptions include: No mutation occurring at the locus Natural selection is not occurring If a population is in Hardy-Weinberg equilibrium, then the values of p and q remain constant from generation to generation. Disorders of imprinting Imprinting\u2014one gene copy is silenced by methylation, and only the other copy is expressed \u008e parent-of-origin effects. Modes of inheritance Autosomal dominant Often due to defects in structural genes. Many generations, both males and females are affected. AaaaAaAaaaaa"
+        },
+        {
+            "id": "Pediatrics_Nelson_998",
+            "title": "Pediatrics_Nelson",
+            "content": "A pedigree usually is drawn to help visualize various inheritance patterns. Answers to questions about the family help determine if there is an autosomal dominant, AR, X-linked, or sporadic disorder. When a child is affected with the new onset of an AD disorder, it is necessary to closely examine the parents to check for the presence of manifestations. If the parents are unaffected, the child\u2019s condition is most likely the result of a new mutation; the risk of recurrence is extremely low (although not 0, because of the possibility of gonadal mosaicism in one of the parents). When one parent is affected (even mildly so due to varying penetrance), the recurrence risk rises to 50%. With X-linked disorders, the focus is on the maternal family history to determine if there is a significant enough risk to warrant testing."
+        },
+        {
+            "id": "Pathology_Robbins_1493",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 The use of proactive prenatal genetic screening in high-risk populations (e.g., persons of Ashkenazi Jewish descent) has significantly reduced the incidence ( 7.1 ) of certain genetic disorders such as Tay-Sachs disease. Disorders of Autosomal Dominant Inheritance Disorders of autosomal dominant inheritance are manifested in the heterozygous state, so at least one parent in an index case usually is affected. Both males and females can be affected, and both sexes can transmit the condition. When an affected person marries an unaffected one, each child has one chance in two of having the disease. The following features also pertain to autosomal dominant diseases: With any autosomal dominant disorder, some patients do not have affected parents. Such patients owe their disorder to new mutations involving either the egg or the sperm from which they were derived. Their siblings are neither affected nor at increased risk for development of the disease."
+        },
+        {
+            "id": "Pediatrics_Nelson_963",
+            "title": "Pediatrics_Nelson",
+            "content": "Males and females are likely to be affected equally Rare traits are likely to be associated with parental consanguinity Traits generally involve mutations in genes that code for enzymes (e.g., phenylalanine hydroxylase\u2013deficient in PKU) and are associated with serious illness and shortened life span PKU, Phenylketonuria. Most disorders involving the X chromosome are recessive. With only one copy of the X chromosome, males are more likely to manifest these diseases than females. Each son born to a female carrier of an X-linked recessive trait has a 50% chance of inheriting the trait, but none of this woman\u2019s daughters would be affected (each daughter has a 50% chance of being a carrier). An affected father transmits the mutation to all of his daughters, who are carriers, but not to his sons; having received their father\u2019s Y chromosome, they would not be affected (thus there is no male-to-male transmission) (Tables 47-6, 47-7 and Fig. 47-4). SEE CHAPTER 182. SEE CHAPTER 151."
+        },
+        {
+            "id": "Obstentrics_Williams_1739",
+            "title": "Obstentrics_Williams",
+            "content": "Recessive diseases develop only when both gene copies are abnormal. Many enzyme deficiency diseases display autosomal recessive inheritance, and enzyme activity in the carrier is usually about half of normal. Unless carriers are screened for a specific disease, such as cystic ibrosis, they usually are recognized only after the birth of an afected child or the diagnosis of an afected family member (Chap. 14, p. 289). If a couple has a child with an autosomal recessive disease, the recurrence risk is 25 percent for each subsequent pregnancy. hus, 1/4 of ofspring will be homozygous normal, 2/4 will be heterozygous carriers, and 114 will be homozygous abnormal. In other words, three of four children will be phenotypically normal, and 2/3 of phenotypically normal siblings are actually carriers."
+        },
+        {
+            "id": "Pathology_Robbins_1498",
+            "title": "Pathology_Robbins",
+            "content": "The expression of the defect tends to be more uniform than in autosomal dominant disorders. Complete penetrance is common. Onset is frequently early in life. Although new mutations for recessive disorders do occur, they are rarely detected clinically. Because the affected person is an asymptomatic heterozygote, several generations may pass before the descendants of such a person mate with other heterozygotes and produce affected offspring. In many cases, enzymes are affected by the mutation. In heterozygotes, equal amounts of normal and defective enzyme are synthesized. Usually the natural \u201cmargin of safety\u201d ensures that cells with half of their complement of the enzyme function normally."
+        },
+        {
+            "id": "InternalMed_Harrison_4858",
+            "title": "InternalMed_Harrison",
+            "content": "Monogenic Mendelian Disorders Monogenic human diseases are frequently referred to as Mendelian disorders because they obey the principles of genetic transmission originally set forth in Gregor Mendel\u2019s classic work. The continuously updated OMIM catalogue lists several thousand of these disorders and provides information about the clinical phenotype, molecular basis, allelic variants, and pertinent animal models (Table 82-1). The mode of inheritance for a given phenotypic trait or disease is determined by pedigree analysis. All affected and unaffected individuals in the family are recorded in a pedigree using standard symbols (Fig. 82-11). The principles of allelic segregation, and the transmission of alleles from parents to children, are illustrated in Fig. 82-12. One dominant (A) allele and one recessive (a) allele can display three Mendelian modes of inheritance: autosomal dominant, autosomal recessive, and X-linked. About 65% of human monogenic disorders are autosomal dominant,"
+        },
+        {
+            "id": "Pediatrics_Nelson_988",
+            "title": "Pediatrics_Nelson",
+            "content": "In some cultures, it is common for relatives to mate. This relatedness or consanguinity does not increase the likelihood of offspring having any particular single genetic disorder, but it may increase the chance that a child will be born with a rare autosomal recessive (AR) condition, as the mutated gene segregates through that family. Generally, the closer the relation between the partners, the greater the chance that the couple shares one or more mutated genes in common, increasing the risk that offspring will have an AR disorder. The risk of first cousins producing a child with an AR disorder is 1 in 64. In evaluating these couples, it is important to determine which ethnic group they belong to and to test for conditions commonly found in that group."
+        },
+        {
+            "id": "Neurology_Adams_7479",
+            "title": "Neurology_Adams",
+            "content": "Autosomal dominant mutations usually cause manifest disease in heterozygotes, but variations in the size of the gene abnormality can produce any one of several phenotypes. This poses a challenge to the current clinical and pathologic classifications of disease. Moreover, an identical clinical syndrome may be traced to a gene on two different chromosomes. Even more surprising, an estimated 28 percent of all gene loci have polymorphic rather than monomorphic effects\u2014that is, the same mutation has several different phenotypic expressions. Another problem is that of differentiating dominant from recessive inheritance. In small families, in which only one descendant is afflicted and the parent is seemingly normal, one may mistakenly conclude that the inheritance is recessive. Other characteristics of mutational diseases are penetrance, a measure of the proportion of individuals with a given genotype who will show the phenotype, and expressivity, referring to the severity of disease in an"
+        },
+        {
+            "id": "InternalMed_Harrison_4864",
+            "title": "InternalMed_Harrison",
+            "content": "normal, they may display subtle differences in phenotype that only become apparent with more precise testing or in the context of certain environmental influences. In sickle the offspring of parents with one dominant (A) and one recessive (a) allele. The distribution of the parental alleles to their offspring depends on the combination present in the parents. Filled symbols = affected individuals."
+        },
+        {
+            "id": "InternalMed_Harrison_4863",
+            "title": "InternalMed_Harrison",
+            "content": "autosomal recessive DisorDers In recessive disorders, the mutated alleles result in a complete or partial loss of function. They frequently involve enzymes in metabolic pathways, receptors, or proteins in signaling cascades. In an autosomal recessive disease, the affected individual, who can be of either sex, is a homozygote or compound heterozygote for a single-gene defect. With a few important exceptions, autosomal recessive diseases are rare and often occur in the context of parental consanguinity. The relatively high frequency of certain recessive disorders such as sickle cell anemia, cystic fibrosis, and thalassemia, is partially explained by a selective biologic advantage for the heterozygous state (see below). Although heterozygous carriers of a defective allele are usually clinically normal, they may display subtle differences in phenotype that only become apparent with more precise testing or in the context of certain environmental influences. In sickle the offspring of"
+        },
+        {
+            "id": "InternalMed_Harrison_4834",
+            "title": "InternalMed_Harrison",
+            "content": "genes that result in disease. Because each individual has two copies of each chromosome (one inherited from the mother and one inherited from the father), he or she can have only two alleles at a given locus. However, there can be many different alleles in the population. The normal or common allele is usually referred to as wild type. When alleles at a given locus are identical, the individual is homozygous. Inheriting identical copies of a mutant allele occurs in many autosomal recessive disorders, particularly in circumstances of consanguinity or isolated populations. If the alleles are different on the maternal and the paternal copy of the gene, the individual is heterozygous at this locus (Fig. 82-10). If two different mutant alleles are inherited at a given locus, the individual is said to be a compound heterozygote. Hemizygous is used to describe males with a mutation in an X chromosomal gene or a female with a loss of one X chromosomal locus."
+        },
+        {
+            "id": "Pediatrics_Nelson_949",
+            "title": "Pediatrics_Nelson",
+            "content": "To identify specific patterns of inheritance, geneticists construct and analyze pedigrees, which are pictorial representations of a family history. Males are represented by squares and females by circles. Matings are connected with a solid line between each partner\u2019s symbols. Unmarried couples are often connected by a dashed line. Children from a couple are represented below their parents and are the next generation. Grandparents, uncles, and aunts are added in similar fashion. Children of aunts and uncles also may be included. Ages or birthdays may be written next to or underneath each symbol. The proband (the patient who is the initial contact) is indicated with an arrow. Affected individuals are indicated by shading, or some other technique, which should be explained in a key. Carriers for a disorder (e.g., sickle cell disease) usually are indicated by a dot in the center of their symbol (Fig. 47-1). Figure 47-1 Pedigree showing affected individuals and carriers."
+        },
+        {
+            "id": "Obstentrics_Williams_1731",
+            "title": "Obstentrics_Williams",
+            "content": "A monogenic or mendelian disorder is caused by a mutation or alteration in a single locus or gene in one or both members of a gene pair. Types of mendelian inheritance include autosomal dominant, autosomal recessive, X-linked, and Y-linked. Other monogenic inheritance patterns, described subsequently, include mitochondrial inheritance, uniparental disomy, imprinting, and trinucleotide repeat expansion-also termed anticipation. By age 25, approximately 0.4 percent of the population exhibits an abnormality attributed to a monogenic disorder, and 2 percent will have at least one such disorder during their lifetime (Table 13-3)."
+        },
+        {
+            "id": "First_Aid_Step1_41",
+            "title": "First_Aid_Step1",
+            "content": "Aa \u008f risk in consanguineous families. Unaffected individual with affected sibling has 2/3 probability of being a carrier. X-linked recessive Sons of heterozygous mothers have a 50% Commonly more severe in males. Females chance of being affected. No male-to-male usually must be homozygous to be affected. transmission. Skips generations. transmit to all daughters but no sons. XXXXXXXYXYXYXXXXXXXYXYXY X-linked dominant Transmitted through both parents. Mothers Examples: fragile X syndrome, Alport syndrome, transmit to 50% of daughters and sons; fathers hypophosphatemic rickets (also called X-linked hypophosphatemia)\u2014phosphate wasting at proximal tubule \u2022 rickets-like presentation. Mitochondrial Transmitted only through the mother. All inheritance offspring of affected females may show signs of disease. Variable expression in a population or even within a family due to heteroplasmy."
+        },
+        {
+            "id": "First_Aid_Step1_38",
+            "title": "First_Aid_Step1",
+            "content": "Locus heterogeneity Mutations at different loci can produce a similar Albinism. phenotype. Allelic heterogeneity Different mutations in the same locus \u03b2-thalassemia. produce the same phenotype. Heteroplasmy Presence of both normal and mutated mtDNA passed from mother to all children. mtDNA, resulting in variable expression in mitochondrially inherited disease. Uniparental disomy Offspring receives 2 copies of a chromosome from 1 parent and no copies from the other parent. HeterodIsomy (heterozygous) indicates a meiosis I error. IsodIsomy (homozygous) indicates a meiosis II error or postzygotic chromosomal duplication of one of a pair of chromosomes, and loss of the other of the original pair. Uniparental is euploid (correct number of chromosomes). Most occurrences of uniparental disomy (UPD) \u008e normal phenotype. Consider isodisomy in an individual manifesting a recessive disorder when only one parent is a carrier. Examples: Prader-Willi and Angelman syndromes."
+        },
+        {
+            "id": "Obstentrics_Williams_1766",
+            "title": "Obstentrics_Williams",
+            "content": "TABLE 13-6. Characteristics of Multifactorial Diseases There is a genetic contribution: No mendelian pattern of inheritance No evidence of single-gene disorder Nongenetic factors are also involved in disease causation: Lack of penetrance despite predisposing genotype Monozygotic twins may be discordant Familial aggregation may be present: Relatives are more likely to have disease-predisposing alleles Expression more common among close relatives: Adapted from Nussbaum, 2007. Genetics 269 FIGURE 13-9 Mechanism of uniparental disomy arising from trisomic \"rescue.\" A. In normal meiosis, one member of each pair of homologous chromosomes is inherited from each parent. B. If nondisjunction results in a trisomic conceptus, one homologue is sometimes lost. In a third of cases, loss of one homologue leads to uniparental disomy."
+        },
+        {
+            "id": "Pediatrics_Nelson_959",
+            "title": "Pediatrics_Nelson",
+            "content": "New mutations in FBN1 account for 25% of cases of MFS. The gene is large and complex; more than 600 mutations have been identified in affected individuals. Many of the symptoms of MFS are caused not by the defect in the fibrillin protein itself but rather by an excess in transforming growth factor-beta (TGF-\u03b2), a protein usually bound by fibrillin. Losartan, an angiotensin II receptor antagonist that also lowers levels of TGF-\u03b2, may prevent aneurysms in patients with MFS. Disorders that are inherited in an AR manner manifest only when both copies of a gene pair located on a non-sex chromosome have a mutation (Tables 47-4, 47-5). Affected children usually are born to unaffected parents, each of whom carries one copy of the mutation. If both members of a couple are carriers (or heterozygotes) for this mutation, each of their offspring has a 25% chance of being affected (Fig. 47-3). SEE CHAPTER 150. MFS\u2020 (Z \u22652, if >20 years) (Z \u22653, if <20 years) Facial features (3 of 5)\u00a7 1"
+        },
+        {
+            "id": "Neurology_Adams_7480",
+            "title": "Neurology_Adams",
+            "content": "of mutational diseases are penetrance, a measure of the proportion of individuals with a given genotype who will show the phenotype, and expressivity, referring to the severity of disease in an affected individual. Variable degrees of penetrance and expressivity are characteristic features of dominant patterns of inheritance but not of recessive ones. There is also a general tendency for dominantly inherited disease to first appear long after birth."
+        },
+        {
+            "id": "InternalMed_Harrison_4814",
+            "title": "InternalMed_Harrison",
+            "content": "It is estimated that about 1 in 10 sperm carries a new deleterious mutation. The rates for new mutations are calculated most readily for autosomal dominant and X-linked disorders and are ~10\u22125\u221210\u22126/locus per generation. Because most monogenic diseases are relatively rare, new mutations account for a significant fraction of cases. This is important in the context of genetic counseling, because a new mutation can be transmitted to the affected individual but does not necessarily imply that the parents are at risk to transmit the disease to other children. An exception to this is when the new mutation occurs early in germline development, leading to gonadal mosaicism."
+        },
+        {
+            "id": "Obstentrics_Williams_1734",
+            "title": "Obstentrics_Williams",
+            "content": "can arise from diferent mutations in the same gene. As an example, mutations in the ibroblast growth actor receptor 3 (FGF3) gene may result in several diferent skeletal disorders, including achondroplasia and thanatophoric dysplasia, both of which are discussed in Chapter 10 (p. 210). If only one copy of a gene pair determines the phenotype, that gene is considered to be dominant. Carriers have a 50-percent chance of passing on the afected gene with each conception. A gene with a dominant mutation generally speciies the phenotype in preference to the normal gene. That said, not all individuals will necessarily manifest an autosomal dominant condition the same way. Factors that afect the phenotype of an autosomal dominant condition include penetrance, expressivity, and occasionally, presence of codominant genes."
+        },
+        {
+            "id": "InternalMed_Harrison_4956",
+            "title": "InternalMed_Harrison",
+            "content": "genotypes (e.g., CC and TT genotypes only, with no CT genotypes). Absence of heterozygosity is sometimes associated with uniparental disomy (discussed later in this chapter) but is also observed when an individual\u2019s parents are related to one another (identity by descent). Regions of homozygosity have been used to help identify genes in which homozygous mutations result in disease phenotypes in families with known consanguinity."
+        },
+        {
+            "id": "Neurology_Adams_8556",
+            "title": "Neurology_Adams",
+            "content": "Exhaustive genealogic documentation many years ago established the cause to be an autosomal dominant gene with complete penetrance. Koller and Davenport made the observation that young patients usually inherit the disease from their fathers and older patients from their mothers. It has been observed beginning at almost the same age in identical twins."
+        },
+        {
+            "id": "Pediatrics_Nelson_967",
+            "title": "Pediatrics_Nelson",
+            "content": "Often termed polygenic inheritance, multifactorially inheriteddisorders result from the interplay of genetic and environmental Figure 47-4 Pedigree showing X-linked recessive inheritance. factors. In addition to 20% of congenital malformations, including cleft lip and palate and spina bifida, most common disordersof childhood and adult life, such as asthma, atherosclerosis, diabetes, and cancer, result from an interaction between genes andthe environment. These disorders do not follow simple mendelian modes of inheritance; rather, affected individuals tend to cluster in families. The disorders occur more often in firstand second-degree relatives than would be expected by chance, and they are more likely to be concordant (although not 100%) inmonozygotic twins than in dizygotic twins. Available @ StudentConsult.com"
+        },
+        {
+            "id": "Pathology_Robbins_1489",
+            "title": "Pathology_Robbins",
+            "content": "MENDELIANDISORDERS:DISEASESCAUSEDBYSINGLE-GENEDEFECTS Single-gene defects (mutations) follow the well-known mendelian patterns of inheritance ( Tables 7.1 7.2 ). Although individually rare, together they account for approximately 1% of all adult admissions to hospitals and about 6% to 8% of all pediatric hospital admissions. Listed next are a few important tenets and caveats when considering mendelian disorders: Mutations involving single genes follow one of three patterns of inheritance: autosomal dominant, autosomal recessive, or X-linked."
+        },
+        {
+            "id": "Obstentrics_Williams_1740",
+            "title": "Obstentrics_Williams",
+            "content": "A heterozygous carrier of a recessive condition is only at risk to have afected children if his or her partner is heterozygous or homozygous for the disease. Genes for rare autosomal recessive conditions have low prevalence in the general population. Thus, the likelihood that a partner will be a gene carrier is small, unless there is consanguinity or the partner is a member of an at-risk group. Heterozygous carriers are usually undetectable clinically but may have biochemical test abnormalities that can be used for carrier screening. Other recessive conditions can be identified only by molecular genetic testing (Chap. 14, p. 288). Inborn Errors of Metabolism Most of these autosomal recessive diseases result from absence of a crucial enzyme, leading to incomplete metabolism of proteins, lipids, or carbohydrates. The metabolic intermediates that build up are toxic to various tissues and may result in intellectual disability or other abnormalities."
+        }
+    ],
+    "scores": [
+        0.03838597863072741,
+        0.03777329604618216,
+        0.03744705157177632,
+        0.0363706749565927,
+        0.034831662133452415,
+        0.03463632600052775,
+        0.034438828205027736,
+        0.03436393730511377,
+        0.034071996528442526,
+        0.032781381333495146,
+        0.03179183362250343,
+        0.028835978835978836,
+        0.027448677747700295,
+        0.026888310096522136,
+        0.026102883355176933,
+        0.025942048709801067,
+        0.025868965342649552,
+        0.024512895307155842,
+        0.024103226817042606,
+        0.02409684073347896,
+        0.02382266644932798,
+        0.021948364135864134,
+        0.021408981171891654,
+        0.021151718520139574,
+        0.020741526333700064,
+        0.020734103414074903,
+        0.020088179448395714,
+        0.019418112955809724,
+        0.018295739348370928,
+        0.01825957147874956,
+        0.018147406796882835,
+        0.017948717948717947
+    ],
+    "execution_time": 43.010767221450806
+}

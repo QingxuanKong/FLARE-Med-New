@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-063",
+    "question": "An Hfr strain of E. coli contains:",
+    "options": {
+        "A": "a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence",
+        "B": "a bacterial chromosome with a human gene inserted",
+        "C": "a bacterial chromosome with the F factor inserted",
+        "D": "a human chromosome with a transposable element inserted"
+    },
+    "answer": "C",
+    "predict": "Here is the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to understand what Hfr stands for and what it represents in the context of E. coli. Hfr stands for High Frequency of Recombination. Hfr is a type of bacterial strain that can exchange genetic material with other bacteria through a process called high-frequency recombination. This process allows Hfr bacteria to take up foreign DNA from other bacteria, which can include plasmids and other chromosomal DNA. In the context of the provided documents, Hfr strains are typically used in genetic engineering and cloning experiments to introduce foreign DNA into E. coli. Given the options provided, we can eliminate B, C, and D as they do not accurately describe the definition of Hfr. Option A is the correct answer as Hfr strains of E. coli are indeed a type of vector used to make many copies of a particular DNA sequence through high-frequency recombination.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_111",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the early days of molecular biology, the spotlight focused intensely on just one species: the Escherichia coli, or E. coli, bacterium (see Figures 1\u201313 and 1\u201314). This small, rod-shaped bacterial cell normally lives in the gut of humans and other vertebrates, but it can be grown easily in a simple nutrient broth in a culture bottle. It adapts to variable chemical conditions and reproduces rapidly, and it can evolve by mutation and selection at a remarkable speed. As with other bacteria, different strains of E. coli, though classified as members of a single species, differ genetically to a much greater degree than do different varieties of a sexually reproducing organism such as a plant or animal. One E. coli strain may possess many hundreds of genes that are absent from another, and the two strains could have as little as 50% of their genes in common. The standard laboratory strain"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6384",
+            "title": "Cell_Biology_Alberts",
+            "content": "E. coli Shigella fexneri Salmonella enterica Figure 23\u20134 Genetic differences between pathogenic and nonpathogenic bacteria. (A) Genetic differences between nonpathogenic E. coli and two closely related food-borne pathogens\u2014Shigella flexneri, which causes dysentery, and Salmonella enterica, a common cause of food poisoning. Nonpathogenic E. coli has a single circular chromosome. The chromosome of S. flexneri differs from that of E. coli in a limited number of locations; most of the genes required for pathogenesis (virulence genes) are carried on an extrachromosomal virulence plasmid. The chromosome of S. enterica carries two large inserts (pathogenicity islands) not found in the E. coli chromosome; these inserts each contain many virulence genes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_115",
+            "title": "Cell_Biology_Alberts",
+            "content": "E. coli strain k-12. The diagram is circular because the dnA of E. coli, like that of other prokaryotes, forms a single, closed loop. Protein-coding genes are shown as yellow or orange bars, depending on the dnA strand from which they are transcribed; genes encoding only RnA molecules are indicated by green arrows. some genes are transcribed from one strand of the dnA double helix (in a clockwise direction in this diagram), others from the other strand (counterclockwise). (A, courtesy of dr. Tony Brain and david Parker/Photo Researchers; B, adapted from F.R. Blattner et al., Science 277:1453\u20131462, 1997.) conserved that they can be recognized as common to most species from all three domains of the living world. Thus, given the DNA sequence of a newly discovered gene, it is often possible to deduce the gene\u2019s function from the known function of a homologous gene in an intensively studied model organism, such as the bacterium E. coli."
+        },
+        {
+            "id": "InternalMed_Harrison_12439",
+            "title": "InternalMed_Harrison",
+            "content": "Strains of E. coli are united by a core genome of ~2000 genes. A strain\u2019s ability to cause infections and the nature of such infections are defined by ancillary genes that encode various virulence factors. This experiment of nature is fluid and ongoing, as demonstrated by the recent evolution of Shiga toxin\u2013producing enteroaggregative E. coli."
+        },
+        {
+            "id": "First_Aid_Step1_133",
+            "title": "First_Aid_Step1",
+            "content": "Adding deoxyribonuclease degrades naked DNA, preventing transformation. into bacterial DNA of part of the chromosome bacterial chromosomal DNA, termed high- frequency recombination (Hfr) cell. Transfer of leading part of plasmid and a few flanking F+ cell F\u2013 cell Hfr cellF\u2013 cell Hfr cell F\u2013 cell Hfr cell Recombinant chromosomal genes. High-frequency recombination may integrate some of those bacterial genes. Recipient cell remains F\u2013 but now may have new bacterial genes. Generalized A packaging \u201cerror.\u201d Lytic phage infects Cleavage of Bacterial DNA packaged bacterium, leading to cleavage of bacterial phage DNA. Parts of bacterial chromosomal DNA may become packaged in phage capsid. Phage infects another bacterium, transferring these genes. Release of new phage Infects other Genes transferred from lysed cell bacteria to new bacteria"
+        },
+        {
+            "id": "Cell_Biology_Alberts_112",
+            "title": "Cell_Biology_Alberts",
+            "content": "E. coli K-12 has a genome of approximately 4.6 million nucleotide pairs, contained in a single circular molecule of DNA that codes for about 4300 different kinds of proteins (Figure 1\u201324). In molecular terms, we know more about E. coli than about any other living organism. Most of our understanding of the fundamental mechanisms of life\u2014 for example, how cells replicate their DNA, or how they decode the instructions represented in the DNA to direct the synthesis of specific proteins\u2014initially came from studies of E. coli. The basic genetic mechanisms have turned out to be highly conserved throughout evolution: these mechanisms are essentially the same in our own cells as in E. coli."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2857",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 10\u201323 \u03b2 barrels formed from different numbers of \u03b2 strands. (A) the E. coli OmpA protein serves as a receptor for a bacterial virus. (B) the E. coli OMplA protein is an enzyme (a lipase) that hydrolyzes lipid molecules. the amino acids that catalyze the enzymatic reaction (shown in red) protrude from the outside surface of the barrel. (c) A porin from the bacterium Rhodobacter capsulatus forms a water-filled pore across the outer membrane. the diameter of the channel is restricted by loops (shown in blue) that protrude into the channel. (D) the E. coli FepA protein transports iron ions. the inside of the barrel is completely filled by a globular protein domain (shown in blue) that contains an iron-binding site (not shown)."
+        },
+        {
+            "id": "InternalMed_Harrison_12466",
+            "title": "InternalMed_Harrison",
+            "content": "INTESTINAL PATHOGENIC STRAINS Pathotypes Certain strains of E. coli are capable of causing diarrheal disease. Other important intestinal pathogens are discussed in Chaps. 160, 161, and 190\u2013193. At least in the industrialized world, intestinal pathogenic strains of E. coli are rarely encountered in the fecal flora of healthy persons and instead appear to be essentially obligate pathogens. These strains have evolved a special ability to cause enteritis, enterocolitis, and colitis when ingested in sufficient quantities by a naive host. At least five distinct pathotypes of intestinal pathogenic E. coli exist: (1) Shiga toxin\u2013producing E. coli (STEC), which includes the subsets of enterohemorrhagic E. coli (EHEC) and the recently evolved Shiga toxin\u2013producing enteroaggregative E. coli (STEAEC); (2) enterotoxigenic E. coli (ETEC); (3) enteropathogenic"
+        },
+        {
+            "id": "InternalMed_Harrison_12458",
+            "title": "InternalMed_Harrison",
+            "content": "Diagnosis Strains of E. coli that cause extraintestinal infections usually grow both aerobically and anaerobically within 24 h on standard diagnostic media and are easily identified by the clinical microbiology laboratory according to routine biochemical criteria. More than 90% of ExPEC strains are rapid lactose fermenters and are indole positive. TREATMEnT extraintestinal e. coli infections"
+        },
+        {
+            "id": "InternalMed_Harrison_12453",
+            "title": "InternalMed_Harrison",
+            "content": "Aggregative/diffuse adherence, virulence factors regulated by AggR Lambda-like Stx1or Stx2-encoding bacteriophage Abbreviations: EAEC, enteroaggregative E. coli; EHEC, enterohemorrhagic E. coli; EIEC, enteroinvasive E. coli; EPEC, enteropathogenic E. coli; ETEC, enterotoxigenic E. coli; STEAEC, Shiga toxin\u2013producing enteroaggregative E. coli; STEC, Shiga toxin\u2013producing E. coli. a Classic syndromes; see text for details on disease spectrum. b Pathogenesis involves multiple genes, including genes in addition to those listed."
+        },
+        {
+            "id": "Cell_Biology_Alberts_114",
+            "title": "Cell_Biology_Alberts",
+            "content": "Most bacteria and archaea are small unicellular organisms with compact genomes comprising 1000\u20136000 genes. Many of the genes within a single organism show strong family resemblances in their DNA sequences, implying that they originated from the same ancestral gene through gene duplication and divergence. Family resemblances (homologies) are also clear when gene sequences are compared between different species, and more than 200 gene families have been so highly (A) 4,639,221 nucleotide pairs Escherichia coli K-12 origin of replication terminus of replication (B) Figure 1\u201324 The genome of E. coli. (A) A cluster of E. coli cells. (B) A diagram of the genome of"
+        },
+        {
+            "id": "Pediatrics_Nelson_2383",
+            "title": "Pediatrics_Nelson",
+            "content": "Only certain strains of E. coli produce diarrhea. E. coli strains associated with enteritis are classified by the mechanism of diarrhea: enterotoxigenic (ETEC), enterohemorrhagic (EHEC), enteroinvasive (EIEC), enteropathogenic (EPEC), or enteroaggregative (EAEC). ETEC strains produce heat-labile (cholera-like) enterotoxin, heat-stable enterotoxin, or both. ETEC causes 40% to 60% of cases of traveler\u2019s diarrhea. ETEC adhere to the epithelial cells in the upper small intestine and produce disease by liberating toxins that induce intestinal secretion and limit absorption. EHEC, especially the E. coli O157:H7 strain, produce a Shiga-like toxin that is responsible for a hemorrhagic colitis and most cases of diarrhea associated with hemolytic uremic syndrome (HUS), which is a syndrome of microangiopathic hemolytic anemia, thrombocytopenia, and renal failure (see Chapter 164). EHEC is associated with contaminated food, including unpasteurized fruit juices and, especially, undercooked beef."
+        },
+        {
+            "id": "InternalMed_Harrison_10588",
+            "title": "InternalMed_Harrison",
+            "content": "Enterotoxigenic strains of E. coli may produce a protein called heat-labile enterotoxin (LT) that is similar to cholera toxin and causes secretory diarrhea by the same mechanism. Alternatively, enterotoxigenic strains of E. coli may produce heat-stable enterotoxin (ST), one form of which causes diarrhea by activation of guanylate cyclase and elevation of intracellular cyclic guanosine monophosphate. Some enterotoxigenic strains of E. coli produce both LT and ST. Bacterial cytotoxins, in contrast, destroy intestinal mucosal cells and produce the syndrome of dysentery, with bloody stools containing inflammatory cells. Enteric pathogens that produce such cytotoxins include Shigella dysenteriae type 1, Vibrio parahaemolyticus, and Clostridium difficile. S. dysenteriae type 1 and Shiga toxin\u2013producing strains of E. coli produce potent cytotoxins and have been associated with outbreaks of hemorrhagic colitis and hemolytic-uremic syndrome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1379",
+            "title": "Cell_Biology_Alberts",
+            "content": "5\u20135 DNA repair mechanisms all depend on the existence of two copies of the genetic information, one in each of the two homologous chromosomes. Discuss the following problems. 5\u20136 To determine the reproducibility of mutation frequency measurements, you do the following experiment. You inoculate each of 10 cultures with a single E. coli bacterium, allow the cultures to grow until each contains 106 cells, and then measure the number of cells in each culture that carry a mutation in your gene of interest. You were so surprised by the initial results that you repeated the experiment to confirm them. Both sets of results display the same extreme variability, as shown in Table Q5\u20131. Assuming that the rate of mutation is constant, why do you suppose there is so much variation in the frequencies of mutant cells in different cultures?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_95",
+            "title": "Cell_Biology_Alberts",
+            "content": "body. For example, horizontal gene transfer is responsible for the spread, over the past 40 years, of penicillin-resistant strains of Neisseria gonorrhoeae, the bacterium that causes gonorrhea. On a longer time scale, the results can be even more profound; it has been estimated that at least 18% of all of the genes in the present-day genome of E. coli have been acquired by horizontal transfer from another species within the past 100 million years."
+        },
+        {
+            "id": "Cell_Biology_Alberts_134",
+            "title": "Cell_Biology_Alberts",
+            "content": "W.h. li, molecular evolution, pp. 380\u2013383. sunderland, mA: sinauer, 1997.) many genes, and a great deal more noncoding DNA (~98.5% of the genome for a human does not code for proteins, as opposed to 11% of the genome for the bacterium E. coli). The estimated genome sizes and gene numbers for some eukaryotes are compiled for easy comparison with E. coli in Table 1\u20132; we shall discuss how each of these eukaryotes serves as a model organism shortly."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2249",
+            "title": "Cell_Biology_Alberts",
+            "content": "are usually obtained from bacteria, and their names reflect their origins: for example, the enzyme EcoRI comes from Escherichia coli. There are currently hundreds of different restriction enzymes available; they can be ordered from companies that commercially produce them."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2573",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201387 Different levels of gene expression in individual cells within a population of E. coli bacteria. For this experiment, two different reporter proteins (one fluorescing green, the other red), controlled by a copy of the same promoter, have been introduced into all of the bacteria. Some cells express only one gene copy, and so appear either red or green, while others express both gene copies, and so appear yellow. This experiment reveals variable levels of fluorescence, indicating variable levels of gene expression within an apparently uniform population of cells. (From M.B. Elowitz et al., Science 297:1183\u20131186, 2002. With permission from AAAS.) another: from a set of erratic individual data points to a simpler description of the WHAT WE DON\u2019T KNOW key features of the data."
+        },
+        {
+            "id": "Pediatrics_Nelson_3448",
+            "title": "Pediatrics_Nelson",
+            "content": "Hemolytic uremic syndrome (HUS) is characterized by the triad of microangiopathic hemolytic anemia, thrombocytopenia, and renal injury and is an important cause of acute kidney injury in children. HUS typically occurs in children less than 5 years of age but can occur in older children. The most common type of HUS is associated with a prodromal diarrheal illness (D+HUS). Contamination of meat, fruit, vegetables, or water with verotoxin (VT)-producing Escherichia coli (most commonly E. coli O157:H7) is responsible for many outbreaks. VT may be produced by other E. coli strains as well as other bacteria such as Shigella. VT causes hemorrhagic enterocolitis of variable severity and results in HUS in 5% to 15% of affected children."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2341",
+            "title": "Cell_Biology_Alberts",
+            "content": "direction of electrophoresis Figure 8\u201342 Production of large amounts of a protein by using a plasmid expression vector. In this example, an expression vector that overproduces a DNA helicase has been introduced into bacteria. In this expression vector, transcription from this coding sequence is under the control of a viral promoter that becomes active only at a temperature of 37\u00b0C or higher. The total cell protein, either from bacteria grown at 25\u00b0C (no helicase protein made) or after a shift of the same bacteria to 42\u00b0C for up to 2 hours (helicase protein has become the most abundant protein species in the lysate), has been analyzed by SDS polyacrylamide-gel electrophoresis. (Courtesy of Jack Barry.) sequence of a peptide fragment E. coli or otherPROTEIN host cell to produce protein DNA primers for PCR insert protein-coding region of gene into expression vector (from cDNA clone)"
+        },
+        {
+            "id": "Immunology_Janeway_4652",
+            "title": "Immunology_Janeway",
+            "content": "endothelium The epithelium that forms the walls of blood capillaries and the lining of larger blood vessels. endotoxins Toxins derived from bacterial cell walls released by damaged cells. They can potently induce cytokine synthesis and in large amounts can cause a systemic reaction called septic shock or endotoxic shock. enteroadherent Escherichia coli Referring to multiple strains of E. coli capable of attachment to, and infection and destruction of cells of the intestinal microvilli, causing colitis and diarrheagenic diseases. eomesodermin A transcription factor involved in development and function of certain types of NK cells, ILCs, and CD8 T cells. eosinophilia An abnormally large number of eosinophils in the blood. eosinophils A type of white blood cell containing granules that stain with eosin. It is thought to be important chie\ufb02y in defense against parasitic infections, but is also medically important as an effector cell in allergic reactions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1104",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mutation rate, the rate at which changes occur in DNA sequences, can be determined directly from experiments carried out with a bacterium such as Escherichia coli\u2014a resident of our intestinal tract and a commonly used laboratory organism (see Figure 1\u201324). Under laboratory conditions, E. coli divides about once every 30 minutes, and a single cell can generate a very large population\u2014 several billion\u2014in less than a day. In such a population, it is possible to detect the small fraction of bacteria that have suffered a damaging mutation in a particular gene, if that gene is not required for the bacterium\u2019s survival. For example, the mutation rate of a gene specifically required for cells to use the sugar lactose as an energy source can be determined by growing the cells in the presence of a different sugar, such as glucose, and testing them subsequently to see how many have lost the ability to survive on a lactose diet. The fraction of damaged genes underestimates the actual mutation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6312",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 22\u201342 A strategy used to select cells that have converted to an iPS character. the experiment makes use of a gene (Fbx15) that is present in all cells but is normally expressed only in eS and early embryonic cells (although not required for their survival). a fibroblast cell line is genetically engineered to contain a gene that produces an enzyme that degrades G418 under the control of the Fbx15 regulatory sequence. G418 is an aminoglycoside antibiotic that blocks protein synthesis in both bacteria and eukaryotic cells. when the oSkm factors are artificially expressed in this cell line, a small proportion of the cells undergo a change of state and activate the Fbx15 regulatory sequence, driving expression of the G418-resistance gene. when G418 is added to the culture medium, these are the only cells that survive and proliferate. when tested, they turn out to have an ipS character."
+        },
+        {
+            "id": "Cell_Biology_Alberts_771",
+            "title": "Cell_Biology_Alberts",
+            "content": "CONCLUSION: Molecules that can CONCLUSION: The molecule that carry heritable information are carries the heritable information present in S strain cells. is DNA. Figure 4\u20132 The first experimental demonstration that DNA is the genetic material. These experiments, carried out in the 1920s (A) and 1940s (b), showed that adding purified DNA to a bacterium changed the bacterium\u2019s properties and that this change was faithfully passed on to subsequent generations. Two closely related strains of the bacterium Streptococcus pneumoniae differ from each other in both their appearance under the microscope and their pathogenicity. One strain appears smooth (S) and causes death when injected into mice, and the other appears rough (R) and is nonlethal. An initial experiment shows that some substance present in the S strain can change (or transform) the R strain into the S strain and that this change is inherited by subsequent generations of bacteria."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2268",
+            "title": "Cell_Biology_Alberts",
+            "content": "This strategy involves cleaving genomic DNA into small pieces using a restriction nuclease (or, in some cases, by mechanically shearing the DNA) and ligating the entire collection of DNA fragments into plasmid vectors, using conditions that favor the insertion of a single DNA fragment into each plasmid molecule. These recombinant plasmids are then introduced into E. coli at a concentration that ensures that no more than one plasmid molecule is taken up by each bacterium. The collection of cloned plasmid molecules is known as a DNA library. Because the DNA fragments were derived directly from the chromosomal DNA of the organism of interest, the resulting collection\u2014called a genomic library\u2014will represent the entire genome of that organism (Figure 8\u201330), spread out over tens of thousands of individual bacterial colonies."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1108",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although E. coli and humans differ greatly in their modes of reproduction and in their generation times, when the mutation rates of each are normalized to a single round of DNA replication, they are both extremely low and within a factor of three of each other. We shall see later in the chapter that the basic mechanisms that ensure these low rates of mutation have been conserved since the very early history of cells on Earth. Low Mutation Rates Are Necessary for Life as We Know It"
+        },
+        {
+            "id": "InternalMed_Harrison_12415",
+            "title": "InternalMed_Harrison",
+            "content": "A given strain usually possesses multiple adhesins for binding to a variety of host cells (e.g., in E. coli: type 1, S, and F1C fimbriae; P pili). Nutrient acquisition (e.g., of iron via siderophores) requires many genes that are necessary but not sufficient for pathogenesis. The ability to resist the bactericidal activity of complement and phagocytes in the absence of antibody (e.g., as conferred by capsule or O antigen of lipopolysaccharide) is one of the defining traits of an extracellular pathogen. Tissue damage (e.g., as mediated by hemolysin in the case of E. coli) may facilitate spread within the host. Without doubt, many important virulence genes await identification (Chap. 145e)."
+        },
+        {
+            "id": "InternalMed_Harrison_12469",
+            "title": "InternalMed_Harrison",
+            "content": "enteroHemorrHagic e. coli/sHiga toXin\u2013prodUcing enteroaggregative e. coli STEC/EHEC/STEAEC strains constitute an emerging group of pathogens that can cause hemorrhagic colitis and the hemolytic-uremic syndrome (HUS). Several large outbreaks resulting from the consumption of fresh produce (e.g., lettuce, spinach, sprouts) and of undercooked ground beef have received significant attention in the media. An outbreak in central Europe in 2011 due to STEAEC (O104:H4) that was probably transmitted by sprouts, with some subsequent human-to-human transmission, resulted in more than 800 cases of HUS and 54 deaths. Within this group of organisms, O157:H7 is the most prominent serotype, but many other serotypes have also been associated with these syndromes, including O6, O26, O45, O55, O91, O103, O111, O113, O121, O145, and OX3."
+        },
+        {
+            "id": "InternalMed_Harrison_11526",
+            "title": "InternalMed_Harrison",
+            "content": "CAP caused by S. pneumoniae, H. influenzae, or Legionella pneumophila; complicated skin infections caused by E. coli, MRSA, MSSA, S. pyogenes, Streptococcus anginosus, S. agalactiae, B. fragilis; complicated intraabdominal infections caused by E. coli, vancomycinsusceptible E. faecalis, Citrobacter freundii, Enterobacter cloacae, K. pneumoniae, K. oxytoca, Bacteroides spp., Clostridium perfringens, and Peptostreptococcus spp. Escherichia coli (52%); H. influenzae (70%); Salmonella spp. (91%) P. aeruginosa (88%)b E. coli (85%) Bacteroides fragilis (60%)c S. pneumoniae (93%);d E. coli (93%); Klebsiella pneumoniae (89%) P. aeruginosa (89%) Mostly susceptible; four strains of MRSA with ceftaroline MICs >4 \u03bcg/mL reported in isolates from a single Greek hospitale P. aeruginosa (76% and 83%); Acinetobacter calcoaceticusbaumannii complex (81% and 82%) Enterobacter cloacae (87%); K. pneumoniae (97%) P. aeruginosa (76%) S. aureus (100%); E. faecalis (89%); E. faecium (24%)"
+        },
+        {
+            "id": "InternalMed_Harrison_11858",
+            "title": "InternalMed_Harrison",
+            "content": "The third group of virulence factors has not been well characterized but consists of the E. faecalis stress protein Gls24, which has been associated with enterococcal resistance to bile salts and appears to be important in the pathogenesis of endocarditis, and the hylEfm-containing plasmids of E. faecium, which are transferable between strains and increase gastrointestinal colonization by E. faecium. In mouse peritonitis, acquisition of these plasmids increased the lethality of a commensal strain of E. faecium. Recently, a gene encoding a regulator of oxidative stress (AsrR) has been identified as an important virulence factor of E. faecium."
+        },
+        {
+            "id": "Surgery_Schwartz_3369",
+            "title": "Surgery_Schwartz",
+            "content": "E. coliE. coli containingrecombinant plasmidPropagationE. coli containingrecombinant plasmidThe vector must be correctly prepared to maximize the creation of recombinants; for example, it must be enzymatically treated to prevent self-ligation. Host bacteria must be made sufficiently competent to permit the entry of recombinant plasmids into cells. The selection of desired recombinant plasmid-bearing E. coli normally is achieved by the property of drug resistance conferred by the plasmid vectors. The plasmids encoding mark-ers provide specific resistance to (i.e., the ability to grow in the presence of) antibiotics such as ampicillin, kanamycin, and tetracycline. The foreign component in the plasmid vector can be a mammalian expression cassette, which can direct expres-sion of foreign genes in mammalian cells. The resulting plasmid vector can be amplified in E. coli to prepare large quantities of DNA for its subsequent applications such as transfection, gene therapy, transgenics, and"
+        },
+        {
+            "id": "Pathology_Robbins_3736",
+            "title": "Pathology_Robbins",
+            "content": "Enterohemorrhagic E. coli (EHEC) organisms are categorized as O157:H7 and non-O157:H7 serotypes. Outbreaks of E. coli O157:H7 in developed countries have been associated with the consumption of inadequately cooked ground beef, milk, and vegetables. Both O157:H7 and non-O157:H7 serotypes produce Shiga-like toxins and can cause dysentery. They can also trigger hemolytic-uremic syndrome (Chapter 14). Enteroinvasive E. coli (EIEC) organisms resemble Shigella bacteriologically but do not produce toxins. They invade the gut epithelial cells and produce a bloody diarrhea. Enteroaggregative E. coli (EAEC) organisms attach to enterocytes by adherence fimbriae. Although they produce LT and Shiga-like toxins, histologic damage is minimal."
+        }
+    ],
+    "scores": [
+        0.037558445911805516,
+        0.034360168022770275,
+        0.033305854476944494,
+        0.03293173226417552,
+        0.026380927566440858,
+        0.0248605118390052,
+        0.024680339075745145,
+        0.024109774340059332,
+        0.023103343332898568,
+        0.022553585239653652,
+        0.022487219220173764,
+        0.019237883832778392,
+        0.01890999910801891,
+        0.01889483065953654,
+        0.018877244137458525,
+        0.01847268841606508,
+        0.018187830687830687,
+        0.018112099208615486,
+        0.017948717948717947,
+        0.017645245800585605,
+        0.017549261083743842,
+        0.017304393227418516,
+        0.017105263157894735,
+        0.017050298380221655,
+        0.01618059633326809,
+        0.015844218674407353,
+        0.01562881562881563,
+        0.015604128718882818,
+        0.015595238095238096,
+        0.015560966918097049,
+        0.015395731436193865,
+        0.015371762740183793
+    ],
+    "execution_time": 7.817676782608032
+}

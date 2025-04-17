@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-020",
+    "question": "Which of the following best explains why enzymes are effective in facilitating chemical reactions?",
+    "options": {
+        "A": "They raise the temperature of the reaction mixture, thereby speeding up the conversion of reactants to products.",
+        "B": "They alter the equilibrium constant of a reaction (K_eq) so that more reactant can be converted to product.",
+        "C": "They increase the maximal rate of the chemical reaction (V_max).",
+        "D": "They lower the activation energy, thereby speeding up the conversion of reactants to products."
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the provided documents and think step-by-step.\\n\\nFirst, let's recall the definition of enzymes and their role in cells.\\nEnzymes are biological molecules, typically proteins, that significantly speed up the rate of virtually all of the chemical reactions that take place within cells.\\n\\nNext, let's consider the concept of activation energy and its relationship to enzyme action.\\nAccording to Document [2], a substance that can lower the activation energy of a reaction is termed a catalyst; catalysts increase the rate of chemical reactions because they allow a much larger proportion of the random collisions with surrounding molecules to kick the substrates over the energy barrier.\\n\\nNow, let's examine the options provided and evaluate which one best explains why enzymes are effective in facilitating chemical reactions.\\n\\nOption A: They raise the temperature of the reaction mixture, thereby speeding up the conversion of reactants to products.\\nThis option is incorrect because Document [2] states that enzymes do not raise the temperature of the reaction mixture.\\n\\nOption B: They alter the equilibrium constant of a reaction (K_eq) so that more reactant can be converted to product.\\nThis option is incorrect because enzymes do not alter the equilibrium constant of a reaction.\\n\\nOption C: They increase the maximal rate of the chemical reaction (V_max).\\nThis option is partially correct in that enzymes do increase the maximal rate of the chemical reaction, but it is not the primary reason why enzymes are effective in facilitating chemical reactions.\\n\\nOption D: They lower the activation energy, thereby speeding up the conversion of reactants to products.\\nThis option is correct because enzymes lower the activation energy, thereby speeding up the conversion of reactants to products, which is the primary reason why enzymes are effective in facilitating chemical reactions.\\n\\nTherefore, the correct answer is D.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_607",
+            "title": "Cell_Biology_Alberts",
+            "content": "WHY ANALYZE THE KINETICS OF ENZYMES? Enzymes are the most selective and powerful catalysts known. An understanding of their detailed mechanisms provides a critical tool for the discovery of new drugs, for the large-scale industrial synthesis of useful chemicals, and for appreciating the chemistry of cells and organisms. A detailed study of the rates of the chemical reactions that are catalyzed by a purifed enzyme\u2014more specifcally how these rates change with changes in conditions such as the concentrations of substrates, products, inhibitors, and regulatory ligands\u2014allows biochemists to fgure out exactly how each enzyme works. For example, this is the way that the ATP-producing reactions of glycolysis, shown previously in Figure 2\u201348, were deciphered\u2014allowing us to appreciate the rationale for this critical enzymatic pathway. In this Panel, we introduce the important feld of enzyme kinetics, which has been indispensable for deriving much of the detailed knowledge that we now have about"
+        },
+        {
+            "id": "Cell_Biology_Alberts_272",
+            "title": "Cell_Biology_Alberts",
+            "content": "Despite the above limitation, enzymes steer all of the reactions in cells through specific reaction paths. This is because enzymes are both highly selective and very precise, usually catalyzing only one particular reaction. In other words, each enzyme selectively lowers the activation energy of only one of the several possible chemical reactions that its bound substrate molecules could undergo. In this way, sets of enzymes can direct each of the many different molecules in a cell along a particular reaction pathway (Figure 2\u201324). The success of living organisms is attributable to a cell\u2019s ability to make enzymes of many types, each with precisely specified properties. Each enzyme"
+        },
+        {
+            "id": "Cell_Biology_Alberts_269",
+            "title": "Cell_Biology_Alberts",
+            "content": "tightly to one or more molecules, called substrates, and holds them in a way that greatly reduces the activation energy of a particular chemical reaction that the bound substrates can undergo. A substance that can lower the activation energy of a reaction is termed a catalyst; catalysts increase the rate of chemical reactions because they allow a much larger proportion of the random collisions with surrounding molecules to kick the substrates over the energy barrier, as illustrated in Figure 2\u201322. Enzymes are among the most effective catalysts"
+        },
+        {
+            "id": "Cell_Biology_Alberts_275",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201324 Directing substrate molecules through a specific reaction pathway by enzyme catalysis. a substrate molecule in a cell (green ball) is converted into a different molecule (blue ball) by means of a series of enzyme-catalyzed reactions. as indicated (yellow box), several reactions are energetically favorable at each step, but only one is catalyzed by each enzyme. sets of enzymes thereby determine the exact reaction pathway that is followed by each molecule inside the cell. has a unique shape containing an active site, a pocket or groove in the enzyme into which only particular substrates will fit (Figure 2\u201325). Like all other catalysts, enzyme molecules themselves remain unchanged after participating in a reaction and therefore can function over and over again. In Chapter 3, we discuss further how enzymes work. how enzymes find Their substrates: The enormous Rapidity of molecular motions"
+        },
+        {
+            "id": "Cell_Biology_Alberts_247",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201313 How a set of enzyme-catalyzed reactions generates a metabolic pathway. each enzyme catalyzes a particular chemical reaction, leaving the enzyme unchanged. in this example, a set of enzymes acting in series converts molecule a to molecule f, forming a metabolic pathway. (for a diagram of many of the reactions in a human cell, abbreviated as shown, see figure 2\u201363.) small molecules and the energy harnessed by catabolism to drive the synthesis of the many other molecules that form the cell. Together these two sets of reactions constitute the metabolism of the cell (Figure 2\u201314). The details of cell metabolism form the traditional subject of biochemistry and most of them need not concern us here. But the general principles by which cells obtain energy from their environment and use it to create order are central to cell biology. We begin with a discussion of why a constant input of energy is needed to sustain all living things."
+        },
+        {
+            "id": "Cell_Biology_Alberts_605",
+            "title": "Cell_Biology_Alberts",
+            "content": "Enzymes achieve extremely high rates of chemical reaction\u2014rates that are far higher than for any synthetic catalysts. There are several reasons for this efficiency. First, when two molecules need to react, the enzyme greatly increases the local concentration of both of these substrate molecules at the catalytic site, holding them in the correct orientation for the reaction that is to follow. More importantly, however, some of the binding energy contributes directly to the catalysis. Substrate molecules must pass through a series of intermediate states of altered geometry and electron distribution before they form the ultimate products of the reaction. The free energy required to attain the most unstable intermediate state, called the transition state, is known as the activation energy for the reaction, and it is the major determinant of the reaction rate. Enzymes have a much higher affinity for the transition state of the substrate than they have for the stable form."
+        },
+        {
+            "id": "Biochemistry_Lippincott_310",
+            "title": "Biochemistry_Lippinco",
+            "content": "In Chapter 5, individual enzymic reactions were analyzed in an effort to explain the mechanisms of catalysis. However, in cells, these reactions rarely occur in isolation. Instead, they are organized into multistep sequences called pathways, such as that of glycolysis (Fig. 8.1). In a pathway, the product of one reaction serves as the substrate of the subsequent reaction. Most pathways can be classified as either catabolic (degradative) or anabolic (synthetic). Catabolic pathways break down complex molecules, such as proteins, polysaccharides, and lipids, to a few simple molecules (for example, carbon dioxide, ammonia, and water). Anabolic pathways form complex end products from simple precursors, for example, the synthesis of the polysaccharide glycogen from glucose. [Note: Pathways that regenerate a component are called cycles.] Different pathways can intersect, forming an integrated and purposeful network of chemical reactions. Metabolism is the sum of all the chemical changes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_616",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, it is claimed that enzymes like acetylcholinesterase and1 liter/mmole fumarase are \u201cperfect enzymes,\u201d each enzyme having evolved to the point where nearly every collision with its substrate converts the substrate to a product. [S] Km Figure 3\u201347 enzymatic acceleration of chemical reactions by decreasing the activation energy. There is a single transition state in this example. However, often both the uncatalyzed reaction (A) and the enzyme-catalyzed reaction (B) go through a series of transition states. In that case, it is the transition state with the highest energy (ST and EST) that determines the activation energy and limits the rate of the reaction. (S = substrate; P = product of the reaction; ES = enzyme\u2013substrate complex; EP = enzyme\u2013 product complex.) Because this tight binding greatly lowers the energy of the transition state, the enzyme greatly accelerates a particular reaction by lowering the activation energy that is required (Figure 3\u201347)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_186",
+            "title": "Biochemistry_Lippinco",
+            "content": "E. Regulation Enzyme activity can be regulated, that is, increased or decreased, so that the rate of product formation responds to cellular need. F. Location within the cell Many enzymes are localized in specific organelles within the cell (Fig. 5.3). Such compartmentalization serves to isolate the reaction substrate or product from other competing reactions. This provides a favorable environment for the reaction and organizes the thousands of enzymes present in the cell into purposeful pathways. IV. MECHANISM OF ENZYME ACTION The mechanism of enzyme action can be viewed from two different perspectives. The first treats catalysis in terms of energy changes that occur during the reaction. That is, enzymes provide an alternate, energetically favorable reaction pathway different from the uncatalyzed reaction. The second perspective describes how the active site chemically facilitates catalysis. A. Energy changes occurring during the reaction"
+        },
+        {
+            "id": "Biochemistry_Lippincott_224",
+            "title": "Biochemistry_Lippinco",
+            "content": "Enzymes are protein catalysts that increase the velocity of a chemical reaction by lowering the energy of the transition state (Fig. 5.23). They are not consumed during the reaction. Enzyme molecules contain a special cleft called the active site, which contains amino acid side chains that participate in substrate binding and catalysis. The active site binds the substrate, forming an enzyme\u2013substrate (ES) complex. Binding is thought to cause a conformational change in the enzyme (induced fit) that allows catalysis. ES is converted to enzyme and product. An enzyme allows a reaction to proceed rapidly under conditions prevailing in the cell by providing an alternate reaction pathway with a lower activation energy (Ea). Because the enzyme does not change the free energies of the reactants or products, it does not change the equilibrium of the reaction. Most enzymes show Michaelis-Menten kinetics, and a plot of the initial reaction velocity (vo) against substrate concentration ([S]) has a"
+        },
+        {
+            "id": "Biochemistry_Lippincott_180",
+            "title": "Biochemistry_Lippinco",
+            "content": "For additional ancillary materials related to this chapter, please visit thePoint. I. OVERVIEW Virtually all reactions in the body are mediated by enzymes, which are protein catalysts that increase the rate of reactions without being changed in the overall process. Among the many biologic reactions that are energetically possible, enzymes selectively channel reactants (called substrates) into useful pathways. Thus, enzymes direct all metabolic events. This chapter examines the nature of these catalytic molecules and their mechanisms of action. II. NOMENCLATURE Each enzyme is assigned two names. The first is its short, recommended name, convenient for everyday use. The second is the more complete systematic name, which is used when an enzyme must be identified without ambiguity. A. Recommended name"
+        },
+        {
+            "id": "Cell_Biology_Alberts_625",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other enzymes use similar mechanisms to lower activation energies and speed up the reactions they catalyze. In reactions involving two or more reactants, the active site also acts like a template, or mold, that brings the substrates together in the proper orientation for a reaction to occur between them (Figure 3\u201352A). As we saw for lysozyme, the active site of an enzyme contains precisely positioned can perform both acid catalysis and base catalysis at the same time."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4035",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? Explain why or why not. 14\u20131 The three respiratory enzyme complexes in the mitochondrial inner membrane tend to associate with each other in ways that facilitate the correct transfer of electrons between appropriate complexes. 14\u20132 The number of c subunits in the rotor ring of ATP synthase defines how many protons need to pass through the turbine to make each molecule of ATP. 14\u20133 Mutations that are inherited according to Mendelian rules affect nuclear genes; mutations whose inheritance violates Mendelian rules are likely to affect organelle genes. Discuss the following problems. 14\u20134 In the 1860s, Louis Pasteur noticed that when he added O2 to a culture of yeast growing anaerobically on glucose, the rate of glucose consumption declined dramatically. Explain the basis for this result, which is known as the Pasteur effect."
+        },
+        {
+            "id": "Cell_Biology_Alberts_631",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201352 Some general strategies of enzyme catalysis. (A) Holding substrates (A) enzyme binds to two (B) binding of substrate (C) enzyme strains the together in a precise alignment. (B) Charge substrate molecules and to enzyme rearranges bound substrate stabilization of reaction intermediates. orients them precisely to electrons in the substrate, molecule, forcing it encourage a reaction to creating partial negative toward a transition (C) Applying forces that distort bonds in the occur between them and positive charges state to favor a reaction substrate to increase the rate of a particular that favor a reaction reaction."
+        },
+        {
+            "id": "Cell_Biology_Alberts_617",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because this tight binding greatly lowers the energy of the transition state, the enzyme greatly accelerates a particular reaction by lowering the activation energy that is required (Figure 3\u201347). Figure 3\u201348 compares the spontaneous reaction rates and the corresponding enzyme-catalyzed rates for five enzymes. Rate accelerations range from 109 to 1023. Enzymes not only bind tightly to a transition state, they also contain precisely positioned atoms that alter the electron distributions in the atoms that participate directly in the making and breaking of covalent bonds. Peptide bonds, for example, can be hydrolyzed in the absence of an enzyme by exposing a polypeptide to either a strong acid or a strong base. Enzymes are unique, however, in being able to use acid and base catalysis simultaneously, because the rigid framework of the protein constrains the acidic and basic residues and prevents them from combining with each other, as they would do in solution (Figure 3\u201349)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_389",
+            "title": "Cell_Biology_Alberts",
+            "content": "brane). The intermediate products of glycolysis and the citric acid cycle are used both as sources of metabolic energy and to produce many of the small molecules used as the raw materials for biosynthesis. Cells store sugar molecules as glycogen in animals and starch in plants; both plants and animals also use fats extensively as a food store. These storage materials in turn serve as a major source of food for humans, along with the proteins that comprise the majority of the dry mass of most of the cells in the foods we eat. Which statements are true? explain why or why not. Discuss the following problems. 2\u20131 A 10\u20138 M solution of HCl has a pH of 8. 2\u20138 The organic chemistry of living cells is said to be special for two reasons: it occurs in an aqueous environ2\u20132 Most of the interactions between macromolecules ment and it accomplishes some very complex reactions. could be mediated just as well by covalent bonds as by"
+        },
+        {
+            "id": "Cell_Biology_Alberts_741",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is amyloid toxic to cells and how does it contribute to neurodegenerative diseases such as Alzheimer\u2019s disease? Which statements are true? explain why or why not. 3\u20131 Each strand in a \u03b2 sheet is a helix with two amino acids per turn. 3\u20132 Intrinsically disordered regions of proteins can be identified using bioinformatic methods to search genes for encoded amino acid sequences that possess high hydrophobicity and low net charge. 3\u20133 Loops of polypeptide that protrude from the surface of a protein often form the binding sites for other molecules. 3\u20134 An enzyme reaches a maximum rate at high substrate concentration because it has a fixed number of active sites where substrate binds. 3\u20135 Higher concentrations of enzyme give rise to a higher turnover number. 3\u20136 Enzymes that undergo cooperative allosteric transitions invariably consist of symmetric assemblies of multiple subunits."
+        },
+        {
+            "id": "Cell_Biology_Alberts_273",
+            "title": "Cell_Biology_Alberts",
+            "content": "The success of living organisms is attributable to a cell\u2019s ability to make enzymes of many types, each with precisely specified properties. Each enzyme Figure 2\u201323 enzymes cannot change the equilibrium point for reactions. enzymes, like all catalysts, speed up the forward and backward rates of a reaction by the same factor. Therefore, for both the catalyzed and the uncatalyzed reactions shown here, the number of molecules undergoing the transition X \u2192 Y is equal to the number of molecules undergoing the transition Y \u2192 X when the ratio of Y molecules to X molecules is 3 to 1. in other words, the two reactions reach equilibrium at exactly the same point."
+        },
+        {
+            "id": "Biochemistry_Lippincott_184",
+            "title": "Biochemistry_Lippinco",
+            "content": "C. Specificity Enzymes are highly specific, interacting with one or a few substrates and catalyzing only one type of chemical reaction. The set of enzymes made in a cell determines which reactions occur in that cell. D. Holoenzymes, apoenzymes, cofactors, and coenzymes"
+        },
+        {
+            "id": "Biochemistry_Lippincott_189",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Active site chemistry The active site is not a passive receptacle for binding the substrate but, rather, is a complex molecular machine employing a diversity of chemical mechanisms to facilitate the conversion of substrate to product. A number of factors are responsible for the catalytic efficiency of enzymes, including the following examples. 1. Transition-state stabilization: The active site often acts as a flexible molecular template that binds the substrate and initiates its conversion to the transition state, a structure in which the bonds are not like those in the substrate or the product (see T* at the top of the curve in Fig. 5.4). By stabilizing the transition state, the enzyme greatly increases the concentration of the reactive intermediate that can be converted to product and, thus, accelerates the reaction. [Note: The transition state cannot be isolated.] 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_274",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201322 lowering the activation energy greatly increases the probability of a reaction. at any given instant, a population of identical substrate molecules will have a range of energies, distributed as shown on the graph. The varying energies come from collisions with surrounding molecules, which make the substrate molecules jiggle, vibrate, and spin. for a molecule to undergo a chemical reaction, the energy of the molecule must exceed the activation-energy barrier for that reaction (dashed lines). for most biological reactions, this almost never happens without enzyme catalysis. even with enzyme catalysis, the substrate molecules must experience a particularly energetic collision to react (red shaded area). Raising the temperature will also increase the number of molecules with sufficient energy to overcome the activation energy needed for a reaction; but in marked contrast to enzyme catalysis, this effect is nonselective, speeding up all reactions (Movie 2.2)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_192",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. FACTORS AFFECTING REACTION VELOCITY Enzymes can be isolated from cells and their properties studied in a test tube (that is, in vitro). Different enzymes show different responses to changes in substrate concentration, temperature, and pH. This section describes factors that influence the reaction velocity of enzymes. Enzymic responses to these factors give us valuable clues as to how enzymes function in living cells (that is, in vivo). A. Substrate concentration 1. Maximal velocity: The rate or velocity of a reaction (v) is the number of substrate molecules converted to product per unit time. Velocity is usually expressed as \u00b5mol of product formed per minute. The rate of an enzyme-catalyzed reaction increases with substrate concentration until a maximal velocity (Vmax) is reached (Fig. 5.6). The leveling off of the reaction rate at high substrate concentrations reflects the saturation with substrate of all available binding sites on the enzyme molecules present. 2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_188",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Rate of reaction: For molecules to react, they must contain sufficient energy to overcome the energy barrier of the transition state. In the absence of an enzyme, only a small proportion of a population of molecules may possess enough energy to achieve the transition state between reactant and product. The rate of reaction is determined by the number of such energized molecules. In general, the lower the Ea, the more molecules have sufficient energy to pass through the transition state and, therefore, the faster the rate of the reaction. 3. Alternate reaction pathway: An enzyme allows a reaction to proceed rapidly under conditions prevailing in the cell by providing an alternate reaction pathway with a lower Ea (see Fig. 5.4). The enzyme does not change the free energies of the reactants (substrates) or products and, therefore, does not change the equilibrium of the reaction (see p. 70). It does, however, accelerate the rate by which equilibrium is reached."
+        },
+        {
+            "id": "Cell_Biology_Alberts_637",
+            "title": "Cell_Biology_Alberts",
+            "content": "The rates of reactions in cells are rapid because enzyme catalysis is so effective. Some enzymes have become so efficient that there is no possibility of further useful improvement. The factor that limits the reaction rate is no longer the enzyme\u2019s intrinsic speed of action; rather, it is the frequency with which the enzyme collides with its substrate. Such a reaction is said to be diffusion-limited (see Panel 3\u20132, pp. 142\u2013143)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_244",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cell metabolism is organized by enzymes The chemical reactions that a cell carries out would normally occur only at much higher temperatures than those existing inside cells. For this reason, each reaction requires a specific boost in chemical reactivity. This requirement is crucial, because it allows the cell to control its chemistry. The control is exerted through specialized biological catalysts. These are almost always proteins called enzymes, although RNA catalysts also exist, called ribozymes. Each enzyme accelerates, or catalyzes, just one of the many possible kinds of reactions that a particular molecule might undergo. Enzyme-catalyzed reactions are connected in series, so that the product of one reaction becomes the starting material, or substrate, for the next (Figure 2\u201313). Long linear reaction pathways are in turn linked to one another, forming a maze of interconnected reactions that enable the cell to survive, grow, and reproduce."
+        },
+        {
+            "id": "Cell_Biology_Alberts_392",
+            "title": "Cell_Biology_Alberts",
+            "content": "2\u201310 A histidine side chain is known to play an important role in the catalytic mechanism of an enzyme; however, it is not clear whether histidine is required in its protonated (charged) or unprotonated (uncharged) state. To answer this question you measure enzyme activity over a range of pH, with the results shown in Figure Q2\u20131. Which form of histidine is required for enzyme activity? activity as a function of ph (problem 2\u201310). 2\u201311 The three molecules in Figure Q2\u20132 contain the seven most common reactive groups in biology. Most molecules in the cell are built from these functional groups. Indicate and name the functional groups in these molecules. O Figure Q2\u20132 Three molecules that illustrate the seven most common functional groups in biology (problem 2\u201311). 1,3-Bisphosphoglycerate and O pyruvate are intermediates in glycolysis and cysteine is an amino acid."
+        },
+        {
+            "id": "Cell_Biology_Alberts_270",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201321 The important principle of activation energy. (a) Compound Y (a reactant) is in a relatively stable state, and energy is required to convert it to compound X (a product), even though X is at a lower overall energy level than Y. This conversion will not take place, therefore, unless compound Y can acquire enough activation energy (energy a minus energy b) from its surroundings to undergo the reaction that converts it into compound X. This energy may be provided by means of an unusually energetic collision with other molecules. for the reverse reaction, X \u2192 Y, the activation energy will be d more rarely. activation energies are always positive; note, however, that the total energy change for the energetically known: some are capable of speeding up reactions by factors of 1014 or more. Enzymes thereby allow reactions that would not otherwise occur to proceed rapidly at normal temperatures."
+        },
+        {
+            "id": "Cell_Biology_Alberts_265",
+            "title": "Cell_Biology_Alberts",
+            "content": "Chapter 2: Cell Chemistry and Bioenergetics enzymes lower the activation-energy Barriers That Block Chemical Reactions"
+        },
+        {
+            "id": "Cell_Biology_Alberts_645",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Cell Regulates the Catalytic Activities of Its Enzymes A living cell contains thousands of enzymes, many of which operate at the same time and in the same small volume of the cytosol. By their catalytic action, these enzymes generate a complex web of metabolic pathways, each composed of chains of chemical reactions in which the product of one enzyme becomes the substrate of the next. In this maze of pathways, there are many branch points (nodes) where different enzymes compete for the same substrate. The system is complex (see Figure 2\u201363), and elaborate controls are required to regulate when and how rapidly each reaction occurs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_606",
+            "title": "Cell_Biology_Alberts",
+            "content": "rate of reaction Figure 3\u201346 enzyme kinetics. The rate of an enzyme reaction (V) increases as the substrate concentration increases until a maximum value (Vmax) is reached. At this point all substrate-binding sites on the enzyme molecules are fully occupied, and the rate of reaction is limited by the rate of the catalytic process on the enzyme surface. For most enzymes, the concentration of substrate at which the reaction rate is half-maximal (Km) is a measure of how tightly the substrate is bound, with a large value of Km corresponding to weak binding."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4037",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is the mutation rate so much higher in mitochondria than in the nucleus (and chloroplasts)? Could this high rate have been useful to the cell? What mechanisms and pathways have been used during evolution to transfer genes from the mitochondrion to the nucleus? how many seconds would it take the heart to consume an amount of ATP equal to its steady-state levels? (Complete oxidation of one molecule of glucose to CO2 yields 30 ATP, 26 of which are derived by oxidative phosphorylation using the 12 pairs of electrons captured in the electron carriers NADH and FADH2.) 14\u20136 Both H+ and Ca2+ are ions that move through the cytosol. Why is the movement of H+ ions so much faster than that of Ca2+ ions? How do you suppose the speed of these two ions would be affected by freezing the solution? Would you expect them to move faster or slower? Explain your answer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_271",
+            "title": "Cell_Biology_Alberts",
+            "content": "An enzyme cannot change the equilibrium point for a reaction. The reason is simple: when an enzyme (or any catalyst) lowers the activation energy for the reaction Y \u2192 X, of necessity it also lowers the activation energy for the reaction X \u2192 Y by exactly the same amount (see Figure 2\u201321). The forward and backward reactions will therefore be accelerated by the same factor by an enzyme, and the equilibrium point for the reaction will be unchanged (Figure 2\u201323). Thus no matter how much an enzyme speeds up a reaction, it cannot change its direction."
+        }
+    ],
+    "scores": [
+        0.03630270781088804,
+        0.03385893415795671,
+        0.03360252329469843,
+        0.032012242235059024,
+        0.03134925161147607,
+        0.03033441594009576,
+        0.02970822199634272,
+        0.02794170589436133,
+        0.026835194755939477,
+        0.02670530486778069,
+        0.026610748989452083,
+        0.025795980824271633,
+        0.025244054114640292,
+        0.02476658476658477,
+        0.02426821983273596,
+        0.02400609951094714,
+        0.023830364191809977,
+        0.023735701745174656,
+        0.02357416772340458,
+        0.023117839607201308,
+        0.022453984925082625,
+        0.02227087002773481,
+        0.021909933564068902,
+        0.02162947937795808,
+        0.0215929341530785,
+        0.02094620412267471,
+        0.018614718614718615,
+        0.018375566370196342,
+        0.017347204403041966,
+        0.01734232565033721,
+        0.0170995670995671,
+        0.016823079596802223
+    ],
+    "execution_time": 13.450009107589722
+}

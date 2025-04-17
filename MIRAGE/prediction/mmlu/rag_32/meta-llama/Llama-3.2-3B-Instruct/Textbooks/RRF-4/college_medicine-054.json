@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-054",
+    "question": "Which of the following processes is not used to modify protein structure after translation has occurred?",
+    "options": {
+        "A": "Lipidation.",
+        "B": "Attachment of more amino acids via peptide bonds.",
+        "C": "Glycosylation.",
+        "D": "Phosphorylation."
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze each option step by step.\\n\\nFirst, let's look at option A: Lipidation. Lipidation is a process where a lipid molecule is attached to a protein, which can modify its function or localization. This process can occur after translation has occurred, so it is a valid method of modifying protein structure.\\n\\nNext, let's consider option B: Attachment of more amino acids via peptide bonds. This process is actually the opposite of what we're looking for, as it involves adding more amino acids to the existing protein chain, rather than modifying the structure of the protein after translation.\\n\\nNow, let's examine option C: Glycosylation. Glycosylation is a process where a carbohydrate molecule is attached to the protein, which can modify its function or localization. Like lipidation, glycosylation can occur after translation has occurred, so it is a valid method of modifying protein structure.\\n\\nFinally, let's look at option D: Phosphorylation. Phosphorylation is a process where a phosphate group is added to a protein, which can modify its activity or localization. This process can occur after translation has occurred, so it is also a valid method of modifying protein structure.\\n\\nTherefore, the correct answer is B: Attachment of more amino acids via peptide bonds, as it is the only option that does not modify protein structure after translation has occurred.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_7056",
+            "title": "Cell_Biology_Alberts",
+            "content": "transition state Structure that forms transiently in the course of a chemical reaction and has the highest free energy of any reaction intermediate. Its formation is a rate-limiting step in the reaction. (Figure 3\u201347) translation (RNA translation) Process by which the sequence of nucleotides in an mRNA molecule directs the incorporation of amino acids into protein. Occurs on a ribosome. (Figures 6\u20131 and 6\u201364) translational control Regulation by a cell of gene expression by selecting which mRNAs in the cytoplasm are translated by ribosomes. translocon The assembly of a translocator associated with other membrane complexes, such as enzymes that modify the growing polypeptide chain. transmembrane adhesion proteins Cytoskeletonlinked transmembrane molecules with one end linking to the cytoskeleton inside the cell and the other end linking to other structures outside it."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1650",
+            "title": "Cell_Biology_Alberts",
+            "content": "Nucleotide Sequences in mRNA Signal Where to Start Protein Synthesis The initiation and termination of translation share features of the translation elongation cycle described above. The site at which protein synthesis begins on the mRNA is especially crucial, since it sets the reading frame for the whole length of the message. An error of one nucleotide either way at this stage would cause every subsequent codon in the message to be misread, resulting in a nonfunctional protein with a garbled sequence of amino acids. The initiation step is also important because for most genes it is the last point at which the cell can decide whether the mRNA is to be translated to produce a protein. The rate of this step is thus one determinant of the rate at which any particular protein will be synthesized. We shall see in Chapter 7 how regulation of this step occurs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1680",
+            "title": "Cell_Biology_Alberts",
+            "content": "Some Proteins Begin to Fold While Still Being Synthesized The process of gene expression is not over when the genetic code has been used to create the sequence of amino acids that constitutes a protein. To be useful to the cell, this new polypeptide chain must fold up into its unique three-dimensional conformation, bind any small-molecule cofactors required for its activity, be appropriately modified by protein kinases or other protein-modifying enzymes, and assemble correctly with the other protein subunits with which it functions (Figure 6\u201377). The information needed for all of the steps listed above is ultimately contained in the sequence of amino acids that the ribosome produces when it translates an mRNA molecule into a polypeptide chain. As discussed in Chapter 3, when a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1632",
+            "title": "Cell_Biology_Alberts",
+            "content": "Even if the wrong amino acid slips through the proofreading steps just described and is incorporated onto the growing polypeptide chain, there is still one more opportunity for the ribosome to detect the error and provide a solution, albeit one that is not, strictly speaking, proofreading. An incorrect codonanticodon interaction in the P site of the ribosome (which would occur after the misincorporation) causes an increased rate of misreading in the A site. Successive rounds of amino acid misincorporation eventually lead to premature termination of the protein by release factors, which are described below. Normally, these release factors act when translation of a protein is complete; here, they act early. Although this mechanism does not correct the original error, it releases the flawed protein for degradation, ensuring that no additional peptide synthesis is wasted on it."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1585",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. STEPS IN TRANSLATION The process of protein synthesis translates the 3-letter alphabet of nucleotide sequences on mRNA into the 20-letter alphabet of amino acids that constitute proteins. The mRNA is translated from its 5\u2032-end to its 3\u2032-end, producing a protein synthesized from its amino (N)-terminal end to its carboxyl (C)-terminal end. Prokaryotic mRNA often have several coding regions (that is, they are polycistronic; see p. 434). Each coding region has its own initiation and termination codon and produces a separate species of polypeptide. In contrast, each eukaryotic mRNA has only one coding region (that is, it is monocistronic). The process of translation is divided into three separate steps: initiation, elongation, and termination. Eukaryotic translation resembles that of prokaryotes in most aspects. Individual differences are noted in the text."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1481",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201320 Comparison of the steps leading from gene to protein in eukaryotes and bacteria. The final level of a protein in the cell depends on the efficiency of each step and on the rates of degradation of the RNA and protein molecules. (A) In eukaryotic cells, the mRNA molecule resulting from transcription contains both coding (exon) and noncoding (intron) sequences. Before it can be translated into protein, the two ends of the RNA are modified, the introns are removed by an enzymatically catalyzed RNA splicing reaction, and the resulting mRNA is transported from the nucleus to the cytoplasm. For convenience, the steps in this figure are depicted as occurring one at a time; in reality, many occur concurrently. For example, the RNA cap is added and splicing begins before transcription has been completed. Because of the coupling between transcription and RNA processing, intact primary transcripts\u2014the full-length RNAs that would, in theory, be produced if no processing had"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1681",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201377 Steps in the creation of a functional protein. As indicated, translation of an mRNA sequence into an amino acid sequence on the ribosome is not the end of the process of forming a protein. To function, the completed polypeptide chain must fold correctly into its three-dimensional conformation, bind any cofactors required, and assemble with its partner protein chains, if any. Noncovalent bond formation drives these changes. As indicated, many proteins also require covalent modifications of selected amino acids. Although the most frequent modifications are protein glycosylation and protein phosphorylation, over 200 different types of covalent modifications are known (see pp. 165\u2013166)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1610",
+            "title": "Cell_Biology_Alberts",
+            "content": "Amino Acids Are Added to the C-terminal End of a Growing Polypeptide Chain Having seen that each amino acid is first coupled to specific tRNA molecules, we now turn to the mechanism that joins these amino acids together to form proteins. The fundamental reaction of protein synthesis is the formation of a peptide bond between the carboxyl group at the end of a growing polypeptide chain and a free amino group on an incoming amino acid. Consequently, a protein is synthesized stepwise from its N-terminal end to its C-terminal end. Throughout the entire process, the growing carboxyl end of the polypeptide chain remains activated by its covalent attachment to a tRNA molecule (forming a peptidyl-tRNA). Each Figure 6\u201357 Hydrolytic editing. Aminoacyl tRNA synthetases correct their own coupling errors through hydrolytic editing of incorrectly attached amino acids. As described in the text, the correct amino acid is rejected by the editing site."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1964",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201354 Post-transcriptional controls of gene expression. the final synthesis rate of a protein can, in principle, be controlled at any of the steps listed in capital letters. in addition, rnA splicing, rnA editing, and translation recoding can also alter the sequence of amino acids in a protein, making it possible for the cell to produce more than one protein variant from the same gene. Only a few of the steps depicted here are likely to be critical for the regulation of any one particular protein. transcription Attenuation Causes the premature termination of Some rnA Molecules"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1660",
+            "title": "Cell_Biology_Alberts",
+            "content": "During translation, the nascent polypeptide moves through a large, water-filled tunnel (approximately 10 nm \u00d7 1.5 nm) in the large subunit of the ribosome. The walls of this tunnel, made primarily of 23S rRNA, are a patchwork of tiny hydrophobic surfaces embedded in a more extensive hydrophilic surface. This structure is not complementary to any peptide, and thus provides a \u201cTeflon\u201d coating through which a polypeptide chain can easily slide. The dimensions of the tunnel suggest that nascent proteins are largely unstructured as they pass through the ribosome, although some \u03b1-helical regions of the protein can form before leaving the ribosome tunnel. As it leaves the ribosome, a newly synthesized protein must fold into its proper three-dimensional conformation to be useful to the cell. Later in this chapter we discuss how this folding occurs. First, however, we describe several additional aspects of the translation process itself."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1654",
+            "title": "Cell_Biology_Alberts",
+            "content": "T.A. Steitz, J. Mol. Biol. 340:141\u2013177, 2004. With permission from Academic Press. PDB code: 1S72.) Figure 6\u201370 The initiation of protein synthesis in eukaryotes. Only three eIF2 of the many translation initiation factors required for this process are shown. Efficient translation initiation also requires the poly-A tail of the mRNA bound by poly-A-binding proteins, which, in turn, interact with eIF4G (see Figure 6\u201338). In this way, the translation apparatus ascertains that both ends of the mRNA are intact before initiating protein synthesis. Although only one GTP-hydrolysis event is shown in the figure, a second is known to occur subunit with just before the large and small ribosomal subunits join. In the last two steps initiator tRNA shown in the figure, the ribosome has begun the standard elongation cycle, bound to P site depicted in Figure 6\u201364. helicases facilitate this movement. In 90% of mRNAs, translation begins at the first"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1989",
+            "title": "Cell_Biology_Alberts",
+            "content": "rnA editing Can Change the Meaning of the rnA Message The molecular mechanisms used by cells are a continual source of surprises. An example is the process of RNA editing, which alters the nucleotide sequences of RNA transcripts once they are synthesized and thereby changes the coded message they carry. We saw in Chapter 6 that tRNA and rRNA molecules are chemically modified after they are synthesized: here we focus on changes to mRNAs."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1572",
+            "title": "Biochemistry_Lippinco",
+            "content": "= guanine; U = uracil. III. COMPONENTS REQUIRED FOR TRANSLATION A large number of components are required for the synthesis of a protein. These include all the amino acids that are found in the finished product, the mRNA to be translated, transfer RNA (tRNA) for each of the amino acids, functional ribosomes, energy sources, and enzymes as well as noncatalytic protein factors needed for the initiation, elongation, and termination steps of polypeptide chain synthesis. A. Amino acids All the amino acids that eventually appear in the finished protein must be present at the time of protein synthesis. If one amino acid is missing, translation stops at the codon specifying that amino acid. [Note: This demonstrates the importance of having all the essential amino acids (see p. 262) in sufficient quantities in the diet to insure continued protein synthesis.] B. Transfer RNA"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1600",
+            "title": "Biochemistry_Lippinco",
+            "content": "VI. CO-AND POSTTRANSLATIONAL MODIFICATIONS Many polypeptides are covalently modified, either while they are still attached to the ribosome (cotranslational) or after their synthesis has been completed (posttranslational). These modifications may include removal of part of the translated sequence or the covalent addition of one or more chemical groups required for protein activity. A. Trimming Many proteins destined for secretion are initially made as large, precursor molecules that are not functionally active. Portions of the protein must be removed by specialized endoproteases, resulting in the release of an active molecule. The cellular site of the cleavage reaction depends on the protein to be modified. Some precursor proteins are cleaved in the RER or the Golgi; others are cleaved in developing secretory vesicles (for example, insulin; see Fig. 23.4, p. 309); and still others, such as collagen (see p. 47), are cleaved after secretion. B. Covalent attachments"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1664",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201372 The final phase of protein synthesis. The binding of a release factor to an A site bearing a stop codon terminates translation. The completed polypeptide is released and, in a series of reactions that requires additional proteins and GTP hydrolysis (not shown), the ribosome dissociates into its two separate subunits. messenger RNA Figure 6\u201373 A polyribosome. (A) Schematic drawing showing how a series of ribosomes can simultaneously translate the same eukaryotic mRNA molecule. (B) Electron micrograph of a polyribosome from a eukaryotic cell (Movie 6.10). (B, courtesy of John Heuser.) cytosol of the cell it is translated as isoleucine (see Table 14\u20133, p. 805). This type of deviation in the genetic code is \u201chardwired\u201d into the organisms or the organelles in which it occurs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1747",
+            "title": "Cell_Biology_Alberts",
+            "content": "6\u201310 Which of the following mutational changes would you predict to be the most deleterious to gene function? Explain your answers. frst Ala second Figure Q6\u20134 Two rounds of treatment treatment mutagenesis and the altered amino acids at a single position in Val Thr a protein (Problem 6\u20139). 1. Insertion of a single nucleotide near the end of the coding sequence. 2. Removal of a single nucleotide near the beginning of the coding sequence. 3. Deletion of three consecutive nucleotides in the middle of the coding sequence. 4. Substitution of one nucleotide for another in the middle of the coding sequence. 6\u201311 Prokaryotes and eukaryotes both protect against the dangers of translating broken mRNAs. What dangers do partial mRNAs pose for the cell?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1718",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the following chapter, we shall see that cells have the ability to change the levels of their proteins according to their needs. In principle, any or all of the steps in Figure 6\u201387 could be regulated for each individual protein. As we shall see in Chapter 7, there are examples of regulation at each step from gene to protein. 5\u02dc3\u02dcDNA introns exons INITIATION OF TRANSCRIPTION CLEAVAGE, POLYADENYLATION, AND TERMINATION EXPORT CAPPING, ELONGATION SPLICING AAAA mRNA NUCLEUS CYTOSOL cap poly-A tail Figure 6\u201387 The production of a protein by a eukaryotic cell. The final level of each protein in a eukaryotic cell depends upon the efficiency of each step depicted."
+        },
+        {
+            "id": "Cell_Biology_Alberts_740",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the functions of the surprisingly large amount of unfolded polypeptide chain found in proteins? How many types of protein functions remain to be discovered? What are the most promising approaches for discovering them? When will scientists be able to take any amino acid sequence and accurately predict both that protein\u2019s three-dimensional conformations and its chemical properties? What breakthroughs will be needed to accomplish this important goal? Are there ways to reveal the detailed workings of a protein machine that do not require the purification of each of its component parts in large amounts, so that the machine\u2019s functions can be reconstituted and dissected using chemical techniques in a test tube? What are the roles of the dozens of different types of covalent modifications of proteins that have been found in addition to those listed in Table 3\u20133? Which ones are critical for cell function and why?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_27",
+            "title": "Cell_Biology_Alberts",
+            "content": "All cells Translate RnA into Protein in the same Way How the information in DNA specifies the production of proteins was a complete mystery in the 1950s when the double-stranded structure of DNA was first revealed as the basis of heredity. But in the intervening years, scientists have discovered the elegant mechanisms involved. The translation of genetic information from the 4-letter alphabet of polynucleotides into the 20-letter alphabet of proteins is a complex process. The rules of this translation seem in some respects neat and rational but in other respects strangely arbitrary, given that they are (with minor exceptions) identical in all living things. These arbitrary features, it is thought, reflect frozen accidents in the early history of life. They stem from the chance properties of the earliest organisms that were passed on by heredity and have become so deeply embedded in the constitution of all living cells that they cannot be changed without disastrous effects."
+        },
+        {
+            "id": "Histology_Ross_252",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.27 \u2022 Summary of events during protein synthesis. Proteins synthesis begins within the nucleus with transcription, during which the genetic code for a protein is transcribed from DNA to mRNA precursors. After post-transcriptional modifcations of the premRNA molecule\u2014which include RNA cleavage, excision of introns, rejoining of exons, and capping by addition of poly(A) tracks at the 3 end and methylguanosine cap at the 5 end\u2014 the resulting mRNA molecule leaves the nucleus into the cytoplasm. In the cytoplasm, the mRNA sequence is read by the ribosomal complex in the process of translation to form a polypeptide chain. The frst group of 15 to 60 amino acids on the amino-terminus of a newly synthesized polypeptide forms a signal sequence (signal peptide) that directs protein to its destination (i.e., lumen of rER). The signal peptide interacts with a signal-recognition particle (SRP), which arrests further growth of the polypeptide chain until its relocation toward the rER"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1686",
+            "title": "Cell_Biology_Alberts",
+            "content": "covalent modifcation by glycosylation, phosphorylation, acetylation etc. binding to other protein subunits Figure 6\u201378 The structure of a molten globule. (A) A molten globule form of cytochrome b562 is more open and less highly ordered than the final folded form of the protein, shown in (B). Note that the molten globule contains most of the secondary structure of the final form, although the ends of the \u03b1 helices are unraveled and one of the helices is only partly formed. (Courtesy of Joshua Wand, from Y. Feng et al., Nat. Struct. Biol. 1:30\u2013 35, 1994. With permission from Macmillan Publishers Ltd.) Figure 6\u201379 Co-translational protein folding. A growing polypeptide chain is shown acquiring its secondary and tertiary structure as it emerges from a ribosome. The N-terminal domain folds first, while the C-terminal domain is still being synthesized. This protein has not achieved its final conformation at the time it is released from the ribosome. (Modified from A.N. Fedorov and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1640",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have also seen that attaining the observed accuracy of protein synthesis requires the expenditure of a great deal of free energy; this is expected, since, as discussed in Chapter 2, there is a price to be paid for any increase in order in the cell. In most cells, protein synthesis consumes more energy than any other biosynthetic process. At least four high-energy phosphate bonds are split to make each new peptide bond: two are consumed in charging a tRNA molecule with an amino acid (see Figure 6\u201354), and two more drive steps in the cycle of reactions occurring on the ribosome during protein synthesis itself (see Figure 6\u201365). In addition, extra energy is consumed each time that an incorrect amino acid linkage is hydrolyzed by a tRNA synthetase (see Figure 6\u201357) and each time that an incorrect tRNA enters the ribosome, triggers GTP hydrolysis, and is rejected (see Figure 6\u201365). To be effective, any proofreading mechanism must also allow an appreciable fraction of correct"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1622",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once protein synthesis has been initiated, each new amino acid is added to the elongating chain in a cycle of reactions containing four major steps: tRNA binding (step 1), peptide bond formation (step 2), large subunit translocation (step 3), and small subunit translocation (step 4). As a result of the two translocation steps, the entire ribosome moves three nucleotides along the mRNA and is positioned to start the next cycle. Figure 6\u201364 illustrates this four-step process, beginning at a point at which three amino acids have already been linked together and there is a tRNA molecule in the P site on the ribosome, covalently joined to the C-terminal end of the short polypeptide. In step 1, a tRNA carrying the next amino acid in the chain binds to the ribosomal A site by forming base pairs with the mRNA codon positioned there, so that the P site and the A site contain adjacent bound tRNAs. In step 2, the carboxyl end of the polypeptide chain is released from the tRNA at the P site (by"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1623",
+            "title": "Cell_Biology_Alberts",
+            "content": "with the mRNA codon positioned there, so that the P site and the A site contain adjacent bound tRNAs. In step 2, the carboxyl end of the polypeptide chain is released from the tRNA at the P site (by breakage of the high-energy bond between the tRNA and its amino acid) and joined to the free amino group of the amino acid linked to the tRNA at the A site, forming a new peptide bond. This central reaction of protein synthesis is catalyzed by a peptidyl transferase contained in the large ribosomal subunit. In step 3, the large subunit moves relative to the mRNA held by the small subunit, thereby shifting the acceptor stems of the two tRNAs to the E and P sites of the large subunit. In step 4, another series of conformational changes moves the small subunit and its bound mRNA exactly three nucleotides, ejecting the spent tRNA from the E site and resetting the ribosome so it is ready to receive the next aminoacyl-tRNA. Step 1 is then repeated with a new incoming aminoacyl-tRNA, and so on."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6991",
+            "title": "Cell_Biology_Alberts",
+            "content": "positive feedback Control mechanism whereby the end product of a reaction or pathway stimulates its own production or activation. positive selection In immunology: process of thymocyte maturation in which thymocytes expressing a T cell receptor with appropriate affinity for a self peptide bound to a self MHC protein is signaled to survive and continue development. post-transcriptional controls Any control on gene expression that is exerted at a stage after transcription has begun. (Figure 7\u201354) post-translational Occurring after completion of translation."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1616",
+            "title": "Biochemistry_Lippinco",
+            "content": "2.4. In a patient with cystic fibrosis (CF) caused by the \u2206F508 mutation, the mutant CF transmembrane conductance regulator (CFTR) protein folds incorrectly. The patient\u2019s cells modify this abnormal protein by attaching ubiquitin molecules to it. What is the fate of this modified CFTR protein? A. It performs its normal function because the ubiquitin largely corrects for the effect of the mutation. B. It is degraded by the proteasome. C. It is placed into storage vesicles. D. It is repaired by cellular enzymes. E. It is secreted from the cell. Correct answer = B. Ubiquitination usually marks old, damaged, or misfolded proteins for destruction by the cytosolic proteasome. There is no known cellular mechanism for repair of damaged proteins. 2.5. Many antimicrobials inhibit translation. Which of the following antimicrobials is correctly paired with its mechanism of action? A. Erythromycin binds to the 60S ribosomal subunit. B. Puromycin inactivates elongation factor-2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1619",
+            "title": "Biochemistry_Lippinco",
+            "content": "2.7. Which of the following is required for both prokaryotic and eukaryotic protein synthesis? A. Binding of the small ribosomal subunit to the Shine-Dalgarno sequence B. Formylated methionyl-transfer (t)RNA C. Movement of the messenger RNA out of the nucleus and into the cytoplasm D. Recognition of the 5\u2032-cap by initiation factors E. Translocation of the peptidyl-tRNA from the A site to the P site Correct answer = E. In both prokaryotes and eukaryotes, continued translation (elongation) requires movement of the peptidyl-tRNA from the A to the P site to allow the next aminoacyl-tRNA to enter the A site. Only prokaryotes have a Shine-Dalgarno sequence and use formylated methionine and only eukaryotes have a nucleus and co-and posttranscriptionally process their mRNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2028",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although approximately 90% of eukaryotic mRNAs are translated beginning with the first AUG downstream from the 5\u02b9 cap, certain AUGs, as we saw in the previous section, can be skipped over during the scanning process. In this section, we discuss yet another way that cells can initiate translation at positions distant from the 5\u02b9 end of the mRNA, using a specialized type of RNA sequence called an internal ribosome entry site (IRES). In some cases, two distinct protein-coding sequences are carried in tandem on the same eukaryotic mRNA; translation of the first occurs by the usual scanning mechanism, and translation of the second occurs through an IRES. IRESs are typically several hundred nucleotides in length and fold into specific structures that bind many, but not all, of the same proteins that are used to initiate normal 5\u02b9 cap-dependent translation (Figure 7\u201368). In fact, different IRESs require different subsets of initiation factors. However, all of them bypass the need for a 5\u02b9"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1673",
+            "title": "Cell_Biology_Alberts",
+            "content": "from Macmillan Publishers Ltd.) translating damaged or incompletely processed mRNAs (which would produce truncated or otherwise aberrant proteins) is apparently so great that the cell has several backup measures to prevent this from happening. To avoid translating broken mRNAs, for example, the 5\u02b9 cap and the poly-A tail are both recognized by the translation-initiation machinery before translation begins (see Figure 6\u201370)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1624",
+            "title": "Cell_Biology_Alberts",
+            "content": "This four-step cycle is repeated each time an amino acid is added to the polypeptide chain, as the chain grows from its amino to its carboxyl end. The basic cycle of polypeptide elongation shown in outline in Figure 6\u201364 has an additional feature that makes translation especially efficient and accurate. Two elongation factors enter and leave the ribosome during each cycle, each hydrolyzing GTP to GDP and undergoing conformational changes in the process. These factors are called EF-Tu and EF-G in bacteria, and EF1 and EF2 in eukaryotes. Under some conditions in vitro, ribosomes can be forced to synthesize proteins"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1562",
+            "title": "Biochemistry_Lippinco",
+            "content": "many common amino acids are shown as examples. 1. How to translate a codon: This table can be used to translate any codon and, thus, to determine which amino acids are coded for by an mRNA sequence. For example, the codon AUG codes for methionine ([Met] see Fig. 32.2). [Note: AUG is the initiation (start) codon for translation.] Sixty-one of the 64 codons code for the 20 standard amino acids (see p. 1). 2. Termination codons: Three of the codons, UAA, UAG, and UGA, do not code for amino acids but, rather, are termination (also called stop, or nonsense) codons. When one of these codons appears in an mRNA sequence, synthesis of the polypeptide coded for by that mRNA stops. B. Characteristics"
+        },
+        {
+            "id": "Biochemistry_Lippincott_77",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. .1. Which one of the following statements concerning protein structure is correct? A. Proteins consisting of one polypeptide have quaternary structure that is stabilized by covalent bonds. B. The peptide bonds that link amino acids in a protein most commonly occur in the cis configuration. C. The formation of a disulfide bond in a protein requires the participating cysteine residues to be adjacent in the primary structure. D. The denaturation of proteins leads to irreversible loss of secondary structural elements such as the \u03b1-helix. E. The primary driving force for protein folding is the hydrophobic effect."
+        }
+    ],
+    "scores": [
+        0.03369373510040077,
+        0.029582162820707227,
+        0.027654979615244577,
+        0.02649213531566473,
+        0.026385640902640364,
+        0.026102106334664473,
+        0.025657813920349853,
+        0.02370062857678957,
+        0.02331990330378727,
+        0.022851924061601483,
+        0.022418484474322035,
+        0.02231259010920028,
+        0.02222275641025641,
+        0.021868820039551748,
+        0.01908735231531474,
+        0.01896117900790798,
+        0.01833515419853181,
+        0.017905459175553078,
+        0.0178822150360744,
+        0.017636057295186604,
+        0.017582753612109165,
+        0.017494270435446907,
+        0.01646825396825397,
+        0.016390179163901793,
+        0.016351457840819542,
+        0.016155299329033937,
+        0.01555104800540906,
+        0.015406400453129424,
+        0.015173285821024196,
+        0.014906832298136646,
+        0.014877236787349146,
+        0.014786967418546366
+    ],
+    "execution_time": 46.113234996795654
+}

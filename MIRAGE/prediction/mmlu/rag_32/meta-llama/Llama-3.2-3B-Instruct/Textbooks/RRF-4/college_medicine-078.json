@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-078",
+    "question": "A scientist, using electrodes, is stimulating a group of neurons in the hypothalamus and recording their membrane potential changes. She observes a sharp rise in membrane potential when she first stimulates them, the the difference of 100mV. When she tries another stimulation immediately after the first, there is no response. However, when she increase the amount of voltage she supplies to the second shock, she observes a similar response to the first. What time period of stimulation would the second shock be characterized in regards to membrane potential?",
+    "options": {
+        "A": "Depolarization",
+        "B": "Repolarization",
+        "C": "Hyperpolarization",
+        "D": "Resting potential"
+    },
+    "answer": "C",
+    "predict": "Here's the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"The scientist is stimulating a group of neurons in the hypothalamus and recording their membrane potential changes. The first stimulation causes a sharp rise in membrane potential, indicating depolarization. The second stimulation, however, elicits no response, which suggests that the neuron is in a refractory period. When the scientist increases the amount of voltage supplied to the second shock, a similar response to the first is observed. This indicates that the neuron has recovered from its refractory period and is now capable of responding to the second stimulation. The time period of stimulation that the second shock is characterized in regards to membrane potential is the relative refractory period.\", \"answer_choice\": \"C. Hyperpolarization\"} Note: The correct answer is actually none of the above. The correct answer is the relative refractory period. The relative refractory period is the time period during which a neuron is unable to respond to a stimulus, but can respond to a stronger stimulus. In this case, the neuron was in the relative refractory period after the first stimulation and was able to respond to the second stimulation after it was increased. However, since the answer choices do not include the relative refractory period, the closest answer is C. Hyperpolarization. Hyperpolarization is a type of membrane potential that is opposite to depolarization, and it is not the correct answer. But since the other options are not correct, the answer is C.",
+    "snippets": [
+        {
+            "id": "Physiology_Levy_336",
+            "title": "Physiology_Levy",
+            "content": "When a microelectrode (tip diameter <0.5 \u00b5m) is inserted through the plasma membrane of a neuron, a difference in potential is observed between the tip of the microelectrode inside the cell and an electrode placed outside the cell. The internal electrode is approximately 70 mV negative with regard to the external electrode, and this difference is referred to as the resting membrane potential or, simply, the resting potential (see for details on the basis of the resting potential). (By convention, membrane potentials are expressed as the intracellular potential minus the extracellular potential.) Neurons have a resting potential that typically is around \u221270 mV."
+        },
+        {
+            "id": "Physiology_Levy_343",
+            "title": "Physiology_Levy",
+            "content": "Fig. 5.1A ) all have the same fundamental shape because of the passive properties of the membrane. In contrast, the shapes of the responses to the larger depolarizing stimulus pulses differ from those to hyperpolarizing and small-amplitude depolarizing current pulses because the larger stimuli activate nonpassive elements in the membrane. For the responses to hyperpolarizing current pulses, once a long enough time has elapsed from the start of the current pulse to allow the membrane voltage to plateau (essentially several times \u03c4), virtually all of the injected current is flowing through the membrane resistance. If the difference between the initial and steady-state voltages is plotted against the amplitude of the current pulse (see Fig. 5.1B ), a linear relationship is observed for the hyperpolarizing pulses, which is exactly what is expected from Ohm\u2019s law (V = I *"
+        },
+        {
+            "id": "Physiology_Levy_354",
+            "title": "Physiology_Levy",
+            "content": "The Local Response With regard to the experiment shown in Fig. 5.1, if larger depolarizing current pulses are injected, the voltage response of the membrane no longer resembles that of a passive RC circuit. This is most easily observed with pulses that elicit depolarizations either just below or to the threshold membrane potential for an action potential but fail to evoke an action potential (tracings 0.89 and 1.0; the threshold membrane potential can be defined as the voltage at which the probability of evoking an action potential is 50%). In these cases, the voltage response shape is altered from that of the passive responses because the stimulus has changed the membrane potential sufficiently to cause the opening of significant numbers of voltage-sensitive Na+ channels (described later). Also, note the upward deviation from linearity for the corresponding points in the I-V curve (see"
+        },
+        {
+            "id": "Physiology_Levy_345",
+            "title": "Physiology_Levy",
+            "content": "Fig. 5.1A ), the fall and rise in the membrane voltage have exponential shapes. This shows that the membrane is responding to these current pulses as a parallel RC circuit would; that is, the stimulus causes no change in membrane resistance or capacitance (cm), and thus the time course of the rise and fall in voltage is the same in all cases because it is governed by the same membrane time constant (\u03c4)."
+        },
+        {
+            "id": "Physiology_Levy_344",
+            "title": "Physiology_Levy",
+            "content": "Fig. 5.1B ), a linear relationship is observed for the hyperpolarizing pulses, which is exactly what is expected from Ohm\u2019s law (V = I * R) for current flowing through a resistor. The slope of this line (\u0394V/\u0394I) is referred to as the input resistance of the cell (Rin) and is determined experimentally, exactly as just described. Rin is related to the membrane resistance (rm) of the cell, but the exact relationship depends on the geometry of the cell and is complex in most cases. Next, note that although the current is injected as rectangular pulses, with vertical rising and falling edges, the shape of the membrane voltage responses just after the starts and ends of the pulses have slower rises and falls. Moreover, with regard to only the responses to hyperpolarizing and small-amplitude depolarizing current pulses (see"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3057",
+            "title": "Cell_Biology_Alberts",
+            "content": "An electrical stimulus that exceeds a certain threshold strength triggers an explosion of electrical activity that propagates rapidly along the neuron\u2019s plasma membrane and is sustained by automatic amplification all along the way. This traveling wave of electrical excitation, known as an action potential, or nerve impulse, can carry a message without attenuation from one end of a neuron to the other at speeds of 100 meters per second or more. Action potentials are the direct consequence of the properties of voltage-gated cation channels, as we now discuss."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3123",
+            "title": "Cell_Biology_Alberts",
+            "content": "To understand the need for multiple types of channels, consider first what would happen if the only voltage-gated ion channels present in the nerve cell were the Na+ channels. Below a certain threshold level of synaptic stimulation, the depolarization of the initial-segment membrane would be insufficient to trigger an action potential. With gradually increasing stimulation, the threshold would be crossed, the Na+ channels would open, and an action potential would fire. The action potential would be terminated by inactivation of the Na+ channels. Before another action potential could fire, these channels would have to recover from their inactivation. But that would require a return of the membrane voltage to a very negative value, which would not occur as long as the strong depolarizing stimulus (from PSPs) was maintained. An additional channel type is needed, therefore, to repolarize the membrane after each action potential to prepare the cell to fire again."
+        },
+        {
+            "id": "Physiology_Levy_333",
+            "title": "Physiology_Levy",
+            "content": "Squire L, Berg D. Fundamental Neuroscience. 4th ed. Waltham, MA: Kiernan JA, Rajakumar N. Barr\u2019s The Human Nervous System: An Academic Press; 2012. Anatomical Viewpoint. 10th ed. Philadelphia: Lippincott Williams Vanderah T, Gould D. Nolte\u2019s The Human Brain: An Introduction to its & Wilkins; 2013. Functional Anatomy. 7th ed. St. Louis: Mosby; 2015. Upon completion of this chapter, the student should be able to answer the following questions: 1. How is a nerve membrane\u2019s response to small-amplitude stimuli like a passive electric circuit comprising batteries, resistors, and capacitors? 2. What factors determine the time and length constants of a nerve membrane? How do these constants shape the electric responses of the nerve membrane? 3. How does an action potential differ from the subthreshold responses of a membrane (i.e., the passive and local responses)? 4. What is the sequence of conductances that underlies the action potential? 5."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3065",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 11\u201330 Na+ channels and an action potential. (A) An action potential is triggered by a brief pulse of current, which (B) partially depolarizes the membrane, as shown in the plot of membrane potential versus time. The green curve shows how the membrane potential would have simply relaxed back to the resting value after the initial depolarizing stimulus if there had been no voltage-gated Na+ channels in the membrane. The red curve shows the course of the action potential that is caused by the opening and subsequent inactivation of voltage-gated Na+ channels. The states of the Na+ channels are indicated in (B). The membrane cannot fire a second action potential until the Na+ channels have returned from the inactivated to the closed conformation; until then, the membrane is refractory to stimulation. (C) The three states of the Na+ channel. When the membrane is at rest (highly polarized), the closed conformation of the channel has the lowest free energy and is therefore most stable;"
+        },
+        {
+            "id": "Physiology_Levy_340",
+            "title": "Physiology_Levy",
+            "content": "With regard to how an axon actually responds to electrical stimulation, Fig. 5.1 illustrates the results of an experiment in which the membrane potential of an axon is altered by passing rectangular pulses of depolarizing (upward-going 1.0 0.89 0.44 0.22 0.11 \u20130.11 \u20130.22 \u20130.44 \u20130.89 \u20131.0 0 5 10 15 20 25 Change in Voltage from baseline (mV)"
+        },
+        {
+            "id": "Physiology_Levy_434",
+            "title": "Physiology_Levy",
+            "content": "9. A receptor responds preferentially to a particular form of stimulus energy. Its receptive field is that part of a sensory domain in which energy can affect the receptor. 10. Receptor potentials are the result of transduction of sensory stimuli. These potentials reflect the specific parameters of the stimulus and, if they exceed threshold, alter the action potential firing patterns of the afferent neurons. Johnston D, Wu SM-S. Foundations of Cellular Neurophysiology. Cambridge, MA: MIT Press; 1994. Sakmann B, Neher E. Single-Channel Recording. 2nd ed. Philadelphia: Springer; 1995. Upon completion of this chapter the student should be able to answer the following questions: 1. What are the characteristics of electrical synapses? 2. What are the specializations found in the presynaptic and postsynaptic elements of a chemical synapse? 3. What sequence of events connect the arrival of the action potential at the presynaptic terminal to the entry of calcium? 4."
+        },
+        {
+            "id": "Physiology_Levy_337",
+            "title": "Physiology_Levy",
+            "content": "One of the signature features of neurons is their ability to change their membrane potential rapidly from rest in response to an appropriate stimulus. Two such classes of responses are action potentials and synaptic potentials, which are described in this chapter and the next, respectively. Current knowledge about the ionic mechanisms of action potentials comes from experiments with many species. One of the most studied is the squid because the large diameter (up to 0.5 mm) of the squid giant axon makes it an excellent model for electrophysiological research with intracellular electrodes. The Passive Response"
+        },
+        {
+            "id": "Physiology_Levy_342",
+            "title": "Physiology_Levy",
+            "content": "R Soc Lond B Biol Sci. 1946;133:444-479.) pulses) or hyperpolarizing (downward-going pulses) current across its cell membrane. The injection of positive charge is depolarizing because it makes the cell less negative (i.e., decreases the potential difference across the cell membrane). Conversely, the injection of negative charge makes the membrane potential more negative, and this change in potential is called hyperpolarization. The larger the current that is injected, the greater the change in the membrane potential will be. The responses to hyperpolarizing and small-amplitude depolarizing current pulses (see"
+        },
+        {
+            "id": "Physiology_Levy_1695",
+            "title": "Physiology_Levy",
+            "content": "When a fast response is evoked during the relative refractory period of a previous excitation, its characteristics vary with the membrane potential that exists at the time of stimulation ( Fig. 16.14). The later in the relative refractory period that the fiber is stimulated, the greater are the increases in the amplitude of the response and the slope of the upstroke because the number of fast sodium channels that have recovered from inactivation increases as repolarization proceeds. As a consequence, propagation velocity also increases the later in the relative refractory period that the fiber is stimulated. Once the fiber is fully repolarized, the response is constant no matter what time in phase 4 the stimulus is applied."
+        },
+        {
+            "id": "Physiology_Levy_1388",
+            "title": "Physiology_Levy",
+            "content": "Action potentials in skeletal muscles are quite uniform and lead to the release of a reproducible pulse of Ca++ from the SR ( Fig. 12.16 ). A single action potential releases sufficient Ca++ to cause a twitch contraction. However, the duration of this contraction is very short because Ca++ is very rapidly pumped back into the SR. If the muscle is stimulated a second time before it is fully relaxed, the force of contraction increases (see Fig. 12.16 , middle). Thus twitch forces are amplified as stimulus frequency increases. At a high level of stimulation, intracellular [Ca++] increases and is maintained throughout the period of stimulation (see Fig. 12.16 , right), and the amount of force developed greatly exceeds that observed during a twitch. The response is termed tetany. At intermediate stimulus frequency, intracellular [Ca++] returns to baseline just before the next stimulus. However, there is a gradual rise in force (see"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3058",
+            "title": "Cell_Biology_Alberts",
+            "content": "The plasma membrane of all electrically excitable cells\u2014not only neurons, but also muscle, endocrine, and egg cells\u2014contains voltage-gated cation channels, which are responsible for generating the action potentials. An action potential is triggered by a depolarization of the plasma membrane\u2014that is, by a shift in the membrane potential to a less negative value inside. (We shall see later how the action of a neurotransmitter causes depolarization.) In nerve and skeletal muscle cells, a stimulus that causes sufficient depolarization promptly opens the voltage-gated Na+ channels, allowing a small amount of Na+ to enter the cell down its electrochemical gradient. The influx of positive charge depolarizes the membrane further, thereby opening more Na+ channels, which admit more Na+ ions, causing still further depolarization. This self-amplification process (an example of positive feedback, discussed in Chapters 8 and 15) continues until, within a fraction of a millisecond, the electrical"
+        },
+        {
+            "id": "Physiology_Levy_346",
+            "title": "Physiology_Levy",
+            "content": "The relationships between voltage and current just described show that within a certain range of stimulation, the cell membrane in one region of the axon can be modeled by a passive RC circuit. However, this model circuit, with only a single resistor and capacitor, takes no account of the fact that axons are spatially extended structures and that because of this, the resistance of the intracellular space is a significant factor in how electrical events in one region affect other regions. That is, if axons had no intracellular resistance, their intracellular space would be isoelectric, and voltage changes, like those just described, across one part of the axonal membrane would occur across all regions instantaneously. In this case, there would be no need for a"
+        },
+        {
+            "id": "Physiology_Levy_356",
+            "title": "Physiology_Levy",
+            "content": "Suprathreshold Response: The Action Potential Local responses will increase in size as the amplitude of the depolarizing current pulse is increased, until the threshold membrane potential is reached, at which point a different sort of response, the action potential (or spike), can occur. The threshold value is typically near \u221255 mV. Normally, when the membrane potential exceeds this value, an action potential is always triggered."
+        },
+        {
+            "id": "Physiology_Levy_502",
+            "title": "Physiology_Levy",
+            "content": "Activation of a synapse typically produces a response in the postsynaptic cell (i.e., a postsynaptic potential) that will be roughly the same each time, assuming the postsynaptic cell is in a similar state. Certain patterns of synaptic activation, however, result in changes in the response to subsequent activation of the synapse. Such use-related changes may remain for short (milliseconds) or long (minutes to days) durations and may be either a potentiation or suppression of the synapse\u2019s strength. These changes probably underlie cognitive abilities such as learning and memory. Thus, the processes by which activity results in changes in a synapse\u2019s efficacy are a critical feature of synaptic transmission. When a presynaptic axon is stimulated twice in rapid succession, it is often found that the postsynaptic potential evoked by the second stimulus are larger in amplitude than the one evoked by the first (Fig. 6.9 ). This increase"
+        },
+        {
+            "id": "Neurology_Adams_210",
+            "title": "Neurology_Adams",
+            "content": "The stimulation of sense organs or peripheral nerves evokes an electrical response in the corresponding cortical receptive areas and in a number of subcortical relay stations. However, one cannot place a recording electrode near the nuclear relay stations, nor can one detect tiny potentials of only a few microvolts among the much larger background activity in the EEG. The use of computerized averaging methods, introduced by Dawson in 1954, has provided a means of overcoming these problems. Initially, emphasis was on the study of late waves (over 100 ms after the stimulus) because they are of high amplitude and easy to record. However, there is more clinical utility in recording the much smaller, short-latency waveforms, which are received at each nuclear relay within the main sensory systems. These waveforms are maximized by the computer to a point where their latency and voltage can easily be measured. One of the remarkable properties of evoked potentials is their resistance to"
+        },
+        {
+            "id": "Physiology_Levy_410",
+            "title": "Physiology_Levy",
+            "content": "Environmental events that evoke sensory transduction can be mechanical, thermal, chemical, or other forms of energy. However, the types of information used by a CHAPTER 5 Generation and Conduction of Action Potentials particular organism depend on its set of sensory receptors. For example, humans cannot sense electrical or magnetic fields, but other animals can sense such stimuli. In particular, many fish have electroreceptors, and various fish and birds use the earth\u2019s magnetic field to orient themselves during migration. The transduction process varies with the type of environmental stimulus being detected. Fig. 5.13 shows three examples of how stimuli can alter the membrane properties of the specific sensory receptors that transduce such stimuli 0246 (further details for each of these examples are given in other 36 72 108 m/s chapters)."
+        },
+        {
+            "id": "Physiology_Levy_385",
+            "title": "Physiology_Levy",
+            "content": "When a cell is refractory, it is either completely unable to fire an action potential or it requires a much stronger stimulation than usual. During much of the action potential, the cell is completely refractory because it will not fire another action potential no matter how strongly it is stimulated. This absolute refractory period (see Fig. 5.4 ) occurs when a large fraction of the Na+ channels are inactivated and therefore cannot be reopened until the membrane is repolarized. During this period, the critical number of Na+ channels required to produce an action potential cannot be recruited."
+        },
+        {
+            "id": "Physiology_Levy_68",
+            "title": "Physiology_Levy",
+            "content": "The electrochemical gradient is a measure of the free energy available to carry out the useful work of transporting the molecule across the membrane. It has two components: One component represents the energy in the concentration gradient for X across the membrane (chemical potential bBy convention, membrane voltages are determined and reported with regard to the exterior of the cell. In a typical cell, the resting membrane potential (Vm) is negative. Positive Vm values can be observed in some excitable cells at the peak of an action potential."
+        },
+        {
+            "id": "Physiology_Levy_1655",
+            "title": "Physiology_Levy",
+            "content": "Fig.16.13 Genesis of the Upstroke (Phase 0) Any stimulus that abruptly depolarizes Vm to a critical value (the threshold) elicits an action potential. The characteristics of fast-response action potentials are shown in Fig. 16.1A. The rapid depolarization (phase 0) is related almost exclusively to the influx of Na+ into the myocyte as a result of a sudden increase in gNa. The action potential amplitude (the membrane potential change during phase 0) is dependent on extracellular [Na+]. When extracellular [Na+] is decreased, the amplitude of the action potential decreases, and when it is reduced from its normal value of approximately 140 mEq/L to approximately 20 mEq/L, the cell is no longer excitable."
+        },
+        {
+            "id": "Physiology_Levy_387",
+            "title": "Physiology_Levy",
+            "content": "During the latter part of the action potential, and during the afterhyperpolarization period, the cell is able to fire a second action potential, but a stimulus stronger than normal is required. This period is called the relative refractory period. Early in the relative refractory period, before the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3128",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Ca2+-activated K+ channel opens in response to a raised concentration of Ca2+ at the channel\u2019s cytoplasmic face (Figure 11\u201342). Prolonged, strong depolarizing stimuli will trigger a long train of action potentials, each of which permits a brief influx of Ca2+ through the voltage-gated Ca2+ channels, so that local cytosolic Ca2+ concentration gradually builds up to a level high enough to open the Ca2+-activated K+ channels. Because the resulting increased permeability of the membrane to K+ makes the membrane harder to depolarize, the delay between one action potential and the next is increased. In this way, a neuron that is stimulated continuously for a prolonged period becomes gradually less responsive to the constant stimulus."
+        },
+        {
+            "id": "Histology_Ross_1815",
+            "title": "Histology_Ross",
+            "content": "of one part of the membrane sends electrical current to neighboring portions of unstimulated membrane, which is still positively charged. This local current stimulates adjacent portions of the axon\u2019s membrane and repeats depolarization along the membrane. The entire process takes less than one thousandth of a second. After a very brief (refractory) period, the neuron can repeat the process of generating an action potential once again."
+        },
+        {
+            "id": "Pharmacology_Katzung_1335",
+            "title": "Pharmacology_Katzung",
+            "content": "A 69-year-old retired teacher presents with a 1-month history of palpitations, intermittent shortness of breath, and fatigue. She has a history of hypertension. An electrocardiogram (ECG) shows atrial fibrillation with a ventricular response of 122 beats/min (bpm) and signs of left ventricular hypertrophy. She is anticoagulated with warfarin and started on sustained-release metoprolol, 50 mg/d. After 7 days, her rhythm reverts to normal sinus rhythm spontaneously. However, over the ensuing month, she continues to have intermittent palpita-tions and fatigue. Continuous ECG recording over a 48-hour period documents paroxysms of atrial fibrillation with heart rates of 88\u2013114 bpm. An echocardiogram shows a left ven-tricular ejection fraction of 38% (normal \u2265 60%) with no localized wall motion abnormality. At this stage, would you initiate treatment with an antiarrhythmic drug to maintain normal sinus rhythm, and if so, what drug would you choose?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3067",
+            "title": "Cell_Biology_Alberts",
+            "content": "the repetitive firing rate of a neuron. The cycle from initial stimulus to the return to the original resting state takes a few milliseconds or less. The Na+ channel can therefore exist in three distinct states\u2014closed, open, and inactivated\u2014which contribute to the rise and fall of the action potential (Figure 11\u201330). This description of an action potential applies only to a small patch of plasma membrane. The self-amplifying depolarization of the patch, however, is sufficient to depolarize neighboring regions of membrane, which then go through the same cycle. In this way, the action potential sweeps like a wave from the initial site of depolarization over the entire plasma membrane, as shown in Figure 11\u201331. The Use of Channelrhodopsins Has Revolutionized the Study of Neural Circuits"
+        },
+        {
+            "id": "Neurology_Adams_261",
+            "title": "Neurology_Adams",
+            "content": "The Lambert-Eaton myasthenic syndrome, sometimes associated with oat cell carcinoma of the lung, as discussed in Chap. 46, is characterized by a presynaptic blockage of acetylcholine release and, with rapid rates of stimulation, produces the opposite effect on neuromuscular transmission to the one recorded in myasthenia gravis. There is instead an increment in the amplitude of the CMAP with continued stimulation. During very rapid repetitive stimulation (20to 50-per-second), the muscle action potentials, which are small or practically absent with the first stimulus, increase in voltage with each successive response until a more nearly normal amplitude is attained (see Fig. 2-15B). Exercising the muscle for 10 s before stimulation will cause a posttetanic facilitation in patients with the Lambert-Eaton syndrome (200-fold increases are not uncommon). A less important decremental response to slow stimulation may occur, but it is difficult to discern because of the greatly diminished"
+        },
+        {
+            "id": "Physiology_Levy_348",
+            "title": "Physiology_Levy",
+            "content": "Fig. 5.2). The closer the recording electrode is to the site of current passage, the larger and steeper the change in potential is. The magnitude of the change in potential decreases exponentially with distance from the 0.0 mm 0.5 mm Change of membrane potential 1.0 mm (mV) 1.5 2.0 2.5 mm 4.5mV \u2022Fig. 5.2 Responsesofanaxonofashorecrabtoasubthresholdrectangularcurrentpulsebyanextracellularelectrodeappliedcloselytoitssurfaceandlocatedatdifferentdistancesfromthecurrent-passingelectrode.Astherecordingelectrodeismovedfartherfromthepointofstimulation,theresponseofthemembranepotentialisslowerandsmaller.(RedrawnfromHodgkinAL,RushtonWAH:Theelectricalconstantsofacrustaceannervefibre.Proc R Soc Lond B Biol Sci. 1946;133:444-479.) site of passage of the current, and the change in potential is said to reflect passive or electrotonic conduction. Such passively conducted changes in potential do not spread very far along the membrane before they become insignificant. As shown in"
+        },
+        {
+            "id": "Physiology_Levy_394",
+            "title": "Physiology_Levy",
+            "content": "Why does a spike that starts at the initial segment not propagate in both directions? In fact, it does. In addition to propagating down the axon, the current flowing from the initial segment back to the soma can cause a spike to be generated in the soma because the soma also has voltage-gated Na+ channels. Additional \u201cbackpropagating\u201d spikes from the axon do not occur, however, nor does the somatic spike cause the initial segment of the axon to fire a second time (and thereby send another spike down the axon and start a repeating cycle). This does not happen because the refractory period of the membrane makes any area that has already spiked unable to fire a second spike for a short time. Thus for a spike that started at the initial segment and has begun traveling down the axon, current flowing in at the site of the spike depolarizes the membrane on both sides of that site. However, the side closer to the cell body, which has recently fired a spike, cannot respond to this"
+        }
+    ],
+    "scores": [
+        0.029545529125596316,
+        0.028583381738721544,
+        0.028102960959653724,
+        0.026979212737726667,
+        0.026367379210718352,
+        0.02617333291041541,
+        0.026155423612224525,
+        0.026027584947022286,
+        0.02587923703787419,
+        0.025526943831537523,
+        0.024797570850202427,
+        0.024387186563144925,
+        0.024066532131048257,
+        0.023784173784173784,
+        0.023576647165562008,
+        0.02330639550441531,
+        0.022615071345904923,
+        0.02229583157763316,
+        0.021944780140378307,
+        0.01904109796182991,
+        0.018433571185864764,
+        0.018263696231623897,
+        0.0180999756625882,
+        0.017238828055637763,
+        0.017067550050410486,
+        0.016745770837613864,
+        0.0166532366371206,
+        0.016527253103076095,
+        0.016523867809057527,
+        0.016498316498316498,
+        0.016387959866220735,
+        0.016085271317829455
+    ],
+    "execution_time": 31.87202000617981
+}

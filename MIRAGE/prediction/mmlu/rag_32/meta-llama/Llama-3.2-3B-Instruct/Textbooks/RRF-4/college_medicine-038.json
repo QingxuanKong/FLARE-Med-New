@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-038",
+    "question": "During muscular contraction, interactions between myosin and actin allow for shortening of each sarcomere. In addition to the power stroke, what other process of muscle contraction requires ATP?",
+    "options": {
+        "A": "Tropomyosin-troponin interaction",
+        "B": "Myosin-actin interaction",
+        "C": "Calcium-troponin interaction",
+        "D": "Myosin-actin detachment"
+    },
+    "answer": "D",
+    "predict": "Here's the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To determine the correct answer, we need to consider the process of muscle contraction and the role of ATP in this process. The question asks for a process that requires ATP in addition to the power stroke. The power stroke is the process by which myosin heads move along the actin filament, generating force and shortening the sarcomere. In addition to the power stroke, we need to identify another process that requires ATP. The relevant documents mention the cross-bridge cycle, which involves the interaction between myosin and actin. However, this cycle is not explicitly stated to require ATP beyond the hydrolysis of ATP to generate force. The documents do mention the regulation of muscle contraction by calcium ions and the role of troponin and tropomyosin in regulating the interaction between myosin and actin. However, these processes do not require ATP in the same way that the power stroke does. The documents also mention the detachment of myosin from actin, which is mentioned in several options. However, detachment is not a process that requires ATP. Upon careful reading, I noticed that the documents mention the regulation of muscle contraction by the phosphorylation of myosin light chains. This process is mentioned in Document 25 and Document 28. The phosphorylation of myosin light chains is a process that requires ATP. Therefore, the correct answer is the phosphorylation of myosin light chains, which requires ATP. However, this is not an option. The closest related process that requires ATP is the detachment of myosin from actin, which is mentioned in Document 6 and Document 31. However, this is not explicitly stated to require ATP. After re-reading the documents, I realized that the correct answer is not explicitly stated. However, based on the information provided, I would argue that the detachment of myosin from actin (option D) is the closest related process that requires ATP, as it is mentioned in Document 6 and Document 31. Therefore, the answer is: {\"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_4587",
+            "title": "Cell_Biology_Alberts",
+            "content": "The force-generating molecular interaction between myosin thick filaments and actin thin filaments takes place only when a signal passes to the skeletal muscle from the nerve that stimulates it. Immediately upon arrival of the signal, the muscle cell needs to be able to contract very rapidly, with all the sarcomeres shortening simultaneously. Two major features of the muscle cell make extremely rapid contraction possible. First, as previously discussed, the individual myosin motor heads in each thick filament spend only a small fraction of the ATP cycle time bound to the filament and actively generating force, so many myosin heads can act in rapid succession on the same thin filament without interfering with one another. Second, a specialized membrane system relays the incoming signal rapidly throughout the entire cell. The signal from the nerve triggers an action potential in the muscle cell plasma membrane (discussed in Chapter 11), and this electrical excitation spreads swiftly"
+        },
+        {
+            "id": "Physiology_Levy_1358",
+            "title": "Physiology_Levy",
+            "content": "Cross-Bridge Cycling: Sarcomere Shortening Once myosin and actin are bound, ATP-dependent conformational changes in the myosin molecule result in movement of the actin filaments toward the center of the sarcomere. Such movement shortens the length of the sarcomere and thereby contracts the muscle fiber. The mechanism by which myosin produces force and shortens the sarcomere is thought to involve four basic steps that are collectively termed the cross-bridge cycle (labeled a to d in Fig. 12.13 ). In the resting state, myosin is thought to have partially hydrolyzed ATP (state a). When Ca++ is released from the terminal cisternae of the SR, it binds to troponin C, which in turn promotes movement of tropomyosin on the actin filament in such a way that myosin-binding sites on actin are exposed. This then allows the \u201cenergized\u201d"
+        },
+        {
+            "id": "Physiology_Levy_1354",
+            "title": "Physiology_Levy",
+            "content": "Actin-Myosin Interaction: the cleft of the actin filament. This movement of tropo myosin exposes myosin binding sites on the actin filament As noted, contraction of skeletal muscle requires an increase and allows a cross-bridge to form and thereby generate in intracellular [Ca++]. Moreover, the process of contraction tension (see section \u201c Cross-Bridge Cycling: Sarcomere is regulated by the thin filament. As shown in"
+        },
+        {
+            "id": "Physiology_Levy_1446",
+            "title": "Physiology_Levy",
+            "content": "1. Skeletal muscle is composed of numerous muscle cells (muscle fibers) that are typically 10 to 80 \u00b5m in diameter and up to 25 cm in length. The appearance of striations in skeletal muscle is due to the highly organized arrangement of thick and thin filaments in the myofibrils of skeletal muscle fibers. The sarcomere is a contractile unit in skeletal muscle. Each sarcomere is approximately 2 \u00b5m in length at rest and is bounded by two Z lines. Sarcomeres are arranged in series along the length of the myofibril. Thin filaments, containing actin, extend from the Z line toward the center of the sarcomere. Thick filaments, containing myosin, are positioned in the center of the sarcomere and overlap the actin thin filaments. Muscle contraction results from the Ca++-dependent interaction of myosin and actin, in which myosin pulls the thin filaments toward the center of the sarcomere. 2."
+        },
+        {
+            "id": "Physiology_Levy_1484",
+            "title": "Physiology_Levy",
+            "content": "During a rise in intracellular [Ca++] and exposure of myosin-binding sites on actin, the myosin cross-bridges undergo a series of steps that result in contraction of the cardiac muscle cell. At rest, the myosin molecules are energized in that they have partially hydrolyzed adenosine triphosphate (ATP) to \u201ccock the head\u201d and are thus ready to interact with actin. An elevation in intracellular [Ca++] then exposes myosin-binding sites on actin and thus allows myosin to bind actin (step 1). The bound myosin subsequently undergoes a powerstroke in which the actin filament is pulled toward the center of the sarcomere (step 2). Adenosine diphosphate (ADP) and inorganic phosphate (Pi) are released from the myosin head during this step as the energy from ATP is used to contract the muscle. The myosin head moves approximately 70 nm during each ratchet action (cross-bridge cycle). Binding of ATP to myosin decreases the affinity of myosin for actin and thus allows myosin to release from actin"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4570",
+            "title": "Cell_Biology_Alberts",
+            "content": "These changes in the conformation of the myosin are coupled to changes in its binding affinity for actin, allowing the myosin head to release its grip on the actin filament at one point and snatch hold of it again at another. The full mechanochemical cycle of nucleotide binding, nucleotide hydrolysis, and phosphate release (which causes the \u201cpower stroke\u201d) produces a single step of movement (Figure 16\u201329). At low ATP concentrations, the interval between the force-producing step and the binding of the next ATP is long enough that single steps can be observed (Figure 16\u201330). Sliding of Myosin II Along Actin Filaments Causes Muscles to Contract Muscle contraction is the most familiar and best-understood form of movement in animals. In vertebrates, running, walking, swimming, and flying all depend on the rapid contraction of skeletal muscle on its scaffolding of bone, while involuntary"
+        },
+        {
+            "id": "First_Aid_Step1_500",
+            "title": "First_Aid_Step1",
+            "content": "A . Muscle shortening occurs, with shortening of H and I bands and between Z lines (HIZ shrinkage). The A band remains the same length (A band is Always the same length). ADP is released at the end of the power stroke. Binding of new ATP molecule causes detachment of myosin head from actin filament. Ca2+ is resequestered. ATP hydrolysis into ADP and Pi results in myosin head returning to high-energy position (cocked). The myosin head can bind to a new site on actin to form a crossbridge if Ca2+ remains available. Sarcomere (Z line to Z line) MUSCULOSKELETAL, SKIN, AND CONNECTIVE TISSUE ` anatomy and physiology SECTION III 457 Types of muscle fibers Acetylcholine, bradykinin, etc MUSCULOSKELETAL, SKIN, AND CONNECTIVE TISSUE ` anatomy and physiology SECTION III 458 Muscle proprioceptors Specialized sensory receptors that relay information about muscle dynamics."
+        },
+        {
+            "id": "Physiology_Levy_1314",
+            "title": "Physiology_Levy",
+            "content": "The thick and thin filaments are highly organized in the sarcomere of myofibrils (see Fig. 12.3 ). As mentioned, thin actin filaments extend from the Z line toward the center of the sarcomere, whereas thick myosin filaments are centrally located and overlap a portion of the opposing thin actin filaments. The thick and thin filaments are oriented in such a way that in the region of overlap within the sarcomere, each thick myosin filament is surrounded by a hexagonal array of thin actin filaments. The Ca++-dependent interaction of the thick myosin filaments and the thin actin filaments generate the force of contraction after stimulation of the muscle (see the section \u201cActin-Myosin Interaction:"
+        },
+        {
+            "id": "Physiology_Levy_1442",
+            "title": "Physiology_Levy",
+            "content": "\u2022Fig. 12.24. Force-Velocity Relationship of Skeletal Muscle. Theexperimentalsetupisshownontheright.Theinitialmusclelengthwaskeptconstant,buttheamountofweightthatthemusclehadtoliftduringtetanicstimulationvaried.Whilethesevariousamountsofweightwerelifted,muscle-shorteningvelocitywasmeasured.Seetextfordetails.F,force;V,velocity. long sarcomere length (3.7 \u00b5m), actin filaments no longer overlap with myosin filaments, and so there is no contraction. As muscle length is decreased toward LO, the amount of overlap increases, and contractile force progressively increases. As sarcomere length decreases below 2 \u00b5m, the thin filaments collide in the middle of the sarcomere, the actin-myosin interaction is disturbed, and hence contractile force decreases. For construction of the length-tension curves, muscles were maintained at a given length, and then contractile force was measured (i.e., isometric contraction)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4568",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each myosin head binds and hydrolyzes ATP, using the energy of ATP hydrolysis to walk toward the plus end of an actin filament (Figure 16\u201328). The opposing orientation of the heads in the thick filament makes the filament efficient at sliding pairs of oppositely oriented actin filaments toward each other, shortening the muscle. In skeletal muscle, in which carefully arranged actin filaments are aligned in \u201cthin filament\u201d arrays surrounding the myosin thick filaments, the ATP-driven sliding of actin filaments results in a powerful contraction. Cardiac and smooth muscle contain myosin II molecules that are similarly arranged, although different genes encode them. Myosin Generates Force by Coupling ATP Hydrolysis to Conformational Changes"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4581",
+            "title": "Cell_Biology_Alberts",
+            "content": "Sarcomere shortening is caused by the myosin filaments sliding past the actin thin filaments, with no change in the length of either type of filament (see Figure 16\u201332C and D). Bipolar thick filaments walk toward the plus ends of two sets of thin filaments of opposite orientations, driven by dozens of independent myosin heads that are positioned to interact with each thin filament. Because there is no coordination among the movements of the myosin heads, it is critical that they remain tightly bound to the actin filament for only a small fraction of each ATPase cycle so that they do not hold one another back. Each myosin thick filament has about 300 heads (294 in frog muscle), and each head cycles about five times per second in the course of a rapid contraction\u2014sliding the myosin and actin filaments past one another at rates of up to 15 \u03bcm/sec and enabling the sarcomere to shorten by 10% of its length in less than one-fiftieth of a second. The rapid synchronized shortening of the"
+        },
+        {
+            "id": "InternalMed_Harrison_17309",
+            "title": "InternalMed_Harrison",
+            "content": "Actin has a molecular mass of about 47,000 Da. The thin filament consists of a double helix of two chains of actin molecules wound about each other on a larger molecule, tropomyosin. A group of regulatory proteins\u2014troponins C, I, and T\u2014are spaced at regular intervals on this filament (Fig. 265e-5). In contrast to myosin, actin lacks intrinsic enzymatic activity but does combine reversibly with myosin in the presence of ATP and Ca2+. The calcium ion activates the myosin ATPase, which in turn breaks down ATP, the energy source for contraction (Fig. 265e-5). The activity of myosin ATPase determines the rate of forming and breaking of the actomyosin cross-bridges and ultimately the velocity of muscle contraction. In relaxed muscle, tropomyosin inhibits this interaction. Titin (Fig. 265e-4D) is a large, flexible, myofibrillar protein that connects myosin to the Z line; its stretching contributes to the elasticity of the heart."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4582",
+            "title": "Cell_Biology_Alberts",
+            "content": "actin filaments past one another at rates of up to 15 \u03bcm/sec and enabling the sarcomere to shorten by 10% of its length in less than one-fiftieth of a second. The rapid synchronized shortening of the thousands of sarcomeres lying end-to-end in each myofibril enables skeletal muscle to contract rapidly enough for running and flying, or for playing the piano."
+        },
+        {
+            "id": "Physiology_Levy_1370",
+            "title": "Physiology_Levy",
+            "content": "cross-bridge is pulling the actin thin filament toward the center of the sarcomere, which results in an apparent \u201csliding\u201d of the thin filament past the thick filament. There is, however, uncertainty about how many myosin molecules contribute to the generation of force and whether both myosin heads in a given myosin molecule are involved. It has been calculated that there may be 600 myosin heads per thick filament, with a stoichiometry of 1 myosin head per 1.8 actin molecules. As a result of steric considerations, it is unlikely that all myosin heads can interact with actin, and calculations suggest that even during maximal force generation, only 20% to 40% of the myosin heads bind to actin."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4590",
+            "title": "Cell_Biology_Alberts",
+            "content": "msec, allowing the myofibrils to relax. Thus, muscle contraction depends on two processes that consume enormous amounts of ATP: filament sliding, driven by the ATPase of the myosin motor domain, and Ca2+ pumping, driven by the Ca2+pump."
+        },
+        {
+            "id": "Obstentrics_Williams_2730",
+            "title": "Obstentrics_Williams",
+            "content": "Actin and myosin proteins are essential to muscle contraction. For this, actin must be converted from a globular to a ilamentous form. Indeed, a potential mechanism for maintenance of relaxation is the promotion ofactin into a globular form rather than into ibrils, which are required for contraction (Fig. 21-6). Moreover, actin must be attached to the cytoskeleton at focal points in the cell membrane to allow tension to develop. Actin must partner with myosin, which is composed of multiple light and heavy chains. The coupling of myosin and actin activates adenosine triphosphatase (ATPase), hydrolyzes adenosine triphosphate, and generates force. This interaction is brought about by enzymatic phosphorylation of the 20-kDa light chain of myosin (Stull, 1998). his is catalyzed by the enzyme myosin light-chain kinase, which is activated by calcium. Calcium binds to calmodulin, a calcium-binding regulatory protein, which in turn binds to and activates myosin lightchain kinase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4613",
+            "title": "Cell_Biology_Alberts",
+            "content": "Using their neck domain as a lever arm, myosins convert ATP hydrolysis into mechanical work to move along actin filaments in a stepwise fashion. Skeletal muscle is made up of myofibrils containing thousands of sarcomeres assembled from highly ordered arrays of actin and myosin II filaments, together with many accessory proteins. Muscle contraction is stimulated by calcium, which causes the actin-filament-associated protein tropomyosin to move, uncovering myosin binding sites and allowing the filaments to slide past one another. Smooth muscle and non-muscle cells have less well-ordered contractile bundles of actin and myosin, which are regulated by myosin light-chain phosphorylation. Myosin V transports cargo by walking along actin filaments."
+        },
+        {
+            "id": "Physiology_Levy_1570",
+            "title": "Physiology_Levy",
+            "content": "Cross-bridge cycling continues with the hydrolysis of 1 ATP molecule per cycle until myoplasmic [Ca++] falls. With the decrease in [Ca++], MLCK becomes inactive, and the cross-bridges are dephosphorylated by MP (see Fig. 14.7 Fig. 14.4 , the thin filaments in smooth muscle are attached to dense bodies, and the myosin thick filaments appear to reside between two dense bodies and overlap a portion of the thin filaments, much like the overlap of thick and thin filaments in the sarcomere of striated muscle. A bipolar arrangement of myosin molecules within the thick filament is thought to allow the myosin cross-bridges to pull the actin filaments toward the center of the thick filament, thus contracting the smooth muscle and hence developing force."
+        },
+        {
+            "id": "Histology_Ross_1543",
+            "title": "Histology_Ross",
+            "content": "FIGURE 11.6 \u2022 Sarcomeres in different functional stages. In the resting state (middle), interdigitation of thin (actin) and thick (myosin) filaments is not complete; the H and I bands are relatively wide. In the contracted state (bottom), the interdigitation of the thin and thick filaments is increased according to the degree of contraction. In the stretched state (top), the thin and thick filaments do not interact; the H and I bands are very wide. The length of the A band always remains the same and corresponds to the length of the thick filaments; the lengths of the H and I bands change, again in proportion to the degree of sarcomere relaxation or contraction. Troponin-I (TnI), also a 30-kilodalton subunit, binds to actin, thus inhibiting actin\u2013myosin interaction. \u0081 FOLDER 11.1 Functional Considerations: Muscle Metabolism and Ischemia"
+        },
+        {
+            "id": "Histology_Ross_1552",
+            "title": "Histology_Ross",
+            "content": "When a muscle contracts, each sarcomere shortens and becomes thicker, but the myofilaments remain the same length. During contraction the sarcomere and I band shorten, whereas the A band remains the same length. To maintain the myofilaments at a constant length, the shortening of the sarcomere must be caused by an increase in the overlap of the thick and thin filaments. This overlap can readily be seen by comparing electron micrographs of resting and contracted muscle. The H band narrows, and the thin filaments penetrate the H band during contraction. These observations indicate that the thin filaments slide past the thick filaments during contraction. The Contraction Cycle Shortening of a muscle involves rapid contraction cycles that move the thin filaments along the thick filament. Each contraction cycle consists of five stages: attachment, release, bending, force generation, and reattachment."
+        },
+        {
+            "id": "Physiology_Levy_1373",
+            "title": "Physiology_Levy",
+            "content": "Fig. 12.14A , the lateral rectus of the eye contracts very quickly in response to an action potential, reaching peak tension within 8 msec, and then relaxes quickly, which results in a short duration of contraction. The soleus muscle of the leg, in contrast, requires 90 msec to reach peak tension in response to an action potential, and then it relaxes slowly. The gastrocnemius muscle requires an intermediate time to reach peak tension (40 msec) because of the presence of both fast-twitch and slow-twitch muscle fibers in this muscle. The difference in speed of contraction between fast-twitch and slow-twitch muscles is correlated with myosin ATPase activity (see Fig. 12.14B ), which in turn reflects the type of myosin present in the muscle fiber (Fig. 12.15 Table 12.1 ). Thus fast-twitch muscle fibers contain myosin isoforms that hydrolyze ATP quickly, whereas slow-twitch muscle fibers contain myosin isoforms that hydrolyze ATP"
+        },
+        {
+            "id": "Physiology_Levy_1518",
+            "title": "Physiology_Levy",
+            "content": "Cardiac muscle is an involuntary, striated muscle. Cardiac muscle cells are relatively small (10 \u00b5m \u00d7 100 \u00b5m) and form an electrical syncytium with tight electrical and mechanical connections between adjacent cardiac muscle cells. Action potentials are initiated in the sinoatrial node and spread quickly throughout the heart to allow synchronous contraction, a feature important for the pumping action of the heart. 2. Contraction of cardiac muscle involves the Ca++dependent interaction of actin and myosin filaments, as in skeletal muscle. However, unlike skeletal muscle, cardiac muscle requires an influx of extracellular Ca++ . Specifically, the influx of Ca++ during an action potential triggers release of Ca++ from the SR, which then promotes actin-myosin interaction and contraction. 3."
+        },
+        {
+            "id": "Physiology_Levy_1569",
+            "title": "Physiology_Levy",
+            "content": "The myosin cross-bridge cycle in smooth muscle is similar to that in striated muscle in that after attachment to the actin filament, the cross-bridge undergoes a ratchet action in which the thin filament is pulled toward the center of the thick filament and force is generated. ADP and Pi are released from the myosin head at this time, thereby allowing ATP to bind. ATP decreases the affinity of myosin for actin, which allows release of myosin from actin. Energy from the newly bound ATP is then used to produce a conformational change in the myosin head (i.e., recocking the head) so that the cross-bridge is ready for another contraction cycle. The cross-bridge cycle continues as long as the myosin cross-bridge remains phosphorylated. Note that although the four basic steps of the cross-bridge cycle appear to be the same for striated and smooth muscle, the kinetics of cross-bridge cycling is much slower for smooth muscle."
+        },
+        {
+            "id": "Physiology_Levy_1485",
+            "title": "Physiology_Levy",
+            "content": "myosin head moves approximately 70 nm during each ratchet action (cross-bridge cycle). Binding of ATP to myosin decreases the affinity of myosin for actin and thus allows myosin to release from actin (step 3). Myosin then partially hydrolyzes the bound ATP to reenergize (\u201ccock\u201d) the head (step 4) and ready the cross-bridge for another cycle. This four-step cycle is identical to that described for skeletal muscle (see"
+        },
+        {
+            "id": "InternalMed_Harrison_17311",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 265e-5 Four steps in cardiac muscle contraction and relaxation. In relaxed muscle (upper left), ATP bound to the myosin cross-bridge dissociates the thick and thin filaments. Step 1: Hydrolysis of myosin-bound ATP by the ATPase site on the myosin head transfers the chemical energy of the nucleotide to the activated cross-bridge (upper right). When cytosolic Ca2+ concentration is low, as in relaxed muscle, the reaction cannot proceed because tropomyosin and the troponin complex on the thin filament do not allow the active sites on actin to interact with the cross-bridges. Therefore, even though the cross-bridges are energized, they cannot interact with actin. Step 2: When Ca2+ binding to troponin C has exposed active sites on the thin filament, actin interacts with the myosin cross-bridges to form an active complex (lower right) in which the energy derived from ATP is retained in the actin-bound cross-bridge, whose orientation has not yet shifted. Step 3: The muscle contracts"
+        },
+        {
+            "id": "Histology_Ross_1643",
+            "title": "Histology_Ross",
+            "content": "A modified version of the sliding filament model described on page 323 can explain contraction in both striated and smooth muscle (see Fig. 11.22). As in striated muscle, contraction is initiated by an increase in the Ca2 concentration in the cytosol, but the contraction does not act through a troponin\u2013tropomyosin complex on the thin filament. Rather, in smooth muscle, an increase in Ca2 concentration stimulates a myosin light chain kinase (MLCK) to phosphorylate one of the two regulatory light chains of the myosin molecule. The Ca2 binds to calmodulin to form the Ca2\u2013calmodulin complex, which in turn binds to MLCK to activate the phosphorylation reaction of the regulatory light chain of myosin (Fig. 11.23). When the light chain is phosphorylated, the actin-binding site of the myosin head is activated and attaches to actin. In the presence of ATP, the myosin head bends, producing contraction. When it is dephosphorylated, the myosin head dissociates from actin. This phosphorylation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4600",
+            "title": "Cell_Biology_Alberts",
+            "content": "(C) A model for the contractile apparatus in a smooth muscle cell, with bundles of contractile filaments containing actin and myosin (red) oriented obliquely to the long axis of the cell. Their contraction greatly shortens the cell. Only a few of the many bundles are shown. (B, courtesy of Gwen V. Childs.) muscle: its myosin II hydrolyzes ATP about 10 times more slowly than skeletal muscle myosin, producing a slow cycle of myosin conformational changes that results in slow contraction. The heart is the most heavily worked muscle in the body, contracting about 3 billion (3 \u00d7 109) times during the course of a human lifetime (Movie 16.6). Heart cells express several specific isoforms of cardiac muscle myosin and cardiac muscle actin. Even subtle changes in these cardiac-specific contractile proteins\u2014changes that would not cause any noticeable consequences in other tissues\u2014can cause serious heart disease (Figure 16\u201338)."
+        },
+        {
+            "id": "Histology_Ross_1562",
+            "title": "Histology_Ross",
+            "content": "ATP is absent. This arrangement is known as the rigor configuration. The muscular stiffening and rigidity that begins at the moment of death is caused by lack of ATP and is known as rigor mortis. In an actively contracting muscle, this step ends with the binding of ATP to the myosin head. Release is the second stage of the cycle; the myosin head is uncoupled from the thin filament. In this stage of the contraction cycle, ATP binds to the myosin head and induces conformational changes of the actin-binding site. This change reduces the affinity of the myosin head for the actin molecule of the thin filament, causing the myosin head to uncouple from the thin filament. STAGE 2: RELEASE Bending is the third stage of the cycle; the myosin head, as a result of hydrolysis of ATP, advances a short distance in relation to the thin filament."
+        },
+        {
+            "id": "Physiology_Levy_1622",
+            "title": "Physiology_Levy",
+            "content": "which is in marked contrast to striated muscle. This difference is conferred by a regulatory system that depends on phosphorylation of cross-bridges, which in turn depends on myoplasmic [Ca++]. Because myosin light-chain phosphorylation is required for actin-myosin interaction in smooth muscle, a dependence of maximal force on the degree of myosin phosphorylation is expected (i.e., phosphorylation of more myosin molecules results in more actin-myosin interactions and hence more force generated). The variation in maximal shortening velocity as a function of the degree of myosin phosphorylation may reflect dephosphorylation of the myosin light chain while the myosin is still attached to the actin, thus slowing the rate of detachment (i.e., latch state) at low levels of phosphorylation. At higher levels of phosphorylation, the likelihood of latch states would be reduced and the myosin cross-bridges would be released more quickly from actin, thereby yielding a higher shortening velocity"
+        },
+        {
+            "id": "Physiology_Levy_1448",
+            "title": "Physiology_Levy",
+            "content": "3. The motor neuron initiates contraction of skeletal muscle by producing an action potential in the muscle fiber. As the action potential passes down the T tubules of the muscle fiber, dihydropyridine receptors (DHPRs) in the T tubules undergo conformational changes that result in the opening of neighboring SR Ca++ channels called ryanodine receptors (RYRs), which then release Ca++ to the myoplasm from the SR. The increase in myoplasmic Ca++ promotes muscle contraction by exposing myosin-binding sites on the actin thin filaments (a process that involves binding of Ca++ to troponin C, followed by movement of tropomyosin toward the groove in the thin filament). Myosin cross-bridges then appear to undergo a ratchet action, with the thin filaments pulled toward the center of the sarcomere and contracting the skeletal muscle fiber. Relaxation of the muscle follows as myoplasmic Ca++ is resequestered by Ca++-ATPase (SERCA) in the SR. 4."
+        },
+        {
+            "id": "Physiology_Levy_1362",
+            "title": "Physiology_Levy",
+            "content": "Brody\u2019sdiseaseischaracterizedbypainlessmusclecrampingandimpairedmusclerelaxationduringexercise.Whileanaffectedpersonrunsupstairs,forexample,musclesmaystiffenandtemporarilycannotbeused.Thisrelaxation myosin head to bind to the underlying actin (state b). Myosin next undergoes a conformational change termed \u201cratchet action\u201d that pulls the actin filament toward the center of the sarcomere (state c). Myosin releases adenosine diphosphate (ADP) and inorganic phosphate during the transition to state c. Binding of ATP to myosin decreases the affinity of myosin for actin, thereby resulting in the release of myosin from the actin filament (state d). Myosin then partially hydrolyzes the ATP, and part of the energy in the ATP is used to recock the head and return to the resting state."
+        },
+        {
+            "id": "InternalMed_Harrison_17323",
+            "title": "InternalMed_Harrison",
+            "content": "The preload determines the length of the sarcomeres at the onset of contraction. The length of the sarcomeres associated with the most forceful contraction is ~2.2 \u03bcm. This length provides the optimum configuration for the interaction between the two sets of myofilaments. The length of the sarcomere also regulates the extent of activation of the contractile system, i.e., its sensitivity to Ca2+. According to this concept, termed length-dependent activation, myofilament sensitivity to Ca2+ is also maximal at the optimal sarcomere length. The relation between the initial length of the muscle fibers and the developed force has prime importance for the function of heart muscle. This relationship forms the basis of Starling\u2019s law of the heart, which states that within limits, the force of ventricular contraction depends on the end-diastolic length of the cardiac muscle; in the intact heart, the latter relates closely to the ventricular end-diastolic volume."
+        }
+    ],
+    "scores": [
+        0.03692825015447844,
+        0.03618949251941579,
+        0.03617754794225383,
+        0.03600447721244859,
+        0.0348572964463781,
+        0.03432028284012669,
+        0.03366848917307633,
+        0.03353906365381775,
+        0.03327698136420317,
+        0.03188014592241622,
+        0.031619637886512696,
+        0.031152092377112965,
+        0.030402709311542566,
+        0.030179257928663942,
+        0.029970371126259575,
+        0.02946468360071301,
+        0.028894182740336588,
+        0.0288733881901765,
+        0.028569497104779268,
+        0.02791072929508348,
+        0.027642551805988805,
+        0.027320655534941247,
+        0.025792114086414263,
+        0.025249265310714662,
+        0.025040276543031592,
+        0.024798819316808,
+        0.024607738883222294,
+        0.02435753223154798,
+        0.024279564502768407,
+        0.024084540064796232,
+        0.024043576905022686,
+        0.024015690850368268
+    ],
+    "execution_time": 53.710196018218994
+}

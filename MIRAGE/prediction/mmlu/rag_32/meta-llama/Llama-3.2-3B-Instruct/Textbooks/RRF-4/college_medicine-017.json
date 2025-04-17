@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-017",
+    "question": "A new enzyme is found in a transgenic mice that participates in synthesis of an unknown product using two reactants. When using radiolabeled compounds to study the enzyme, it is found that the enzyme catalyzes a process that switches a nitrogen group on one reactant to the other reactant. Which of the following categories would this new enzyme fall under?",
+    "options": {
+        "A": "Oxidoreductase",
+        "B": "Transferase",
+        "C": "Hydrolase",
+        "D": "Lyase"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the characteristics of the enzyme in question and match it to the correct category. The enzyme catalyzes a process that switches a nitrogen group from one reactant to the other, which is a characteristic of a specific class of enzymes. Let's analyze the options given:\\n\\nA. Oxidoreductase: These enzymes catalyze oxidation-reduction reactions, which involve the transfer of electrons. This does not match the description of the enzyme in question.\\n\\nB. Transferase: These enzymes catalyze the transfer of a group from one molecule to another, often involving a nitrogen group. This matches the description of the enzyme in question.\\n\\nC. Hydrolase: These enzymes catalyze hydrolytic reactions, which involve the cleavage of a chemical bond using water. This does not match the description of the enzyme in question.\\n\\nD. Lyase: These enzymes catalyze reactions that involve the cleavage of a molecule, often resulting in the formation of a double bond or the removal of a group. This does not match the description of the enzyme in question.\\n\\nBased on the analysis, the new enzyme falls under the category of transferase, as it catalyzes the transfer of a nitrogen group from one reactant to the other.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_607",
+            "title": "Cell_Biology_Alberts",
+            "content": "WHY ANALYZE THE KINETICS OF ENZYMES? Enzymes are the most selective and powerful catalysts known. An understanding of their detailed mechanisms provides a critical tool for the discovery of new drugs, for the large-scale industrial synthesis of useful chemicals, and for appreciating the chemistry of cells and organisms. A detailed study of the rates of the chemical reactions that are catalyzed by a purifed enzyme\u2014more specifcally how these rates change with changes in conditions such as the concentrations of substrates, products, inhibitors, and regulatory ligands\u2014allows biochemists to fgure out exactly how each enzyme works. For example, this is the way that the ATP-producing reactions of glycolysis, shown previously in Figure 2\u201348, were deciphered\u2014allowing us to appreciate the rationale for this critical enzymatic pathway. In this Panel, we introduce the important feld of enzyme kinetics, which has been indispensable for deriving much of the detailed knowledge that we now have about"
+        },
+        {
+            "id": "Cell_Biology_Alberts_270",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201321 The important principle of activation energy. (a) Compound Y (a reactant) is in a relatively stable state, and energy is required to convert it to compound X (a product), even though X is at a lower overall energy level than Y. This conversion will not take place, therefore, unless compound Y can acquire enough activation energy (energy a minus energy b) from its surroundings to undergo the reaction that converts it into compound X. This energy may be provided by means of an unusually energetic collision with other molecules. for the reverse reaction, X \u2192 Y, the activation energy will be d more rarely. activation energies are always positive; note, however, that the total energy change for the energetically known: some are capable of speeding up reactions by factors of 1014 or more. Enzymes thereby allow reactions that would not otherwise occur to proceed rapidly at normal temperatures."
+        },
+        {
+            "id": "Biochemistry_Lippincott_180",
+            "title": "Biochemistry_Lippinco",
+            "content": "For additional ancillary materials related to this chapter, please visit thePoint. I. OVERVIEW Virtually all reactions in the body are mediated by enzymes, which are protein catalysts that increase the rate of reactions without being changed in the overall process. Among the many biologic reactions that are energetically possible, enzymes selectively channel reactants (called substrates) into useful pathways. Thus, enzymes direct all metabolic events. This chapter examines the nature of these catalytic molecules and their mechanisms of action. II. NOMENCLATURE Each enzyme is assigned two names. The first is its short, recommended name, convenient for everyday use. The second is the more complete systematic name, which is used when an enzyme must be identified without ambiguity. A. Recommended name"
+        },
+        {
+            "id": "Cell_Biology_Alberts_603",
+            "title": "Cell_Biology_Alberts",
+            "content": "For a protein that catalyzes a chemical reaction (an enzyme), the binding of each substrate molecule to the protein is an essential prelude. In the simplest case, if we denote the enzyme by E, the substrate by S, and the product by P, the basic reaction path is E + S \u2192 ES \u2192EP \u2192 E + P. There is a limit to the amount of substrate that a single enzyme molecule can process in a given time. Although an increase in the concentration of substrate increases the rate at which product is formed, this rate eventually reaches a maximum value (Figure 3\u201346). At that point the enzyme molecule is saturated with substrate, and the rate of reaction (Vmax) depends only on how rapidly the enzyme can process the substrate molecule. This maximum rate divided by the enzyme concentration is called the turnover number. Turnover numbers are often about 1000 substrate molecules processed per second per enzyme molecule, although turnover numbers between 1 and 10,000 are known."
+        },
+        {
+            "id": "Biochemistry_Lippincott_229",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. apoenzyme. B. coenzyme\u2013cosubstrate. C. coenzyme\u2013prosthetic group. D. cofactor. E. heterotropic effector. Correct answer = B. A Coenzymes\u2013cosubstrates are small organic molecules that associate transiently with an enzyme and leave the enzyme in a changed form. Coenzyme\u2013prosthetic groups are small organic molecules that associate permanently with an enzyme and are returned to their original form on the enzyme. Cofactors are metal ions. Heterotropic effectors are not substrates. For Questions 5.3 and 5.4, use the graph below that shows the changes in free energy when a reactant is converted to a product in the presence and absence of an enzyme. Select the letter that best represents: .3. the activation energy of the catalyzed forward reaction. .4. the free energy of the reaction."
+        },
+        {
+            "id": "Cell_Biology_Alberts_247",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201313 How a set of enzyme-catalyzed reactions generates a metabolic pathway. each enzyme catalyzes a particular chemical reaction, leaving the enzyme unchanged. in this example, a set of enzymes acting in series converts molecule a to molecule f, forming a metabolic pathway. (for a diagram of many of the reactions in a human cell, abbreviated as shown, see figure 2\u201363.) small molecules and the energy harnessed by catabolism to drive the synthesis of the many other molecules that form the cell. Together these two sets of reactions constitute the metabolism of the cell (Figure 2\u201314). The details of cell metabolism form the traditional subject of biochemistry and most of them need not concern us here. But the general principles by which cells obtain energy from their environment and use it to create order are central to cell biology. We begin with a discussion of why a constant input of energy is needed to sustain all living things."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1759",
+            "title": "Biochemistry_Lippinco",
+            "content": "that the sample contains a mixture of mRNA molecules that are separated by electrophoresis, then hybridized to a radiolabeled probe; microarrays are used to determine the differing patterns of gene expression in two different types of cells (for example, normal and cancer cells); enzyme-linked immunosorbent assays (ELISA); and western blots (immunoblots) are used to detect specific proteins. Proteomics is the study of all the proteins expressed by a genome. The goal of gene therapy is the insertion of a normal cloned gene to replace a defective gene in a somatic cell, whereas the goal of gene editing is the repair of a mutated gene. Insertion of a foreign gene (transgene) into the germline of an animal creates a transgenic animal that can produce therapeutic proteins or serve as gene knockin or knockout models for human diseases."
+        },
+        {
+            "id": "Biochemistry_Lippincott_214",
+            "title": "Biochemistry_Lippinco",
+            "content": "The regulatory mechanisms described above modify the activity of existing enzyme molecules. However, cells can also regulate the amount of enzyme present by altering the rate of enzyme degradation or, more typically, the rate of enzyme synthesis. The increase (induction) or decrease (repression) of enzyme synthesis leads to an alteration in the total population of active sites. Enzymes subject to regulation of synthesis are often those that are needed at only one stage of development or under selected physiologic conditions. For example, elevated levels of insulin as a result of high blood glucose levels cause an increase in the synthesis of key enzymes involved in glucose metabolism (see p. 105). In contrast, enzymes that are in constant use are usually not regulated by altering the rate of enzyme synthesis. Alterations in enzyme levels as a result of induction or repression of protein synthesis are slow (hours to days), compared with allosterically or covalently regulated changes in"
+        },
+        {
+            "id": "Biochemistry_Lippincott_192",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. FACTORS AFFECTING REACTION VELOCITY Enzymes can be isolated from cells and their properties studied in a test tube (that is, in vitro). Different enzymes show different responses to changes in substrate concentration, temperature, and pH. This section describes factors that influence the reaction velocity of enzymes. Enzymic responses to these factors give us valuable clues as to how enzymes function in living cells (that is, in vivo). A. Substrate concentration 1. Maximal velocity: The rate or velocity of a reaction (v) is the number of substrate molecules converted to product per unit time. Velocity is usually expressed as \u00b5mol of product formed per minute. The rate of an enzyme-catalyzed reaction increases with substrate concentration until a maximal velocity (Vmax) is reached (Fig. 5.6). The leveling off of the reaction rate at high substrate concentrations reflects the saturation with substrate of all available binding sites on the enzyme molecules present. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1374",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 5\u201366 How a conservative site-specific recombination enzyme from bacteria is used to delete specific genes from particular mouse tissues. This approach requires the insertion of two specially engineered DNA molecules into the animal\u2019s germ line. The first contains the gene for a recombinase (in this case, the Cre recombinase from the bacteriophage P1) under the control of a tissue-specific promoter, which ensures that the recombinase is expressed only in that tissue. The second DNA molecule contains the gene of interest flanked by recognition sites (in this case, LoxP sites) for the recombinase. The mouse is engineered so that this is the only copy of this gene. Therefore, if the recombinase is expressed only in the liver, the gene of interest will be deleted there, and only there. The reaction that excises the gene is the same as that shown in Figure 5\u201364A. As described in Chapter 7, many tissue-specific promoters are known; moreover, many of these promoters are active only at"
+        },
+        {
+            "id": "Biochemistry_Lippincott_230",
+            "title": "Biochemistry_Lippinco",
+            "content": "Correct answers = B; D. Enzymes (protein catalysts) provide an alternate reaction pathway with a lower activation energy. However, they do not change the free energy of the reactant or product. A is the activation energy of the uncatalyzed reaction. C is the activation energy of the catalyzed reverse reaction. For additional ancillary materials related to this chapter, please visit thePoint. I. OVERVIEW"
+        },
+        {
+            "id": "Cell_Biology_Alberts_632",
+            "title": "Cell_Biology_Alberts",
+            "content": "employ tools to enhance and extend the capabilities of their hands, enzymes and other proteins often use small nonprotein molecules to perform functions that would be difficult or impossible to do with amino acids alone. Thus, enzymes frequently have a small molecule or metal atom tightly associated with their active site that assists with their catalytic function. Carboxypeptidase, for example, an enzyme that cuts polypeptide chains, carries a tightly bound zinc ion in its active site. During the cleavage of a peptide bond by carboxypeptidase, the zinc ion forms a transient bond with one of the substrate atoms, thereby assisting the hydrolysis reaction. In other enzymes, a small organic molecule serves a similar purpose. Such organic molecules are often referred to as coenzymes. An example is biotin, which is found in enzymes that transfer a carboxylate group (\u2013COO\u2013) from one molecule to another (see Figure 2\u201340). Biotin participates in these reactions by forming a transient covalent"
+        },
+        {
+            "id": "Pathology_Robbins_1293",
+            "title": "Pathology_Robbins",
+            "content": "Another surprising group of genetic alterations discovered through tumor genome sequencing studies are mutations in enzymes that participate in the Krebs cycle. Of these, mutations in isocitrate dehydrogenase (IDH) have garnered the most interest, as they have revealed a new mechanism of oncogenesis termed oncometabolism ( Fig. 6.24). The proposed steps in the oncogenic pathway involving IDH are as follows: IDH acquires a mutation that leads to a specific amino acid substitution involving residues in the active site of the enzyme. As a result, the mutated protein loses it ability to function as an isocitrate dehydrogenase and instead acquires a new enzymatic activity that catalyzes the production of 2-hydroxglutarate (2-HG). 2-HG in turn acts as an inhibitor of several other enzymes that are members of the TET family, including TET2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_616",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, it is claimed that enzymes like acetylcholinesterase and1 liter/mmole fumarase are \u201cperfect enzymes,\u201d each enzyme having evolved to the point where nearly every collision with its substrate converts the substrate to a product. [S] Km Figure 3\u201347 enzymatic acceleration of chemical reactions by decreasing the activation energy. There is a single transition state in this example. However, often both the uncatalyzed reaction (A) and the enzyme-catalyzed reaction (B) go through a series of transition states. In that case, it is the transition state with the highest energy (ST and EST) that determines the activation energy and limits the rate of the reaction. (S = substrate; P = product of the reaction; ES = enzyme\u2013substrate complex; EP = enzyme\u2013 product complex.) Because this tight binding greatly lowers the energy of the transition state, the enzyme greatly accelerates a particular reaction by lowering the activation energy that is required (Figure 3\u201347)."
+        },
+        {
+            "id": "Immunology_Janeway_4503",
+            "title": "Immunology_Janeway",
+            "content": "Fig. A.43 The function and expression of genes can be studied in vivo by using transgenic mice. DNA encoding a protein of interest, here the mouse MHC class II protein E\u03b1, is purified and microinjected into the male pronuclei of fertilized eggs. The eggs are then implanted into pseudopregnant female mice. The resulting offspring are screened for the presence of the transgene in their cells, and positive mice are used as founders that transmit the transgene to their offspring, establishing a line of transgenic mice that carry one or more extra genes. The function of the E\u03b1 gene used here is tested by breeding the transgene into C57BL/6 mice that carry an inactivating mutation in their endogenous E\u03b1 gene. A-34 Transgenic mice."
+        },
+        {
+            "id": "Cell_Biology_Alberts_617",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because this tight binding greatly lowers the energy of the transition state, the enzyme greatly accelerates a particular reaction by lowering the activation energy that is required (Figure 3\u201347). Figure 3\u201348 compares the spontaneous reaction rates and the corresponding enzyme-catalyzed rates for five enzymes. Rate accelerations range from 109 to 1023. Enzymes not only bind tightly to a transition state, they also contain precisely positioned atoms that alter the electron distributions in the atoms that participate directly in the making and breaking of covalent bonds. Peptide bonds, for example, can be hydrolyzed in the absence of an enzyme by exposing a polypeptide to either a strong acid or a strong base. Enzymes are unique, however, in being able to use acid and base catalysis simultaneously, because the rigid framework of the protein constrains the acidic and basic residues and prevents them from combining with each other, as they would do in solution (Figure 3\u201349)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1371",
+            "title": "Cell_Biology_Alberts",
+            "content": "Like many of the mechanisms used by cells and viruses, site-specific recombination has been put to work by scientists to study a wide variety of problems. To decipher the roles of specific genes and proteins in complex multicellular organisms, genetic engineering techniques are used to produce worms, flies, and mice carrying a gene encoding a site-specific recombination enzyme plus a carefully designed target DNA with the DNA sites that this enzyme recognizes. At an appropriate time, the gene encoding the enzyme can be activated to rearrange the target DNA sequence. Such a rearrangement is widely used to delete a specific gene in a particular tissue of a multicellular organism (Figure 5\u201366). It is particularly useful when the gene of interest plays a key role in the early development of many tissues, and a complete deletion of the gene from the germ line would cause death Figure 5\u201365 Switching gene expression by DNA inversion in bacteria."
+        },
+        {
+            "id": "Cell_Biology_Alberts_647",
+            "title": "Cell_Biology_Alberts",
+            "content": "The most common type of control occurs when an enzyme binds a molecule that is not a substrate to a special regulatory site outside the active site, thereby altering the rate at which the enzyme converts its substrates to products. For example, in feedback inhibition, a product produced late in a reaction pathway inhibits an enzyme that acts earlier in the pathway. Thus, whenever large quantities of the final product begin to accumulate, this product binds to the enzyme and slows down its catalytic action, thereby limiting the further entry of substrates into that reaction pathway (Figure 3\u201355). Where pathways branch or intersect, there are usually multiple points of control by different final products, each of which works to regulate its own synthesis (Figure 3\u201356). Feedback inhibition can work almost instantaneously, and it is rapidly reversed when the level of the product falls."
+        },
+        {
+            "id": "Cell_Biology_Alberts_605",
+            "title": "Cell_Biology_Alberts",
+            "content": "Enzymes achieve extremely high rates of chemical reaction\u2014rates that are far higher than for any synthetic catalysts. There are several reasons for this efficiency. First, when two molecules need to react, the enzyme greatly increases the local concentration of both of these substrate molecules at the catalytic site, holding them in the correct orientation for the reaction that is to follow. More importantly, however, some of the binding energy contributes directly to the catalysis. Substrate molecules must pass through a series of intermediate states of altered geometry and electron distribution before they form the ultimate products of the reaction. The free energy required to attain the most unstable intermediate state, called the transition state, is known as the activation energy for the reaction, and it is the major determinant of the reaction rate. Enzymes have a much higher affinity for the transition state of the substrate than they have for the stable form."
+        },
+        {
+            "id": "Cell_Biology_Alberts_625",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other enzymes use similar mechanisms to lower activation energies and speed up the reactions they catalyze. In reactions involving two or more reactants, the active site also acts like a template, or mold, that brings the substrates together in the proper orientation for a reaction to occur between them (Figure 3\u201352A). As we saw for lysozyme, the active site of an enzyme contains precisely positioned can perform both acid catalysis and base catalysis at the same time."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1764",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Dideoxy chain termination B. Northern blot C. Polymerase chain reaction D. Southern blot E. Western blot Correct answer = B. Northern blot allows analysis of the messenger RNA present (expressed) in a particular cell or tissue. Southern blot is used for DNA analysis, whereas western blot is used for protein analysis. Dideoxy chain termination is used to sequence DNA. Polymerase chain reaction is used to generate multiple, identical copies of a DNA sequence in vitro. 4.5. For the patient above, which phase of the central dogma was most likely affected? Correct answer = Translation. The gene is present and is able to be expressed as evidenced by normal production of messenger RNA. The lack of enzymic activity means that some aspect of protein synthesis is affected. For additional ancillary materials related to this chapter, please visit thePoint. I. OVERVIEW"
+        },
+        {
+            "id": "Biochemistry_Lippincott_224",
+            "title": "Biochemistry_Lippinco",
+            "content": "Enzymes are protein catalysts that increase the velocity of a chemical reaction by lowering the energy of the transition state (Fig. 5.23). They are not consumed during the reaction. Enzyme molecules contain a special cleft called the active site, which contains amino acid side chains that participate in substrate binding and catalysis. The active site binds the substrate, forming an enzyme\u2013substrate (ES) complex. Binding is thought to cause a conformational change in the enzyme (induced fit) that allows catalysis. ES is converted to enzyme and product. An enzyme allows a reaction to proceed rapidly under conditions prevailing in the cell by providing an alternate reaction pathway with a lower activation energy (Ea). Because the enzyme does not change the free energies of the reactants or products, it does not change the equilibrium of the reaction. Most enzymes show Michaelis-Menten kinetics, and a plot of the initial reaction velocity (vo) against substrate concentration ([S]) has a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2403",
+            "title": "Cell_Biology_Alberts",
+            "content": "The ability to prepare transgenic mice lacking a known normal gene has been a major advance, and the technique has been used to determine the functions of many mouse genes (Figure 8\u201354). If the gene functions in early development, a knockout mouse will usually die before it reaches adulthood. These lethal defects can be carefully analyzed to help determine the function of the missing gene. As described in Chapter 5, an especially useful type of transgenic animal takes advantage of a site-specific recombination system to excise\u2014and thus disable\u2014 the target gene in a particular place or at a particular time (see Figure 5\u201366). In this case, the target gene in embryonic stem (ES) cells is replaced by a fully functional version of the gene that is flanked by a pair of the short DNA sequences, called lox sites, that are recognized by the Cre recombinase protein. The transgenic mice that result are phenotypically normal. They are then mated with transgenic mice that express the Cre"
+        },
+        {
+            "id": "Cell_Biology_Alberts_609",
+            "title": "Cell_Biology_Alberts",
+            "content": "STEADY-STATE ENZYME KINETICS Many enzymes have only one substrate, which they bind and then process to produce products according to the scheme outlined in Figure 3\u201350A. In this case, the reaction is written as Here we have assumed that the reverse reaction, in which E + P recombine to form EP and then ES, occurs so rarely that we can ignore it. In this case, EP need not be represented, and we can express the rate of the reaction\u2014known as its velocity, V, as where [ES] is the concentration of the enzyme\u2013substrate complex, and kcat is the turnover number, a rate constant that has a value equal to the number of substrate molecules processed per enzyme molecule each second. But how does the value of [ES] relate to the concentrations that we know directly, which are the total concentration of the enzyme, [Eo], and the concentration of the substrate, [S]? When enzyme and substrate are frst mixed, the concentration [ES] will rise rapidly from zero to a so-called steady-state level, as"
+        },
+        {
+            "id": "Biochemistry_Lippincott_188",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Rate of reaction: For molecules to react, they must contain sufficient energy to overcome the energy barrier of the transition state. In the absence of an enzyme, only a small proportion of a population of molecules may possess enough energy to achieve the transition state between reactant and product. The rate of reaction is determined by the number of such energized molecules. In general, the lower the Ea, the more molecules have sufficient energy to pass through the transition state and, therefore, the faster the rate of the reaction. 3. Alternate reaction pathway: An enzyme allows a reaction to proceed rapidly under conditions prevailing in the cell by providing an alternate reaction pathway with a lower Ea (see Fig. 5.4). The enzyme does not change the free energies of the reactants (substrates) or products and, therefore, does not change the equilibrium of the reaction (see p. 70). It does, however, accelerate the rate by which equilibrium is reached."
+        },
+        {
+            "id": "Cell_Biology_Alberts_275",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201324 Directing substrate molecules through a specific reaction pathway by enzyme catalysis. a substrate molecule in a cell (green ball) is converted into a different molecule (blue ball) by means of a series of enzyme-catalyzed reactions. as indicated (yellow box), several reactions are energetically favorable at each step, but only one is catalyzed by each enzyme. sets of enzymes thereby determine the exact reaction pathway that is followed by each molecule inside the cell. has a unique shape containing an active site, a pocket or groove in the enzyme into which only particular substrates will fit (Figure 2\u201325). Like all other catalysts, enzyme molecules themselves remain unchanged after participating in a reaction and therefore can function over and over again. In Chapter 3, we discuss further how enzymes work. how enzymes find Their substrates: The enormous Rapidity of molecular motions"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1763",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Enzyme-linked immunosorbent assay B. Microarray C. Northern blot D. Southern blot E. Western blot Correct answer = B. Microarray analysis allows the determination of messenger RNA (mRNA) production (gene expression) from thousands of genes at once. A northern blot only measures mRNA production from one gene at a time. Western blots and enzyme-linked immunosorbent assay measure protein production (also gene expression) but only from one gene at a time. Southern blots are used to analyze DNA, not the products of DNA expression. 4.4. A 2-week-old infant is diagnosed with a urea cycle defect. Enzymic analysis showed no activity for ornithine transcarbamoylase (OTC), an enzyme of the cycle. Molecular analysis revealed that the messenger RNA (mRNA) product of the gene for OTC was identical to that of a control. Which of the techniques listed below was most likely used to analyze mRNA? A. Dideoxy chain termination B. Northern blot C. Polymerase chain reaction D. Southern blot"
+        },
+        {
+            "id": "Cell_Biology_Alberts_638",
+            "title": "Cell_Biology_Alberts",
+            "content": "The amount of product produced by an enzyme will depend on the concentration of both the enzyme and its substrate. If a sequence of reactions is to occur extremely rapidly, each metabolic intermediate and enzyme involved must be present in high concentration. However, given the enormous number of different reactions performed by a cell, there are limits to the concentrations that can be achieved. In fact, most metabolites are present in micromolar (10\u20136 M) concentrations, and most enzyme concentrations are much lower. How is it possible, therefore, to maintain very fast metabolic rates?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1746",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2). 6\u20139 After treating cells with a chemical mutagen, you isolate two mutants. One carries alanine and the other carries methionine at a site in the protein that normally contains valine (Figure Q6\u20134). After treating these two mutants again with the mutagen, you isolate mutants from each that now carry threonine at the site of the original valine (Figure Q6\u20134). Assuming that all mutations involve single-nucleotide changes, deduce the codons that are used for valine, methionine, threonine, and alanine at the affected site. Would you expect to be able to isolate valineto-threonine mutants in one step? 6\u201310 Which of the following mutational changes would you predict to be the most deleterious to gene function? Explain your answers."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1251",
+            "title": "Cell_Biology_Alberts",
+            "content": "The two pathways differ in the way in which they remove the damage from DNA. The first pathway, called base excision repair, involves a battery of enzymes called DNA glycosylases, each of which can recognize a specific type of altered base in DNA and catalyze its hydrolytic removal. There are at least six types of these enzymes, including those that remove deaminated Cs, deaminated As, different types of alkylated or oxidized bases, bases with opened rings, and bases in which a carbon\u2013carbon double bond has been accidentally converted to a carbon\u2013carbon single bond. How is an altered base detected within the context of the double helix? A key step is an enzyme-mediated \u201cflipping-out\u201d of the altered nucleotide from the helix, which allows the DNA glycosylase to probe all faces of the base for damage (Figure 5\u201342). It is thought that these enzymes travel along DNA using base-flipping to evaluate the status of each base. Once an enzyme finds the damaged base that it recognizes, it"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2401",
+            "title": "Cell_Biology_Alberts",
+            "content": "Animals and plants that have been genetically engineered by gene deletion or gene replacement are called transgenic organisms, and any foreign or modified genes that are added are called transgenes. We discuss transgenic plants later in this chapter and, for now, concentrate our discussion on transgenic mice, as enormous progress has been made in this area. If a DNA molecule carrying a mutated mouse gene is transferred into a mouse cell, it often inserts into the chromosomes at random, but methods have been developed to direct the mutant gene to replace the normal gene by homologous recombination. By exploiting these \u201cgene targeting\u201d events, any specific gene can be altered or inactivated in a mouse cell by a direct gene replacement. In the case in which both copies of the gene of interest are completely inactivated or deleted, the resulting animal is called a \u201cknockout\u201d mouse. The technique is summarized in Figure 8\u201353."
+        },
+        {
+            "id": "Cell_Biology_Alberts_599",
+            "title": "Cell_Biology_Alberts",
+            "content": "We can group enzymes into functional classes that perform similar chemical reactions (Table 3\u20131). Each type of enzyme within such a class is highly specific,"
+        }
+    ],
+    "scores": [
+        0.022946106232498244,
+        0.022800765414977598,
+        0.020967434891275644,
+        0.020314535137245737,
+        0.019424799622819428,
+        0.01942415254811143,
+        0.019183138239043898,
+        0.018401504388718185,
+        0.016497884496970115,
+        0.01642531509788147,
+        0.016390179163901793,
+        0.016290726817042606,
+        0.016148515480958737,
+        0.0160378517881283,
+        0.015968310948814755,
+        0.015720418404982162,
+        0.015632603406326034,
+        0.015485739750445633,
+        0.01536231884057971,
+        0.015079365079365081,
+        0.014998621450234353,
+        0.01498526871888652,
+        0.01494107744107744,
+        0.0149009900990099,
+        0.014878542510121457,
+        0.014870093974571588,
+        0.014789355829818256,
+        0.014647917332481091,
+        0.01457971733201091,
+        0.014515163607342379,
+        0.014294282287085167,
+        0.014245444478002618
+    ],
+    "execution_time": 22.40885066986084
+}

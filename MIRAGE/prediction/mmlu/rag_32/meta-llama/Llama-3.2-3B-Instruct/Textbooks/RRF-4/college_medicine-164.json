@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-164",
+    "question": "Fire hoses always have a nozzle on the end of the hose, which in part works by decreasing the area of the water exiting the fire hydrant to create a more forceful stream. If the starting velocity of water from a fire hydrant is 2 m/s, pressure is kept constant, and the end of the nozzle is 1/3 the area of the start of the hose, what is the final velocity of water as it exits?",
+    "options": {
+        "A": "2 m/s",
+        "B": "8 m/s",
+        "C": "5 m/s",
+        "D": "6 m/s"
+    },
+    "answer": "D",
+    "predict": "To determine the final velocity of water as it exits the nozzle, we can use the equation of continuity, which states that the mass flow rate of an incompressible fluid is constant throughout the hose. This means that the product of the cross-sectional area and velocity is constant. Let's denote the initial velocity as v1 = 2 m/s, the initial area as A1, and the final area as A2 = (1/3)A1. We can set up the equation: v1 \\* A1 = v2 \\* A2 We are given that the pressure is kept constant, which means that the flow is steady and laminar. We can use Poiseuille's law to relate the pressure and velocity: P = (8 \\* \u03b7 \\* L) / (\u03c0 \\* r^4) Since the pressure is constant, we can rewrite this equation as: v1^2 = (8 \\* \u03b7 \\* L) / (\u03c0 \\* r^4) We can simplify this equation by canceling out the constant terms: v1^2 / v2^2 = (r1^4 / r2^4) where r1 and r2 are the initial and final radii, respectively. We are given that A2 = (1/3)A1, which means that r2 = (1/3)r1. Substituting this into the previous equation, we get: v1^2 / v2^2 = (r1^4 / (r1/3)^4) v1^2 / v2^2 = 81 v1 / v2 = 9 Now we can use the equation of continuity to solve for v2: v1 \\* A1 = v2 \\* A2 v1 \\* A1 = v2 \\* (1/3)A1 v1 = v2 / 3 Substituting v1 = 2 m/s, we get: 2 = v2 / 3 v2 = 6 m/s Therefore, the final velocity of water as it exits the nozzle is 6 m/s. {\"step_by_step_thinking\": \"To determine the final velocity of water as it exits the nozzle, we can use the equation of continuity, which states that the mass flow rate of an incompressible fluid is constant throughout the hose. We can set up the equation v1 \\* A1 = v2 \\* A2, where v1 is the initial velocity, A1 is the initial area, and A2 is the final area. We are given that the pressure is kept constant, which means that the flow is steady and laminar. We can use Poiseuille's law to relate the pressure and velocity. We simplify the equation and solve for v2 to find the final velocity of water as it exits the nozzle.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Physiology_Levy_104",
+            "title": "Physiology_Levy",
+            "content": "To illustrate the concept of steady-state balance, consider a river on which a dam is built to create a synthetic lake. Each day, water enters the lake from the various streams and rivers that feed it. In addition, water is added by underground springs, rain, and snow. At the same time, water is lost through the spillways of the dam and by the process of evaporation. For the level of the lake to remain constant (i.e., steady-state balance), the rate at which water is added, regardless of source, must be exactly matched by the amount of water lost, again regardless of route. Because the addition of water is not easily controlled and the loss by evaporation cannot be controlled, the only way to maintain a constant level of the lake is to regulate the amount that is lost through the spillways. To understand steady-state balance as it applies to the human body, the following key concepts are important. 1."
+        },
+        {
+            "id": "Physiology_Levy_1886",
+            "title": "Physiology_Levy",
+            "content": "The total energy in a hydraulic system consists of three components: pressure, gravity, and velocity. The velocity of blood flow can have an important effect on the pressure within the tube. Consider the effect of velocity on pressure in a tube with different cross-sectional areas ( Fig. 17.2 ). In this system, the total energy remains constant. The total pressure within the tube equals the lateral (static) pressure plus the dynamic pressure. The gravitational component can be neglected because the tube is horizontal. The total pressures in segments A, B, and C are equal, provided that \u2022Fig. 17.1 Asfluidflowsthroughatubeofvariablecross-sectionalarea(A),thelinearvelocity(v)variesinverselywiththecross-sectionalarea.Q,flow."
+        },
+        {
+            "id": "Physiology_Levy_351",
+            "title": "Physiology_Levy",
+            "content": "membrane per unit of axonal length, the axon can function better as a cable, and the distance that a signal can be conveyed electrotonically without significant decrement is longer. A useful analogy is to think of the axon as a garden hose with holes poked in it. The more holes there are in the hose, the more water leaks out along its length (analogous to more loss of current when rm is low) and the less water is delivered to its nozzle. According to cable theory, the length constant can be related to axonal resistance and is equal to rm/ra . This relationship can be used to determine how changes in axonal diameter affect the length constant and, hence, how the decay of electrotonic potentials varies. An increase in the diameter of the axon reduces both ra and rm. However, rm is inversely proportional to diameter (because it is related to the circumference of the axon), whereas ra varies inversely to the diameter squared (because it is related to the cross-sectional area of the axon)."
+        },
+        {
+            "id": "Physiology_Levy_2524",
+            "title": "Physiology_Levy",
+            "content": "The pressure-flow characteristics of laminar flow were first described by the French physician Poiseuille and apply to both liquids and air. In straight circular tubes the flow rate (V\u0307 ) is defined by the following equation: Equation 22.1 where P is the driving pressure, r is the radius of the tube, \u03b7 is the viscosity of the fluid, and l is the length of the tube. It can be seen that driving pressure (P) is proportional to the flow rate (V\u0307 ); thus the greater the pressure, the greater the flow. The flow resistance (R) across a set of tubes is defined as the change in driving pressure (\u0394P) divided by the flow rate, or: Equation 22.2"
+        },
+        {
+            "id": "Physiology_Levy_1890",
+            "title": "Physiology_Levy",
+            "content": "wall: that is, in narrowed sections of a tube, the dynamic component increases significantly because the flow velocity is associated with large kinetic energy. The most fundamental law that governs the flow of fluids through cylindrical tubes was derived empirically by the French physiologist Jean L\u00e9onard Marie Poiseuille in the 1840s. He was interested primarily in the physical determinants of blood flow, but he replaced blood with simpler liquids in his measurements of flow through glass capillary tubes. His work was so precise and important that his observations have been designated Poiseuille\u2019s law. Poiseuille\u2019s law applies to the steady (i.e., nonpulsatile) laminar flow of newtonian fluids through rigid cylindrical tubes. A newtonian fluid is one whose viscosity remains constant, and laminar flow is the type of motion in which the fluid moves as a series of individual layers, with each layer moving at a velocity different from that of its neighboring layers ("
+        },
+        {
+            "id": "Physiology_Levy_1905",
+            "title": "Physiology_Levy",
+            "content": "Fig. 17.3B ). Greater pressure is necessary to force a given flow of fluid through the same tube when the flow is turbulent than when it is laminar. In turbulent flow, the pressure drop is approximately proportional to the square of the flow rate, whereas in laminar flow, the pressure drop is proportional to the first power of the flow rate. Hence, to produce a given flow, a pump such as the heart must do considerably more work if turbulent flow develops. Whether turbulent or laminar flow exists in a tube under given conditions may be predicted on the basis of a dimensionless number called Reynold\u2019s number (NR). This number represents the ratio of inertial to viscous forces. For a fluid flowing through a cylindrical tube,"
+        },
+        {
+            "id": "Physiology_Levy_1892",
+            "title": "Physiology_Levy",
+            "content": "Poiseuille\u2019s law describes the laminar flow of fluids through cylindrical tubes in terms of pressure, the dimensions of the tube, and the viscosity of liquid: Equation 17.3 Pi \u2212 Po = pressure gradient from the inlet (i) of the tube to the outlet (o) r = radius of the tube \u03b7= viscosity of the fluid l = length of the tube As is clear from the equation, flow through the tube increases as the pressure gradient is increased, and it decreases as either the viscosity of the fluid or the length of the tube increases. The radius of the tube is a critical factor in determining flow because it is raised to the fourth power. Resistance to Flow In electrical theory, Ohm\u2019s law is that the resistance (R) equals the ratio of voltage drop (E) to current flow (I). Equation 17.4 Similarly, in fluid mechanics, hydraulic resistance (R) may be defined as the ratio of the pressure drop (Pi \u2212 Po,) to flow (Q): Equation 17.5"
+        },
+        {
+            "id": "Physiology_Levy_2526",
+            "title": "Physiology_Levy",
+            "content": "In turbulent flow, gas movement occurs both parallel and perpendicular to the axis of the tube. Pressure is proportional to the flow rate squared. The viscosity of the gas increases with increasing gas density, and therefore the pressure drop increases for a given flow. Overall, gas velocity is blunted because energy is consumed in the process of generating eddies and chaotic movement. As a consequence, higher driving pressure is needed to support a given turbulent flow than to support a similar laminar flow. Whether flow through a tube is laminar or turbulent depends on the Reynolds number. The Reynolds number (Re) is a dimensionless value that expresses the ratio of two dimensionally equivalent terms (kinematic/viscosity), as seen in the equation:"
+        },
+        {
+            "id": "Physiology_Levy_1893",
+            "title": "Physiology_Levy",
+            "content": "Equation 17.4 Similarly, in fluid mechanics, hydraulic resistance (R) may be defined as the ratio of the pressure drop (Pi \u2212 Po,) to flow (Q): Equation 17.5 For the steady, laminar flow of a newtonian fluid through a cylindrical tube, the physical components of hydraulic resistance may be appreciated by the rearranging of Poiseuille\u2019s law to yield the hydraulic resistance equation: Equation 17.6 Thus when Poiseuille\u2019s law applies, the resistance to flow depends on only the dimensions of the tube and the characteristics of the fluid. The principal determinant of resistance to blood flow through any vessel is the caliber of the vessel because resistance varies inversely as the fourth power of the radius of the tube. In"
+        },
+        {
+            "id": "Physiology_Levy_2525",
+            "title": "Physiology_Levy",
+            "content": "The flow resistance (R) across a set of tubes is defined as the change in driving pressure (\u0394P) divided by the flow rate, or: Equation 22.2 The units of resistance are cm H2O/L\u2022sec. This equation is for laminar flow and demonstrates that the radius of the tube is the most important determinant of resistance. If the radius of the tube is reduced by half, the resistance will increase 16-fold. If, however, tube length is increased twofold, the resistance will increase only twofold. Thus the radius of the tube is the principal determinant of resistance. Stated another way, resistance is inversely proportional to the fourth power of the radius, and it is directly proportional to the length of the tube and to the viscosity of the gas."
+        },
+        {
+            "id": "Physiology_Levy_1901",
+            "title": "Physiology_Levy",
+            "content": "Equation 17.8 In a few simple illustrations, some of the fundamental properties of parallel hydraulic systems become apparent. For example, if the resistances of the three parallel elements in Fig. 17.6 were all equal, then Equation 17.9 Therefore, from Eq. 17.8, Equation 17.10 When the reciprocals of these terms, are equated, Equation 17.11 Thus the total resistance is less than the individual resistances. For any parallel arrangement, the total resistance must be less than that of any individual component. For example, consider a system in which a tube with very high resistance is added in parallel to a low-resistance tube. The total resistance of the system must be less than that of the low-resistance component by itself because the high-resistance component affords an additional pathway, or conductance, for flow of fluid."
+        },
+        {
+            "id": "Physiology_Levy_2584",
+            "title": "Physiology_Levy",
+            "content": "Equation 23.10 = . = 150 mm Hg and the partial pressure of N2 is calculated similarly: Equation 23.11 = 563 mm Hg Note that the total pressure remains constant at 760 mm Hg (150 + 563 + 47 mm Hg) and that the fractions of O2 and N2 are unchanged. Water vapor pressure, however, reduces the partial pressures of O2 and N2. Note also that in the calculation of the partial pressure of ambient air ( Eq. 23.9), water vapor is ignored, and ambient air is considered \u201cdry.\u201d The conducting airways do not participate in gas exchange. Therefore, the partial pressures of O2, N2, and water vapor remain unchanged in the airways until the air reaches the alveolus."
+        },
+        {
+            "id": "Physiology_Levy_1987",
+            "title": "Physiology_Levy",
+            "content": "Hydrostatic pressure is the principal force in capillary filtration. A given change in Pv produces a greater effect on capillary hydrostatic pressure than does the same change in Pa. Approximately 80% of an increase in Pv is transmitted back to the capillaries. Capillary hydrostatic pressure (Pc) varies from tissue to tissue. Average values, obtained from direct measurements in human skin, are approximately 32 mm Hg at the arterial end of capillaries and approximately 15 mm Hg at the venous end of capillaries at the level of the heart (see Fig. 17.28 ). As discussed previously, when a person stands, hydrostatic pressure increases in the legs and decreases in the head. Tissue pressure, or, more specifically, interstitial fluid pressure (Pi) outside the capillaries, opposes capillary filtration. The difference between Pc and Pi constitutes the driving force for filtration. Normally, Pi is close to zero, and so Pc essentially represents the hydrostatic driving force."
+        },
+        {
+            "id": "Physiology_Levy_1641",
+            "title": "Physiology_Levy",
+            "content": "Many capillaries arise from each arteriole. The total cross-sectional area of the capillary bed is very large despite the fact that the cross-sectional area of each capillary is less than that of each arteriole. As a result, blood flow velocity becomes quite slow in the capillaries (see Fig. 15.3 ), which is analogous to the decrease in velocity of flow in the wide regions of a river. Conditions in the capillaries are ideal for the exchange of diffusible substances between blood and tissue because capillaries consist of short tubes with walls that are only one cell thick and in which flow velocity is low. On its return to the heart from the capillaries, blood passes through venules and then through veins of increasing size. Pressure within these vessels progressively decreases until the blood reaches the right atrium (see Fig. 15.3 ). Near the heart, the number of veins decreases, the thickness and composition of the vein walls change (see"
+        },
+        {
+            "id": "Physiology_Levy_1885",
+            "title": "Physiology_Levy",
+            "content": "Equation 17.1 The interrelationships among velocity, flow, and area are shown in Fig. 17.1 . Because conservation of mass requires that the fluid flowing through a rigid tube be constant, the velocity of the fluid varies inversely with the cross-sectional area. Thus fluid flow velocity is greatest in the section of the tube with the smallest cross-sectional area and slowest in the section of the tube with the greatest cross-sectional area. Fig. 15.3 , velocity decreases progressively as blood traverses the arterial system. In the capillaries, velocity decreases to a minimal value. As the blood then passes centrally through the venous system toward the heart, velocity progressively increases again. The relative velocities in the various components of the circulatory system are related only to the respective cross-sectional areas."
+        },
+        {
+            "id": "Physiology_Levy_2583",
+            "title": "Physiology_Levy",
+            "content": "Note that the FiO2 does not vary at different altitudes; only the barometric pressure varies. These differences in oxygen tension have profound effects on arterial blood gas values. As inspiration begins, ambient air is brought into the nasopharynx and laryngopharynx, where it becomes warmed to body temperature and humidified. Inspired air becomes saturated with water vapor by the time it reaches the glottis. Water vapor exerts a partial pressure and dilutes the total pressure in which the other gases are distributed. Water vapor pressure at body temperature is 47 mm Hg. To calculate the partial pressures of O2 and N2 in a humidified mixture, the water vapor partial pressure must be subtracted from the total barometric pressure. Thus in the conducting airways, which begin in the trachea, the partial pressure of O2 is calculated as follows: Equation 23.10 = . = 150 mm Hg and the partial pressure of N2 is calculated similarly:"
+        },
+        {
+            "id": "Physiology_Levy_3361",
+            "title": "Physiology_Levy",
+            "content": "directly proportional to the amount of solute and water moving by pathways 1 to 3. Starling forces across the capillary wall determine the amount of fluid flowing through pathway 2 versus pathway 3. Transport mechanisms in the apical cell membranes determine the amount of solute and water entering the cell (pathway 1). Pi, interstitial hydrostatic pressure; Ppc, peritubular capillary hydrostatic pressure; \u03c0i, interstitial fluid oncotic pressure; \u03c0pc, peritubular capillary oncotic pressure. Thin arrows across the capillary wall indicate the direction of water movement in response to each force."
+        },
+        {
+            "id": "Physiology_Levy_603",
+            "title": "Physiology_Levy",
+            "content": "Fig. 7.2). They are present in similar quantities. FA fibers will show a short burst of action potentials when the rod first pushes down on the skin, but then they will cease firing despite continued application of the rod. They may also burst at the cessation of the stimulus (i.e., when the rod is lifted off). In contrast, SA units will start firing action potentials (or increase their firing rate) at the onset of the stimulus and continue to fire until the stimulus ends."
+        },
+        {
+            "id": "Physiology_Levy_1904",
+            "title": "Physiology_Levy",
+            "content": "Fig. 17.3A ), a thin layer of fluid in contact with the tube wall adheres to the wall and hence is motionless. The layer of fluid just central to the external lamina must shear against this motionless layer, and therefore that layer moves slowly but with a finite velocity. Similarly, the next more central layer moves still more rapidly; the longitudinal velocity profile is that of a paraboloid (see Fig. 17.3A ). The fluid elements in any given lamina remain in that lamina as the fluid moves longitudinally along the tube. The velocity at the center of the stream is maximal and equal to twice the mean velocity of flow across the entire cross-section of the tube. Irregular motions of the fluid elements may develop in the flow of fluid through a tube; such flow is called turbulent. In this condition, fluid elements do not remain confined to a specific laminae; instead, rapid, radial mixing occurs (see"
+        },
+        {
+            "id": "Pediatrics_Nelson_913",
+            "title": "Pediatrics_Nelson",
+            "content": "About 92% of burns occur in the home. Prevention is possible by using smoke and fire alarms, having identifiable escape routes and a fire extinguisher, and reducing hot water temperature to 49\u00b0C (120\u00b0F). Immersion full-thickness burns develop after 1 second at 70\u00b0C (158\u00b0F), after 5 seconds at 60\u00b0C (140\u00b0F), after 30 seconds at 54.5\u00b0C (130\u00b0F), and after 10 minutes at 49\u00b0C (120\u00b0F). The most common agents ingested by young children include cosmetics, personal care products, analgesics, and cleaning solutions. Fatal childhood poisonings are commonly caused by analgesics, antihistamines, sedative/hypnotics, and fumes/ gases/vapors."
+        },
+        {
+            "id": "InternalMed_Harrison_19963",
+            "title": "InternalMed_Harrison",
+            "content": "As with the flow of any fluid (gas or liquid) in any tube, maintenance of airflow within the pulmonary airways requires a pressure gradient that falls along the direction of flow, the magnitude of which is determined by the flow rate and the frictional resistance to flow. During quiet tidal breathing, the pressure gradients driving inspiratory or expiratory flow are small owing to the very low frictional resistance of normal pulmonary airways (Raw, normally <2 cmH2O/L per second). However, during rapid exhalation, another phenomenon reduces flow below that which would have been expected if frictional resistance were the only impediment to flow. This phenomenon is called dynamic FIguRE 306e-3 Luminal area versus transmural pressure relationship. Transmural pressure represents the pressure difference across the airway wall from inside to outside."
+        },
+        {
+            "id": "Physiology_Levy_1888",
+            "title": "Physiology_Levy",
+            "content": "Eq. 17.2, P dyn = 5000 dynes/cm2, or 3.8 mm Hg. In the narrow section B of the tube, where the velocity is twice as high, Pdyn = 20,000 dynes/ cm2, or 15 mm Hg. Thus the lateral pressure in section B is 15 mm Hg lower than the total pressure, whereas the lateral pressures in sections A and C are only 3.8 mm Hg lower. In most arterial locations, the dynamic component is a negligible fraction of the total pressure. However, at sites of an arterial constriction or obstruction, the high flow velocity is associated with large kinetic energy, and the dynamic pressure component may therefore increase significantly. Hence, the pressure would be reduced, and perfusion of distal segments would be correspondingly decreased. This example helps explain how pressure changes in a vessel that is narrowed by atherosclerosis or spasm of the blood vessel \u2022Fig. 17.3 Laminar and Turbulent Flow. A,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_301",
+            "title": "Cell_Biology_Alberts",
+            "content": "unfavorable reaction of lifting the bucket of water. Note that because part of the energy is used to do work in Figure 2\u201332B, the rocks hit the ground with less velocity than in Figure 2\u201332A, and correspondingly less energy is dissipated as heat."
+        },
+        {
+            "id": "Physiology_Levy_777",
+            "title": "Physiology_Levy",
+            "content": "Sound is produced by compression and decompression waves in air or in other elastic media, such as water. Sound frequency is measured in cycles per second, or hertz (Hz). Each pure tone results from a sinusoidal wave at a particular frequency and is characterized not only by its frequency but also, instantaneously, by its amplitude and phase ( Fig. 8.15 ). Most naturally occurring sound, however, is a mixture of pure tones. Noise is unwanted sound and may have any composition of pure tones. Sound propagates at about 335 m/sec in air. The waves are associated with certain pressure changes, called sound pressure. The unit of sound pressure is Newtons per meter squared (N/m2), but sound pressure is more commonly expressed as the sound pressure level (SPL). The unit of SPL is the decibel (dB):"
+        },
+        {
+            "id": "Cell_Biology_Alberts_257",
+            "title": "Cell_Biology_Alberts",
+            "content": "heat is released to pull of the foor 1 potential energy due to position kinetic energy heat energy two hydrogen oxygen gas rapid vibrations and heat dispersed to gas molecules molecule rotations of two newly surroundings formed water molecules in order that distinguishes the metabolism of a cell from the wasteful burning of fuel in a fire. Later, we illustrate how this coupling occurs. For now, it is sufficient to recognize that a direct linkage of the \u201ccontrolled burning\u201d of food molecules to the generation of biological order is required for cells to create and maintain an island of order in a universe tending toward chaos. Cells obtain energy by the oxidation of organic molecules"
+        },
+        {
+            "id": "Surgery_Schwartz_2995",
+            "title": "Surgery_Schwartz",
+            "content": "in water) to minimize errors resulting from warming of the fluid as it transferred from its reservoir to a syringe for injection.Technologic innovations have been introduced that per-mit continuous measurement of QT by thermodilution. In this approach, thermal transients are not generated by injecting a bolus of a cold indicator, but rather by heating the blood with a tiny filament located on the PAC upstream from the thermistor. By correlating the amount of current supplied to the heating element with the downstream temperature of the blood, it is pos-sible to estimate the average blood flow across the filament and thereby calculate QT. Based upon the results of several studies, continuous determinations of QT using this approach agree well with data generated by conventional measurements using bolus injections of a cold indicator.15 Information is lacking regarding the clinical value of being able to monitor QT continuously.Mixed Venous OximetryThe Fick equation can be written"
+        },
+        {
+            "id": "Physiology_Levy_107",
+            "title": "Physiology_Levy",
+            "content": "Fig. 2.1 illustrates several important concepts for the maintenance of steady-state water balance (details related to the maintenance of steady-state water balance are presented in ). As depicted in Fig. 2.1 , there are multiple inputs and outputs of water, many of which can vary but nevertheless cannot be regulated. For example, the amount of water lost through the lungs depends on the humidity of the air and the rate of respiration (e.g., low humidity and rapid breathing increase water loss from the lungs). Similarly, the amount of water lost as sweat varies according to ambient temperature and physical activity. Finally, water loss via the gastrointestinal tract can increase from a normal level of 100 to 200 mL/day to many liters with acute diarrhea. Of these inputs and outputs, the only two that can be regulated are increased ingestion of water in response to thirst and alterations in urine output by the kidneys (see Chapter 35)."
+        },
+        {
+            "id": "Physiology_Levy_2580",
+            "title": "Physiology_Levy",
+            "content": "Boyle\u2019s law is used in the measurement of lung volumes (see Fig. 21.4 ). Dalton\u2019s law is that the partial pressure of a gas in a gas mixture is the pressure that the gas would exert if it occupied the total volume of the mixture in the absence of the other components. Eq. 23.7 is an example of how Dalton\u2019s law is used in the lung. According to Henry\u2019s law, the concentration of a gas dissolved in a liquid is proportional to its partial pressure. The second important principle is that the partial pressure of a gas (Pgas) is equal to the fraction of that gas in the gas mixture (Fgas) multiplied by the atmospheric (barometric) pressure: Equation 23.8 Ambient air is composed of approximately 21% O2 and 79% N2. Therefore, the partial pressure of O2 in inspired ambient air (PO2) is calculated as follows:"
+        },
+        {
+            "id": "Physiology_Levy_2527",
+            "title": "Physiology_Levy",
+            "content": "Equation 22.3 where d is the fluid density, v is the average velocity, r is the radius, and \u03b7 is the viscosity. In straight tubes, turbulence occurs when the Reynolds number is greater than 2000. From this relationship it can be seen that turbulence is most likely to occur when the average velocity of the gas flow is high and the radius is large. In contrast, a low-density gas such as helium is less likely to cause turbulent flow. This is clinically relevant in states of increased airway resistance where a decrease in gas density (e.g., substituting helium for nitrogen in inspired air) can improve airflow."
+        },
+        {
+            "id": "Physiology_Levy_2586",
+            "title": "Physiology_Levy",
+            "content": "Equation 23.12 1 0. = FO2 + FN2 + FH2O + FCO2 + Fargon and other gases where N2 and argon are inert gases, and therefore the fraction of these gases in the alveolus does not change from ambient fractions. The fraction of water vapor also does not change because the inspired gas is already fully saturated with water vapor and is at body temperature. As a consequence of gas exchange, however, the fraction of O2 in the alveolus decreases, and the fraction of CO2 in the alveolus increases. Because of changes in the fractions of O2 and CO2, the partial pressures exerted by these gases also change. The partial pressure of O2 in the alveolus (PAO2) is given by the alveolar gas equation, which is also called the ideal alveolar oxygen equation: Equation 23.13 CHAPTER 23 Ventilation, Perfusion, and Ventilation/Perfusion Relationships PO2 159 150 102 90 40 PCO2 0 040 40 46 PH2O, 37\u00b0C 0 47 47 47 47 PN2 601 563 571"
+        },
+        {
+            "id": "Physiology_Levy_121",
+            "title": "Physiology_Levy",
+            "content": "The driving forces for fluid (water) movement across the capillary wall are hydrostatic pressure and oncotic pressure (i.e., osmotic pressure generated by proteins). Collectively, these are called the Starling forces. Capillary fluid movement is discussed in detail in in brief, hydrostatic pressure within the capillary (as a result of the pumping of the heart and the effect of gravity on the column of blood in the vessels feeding a capillary) is a force that causes fluid to move out of the capillary. Hydrostatic pressure in the surrounding interstitial tissue opposes the effect of the capillary hydrostatic pressure. The oncotic pressure of the plasma in the capillary tends to draw fluid from the interstitium into the capillary. The oncotic pressure of the interstitial fluid opposes this. Thus the amount of fluid moving across the wall of the capillary is determined as follows: Equation 2.1"
+        },
+        {
+            "id": "Physiology_Levy_2112",
+            "title": "Physiology_Levy",
+            "content": "3. Poiseuille\u2019s law characterizes blood flow that is steady and laminar in vessels larger than arterioles. However, blood flow is nonnewtonian in very small blood vessels (i.e., Poiseuille\u2019s law is not applicable). 4. Flow tends to become turbulent when (1) flow velocity is high, (2) fluid viscosity is low, (3) fluid density is great, (4) vessel diameter is large, or (5) the wall of the vessel is irregular. 5. Arteries not only conduct blood from the heart to the capillaries but also store some of the ejected blood during each cardiac systole. Hence, blood flow continues through the capillaries during cardiac diastole. Veins return blood to the heart from the capillaries and have a relatively low resistance and high capacitance that enables them to serve as reservoirs for blood. 6."
+        }
+    ],
+    "scores": [
+        0.03391390123307841,
+        0.03174619744587933,
+        0.029605901766647257,
+        0.0282468928417874,
+        0.02763590873242501,
+        0.027634865134865134,
+        0.027470051274976433,
+        0.02673017147972908,
+        0.026633424794907865,
+        0.026473781124608364,
+        0.02439503011732113,
+        0.02409477190765231,
+        0.02371823442243885,
+        0.023345265926358855,
+        0.021501831501831502,
+        0.01868269059280295,
+        0.018384823700966405,
+        0.017698425074068297,
+        0.01725393127548049,
+        0.017011197243755383,
+        0.01675006950236308,
+        0.01584627862000125,
+        0.015219907407407408,
+        0.014997032961104818,
+        0.014928698752228164,
+        0.014856962225383278,
+        0.01455026455026455,
+        0.01439363005308289,
+        0.014185110663983903,
+        0.014154704944178628,
+        0.014080459770114942,
+        0.013802036805431482
+    ],
+    "execution_time": 21.862383365631104
+}

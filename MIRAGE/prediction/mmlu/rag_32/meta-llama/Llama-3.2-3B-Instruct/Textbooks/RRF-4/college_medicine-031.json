@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-031",
+    "question": "Two scientists at a conference on evolution take to the stage on day 3 to argue their theories against one other. Each is a devout student of their own philosophy. The first scientist contends that organisms evolved via the increase of organs that were used the most during their time. They would then pass these on to subsequent generations. The second scientist, however, believed that advantages each organism possessed were absent for a long time, randomly occurred, and when they were beneficial, that organism would rapidly populate the population over a short period of time, evolutionarily speaking. Which of the following statements would strengthen the second scientist\u2019s argument?",
+    "options": {
+        "A": "A study that shows that bodybuilders who train more have larger children.",
+        "B": "A taxonomy study that shows long periods of stagnant growth followed by short burst of massive evolution.",
+        "C": "A study that showed a species who were more successful due to the things they learned over their lifetime that they passed on to their children.",
+        "D": "A study that showed a consistent amount of time between the emergence of each new species."
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step thinking and the answer in JSON format: The question is asking which statement would strengthen the second scientist's argument, which is that advantages each organism possessed were absent for a long time, randomly occurred, and when they were beneficial, that organism would rapidly populate the population over a short period of time. The second scientist's argument is based on the concept of neutral evolution, where random mutations occur and some of them are beneficial, leading to rapid population growth. Let's analyze each option: A. A study that shows that bodybuilders who train more have larger children - This study suggests that beneficial traits can have a rapid impact on population growth, which supports the second scientist's argument. B. A taxonomy study that shows long periods of stagnant growth followed by short bursts of massive evolution - This study suggests that evolution is not always gradual, but can occur in short periods, which supports the idea that beneficial traits can rapidly become fixed in a population. C. A study that showed a species that were more successful due to the things they learned over their lifetime that they passed on to their children - This study suggests that acquired traits can be passed on to offspring and lead to rapid evolution, which is not directly related to the concept of neutral evolution. D. A study that showed a consistent amount of time between the emergence of each new species - This study suggests that evolution is a slow process, which contradicts the second scientist's argument that beneficial traits can rapidly become fixed in a population. Based on this analysis, the correct answer is: {\"step_by_step_thinking\": \"Option B supports the second scientist's argument by suggesting that evolution can occur in short periods, which aligns with the concept of neutral evolution where beneficial traits can rapidly become fixed in a population.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1049",
+            "title": "Cell_Biology_Alberts",
+            "content": "copies have remained active. In many cases, the most obvious functional difference between the duplicated genes is that they are expressed in different tissues or at different stages of development. One attractive theory to explain such an end result imagines that different, mildly deleterious mutations occur quickly in both copies of a duplicated gene set. For example, one copy might lose expression in a particular tissue as a result of a regulatory mutation, while the other copy loses expression in a second tissue. Following such an occurrence, both gene copies would be required to provide the full range of functions that were once supplied by a single gene; hence, both copies would now be protected from loss through inactivating mutations. Over a longer period, each copy could then undergo further changes through which it could acquire new, specialized features. The Evolution of the globin gene Family Shows How DNA Duplications Contribute to the Evolution of Organisms"
+        },
+        {
+            "id": "Cell_Biology_Alberts_455",
+            "title": "Cell_Biology_Alberts",
+            "content": "From a chemical point of view, proteins are by far the most structurally complex and functionally sophisticated molecules known. This is perhaps not surprising, once we realize that the structure and chemistry of each protein has been developed and fine-tuned over billions of years of evolutionary history. The theoretical calculations of population geneticists reveal that, over evolutionary time periods, a surprisingly small selective advantage is enough to cause a randomly altered protein sequence to spread through a population of organisms. Yet, even to experts, the remarkable versatility of proteins can seem truly amazing. In this section, we consider how the location of each amino acid in the long string of amino acids that forms a protein determines its three-dimensional shape. Later in the chapter, we use this understanding of protein structure at the atomic level to describe how the precise shape of each protein molecule determines its function in a cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_992",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genome Sequences of Two Species Differ in Proportion to the length of Time Since They Have Separately Evolved The differences between the genomes of species alive today have accumulated over more than 3 billion years. Although we lack a direct record of changes over time, scientists can reconstruct the process of genome evolution from detailed comparisons of the genomes of contemporary organisms. The basic organizing framework for comparative genomics is the phylogenetic tree. A simple example is the tree describing the divergence of humans from the great apes (Figure 4\u201363). The primary support for this tree comes from comparisons of gene or protein sequences. For example, comparisons between the sequences of human genes or proteins and those of the great apes typically reveal the fewest differences between human and chimpanzee and the most between human and orangutan."
+        },
+        {
+            "id": "Cell_Biology_Alberts_495",
+            "title": "Cell_Biology_Alberts",
+            "content": "The various members of a large protein family often have distinct functions. Some of the amino acid changes that make family members different were no doubt selected in the course of evolution because they resulted in useful changes in biological activity, giving the individual family members the different functional properties they have today. But many other amino acid changes are effectively \u201cneutral,\u201d having neither a beneficial nor a damaging effect on the basic structure and function of the protein. In addition, since mutation is a random process, there must also have been many deleterious changes that altered the three-dimensional structure of these proteins sufficiently to harm them. Such faulty proteins would have been lost whenever the individual organisms making them were at enough of a disadvantage to be eliminated by natural selection."
+        },
+        {
+            "id": "Cell_Biology_Alberts_173",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201345 Times of divergence of different vertebrates. The scale on the left shows the estimated date and geological era of the last common ancestor of each specified pair of animals. each time estimate is based on comparisons of the amino acid sequences of orthologous proteins; the longer the animals of a pair have had to evolve independently, the smaller the percentage of amino acids that remain identical. The time scale has been calibrated to match the fossil evidence showing that the last common ancestor of mammals and birds lived 310 million years ago."
+        },
+        {
+            "id": "Cell_Biology_Alberts_71",
+            "title": "Cell_Biology_Alberts",
+            "content": "Genome analysis has now given us a simpler, more direct, and much more powerful way to determine evolutionary relationships. The complete DNA sequence of an organism defines its nature with almost perfect precision and in exhaustive detail. Moreover, this specification is in a digital form\u2014a string of let-ters\u2014that can be entered straightforwardly into a computer and compared with the corresponding information for any other living thing. Because DNA is subject to random changes that accumulate over long periods of time (as we shall see shortly), the number of differences between the DNA sequences of two organisms can provide a direct, objective, quantitative indication of the evolutionary distance between them."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1065",
+            "title": "Cell_Biology_Alberts",
+            "content": "When a new neutral mutation occurs in a population of constant size N that is undergoing random mating, the probability that it will ultimately become fixed is approximately 1/(2N). This is because there are 2N copies of the gene in the diploid population, and each of them has an equal chance of becoming the predominant version in the long run. For those mutations that do become fixed, the mathematics shows that the average time to fixation is approximately 4N generations. Detailed analyses of data on human genetic variation have suggested an ancestral population size of approximately 10,000 at the time when the current pattern of genetic variation was largely established. With a population that has reached this size, the probability that a new, selectively neutral mutation would become fixed is small (1/20,000), while the average time to fixation would be on the order of 800,000 years (assuming a 20-year generation time). Thus, while we know that the human population has grown"
+        },
+        {
+            "id": "Cell_Biology_Alberts_83",
+            "title": "Cell_Biology_Alberts",
+            "content": "A complete DNA sequence reveals both the genes an organism possesses and the genes it lacks. When we compare the three domains of the living world, we can begin to see which genes are common to all of them and must therefore have been present in the cell that was ancestral to all present-day living things, and which genes are peculiar to a single branch in the tree of life. To explain the findings, however, we need to consider a little more closely how new genes arise and genomes evolve. The raw material of evolution is the DNA sequence that already exists: there is no natural mechanism for making long stretches of new random sequence. In this sense, no gene is ever entirely new. Innovation can, however, occur in several ways (Figure 1\u201319): 1. Intragenic mutation: an existing gene can be randomly modified by changes in its DNA sequence, through various types of error that occur mainly in the process of DNA replication. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_69",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Tree of life has Three Primary Branches: Bacteria, Archaea, and eukaryotes The classification of living things has traditionally depended on comparisons of their outward appearances: we can see that a fish has eyes, jaws, backbone, brain, and so on, just as we do, and that a worm does not; that a rosebush is cousin to an apple tree, but is less similar to a grass. As Darwin showed, we can readily interpret such close family resemblances in terms of evolution from common ancestors, and we can find the remains of many of these ancestors preserved in the fossil record. In this way, it has been possible to begin to draw a family tree of living organisms, showing the various lines of descent, as well as branch points in the history, where the ancestors of one group of species became different from those of another."
+        },
+        {
+            "id": "Cell_Biology_Alberts_188",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? explain why or why not. What new approaches might provide a clearer view of the anaerobic archaeon that is thought to have formed the nucleus of the first eukaryotic cell? how did its symbiosis with an aerobic bacterium lead to the mitochondrion? somewhere on earth, are there cells not yet identified that can fill in the details of how eukaryotic cells originated? dnA sequencing has revealed a rich and previously undiscovered world of microbial cells, the vast majority of which fail to grow in a laboratory. how might these cells be made more accessible for detailed study? What new model cells or organisms should be developed for scientists to study? Why might a concerted focus on these models speed progress toward understanding a critical aspect of cell function that is poorly understood? how did the first cell membranes arise?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_997",
+            "title": "Cell_Biology_Alberts",
+            "content": "For much less closely related organisms, such as humans and chickens (which have evolved separately for about 300 million years), the sequence conservation found in genes is almost entirely due to purifying selection (that is, selection that eliminates individuals carrying mutations that interfere with important genetic functions), rather than to an inadequate time for mutations to occur. Phylogenetic Trees Constructed from a Comparison of DNA Sequences Trace the Relationships of All Organisms Phylogenetic trees based on molecular sequence data can be compared with the fossil record, and we get our best view of evolution by integrating the two approaches. The fossil record remains essential as a source of absolute dates, human\u2013chimpanzee comparisons show divergences of approximately 1.2%. (modified from F.C. Chen and w.H. li, Am. J. Hum. Genet. 68:444\u2013456, 2001.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_76",
+            "title": "Cell_Biology_Alberts",
+            "content": "competition for limited resources, it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies, leaving no progeny. Through endless repetition of this cycle of error and trial\u2014of mutation and natural selection\u2014organisms evolve: their genetic specifications change, giving them new ways to exploit the environment more effectively, to survive in competition with others, and to reproduce successfully."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1734",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because RNA has all the properties required of a molecule that could catalyze a variety of chemical reactions, including those that lead to its own synthesis (Figure 6\u201392), it has been proposed that RNAs served long ago as the catalysts for template-dependent RNA synthesis. Although self-replicating systems of RNA molecules have not been found in nature, scientists have made significant progress toward constructing them in the laboratory. While such demonstrations would not prove that self-replicating RNA molecules were central to the origin of life on Earth, they would establish that such a scenario is plausible. How Did Protein Synthesis Evolve?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1030",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eric D. green.) for it to succeed in nature. Moreover, calculations based on population genetics reveal that just a tiny selective advantage\u2014less than a 0.1% difference in survival\u2014can be enough to strongly favor retaining a particular DNA sequence over evolutionary time spans. One should therefore not be surprised to find that many DNA sequences that are ultraconserved can be deleted from the mouse genome without any noticeable effect on that mouse in a laboratory."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6337",
+            "title": "Cell_Biology_Alberts",
+            "content": "Discuss the following problems. 22\u20135 In the 1950s, scientists fed 3H-thymidine to rats to label cells that were synthesizing DNA, and then followed the fates of labeled cells for periods of up to a year. They found three patterns of cell labeling in different tissues. Cells in some tissues such as neurons in the central nervous system and the retina did not get labeled. Muscle, kidney, and liver, by contrast, each showed a small number of labeled cells that retained their label, apparently without further division or loss. Finally, cells such as those in the squamous epithelia of the tongue and esophagus were labeled in fairly large numbers, with radioactive pairs of nuclei visible in 12 hours; however, the labeled cells disappeared over time. Which of these three patterns of labeling would you expect to see if the labeled cells were generated by stem cells? Explain your answer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1016",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genomes of ancestral organisms can be inferred, but most can never be directly observed. DNA is very stable compared with most organic molecules, but it is not perfectly stable, and its progressive degradation, even under the best circumstances, means that it is virtually impossible to extract sequence information from fossils that are more than a million years old. Although a modern organism such as the horseshoe crab looks remarkably similar to fossil ancestors that lived 200 million years ago, there is every reason to believe that the horse-shoe-crab genome has been changing during all that time in much the same way as in other evolutionary lineages, and at a similar rate. Selection must have maintained key functional properties of the horseshoe-crab genome to account for the morphological stability of the lineage. However, comparisons between different present-day organisms show that the fraction of the genome subject to purifying selection is small; hence, it is fair to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1061",
+            "title": "Cell_Biology_Alberts",
+            "content": "compared. For example, typical human and chimpanzee DNA sequences differ from one another by about 1%. In contrast, when the same region of the genome is sampled from two randomly chosen humans, the differences are typically about 0.1%. For more distantly related organisms, the interspecies differences outshine intraspecies variation even more dramatically. However, each \u201cfixed difference\u201d between the human and the chimpanzee (in other words, each difference that is now characteristic of all or nearly all individuals of each species) started out as a new mutation in a single individual. If the size of the interbreeding population in which the mutation occurred is N, the initial allele frequency for a new mutation would be 1/(2N) for a diploid organism. How does such a rare mutation become fixed in the population, and hence become a characteristic of the species rather than of a few scattered individuals?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1385",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Explain why, in both experiments, some regions of the tracks are dense with silver grains (dark), whereas others are less dense (light). b. In the first experiment, each track has a central dark section with light sections at each end. In the second experiment, the dark section of each track has a light section at only one end. Explain the reason for this difference. C. Estimate the rate of fork movement (\u03bcm/min) in these experiments. Do the estimates from the two experiments agree? Can you use this information to gauge how long it would take to replicate the entire genome?"
+        },
+        {
+            "id": "InternalMed_Harrison_5528",
+            "title": "InternalMed_Harrison",
+            "content": "Life history theory. Evolution is influenced by the way that limited resources are allocated to all aspects of life including development, sexual maturation, reproduction, number of offspring, and senescence and death. Therefore, \u201ctrade-offs\u201d occur between these phases of life. For example, in a hostile environment, survival is highest for those species that have large numbers of offspring and short lifespan, whereas in a safe and abundant environment, survival is highest for those species that invest resources in a smaller number of offspring and a longer life."
+        },
+        {
+            "id": "Cell_Biology_Alberts_174",
+            "title": "Cell_Biology_Alberts",
+            "content": "The figures on the right give data on protein\u2014the \u03b1 chain of hemoglobin. note that although there is a clear general trend of increasing divergence with increasing time for this protein, there are irregularities that are thought to reflect the action of changes of hemoglobin sequence when the organisms experienced special physiological demands. some proteins, subject to stricter functional constraints, evolve much more slowly than hemoglobin, time in millions of years others as much as five times faster. All this gives rise to substantial uncertainties in estimates of divergence times, and some experts believe that the major groups of mammals diverged from one another as if you were a mouse, preoccupied with the molecular biology of mice, humans would be attractive as model genetic organisms, because of one special property: through medical examinations and self-reporting, we catalog our own genetic (and other) disorders. The human population is enormous, consisting today of some 7"
+        },
+        {
+            "id": "Cell_Biology_Alberts_164",
+            "title": "Cell_Biology_Alberts",
+            "content": "R. Paro, Trends Genet. 6:416\u2013421, 1990. With permission from elsevier.) Genes that were once identical have diverged; many of the gene copies have been lost through disruptive mutations; some have undergone further rounds of local duplication; and the genome, in each branch of the vertebrate family tree, has suffered repeated rearrangements, breaking up most of the original gene orderings. Comparison of the gene order in two related organisms, such as the human and the mouse, reveals that\u2014on the time scale of vertebrate evolution\u2014chromosomes frequently fuse and fragment to move large blocks of DNA sequence around. Indeed, it is possible, as discussed in Chapter 4, that the present state of affairs is the result of many separate duplications of fragments of the genome, rather than duplications of the genome as a whole."
+        },
+        {
+            "id": "InternalMed_Harrison_5524",
+            "title": "InternalMed_Harrison",
+            "content": "survival. Aging is seen as the random degeneration resulting from the inability of evolution to prevent it, i.e., the nonadaptive consequence of evolutionary \u201cneglect.\u201d This conclusion is supported by studies that restricted reproduction to later life in the fruit fly, Drosophila melanogaster, thus permitting natural selection to operate on later life traits and leading to an increase in longevity. There are some species of plants and animals that do not appear to age, or at least they undergo an extremely slow aging process, termed \u201cnegligible senescence.\u201d The mortality rates of these species are relatively constant with time, and they do not display any obvious phenotypic changes of aging. Conversely, there are some living things that undergo programmed death immediately after reproduction, such as annual plants and semelparous animals (Fig. 94e-4). However, many other living things from yeast to humans undergo a gradual aging process leading to death that is surprisingly similar at"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1081",
+            "title": "Cell_Biology_Alberts",
+            "content": "When one compares the genomes of two more distantly related organisms\u2014such as a human and a mouse, separated by about 80 million years\u2014one finds many more changes. Now the effects of natural selection can be clearly seen: through purifying selection, essential nucleotide sequences\u2014both in regulatory regions and in coding sequences (exons)\u2014have been highly conserved. In contrast, nonessential sequences (for example, much of the DNA in introns) have been altered to such an extent that one can no longer see any family resemblance."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3966",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201355 How ATP synthesis by chemiosmosis might have evolved in stages. the first stage could have involved the evolution of an atpase that pumped protons out of the cell using the energy of atp hydrolysis. Stage 2 could have involved the evolution of a different proton pump, driven by an electron-transport chain. Stage 3 would then have linked these two systems together to generate a primitive atp synthase that used the protons pumped by the electron-transport chain to synthesize atp. an early bacterium with this final system would have had a selective advantage over bacteria with neither of the systems or only one."
+        },
+        {
+            "id": "Cell_Biology_Alberts_989",
+            "title": "Cell_Biology_Alberts",
+            "content": "Evolution depends on accidents and mistakes followed by nonrandom survival. Most of the genetic changes that occur result simply from failures in the normal mechanisms by which genomes are copied or repaired when damaged, although the movement of transposable DNA elements (discussed below) also plays an important part. As we will explain in Chapter 5, the mechanisms that maintain DNA sequences are remarkably precise\u2014but they are not perfect. DNA sequences are inherited with such extraordinary fidelity that typically, along a given line of descent, only about one nucleotide pair in a thousand is randomly changed in the germ line every million years. Even so, in a population of 10,000 diploid individuals, every possible nucleotide substitution will have been \u201ctried out\u201d on about 20 occasions in the course of a million years\u2014a short span of time in relation to the evolution of species."
+        },
+        {
+            "id": "Cell_Biology_Alberts_824",
+            "title": "Cell_Biology_Alberts",
+            "content": "nothing ever discarded; and the few patently valuable items indiscriminately, apparently carelessly, scattered throughout.\u201d We shall discuss how this is thought to have come about in the final sections of this chapter entitled \u201cHow Genomes Evolve.\u201d"
+        },
+        {
+            "id": "Cell_Biology_Alberts_980",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this final section of the chapter, we provide an overview of some of the ways that genes and genomes have evolved over time to produce the vast diversity of modern-day life-forms on our planet. The sequencing of the genomes of thousands of organisms is revolutionizing our view of the process of evolution, uncovering an astonishing wealth of information about not only family relationships among organisms, but also about the molecular mechanisms by which evolution has proceeded."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1005",
+            "title": "Cell_Biology_Alberts",
+            "content": "In general, molecular clocks, appropriately chosen, have a finer time resolution than the fossil record, and they are a more reliable guide to the detailed structure of phylogenetic trees than are classical methods of tree construction, which are based on family resemblances in anatomy and embryonic development. For example, the precise family tree of great apes and humans was not settled until sufficient molecular sequence data accumulated in the 1980s to produce the pedigree shown previously in Figure 4\u201363. And with huge amounts of DNA sequence now determined from a wide variety of mammals, much better estimates of our relationship to them are being obtained (Figure 4\u201366). A Comparison of Human and mouse Chromosomes Shows How the Structures of genomes Diverge"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1017",
+            "title": "Cell_Biology_Alberts",
+            "content": "morphological stability of the lineage. However, comparisons between different present-day organisms show that the fraction of the genome subject to purifying selection is small; hence, it is fair to assume that the genome of the modern horseshoe crab, while preserving features critical for function, must differ greatly from that of its extinct ancestors, known to us only through the fossil record."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1083",
+            "title": "Cell_Biology_Alberts",
+            "content": "Other sequence comparisons show that a great deal of the genetic complexity of present-day organisms is due to the expansion of ancient gene families. DNA duplication followed by sequence divergence has clearly been a major source of genetic novelty during evolution. On a more recent time scale, the genomes of any two humans will differ from each other both because of nucleotide substitutions (single-nucleotide polymorphisms, or SNPs) and because of inherited DNA gains and DNA losses that cause copy number variations (CNVs). Understanding the effects of these differences will improve both medicine and our understanding of human biology. Which statements are true? explain why or why not. How many different types of chromatin structure are important for cells? How is each of these structures established and maintained, and which ones tend to be inherited following DNA replication?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_89",
+            "title": "Cell_Biology_Alberts",
+            "content": "When genes duplicate and diverge in this way, the individuals of one species become endowed with multiple variants of a primordial gene. This evolutionary process has to be distinguished from the genetic divergence that occurs when one species of organism splits into two separate lines of descent at a branch point in the family tree\u2014when the human line of descent became separate from that of chimpanzees, for example. There, the genes gradually become different in the course of evolution, but they are likely to continue to have corresponding functions in the two sister species. Genes that are related by descent in this way\u2014that is, genes in two separate species that derive from the same ancestral gene in the last common ancestor of those two species\u2014are called orthologs. Related genes that have resulted from a gene duplication event within a single genome\u2014and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1010",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201366 A phylogenetic tree showing the evolutionary relationships of some present-day mammals. The length of each line is proportional to the number of \u201cneutral substitutions\u201d\u2014that is, nucleotide changes at sites where there is assumed to be no purifying selection. (Adapted from g.m. Cooper et al., Genome Res. 15:901\u2013913, 2005. with permission from Cold Spring Harbor laboratory Press.) Good evidence for the loss of DNA sequences in small blocks during evolution can be obtained from a detailed comparison of regions of synteny in the human and mouse genomes. The comparative shrinkage of the mouse genome can be clearly seen from such comparisons, with the net loss of sequences scattered throughout the long stretches of DNA that are otherwise homologous (Figure 4\u201368)."
+        }
+    ],
+    "scores": [
+        0.028686971359310625,
+        0.02814511028552097,
+        0.026521975696753523,
+        0.023282395733704317,
+        0.02267673683646687,
+        0.022664663361319747,
+        0.020934494594849147,
+        0.020513114336643747,
+        0.019142700128228614,
+        0.01904683900150071,
+        0.018575851393188854,
+        0.0180999180999181,
+        0.018041446566436407,
+        0.01803107139982291,
+        0.017652928083506027,
+        0.01731634182908546,
+        0.016817410966647822,
+        0.016511936339522547,
+        0.01646825396825397,
+        0.016464699683877766,
+        0.016361950185479597,
+        0.016270416850602258,
+        0.015909090909090907,
+        0.015899949723479134,
+        0.015844218674407353,
+        0.01578785075547333,
+        0.015734989648033125,
+        0.015584415584415584,
+        0.01554001554001554,
+        0.015378435760601366,
+        0.01532967032967033,
+        0.015326340326340327
+    ],
+    "execution_time": 12.25744891166687
+}

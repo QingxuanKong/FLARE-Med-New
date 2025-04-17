@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-098",
+    "question": "Differential distribution of substances in the egg most typically results in:",
+    "options": {
+        "A": "differences in gene expression which may establish a pattern in the embryo as the cells divide",
+        "B": "amplification of specific genes during development",
+        "C": "development of polyploid tissues",
+        "D": "loss of specific genes during development"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the provided documents and understand the role of differential distribution of substances in the egg. The documents discuss the process of fertilization, egg polarity, and early development in various organisms. The key concept here is the establishment of the primary axes of the body, which is influenced by the differential distribution of substances in the egg. This distribution leads to the creation of a polarized egg that can guide the development of the embryo. The documents highlight the importance of egg polarity genes, which define the anteroposterior and dorsoventral axes of the future embryo. These genes act by setting up graded distributions of transcription regulators in the egg and early embryo. The correct answer should relate to the establishment of a pattern in the embryo as the cells divide. The other options do not accurately describe the outcome of differential distribution of substances in the egg.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_5799",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 21\u201314 The frog egg and its asymmetries. (a) Side view of a Xenopus egg photographed just before fertilization. (B) the asymmetric distribution of molecules inside the egg, and how this changes following fertilization so as to define a dorsoventral as well as an animal-vegetal asymmetry. Fertilization, through a reorganization of the microtubule cytoskeleton, triggers a rotation of the egg cortex (a layer a few \u03bcm deep) through about 30\u00b0 relative to the core of the egg; the direction of rotation determined by the site of sperm entry. Some components are carried still further to the future dorsal side by active transport along microtubules. the resulting dorsal concentration of Wnt11 mrNa leads to dorsal production of the Wnt11 signal protein and defines the dorsoventral polarity of the future embryo. Vegetally localized Vegt defines the vegetal source of signals that will induce endoderm and mesoderm. (a, courtesy of tony Mills.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4993",
+            "title": "Cell_Biology_Alberts",
+            "content": "C. elegans. The fertilized egg is shown in the left micrographs and the two daughter cells in the right micrographs. The cells above have been stained with a blue, dna-binding, fluorescent dye to show the nucleus (and polar bodies); they are viewed by both differential-interference-contrast and fluorescence microscopy. The cells below are the same cells stained with an antibody against p-granules and viewed by fluorescence microscopy. These small granules are made of Rna and proteins and determine which cells become germ cells. They are distributed randomly throughout the cytoplasm of the unfertilized egg (not shown) but become segregated to the posterior pole of the fertilized egg. The cleavage plane is oriented to ensure that only the posterior daughter cell receives the p-granules when the egg divides. The same segregation process is repeated in several subsequent cell divisions, so that the p-granules end up only in cells that give rise to eggs and sperm. (Courtesy of susan"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5801",
+            "title": "Cell_Biology_Alberts",
+            "content": "At the opposite extreme, the structure of the egg defines the future axes of the body. This is the case for most species, including insects such as Drosophila, as we shall see shortly. Many other organisms lie between the two extremes. The egg of the frog Xenopus, for example, has a clearly defined A-V axis even before fertilization: the nucleus near the top defines the animal pole, while the mass of yolk (the embryo\u2019s food supply, destined to be incorporated in the gut) toward the bottom defines the vegetal pole. Several types of mRNA molecules are already localized in the vegetal cytoplasm of the egg, where they produce their protein products. After fertilization, these mRNAs and proteins act in and on the cells in the lower and middle part of the embryo, giving the cells there specialized characters, both by direct effects and by stimulating the production of secreted signal proteins. For example, mRNA encoding the transcription regulator VegT is deposited at the vegetal pole"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5851",
+            "title": "Cell_Biology_Alberts",
+            "content": "15\u201362). In the newly laid egg, both Dorsal mRNA and protein are distributed uniformly in the cytosol. After the nuclei in the syncytial blastoderm have migrated to the surface of the embryo, but before cellularization (see Figure 21\u201315), Toll receptor activation on the ventral side induces a remarkable redistribution of the Dorsal protein. On the dorsal side, the protein remains in the cytosol, but ventrally it becomes concentrated in the nuclei, with a smooth gradient of nuclear localization between these two extremes (Figure 21\u201326)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5850",
+            "title": "Cell_Biology_Alberts",
+            "content": "Initially, a protein that is produced by follicle cells underneath the future ventral region of the embryo leads to the localized activation of a transmembrane receptor, called Toll, on the ventral side of the egg membrane. The various maternal genes required for this process are called D-V egg-polarity genes. (Curiously, Drosophila Toll and vertebrate Toll-like proteins also operate in innate immune responses, as discussed in Chapter 24). The localized activation of Toll controls the distribution of Dorsal, a transcription regulator of the NF\u03baB family discussed in Chapter 15. The Toll-regulated activity of Dorsal, like that of NF\u03baB, depends on the translocation of Dorsal from the cytosol, where it is held in an inactive form, to the nucleus, where it regulates gene expression (see Figure 15\u201362). In the newly laid egg, both Dorsal mRNA and protein are distributed uniformly in the cytosol. After the nuclei in the syncytial blastoderm have migrated to the surface of the embryo, but"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5797",
+            "title": "Cell_Biology_Alberts",
+            "content": "Different animals Use Different Mechanisms to establish their primary axes of polarization Surprisingly, the earliest steps of animal development are among the most variable, even within a phylum. A frog, a chicken, and a mammal, for example, even though they develop in similar ways later, make eggs that differ radically in size and structure, and they begin their development with different sequences of cell divisions and cell specializations. Gastrulation occurs in all animal embryos, but the details of its timing, of the associated pattern of cell movements, and of the shape and size of the embryo as gastrulation proceeds are highly variable. Likewise, there is great variation in the time and manner in which the primary axes of the body become marked out. However, this polarization of the embryo usually becomes discernible very early, before gastrulation begins: it is the first step of spatial patterning."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5812",
+            "title": "Cell_Biology_Alberts",
+            "content": "Of the three other egg-polarity gene systems, two contribute to patterning the syncytial nuclei along the A-P axis and one to patterning them along the D-V axis. Together with the Bicoid group of genes, and acting in a broadly similar way, their gene products mark out three fundamental partitions of body regions\u2014head versus rear, dorsal versus ventral, and endoderm versus mesoderm and ectoderm\u2014 as well as a fourth partition, no less fundamental to the body plan of animals: the distinction between germ cells and somatic cells (Figure 21\u201317)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5808",
+            "title": "Cell_Biology_Alberts",
+            "content": "We shall see that the initial patterning of the Drosophila embryo depends on signals that diffuse through the cytoplasm at the syncytial stage and exert their actions on genes in the rapidly dividing nuclei, before the partitioning of the egg into separate cells. Here, there is no need for the usual forms of cell\u2013cell signaling; neighboring regions of the syncytial blastoderm can communicate by means of transcription regulatory proteins that move through the cytoplasm of the giant multinuclear cell. egg-polarity Genes encode Macromolecules Deposited in the egg to Organize the axes of the early Drosophila embryo As in most insects, the main axes of the future body of Drosophila are defined before fertilization by a complex exchange of signals between the developing egg, Figure 21\u201315 Development of the Drosophila egg from fertilization to the cellular blastoderm stage."
+        },
+        {
+            "id": "Physiology_Levy_4310",
+            "title": "Physiology_Levy",
+            "content": "Step 3: Fusion of the sperm and egg membrane takes place. Step 4: A Ca++ signaling cascade (see occurs. Step 5: The signaling cascade activates the exocytosis of enzyme-filled vesicles called cortical granules that reside in the outermost, or cortical, region of the unfertilized egg. The enzymes contained in the cortical granules are released to the outside of the egg upon exocytosis. These enzymes modify both ZP2 and ZP3 of the zona pellucida such that ZP2 can no longer bind acrosomereacted sperm, and ZP3 can no longer bind capacitated acrosome-intact sperm. Thus only one sperm usually enters the egg. Occasionally, more than one sperm does enter the egg. This results in a triploid cell that is unable to develop further. Therefore prevention of polyspermy is critical for normal development of the fertilized egg."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5813",
+            "title": "Cell_Biology_Alberts",
+            "content": "The egg-polarity genes have a further special feature: they are all maternal-effect genes, in that it is the mother\u2019s genome rather than the zygote\u2019s genome that is critical. For example, a fly whose chromosomes are mutant in both copies of the Bicoid gene but who is born from a mother carrying one normal copy of Bicoid develops perfectly normally, without any defects in the head pattern. However, if that offspring is a female, she cannot deposit any functional Bicoid mRNA into her own eggs, which will therefore develop into headless embryos, regardless of the father\u2019s genotype. The egg-polarity genes act first in a hierarchy of gene systems that define a progressively more detailed pattern of body parts. In the next few pages, we begin with the molecular mechanisms that pattern the developing Drosophila embryo and larva along the A-P axis, before considering the patterning along the D-V axis."
+        },
+        {
+            "id": "InternalMed_Harrison_12715",
+            "title": "InternalMed_Harrison",
+            "content": "S. enteritidis infection associated with chicken eggs emerged as a major cause of food-borne disease during the 1980s and 1990s. S. enteritidis infection of the ovaries and upper oviduct tissue of hens results in contamination of egg contents before shell deposition. Infection is spread to egg-laying hens from breeding flocks and through contact with rodents and manure. The percentage of Salmonella outbreaks attributed to eggs has declined significantly in the United States, from 33% during 1998\u20131999 to 15% during 2006\u20132008. This decrease probably reflects the impact of the coordinated public health response to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4994",
+            "title": "Cell_Biology_Alberts",
+            "content": "when the egg divides. The same segregation process is repeated in several subsequent cell divisions, so that the p-granules end up only in cells that give rise to eggs and sperm. (Courtesy of susan strome.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5827",
+            "title": "Cell_Biology_Alberts",
+            "content": "egg-polarity, Gap, and pair-rule Genes create a transient pattern that Is remembered by Segment-polarity and Hox Genes"
+        },
+        {
+            "id": "Histology_Ross_3888",
+            "title": "Histology_Ross",
+            "content": "Maturation of the oocyte occurs in the primary follicle. The distribution of organelles changes as the oocyte matures. Multiple, dispersed Golgi elements derived from the single Balbiani body of the primordial oocyte become scattered in the cytoplasm. The number of free ribosomes, mitochondria, small vesicles, and multivesicular bodies and the amount of rough-surfaced endoplasmic reticulum (rER) increase. Occasional lipid droplets and masses of lipochrome pigment may also be seen. The oocytes of many species, including mammals, exhibit specialized secretory vesicles known as cortical granules (see Fig. 23.5a). They are located just beneath the oolemma (oocyte\u2019s plasma membrane). The granules contain proteases that are released by exocytosis when the ovum is activated by the sperm (discussed in the section on fertilization)."
+        },
+        {
+            "id": "Physiology_Levy_4311",
+            "title": "Physiology_Levy",
+            "content": "Step 6: The entire sperm enters the egg during fusion. The flagellum and mitochondria disintegrate, so most of the mitochondrial DNA in cells is maternally derived. Once inside the egg, decondensation of the sperm DNA occurs. A membrane called the pronucleus forms around the sperm DNA as the newly activated egg completes the second meiotic division. In mammalian eggs a large initial release of Ca++ is fol lowed by a series of subsequent smaller Ca++ oscillations that can last for hours. A major consequence of this signaling pathway is that it \u201cwakes up\u201d the metabolically quiescent \u2022Fig. 44.32 Overviewofgeneticeventsafterfertilizationuptothefirstembryoniccleavage.(ModifiedfromWhiteBA,PorterfieldSP.Endocrine Physiology. 4thed.Philadelphia:Mosby;2013.) egg so it can resume meiosis and begin embryonic development. This process is called egg activation. The activated egg completes the second meiotic division as the sperm DNA decondenses and a pronucleus forms around it ("
+        },
+        {
+            "id": "Physiology_Levy_3019",
+            "title": "Physiology_Levy",
+            "content": "The predominant form of lipid in the human diet is triglyceride, found in oils and other fats. The majority of these triglycerides have long-chain fatty acids (carbon chains > 12 carbons) esterified to the glycerol backbone. Additional lipid is supplied in the form of phospholipids and cholesterol, mostly arising from cell membranes. It is also important to consider that the intestine is presented daily not only with dietary lipid but also with lipid originating from the liver in biliary secretions, as described in more detail in . Indeed, the cholesterol supplied in bile exceeds that provided in the diet on a daily basis in all but the most egg-loving individuals. Finally, though present in only trace amounts, the fat-soluble vitamins (A, D, E, K) are essential nutrients that should be supplied in the diet to avoid disease. These substances are almost entirely insoluble in water and thus require special handling to promote their uptake into the body."
+        },
+        {
+            "id": "Anatomy_Gray_1066",
+            "title": "Anatomy_Gray",
+            "content": "The ovaries are the sites of egg production (oogenesis). Mature eggs are ovulated into the peritoneal cavity and normally directed into the adjacent openings of the uterine tubes by cilia on the ends of the uterine tubes. The ovaries lie adjacent to the lateral pelvic wall just inferior to the pelvic inlet. Each of the two almond-shaped ovaries is about 3 cm long and is suspended by a mesentery (the mesovarium) that is a posterior extension of the broad ligament. The uterus is a thick-walled muscular organ in the midline between the bladder and rectum (see Fig. 5.51). It consists of a body and a cervix, and inferiorly it joins the vagina (Fig. 5.53). Superiorly, uterine tubes project laterally from the uterus and open into the peritoneal cavity immediately adjacent to the ovaries."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1759",
+            "title": "Cell_Biology_Alberts",
+            "content": "the Different Cell types of a Multicellular Organism Contain the Same DnA The cell types in a multicellular organism become different from one another because they synthesize and accumulate different sets of RNA and protein molecules. The initial evidence that they do this without altering the sequence of their DNA came from a classic set of experiments in frogs. When the nucleus of a fully differentiated frog cell is injected into a frog egg whose nucleus has been removed, the injected donor nucleus is capable of directing the recipient egg to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6864",
+            "title": "Cell_Biology_Alberts",
+            "content": "egg-polarity genes Genes in the Drosophila egg that define the anteroposterior and dorsoventral axes of the future embryo through the creation of landmarks (mRNA or protein) in the egg that provide signals organizing the developmental process. elastic fiber Extensible fiber formed by the protein elastin in many animal connective tissues, such as in skin, blood vessels, and lungs, which gives them their stretchability and resilience. elastin Extracellular protein that forms extensible fibers (elastic fibers) in connective tissues. electrochemical gradient Combined influence of a difference in the concentration of an ion on two sides of a membrane and the electrical charge difference across the membrane (membrane potential). Ions or charged molecules can move passively only down their electrochemical gradient. electron microscope Microscope that uses a beam of electrons to create the image."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5030",
+            "title": "Cell_Biology_Alberts",
+            "content": "A fertilized mouse egg and a fertilized human egg are similar in size, yet they produce animals of very different sizes. What factors in the control of cell behavior in humans and mice are responsible for these size differences? The same fundamental question can be asked for each organ and tissue in an animal\u2019s body. What factors determine the length of an elephant\u2019s trunk or the size of its brain or its liver? These questions are largely unanswered, but it is nevertheless possible to say what the ingredients of an answer must be. The size of an organ or organism depends on its total cell mass, which depends on both the total number of cells and their size. Cell number, in turn, depends on the amounts of cell division and cell death. Organ and body size are therefore determined by three fundamental processes: cell growth, cell division, and cell survival. Each is tightly regulated\u2014both by intracellular programs and by extracellular signal molecules that control these programs."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5786",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cell diversification does not always depend on extracellular signals: in some cases, daughter cells are born different as a result of an asymmetric cell division, in which some important molecule or molecules are distributed unequally between the two daughters. This asymmetric inheritance ensures that the two daughter cells develop differently (Figure 21\u201312). Asymmetric division is a common feature of early development, where the fertilized egg already has an internal pattern and cleavage of this large cell segregates different determinants into separate blastomeres. We shall see that asymmetric division also plays a part in some later developmental processes. Initial patterns are established in Small Fields of cells and refined by Sequential Induction as the embryo Grows"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1361",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Epithelial cell maintenance: Vitamin A is essential for normal differentiation of epithelial tissues and mucus secretion and, thus, supports the body\u2019s barrier-based defense against pathogens. 3. Reproduction: Retinol and retinal are essential for normal reproduction, supporting spermatogenesis in the male and preventing fetal resorption in the female. Retinoic acid is inactive in maintaining reproduction and in the visual cycle but promotes growth and differentiation of epithelial cells. F. Distribution Liver, kidney, cream, butter, and egg yolk are good sources of preformed vitamin A. Yellow, orange, and dark-green vegetables and fruits are good sources of the carotenes (provitamin A). G. Requirement The RDA for adults is 900 retinol activity equivalents (RAE) for males and 700 RAE for females. In comparison, 1 RAE = 1 \u00b5g of retinol, 12 \u00b5g of \u03b2 carotene, or 24 \u00b5g of other carotenoids. H. Clinical indications for vitamin A"
+        },
+        {
+            "id": "Pediatrics_Nelson_2585",
+            "title": "Pediatrics_Nelson",
+            "content": "The most common symptoms are nocturnal anal pruritus (pruritus ani) and sleeplessness, presumably resulting from the migratory female worms. Vaginitis and salpingitis may develop secondary to aberrant worm migration. The eggs are detected by microscopically examining adhesive cellophane tape pressed against the anus in the morning to collect eggs. Less commonly, a worm may be seen in the perianal region. Treatment is with albendazole (400 mg), mebendazole (100 mg), or pyrantel pamoate (11 mg/kg, maximum 1 g) each given as a single oral dose and repeated in 2 weeks. Available @ StudentConsult.com"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5901",
+            "title": "Cell_Biology_Alberts",
+            "content": "Drosophila has been the foremost model organism for the study of the genetics of animal development. Its embryonic pattern is initiated by the products of maternal-effect genes called egg-polarity genes, which operate by setting up graded distributions of transcription regulators in the egg and early embryo. The gradient of Bicoid protein along the A-P axis, for example, helps initiate the orderly expression of gap genes, pair-rule genes, and segment-polarity genes. These three classes of segmentation genes, through a hierarchy of interactions, become expressed in some regions of the embryo and not others, progressively subdividing the embryo along the A-P axis into a regular series of repeating modular units called segments."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5750",
+            "title": "Cell_Biology_Alberts",
+            "content": "The shared anatomical features of animals develop through conserved mechanisms. After fertilization, the zygote usually divides rapidly, or cleaves, to form many smaller cells; during this cleavage, the embryo, which cannot yet feed, does not grow. This phase of development is initially driven and controlled entirely by the material deposited in the egg by the mother. The embryonic genome remains inactive until a point is reached when maternal mRNAs and proteins rather abruptly begin to be degraded. The embryo\u2019s genome is activated, and the cells cohere to form a blastula\u2014typically a solid or a hollow fluid-filled ball of cells. Complex cell rearrangements called gastrulation (from the Greek \u201cgaster,\u201d meaning \u201cbelly\u201d) then transform the blastula into a multilayered structure containing a rudimentary internal gut (Figure 21\u20133). Some cells of the blastula remain external, constituting the ectoderm, which will give rise to the epidermis and the nervous system; other cells invaginate,"
+        },
+        {
+            "id": "Pathology_Robbins_2092",
+            "title": "Pathology_Robbins",
+            "content": "Parasitic worms are highly differentiated multicellular organisms. Their life cycles are complex; most alternate between sexual reproduction in the definitive host and asexual multiplication in an intermediate host or vector. Thus, depending on the species, humans may harbor adult worms (e.g., Ascaris lumbricoides), immature stages (e.g., Toxocara canis), or asexual larval forms (e.g., Echinococcus spp.). Once adult worms take up residence in humans, they usually do not multiply but they produce eggs or larvae that typically are passed in stool. Often, the severity of disease is proportional to the number of infecting organisms. For example, a burden of 10 hookworms is associated with mild or no clinical disease, whereas 1000 hookworms consume enough blood to cause severe anemia. In some helminthic infections, such as schistosomiasis, disease is caused by inflammatory responses to the eggs or larvae rather than the adult worms. Helminths comprise three groups:"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5798",
+            "title": "Cell_Biology_Alberts",
+            "content": "Three axes generally have to be established. The animal-vegetal (A-V) axis, in most species, defines which parts are to become internal (through the movements of gastrulation) and which are to remain external. (The bizarre name dates from a century ago and has nothing to do with vegetables.) The anteroposterior (A-P) axis specifies the locations of future head and tail. The dorsoventral (D-V) axis specifies the future back and belly. Figure 21\u201314 The frog egg and its asymmetries. (a) Side view of a Xenopus egg photographed just before fertilization."
+        },
+        {
+            "id": "InternalMed_Harrison_5680",
+            "title": "InternalMed_Harrison",
+            "content": "Choline is a precursor for acetylcholine, phospholipids, and betaine. Choline is necessary for the structural integrity of cell membranes, cholinergic neurotransmission, lipid and cholesterol metabolism, methyl-group metabolism, and transmembrane signaling. Recently, a recommended adequate intake was set at 550 mg/d for men and 425 mg/d for women, although certain genetic polymorphisms can increase an individual\u2019s requirement. Choline is thought to be a \u201cconditionally essential\u201d nutrient in that its de novo synthesis occurs in the liver and results in lesser-than-used amounts only under certain stress conditions (e.g., alcoholic liver disease). The dietary requirement for choline depends on the status of other nutrients involved in methyl-group metabolism (folate, vitamin B12, vitamin B6, and methionine) and thus varies widely. Choline is widely distributed in food (e.g., egg yolks, wheat germ, organ meat, milk) in the form of lecithin (phosphatidylcholine). Choline deficiency has"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4145",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 15\u201319 The importance of examining individual cells to detect all-or-none responses to increasing concentrations of an extracellular signal. In these experiments, immature frog eggs (oocytes) were stimulated with increasing concentrations of the hormone progesterone. The response was assessed by analyzing the activation of MAP kinase (discussed later), which is one of the protein kinases activated by phosphorylation in the response. The amount of phosphorylated (activated) MAP kinase in extracts of the oocytes was assessed biochemically. In (A), extracts of populations of stimulated oocytes were analyzed, and the activation of MAP kinase appeared to increase progressively with increasing progesterone concentration. There are two possible ways of explaining this result: (B) MAP kinase could have increased gradually in each individual cell with increasing progesterone concentration; or (C) individual cells could have responded in an all-or-none way, with the gradual increase in"
+        },
+        {
+            "id": "InternalMed_Harrison_16811",
+            "title": "InternalMed_Harrison",
+            "content": "Epidemiology Ascaris is widely distributed in tropical and subtropical regions as well as in other humid areas, including the rural southeastern United States. Transmission typically occurs through fecally contaminated soil and is due either to a lack of sanitary facilities or to the use of human feces as fertilizer. With their propensity for hand-to-mouth fecal carriage, younger children are most affected. Infection outside endemic areas, though uncommon, can occur when eggs on transported vegetables are ingested."
+        },
+        {
+            "id": "Pediatrics_Nelson_2584",
+            "title": "Pediatrics_Nelson",
+            "content": "Eosinophilia and hypergammaglobulinemia associated with elevated isohemagglutinin levels suggest the diagnosis, which is confirmed by serology (enzyme-linked immunosorbent assay) or, less commonly, by biopsy. This is usually a self-limited illness. In severe disease, albendazole or mebendazole is used. Deworming puppies and kittens, major excreters of eggs, decreases the risk of infection. Available @ StudentConsult.com Pinworm is caused by Enterobius vermicularis, a nematode that is distributed worldwide. Enterobiasis affects individuals at all socioeconomic levels, especially children. Crowded living conditions predispose to infection. Humans ingest the eggs carried on hands, present in house dust or on bedclothes. The eggs hatch in the stomach, and the larvae migrate to the cecum and mature. At night the females migrate to the perianal area to lay their eggs, which are viable for 2 days."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5026",
+            "title": "Cell_Biology_Alberts",
+            "content": "The sorting of chromosomes that takes place during meiosis is a remarkable feat of intracellular bookkeeping. In humans, each meiosis requires that the starting cell keep track of 92 chromatids (46 chromosomes, each of which has duplicated), distributing one complete set of each type of autosome to each of the four haploid progeny. Not surprisingly, mistakes can occur in allocating the chromosomes during this elaborate process. Mistakes are especially common in human female meiosis, which arrests for years after diplotene: meiosis I is completed only at ovulation, and meiosis II only after the egg is fertilized. Indeed, such chromosome segregation errors during egg development are the most common cause of both spontaneous abortion (miscarriage) and mental retardation in humans."
+        }
+    ],
+    "scores": [
+        0.0344155941693814,
+        0.033807408012087085,
+        0.02794243666544631,
+        0.02617333291041541,
+        0.026149561820293526,
+        0.02516788766788767,
+        0.024414800430588683,
+        0.024127350239562008,
+        0.022445109461016514,
+        0.022278031530627396,
+        0.02166481920697535,
+        0.021180205431996557,
+        0.020609979698475667,
+        0.020269647048543265,
+        0.0191900092256792,
+        0.01868796923640359,
+        0.018532818532818532,
+        0.018457625064696934,
+        0.017565485362095533,
+        0.017308397506417307,
+        0.016718054128126072,
+        0.016558529332251957,
+        0.016160350767303475,
+        0.016133162612035852,
+        0.015394228584412632,
+        0.01529533004284862,
+        0.015231599886331344,
+        0.015162335878701314,
+        0.015114196148678908,
+        0.015067079463364292,
+        0.014957264957264958,
+        0.014837581474219702
+    ],
+    "execution_time": 7.094985246658325
+}

@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-071",
+    "question": "Pseudocholinesterase deficiency is associated with increased sensitivity to what?",
+    "options": {
+        "A": "Fava beans",
+        "B": "Halothane",
+        "C": "Primaquine",
+        "D": "Succinylcholine"
+    },
+    "answer": "D",
+    "predict": "To answer this question, let's analyze the provided documents step by step: 1. Document [0] states that some cholinesterase inhibitors also inhibit butyrylcholinesterase (pseudocholinesterase), but inhibition of butyrylcholinesterase plays a little role in the action of indirect-acting cholinomimetic drugs. However, it does not mention any association with pseudocholinesterase deficiency. 2. Document [1] discusses succinylcholine metabolism and mentions that individuals with genetically determined deficiency in pseudocholinesterase (butyrylcholinesterase) metabolize succinylcholine only half as rapidly as those with normally functioning enzyme. This implies that individuals with pseudocholinesterase deficiency may have increased sensitivity to succinylcholine. 3. Document [2] explains that neuromuscular blockade produced by succinylcholine can be prolonged in patients with an abnormal genetic variant of plasma cholinesterase. The dibucaine number is a measure of the ability of a patient to metabolize succinylcholine. 4. Document [5] mentions that patients with pseudocholinesterase deficiency are at risk of prolonged respiratory paralysis (succinylcholine apnea) when treated with succinylcholine as a surgical muscle relaxant. 5. Document [12] discusses the use of anticholinesterase drugs in myasthenia gravis and mentions that neostigmine (a cholinesterase inhibitor) can be used to determine whether weakness is due to an excess of anticholinesterase medications. Based on the above analysis, the correct answer is D. Succinylcholine, as individuals with pseudocholinesterase deficiency are at increased risk of prolonged respiratory paralysis when treated with succinylcholine. Here is the output in JSON format: {\"step_by_step_thinking\": \"Analyzing the provided documents, the relationship between pseudocholinesterase deficiency and increased sensitivity to succinylcholine is established. Document [1] mentions that individuals with pseudocholinesterase deficiency metabolize succinylcholine only half as rapidly, and Document [5] states that patients with pseudocholinesterase deficiency are at risk of prolonged respiratory paralysis when treated with succinylcholine. Therefore, the correct answer is succinylcholine.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_635",
+            "title": "Pharmacology_Katzung",
+            "content": "Some cholinesterase inhibitors also inhibit butyrylcholinesterase (pseudocholinesterase). However, inhibition of butyrylcholinesterase plays little role in the action of indirect-acting cholinomimetic drugs because this enzyme is not important in the physiologic termination of synaptic acetylcholine action. However, butyrylcholinesterase serves as a biological scavenger to prevent or reduce the extent of cholinesterase inhibition by organophosphate agents (see Chapter 8). Some quaternary cholinesterase inhibitors have a modest direct action as well, eg, neostigmine, which activates neuromuscular nicotinic cholinoceptors directly in addition to blocking cholinesterase."
+        },
+        {
+            "id": "Pharmacology_Katzung_430",
+            "title": "Pharmacology_Katzung",
+            "content": "Succinylcholine is metabolized only half as rapidly in persons with genetically determined deficiency in pseudocholinesterase (now generally referred to as butyrylcholinesterase [BCHE]) as in persons with normally functioning enzyme. Different mutations, inherited as autosomal recessive traits, account for the enzyme deficiency. Deficient individuals treated with succinylcholine as a surgical muscle relaxant may become susceptible to prolonged respiratory paralysis (succinylcholine apnea). Similar pharmacogenetic differences are seen in the acetylation of isoniazid. The defect in slow acetylators (of isoniazid and similar amines) appears to be caused by the synthesis of less of the NAT2 enzyme rather than of an abnormal form of it. Inherited as an autosomal recessive trait, the slow acetylator phenotype occurs in about 50% of blacks and whites in the USA, more frequently in Europeans living in high northern latitudes, and much less commonly in Asians and Inuit (Eskimos). The slow"
+        },
+        {
+            "id": "Pharmacology_Katzung_2883",
+            "title": "Pharmacology_Katzung",
+            "content": "Neuromuscular blockade produced by succinylcholine can be prolonged in patients with an abnormal genetic variant of plasma cholinesterase. The dibucaine number is a measure of the ability of a patient to metabolize succinylcholine and can be used to identify at-risk patients. Under standardized test conditions, dibucaine inhibits the normal enzyme by 80% and the abnormal enzyme by only 20%. Many genetic variants of plasma cholinesterase have been identified, although the dibucaine-related variants are the most important. Given the rarity of these genetic variants, plasma cholinesterase testing is not a routine clinical procedure but may be indicated for patients with a family history of plasma cholinesterase deficiency. Another reasonable strategy is to avoid the use of succinylcholine where practical in patients with a possible family history of plasma cholinesterase deficiency. Mechanism of Action"
+        },
+        {
+            "id": "Neurology_Adams_11758",
+            "title": "Neurology_Adams",
+            "content": "stimulation may be used to determine whether or not weakness is to the result of an excess of anticholinesterase medications. However, this test has been misleading and undoubtedly has contributed to an overestimation of the frequency and importance of the cholinergic crisis. Infection, or the natural course of the disease, has been far more common causes of acutely worsening weakness and respiratory failure."
+        },
+        {
+            "id": "InternalMed_Harrison_445",
+            "title": "InternalMed_Harrison",
+            "content": "Laboratory studies may include demonstration of serum antibody in some persons with drug allergies involving cellular blood elements, as in agranulocytosis, hemolytic anemia, and thrombocytopenia. For example, both quinine and quinidine can produce platelet agglutination in vitro in the presence of complement and the serum from a patient who has developed thrombocytopenia following use of this drug. Biochemical abnormalities such as G6PD deficiency, serum pseudocholinesterase level, or genotyping may also be useful in diagnosis, often after an adverse effect has occurred in the patient or a family member."
+        },
+        {
+            "id": "Pharmacology_Katzung_2881",
+            "title": "Pharmacology_Katzung",
+            "content": "B. Depolarizing Relaxant Drugs The extremely short duration of action of succinylcholine (5\u201310 minutes) is due to its rapid hydrolysis by butyrylcholinesterase and pseudocholinesterase in the liver and plasma, respectively. Plasma cholinesterase metabolism is the predominant pathway for succinylcholine elimination. The primary metabolite of succinylcholine, succinylmonocholine, is rapidly broken down to succinic acid and choline. Because plasma cholinesterase has an enormous capacity to hydrolyze succinylcholine, only a small percentage of the original intravenous dose ever reaches the neuromuscular junction. In addition, because there is little if any plasma cholinesterase at the motor end plate, a succinylcholine-induced blockade is terminated by its diffusion away from the end plate into extracellular fluid. Therefore, the circulating levels of plasma TABLE 27\u20131 Pharmacokinetic and dynamic properties of neuromuscular blocking drugs."
+        },
+        {
+            "id": "Neurology_Adams_11729",
+            "title": "Neurology_Adams",
+            "content": "Anticholinesterase drugs The two drugs that give the best results in ameliorating myasthenic weakness are neostigmine (Prostigmin) and pyridostigmine (Mestinon), the latter being preferred by most clinicians and patients. The usual dose of pyridostigmine is 30 to 90 mg given every 6 h (typically a 60-mg pill is tried first); the oral dose of neostigmine ranges from 7.5 to 45 mg given every 2 to 6 h. Extended-action forms of both drugs are available but are given at bedtime mainly to patients who complain of weakness during the night or early morning hours. The dosage of these drugs and their frequency of administration vary considerably from patient to patient, but we agree with Drachman (2003) that the maximal useful dosage of pyridostigmine rarely exceeds 120 mg given every 3 h. Table 46-1 lists the approximate dose-equivalents of these various drugs."
+        },
+        {
+            "id": "Pharmacology_Katzung_2882",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 27\u20131 Pharmacokinetic and dynamic properties of neuromuscular blocking drugs. 1Nonenzymatic and enzymatic hydrolysis of ester bonds. 2Butyrylcholinesterase (pseudocholinesterase). cholinesterase influence the duration of action of succinylcholine by determining the amount of the drug that reaches the motor end plate."
+        },
+        {
+            "id": "InternalMed_Harrison_5681",
+            "title": "InternalMed_Harrison",
+            "content": "B6, and methionine) and thus varies widely. Choline is widely distributed in food (e.g., egg yolks, wheat germ, organ meat, milk) in the form of lecithin (phosphatidylcholine). Choline deficiency has occurred in patients receiving parenteral nutrition devoid of choline. Deficiency results in fatty liver, elevated aminotransferase levels, and skeletal muscle damage with high creatine phosphokinase values. The diagnosis of choline deficiency is 96e-6 currently based on low plasma levels, although nonspecific conditions (e.g., heavy exercise) may also suppress plasma levels. Toxicity from choline results in hypotension, cholinergic sweating, diarrhea, salivation, and a fishy body odor. The upper limit for choline intake has been set at 3.5 g/d. Because of its ability to lower cholesterol and homocysteine levels, choline treatment has been suggested for patients with dementia and patients at high risk of cardiovascular disease. However, the benefits of such treatment have not been firmly"
+        },
+        {
+            "id": "Neurology_Adams_9820",
+            "title": "Neurology_Adams",
+            "content": "The immediate anticholinesterase effect manifests itself by headache, vomiting, sweating, abdominal cramps, salivation, wheezing (secondary to bronchial spasm), miosis, and muscular weakness and twitching. Most of these symptoms can be reversed by administration of atropine and pralidoxime. The delayed effect manifests 2 to 5 weeks following acute organophosphorus insecticide poisoning. This takes the form of a distal symmetrical sensorimotor (predominantly motor) polyneuropathy, progressing to muscle atrophy (see Chap. 43). Recovery occurs to a variable degree and then, in patients poisoned with TOCP, signs of corticospinal damage become detectable. The severity of paralysis and its permanence vary with the dosage of TOCP. Whether a polyneuropathy can arise without the preceding symptoms of cholinergic toxicity is debated; however, based on a review of the subject and a study of 11 patients exposed to these agents, 3 of whom later acquired sensory neuropathy, Moretto and Lotti"
+        },
+        {
+            "id": "Neurology_Adams_11713",
+            "title": "Neurology_Adams",
+            "content": "A negative test with an anticholinesterase agent does not entirely exclude myasthenia gravis but is a strong point against the diagnosis. In a small number of patients with periodic and purely ocular symptoms who later prove to have myasthenia gravis, the edrophonium and neostigmine tests (and electrophysiologic studies and AChR antibody measurements) may be entirely normal during the first or even after several acute episodes. Only later, for inexplicable reasons, do these tests become positive. Finally, the anticholinesterase-inhibiting drugs carry a small risk of inducing ventricular fibrillation and cardiac arrest so that testing should be carried out where emergency support is accessible."
+        },
+        {
+            "id": "Neurology_Adams_11709",
+            "title": "Neurology_Adams",
+            "content": "Neostigmine test Almost as valuable as electrophysiologic testing is testing with the cholinesterase inhibitors neostigmine and in the past, edrophonium a more rapidly acting agent. These drugs prolong and exaggerate the effects of ACh in the synapse and thereby produce an increment in muscle power in the patient with myasthenia. Edrophonium is variably available in the United States at the time of this writing but neostigmine affords a longer time for observation, as noted in the next paragraph. The tests are performed in the following manner. After the estimation of strength in a cranial (usually the levator palpebrae or an extraocular muscle) or limb muscle (by dynamometry), or vital capacity, neostigmine is injected intramuscularly in a dose of 1.5 mg. Atropine sulfate (0.8 mg) is generally given several minutes in advance to counteract the unpleasant muscarinic effects of neostigmine (salivation, sweating bronchorrhea, borborygmi, bowel cramps and, sometimes, diarrhea)."
+        },
+        {
+            "id": "Neurology_Adams_11757",
+            "title": "Neurology_Adams",
+            "content": "If the response to anticholinesterase drugs is poor and progressively larger doses are not relieving symptoms, there is consideration of a cholinergic crisis. In our own experience with more than 80 patients of severe myasthenia in an intensive care unit, we have been persuaded of the occurrence of a cholinergic crisis only rarely. This consists of a relatively rapid increase in muscular weakness, usually coupled with the adverse muscarinic effects of the anticholinesterase drug (nausea, vomiting, pallor, sweating, salivation, bronchorrhea, colic, diarrhea, miosis, bradycardia). An impending cholinergic effect is betrayed by constriction of pupils. If the blood pressure falls with bradycardia, 0.6 mg atropine sulfate may be given slowly by the intravenous route. Neostigmine or repetitive stimulation may be used to determine whether or not weakness is to the result of an excess of anticholinesterase medications. However, this test has been misleading and undoubtedly has contributed to"
+        },
+        {
+            "id": "Neurology_Adams_11739",
+            "title": "Neurology_Adams",
+            "content": "each (totaling approximately 125 mL/kg) performed over a week usually suffice. The removed plasma is replaced with albumin and saline. It has been estimated that a 2-L exchange will remove 80 percent of circulating antibodies and that this will be reflected in reduced ACh antibody levels in 3 to 5 days. There is only an approximate correlation between a reduction in the titer of anti-AChR antibody and the degree of clinical improvement. In a crisis requiring plasma exchanges and mechanical ventilation, it has been our practice to discontinue or curtail the use of anticholinesterase drugs and resume them as the patient is being weaned from the ventilator. Also, it may be that sensitivity to these drugs may be enhanced in the hours after an exchange so that their dosages must be adjusted accordingly."
+        },
+        {
+            "id": "Neurology_Adams_11783",
+            "title": "Neurology_Adams",
+            "content": "reduced in number. Being largely presynaptic defects, both of these disorders respond to acetylcholine esterase (AChE) inhibitors. In comparison, children with congenital myasthenia as a result of deficiency of AChE deteriorate markedly if given AChE inhibitors. Three disorders affecting postsynaptic structures (the fast-channel syndrome, AChR deficiency, and the myasthenic syndromes associated with deficiencies of rapsyn and plectin) also respond to AChE inhibition and 3,4-DAP, although both agents are hazardous in individuals with the slow-channel syndrome."
+        },
+        {
+            "id": "Pharmacology_Katzung_576",
+            "title": "Pharmacology_Katzung",
+            "content": "After release from the presynaptic terminal, acetylcholine molecules may bind to and activate an acetylcholine receptor (cholinoceptor). Eventually (and usually very rapidly), all of the acetylcholine released diffuses within range of an acetylcholinesterase (AChE) molecule. AChE very efficiently splits acetylcholine into choline and acetate, neither of which has significant transmitter effect, and thereby terminates the action of the transmitter (Figure 6\u20133). Most cholinergic synapses are richly supplied with acetylcholinesterase; the half-life of acetylcholine molecules in the synapse is therefore very short (a fraction of a second). Acetylcholinesterase is also found in other tissues, eg, red blood cells. (Other cholinesterases with a lower specificity for acetylcholine, including butyrylcholinesterase [pseudocholinesterase], are found in blood plasma, liver, glia, and many other tissues.)"
+        },
+        {
+            "id": "Pharmacology_Katzung_784",
+            "title": "Pharmacology_Katzung",
+            "content": "The use of biological scavengers has emerged as an adjunct to oximes in the reactivation of acetylcholinesterase inactivated by organophosphates. Human acetylcholinesterase, acting catalytically, increased the effectiveness of PAM in reactivating the enzyme. Butyrylcholinesterase can achieve the same effect, but it acts stoichiometrically, and thus large amounts of this bioscavenger are required. (Another use for butyrylcholinesterase is in the treatment of cocaine toxicity because butyrylcholinesterase displays cocaine hydrolase activity. The catalytic efficiency of human butyrylcholinesterase against cocaine has been increased by mutation of the enzyme such that it can prevent the effect of a lethal dose of cocaine in experimental animals.)"
+        },
+        {
+            "id": "Surgery_Schwartz_13269",
+            "title": "Surgery_Schwartz",
+            "content": "or acetylcholinesterase inhibitorVecuroniumNondepolarizer0.1 mg/kgPrimarily hepatic metabolismCan be reversed with suggamadex or acetylcholinesterase inhibitorCisatracuriumNondepolarizer0.1 mg/kgHoffman degradationCan be reversed with an acetylcholinesterase inhibitorRSI = rapid sequence inductionsituations.23 Succinylcholine has several adverse effects includ-ing transient hyperkalemia, which can be severe or even fatal for patients with burns and denervating injuries. Succinylcholine can cause bradycardia, which can be severe in children. It is also associated with transient increases in intracranial and intraocular pressure. The depolarization caused by succinylcholine causes skeletal muscles to fasciculate, which in turn, can result in post-operative myalgias. Succinylcholine is a known trigger of malig-nant hyperthermia in susceptible individuals. Succinylcholine is broken down by psuedocholinesterase; patients who are homo-zygous for pseudocholinestrase deficiency will have"
+        },
+        {
+            "id": "Neurology_Adams_9821",
+            "title": "Neurology_Adams",
+            "content": "of cholinergic toxicity is debated; however, based on a review of the subject and a study of 11 patients exposed to these agents, 3 of whom later acquired sensory neuropathy, Moretto and Lotti express the view that such an occurrence must be rare."
+        },
+        {
+            "id": "Neurology_Adams_11725",
+            "title": "Neurology_Adams",
+            "content": "6. Similarly, the oculopharyngeal-brachial and variants of Guillain-Barr\u00e9 syndrome (GBS) in the early stages have many of the features of myasthenia, including ptosis, that may be partially responsive to anticholinesterase drugs. The loss of tendon reflexes, acral paresthesias, and areflexia, or the development of ataxia in the limbs make the diagnosis of GBS at once apparent and detailed electrophysiologic testing distinguishes the two conditions. 7. Intoxication with organophosphate insecticides, because of their capacity to induce a cholinergic crisis, may be confused with a myasthenic crisis (see further on)."
+        },
+        {
+            "id": "InternalMed_Harrison_31323",
+            "title": "InternalMed_Harrison",
+            "content": "Anticholinesterase medication produces at least partial improvement in most myasthenic patients, although improvement is complete in only a few. Patients with anti-MuSK MG generally obtain less benefit from anticholinesterase agents than those with AChR antibodies. Pyridostigmine is the most widely used anticholinesterase drug. The beneficial action of oral pyridostigmine begins within 15\u201330 min and lasts for 3\u20134 h, but individual responses vary. Treatment is begun with a moderate dose, e.g., 30\u201360 mg three to four times daily. The frequency and amount of the dose should be tailored to the patient\u2019s individual requirements throughout the day. For example, patients with weakness in chewing and swallowing may benefit by taking the medication before meals so that peak strength coincides with mealtimes. Long-acting pyridostigmine may occasionally be useful to get the patient through the night but should not be used for daytime medication because of variable absorption. The maximum useful"
+        },
+        {
+            "id": "Neurology_Adams_9822",
+            "title": "Neurology_Adams",
+            "content": "In addition to the acute and delayed neurotoxic effects of organophosphorus, an intermediate syndrome has been described (Senanayake and Karalliedde). Symptoms appear 24 to 96 h after the acute cholinergic phase and consist of weakness or paralysis of proximal limb muscles, neck flexors, motor cranial nerves, and respiratory muscles. Respiratory paralysis may prove fatal. In patients who survive, the paralytic symptoms last for 2 to 3 weeks and then subside. The intermediate and delayed symptoms do not respond to atropine or other drugs."
+        },
+        {
+            "id": "Neurology_Adams_11499",
+            "title": "Neurology_Adams",
+            "content": "Myasthenia is discussed fully in Chap. 46. Here only a few remarks are made on its special relationship to thyrotoxicosis. Myasthenia gravis in its typical autoimmune, anticholinesterase-responsive form may accompany hyperthyroidism or rarely, hypothyroidism, which are also autoimmune in nature. Approximately 5 percent of patients with myasthenia have hyperthyroidism and the frequency of myasthenia gravis in patients, while low, is 20 to 30 times higher in hyperthyroidism than in the general population. Either condition may appear first, or they may coincide. The weakness and atrophy of chronic thyrotoxic myopathy may be added to that of the myasthenia without appearing to affect the requirement for or response to anticholinesterase medications. By contrast, hypothyroidism, even of mild degree, seems to aggravate the weakness of myasthenia gravis, greatly increasing the need for pyridostigmine and at times inducing a myasthenic crisis. In these cases, thyroxine is beneficial and, with"
+        },
+        {
+            "id": "InternalMed_Harrison_17161",
+            "title": "InternalMed_Harrison",
+            "content": "Oximes Oximes are nucleophiles that reactivate the cholinesterase whose active site has been occupied and bound to nerve agent (Table 262e-3). Therapy with oximes therefore restores normal enzyme function. Oxime therapy is limited by a second side reaction, called \u201caging,\u201d in which a side chain on nerve agents falls off the complex at a characteristic rate. \u201cAged\u201d complexes are negatively charged, and oximes cannot reactivate negatively charged complexes. The practical effect of this limitation differs from one nerve agent to another since each ages at a characteristic rate. For example, sarin ages in 3\u20135 h, tabun ages over a longer period (12\u201313 h), and VX ages much less rapidly (>48 h). All these intervals are so much longer than the patient\u2019s expected life span and expected treatment time after acute nerve-agent toxicity that they are irrelevant. Soman, in contrast, ages in 2 min; thus, only a few minutes after exposure, oximes are useless in treating soman poisoning. The oxime"
+        },
+        {
+            "id": "InternalMed_Harrison_17152",
+            "title": "InternalMed_Harrison",
+            "content": "Unless the cholinesterase is reactivated by specific therapy (oximes), its binding to the enzyme is essentially irreversible. Erythrocyte acetylcholinesterase activity recovers at ~1% per day. Plasma butyrylcholinesterase recovers more quickly and is a better guide to recovery of tissue enzyme activity. Acute nerve agent poisoning is treated by decontamination, respiratory support, and three antidotes: an anticholinergic, an oxime, and an anticonvulsant (Table 262e-3). In acute cases, all these forms of therapy may be given simultaneously."
+        },
+        {
+            "id": "Neurology_Adams_11788",
+            "title": "Neurology_Adams",
+            "content": "Other agents\u2014particularly the organophosphate insecticides and nerve gases\u2014cause paralysis by binding to cholinesterase and blocking the hydrolysis of ACh. The endplate remains depolarized and is refractory to neural stimuli. The most notable of these agents are (1) botulinum toxin, which binds to cholinergic motor endings, blocking quantal release of ACh; (2) black widow spider venom, which causes a massive release of ACh, resulting in muscular contraction and then paralysis from a lack of ACh; (3) d-tubocurarine, which binds to AChR; (4) suxamethonium and decamethonium, which also bind to AChR; (5) organophosphates, which bind irreversibly to AChE; and (6) malathion and parathion, which inhibit AChE. The actions of all these agents except for the organophosphate \u201cnerve gases\u201d are transitory."
+        },
+        {
+            "id": "Pharmacology_Katzung_1986",
+            "title": "Pharmacology_Katzung",
+            "content": "Increased biosynthesis of prostaglandins has been associated with one form of Bartter\u2019s syndrome. This is a rare disease characterized by low-to-normal blood pressure, decreased sensitivity to angiotensin, hyperreninemia, hyperaldosteronism, and excessive loss of K+. There also is an increased excretion of prostaglandins, especially PGE metabolites, in the urine. After long-term administration of COX inhibitors, sensitivity to angiotensin, plasma renin values, and the concentration of aldosterone in plasma return to normal. Although plasma K+ rises, it remains low, and urinary wasting of K+ persists. Whether an increase in prostaglandin biosynthesis is the cause of Bartter\u2019s syndrome or a reflection of a more basic physiologic defect is not yet known. A. Pulmonary Hypertension"
+        },
+        {
+            "id": "Pharmacology_Katzung_703",
+            "title": "Pharmacology_Katzung",
+            "content": "Long-term therapy for myasthenia gravis is usually accomplished with pyridostigmine; neostigmine is an alternative. The doses are titrated to optimum levels based on changes in muscle strength. These drugs are relatively short-acting and therefore require frequent dosing (every 6 hours for pyridostigmine and every 4 hours for neostigmine; Table 7\u20134). Sustained-release preparations are available but should be used only at night and if needed. Longer-acting cholinesterase inhibitors such as the organophosphate agents are not used, because the dose requirement in this disease changes too rapidly to permit smooth control of symptoms with long-acting drugs. If muscarinic effects of such therapy are prominent, they can be controlled by the administration of antimuscarinic drugs such as atropine. Frequently, tolerance to the muscarinic effects of the cholinesterase inhibitors develops, so atropine treatment is not required."
+        },
+        {
+            "id": "Obstentrics_Williams_8412",
+            "title": "Obstentrics_Williams",
+            "content": "Myasthenia is manageable but not curable. Oral pyridostigmine is the first-line treatment. Thymectomy is recommended but postponed until ater pregnancy (Sanders, 2016). Anticholinesterase medications improve symptoms by impeding acetylcholine degradation but seldom produce normal muscle function. Ironically, overdose is manifest by increased weness-cholinergic crisisthat may be diicult to diferentiate from myasthenic symptoms. Most of those refractory to anticholinesterase therapy respond to immunosuppressive therapy with glucocorticoids, azathioprine, or cyclosporine in pregnancy. When short-term, rapid clinical improvement is needed-such as for a surgical procedure or a myasthenic crisis-high-dose IVIG or plasma exchange is usually efective (Barth, 2011; Cortese, 2011; Sanders, 2016)."
+        },
+        {
+            "id": "InternalMed_Harrison_17145",
+            "title": "InternalMed_Harrison",
+            "content": "Mechanism Acetylcholinesterase inhibition accounts for the major life-threatening effects of nerve agent poisoning. The efficacy of antidotal therapy in the reversal of this inhibition proves that this is the primary toxic action of these poisons. At cholinergic synapses, acetylcholinesterase, bound to the postsynaptic membrane, functions as a turn-off switch to regulate cholinergic transmission. Inhibition of acetylcholinesterases causes the released neurotransmitter, acetylcholine, to accumulate abnormally. End-organ overstimulation, which is recognized by clinicians as a cholinergic crisis, ensues (Fig. 262e-4). Clinical Features Clinical effects of nerve agent exposure are identical for vapor and liquid exposure routes if the dose is sufficiently large. The speed and order of symptom onset will differ (Table 262e-2)."
+        },
+        {
+            "id": "Pharmacology_Katzung_690",
+            "title": "Pharmacology_Katzung",
+            "content": "The net cardiovascular effects of moderate doses of cholinesterase inhibitors therefore consist of modest bradycardia, a fall in cardiac output, and an increased vascular resistance that results in a rise in blood pressure. (Thus, in patients with Alzheimer\u2019s disease who have hypertension, treatment with cholinesterase inhibitors requires that blood pressure be monitored to adjust antihypertensive therapy.) At high (toxic) doses of cholinesterase inhibitors, marked bradycardia occurs, cardiac output decreases significantly, and hypotension supervenes."
+        },
+        {
+            "id": "Neurology_Adams_259",
+            "title": "Neurology_Adams",
+            "content": "The sensitivity of the procedure is improved by first exercising the tested muscle for 30 to 60 s; a form of post-tetanic potentiation. The full procedure consists of testing the muscle with a train of stimuli before and immediately after exercise (or maximal voluntary contraction) and at 30-s intervals for several minutes. The posttetanic potentiation at first partially compensates for the depletion of ACh during slow rates of stimulation; this is followed by an exaggerated decrease in the transmission through the neuromuscular junction during the approximately 2 to 4 min after exercise. The induced failure of neuromuscular transmission in myasthenia is similar to the one produced by curare and other nondepolarizing neuromuscular blocking agents, and the electrical features of both can be partially corrected with anticholinesterase drugs such as neostigmine and edrophonium. Similar but lesser decremental responses may occur in poliomyelitis, ALS, and certain other diseases of the"
+        }
+    ],
+    "scores": [
+        0.03435787401211133,
+        0.02922872119144688,
+        0.028941285251964863,
+        0.026869315890865105,
+        0.024995916958642644,
+        0.022591408427611086,
+        0.022523424213511674,
+        0.02207845753652631,
+        0.02127428933087354,
+        0.019666814094058675,
+        0.01905453225660103,
+        0.018528997003349198,
+        0.018137254901960782,
+        0.017662620603797072,
+        0.01644736842105263,
+        0.016339869281045753,
+        0.016102551149280123,
+        0.015476190476190477,
+        0.015223542727787209,
+        0.014984526847277267,
+        0.014692669520638444,
+        0.01428644318587683,
+        0.013945184327349933,
+        0.013889558717144923,
+        0.01352508132169149,
+        0.013282315169107623,
+        0.013154639175257731,
+        0.013042943275501415,
+        0.012924202397886608,
+        0.012175890270290094,
+        0.011926540951308753,
+        0.011874440696633855
+    ],
+    "execution_time": 43.01502180099487
+}

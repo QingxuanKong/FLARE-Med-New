@@ -1,0 +1,209 @@
+{
+    "id": "professional_medicine-027",
+    "question": "A 23-year-old woman comes to the physician for genetic counseling prior to conception. Her brother and maternal uncle had Duchenne muscular dystrophy (DMD) and died at the ages of 28 and 17 years, respectively. Genetic analysis was not performed on either relative prior to death. Serum studies show a muscle creatine kinase concentration of 120 U/L (N=22\u2013 198). The patient's 50-year-old mother has a serum muscle creatine kinase concentration of 300 U/L. Which of the following is the most appropriate assessment of this patient's carrier status for this disease?",
+    "options": {
+        "A": "The patient has a 50% risk of having a child with DMD",
+        "B": "The patient is a carrier of the disease based on her family history of DMD",
+        "C": "The patient is not a carrier of the DMD based on her normal creatine kinase concentration",
+        "D": "The patient's DMD carrier status is uncertain because of random X inactivation"
+    },
+    "answer": "D",
+    "predict": "Here is the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To determine the patient's carrier status for Duchenne muscular dystrophy (DMD), we need to analyze the family history and the patient's serum creatine kinase concentration. The patient's brother and maternal uncle had DMD, which is an X-linked recessive disorder. This means that the disease is caused by a mutation in the dystrophin gene on the X chromosome. Since the patient is a female, she has two X chromosomes. If she is a carrier of the disease, she would have one normal X chromosome with the normal dystrophin gene and one X chromosome with the mutated dystrophin gene. However, if she is not a carrier, she would have two normal X chromosomes with the normal dystrophin gene. The patient's serum creatine kinase concentration is 120 U/L, which is within the normal range (22-198 U/L). This suggests that the patient may not be a carrier of the disease. The patient's mother has a serum creatine kinase concentration of 300 U/L, which is elevated. However, this does not necessarily indicate that the mother is a carrier of the disease. The mother's elevated creatine kinase concentration could be due to other factors, such as muscle damage or other medical conditions. Given the patient's normal creatine kinase concentration and the fact that the mother's elevated concentration is not conclusive evidence of carrier status, we can conclude that the patient is not a carrier of the disease based on her serum creatine kinase concentration alone. However, we need to consider the family history of DMD in the patient's brother and maternal uncle. Since the patient's brother and maternal uncle had DMD, it is possible that the patient could be a carrier of the disease. However, the patient's normal creatine kinase concentration and the lack of other symptoms suggest that she is unlikely to be a carrier. Therefore, the most appropriate assessment of the patient's carrier status for DMD is that it is uncertain due to random X inactivation. This means that the patient may or may not be a carrier of the disease, and further testing would be needed to determine her carrier status. The final answer is: {\"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_31386",
+            "title": "InternalMed_Harrison",
+            "content": "Laboratory Features Serum CK levels are invariably elevated to between 20 and 100 times normal. The levels are abnormal at birth but decline late in the disease because of inactivity and loss of muscle mass. EMG demonstrates features typical of myopathy. The muscle biopsy shows muscle fibers of varying size as well as small groups of necrotic and regenerating fibers. Connective tissue and fat replace lost muscle fibers. A definitive diagnosis of Duchenne dystrophy can be established on the basis of dystrophin deficiency in a biopsy of muscle tissue or mutation analysis on peripheral blood leukocytes, as discussed below."
+        },
+        {
+            "id": "Pediatrics_Nelson_3857",
+            "title": "Pediatrics_Nelson",
+            "content": "With prompt treatment and respiratory and supportive care, the prognosis is good. Muscular dystrophies are a group of genetic muscle diseases characterized by progressive myofiber degeneration and the gradual replacement of muscle by fibrotic tissue. Duchenne muscular dystrophy is the most common muscular dystrophy and one of the most common genetic disorders of childhood. Duchenne muscular dystrophy is an X-linked disorder (Xp21) affecting approximately 1 in 3500 boys and resulting from a gene mutation of dystrophin. Becker muscular dystrophy is an allelic disorder associated with more mild symptoms; its mutations at least partially preserve the function of the resulting gene product. Available @ StudentConsult.com"
+        },
+        {
+            "id": "Neurology_Adams_11348",
+            "title": "Neurology_Adams",
+            "content": "Diagnosis of Duchenne and Becker dystrophies Analysis of the dystrophin gene in DNA obtained from white blood cells or from 50 mg of skeletal muscle can demonstrate the gene mutations in Duchenne and Becker patients and discriminate between these diseases. Also, immunostaining of muscle for dystrophin makes possible the differentiation of Duchenne, Becker, the carrier state, and other muscle disorders. An alternative method, developed by Byers and colleagues, uses an ELISA to measure the dystrophin levels in muscle biopsy samples. This testing is a rapid and relatively inexpensive tool for establishing the diagnosis of Duchenne and Becker muscular dystrophies and distinguishing them from unrelated disorders."
+        },
+        {
+            "id": "InternalMed_Harrison_31396",
+            "title": "InternalMed_Harrison",
+            "content": "Laboratory Features Serum CK levels, results of EMG, and muscle biopsy findings closely resemble those in Duchenne dystrophy. The diagnosis of Becker muscular dystrophy requires Western blot analysis of muscle biopsy samples, demonstrating a reduced amount or abnormal size of dystrophin or mutation analysis of DNA from peripheral blood leukocytes. Genetic testing reveals deletions or duplications of the dystrophin gene in 65% of patients with Becker dystrophy, approximately the same percentage as in Duchenne dystrophy. In both Becker and Duchenne dystrophies, the size of the DNA deletion does not predict clinical severity; however, in ~95% of patients with Becker dystrophy, the DNA deletion does not alter the translational reading frame of messenger RNA. These \u201cin-frame\u201d mutations allow for production of some dystrophin, which accounts for the presence of altered rather than absent dystrophin on Western blot analysis."
+        },
+        {
+            "id": "Pediatrics_Nelson_3864",
+            "title": "Pediatrics_Nelson",
+            "content": "Diagnosis is established by genetic testing. Other Forms of Childhood Muscle Disease Congenital muscular dystrophies (CMDs) refer to a group of genetically determined conditions that present in infancy or early childhood. The most common subtypes include merosin-deficient congenital muscular dystrophy, Ullrich congenital muscular dystrophy, and the dystroglycanopathies. The characteristic clinical features include hypotonia, extremity weakness, delayed motor development, and congenital contractures. Diagnosis is established through the combination of elevated serum CK and dystrophic changes detected on muscle biopsy. In most individuals, the disease course is slow or nonprogressive, although many children with CMD are wheelchair dependent and require some type of respiratory support. Contractures and scoliosis are often progressive and severely worsen; respiratory status diminishes with age."
+        },
+        {
+            "id": "Neurology_Adams_11335",
+            "title": "Neurology_Adams",
+            "content": "This milder dystrophy is closely related to the Duchenne type clinically, genetically, and ultrastructurally, involving the same DMD gene as in the Duchenne type. It had long been noted that mixed with the Duchenne group were relatively benign cases. In 1955, Becker and Keiner proposed that the latter be separated as a distinct entity, now called Becker muscular dystrophy. The incidence is difficult to ascertain, but it has been estimated as 3 to 6 per 100,000 male births. Like the Duchenne form, it is an X-linked disorder, practically limited to males and transmitted by females. It causes weakness and hypertrophy in the same muscles as Duchenne dystrophy, but the onset is much later (mean age: 12 years; range: 5 to 45 years). While boys with Duchenne dystrophy are usually dependent on a wheel-chair by early in the second decade, it is not uncommon for those with Becker dystrophy to walk well into adult life. In comparison to Duchenne dystrophy, those with Becker and intermediate"
+        },
+        {
+            "id": "InternalMed_Harrison_31381",
+            "title": "InternalMed_Harrison",
+            "content": "Muscular dystrophy refers to a group of hereditary progressive diseases each with unique phenotypic and genetic features (Tables 462e-5, 462e-6, and 462e-7). This X-linked recessive disorder, sometimes also called pseudohypertrophic muscular dystrophy, has an incidence of ~1 per 5200 live-born males. Clinical Features Duchenne dystrophy is present at birth, but the disorder usually becomes apparent between ages 3 and 5 years. The boys fall frequently and have difficulty keeping up with friends when Myotonica AD DM1: Expansion Childhood to adult; pos-Slowly progressive weakness of face, shoulder Cardiac conduction (DM1, DM2) CTG repeat sibly infancy if mother girdle, and foot dorsiflexion defects affected (DM1 only) DM2: Expansion FSHD1 AD DUX4 4q Childhood to adult Slowly progressive weakness of face, shoulder Deafness girdle, and foot dorsiflexion"
+        },
+        {
+            "id": "Neurology_Adams_11333",
+            "title": "Neurology_Adams",
+            "content": "Mild degrees of developmental delay as mentioned, which is nonprogressive, are observed in many cases. The average IQ is 85 and approximately one-quarter have an IQ below 70, but the range has been 40 to 130. As mentioned earlier, female carriers of the disease (i.e., the mothers of affected boys) and described slight weakness and enlargement of the calves as well as elevated CK values and abnormalities of the electromyelogram (EMG) and muscle biopsy, all slight in degree, in more than half; as mentioned, this is far higher than in our experience and that of our colleagues. A small number of female carriers manifest a moderate myopathy that may mimic limb-girdle dystrophy (see further on). The muscle fibers of such patients (referred to as manifesting or symptomatic carriers) show a mosaic immunostaining pattern mentioned earlier, some fibers containing dystrophin and others lacking it (Hoffman et al, 1988). This diagnostic information is particularly helpful in genetic counseling."
+        },
+        {
+            "id": "InternalMed_Harrison_31388",
+            "title": "InternalMed_Harrison",
+            "content": "A diagnosis of Duchenne dystrophy can also be made by Western blot analysis of muscle biopsy specimens, revealing abnormalities on the quantity and molecular weight of dystrophin protein. In addition, immunocytochemical staining of muscle with dystrophin antibodies can be used to demonstrate absence or deficiency of dystrophin localizing to the sarcolemmal membrane. Carriers of the disease may demonstrate a mosaic pattern, but dystrophin analysis of muscle biopsy specimens for carrier detection is not reliable."
+        },
+        {
+            "id": "Neurology_Adams_11415",
+            "title": "Neurology_Adams",
+            "content": "Early in the twentieth century there were scattered reports of congenital myopathy, but the status of this condition was difficult to evaluate. Some cases may have represented congenital myotonic dystrophy or one of the congenital myopathies described later. In 1957, Banker and associates described 2 patients (siblings), 1 dying 1.5 h after birth and the other dying at the age of 10 months of a congenital muscular dystrophy (CMD) with arthrogryposis. The pathologic changes consisted of muscle fiber degeneration, variation in fiber size, fibrosis, and fat cell replacement. The central and peripheral nervous systems were intact. The severity of the degenerative changes was such that a developmental disorder of muscle could be excluded. Pearson and Fowler, in 1963, reported a brother and sister with similar clinical and pathologic findings, and Walton and colleagues described yet another patient, 4 years of age. By 1967, Vassella and colleagues were able to collect 27 cases from the"
+        },
+        {
+            "id": "Neurology_Adams_11208",
+            "title": "Neurology_Adams",
+            "content": "The symptoms and signs of muscle disease are considered in this chapter mainly in connection with the age of the patient at the time of onset, their mode of evolution, and the presence or absence of familial occurrence. Because many muscle diseases are hereditary, a careful family history is important. The pattern of inheritance has diagnostic significance and, if genetic counseling or prenatal diagnosis is a consideration, a detailed genealogic tree becomes essential. When historical data are insufficient, it is often necessary to examine siblings and parents of the proband. The molecular genetics and other genetic aspects of the heritable muscle diseases, subjects of intense interest in recent years, are discussed at appropriate points in the chapter."
+        },
+        {
+            "id": "Neurology_Adams_11349",
+            "title": "Neurology_Adams",
+            "content": "Testing for the dystrophin protein has also brought to light several much rarer types of dystrophin abnormalities. One, described by Gospe and coworkers, takes the form of a familial X-linked myalgic-cramp-myoglobinuric syndrome, resulting from the deletion of the first third of the dystrophin gene. The muscle changes are mild and relatively nonprogressive. Another dystrophinopathy takes the form of an X-linked cardiomyopathy characterized by progressive heart failure in young persons without clinical evidence of skeletal muscle weakness; biopsy of skeletal muscle reveals reduced immunoreactivity to dystrophin (Jones and de la Monte). In yet another type, a glycerol-kinase deficiency is associated with varying degrees of adrenal hypoplasia, mental retardation, and myopathy."
+        },
+        {
+            "id": "Histology_Ross_1557",
+            "title": "Histology_Ross",
+            "content": "Several forms of muscular dystrophy are attributed to mutations of single genes encoding several proteins of the dystrophin\u2013glycoprotein complex. Duchenne muscular dystrophy (DMD) and Becker muscular dystrophy (BMD) are associated with mutations that affect dystrophin expression (Fig F11.2. 2); different forms of limb FIGURE F11.2.2 \u2022 Distribution of dystrophin in a patient girdle muscular dystrophy (LGMD) are caused by muta-with Duchenne muscular dystrophy (DMD). This crosstions in the genes found on the short arm of the X chromo-section of skeletal muscle was obtain from a patient diagnosed some encoding the four different sarcoglycans, and with DMD. Slide preparation similar to Fig F11.2.1. Compare another form of congenital muscular dystrophy (CMD) is the pattern and intensity of the dystrophin distribution within caused by a mutation in the gene encoding the 2 chain of affected muscle fibers to the normal individual. This muscle shows signs of hypertrophy. Some fibers do not have"
+        },
+        {
+            "id": "Pharmacology_Katzung_3849",
+            "title": "Pharmacology_Katzung",
+            "content": "A 42-year-old woman has heterozygous familial hyper-cholesterolemia (HeFH) but is otherwise well and has no symptoms of coronary or peripheral vascular disease. A carotid ultrasound was normal. Her mother had a myo-cardial infarction at age 51 and had no known risk factors other than her presumed HeFH. The patient also has ele-vated lipoprotein (a) at 2.5 times normal and low HDL-C (43 mg/dL). She developed muscle symptoms with each of 3 statins (atorvastatin, rosuvastatin, and simvastatin) so they were discontinued although she did not develop elevated levels of creatine kinase. Her untreated LDL-C is 235 mg/dL and triglycerides 125 mg/dL. Her LDL-C goal for primary prevention of arteriosclerotic vascular disease is in the 70-mg/dL range because of her multiple lipopro-tein risk factors and her mother\u2019s history of premature coronary artery disease. She has no other risk factors and her diet and exercise habits are excellent. How would you manage this patient?"
+        },
+        {
+            "id": "Neurology_Adams_11412",
+            "title": "Neurology_Adams",
+            "content": "A type of distal dystrophy characterized by autosomal recessive pattern of inheritance is particularly prevalent in Japan (Miyoshi et al), but numerous cases exist in all parts of the world. The Miyoshi myopathy is the one we have encountered most often among the distal muscular dystrophies. Onset of the disease is in early adult life, with weakness and atrophy of the leg muscles most prominent in the peroneal or the gastrocnemius and soleus muscles. Over many years the weakness extends to the thighs, gluteal muscles, and arm muscles, including the proximal ones. Serum CK concentrations are greatly increased in the early stages of the disease. In this type of dystrophy the mutation lin DYSF leads to an absence of the muscle protein dysferlin, a membrane protein that does not interact with any of the dystrophin-binding elements. Whereas dystrophin and its binding partners are believed to confer tensile strength, dysferlin and its associated proteins (e.g., the annexins) function in"
+        },
+        {
+            "id": "InternalMed_Harrison_18775",
+            "title": "InternalMed_Harrison",
+            "content": "extra-cardiac manifestations are the muscular dystrophies. Both Duchenne\u2019s and the milder Becker\u2019s dystrophy result from abnormalities in the X-linked dystrophin gene of the sarcolemmal membrane. Skeletal myopathy is present in multiple other genetic cardiomyopathies (Table 287-3), some of which are associated with creatine kinase elevations. Families with a history of atrial arrhythmias, conduction system disease, and cardiomyopathy may have abnormalities of the nuclear membrane lamin proteins. While all dilated cardiomyopathies carry a risk of sudden death, a family history of cardiomyopathy with sudden death raises suspicion for a particularly arrhythmogenic mutation; affected family members may be considered for implantable defibrillators even before meeting the reduced ejection fraction threshold for primary prevention of sudden death. A prominent family history of sudden death or ventricular tachycardia before clinical cardiomyopathy suggests genetic defects in the desmosomal"
+        },
+        {
+            "id": "Neurology_Adams_11336",
+            "title": "Neurology_Adams",
+            "content": "a wheel-chair by early in the second decade, it is not uncommon for those with Becker dystrophy to walk well into adult life. In comparison to Duchenne dystrophy, those with Becker and intermediate types retain their ability to raise the head fully off the bed. We have, for example, encountered patients who served in the military with the disease undetected. If maternal uncles are affected by the disease and are still walking, the diagnosis is relatively easy. Mentation is usually normal and cardiac involvement is far less frequent than in Duchenne dystrophy, but there are cases that present with a cardiomyopathy and we have been made aware of 2 brothers who had cardiac transplantation before the disease was detected. Kuhn and associates have reported a genealogy in which early myocardial disease and cramping myalgia were prominent features. The molecular-genetic basis of this form is discussed below."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1555",
+            "title": "Biochemistry_Lippinco",
+            "content": "1.2. A 4-year-old child who easily tires and has trouble walking is diagnosed with Duchenne muscular dystrophy, an X-linked recessive disorder. Genetic analysis shows that the patient\u2019s gene for the muscle protein dystrophin contains a mutation in its promoter region. Of the choices listed, which would be the most likely effect of this mutation? A. Initiation of dystrophin transcription will be defective. B. Termination of dystrophin transcription will be defective. C. Capping of dystrophin messenger RNA will be defective. D. Splicing of dystrophin messenger RNA will be defective. E. Tailing of dystrophin messenger RNA will be defective."
+        },
+        {
+            "id": "Pediatrics_Nelson_3860",
+            "title": "Pediatrics_Nelson",
+            "content": "Myotonic dystrophy (DM) is the second most common muscular dystrophy and the most common form to present in adulthood. An autosomal dominant genetic disease, DM is caused by progressive expansion of a triplet repeat, CTG, in the myotonic dystrophy protein kinase gene. Presentation is roughly correlated with the number of CTG repeats, and the disease is characterized by genetic anticipation, where each generation presents with earlier and more severe symptoms."
+        },
+        {
+            "id": "Pathology_Robbins_4959",
+            "title": "Pathology_Robbins",
+            "content": "muscle degeneration, high serum creatine kinase levels are present at birth and persist through the first decade of life but fall as muscle mass is lost as the disease progresses. Death results from respiratory insufficiency, pneumonia, and cardiac decompensation."
+        },
+        {
+            "id": "First_Aid_Step1_48",
+            "title": "First_Aid_Step1",
+            "content": "X-linked disorder typically due to frameshift deletions or nonsense mutations \u008e truncated or absent dystrophin protein \u2022 progressive myofiber damage. Weakness begins in pelvic girdle muscles and progresses superiorly. Pseudohypertrophy of calf muscles due to fibrofatty replacement of muscle A . Waddling gait. Onset before 5 years of age. Dilated cardiomyopathy is common cause of death. Gowers sign\u2014patient uses upper extremities to help stand up. Classically seen in Duchenne muscular dystrophy, but also seen in other muscular dystrophies and inflammatory myopathies (eg, polymyositis). Females with Turner syndrome (45,XO) are more likely to have an X-linked recessive disorder. Duchenne = deleted dystrophin."
+        },
+        {
+            "id": "Neurology_Adams_11653",
+            "title": "Neurology_Adams",
+            "content": "Perkoff GT, Hardy P, Velez-Garcia E: Reversible acute muscular syndrome in chronic alcoholism. N Engl J Med 274:1277, 1966. Perloff JK, Roberts WC, DeLeon AC, et al: The distinctive electrocardiogram of Duchenne\u2019s muscular dystrophy. Am J Med 42:179, 1967. Peter JB. Skeletal Muscle: Diversity and mutability of its histochemical, electron-microscopic, biochemical and physiologic properties. In Pearson CM, Mostofi FK (eds): The Striated Muscle. Baltimore, Williams & Wilkins, 1973, pp 1-18. Phillips PS, Haas RH, Banny KHS, et al: Statin-associated myopathy with normal creatine kinase levels. Ann Intern Med 137:581, 2002. Poppe M, Cree L, Bourke J, et al: The phenotype of limb-girdle muscular dystrophy type 2I. Neurology 60:1248, 2003. Pryse-Philips W, Johnson GJ, Larsen B: Incomplete manifestations of myotonic dystrophy in a large kinship in Labrador. Ann Neurol 11:582, 1982."
+        },
+        {
+            "id": "Neurology_Adams_11322",
+            "title": "Neurology_Adams",
+            "content": "This is the most frequent and prototypic early-onset muscular dystrophies. It begins in early childhood and runs a relatively rapid, progressive course. The incidence is in the range of 13 to 33 per 100,000 yearly or about 1 in 3,300 live male births. There is a strong familial liability as the disease is transmitted as an X-linked recessive trait, occurring almost exclusively in males, and involving the DMD gene and the protein dystrophin. Careful examination of the mothers of affected boys shows slight muscle involvement in as many as half of them, as pointed out by Roses and coworkers (a frequency higher than in our limited experience). Approximately 30 percent of patients have no family history of the disease and these represent spontaneous mutations."
+        },
+        {
+            "id": "InternalMed_Harrison_5010",
+            "title": "InternalMed_Harrison",
+            "content": "Some of the aforementioned features of the family history are illustrated in Fig. 84-1. In this example, the proband, a 36-year-old woman (IV-1), has a strong history of breast and ovarian cancer on the paternal side of her family. The early age of onset and the co-occurrence of breast and ovarian cancer in this family suggest the possibility of an inherited mutation in BRCA1 or BRCA2. It is unclear however, without genetic testing, whether her father harbors such a mutation and transmitted it to her. After appropriate genetic counseling of the pro-band and her family, the most informative and cost-effective approach to DNA analysis in this family is to test the cancer-affected 42-year-old living cousin for the presence of a BRCA1 or BRCA2 mutation. If a mutation is found, then it is possible to test for this particular alteration in other family members, if they so desire. In the example shown, if the proband\u2019s father has a BRCA1 mutation, there is a 50:50 probability that the"
+        },
+        {
+            "id": "Pharmacology_Katzung_5601",
+            "title": "Pharmacology_Katzung",
+            "content": "A 65-year-old man undergoes cystoscopy because of the presence of microscopic hematuria in order to rule out urologic malignancy. The patient has mild dysuria and pyuria and empirically receives oral therapy with cip-rofloxacin for presumed urinary tract infection prior to the procedure and tolerates the procedure well. Approxi-mately 48 hours after the procedure, the patient presents to the emergency department with confusion, dysuria and chills. Physical exam reveals a blood pressure of 90/50, pulse of 120, temperature of 38.5\u00b0 C and respira-tory rate of 24. The patient is disoriented but the physical exam is otherwise unremarkable. Laboratory test shows WBC 24,000/mm3 and elevated serum lactate; urinalysis shows 300 WBC per high power field and 4+ bacteria. What possible organisms are likely to be responsible for the patient\u2019s symptoms? At this point, what antibiotic(s) would you choose for initial therapy of this potentially life-threatening infection?"
+        },
+        {
+            "id": "Pediatrics_Nelson_3865",
+            "title": "Pediatrics_Nelson",
+            "content": "Emery-Dreifuss muscular dystrophy (EDMD), also known as humeroperoneal muscular dystrophy, can be inherited as an X-linked recessive, autosomal dominant, or autosomal recessive disorder. Symptoms typically begin in childhood, although adult onset has been noted. Patients may experience early contractures, slowly progressive humeroperoneal muscle weakness or wasting, and cardiac disease with conduction defects and arrhythmias. EDMD is associated with mild elevations of serum CK levels, abnormal electrocardiograms (ECG), characteristic changes on muscle imaging, and abnormal but nonspecific muscle biopsies. There are no disease-specific modifying therapies for EDMD, although early placement of defibrillators in patients with abnormal ECGs reduces the incidence of sudden death."
+        },
+        {
+            "id": "Neurology_Adams_11405",
+            "title": "Neurology_Adams",
+            "content": "In the congenital form of this disease the affected parent is always the mother with type 1 (DM1) myotonic dystrophy, in whom the disease need not be severe. Electrophysiologic testing will bring out the myotonia in the mother if it is inevident on percussion of muscle. (In cases of adult onset, transmission is maternal or paternal.) These data suggest that in addition to inheriting the myotonic dystrophy gene, the congenital cases also receive some maternally transmitted factor, possibly methylation of DNA that allows expansion of the trinucleotide repeat in oocytes. The prenatal diagnosis of myotonic dystrophy is readily accomplished by examination for CTG repeats in the amniotic fluid or in a biopsy of chorionic villi. However, it is not possible to predict whether a fetus with an expanded mutation will have congenital myotonic dystrophy or later-onset myotonic dystrophy. Proximal Myotonic Myopathy (DM2, PROMM,"
+        },
+        {
+            "id": "InternalMed_Harrison_29250",
+            "title": "InternalMed_Harrison",
+            "content": "Common, male predominance Prevalent in Ashkenazi Jews and Japanese Rare, X-linked Rare, most patients African American Rare Rare Rare Rare, autosomal recessive Rare Danon\u2019s disease Lysosomal-associated membrane protein 2 (LAMP2) Infantile: hypotonia, muscle weakness, cardiac enlargement and failure, fatal early late onset (juvenile and adult): progressive skeletal muscle weakness and atrophy, proximal muscle and respiratory muscle seriously affected Severe cardiomyopathy and early heart failure (9\u201355 years). Congenital fetal form is rapidly fatal with hypertrophic cardiomyopathy and Wolff-Parkinson-White syndrome. Severe cardiomyopathy and heart failure (8\u201315 years) Common, undetectable or very low level of enzyme activity in infantile form; variable residual enzyme activity in late-onset form Very rare, autosomal dominant Very rare, X-linked Abbreviations: CK, creatine kinase; CNS, central nervous system; M, muscle."
+        },
+        {
+            "id": "Pediatrics_Nelson_3871",
+            "title": "Pediatrics_Nelson",
+            "content": "Malignant hyperthermia is a life-threatening syndrome manifested by a rapid increase of body temperature, muscle rigidity, metabolic and respiratory acidosis, hypotension, arrhythmias, and convulsions. Acute episodes are precipitated by exposure to anesthetic agents in patients with a genetic predisposition. Patients with Duchenne muscular dystrophy, central core myopathy, and other myopathies are susceptible, although malignant hyperpyrexia can also occur in children without muscle disease as an autosomal dominant genetic disorder. A family history of unexplained death during anesthesia is often noted. Serum CK levels rise and myoglobinuria can result in tubular necrosis and acute renal failure. Diagnosis of idiopathic malignant hyperthermia is possible with genetic testing or an in vitro muscle contraction test that reveals excessive tonic contracture on exposure to halothane and caffeine. Treatment consists of IV dantrolene, sodium bicarbonate, and cooling."
+        },
+        {
+            "id": "InternalMed_Harrison_31409",
+            "title": "InternalMed_Harrison",
+            "content": "MRI shows hydrocephalus, cobblestone lissencephaly, corpus callosum and cerebellar hypoplasia, cerebral hypomyelination MRI shows cobblestone lissencephaly, hydrocephalus, encephalocele, absent corpus callosum aAll are inherited as recessive traits. bThere is phenotypic overlap between disorders related to defective glycosylation. In muscle, this is a consequence of altered glycosylation of dystroglycans; in brain/eye, other glycosylated proteins are involved. Clinically, Walker-Warburg syndrome is more severe, with death by 1 year. Abbreviations: CK, creatine kinase; EMG, electromyography; LGMD, limb-girdle muscular dystrophy; MR, mental retardation; MRI, magnetic resonance imaging; NCS, nerve conduction studies."
+        },
+        {
+            "id": "Obstentrics_Williams_1748",
+            "title": "Obstentrics_Williams",
+            "content": "Incest is defined as a sexual relationship between first-degree relatives such as parent-child or brother-sister and is universally illegal. Progeny of such unions carry the highest risk of abnormal outcomes, and older studies reported that up to 40 percent of ofspring were abnormal as a result of recessive and multifactorial disorders (Baird, 1982; Freire-Maia, 1984). Most X-linked diseases are recessive. Common examples include color blindness, hemophilia A and B, and Duchenne and Becker muscular dystrophy. Males with an X-linked recessive gene are usually afected by the disease it causes, because they lack a second X chromosome to express the normal dominant gene. A male with an X-linked disease cannot have afected sons because they cannot receive his X chromosome. When a woman carries a gene causing an X-linked recessive condition, each of her sons has a 50-percent risk of being afected, and each daughter has a 50-percent chance of being a carrier."
+        },
+        {
+            "id": "InternalMed_Harrison_31376",
+            "title": "InternalMed_Harrison",
+            "content": "DNA Analysis This serves as an important tool for the definitive diagnosis of many muscle disorders. Nevertheless, there are a number of limitations in currently available molecular diagnostics. For example, in Duchenne and Becker dystrophies, two-thirds of patients have deletion or duplication mutations in the dystrophin gene that are easy to detect, while the remainder have point mutations that are much more difficult to find. For patients without identifiable gene defects, the muscle biopsy remains the main diagnostic tool. Cholesterol-lowering agents (statin medications, fibrates) Cyclosporine Chloroquine Glycogen storage disordersa (Pompe\u2019s disease, branching enzyme deficiency, debranching enzyme deficiency) Myofibrillar myopathies (MFM)a aAssociated with myotonic discharges on electromyography but no clinical myotonia."
+        }
+    ],
+    "scores": [
+        0.0275801178248666,
+        0.02665340432422803,
+        0.025882391048724022,
+        0.024872558755379012,
+        0.024625194454416466,
+        0.024588702461931414,
+        0.023156692735649888,
+        0.022127749279741406,
+        0.02176718851203904,
+        0.021280609073565583,
+        0.02062925434702352,
+        0.020588517665130566,
+        0.02033630231386192,
+        0.019704911667637354,
+        0.01920239574195751,
+        0.018812930577636458,
+        0.018783068783068783,
+        0.01869812145041503,
+        0.01837336704593342,
+        0.018341694219587278,
+        0.0179412102790779,
+        0.017648888197791944,
+        0.01709901351845086,
+        0.017078071182548796,
+        0.017009009009009007,
+        0.016237901171676006,
+        0.016194331983805668,
+        0.01598746081504702,
+        0.01597082494969819,
+        0.015873015873015872,
+        0.015838509316770187,
+        0.015537488708220417
+    ],
+    "execution_time": 65.27600336074829
+}

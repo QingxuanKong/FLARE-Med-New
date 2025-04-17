@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-130",
+    "question": "In an SDS-PAGE procedure, the SDS serves as a detergent. Why are the proteins treated with a detergent before being run through the electrophoresis gel?",
+    "options": {
+        "A": "To coat the proteins with a large positive charge, since amino acid side chains may have positive, negative, or neutral charges, and a large uniform charge is necessary to get good separation in the gel.",
+        "B": "To allow the electrophoresis to separate the proteins solely on the basis of the length of the primary sequence.",
+        "C": "To prevent the protein from denaturing so that the electrophoresis can accurately resolve the proteins on the basis of tertiary structure.",
+        "D": "To break the intramolecular bonds holding the tertiary and primary structure of the protein together, thereby generating linear fragments that may be sorted on size."
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To solve this question, we need to understand the role of SDS in SDS-PAGE. SDS is a detergent that is used to solubilize proteins and separate them based on their size. The correct answer can be inferred by analyzing the purpose of using SDS in SDS-PAGE. The key points to consider are: (1) SDS is used to solubilize proteins, (2) SDS is used to separate proteins based on size, and (3) SDS breaks the intramolecular bonds holding the protein together, generating linear fragments that can be sorted on size. The correct answer can be deduced by analyzing these points and eliminating the incorrect options. Option A is incorrect because SDS does not coat the proteins with a large positive charge. Option B is incorrect because SDS is used to separate proteins based on size, not solely on the length of the primary sequence. Option C is incorrect because SDS is used to break the intramolecular bonds, not to preserve the tertiary structure. Option D is correct because SDS breaks the intramolecular bonds, generating linear fragments that can be sorted on size. Therefore, the correct answer is D.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_2174",
+            "title": "Cell_Biology_Alberts",
+            "content": "SDS-PAGE is widely used because it can separate all types of proteins, including those that are normally insoluble in water\u2014such as the many proteins in membranes. And because the method separates polypeptides by size, it provides information about the molecular weight and the subunit composition of proteins. Figure 8\u201314 presents a photograph of a gel that has been used to analyze each of the successive stages in the purification of a protein. Because different proteins can have similar sizes, shapes, masses, and overall charges, most separation techniques such as SDS polyacrylamide-gel electrophoresis or ion-exchange chromatography cannot typically separate all the proteins Figure 8\u201312 The detergent sodium dodecyl sulfate (SDS) and the reducing agent \u03b2-mercaptoethanol. These two chemicals are used to solubilize proteins for SDS polyacrylamide-gel electrophoresis. The SDS is shown here in its ionized form."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2170",
+            "title": "Cell_Biology_Alberts",
+            "content": "Proteins usually possess a net positive or negative charge, depending on the mixture of charged amino acids they contain. An electric field applied to a solution containing a protein molecule causes the protein to migrate at a rate that depends on its net charge and on its size and shape. The most popular application of this property is SDS polyacrylamide-gel electrophoresis (SDS-PAGE). It uses a highly cross-linked gel of polyacrylamide as the inert matrix through which the proteins migrate. The gel is prepared by polymerization of monomers; the pore size of the gel can be adjusted so that it is small enough to retard the migration of the protein molecules of interest. The proteins are dissolved in a solution that includes a powerful negatively charged detergent, sodium dodecyl sulfate, or SDS (Figure 8\u201312). Because this detergent binds to hydrophobic regions of the protein molecules, causing them to unfold into extended polypeptide chains, the individual protein molecules are"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2869",
+            "title": "Cell_Biology_Alberts",
+            "content": "Strong ionic detergents, such as SDS, can solubilize even the most hydrophobic membrane proteins. This allows the proteins to be analyzed by SDS polyacrylamide-gel electrophoresis (discussed in Chapter 8), a procedure that has revolutionized the study of proteins. Such strong detergents, however, unfold (denature) proteins by binding to their internal \u201chydrophobic cores,\u201d thereby rendering the proteins inactive and unusable for functional studies. Nonetheless, proteins can be readily separated and purified in their SDS-denatured form. In some cases, removal of the SDS allows the purified protein to renature, with recovery of functional activity."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2172",
+            "title": "Cell_Biology_Alberts",
+            "content": "What happens when a mixture of SDS-solubilized proteins is run through a slab of polyacrylamide gel? Each protein molecule binds large numbers of the negatively charged detergent molecules, which mask the protein\u2019s intrinsic charge and cause it to migrate toward the positive electrode when a voltage is applied. Proteins of the same size tend to move through the gel with similar speeds because (1) their native structure is completely unfolded by the SDS, so that their shapes are the same, and (2) they bind the same amount of SDS and therefore have the same amount of negative charge. Larger proteins, with more charge, are subjected to larger electrical forces but also to a larger drag. In free solution, the two effects would cancel out, but, in the mesh of the polyacrylamide gel, which acts as a molecular sieve, large proteins are retarded much more than small ones. As a result, a complex mixture of proteins is fractionated into a series of discrete protein bands arranged in order of"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2176",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201313 SDS polyacrylamide-gel electrophoresis (SDS-PAGe). (A) An electrophoresis apparatus. (B) Individual polypeptide chains form a complex with negatively charged molecules of sodium dodecyl sulfate (SDS) and therefore migrate as a negatively charged SDS\u2013protein complex through a porous gel of polyacrylamide. Because the speed of migration under these conditions is greater the smaller the polypeptide, this technique can be used to determine the approximate molecular weight of a polypeptide chain as A well as the subunit composition of a protein. If the protein contains a large amount of carbohydrate, however, it will move anomalously on the gel and its apparent molecular weight estimated by SDS-PAGE will be misleading. Other modifications, such as phosphorylation, can also cause small changes in a protein\u2019s migration in the gel. slab of polyacrylamide gel in a cell or even in an organelle. In contrast, two-dimensional gel electrophoresis, which combines two different separation"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2182",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the second step, the narrow tube gel containing the separated proteins is again subjected to electrophoresis but in a direction that is at a right angle to the direction used in the first step. This time SDS is added, and the proteins separate according to their size, as in one-dimensional SDS-PAGE: the original tube gel is soaked in SDS and then placed along the top edge of an SDS polyacrylamide-gel slab, through which each polypeptide chain migrates to form a discrete spot. This is the second dimension of two-dimensional polyacrylamide-gel electrophoresis. The only proteins left unresolved are those that have both identical sizes and identical isoelectric points, a relatively rare situation. Even trace amounts of each polypeptide chain can be detected on the gel by various staining procedures\u2014or by autoradiography if the protein sample was initially labeled with a radioisotope (Figure 8\u201316). The technique has such great resolving power that it can distinguish between two proteins"
+        },
+        {
+            "id": "Immunology_Janeway_4374",
+            "title": "Immunology_Janeway",
+            "content": "a charge that allows the electrophoretic field to drive protein migration through the gel. The rate of migration is controlled mainly by protein size (see Fig. A.13). Proteins of differing charges can be separated using isoelectric focusing (see Section A-7). This technique can be combined with SDS-PAGE in a procedure known as twodimensional gel electrophoresis. For this, the immunoprecipitated protein is eluted in urea, a nonionic solubilizing agent, and run on an isoelectric focusing gel in a narrow tube of polyacrylamide. This first-dimensional isoelectric focusing gel is then placed across the top of an SDS-PAGE slab gel, which is then run vertically to separate the proteins by molecular weight (Fig. A.14). Two-dimensional gel electrophoresis is a powerful technique that allows many hundreds of proteins in a complex mixture to be distinguished from one another."
+        },
+        {
+            "id": "Cell_Biology_Alberts_7037",
+            "title": "Cell_Biology_Alberts",
+            "content": "sodium dodecyl sulfate polyacrylamide-gel electrophoresis (SDS-PAGE) Type of electrophoresis used to separate proteins by size. The protein mixture to be separated is first treated with a powerful negatively charged detergent (SDS) and with a reducing agent (\u03b2-mercaptoethanol), before being run through a polyacrylamide gel. The detergent and reducing agent unfold the proteins, free them from association with other molecules, and separate the polypeptide subunits. somatic cell Any cell of a plant or animal other than cells of the germ line. From Greek soma, body. somatic hypermutation In immunology: accumulation of point mutations in the assembled variable-region-coding sequences of immunoglobulin genes that occurs when B cells are activated to form memory cells. Results in the production of antibodies with altered antigen-binding sites, some of which bind antigen with increased affinity; it is responsible for affinity maturation in antibody responses."
+        },
+        {
+            "id": "Immunology_Janeway_4378",
+            "title": "Immunology_Janeway",
+            "content": "Like immunoprecipitation (see Section A-13), immunoblotting is used for identifying the presence of a given protein in a cell lysate, but it avoids the problem of having to label large quantities of cells with radioisotopes. Unlabeled cells are placed in detergent to solubilize all cell proteins, and the lysate is run on SDS-PAGE to separate the proteins (see Section A-13). The size-separated proteins are then transferred from the gel to a stable support such as a nitrocellulose membrane. Specific proteins are detected by treatment with antibodies able to react with SDS-solubilized proteins (mainly those that react with denatured sequences); the bound antibodies are revealed by anti-immunoglobulin antibodies labeled with an enzyme. The term Western blotting as a synonym for immunoblotting arose because the comparable technique for detecting specific DNA sequences is known as Southern blotting, after Edwin Southern, who devised it, which in turn provoked the name \u2018Northern\u2019 for blots"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2171",
+            "title": "Cell_Biology_Alberts",
+            "content": "or SDS (Figure 8\u201312). Because this detergent binds to hydrophobic regions of the protein molecules, causing them to unfold into extended polypeptide chains, the individual protein molecules are released from their associations with other proteins or lipid molecules and rendered freely soluble in the detergent solution. In addition, a reducing agent such as \u03b2-mercaptoethanol (see Figure 8\u201312) is usually added to break any S\u2013S linkages in the proteins, so that all of the constituent polypeptides in multisubunit proteins can be analyzed separately."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2867",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 10\u201326 The structure and function of detergents. (A) three commonly used detergents are sodium dodecyl sulfate (SDS), an anionic detergent, and triton X-100 and \u03b2-octylglucoside, two nonionic detergents. triton X-100 is a mixture of compounds in which the region in brackets is repeated between 9 and 10 times. the hydrophobic portion of each detergent is shown in yellow, and the hydrophilic portion is shown in orange. (B) At low concentration, detergent molecules are monomeric in solution. As their concentration is increased beyond the critical micelle concentration (cMc), some of the detergent molecules form micelles. note that the concentration of detergent monomer stays constant above the cMc. (c) Because they have both polar and nonpolar ends, detergent molecules are amphiphilic; and because they are cone-shaped, they form micelles rather than bilayers (see Figure 10\u20137). Detergent micelles are thought to have irregular shapes, and, due to packing constraints, the hydrophobic"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2178",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the first step, the proteins are separated by their intrinsic charges. The sample is dissolved in a small volume of a solution containing a nonionic (uncharged) detergent, together with \u03b2-mercaptoethanol and the denaturing reagent urea. This solution solubilizes, denatures, and dissociates all the polypeptide chains but leaves their intrinsic charge unchanged. The polypeptide chains are then separated in a pH gradient by a procedure called isoelectric focusing, which takes advantage of the variation in the net charge on a protein molecule with the pH of its surrounding solution. Every protein has a characteristic isoelectric point, the pH at which the protein has no net charge and therefore does not migrate in an electric field. In isoelectric focusing, proteins are separated electrophoretically in a narrow tube of polyacrylamide gel in which a gradient of pH is established by a mixture of special buffers. Each protein moves to a position in the gradient that"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2864",
+            "title": "Cell_Biology_Alberts",
+            "content": "In general, only agents that disrupt hydrophobic associations and destroy the lipid bilayer can solubilize membrane proteins. The most useful of these for the membrane biochemist are detergents, which are small amphiphilic molecules of variable structure (Movie 10.4). Detergents are much more soluble in water than lipids. Their polar (hydrophilic) ends can be either charged (ionic), as in sodium dodecyl sulfate (SDS), or uncharged (nonionic), as in octylglucoside and Triton (Figure 10\u201326A). At low concentration, detergents are monomeric in solution, but when their concentration is increased above a threshold, called the critical micelle concentration (CMC), they aggregate to form micelles (Figure 10\u201326B\u2013D). Above the CMC, detergent molecules rapidly diffuse in and out of micelles, keeping the concentration of monomer in the solution constant, no matter how many micelles are present. Both the CMC and the average number of detergent molecules in a micelle are characteristic properties"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2184",
+            "title": "Cell_Biology_Alberts",
+            "content": "Specific Proteins Can Be Detected by Blotting with Antibodies A specific protein can be identified after its fractionation on a polyacrylamide gel by exposing all the proteins present on the gel to a specific antibody that has been labeled with a radioactive isotope or a fluorescent dye. This procedure is normally carried out after transferring all of the separated proteins present in the 100 50 25SDS migration (mol. mass in kilodaltons) Figure 8\u201316 Two-dimensional polyacrylamide-gel electrophoresis."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2581",
+            "title": "Cell_Biology_Alberts",
+            "content": "8\u201310 How many copies of a protein need to be present in a cell in order for it to be visible as a band on an SDS gel? Assume that you can load 100 \u03bcg of cell extract onto a gel and that you can detect 10 ng in a single band by silver staining the gel. The concentration of protein in cells is about 200 mg/mL, and a typical mammalian cell has a volume of about 1000 \u03bcm3 and a typical bacterium a volume of about 1 \u03bcm3. Given these parameters, calculate the number of copies of a 120-kd protein that would need to be present in a mammalian cell and in a bacterium in order to give a detectable band on a gel. You might try an order-of-magnitude guess before you make the calculations."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2177",
+            "title": "Cell_Biology_Alberts",
+            "content": "changes in a protein\u2019s migration in the gel. slab of polyacrylamide gel in a cell or even in an organelle. In contrast, two-dimensional gel electrophoresis, which combines two different separation procedures, can resolve up to 2000 proteins in the form of a two-dimensional protein map."
+        },
+        {
+            "id": "Immunology_Janeway_4381",
+            "title": "Immunology_Janeway",
+            "content": "A mass spectrometer can provide extremely precise measurements of the masses of constituents in a preparation of molecules. To identify unknown proteins in a sample, such as that acquired by co-immunoprecipitation, the sample often is first subjected to one-dimensional SDS-PAGE or two-dimensional gel electrophoresis (see Section A-13) to separate the proteins in the complex for individual analysis. Gel slices are excised and treated with a proteolytic enzyme, such as trypsin, to digest the protein into a series of peptides that can be easily eluted from the gel. The peptide mixture is then introduced into the mass spectrometer, which ionizes the peptides, transfers them to the gas phase, and then separates them under high vacuum by subjecting them to a magnetic field. The separation is based on the mass/charge (m/z)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2865",
+            "title": "Cell_Biology_Alberts",
+            "content": "the concentration of monomer in the solution constant, no matter how many micelles are present. Both the CMC and the average number of detergent molecules in a micelle are characteristic properties of each detergent, but they also depend on the temperature, pH, and salt concentration. Detergent solutions are therefore complex systems and are difficult to study."
+        },
+        {
+            "id": "Immunology_Janeway_4371",
+            "title": "Immunology_Janeway",
+            "content": "Once the labeled proteins have been isolated by the antibody, they can be characterized in several ways. The most common is polyacrylamide gel electrophoresis (PAGE) of the proteins after they have been dissociated from antibody in the strong ionic detergent sodium dodecyl sulfate (SDS), a technique"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2245",
+            "title": "Cell_Biology_Alberts",
+            "content": "The same types of gel-electrophoresis methods that have proved so useful in the analysis of proteins (see Figure 8\u201313) can be applied to DNA molecules. The procedure is actually simpler than for proteins: because each nucleotide in a nucleic acid molecule already carries a single negative charge (on the phosphate group), there is no need to add the negatively charged detergent SDS that is required to make protein molecules move uniformly toward the positive electrode. Larger DNA fragments will migrate more slowly because their progress is impeded to a greater extent by the gel matrix. Over several hours, the DNA fragments become spread out across the gel according to size, forming a ladder of discrete bands, each composed of a collection of DNA molecules of identical length (Figure 8\u201325A and B). To separate DNA molecules longer than 500 nucleotide pairs, the gel is made of a diluted solution of agarose (a polysaccharide isolated from seaweed). For DNA fragments less than 500"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2179",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 8\u201314 Analysis of protein samples by SDS polyacrylamide-gel electrophoresis. The photograph shows a Coomassie-stained gel that has been used to detect the proteins present at successive stages in the purification of an enzyme. The leftmost lane (lane 1) contains the complex mixture of proteins in the starting cell extract, and each succeeding lane analyzes the proteins obtained after a chromatographic fractionation of the protein sample analyzed in the previous lane (see Figure 8\u201310). The same total amount of protein (10 \u03bcg) was loaded onto the gel at the top of each lane. Individual proteins normally appear as sharp, dye-stained bands; a band broadens, however, when it contains a large amount of protein. (From T. Formosa and B.M. Alberts, J. Biol. Chem. 261:6107\u20136118, 1986.) mass(daltons)100,00040,00015,000 Figure 8\u201315 Separation of protein molecules by isoelectric focusing. at low pH,"
+        },
+        {
+            "id": "Immunology_Janeway_4373",
+            "title": "Immunology_Janeway",
+            "content": "or by a reaction with the small molecule biotin, detected protein bands observed with metabolic labeling are usually more by its reaction with labeled avidin (not shown). Cells are lysed with complex than those revealed by radioiodination, owing to the detergent and individual labeled cell-associated proteins can be presence of precursor forms of the protein (right panel). The mature precipitated with a monoclonal antibody attached to beads. After form of a surface protein can be identified as being the same size as unbound proteins have been washed away, the bound protein that detected by surface iodination or biotinylation (not shown). is eluted in the detergent sodium dodecyl sulfate (SDS), which generally abbreviated as SDSPAGE. SDS binds relatively homogeneously to proteins, conferring a charge that allows the electrophoretic field to drive protein migration through the gel. The rate of migration is controlled mainly by protein size (see Fig. A.13). Proteins of differing charges"
+        },
+        {
+            "id": "Immunology_Janeway_4382",
+            "title": "Immunology_Janeway",
+            "content": "Fig. A.15 Western blotting is used to identify antibodies against the human immunodeficiency virus (HIV) in serum from infected individuals. The virus is dissociated into its constituent proteins by treatment with the detergent SDS, and its proteins are separated using SDS-PAGE. The separated proteins are transferred to a nitrocellulose sheet and reacted with the test serum. Anti-HIV antibodies in the serum bind to the various HIV proteins and are detected with enzyme-linked anti-human immunoglobulin, which deposits colored material from a colorless substrate. This general methodology will detect any combination of antibody and antigen and is used widely, although the denaturing effect of SDS means that the technique works most reliably with antibodies that recognize the antigen when it is denatured."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2185",
+            "title": "Cell_Biology_Alberts",
+            "content": "All the proteins in an E. coli bacterial cell are separated in this gel, in which each spot corresponds to a different polypeptide chain. The proteins were first separated on the basis of their isoelectric points by isoelectric focusing in the horizontal dimension. They were then further fractionated according to their molecular mass by electrophoresis from top to bottom in the presence of SDS. Note that different proteins are present in very different amounts. The bacteria were fed with a mixture of radioisotope-labeled amino acids so that all of their proteins were radioactive and could be detected by autoradiography. (Courtesy of Patrick O\u2019Farrell.) gel onto a sheet of nitrocellulose paper or nylon membrane. Placing the membrane over the gel and driving the proteins out of the gel with a strong electric current transfers the protein onto the membrane. The membrane is then soaked in a solution of labeled antibody to reveal the protein of interest. This method of detecting proteins"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2173",
+            "title": "Cell_Biology_Alberts",
+            "content": "as a molecular sieve, large proteins are retarded much more than small ones. As a result, a complex mixture of proteins is fractionated into a series of discrete protein bands arranged in order of molecular weight (Figure 8\u201313). The major proteins are readily detected by staining the proteins in the gel with a dye such as Coomassie blue. Even minor proteins are seen in gels treated with a silver stain, so that as little as 10 ng of protein can be detected in a band. For some purposes, specific proteins can also be labeled with a radioactive isotope tag; exposure of the gel to film results in an autoradiograph on which the labeled proteins are visible (see Figure 8\u201316)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2341",
+            "title": "Cell_Biology_Alberts",
+            "content": "direction of electrophoresis Figure 8\u201342 Production of large amounts of a protein by using a plasmid expression vector. In this example, an expression vector that overproduces a DNA helicase has been introduced into bacteria. In this expression vector, transcription from this coding sequence is under the control of a viral promoter that becomes active only at a temperature of 37\u00b0C or higher. The total cell protein, either from bacteria grown at 25\u00b0C (no helicase protein made) or after a shift of the same bacteria to 42\u00b0C for up to 2 hours (helicase protein has become the most abundant protein species in the lysate), has been analyzed by SDS polyacrylamide-gel electrophoresis. (Courtesy of Jack Barry.) sequence of a peptide fragment E. coli or otherPROTEIN host cell to produce protein DNA primers for PCR insert protein-coding region of gene into expression vector (from cDNA clone)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2186",
+            "title": "Cell_Biology_Alberts",
+            "content": "a strong electric current transfers the protein onto the membrane. The membrane is then soaked in a solution of labeled antibody to reveal the protein of interest. This method of detecting proteins is called Western blotting, or immunoblotting (Figure 8\u201317). Sensitive Western-blotting methods can detect very small amounts of a specific protein (1 nanogram or less) in a total cell extract or some other heterogeneous protein mixture. The method can be very useful when assessing the amounts of a specific protein in the cell or when measuring changes in those amounts under various conditions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2582",
+            "title": "Cell_Biology_Alberts",
+            "content": "8\u201311 You have isolated the proteins from two adjacent spots after two-dimensional polyacrylamide-gel electrophoresis and digested them with trypsin. When the masses of the peptides were measured by MALDI-TOF mass spectrometry, the peptides from the two proteins were found to be identical except for one (Figure Q8\u20132). For this peptide, the mass-to-charge (m/z) values differed by 80, a value that does not correspond to a difference in amino acid sequence. (For example, glutamic acid instead of valine at one position would give an m/z difference of around 30.) Can you suggest a possible difference between the two peptides that might account for the observed m/z difference? Masses of peptides measured by MALDI-TOF mass spectrometry (Problem 8\u201311). Only the numbered peaks differ between the two protein samples."
+        },
+        {
+            "id": "Immunology_Janeway_4372",
+            "title": "Immunology_Janeway",
+            "content": "Fig. A.13 Cellular proteins reacting with an antibody can be dissociates it from the antibody and also coats the protein with a characterized by immunoprecipitation of labeled cell lysates. strong negative charge, allowing it to migrate according to its size All actively synthesized cellular proteins can be labeled metabolically in polyacrylamide gel electrophoresis (PAGE). The positions of the by incubating cells with radioactive amino acids (shown here for labeled proteins are determined by autoradiography using X-ray methionine; 35S-Met), or one can label just the cell-surface proteins film. This technique of SDS-PAGE can be used to determine the by using radioactive iodine in a form that cannot cross the cell molecular weight and subunit composition of a protein. Patterns of membrane or by a reaction with the small molecule biotin, detected protein bands observed with metabolic labeling are usually more by its reaction with labeled avidin (not shown). Cells are lysed with complex"
+        },
+        {
+            "id": "Surgery_Schwartz_3382",
+            "title": "Surgery_Schwartz",
+            "content": "or tissues, respectively.Immunoblotting refers to the process of identifying a pro-tein from a mixture of proteins (Fig. 15-18). It consists of five steps: (a) sample preparation; (b) electrophoresis (separation of a protein mixture by sodium dodecyl sulfate-polyacrylamide gel electrophoresis); (c) transfer (the electrophoretic transfer of proteins from gel onto membrane support [e.g., nitrocel-lulose, nylon, or polyvinylidene difluoride]); (d) staining (the subsequent immunodetection of target proteins with specific antibody); and (e) development (colorimetric, chemilumines-cent, and recently fluorescent visualization of the antibody-recognized protein). Thus, immunoblotting combines the resolution of gel electrophoresis with the specificity of immu-nochemical detection. Immunoblotting is a powerful tool used to determine a number of important characteristics of proteins. For example, immunoblotting analysis will determine the pres-ence and the quantity of a protein in a given"
+        },
+        {
+            "id": "Immunology_Janeway_4376",
+            "title": "Immunology_Janeway",
+            "content": "Fig. A.14 Two-dimensional gel electrophoresis of MHC class II molecules. Proteins in mouse spleen cells have been labeled metabolically (see Fig. A.13), precipitated with a monoclonal antibody against the mouse MHC class II molecule H2-A, and separated by isoelectric focusing in one direction and SDS-PAGE in a second direction at right angles to the first (hence the term two-dimensional gel electrophoresis). This allows one to distinguish molecules of the same molecular weight on the basis of their charge. The separated proteins are detected by autoradiography. The MHC class II molecules are composed of two chains, \u03b1 and \u03b2, and in the different MHC class II molecules these have different isoelectric points (compare upper and lower panels). The MHC genotype of mice is indicated by lowercase superscripts (k, p). Actin, a common contaminant, is marked a. Photographs courtesy of J.F. Babich."
+        },
+        {
+            "id": "Surgery_Schwartz_3383",
+            "title": "Surgery_Schwartz",
+            "content": "is a powerful tool used to determine a number of important characteristics of proteins. For example, immunoblotting analysis will determine the pres-ence and the quantity of a protein in a given cellular condition and its relative molecular weight. Immunoblotting also can be used to determine whether posttranslational modification such as phosphorylation has occurred on a protein. Importantly, through immunoblotting analysis, a comparison of the protein levels and modification states in normal vs diseased tissues is possible.Cell tissue lysates\u2022 Sample preparation\u2022 Gel electrophoresis Separation of proteins\u2022 Western transfer Transfer of proteins to membrane\u2022 Immunostaining Block membrane 1\u00b0/2\u00b0 antibody staining\u2022 Development Colorimetric/chemiluminescence detection123456123456Figure 15-18. Immunoblotting. Proteins are prepared from cells or tissues, separated according to size by sodium dodecyl sulfate-polyacrylamide gel electrophoresis, and transferred to a membrane filter."
+        }
+    ],
+    "scores": [
+        0.039411708161107374,
+        0.03865719001679046,
+        0.03864824495892457,
+        0.03810387913613659,
+        0.03775640235129691,
+        0.03756772536674792,
+        0.03701410309531483,
+        0.036385579083598886,
+        0.03614516993194627,
+        0.03612905906633132,
+        0.033914852359407055,
+        0.03286180691713071,
+        0.03214955987063637,
+        0.03193512595426471,
+        0.03184565302492325,
+        0.030138776245832208,
+        0.028462904009600033,
+        0.027608882149555064,
+        0.02745783171288034,
+        0.026883482861743732,
+        0.026305909376353763,
+        0.026184300178108223,
+        0.025778128950695322,
+        0.025083402835696413,
+        0.023447111211743837,
+        0.023356839412769982,
+        0.023339702696196438,
+        0.023274473874174025,
+        0.02309974377347838,
+        0.02199125264140744,
+        0.02133750951628529,
+        0.02127532979736162
+    ],
+    "execution_time": 47.390286684036255
+}

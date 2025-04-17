@@ -1,0 +1,209 @@
+{
+    "id": "college_biology-061",
+    "question": "Which of the following facts was established prior to 1859, the year in which Charles Darwin published On the Origin of Species?",
+    "options": {
+        "A": "DNA provides the macromolecular basis of heredity.",
+        "B": "Mendelian principles explain why some traits are dominant and others are recessive.",
+        "C": "Prokaryotes include two major domains, the Bacteria and the Archaea.",
+        "D": "There exist fossilized remains of species that have become extinct."
+    },
+    "answer": "D",
+    "predict": "Here is the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to analyze the given documents and identify the facts that were established prior to 1859. Let's examine each option one by one.\\n\\nOption A: DNA provides the macromolecular basis of heredity. This statement is not present in the provided documents. In fact, DNA was not discovered until the 1860s.\\n\\nOption B: Mendelian principles explain why some traits are dominant and others are recessive. This statement is also not present in the provided documents. Mendel's work was published in 1865, after 1859.\\n\\nOption C: Prokaryotes include two major domains, the Bacteria and the Archaea. This statement is not present in the provided documents. The document [2] mentions the three primary branches of the tree of life: Bacteria, Archaea, and eukaryotes, but does not specify the two domains within Bacteria.\\n\\nOption D: There exist fossilized remains of species that have become extinct. This statement is present in document [2], which mentions that the fossil record remains essential as a source of absolute dates, and that the fossil record shows the remains of many of the ancestors preserved in the fossil record.\\n\\nTherefore, the correct answer is D.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_69",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Tree of life has Three Primary Branches: Bacteria, Archaea, and eukaryotes The classification of living things has traditionally depended on comparisons of their outward appearances: we can see that a fish has eyes, jaws, backbone, brain, and so on, just as we do, and that a worm does not; that a rosebush is cousin to an apple tree, but is less similar to a grass. As Darwin showed, we can readily interpret such close family resemblances in terms of evolution from common ancestors, and we can find the remains of many of these ancestors preserved in the fossil record. In this way, it has been possible to begin to draw a family tree of living organisms, showing the various lines of descent, as well as branch points in the history, where the ancestors of one group of species became different from those of another."
+        },
+        {
+            "id": "Cell_Biology_Alberts_197",
+            "title": "Cell_Biology_Alberts",
+            "content": "Alberts B, Bray d, hopkin k et al. (2014) essential cell Biology, 4th ed. new york: Garland science. Barton nh, Briggs deG, eisen JA et al. (2007) evolution. cold spring harbor, ny: cold spring harbor laboratory Press. darwin c (1859) on the origin of species. london: murray. Graur d & li W-h (1999) Fundamentals of molecular evolution, 2nd ed. sunderland, mA: sinauer Associates. madigan mT, martinko Jm, stahl d et al. (2010) Brock Biology of microorganisms, 13th ed. menlo Park, cA: Benjamin-cummings. margulis l & chapman mJ (2009) kingdoms and domains: An Illustrated Guide to the Phyla of life on earth, 1st ed. san diego: Academic Press. moore JA (1993) science As a Way of knowing. cambridge, mA: harvard university Press. moore JA (1972) heredity and development, 2nd ed. new york: oxford university Press. (Free download at www.nap.edu) yang Z (2014) molecular evolution: A statistical Approach. oxford: oxford university Press. The Universal Features of Cells On earth"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1021",
+            "title": "Cell_Biology_Alberts",
+            "content": "But what about deciphering the genomes of much older ancestors, those for which no useful DNA samples can be isolated? For organisms that are as closely related as human and chimpanzee, we saw that this may not be difficult: reference to the gorilla sequence can be used to sort out which of the few sequence differences between human and chimpanzee are inherited from our common ancestor some 6 million years ago (see Figure 4\u201364). And for an ancestor that has produced a large number of different organisms alive today, the DNA sequences of many species can be compared simultaneously to unscramble much of the ancestral sequence, allowing scientists to derive DNA sequences much farther back in time. For example, from the genome sequences currently being obtained for dozens of modern placental mammals, it should be possible to infer much of the genome sequence of their 100 million-year-old common ancestor\u2014the precursor of species as diverse as dog, mouse, rabbit, armadillo, and human (see"
+        },
+        {
+            "id": "Cell_Biology_Alberts_997",
+            "title": "Cell_Biology_Alberts",
+            "content": "For much less closely related organisms, such as humans and chickens (which have evolved separately for about 300 million years), the sequence conservation found in genes is almost entirely due to purifying selection (that is, selection that eliminates individuals carrying mutations that interfere with important genetic functions), rather than to an inadequate time for mutations to occur. Phylogenetic Trees Constructed from a Comparison of DNA Sequences Trace the Relationships of All Organisms Phylogenetic trees based on molecular sequence data can be compared with the fossil record, and we get our best view of evolution by integrating the two approaches. The fossil record remains essential as a source of absolute dates, human\u2013chimpanzee comparisons show divergences of approximately 1.2%. (modified from F.C. Chen and w.H. li, Am. J. Hum. Genet. 68:444\u2013456, 2001.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1005",
+            "title": "Cell_Biology_Alberts",
+            "content": "In general, molecular clocks, appropriately chosen, have a finer time resolution than the fossil record, and they are a more reliable guide to the detailed structure of phylogenetic trees than are classical methods of tree construction, which are based on family resemblances in anatomy and embryonic development. For example, the precise family tree of great apes and humans was not settled until sufficient molecular sequence data accumulated in the 1980s to produce the pedigree shown previously in Figure 4\u201363. And with huge amounts of DNA sequence now determined from a wide variety of mammals, much better estimates of our relationship to them are being obtained (Figure 4\u201366). A Comparison of Human and mouse Chromosomes Shows How the Structures of genomes Diverge"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1025",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201372 The Neanderthals. (A) map of Europe showing the location of the cave in Croatia where most of the bones used to isolate the DNA used to derive the Neanderthal genome sequence were discovered. (b) Photograph of the vindija cave. (C) Photograph of the 38,000-yearold bones from vindija. more recent studies have succeeded in extracting DNA sequence information from hominid remains that are considerably older (see movie 8.3). (b, courtesy of Johannes krause; C, from R.E. green et al., Science 328: 710\u2013722, 2010. Reprinted with permission from AAAS.) cave in Vindija, Croatia blocks from many different species, thereby identifying large numbers of so-called multispecies conserved sequences: some of these code for protein, but most of them do not (Figure 4\u201373)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_194",
+            "title": "Cell_Biology_Alberts",
+            "content": "1\u201310 Animal cells have neither cell walls nor chloroplasts, whereas plant cells have both. Fungal cells are somewhere in between; they have cell walls but lack chloroplasts. Are fungal cells more likely to be animal cells that gained the ability to make cell walls, or plant cells that lost their chloroplasts? This question represented a difficult issue for early investigators who sought to assign evolutionary relationships based solely on cell characteristics and morphology. How do you suppose that this question was eventually decided?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1072",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201379 Tracing the course of human history by analyses of genome sequences. The map shows the routes of the earliest successful human migrations. Dotted lines indicate two alternative routes that our ancestors are thought to have taken out of Africa. DNA sequence comparisons suggest that modern Europeans descended from a small ancestral population that existed about 30,000 to 50,000 years ago. In agreement, archaeological findings suggest that the ancestors of modern native Australians (solid red arrows)\u2014and of modern European and middle Eastern populations\u2014reached their destinations about 45,000 years ago. Even more recent studies, comparing the genome sequences of living humans with those of Neanderthals and another extinct population from southern Siberia (the Denisovans), suggest that our exit from Africa was a bit more convoluted, while also revealing that a number of our ancestors interbred with these hominid neighbors as they made their way across the globe. (modified from"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1016",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genomes of ancestral organisms can be inferred, but most can never be directly observed. DNA is very stable compared with most organic molecules, but it is not perfectly stable, and its progressive degradation, even under the best circumstances, means that it is virtually impossible to extract sequence information from fossils that are more than a million years old. Although a modern organism such as the horseshoe crab looks remarkably similar to fossil ancestors that lived 200 million years ago, there is every reason to believe that the horse-shoe-crab genome has been changing during all that time in much the same way as in other evolutionary lineages, and at a similar rate. Selection must have maintained key functional properties of the horseshoe-crab genome to account for the morphological stability of the lineage. However, comparisons between different present-day organisms show that the fraction of the genome subject to purifying selection is small; hence, it is fair to"
+        },
+        {
+            "id": "InternalMed_Harrison_6019",
+            "title": "InternalMed_Harrison",
+            "content": "The idea that cancer progression is driven by sequential somatic mutations in specific genes has only gained general acceptance in the past 25 years. Before the advent of the microscope, cancer was believed to be composed of aggregates of mucus or other noncellular matter. By the middle of the nineteenth century, it became clear that tumors were masses of cells and that these cells arose from the normal cells of the tissue from which the cancer originated. However, the molecular basis for the uncontrolled proliferation of cancer cells was to remain a mystery for another century. During that time, a number of theories for the origin of cancer were postulated. The great biochemist Otto Warburg proposed the combustion theory of cancer, which stipulated that cancer was due to abnormal oxygen metabolism. In addition, some believed that all cancers were caused by viruses, and that cancer was in fact a contagious disease."
+        },
+        {
+            "id": "Neurology_Adams_8857",
+            "title": "Neurology_Adams",
+            "content": "History Credit for the original delineation of amyotrophic lateral sclerosis is appropriately given to Charcot. With Joffroy in 1869 and Gombault in 1871, he studied the pathologic aspects of the disease. In a series of lectures given from 1872 to 1874, he provided a lucid account of the clinical and pathologic findings. Although called Charcot disease in France, amyotrophic lateral sclerosis (the term recommended by Charcot) has been preferred in the English-speaking world. Duchenne had earlier (1858) described labioglossolaryngeal paralysis, a term that Wachsmuth in 1864 changed to progressive bulbar palsy. In 1869, Charcot called attention to the nuclear origin of progressive bulbar palsy, and in 1882 Dejerine established its relationship to ALS. Most authors credit Aran and Duchenne with the earliest descriptions of progressive spinal muscular atrophy, which they believed to be of myogenic origin. This interpretation was, of course, incorrect; Cruveilhier, a few years later, noted"
+        },
+        {
+            "id": "Cell_Biology_Alberts_173",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 1\u201345 Times of divergence of different vertebrates. The scale on the left shows the estimated date and geological era of the last common ancestor of each specified pair of animals. each time estimate is based on comparisons of the amino acid sequences of orthologous proteins; the longer the animals of a pair have had to evolve independently, the smaller the percentage of amino acids that remain identical. The time scale has been calibrated to match the fossil evidence showing that the last common ancestor of mammals and birds lived 310 million years ago."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1059",
+            "title": "Cell_Biology_Alberts",
+            "content": "More generally, we know from genome sequences that the various parts of genes\u2014both their individual exons and their regulatory elements\u2014have served as modular elements that have been duplicated and moved about the genome to create the great diversity of living things. Thus, for example, many present-day proteins are formed as a patchwork of domains from different origins, reflecting their complex evolutionary history (see Figure 3\u201317). Neutral mutations Often Spread to become Fixed in a Population, with a Probability That Depends on Population Size In comparisons between two species that have diverged from one another by millions of years, it makes little difference which individuals from each species are Figure 4\u201377 Schematic view of an antibody (immunoglobulin) molecule."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1068",
+            "title": "Cell_Biology_Alberts",
+            "content": "From detailed comparisons of the DNA sequences of a large number of modern humans located around the globe, scientists can estimate how many generations have elapsed since the origin of a particular neutral mutation. From such data, it has been possible to map the routes of ancient human migrations. For example, by combining this type of genetic analysis with archaeological findings, scientists have been able to deduce the most probable routes that our ancestors took when they left Africa 60,000 to 80,000 years ago (Figure 4\u201379)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1017",
+            "title": "Cell_Biology_Alberts",
+            "content": "morphological stability of the lineage. However, comparisons between different present-day organisms show that the fraction of the genome subject to purifying selection is small; hence, it is fair to assume that the genome of the modern horseshoe crab, while preserving features critical for function, must differ greatly from that of its extinct ancestors, known to us only through the fossil record."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1082",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because of purifying selection, the comparison of the genome sequences of multiple related species is an especially powerful way to find DNA sequences with important functions. Although about 5% of the human genome has been conserved as a result of purifying selection, the function of the majority of this DNA (tens of thousands of multispecies conserved sequences) remains mysterious. Future experiments characterizing its functions should teach us many new lessons about vertebrate biology."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1020",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201370 The puffer fish, Fugu rubripes. (Courtesy of byrappa venkatesh.) 0.0 100.0 180.0 thousands of nucleotide pairs that modern humans have inherited specific genes from them (Figure 4\u201372). The average difference in DNA sequence between humans and Neanderthals shows that our two lineages diverged somewhere between 270,000 and 440,000 years ago, well before the time that humans are believed to have migrated out of Africa."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1004",
+            "title": "Cell_Biology_Alberts",
+            "content": "Categories of DNA for which the clock runs fast are most informative for recent evolutionary events; the mitochondrial DNA clock has been used, for example, to chronicle the divergence of the Neanderthal lineage from that of modern Homo sapiens. To study more ancient evolutionary events, one must examine DNA for which the clock runs more slowly; thus the divergence of the major branches of the tree of life\u2014bacteria, archaea, and eukaryotes\u2014has been deduced from study of the sequences specifying ribosomal RNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1010",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201366 A phylogenetic tree showing the evolutionary relationships of some present-day mammals. The length of each line is proportional to the number of \u201cneutral substitutions\u201d\u2014that is, nucleotide changes at sites where there is assumed to be no purifying selection. (Adapted from g.m. Cooper et al., Genome Res. 15:901\u2013913, 2005. with permission from Cold Spring Harbor laboratory Press.) Good evidence for the loss of DNA sequences in small blocks during evolution can be obtained from a detailed comparison of regions of synteny in the human and mouse genomes. The comparative shrinkage of the mouse genome can be clearly seen from such comparisons, with the net loss of sequences scattered throughout the long stretches of DNA that are otherwise homologous (Figure 4\u201368)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_196",
+            "title": "Cell_Biology_Alberts",
+            "content": "A. Does this tree support or refute the hypothesis that the plant hemoglobins arose by horizontal gene transfer? b. Supposing that the plant hemoglobin genes were originally derived from a parasitic nematode, for example, what would you expect the phylogenetic tree to look like? 1\u201312 Rates of evolution appear to vary in different lineages. For example, the rate of evolution in the rat lineage is significantly higher than in the human lineage. These rate differences are apparent whether one looks at changes in nucleotide sequences that encode proteins and are subject to selective pressure or at changes in noncoding nucleotide sequences, which are not under obvious selection pressure. Can you offer one or more possible explanations for the slower rate of evolutionary change in the human lineage versus the rat lineage? Alberts B, Bray d, hopkin k et al. (2014) essential cell Biology, 4th ed. new york: Garland science."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4397",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although plants and animals are both eukaryotes, they have evolved separately for more than a billion years. Their last common ancestor is thought to have been a unicellular eukaryote that had mitochondria but no chloroplasts; the plant lineage acquired chloroplasts after plants and animals diverged. The earliest fossils of multicellular animals and plants date from almost 600 million years ago. Thus, it seems that plants and animals evolved multicellularity independently, each starting from a different unicellular eukaryote, some time between 1.6 and 0.6 billion years ago (Figure 15\u201368)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_132",
+            "title": "Cell_Biology_Alberts",
+            "content": "Natural selection has evidently favored mitochondria with small genomes. By contrast, the nuclear genomes of most eukaryotes seem to have been free to enlarge. Perhaps the eukaryotic way of life has made large size an advantage: predators typically need to be bigger than their prey, and cell size generally increases in proportion to genome size. Whatever the reason, aided by a massive accumulation of DNA segments derived from parasitic transposable elements (discussed in Chapter 5), the genomes of most eukaryotes have become orders of magnitude larger than those of bacteria and archaea (Figure 1\u201332). The freedom to be extravagant with DNA has had profound implications. Eukaryotes not only have more genes than prokaryotes; they also have vastly more DNA that does not code for protein. The human genome contains 1000 times as many nucleotide pairs as the genome of a typical bacterium, perhaps 10 times as Figure 1\u201331 The origin of chloroplasts."
+        },
+        {
+            "id": "Cell_Biology_Alberts_992",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genome Sequences of Two Species Differ in Proportion to the length of Time Since They Have Separately Evolved The differences between the genomes of species alive today have accumulated over more than 3 billion years. Although we lack a direct record of changes over time, scientists can reconstruct the process of genome evolution from detailed comparisons of the genomes of contemporary organisms. The basic organizing framework for comparative genomics is the phylogenetic tree. A simple example is the tree describing the divergence of humans from the great apes (Figure 4\u201363). The primary support for this tree comes from comparisons of gene or protein sequences. For example, comparisons between the sequences of human genes or proteins and those of the great apes typically reveal the fewest differences between human and chimpanzee and the most between human and orangutan."
+        },
+        {
+            "id": "Cell_Biology_Alberts_102",
+            "title": "Cell_Biology_Alberts",
+            "content": "Given the complete genome sequences of representative organisms from all three domains\u2014archaea, bacteria, and eukaryotes\u2014we can search systematically for homologies that span this enormous evolutionary divide. In this way we can begin to take stock of the common inheritance of all living things. There are considerable difficulties in this enterprise. For example, individual species have often lost some of the ancestral genes; other genes have almost certainly been acquired by horizontal transfer from another species and therefore are not truly ancestral, even though shared. In fact, genome comparisons strongly suggest that both lineage-specific gene loss and horizontal gene transfer, in some cases between evolutionarily distant species, have been major factors of evolution, at least among prokaryotes. Finally, in the course of 2 or 3 billion years, some genes that were initially shared will have changed beyond recognition through mutation."
+        },
+        {
+            "id": "InternalMed_Harrison_5528",
+            "title": "InternalMed_Harrison",
+            "content": "Life history theory. Evolution is influenced by the way that limited resources are allocated to all aspects of life including development, sexual maturation, reproduction, number of offspring, and senescence and death. Therefore, \u201ctrade-offs\u201d occur between these phases of life. For example, in a hostile environment, survival is highest for those species that have large numbers of offspring and short lifespan, whereas in a safe and abundant environment, survival is highest for those species that invest resources in a smaller number of offspring and a longer life."
+        },
+        {
+            "id": "Cell_Biology_Alberts_85",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each of these types of change leaves a characteristic trace in the DNA sequence of the organism, and there is clear evidence that all four processes have frequently Figure 1\u201318 Genetic information conserved since the days of the last common ancestor of all living things."
+        },
+        {
+            "id": "Cell_Biology_Alberts_83",
+            "title": "Cell_Biology_Alberts",
+            "content": "A complete DNA sequence reveals both the genes an organism possesses and the genes it lacks. When we compare the three domains of the living world, we can begin to see which genes are common to all of them and must therefore have been present in the cell that was ancestral to all present-day living things, and which genes are peculiar to a single branch in the tree of life. To explain the findings, however, we need to consider a little more closely how new genes arise and genomes evolve. The raw material of evolution is the DNA sequence that already exists: there is no natural mechanism for making long stretches of new random sequence. In this sense, no gene is ever entirely new. Innovation can, however, occur in several ways (Figure 1\u201319): 1. Intragenic mutation: an existing gene can be randomly modified by changes in its DNA sequence, through various types of error that occur mainly in the process of DNA replication. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_161",
+            "title": "Cell_Biology_Alberts",
+            "content": "The vertebrate Genome Is a Product of Repeated duplications Almost every gene in the vertebrate genome has paralogs\u2014other genes in the same genome that are unmistakably related and must have arisen by gene duplication. In many cases, a whole cluster of genes is closely related to similar clusters present elsewhere in the genome, suggesting that genes have been duplicated in linked groups rather than as isolated individuals. According to one hypothesis, at an early stage in the evolution of the vertebrates, the entire genome underwent duplication twice in succession, giving rise to four copies of every gene. The precise course of vertebrate genome evolution remains uncertain, because many further evolutionary changes have occurred since these ancient events. Figure 1\u201340 Drosophila melanogaster."
+        },
+        {
+            "id": "Cell_Biology_Alberts_980",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this final section of the chapter, we provide an overview of some of the ways that genes and genomes have evolved over time to produce the vast diversity of modern-day life-forms on our planet. The sequencing of the genomes of thousands of organisms is revolutionizing our view of the process of evolution, uncovering an astonishing wealth of information about not only family relationships among organisms, but also about the molecular mechanisms by which evolution has proceeded."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1022",
+            "title": "Cell_Biology_Alberts",
+            "content": "mammals, it should be possible to infer much of the genome sequence of their 100 million-year-old common ancestor\u2014the precursor of species as diverse as dog, mouse, rabbit, armadillo, and human (see Figure 4\u201366)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_151",
+            "title": "Cell_Biology_Alberts",
+            "content": "Arabidopsis has Been chosen out of 300,000 species As a model Plant The large multicellular organisms that we see around us\u2014the flowers and trees and animals\u2014seem fantastically varied, but they are much closer to one another in their evolutionary origins, and more similar in their basic cell biology, than the great host of microscopic single-celled organisms. Thus, while bacteria and archaea are separated by perhaps 3.5 billion years of evolution, vertebrates and insects are separated by about 700 million years, fish and mammals by about 450 million years, and the different species of flowering plants by only about 150 million years."
+        },
+        {
+            "id": "Cell_Biology_Alberts_203",
+            "title": "Cell_Biology_Alberts",
+            "content": "lynch m & conery Js (2000) The evolutionary fate and consequences of duplicate genes. Science 290, 1151\u20131155. national center for Biotechnology Information. http://www.ncbi.nlm.nih.gov/ owens k & king mc (1999) Genomic views of human history. Science 286, 451\u2013453. Palmer Jd & delwiche cF (1996) second-hand chloroplasts and the case of the disappearing nucleus. Proc. Natl Acad. Sci. USA 93, 7432\u20137435. Reed FA & Tishkoff sA (2006) African human diversity, origins and migrations. Curr. Opin. Genet. Dev. 16, 597\u2013605. Rine J (2014) A future of the model organism model. Mol. Biol. Cell 25, 549\u2013553. Rubin Gm, yandell md, Wortman JR et al. (2000) comparative genomics of the eukaryotes. Science 287, 2204\u20132215. shen y, yue F, mccleary d et al. (2012) A map of the cis-regulatory sequences in the mouse genome. Nature 488, 116\u2013120. The C. elegans sequencing consortium (1998) Genome sequence of the nematode C. elegans: a platform for investigating biology. Science 282, 2012\u20132018."
+        }
+    ],
+    "scores": [
+        0.032340506665840256,
+        0.02645951943126186,
+        0.025095890348183925,
+        0.018354803401532373,
+        0.017648888197791944,
+        0.017067550050410486,
+        0.01655982905982906,
+        0.016233766233766232,
+        0.016151332327802918,
+        0.01592157842157842,
+        0.01558331312151346,
+        0.01505633144696537,
+        0.01448602948757604,
+        0.01438990735265129,
+        0.014238667183262301,
+        0.014190687361419069,
+        0.014102564102564105,
+        0.014011489421325487,
+        0.014007531918802241,
+        0.013716404077849862,
+        0.013415067519545132,
+        0.013351360486733143,
+        0.013338496622348435,
+        0.013172110030748774,
+        0.012872545402369533,
+        0.012865061636468934,
+        0.012853978800822653,
+        0.012563600782778864,
+        0.01215738284703802,
+        0.012057648401826482,
+        0.012020792722547108,
+        0.011874559548978154
+    ],
+    "execution_time": 16.531049489974976
+}

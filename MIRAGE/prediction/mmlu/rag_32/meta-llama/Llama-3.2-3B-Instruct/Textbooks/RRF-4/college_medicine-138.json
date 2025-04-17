@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-138",
+    "question": "Acute Myeloid Leukemia is a malignant cancer in which myeloid progenitor cells become rapidly dividing and retain their semi-stem cell state. Under normal circumstances, which of the following cell types would arise from this stem cell?",
+    "options": {
+        "A": "NK cell",
+        "B": "Platelet",
+        "C": "T cell",
+        "D": "Lymphoid progenitor"
+    },
+    "answer": "B",
+    "predict": "Here is the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to understand the hierarchy of hematopoiesis and the characteristics of myeloid progenitor cells in acute myeloid leukemia (AML). According to the provided documents, hematopoietic stem cells differentiate into multipotent progenitor cells (MPPs) that can produce both lymphoid and myeloid cells. However, in AML, myeloid progenitor cells become rapidly dividing and retain their semi-stem cell state. This suggests that they are committed to the myeloid lineage. Further down the lineage, myeloid progenitor cells give rise to specific lineage-restricted progenitors, such as granulocytes, erythrocytes, and megakaryocytes. Since the question asks about the cell type that would arise from the stem cell, we need to look for the most basic cell type that is directly derived from the stem cell in the myeloid lineage. Based on the documents, the common myeloid progenitors mature into either monocytes and granulocytes or erythrocytes and megakaryocytes, but not both. This suggests that the correct answer is a cell type that is directly derived from the myeloid progenitor cell, which is the granulocyte.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_6181",
+            "title": "InternalMed_Harrison",
+            "content": "Only a small proportion of the cells within a tumor are capable of initiating colonies in vitro or forming tumors at high efficiency when injected into immunocompromised NOD/SCID mice. Acute and chronic myeloid leukemias (AML and CML) have a small population of cells (<1%) that have properties of stem cells, such as unlimited self-renewal and the capacity to cause leukemia when serially transplanted in mice. These cells have an undifferentiated phenotype (Thy1\u2212 CD34+CD38\u2013 and do not express other differentiation markers) and resemble normal stem cells in many ways, but are no longer under homeostatic control (Fig. 102e-7). Solid tumors may also contain a population of stem cells. Cancer stem cells, like their normal counterparts, have unlimited proliferative capacity and paradoxically traverse the cell cycle at a very slow rate; cancer growth occurs largely due to expansion of the stem cell pool, the unregulated proliferation of an amplifying population, and failure of apoptosis"
+        },
+        {
+            "id": "InternalMed_Harrison_5345",
+            "title": "InternalMed_Harrison",
+            "content": "Although hematopoietic stem cells are generally thought to have the capacity to form all cells of the blood, it is becoming clear that individual stem cells may not be equal in their differentiation potential. That is, some stem cells are \u201cbiased\u201d to become mature cells of a particular type. In addition, the general concept of cells having a binary choice of lymphoid or myeloid differentiation is not entirely accurate. A cell population with limited myeloid (monocyte and granulocyte) and lymphoid potential is now added to the commitment steps stem cells may undergo."
+        },
+        {
+            "id": "InternalMed_Harrison_5341",
+            "title": "InternalMed_Harrison",
+            "content": "Hematopoietic stem cells sit at the base of a branching hierarchy of cells culminating in the many mature cell types that compose the blood and immune system (Fig. 89e-2). The maturation steps leading to terminally differentiated and functional blood cells take place both as a consequence of intrinsic changes in gene expression and niche-directed and cytokine-directed changes in the cells. Our knowledge of the details remains incomplete. As stem cells mature to progenitors, precursors, and, finally, mature effector cells, they undergo a series of functional changes. These include the obvious acquisition of functions defining mature blood cells, such as phagocytic capacity or hemoglobin synthesis. They also include the progressive loss of plasticity (i.e., the ability to become other cell types). For example, the myeloid progenitor can make all cells in the myeloid series but none in the lymphoid series. As common myeloid progenitors mature, they become precursors for either monocytes"
+        },
+        {
+            "id": "InternalMed_Harrison_5361",
+            "title": "InternalMed_Harrison",
+            "content": "converted to a malignant phenotype. This hypothesis has been tested experimentally in the hematopoietic system. Taking advantage of the cell-surface markers that distinguish hematopoietic cells of varying maturity, stem cells, progenitors, precursors, and mature cells can be isolated. Powerful transforming gene constructs were placed in these cells, and it was found that the cell with the greatest potential to produce a malignancy was dependent on the transforming gene. In some cases, it was the stem cell, but in others, the progenitor cell functioned to initiate and perpetuate the cancer. This shows that cells can acquire stem cell\u2013like properties in malignancy."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6261",
+            "title": "Cell_Biology_Alberts",
+            "content": "The many types of blood cells, including erythrocytes, lymphocytes, granulocytes, and macrophages, all derive from a common multipotent stem cell. In the adult, hematopoietic stem cells are found mainly in bone marrow, and they depend on signals from the marrow stromal (connective-tissue) cells to maintain their stem-cell character. The stem cells are few and far between, and they normally divide infrequently to produce more stem cells (self-renewal) and various committed progenitor cells (transit amplifying cells), each able to give rise to only one or a few types of blood cells. The committed progenitor cells divide extensively under the influence of various protein signal molecules (colony-stimulating factors, or CSFs) and then terminally differentiate into mature blood cells, which usually die after several days or weeks."
+        },
+        {
+            "id": "InternalMed_Harrison_8462",
+            "title": "InternalMed_Harrison",
+            "content": "Acute Myeloid Leukemia Guido Marcucci, Clara D. Bloomfield INCIDENCE Acute myeloid leukemia (AML) is a neoplastic disease characterized by infiltration of the blood, bone marrow, and other tissues by prolifera-tive, clonal undifferentiated cells of the hematopoietic system. These 132 leukemias comprise a spectrum of malignancies that, untreated, range from rapidly fatal to slowly growing. In 2013, the estimated number of new AML cases in the United States was 14,590. The incidence of AML is ~3.5 per 100,000 people per year, and the age-adjusted incidence is higher in men than in women (4.5 vs 3.1). AML incidence increases with age; it is 1.7 in individuals age <65 years and 15.9 in those age >65 years. The median age at diagnosis is 67 years."
+        },
+        {
+            "id": "InternalMed_Harrison_5360",
+            "title": "InternalMed_Harrison",
+            "content": "Does the concept of cancer stem cells provide insight into the cellular origin of cancer? The fact that some cells within a cancer have stem cell\u2013like properties does not necessarily mean that the cancer arose in the stem cell itself. Rather, more mature cells could have acquired the self-renewal characteristics of stem cells. Any single genetic event is unlikely to be sufficient to enable full transformation of a normal cell to a frankly malignant one. Rather, cancer is a multistep process, and for the multiple steps to accumulate, the cell of origin must be able to persist for prolonged periods. It must also be able to generate large numbers of daughter cells. The normal stem cell has these properties and, by virtue of its having intrinsic self-renewal capability, may be more readily converted to a malignant phenotype. This hypothesis has been tested experimentally in the hematopoietic system. Taking advantage of the cell-surface markers that distinguish hematopoietic cells of"
+        },
+        {
+            "id": "Histology_Ross_1438",
+            "title": "Histology_Ross",
+            "content": "A hemopoietic stem cell (HSC) in the bone marrow gives rise to multiple colonies of progenitor stem cells. In the bone marrow, descendants of the HSC differentiate into two major colonies of multipotential progenitor cells: The common myeloid progenitor (CMP) cells and the common lymphoid progenitor (CLP) cells. Ultimately, common myeloid progenitor (CMP) cells which were previously called colony-forming units\u2013granulocyte, erythrocyte, monocyte, megakaryocyte (CFU-GEMM), differentiate into specific lineage-restricted progenitors (Table 10.3). These include the following."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6243",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 22\u201331 A tentative scheme of hematopoiesis. the multipotent stem cell normally divides infrequently to generate either more multipotent stem cells, which are self-renewing, or committed progenitor cells, which are limited in the number of times that they can divide before differentiating to form mature blood cells. as they go through their divisions, the progenitors become progressively more specialized in the range of cell types that they can give rise to, as indicated by the branching of this cell-lineage diagram. in adult mammals, all of the cells shown develop mainly in the bone marrow\u2014except for t lymphocytes, which as indicated develop in the thymus, and macrophages and osteoclasts, which develop from blood monocytes. Some dendritic cells may also derive from monocytes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5485",
+            "title": "Cell_Biology_Alberts",
+            "content": "The concept that the development of a cancer requires a gradual accumulation of mutations in a number of different genes helps to explain the well-known phenomenon of tumor progression, whereby an initial mild disorder of cell behavior evolves gradually into a full-blown cancer. Chronic myelogenous leukemia again provides a clear example. It begins as a disorder characterized by a nonlethal overproduction of white blood cells and continues in this form for several years before changing into a much more rapidly progressing illness that usually ends in death within a few months. In the early chronic phase, the leukemic cells are distinguished mainly by the chromosomal translocation (the Philadelphia chromosome) mentioned previously, although there may well be other, less visible"
+        },
+        {
+            "id": "Immunology_Janeway_1688",
+            "title": "Immunology_Janeway",
+            "content": "The hematopoietic stem cells first differentiate into multipotent progenitor cells (MPPs), which can produce both lymphoid and myeloid cells but are no longer self-renewing stem cells. Multipotent progenitors express a cell-surface receptor tyrosine kinase known as FLT3 that binds the membrane-bound FLT3 ligand on stromal cells. Additionally, MPPs express transcription factors and"
+        },
+        {
+            "id": "Pathology_Robbins_2806",
+            "title": "Pathology_Robbins",
+            "content": "Lymphoid neoplasms, which include certain leukemias and the non-Hodgkin and Hodgkin lymphomas. In many instances these tumors are composed of cells resembling some normal stage of lymphocyte differentiation, a feature that serves as one of the bases for their classification. A special group of lymphoid neoplasms are the plasma cell neoplasms and related entities, in which many of the clinical manifestations stem from abnormal immunoglobulins that are synthesized and secreted from the neoplastic cells. Myeloid neoplasms, which include certain leukemias, myelodysplastic syndromes (MDSs), and myeloproliferative neoplasms. These tumors have in common an origin from a hematopoietic stem cell or some other very early hematopoietic progenitor, and they typically involve the bone marrow. Histiocytic neoplasms, which include proliferative lesions of macrophages and dendritic cells. Of special interest is a spectrum of proliferations of Langerhans cells (Langerhans cell histiocytoses)."
+        },
+        {
+            "id": "InternalMed_Harrison_5349",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 89e-2 Hierarchy of hematopoietic differentiation. Stem cells are multipotent cells that are the source of all descendant cells and have the capacity to provide either long-term (measured in years) or short-term (measured in months) cell production. Progenitor cells have a more limited spectrum of cells they can produce and are generally a short-lived, highly proliferative population also known as transient amplifying cells. Precursor cells are cells committed to a single blood cell lineage but with a continued ability to proliferate; they do not have all the features of a fully mature cell. Mature cells are the terminally differentiated product of the differentiation process and are the effector cells of specific activities of the blood and immune system. Progress through the pathways is mediated by alterations in gene expression. The regulation of the differentiation by soluble factors and cell-cell communications within the bone marrow niche are still being defined. The"
+        },
+        {
+            "id": "Pathoma_Husain_143",
+            "title": "Pathoma_Husain",
+            "content": "2. Acute monocytic leukemia i. Proliferation of monoblasts; usually lack MPO ii. Blasts characteristically infiltrate gums (Fig. 6.7). 3. Acute megakaryoblastic leukemia i. Proliferation of megakaryoblasts; lack MPO ii. Associated with Down syndrome (usually arises before the age of 5) E. AML may also arise from pre-existing dysplasia (myelodysplastic syndromes), especially with prior exposure to alkylating agents or radiotherapy. 1. Myelodysplastic syndromes usually present with cytopenias, hypercellular bone marrow, abnormal maturation ofcells, and increased blasts(< 20%). 2. Most patients die from infection or bleeding, though some progress to acute leukemia. I. BASIC PRINCIPLES A. Neoplastic proliferation of mature circulating lymphocytes; characterized by a high WBC count B. Usually insidious in onset and seen in older adults II. CHRONIC LYMPHOCYTIC LEUKEMIA (CLL) A. Neoplastic proliferation of naive B cells that co-express CDS and CD20; most common leukemia overall"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6241",
+            "title": "Cell_Biology_Alberts",
+            "content": "Hematopoietic progenitor cells generally become committed to a particular pathway of differentiation long before they cease proliferating and terminally differentiate. The committed progenitors go through many rounds of cell division to amplify the ultimate number of cells of the given specialized type. In this way, a single stem-cell division can lead to the production of thousands of differentiated progeny, which explains why the number of stem cells is such a small fraction of the total population of hematopoietic cells. For the same reason, a high rate of blood cell production can be maintained even though the stem-cell division rate is low. The smaller the number of division cycles that the stem cells themselves have to undergo in the course of a lifetime, the lower the risk of generating stem-cell mutations, which would give rise to persistent mutant clones of cells in the body\u2014a particular danger in the hematopoietic system where, as discussed in Chapter 20, a relatively small"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6240",
+            "title": "Cell_Biology_Alberts",
+            "content": "Commitment is a Stepwise process Hematopoietic stem cells do not jump directly from a multipotent state into a commitment to just one pathway of differentiation; instead, they go through a series of progressive restrictions. The first step, usually, is commitment to either a myeloid or a lymphoid fate. This is thought to give rise to two kinds of progenitor cells, one capable of generating large numbers of all the different types of myeloid cells, and the other giving rise to large numbers of all the different types of lymphoid cells. Further steps give rise to progenitors committed to the production of just one cell type. The steps of commitment correlate with changes in the expression of specific transcription regulators, needed for the production of different subsets of blood cells. divisions of Committed progenitor Cells amplify the number of Specialized blood Cells"
+        },
+        {
+            "id": "InternalMed_Harrison_5359",
+            "title": "InternalMed_Harrison",
+            "content": "The relationship of stem cells to cancer is an important evolving dimension of adult stem cell biology. Cancer may share principles of organization with normal tissues. Cancer cells are heterogeneous even within a given patient and may have a hierarchical organization of cells with a base of stem-like cells capable of the signature stem cell features: self-renewal and differentiation. These stem-like cells might be the basis for perpetuation of the tumor and represent a slowly dividing, rare population with distinct regulatory mechanisms, including a relationship with a specialized microenvironment. A subpopulation of self-renewing cells has been defined for some, but not all, cancers. A more sophisticated understanding of the stem cell organization of cancers may lead to improved strategies for developing new therapies for the many common and difficult-to-treat types of malignancies that have been relatively refractory to interventions aimed at dividing cells."
+        },
+        {
+            "id": "Pathology_Robbins_2905",
+            "title": "Pathology_Robbins",
+            "content": "Classification. AMLs are diverse in terms of genetics, cellular lineage, and degree of maturation. The WHO classification relies on all of these features to divide AML into four categories ( Table 12.11 ): (1) AMLs associated with specific genetic aberrations, which are important because they predict outcome and they guide therapy; (2) AMLs with dysplasia, many of which arise from MDSs; (3) AMLs occurring after genotoxic chemotherapy; and (4) AMLs lacking any of the foregoing features. AMLs in the last category are subclassified based on the predominant line of differentiation that the tumor exhibits. Immunophenotype. The expression of immunologic markers is heterogeneous in AML. Most tumors express some combination of myeloid-associated antigens, such as CD13, CD14, CD15, CD64, or CD117 (KIT). CD34, a marker of hematopoietic stem cells, is often present on myeloblasts. Such markers are helpful in distinguishing AML http://ebooksmedicine.net"
+        },
+        {
+            "id": "Pathology_Robbins_2901",
+            "title": "Pathology_Robbins",
+            "content": "Most AMLs harbor mutations in genes encoding transcription factors that are required for normal myeloid cell differentiation. These mutations interfere with the differentiation of early myeloid cells, leading to the accumulation of myeloid precursors (blasts) in the marrow. Of particular interest is the (15;17) translocation in acute promyelocytic leukemia, which results in the fusion of the retinoic acid receptor \u03b1 (RARA) gene on chromosome 17 and the PML gene on chromosome 15. The chimeric gene produces a PML/RARA fusion protein that blocks myeloid differentiationat the promyelocyticstage, probablyinpart by inhibiting the function of normal retinoic acid receptors. Remarkably, pharmacologic doses of all-trans retinoic acid (ATRA), an analogue of vitamin A (Chapter 7), overcome this block and induce the neoplastic promyelocytes to differentiate into neutrophils rapidly. Because neutrophils die after an average life span of 6 hours, ATRA treatment rapidly clears the tumor. The effect"
+        },
+        {
+            "id": "InternalMed_Harrison_5342",
+            "title": "InternalMed_Harrison",
+            "content": "types). For example, the myeloid progenitor can make all cells in the myeloid series but none in the lymphoid series. As common myeloid progenitors mature, they become precursors for either monocytes and granulocytes or erythrocytes and megakaryocytes, but not both. Some amount of reversibility of this process may exist early in the differentiation cascade, but that is lost beyond a distinct stage in normal physiologic conditions. With genetic interventions, however, blood cells, like other somatic cells, can be reprogrammed to become a variety of cell types."
+        },
+        {
+            "id": "InternalMed_Harrison_8630",
+            "title": "InternalMed_Harrison",
+            "content": "The classification of lymphoid cancers evolved steadily throughout the twentieth century. The distinction between leukemia and lymphoma was made early, and separate classification systems were developed for each. Leukemias were first divided into acute and chronic subtypes based on average survival. Chronic leukemias were easily subdivided into those of lymphoid or myeloid origin based on morphologic characteristics. However, a spectrum of diseases that were formerly all called chronic lymphoid leukemia has become apparent (Table 134-1). The acute leukemias were usually malignancies of blast cells with few identifying characteristics. When cytochemical stains became available, it was possible to divide these objectively into myeloid malignancies and acute leukemias of lymphoid cells. Acute leukemias of lymphoid cells have been subdivided based on morphologic characteristics by the French-American-British (FAB) group (Table 134-2). Using this system, lymphoid malignancies of small"
+        },
+        {
+            "id": "Pathology_Robbins_161",
+            "title": "Pathology_Robbins",
+            "content": "Self-renewal, which permits stem cells to maintain their numbers. Self-renewal may follow asymmetric or symmetric division. Asymmetric division refers to cell replication in which one daughter cell enters a differentiation pathway and gives rise to mature cells, whereas the other remains undifferentiated and retains its self-renewal capacity. By contrast, in symmetric division, both daughter cells retain self renewal capacity. Such divisions are seen early in embryogenesis (when stem cell populations are expanding) and under conditions of stress, such as in the bone marrow following chemotherapy. Although there is a tendency in the scientific literature to partition stem cells into several different subsets, fundamentally there are only two varieties:"
+        },
+        {
+            "id": "InternalMed_Harrison_5328",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 89e-1 Signature characteristics of the stem cell. Stem cells have two essential features: the capacity to differentiate into a variety of mature cell types and the capacity for self-renewal. Intrinsic factors associated with self-renewal include expression of Bmi-1, Gfi-1, PTEN, STAT5, Tel/Atv6, p21, p18, MCL-1, Mel-18, RAE28, and HoxB4. Extrinsic signals for self-renewal include Notch, Wnt, SHH, and Tie2/Ang-1. Based mainly on murine studies, hematopoietic stem cells express the following cell surface molecules: CD34, Thy-1 (CD90), c-Kit receptor (CD117), CD133, CD164, and c-Mpl (CD110, also known as the thrombopoietin receptor)."
+        },
+        {
+            "id": "Pathology_Robbins_2917",
+            "title": "Pathology_Robbins",
+            "content": "In addition, all myeloproliferative neoplasms have variable propensities to transform to a \u201cspent phase\u201d resembling primary myelofibrosis or to a \u201cblast crisis\u201d identical to acute leukemia, both presumably triggered by the acquisition of other somatic mutations. Only CML, polycythemia vera, and primary myelofibrosis are presented here, as other myeloproliferative neoplasms are too infrequent to merit discussion. CML principally affects adults between 25 and 60 years of age. The peak incidence is in the fourth and fifth decades of life. About 4500 new cases are diagnosed per year in the United States."
+        },
+        {
+            "id": "Pathology_Robbins_166",
+            "title": "Pathology_Robbins",
+            "content": "Hematopoietic stem cells are the most extensively studied; they continuously replenish all the cellular elements of the blood as they are consumed. They can be isolated directly from bone marrow, as well as from the peripheral blood after administration of certain colony stimulating factors (CSF) that induce their release from bone marrow niches. Although rare, hematopoietic stem cells can be purified to virtual homogeneity based on cell surface markers. Clinically, these stem cells can be used to repopulate marrows depleted after chemotherapy (e.g., for leukemia), or to provide normal precursors to correct various blood cell defects (e.g., sickle cell disease; see Chapter 12)."
+        },
+        {
+            "id": "Pathoma_Husain_141",
+            "title": "Pathoma_Husain",
+            "content": "Prognosis is based on cytogenetic abnormalities. i. t(l2;21) has a good prognosis; more commonly seen in children ii. t(9;22) has a poor prognosis; more commonly seen in adults (Philadelphia+ ALL) E. T-ALL is characterized by lymphoblasts (TdT+) that express markers ranging from CD2 to CDS (e.g., CD3, CD4, CD7). The blasts do not express CDlO. Fig. 6.4 Blasts of acute leukemia. Fig. 6.5 Acute lymphoblastic leukemia involving meninges. 1. Usually presents in teenagers as a mediastinal (thymic) mass (called acute lymphoblastic lymphoma because the malignant cells form a mass) III. ACUTE MYELOID LEUKEMIA A. Neoplastic accumulation of immature myeloid cells (> 20%) in the bone marrow B. Myeloblasts are usually characterized by positive cytoplasmic staining for myeloperoxidase (MPO). 1. Crystal aggregates of MPO may be seen as Auer rods (Fig. 6.6). C. Most commonly arises in older adults (average age is 50-60 years)"
+        },
+        {
+            "id": "Pediatrics_Nelson_3157",
+            "title": "Pediatrics_Nelson",
+            "content": "The hematopoietic cells consist of the following: 1. Small compartment of pluripotential progenitor stem cells that resemble small lymphocytes and are capable of forming all myeloid elements 2. Large compartment of committed, proliferating cells of myeloid, erythroid, and megakaryocytic lineage 3. Large compartment of postmitotic maturing cells(Fig. 149-1) The bone marrow is the major storage organ for mature neutrophils and contains about seven times the intravascular pool of neutrophils. It contains 2.5 to 5 times as many cells of myeloid lineage as cells of erythroid lineage. Smaller numbers of megakaryocytes, plasma cells, histiocytes, lymphocytes, and stromal cells are also stored in the marrow. Erythropoiesis (red blood cell [RBC] production) iscontrolled by erythropoietin, a glycoprotein that stimulatesprimitive pluripotential stem cells to differentiate along the"
+        },
+        {
+            "id": "InternalMed_Harrison_9061",
+            "title": "InternalMed_Harrison",
+            "content": "Hematopoietic stem cells circulate in the peripheral blood but in very low concentrations. Following the administration of certain hematopoietic growth factors, including granulocyte colony-stimulating factor (G-CSF) or granulocyte-macrophage colony-stimulating factor (GM-CSF), and during recovery from intensive chemotherapy, the concentration of hematopoietic progenitor cells in blood, as measured either by colony-forming units or expression of the CD34 antigen, increases markedly. This has made it possible to harvest adequate numbers of stem cells from the peripheral blood for transplantation. Donors are typically treated with 4 or 5 days of hematopoietic growth factor, following which stem cells are collected in one or two 4-h pheresis sessions. In the autologous setting, transplantation of >2.5 \u00d7 106 CD34 cells per kilogram, a number that can be collected in most circumstances, leads to rapid and sustained engraftment in virtually all cases. In the 10\u201320% of patients who fail to"
+        },
+        {
+            "id": "InternalMed_Harrison_8189",
+            "title": "InternalMed_Harrison",
+            "content": "and the presence of many ringed sideroblasts in the marrow. The explanation is unclear for megaloblastic changes in the marrow in some patients with acute myeloid leukemia and myelodysplasia. Lucio Luzzatto DEFINITIONS 129"
+        },
+        {
+            "id": "First_Aid_Step2_396",
+            "title": "First_Aid_Step2",
+            "content": "The four oncologic emergencies: hypercalcemia, spinal cord compression, superior vena cava syndrome, and leukostasis. Acute myelogenous and lymphocytic leukemias are clonal disorders of early hematopoietic stem cells. They are characterized by rapid growth of immature blood cells (blasts), which overwhelms the ability of bone marrow to produce normal cells. Acute myelogenous leukemia (AML) and acute lymphocytic leukemia (ALL) affect children as well as adults. ALL is the most common childhood malignancy. Disease onset and progression are rapid; patients present with signs and symptoms of anemia (pallor, fatigue) and thrombocytopenia (petechiae, purpura, bleeding). Medullary expansion and periosteal involvement may lead to bone pain (common in ALL). On exam, patients may have hepatosplenomegaly and swollen/bleeding gums from leukemic infiltration and \u2193 platelets. Leukemic cells also infiltrate the skin and CNS."
+        },
+        {
+            "id": "Pathology_Robbins_2898",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net In myeloproliferative neoplasms, the neoplastic clone continues to undergo terminal differentiation but exhibits increased or dysregulated growth. Commonly, these are associated with an increase in one or more of the formed elements (red cells, platelets, and/or granulocytes) in the peripheral blood. In myelodysplastic syndromes (MDS), terminal differentiation occurs but in a disordered and ineffective fashion, leading to the appearance of dysplastic marrow precursors and peripheral blood cytopenias. Although these three categories provide a useful starting point, the divisions between the myeloid neoplasms sometimes blur. Both MDS and myeloproliferative neoplasms often transform to AML, and some neoplasms have features of both myelodysplasia and myeloproliferative neoplasms. Because all myeloid neoplasms arise from early multipotent progenitors, the close relationship among these disorders is not surprising."
+        },
+        {
+            "id": "Pathology_Robbins_2922",
+            "title": "Pathology_Robbins",
+            "content": "The natural history of CML initially is one of slow progression. Even without treatment, the median survival is 3 years. After a variable (and unpredictable) period, approximately half of CML cases enter an accelerated phase marked by increasing anemia and new thrombocytopenia, the appearance of additional cytogenetic abnormalities, and finally transformation into a picture resembling acute leukemia (blast crisis). In the remaining 50% of cases, blast crisis occurs abruptly, without an accelerated phase. Of note, in 30% of cases the blast crisis resembles precursor-B cell ALL, further attesting to the origin of CML from hematopoietic stem cells. In the remaining 70% of cases, the blast crisis resembles AML. Less commonly, CML progresses to a phase of extensive bone marrow fibrosis resembling primary myelofibrosis."
+        }
+    ],
+    "scores": [
+        0.03867290879097428,
+        0.03489182442271687,
+        0.03263593905830651,
+        0.031228796503938817,
+        0.029838459984511904,
+        0.028772020505059316,
+        0.028698752228163992,
+        0.028551336146272855,
+        0.02741404677626832,
+        0.027075302025615408,
+        0.024803555210136052,
+        0.024228153769773827,
+        0.023776431456402947,
+        0.02304661453597624,
+        0.022982134824240087,
+        0.022387077470743484,
+        0.022023737080772144,
+        0.021662088925750913,
+        0.021641500371930113,
+        0.021628836434419686,
+        0.02153733375797577,
+        0.02134076718707356,
+        0.021316468990887596,
+        0.021001063589776645,
+        0.020772211030853322,
+        0.020205419465059975,
+        0.020041102810757917,
+        0.019790739257203274,
+        0.019719203739822295,
+        0.01917858052311834,
+        0.01913919413919414,
+        0.018354803401532373
+    ],
+    "execution_time": 28.84569501876831
+}

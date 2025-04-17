@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-140",
+    "question": "There are five stages of mitosis that must be carried out correctly for a cell to properly divide. Match the stage of mitosis with its proper component:\nProphase \u2014 Dissolution of nucleoli",
+    "options": {
+        "A": "Metaphase \u2014 Formation of two distinct nuclear membranes",
+        "B": "Cytokinesis \u2014 Separation of sister chromatids to their respective poles",
+        "C": "Telophase \u2014 Formation of the equatorial plate",
+        "D": "Anaphase \u2014 Separation of the cytoplasm and organelles"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's go through the stages of mitosis and identify the correct component for each stage.\\n\\nProphase is the stage where the chromosomes condense and the nuclear envelope breaks down. It is not the dissolution of nucleoli, which occurs in telophase.\\n\\nMetaphase is the stage where the chromosomes align at the equatorial plate, but it is not the formation of two distinct nuclear membranes, which occurs in telophase.\\n\\nAnaphase is the stage where the sister chromatids separate to their respective poles, but it is not the separation of the cytoplasm and organelles, which occurs in cytokinesis.\\n\\nTelophase is the stage where the nuclear envelope reforms around each set of chromosomes, and the dissolution of nucleoli occurs. This matches option C.\\n\\nCytokinesis is the stage where the cytoplasm divides, but it is not directly related to the dissolution of nucleoli, which occurs in telophase.\\n\\nTherefore, the correct answer is C. Telophase \u2014 Formation of the equatorial plate is incorrect, and the correct answer is D. Anaphase \u2014 Separation of sister chromatids to their respective poles is also incorrect, and the correct answer is C. Telophase \u2014 Dissolution of nucleoli.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_4813",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u20133 The events of eukaryotic cell division as seen under a microscope. The easily visible processes of nuclear division (mitosis) and cell division (cytokinesis), collectively called m phase, typically occupy only a small fraction of the cell cycle. The other, much longer, part of the cycle is known as interphase, which includes s phase and the gap phases (discussed in text). The five stages of mitosis are shown: an abrupt change in the biochemical state of the cell occurs at the transition from metaphase to anaphase. a cell can pause in metaphase before this transition point, but once it passes this point, the cell carries on to the end of mitosis and through cytokinesis into interphase."
+        },
+        {
+            "id": "Histology_Ross_472",
+            "title": "Histology_Ross",
+            "content": "Mitosis occurs in the M phase. Mitosis nearly always includes both karyokinesis (division of the nucleus) and cytokinesis (division of the cell) and lasts about 1 hour. Mitosis takes place in several stages described in more detail below. Separation of two identical daughter cells concludes the M phase. The M phase possesses two checkpoints: the spindle-assembly checkpoint, which prevents premature entry into anaphase, and the chromosome-segregation checkpoint, which prevents the process of cytokinesis until all of the chromosomes have been correctly separated. The mitotic catastrophe caused by malfunction of cell-cycle checkpoints may lead to cell death and tumor cell development."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4874",
+            "title": "Cell_Biology_Alberts",
+            "content": "Following the completion of S phase and transition through G2, the cell undergoes the dramatic upheaval of M phase. This begins with mitosis, during which the sister chromatids are separated and distributed (segregated) to a pair of identical daughter nuclei, each with its own copy of the genome. Mitosis is traditionally divided into five stages\u2014prophase, prometaphase, metaphase, anaphase, and telophase\u2014defined primarily on the basis of chromosome behavior as seen in a microscope. As mitosis is completed, the second major event of M phase\u2014cytokinesis\u2014divides the cell into two halves, each with an identical nucleus. Panel 17\u20131 summarizes the major events of M phase (Movie 17.2, Movie 17.3, Movie 17.4, and Movie 17.5)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4819",
+            "title": "Cell_Biology_Alberts",
+            "content": "How can we tell what stage a cell has reached in the cell cycle? One way is simply to look at living cells with a microscope. A glance at a population of mammalian cells proliferating in culture reveals that a fraction of the cells have rounded up and are in mitosis (Figure 17\u20135). Others can be observed in the process of cytokinesis. Similarly, looking at budding yeast cells under a microscope is very useful, because the size of the bud provides an indication of cell-cycle stage (Figure 17\u20136). We can gain additional clues about cell-cycle position by staining cells with DNA-binding fluorescent dyes (which reveal the condensation of chromosomes in mitosis) or with antibodies that recognize specific cell components such as the microtubules (revealing the mitotic spindle). S-phase cells can be identified in the microscope by supplying them with visualizable molecules that are incorporated into newly synthesized DNA, such as the artificial thymidine analog bromodeoxyuridine (BrdU); cell"
+        },
+        {
+            "id": "Cell_Biology_Alberts_829",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 4\u201317 A simplified view of the eukaryotic cell cycle. During interphase, the cell is actively expressing its genes and is therefore synthesizing proteins. Also, during interphase and before cell division, the DNA is replicated and each chromosome is duplicated to produce two closely paired sister DNA molecules (called sister chromatids). A cell with only one type of chromosome, present in maternal and paternal copies, is illustrated here. Once DNA replication is complete, the cell can enter M phase, when mitosis occurs and the nucleus is divided into two daughter nuclei. During this stage, the chromosomes condense, the nuclear envelope breaks down, and the mitotic spindle forms from microtubules and other proteins. The condensed mitotic chromosomes are captured by the mitotic spindle, and one complete set of chromosomes is then pulled to each end of the cell by separating the members of each sister-chromatid pair. A nuclear envelope re-forms around each chromosome set, and in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4811",
+            "title": "Cell_Biology_Alberts",
+            "content": "The Eukaryotic Cell Cycle Usually Consists of Four phases Most cells require much more time to grow and double their mass of proteins and organelles than they require to duplicate their chromosomes and divide. Partly to allow time for growth, most cell cycles have gap phases\u2014a G1 phase between M phase and S phase and a G2 phase between S phase and mitosis. Thus, the eukaryotic cell cycle is traditionally divided into four sequential phases: G1, S, G2, and M. G1, S, and G2 together are called interphase (Figure 17\u20134, and see Figure 17\u20133). In a typical human cell proliferating in culture, interphase might occupy 23 hours of a 24-hour cycle, with 1 hour for M phase. Cell growth occurs throughout the cell cycle, except during mitosis. The two gap phases are more than simple time delays to allow cell growth. They also provide time for the cell to monitor the internal and external environment"
+        },
+        {
+            "id": "Cell_Biology_Alberts_827",
+            "title": "Cell_Biology_Alberts",
+            "content": "exists as long threads in the nucleus so that individual chromosomes cannot be easily distinguished. It is only during a much briefer period of mitosis that each chromosome condenses so that its two sister chromatids can be separated and distributed to the two daughter nuclei. The highly condensed chromosomes in a dividing cell are known as mitotic chromosomes (Figure 4\u201318). This is the form in which chromosomes are most easily visualized; in fact, the images of chromosomes shown so far in the chapter are of chromosomes in mitosis."
+        },
+        {
+            "id": "Histology_Ross_505",
+            "title": "Histology_Ross",
+            "content": "After meiosis I, the cells quickly enter meiosis II without passing through an S phase. Meiosis II is an equatorial division and resembles mitosis. During this phase, the proteinase enzyme separase cleaves the cohesion complexes between the sister chromatids. Cleavage of the cohesin complexes in the region of the centromere releases the bond between both centromeres. This cleavage allows the sister chromatids to separate at anaphase II and move to opposite poles of the cell. During meiosis II, the cells pass through prophase II, metaphase II, anaphase II, and telophase II. These stages are essentially the same as those in mitosis except that they involve a haploid set of chromosomes (1n) and produce daughter cells that have only haploid DNA content (1d). Unlike the cells produced by mitosis, which are genetically identical to the parent cell, the cells produced by meiosis are genetically unique."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4808",
+            "title": "Cell_Biology_Alberts",
+            "content": "The most basic function of the cell cycle is to duplicate the vast amount of DNA in the chromosomes and then segregate the copies into two genetically identical daughter cells. These processes define the two major phases of the cell cycle. Chromosome duplication occurs during S phase (S for DNA synthesis), which requires 10\u201312 hours and occupies about half of the cell-cycle time in a typical mammalian cell. After S phase, chromosome segregation and cell division occur in M phase (M for mitosis), which requires much less time (less than an hour in a mammalian cell). M phase comprises two major events: nuclear division, or mitosis, during which the copied chromosomes are distributed into a pair of daughter nuclei; and cytoplasmic division, or cytokinesis, when the cell itself divides in two (Figure 17\u20132)."
+        },
+        {
+            "id": "Histology_Ross_483",
+            "title": "Histology_Ross",
+            "content": "Mitosis consists of four phases (Fig. 3.12): \u0081 Prophase begins as the replicated chromosomes condense and become visible. As the chromosomes continue to condense, each of the four chromosomes derived from each homologous pair can be seen to consist of two chromatids. The sister chromatids are held together by the ring of proteins called cohesins and the centromere. In late prophase or prometaphase (sometimes identified as a separate phase of mitosis), the nuclear envelope begins to disintegrate into small transport vesicles and resembles the sER. The nucleolus, which may still be present in some cells, also completely disappears in prometaphase. In addition, a highly specialized protein complex called a kinetochore appears on each chromatid opposite to the centromere (Fig. 3.13). The protein complexes that form kinetochores in the centromere region of chromatid are attached to specific repetitive DNA sequences known as satellite DNA that are similar in each chromosome. Microtubules of"
+        },
+        {
+            "id": "Histology_Ross_481",
+            "title": "Histology_Ross",
+            "content": "Cell division is a crucial process that increases the number of cells, permits renewal of cell populations, and allows wound repair. Mitosis is a process of chromosome segregation and nuclear division followed by cell division that produces two daughter cells with the same chromosome number and DNA content as the parent cell. The term mitosis is used to describe the equal partitioning of replicated chromosomes and their genes into two identical groups. The process of cell division includes division of both the nucleus (karyokinesis) and the cytoplasm (cytokinesis). The process of cytokinesis results in distribution of nonnuclear organelles into two daughter cells. Before entering mitosis, cells duplicate their DNA. This phase of the cell cycle is called the S or synthesis phase. At the beginning of this phase, the chromosome number is (2n), and the DNA content is also (2d); at the end, the chromosome number remains the same (2n), and the DNA content doubles to (4d)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4836",
+            "title": "Cell_Biology_Alberts",
+            "content": "There are four classes of cyclins, each defined by the stage of the cell cycle at which they bind Cdks and function. All eukaryotic cells require three of these classes (Figure 17\u201311): 1. G1/S-cyclins activate Cdks in late G1 and thereby help trigger progression through Start, resulting in a commitment to cell-cycle entry. Their levels fall in S phase. 2. S-cyclins bind Cdks soon after progression through Start and help stimulate chromosome duplication. S-cyclin levels remain elevated until mitosis, and these cyclins also contribute to the control of some early mitotic events. 3. M-cyclins activate Cdks that stimulate entry into mitosis at the G2/M transition. M-cyclin levels fall in mid-mitosis. In most cells, a fourth class of cyclins, the G1-cyclins, helps govern the activities of the G1/S-cyclins, which control progression through Start in late G1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_970",
+            "title": "Cell_Biology_Alberts",
+            "content": "Having discussed the dynamic structure of interphase chromosomes, we now turn to mitotic chromosomes. The chromosomes from nearly all eukaryotic cells become readily visible by light microscopy during mitosis, when they coil up to form highly condensed structures. This condensation reduces the length of a typical interphase chromosome only about tenfold, but it produces a dramatic change in chromosome appearance. Figure 4\u201359 depicts a typical mitotic chromosome at the metaphase stage of mitosis (for the stages of mitosis, see Figure 17\u20133). The two DNA molecules produced by DNA replication during interphase of the cell-division cycle are separately folded to produce two sister chromosomes, or sister chromatids, held together at their centromeres, as mentioned earlier. These chromosomes are normally covered with a variety of molecules, including large amounts of RNA\u2013protein"
+        },
+        {
+            "id": "Cell_Biology_Alberts_826",
+            "title": "Cell_Biology_Alberts",
+            "content": "To form a functional chromosome, a DNA molecule must be able to do more than simply carry genes: it must be able to replicate, and the replicated copies must be separated and reliably partitioned into daughter cells at each cell division. This process occurs through an ordered series of stages, collectively known as the cell cycle, which provides for a temporal separation between the duplication of chromosomes and their segregation into two daughter cells. The cell cycle is briefly summarized in Figure 4\u201317, and it is discussed in detail in Chapter 17. Briefly, during a long interphase, genes are expressed and chromosomes are replicated, with the two replicas remaining together as a pair of sister chromatids. Throughout this time, the chromosomes are extended and much of their chromatin exists as long threads in the nucleus so that individual chromosomes cannot be easily distinguished. It is only during a much briefer period of mitosis that each chromosome condenses so that its two"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4809",
+            "title": "Cell_Biology_Alberts",
+            "content": "At the end of S phase, the DNA molecules in each pair of duplicated chromosomes are intertwined and held tightly together by specialized protein linkages. Early in mitosis at a stage called prophase, the two DNA molecules are gradually disentangled and condensed into pairs of rigid, compact rods called sister chromatids, which remain linked by sister-chromatid cohesion. When the nuclear envelope disassembles later in mitosis, the sister-chromatid pairs become attached to the mitotic spindle, a giant bipolar array of microtubules (discussed in Chapter 16). Sister chromatids are attached to opposite poles of the spindle and, eventually, align at the spindle equator in a stage called metaphase. The destruction of sister-chromatid cohesion at the start of anaphase separates the sister chromatids, which are pulled to opposite poles of the spindle. The spindle is then disassembled, and the segregated chromosomes are packaged into separate nuclei at telophase. Cytokinesis then cleaves the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4812",
+            "title": "Cell_Biology_Alberts",
+            "content": "The two gap phases are more than simple time delays to allow cell growth. They also provide time for the cell to monitor the internal and external environment Figure 17\u20132 The major events of the cell cycle. The major chromosomal events of the cell cycle occur in s phase, when the chromosomes are duplicated, and m phase, when the duplicated chromosomes are segregated into a pair of daughter nuclei (in mitosis), after which the cell itself divides into two (cytokinesis). Figure 17\u20131 The cell cycle. The division of a hypothetical eukaryotic cell with two chromosomes (one red, and one black) is shown to illustrate how two genetically identical daughter cells are produced in each cycle. Each of the daughter cells will often continue to divide by going through additional cell cycles."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4852",
+            "title": "Cell_Biology_Alberts",
+            "content": "chromosome duplication in S phase and also contributes to some early events of mitosis. M-Cdk activation then triggers progression through the G2/M transition and the events of early mitosis, leading to the alignment of sister-chromatid pairs at the equator of the mitotic spindle. Finally, the APC/C, together with its activator Cdc20, triggers the destruction of securin and cyclins, thereby unleashing sister-chromatid separation and segregation and the completion of mitosis. When mitosis is complete, multiple mechanisms collaborate to suppress Cdk activity, resulting in a stable G1 period. We are now ready to discuss these cell-cycle stages in more detail, starting with S phase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4875",
+            "title": "Cell_Biology_Alberts",
+            "content": "From a regulatory point of view, mitosis can be divided into two major parts, each governed by distinct components of the cell-cycle control system. First, an abrupt increase in M-Cdk activity at the G2/M transition triggers the events of early mitosis (prophase, prometaphase, and metaphase). During this period, M-Cdk and several other mitotic protein kinases phosphorylate a variety of proteins, leading to the assembly of the mitotic spindle and its attachment to the sister-chromatid pairs. The second major part of mitosis begins at the metaphaseto-anaphase transition, when the APC/C triggers the destruction of securin, liberating a protease that cleaves cohesin and thereby initiates separation of the sister chromatids. The APC/C also promotes the destruction of cyclins, which leads to Cdk inactivation and the dephosphorylation of Cdk targets, which is required for all events of late M phase, including the completion of anaphase, the disassembly of the mitotic spindle, and the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4958",
+            "title": "Cell_Biology_Alberts",
+            "content": "By the end of anaphase, the daughter chromosomes have segregated into two equal groups at opposite ends of the cell. In telophase, the final stage of mitosis, the two sets of chromosomes are packaged into a pair of daughter nuclei. The first major event of telophase is the disassembly of the mitotic spindle, followed by the re-formation of the nuclear envelope. Initially, nuclear membrane fragments associate with the surface of individual chromosomes. These membrane fragments fuse to partly enclose clusters of chromosomes and then coalesce to reform the complete nuclear envelope. Nuclear pore complexes are incorporated into the envelope, the nuclear lamina re-forms, and the envelope once again becomes continuous with the endoplasmic reticulum. Once the nuclear envelope has re-formed, the pore complexes pump in nuclear proteins, the nucleus expands, and the mitotic chromosomes are reorganized into their interphase state, allowing gene transcription to resume. A new nucleus has been"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4977",
+            "title": "Cell_Biology_Alberts",
+            "content": "In some cell types, the site of ring assembly is chosen before mitosis. In budding yeasts, for example, a ring of proteins called septins assembles in late G1 at the future division site. The septins are thought to form a scaffold onto which other components of the contractile ring, including myosin II, assemble. In plant cells, an organized band of microtubules and actin filaments, called the preprophase band, assembles just before mitosis and marks the site where the cell wall will assemble and divide the cell in two, as we now discuss. both nuclei cleavage occurs both between the centrosomes enter mitosis linked by mitotic spindles and between the two centrosomes that are simply adjacent, and four daughter cells are formed"
+        },
+        {
+            "id": "Gynecology_Novak_485",
+            "title": "Gynecology_Novak",
+            "content": "Mitosis is divided into prophase, metaphase, anaphase, and telophase. Mitotic CdkC complexes induce chromosome condensation during the prophase, assembly of the mitotic spindle apparatus, and alignment of the chromosomes during the metaphase. Activation of the anaphase promoting complex (APC) leads to inactivation of the protein complexes that connect sister chromatids during metaphase, permitting the onset of anaphase. During anaphase, sister chromatids segregate to opposite spindle poles. The nuclear envelope breaks down into multiple small vesicles early in mitosis and reforms around the segregated chromosomes as they decondense during telophase. Cytokinesis is the process of division of the cytoplasm that segregates the endoplasmic reticulum and the Golgi apparatus during mitosis. After completion of mitosis, cells enter the G1 phase and either re-enter the cell cycle or remain in G0."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4962",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 17\u201340 The two processes of anaphase in mammalian cells. separated sister chromatids move toward the poles in anaphase a. In anaphase B, the two spindle poles move apart. the proteins that hold the sister chromatids together. APC/C also promotes cyclin destruction and thus the inactivation of M-Cdk. The resulting dephosphorylation of Cdk targets is required for the events that complete mitosis, including the disassembly of the spindle and the re-formation of the nuclear envelope. The final step in the cell cycle is cytokinesis, the division of the cytoplasm in two. In most cells, cytokinesis follows every mitosis, although some cells, such as early Drosophila embryos and some mammalian hepatocytes and heart muscle cells, undergo mitosis without cytokinesis and thereby acquire multiple nuclei. In most animal cells, cytokinesis begins in anaphase and ends shortly after the completion of mitosis in telophase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4877",
+            "title": "Cell_Biology_Alberts",
+            "content": "In this section, we describe the key mechanical events of mitosis and how M-Cdk and the APC/C orchestrate them. One of the most remarkable features of cell-cycle control is that a single protein kinase, M-Cdk, brings about all of the diverse and complex cell rearrangements that occur in the early stages of mitosis. At a minimum, M-Cdk must induce the assembly of the mitotic spindle and ensure that each sister chromatid in a pair is attached to the opposite pole of the spindle. It also triggers chromosome condensation, the large-scale reorganization of the intertwined sister chromatids into compact, rodlike structures. In animal cells, M-Cdk also promotes the breakdown of the nuclear envelope and rearrangements of the actin cytoskeleton and the Golgi apparatus. Each of these processes is thought to be initiated when M-Cdk phosphorylates specific proteins involved in the process, although most of these proteins have not yet been identified."
+        },
+        {
+            "id": "Histology_Ross_499",
+            "title": "Histology_Ross",
+            "content": "No DNA replication precedes meiosis II. The division during meiosis II is always equatorial because the number of chromosomes does not change. It remains at (1n), although the amount of DNA represented by the number of chromatids is reduced to (1d). During metaphase II, each chromosome aligns along the equator of the mitotic spindle, and at anaphase II sister chromatids are separated from each other. Thus, each chromosome splits into two single-stranded chromosomes that are then distributed to each haploid daughter cell. Phases in the process of meiosis are similar to the phases of mitosis. The prophase of meiosis I is an extended phase in which pairing of homologous chromosomes, synapsis (close association of homologous chromosomes), and recombination of genetic material on homologous chromosomes is observed. Prophase I is subdivided into the following five stages (see Fig. 3.12)."
+        },
+        {
+            "id": "First_Aid_Step1_16",
+            "title": "First_Aid_Step1",
+            "content": "Cell cycle phases Checkpoints control transitions between phases of cell cycle. This process is regulated by cyclins, cyclin-dependent kinases (CDKs), and tumor suppressors. M phase (shortest phase of cell cycle) includes mitosis (prophase, prometaphase, metaphase, anaphase, telophase) and cytokinesis (cytoplasm splits in two). G1 and G0 are of variable duration. GO G1Growth DNASynthesis INTERPHASERb, p53 modulate Grestriction point G2 M CytokinesisS Mitosis Site of synthesis of secretory (exported) proteins and of N-linked oligosaccharide addition to lysosomal and other proteins. Nissl bodies (RER in neurons)\u2014synthesize peptide neurotransmitters for secretion. Free ribosomes\u2014unattached to any membrane; site of synthesis of cytosolic, peroxisomal, and mitochondrial proteins. Mucus-secreting goblet cells of the small intestine and antibody-secreting plasma cells are rich in RER. Proteins within organelles (eg, ER, Golgi bodies, lysosomes) are formed in RER."
+        },
+        {
+            "id": "InternalMed_Harrison_4776",
+            "title": "InternalMed_Harrison",
+            "content": "a second checkpoint before entering mitosis. At this stage, the chromosomes condense and are aligned along the equatorial plate at metaphase. The two identical sister chromatids, held together at the centromere, divide and migrate to opposite poles of the cell. After formation of a nuclear membrane around the two separated sets of chromatids, the cell divides and two daughter cells are formed, thus restoring the diploid (2n) state."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5003",
+            "title": "Cell_Biology_Alberts",
+            "content": "After mitosis completes the formation of a pair of daughter nuclei, cytokinesis finishes the cell cycle by dividing the cell itself. Cytokinesis depends on a ring of actin and myosin filaments that contracts in late mitosis at a site midway between the segregated chromosomes. In animal cells, the positioning of the contractile ring is determined by signals emanating from the microtubules of the anaphase spindle. Dephosphorylation of Cdk targets, which results from Cdk inactivation in anaphase, triggers cytokinesis at the correct time after anaphase. After cytokinesis, the cell enters a stable G1 state of low Cdk activity, where it awaits signals to enter a new cell cycle."
+        },
+        {
+            "id": "Histology_Ross_482",
+            "title": "Histology_Ross",
+            "content": "Mitosis follows the S phase of the cell cycle and is described in four phases."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1564",
+            "title": "Cell_Biology_Alberts",
+            "content": "M phase, when the chromosomes condense, the nucleolus fragments and then disappears. Then, in the telophase part of mitosis, as chromosomes return to their semi-dispersed state, the tips of the 10 chromosomes reform small nucleoli, which progressively coalesce into a single nucleolus (Figure 6\u201343 and Figure 6\u201344). As might be expected, the size of the nucleolus reflects the number of ribosomes that the cell is producing. Its size therefore varies greatly in different cells and can change in a single cell, occupying 25% of the total nuclear volume in cells that are making unusually large amounts of protein. Ribosome assembly is a complex process, the most important features of which are outlined in Figure 6\u201345. In addition to its central role in ribosome biogenesis, the nucleolus is the site where other noncoding RNAs are produced and other"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4887",
+            "title": "Cell_Biology_Alberts",
+            "content": "active movement. centrosome at spindle pole kinetochore microtubule chromosome in active motion fragments of nuclear envelope METAPHASE 3 At metaphase, the chromosomes are aligned at the equator of the spindle, midway between the spindle poles. The kinetochore microtubules attach sister chromatids to opposite poles of the spindle. centrosome at spindle pole kinetochore microtubule PANeL 17\u20131: The Principle Stages of M Phase (Mitosis and Cytokinesis) in an Animal Cell 980"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4901",
+            "title": "Cell_Biology_Alberts",
+            "content": "We now describe the steps of spindle assembly, beginning with centrosomedependent assembly in early mitosis. We then consider the self-organization mechanisms that do not require centrosomes and become particularly important after nuclear-envelope breakdown. Centrosome duplication Occurs Early in the Cell Cycle"
+        },
+        {
+            "id": "Gynecology_Novak_479",
+            "title": "Gynecology_Novak",
+            "content": "Figure 6.2 The cell cycle. The cell cycle is divided into four major phases: M phase (mitosis), G1 phase (period between mitosis and initiation of DNA replication), S phase (DNA synthesis), and G2 phase (period between completion of DNA synthesis and mitosis) (Fig. 6.2). Postmitotic cells can \u201cexit\u201d the cell cycle into the so-called G0 phase and remain for days, weeks, or even a lifetime without further proliferation. The duration of the cell cycle may be highly variable, although most human cells complete the cell cycle within approximately 24 hours. During a typical cell cycle, mitosis lasts about 30 to 60 minutes, the G1 phase 7 to 10 hours, S phase 10 hours, and G2 phase 5 hours. With respect to the cell cycle, there are three subpopulations of cells: 1. Terminally differentiated cells cannot re-enter the cell cycle. 2. Quiescent (G0) cells can enter the cell cycle if appropriately stimulated. 3. Dividing cells are currently in the cell cycle."
+        }
+    ],
+    "scores": [
+        0.03867290879097428,
+        0.03848798045070614,
+        0.03837783159120865,
+        0.03243879441427111,
+        0.03214588031661202,
+        0.03140647474933056,
+        0.03117496996300903,
+        0.03086942328457331,
+        0.030509357626057984,
+        0.029815214799324967,
+        0.027966780796969477,
+        0.02713788673151407,
+        0.024732724731127205,
+        0.024694337194337196,
+        0.024603174603174603,
+        0.02421289355322339,
+        0.02420043471510635,
+        0.02391462703962704,
+        0.023779855636626827,
+        0.02322354272778721,
+        0.023098470157293688,
+        0.02269124704145224,
+        0.022555684731643093,
+        0.022153843115899928,
+        0.022092692422881102,
+        0.022084288260758846,
+        0.022012347943028303,
+        0.020813717260927216,
+        0.020554449746996332,
+        0.02013356067064507,
+        0.019701426024955435,
+        0.019327475091326055
+    ],
+    "execution_time": 56.7043137550354
+}

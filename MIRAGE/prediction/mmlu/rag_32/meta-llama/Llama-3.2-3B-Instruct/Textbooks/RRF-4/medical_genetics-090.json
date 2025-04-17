@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-090",
+    "question": "Autozygosity mapping is used to map disorders that show which pattern of inheritance?",
+    "options": {
+        "A": "Autosomal dominant",
+        "B": "Autosomal recessive",
+        "C": "X-linked dominant",
+        "D": "X-linked recessive"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the concept of autozygosity mapping and its application in identifying the pattern of inheritance of a disorder. Autozygosity mapping is a technique used to identify genetic disorders that exhibit a specific pattern of inheritance. The question asks which pattern of inheritance is mapped using autozygosity mapping. Let's evaluate the options: A. Autosomal dominant disorders do not typically exhibit the characteristics of autozygosity mapping, as they do not show a high degree of consanguinity. B. Autosomal recessive disorders can be mapped using autozygosity mapping, as they often occur in consanguineous families. C. X-linked dominant and X-linked recessive disorders are not typically mapped using autozygosity mapping, as they are not usually associated with consanguineous families. Therefore, the correct answer is B. Autosomal recessive disorders. This pattern of inheritance is often mapped using autozygosity mapping, as it is commonly seen in consanguineous families where there is a high degree of homozygosity.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_4893",
+            "title": "InternalMed_Harrison",
+            "content": "Linkage and Association Studies There are two primary strategies for mapping genes that cause or increase susceptibility to human disease: (1) classic linkage can be performed based on a known genetic model or, when the model is unknown, by studying pairs of affected relatives; or (2) disease genes can be mapped using allelic association studies (Table 82-6). Genetic linkaGe Genetic linkage refers to the fact that genes are physically connected, or linked, to one another along the chromosomes."
+        },
+        {
+            "id": "InternalMed_Harrison_4858",
+            "title": "InternalMed_Harrison",
+            "content": "Monogenic Mendelian Disorders Monogenic human diseases are frequently referred to as Mendelian disorders because they obey the principles of genetic transmission originally set forth in Gregor Mendel\u2019s classic work. The continuously updated OMIM catalogue lists several thousand of these disorders and provides information about the clinical phenotype, molecular basis, allelic variants, and pertinent animal models (Table 82-1). The mode of inheritance for a given phenotypic trait or disease is determined by pedigree analysis. All affected and unaffected individuals in the family are recorded in a pedigree using standard symbols (Fig. 82-11). The principles of allelic segregation, and the transmission of alleles from parents to children, are illustrated in Fig. 82-12. One dominant (A) allele and one recessive (a) allele can display three Mendelian modes of inheritance: autosomal dominant, autosomal recessive, and X-linked. About 65% of human monogenic disorders are autosomal dominant,"
+        },
+        {
+            "id": "InternalMed_Harrison_4861",
+            "title": "InternalMed_Harrison",
+            "content": "In autosomal dominant disorders, individuals are affected in successive generations; the disease does not occur in the offspring of unaffected individuals. Males and females are affected with equal frequency because the defective gene resides on one of the 22 autosomes (Fig. 82-13A). Autosomal dominant mutations alter one of the two alleles at a given locus. Because the alleles segregate randomly at meiosis, the probability that an offspring will be affected is 50%. Unless there is a new germline mutation, an affected individual has an affected parent. Children with a normal genotype do not transmit the disorder. Due to differences in penetrance or expressivity (see above), the Chapter 82 Principles of Human Genetics Heterozygous Heterozygous Female male female carrier of X-linked trait FIGURE 82-11 Standard pedigree symbols."
+        },
+        {
+            "id": "InternalMed_Harrison_4772",
+            "title": "InternalMed_Harrison",
+            "content": "and how they are distributed among individuals within and among populations. The haplotype map information, referred to as HapMap, is greatly facilitating GWAS designed to elucidate the complex interactions among multiple genes and lifestyle factors in multifactorial disorders (see below). Moreover, haplotype analyses are useful to assess variations in responses to medications (pharmacogenomics) and environmental factors, as well as the prediction of disease predisposition."
+        },
+        {
+            "id": "InternalMed_Harrison_4894",
+            "title": "InternalMed_Harrison",
+            "content": "Genetic linkaGe Genetic linkage refers to the fact that genes are physically connected, or linked, to one another along the chromosomes. Two fundamental principles are essential for understanding the concept of linkage: (1) when two genes are close together on a chromosome, they are usually transmitted together, unless a recombination event separates them (Figs. 82-6); and (2) the odds of a crossover, or recombination event, between two linked genes is proportional to the distance that separates them. Thus, genes that are farther apart are more likely to undergo a recombination event than genes that are very close together. The detection of chromosomal loci that segregate with a disease by linkage can be used to identify the gene responsible for the disease (positional cloning) and to predict the odds of disease gene transmission in genetic counseling."
+        },
+        {
+            "id": "InternalMed_Harrison_4780",
+            "title": "InternalMed_Harrison",
+            "content": "and the independent segregation of chromosomes provide the foundation for performing linkage analyses, whereby one attempts to correlate the inheritance of certain chromosomal regions (or linked genes) with the presence of a disease or genetic trait (see below)."
+        },
+        {
+            "id": "InternalMed_Harrison_25008",
+            "title": "InternalMed_Harrison",
+            "content": "Evidence in humans that there are susceptibility genes for auto of twins. Studies in type 1 diabetes mellitus, rheumatoid arthritis, multiple sclerosis, and SLE have shown that ~15\u201330% of pairs of mono-zygotic twins show disease concordance, whereas the figure is <5% for dizygotic twins. The occurrence of different autoimmune diseases within the same family has suggested that certain susceptibility genes may predispose to a variety of autoimmune diseases. Genome-wide association studies have begun to identify polymorphisms in individual genes that are associated with specific autoimmune diseases. More than 50 genetic polymorphisms associated with one or more autoimmune diseases have been identified to date. It is notable that some genes are associated with multiple autoimmune diseases, whereas others are specifically associated with only one autoimmune condition. Moreover, recent genetic evidence suggests that clusters of genetic risk factors can commonly be found in groups of"
+        },
+        {
+            "id": "First_Aid_Step1_39",
+            "title": "First_Aid_Step1",
+            "content": "If p and q represent the frequencies of alleles A and a, respectively, in a population, then p + q = 1: p2 = frequency of homozygosity for allele A q2 = frequency of homozygosity for allele a 2pq = frequency of heterozygosity (carrier frequency, if an autosomal recessive disease) Therefore, the sum of the frequencies of these genotypes is p2 + 2pq + q2 = 1. The frequency of an X-linked recessive disease in males = q and in females = q2. Hardy-Weinberg law assumptions include: No mutation occurring at the locus Natural selection is not occurring If a population is in Hardy-Weinberg equilibrium, then the values of p and q remain constant from generation to generation. Disorders of imprinting Imprinting\u2014one gene copy is silenced by methylation, and only the other copy is expressed \u008e parent-of-origin effects. Modes of inheritance Autosomal dominant Often due to defects in structural genes. Many generations, both males and females are affected. AaaaAaAaaaaa"
+        },
+        {
+            "id": "InternalMed_Harrison_4901",
+            "title": "InternalMed_Harrison",
+            "content": "Detecting the genetic factors contributing to the pathogenesis of common complex disorders remains a great challenge. In many instances, these are low-penetrance alleles (e.g., variations that individually have a subtle effect on disease development, and they can only be identified by unbiased GWAS) (Catalog of Published Genome-Wide Association Studies; Table 82-1) (Fig. 82-14). Most variants occur in noncoding or regulatory sequences but do not alter protein structure. The analysis of complex disorders is further complicated by ethnic differences in disease prevalence, differences in allele frequencies in known susceptibility genes among different populations, locus and allelic heterogeneity, gene-gene and gene-environment interactions, and the possibility of phenocopies. The data generated by the HapMap Project are greatly facilitating GWAS for the characterization of complex disorders. Adjacent SNPs are inherited together as blocks, and these blocks can be identified by genotyping"
+        },
+        {
+            "id": "Obstentrics_Williams_1766",
+            "title": "Obstentrics_Williams",
+            "content": "TABLE 13-6. Characteristics of Multifactorial Diseases There is a genetic contribution: No mendelian pattern of inheritance No evidence of single-gene disorder Nongenetic factors are also involved in disease causation: Lack of penetrance despite predisposing genotype Monozygotic twins may be discordant Familial aggregation may be present: Relatives are more likely to have disease-predisposing alleles Expression more common among close relatives: Adapted from Nussbaum, 2007. Genetics 269 FIGURE 13-9 Mechanism of uniparental disomy arising from trisomic \"rescue.\" A. In normal meiosis, one member of each pair of homologous chromosomes is inherited from each parent. B. If nondisjunction results in a trisomic conceptus, one homologue is sometimes lost. In a third of cases, loss of one homologue leads to uniparental disomy."
+        },
+        {
+            "id": "Obstentrics_Williams_1731",
+            "title": "Obstentrics_Williams",
+            "content": "A monogenic or mendelian disorder is caused by a mutation or alteration in a single locus or gene in one or both members of a gene pair. Types of mendelian inheritance include autosomal dominant, autosomal recessive, X-linked, and Y-linked. Other monogenic inheritance patterns, described subsequently, include mitochondrial inheritance, uniparental disomy, imprinting, and trinucleotide repeat expansion-also termed anticipation. By age 25, approximately 0.4 percent of the population exhibits an abnormality attributed to a monogenic disorder, and 2 percent will have at least one such disorder during their lifetime (Table 13-3)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2382",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mutations that give rise, in a reproducible way, to rare but clearly defined abnormalities, such as albinism, hemophilia, or congenital deafness, can often be identified by studies of affected families. Such single-gene, or monogenic, disorders are often referred to as Mendelian because their pattern of inheritance is easy to track. Moreover, individuals who inherit the causative mutation will exhibit the abnormality irrespective of environmental factors such as diet or exercise. But for many common diseases, the genetic roots are more complex. Instead of a single allele of a single gene, such disorders stem from a combination of contributions from multiple genes. And often, environmental factors have strong influences on the severity of the disorder. For these multigenic conditions, such as diabetes or arthritis, population studies are often helpful in tracking down the genes that increase the risk of getting the disease."
+        },
+        {
+            "id": "InternalMed_Harrison_4834",
+            "title": "InternalMed_Harrison",
+            "content": "genes that result in disease. Because each individual has two copies of each chromosome (one inherited from the mother and one inherited from the father), he or she can have only two alleles at a given locus. However, there can be many different alleles in the population. The normal or common allele is usually referred to as wild type. When alleles at a given locus are identical, the individual is homozygous. Inheriting identical copies of a mutant allele occurs in many autosomal recessive disorders, particularly in circumstances of consanguinity or isolated populations. If the alleles are different on the maternal and the paternal copy of the gene, the individual is heterozygous at this locus (Fig. 82-10). If two different mutant alleles are inherited at a given locus, the individual is said to be a compound heterozygote. Hemizygous is used to describe males with a mutation in an X chromosomal gene or a female with a loss of one X chromosomal locus."
+        },
+        {
+            "id": "Neurology_Adams_7476",
+            "title": "Neurology_Adams",
+            "content": "Traditionally, the recognition of the broad categories of genetically determined diseases has rested on their pattern of occurrence in families, segregated according to mendelian inheritance into autosomal dominant, autosomal recessive, and sex-linked types. As mentioned, mutations of nuclear DNA account for the heritable autosomal and sex-linked diseases described in this chapter, and they are remarkably diverse in nature. Some are lethal and are therefore not transmitted to successive generations; others are less harmful and may conform to one of the classic mendelian patterns. The mutation may be large and result in duplication of a major part of a chromosome or even of the entire gene (diploidy or triploidy) or a deletion (haploidy). Other mutations are quite small, involving only a single base pair (\u201cpoint mutation\u201d). Between these two extremes are deletions or duplications that include a portion of a gene, an entire gene, or contiguous genes, as mentioned above."
+        },
+        {
+            "id": "Pathology_Robbins_872",
+            "title": "Pathology_Robbins",
+            "content": "Unfortunately, there are no simple answers to this question, and the underlying causes of most human autoimmune diseases remain to be determined. The best guess is that breakdown of self-tolerance and development of autoimmunity result from the combined effects of susceptibility genes, which influence lymphocyte tolerance, and environmental factors, such as infections or tissue injury, that alter the display of and responses to self antigens ( Fig. 5.20 Most autoimmune diseases are complex multigenic disorders. There is abundant evidence that inherited genes play a role in the development of autoimmune diseases. Autoimmune diseases have a tendency to run in families, and there is a greater incidence of the same disease in monozygotic than in dizygotic twins."
+        },
+        {
+            "id": "Pediatrics_Nelson_949",
+            "title": "Pediatrics_Nelson",
+            "content": "To identify specific patterns of inheritance, geneticists construct and analyze pedigrees, which are pictorial representations of a family history. Males are represented by squares and females by circles. Matings are connected with a solid line between each partner\u2019s symbols. Unmarried couples are often connected by a dashed line. Children from a couple are represented below their parents and are the next generation. Grandparents, uncles, and aunts are added in similar fashion. Children of aunts and uncles also may be included. Ages or birthdays may be written next to or underneath each symbol. The proband (the patient who is the initial contact) is indicated with an arrow. Affected individuals are indicated by shading, or some other technique, which should be explained in a key. Carriers for a disorder (e.g., sickle cell disease) usually are indicated by a dot in the center of their symbol (Fig. 47-1). Figure 47-1 Pedigree showing affected individuals and carriers."
+        },
+        {
+            "id": "InternalMed_Harrison_4866",
+            "title": "InternalMed_Harrison",
+            "content": "In most instances, an affected individual is the offspring of heterozygous parents. In this situation, there is a 25% chance that the offspring will have a normal genotype, a 50% probability of a heterozygous state, and a 25% risk of homozygosity for the recessive alleles (Figs. 82-10, 82-13B). In the case of one unaffected heterozygous and one affected homozygous parent, the probability of disease increases to 50% for each child. In this instance, the pedigree analysis mimics an autosomal dominant mode of inheritance (pseudodominance). In contrast to autosomal dominant disorders, new mutations in recessive alleles are rarely manifest because they usually result in an asymptomatic carrier state."
+        },
+        {
+            "id": "InternalMed_Harrison_4900",
+            "title": "InternalMed_Harrison",
+            "content": "Allelic association studies are particularly useful for identifying susceptibility genes in complex diseases. When alleles at two loci occur more frequently in combination than would be predicted (based on known allele frequencies and recombination fractions), they are said to be in linkage disequilibrium. Evidence for linkage disequilibrium can be helpful in mapping disease genes because it suggests that the two loci are tightly linked."
+        },
+        {
+            "id": "InternalMed_Harrison_4859",
+            "title": "InternalMed_Harrison",
+            "content": "and one recessive (a) allele can display three Mendelian modes of inheritance: autosomal dominant, autosomal recessive, and X-linked. About 65% of human monogenic disorders are autosomal dominant, 25% are autosomal recessive, and 5% are X-linked. Genetic testing is now available for many of these disorders and plays an increasingly important role in clinical medicine (Chap. 84)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6935",
+            "title": "Cell_Biology_Alberts",
+            "content": "malignant Of tumors and tumor cells: invasive and/or able to undergo metastasis. A malignant tumor is a cancer. (Figure 20\u20133) MAP kinase module (mitogen-activated protein kinase module) An intracellular signaling module composed of three protein kinases, acting in sequence, with MAP kinase as the third. Typically activated by a Ras protein in response to extracellular signals. (Figure 15\u201349) master transcription regulator A transcription regulator specifically required for formation of a particular cell type. Artificial expression of master transcription regulators (alone or in combination with others) will often convert one cell type into another. maternal inheritance A form of inheritance observed when following mitochondria in animals and plants, where mitochondrial DNA is inherited only through the female germ line."
+        },
+        {
+            "id": "InternalMed_Harrison_4956",
+            "title": "InternalMed_Harrison",
+            "content": "genotypes (e.g., CC and TT genotypes only, with no CT genotypes). Absence of heterozygosity is sometimes associated with uniparental disomy (discussed later in this chapter) but is also observed when an individual\u2019s parents are related to one another (identity by descent). Regions of homozygosity have been used to help identify genes in which homozygous mutations result in disease phenotypes in families with known consanguinity."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5076",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q17\u20132 Light micrographs of a single cell at different stages of m phase (problem 17\u201312). (Courtesy of Conly L. Rieder.) 17\u201313 Down syndrome (trisomy 21) and Edwards syndrome (trisomy 18) are the most common autosomal trisomies seen in human infants. Does this fact mean that these chromosomes are the most difficult to segregate properly during meiosis? 17\u201314 The human genome consists of 23 pairs of chromosomes (22 pairs of autosomes and one pair of sex chromosomes). During meiosis, the maternal and paternal sets of homologs pair, and then are separated into gametes, so that each contains 23 chromosomes. If you assume that the chromosomes in the paired homologs are randomly assorted to daughter cells, how many potential combinations of paternal and maternal homologs can be generated during meiosis? (For the purposes of this calculation, assume that no recombination occurs.)"
+        },
+        {
+            "id": "Pathology_Robbins_1488",
+            "title": "Pathology_Robbins",
+            "content": "Diseases arising from chromosomal abnormalities, including changes in the number or structure of chromosomes. Several rare developmental abnormalities are attributable to chromosomal alterations. Other genetic diseases, which involve single gene mutations but do not follow simple mendelian rules of inheritance. These single-gene disorders with nonclassic http://ebooksmedicine.net inheritance patterns include those resulting from triplet repeat mutations or from mutations in mitochondrial DNA, and those in which the transmission is influenced by an epigenetic phenomenon called genomic imprinting. Each of these four categories is discussed separately. MENDELIANDISORDERS:DISEASESCAUSEDBYSINGLE-GENEDEFECTS Single-gene defects (mutations) follow the well-known mendelian patterns of inheritance ("
+        },
+        {
+            "id": "Pathology_Robbins_1497",
+            "title": "Pathology_Robbins",
+            "content": "Disorders of Autosomal Recessive Inheritance Disorders of autosomal recessive inheritance are manifested in the homozygous state. They occur when both of the alleles at a given gene locus are mutants. Therefore, such disorders are characterized by the following features: (1) The trait does not usually affect the parents, who are carriers of one diseased allele, but multiple siblings may show the disease; (2) siblings have one chance in four of being affected (i.e., the recurrence risk is 25% for each birth); and (3) if the mutant gene occurs with a low frequency in the population, there is a strong likelihood that the affected patient (the proband) is the product of a consanguineous marriage. They make up the largest group of mendelian disorders. In contrast with the features of autosomal dominant diseases, the following features generally apply to most autosomal recessive disorders: The expression of the defect tends to be more uniform than in autosomal dominant disorders."
+        },
+        {
+            "id": "InternalMed_Harrison_4897",
+            "title": "InternalMed_Harrison",
+            "content": "In order to identify a chromosomal locus that segregates with a disease, it is necessary to characterize polymorphic DNA markers from affected and unaffected individuals of one or several pedigrees. One can Abbreviation: GWAS, genome-wide association study. Suitable for identification of susceptibility genes in Requires large sample size and matched control polygenic and multifactorial disorders population Suitable for testing specific allelic variants of known False-positive results in the absence of suitable candidate loci control population"
+        },
+        {
+            "id": "Pediatrics_Nelson_967",
+            "title": "Pediatrics_Nelson",
+            "content": "Often termed polygenic inheritance, multifactorially inheriteddisorders result from the interplay of genetic and environmental Figure 47-4 Pedigree showing X-linked recessive inheritance. factors. In addition to 20% of congenital malformations, including cleft lip and palate and spina bifida, most common disordersof childhood and adult life, such as asthma, atherosclerosis, diabetes, and cancer, result from an interaction between genes andthe environment. These disorders do not follow simple mendelian modes of inheritance; rather, affected individuals tend to cluster in families. The disorders occur more often in firstand second-degree relatives than would be expected by chance, and they are more likely to be concordant (although not 100%) inmonozygotic twins than in dizygotic twins. Available @ StudentConsult.com"
+        },
+        {
+            "id": "InternalMed_Harrison_28921",
+            "title": "InternalMed_Harrison",
+            "content": "In the end, consensus reports by experts in the field and sources such as the Online Mendelian Inheritance in Man database provide valuable resources for physicians searching for diagnoses of patients with unusual clinical features. However, patients with the most common forms of the disorders have mutations in a limited number of genes. This chapter will focus primarily on these more common disorders."
+        },
+        {
+            "id": "Pathology_Robbins_1807",
+            "title": "Pathology_Robbins",
+            "content": "Linkage analysis deals with assessing shared marker loci (i.e., SNPs) in family members exhibiting the disease or trait of interest, with the assumption that SNPs in linkage disequilibrium with the disease allele are transmitted through pedigrees. With time it becomes possible to define a \u201cdisease haplotype\u201d based on a panel of SNPs, all of which cosegregate with the putative disease allele. Eventually, linkage analysis facilitates localization and cloning of the disease allele. Linkage analysis is most useful in mendelian disorders that are related to one gene with profound effects and high penetrance."
+        },
+        {
+            "id": "Obstentrics_Williams_1733",
+            "title": "Obstentrics_Williams",
+            "content": "Genetic heterogeneiy explains how diferent genetic mechanisms can result in the same phenotype. Locus heterogeneiy indicates TABLE 13-3. Selected Monogenic (Mendelian) Disorders that a speciic disease phenotype can be caused by mutations in diferent genetic loci. It also explains why some diseases appear to follow more than one type of inheritance. An example is retinitis pigmentosa, which may develop following mutations in at least 35 diferent genes or loci and may result in autosomal dominant, autosomal recessive, or X-linked forms. Alelic heterogeneiy describes how diferent mutations of the same gene may afect presentation of a particular disease. For example, although only one gene has been associated with cystic ibrosis-the cystic ibrosis conductance transmembrane regulator gene-more than 2000 mutations in this gene have been described and result in variable disease severity (Chaps. 14 and 51, pp. 289 and 997)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2098",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) induction of synthesis of transcription activator A by a transient signal. (B) induction of synthesis of transcription repressor r by a transient signal. 7\u201312 Examine the two pedigrees shown in Figure Q7\u20133. One results from deletion of a maternally imprinted autosomal gene. The other pedigree results from deletion of a paternally imprinted autosomal gene. In both pedigrees, affected individuals (red symbols) are heterozygous for the deletion. These individuals are affected because one copy of the chromosome carries an imprinted, inactive gene, while the other carries a deletion of the gene. Dotted yellow symbols indicate individuals that carry the deleted locus, but do not display the mutant phenotype. Which pedigree is based on paternal imprinting and which on maternal imprinting? Explain your answer."
+        },
+        {
+            "id": "InternalMed_Harrison_4955",
+            "title": "InternalMed_Harrison",
+            "content": "control and patient DNA are present in equal amounts or if one has a different copy number than the other. SNP platforms use arrays targeting SNPs that are distributed across the genome. SNP arrays vary in density of markers and in the technology used for genotyping, depending on the manufacturer of the array. SNP arrays were initially designed to determine genotypes at a biallelic, polymorphic base (e.g., CC, CT, or TT) and have been increasingly used in genome-wide association studies to identify disease susceptibility genes. SNP arrays were subsequently adapted to identify genomic deletions and duplications (Fig. 83e-2). SNP arrays, in addition to identifying copy number changes, can also detect regions of the genome that have an excess of homozygous genotypes and absence of heterozygous genotypes (e.g., CC and TT genotypes only, with no CT genotypes). Absence of heterozygosity is sometimes associated with uniparental disomy (discussed later in this chapter) but is also observed"
+        },
+        {
+            "id": "InternalMed_Harrison_24671",
+            "title": "InternalMed_Harrison",
+            "content": "genes have been identified, some HLA-linked and some encoded on other chromosomes, that show only distant homology to the class Ia and Ib molecules but share the three-dimensional class I structure. 0RPS18RXRBDPB2DNADMALMP2TAP1DPB1COLIIA2MICABCTUBBEAGFMOGHFEMICCPOU5F1TCF19DPA2DPA1LMP7DQB1DRB1DRB2DRAC4BLTAMICBC4ACYP21BTAP250010001500200020003000350040002500DMBDOBDQA2RAGELPAATBfC2CK11\u02dcDQB2DQA1DRB3FIgURE 373e-1 Physical map of the HLA region, showing the class I and class II loci, other immu-nologically important loci, and a sampling of other genes mapped to this region. Gene orientation is indicated by arrowheads. Scale is in kilobase (kb). The approximate genetic distance from DP to A is 3.2 cM. This includes 0.8 cM between A and B (including 0.2 cM between C and B), 0.4\u20130.8 cM between B and DR-DQ, and 1.6\u20132.0 cM between DR-DQ and DP."
+        }
+    ],
+    "scores": [
+        0.035040684375342905,
+        0.028267033250279232,
+        0.027046295645656193,
+        0.02674772036474164,
+        0.02636375062845651,
+        0.025341959386133036,
+        0.024534304079758623,
+        0.022351390220517738,
+        0.021933962264150945,
+        0.02174912975304101,
+        0.02166623745488611,
+        0.02158045685646827,
+        0.021431840470742074,
+        0.0210940030227788,
+        0.02022710242229627,
+        0.019660063438865283,
+        0.018281998604015148,
+        0.017543859649122806,
+        0.01692155196828094,
+        0.01672449687716863,
+        0.016511458952513044,
+        0.01646825396825397,
+        0.01628707627118644,
+        0.01628327733264409,
+        0.015740740740740743,
+        0.01538021726700972,
+        0.015339578454332554,
+        0.015302089215132693,
+        0.015105908584169454,
+        0.015067079463364292,
+        0.014635603345280765,
+        0.014610995574041486
+    ],
+    "execution_time": 24.993611574172974
+}

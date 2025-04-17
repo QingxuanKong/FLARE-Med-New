@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-018",
+    "question": "For a very weak base, the pKb of a solution would likely be:",
+    "options": {
+        "A": "Equal to the pOH",
+        "B": "Higher than the pOH",
+        "C": "Lower than the pOH",
+        "D": "Near 7 at 25\u00baC"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to understand the relationship between pKb, pOH, and pH. The pKb is the negative logarithm of the dissociation constant of a base, which is related to the pOH of a solution. The pOH is the negative logarithm of the concentration of hydroxide ions in a solution. In a solution of a weak base, the concentration of hydroxide ions is directly related to the concentration of the base. Since pOH is the negative logarithm of the concentration of hydroxide ions, a weak base will have a lower pOH than a strong base. Therefore, the pKb of a weak base will be lower than the pOH. The pH of a solution is related to the pOH by the equation pH + pOH = 14. Since the pKb is lower than the pOH, the pH will be higher than the pKb. However, we are looking for the pKb of a very weak base, which will be close to 7 at 25\u00b0C. This is because very weak bases are almost completely ionized at physiological pH, and the pKb is a measure of the strength of the base. A very weak base will have a pKb close to 7 at 25\u00b0C.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_406",
+            "title": "Cell_Biology_Alberts",
+            "content": "Substances that reduce the number of hydrogen ions in solution are called bases. Some bases, such as ammonia, combine directly with hydrogen ions. Other bases, such as sodium hydroxide, reduce the number of H+ ions indirectly, by making OH\u2013 ions that then combine directly with H+ ions to make H2O. Many bases found in cells are partially associated with H+ ions and are termed weak bases. This is true of compounds that contain an amino group (\u2013NH2), which has a weak tendency to reversibly accept an H+ ion from water, increasing the quantity of free OH\u2013 ions. PaNel 2\u20133: The Principal Types of Weak Noncovalent bonds that Hold Macromolecules Together Organic molecules can interact with other molecules through three types of short-range attractive forces known as noncovalent bonds: van der Waals attractions, electrostatic attractions, and hydrogen bonds. The repulsion of hydrophobic groups from water is also important for the folding of biological macromolecules."
+        },
+        {
+            "id": "Biochemistry_Lippincott_17",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Buffers A buffer is a solution that resists change in pH following the addition of an acid or base. A buffer can be created by mixing a weak acid (HA) with its conjugate base (A\u2212). If an acid such as HCl is added to a buffer, A\u2212 can neutralize it, being converted to HA in the process. If a base is added, HA can likewise neutralize it, being converted to A\u2212 in the process. Maximum buffering capacity occurs at a pH equal to the pKa, but a conjugate acid-base pair can still serve as an effective buffer when the pH of a solution is within approximately \u00b11 pH unit of the pKa. If the amounts of HA and A\u2212 are equal, the pH is equal to the pKa. As shown in Figure 1.9, a solution containing acetic acid (HA = CH3 \u2013 COOH) and acetate (A\u2212 = CH3 \u2013 COO\u2212) with a pKa of 4.8 resists a change in pH from pH 3.8 to 5.8, with maximum buffering at pH 4.8. At pH values less than the pKa, the protonated acid form (CH3 \u2013 COOH) is the predominant species in solution."
+        },
+        {
+            "id": "Pharmacology_Katzung_65",
+            "title": "Pharmacology_Katzung",
+            "content": "C. Ionization of Weak Acids and Weak Bases; the Henderson-Hasselbalch Equation The electrostatic charge of an ionized molecule attracts water dipoles and results in a polar, relatively water-soluble and lipid-insoluble complex. Because lipid diffusion depends on relatively high lipid solubility, ionization of drugs may markedly reduce their ability to permeate membranes. A very large percentage of the drugs in use are weak acids or weak bases; Table 1\u20133 lists some examples. For drugs, a weak acid is best defined as a neutral molecule that can reversibly dissociate into an anion (a negatively charged molecule) and a proton (a hydrogen ion). For example, aspirin dissociates as follows: A weak base can be defined as a neutral molecule that can form a cation (a positively charged molecule) by combining with a proton. For example, pyrimethamine, an antimalarial drug, undergoes the following association-dissociation process:"
+        },
+        {
+            "id": "Cell_Biology_Alberts_223",
+            "title": "Cell_Biology_Alberts",
+            "content": "The opposite of an acid is a base. Any molecule capable of accepting a proton from a water molecule is called a base. Sodium hydroxide (NaOH) is basic (the term alkaline is also used) because it dissociates readily in aqueous solution to form Na+ ions and OH\u2013 ions. Because of this property, NaOH is called a strong base. More important in living cells, however, are the weak bases\u2014those that have a weak tendency to reversibly accept a proton from water. Many biologically important molecules contain an amino (NH2) group. This group is a weak base that can generate OH\u2013 by taking a proton from water: \u2013NH2 + H2O \u2192\u2013NH3+ + OH\u2013 (see Panel 2\u20132, pp. 92\u201393)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_24",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. Other applications of the Henderson-Hasselbalch equation The Henderson-Hasselbalch equation can be used to calculate how the pH of a physiologic solution responds to changes in the concentration of a weak acid and/or its corresponding salt form. For example, in the bicarbonate buffer system, the Henderson-Hasselbalch equation predicts how shifts in the bicarbonate ion concentration, [HCO3\u2212], and the carbon dioxide concentration [CO2] influence pH (Fig. 1.12A). The equation is also useful for calculating the abundance of ionic forms of acidic and basic drugs. For example, most drugs are either weak acids or weak bases (Fig. 1.12B). Acidic drugs (HA) release a H+, causing a charged anion (A\u2212) to form. Weak bases (BH+) can also release a H+. However, the protonated form of basic drugs is usually charged, and the loss of a proton produces the uncharged base (B)."
+        },
+        {
+            "id": "Pharmacology_Katzung_2770",
+            "title": "Pharmacology_Katzung",
+            "content": "Thus, pKa can be seen as an effective way to consider the tendency for compounds to exist in a charged or uncharged form, ie, the lower the pKa, the greater the percentage of uncharged weak bases at a given pH. Because the pKa of most local anesthetics is in the range of 7.5\u20139.0, the charged, cationic form will constitute the larger percentage at physiologic pH. A glaring exception is benzocaine, which has a pKa around 3.5, and thus exists solely as the nonionized base under normal physiologic conditions."
+        },
+        {
+            "id": "Pharmacology_Katzung_66",
+            "title": "Pharmacology_Katzung",
+            "content": "For example, pyrimethamine, an antimalarial drug, undergoes the following association-dissociation process: Note that the protonated form of a weak acid is the neutral, more lipid-soluble form, whereas the unprotonated form of a weak base is the neutral form. The law of mass action requires that these reactions move to the left in an acid environment (low pH, excess protons available) and to the right in an alkaline environment. The Henderson-Hasselbalch equation relates the ratio of protonated to unprotonated weak acid or weak base to the molecule\u2019s pKa and the pH of the medium as follows: This equation applies to both acidic and basic drugs. Inspection confirms that the lower the pH relative to the pKa, the greater will be the fraction of drug in the protonated form. Because the uncharged form is the more lipid-soluble, more of a weak acid will be in the lipid-soluble form at acid pH, whereas more of a basic drug will be in the lipid-soluble form at alkaline pH."
+        },
+        {
+            "id": "First_Aid_Step1_241",
+            "title": "First_Aid_Step1",
+            "content": "t1/2 = 0.7 \u00d7 Vd in first-order elimination CL Drug metabolism Geriatric patients lose phase I first. Patients who are slow acetylators have \u008f side effects from certain drugs because of \u0090 rate of metabolism (eg, isoniazid). Elimination of drugs Weak bases Examples: TCAs, amphetamines. Trapped in acidic environments. Treat overdose with ammonium chloride to acidify urine. TCA toxicity is generally treated with sodium bicarbonate to overcome the sodium channel-blocking activity of TCAs, but not for accelerating drug elimination. pKa pH at which drugs (weak acid or base) are 50% ionized and 50% nonionized. The pKa represents the strength of the weak acid or base. Efficacy Maximal effect a drug can produce. Represented by the y-value (Vmax). \u008f y-value = \u008f Vmax = \u008f efficacy. Unrelated to potency (ie, efficacious drugs can have high or low potency). Partial agonists have less efficacy than full agonists."
+        },
+        {
+            "id": "Biochemistry_Lippincott_32",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. .1. Which one of the following statements concerning the titration curve for a nonpolar amino acid is correct? The letters A through D designate certain regions on the curve below. A. Point A represents the region where the amino acid is deprotonated. B. Point B represents a region of minimal buffering. C. Point C represents the region where the net charge on the amino acid is zero. D. Point D represents the pK of the amino acid\u2019s carboxyl group. E. The amino acid could be lysine. Correct answer = C. Point C represents the isoelectric point, or pI, and as such is midway between pK1 and pK2 for a nonpolar amino acid. The amino acid is fully protonated at Point A. Point B represents a region of maximum buffering, as does Point D. Lysine is a basic amino acid, and free lysine has an ionizable side chain in addition to the ionizable \u03b1-amino and \u03b1-carboxyl groups."
+        },
+        {
+            "id": "Cell_Biology_Alberts_405",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many of the acids important in the cell are only partially dissociated, and they are therefore weak acids\u2014for example, the carboxyl group (\u2013COOH), which dissociates to give a hydrogen ion in solution. (weak acid) Note that this is a reversible reaction. The acidity of a solution is defned by the concentration of H+ ions it possesses. For convenience we use the pH scale, where H+ conc. moles/liter Positively charged hydrogen ions (H+) can spontaneously move from one water molecule to another, thereby creating two ionic species. hydronium ion (water acting as a weak base) often written as: H2O hydroxyl ion (water acting as a weak acid) Since the process is rapidly reversible, hydrogen ions are continually shuttling between water molecules. Pure water contains a steady-state concentration of hydrogen ions and hydroxyl ions (both 10\u20137 M)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_15",
+            "title": "Biochemistry_Lippinco",
+            "content": "III. ACIDIC AND BASIC PROPERTIES Amino acids in aqueous solution contain weakly acidic \u03b1-carboxyl groups and weakly basic \u03b1-amino groups. In addition, each of the acidic and basic amino acids contains an ionizable group in its side chain. Thus, both free amino acids and some amino acids combined in peptide linkages can act as buffers. Acids may be defined as proton donors and bases as proton acceptors. Acids (or bases) described as weak ionize to only a limited extent. The concentration of protons ([H+]) in aqueous solution is expressed as pH, where pH = log 1/[H+] or \u2013log [H+]. The quantitative relationship between the pH of the solution and concentration of a weak acid (HA) and its conjugate base (A\u2212) is described by the Henderson-Hasselbalch equation. A. Equation derivation"
+        },
+        {
+            "id": "Biochemistry_Lippincott_25",
+            "title": "Biochemistry_Lippinco",
+            "content": "A drug passes through membranes more readily if it is uncharged. Thus, for a weak acid, such as aspirin, the uncharged HA can permeate through membranes, but A\u2212 cannot. Likewise, for a weak base, such as morphine, the uncharged B form permeates through the cell membrane, but BH+ does not. Therefore, the effective concentration of the permeable form of each drug at its absorption site is determined by the relative concentrations of the charged (impermeant) and uncharged (permeant) forms. The ratio between the two forms is determined by the pH at the site of absorption and by the strength of the weak acid or base, which is represented by the pKa of the ionizable group. The Henderson-Hasselbalch equation is useful in determining how much drug is found on either side of a membrane that separates two compartments that differ in pH, for example, the stomach (pH 1.0\u20131.5) and blood plasma (pH 7.4). IV. CONCEPT MAPS"
+        },
+        {
+            "id": "Cell_Biology_Alberts_222",
+            "title": "Cell_Biology_Alberts",
+            "content": "Acids are characterized as being strong or weak, depending on how readily they give up their protons to water. Strong acids, such as hydrochloric acid (HCl), lose their protons quickly. Acetic acid, on the other hand, is a weak acid because it holds on to its proton more tightly when dissolved in water. Many of the acids important in the cell\u2014such as molecules containing a carboxyl (COOH) group\u2014 are weak acids (see Panel 2\u20132, pp. 92\u201393). Because the proton of a hydronium ion can be passed readily to many types of molecules in cells, altering their character, the concentration of H3O+ inside a cell (the acidity) must be closely regulated. Acids\u2014especially weak acids\u2014will give up their protons more readily if the concentration of H3O+ in solution is low and will tend to receive them back if the concentration in solution is high."
+        },
+        {
+            "id": "Biochemistry_Lippincott_16",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Equation derivation Consider the release of a proton by a weak acid represented by HA: The salt or conjugate base, A\u2212, is the ionized form of a weak acid. By definition, the dissociation constant of the acid, Ka, is: [Note: The larger the Ka, the stronger the acid, because most of the HA has dissociated into H+ and A\u2212. Conversely, the smaller the Ka, the less acid has dissociated and, therefore, the weaker the acid.] By solving for the [H+] in the above equation, taking the logarithm of both sides of the equation, multiplying both sides of the equation by \u22121, and substituting pH = \u2212log [H+] and pKa = \u2212log Ka, we obtain the Henderson-Hasselbalch equation: B. Buffers"
+        },
+        {
+            "id": "Cell_Biology_Alberts_224",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because an OH\u2013 ion combines with a H3O+ ion to form two water molecules, an increase in the OH\u2013 concentration forces a decrease in the concentration of H3O+, and vice versa. A pure solution of water contains an equal concentration (10\u20137 M) of both ions, rendering it neutral. The interior of a cell is also kept close to neutrality by the presence of buffers: weak acids and bases that can release or take up protons near pH 7, keeping the environment of the cell relatively constant under a variety of conditions. Figure 2\u20135 Protons readily move in aqueous solutions. (a) The reaction that takes place when a molecule of acetic acid dissolves in water. at ph 7, nearly all of the acetic acid is present as acetate ion. (B) Water molecules are continuously exchanging protons with each other to form hydronium and hydroxyl ions. These ions in turn rapidly recombine to form water molecules. a Cell is formed from Carbon Compounds"
+        },
+        {
+            "id": "Pharmacology_Katzung_57",
+            "title": "Pharmacology_Katzung",
+            "content": "2. Lipid diffusion\u2014Lipid diffusion is the most important limiting factor for drug permeation because of the large number of lipid barriers that separate the compartments of the body. Because these lipid barriers separate aqueous compartments, the lipid:aqueous partition coefficient of a drug determines how readily the molecule moves between aqueous and lipid media. In the case of weak acids and weak bases (which gain or lose electrical charge-bearing protons, depending on the pH), the ability to move from aqueous to lipid or vice versa varies with the pH of the medium, because charged molecules attract water molecules. The ratio of lipid-soluble form to water-soluble form for a weak acid or weak base is expressed by the Henderson-Hasselbalch equation (described in the following text). See Figure 1\u20134B. 3."
+        },
+        {
+            "id": "Pharmacology_Katzung_67",
+            "title": "Pharmacology_Katzung",
+            "content": "Application of this principle is made in the manipulation of drug excretion by the kidney (see Case Study). Almost all drugs are filtered at the glomerulus. If a drug is in a lipid-soluble form during its passage down the renal tubule, a significant fraction will be reabsorbed by simple passive diffusion. If the goal is to accelerate excretion of the drug (eg, in a case of drug overdose), it is important to prevent its reabsorption from the tubule. This can often be accomplished by adjusting urine pH to make certain that most of the drug is in the ionized state, as shown in Figure 1\u20135. As a result of this partitioning effect, the drug is \u201ctrapped\u201d in the urine. Thus, weak acids are usually excreted faster in alkaline urine; weak bases are usually excreted faster in acidic urine. Other body fluids in which pH differences from blood pH may cause trapping or reabsorption are the contents of the stomach (normal pH 1.9\u20133) and small intestine (pH 7.5\u20138), breast milk (pH 6.4\u20137.6), aqueous"
+        },
+        {
+            "id": "Surgery_Schwartz_647",
+            "title": "Surgery_Schwartz",
+            "content": "of human plasma. In addi-tion to the favorable, isotonic electrolyte composition, Plasma-Lyte contains a number of additional buffers that create a favorable profile for addressing acidosis.22 These characteristics have resulted in Plasma-Lyte emerging as one of the most popular isotonic fluids for use in surgery. It should be noted that Plasma-Lyte contains small quantities of potassium; although the likeli-hood of inducing hyperkalemia is very low, care should be taken when using Plasma-Lyte in patients at risk for renal impairment. The less concentrated sodium solutions, such as 0.45% sodium chloride, are useful for replacement of ongoing GI losses as well as for maintenance fluid therapy in the post-operative period. This solution provides sufficient free water for insensible losses and enough sodium to aid the kidneys in adjustment of serum sodium levels. The addition of 5% dextrose Table 3-10 Etiology of metabolic alkalosisIncreased bicarbonate generation1. Chloride losing"
+        },
+        {
+            "id": "Biochemistry_Lippincott_21",
+            "title": "Biochemistry_Lippinco",
+            "content": "Buffer pairs: The \u2013COOH/\u2013COO\u2212 pair can serve as a buffer in the pH region around pK1, and the \u2013NH3+/\u2013NH2 pair can buffer in the region around pK2. b. When pH = pK: When the pH is equal to pK1 (2.3), equal amounts of forms I and II of alanine exist in solution. When the pH is equal to pK2 (9.1), equal amounts of forms II and III are present in solution. c."
+        },
+        {
+            "id": "Biochemistry_Lippincott_20",
+            "title": "Biochemistry_Lippinco",
+            "content": "4. Alanine pKs: The sequential dissociation of H+ from the carboxyl and amino groups of alanine is summarized in Figure 1.10. Each titratable group has a pKa that is numerically equal to the pH at which exactly one half of the H+ have been removed from that group. The pKa for the most acidic group (\u2212COOH) is pK1, whereas the pKa for the next most acidic group (\u2212NH3+) is pK2. [Note: The pKa of the \u03b1-carboxyl group of amino acids is ~2, whereas that of the \u03b1-amino group is ~9.] 5. Alanine titration curve: By applying the Henderson-Hasselbalch equation to each dissociable acidic group, it is possible to calculate the complete titration curve of a weak acid. Figure 1.11 shows the change in pH that occurs during the addition of base to the fully protonated form of alanine (I) to produce the completely deprotonated form (III). Note the following: a."
+        },
+        {
+            "id": "Cell_Biology_Alberts_410",
+            "title": "Cell_Biology_Alberts",
+            "content": "a crystal of salt, NaCl Charged groups are shielded by their interactions with water molecules. Electrostatic attractions are therefore quite weak in water. Similarly, ions in solution can cluster around charged groups and further weaken these attractions. Despite being weakened by water and salt, electrostatic attractions are very important in biological systems. For example, an enzyme that binds a positively charged substrate will often have a negatively charged amino acid side chain at the appropriate place. PaNel 2\u20134: an Outline of Some of the Types of Sugars Commonly Found in Cells Monosaccharides usually have the general formula (CH2O) n, where n can be 3, 4, 5, 6, 7, or 8, and have two or more hydroxyl groups. They either contain an aldehyde group ( ) and are called aldoses, or a ketone group ( ) and are called ketoses. MONOSACCHARIDESC O C O H"
+        },
+        {
+            "id": "Pharmacology_Katzung_7195",
+            "title": "Pharmacology_Katzung",
+            "content": "The strength of a solution is usually expressed as the quantity of solute in sufficient solvent to make 100 mL; for instance, 20% potassium chloride solution is 20 grams of KCl per deciliter (g/dL) of final solution. Both the concentration and the volume should be explicitly written out."
+        },
+        {
+            "id": "First_Aid_Step1_251",
+            "title": "First_Aid_Step1",
+            "content": "A heterogenous mix of epidemiology, biostatistics, ethics, law, healthcare delivery, patient safety, quality improvement, and more falls under the heading of public health sciences. Biostatistics and epidemiology are the foundations of evidence-based medicine and are very high yield. Make sure you can quickly apply biostatistical equations such as sensitivity, specificity, and predictive values in a problem-solving format. Also, know how to set up your own 2 \u00d7 2 tables. Quality improvement and patient safety topics were introduced a few years ago on the exam and represent trends in health system science. Medical ethics questions often require application of principles. Typically, you are presented with a patient scenario and then asked how you would respond."
+        },
+        {
+            "id": "Cell_Biology_Alberts_600",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 3\u201345 Small changes in the number of weak bonds can have drastic effects on a binding interaction. This example illustrates the dramatic effect of the presence or absence of a few weak noncovalent bonds in a biological context. Consider 1000 molecules of A and 1000 molecules of B in a eukaryotic cell. The concentration of both will be about 10\u20139 M. If the equilibrium constant (K ) for A + B AB is 1010, then one can calculate that at equilibrium there will be If the equilibrium constant is a little weaker at 108, which represents a loss of 11.9 kilojoule/mole of binding energy from the example above, or 2\u20133 fewer hydrogen bonds, then there will be 270 A molecules 270 B molecules 730 AB molecules 915 A molecules 915 B molecules 85 AB molecules 0.5Vmax catalyzing only a single type of reaction. Thus, hexokinase adds a phosphate group to D-glucose but ignores its optical isomer L-glucose; the blood-clotting enzyme thrombin cuts one type of blood protein between a particular arginine"
+        },
+        {
+            "id": "Biochemistry_Lippincott_30",
+            "title": "Biochemistry_Lippinco",
+            "content": "Each amino acid also contains one of 20 distinctive side chains attached to the \u03b1-carbon atom. The chemical nature of this R group determines the function of an amino acid in a protein and provides the basis for classification of the amino acids as nonpolar, uncharged polar, acidic (polar negative), or basic (polar positive). All free amino acids, plus charged amino acids in peptide chains, can serve as buffers. The quantitative relationship between the pH of a solution and the concentration of a weak acid (HA) and its conjugate base (A\u2212) is described by the Henderson-Hasselbalch equation. Buffering occurs within \u00b11 pH unit of the pKa and is maximal when pH = pKa, at which [A\u2212] = [HA]. Because the \u03b1-carbon of each amino acid (except glycine) is attached to four different chemical groups, it is asymmetric (chiral), and amino acids exist in D-and L-isomeric forms that are optically active mirror images (enantiomers). The L-form of amino acids is found in proteins synthesized by the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2178",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the first step, the proteins are separated by their intrinsic charges. The sample is dissolved in a small volume of a solution containing a nonionic (uncharged) detergent, together with \u03b2-mercaptoethanol and the denaturing reagent urea. This solution solubilizes, denatures, and dissociates all the polypeptide chains but leaves their intrinsic charge unchanged. The polypeptide chains are then separated in a pH gradient by a procedure called isoelectric focusing, which takes advantage of the variation in the net charge on a protein molecule with the pH of its surrounding solution. Every protein has a characteristic isoelectric point, the pH at which the protein has no net charge and therefore does not migrate in an electric field. In isoelectric focusing, proteins are separated electrophoretically in a narrow tube of polyacrylamide gel in which a gradient of pH is established by a mixture of special buffers. Each protein moves to a position in the gradient that"
+        },
+        {
+            "id": "Surgery_Schwartz_13986",
+            "title": "Surgery_Schwartz",
+            "content": "PICO does not match questions PICO), because of inconsistency between studies, or because the absolute effect size is very small; Level may be graded up if there is a large or very large effect size.**As always, a systematic review is generally better than an individual study.How to cite the Levels of Evidence TableOCEBM Levels of Evidence Working Group*. \u201cThe Oxford 2011 Levels of Evidence\u201d.Oxford Centre for Evidence-Based Medicine. http://www.cebm.net/index.aspx?o=5653*OCEBM Table of Evidence Working Group = Jeremy Howick, Iain Chalmers (James Lind Library), Paul Glasziou, Trish Greenhaigh, Carl Heneghan, Alessandro Liberati, Ivan Moschetti, Bob Phillips, Hazel Thornton, Olive Goddard, and Mary HodgkinsanBrunicardi_Ch51_p2137-p2152.indd 214128/02/19 4:19 PM 2142SPECIFIC CONSIDERATIONSPART IIDefinitions of GRADE Evidence QualityHigh quality \u2013 Further research is very unlikely to change confidence in the estimate of effect.Moderate quality \u2013 Further research is likely to have an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3425",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure Q12\u20132 fG-repeat gel and influx of proteins into the nucleus (problem 12\u20139). (a) Cartoon of the meshwork (gel) formed by pairwise interactions between hydrophobic fG repeats. for fG-repeats separated by 17 amino acids, as is typical, the mesh formed by extended amino acid side chains would correspond to about 4 nm on a side, which would be large enough to account for the characteristic passive diffusion of proteins through nuclear pores. (B) Diffusion of mBp-mCherry and importin-mBp-Gfp into a gel of fG-repeats. in each group, the solution is shown at left and the gel at right. The bright areas indicate regions that contain the fluorescent proteins."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6814",
+            "title": "Cell_Biology_Alberts",
+            "content": "bright-field microscope Normal light microscope in which the image is obtained by simple transmission of light through the object being viewed. buffer Solution of weak acid or weak base that resists the pH change that would otherwise occur when small quantities of acid or base are added. C3 The pivotal complement protein that is activated by the early components of all three complement pathways (the classical pathway, the lectin pathway, and the alternative pathway). (Figure 24\u20137) Ca2+ pump (calcium pump, Ca2+ ATPase) Transport protein in the membrane of sarcoplasmic reticulum of muscle cells (and elsewhere). Pumps Ca2+ out of the cytoplasm into the sarcoplasmic reticulum using the energy of ATP hydrolysis."
+        },
+        {
+            "id": "First_Aid_Step2_1328",
+            "title": "First_Aid_Step2",
+            "content": "Case studies and a comprehen-sive exam at the end of the book (also provided on CD-ROM) are helpful. Includes a good discussion. Cons: A dense, lengthy text. Lacks good illustrations of any kind. Summary: A thorough review, but more appropriate for clerkships than for Step 2 CK review, in large part be-cause of its depth. $42.95 Review/Test/100+ q"
+        },
+        {
+            "id": "Pharmacology_Katzung_26",
+            "title": "Pharmacology_Katzung",
+            "content": "The specific nature of a particular drug-receptor bond is of less practical importance than the fact that drugs that bind through weak bonds to their receptors are generally more selective than drugs that bind by means of very strong bonds. This is because weak bonds require a very precise fit of the drug to its receptor if an interaction is to occur. Only a few receptor types are likely to provide such a precise fit for a particular drug structure. Thus, if we wished to design a highly selective short-acting drug for a particular receptor, we would avoid highly reactive molecules that form covalent bonds and instead choose a molecule that forms weaker bonds. A few substances that are almost completely inert in the chemical sense nevertheless have significant pharmacologic effects. For example, xenon, an \u201cinert\u201d gas, has anesthetic effects at elevated pressures."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2500",
+            "title": "Cell_Biology_Alberts",
+            "content": "The most common strategy for solving this problem is to use ordinary differential equations. The equations that describe biochemical reactions have a simple premise: the rate of change in the concentration of any molecular species X (that is, d[X]/dt) is given by the balance of the rate of its appearance with that of its disappearance. For our example, the rate of change in the concentration of the bound promoter complex, [A:pX], is determined by the rates of complex assembly and disassembly. We can incorporate these rates into the differential equation shown in Figure 8\u201373A (Equation 8\u20134). When [A] changes, Equation 8\u20134 can be solved to generate the concentration of [A:pX] as a function of time. Notice that when kon [A][pX] = koff [A:pX], then d[A:pX]/dt = 0 and [A:pX] stops changing. At this point, the system has reached the steady state."
+        }
+    ],
+    "scores": [
+        0.03008772999475503,
+        0.028862169106917884,
+        0.027623727623727626,
+        0.02665007948026816,
+        0.025407774740218,
+        0.01951637471439452,
+        0.019232547387887194,
+        0.018558295386201563,
+        0.018424611223799865,
+        0.018354803401532373,
+        0.017905459175553078,
+        0.01731893837156995,
+        0.017193034238488784,
+        0.017193034238488784,
+        0.016736694677871148,
+        0.016693108919086708,
+        0.01633333333333333,
+        0.016215861344537813,
+        0.015716374269005847,
+        0.015051208057488824,
+        0.01498652896273013,
+        0.014732475268588448,
+        0.014062935115566694,
+        0.013784461152882205,
+        0.013636363636363637,
+        0.011566877277437902,
+        0.010932857991681522,
+        0.010101267760120398,
+        0.009900990099009901,
+        0.009900990099009901,
+        0.00980392156862745,
+        0.00980392156862745
+    ],
+    "execution_time": 33.307581663131714
+}

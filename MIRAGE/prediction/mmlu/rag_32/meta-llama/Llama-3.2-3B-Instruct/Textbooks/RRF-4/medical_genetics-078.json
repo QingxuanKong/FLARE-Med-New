@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-078",
+    "question": "Which component of transcribed RNA in eukaryotes is present in the initial transcript but is removed before translation occurs?",
+    "options": {
+        "A": "Intron",
+        "B": "3\u2019 Poly A tail",
+        "C": "Ribosome binding site",
+        "D": "5\u2019 cap"
+    },
+    "answer": "A",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to understand the process of transcription in eukaryotes and what components are present in the initial transcript that are removed before translation occurs.\\n\\nIn eukaryotes, transcription is a multi-step process that involves the synthesis of RNA from DNA. The initial transcript, also known as pre-mRNA, contains several components that are modified or removed before translation occurs.\\n\\nThe 5' cap is a methylated guanine nucleotide that is added to the 5' end of the pre-mRNA during the capping process. It serves as a landmark to distinguish eukaryotic mRNAs from other types of RNA molecules.\\n\\nIntrons are non-coding regions within the pre-mRNA that are removed during the splicing process. They are not present in the final mature mRNA transcript.\\n\\nThe 3' poly-A tail is added to the 3' end of the pre-mRNA during the polyadenylation process. It serves as a signal for the mRNA to be exported from the nucleus.\\n\\nThe ribosome binding site is not a component of the initial transcript, but rather a sequence on the mRNA that serves as a signal for ribosome binding during translation.\\n\\nTherefore, the component of transcribed RNA in eukaryotes that is present in the initial transcript but is removed before translation occurs is the intron.\\n\\nAnswer: A\"} {\"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_1480",
+            "title": "Cell_Biology_Alberts",
+            "content": "Transcription Elongation in Eukaryotes Is Tightly Coupled to RNA Processing We have seen that bacterial mRNAs are synthesized by the RNA polymerase starting and stopping at specific spots on the genome. The situation in eukaryotes is substantially different. In particular, transcription is only the first of several steps needed to produce a mature mRNA molecule. Other critical steps are the covalent modification of the ends of the RNA and the removal of intron sequences that are discarded from the middle of the RNA transcript by the process of RNA splicing (Figure 6\u201320). Both ends of eukaryotic mRNAs are modified: by capping on the 5\u02b9 end and by polyadenylation of the 3\u02b9 end (Figure 6\u201321). These special ends allow the cell to assess whether both ends of an mRNA molecule are present (and if the message is therefore intact) before it exports the RNA from the nucleus and translates it"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1481",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201320 Comparison of the steps leading from gene to protein in eukaryotes and bacteria. The final level of a protein in the cell depends on the efficiency of each step and on the rates of degradation of the RNA and protein molecules. (A) In eukaryotic cells, the mRNA molecule resulting from transcription contains both coding (exon) and noncoding (intron) sequences. Before it can be translated into protein, the two ends of the RNA are modified, the introns are removed by an enzymatically catalyzed RNA splicing reaction, and the resulting mRNA is transported from the nucleus to the cytoplasm. For convenience, the steps in this figure are depicted as occurring one at a time; in reality, many occur concurrently. For example, the RNA cap is added and splicing begins before transcription has been completed. Because of the coupling between transcription and RNA processing, intact primary transcripts\u2014the full-length RNAs that would, in theory, be produced if no processing had"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1482",
+            "title": "Cell_Biology_Alberts",
+            "content": "has been completed. Because of the coupling between transcription and RNA processing, intact primary transcripts\u2014the full-length RNAs that would, in theory, be produced if no processing had occurred\u2014are found only rarely. (B) In prokaryotes, the production of mRNA is much simpler. The 5\u02b9 end of an mRNA molecule is produced by the initiation of transcription, and the 3\u02b9 end is produced by the termination of transcription. Since prokaryotic cells lack a nucleus, transcription and translation take place in a common compartment, and the translation of a bacterial mRNA often begins before its synthesis has been completed."
+        },
+        {
+            "id": "Surgery_Schwartz_3292",
+            "title": "Surgery_Schwartz",
+            "content": "rRNAs; RNA polymerase II synthesizes the precursors of mRNA as well as microRNA; and RNA polymerase III makes tRNAs and 5S rRNAs. (b) In eukaryotes, the initial transcript is often the pre-cursor to final mRNAs, tRNAs, and rRNAs. The precursor is then modified and/or processed into its final functional form. RNA splicing is one type of processing to remove the noncoding introns (the region between coding exons) on an mRNA. (c) In contrast to bacterial DNA, eukaryotic DNA often is packaged with histone and nonhistone proteins into chromatins. Transcrip-tion will only occur when the chromatin structure changes in such a way that DNA is accessible to the polymerase. (d) RNA is made in the nucleus and transported into cytoplasm, where translation occurs. Therefore, unlike bacteria, eukaryotes undergo uncoupled transcription and translation.Eukaryotic gene transcription also involves the recogni-tion and binding of RNA polymerase to the promoter DNA. However, the interaction between the"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1429",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201310 Transcription of two genes as observed under the electron microscope. The micrograph shows many molecules of RNA polymerase simultaneously transcribing each of two adjacent genes. Molecules of RNA polymerase are visible as a series of dots along the DNA with the newly synthesized transcripts (fine threads) attached to them. The RNA molecules (ribosomal RNAs) shown in this example are not translated into protein but are instead used directly as components of ribosomes, the machines on which translation takes place. The particles at the 5\u02b9 end (the free end) of each rRNA transcript are believed to reflect the beginnings of ribosome assembly. From the relative lengths of the newly synthesized transcripts, it can be deduced that the RNA polymerase molecules are transcribing from left to right. (Courtesy of Ulrich Scheer.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1399",
+            "title": "Cell_Biology_Alberts",
+            "content": "of molecular biology, there are important variations between organisms in the way in which information flows from DNA to protein. Principal among these is that RNA transcripts in eukaryotic cells are subject to a series of processing steps in the nucleus, including RNA splicing, before they are permitted to exit from the nucleus and be translated into protein. As we discuss in this chapter, these processing steps can critically change the \u201cmeaning\u201d of an RNA molecule and are therefore crucial for understanding how eukaryotic cells read their genome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1578",
+            "title": "Cell_Biology_Alberts",
+            "content": "During the elongation phase of transcription, the nascent RNA undergoes three types of processing events: a special nucleotide is added to its 5\u02b9 end (capping), intron sequences are removed from the middle of the RNA molecule (splicing), and the 3\u02b9 end of the RNA is generated (cleavage and polyadenylation). Each of these processes is initiated by proteins that travel along with RNA polymerase II by binding to sites on its long, extended C-terminal tail. Splicing is unusual in that many of its key steps are carried out by specialized RNA molecules rather than proteins. Only properly processed mRNAs are passed through nuclear pore complexes into the cytosol, where they are translated into protein. For many genes, RNA, rather than protein, is the final product. In eukaryotes, these genes are usually transcribed by either RNA polymerase I or RNA polymerase"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1430",
+            "title": "Cell_Biology_Alberts",
+            "content": "Each transcribed segment of DNA is called a transcription unit. In eukaryotes, a transcription unit typically carries the information of just one gene, and therefore codes for either a single RNA molecule or a single protein (or group of related proteins if the initial RNA transcript is spliced in more than one way to produce different mRNAs). In bacteria, a set of adjacent genes is often transcribed as a unit; the resulting mRNA molecule therefore carries the information for several distinct proteins. Overall, RNA makes up a few percent of a cell\u2019s dry weight, whereas proteins comprise about 50%. Most of the RNA in cells is rRNA; mRNA comprises only 3\u20135% of the total RNA in a typical mammalian cell. The mRNA population is made up of tens of thousands of different species, and there are on average only 10\u201315 molecules of each species of mRNA present in each cell. Signals Encoded in DNA Tell RNA Polymerase Where to Start and Stop"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1827",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the next sections, we discuss these features of transcription initiation in eukaryotes, emphasizing how they provide extra levels of control not found in bacteria. A eukaryotic Gene Control region Consists of a promoter plus Many cis-regulatory Sequences In eukaryotes, RNA polymerase II transcribes all the protein-coding genes and many noncoding RNA genes, as we saw in Chapter 6. This polymerase requires five general transcription factors (27 subunits in toto; see Table 6\u20133, p. 311), in contrast to bacterial RNA polymerase, which needs only a single general transcription factor (the \u03c3 subunit). As we have seen, the stepwise assembly of the general transcription factors at a eukaryotic promoter provides, in principle, multiple steps at which the cell can speed up or slow down the rate of transcription initiation in response to transcription regulators."
+        },
+        {
+            "id": "Cell_Biology_Alberts_7019",
+            "title": "Cell_Biology_Alberts",
+            "content": "RNA polymerase Enzyme that catalyzes the synthesis of an RNA molecule on a DNA template from ribonucleoside triphosphate precursors. (Figure 6\u20139) RNA primer Short stretch of RNA synthesized on a DNA template. It is required by DNA polymerases to start their DNA synthesis. RNA processing control Regulation by a cell of gene expression by controlling the processing of RNA transcripts, which includes their splicing. RNA splicing Process in which intron sequences are excised from RNA transcripts. A major process in the nucleus of eukaryotic cells leading to formation of messenger RNAs (mRNAs). RNA transport and localization control Regulation by a cell of gene expression by selecting which completed mRNAs are exported from the nucleus to the cytosol and determining where in the cytosol they are localized. RNA world Hypothesis that early life on Earth was based primarily on RNA molecules that both stored genetic information and catalyzed biochemical reactions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1493",
+            "title": "Cell_Biology_Alberts",
+            "content": "The 5\u02b9-methyl cap signifies the 5\u02b9 end of eukaryotic mRNAs, and this landmark helps the cell to distinguish mRNAs from the other types of RNA molecules present in the cell. For example, RNA polymerases I and III produce uncapped RNAs during transcription, in part because these polymerases lack a CTD. In the nucleus, the cap binds a protein complex called CBC (cap-binding complex), which, as we discuss in subsequent sections, helps a future mRNA be further processed and exported. The 5\u02b9-methyl cap also has an important role in the translation of mRNAs in the cytosol, as we discuss later in the chapter. 5\u02dc end of nascent RNA transcript"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2028",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although approximately 90% of eukaryotic mRNAs are translated beginning with the first AUG downstream from the 5\u02b9 cap, certain AUGs, as we saw in the previous section, can be skipped over during the scanning process. In this section, we discuss yet another way that cells can initiate translation at positions distant from the 5\u02b9 end of the mRNA, using a specialized type of RNA sequence called an internal ribosome entry site (IRES). In some cases, two distinct protein-coding sequences are carried in tandem on the same eukaryotic mRNA; translation of the first occurs by the usual scanning mechanism, and translation of the second occurs through an IRES. IRESs are typically several hundred nucleotides in length and fold into specific structures that bind many, but not all, of the same proteins that are used to initiate normal 5\u02b9 cap-dependent translation (Figure 7\u201368). In fact, different IRESs require different subsets of initiation factors. However, all of them bypass the need for a 5\u02b9"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1586",
+            "title": "Biochemistry_Lippinco",
+            "content": "One important difference is that translation and transcription are temporally linked in prokaryotes, with translation starting before transcription is completed as a consequence of the lack of a nuclear membrane in prokaryotes. A. Initiation Initiation of protein synthesis involves the assembly of the components of the translation system before peptide-bond formation occurs. These components include the two ribosomal subunits, the mRNA to be translated, the aminoacyl-tRNA specified by the first codon in the message, GTP, and initiation factors that facilitate the assembly of this initiation complex (see Fig. 32.13). [Note: In prokaryotes, three initiation factors are known (IF-1, IF-2, and IF-3), whereas in eukaryotes, there are many (designated eIF to indicate eukaryotic origin). Eukaryotes also require ATP for initiation.] The following are two mechanisms by which the ribosome recognizes the nucleotide sequence (AUG) that initiates translation."
+        },
+        {
+            "id": "Surgery_Schwartz_3293",
+            "title": "Surgery_Schwartz",
+            "content": "undergo uncoupled transcription and translation.Eukaryotic gene transcription also involves the recogni-tion and binding of RNA polymerase to the promoter DNA. However, the interaction between the polymerase and DNA is far more complex in eukaryotes than in prokaryotes. Because the majority of studies have been focused on the regulation and functions of proteins, this chapter primarily focuses on how protein-encoding mRNA is made by RNA polymerase II.Translation. DNA directs the synthesis of RNA; RNA in turn directs the synthesis of proteins. Proteins are variable-length polypeptide polymers composed of various combinations of 20 different amino acids and are the working molecules of the cell. The process of decoding information on mRNA to synthesize proteins is called translation (see Fig. 15-1). Translation takes place in ribosomes composed of rRNA and ribosomal proteins. The numerous discoveries made during the 1950s made it easy to understand how DNA replication and transcription"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1579",
+            "title": "Cell_Biology_Alberts",
+            "content": "For many genes, RNA, rather than protein, is the final product. In eukaryotes, these genes are usually transcribed by either RNA polymerase I or RNA polymerase III. RNA polymerase I makes the ribosomal RNAs. After their synthesis as a large precursor, the rRNAs are chemically modified, cleaved, and assembled into the two ribosomal subunits in the nucleolus\u2014a distinct subnuclear structure that also helps to process some smaller RNA\u2013protein complexes in the cell. Additional subnuclear structures (including Cajal bodies and interchromatin granule clusters) are sites where components involved in RNA processing are assembled, stored, and recycled. The high concentration of components in such \u201cfactories\u201d ensures that the processes being catalyzed are rapid and efficient."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1638",
+            "title": "Biochemistry_Lippinco",
+            "content": "Transcriptional attenuation can occur in prokaryotes because translation of an mRNA begins before its synthesis is complete. This does not occur in eukaryotes because the presence of a membrane-bound nucleus spatially and temporally separates transcription and translation. E. Coordination of transcription and translation Although transcriptional regulation of mRNA production is primary in bacteria, regulation of ribosomal RNA (rRNA) and protein synthesis plays important roles in adaptation to environmental stress. 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1538",
+            "title": "Cell_Biology_Alberts",
+            "content": "After the 3\u02b9-end of a eukaryotic pre-mRNA molecule has been cleaved, the RNA polymerase II continues to transcribe, in some cases for hundreds of nucleotides. Once 3\u02b9-end cleavage has occurred, the newly synthesized RNA that emerges from the polymerases lacks a 5\u02b9 cap; this unprotected RNA is rapidly degraded by a 5\u02b9 \u21923\u02b9 exonuclease carried along on the polymerase tail. Apparently, it is this continued RNA degradation that eventually causes the RNA polymerase to release its grip on the template and terminate transcription. Mature Eukaryotic mRNAs Are Selectively Exported from the Nucleus"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1551",
+            "title": "Biochemistry_Lippinco",
+            "content": "is a linear copy of a transcription unit, the segment of DNA between specific initiation and termination sequences. The primary transcripts of both prokaryotic and eukaryotic tRNA and rRNA are posttranscriptionally modified. The rRNA are synthesized from long precursor molecules called pre-rRNA. These precursors are cleaved and trimmed by ribonucleases, producing the three largest rRNA, and bases and sugars are modified. Eukaryotic 5S rRNA is synthesized by RNA pol III and is modified separately. Prokaryotic and eukaryotic tRNA are also made from longer precursor molecules (pre-tRNA). If present, an intron is removed by nucleases, and both ends of the molecule are trimmed by ribonucleases. A 3\u2032-CCA sequence is added, and bases at specific positions are modified. Prokaryotic mRNA is generally identical to its primary transcript, whereas eukaryotic pre-mRNA is extensively modified co-and posttranscriptionally. For example, a 7-methylguanosine cap is attached to the 5\u2032-end of the mRNA"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1449",
+            "title": "Cell_Biology_Alberts",
+            "content": "Having considered transcription in bacteria, we now turn to the situation in eukaryotes, where the synthesis of RNA molecules is a much more elaborate affair. In contrast to bacteria, which contain a single type of RNA polymerase, eukaryotic nuclei have three: RNA polymerase I, RNA polymerase II, and RNA polymerase III. The three polymerases are structurally similar to one another and share some common subunits, but they transcribe different categories of genes (Table 6\u20132). RNA polymerases I and III transcribe the genes encoding transfer RNA, ribosomal RNA, and various small RNAs. RNA polymerase II transcribes most genes, including all those that encode proteins, and our subsequent discussion therefore focuses on this enzyme. Eukaryotic RNA polymerase II has many structural similarities to bacterial RNA polymerase (Figure 6\u201314). But there are several important differences in the way in which the bacterial and eukaryotic enzymes function, two of which concern us immediately. 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1467",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once RNA polymerase has initiated transcription, it moves jerkily, pausing at some DNA sequences and rapidly transcribing through others. Elongating RNA polymerases, both bacterial and eukaryotic, are associated with a series of elongation factors, proteins that decrease the likelihood that RNA polymerase will dissociate before it reaches the end of a gene. These factors typically associate with RNA polymerase shortly after initiation and help the polymerase move through the wide variety of different DNA sequences that are found in genes. Eukaryotic RNA polymerases must also contend with chromatin structure as they move along a DNA template, and they are typically aided by ATP-dependent chromatin remodeling complexes that either move with the polymerase or may simply seek out and rescue the occasional stalled polymerase. In addition, histone chaperones help by partially disassembling nucleosomes in front of a moving RNA polymerase and assembling them behind."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1461",
+            "title": "Cell_Biology_Alberts",
+            "content": "Once the polymerase II has begun elongating the RNA transcript, most of the general transcription factors are released from the DNA so that they are available to initiate another round of transcription with a new RNA polymerase molecule. As we see shortly, the phosphorylation of the tail of RNA polymerase II has an additional function: it causes components of the RNA-processing machinery to load onto the polymerase and thus be positioned to modify the newly transcribed RNA as it emerges from the polymerase. Polymerase II Also Requires Activator, Mediator, and Chromatin-Modifying Proteins"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1484",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201321 A comparison of the structures of prokaryotic and eukaryotic mRNA molecules. (A) The 5\u02b9 and 3\u02b9 ends of a bacterial mRNA are the unmodified ends of the chain synthesized by the RNA polymerase, which initiates and terminates transcription at those points, respectively. The corresponding ends of a eukaryotic mRNA are formed by adding a 5\u02b9 cap and by cleavage of the pre-mRNA transcript near the 3\u02b9 end and the addition of a poly-A tail, respectively. The figure also illustrates another difference between the prokaryotic and eukaryotic mRNAs: bacterial mRNAs can contain the instructions for several different proteins, whereas eukaryotic mRNAs nearly always contain the information for only a single protein. (B) The structure of the cap at the 5\u02b9 end of eukaryotic mRNA molecules. Note the unusual 5\u02b9-to-5\u02b9 linkage of the 7-methyl G to the remainder of the RNA. Many eukaryotic mRNAs carry an additional modification: methylation of the 2\u02b9-hydroxyl group of the ribose sugar at the 5\u02b9"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1576",
+            "title": "Cell_Biology_Alberts",
+            "content": "Before the synthesis of a particular protein can begin, the corresponding mRNA molecule must be produced by transcription. Bacteria contain a single type of RNA polymerase (the enzyme that carries out the transcription of DNA into RNA). An mRNA molecule is produced after this enzyme initiates transcription at a promoter, synthesizes the RNA by chain elongation, stops transcription at a terminator, and releases both the DNA template and the completed mRNA molecule. In eukaryotic cells, the process of transcription is much more complex, and there are three RNA polymerases\u2014polymerase I, II, and III\u2014that are related evolutionarily to one another and to the bacterial polymerase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1662",
+            "title": "Cell_Biology_Alberts",
+            "content": "Both bacteria and eukaryotes use polysomes, and both employ additional strategies to speed up the overall rate of protein synthesis. Because bacterial mRNA does not need to be processed and is accessible to ribosomes while it is being made, ribosomes can attach to the free end of a bacterial mRNA molecule and start translating it even before the transcription of that RNA is complete, following closely behind the RNA polymerase as it moves along DNA. In eukaryotes, as we have seen, the 5\u02b9and 3\u02b9 ends of the mRNA interact (see Figure 6\u201373A); therefore, as soon as a ribosome dissociates, its two subunits are in an optimal position to reinitiate translation on the same mRNA molecule. There Are Minor Variations in the Standard Genetic Code"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1836",
+            "title": "Cell_Biology_Alberts",
+            "content": "whereas Mediator and the general transcription factors are the same for all rnA polymerase ii-transcribed genes, the transcription regulators and the locations of their binding sites relative to the promoter differ for each gene. for example, in one case as part of a complex that activates transcription and in another case as part of a complex that represses transcription. Thus, individual eukaryotic transcription regulators function as regulatory parts that are used to build complexes whose function depends on the final assembly of all of the individual components. Each eukaryotic gene is therefore regulated by a \u201ccommittee\u201d of proteins, all of which must be present to express the gene at its proper level. Activator proteins promote the Assembly of rnA polymerase at the Start point of transcription"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1494",
+            "title": "Cell_Biology_Alberts",
+            "content": "5\u02dc end of nascent RNA transcript As discussed in Chapter 4, the protein-coding sequences of eukaryotic genes are typically interrupted by noncoding intervening sequences (introns). Discovered 5\u02dc 3\u02dc in 1977, this feature of eukaryotic genes came as a surprise to scientists, who had been, until that time, familiar only with bacterial genes, which typically consist of a continuous stretch of coding DNA that is directly transcribed into mRNA. In marked contrast, eukaryotic genes were found to be broken up into small pieces of coding sequence (expressed sequences or exons) interspersed with much longer intervening sequences or introns; thus, the coding portion of a eukaryotic gene is often only a small fraction of the length of the gene (Figure 6\u201324)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1539",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Transfer RNA Both eukaryotic and prokaryotic tRNA are also made from longer precursor molecules that must be modified (Fig. 31.16). Sequences at both ends of the molecule are removed, and, if present, an intron is removed from the anticodon loop by nucleases. Other posttranscriptional modifications include addition of a \u2013CCA sequence by nucleotidyltransferase to the 3\u2032terminal end of tRNA and modification of bases at specific positions to produce the unusual bases characteristic of tRNA (see p. 291). C. Eukaryotic messenger RNA The collection of all the primary transcripts synthesized in the nucleus by RNA pol II is known as heterogeneous nuclear RNA (hnRNA). The premRNA components of hnRNA undergo extensive co-and posttranscriptional modification in the nucleus and become mature mRNA. These modifications usually include the following. [Note: Pol II itself recruits the proteins required for the modifications.] 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1998",
+            "title": "Cell_Biology_Alberts",
+            "content": "rnA transport from the nucleus Can Be regulated It has been estimated that in mammals only about one-twentieth of the total mass of RNA synthesized ever leaves the nucleus. We saw in Chapter 6 that most mammalian RNA molecules undergo extensive processing and that the \u201cleftover\u201d RNA fragments (excised introns and RNA sequences 3\u02b9 to the cleavage/poly-A site) are degraded in the nucleus. Incompletely processed and otherwise damaged RNAs are also eventually degraded as part of the quality control system for RNA production. As described in Chapter 6, the export of RNA molecules from the nucleus is delayed until processing has been completed. However, mechanisms that deliberately override this control point can be used to regulate gene expression. This strategy forms the basis for one of the best-understood examples of regulated nuclear transport of mRNA, which occurs in the human AIDS virus, HIV."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1540",
+            "title": "Cell_Biology_Alberts",
+            "content": "The answer is that, as an RNA molecule is processed, it loses certain proteins and acquires others. For example, we have seen that acquisition of cap-binding complexes, exon junction complexes, and poly-A-binding proteins mark the completion of capping, splicing, and poly-A addition, respectively. A properly completed mRNA molecule is also distinguished by the proteins it lacks. For example, the presence of an snRNP protein would signify incomplete or aberrant splicing. Only when the proteins present on an mRNA molecule collectively signify that processing was successfully completed is the mRNA exported from the nucleus into the cytosol, where it can be translated into protein. Improperly processed mRNAs"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1773",
+            "title": "Cell_Biology_Alberts",
+            "content": "If differences among the various cell types of an organism depend on the particular genes that the cells express, at what level is the control of gene expression exercised? As we saw in the previous chapter, there are many steps in the pathway leading from DNA to protein. We now know that all of them can in principle be regulated. Thus a cell can control the proteins it makes by (1) controlling when and how often a given gene is transcribed (transcriptional control), (2) controlling the splicing and processing of RNA transcripts (RNA processing control), (3) selecting which completed mRNAs are exported from the nucleus to the cytosol and determining where in the cytosol they are localized (RNA transport and localization control), (4) selecting which mRNAs in the cytoplasm are translated by ribosomes (translational control), (5) selectively destabilizing certain mRNA molecules in the cytoplasm (mRNA degradation control), or (6) selectively activating, inactivating, degrading, or"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1526",
+            "title": "Biochemistry_Lippinco",
+            "content": "IV. EUKARYOTIC GENE TRANSCRIPTION The transcription of eukaryotic genes is a far more complicated process than transcription in prokaryotes. Eukaryotic transcription involves separate polymerases for the synthesis of rRNA, tRNA, and mRNA. In addition, a large number of proteins called transcription factors (TF) are involved. TF bind to distinct sites on the DNA within the core promoter region, close (proximal) to it, or some distance away (distal). They are required for both the assembly of a transcription initiation complex at the promoter and the determination of which genes are to be transcribed. [Note: Each eukaryotic RNA pol has its own promoters and TF that bind core promoter sequences.] For TF to recognize and bind to their specific DNA sequences, the chromatin structure in that region must be decondensed (relaxed) to allow access to the DNA. The role of transcription in the regulation of gene expression is discussed in Chapter 33. A. Chromatin structure and gene expression"
+        },
+        {
+            "id": "Histology_Ross_252",
+            "title": "Histology_Ross",
+            "content": "FIGURE 2.27 \u2022 Summary of events during protein synthesis. Proteins synthesis begins within the nucleus with transcription, during which the genetic code for a protein is transcribed from DNA to mRNA precursors. After post-transcriptional modifcations of the premRNA molecule\u2014which include RNA cleavage, excision of introns, rejoining of exons, and capping by addition of poly(A) tracks at the 3 end and methylguanosine cap at the 5 end\u2014 the resulting mRNA molecule leaves the nucleus into the cytoplasm. In the cytoplasm, the mRNA sequence is read by the ribosomal complex in the process of translation to form a polypeptide chain. The frst group of 15 to 60 amino acids on the amino-terminus of a newly synthesized polypeptide forms a signal sequence (signal peptide) that directs protein to its destination (i.e., lumen of rER). The signal peptide interacts with a signal-recognition particle (SRP), which arrests further growth of the polypeptide chain until its relocation toward the rER"
+        }
+    ],
+    "scores": [
+        0.037515187138640646,
+        0.03739260834713679,
+        0.0364744627561681,
+        0.03429494546751184,
+        0.03322680086846655,
+        0.027588475262893868,
+        0.02743575527909442,
+        0.02681604156981967,
+        0.02573685466350199,
+        0.024657504991938153,
+        0.024504568935107107,
+        0.02387414397893437,
+        0.023696718180452266,
+        0.023661311217382276,
+        0.023537665963872585,
+        0.02337346691809705,
+        0.023026419450074234,
+        0.02301588435276976,
+        0.02284343772946397,
+        0.02249147335259965,
+        0.022436105116076605,
+        0.02208307061790668,
+        0.021544602246356633,
+        0.02154269231673485,
+        0.021420122717527905,
+        0.021236892475374705,
+        0.021230079014329717,
+        0.021118056832342545,
+        0.02056200163565733,
+        0.02052263361986048,
+        0.020199736297722884,
+        0.020073774570418066
+    ],
+    "execution_time": 11.611004114151001
+}

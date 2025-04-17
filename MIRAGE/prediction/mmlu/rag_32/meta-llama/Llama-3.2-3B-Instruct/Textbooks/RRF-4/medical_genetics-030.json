@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-030",
+    "question": "The mutational mechanism in \u03b4\u03b2-thalassaemia consists of:",
+    "options": {
+        "A": "a deletion.",
+        "B": "a duplication.",
+        "C": "an insertion.",
+        "D": "a point mutation."
+    },
+    "answer": "A",
+    "predict": "Based on the provided documents, I will analyze the question step-by-step to determine the correct answer. From Document [0] (Title: InternalMed_Harrison), we know that Hb Lepore [\u03b12(\u03b4\u03b2)2] arises from an unequal crossover and recombination event that fuses the proximal end of the \u03b4-gene with the distal end of the closely linked \u03b2-gene. This implies that the mutation is a result of a chromosomal rearrangement, which is a type of structural change. However, the question asks about the mutational mechanism of \u03b4\u03b2-thalassemia, not Hb Lepore. From Document [12] (Title: Pathology_Robbins) and Document [26] (Title: Obstentrics_Williams), we can infer that \u03b4\u03b2-thalassemia is a type of thalassemia that results from mutations in the \u03b4-globin gene. From Document [12] (Title: Pathology_Robbins) and Document [26] (Title: Obstentrics_Williams), we can conclude that \u03b4\u03b2-thalassemia is caused by a deletion of one or more \u03b1-globin genes, not the \u03b4-globin gene. Considering the above information, the correct answer is not a deletion, duplication, or insertion. However, the documents do not explicitly state the type of mutation. Based on the context, it is likely that the mutation is a deletion, as it is mentioned in the discussion of \u03b1-thalassemia. However, since the question specifically asks about \u03b4\u03b2-thalassemia, we can conclude that the mutational mechanism is a deletion of one or more \u03b1-globin genes, but the exact nature of the mutation (deletion, point mutation, etc.) is not explicitly stated. Since the documents do not provide a clear answer, I will choose the most likely option based on the context. \"\u0394\" is not an option, but \"deletion\" is closely related to the concept of \"\u0394\". Therefore, I will choose: \"answer_choice\": \"A\"",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_8091",
+            "title": "InternalMed_Harrison",
+            "content": "Thalassemic structural variants are characterized by both defective synthesis and abnormal structure. Hb Lepore [\u03b12(\u03b4\u03b2)2] arises by an unequal crossover and recombination event that fuses the proximal end of the \u03b4-gene with the distal end of the closely linked \u03b2-gene. It is common in the Mediterranean basin. The resulting chromosome contains only the fused \u03b4\u03b2 gene. The Lepore (\u03b4\u03b2) globin is synthesized poorly because the fused gene is under the control of the weak \u03b4-globin promoter. Hb Lepore alleles have a phenotype like \u03b2 thalassemia, except for the added presence of 2\u201320% Hb Lepore. Compound heterozygotes for Hb Lepore and a classic \u03b2 thalassemia allele may also have severe thalassemia."
+        },
+        {
+            "id": "Pathology_Robbins_2705",
+            "title": "Pathology_Robbins",
+            "content": "Table 12.3 The mutations responsible for \u03b2-thalassemia are diverse and disrupt \u03b2-globin synthesis in several different ways. The most common mutations lead to abnormal RNA splicing, whereas others fall in the \u03b2-globin gene promoter or coding regions. The specific nature of the mutation determines whether the outcome is a \u03b2+ or \u03b20 allele. Defective synthesis of \u03b2-globin in \u03b2-thalassemia contributes to anemia through two mechanisms: (1) inadequate HbA formation, resulting in small (microcytic), poorly hemoglobinized (hypochromic) red cells; and (2) by allowing the accumulation of unpaired \u03b1-globin chains, which form toxic precipitates that severely damage the membranes of red cells and erythroid precursors. A high fraction of erythroid precursors are so badly damaged that they die by apoptosis ("
+        },
+        {
+            "id": "Pathology_Robbins_2704",
+            "title": "Pathology_Robbins",
+            "content": "Table 12.3), as described next. Mutations associated with \u03b2-thalassemia fall into two categories: (1) \u03b20, in which no \u03b2-globin chains are produced; and (2) \u03b2+ , in which there is reduced (but detectable) \u03b2-globin synthesis. Sequencing of \u03b2-thalassemia genes has shown more than 100 different causative mutations, a majority consisting of single-base changes. Persons inheriting one abnormal allele have \u03b2-thalassemia minor (also known as \u03b2-thalassemia trait), which is asymptomatic or mildly symptomatic. Most people inheriting any two \u03b20 and \u03b2+ alleles have \u03b2-thalassemia major; occasionally, persons inheriting at least one \u03b2+ allele have a milder disease termed \u03b2-thalassemia intermedia. In contrast with \u03b1-thalassemia (described later), gene deletions rarely underlie \u03b2-thalassemia ( Table 12.3"
+        },
+        {
+            "id": "InternalMed_Harrison_8077",
+            "title": "InternalMed_Harrison",
+            "content": "Mutations causing thalassemia can affect any step in the pathway of globin gene expression: transcription, processing of the mRNA precursor, translation, and posttranslational metabolism of the \u03b2-globin polypeptide chain. The most common forms arise from mutations that derange splicing of the mRNA precursor or prematurely terminate translation of the mRNA. FIGURE 127-5 \u03b2 Thalassemia intermedia. Microcytic and hypochromic red blood cells are seen that resemble the red blood cells of severe iron-deficiency anemia. Many elliptical and teardrop-shaped red blood cells are noted."
+        },
+        {
+            "id": "Biochemistry_Lippincott_132",
+            "title": "Biochemistry_Lippinco",
+            "content": "\u03b2-Thalassemias: In these disorders, synthesis of \u03b2-globin chains is decreased or absent, typically as a result of point mutations that affect the production of functional mRNA. However, \u03b1-globin chain synthesis is normal. Excess \u03b1-globin chains cannot form stable tetramers and so precipitate, causing the premature death of cells initially destined to become mature RBC. Increase in \u03b12\u03b42 (HbA2) and \u03b12\u03b32 (HbF) also occurs. There are only two copies of the \u03b2-globin gene in each cell (one on each chromosome 11). Therefore, individuals with \u03b2-globin gene defects have either \u03b2-thalassemia trait (\u03b2-thalassemia minor) if they have only one defective \u03b2-globin gene or \u03b2-thalassemia major (Cooley anemia) if both genes are defective (Fig. 3.23). Because the \u03b2-globin gene is not expressed until late in prenatal development, the physical manifestations of \u03b2-thalassemias appear only several months after birth. Those individuals with \u03b2-thalassemia minor make some \u03b2 chains and usually do not require"
+        },
+        {
+            "id": "InternalMed_Harrison_8086",
+            "title": "InternalMed_Harrison",
+            "content": "The homozygous state for the \u03b1 thalassemia-1 cis deletion (hydrops fetalis) causes total absence of \u03b1-globin synthesis. No physiologically useful hemoglobin is produced beyond the embryonic stage. Excess \u03b3 globin forms tetramers called Hb Barts (\u03b34), which has a very high oxygen affinity. It delivers almost no O2 to fetal tissues, causing tissue asphyxia, edema (hydrops fetalis), congestive heart failure, and death in utero. \u03b1 Thalassemia-2 trait is common (15\u201320%) among people of African descent. The cis \u03b1 thalassemia-1 deletion is almost never seen, however. Thus, \u03b1 thalassemia-2 and the trans form of \u03b1 thalassemia-1 are very common, but HbH disease and hydrops fetalis are rare. It has been known for some time that some patients with myelodysplasia or erythroleukemia produce RBC clones containing HbH. This phenomenon is due to mutations in the ATRX pathway that affect the LCR of the \u03b1-globin gene cluster."
+        },
+        {
+            "id": "Pathology_Robbins_2703",
+            "title": "Pathology_Robbins",
+            "content": "Table 12.3 Clinical and Genetic Classification of Thalassemias genes lying in tandem on chromosome 16, whereas the \u03b2 chains are encoded by a single \u03b2-globin gene located on chromosome 11. The clinical features vary widely depending on the specific combination of mutated alleles that are inherited by the patient ( Table 12.3), as described next."
+        },
+        {
+            "id": "InternalMed_Harrison_8093",
+            "title": "InternalMed_Harrison",
+            "content": "HbE and a \u03b2 thalassemia gene can have \u03b2 thalassemia intermedia or \u03b2 thalassemia major, depending on the severity of the coinherited thalassemic gene. The \u03b2E allele contains a single base change in codon 26 that causes the amino acid substitution. This mutation also activates a cryptic RNA splice site, generating a structurally abnormal globin mRNA that cannot be translated, from about 50% of the initial pre-mRNA molecules. The remaining 40\u201350% are normally spliced and generate functional mRNA that is translated into \u03b2E-globin because the mature mRNA carries the base change that alters codon 26. Genetic counseling of the persons at risk for HbE should focus especially on the interaction of HbE with \u03b2 thalassemia, because HbE homozygosity is a condition associated with mildly asymptomatic microcytosis, hypochromia, and hemoglobin levels rarely <100 g/L (<10 g/dL)."
+        },
+        {
+            "id": "InternalMed_Harrison_4811",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 82-9 Point mutations causing \u03b2 thalassemia as example of allelic heterogeneity. The \u03b2-globin gene is located in the globin gene cluster. Point mutations can be located in the promoter, the CAP site, the 5\u2019-untranslated region, the initiation codon, each of the three exons, the introns, or the polyadenylation signal. Many mutations introduce missense or nonsense mutations, whereas others cause defective RNA splicing. Not shown here are deletion mutations of the \u03b2-globin gene or larger deletions of the globin locus that can also result in thalassemia. \u25bc, promoter mutations; *, CAP site; \u2022, 5\u2019UTR; 1 , initiation codon; \u2666, defective RNA processing; \u2726, missense and nonsense Chapter 82 Principles of Human Genetics A, Poly A signal."
+        },
+        {
+            "id": "InternalMed_Harrison_8082",
+            "title": "InternalMed_Harrison",
+            "content": "Normal Silent thalassemia: \u2212\u03b1/\u03b1\u03b1 Thalassemia trait: or \u2212\u2212/\u03b1\u03b1 heterozygous \u03b1-thal-1a Hemoglobin H disease: 1/\u03b1-thal-2 Hydrops fetalis: \u2212\u2212/\u2212\u2212 homozygous \u03b1-thal-1 90 because a number of factors can aggra 90 vate the anemia, including infection, 70\u201380 onset of puberty, and development of splenomegaly and hypersplenism. Some patients may eventually benefit from splenectomy. The expanded erythron 60\u201370 can cause absorption of excessive dietary iron and hemosiderosis, even without transfusion. Some patients eventually become transfusion dependent. \u03b2 Thalassemia minor (i.e., thalas aWhen both \u03b1 alleles on one chromosome are deleted, the locus is called \u03b1-thal-1; when only a single \u03b1 allele on one chromo-semia trait) usually presents as profound some is deleted, the locus is called \u03b1-thal-2. b90\u201395% of the hemoglobin is hemoglobin Barts (tetramers of \u03b3 chains). microcytosis and hypochromia with tar \u03b1 thalassemia-1 trait, with two deleted loci; HbH disease, with three loci deleted; and hydrops"
+        },
+        {
+            "id": "InternalMed_Harrison_8080",
+            "title": "InternalMed_Harrison",
+            "content": "Severity is highly variable. Known modulating factors are those that ameliorate the burden of unpaired \u03b1-globin inclusions. Alleles associated with milder synthetic defects and coinheritance of \u03b1 thalassemia trait reduce clinical severity by reducing accumulation of excess \u03b1 globin. HbF persists to various degrees in \u03b2 thalassemias. \u03b3-Globin gene chains can substitute for \u03b2 chains, generating more hemoglobin and reducing the burden of \u03b1-globin inclusions. The terms \u03b2 thalassemia major and \u03b2 thalassemia intermedia are used to reflect the clinical heterogeneity. Patients with \u03b2 thalassemia major require intensive transfusion support to survive. Patients with \u03b2 thalassemia intermedia have a somewhat milder phenotype and can survive without transfusion. The terms \u03b2 thalassemia minor and \u03b2 thalassemia trait describe asymptomatic heterozygotes for \u03b2 thalassemia."
+        },
+        {
+            "id": "Pathology_Robbins_2702",
+            "title": "Pathology_Robbins",
+            "content": "Thalassemias are inherited disorders caused by mutations in globin genes that decrease the synthesis of \u03b1-or \u03b2-globin. Decreased synthesis of one globin results not only in a deficiency of Hb, but also in red cell damage that is caused by precipitates formed from excess unpaired \u201cnormal\u201d globin chains. The mutations that cause thalassemia are particularly common in Mediterranean, African, and Asian regions in which malaria is endemic. As with HbS, it is hypothesized that globin mutations associated with thalassemia protect against falciparum malaria. A diverse collection of \u03b1-globin and \u03b2-globin mutations underlies the thalassemias, which are autosomal codominant conditions. As described previously, adult hemoglobin, or HbA, is a tetramer composed of two \u03b1 chains and two \u03b2 chains. The \u03b1 chains are encoded by two \u03b1-globin http://ebooksmedicine.net"
+        },
+        {
+            "id": "Pathology_Robbins_2706",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 12.5 ), a phenomenon termed ineffective erythropoiesis, and the few red cells that are produced have a shortened life span. Ineffective hematopoiesis has another untoward effect; it is associated with an inappropriate increase in the absorption of dietary iron, which without medical intervention inevitably leads to iron overload. The increased iron absorption is caused by inappropriately low hepcidin, which is a negative regulator of iron absorption (see later). Unlike \u03b2-thalassemia, \u03b1-thalassemia is caused mainly by deletions involving one or more of the \u03b1-globin genes. The severity of the disease is proportional to the number of \u03b1-globin genes that are deleted ("
+        },
+        {
+            "id": "Pathology_Robbins_2707",
+            "title": "Pathology_Robbins",
+            "content": "Table 12.3 ). For example, loss of a single \u03b1-globin gene produces a silent-carrier state, whereas deletion of all four \u03b1-globin genes is lethal in utero because the red cells have virtually no oxygen-delivering capacity. With loss of three \u03b1-globin genes there is a relative excess of \u03b2-globin or (early in life) \u03b3-globin chains. Excess \u03b2-globin and \u03b3-globin chains form relatively stable \u03b24 and \u03b34 tetramers known as HbH and Hb Bart, respectively, which cause less membrane damage than the free \u03b1-globin chains that are found in \u03b2-thalassemia; as a result, ineffective erythropoiesis is less pronounced in \u03b1-thalassemia. Unfortunately, both HbH and Hb Bart have an abnormally high affinity for oxygen, which renders them ineffective at delivering oxygen to the tissues."
+        },
+        {
+            "id": "Obstentrics_Williams_7756",
+            "title": "Obstentrics_Williams",
+            "content": "Hundreds of mutations afect genes that control hemoglobin production. Some of these impair synthesis of one or more of the normal globin peptide chains and may result in a clinical syndrome characterized by varying degrees of inefective erythropoiesis, hemolysis, and anemia (Benz, 2015). Thalassemias are classiied according to the globin chain that is deficient. The two major forms involve impaired production or instability of a-peptide chains to cause a-thalassemia or of 3-chains to cause 3-thalassemia. hese may form from point mutations, deletions, or translocations involving the .-or non-a-globin gene (Leung, 2012). Because there are four a-globin genes, the inheritance of a-thalassemia is more complicated than for 3-thalassemia (Piel, 2014). Possible genotypes and phenotypes are shown in"
+        },
+        {
+            "id": "Pediatrics_Nelson_3210",
+            "title": "Pediatrics_Nelson",
+            "content": "\u03b2-Thalassemia Major (Cooley Anemia) Etiology and Epidemiology. \u03b2-Thalassemia major is caused by mutations that impair beta chain synthesis. Because of unbalanced synthesis of alpha and beta chains, alpha chains precipitate within the cells, resulting in RBC destruction either in the bone marrow or in the spleen. \u03b2-Thalassemia major is seen most commonly in individuals of Mediterranean or Asian descent. The clinical severity of the illness varies on the basis of the molecular defect."
+        },
+        {
+            "id": "Biochemistry_Lippincott_131",
+            "title": "Biochemistry_Lippinco",
+            "content": "E. Thalassemias The thalassemias are hereditary hemolytic diseases in which an imbalance occurs in the synthesis of globin chains. As a group, they are the most common single-gene disorders in humans. Normally, synthesis of the \u03b1and \u03b2-globin chains is coordinated, so that each \u03b1-globin chain has a \u03b2globin chain partner. This leads to the formation of \u03b12\u03b22 (HbA). In the thalassemias, the synthesis of either the \u03b1-or the \u03b2-globin chain is defective, and hemoglobin concentration is reduced. A thalassemia can be caused by a variety of mutations, including entire gene deletions, or substitutions or deletions of one of many nucleotides in the DNA. [Note: Each thalassemia can be classified as either a disorder in which no globin chains are produced (\u03b10-or \u03b20-thalassemia), or one in which some chains are synthesized but at a reduced level (\u03b1+-or \u03b2+-thalassemia).] 1."
+        },
+        {
+            "id": "First_Aid_Step1_455",
+            "title": "First_Aid_Step1",
+            "content": "2 (\u03b1 \u2013/\u03b1 \u2013; trans) or \u03b1-thalassemia minor Mild microcytic, hypochromic (\u03b1\u03b1/\u2013 \u2013; cis) anemia; cis deletion may worsen outcome for the carrier\u2019s offspring 3 (\u2013 \u2013/\u2013 \u03b1) Hemoglobin H disease (HbH); Moderate to severe microcytic excess \u03b2-globin forms \u03b24 hypochromic anemia 4 (\u2013 \u2013/\u2013 \u2013) Hemoglobin Barts disease; Hydrops fetalis; incompatible no \u03b1-globin, excess \u03b3-globin with life forms \u03b34 -thalassemia Point mutations in splice sites and promoter sequences on chromosome 11 \u008e\u2022 \u03b2-globin synthesis. Prevalent in Mediterranean populations. -thalassemia minor (heterozygote): \u03b2 chain is underproduced. Usually asymptomatic. Diagnosis confirmed by \u2022 HbA2 (> 3.5%) on electrophoresis."
+        },
+        {
+            "id": "Pediatrics_Nelson_3191",
+            "title": "Pediatrics_Nelson",
+            "content": "*The Constant Spring variant may require chronic transfusion. Figure 150-3 Genetic origins of the classic \u03b1-thalassemia syndromes due to gene deletions in the \u03b1-globin gene cluster. Hb Constant Spring (Hb CS) is an \u03b1-globin chain variant synthesized in such small amounts (1%\u20132% of normal) that it has the phenotypic impact of a severe non-deletion \u03b1-thalassemia allele; however, the \u03b1CS allele is always linked to a functioning \u03b1-globin gene, so it has never been associated with hydrops fetalis. (From Hoffman R, Benz EJ, Shattil SS, et al, editors: Hematology: Basic Principles and Practice, ed 5, Philadelphia, 2008, Churchill Livingstone.) \u02dc+-Thal trait (\u201dMild\u201d trait, silent carrier) rarely causes hemolytic anemia. Detection by routine screening, removal from exposure, chelation therapy, and correction of iron deficiency are crucial to the potential development of affected children."
+        },
+        {
+            "id": "Pathology_Robbins_2715",
+            "title": "Pathology_Robbins",
+            "content": "The diagnosis of \u03b2-thalassemia major can be strongly suspected on clinical grounds. Hb electrophoresis shows a profound reduction or absence of HbA and increased levels of HbF. The HbA2 level may be normal or increased. Similar but less severe changes are noted in patients affected by \u03b2-thalassemia intermedia. Prenatal diagnosis of \u03b2-thalassemia is challenging, but can be made in specialized centers by DNA analysis. In fact, thalassemia was the first disease diagnosed by DNA-based tests, opening the way for the field of molecular diagnostics. The diagnosis of \u03b2-thalassemia minor is made by Hb electrophoresis, which typically shows a reduced level of HbA (\u03b12\u03b22) and an increased level of HbA2 (\u03b12\u03b42). HbH disease can be diagnosed by detection of \u03b24 tetramers by electrophoresis."
+        },
+        {
+            "id": "Pathology_Robbins_2714",
+            "title": "Pathology_Robbins",
+            "content": "HbH disease and \u03b2-thalassemia intermedia are not as severe as \u03b2-thalassemia major, because the imbalance in \u03b1-and \u03b2-globin chain synthesis is not as great and hematopoiesis is more effective. Anemia is of moderate severity and patients usually do not require transfusions. Thus, the iron overload that is so common in \u03b2-thalassemia major is rarely seen."
+        },
+        {
+            "id": "Biochemistry_Lippincott_134",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. \u03b1-Thalassemias: In these disorders, synthesis of \u03b1-globin chains is decreased or absent, typically as a result of deletional mutations. Because each individual\u2019s genome contains four copies of the \u03b1-globin gene (two on each chromosome 16), there are several levels of \u03b1-globin chain deficiencies (Fig. 3.24). If one of the four genes is defective, the individual is termed a \u201csilent\u201d carrier of \u03b1-thalassemia, because no physical manifestations of the disease occur. If two \u03b1-globin genes are defective, the individual is designated as having \u03b1-thalassemia trait. If three \u03b1-globin genes are defective, the individual has hemoglobin H (\u03b24) disease, a hemolytic anemia of variable severity. If all four \u03b1-globin genes are defective, hemoglobin Bart (\u03b34) disease with hydrops fetalis and fetal death results, because \u03b1-globin chains are required for the synthesis of HbF. [Note: Heterozygote advantage against malaria is seen in both \u03b1-and \u03b2-thalassemias.] V. CHAPTER SUMMARY"
+        },
+        {
+            "id": "InternalMed_Harrison_8078",
+            "title": "InternalMed_Harrison",
+            "content": "Hypochromia and microcytosis characterize all forms of \u03b2 thalassemia because of the reduced amounts of hemoglobin tetramers (Fig. 127-5). In heterozygotes (\u03b2 thalassemia trait), this is the only abnormality seen. Anemia is minimal. In more severe homozygous states, unbalanced \u03b1and \u03b2-globin accumulation causes accumulation of highly insoluble unpaired \u03b1 chains. They form toxic inclusion bodies that kill developing erythroblasts in the marrow. Few of the proerythroblasts beginning erythroid maturation survive. The surviving RBCs bear a burden of inclusion bodies that are detected in the spleen, shortening the RBC life span and producing severe hemolytic anemia. The resulting profound anemia stimulates erythropoietin release and compensatory erythroid hyperplasia, but the marrow response is sabotaged by the ineffective erythropoiesis. Anemia persists. Erythroid hyperplasia can become exuberant and produce masses of extramedullary erythropoietic tissue in the liver and spleen."
+        },
+        {
+            "id": "InternalMed_Harrison_8090",
+            "title": "InternalMed_Harrison",
+            "content": "Persons with \u03b1 thalassemia trait may exhibit mild hypochromia and microcytosis usually without anemia. HbA2 and HbF levels are normal. Affected individuals usually require only genetic counseling. HbH disease resembles \u03b2 thalassemia intermedia, with the added complication that the HbH molecule behaves like moderately unstable hemoglobin. Patients with HbH disease should undergo splenectomy if excessive anemia or a transfusion requirement develops. Oxidative drugs should be avoided. Iron overload leading to death can occur in more severely affected patients. Antenatal diagnosis of thalassemia syndromes is now widely available. DNA diagnosis is based on polymerase chain reaction (PCR) amplification of fetal DNA, obtained by amniocentesis or chorionic villus biopsy followed by hybridization to allele-specific oligonucleotide probes or direct DNA sequencing. Thalassemic structural variants are characterized by both defective synthesis and abnormal structure."
+        },
+        {
+            "id": "InternalMed_Harrison_8084",
+            "title": "InternalMed_Harrison",
+            "content": "\u03b1 Thalassemia-2 trait is an asymptomatic, silent carrier state. \u03b1 Thalassemia-1 trait resembles \u03b2 thalassemia minor. Offspring doubly heterozygous for \u03b1 thalassemia-2 and \u03b1 thalassemia-1 exhibit a more severe phenotype called HbH disease. Heterozygosity for a deletion that removes both genes from the same chromosome (cis deletion) is common in Asians and in those from the Mediterranean region, as is homozygosity for \u03b1 thalassemia-2 (trans deletion). Both produce asymptomatic hypochromia and microcytosis."
+        },
+        {
+            "id": "Pathoma_Husain_109",
+            "title": "Pathoma_Husain",
+            "content": "1. Normal types of hemoglobin are HbF (a2y), HbA (a2p), and HbA2 (a/\\). Table 5.1: Laboratory Findings in Microcytic Anemia Anemia of Chronic Disease High Low Low Low D. E. a-Thalassemia is usually due to gene deletion; normally, 4 alpha genes are present on chromosome 16. 1. 2. Two genes deleted-mild anemia with t RBC count; cis deletion is associated with an increased risk of severe thalassemia in offspring. i. Cis deletion is when both deletions occur on the same chromosome; seen in Asians ii. Trans deletion is when one deletion occurs on each chromosome; seen in Africans, including African Americans 3. Three genes deleted-severe anemia; p chains form tetramers (HbH) that damage RBCs; HbH is seen on electrophoresis. 4. (Hb Barts) that damage RBCs; Hb Barts is seen on electrophoresis. P-Thalassemia is usually due to gene mutations (point mutations in promoter or splicing sites); seen in individuals of African and Mediterranean descent 1."
+        },
+        {
+            "id": "Obstentrics_Williams_7757",
+            "title": "Obstentrics_Williams",
+            "content": "Because there are four a-globin genes, the inheritance of a-thalassemia is more complicated than for 3-thalassemia (Piel, 2014). Possible genotypes and phenotypes are shown in Table 56-4. Clinical severity closely correlates with the degree of a-globin chains synthesis impairment. In most populations, the a-globin chain \"cluster\" or gene loci are doubled on chromosome 16. Similarly, ther, chains are duplicated. Thus, the normal genotype for diploid cells can be expressed as ../.. and \"r /,,. here are two main groups of a-thalassemia determinants: .0-thalassemia is the deletion of both loci from one chromosome (--/..), whereas .+ -thalassemia is the loss of a single locus from one allele (-./.. heterozygote) or a loss from each allele (-./-.homozygote). here are two major phenotypes. he deletion of all four a-globin chain genes (--/--) characterizes homozygous a-thalassemia. Because a-chains are contained in fetal hemoglobin, the fetus is afected. When none of the four genes"
+        },
+        {
+            "id": "Pathology_Robbins_2712",
+            "title": "Pathology_Robbins",
+            "content": "Clinical Features. \u03b2-Thalassemia trait and \u03b1-thalassemia trait are typically asymptomatic. There is usually only a mild microcytic hypochromic anemia; generally, these patients have a normal life expectancy. Iron deficiency anemia is associated with a similar red cell appearance and must be excluded by appropriate laboratory tests (described later)."
+        },
+        {
+            "id": "First_Aid_Step2_388",
+            "title": "First_Aid_Step2",
+            "content": "Thalassemia is most common among people of African, Middle Eastern, and Asian descent. Disease presentation and prognosis vary with the number of genes missing (see Table 2.7-5). Diagnosed by hemoglobin electrophoresis evaluation (but note that this is normal in \u03b1-thalassemia) and DNA studies. Most patients do not require treatment, but those with \u03b2-thalassemia major and hemoglobin H disease are commonly transfusion dependent and should be given iron chelators (deferoxamine) to prevent overload. Erythrocytosis (an abnormal elevation of hematocrit) may be either 1\u00b0 (due to \u2191 RBC production) or 2\u00b0 (due to \u2193 plasma volume and hemoconcentration)."
+        },
+        {
+            "id": "First_Aid_Step1_456",
+            "title": "First_Aid_Step1",
+            "content": "-thalassemia minor (heterozygote): \u03b2 chain is underproduced. Usually asymptomatic. Diagnosis confirmed by \u2022 HbA2 (> 3.5%) on electrophoresis. -thalassemia major (homozygote): \u03b2 chain is absent \u008e severe microcytic, hypochromic anemia with target cells and increased anisopoikilocytosis C requiring blood transfusion (2\u00b0 hemochromatosis). Marrow expansion (\u201ccrew cut\u201d on skull x-ray) \u008e skeletal deformities (eg, \u201cchipmunk\u201d facies). Extramedullary hematopoiesis \u008e hepatosplenomegaly. \u008f risk of parvovirus B19\u2013induced aplastic crisis. \u008f HbF (\u03b1\u03b3 ), HbA (\u03b1\u03b4 ). HbF is protective in the infant and disease becomes symptomatic only after 6 months, when fetal hemoglobin declines. HbS/\u03b2 -thalassemia heterozygote: mild to moderate sickle cell disease depending on amount of \u03b2-globin production. Microcytic, hypochromic anemias (continued)"
+        },
+        {
+            "id": "Pediatrics_Nelson_3190",
+            "title": "Pediatrics_Nelson",
+            "content": "Thalassemia intermedia Compound heterozygous \u03b20and \u03b2+-thalassemia Moderate hemolysis, splenomegaly, moderately severe anemia, but not transfusion-dependent; main life-threatening complication is iron overload Thalassemia minor Heterozygous \u03b20and \u03b2+-thalassemia Microcytosis, mild anemia Hydrops fetalis -/-Severe anemia, intrauterine anasarca from congestive heart failure; death in utero or at birth From Andreoli T, Carpenter C, Griggs R, et al: Cecil Essentials of Medicine, ed 7, Philadelphia, 2007, Saunders. *The Constant Spring variant may require chronic transfusion."
+        },
+        {
+            "id": "InternalMed_Harrison_8036",
+            "title": "InternalMed_Harrison",
+            "content": "I. Structural hemoglobinopathies\u2014hemoglobins with altered amino acid sequences that result in deranged function or altered physical or chemical properties A. Abnormal hemoglobin polymerization\u2014HbS, hemoglobin sickling B. Altered O2 affinity 1. 2. Low affinity\u2014cyanosis, pseudoanemia C. Hemoglobins that oxidize readily 1. Unstable hemoglobins\u2014hemolytic anemia, jaundice 2. M hemoglobins\u2014methemoglobinemia, cyanosis II. Thalassemias\u2014defective biosynthesis of globin chains A. B. C. \u03b4\u03b2, \u03b3\u03b4\u03b2, \u03b1\u03b2 Thalassemias III. Thalassemic hemoglobin variants\u2014structurally abnormal Hb associated with coinherited thalassemic phenotype A. B. C. IV. Hereditary persistence of fetal hemoglobin\u2014persistence of high levels of HbF into adult life V. A. Methemoglobin due to toxic exposures B. Sulfhemoglobin due to toxic exposures C. D. E. Elevated HbF in states of erythroid stress and bone marrow dysplasia"
+        }
+    ],
+    "scores": [
+        0.03834593624197585,
+        0.02897629212462531,
+        0.027504780334969017,
+        0.0274092391172105,
+        0.026143790849673203,
+        0.025955500475913655,
+        0.025869088631381144,
+        0.025662288081758376,
+        0.025340263637337906,
+        0.02501282124337569,
+        0.02484773291224904,
+        0.024751048744856792,
+        0.02455646205646206,
+        0.024052313565390684,
+        0.02397676107480029,
+        0.023910795522785924,
+        0.02386698144724395,
+        0.023649396173240633,
+        0.023502973776696405,
+        0.02337592621926536,
+        0.02332872418879056,
+        0.023171086113651023,
+        0.02282684801064258,
+        0.022521185285817914,
+        0.022386623305431858,
+        0.022207631544667296,
+        0.022135174350431733,
+        0.02202234515379283,
+        0.021715927750410507,
+        0.02150846498672586,
+        0.020938043306464357,
+        0.020881742104941665
+    ],
+    "execution_time": 59.02350163459778
+}

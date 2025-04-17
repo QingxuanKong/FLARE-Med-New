@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-019",
+    "question": "Which of the following genes conveys susceptibility for polygenic Alzheimer disease?",
+    "options": {
+        "A": "APP",
+        "B": "PS1",
+        "C": "PS2",
+        "D": "APOE"
+    },
+    "answer": "D",
+    "predict": "Here's my step-by-step thinking and the final answer in JSON format: Step 1: Understand the question The question is asking which gene conveys susceptibility for polygenic Alzheimer disease. Step 2: Review the relevant documents Document [0] to [9] discuss various genes associated with Alzheimer disease, including APP, PS1, PS2, and APOE. However, the question is specifically asking about polygenic Alzheimer disease. Step 3: Identify the key concept of polygenic Alzheimer disease Polygenic Alzheimer disease refers to Alzheimer disease that is caused by multiple genetic variants, rather than a single gene mutation. Step 4: Review the relevant documents again Document [4] (Title: Pathology_Robbins) discusses the concept of polygenic diseases, which are caused by multiple genetic variants contributing small independent effects. Document [6] (Title: Psichiatry_DSM-5) also mentions polygenic diseases, including Alzheimer disease. Step 5: Analyze the options Option A (APP) is associated with familial Alzheimer disease, but not specifically with polygenic Alzheimer disease. Option B (PS1) and Option C (PS2) are associated with familial Alzheimer disease, but not specifically with polygenic Alzheimer disease. Option D (APOE) is mentioned in several documents as a risk factor for Alzheimer disease, including polygenic Alzheimer disease. Step 6: Draw a conclusion Based on the analysis, the correct answer is Option D (APOE), as it is associated with polygenic Alzheimer disease. Answer: {\"step_by_step_thinking\": \"The question is asking which gene conveys susceptibility for polygenic Alzheimer disease. Reviewing the relevant documents, polygenic Alzheimer disease refers to Alzheimer disease caused by multiple genetic variants. Document [4] and [6] discuss polygenic diseases, including Alzheimer disease. Option D (APOE) is associated with polygenic Alzheimer disease. Therefore, the correct answer is APOE.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Neurology_Adams_8501",
+            "title": "Neurology_Adams",
+            "content": "as a susceptibility (risk) factor. It follows that many, if not most, individuals who develop Alzheimer disease do not have the risk allele. Moreover, many individuals with the e4 allele live into their seventies and eighties without developing Alzheimer disease. All that can be stated with certainty is that, on average, the presence of the e4 allele accelerates the appearance of Alzheimer disease by about 5 years."
+        },
+        {
+            "id": "Neurology_Adams_8500",
+            "title": "Neurology_Adams",
+            "content": "to their eighties. The e4 allele also modifies the age of onset of some of the familial forms of the disease. In contrast, the e2 allele is underrepresented among Alzheimer patients. For these reasons it has been proposed that Apo E, by interacting with APP or tau protein in some way, modifies the formation of plaques. Indeed, possession of the e4 allele correlates with increased deposition of A\u03b2 in the brain (McNamara). As pointed out by Hardy, Apo E appears to act at a point in the pathogenesis that is after the various genetic mutations have influenced the cellular pathology that ostensibly causes Alzheimer disease. However, these relationships do not invariably connect an allele to the disease in a particular individual. In other words, the e4 allele does not act as a mendelian trait but as a susceptibility (risk) factor. It follows that many, if not most, individuals who develop Alzheimer disease do not have the risk allele. Moreover, many individuals with the e4 allele live into"
+        },
+        {
+            "id": "Neurology_Adams_8483",
+            "title": "Neurology_Adams",
+            "content": "the relative levels of A\u03b242. It should be noted that mutations of the APP and presenilin genes explain only a very small proportion of Alzheimer cases (Terry). Transgenic mice that express human Alzheimer disease-associated mutations in APP or presenilin genes develop plaques with A\u03b242 but not neurofibrillary tangles. Many of the relationships and mechanisms depicted in Fig. 38-2 are derived from the understanding of genetic forms of Alzheimer disease; the extent to which they will be implicated in the native disease is unknown. However, some form of disruption in these mechanisms is likely to be involved."
+        },
+        {
+            "id": "Neurology_Adams_8499",
+            "title": "Neurology_Adams",
+            "content": "It has been clear that an excess or aberrant amyloid alone is an incomplete explanation for the disease. Certain sequence variants in normal genes confer an increased risk of the disease. The one first discovered was Apo E, a regulator of lipid metabolism that has an affinity for A\u03b2 in Alzheimer plaques, has been found to modify the risk of acquiring Alzheimer disease. Of the several isoforms of Apo E, the presence of E4 (and its corresponding allele e4 on chromosome 19) is associated with a tripling of the risk of developing sporadic Alzheimer disease (Roses; Strittmatter et al; Polvikoski et al). This is the same allele that contributes to an elevated low-density lipoprotein fraction in the serum. Possession of two e4 alleles virtually assures the development of disease in those who survive to their eighties. The e4 allele also modifies the age of onset of some of the familial forms of the disease. In contrast, the e2 allele is underrepresented among Alzheimer patients. For these"
+        },
+        {
+            "id": "Pathology_Robbins_1808",
+            "title": "Pathology_Robbins",
+            "content": "It is now established that some of the most common human diseases, such as hypertension, diabetes, mental disorders, and asthma, have a polygenic basis, with multiple genetic loci contributing small independent effects, resulting in a disease phenotype. Conventional linkage analyses lack the statistical power to detect such genetic variants. In GWASs, large cohorts of patients with and without a disease (rather than families) are examined across the entire genome for variant SNPs that are overrepresented in persons with the disease. This identifies regions of the genome that contain a variant gene or genes that confer disease susceptibility. The causal variant within the region is then provisionally identified using a \u201ccandidate gene\u201d approach, in which genes are selected based on how tightly they are associated with the disease and whether their biologic function seems likely to be involved in the disease under study. In addition to polygenic diseases, GWASs also have led to the"
+        },
+        {
+            "id": "Neurology_Adams_7483",
+            "title": "Neurology_Adams",
+            "content": "Multifactorial genetic diseases may also be familial. They may present as constitutional disorders with gene abnormalities located on several chromosomes (polygenic, or \u201ccomplex genetics\u201d) or may arise from single nucleotide polymorphisms or copy number variations. Here, the relative contributions of genetic and environmental influences are highly variable. The occurrence of many disorders that display high degrees of familial incidence, such as schizophrenia and Gilles de la Tourette syndrome, but do not strictly conform to classic genetic principles has been attributed to this type of complex genetics. The separation of metabolic-genetic from degenerative diseases (accorded a separate chapter) may disquiet the reader, for there are many overlaps between the two groups. The current division is tenable only until such time as all the degenerative diseases will have been shown to have a comprehensible pathogenesis. The Genetics of Mitochondrial Disease"
+        },
+        {
+            "id": "Psichiatry_DSM-5_2925",
+            "title": "Psichiatry_DSM-5",
+            "content": "1. Evidence of a causative Alzheimer\u2019s disease genetic mutation from family history or genetic testing. 2. All three of the following are present: a. Clear evidence of decline in memory and learning and at least one other cogni- tive domain (based on detailed history or serial neuropsychological testing). b. Steadily progressive, gradual decline in cognition, without extended plateaus. c. No evidence of mixed etiology (i.e., absence of other neurodegenerative or cerebrovascular disease, or another neurological, mental, or systemic disease or condition likely contributing to cognitive decline). For mild neurocognitive disorder: Probable Alzheimer's disease is diagnosed if there is evidence of a causative Alz- heimer\u2019s disease genetic mutation from either genetic testing or family history."
+        },
+        {
+            "id": "Neurology_Adams_8443",
+            "title": "Neurology_Adams",
+            "content": "with an earlier age of onset of Alzheimer disease (before age 70 years) are more likely to have relatives with the disease than are patients with later onset. Genetic studies are difficult to carry out because the disease does not appear at the same age in a given proband. Even in identical twins, the disease may develop at the age of 60 years in one of the pair and at 80 years in the other. Death from other causes may prevent its detection. The dominantly inherited type, which is prevalent in certain countries, is being used as a model to understand both the genetic aspects and therapeutic measures for the disease. The other genetic contributions to the occurrence of Alzheimer disease are discussed further on."
+        },
+        {
+            "id": "Neurology_Adams_8497",
+            "title": "Neurology_Adams",
+            "content": "Genetic aspects of Alzheimer disease (Table 38-1) Of some importance has been the aforementioned series of discoveries in patients with inherited forms of Alzheimer disease, of defective genes that code for errant APPs localized to chromosome 21 near the \u03b2-amyloid gene (St. George-Hyslop et al). As mentioned, this also provided an explanation for the Alzheimer changes that characterize the brains of practically all patients with the trisomy 21 defect (Down syndrome) who survive beyond their 20th year; they overproduce amyloid as a result of the triplication of the gene. But gene defects on chromosome 21 are responsible for only a small proportion of familial cases and a minuscule percentage of disease overall. Other kindreds with familial Alzheimer disease have been linked to rare dominant mutations of the presenilin genes on chromosome 14 (presenilin 1; Sherrington et al), accounting in some series for up to 50 percent of familial cases, and on chromosome 1 (presenilin 2), which may"
+        },
+        {
+            "id": "InternalMed_Harrison_4897",
+            "title": "InternalMed_Harrison",
+            "content": "In order to identify a chromosomal locus that segregates with a disease, it is necessary to characterize polymorphic DNA markers from affected and unaffected individuals of one or several pedigrees. One can Abbreviation: GWAS, genome-wide association study. Suitable for identification of susceptibility genes in Requires large sample size and matched control polygenic and multifactorial disorders population Suitable for testing specific allelic variants of known False-positive results in the absence of suitable candidate loci control population"
+        },
+        {
+            "id": "Neurology_Adams_8482",
+            "title": "Neurology_Adams",
+            "content": "The fact that the gene coding for APP is located on chromosome 21, one of the regions linked to one type of familial Alzheimer disease and to the duplicated chromosome in Down syndrome, in which Alzheimer changes almost inevitably occur with aging (see further on), suggests that the overproduction of amyloid and all its A\u03b2 residues are causative factors in the disease. Furthermore, the ratio of A\u03b242 to A\u03b240 is increased in Down syndrome. Another suggestive connection has been the finding that there are genetic defects in the genes encoding APP and in a pair of endosomal proteins termed presenilin 1 and 2 in some familial forms of Alzheimer disease. The presenilins are catalytic components of \u03b3 secretase, the enzyme that produces the A\u03b242 fragment. Mutations of presenilin 1 and 2 also increase the relative levels of A\u03b242. It should be noted that mutations of the APP and presenilin genes explain only a very small proportion of Alzheimer cases (Terry). Transgenic mice that express human"
+        },
+        {
+            "id": "Psichiatry_DSM-5_2930",
+            "title": "Psichiatry_DSM-5",
+            "content": "A level of diagnostic certainty must be specified denoting Alzheimer\u2019s disease as the \u201dprobable\u201d or \u201dpossible\u201d etiology (Criterion C). Probable Alzheimer\u2019s disease is diagnosed in both major and mild NCD if there is evidence of a causative Alzheimer\u2019s disease gene, ei- ther from genetic testing or from an autosomal dominant family history coupled with au- topsy confirmation or a genetic test in an affected family member. For major NCD, a typical clinical picture, without extended plateaus or evidence of mixed etiology, can also be diagnosed as due to probable Alzheimer\u2019s disease. For mild NCD, given the lesser de- gree of certainty that the deficits will progress, these features are only sufficient for a possible Alzheimer\u2019s etiology. If the etiology appears mixed, mild NCD due to multiple eti- ologies should be diagnosed. In any case, for both mild and major NCD due to Alzhei- mer\u2019s disease, the clinical features must not suggest another primary etiology for the NCD (Criterion D)."
+        },
+        {
+            "id": "Neurology_Adams_8502",
+            "title": "Neurology_Adams",
+            "content": "Another polymorphism, located in TREM2, is quite rare in comparison to the aforementioned Apo E variants but confers an equivalent risk of Alzheimer disease that has been shown in several populations in (Guerreiro et al and Jonsson et al). In sporadic Alzheimer disease, the TREM2 polymorphism that is implicated in Alzheimer disease putatively causes inadequate phagocytic clearance of amyloid. Another rare modifying gene has been found in familial cases at the UBQLN1 (ubiquilin 1) site, coding for a protein that interacts with PS1 and PS2 and participates in proteasomal degradation."
+        },
+        {
+            "id": "Neurology_Adams_8442",
+            "title": "Neurology_Adams",
+            "content": "The familial occurrence of Alzheimer disease has been well established. In less than 1 percent of such cases there is a dominant inheritance pattern with a high degree of penetrance and appearance of disease at a younger age (Nee et al; Goudsmit et al; see further). Reports of substantial familial aggregations of dementia without a specific pattern of inheritance also suggest the operation of more than 1 genetic factor. Many studies have documented an increase in the risk of ostensibly sporadic Alzheimer disease among first-degree relatives of patients with this disorder. This risk is disproportionately greater in females, adding to the evidence that women in general are at slightly higher risk for Alzheimer disease (Silverman et al). Li and coworkers (1995) have provided evidence that patients with an earlier age of onset of Alzheimer disease (before age 70 years) are more likely to have relatives with the disease than are patients with later onset. Genetic studies are difficult to"
+        },
+        {
+            "id": "Neurology_Adams_3451",
+            "title": "Neurology_Adams",
+            "content": "and ancillary data discussed in the following text. This classification may seem somewhat dated and less based on genetic and molecular models of degenerative disease, but it is likely to be more useful to the physician who must confront the many processes that cause dementia."
+        },
+        {
+            "id": "Psichiatry_DSM-5_2924",
+            "title": "Psichiatry_DSM-5",
+            "content": "Major or Mild Neurocognitive Disorder Due to Alzheimer's Disease 611 jury in a preschool child may also lead to significant developmental and learning issues. Additional comorbidity of NCD is often related to the etiological subtype, as discussed in the relevant sections. Due to Alzheimer\u2019s Disease A. The criteria are met for major or mild neurocognitive disorder. B. There is insidious onset and gradual progression of impairment in one or more cognitive domains (for major neurocognitive disorder, at least two domains must be impaired). C. Criteria are met for either probable or possible Alzheimer\u2019s disease as follows: For major neurocognitive disorder: Probable Alzheimer\u2019s disease is diagnosed if either of the following is present; oth- erwise, possible Alzheimer\u2019s disease should be diagnosed. 1. Evidence of a causative Alzheimer\u2019s disease genetic mutation from family history or genetic testing."
+        },
+        {
+            "id": "Neurology_Adams_8498",
+            "title": "Neurology_Adams",
+            "content": "mutations of the presenilin genes on chromosome 14 (presenilin 1; Sherrington et al), accounting in some series for up to 50 percent of familial cases, and on chromosome 1 (presenilin 2), which may account for many of the remaining ones (Levy-Lahad et al). These are summarized in Table 38-1. The age of onset of the disease in these familial forms, as in the Down cases, is earlier than that in sporadic forms. These cohorts of patients have provided great insight into long duration between the appearance of amyloid in the brain, approximately a decade, and the onset of clinical disease, and they suggest the potential use of imaging of chemical biomarkers for the prodromal phase of the disease (The Dominantly Inherited Alzheimer Network; DIAN, see Bateman et al)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6649",
+            "title": "Pharmacology_Katzung",
+            "content": "Alzheimer\u2019s disease (AD) is characterized by progressive memory impairment, dementia, and cognitive dysfunction, and may lead to a completely vegetative state, resulting in early death. Prevalence increases with age and may be as high as 20% in individuals over 85, although long-term epidemiologic studies suggest that the overall prevalence of dementia has decreased in the USA and Europe over the last 15\u201330 years (see Langa 2017). The annual cost of dementia in the United States is estimated at $150\u2013$215 billion annually. Both familial and sporadic forms have been identified. Early onset of Alzheimer\u2019s disease is associated with several gene defects, including trisomy 21 (chromosome 21), a mutation of the gene for presenilin-1 on chromosome 14, and an abnormal allele, \u03b54, for the lipid-associated protein, ApoE, on chromosome 19. Unlike the common forms (ApoE \u03b52 and \u03b53), the \u03b54 form strongly correlates with the formation of amyloid \u03b2 deposits (see below)."
+        },
+        {
+            "id": "Psichiatry_DSM-5_2936",
+            "title": "Psichiatry_DSM-5",
+            "content": "Cortical atrophy, amyloid-predominant neuritic plaques, and tau-predominant neurofibril\u2014 lary tangles are hallmarks of the pathological diagnosis of Alzheimer\u2019s disease and may be continued via postmortem histopathological examination. For early-onset cases with auto- somal dominant inheritance, a mutation in one of the known causative Alzheimer\u2019s disease genes\u2014amyloid precursor protein (APP), presenilin 1 (PSENl), or presenilin 2 (PSEN2)\u2014 may be involved, and genetic testing for such mutations is commercially available, at least for PSEN1. Apolipoprotein E4 cannot serve as a diagnostic marker because it is only a risk factor and neither necessary nor sufficient for disease occurrence."
+        },
+        {
+            "id": "Neurology_Adams_3450",
+            "title": "Neurology_Adams",
+            "content": "Conventionally, the dementing diseases have been classified according to cause, to the specific pathologic changes, or by the most prominent clinical feature, for example, memory loss in Alzheimer disease. Another practical approach, which follows from the method by which much of the subject matter is presented in this book, is to divide the diseases into categories on the basis of the neurologic signs and associated clinical and laboratory features of medical disease: (1) dementia with medical disease, (2) dementia that is accompanied by other principal neurologic signs, and (3) dementia as the sole or predominant feature of the illness (Table 20-3). Once it has been determined that the patient suffers from a dementing illness, the illness may be characterized from these medical, neurologic, and ancillary data discussed in the following text. This classification may seem somewhat dated and less based on genetic and molecular models of degenerative disease, but it is likely to be more"
+        },
+        {
+            "id": "InternalMed_Harrison_29627",
+            "title": "InternalMed_Harrison",
+            "content": "Alzheimer\u2019s disease, Parkinson\u2019s disease, Huntington\u2019s disease, and ALS. These models are useful in both studying disease pathogenesis and developing and testing new therapies. New transgenic mouse models with conditional expression have fostered investigations in which late gene epilepsy syndromes, and recently such mutations have been identified. expression avoids developmental compensation or in which the revers-These mutations appear to alter the normal gating function of these ibility of a disease phenotype can be examined by turning a gene off channels, increasing the inherent excitability of neuronal membranes after the disease phenotype has manifested. One can also examine in regions where the abnormal channels are expressed. the effects of gene expression in specific subsets of neurons, such as Whereas the specific clinical manifestations of channelopathies entorhinal cortex, or selectively in neurons, astrocytes, or microglia. are quite variable, one common feature is that"
+        },
+        {
+            "id": "InternalMed_Harrison_30569",
+            "title": "InternalMed_Harrison",
+            "content": "Multiple recent studies have convincingly demonstrated that non-neuronal cells importantly influence the disease course, at least in ALS transgenic mice. A striking additional finding in neurodegenerative disorders is that miscreant proteins arising from gene defects in familial forms of these diseases are often implicated in sporadic forms of the same disorder. For example, germline mutations in the genes encoding \u03b2-amyloid and \u03b1-synuclein cause familial forms of Alzheimer\u2019s and Parkinson\u2019s diseases, and posttranslational, noninherited abnormalities in these proteins are also central to sporadic Alzheimer\u2019s and Parkinson\u2019s diseases. Analogously, recent reports propose that nonheritable, posttranslational modifications in SOD1 are pathogenic in sporadic ALS."
+        },
+        {
+            "id": "Neurology_Adams_8406",
+            "title": "Neurology_Adams",
+            "content": "Gowers in 1902 suggested the term abiotrophy to encompass the degenerative diseases, by which he meant a lack of \u201cvital endurance\u201d of the affected neurons, resulting in their premature death. This concept embodies an unproven hypothesis\u2014that aging and degenerative changes of cells are based on the same process. Understandably, contemporary neuropathologists are reluctant to attribute to simple aging the diverse processes of cellular diseases that are constantly being revealed by ultrastructural and molecular genetic techniques. It is increasingly evident that many of the diseases included in this category depend on genetic factors. Some appear in more than 1 member of the same family. Even more diseases, not differing in any fundamental way from the degenerative ones, occur sporadically, that is as isolated instances but still, genetic factors such as single nucleotide polymorphisms and copy number variations are often involved in pathogenesis, even if only as predispositions to the"
+        },
+        {
+            "id": "Neurology_Adams_7479",
+            "title": "Neurology_Adams",
+            "content": "Autosomal dominant mutations usually cause manifest disease in heterozygotes, but variations in the size of the gene abnormality can produce any one of several phenotypes. This poses a challenge to the current clinical and pathologic classifications of disease. Moreover, an identical clinical syndrome may be traced to a gene on two different chromosomes. Even more surprising, an estimated 28 percent of all gene loci have polymorphic rather than monomorphic effects\u2014that is, the same mutation has several different phenotypic expressions. Another problem is that of differentiating dominant from recessive inheritance. In small families, in which only one descendant is afflicted and the parent is seemingly normal, one may mistakenly conclude that the inheritance is recessive. Other characteristics of mutational diseases are penetrance, a measure of the proportion of individuals with a given genotype who will show the phenotype, and expressivity, referring to the severity of disease in an"
+        },
+        {
+            "id": "InternalMed_Harrison_30324",
+            "title": "InternalMed_Harrison",
+            "content": "About 10\u201315% of cases are familial in origin, and multiple specific mutations and gene associations have been identified (Table 449-4). Genetic factors have also been linked to sporadic cases, with several typical PD cases found to carry the LRRK2 mutation, and genome-wide association studies (GWAS) implicating alpha synuclein, tau, and Abbreviations: MSA-c, multiple-system atrophy\u2013cerebellar type; MSA-p, multiple-system atrophy\u2013Parkinson\u2019s type; PD, Parkinson\u2019s disease; PSP, progressive supranuclear palsy. HLA as risk factors. It has been proposed that most cases of PD may be due to a \u201cdouble hit\u201d involving an interaction between a gene mutation that induces susceptibility coupled with exposure to a toxic environmental factor that may induce epigenetic or somatic DNA alterations. In this scenario, both factors are required for PD to ensue, while the presence of either one alone is not sufficient to cause the disease."
+        },
+        {
+            "id": "Neurology_Adams_8044",
+            "title": "Neurology_Adams",
+            "content": "An increased incidence of myelocytic and lymphocytic leukemia takes its toll. A number of patients have had embolic strokes and brain abscesses secondary to cardiac abnormalities and there is disproportionate occurrence of the rare cerebrovascular disorder, moyamoya (see Chap. 33). Life expectancy is later shortened by the almost universal development of Alzheimer disease by the 40th year of life. This is explained by the presence on the duplicate copy of chromosome 21 of the gene for the precursor of the protein amyloid, a central factor in the development of Alzheimer disease. As Alzheimer disease develops, the usual clinical picture is marked by inattentiveness, reduced speech, impairment of visuospatial orientation, loss of memory and judgment, and seizures."
+        },
+        {
+            "id": "InternalMed_Harrison_29614",
+            "title": "InternalMed_Harrison",
+            "content": "There is optimism that complex genetic disorders, caused by combinations of both genetic and environmental factors, have now become tractable problems. Genome-wide association studies (GWAS) have been carried out in many complex neurologic disorders, with many hundreds of variants identified, nearly all of which confer only a small increment in disease risk (1.15to 1.5-fold). GWAS studies are rooted in the \u201ccommon disease, common variant\u201d hypothesis, as they examine potential risk alleles that are relatively frequent (e.g. >5%) in the general population. More than 1500 GWAS studies have been carried out, with notable successes such as the identification of 110 risk alleles for multiple sclerosis (Chap. 458). Furthermore, using bioinformatics tools, risk variants can be aligned in functional biologic pathways to identify novel pathogenic mechanisms as well as to reveal heterogeneity (e.g., different pathways in different individuals). Despite these successes, many experienced"
+        },
+        {
+            "id": "InternalMed_Harrison_30213",
+            "title": "InternalMed_Harrison",
+            "content": "Several genes play an important role in the pathogenesis of AD. One is the APP gene on chromosome 21. Adults with trisomy 21 (Down\u2019s syndrome) consistently develop the typical neuropathologic hallmarks of AD if they survive beyond age 40 years, and many develop a progressive dementia superimposed on their baseline mental retardation. The extra dose of the APP gene on chromosome 21 is the initiating cause of AD in adult Down\u2019s syndrome and results in excess cerebral amyloid production. Supporting this hypothesis, some families with early age-of-onset familial AD (FAD) have point mutations in APP. Although very rare, these families were the first examples of single-gene autosomal dominant transmission of AD."
+        },
+        {
+            "id": "InternalMed_Harrison_29612",
+            "title": "InternalMed_Harrison",
+            "content": "The landscape of neurology has been transformed by modern molecular genetics. Several hundred neurologic and psychiatric disorders can now be diagnosed through genetic testing (http://www.ncbi.nlm.nih .gov/sites/GeneTests/?db=GeneTests). The vast majority of these represent highly penetrant mutations that cause rare neurologic disorders; alternatively, they represent rare monogenic causes of common phenotypes. Examples of the latter include mutations of the amyloid precursor protein in familial Alzheimer\u2019s disease, the microtubule-associated protein tau (MAPT) in frontotemporal dementia, and \u03b1-synuclein in Parkinson\u2019s disease. These discoveries have been profoundly important because the mutated gene in the familial disorder often encodes a protein that is also pathogenetically involved (although not mutated) in the typical, sporadic form. The common mechanism involves disordered processing and, ultimately, aggregation of the protein leading to cell death (see \u201cProtein Aggregation and"
+        },
+        {
+            "id": "Neurology_Adams_7474",
+            "title": "Neurology_Adams",
+            "content": "these account for some proportion the heritability of common diseases; (3) single nucleotide polymorphisms, which are variations from the most common, \u201cwild type,\u201d sequence of a gene and are by convention present with a frequency of greater than 1 percent in the population; these play a role in the genesis of disease but do not obligatorily result in a somatic aberration or alternatively, they interact with exogenous environmental factors; and (4) mitochondrial gene mutations that are inherited in a nonmendelian, mainly maternally inherited pattern. Furthermore, the expression of certain diseases may be modulated by epigenetic alterations in gene expression, which have not been fully explored."
+        },
+        {
+            "id": "InternalMed_Harrison_4847",
+            "title": "InternalMed_Harrison",
+            "content": "Phenocopies refer to circumstances in which nongenetic conditions mimic a genetic disorder. For example, features of toxin-or drug-induced neurologic syndromes can resemble those seen in Huntington\u2019s disease, and vascular causes of dementia share phenotypic features with familial forms of Alzheimer\u2019s dementia (Chap. 448). As in nonallelic heterogeneity, the presence of phenocopies has the potential to confound linkage studies and genetic testing. Patient history and subtle differences in phenotype can often provide clues that distinguish these disorders from related genetic conditions."
+        },
+        {
+            "id": "Neurology_Adams_8437",
+            "title": "Neurology_Adams",
+            "content": "The now outdated practice of giving Alzheimer disease and senile dementia the status of separate diseases is attributable to the relatively young age (51 years) of the patient originally studied by Alois Alzheimer in 1907. Such a division is no longer tenable as, except for their age of onset, they are clinically and pathologically indistinguishable. It is probably useful to consider as related but separable, the several heredofamilial forms of Alzheimer disease discussed below."
+        }
+    ],
+    "scores": [
+        0.035393183161812336,
+        0.03397154505717197,
+        0.03256594843615787,
+        0.03223160559949206,
+        0.03109373570110923,
+        0.02897690750941525,
+        0.028872468527640943,
+        0.026949317773646904,
+        0.026864163084019017,
+        0.02575687860021774,
+        0.024577449721865638,
+        0.02372738679942235,
+        0.023480993203319783,
+        0.0231990231990232,
+        0.021802784576507205,
+        0.021245421245421246,
+        0.0210610756511595,
+        0.020847176079734218,
+        0.020722354568508412,
+        0.02023398542385884,
+        0.020184063909090097,
+        0.0200558488120746,
+        0.019881578539468654,
+        0.01886922971998675,
+        0.017966484047695776,
+        0.017438736852446533,
+        0.017261904761904763,
+        0.017248972401644157,
+        0.017158294392523366,
+        0.01698581560283688,
+        0.016666666666666666,
+        0.01649470540320391
+    ],
+    "execution_time": 21.695924520492554
+}

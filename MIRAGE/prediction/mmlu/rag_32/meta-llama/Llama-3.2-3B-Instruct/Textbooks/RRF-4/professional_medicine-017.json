@@ -1,0 +1,209 @@
+{
+    "id": "professional_medicine-017",
+    "question": "A technician wants to determine whether cytomegalovirus (CMV) DNA is present in the blood of a bone marrow transplant recipient. DNA purified from the leukocytes of the patient is reacted in a mixture containing oligonucleotides specific for CMV DNA, thermostable DNA polymerase, and nucleotides. Repetitive cycles of heating and cooling are performed, and the reaction product is detected by gel electrophoresis. The technician most likely used which of the following laboratory procedures on this patient's blood?",
+    "options": {
+        "A": "Northern blotting",
+        "B": "Polymerase chain reaction",
+        "C": "Reverse transcription",
+        "D": "Southern blotting"
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step thinking for the question: 1. The question states that a technician is trying to determine whether CMV DNA is present in the blood of a bone marrow transplant recipient. 2. The technician has purified DNA from the leukocytes of the patient and reacted it in a mixture containing oligonucleotides specific for CMV DNA, thermostable DNA polymerase, and nucleotides. 3. The reaction involves repetitive cycles of heating and cooling, and the reaction product is detected by gel electrophoresis. 4. This process is a common method for amplifying specific DNA sequences. Considering these points, we can rule out the following options: * Northern blotting (A) is a method for detecting specific RNA sequences, not DNA. * Reverse transcription (C) is a process that converts RNA into DNA, which is not relevant to this scenario. * Southern blotting (D) is a method for detecting specific DNA sequences, but it typically involves digestion of DNA with restriction enzymes and separation of the fragments by gel electrophoresis, which is not described in the scenario. This leaves us with the following option: * Polymerase chain reaction (B) The polymerase chain reaction (PCR) is a laboratory technique used to amplify specific DNA sequences. The description of the reaction mixture and the use of oligonucleotides, thermostable DNA polymerase, and nucleotides matches the process of PCR. Therefore, the technician most likely used polymerase chain reaction to detect CMV DNA in the patient's blood. Here is the output in JSON format: {\"step_by_step_thinking\": \"The technician used PCR to detect CMV DNA in the patient's blood. This is because the reaction mixture contained oligonucleotides specific for CMV DNA, thermostable DNA polymerase, and nucleotides, and involved repetitive cycles of heating and cooling to amplify the DNA sequence. The reaction product was detected by gel electrophoresis, which is a common method for detecting amplified DNA sequences.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_9041",
+            "title": "InternalMed_Harrison",
+            "content": "Cytomegalovirus This ubiquitous virus infects \u226550% of the general population and is transmitted by the infected \u201cpassenger\u201d WBCs found in transfused PRBCs or platelet components. Cellular components that are leukocyte-reduced have a decreased risk of transmitting CMV, regardless of the serologic status of the donor. Groups at risk for CMV infections include immunosuppressed patients, CMV-seronegative transplant recipients, and neonates; these patients should receive leukocyte-depleted components or CMV seronegative products. Human t lympHotropiC virus (Htlv) type 1 Assays to detect HTLV-1 and -2 are used to screen all donated blood. HTLV-1 is associated with adult T cell leukemia/lymphoma and tropical spastic paraparesis in a small percentage of infected persons (Chap. 225e). The risk of HTLV-1 infection via transfusion is 1 in 641,000 transfusion episodes. HTLV-2 is not clearly associated with any disease."
+        },
+        {
+            "id": "InternalMed_Harrison_14205",
+            "title": "InternalMed_Harrison",
+            "content": "Measurement of the amount of viral RNA or DNA in peripheral blood is an important means for determining whether a patient is at increased risk for virus-induced disease and for evaluating clinical responses to antiviral chemotherapy. Nucleic acid technologies for RNA quantification are routinely used in AIDS patients to evaluate responses to antiviral agents and to detect viral resistance or noncompliance with therapy. Virus-load measurements are also useful for evaluating the treatment of patients with HBV and HCV infections. Nucleic acid testing or direct staining with CMV-specific monoclonal antibodies to quantitate virus-infected cells in the peripheral blood (CMV antigenemia) is useful for identifying immunosuppressed patients who may be at risk for CMV-induced disease."
+        },
+        {
+            "id": "InternalMed_Harrison_14517",
+            "title": "InternalMed_Harrison",
+            "content": "CMV infection usually cannot be diagnosed reliably on clinical grounds alone. Isolation of CMV or detection of its antigens or DNA in appropriate clinical specimens is the preferred approach. The most common method of detection is quantitative nucleic acid testing (QNAT) for CMV by polymerase chain reaction (PCR) technology, for which blood or other specimens can be used; some centers use a CMV antigenemia test, an immunofluorescence assay that detects CMV antigens (pp65) in peripheral-blood leukocytes. Such assays may yield a positive result several days earlier than culture methods. QNAT may predict the risk for disease progression, particularly in immunocompromised hosts. CMV DNA in cerebrospinal fluid is useful in the diagnosis of CMV encephalitis or polyradiculopathy. Considerable variation exists among assays and laboratories; a recently introduced international testing standard should help reduce variation in PCR test results."
+        },
+        {
+            "id": "InternalMed_Harrison_8531",
+            "title": "InternalMed_Harrison",
+            "content": "GVHD. Cytomegalovirus (CMV)-negative blood products should be used for CMV-seronegative patients who are potential candidates for allogeneic HSCT. Leukodepleted products are also effective for these patients if CMV-negative products are not available."
+        },
+        {
+            "id": "InternalMed_Harrison_21804",
+            "title": "InternalMed_Harrison",
+            "content": "CMV is a common and dangerous DNA virus in transplant recipients. It does not generally appear until the end of the first post-transplant month. Active CMV infection is sometimes associated, or occasionally confused, with rejection episodes. Patients at highest risk for severe CMV disease are those without anti-CMV antibodies who receive a graft from a CMV antibody\u2013positive donor (15% mortality). Valganciclovir is a cost-effective and bioavailable oral form of ganciclovir that has been proved effective in both prophylaxis and treatment of CMV disease. Early diagnosis in a febrile patient with clinical suspicion of CMV disease can be made by determining CMV viral load in the blood. A rise in IgM antibodies to CMV is also diagnostic. Culture of CMV from blood may be less sensitive. Tissue invasion of CMV is common in the gastrointestinal tract and lungs. CMV retinopathy occurs late in the course, if untreated. Treatment of active CMV disease with valganciclovir is always indicated. In"
+        },
+        {
+            "id": "First_Aid_Step1_29",
+            "title": "First_Aid_Step1",
+            "content": "Polymerase chain Molecular biology lab procedure used to amplify a desired fragment of DNA. Useful as a diagnostic reaction tool (eg, neonatal HIV, herpes encephalitis). Denaturation\u2014DNA is heated to ~95\u00b0C to separate the strands. Annealing\u2014Sample is cooled to ~55\u00b0C. DNA primers, a heat-stable DNA polymerase (Taq), and deoxynucleotide triphosphates (dNTPs) are added. DNA primers anneal to the specific sequence to be amplified on each strand. Elongation\u2014Temperature is increased to ~72\u00b0C. DNA polymerase attaches dNTPs to the strand to replicate the sequence after each primer. Heating and cooling cycles continue until the DNA sample size is sufficient."
+        },
+        {
+            "id": "InternalMed_Harrison_11348",
+            "title": "InternalMed_Harrison",
+            "content": "With the standard use of CMV-negative or filtered blood products, CMV infection should be a major risk in allogeneic transplantation only when the recipient is CMV-seropositive and the donor is CMV-seronegative. This situation is the reverse of that in solid organ transplant recipients. CMV reactivates from latent reservoirs present in the recipient at a time when donor T cells (especially cord-blood T cells) are too immature to control CMV replication. If the T cells from the donor have never encountered CMV and the recipient carries the virus, the patient is at maximal risk of severe disease. Reactivation disease or superinfection with another strain from the donor also can occur in CMV-positive recipients, but clinical manifestations are typically less severe, presumably because of CMV-specific memory in transplanted donor T cells. Most patients infected with CMV who undergo HSC transplantation excrete virus, with or without clinical findings. Serious CMV disease is much more"
+        },
+        {
+            "id": "InternalMed_Harrison_9074",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 139e-1 Major syndromes complicating marrow transplantation. CMV, cytomegalovirus; GVHD, graft-versus-host disease; HSV, herpes simplex virus; SOS, sinusoidal obstructive syndrome (formerly venoocclusive disease); VZV, varicella-zoster virus. The size of the shaded area roughly reflects the period of risk of the complication. period. Following allogeneic transplantation, engraftment can be documented using fluorescence in situ hybridization of sex chromosomes if donor and recipient are sex-mismatched or by analysis of a variable number of tandem repeats or short tandem repeat polymorphisms after DNA amplification."
+        },
+        {
+            "id": "InternalMed_Harrison_11346",
+            "title": "InternalMed_Harrison",
+            "content": "Cytomegalovirus The onset of CMV disease (interstitial pneumonia, bone marrow suppression, graft failure, hepatitis/colitis) usually begins 30\u201390 days after HSC transplantation, when the granulocyte count is adequate but immunologic reconstitution has not occurred. CMV disease rarely develops earlier than 14 days after transplantation and may become evident as late as 4 months after the procedure. It is of greatest concern in the second month after transplantation, particularly in allogeneic HSC transplant recipients. In cases in which the donor marrow is depleted of T cells (to prevent GVHD or eliminate a T cell tumor) and in cord-blood recipients, the disease may manifest earlier. The use of alemtuzumab to prevent GVHD in nonmyeloablative transplantation has been associated with an increase in CMV disease. Patients who receive ganciclovir for prophylaxis, preemptive treatment, or treatment (see below) may develop recurrent CMV infection even later than 4 months after"
+        },
+        {
+            "id": "InternalMed_Harrison_14519",
+            "title": "InternalMed_Harrison",
+            "content": "Virus excretion or viremia is readily detected by culture of appropriate specimens on human fibroblast monolayers. If CMV titers are high, as is common in congenital disseminated infection and in AIDS, characteristic cytopathic effects may be detected within a few days. However, in some situations (e.g., CMV mononucleosis), viral titers are low, and cytopathic effects may take several weeks to appear. Many laboratories expedite diagnosis with an overnight tissue-culture method (shell vial assay) involving centrifugation and an immunocytochemical detection technique employing monoclonal antibodies to an immediate-early CMV antigen. Isolation of virus from urine or saliva does not, by itself, constitute proof of acute infection, since excretion from these sites may continue for months or years after illness. Detection of viremia is a better predictor of acute infection."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1705",
+            "title": "Biochemistry_Lippinco",
+            "content": "oligonucleotide (ASO) probe can be used to detect the presence of the sickle cell mutation in the \u03b2-globin gene (Fig. 34.11). DNA, isolated from white blood cells (WBC) and amplified, is denatured and applied to a membrane. A radiolabeled oligonucleotide probe, complementary to the point mutation (GAG \u2192 GTG, glutamate \u2192 valine) at codon 6 in patients with the \u03b2S gene, is applied to the membrane. DNA isolated from a heterozygous individual (sickle cell trait) or a homozygous patient (sickle cell anemia) contains a sequence that is complementary to the probe and a double-stranded hybrid form can be detected. In contrast, DNA obtained from normal individuals is not complementary at this position and, therefore, does not form a hybrid (see Fig. 34.11). Use of a pair of such ASO probes (one specific for the normal allele and one specific for the mutant allele) allows all three possible genotypes (homozygous normal, heterozygous, and homozygous mutant) to be distinguished (Fig. 34.12)."
+        },
+        {
+            "id": "InternalMed_Harrison_4576",
+            "title": "InternalMed_Harrison",
+            "content": "The laboratory investigation of patients with lymphadenopathy must be tailored to elucidate the etiology suspected from the patient\u2019s history and physical findings. One study from a family practice clinic evaluated 249 younger patients with \u201cenlarged lymph nodes, not infected\u201d or \u201clymphadenitis.\u201d No laboratory studies were obtained in 51%. When studies were performed, the most common were a complete blood count (CBC) (33%), throat culture (16%), chest x-ray (12%), or monospot test (10%). Only eight patients (3%) had a node biopsy, and half of those were normal or reactive. The CBC can provide useful data for the diagnosis of acute or chronic leukemias, EBV or CMV mononucleosis, lymphoma with a leukemic component, pyogenic infections, or immune cytopenias in illnesses such as SLE. Serologic studies may demonstrate antibodies specific to components of EBV, CMV, HIV, and other viruses; Toxoplasma gondii; Brucella; and so on. If SLE is suspected, antinuclear and anti-DNA antibody studies"
+        },
+        {
+            "id": "Surgery_Schwartz_3376",
+            "title": "Surgery_Schwartz",
+            "content": "serve as primers for in vitro DNA synthesis, which is performed by a DNA polymerase, and they determine the segment of the DNA that is amplified. A. PCR starts with a double-stranded DNA, and each cycle of the reaction begins with a brief heat treatment to separate the two strands (Step 1). After strand separation, cooling of the DNA in the presence of a large excess of the two primer DNA oligonucleotides allows these primers to hybridize to complementary sequences in the two DNA strands (Step 2). This mixture is then incubated with DNA polymerase and the four deoxyribonucleoside triphosphates so that DNA is synthesized, starting from the two primers (Step 3). The entire cycle is then begun again by a heat treatment to separate the newly synthesized DNA strands. B. As the procedure is performed over and over again, the newly synthesized fragments serve as templates in their turn, and, within a few cycles, the predominant DNA is identical to the sequence bracketed by and including the"
+        },
+        {
+            "id": "InternalMed_Harrison_14520",
+            "title": "InternalMed_Harrison",
+            "content": "A variety of serologic assays detect antibody to CMV. An increased level of IgG antibody to CMV may not be detectable for up to 4 weeks after primary infection. Detection of CMV-specific IgM is sometimes useful in the diagnosis of recent or active infection; however, circulating rheumatoid factors may result in occasional false-positive IgM tests. Serology is especially helpful when used to predict risk of CMV infection and disease in transplant recipients."
+        },
+        {
+            "id": "InternalMed_Harrison_3239",
+            "title": "InternalMed_Harrison",
+            "content": "FIguRE 58-1 Evaluation of the patient with jaundice. ALT, alanine aminotransferase; AMA, antimitochondrial antibody; ANA, antinuclear antibody; AST, aspartate aminotransferase; CMV, cytomegalovirus; EBV, Epstein-Barr virus; LKM, liver-kidney microsomal antibody; MRCP, magnetic resonance cholangiopancreatography; SMA, smooth-muscle antibody; SPEP, serum protein electrophoresis. Simply stated, the initial step is to perform appropriate blood tests in order to determine whether the patient has an isolated elevation of serum bilirubin. If so, is the bilirubin elevation due to an increased unconjugated or conjugated fraction? If the hyperbilirubinemia is accompanied by other liver test abnormalities, is the disorder hepatocellular or cholestatic? If cholestatic, is it intraor extrahepatic? All of these questions can be answered with a thoughtful history, physical examination, and interpretation of laboratory and radiologic tests and procedures."
+        },
+        {
+            "id": "InternalMed_Harrison_11352",
+            "title": "InternalMed_Harrison",
+            "content": "therapy with drugs only after CMV is detected in blood by a nucleic acid amplification test (NAAT)\u2014is used at most centers. To limit variability between tests, the World Health Organization (WHO) has developed an international reference standard for measurement of CMV load by NAAT-based assays. Because of toxic drug side effects (e.g., neutropenia and bone marrow suppression), the preemptive approach has supplanted prophylactic therapy; it has also replaced treatment of all seropositive (recipient and/or donor) HSC transplants with an antiviral agent (typically ganciclovir). A positive test (or increasing viral load) prompts the initiation of preemptive therapy with ganciclovir. Preemptive approaches that target patients who have quantitative NAAT evidence of CMV infection can still lead to unnecessary treatment of many individuals with drugs that have adverse effects on the basis of a laboratory test that is not highly predictive of disease; however, invasive disease, particularly in"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1704",
+            "title": "Biochemistry_Lippinco",
+            "content": "If the sequence of all or part of the target DNA is known, short, single-stranded oligonucleotide probes can be synthesized that are complementary to a small region of the gene of interest. If the sequence of the gene is unknown, the amino acid sequence of the protein, the final gene product, may be used to construct a nucleic acid probe using the genetic code as a guide. Because of the degeneracy of the genetic code (see p. 449), it is necessary to synthesize several oligonucleotides. [Note: Oligonucleotides can be used to detect single-base changes in the sequence to which they are complementary. In contrast, cDNA probes contain many thousands of bases, and their binding to a target DNA with a single-base change is unaffected.] 1. Detecting the \u03b2S-globin mutation: A synthetic allele-specific oligonucleotide (ASO) probe can be used to detect the presence of the sickle cell mutation in the \u03b2-globin gene (Fig. 34.11). DNA, isolated from white blood cells (WBC) and amplified, is"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1699",
+            "title": "Biochemistry_Lippinco",
+            "content": "The base sequence of DNA fragments that have been cloned can be determined. The original procedure for this purpose was the Sanger dideoxy chain termination method illustrated in Figure 34.9. In this method, the single-stranded DNA (ssDNA) to be sequenced is used as the template for DNA synthesis by DNA polymerase (DNA pol). A radiolabeled primer complementary to the 3\u2032-end of the target DNA is added, along with the four deoxyribonucleoside triphosphates (dNTP). The sample is divided into four reaction tubes, and a small amount of one of the four dideoxyribonucleoside triphosphates (ddNTP) is added to each tube. Because it contains no 3\u2032-hydroxyl group, incorporation of a ddNMP terminates elongation at that point. The products of this reaction, then, consist of a mixture of DNA strands of different lengths, each terminating at a specific base. Separation of the various DNA products by size in an electric field using polyacrylamide gel electrophoresis, followed by autoradiography,"
+        },
+        {
+            "id": "InternalMed_Harrison_9082",
+            "title": "InternalMed_Harrison",
+            "content": "Graft Failure Although complete and sustained engraftment is usually seen after transplant, occasionally marrow function either does not return or, after a brief period of engraftment, is lost. Graft failure after autologous transplantation can be the result of inadequate numbers of stem cells being transplanted, damage during ex vivo treatment or storage, or exposure of the patient to myelotoxic agents after transplant. Infections with cytomegalovirus (CMV) or human herpesvirus type 6 have also been associated with loss of marrow function. Graft failure after allogeneic transplantation can also be due to immunologic rejection of the graft by immunocompetent host cells. Immunologically based graft rejection is more common following use of less immunosuppressive preparative regimens, in recipients of T cell\u2013depleted stem cell products, and in patients receiving grafts from HLA-mismatched donors or cord blood."
+        },
+        {
+            "id": "InternalMed_Harrison_11351",
+            "title": "InternalMed_Harrison",
+            "content": "period of maximal vulnerability (from engraftment to day 120 after transplantation). Ganciclovir also prevents HSV reactivation and reduces the risk of VZV reactivation; thus acyclovir prophylaxis should be discontinued when ganciclovir is administered. The foremost problem with the administration of ganciclovir relates to adverse effects, which include dose-related bone marrow suppression (thrombocytopenia, leukopenia, anemia, and pancytopenia). Because the frequency of CMV pneumonia is lower among autologous HSC transplant recipients (2\u20137%) than among allogeneic HSC transplant recipients (10\u201340%), prophylaxis in the former group will not become the rule until a less toxic oral antiviral agent becomes available. Several are under study. Preemptive treatment of CMV\u2014that is, initiation of therapy with drugs only after CMV is detected in blood by a nucleic acid amplification test (NAAT)\u2014is used at most centers. To limit variability between tests, the World Health Organization (WHO) has"
+        },
+        {
+            "id": "InternalMed_Harrison_14501",
+            "title": "InternalMed_Harrison",
+            "content": "Cytomegalic cells in vivo (presumed to be infected epithelial cells) are two to four times larger than surrounding cells and often contain an 8to 10-\u03bcm intranuclear inclusion that is eccentrically placed and is surrounded by a clear halo, producing an \u201cowl\u2019s eye\u201d appearance. Smaller granular cytoplasmic inclusions are demonstrated occasionally. Cytomegalic cells are found in a wide variety of organs, including the salivary gland, lung, liver, kidney, intestine, pancreas, adrenal gland, and central nervous system. The cellular inflammatory response to infection consists of plasma 1191 cells, lymphocytes, and monocyte-macrophages. Granulomatous reactions occasionally develop, particularly in the liver. Immunopathologic reactions may contribute to CMV disease. Immune complexes have been detected in infected infants, sometimes in association with CMV-related glomerulopathies. Immune-complex glomerulopathy has also been observed in some CMV-infected patients after renal transplantation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2306",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA strand, they block further elongation of that strand. DNA SEQUENCING MANUAL DIDEOXY SEQUENCING AUTOMATED DIDEOXY SEQUENCING To determine the complete sequence of a single-stranded fragment of DNA (gray), the DNA is frst hybridized with a short DNA primer (orange) that is labeled with a fuorescent dye or radioisotope. DNA polymerase and an excess of all four normal deoxyribonucleoside triphosphates (blue A, C, G, or T) are added to the primed DNA, which is then divided into four reaction tubes. Each of these tubes receives a small amount of a single chain-terminating dideoxyribonucleoside triphosphate (red A, C, G, or T). Because these will be incorporated only occasionally, each reaction produces a set of DNA copies that terminate at different points in the sequence. The products of these four reactions are separated by electrophoresis in four parallel lanes of a polyacrylamide gel (labeled here A, T, C, and G). In each lane, the bands represent fragments that have terminated at a"
+        },
+        {
+            "id": "Surgery_Schwartz_3379",
+            "title": "Surgery_Schwartz",
+            "content": "Brunicardi_Ch15_p0479-p0510.indd 49518/02/19 11:12 AM 496BASIC CONSIDERATIONSPART Ithe annealed primers by DNA polymerase. Because the primer extension products synthesized in one cycle can serve as a template in the next, the number of target DNA copies nearly doubles at each cycle. Thus, a repeated series of cycles result in the exponential accumulation of a specific fragment in which the termini are sharply defined by the 5\u2032 ends of the primers. The introduction of the thermostable DNA polymerase (e.g., Taq polymerase) transforms the PCR into a simple and robust reaction. The reaction components (e.g., template, primers, Taq polymerase, 2\u2032-deoxynucleoside 5\u2032-triphosphates, and buffer) could all be assembled and the amplification reaction carried out by simply cycling the temperatures within the reaction tube. The specificity and yield in amplifying a particular DNA frag-ment by PCR reaction are affected by the proper setting of the reaction parameters (e.g., enzyme, primer, and"
+        },
+        {
+            "id": "InternalMed_Harrison_9985",
+            "title": "InternalMed_Harrison",
+            "content": "Examine cell cultures for CPE; use serology to detect antibody in acute and convalescent sera; use rapid DFA where possible Use immunofluorescence for viral agents in cultures; use other identification methods, such as direct DNA/RNA probes Viral load testing: Use for CMV, HIV, HepC; use DNA/RNA amplification for genotyping"
+        },
+        {
+            "id": "InternalMed_Harrison_9992",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 150e-2 Strategies for amplification and/or detection of a target\u2013probe complex. DNA or RNA extracted from microorganisms is heated to create single-stranded (ss) DNA/RNA containing appropriate target sequences. These target sequences may be hybridized directly (direct detection) with probes attached to reporter molecules; they may be amplified by repetitive cycles of complementary strand extension (polymerase chain reaction) before attachment of a reporter probe; or the original target\u2013probe signal may be amplified via hybridization with an additional probe containing multiple copies of a secondary reporter target sequence (branched-chain DNA, or bDNA). DNA/RNA hybrids also can be \u201ccaptured\u201d on a solid support (hybrid capture), with antibody to the DNA/RNA hybrids used to concentrate them and a second antibody CHAPTER 150e Laboratory Diagnosis of Infectious Diseases coupled to a reporter molecule attached to the captured hybrid."
+        },
+        {
+            "id": "Neurology_Adams_99",
+            "title": "Neurology_Adams",
+            "content": "Once the subarachnoid space has been entered, the pressure and fluctuations with respiration of the CSF are observed, and samples of fluid are obtained. The gross appearance of the fluid is noted, after which the CSF, in separate tubes, can be examined for a number of features. The standard determinations are of the number and type of cells, protein and glucose content, and microscopy and bacterial culture. In addition, the following can be studied: (1) tumor cells (cytology and flow cytometry); (2) presence of oligoclonal bands or content of gamma globulin; (3) serologic (immunological) tests; (4) substances elaborated by some tumors (e.g., \u03b22 microglobulin); and (5) markers pertaining to certain infections such as fungi, cryptococcal and other antigen and India ink preparations, mycobacteria, DNA of herpesvirus, cytomegalovirus and other organisms (by polymerase chain reaction), markers of certain infections (e.g., 14-3-3 protein), and viral isolation."
+        },
+        {
+            "id": "InternalMed_Harrison_14497",
+            "title": "InternalMed_Harrison",
+            "content": "CMV is not readily spread by casual contact but rather requires repeated or prolonged intimate exposure for transmission. In late adolescence and young adulthood, CMV is often transmitted sexually, and asymptomatic carriage in semen or cervical secretions is common. Antibody to CMV is present at detectable levels in a high proportion of sexually active men and women, who may harbor several strains simultaneously. Transfusion of blood products containing viable leukocytes may transmit CMV, with a frequency of 0.14\u201310% per unit transfused. Transfusion of leukocyte-reduced or CMV-seronegative blood significantly decreases the risk of CMV transmission."
+        },
+        {
+            "id": "Surgery_Schwartz_855",
+            "title": "Surgery_Schwartz",
+            "content": "subsequent reactions.If an immediate hemolytic transfusion reaction is sus-pected, the transfusion should be stopped immediately, and a sample of the recipient\u2019s blood drawn and sent along with the suspected unit to the blood bank for comparison with the pretransfusion samples. Urine output should be monitored and adequate hydration maintained to prevent precipitation of hemo-globin within the tubules. Delayed hemolytic transfusion reac-tions do not usually require specific intervention.Transmission of Disease. Malaria, Chagas\u2019 disease, brucel-losis, and, very rarely, syphilis are among the diseases that have been transmitted by transfusion. Malaria can be transmitted by all blood components. The species most commonly implicated is Plasmodium malariae. The incubation period ranges from 8 to 100 days; the initial manifestations are shaking chills and spiking fever. Cytomegalovirus (CMV) infection resembling infectious mononucleosis also has occurred.Transmission of hepatitis C and"
+        },
+        {
+            "id": "InternalMed_Harrison_11383",
+            "title": "InternalMed_Harrison",
+            "content": "219) may also present as arthralgias, myalgias, or organ-specific symptoms. During this period, this infection may represent primary disease (in the case of a seronegative recipient of a kidney from a seropositive donor) or may represent reactivation disease or superinfection. Patients may have atypical lymphocytosis. Unlike immunocompetent patients, however, they rarely have lymphadenopathy or splenomegaly. Therefore, clinical suspicion and laboratory confirmation are necessary for diagnosis. The clinical syndrome may be accompanied by bone marrow suppression (particularly leukopenia). CMV also causes glomerulopathy and is associated with an increased incidence of other opportunistic infections. Because of the frequency and severity of disease, a considerable effort has been made to prevent and treat CMV infection in renal transplant recipients. An immune globulin preparation enriched with antibodies to CMV was used by many centers in the past in an effort to protect the group at"
+        },
+        {
+            "id": "InternalMed_Harrison_11045",
+            "title": "InternalMed_Harrison",
+            "content": "Foscarnet is a pyrophosphate analogue that inhibits viral DNA polymerases by binding to the pyrophosphate-binding site. Following intravenous infusion, CSF concentrations range from 15 to 100% of coincident plasma levels. The usual dose for serious CMV-related neurologic illness is 60 mg/kg every 8 h administered by constant infusion over 1 h. Induction therapy for 14\u201321 days is followed by maintenance therapy (60\u2013120 mg/kg per day). Induction therapy may need to be extended in patients who fail to show a decline in CSF pleocytosis and a reduction in CSF CMV DNA copy number on quantitative PCR tests (where available). Approximately one-third of patients develop renal impairment during treatment, which is reversible following discontinuation of therapy in most, but not all, cases. This is often associated with elevations in serum creatinine and proteinuria and is less frequent in patients who are adequately hydrated. Many patients experience fatigue and nausea. Reductions in serum"
+        },
+        {
+            "id": "InternalMed_Harrison_31070",
+            "title": "InternalMed_Harrison",
+            "content": "in patients with acquired demyelinating neuropathies and M-spikes to look for osteosclerotic or lytic lesions. Patients with monoclonal gammopathy should also be referred to a hematologist for consideration of a bone marrow biopsy. An oral glucose tolerance test is indicated in patients with painful sensory neuropathies even if FBS and HbA1c are normal, 2677 as the test is abnormal in about one-third of such patients. In addition to the above tests, patients with a mononeuropathy multiplex pattern of involvement should have a vasculitis workup, including antineutrophil cytoplasmic antibodies (ANCA), cryoglobulins, hepatitis serology, Western blot for Lyme disease, HIV, and occasionally a cytomegalovirus (CMV) titer."
+        },
+        {
+            "id": "InternalMed_Harrison_14202",
+            "title": "InternalMed_Harrison",
+            "content": "HSV and VZV. Nasopharyngeal aspirates and stool specimens may be useful when the patient has fever and a rash and an enteroviral infection is suspected. Adenoviruses can be cultured from the urine of patients with hemorrhagic cystitis. CMV can frequently be isolated from cultures of urine or buffy coat. Biopsy material can be effectively cultured when viruses infect major organs, as in HSV encephalitis or adenovirus pneumonia."
+        }
+    ],
+    "scores": [
+        0.03512375099293449,
+        0.029566330200419967,
+        0.029043690227238517,
+        0.02760154080360958,
+        0.026671629612806082,
+        0.02519703845235252,
+        0.024444660110420978,
+        0.023632531851709934,
+        0.022835876346772227,
+        0.020391872278664732,
+        0.019240306296143858,
+        0.01923020638845436,
+        0.017419787091491105,
+        0.01660465757199945,
+        0.016173348320219806,
+        0.0160378517881283,
+        0.015899949723479134,
+        0.015791945520723258,
+        0.015422077922077922,
+        0.01525900900900901,
+        0.015234917987211567,
+        0.015189728304482404,
+        0.014906832298136646,
+        0.014709051724137931,
+        0.014663511010495987,
+        0.014623587794319503,
+        0.01452714154278243,
+        0.014521905509493206,
+        0.014393939393939393,
+        0.014251314560912083,
+        0.01412512218963832,
+        0.014101991161428074
+    ],
+    "execution_time": 59.690227031707764
+}

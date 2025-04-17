@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-041",
+    "question": "If an X-linked recessive disorder is in Hardy-Weinberg equilibrium and the incidence in males equals 1 in 100, then the expected incidence of affected homozygous females would be _______.",
+    "options": {
+        "A": "1 in 1000",
+        "B": "1 in 4000",
+        "C": "1 in 10 000",
+        "D": "1 in 40 000"
+    },
+    "answer": "C",
+    "predict": "To solve this problem, let's break it down step by step. Step 1: Understand the given information - The disorder is X-linked recessive. - The disorder is in Hardy-Weinberg equilibrium. - The incidence in males is 1 in 100. Step 2: Recall the Hardy-Weinberg equilibrium equation The Hardy-Weinberg principle states that allele and genotype frequencies in a population will remain constant from generation to generation in the absence of other evolutionary influences. The equation for the Hardy-Weinberg equilibrium is: \\[ p^2 + 2pq + q^2 = 1 \\] where p is the frequency of the dominant allele (in this case, the normal allele), q is the frequency of the recessive allele (the mutant allele), and 2pq is the frequency of heterozygotes (carriers). Step 3: Determine the frequency of the mutant allele (q) Since the disorder is X-linked recessive, only males can express the disorder. Therefore, the frequency of the mutant allele in the population is equal to the frequency of the disorder in males, which is 1 in 100 or 0.01. Step 4: Apply the Hardy-Weinberg equilibrium equation \\[ p^2 + 2pq + q^2 = 1 \\] \\[ 0.99 + 2(0.01)q + q^2 = 1 \\] \\[ q^2 + 0.02q - 0.01 = 0 \\] Step 5: Solve the quadratic equation for q Using the quadratic formula: \\[ q = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\] \\[ q = \\frac{-0.02 \\pm \\sqrt{0.02^2 - 4(1)(-0.01)}}{2(1)} \\] \\[ q = \\frac{-0.02 \\pm \\sqrt{0.0004 + 0.04}}{2} \\] \\[ q = \\frac{-0.02 \\pm \\sqrt{0.0404}}{2} \\] \\[ q = \\frac{-0.02 \\pm 0.2006}{2} \\] \\[ q = \\frac{-0.02 + 0.2006}{2} \\] or \\[ q = \\frac{-0.02 - 0.2006}{2} \\] \\[ q = 0.0903 \\] or \\[ q = -0.1103 \\] Since q represents the frequency of the mutant allele, it cannot be negative. Therefore, q = 0.0903. Step 6: Calculate the frequency of homozygous females The frequency of homozygous females is q^2, which is: \\[ q^2 = 0.0903^2 = 0.0082 \\] To convert this to a fraction, we get: \\[ q^2 = 0.0082 = \\frac{82}{10000} = \\frac{41}{5000} \\] Step 7: Convert the fraction to a decimal and round to the nearest whole number \\[ \\frac{41}{5000} = 0.0082 \\approx 0.008 \\approx \\frac{1}{125} \\] Therefore, the expected incidence of affected homozygous females is approximately 1 in 125. The final answer is: {\"step_by_step_thinking\": \"To solve this problem, we used the Hardy-Weinberg equilibrium equation to determine the frequency of the mutant allele in the population. We then calculated the frequency of homozygous females, which is q^2. The final answer is approximately 1 in 125.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_4867",
+            "title": "InternalMed_Harrison",
+            "content": "x-linkeD DisorDers Males have only one X chromosome; consequently, a daughter always inherits her father\u2019s X chromosome in addition to one of her mother\u2019s two X chromosomes. A son inherits the Y chromosome from his father and one maternal X chromosome. Thus, the characteristic features of X-linked inheritance are (1) the absence of father-to-son transmission, and (2) the fact that all daughters of an affected male are obligate carriers of the mutant allele (Fig. 82-13C). The risk of developing disease due to a mutant X-chromosomal gene differs in the two sexes. Because males have only one X chromosome, they are hemizygous for the mutant allele; thus, they are more likely to develop the mutant phenotype, regardless of whether the mutation is dominant or recessive. A female may be either heterozygous or homozygous for the mutant allele, which may be dominant or recessive. The terms X-linked dominant or X-linked recessive are therefore only applicable to expression of the mutant"
+        },
+        {
+            "id": "InternalMed_Harrison_4861",
+            "title": "InternalMed_Harrison",
+            "content": "In autosomal dominant disorders, individuals are affected in successive generations; the disease does not occur in the offspring of unaffected individuals. Males and females are affected with equal frequency because the defective gene resides on one of the 22 autosomes (Fig. 82-13A). Autosomal dominant mutations alter one of the two alleles at a given locus. Because the alleles segregate randomly at meiosis, the probability that an offspring will be affected is 50%. Unless there is a new germline mutation, an affected individual has an affected parent. Children with a normal genotype do not transmit the disorder. Due to differences in penetrance or expressivity (see above), the Chapter 82 Principles of Human Genetics Heterozygous Heterozygous Female male female carrier of X-linked trait FIGURE 82-11 Standard pedigree symbols."
+        },
+        {
+            "id": "First_Aid_Step1_39",
+            "title": "First_Aid_Step1",
+            "content": "If p and q represent the frequencies of alleles A and a, respectively, in a population, then p + q = 1: p2 = frequency of homozygosity for allele A q2 = frequency of homozygosity for allele a 2pq = frequency of heterozygosity (carrier frequency, if an autosomal recessive disease) Therefore, the sum of the frequencies of these genotypes is p2 + 2pq + q2 = 1. The frequency of an X-linked recessive disease in males = q and in females = q2. Hardy-Weinberg law assumptions include: No mutation occurring at the locus Natural selection is not occurring If a population is in Hardy-Weinberg equilibrium, then the values of p and q remain constant from generation to generation. Disorders of imprinting Imprinting\u2014one gene copy is silenced by methylation, and only the other copy is expressed \u008e parent-of-origin effects. Modes of inheritance Autosomal dominant Often due to defects in structural genes. Many generations, both males and females are affected. AaaaAaAaaaaa"
+        },
+        {
+            "id": "InternalMed_Harrison_4834",
+            "title": "InternalMed_Harrison",
+            "content": "genes that result in disease. Because each individual has two copies of each chromosome (one inherited from the mother and one inherited from the father), he or she can have only two alleles at a given locus. However, there can be many different alleles in the population. The normal or common allele is usually referred to as wild type. When alleles at a given locus are identical, the individual is homozygous. Inheriting identical copies of a mutant allele occurs in many autosomal recessive disorders, particularly in circumstances of consanguinity or isolated populations. If the alleles are different on the maternal and the paternal copy of the gene, the individual is heterozygous at this locus (Fig. 82-10). If two different mutant alleles are inherited at a given locus, the individual is said to be a compound heterozygote. Hemizygous is used to describe males with a mutation in an X chromosomal gene or a female with a loss of one X chromosomal locus."
+        },
+        {
+            "id": "Obstentrics_Williams_1748",
+            "title": "Obstentrics_Williams",
+            "content": "Incest is defined as a sexual relationship between first-degree relatives such as parent-child or brother-sister and is universally illegal. Progeny of such unions carry the highest risk of abnormal outcomes, and older studies reported that up to 40 percent of ofspring were abnormal as a result of recessive and multifactorial disorders (Baird, 1982; Freire-Maia, 1984). Most X-linked diseases are recessive. Common examples include color blindness, hemophilia A and B, and Duchenne and Becker muscular dystrophy. Males with an X-linked recessive gene are usually afected by the disease it causes, because they lack a second X chromosome to express the normal dominant gene. A male with an X-linked disease cannot have afected sons because they cannot receive his X chromosome. When a woman carries a gene causing an X-linked recessive condition, each of her sons has a 50-percent risk of being afected, and each daughter has a 50-percent chance of being a carrier."
+        },
+        {
+            "id": "First_Aid_Step1_41",
+            "title": "First_Aid_Step1",
+            "content": "Aa \u008f risk in consanguineous families. Unaffected individual with affected sibling has 2/3 probability of being a carrier. X-linked recessive Sons of heterozygous mothers have a 50% Commonly more severe in males. Females chance of being affected. No male-to-male usually must be homozygous to be affected. transmission. Skips generations. transmit to all daughters but no sons. XXXXXXXYXYXYXXXXXXXYXYXY X-linked dominant Transmitted through both parents. Mothers Examples: fragile X syndrome, Alport syndrome, transmit to 50% of daughters and sons; fathers hypophosphatemic rickets (also called X-linked hypophosphatemia)\u2014phosphate wasting at proximal tubule \u2022 rickets-like presentation. Mitochondrial Transmitted only through the mother. All inheritance offspring of affected females may show signs of disease. Variable expression in a population or even within a family due to heteroplasmy."
+        },
+        {
+            "id": "Pediatrics_Nelson_963",
+            "title": "Pediatrics_Nelson",
+            "content": "Males and females are likely to be affected equally Rare traits are likely to be associated with parental consanguinity Traits generally involve mutations in genes that code for enzymes (e.g., phenylalanine hydroxylase\u2013deficient in PKU) and are associated with serious illness and shortened life span PKU, Phenylketonuria. Most disorders involving the X chromosome are recessive. With only one copy of the X chromosome, males are more likely to manifest these diseases than females. Each son born to a female carrier of an X-linked recessive trait has a 50% chance of inheriting the trait, but none of this woman\u2019s daughters would be affected (each daughter has a 50% chance of being a carrier). An affected father transmits the mutation to all of his daughters, who are carriers, but not to his sons; having received their father\u2019s Y chromosome, they would not be affected (thus there is no male-to-male transmission) (Tables 47-6, 47-7 and Fig. 47-4). SEE CHAPTER 182. SEE CHAPTER 151."
+        },
+        {
+            "id": "InternalMed_Harrison_4868",
+            "title": "InternalMed_Harrison",
+            "content": "heterozygous or homozygous for the mutant allele, which may be dominant or recessive. The terms X-linked dominant or X-linked recessive are therefore only applicable to expression of the mutant phenotype in women. In addition, the expression of X-chromosomal genes is influenced by X chromosome inactivation."
+        },
+        {
+            "id": "Pathology_Robbins_1636",
+            "title": "Pathology_Robbins",
+            "content": "As with all X-linked diseases, fragile X syndrome predominantly affects males. Analysis of several pedigrees, however, shows some patterns of transmission not typically associated with other X-linked recessive disorders ( Fig. 7.17 ). These include the following: Carrier males. Approximately 20% of males who, by pedigree analysis, are known to carry a fragile X mutation do not manifest the typical neurological symptoms or physical characteristics of fragile X during childhood. As discussed below, these carrier males (also known as \u201ctransmitting males\u201d) harbor a detectable molecular abnormality at the FMR1 locus but not the full-fledged mutation observed in symptomatic children."
+        },
+        {
+            "id": "Neurology_Adams_7482",
+            "title": "Neurology_Adams",
+            "content": "In disorders of X-linked genes, in which the mutant gene affects mainly one sex, the female will suffer the same fate as the male if one X chromosome has been inactivated, as happens in most cells during embryonic development (the Lyon phenomenon). However, even if the abnormal X chromosome is not widely expressed, the female carrier may still exhibit minor abnormalities. In the latter case, sex-linked inheritance becomes difficult to distinguish from dominant inheritance. Also, sex linkage is deceptive when a disease is lethal to one sex. In contrast to autosomal recessive mutations, the abnormality has more often been one of a basic protein than an enzyme deficiency."
+        },
+        {
+            "id": "Pediatrics_Nelson_964",
+            "title": "Pediatrics_Nelson",
+            "content": "SEE CHAPTER 182. SEE CHAPTER 151. Figure 47-3 Pedigree of family showing autosomal recessive inheritance. Only a few X-linked dominant disorders have been described. Both males and females are affected by this group of disorders, but females have less severe symptoms due to X-chromosome inactivation. This is the case for X-linked vitamin D\u2013resistant rickets (hypophosphatemic rickets), a disorder in which the kidney\u2019s ability to reabsorb phosphate is impaired. Phosphate levels and resulting rickets are not as severe in females as in males. However, many X-linked dominant disorders are lethal inmales. Affected mothers can have affected or normal daughters but only normal sons. Affected sons die in utero. This isthe case in incontinentia pigmenti, which has a characteristic swirling skin pattern of hyperpigmentation that develops aftera perinatal skin rash with blistering. Affected females also have variable involvement of the central nervous system, hair, nails,"
+        },
+        {
+            "id": "Pediatrics_Nelson_961",
+            "title": "Pediatrics_Nelson",
+            "content": "SEE CHAPTERS 55 AND 185. More than 1000 genes have been identified on the X chromosome, whereas only about 200 are believed to be present on theY chromosome. Females, whose cells have two copies of an X chromosome, possess two copies of each gene on the X chromosome, whereas males, who have one X chromosome and a Y chromosome, have only one copy of these genes. Early in femaleembryonic development, one X chromosome is randomly inactivated in each cell. There are many X-linked disorders (colorblindness, Duchenne muscular dystrophy, hemophilia A) in which heterozygous (carrier) females show some manifestationsof the disorder due to skewed X chromosome inactivation. Adrenal hyperplasia, congenital 1:5000 Phenotype variation corresponds roughly to allelic variation. A deficiency causes (CAH, 21-hydroxylase deficiency, virilization in females. CA21H, CYP21, cytochrome The gene is located at 6p21.3 within the HLA complex and within 0.005 centimorgans P450, subfamily XXI) (cM) of HLA B"
+        },
+        {
+            "id": "Pathology_Robbins_1497",
+            "title": "Pathology_Robbins",
+            "content": "Disorders of Autosomal Recessive Inheritance Disorders of autosomal recessive inheritance are manifested in the homozygous state. They occur when both of the alleles at a given gene locus are mutants. Therefore, such disorders are characterized by the following features: (1) The trait does not usually affect the parents, who are carriers of one diseased allele, but multiple siblings may show the disease; (2) siblings have one chance in four of being affected (i.e., the recurrence risk is 25% for each birth); and (3) if the mutant gene occurs with a low frequency in the population, there is a strong likelihood that the affected patient (the proband) is the product of a consanguineous marriage. They make up the largest group of mendelian disorders. In contrast with the features of autosomal dominant diseases, the following features generally apply to most autosomal recessive disorders: The expression of the defect tends to be more uniform than in autosomal dominant disorders."
+        },
+        {
+            "id": "InternalMed_Harrison_4853",
+            "title": "InternalMed_Harrison",
+            "content": "sex-influenceD PHenotyPes Certain mutations affect males and females quite differently. In some instances, this is because the gene resides on the X or Y sex chromosomes (X-linked disorders and Y-linked disorders). As a result, the phenotype of mutated X-linked genes will be expressed fully in males but variably in heterozygous females, depending on the degree of X-inactivation and the function of the gene. For example, most heterozygous female carriers of factor VIII deficiency (hemophilia A) are asymptomatic because sufficient factor VIII is produced to prevent a defect in coagulation (Chap. 141). On the other hand, some females heterozygous for the X-linked lipid storage defect caused by \u03b1-galactosidase A deficiency (Fabry\u2019s disease) experience mild manifestations of painful neuropathy, as well as other features of the disease (Chap. 432e). Because only males have a Y chromosome, mutations in genes such as SRY, which causes male-to-female sex reversal, or DAZ (deleted in"
+        },
+        {
+            "id": "Pediatrics_Nelson_966",
+            "title": "Pediatrics_Nelson",
+            "content": "Each son of a carrier female has a one in two chance of being affected Trait is transmitted from affected males to all of their daughters; it is never transmitted father to son Because the trait can be passed through multiple carrier females, it may skip generations teeth, and eyes. In Rett syndrome, caused by mutations in the MECP2 gene, females are normal at birth, but later in the firstyear of life develop microcephaly and developmental regressionand plateau. About 50% of patients develop seizures. Girls oftenare diagnosed with autism and, by 2 years of age, adopt a hand-washing posture that causes them to lose all purposeful hand movements. Often termed polygenic inheritance, multifactorially inheriteddisorders result from the interplay of genetic and environmental Figure 47-4 Pedigree showing X-linked recessive inheritance."
+        },
+        {
+            "id": "InternalMed_Harrison_4866",
+            "title": "InternalMed_Harrison",
+            "content": "In most instances, an affected individual is the offspring of heterozygous parents. In this situation, there is a 25% chance that the offspring will have a normal genotype, a 50% probability of a heterozygous state, and a 25% risk of homozygosity for the recessive alleles (Figs. 82-10, 82-13B). In the case of one unaffected heterozygous and one affected homozygous parent, the probability of disease increases to 50% for each child. In this instance, the pedigree analysis mimics an autosomal dominant mode of inheritance (pseudodominance). In contrast to autosomal dominant disorders, new mutations in recessive alleles are rarely manifest because they usually result in an asymptomatic carrier state."
+        },
+        {
+            "id": "Obstentrics_Williams_1731",
+            "title": "Obstentrics_Williams",
+            "content": "A monogenic or mendelian disorder is caused by a mutation or alteration in a single locus or gene in one or both members of a gene pair. Types of mendelian inheritance include autosomal dominant, autosomal recessive, X-linked, and Y-linked. Other monogenic inheritance patterns, described subsequently, include mitochondrial inheritance, uniparental disomy, imprinting, and trinucleotide repeat expansion-also termed anticipation. By age 25, approximately 0.4 percent of the population exhibits an abnormality attributed to a monogenic disorder, and 2 percent will have at least one such disorder during their lifetime (Table 13-3)."
+        },
+        {
+            "id": "Pediatrics_Nelson_1085",
+            "title": "Pediatrics_Nelson",
+            "content": "Although all of the classic mechanisms of inheritance are represented, most inborn errors of metabolism are autosomal recessive. Isolation or founder effect may make a specific recessive condition common in some populations (e.g., maple syrup urine disease in the Old Order Mennonite population in Pennsylvania). X-linked conditions exhibit increased presentation in males. In general, carriers of recessive or X-linked (females) diseases are asymptomatic. However, in ornithine transcarbamylase deficiency, females can be symptomatic if they have a low proportion of normal cells in the liver. Most mitochondrial disorders in children are a result of mutations in autosomal genes, although there are X-linked forms. Mutations in the mitochondrial DNA also lead to mitochondrial disease. In this situation the type and severity of the presentation depend on the specific defects and the tissue specific ratio of normal to abnormal copies of the mitochondrial DNA (the degree of heteroplasmy)."
+        },
+        {
+            "id": "Pathology_Robbins_1499",
+            "title": "Pathology_Robbins",
+            "content": "The Y chromosome is home to the testes-determining gene SRY, which directs male sexual differentiation, but apart from very rare instances of Y-linked familial deafness, no Y chromosome\u2013linked mendelian disorders have ever been reported. Thus, for the most part, sex-linked disorders are X linked. Most X-linked disorders are X-linked recessive and are characterized by the following features: Heterozygous female carriers transmit them only to sons, who of course are hemizygous for the X chromosome. Heterozygous females rarely express the full phenotypic change, because they have the paired normal allele. Although one of the X chromosomes in females is inactivated (see further text), this process of inactivation is random, which typically allows sufficient numbers of cells with the normal expressed allele to emerge."
+        },
+        {
+            "id": "Pathology_Robbins_1493",
+            "title": "Pathology_Robbins",
+            "content": "\u2022 The use of proactive prenatal genetic screening in high-risk populations (e.g., persons of Ashkenazi Jewish descent) has significantly reduced the incidence ( 7.1 ) of certain genetic disorders such as Tay-Sachs disease. Disorders of Autosomal Dominant Inheritance Disorders of autosomal dominant inheritance are manifested in the heterozygous state, so at least one parent in an index case usually is affected. Both males and females can be affected, and both sexes can transmit the condition. When an affected person marries an unaffected one, each child has one chance in two of having the disease. The following features also pertain to autosomal dominant diseases: With any autosomal dominant disorder, some patients do not have affected parents. Such patients owe their disorder to new mutations involving either the egg or the sperm from which they were derived. Their siblings are neither affected nor at increased risk for development of the disease."
+        },
+        {
+            "id": "Obstentrics_Williams_1749",
+            "title": "Obstentrics_Williams",
+            "content": "Women with an X-linked recessive gene are generally unaffected by the disease it causes. In some cases, however, the random inactivation of one X chromosome in each cell-termed lyonization-is skewed, and female carriers may have features of the condition. For example, approximately 10 percent of female carriers of hemophilia A will have factor VIII levels less than 30 percent of normal, and a similar proportion of female hemophilia B carriers have factor IX levels less than 30 percent. Levels below these thresholds confer a greater risk for abnormal bleeding when afected women give birth (Plug, 2006). Indeed, even with higher levels, carriers are reported to be at increased risk for bleeding complications (Olsson, 2014). Similarly, female carriers of Duchenne or Becker muscular dystrophy carry an elevated risk for cardiomyopathy, and periodic evaluation for cardiac dysfunction and neuromuscular disorders is recommended (American Academy of Pediatrics, 2008)."
+        },
+        {
+            "id": "InternalMed_Harrison_4859",
+            "title": "InternalMed_Harrison",
+            "content": "and one recessive (a) allele can display three Mendelian modes of inheritance: autosomal dominant, autosomal recessive, and X-linked. About 65% of human monogenic disorders are autosomal dominant, 25% are autosomal recessive, and 5% are X-linked. Genetic testing is now available for many of these disorders and plays an increasingly important role in clinical medicine (Chap. 84)."
+        },
+        {
+            "id": "Pediatrics_Nelson_998",
+            "title": "Pediatrics_Nelson",
+            "content": "A pedigree usually is drawn to help visualize various inheritance patterns. Answers to questions about the family help determine if there is an autosomal dominant, AR, X-linked, or sporadic disorder. When a child is affected with the new onset of an AD disorder, it is necessary to closely examine the parents to check for the presence of manifestations. If the parents are unaffected, the child\u2019s condition is most likely the result of a new mutation; the risk of recurrence is extremely low (although not 0, because of the possibility of gonadal mosaicism in one of the parents). When one parent is affected (even mildly so due to varying penetrance), the recurrence risk rises to 50%. With X-linked disorders, the focus is on the maternal family history to determine if there is a significant enough risk to warrant testing."
+        },
+        {
+            "id": "Pediatrics_Nelson_965",
+            "title": "Pediatrics_Nelson",
+            "content": "Fragile X syndrome (FRAXA; 1:4000 males The gene is located at Xq27.3 numerous other names) The condition is attributable to a CGG triplet expansion that is associated with localized methylation (inactivation) of distal genes. Females may have some expression. Instability of the site may lead to tissue mosaicism; lymphocyte genotype and phenotype may not correlate Incidence of the trait is higher in males than in females Trait is passed from carrier females, who may show mild expression of the gene, to half of their sons, who are more severely affected Each son of a carrier female has a one in two chance of being affected Trait is transmitted from affected males to all of their daughters; it is never transmitted father to son"
+        },
+        {
+            "id": "Pediatrics_Nelson_967",
+            "title": "Pediatrics_Nelson",
+            "content": "Often termed polygenic inheritance, multifactorially inheriteddisorders result from the interplay of genetic and environmental Figure 47-4 Pedigree showing X-linked recessive inheritance. factors. In addition to 20% of congenital malformations, including cleft lip and palate and spina bifida, most common disordersof childhood and adult life, such as asthma, atherosclerosis, diabetes, and cancer, result from an interaction between genes andthe environment. These disorders do not follow simple mendelian modes of inheritance; rather, affected individuals tend to cluster in families. The disorders occur more often in firstand second-degree relatives than would be expected by chance, and they are more likely to be concordant (although not 100%) inmonozygotic twins than in dizygotic twins. Available @ StudentConsult.com"
+        },
+        {
+            "id": "Obstentrics_Williams_1750",
+            "title": "Obstentrics_Williams",
+            "content": "X-linked dominant disorders mainly afect females, because they tend to be lethal in males. Two examples are vitamin D-resistant rickets and incontinentia pigmenti. One exception is fragile X syndrome, which is discussed subsequently. he prevalence of Y-linked chromosomal disorders is low. This chromosome carries genes important for sex determination and various cellular functions related to spermatogenesis and bone development. Deletion of genes on the long arm of Y results in severe spermatogenic defects, whereas genes at the tip of the short arm are critical for chromosomal pairing during meiosis and for fertility."
+        },
+        {
+            "id": "Pathology_Robbins_1637",
+            "title": "Pathology_Robbins",
+            "content": "Affected females. From 30% to 50% of carrier women with the fragile X mutation on one chromosome might show features of mild cognitive impairment or other behavioral disturbances. Approximately 20% develop features of premature reproductive failure (see below). The presence of symptoms in carrier females, albeit mild, is unusual for an X-linked recessive disease. Anticipation. This term refers to the phenomenon whereby clinical features of fragile X syndrome worsen with each successive generation, as if the mutation becomes increasingly deleterious as it is transmitted from a man to his grandsons and great-grandsons."
+        },
+        {
+            "id": "Pharmacology_Katzung_502",
+            "title": "Pharmacology_Katzung",
+            "content": "The gene that encodes the G6PD enzyme is located on the X chromosome and is highly polymorphic, with over 180 genetic variants identified that result in enzyme deficiency. Greater than 90% of variants are single-base substitutions in the coding region that produce amino acid changes, which result in unstable proteins with reduced enzyme activity. As with most X-linked traits, males with one reference X chromosome and females with two reference X chromosomes will have equivalent \u201cnormal\u201d G6PD activity. Similarly, hemizygous-deficient males (with a deficient copy of the G6PD gene on their single X chromosome) and homozygous-deficient females (with two deficient copies) express reduced activity phenotypes (Table 5\u20131). However, for heterozygous females (with one deficient allele and one normal allele), genotype-to-phenotype predictions are less reliable due to the X-chromosome mosaicism, ie, where one X chromosome in each female cell is randomly inactivated, leading to G6PD activity that"
+        },
+        {
+            "id": "InternalMed_Harrison_4899",
+            "title": "InternalMed_Harrison",
+            "content": "allelic association, linkaGe Disequilibrium, anD HaPlotyPes Allelic association refers to a situation in which the frequency of an allele is significantly increased or decreased in individuals affected by a particular disease in comparison to controls. Linkage and association differ in several aspects. Genetic linkage is demonstrable in families or sibships. Association studies, on the other hand, compare a population of affected individuals with a control population. Association studies can be performed as case-control studies that include unrelated affected individuals and matched controls or as family-based studies that compare the frequencies of alleles transmitted or not transmitted to affected children."
+        },
+        {
+            "id": "InternalMed_Harrison_4844",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 82 Principles of Human Genetics of the helical collagen fiber. Similarly, muscular dystrophy syndromes can be caused by mutations in various genes, consistent with the fact that it can be transmitted in an X-linked (Duchenne or Becker), autosomal dominant (limb-girdle muscular dystrophy type 1), or autosomal recessive (limb-girdle muscular dystrophy type 2) manner (Chap. 462e). Mutations in the X-linked DMD gene, which encodes dystrophin, are the most common cause of muscular dystrophy. This feature reflects the large size of the gene as well as the fact that the phenotype is expressed in hemizygous males because they have only a single copy of the X chromosome. Dystrophin is associated with a large protein complex linked to the membrane-associated cytoskeleton in muscle. Mutations in several different components of this protein complex can also cause muscular dystrophy syndromes. Although the phenotypic features of some of these disorders are distinct, the phenotypic spectrum"
+        },
+        {
+            "id": "Obstentrics_Williams_1733",
+            "title": "Obstentrics_Williams",
+            "content": "Genetic heterogeneiy explains how diferent genetic mechanisms can result in the same phenotype. Locus heterogeneiy indicates TABLE 13-3. Selected Monogenic (Mendelian) Disorders that a speciic disease phenotype can be caused by mutations in diferent genetic loci. It also explains why some diseases appear to follow more than one type of inheritance. An example is retinitis pigmentosa, which may develop following mutations in at least 35 diferent genes or loci and may result in autosomal dominant, autosomal recessive, or X-linked forms. Alelic heterogeneiy describes how diferent mutations of the same gene may afect presentation of a particular disease. For example, although only one gene has been associated with cystic ibrosis-the cystic ibrosis conductance transmembrane regulator gene-more than 2000 mutations in this gene have been described and result in variable disease severity (Chaps. 14 and 51, pp. 289 and 997)."
+        },
+        {
+            "id": "InternalMed_Harrison_4814",
+            "title": "InternalMed_Harrison",
+            "content": "It is estimated that about 1 in 10 sperm carries a new deleterious mutation. The rates for new mutations are calculated most readily for autosomal dominant and X-linked disorders and are ~10\u22125\u221210\u22126/locus per generation. Because most monogenic diseases are relatively rare, new mutations account for a significant fraction of cases. This is important in the context of genetic counseling, because a new mutation can be transmitted to the affected individual but does not necessarily imply that the parents are at risk to transmit the disease to other children. An exception to this is when the new mutation occurs early in germline development, leading to gonadal mosaicism."
+        }
+    ],
+    "scores": [
+        0.03865535956093373,
+        0.03812794945638377,
+        0.03623891800944801,
+        0.0338510523293132,
+        0.033474287206890274,
+        0.033437476501992636,
+        0.033396374316296724,
+        0.03312683587912946,
+        0.031616099077321706,
+        0.029991495949081005,
+        0.0297580760434534,
+        0.02927474303306279,
+        0.028831040666521306,
+        0.02771065673127529,
+        0.026354844643943588,
+        0.026141927519250083,
+        0.02543950111012703,
+        0.025022454786201465,
+        0.024801781253394155,
+        0.024218268207448733,
+        0.023733337004535247,
+        0.02337309967817544,
+        0.02303034788163671,
+        0.022841490696786163,
+        0.022185864431630193,
+        0.02185450208706023,
+        0.021754699439263198,
+        0.02003462626821135,
+        0.019899850277534326,
+        0.019621576152293756,
+        0.019202256244963738,
+        0.019197205896620217
+    ],
+    "execution_time": 53.292065143585205
+}

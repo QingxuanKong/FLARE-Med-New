@@ -1,0 +1,209 @@
+{
+    "id": "medical_genetics-021",
+    "question": "X-chromosome inactivation",
+    "options": {
+        "A": "results in genetically turning off one of the two X chromosomes in female mammals",
+        "B": "takes place in humans so that the same X chromosome is inactive in all of the cells of a female",
+        "C": "is the cause of the Y chromosome being genetically inactive",
+        "D": "occurs in fruit flies but not in mammals"
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the process of X-chromosome inactivation in female mammals. X-chromosome inactivation is a process that occurs in female mammals, where one of the two X chromosomes is randomly inactivated in each cell. This process is crucial for dosage compensation, as females have two X chromosomes, while males have one X and one Y chromosome. The inactivation process is initiated at a specific site on the X chromosome called the X-inactivation center (XIC) and spreads throughout the chromosome. The inactivated X chromosome remains inactive in all subsequent cell divisions. The process is random and occurs early in embryonic development, resulting in a mosaic of cells with either the maternal or paternal X chromosome active. This means that each cell in a female body has a mixture of cells with active and inactive X chromosomes, and the inactivated X chromosome is not present in all cells of the body. Therefore, option B is incorrect. Option C is incorrect because the Y chromosome is not inactivated in the same way as the X chromosome. Option D is also incorrect because X-chromosome inactivation occurs in mammals, including humans, not just in fruit flies. Considering these facts, the correct answer is A, which states that X-chromosome inactivation results in the genetically turning off one of the two X chromosomes in female mammals.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Pathology_Robbins_1619",
+            "title": "Pathology_Robbins",
+            "content": "A number of abnormal karyotypes involving the sex chromosomes, ranging from 45,X to 49,XXXXY, are compatible with life. Indeed, phenotypically normal males with two and even three Y chromosomes have been identified. Such extreme karyotypic deviations are not encountered with the autosomes. In large part, this latitude relates to two factors: lyonization of X chromosomes and the small amount of genetic information carried by the Y chromosome. The consideration of lyonization must begin with Mary Lyon, who in 1962 proposed that in females, only one X chromosome is genetically active. X inactivation occurs early in fetal life, about 16 days after conception. Either the paternal or the maternal X chromosome is randomly inactivated in each cell of the developing embryo. Once inactivated, the same X chromosome remains inactive in all of the progeny of these cells. Moreover, all but one X chromosome is inactivated, and so a 48,XXXX female has only one active X chromosome. This phenomenon"
+        },
+        {
+            "id": "InternalMed_Harrison_4793",
+            "title": "InternalMed_Harrison",
+            "content": "Physiologically, epigenetic mechanisms play an important role in several instances. For example, X-inactivation refers to the relative silencing of one The inactivation process is a form of dosage compensation such that females (XX) do not generally express twice as many X-chromosomal gene products as males (XY). In a given cell, the choice of which chromosome is inactivated occurs randomly in humans. But once the maternal or paternal X chromosome is inactivated, it will remain inactive, and this information is transmitted with each cell division. The X-inactive specific transcript (Xist) gene encodes a large noncoding RNA that mediates the silencing of the X chromosome from which it is transcribed by coating it with Xist RNA. The inactive X chromosome is highly methylated and has low levels of histone acetylation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1960",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201352 Mammalian X-chromosome inactivation. X-chromosome inactivation begins with the synthesis of Xist (X-inactivation specific transcript) rnA from the XiC (X-inactivation center) locus and moves outward to the chromosome ends. According to the model depicted here, the long (\u224820,000 nucleotides) Xist rnA has many low-affinity binding sites for the structural components of chromosomes and spreads by releasing its hold on one portion of the chromosome while grasping another. the continued synthesis of Xist from the center of the chromosome drives it to the ends. As shown, Xist rnA does not move linearly along the chromosomal DnA, but, instead, moves first across the base of chromosome loops. it has been proposed that the portions of chromosomal DnA at the tips of long loops contain the 10% of genes that escape X-chromosome inactivation."
+        },
+        {
+            "id": "Pathology_Robbins_1620",
+            "title": "Pathology_Robbins",
+            "content": "same X chromosome remains inactive in all of the progeny of these cells. Moreover, all but one X chromosome is inactivated, and so a 48,XXXX female has only one active X chromosome. This phenomenon explains why normal females do not have a double dose (compared with males) of phenotypic attributes encoded on the X chromosome. The Lyon hypothesis also explains why normal females are in reality mosaics, containing two cell populations: one with an active maternal X, the other with an active paternal X. The molecular basis of X inactivation involves a long non\u2013coding RNA that is encoded by the XIST gene. This non\u2013coding RNA is retained in the nucleus, where it \u201ccoats\u201d the X chromosome that it is transcribed from and silences the genes on that chromosome. The other XIST allele is switched off in the active X, allowing genes encoded one one X chromosome to be expressed."
+        },
+        {
+            "id": "Pathology_Robbins_1621",
+            "title": "Pathology_Robbins",
+            "content": "Although essentially accurate, the Lyon hypothesis subsequently has been somewhat modified. Most important, the initial presumption that all of the genes on the inactive X are \u201cswitched off\u201d has been revised, as roughly 21% of genes on Xp, and a smaller number (3%) on Xq, escape X inactivation. This observation has implications for monosomic X chromosome disorders, or Turner syndrome, as discussed later. Extra Y chromosomes are readily tolerated because the only information known to be carried on the Y chromosome seems to relate to male differentiation. Of note, whatever the number of X chromosomes, the presence of a Y invariably dictates the male phenotype. The gene for male differentiation (SRY, sex-determining region of Y chromosome) is located on the short arm of the Y. Described briefly next are two disorders, Klinefelter syndrome and Turner syndrome, that result from aberrations of sex chromosomes."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1946",
+            "title": "Cell_Biology_Alberts",
+            "content": "Mammals achieve dosage compensation by the transcriptional inactivation of one of the two X chromosomes in female somatic cells, a process known as X-inactivation. As a result of X-inactivation, two X chromosomes can coexist within the same nucleus, exposed to the same diffusible transcription regulators, yet differ entirely in their expression."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1948",
+            "title": "Cell_Biology_Alberts",
+            "content": "Xp Xm Xp Xm Xp Xm CONDENSATION OF A RANDOMLY SELECTED X CHROMOSOME DIRECT INHERITANCE OF THE PATTERN OF CHROMOSOME CONDENSATION DIRECT INHERITANCE OF THE PATTERN OF CHROMOSOME CONDENSATION Figure 7\u201350 X-inactivation. the clonal inheritance in female mammals of a only Xm active in this clone only Xp active in this clone condensed, inactive X chromosome."
+        },
+        {
+            "id": "InternalMed_Harrison_4868",
+            "title": "InternalMed_Harrison",
+            "content": "heterozygous or homozygous for the mutant allele, which may be dominant or recessive. The terms X-linked dominant or X-linked recessive are therefore only applicable to expression of the mutant phenotype in women. In addition, the expression of X-chromosomal genes is influenced by X chromosome inactivation."
+        },
+        {
+            "id": "InternalMed_Harrison_4877",
+            "title": "InternalMed_Harrison",
+            "content": "x-inactivation, imPrintinG, anD uniParental Disomy According to traditional Mendelian principles, the parental origin of a mutant gene is irrelevant for the expression of the phenotype. There are, however, important exceptions to this rule. X-inactivation prevents the expression of most genes on one of the two X chromosomes in every cell of a female. Gene inactivation through genomic imprinting occurs on selected chromosomal regions of autosomes and leads to inheritable preferential expression of one of the parental alleles. It is of pathophysiologic importance in disorders where the transmission of disease is dependent on the sex of the transmitting parent and, thus, plays an important role in the expression of certain genetic disorders. Two classic examples are the Prader-Willi syndrome and Angelman\u2019s syndrome (Chap. 83e). Prader-Willi syndrome is characterized by diminished fetal activity, obesity, hypotonia, mental retardation, short stature, and hypogonadotropic hypogonadism."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1951",
+            "title": "Cell_Biology_Alberts",
+            "content": "How is an entire chromosome transcriptionally inactivated? X-chromosome inactivation is initiated and spreads from a single site near the middle of the X chromosome, the X-inactivation center (XIC). Within the XIC is a transcribed 20,000-nucleotide lncRNA (called Xist), which is expressed solely from the inactive X chromosome. Xist RNA spreads from the XIC over the entire chromosome and directs gene silencing. Although we do not know exactly how this is accomplished, it likely involves recruitment of histone-modifying enzymes and other proteins to form a repressive form of chromatin analogous to that of Figure 7\u201345. Curiously, about 10% of the genes on the X chromosome (including Xist itself) escape this silencing and remain active."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1945",
+            "title": "Cell_Biology_Alberts",
+            "content": "Males and females differ in their sex chromosomes. Females have two X chromosomes, whereas males have one X and one Y chromosome. As a result, female cells contain twice as many copies of X-chromosome genes as do male cells. In mammals, the X and Y sex chromosomes differ radically in gene content: the X chromosome is large and contains more than a thousand genes, whereas the Y chromosome is small and contains less than 100 genes. Mammals have evolved a dosage compensation mechanism to equalize the dosage of X-chromosome gene products between males and females. The correct ratio of X chromosome to auto-some (non-sex chromosome) gene products is carefully controlled, and mutations that interfere with this dosage compensation are generally lethal."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1950",
+            "title": "Cell_Biology_Alberts",
+            "content": "coat coloration of some female cats. In these cats, one X chromosome carries a gene that produces orange hair color, and the other X chromosome carries an allele of the same gene that results in black hair color; it is the random X-inactivation that produces patches of cells of two distinctive colors. In contrast, male cats of this genetic stock are either solid orange or solid black, depending on which X chromosome they inherit from their mothers. Although X-chromosome inactivation is maintained over thousands of cell divisions, it is reversed during germ-cell formation, so that all haploid oocytes contain an active X chromosome and can express X-linked gene products."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1947",
+            "title": "Cell_Biology_Alberts",
+            "content": "Early in the development of a female embryo, when it consists of a few hundred cells, one of the two X chromosomes in each cell becomes highly condensed into a type of heterochromatin. The initial choice of which X chromosome to inactivate, the maternally inherited one (Xm) or the paternally inherited one (Xp), is random. Once either Xp or Xm has been inactivated, it remains silent throughout all subsequent cell divisions of that cell and its progeny, indicating that the inactive state is faithfully maintained through many cycles of DNA replication and mitosis. Because X-inactivation is random and takes place after several hundred cells have already formed in the embryo, every female is a mosaic of clonal groups of cells in which either Xp or Xm is silenced (Figure 7\u201350). These clonal groups are"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1952",
+            "title": "Cell_Biology_Alberts",
+            "content": "The spread of Xist RNA along the X chromosome does not proceed linearly along the DNA. Rather, starting at its site of synthesis, it is first handed off across the base of the DNA loops that make up the chromosome; these shortcuts explain how Xist can spread rapidly, by a \u201chand-over-hand\u201d mechanism, along the X chromosome once the inactivation process begins (Figure 7\u201352). It also helps to explain why the inactivation does not spread to the other, active X chromosome."
+        },
+        {
+            "id": "Cell_Biology_Alberts_7069",
+            "title": "Cell_Biology_Alberts",
+            "content": "Wnt/\u03b2-catenin pathway Signaling pathway activated by binding of a Wnt protein to its cell-surface receptors. The pathway has several branches. In the major (canonical) branch, activation causes increased amounts of \u03b2-catenin to enter the nucleus, where it regulates the transcription of genes controlling cell differentiation and proliferation. Overactivation of the Wnt/\u03b2-catenin pathway can lead to cancer. (Figure 15\u201360) X-inactivation Inactivation of one copy of the X chromosome in the somatic cells of female mammals. X-inactivation center (XIC) Site in an X chromosome at which inactivation is initiated and spreads outward. x-ray crystallography Technique for determining the three-dimensional arrangement of atoms in a molecule based on the diffraction pattern of x-rays passing through a crystal of the molecule. (Figure 8\u201321) zygote Diploid cell produced by fusion of a male and female gamete. A fertilized egg."
+        },
+        {
+            "id": "Immunology_Janeway_3108",
+            "title": "Immunology_Janeway",
+            "content": "that they can express only the defective BTK gene and cannot develop further. therefore, in the carrier, mature B cells always have the nondefective X chromosome active. this is in sharp contrast to all other cell types, which have the nondefective X chromosome active in only half of their cells. nonrandom X-chromosome inactivation in a particular cell lineage is a clear indication that the product of the X-linked gene is required for the development of cells of that lineage. it is also sometimes possible to identify the stage at which the gene product is required, by detecting the point in development at which X-chromosome inactivation develops bias. using this kind of analysis, one can identify carriers of X-linked traits such as Xla without needing to know the nature of the mutant gene."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1949",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 7\u201351 Photoreceptor cells in the retina of a female mouse showing patterns of X-chromosome inactivation. Using genetic engineering techniques (described in Chapter 8), the germ line of a mouse was modified so that one copy of the X chromosome (if active) makes a green fluorescent protein and the other a red fluorescent protein. Both proteins concentrate in the nucleus and, in the field of cells shown here, it is clear that only one of the two X chromosomes is active in each cell. (from h. wu et al., Neuron 81:103\u2013119, 2014. with permission from elsevier.) distributed in small clusters in the adult animal because sister cells tend to remain close together during later stages of development (Figure 7\u201351). For example, X-chromosome inactivation causes the orange and black \u201ctortoiseshell\u201d coat coloration of some female cats. In these cats, one X chromosome carries a gene that produces orange hair color, and the other X chromosome carries an allele of the same gene that results in"
+        },
+        {
+            "id": "Pathology_Robbins_1499",
+            "title": "Pathology_Robbins",
+            "content": "The Y chromosome is home to the testes-determining gene SRY, which directs male sexual differentiation, but apart from very rare instances of Y-linked familial deafness, no Y chromosome\u2013linked mendelian disorders have ever been reported. Thus, for the most part, sex-linked disorders are X linked. Most X-linked disorders are X-linked recessive and are characterized by the following features: Heterozygous female carriers transmit them only to sons, who of course are hemizygous for the X chromosome. Heterozygous females rarely express the full phenotypic change, because they have the paired normal allele. Although one of the X chromosomes in females is inactivated (see further text), this process of inactivation is random, which typically allows sufficient numbers of cells with the normal expressed allele to emerge."
+        },
+        {
+            "id": "Gynecology_Novak_5271",
+            "title": "Gynecology_Novak",
+            "content": "with a ring X have ovarian failure and phenotypes similar to Turner syndrome, although some are able to reproduce successfully. These patients differ from those with Turner syndrome in that they are more likely to have intellectual disability and have syndactyly. Patients with isochrome of the long arm of the X chromosome (i[Xq]) are similar to XO patients, with the exception that autoimmune disorders are more common. Half of the women with balanced translocations of the X chromosome to an autosome have gonadal failure. Typically, the normal X is inactivated to preserve the balance of autosomal genes. The gonadal failure can be caused by the chromosomal break occurring in a gene that is required for ovarian function, abnormal meiosis, or X inactivation of the translocated X and adjacent autosomal genes (5,9)."
+        },
+        {
+            "id": "InternalMed_Harrison_6044",
+            "title": "InternalMed_Harrison",
+            "content": "Gene silencing, an epigenetic change that leads to the loss of gene expression and occurs in conjunction with hypermethylation of the promoter and histone deacetylation, is another mechanism of tumor-suppressor gene inactivation. (An epigenetic modification refers to a change in the genome, heritable by cell progeny, that does not involve a change in the DNA sequence. The inactivation of the second X chromosome in female cells is an example of an epigenetic silencing that prevents gene expression from the inactivated chromosome.) During embryologic development, regions of chromosomes from one parent are silenced and gene expression proceeds from the chromosome of the other parent. For most genes, expression occurs from both alleles or randomly from one allele or the other. The preferential expression of a particular gene exclusively from the allele contributed by one parent is called parental imprinting and is thought to be regulated by covalent modifications of chromatin protein and"
+        },
+        {
+            "id": "Immunology_Janeway_3102",
+            "title": "Immunology_Janeway",
+            "content": "During embryonic development, females randomly inactivate one of their two X chromosomes. Because BTK is required for Blymphocyte development, only cells in which the normal allele of BTK is active develop into mature B cells. Thus, in all B cells in female carriers of a mutant BTK gene, the active X chromosome is the normal one and the abnormal X chromosome is inactivated. This fact allowed female carriers of XLA to be identified even before the nature of the BTK protein was known. In contrast, the active X chromosomes in the T cells and macrophages of carriers are an equal mixture of normal and BTK mutant X chromosomes. Nonrandom Xinactivation only in B cells shows conclusively that the BTK gene is required for the development of B cells but not the other cell types, and that BTK must act in the B cells themselves rather than in stromal or other cells required for Bcell development (Fig. 13.4)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_878",
+            "title": "Cell_Biology_Alberts",
+            "content": "too, a random process acts in each cell of the early embryo to dictate which X chromosome will be inactivated, and that same X chromosome then remains inactive in all the cell\u2019s progeny, creating a mosaic of different clones of cells in the adult body (see Figure 7\u201350)."
+        },
+        {
+            "id": "Pediatrics_Nelson_961",
+            "title": "Pediatrics_Nelson",
+            "content": "SEE CHAPTERS 55 AND 185. More than 1000 genes have been identified on the X chromosome, whereas only about 200 are believed to be present on theY chromosome. Females, whose cells have two copies of an X chromosome, possess two copies of each gene on the X chromosome, whereas males, who have one X chromosome and a Y chromosome, have only one copy of these genes. Early in femaleembryonic development, one X chromosome is randomly inactivated in each cell. There are many X-linked disorders (colorblindness, Duchenne muscular dystrophy, hemophilia A) in which heterozygous (carrier) females show some manifestationsof the disorder due to skewed X chromosome inactivation. Adrenal hyperplasia, congenital 1:5000 Phenotype variation corresponds roughly to allelic variation. A deficiency causes (CAH, 21-hydroxylase deficiency, virilization in females. CA21H, CYP21, cytochrome The gene is located at 6p21.3 within the HLA complex and within 0.005 centimorgans P450, subfamily XXI) (cM) of HLA B"
+        },
+        {
+            "id": "Gynecology_Novak_5270",
+            "title": "Gynecology_Novak",
+            "content": "Abnormal X Chromosome Those 46,XX individuals with partial deletions of the X chromosome have variable phenotypes depending on the amount and location of the missing genetic material. Patients with a deletion of the long arm of the X chromosome (Xq\u2212) from Xq13 to Xq26 have sexual infantilism, normal stature, no somatic abnormalities, and streak gonads (7). Some patients may be eunuchoid in appearance and have delayed epiphyseal closure. Patients with a deletion of the short arm of the X chromosome (Xp) usually are phenotypically similar to individuals with Turner syndrome (8). Many genes on the Xp chromosome escape X inactivation and act similarly to genes on autosomes. The effective monosomy created by the deletion results in the phenotypic features of Turner syndrome (5). Most patients with a ring X have ovarian failure and phenotypes similar to Turner syndrome, although some are able to reproduce successfully. These patients differ from those with Turner syndrome in that they are"
+        },
+        {
+            "id": "Immunology_Janeway_3107",
+            "title": "Immunology_Janeway",
+            "content": "in X-linked agammaglobulinemia (Xla), a protein tyrosine kinase of the tec family called BtK, which is encoded on the X chromosome, is defective. in normal individuals, B-cell development proceeds through a stage in which the pre-B-cell receptor, consisting of \u03bc\u03bb5:VpreB (see Section 8-3), transduces a signal via BtK, triggering further B-cell development. in males with Xla, no signal can be transduced and, although the pre-B-cell receptor is expressed, the B cells develop no further. in female mammals, including humans, one of the two X chromosomes in each cell is permanently inactivated early in development. Because the choice of which chromosome to inactivate is random, half of the pre-B cells in a carrier female will have inactivated the chromosome with the wild-type BTK gene, meaning that they can express only the defective BTK gene and cannot develop further. therefore, in the carrier, mature B cells always have the nondefective X chromosome active. this is in sharp contrast to"
+        },
+        {
+            "id": "Gynecology_Novak_5268",
+            "title": "Gynecology_Novak",
+            "content": "Table 30.1 Amenorrhea Associated with a Lack of Secondary Sexual Characteristics 5\u03b1-reductase deficiency, 17, 20-lyase deficiency, or 17\u03b1-hydroxylase deficiency in XY individual Partial deletion of X chromosome syndrome initially have normal ovarian development in utero. Amenorrhea is the result of accelerated atresia of the follicles. The fibrotic ovaries are called streak ovaries. In addition to gonadal failure, there are associated stigmata with Turner syndrome that include short stature, webbed neck, shield chest, cubitus valgus (increased carrying angle of the arms), low hair line, high arched palate, multiple pigmented nevi, and short fourth metacarpals (4). X inactivation is a process that inactivates most of the genes on one X chromosome. Of the genes on the X chromosome, 20% escape X inactivation, and it is believed that loss of the second copy of these genes in a 45,X patient causes the stigmata associated with Turner syndrome (5)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6290",
+            "title": "Cell_Biology_Alberts",
+            "content": "In a typical fully differentiated cell, there seem to be mechanisms maintaining the pattern of gene expression that cytoplasmic factors cannot easily override. An obvious possibility is that the stability of the pattern of gene expression in an adult cell may depend, in part at least, on self-perpetuating modifications of chromatin, as discussed in Chapter 4. As explained in Chapter 7, the phenomenon of X-inactivation in mammals provides a clear example of such epigenetic control. Two X chromosomes exist side by side in each female cell, exposed to the same chemical environment, but while one remains active, the other persists from one cell generation to the next in a condensed inactive state; cytoplasmic factors cannot be responsible for the difference, which must instead reflect mechanisms intrinsic to the individual chromosome. Elsewhere in the genome also, controls at the level of chromatin act in combination with other forms of regulation to govern the expression of each gene."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1953",
+            "title": "Cell_Biology_Alberts",
+            "content": "Imprinting and X-chromosome inactivation are examples of monoallelic gene expression, where in a diploid genome, only one of the two copies of a gene is expressed. In addition to the approximately 1000 genes on the X chromosome and the 300 or so genes that are imprinted, there are another 1000\u20132000 human genes that exhibit monoallelic expression. Like X-chromosome inactivation (but unlike imprinting), the choice of which copy of the gene is to be expressed and which is to be silenced often appears random. Yet once the choice is made, it can persist for many cell divisions. Because the choice is often made relatively late in development, cells of the same tissue in the same individual can express different copies of a given gene. In other words, somatic tissues are often mosaics, where different clones of cells have subtly different patterns of gene expression. The mechanisms responsible for this type of monoallelic expression are not known in detail, and its general purpose\u2014if any\u2014is"
+        },
+        {
+            "id": "Pharmacology_Katzung_502",
+            "title": "Pharmacology_Katzung",
+            "content": "The gene that encodes the G6PD enzyme is located on the X chromosome and is highly polymorphic, with over 180 genetic variants identified that result in enzyme deficiency. Greater than 90% of variants are single-base substitutions in the coding region that produce amino acid changes, which result in unstable proteins with reduced enzyme activity. As with most X-linked traits, males with one reference X chromosome and females with two reference X chromosomes will have equivalent \u201cnormal\u201d G6PD activity. Similarly, hemizygous-deficient males (with a deficient copy of the G6PD gene on their single X chromosome) and homozygous-deficient females (with two deficient copies) express reduced activity phenotypes (Table 5\u20131). However, for heterozygous females (with one deficient allele and one normal allele), genotype-to-phenotype predictions are less reliable due to the X-chromosome mosaicism, ie, where one X chromosome in each female cell is randomly inactivated, leading to G6PD activity that"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1961",
+            "title": "Cell_Biology_Alberts",
+            "content": "Eukaryotic cells can use inherited forms of DNA methylation and inherited states of chromatin condensation as additional mechanisms for generating cell memory of gene expression patterns. An especially dramatic case that involves chromatin condensation is the inactivation of an entire X chromosome in female mammals. DNA methylation underlies the phenomenon in mammals of genomic imprinting, in which the expression of a gene depends on whether it was inherited from the mother or the father."
+        },
+        {
+            "id": "Cell_Biology_Alberts_877",
+            "title": "Cell_Biology_Alberts",
+            "content": "In chromosome breakage-and-rejoining events of the sort just described, the zone of silencing, where euchromatin is converted to a heterochromatic state, spreads for different distances in different early cells in the fly embryo. Remarkably, these differences then are perpetuated for the rest of the animal\u2019s life: in each cell, once the heterochromatic condition is established on a piece of chromatin, it tends to be stably inherited by all of that cell\u2019s progeny (Figure 4\u201331). This remarkable phenomenon, called position effect variegation, was first recognized through a detailed genetic analysis of the mottled loss of red pigment in the fly eye (Figure 4\u201332). It shares features with the extensive spread of heterochromatin that inactivates one of the two X chromosomes in female mammals. There too, a random process acts in each cell of the early embryo to dictate which X chromosome will be inactivated, and that same X chromosome then remains inactive in all the cell\u2019s progeny, creating"
+        },
+        {
+            "id": "InternalMed_Harrison_4764",
+            "title": "InternalMed_Harrison",
+            "content": "cHromosomes The human genome is divided into 23 different chromosomes, including 22 autosomes (numbered 1\u201322) and the X and Y sex chromosomes (Fig. 82-1). Adult cells are diploid, meaning they contain two homologous sets of 22 autosomes and a pair of sex chromosomes. Females have two X chromosomes (XX), whereas males have one X and one Y chromosome (XY). As a consequence of meiosis, germ cells (sperm or oocytes) are haploid and contain one set of 22 autosomes and one of the sex chromosomes. At the time of fertilization, the diploid genome is reconstituted by pairing of the homologous chromosomes from the mother and father. With each cell division (mitosis), chromosomes are replicated, paired, segregated, and divided into two daughter cells."
+        }
+    ],
+    "scores": [
+        0.037175280036502195,
+        0.03635883452245933,
+        0.034922537179380514,
+        0.03459801836121403,
+        0.0332770696089883,
+        0.03321590635756915,
+        0.03317905221504,
+        0.03302844109295722,
+        0.03241925250468476,
+        0.028754578754578757,
+        0.02866731737833476,
+        0.027708328085245735,
+        0.02680499550223186,
+        0.026554218705045943,
+        0.026025861100041896,
+        0.025808913308913307,
+        0.02547688648257908,
+        0.02523474457413174,
+        0.024310677634081096,
+        0.024233670442272766,
+        0.02413398414982603,
+        0.02408846491442574,
+        0.023738425925925927,
+        0.02373407842157842,
+        0.02360520623554859,
+        0.02360051475319423,
+        0.02342435772562814,
+        0.023268244332444128,
+        0.02173652133145804,
+        0.020795675919855195,
+        0.020771197205361056,
+        0.02043337836037892
+    ],
+    "execution_time": 38.537699460983276
+}

@@ -1,0 +1,209 @@
+{
+    "id": "college_medicine-126",
+    "question": "Which of the following molecules will stop being produced first when oxygen is no longer supplied to the cell?",
+    "options": {
+        "A": "Oxaloacetate",
+        "B": "Pyruvate",
+        "C": "Water",
+        "D": "Adenosine triphosphate"
+    },
+    "answer": "C",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to understand the process of cellular respiration and how different molecules are produced and consumed in the presence and absence of oxygen.\\n\\nIn the presence of oxygen, cells primarily use oxidative phosphorylation to produce ATP, which is the primary energy currency of the cell. Oxidative phosphorylation involves the transfer of electrons from NADH and FADH2 to oxygen, resulting in the production of ATP and water.\\n\\nIn the absence of oxygen, cells use anaerobic glycolysis to produce ATP. Anaerobic glycolysis is a less efficient process that produces only 2 ATP molecules per glucose molecule, compared to the 36-38 ATP molecules produced by oxidative phosphorylation in the presence of oxygen.\\n\\nConsidering the options provided, we can infer that the molecule that will stop being produced first when oxygen is no longer supplied to the cell is pyruvate. This is because pyruvate is a product of glycolysis, which is an anaerobic process that occurs in the absence of oxygen. When oxygen is no longer supplied, the cell will switch to anaerobic glycolysis, resulting in a decrease in pyruvate production.\\n\\nThe other options are not directly affected by the presence or absence of oxygen:\\n\\n* Oxaloacetate is a key intermediate in the citric acid cycle, which occurs in the presence of oxygen.\\n\\n* Water is a byproduct of oxidative phosphorylation, which occurs in the presence of oxygen.\\n\\n* Adenosine triphosphate (ATP) is the primary energy currency of the cell and is produced through both oxidative phosphorylation and anaerobic glycolysis. The production of ATP is not directly affected by the presence or absence of oxygen.\\n\\nTherefore, the correct answer is B. Pyruvate.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_396",
+            "title": "Cell_Biology_Alberts",
+            "content": "What assumptions made here will greatly underestimate how much candy you need? Figure Q2\u20133 The matterhorn (problem 2\u201316). (Courtesy of Zermatt Tourism.) 2\u201317 In the absence of oxygen, cells consume glucose at a high, steady rate. When oxygen is added, glucose consumption drops precipitously and is then maintained at the lower rate. Why is glucose consumed at a high rate in the absence of oxygen and at a low rate in its presence? PaNel 2\u20131: Chemical bonds and Groups Commonly encountered in biological Molecules Carbon has a unique role in the cell because of its ability to form strong covalent bonds with other branched trees ringscarbon atoms. Thus carbon atoms can join to form: also written as also written as also written as"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3796",
+            "title": "Cell_Biology_Alberts",
+            "content": "The total amount of energy released by biological oxidation in the respiratory chain is equivalent to that released by the explosive combustion of hydrogen when it combines with oxygen in a single step to form water. But the combustion of hydrogen in a single-step chemical reaction, which has a strongly negative \u2206G, releases this large amount of energy unproductively as heat. In the respiratory chain, the same energetically favorable reaction H2 + \u00bd O2 \u2192H2O is divided into small steps (Figure 14\u201313). This stepwise process allows the cell to store nearly half of the total energy that is released in a useful form. At each step, the electrons, which can be thought of as having been removed from a hydrogen molecule to"
+        },
+        {
+            "id": "Cell_Biology_Alberts_5504",
+            "title": "Cell_Biology_Alberts",
+            "content": "(A) Cells that are not proliferating will normally oxidize nearly all of the glucose that they import from the blood to produce ATP through the oxidative phosphorylation that takes place in their mitochondria. Only when deprived of oxygen will these cells generate most of their ATP from glycolysis, converting the pyruvate produced to lactate in order to regenerate the NAD+ that they need to keep glycolysis going (see Figure 2\u201347). (B) Tumor cells, by contrast, will generally produce abundant lactate even in the presence of oxygen. This results from a greatly increased rate of glycolysis that is fed by a very large increase in the rate of glucose import. In this way, tumor cells resemble the rapidly proliferating cells in embryos (and during tissue repair), which likewise require for biosynthesis a large supply of the small-molecule building blocks that can be produced from imported glucose (see also Figure 20\u201326)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3844",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because oxygen has a high affinity for electrons, it can release a large amount of free energy when it is reduced to form water. Thus, the evolution of cellular respiration, in which O2 is converted to water, enabled organisms to harness much more energy than can be derived from anaerobic metabolism. As we discuss later, the availability of the large amount of energy released by the reduction of molecular oxygen to form water is thought to have been essential to the emergence of multicellular life: this would explain why all large organisms respire. The ability of biological systems to use O2 in this way, however, requires sophisticated chemistry. Once a molecule of O2 has picked up one electron, it forms a superoxide radical anion (O2\u2022\u2013) that is dangerously reactive and rapidly takes up an additional three electrons wherever it can get them, with destructive effects on its immediate environment. We can tolerate oxygen in the air we breathe only because the uptake of the first"
+        },
+        {
+            "id": "Cell_Biology_Alberts_262",
+            "title": "Cell_Biology_Alberts",
+            "content": "The cell does not oxidize organic molecules in one step, as occurs when organic material is burned in a fire. Through the use of enzyme catalysts, metabolism takes these molecules through a large number of reactions that only rarely involve the direct addition of oxygen. Before we consider some of these reactions and their purpose, we discuss what is meant by the process of oxidation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_259",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201317 Some interconversions between different forms of energy. all energy forms are, in principle, interconvertible. in all these processes the total amount of energy is conserved. Thus, for example, from the height and weight of the brick in (1), we can predict exactly how much heat will be released when it hits the floor. in (2), note that the large amount of chemical-bond energy released when water is formed is initially converted to very rapid thermal motions in the two new water molecules; but collisions with other molecules almost instantaneously spread this kinetic energy evenly throughout the surroundings (heat transfer), making the new molecules indistinguishable from all the rest. is H2O. A cell is therefore able to obtain energy from sugars or other organic molecules by allowing their carbon and hydrogen atoms to combine with oxygen to produce CO2 and H2O, respectively\u2014a process called aerobic respiration."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3807",
+            "title": "Cell_Biology_Alberts",
+            "content": "We start with some of the basic principles on which all of these processes depend. the redox potential Is a Measure of Electron affinities In chemical reactions, any electrons removed from one molecule are always passed to another, so that whenever one molecule is oxidized, another is reduced. As with any other chemical reaction, the tendency of such redox reactions to proceed spontaneously depends on the free-energy change (\u2206G) for the electron transfer, which in turn depends on the relative affinities of the two molecules for electrons."
+        },
+        {
+            "id": "Cell_Biology_Alberts_258",
+            "title": "Cell_Biology_Alberts",
+            "content": "Cells obtain energy by the oxidation of organic molecules All animal and plant cells are powered by energy stored in the chemical bonds of organic molecules, whether they are sugars that a plant has photosynthesized as food for itself or the mixture of large and small molecules that an animal has eaten. Organisms must extract this energy in usable form to live, grow, and reproduce. In both plants and animals, energy is extracted from food molecules by a process of gradual oxidation, or controlled burning. The Earth\u2019s atmosphere contains a great deal of oxygen, and in the presence of oxygen the most energetically stable form of carbon is CO2 and that of hydrogen Figure 2\u201317 Some interconversions between different forms of energy."
+        },
+        {
+            "id": "Cell_Biology_Alberts_371",
+            "title": "Cell_Biology_Alberts",
+            "content": "NET RESULT: ONE TURN OF THE CYCLE PRODUCES THREE NADH, ONE GTP, AND ONE FADH2 MOLECULE, AND RELEASES TWO MOLECULES OF CO2 process of oxidative phosphorylation, the only step in the oxidative catabolism of foodstuffs that directly requires gaseous oxygen (O2) from the atmosphere. Panel 2\u20139 (pp. 106\u2013107) and Movie 2.6 present the complete citric acid cycle. Water, rather than molecular oxygen, supplies the extra oxygen atoms required to make CO2 from the acetyl groups entering the citric acid cycle. As illustrated in the panel, three molecules of water are split in each cycle, and the oxygen atoms of some of them are ultimately used to make CO2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4035",
+            "title": "Cell_Biology_Alberts",
+            "content": "Which statements are true? Explain why or why not. 14\u20131 The three respiratory enzyme complexes in the mitochondrial inner membrane tend to associate with each other in ways that facilitate the correct transfer of electrons between appropriate complexes. 14\u20132 The number of c subunits in the rotor ring of ATP synthase defines how many protons need to pass through the turbine to make each molecule of ATP. 14\u20133 Mutations that are inherited according to Mendelian rules affect nuclear genes; mutations whose inheritance violates Mendelian rules are likely to affect organelle genes. Discuss the following problems. 14\u20134 In the 1860s, Louis Pasteur noticed that when he added O2 to a culture of yeast growing anaerobically on glucose, the rate of glucose consumption declined dramatically. Explain the basis for this result, which is known as the Pasteur effect."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4119",
+            "title": "Cell_Biology_Alberts",
+            "content": "the molecular lifetimes, at the end of 1 second the concentration of Y will have increased by nearly 900 molecules per cell (10 \u00d7 100 \u2013 100), while the concentration of X will have increased by only 90 molecules per cell. In fact, after a molecule\u2019s synthesis rate has been either increased or decreased abruptly, the time required for the molecule to shift halfway from its old to its new equilibrium concentration is equal to its half-life\u2014that is, equal to the time that would be required for its concentration to fall by half if all synthesis were stopped (Figure 15\u201314)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_267",
+            "title": "Cell_Biology_Alberts",
+            "content": "chemical reactions. This loss reflects a reduction of orderliness in the way the energy and molecules were stored in the paper. We shall discuss free energy in more detail shortly, but the general principle is clear enough intuitively: chemical reactions proceed spontaneously only in the direction that leads to a loss of free energy. In other words, the spontaneous direction for any reaction is the direction that goes \u201cdownhill,\u201d where a \u201cdownhill\u201d reaction is one that is energetically favorable. Although the most energetically favorable form of carbon under ordinary conditions is CO2, and that of hydrogen is H2O, a living organism does not disappear in a puff of smoke, and the paper book in your hands does not burst into flames. This is because the molecules both in the living organism and in the book are in a relatively stable state, and they cannot be changed to a state of lower energy without an input of energy: in other words, a molecule requires activation energy\u2014a kick over an"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3845",
+            "title": "Cell_Biology_Alberts",
+            "content": "up an additional three electrons wherever it can get them, with destructive effects on its immediate environment. We can tolerate oxygen in the air we breathe only because the uptake of the first electron by the O2 molecule is slow, allowing cells to use enzymes to control electron uptake by oxygen. Thus, cytochrome c oxidase holds"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4038",
+            "title": "Cell_Biology_Alberts",
+            "content": "14\u20137 If isolated mitochondria are incubated with a source of electrons such as succinate, but without oxygen, electrons enter the respiratory chain, reducing each of the electron carriers almost completely. When oxygen is then introduced, the carriers become oxidized at different rates (Figure Q14\u20131). How does this result allow you to order Figure Q14\u20131 rapid spectrophotometric analysis of the rates of oxidation of electron carriers in the respiratory chain (problem 14\u20137). Cytochromes a and a3 cannot be distinguished and thus are listed as cytochrome (a + a3). the electron carriers in the respiratory chain? What is their (A) direction of rotation order?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3292",
+            "title": "Cell_Biology_Alberts",
+            "content": "Like mitochondria, peroxisomes are major sites of oxygen utilization. One hypothesis is that peroxisomes are a vestige of an ancient organelle that performed all the oxygen metabolism in the primitive ancestors of eukaryotic cells. When the oxygen produced by photosynthetic bacteria first accumulated in the atmosphere, it would have been highly toxic to most cells. Peroxisomes might have lowered the intracellular concentration of oxygen, while also exploiting its chemical reactivity to perform useful oxidation reactions. According to this view, the later development of mitochondria rendered peroxisomes largely obsolete because many of the same biochemical reactions\u2014which had formerly been carried out in peroxisomes without producing energy\u2014were now coupled to ATP formation by means of oxidative phosphorylation. The oxidation reactions performed by peroxisomes in present-day cells could therefore partly be those whose functions were not taken over by mitochondria."
+        },
+        {
+            "id": "Cell_Biology_Alberts_337",
+            "title": "Cell_Biology_Alberts",
+            "content": "Glycolysis is a Central aTp-producing pathway The major process for oxidizing sugars is the sequence of reactions known as glycolysis\u2014from the Greek glukus, \u201csweet,\u201d and lusis, \u201crupture.\u201d Glycolysis produces ATP without the involvement of molecular oxygen (O2 gas). It occurs in the cytosol of most cells, including many anaerobic microorganisms. Glycolysis probably evolved early in the history of life, before photosynthetic organisms introduced oxygen into the atmosphere. During glycolysis, a glucose molecule with six carbon atoms is converted into two molecules of pyruvate, each of which contains three carbon atoms. For each glucose molecule, two molecules of ATP are hydrolyzed to provide energy to drive the early steps, but four molecules of ATP are produced in the later steps. At the end of glycolysis, there is consequently a net gain of two molecules of ATP for each glucose molecule broken down. Two molecules of the activated carrier NADH are also produced."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3797",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201312 The major net energy conversion catalyzed by the mitochondrion. In the process of oxidative phosphorylation, the mitochondrial inner membrane serves as a device that changes one form of chemical-bond energy to another, converting a major part of the energy of NaDh oxidation into phosphate-bond energy in atp. Figure 14\u201313 A comparison of biological oxidation with combustion. (a) If hydrogen were simply burned, nearly all of the energy would be released in the form of heat. (B) In biological oxidation reactions, about half of the released energy is stored in a form useful to the cell by means of the electron-transport chain (the respiratory chain) in the crista membrane of the mitochondrion. Only the rest of the energy is released as heat. In the cell, the protons and electrons shown here as being derived from h2 are removed from hydrogen atoms that are covalently linked to NaDh molecules."
+        },
+        {
+            "id": "Cell_Biology_Alberts_254",
+            "title": "Cell_Biology_Alberts",
+            "content": "Where does the heat that the cell releases come from? Here we encounter another important law of thermodynamics. The first law of thermodynamics states that energy can be converted from one form to another, but that it cannot be created or destroyed. Figure 2\u201317 illustrates some interconversions between different forms of energy. The amount of energy in different forms will change as a result of the chemical reactions inside the cell, but the first law tells us that the total amount of energy must always be the same. For example, an animal cell takes in foodstuffs and converts some of the energy present in the chemical bonds between the atoms of these food molecules (chemical-bond energy) into the random thermal motion of molecules (heat energy)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4037",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is the mutation rate so much higher in mitochondria than in the nucleus (and chloroplasts)? Could this high rate have been useful to the cell? What mechanisms and pathways have been used during evolution to transfer genes from the mitochondrion to the nucleus? how many seconds would it take the heart to consume an amount of ATP equal to its steady-state levels? (Complete oxidation of one molecule of glucose to CO2 yields 30 ATP, 26 of which are derived by oxidative phosphorylation using the 12 pairs of electrons captured in the electron carriers NADH and FADH2.) 14\u20136 Both H+ and Ca2+ are ions that move through the cytosol. Why is the movement of H+ ions so much faster than that of Ca2+ ions? How do you suppose the speed of these two ions would be affected by freezing the solution? Would you expect them to move faster or slower? Explain your answer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_375",
+            "title": "Cell_Biology_Alberts",
+            "content": "O Figure 2\u201358 The structure of GTP. GTp and GDp are close relatives of aTp and aDp, respectively. At the end of this series of electron transfers, the electrons are passed to molecules of oxygen gas (O2) that have diffused into the mitochondrion, which simultaneously combine with protons (H+) from the surrounding solution to produce water. The electrons have now reached a low energy level, and all the available energy has been extracted from the oxidized food molecule. This process, termed oxidative phosphorylation (Figure 2\u201361), also occurs in the plasma membrane of bacteria. As one of the most remarkable achievements of cell evolution, it is a central topic of Chapter 14. In total, the complete oxidation of a molecule of glucose to H2O and CO2 is used by the cell to produce about 30 molecules of ATP. In contrast, only 2 molecules of ATP are produced per molecule of glucose by glycolysis alone. amino acids and nucleotides are part of the nitrogen Cycle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4036",
+            "title": "Cell_Biology_Alberts",
+            "content": "14\u20135 Heart muscle gets most of the ATP needed to power its continual contractions through oxidative phosphorylation. When oxidizing glucose to CO2, heart muscle consumes O2 at a rate of 10 \u03bcmol/min per g of tissue, in order to replace the ATP used in contraction and give a steady-state ATP concentration of 5 \u03bcmol/g of tissue. At this rate, What structures are needed to form the barriers that separate and maintain the differentiated membrane domains in a single continuous membrane\u2014as for the cristae and inner boundary membrane in mitochondria? how does a eukaryotic cell regulate the many functions of mitochondria, including atp production? What are the origins and evolutionary history of photosynthetic complexes? are there undiscovered types of photosynthesis present on Earth to help answer this question? Why is the mutation rate so much higher in mitochondria than in the nucleus (and chloroplasts)? Could this high rate have been useful to the cell?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_205",
+            "title": "Cell_Biology_Alberts",
+            "content": "We now know that there is nothing in living organisms that disobeys chemical or physical laws. However, the chemistry of life is indeed special. First, it is based overwhelmingly on carbon compounds, the study of which is known as organic chemistry. Second, cells are 70% water, and life depends largely on chemical reactions that take place in aqueous solution. Third, and most important, cell chemistry is enormously complex: even the simplest cell is vastly more complicated in its chemistry than any other chemical system known. In particular, although cells contain a variety of small carbon-containing molecules, most of the carbon atoms present are incorporated into enormous polymeric molecules\u2014chains of chemical subunits linked end-to-end. It is the unique properties of these macromolecules that enable cells and organisms to grow and reproduce\u2014as well as to do all the other things that are characteristic of life. The ChemiCal ComponenTs of a Cell"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3798",
+            "title": "Cell_Biology_Alberts",
+            "content": "produce two protons, pass through a series of electron carriers in the inner mitochondrial membrane. At each of three distinct steps along the way (marked by the three electron-transport complexes of the respiratory chain, see below), much of the energy is utilized for pumping protons across the membrane. At the end of the electron-transport chain, the electrons and protons recombine with molecular oxygen into water. Water is a very low-energy molecule and is thus very stable; it can serve as an electron donor only when a large amount of energy from an external source is spent on splitting it into protons, electrons, and molecular oxygen. This is exactly what happens in oxygenic photosynthesis, where the external energy source is the sun, as we shall see later in the section on chloroplasts (p. 782). the Energy Derived from Oxidation Is Stored as an Electrochemical Gradient"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3826",
+            "title": "Cell_Biology_Alberts",
+            "content": "3. The cytochrome c oxidase complex contains two cytochrome hemes and three copper atoms. The complex accepts electrons one at a time from cytochrome c and passes them to molecular oxygen. In total, four electrons and four protons are needed to convert one molecule of oxygen to water. We have previously discussed how the redox potential reflects electron affinities. Figure 14\u201319 presents an outline of the redox potentials measured along the respiratory chain. These potentials change in three large steps, one across each proton-translocating respiratory complex. The change in redox potential between any two electron carriers is directly proportional to the free energy released when an electron transfers between them. Each complex acts as an energy-conversion device by harnessing some of this free-energy change to pump H+ across the inner membrane, thereby creating an electrochemical proton gradient as electrons pass along the chain."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5503",
+            "title": "Cell_Biology_Alberts",
+            "content": "While cancer cells tend to avoid apoptosis, this does not mean that they rarely die. On the contrary, in the interior of a large solid tumor, cell death often occurs on a massive scale: living conditions are difficult, with severe competition among the cancer cells for oxygen and nutrients. Many die, but typically much more by necrosis than by apoptosis (Figure 20\u201314). The tumor grows because the cell birth rate outpaces the cell death rate, but often by only a small margin. For this reason, the time that a tumor takes to double in size can be far longer than the cell-cycle time of the tumor cells. human Cancer Cells Escape a Built-in Limit to Cell Proliferation Many normal human cells have a built-in limit to the number of times they can divide when stimulated to proliferate in culture: they permanently stop dividing Figure 20\u201312 The Warburg effect in tumor cells reflects a dramatic change in glucose uptake and sugar metabolism."
+        },
+        {
+            "id": "Cell_Biology_Alberts_122",
+            "title": "Cell_Biology_Alberts",
+            "content": "A predatory way of life helps to explain another feature of eukaryotic cells. All such cells contain (or at one time did contain) mitochondria (Figure 1\u201328). These small bodies in the cytoplasm, enclosed by a double layer of membrane, take up oxygen and harness energy from the oxidation of food molecules\u2014such as sugars\u2014to produce most of the ATP that powers the cell\u2019s activities. Mitochondria are similar in size to small bacteria, and, like bacteria, they have their own genome in the form of a circular DNA molecule, their own ribosomes that differ from those elsewhere in the eukaryotic cell, and their own transfer RNAs. It is now generally accepted that mitochondria originated from free-living oxygen-metabolizing (aerobic) bacteria that were engulfed by an ancestral cell that could otherwise make no such use of oxygen (that is, was anaerobic). Escaping digestion, these bacteria evolved in symbiosis with the engulfing cell and its progeny, receiving"
+        },
+        {
+            "id": "Cell_Biology_Alberts_247",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201313 How a set of enzyme-catalyzed reactions generates a metabolic pathway. each enzyme catalyzes a particular chemical reaction, leaving the enzyme unchanged. in this example, a set of enzymes acting in series converts molecule a to molecule f, forming a metabolic pathway. (for a diagram of many of the reactions in a human cell, abbreviated as shown, see figure 2\u201363.) small molecules and the energy harnessed by catabolism to drive the synthesis of the many other molecules that form the cell. Together these two sets of reactions constitute the metabolism of the cell (Figure 2\u201314). The details of cell metabolism form the traditional subject of biochemistry and most of them need not concern us here. But the general principles by which cells obtain energy from their environment and use it to create order are central to cell biology. We begin with a discussion of why a constant input of energy is needed to sustain all living things."
+        },
+        {
+            "id": "Cell_Biology_Alberts_342",
+            "title": "Cell_Biology_Alberts",
+            "content": "Energy-yielding pathways like these, in which organic molecules both donate and accept electrons (and which are often, as in these cases, anaerobic), are called one molecule of glucose OH to be fructose 1,6 six-carbon sugar to two three-carbon sugarsSTEP 5 two molecules of glyceraldehyde Figure 2\u201346 an outline of glycolysis. each of the 10 steps shown is catalyzed by a different enzyme. note that step 4 cleaves a six-carbon sugar into two three-carbon sugars, so that the number of molecules at every stage after this doubles. as indicated, step 6 begins the energy-generation phase of glycolysis. Because two molecules of aTp are hydrolyzed in the early, energy-investment phase, glycolysis results in the net synthesis of 2 aTp and 2 naDh molecules per molecule of glucose (see also panel 2\u20138). Figure 2\u201347 Two pathways for the anaerobic breakdown of pyruvate."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6792",
+            "title": "Cell_Biology_Alberts",
+            "content": "adhesion belt Adherens junctions in epithelia that form a continuous belt (zonula adherens) just beneath the apical face of the epithelium, encircling each of the interacting cells in the sheet. ADP (adenosine 5\u2032-diphosphate) Nucleotide produced by hydrolysis of the terminal phosphate of ATP. Regenerates ATP when phosphorylated by an energy-generating process such as oxidative phosphorylation. (Figure 2\u201333) aerobic respiration Process by which a cell obtains energy from sugars or other organic molecules by allowing their carbon and hydrogen atoms to combine with the oxygen in air to produce CO2 and H2O, respectively. affinity maturation Progressive increase in the affinity of antibodies for the immunizing antigen with the passage of time after immunization. Agrin Signal protein released by an axonal growth cone during formation of the synapse between it and a muscle cell."
+        },
+        {
+            "id": "Cell_Biology_Alberts_434",
+            "title": "Cell_Biology_Alberts",
+            "content": "species after the reaction and comparing this value with the sum of free energies before the reaction; for common substances the required free-energy values can be found from published tables. In this way, one can predict the direction of a reaction and thereby readily check the feasibility of any proposed mechanism. Thus, for example, from the observed values for the magnitude of the electrochemical proton gradient across the inner mitochondrial membrane and the \u02dcG for ATP hydrolysis inside the mitochondrion, one can be certain that ATP synthase requires the passage of more than one proton for each molecule of ATP that it synthesizes. The value of \u02dcG for a reaction is a direct measure of how far the reaction is from equilibrium. The large negative value for ATP hydrolysis in a cell merely refects the fact that cells keep the ATP hydrolysis reaction as much as 10 orders of magnitude away from equilibrium. If a reaction reaches equilibrium, \u02dcG = 0, the reaction then proceeds at"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4122",
+            "title": "Cell_Biology_Alberts",
+            "content": "minutes after the synthesis rate has minutes after the synthesis rate has been decreased by a factor of 10 been increased by a factor of 10 relative concentration of intracellular molecule Cells Can Respond Abruptly to a Gradually Increasing Signal"
+        },
+        {
+            "id": "Cell_Biology_Alberts_753",
+            "title": "Cell_Biology_Alberts",
+            "content": "a. Assuming that the \u201cD\u201d enzyme would fold to a stable conformation, what relationship would you expect it to bear to the normal \u201cL\u201d enzyme? b. Do you suppose the \u201cD\u201d enzyme would add a phosphate to L-glucose, and ignore D-glucose? 3\u201317 How do you suppose that a molecule of hemoglobin is able to bind oxygen efficiently in the lungs, and yet release it efficiently in the tissues? 3\u201318 Synthesis of the purine nucleotides AMP and GMP proceeds by a branched pathway starting with ribose 5-phosphate (R5P), as shown schematically in Figure Q3\u20134. Using the principles of feedback inhibition, propose a regulatory strategy for this pathway that ensures an adequate supply of both AMP and GMP and minimizes the buildup of the intermediates (A\u2013I) when supplies of AMP and GMP are adequate. 0 0.25 0.5 0.75 Figure Q3\u20134 Schematic diagram of the metabolic pathway for synthesis of AMP and GMP from R5P (Problem 3\u201318)."
+        }
+    ],
+    "scores": [
+        0.028052088098817072,
+        0.024945054945054945,
+        0.02489847613686623,
+        0.024801980198019803,
+        0.023267175572519082,
+        0.02286752965485997,
+        0.022197167469288168,
+        0.021763761547645265,
+        0.021748698898296094,
+        0.02082449050789313,
+        0.02069742338198714,
+        0.019417475728155338,
+        0.018779756656674307,
+        0.018112099208615486,
+        0.017857142857142856,
+        0.017721320473614053,
+        0.017564046895353885,
+        0.017507836164656523,
+        0.017308397506417307,
+        0.016476215785277703,
+        0.016145371660124096,
+        0.015574650912996778,
+        0.015425531914893617,
+        0.015359477124183007,
+        0.015226956924502084,
+        0.015110401702580475,
+        0.014968082764692935,
+        0.01494711849773365,
+        0.01487173816895179,
+        0.014835164835164835,
+        0.014675841307386302,
+        0.014615221088435375
+    ],
+    "execution_time": 14.241785049438477
+}
