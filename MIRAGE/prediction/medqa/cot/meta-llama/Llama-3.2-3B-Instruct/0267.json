@@ -1,0 +1,15 @@
+{
+    "id": "0267",
+    "question": "A 34-year-old male suffers from inherited hemophilia A. He and his wife have three unaffected daughters. What is the probability that the second daughter is a carrier of the disease?",
+    "options": {
+        "A": "0%",
+        "B": "25%",
+        "C": "50%",
+        "D": "100%"
+    },
+    "answer": "D",
+    "predict": "To determine the probability that the second daughter is a carrier of the disease, we need to understand the genetics of hemophilia A. Hemophilia A is an X-linked recessive disorder, meaning the gene responsible for the condition is located on the X chromosome. Females have two X chromosomes (XX), while males have one X and one Y chromosome (XY). In this scenario, the 34-year-old male is affected by hemophilia A, which means he has a mutation in the gene responsible for the condition. Since he is male, he has only one X chromosome with the mutated gene, and the other X chromosome is normal. His wife is not affected, but since she has two X chromosomes, one of them must be the normal X chromosome. This means she is a carrier of the disease, as she has one normal X chromosome and one X chromosome with the mutated gene. Now, let's analyze the possible genotypes of their daughters: 1. The first daughter has a 50% chance of inheriting the normal X chromosome from her mother (who is a carrier) and a 50% chance of inheriting the mutated X chromosome from her father (who is affected). 2. The second daughter has a 50% chance of inheriting the normal X chromosome from her mother (who is a carrier) and a 50% chance of inheriting the mutated X chromosome from her father (who is affected). 3. The third daughter has a 50% chance of inheriting the normal X chromosome from her mother (who is a carrier) and a 50% chance of inheriting the mutated X chromosome from her father (who is affected). Since the second daughter has an equal chance of inheriting either the normal or mutated X chromosome from her father, the probability that she is a carrier of the disease is 50%. Here is the output in json format: ```json { \"step_by_step_thinking\": \"To determine the probability that the second daughter is a carrier of hemophilia A, we need to analyze the possible genotypes of their daughters. Since hemophilia A is an X-linked recessive disorder, females have two X chromosomes, and males have one X and one Y chromosome. The 34-year-old male is affected, so he has a mutated gene on one of his X chromosomes. His wife is a carrier, so she has one normal X chromosome and one X chromosome with the mutated gene. The second daughter has an equal chance of inheriting either the normal or mutated X chromosome from her father, so the probability that she is a carrier of the disease is 50%.\", \"answer_choice\": \"C\" } ```",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 35.03171634674072
+}

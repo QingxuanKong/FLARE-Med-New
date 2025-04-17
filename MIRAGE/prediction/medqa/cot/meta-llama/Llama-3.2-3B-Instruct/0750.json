@@ -1,0 +1,15 @@
+{
+    "id": "0750",
+    "question": "A 34-year-old man with acute lymphocytic leukemia presents for follow-up in the oncology clinic after his second cycle of chemotherapy. In addition to intermittent nausea, he has mild weakness, tingling, and numbness in his left hand. With his affected hand, he is able to grip, but occasionally drops small objects. His oncologist tells him that one of his chemotherapy agents likely caused his neuropathy given its strong association with neurotoxicity. He was recently treated with cyclophosphamide, vincristine, doxorubicin, dexamethasone, and dasatinib. The culprit medication works by which of the following mechanisms of action?",
+    "options": {
+        "A": "Covalently X-links DNA",
+        "B": "Blocks microtubule formation",
+        "C": "Intercalates between DNA",
+        "D": "Modifies DNA transcription and protein synthesis"
+    },
+    "answer": "B",
+    "predict": "To solve this question, let's break down the information provided and analyze the mechanism of action of the chemotherapy agents mentioned. 1. **Identify the chemotherapy agents**: The patient was treated with cyclophosphamide, vincristine, doxorubicin, dexamethasone, and dasatinib. 2. **Understand the symptoms**: The patient is experiencing neuropathy, characterized by mild weakness, tingling, and numbness in his left hand, which is affecting his ability to grip. 3. **Link the symptoms to the chemotherapy agents**: - Cyclophosphamide and doxorubicin are alkylating agents that work by adding an alkyl group to DNA, which can lead to cross-linking of DNA strands and ultimately cause cell death. However, they are not commonly associated with neuropathy. - Dexamethasone is a corticosteroid, which is not typically associated with neurotoxicity. - Dasatinib is a tyrosine kinase inhibitor used primarily in the treatment of chronic myeloid leukemia (CML) and acute lymphoblastic leukemia (ALL). While it can cause various side effects, neuropathy is not a common one. - Vincristine is a vinca alkaloid that works by binding to tubulin and inhibiting microtubule formation. This inhibition disrupts the assembly of microtubules, which are essential for the transport of vesicles, proteins, and organelles within cells, leading to cell cycle arrest and apoptosis. 4. **Choose the correct answer based on the mechanism of action**: Given the symptoms of neuropathy and the mechanism of action of the chemotherapy agents, the most likely culprit is vincristine, which blocks microtubule formation. Here is the output in json format: {\"step_by_step_thinking\": \"The patient's symptoms of neuropathy are consistent with vincristine-induced neurotoxicity. Vincristine works by binding to tubulin and inhibiting microtubule formation, which disrupts cellular function and leads to neurotoxicity. The other chemotherapy agents mentioned do not have a strong association with neuropathy or the same mechanism of action as vincristine.\", \"answer_choice\": \"B\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 12.977270364761353
+}

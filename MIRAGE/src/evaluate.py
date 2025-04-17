@@ -86,7 +86,7 @@ if __name__ == "__main__":
     corpus_name = args.corpus_name
     retriever_name = args.retriever_name
     llm_name = args.llm_name
-    rag = False if args.rag is None else True
+    rag = args.rag
     k = args.k
     results_dir = args.results_dir
     

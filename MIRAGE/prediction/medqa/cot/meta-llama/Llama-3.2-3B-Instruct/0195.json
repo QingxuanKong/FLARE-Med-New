@@ -1,0 +1,15 @@
+{
+    "id": "0195",
+    "question": "A group of researchers conducted a study to determine whether there is an association between folic acid supplementation before pregnancy and autism spectrum disorder (ASD) in offspring. The researchers retrospectively surveyed 200 mothers with children diagnosed with ASD during the first 4 years of life and 200 mothers with healthy children. All participants were interviewed about their prenatal consumption of folic acid using standardized questionnaires. A 94% response rate was obtained from the surveys. The study ultimately found that folic acid supplementation was associated with lower rates of ASD in offspring (OR = 0.3, p < 0.01). Which of the following type of bias is most likely to have influenced these results?",
+    "options": {
+        "A": "Interviewer bias",
+        "B": "Latency period",
+        "C": "Recall bias",
+        "D": "Survival bias"
+    },
+    "answer": "C",
+    "predict": "To determine the type of bias that most likely influenced the results, let's analyze the situation step by step: 1. **Selection of participants**: The study included 200 mothers with children diagnosed with ASD and 200 mothers with healthy children. This is a case-control study design, which means that the participants are selected based on their disease status (ASD or not). This design is prone to selection bias, as the selection of participants may not be random. 2. **Recollection of prenatal folic acid consumption**: The researchers used standardized questionnaires to collect data on prenatal folic acid consumption. However, the questionnaires were completed by the mothers themselves, which introduces a potential source of bias. Mothers who have children with ASD may be more motivated to report their prenatal folic acid consumption differently than mothers of healthy children. 3. **Response rate**: The study had a 94% response rate, which is relatively high. However, this does not necessarily indicate a specific type of bias. 4. **Association between folic acid supplementation and ASD**: The study found a significant association between folic acid supplementation and lower rates of ASD in offspring. However, this association is based on a retrospective analysis of self-reported data. Considering these points, the most likely type of bias that influenced the results is **recall bias**. This type of bias occurs when the participants' recollections of past events (in this case, prenatal folic acid consumption) are influenced by their current knowledge of the outcome (ASD status). Mothers who have children with ASD may be more likely to recall higher levels of folic acid supplementation due to its potential association with reduced ASD risk, which could lead to a biased estimate of the true effect. Therefore, the answer is: ```json {\"step_by_step_thinking\": \"The study is likely influenced by recall bias due to the retrospective nature of the data collection and the potential for mothers to recall folic acid consumption differently based on their ASD status.\", \"answer_choice\": \"C\"} ```",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 11.266763687133789
+}

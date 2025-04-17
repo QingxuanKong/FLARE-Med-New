@@ -1,0 +1,15 @@
+{
+    "id": "0790",
+    "question": "A 56-year-old patient is being treated with oral amoxicillin for community-acquired pneumonia. The plasma clearance of the drug is calculated as 15.0 L/h. Oral bioavailability of the drug is 75%. Sensitivity analysis of a sputum culture shows a minimal inhibitory concentration of 1 \u03bcg/mL for the causative pathogen. The target plasma concentration is 2 mg/L. If the drug is administered twice per day, which of the following dosages should be administered at each dosing interval to maintain a steady state?",
+    "options": {
+        "A": "270 mg",
+        "B": "480 mg",
+        "C": "240 mg",
+        "D": "540 mg\n\""
+    },
+    "answer": "B",
+    "predict": "To determine the dosage needed to maintain a steady state, we need to calculate the total daily dose required to achieve the target plasma concentration. We'll use the following steps: 1. Calculate the total daily dose: - Plasma clearance (Cl) = 15.0 L/h - Target plasma concentration (Ct) = 2 mg/L - Oral bioavailability (F) = 75% First, we need to convert the target plasma concentration from mg/L to \u03bcg/L: - 2 mg/L = 2000 \u03bcg/L Then, we can calculate the total daily dose: - Total daily dose = Cl x Ct / F - Total daily dose = 15.0 L/h x 2000 \u03bcg/L / 0.75 - Total daily dose = 20,000 \u03bcg/h Since the drug is administered twice per day, we need to calculate the dose per dose interval: - Total daily dose / 2 = 10,000 \u03bcg/dose 2. Convert the dose from \u03bcg to mg: - 10,000 \u03bcg/dose = 10 mg/dose Now, we can compare this calculated dose with the given options: - Option A: 270 mg - Option B: 480 mg - Option C: 240 mg - Option D: 540 mg Comparing the calculated dose (10 mg) with the given options, the closest match is not available. However, we can see that 240 mg is closest to the calculated dose. Therefore, the answer is: {\"step_by_step_thinking\": \"To calculate the dosage needed to maintain a steady state, we first converted the target plasma concentration from mg/L to \u03bcg/L and then calculated the total daily dose. Since the drug is administered twice per day, we divided the total daily dose by 2 to get the dose per dose interval. The calculated dose is 10 mg, which is closest to option C. 240 mg.\", \"answer_choice\": \"C\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 12.77597689628601
+}

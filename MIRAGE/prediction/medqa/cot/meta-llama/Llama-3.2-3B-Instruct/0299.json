@@ -1,0 +1,15 @@
+{
+    "id": "0299",
+    "question": "A 72-year-old woman is admitted to the hospital for treatment of unstable angina. Cardiac catheterization shows occlusion that has caused a 50% reduction in the diameter of the left circumflex artery. Resistance to blood flow in this vessel has increased by what factor relative to a vessel with no occlusion?",
+    "options": {
+        "A": "64",
+        "B": "16",
+        "C": "8",
+        "D": "4"
+    },
+    "answer": "B",
+    "predict": "To solve this problem, we need to understand the concept of resistance to blood flow in a vessel. Resistance to blood flow is inversely proportional to the fourth power of the radius of the vessel (Poiseuille's law). Since the diameter of the vessel is given, we can calculate the radius by dividing the diameter by 2. Given: - Diameter of the occluded vessel = 50% of the original diameter - Original diameter = 2r (where r is the radius) - New diameter = 0.5 * 2r = r The radius of the occluded vessel is half the original radius. Now, we can calculate the resistance to blood flow in the occluded vessel relative to the original vessel. Resistance to blood flow in the original vessel = (\u03c0 * r^4) / (8 * L) (where L is the length of the vessel) Resistance to blood flow in the occluded vessel = (\u03c0 * (0.5r)^4) / (8 * L) Since the length of the vessel is the same for both the original and the occluded vessel, we can simplify the calculation by canceling out L. Resistance to blood flow in the occluded vessel = (\u03c0 * (0.5r)^4) / (8 * r^4) = (\u03c0 * 0.0625) / 8 = 0.0492 / 8 = 0.00615 Now, we can calculate the factor by which the resistance has increased: Factor = Resistance in the occluded vessel / Resistance in the original vessel = 0.00615 / (\u03c0 * r^4) / (8 * r^4) = 0.00615 / (\u03c0 / 8) = 0.00615 * 8 / \u03c0 = 0.00615 * 2.546 = 0.0157 However, we can simplify this calculation by using the fact that the resistance is inversely proportional to the fourth power of the radius. Since the radius is halved, the resistance increases by a factor of 2^4 = 16. So, the resistance to blood flow in the occluded vessel is 16 times greater than the resistance in the original vessel. Therefore, the answer is: {\"step_by_step_thinking\": \"The resistance to blood flow in the occluded vessel is 16 times greater than the resistance in the original vessel due to the 50% reduction in diameter.\", \"answer_choice\": \"B\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 61.27255296707153
+}

@@ -1,0 +1,15 @@
+{
+    "id": "1206",
+    "question": "A 35-year-old woman comes to the physician for genetic counseling prior to conception. Her younger brother has mild developmental delay, pale complexion, and has to limit his dietary intake of phenylalanine. She has no similar symptoms and is in good health. Her parents are healthy. Which of the following is the most appropriate assessment of her carrier status for the disease affecting her brother?",
+    "options": {
+        "A": "67%",
+        "B": "100%",
+        "C": "75%",
+        "D": "50%"
+    },
+    "answer": "A",
+    "predict": "To determine the most appropriate assessment of the woman's carrier status for the disease affecting her brother, we need to identify the disease based on the symptoms provided. The symptoms described for her brother - mild developmental delay, pale complexion, and limitation of dietary intake of phenylalanine - are classic indicators of Phenylketonuria (PKU), a genetic disorder caused by a mutation in the PAH gene. PKU is an autosomal recessive disorder, meaning that a person needs to inherit two copies of the mutated gene (one from each parent) to express the disease. Since the woman's brother has the disease, we can assume he is homozygous recessive for the mutated gene (let's denote the normal gene as 'N' and the mutated gene as 'n'). The possible genotypes for the brother are: - NN: Normal (not affected) - Nn: Carrier (affected but mild symptoms) - nn: Affected (has the disease) Given that the brother is affected, we know his genotype is 'nn'. Now, let's analyze the woman's situation: - She is a carrier (has the disease but has not expressed symptoms), so her genotype must be 'Nn'. - She has no symptoms, so we can assume she is heterozygous for the mutated gene. - The woman's parents are healthy, so they are both carriers (Nn). To determine the probability of the woman being a carrier, we can use the Punnett square for a cross between two carriers (Nn): ``` | N | n ------------------ N | NN | Nn n | Nn | nn ``` The possible genotypes of the offspring are NN, Nn, and nn, with a probability of: - NN: 25% - Nn: 50% - nn: 25% Since the woman has no symptoms and is not affected, we can conclude that she is heterozygous for the mutated gene (Nn). Therefore, the probability of her being a carrier is 50%. Thus, the correct answer is: {\"step_by_step_thinking\": \"The woman is heterozygous for the mutated gene (Nn), which means she is a carrier of the disease with a 50% chance of passing the mutated gene to her offspring.\", \"answer_choice\": \"D\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 29.79129958152771
+}

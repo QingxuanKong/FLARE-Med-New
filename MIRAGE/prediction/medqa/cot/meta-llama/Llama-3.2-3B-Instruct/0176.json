@@ -1,0 +1,15 @@
+{
+    "id": "0176",
+    "question": "A novel type of PET radiotracer is being developed to evaluate patients with Parkinson\u2019s disease. A clinical research study has enrolled 1,200 patients, half of whom have the disease. The scan is found to be positive in 590 of the 600 patients with known PD, and positive in 20 of the 600 patients without PD. What is the test\u2019s overall specificity?",
+    "options": {
+        "A": "580 / (20 + 590)",
+        "B": "580 / (10 + 580)",
+        "C": "590 / (590 + 10)",
+        "D": "580 / (580 + 20)"
+    },
+    "answer": "D",
+    "predict": "To determine the overall specificity of the test, we need to understand what specificity means in the context of medical testing. Specificity is the number of true negatives (patients without the disease who test negative) divided by the sum of true negatives and false positives (patients without the disease who test positive). Let's break down the information given: - Total patients = 1,200 - Patients with PD = 600 - Patients without PD = 600 - True positives (patients with PD who test positive) = 590 - False positives (patients without PD who test positive) = 20 First, let's calculate the number of true negatives. This is the number of patients without PD who test negative. Since there are 600 patients without PD, and 20 test positive, the number of true negatives is 600 - 20 = 580. Now, to find the overall specificity, we use the formula: Specificity = True negatives / (True negatives + False positives) Substituting the values, we get: Specificity = 580 / (580 + 20) This matches option B. Therefore, the correct answer is: {\"step_by_step_thinking\": \"To calculate the specificity, we first need to determine the number of true negatives (patients without PD who test negative), which is 580. Then we use the formula Specificity = True negatives / (True negatives + False positives). Substituting the values, we get Specificity = 580 / (580 + 20) = 580 / 600.\", \"answer_choice\": \"B\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 19.349948406219482
+}
