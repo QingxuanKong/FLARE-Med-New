@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-008",
+    "question": "Codons are composed of:",
+    "options": {
+        "A": "triplet sequences of nucleotide bases in mRNA or DNA .",
+        "B": "quadruplet sequences of nucleotide bases in mRNA or DNA.",
+        "C": "triplet sequences of amino acids in polypeptide chains.",
+        "D": "triplet sequences of deoxyribose sugars in DNA."
+    },
+    "answer": "A",
+    "predict": "{\"step_by_step_thinking\": \"To determine the correct answer, let's analyze each option in relation to the provided documents.\\n\\nFirst, we need to understand what codons are composed of. According to Document [1] (Title: Biochemistry_Lippinco), codons are composed of three nucleotide bases presented in the messenger RNA (mRNA) language of adenine (A), guanine (G), cytosine (C), and uracil (U).\\n\\nNow, let's examine each option in light of this information.\\n\\nOption A: triplet sequences of nucleotide bases in mRNA or DNA. This option aligns with the definition of codons provided in Document [1].\\n\\nOption B: quadruplet sequences of nucleotide bases in mRNA or DNA. This option does not match the definition of codons, as codons are composed of three nucleotide bases, not four.\\n\\nOption C: triplet sequences of amino acids in polypeptide chains. This option is incorrect because codons are composed of nucleotide bases, not amino acids.\\n\\nOption D: triplet sequences of deoxyribose sugars in DNA. This option is also incorrect because codons are composed of nucleotide bases, not deoxyribose sugars.\\n\\nBased on the analysis, the correct answer is Option A: triplet sequences of nucleotide bases in mRNA or DNA.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Biochemistry_Lippincott_1605",
+            "title": "Biochemistry_Lippinco",
+            "content": "Codons are composed of three nucleotide bases presented in the messenger RNA (mRNA) language of adenine (A), guanine (G), cytosine (C), and uracil (U). They are always written 5\u2032\u21923\u2032. Of the 64 possible three-base combinations, 61 code for the 20 standard amino acids and 3 signal termination of protein synthesis (translation). Altering the nucleotide sequence in a codon can cause silent mutations (the altered codon codes for the original amino acid), missense mutations (the altered codon codes for a different amino acid), or nonsense mutations (the altered codon is a termination codon). Characteristics of the genetic code include specificity, universality, and degeneracy, and it is nonoverlapping and commaless (Fig. 32.17). Requirements for protein synthesis include all the amino acids that eventually appear in the finished protein; at least one specific type of transfer RNA (tRNA) for each amino acid; one aminoacyl-tRNA synthetase for each amino acid; the mRNA coding for the protein"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1561",
+            "title": "Biochemistry_Lippinco",
+            "content": "II. THE GENETIC CODE The genetic code is a \u201cdictionary\u201d that identifies the correspondence between a sequence of nucleotide bases and a sequence of amino acids. Each individual \u201cword\u201d in the code is composed of three nucleotide bases. These genetic words are called codons. A. Codons Codons are presented in the mRNA language of adenine (A), guanine (G), cytosine (C), and uracil (U). Their nucleotide sequences are always written from the 5\u2032-end to the 3\u2032-end. The four nucleotide bases are used to produce the three-base codons. Therefore, 64 different combinations of bases exist, taken three at a time (a triplet code), as shown in the table in Figure 32.2. many common amino acids are shown as examples. 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1587",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201348 The genetic code. The standard one-letter abbreviation for each amino acid is presented below its three-letter abbreviation (see Panel 3\u20131, pp. 112\u2013 113, for the full name of each amino acid and its structure). By convention, codons are always written with the 5\u02b9-terminal nucleotide to the left. Note that most amino acids are represented by more than one codon, and that there are some regularities in the set of codons that specifies each amino acid: codons for the same amino acid tend to contain the same nucleotides at the first and second positions, and vary at the third position. Three codons do not specify any amino acid but act as termination sites (stop codons), signaling the end of the protein-coding sequence. One codon\u2014AUG\u2014acts both as an initiation codon, signaling the start of a protein-coding message, and also as the codon that specifies methionine. Figure 6\u201349 The three possible reading frames in protein synthesis."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1562",
+            "title": "Biochemistry_Lippinco",
+            "content": "many common amino acids are shown as examples. 1. How to translate a codon: This table can be used to translate any codon and, thus, to determine which amino acids are coded for by an mRNA sequence. For example, the codon AUG codes for methionine ([Met] see Fig. 32.2). [Note: AUG is the initiation (start) codon for translation.] Sixty-one of the 64 codons code for the 20 standard amino acids (see p. 1). 2. Termination codons: Three of the codons, UAA, UAG, and UGA, do not code for amino acids but, rather, are termination (also called stop, or nonsense) codons. When one of these codons appears in an mRNA sequence, synthesis of the polypeptide coded for by that mRNA stops. B. Characteristics"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1592",
+            "title": "Cell_Biology_Alberts",
+            "content": "We saw above that the genetic code is redundant; that is, several different codons can specify a single amino acid. This redundancy implies either that there is more than one tRNA for many of the amino acids or that some tRNA molecules can base-pair with more than one codon. In fact, both situations occur. Some amino acids have more than one tRNA and some tRNAs are constructed so that they require accurate base-pairing only at the first two positions of the codon and can tolerate a mismatch (or wobble) at the third position (Figure 6\u201351). This wobble base-pairing explains why so many of the alternative codons for an amino acid differ only in their third nucleotide (see Figure 6\u201348). In bacteria, wobble base-pairings make it possible to fit the 20 amino acids to their 61 codons with as"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1584",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Wobble hypothesis The mechanism by which a tRNA can recognize more than one codon for a specific amino acid is described by the wobble hypothesis, which states that codon\u2013anticodon pairing follows the traditional Watson-Crick rules (G pairs with C and A pairs with U) for the first two bases of the codon but can be less stringent for the last base. The base at the 5\u2032-end of the anticodon (the first base of the anticodon) is not as spatially defined as the other two bases. Movement of that first base allows nontraditional base-pairing with the 3\u2032-base of the codon (the last base of the codon). This movement is called wobble and allows a single tRNA to recognize more than one codon. Examples of these flexible pairings are shown in Figure 32.9. The result of wobble is that 61 tRNA species are not required to read the 61 codons that code for amino acids. V. STEPS IN TRANSLATION"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1593",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201351 Wobble base-pairing between codons and anticodons. If the nucleotide listed in the first column is present at the third, or wobble, position of the codon, it can base-pair with any of the nucleotides listed in the second column. Thus, for example, when inosine (I) is present in the wobble position of the tRNA anticodon, the tRNA can recognize any one of three different codons in bacteria and either of two codons in eukaryotes. The inosine in tRNAs is formed from the deamination of adenosine (see Figure 6\u201353), a chemical modification that takes place after the tRNA has been synthesized. The nonstandard base pairs, including those made with inosine, are generally weaker than conventional base pairs. Codon\u2013anticodon base-pairing is more stringent at positions 1 and 2 of the codon, where only conventional base pairs are permitted. The differences in wobble base-pairing interactions between bacteria and eukaryotes presumably result from subtle structural differences between"
+        },
+        {
+            "id": "Surgery_Schwartz_3297",
+            "title": "Surgery_Schwartz",
+            "content": "amino acid and the carboxy group of the next. Because of this decoding, the information carried on mRNA relies on tRNA. Translation involves all three RNAs. The precise transfer of information from mRNA to protein is governed by genetic code, the set of rules by which codons are translated into an amino acid (Table 15-2). A codon, a triplet of three bases, codes for one amino acid. In this case, random combinations of the four bases form 4 \u00d7 4 \u00d7 4, or 64 codes. Because 64 codes are more than enough for 20 amino acids, most amino acids are coded by more than one codon. The start codon is AUG, which also corresponds to methionine; therefore, almost all proteins begin with this amino acid. The sequence of nucleotide triplets that follows the start codon signal is termed the reading frame. The codons on mRNA are sequentially recognized by tRNA adaptor proteins. Specific enzymes termed aminoacyl-tRNA synthetases link a specific amino acid to a specific tRNA. The translation of mRNA to"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1564",
+            "title": "Biochemistry_Lippinco",
+            "content": "Degeneracy: The genetic code is degenerate (sometimes called redundant). Although each codon corresponds to a single amino acid, a given amino acid may have more than one triplet coding for it. For example, arginine (Arg) is specified by six different codons (see Fig. 32.2). Only Met and Trp have just one coding triplet. 4. Nonoverlapping and commaless: The genetic code is nonoverlapping and commaless, meaning that the code is read from a fixed starting point as a continuous sequence of bases, taken three at a time without any punctuation between codons. For example, AGCUGGAUACAU is read as AGC UGG AUA CAU. C. Consequences of altering the nucleotide sequence Changing a single nucleotide base (a point mutation) in the coding region of an mRNA can lead to any one of three results (Fig. 32.3). 1."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1721",
+            "title": "Cell_Biology_Alberts",
+            "content": "progresses codon by codon through the ribosome in the 5\u02b9-to-3\u02b9 direction until it reaches one of three stop codons. A release factor then binds to the ribosome, terminating translation and releasing the completed polypeptide."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1607",
+            "title": "Biochemistry_Lippinco",
+            "content": "molecules: the A, P, and E sites that cover three neighboring codons. The A site binds an incoming aminoacyl-tRNA, the P site is occupied by peptidyl-tRNA, and the E site is occupied by the empty tRNA as it is about to exit the ribosome. Recognition of an mRNA codon is accomplished by the tRNA anticodon, which binds to the codon following the rules of complementarity and antiparallel binding. The wobble hypothesis states that the first (5\u2032) base of the anticodon is not as spatially defined as the other two bases. Movement of that first base allows nontraditional base-pairing with the last (3\u2032) base of the codon, thus allowing a single tRNA to recognize more than one codon for a specific amino acid. For initiation of protein synthesis, the components of the translation system are assembled, and mRNA associates with the small ribosomal subunit. The process requires initiation factors (IF). In prokaryotes, a purine-rich region of the mRNA (the Shine-Dalgarno sequence) base-pairs with a"
+        },
+        {
+            "id": "Cell_Biology_Alberts_28",
+            "title": "Cell_Biology_Alberts",
+            "content": "It turns out that the information in the sequence of a messenger RNA molecule is read out in groups of three nucleotides at a time: each triplet of nucleotides, or codon, specifies (codes for) a single amino acid in a corresponding protein. Since the number of distinct triplets that can be formed from four nucleotides is 43, there are 64 possible codons, all of which occur in nature. However, there are only 20 naturally occurring amino acids. That means there are necessarily many cases in which several codons correspond to the same amino acid. This genetic code is read out by a special class of small RNA molecules, the transfer RNAs (tRNAs). Each type of tRNA becomes attached at one end to a specific amino acid, and displays at its other end a specific sequence of three nucleotides\u2014an anticodon\u2014 that enables it to recognize, through base-pairing, a particular codon or subset of codons in mRNA. The intricate chemistry that enables these tRNAs to translate a specific sequence of A, C,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1720",
+            "title": "Cell_Biology_Alberts",
+            "content": "To initiate translation, a small ribosomal subunit binds to the mRNA molecule at a start codon (AUG) that is recognized by a unique initiator tRNA molecule. A large ribosomal subunit then binds to complete the ribosome and begin protein synthesis. During this phase, aminoacyl-tRNAs\u2014each bearing a specific amino acid\u2014bind sequentially to the appropriate codons in mRNA through complementary base-pairing between tRNA anticodons and mRNA codons. Each amino acid is added to the C-terminal end of the growing polypeptide in four sequential steps: aminoacyl-tRNA binding, followed by peptide bond formation, followed by two ribosome translocation steps. Elongation factors use GTP hydrolysis both to drive these reactions forward and to improve the accuracy of amino acid selection. The mRNA molecule progresses codon by codon through the ribosome in the 5\u02b9-to-3\u02b9 direction until it reaches one of three stop codons. A release factor then binds to the ribosome, terminating translation and releasing"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1584",
+            "title": "Cell_Biology_Alberts",
+            "content": "The sequence of nucleotides in the mRNA molecule is read in consecutive groups of three. RNA is a linear polymer of four different nucleotides, so there are 4 \u00d7 4 \u00d7 4 = 64 possible combinations of three nucleotides: the triplets AAA, AUA, AUG, and so on. However, only 20 different amino acids are commonly found in proteins. Either some nucleotide triplets are never used, or the code is redundant and some amino acids are specified by more than one triplet. The second possibility is, in fact, the correct one, as shown by the completely deciphered genetic code in Figure 6\u201348. Each group of three consecutive nucleotides in RNA is called a codon, and each codon specifies either one amino acid or a stop to the translation process."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1563",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. Characteristics Usage of the genetic code is remarkably consistent throughout all living organisms. It is assumed that once the standard genetic code evolved in primitive organisms, any mutation (a permanent change in DNA sequence) that altered its meaning would have caused the alteration of most, if not all, protein sequences, resulting in lethality. Characteristics of the genetic code include the following. 1. Specificity: The genetic code is specific (unambiguous), because a particular codon always codes for the same amino acid. 2. Universality: The genetic code is virtually universal insofar as its specificity has been conserved from very early stages of evolution, with only slight differences in the manner in which the code is translated. [Note: An exception occurs in mitochondria, in which a few codons have meanings different than those shown in Figure 32.2. For example, UGA codes for tryptophan (Trp).] 3."
+        },
+        {
+            "id": "Cell_Biology_Alberts_29",
+            "title": "Cell_Biology_Alberts",
+            "content": "that enables it to recognize, through base-pairing, a particular codon or subset of codons in mRNA. The intricate chemistry that enables these tRNAs to translate a specific sequence of A, C, G, and U nucleotides in an mRNA molecule into a specific sequence of amino acids in a protein molecule occurs on the ribosome, a large multimolecular machine composed of both protein and ribosomal RNA. All of these processes are described in detail in Chapter 6."
+        },
+        {
+            "id": "InternalMed_Harrison_4766",
+            "title": "InternalMed_Harrison",
+            "content": "The presence of four different bases provides surprising genetic diversity. In the protein-coding regions of genes, the DNA bases are arranged into codons, a triplet of bases that specifies a particular amino acid. It is possible to arrange the four bases into 64 different triplet codons (43). Each codon specifies 1 of the 20 different amino acids, or a regulatory signal such as initiation and stop of translation. Because there are more codons than amino acids, the genetic code is degenerate; that is, most amino acids can be specified by several different codons. By arranging the codons in different combinations and in Nucleosome core Histone H2A, H2B, H4 p, short arm Centromere Solenoid q, long arm"
+        },
+        {
+            "id": "Surgery_Schwartz_3294",
+            "title": "Surgery_Schwartz",
+            "content": "15-1). Translation takes place in ribosomes composed of rRNA and ribosomal proteins. The numerous discoveries made during the 1950s made it easy to understand how DNA replication and transcription involve base-pairing between DNA and DNA or DNA and RNA. How-ever, at that time, it was still impossible to comprehend how mRNA transfers the information to the protein-synthesizing machinery. The genetic information on mRNA is composed of Brunicardi_Ch15_p0479-p0510.indd 48318/02/19 11:12 AM 484BASIC CONSIDERATIONSPART ITable 15-2The genetic codeSECOND BASE IN CODON U C A G First Base in CodonUUUUPhe[F]UCUSer[S]UAUTyr[Y]UGUCys[C]UThird Base in"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1621",
+            "title": "Cell_Biology_Alberts",
+            "content": "(C) The ribosome in (A) rotated through 90\u00b0 and viewed with the large subunit on top and small subunit on the bottom. (D) Schematic representation of a ribosome [in the same orientation as (C)], which will be used in subsequent figures. (A, B, and C, adapted from M.M. Yusupov et al., Science 292:883\u2013896, 2001. With permission from AAAS; courtesy of Albion Baucom and Harry Noller.) forms base pairs with a complementary codon (allowing for wobble) on the mRNA molecule that is threaded through the ribosome (Figure 6\u201363). The A and P sites are close enough together for their two tRNA molecules to be forced to form base pairs with adjacent codons on the mRNA molecule. This feature of the ribosome maintains the correct reading frame on the mRNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1618",
+            "title": "Cell_Biology_Alberts",
+            "content": "When not actively synthesizing proteins, the two subunits of the ribosome are separate. They join together on an mRNA molecule, usually near its 5\u02b9 end, to initiate the synthesis of a protein. The mRNA is then pulled through the ribosome, three nucleotides at a time. As its codons enter the core of the ribosome, the mRNA nucleotide sequence is translated into an amino acid sequence using the tRNAs as adaptors to add each amino acid in the correct sequence to the growing end of the polypeptide chain. When a stop codon is encountered, the ribosome releases the finished protein, and its two subunits separate again. These subunits can then be used to start the synthesis of another protein on another mRNA molecule. Ribosomes operate with remarkable efficiency: in one second, a eukaryotic ribosome adds 2 amino acids to a polypeptide chain; the ribosomes of bacterial cells operate even faster, at a rate of about 20 amino acids per second."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1585",
+            "title": "Biochemistry_Lippinco",
+            "content": "V. STEPS IN TRANSLATION The process of protein synthesis translates the 3-letter alphabet of nucleotide sequences on mRNA into the 20-letter alphabet of amino acids that constitute proteins. The mRNA is translated from its 5\u2032-end to its 3\u2032-end, producing a protein synthesized from its amino (N)-terminal end to its carboxyl (C)-terminal end. Prokaryotic mRNA often have several coding regions (that is, they are polycistronic; see p. 434). Each coding region has its own initiation and termination codon and produces a separate species of polypeptide. In contrast, each eukaryotic mRNA has only one coding region (that is, it is monocistronic). The process of translation is divided into three separate steps: initiation, elongation, and termination. Eukaryotic translation resembles that of prokaryotes in most aspects. Individual differences are noted in the text."
+        },
+        {
+            "id": "Pediatrics_Nelson_946",
+            "title": "Pediatrics_Nelson",
+            "content": "Spread along the chromosomes, like beads on a string,DNA sequences form genes, the basic units of heredity. Atypical gene contains a promoter sequence, an untranslatedregion, and an open reading frame, all arrayed from the 5\u2032 to the 3\u2032 end of the DNA. In the open reading frame, everythree nucleotides represent a single codon, coding for a particular amino acid. In this way, the sequence of bases dictatesthe sequence of amino acids in the corresponding protein.Some codons, rather than coding for a specific amino acid,act as a \u201cstart\u201d signal, whereas others serve as \u201cstop\u201d signals. Between the start and stop codons, genes consist oftwo major portions: exons, regions containing the code thatultimately corresponds to a sequence of amino acids, andintrons (intervening sequence), which do not become partof the amino acid sequence."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1618",
+            "title": "Biochemistry_Lippinco",
+            "content": "2.6. Translation of a synthetic polyribonucleotide containing the repeating sequence CAA in a cell-free protein-synthesizing system produces three homopolypeptides: polyglutamine, polyasparagine, and polythreonine. If the codons for glutamine and asparagine are CAA and AAC, respectively, which of the following triplets is the codon for threonine? A. AAC B. ACA C. CAA D. CAC E. CCA Correct answer = B. The synthetic polynucleotide sequence of CAACAACAACAA \u2026 could be read by the in vitro protein-synthesizing system starting at the first C, the first A, or the second A (that is, in any one of three reading frames). In the first case, the first triplet codon would be CAA, which codes glutamine; in the second case, the first triplet codon would be AAC, which codes for asparagine; in the last case, the first triplet codon would be ACA, which codes for threonine. 2.7. Which of the following is required for both prokaryotic and eukaryotic protein synthesis?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1633",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 6\u201366 Recognition of correct codon\u2013anticodon matches by the small-subunit rRNA of the ribosome. Shown here is the interaction between a nucleotide of the small-subunit rRNA and the first nucleotide pair of a correctly paired codon\u2013anticodon. Similar interactions form between other nucleotides of the rRNA and the second and third positions of codon\u2013 anticodon pair. The small-subunit rRNA can form this network of hydrogen bonds only when an anticodon is correctly matched to a codon. As explained in the text, this codon\u2013anticodon monitoring by the small-subunit rRNA increases the accuracy of protein synthesis. (From J.M. Ogle et al., Science 292:897\u2013902, 2001. With permission from AAAS.) Many Biological Processes Overcome the Inherent Limitations of Complementary Base-Pairing"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1566",
+            "title": "Biochemistry_Lippinco",
+            "content": "3. Nonsense mutation: The codon containing the changed base may become a termination codon. For example, if the Ser codon UCA is changed at the second base and becomes UAA, the new codon causes premature termination of translation at that point and the production of a shortened (truncated) protein. This is termed a nonsense mutation. [Note: The nonsense-mediated degradation pathway can degrade mRNA containing premature stops.] 4. Other mutations: These can alter the amount or structure of the protein produced by translation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1586",
+            "title": "Cell_Biology_Alberts",
+            "content": "tRNA Molecules Match Amino Acids to Codons in mRNA The codons in an mRNA molecule do not directly recognize the amino acids they specify: the group of three nucleotides does not, for example, bind directly to the amino acid. Rather, the translation of mRNA into protein depends on adaptor molecules that can recognize and bind both to the codon and, at another site on their surface, to the amino acid. These adaptors consist of a set of small RNA molecules known as transfer RNAs (tRNAs), each about 80 nucleotides in length."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1599",
+            "title": "Cell_Biology_Alberts",
+            "content": "more than one amino acid to the appropriate tRNAs. In these cases, a single synthetase places the identical amino acid on two different types of tRNAs, only one of which wobble codon possible base anticodon bases U A, G, or I C G or I A U or I G C or U wobble codon possible base anticodon bases U A, G, or I C G or I AU GC"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1637",
+            "title": "Cell_Biology_Alberts",
+            "content": "A second principle used to increase the specificity of complementary base-pairing is called kinetic proofreading. We have seen that after the initial codon\u2012anticodon pairing and conformational change of the ribosome, GTP is hydrolyzed. This creates an irreversible step and starts the clock on a time delay during which the aminoacyl-tRNA moves into the proper position for catalysis. During this delay, those incorrect codon\u2013anticodon pairs that have somehow slipped through the induced-fit scrutiny have a higher likelihood of dissociating than correct pairs. There are two reasons for this: (1) the interaction of the wrong tRNA with the codon is weaker, and (2) the delay is longer for incorrect than correct matches."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1579",
+            "title": "Biochemistry_Lippinco",
+            "content": "3. A, P, and E sites: The ribosome has three binding sites for tRNA molecules: the A, P, and E sites, each of which extends over both subunits. Together, they cover three neighboring codons. During translation, the A site binds an incoming aminoacyl-tRNA as directed by the codon currently occupying this site. This codon specifies the next amino acid to be added to the growing peptide chain. The P site is occupied by peptidyl-tRNA. This tRNA carries the chain of amino acids that has already been synthesized. The E site is occupied by the empty tRNA as it is about to exit the ribosome. (See Fig. 32.13 for an illustration of the role of the A, P, and E sites in translation.) 4."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1583",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Antiparallel binding between codon and anticodon Binding of the tRNA anticodon to the mRNA codon follows the rules of complementary and antiparallel binding, that is, the mRNA codon is read 5\u2032\u21923\u2032 by an anticodon pairing in the opposite (3\u2032\u21925\u2032) orientation (Fig. 32.9). [Note: Nucleotide sequences are always written in the 5\u2032 to 3\u2032 direction unless otherwise noted. Two nucleotide sequences orient in an antiparallel manner.] B. Wobble hypothesis"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4011",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 14\u201365 The organization of the human mitochondrial genome. the human mitochondrial genome of \u224816,600 nucleotide pairs contains 2 rrNa genes, 22 trNa genes, and 13 protein-coding sequences. there are two transcriptional promoters, one for each strand of the mitochondrial DNa (mtDNa). the DNas of many other animal mitochondrial genomes have been completely sequenced. Most of these animal mitochondrial DNas encode precisely the same genes as humans, with the gene order being identical for animals ranging from fish to mammals. allows one tRNA to pair with any one of four codons and permits protein synthesis with fewer tRNA molecules. 3. Variant genetic code. Perhaps most surprising, comparisons of mitochondrial gene sequences and the amino acid sequences of the corresponding proteins indicate that the genetic code is different: 4 of the 64 codons have different \u201cmeanings\u201d from those of the same codons in other genomes (Table 14\u20133)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1606",
+            "title": "Biochemistry_Lippinco",
+            "content": "eventually appear in the finished protein; at least one specific type of transfer RNA (tRNA) for each amino acid; one aminoacyl-tRNA synthetase for each amino acid; the mRNA coding for the protein to be synthesized; fully competent ribosomes (70S in prokaryotes, 80S in eukaryotes); protein factors needed for initiation, elongation, and termination of protein synthesis; and ATP and guanosine triphosphate (GTP) as energy sources. tRNA has an attachment site for a specific amino acid at its 3\u2032-end and an anticodon region that can recognize the codon specifying the amino acid the tRNA is carrying. Ribosomes are large complexes of protein and ribosomal RNA (rRNA). They consist of two subunits, 30S and 50S in prokaryotes and 40S and 60S in eukaryotes. Each ribosome has three binding sites for tRNA molecules: the A, P, and E sites that cover three neighboring codons. The A site binds an incoming aminoacyl-tRNA, the P site is occupied by peptidyl-tRNA, and the E site is occupied by the empty"
+        }
+    ],
+    "scores": [
+        0.03904876468955307,
+        0.038937459055524544,
+        0.03875755909840572,
+        0.03828011611030479,
+        0.03527087727511429,
+        0.03411529944548812,
+        0.033578854912787094,
+        0.03304715391722496,
+        0.031646924333472506,
+        0.03138535107529602,
+        0.03090949869508482,
+        0.030856418598615706,
+        0.03069618565740829,
+        0.028957974522490652,
+        0.028233466887193918,
+        0.02761419703963075,
+        0.027129223359777806,
+        0.02668890975342588,
+        0.025111748929272232,
+        0.024845442430260784,
+        0.024745560656204407,
+        0.024603174603174603,
+        0.023954661182922055,
+        0.02328045183106698,
+        0.02321582596811955,
+        0.02284295845997974,
+        0.022224091790458794,
+        0.022146476833976834,
+        0.02190927626216525,
+        0.021899733914443262,
+        0.02166941199960068,
+        0.021316646316646315
+    ],
+    "execution_time": 41.677653312683105
+}

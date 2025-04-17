@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-000",
+    "question": "What size of cannula would you use in a patient who needed a rapid blood transfusion (as of 2020 medical knowledge)?",
+    "options": {
+        "A": "18 gauge.",
+        "B": "20 gauge.",
+        "C": "22 gauge.",
+        "D": "24 gauge."
+    },
+    "answer": "A",
+    "predict": "Here's my step-by-step thinking and the answer in JSON format: **Step 1:** Review the relevant medical documents to understand the context of rapid blood transfusion and cannula sizes. **Step 2:** Document [20] (Title: Surgery_Schwartz) mentions that for ruptured ectopic gestations or other procedures with a large amount of blood and clots, large-diameter cannulas (7 to 10 mm) are preferred. **Step 3:** Document [26] (Title: Gynecology_Novak) states that the outside diameter of a cannula is larger than the inside diameter, and this can add 2 or more millimeters to the device diameter, increasing the length of the required incision. This suggests that smaller cannula sizes may be used. **Step 4:** Document [26] (Title: Gynecology_Novak) also mentions that the smallest cannulas necessary to perform the procedure should be used. **Step 5:** Based on the above information, the smallest cannula size that would be suitable for rapid blood transfusion in a patient would be a 20-gauge cannula. **Answer:** {\"step_by_step_thinking\": \"Based on the relevant medical documents, the smallest cannula size that would be suitable for rapid blood transfusion in a patient is a 20-gauge cannula.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Surgery_Schwartz_836",
+            "title": "Surgery_Schwartz",
+            "content": "blood bank immediately of urgent need for RBCs.O negative uncrossmatched (available immediately).As soon as possible, switch to O negative for females and O positive for males.Type-specific uncrossmatched (available in approximately 5\u201310 min).Completely crossmatched (available in approximately 40 min).2. A blood sample must be sent to blood bank for a type and cross.3. The Emergency Release of Blood form must be completed. If the blood type is not known and blood is needed immediately, O-negative RBCs should be issued.4. RBCs will be transfused in the standard fashion. All patients must be identified (name and number) prior to transfusion.5. Patients who are unstable or receive 1\u20132 RBCs and do not rapidly respond should be considered candidates for the massive transfusion (MT) guideline.B. Adult Massive Transfusion Guideline:1. The Massive Transfusion Guideline (MTG) should be initiated as soon as it is anticipated that a patient will require massive transfusion. The blood bank should"
+        },
+        {
+            "id": "Surgery_Schwartz_837",
+            "title": "Surgery_Schwartz",
+            "content": "Massive Transfusion Guideline:1. The Massive Transfusion Guideline (MTG) should be initiated as soon as it is anticipated that a patient will require massive transfusion. The blood bank should strive to deliver plasma, platelets, and RBCs in a 1:1:1 ratio. To be effective and minimize further dilutional coagulopathy, the 1:1:1 ratio must be initiated early, ideally with the first 2 units of transfused RBCs. Crystalloid infusion should be minimized.2. Once the MTG is activated, the blood bank will have 6 RBCs, 6 FFP, and a 6-pack of platelets packed in a cooler available for rapid transport. If 6 units of thawed FFP are not immediately available, the blood bank will issue units that are ready and notify appropriate personnel when the remainder is thawed. Every attempt should be made to obtain a 1:1:1 ratio of plasma:platelets:RBCs.3. Once initiated, the MT will continue until stopped by the attending physician. MT should be terminated once the patient is no longer actively"
+        },
+        {
+            "id": "Surgery_Schwartz_11246",
+            "title": "Surgery_Schwartz",
+            "content": "(95 g/L) and was associated with reduced blood use. It remains uncertain whether this can be extrapolated to unstable patients. Expert opinion now generally favors an Hb transfusion trigger of 70 g/L in stable critically ill children, which is the same as the recommendation for adult patients (see Chapter 7). A higher threshold should be considered if the child has symptomatic anemia or impaired cardiorespiratory function.A useful guideline for estimating blood volume for the newborn infant is approximately 80 mL/kg of body weight. When packed red blood cells are required, the transfusion requirement is usually administered in 10 mL/kg increments, which is roughly equivalent to a 500-mL transfusion for a 70-kg adult. The following formula may be used to determine the vol-ume (ml) of PRBC to be transfused:(Target hematocrit\u2014Current Hematocrit) \u00d7 weight (kg) \u00d7 80/65 (65 represents the estimated hematocrit of a unit of PRBC)As a general rule, blood is recommended for replacement of"
+        },
+        {
+            "id": "Surgery_Schwartz_1313",
+            "title": "Surgery_Schwartz",
+            "content": "Blood should be drawn simultaneously for a bedside hemoglobin level and routine trauma laboratory tests. In the seriously injured patient arriving in shock, an arterial blood gas for base deficit (BD), cross-matching for possible blood component (RBC and plasma) transfusion, and a coagulation panel/viscoelastic hemo-statis assay (e.g., TEG, ROTEM) should be obtained. In these patients, secondary large bore (7 to 9 Fr) cannulae should be obtained via the femoral or subclavian veins; Cordis introducer catheters are preferred over triple-lumen catheters. In general, initial access in trauma patients is best secured in the groin so that placement of the catheter will not interfere with the perfor-mance of other diagnostic and therapeutic thoracic procedures. A rule of thumb to consider for secondary access is placement of femoral access for thoracic trauma and jugular or subclavian access for abdominal trauma. Internal jugular or subclavian catheters provide a more reliable measurement of"
+        },
+        {
+            "id": "Surgery_Schwartz_11247",
+            "title": "Surgery_Schwartz",
+            "content": "to be transfused:(Target hematocrit\u2014Current Hematocrit) \u00d7 weight (kg) \u00d7 80/65 (65 represents the estimated hematocrit of a unit of PRBC)As a general rule, blood is recommended for replacement of volume loss if the child\u2019s perfusion is inadequate despite administration of 2 to 3 boluses of 20 mL/kg of isotonic crystalloid. Consideration should be given for the administration of 10 mL/kg of packed red blood cells as soon as possible. Type O blood can be administered without a cross-match and is relatively safe; type-specific blood can be obtained quite quickly; however, unlike fully cross-matched blood, incompatibilities other than ABO and Rh may exist.In the child, coagulation deficiencies may rapidly assume clinical significance after extensive blood transfusion. It is advisable to have fresh frozen plasma and platelets available if more than 30 mL/kg have been transfused. Plasma is given in a dose of 10 to 20 mL/kg, and platelets are given in a dose of 1 unit/5 kg. Each unit of"
+        },
+        {
+            "id": "Gynecology_Novak_2264",
+            "title": "Gynecology_Novak",
+            "content": "Cell savers may be considered for use during myomectomy. Use of the cell saver avoids the risks of infection and transfusion reaction, the oxygen transport capacity of salvaged red blood cells is equal to or better than stored allogeneic red cells, and the survival of red blood cells appears to be at least as good as transfused allogeneic red cells (119). The device suctions blood from the operative field, mixes it with heparinized saline, and stores the blood in a canister. If the patient requires blood reinfusion, the stored blood is washed with saline, filtered, centrifuged to a hematocrit of approximately 50%, and given back to the patient intravenously. Consequently, the need for preoperative autologous blood donation or heterologous blood transfusion often can be avoided (120). In a study of 92 women who had myomectomy for uterine size greater than 16 cm the cell saver was used for 70 women with a mean volume of reinfused packed red blood cells of 355 mL (121)."
+        },
+        {
+            "id": "Surgery_Schwartz_827",
+            "title": "Surgery_Schwartz",
+            "content": "This conventional massive transfusion practice was based on a several small uncontrolled retrospective studies that used blood products containing increased amounts of plasma, which are no longer available.113 Because of the known early coagulopathy of trauma, the current approach to managing the exsanguinating patient involves early implementation of DCR. Although most of the attention to hemorrhagic shock resuscitation has centered on higher ratios of plasma and platelets, DCR is actually composed of four basic components: permissive hypotension, minimizing crystalloid-based resusci-tation, the immediate release and administration of predefined balanced blood products (red blood cells, plasma, and platelets) in ratios similar to those of whole blood, and the use of hemo-static adjuncts.The shift to DCR began in earnest in 2007 when a retro-spective study of 246 military casualties reported that patients with high plasma:RBC ratio (median 1:1.4) had substantially reduced mortality"
+        },
+        {
+            "id": "Surgery_Schwartz_838",
+            "title": "Surgery_Schwartz",
+            "content": "made to obtain a 1:1:1 ratio of plasma:platelets:RBCs.3. Once initiated, the MT will continue until stopped by the attending physician. MT should be terminated once the patient is no longer actively bleeding.4. No blood components will be issued without a pickup slip with the recipient\u2019s medical record number and name.5. Basic laboratory tests should be drawn immediately on ED arrival and optimally performed on point-of-care devices, facilitating timely delivery of relevant information to the attending clinicians. These tests should be repeated as clinically indicated (e.g., after each cooler of products has been transfused). Suggested laboratory values are:\u2022 CBC\u2022 INR, fibrinogen\u2022 pH and/or base deficit\u2022 TEG, where availableCBC = complete blood count; ED = emergency department; FFP = fresh frozen plasma; INR = international normalized ratio; TEG = thromboelastography.Table 4-7Component therapy administration during massive transfusionFresh frozen plasma (FFP)As soon as the need for"
+        },
+        {
+            "id": "Surgery_Schwartz_834",
+            "title": "Surgery_Schwartz",
+            "content": "scores, or calculated values that are not readily available or feasible to obtain in the urgent setting of bleeding. The Assessment of Blood Consumption (ABC) score is a sim-plified score to predict massive transfusion after trauma using immediately available data (heart rate, blood pressure, FAST exam, mechanism of injury).132 The ABC score has been vali-dated across multiple trauma centers; however, it may be limited in some centers by the variable use of and operator-dependent FAST examination. In using the ABC score as it was intended, less than 5% of patients who will require massive transfusion will be missed; and 85% of all major trauma patients will be correctly identified.Prehospital TransfusionIn bleeding patients, earlier initiation of appropriate therapy improves outcomes. For example, decreased overall blood product use and increased 30-day survival was observed after moving four units of universal donor, ready-to-transfuse plasma from the blood bank to the emergency"
+        },
+        {
+            "id": "Surgery_Schwartz_819",
+            "title": "Surgery_Schwartz",
+            "content": "cardiovascular disease.104 However, both the SCCM/EAST and AABB guidelines recommend taking into account patient-specific characteristics and the overall clinical context when considering RBC transfusions in non-acutely hemorrhag-ing patients. Patients with symptomatic anemia should be trans-fused one RBC unit at a time, and isolated asymptomatic anemia in and of itself is rarely an indication for RBC transfusion.Volume ReplacementThe most common indication for blood transfusion in surgical patients is the replenishment of the blood volume; however, the quantification of actual intravascular volume deficit is often difficult to accurately and quickly determine. Measure-ments of hemoglobin or hematocrit levels are frequently used to assess blood loss, but can be occasionally misleading in the face of acute loss.105 Both the amount and the rate of bleeding are factors in the development of signs and symptoms of blood loss.Loss of blood in the operating room can be roughly evalu-ated by"
+        },
+        {
+            "id": "Surgery_Schwartz_2720",
+            "title": "Surgery_Schwartz",
+            "content": "airway or aspiration risk?NoYes, and equipment/assistance availableRisk of >500ml blood loss (7ml/kg in children)?NoYes, and two IVs/central access and \u02dcuids plannedCon\u00ffrm all team members have introduced themselves by name and role.Con\u00ffrm the patient\u2019s name, procedure, and where the incision will be made.Has antibiotic prophylaxis been given within the last 60 minutes?YesNot applicableAnticipated Critical EventsTo Surgeon:What are the critical or non-routine steps?How long will the case take?What is the anticipated blood loss?To Anaesthetist:Are there any patient-speci\u00ffc concerns?To Nursing Team:Has sterility (including indicator results) been con\u00ffrmed?Are there equipment issues or any concerns?YesNurse Verbally Con\u00ffrms:The name of the procedureCompletion of instrument, sponge andneedle countsSpecimen labelling (read specimen labelsaloud, including patient name)Whether there are any equipment problemsto be addressedWhat are the key concerns for recovery andmanagement of this patient?"
+        },
+        {
+            "id": "Surgery_Schwartz_13651",
+            "title": "Surgery_Schwartz",
+            "content": "the anaesthesia machine and medicationcheck complete? YesIs the pulse oximeter on the patient andfunctioning? YesDoes the patient have a:Known allergy? No YesDifficult airway or aspiration risk? No Yes, and equipment/assistance availableRisk of >500 ml blood loss (7 ml/kg in children)? No Yes, and two IVs/central access and fluids planned Confirm all team members have introduced themselves by name and role. Confirm the patient\u2019s name, procedure, and where the incision will be made.Has antibiotic prophylaxis been given within the last 60 minutes? Yes Not applicableAnticipated critical eventsto Surgeon: What are the critical or non-routine steps? How long will the case take? What is the anticipated blood loss?To anaesthetist: Are there any patient-specific concerns?To nursing team: Has sterility (including indicator results) been confirmed? Are there equipment issues or any concerns?Is essential imaging displayed? Yes Not applicableFigure 49-20. Surgical safety checklist. (Reproduced"
+        },
+        {
+            "id": "Surgery_Schwartz_822",
+            "title": "Surgery_Schwartz",
+            "content": "in shock often present with the early coagulopathy of trauma in the emer-gency department and are at significant risk of dying.107-109Many of these patients have suffered substantial bleeding, generally defined as requiring the administration of \u22653 units of red blood cells within any hour of admission, and may have received a massive transfusion (MT), traditionally defined as \u226510 units of red blood cells in 24 hours.110 The traditional defi-nition is admittedly arbitrary and fails to identify many patients who truly receive large volume transfusions in a short period of time, further promoting survival bas. Newer definitions evaluating massive transfusion do so by taking into account both volume transfused as well as the rate at which transfu-sions are given. The critical administration threshold (CAT) has been prospectively validated and shown to be a superior predictor of mortality when compared to the conventional defi-nition of MT.110 By this measure, CAT-positive status is"
+        },
+        {
+            "id": "Surgery_Schwartz_13650",
+            "title": "Surgery_Schwartz",
+            "content": "anaesthetist and surgeon)(with nurse, anaesthetist and surgeon)This checklist is not intended to be comprehensive. Additions and modifications to fit local practice are encouraged.Nurse verbally confirms: The name of the procedure Completion of instrument, sponge and needle counts Specimen labeling (read specimen labels aloud, including patient name) Whether there are any equipment problems to be addressedTo surgeon, anaesthetist and nurse: What are the key concerns for recovery and management of this patient?Based on the WHO Surgical Safety Checklisthttp://whqlibdoc.who.int/publications/2009/9789241598590_eng_Checklist.pdf\u00a9 World Health Organization 2009 All rights reservedHas the patient confirmed his/her identity,site, procedure, and consent? YesIs the site marked? Yes Not applicableIs the anaesthesia machine and medicationcheck complete? YesIs the pulse oximeter on the patient andfunctioning? YesDoes the patient have a:Known allergy? No YesDifficult airway or aspiration risk? No"
+        },
+        {
+            "id": "Obstentrics_Williams_5453",
+            "title": "Obstentrics_Williams",
+            "content": "The hematocrit level or hemoglobin concentration that mandates blood transfusion is controversial. Cardiac output does not substantively drop until the hemoglobin concentration falls to approximately 7 g/dL or hematocrit of 20 volume percent. At this level, several organizations recommend consideration for red cell transfusions (Carson, 2017). Also, Military Combat Trauma Units in Iraq used a target hematocrit of 21 volume percent (Barbieri, 2007). In general, with ongoing obstetrical hemorrhage, we recommend rapid blood infusion when the hematocrit is <25 volume percent. This decision is dependent on whether the fetus has been delivered; surgery is imminent or ongoing operative blood loss is expected; or acute hypoxia, vascular collapse, or other factors are present."
+        },
+        {
+            "id": "Obstentrics_Williams_5458",
+            "title": "Obstentrics_Williams",
+            "content": "In most institutions today, however, whole blood is rarely available. hus, most women with obstetrical hemorrhage and ongoing massive blood loss are given packed red cells and crystalloid. In these instances, no data support a 1: 1 plasma: red cell transfusion ratio. As subsequently discussed, many institutions use massive tranfusion protocols designed to anticipate all facets of massive obstetrical hemorrhage. These \"recipes\" commonly contain a combination of red cells, plasma, cryoprecipitate, and platelets (Cunningham, 2015; Pacheco, 2011; Shields, 201l)."
+        },
+        {
+            "id": "InternalMed_Harrison_6441",
+            "title": "InternalMed_Harrison",
+            "content": "The precise \u201ctrigger\u201d point at which to transfuse patients has been defined as a platelet count of 10,000/\u03bcL or less in patients without medical comorbidities that may increase the risk of bleeding. This issue is important not only because of the costs of frequent transfusion, but unnecessary platelet transfusions expose the patient to the risks of allosensitization and loss of value from subsequent transfusion owing to rapid platelet clearance, as well as the infectious and hypersensitivity risks inherent in any transfusion. Prophylactic transfusions to keep platelets >20,000/\u03bcL are reasonable in patients with leukemia who are stressed by fever or concomitant medical conditions (the threshold for transfusion is 10,000/\u03bcL in patients with solid tumors and no other bleeding diathesis or physiologic stressors such as fever or hypotension, a level that might also be reasonably considered for leukemia patients who are thrombocytopenic but not stressed or bleeding). In contrast, patients"
+        },
+        {
+            "id": "Surgery_Schwartz_11244",
+            "title": "Surgery_Schwartz",
+            "content": "of clinical features that include the patient\u2019s age, primary diagnosis, the presence of ongoing bleeding, coagulopathy, hypoxia, hemodynamic compromise, lactic acidosis, cyanotic heart disease, and overall severity of illness. A recent survey of transfusion practices among pediatric intensivists showed that the baseline hemoglobin levels that would prompt them to recommend RBC transfusion ranged from 7 to 13 g/dL. Patients with cyanotic heart disease are often transfused to Brunicardi_Ch39_p1705-p1758.indd 170712/02/19 11:26 AM 1708SPECIFIC CONSIDERATIONSPART IIhigher hemoglobin values, although the threshold for transfusion in this population remains to be defined. In general terms, there is a trend towards an avoidance of the use of RBC products whenever possible as current studies suggest that lower hemoglobin concentrations are well tolerated by many groups of patients and that administration of RBCs may have unintended negative consequences, including perhaps an increase in"
+        },
+        {
+            "id": "Surgery_Schwartz_1562",
+            "title": "Surgery_Schwartz",
+            "content": "during shock resuscitation a hemoglobin level of >10 g/dL is generally accepted to optimize hemostasis and ensure adequate oxygen delivery. After the first 24 hours of resuscitation, a more judicious transfusion trigger of a hemoglobin level of <7 g/dL in the euvolemic patient limits the adverse inflammatory effects of stored RBCs. Recent trends have focused on limiting crystalloid loading. In fact, optimiz-ing crystalloid administration is a challenging aspect of early care (i.e., balancing cardiac performance against generation of an abdominal compartment syndrome and generalized tissue edema). Although early colloid administration is appealing, evi-dence to date does not support this concept.Invasive monitoring with pulmonary artery catheters has been supplanted with specialized catheters that measure arte-rial pulse contour analysis; in mechanically ventilated patients, stroke volume (SV) and continuous cardiac output can be mea-sured. A patient\u2019s volume status may be ascertained"
+        },
+        {
+            "id": "Surgery_Schwartz_810",
+            "title": "Surgery_Schwartz",
+            "content": "study suggests a decrease in mortality and infections.89Platelet Concentrates. The indications for platelet transfu-sion include thrombocytopenia caused by massive blood loss and replacement with platelet-poor products, thrombocytopenia caused by inadequate production, and qualitative platelet dis-orders. Platelets are stored at room temperature under constant agitation to prevent clumping and have a shelf life of 5 days from time of donation due to risk of bacterial overgrowth. One unit of platelet concentrate has a volume of approximately 50 mL. Platelet preparations are capable of transmitting infec-tious diseases and can account for allergic reactions similar to those caused by red blood cell transfusion. A therapeutic level of platelets is in the range of 50,000 to 100,000/\u03bcL, but is very dependent on the clinical situation. Recent evidence suggests that earlier use of platelets may improve outcomes in bleeding patients.90In rare cases, in patients who become alloimmunized"
+        },
+        {
+            "id": "Gynecology_Novak_4000",
+            "title": "Gynecology_Novak",
+            "content": "Manipulation of Tissue and Fluid Fluid Management Fluid may be disseminated into the peritoneal cavity through wide-caliber arthroscopy or cystoscopy tubing using gravity pressure and an infusion cuff or a high-pressure mechanical pump. The pumps deliver \ufb02uid faster than the other techniques, and the highly pressurized stream of \ufb02uid may facilitate blunt dissection (hydro-or aqua dissection). Small volumes of \ufb02uid can be removed with a syringe attached to a cannula; for large volumes, it is necessary to use suction generated by a machine or a wall source. The type of cannulas used for suction and irrigation depends on the irrigation \ufb02uid used and the \ufb02uid being removed. For ruptured ectopic gestations or other procedures in which there is a large amount of blood and clots, large-diameter cannulas (7 to 10 mm) are preferred. Cannulas with narrow tips are more effective in generating the high pressure needed for hydrodissection."
+        },
+        {
+            "id": "Surgery_Schwartz_826",
+            "title": "Surgery_Schwartz",
+            "content": "dConsumed60,000\u2013100,000/\u03bcLVery labile (40% of normal level at 20 h; 0 at 48 h)Fresh blood or plasma; fresh platelet concentrate (not frozen plasma)ACD = acid-citrate-dextrose.Reproduced with permission from Kinney JM, Egdahl RH, Zuidema GD: Manual of Preoperative and Postoperative Care, 2nd ed. Philadelphia, PA: WB Saunders/Elsevier; 1971.Brunicardi_Ch04_p0103-p0130.indd 11829/01/19 11:05 AM 119HEMOSTASIS, SURGICAL BLEEDING, AND TRANSFUSIONCHAPTER 4percentage of patients receive a massive transfusion. In the military setting, the percentage of massive transfusion patients almost doubles.111Damage Control Resuscitation. Prior to DCR, resuscitation guidelines advocated volume replacement with crystalloid, fol-lowed by packed red blood cell and only later plasma or platelets.112 This conventional massive transfusion practice was based on a several small uncontrolled retrospective studies that used blood products containing increased amounts of plasma, which are no longer"
+        },
+        {
+            "id": "Obstentrics_Williams_5452",
+            "title": "Obstentrics_Williams",
+            "content": "It cannot be overemphasized that treatment of serious hemorrhage demands prompt and adequate reilling of the intravascular compartment with crystalloid solutions. These rapidly equilibrate into the extravascular space, and only 20 percent of crystalloid remains intravascularly in critically ill patients after 1 hour (Zuckerbraun, 2010). Because of this, initial luid is infused in a volume two to three times the estimated blood loss. Resuscitation of hypovolemic shock with colloid versus crystalloid solutions has been debated. In a Cochrane review of resuscitation of nonpregnant critically ill patients, Perel and coworkers (2013) found equivalent benefits but concluded that colloid solutions were more expensive. Similar results were found in the Saline versus Albumin Fluid Evaluation (SAFE) randomized trial of almost 7000 nonpregnant patients (Finfer, 2004). We concur with Zuckerbraun and colleagues (2010) that acute volume resuscitation is preferably done with crystalloid and blood."
+        },
+        {
+            "id": "Obstentrics_Williams_5468",
+            "title": "Obstentrics_Williams",
+            "content": "These function to speed blood product delivery to the bedside or operating room, which permits product infusion early in the resuscitation process. he rationale is to prevent adverse efects of aggressive resuscitation solely with crystalloid and packed red blood cells. That said, it is not necessary to activate massive transfusions until at least four to ive units of red cells have been given within 2 hours or so. Once activated, red cells, plasma, platelets, and fibrinogen are given by protocol in amounts shown in Table 41-9. Some protocols include rFVIIa and others include tranexamic acid. As expected, studies attesting to the superiority for survival with massive transfusion protocols are limited. Most TABLE 41-9. Parkland Hospital Obstetrical Massive Transfusion Protocol No. 5 Units 3 Units 6-pack 1 Unit 2 mg rVlla = recombinant activated factor VII (NovoSeven)."
+        },
+        {
+            "id": "Gynecology_Novak_3985",
+            "title": "Gynecology_Novak",
+            "content": "Proper positioning of these ancillary cannulas depends on a sound knowledge of the abdominal wall vascular anatomy. For the secondary puncture, the patient may be tipped head down (Trendelenburg), allowing the abdominal contents to shift from beneath the incision sites, and thus making it unnecessary to lift the abdominal wall during secondary cannula insertion. Alternatively, the intraperitoneal pressure may be maintained at 25 to 30 mm Hg to allow insertion of the secondary cannulas prior to placing the patient in the Trendelenburg position."
+        },
+        {
+            "id": "Pharmacology_Katzung_5336",
+            "title": "Pharmacology_Katzung",
+            "content": "Sharon Safrin, MD A 35-year-old white woman who recently tested seropositive for both HIV and hepatitis B virus surface antigen is referred for evaluation. She is feeling well overall but reports a 25-pack-year smoking history. She drinks 3\u20134 beers per week and has no known medication allergies. She has a history of heroin use and is currently receiving methadone. Physical examination reveals normal vital signs and no abnormalities. White blood cell count is 5800 cells/mm3 with a normal differential, hemoglobin is 11.8 g/dL, all liver tests are within normal limits, CD4 cell count is 278 cells/mm3, and viral load (HIV RNA) is 110,000 copies/mL. What other laboratory tests should be ordered? Which antiretroviral medica-tions would you begin?"
+        },
+        {
+            "id": "Gynecology_Novak_3989",
+            "title": "Gynecology_Novak",
+            "content": "Even after a properly positioned incision, the abdominal wall vessels can be injured if a trocar slides medially during placement. Large-diameter devices are more likely to cause injury; therefore, the smallest cannulas necessary to perform the procedure should be used. Ancillary cannulas should not be placed too close together because this results in hindrance of the hand instruments, which compromises access and maneuverability. The incision made must be of adequate length to allow easy insertion of the device through the skin\u2014a 1-cm long incision is inadequate to allow passage of a 1-cm diameter device. It is important to know that the outside diameter of a cannula is larger than the inside diameter, to allow for the thickness of the material used to create the port. In some instances, this can add two or more millimeters to the device diameter, and, therefore, increase the length of the required incision."
+        },
+        {
+            "id": "Surgery_Schwartz_2875",
+            "title": "Surgery_Schwartz",
+            "content": "Trial,109 however, has largely decreased overuse of this agent because investigators demonstrated no benefit over simple fac-tor replacement in severely coagulopathic patients. Factor VIIa use may also be limited due to its potential thrombotic com-plications. For some situations, the combination of ongoing, Table 12-16Rate of viral transmission in blood product transfusionsaHIV1:1.9 millionHBVb1:137,000HCV1:1 millionaPost-nucleic acid amplification technology (1999). Earlier rates were erroneously reported higher due to lack of contemporary technology.bHBV is reported with prenucleic acid amplification technology. Statistical information is unavailable with postnucleic acid amplification technology at this writing.Note that bacterial transmission is 50 to 250 times higher than viral transmission per transfusion.HBV = hepatitis B virus; HCV = hepatitis C virus.Brunicardi_Ch12_p0397-p0432.indd 42320/02/19 3:57 PM 424BASIC CONSIDERATIONSPART Inonsurgical bleeding and renal failure"
+        },
+        {
+            "id": "Surgery_Schwartz_2719",
+            "title": "Surgery_Schwartz",
+            "content": "of critical information in a timely and orderly fashion.25 In addition, all sign outs should begin with the state-ment, \u201cIn this patient, I am most concerned about . . .\u201d to signal to the healthcare provider on the receiving end the most impor-tant safety concerns regarding that specific patient.ImplementationTools such as checklists, sign outs, briefings, and debrief-ings improve communication between healthcare providers and create a safer patient environment (Fig. 12-6). Although their use in healthcare is still highly variable, specialties that Brunicardi_Ch12_p0397-p0432.indd 40320/02/19 3:57 PM 404BASIC CONSIDERATIONSPART ISurgical Safety ChecklistHas the patient con\u00ffrmed his/her identity, site, procedure, and consent?YesIs the site marked?YesNot applicableYesYesNoYesDif\u00ffcult airway or aspiration risk?NoYes, and equipment/assistance availableRisk of >500ml blood loss (7ml/kg in children)?NoYes, and two IVs/central access and \u02dcuids plannedCon\u00ffrm all team members have"
+        },
+        {
+            "id": "Surgery_Schwartz_835",
+            "title": "Surgery_Schwartz",
+            "content": "For example, decreased overall blood product use and increased 30-day survival was observed after moving four units of universal donor, ready-to-transfuse plasma from the blood bank to the emergency department and using the plasma as a primary resuscitation fluid.133 A prehospital retrospective study that analyzed 1677 severely injured trauma patients who were transported by helicopter found that in-flight plasma transfusion was associated with less deranged physiol-ogy on admission and reduced early mortality in the most criti-cally ill patients.134 Prehospital RBC transfusion has also been 56Brunicardi_Ch04_p0103-p0130.indd 11929/01/19 11:05 AM 120BASIC CONSIDERATIONSPART ITable 4-6Adult transfusion clinical practice guidelineA. Initial Transfusion of Red Blood Cells (RBCs):1. Notify blood bank immediately of urgent need for RBCs.O negative uncrossmatched (available immediately).As soon as possible, switch to O negative for females and O positive for males.Type-specific"
+        },
+        {
+            "id": "Cell_Biology_Alberts_2918",
+            "title": "Cell_Biology_Alberts",
+            "content": "would be required to accommodate the protein.) 10\u20138 You are studying the binding of proteins to the cytoplasmic face of cultured neuroblastoma cells and have found a method that gives a good yield of inside-out vesicles from the plasma membrane. Unfortunately, your preparations are contaminated with variable amounts of right-side-out vesicles. Nothing you have tried avoids this problem. A friend suggests that you pass your vesicles over an affinity column made of lectin coupled to solid beads. What is the point of your friend\u2019s suggestion?"
+        },
+        {
+            "id": "Surgery_Schwartz_1332",
+            "title": "Surgery_Schwartz",
+            "content": "tachycardic, but they do not exhibit a reduction in blood pressure until over 1500 mL of blood loss, or class III shock. Physical findings should be used as an aid in the evaluation of the patient\u2019s response to treatment. The goal of fluid resuscitation is to re-establish tissue perfusion. Fluid resuscitation usually begins with isotonic crystalloid, typically Ringer\u2019s lactate. However, for patients arriving in shock (persistent SBP <90 mmHg in an adult), instead of crystalloid the current practice is to activate a massive trans-fusion protocol (MTP) in which red blood cells (RBC) and fresh frozen plasma (FFP) are administered. The details of a MTP are discussed later. Patients who have a good response to Brunicardi_Ch07_p0183-p0250.indd 19110/12/18 6:17 PM 192BASIC CONSIDERATIONSPART Ifluid infusion (i.e., normalization of vital signs, clearing of the sensorium) and evidence of good peripheral perfusion (warm extremities with normal capillary refill) are presumed to have adequate"
+        }
+    ],
+    "scores": [
+        0.03467383599990751,
+        0.02853641456582633,
+        0.02624633431085044,
+        0.024728853712618397,
+        0.022830645201030904,
+        0.021994824747118325,
+        0.021337873003210057,
+        0.021278751646570067,
+        0.020215946226975638,
+        0.019690615624816825,
+        0.019246784491533265,
+        0.018883049790683174,
+        0.018782967732547562,
+        0.01805465191932336,
+        0.016993087557603686,
+        0.016576819407008087,
+        0.016133229247983348,
+        0.016102756892230577,
+        0.016004097048844507,
+        0.015889896778229592,
+        0.01571294559099437,
+        0.01564009661835749,
+        0.015563732882910056,
+        0.015268065268065269,
+        0.015247915752523036,
+        0.015022397028296733,
+        0.014890085014336737,
+        0.014888597640891219,
+        0.014648334214701218,
+        0.01418546365914787,
+        0.014047619047619048,
+        0.01361858753163101
+    ],
+    "execution_time": 11.070536136627197
+}

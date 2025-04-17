@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-014",
+    "question": "The two principal contractile proteins found in skeletal muscle are:",
+    "options": {
+        "A": "actin and troponin.",
+        "B": "actin and myosin.",
+        "C": "troponin and tropomyosin.",
+        "D": "myosin and tropomyosin."
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the given documents and look for the information about the principal contractile proteins found in skeletal muscle.\\n\\nDocument [1] (Title: Cell_Biology_Alberts) and Document [2] (Title: Physiology_Levy) describe the basic structure and function of skeletal muscle, including the presence of actin and myosin as contractile proteins.\\n\\nDocument [2] (Title: Physiology_Levy) specifically states that the thin filaments of skeletal muscle have an actin and tropomyosin composition and structure similar to that in skeletal muscle, but with twice the amount of actin and tropomyosin.\\n\\nDocument [2] (Title: Physiology_Levy) also mentions that the thick filaments of skeletal muscle are composed of myosin, which is consistent with the information in Document [1] (Title: Cell_Biology_Alberts).\\n\\nDocument [1] (Title: Cell_Biology_Alberts) explicitly states that the two principal contractile proteins found in skeletal muscle are actin and myosin.\\n\\nTherefore, the correct answer is B. actin and myosin.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Histology_Ross_541",
+            "title": "Histology_Ross",
+            "content": "Although the shape and arrangement of cells in specific muscle types (e.g., smooth muscle, skeletal muscle, and cardiac muscle) are quite different, all muscle types share a common characteristic: The bulk of the cytoplasm consists of the contractile proteins actin and myosin. Although these proteins are ubiquitous in all cells, only in muscle cells are they present in such large amounts and organized in such highly ordered arrays that their contractile activity can produce movement in an entire organ or organism. Nerve tissue consists of nerve cells (neurons) and associated supporting cells of several types."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4575",
+            "title": "Cell_Biology_Alberts",
+            "content": "Skeletal muscle was a relatively late evolutionary development, and muscle cells are highly specialized for rapid and efficient contraction. The long, thin muscle fibers of skeletal muscle are actually huge single cells that form during 918 Chapter 16: The Cytoskeleton development by the fusion of many separate cells. The large muscle cell retains the many nuclei of the contributing cells. These nuclei lie just beneath the plasma membrane (Figure 16\u201331). The bulk of the cytoplasm inside is made up of myofibrils, which is the name given to the basic contractile elements of the muscle cell. A myofibril is a cylindrical structure 1\u20132 \u03bcm in diameter that is often as long as the muscle cell itself. It consists of a long, repeated chain of tiny contractile units\u2014 called sarcomeres, each about 2.2 \u03bcm long\u2014which give the vertebrate myofibril its striated appearance (Figure 16\u201332)."
+        },
+        {
+            "id": "Physiology_Levy_1446",
+            "title": "Physiology_Levy",
+            "content": "1. Skeletal muscle is composed of numerous muscle cells (muscle fibers) that are typically 10 to 80 \u00b5m in diameter and up to 25 cm in length. The appearance of striations in skeletal muscle is due to the highly organized arrangement of thick and thin filaments in the myofibrils of skeletal muscle fibers. The sarcomere is a contractile unit in skeletal muscle. Each sarcomere is approximately 2 \u00b5m in length at rest and is bounded by two Z lines. Sarcomeres are arranged in series along the length of the myofibril. Thin filaments, containing actin, extend from the Z line toward the center of the sarcomere. Thick filaments, containing myosin, are positioned in the center of the sarcomere and overlap the actin thin filaments. Muscle contraction results from the Ca++-dependent interaction of myosin and actin, in which myosin pulls the thin filaments toward the center of the sarcomere. 2."
+        },
+        {
+            "id": "Histology_Ross_1631",
+            "title": "Histology_Ross",
+            "content": "Several more proteins are associated with the contractile apparatus and are essential to initiation or regulation of the smooth muscle contractions. \u0081 Myosin light chain kinase (MLCK) is a 130to 150kilodalton enzyme that is important in the mechanism of contraction in smooth muscle. It initiates the contraction cycle after its activation by Ca2\u2013calmodulin complex. Active MLCK phosphorylates one of the myosin regulatory light chains, enabling it to form a cross-bridge with actin filaments. \u0081 Calmodulin, a 17-kilodalton Ca2-binding protein, is related to the TnC found in skeletal muscle, which regulates the intracellular concentration of Ca2. A Ca2 calmodulin complex binds to MLCK to activate this enzyme. It may also, with caldesmon, regulate its phosphorylation and release from F-actin. \u0081 -actinin, a 31-kilodalton protein, provides structural component to dense bodies. Dense bodies provide an attachment site for thin filaments and intermediate filaments."
+        },
+        {
+            "id": "Histology_Ross_1525",
+            "title": "Histology_Ross",
+            "content": "The current classification of skeletal muscle fibers is based on contractile speed, enzymatic velocity of the fiber\u2019s myosin ATPase reaction, and metabolic profile. The contractile speed determines how fast the fiber can contract and relax. Velocity of the myosin ATPase reaction determines the rate at which this enzyme is capable of breaking down ATP molecules during the contraction cycle. The metabolic profile indicates the capacity for ATP production by oxidative phosphorylation or glycolysis. Fibers characterized by oxidative metabolism contain large amounts of myoglobin and an increased number of mitochondria, with their constituent cytochrome electron transport complexes. Myoglobin is an oxygen-binding protein that closely resembles hemoglobin found in erythrocytes and occurs in varying amounts in muscle fibers. It provides a ready source of oxygen for muscle metabolism."
+        },
+        {
+            "id": "Physiology_Levy_1547",
+            "title": "Physiology_Levy",
+            "content": "The thin filaments of smooth muscle have an actin and tropomyosin composition and structure similar to that in skeletal muscle. However, the cellular content of actin and tropomyosin in smooth muscle is about twice that of striated muscle. Smooth muscle lacks troponin and nebulin but contains two proteins not found in striated muscle: caldesmon and calponin. The precise roles of these proteins are unknown, but they do not appear to be fundamental to cross-bridge cycling. It has been suggested that both calponin and caldesmon may regulate the contractility of smooth muscle. (in part by inhibiting actomyosin ATPase activity). Most of the myoplasm is filled with thin filaments that are roughly aligned along the long axis of the cell. The myosin content of smooth muscle is only a fourth that of striated muscle. Small groups of three to five thick filaments are aligned and surrounded by many thin filaments. These groups of thick filaments with interdigitating thin filaments are connected"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6192",
+            "title": "Cell_Biology_Alberts",
+            "content": "The term \u201cmuscle\u201d includes many cell types, all specialized for contraction but in other respects dissimilar. As noted in Chapter 16, all eukaryotic cells possess a contractile system involving actin and myosin, but muscle cells have developed this apparatus to a high degree. Mammals possess four main categories of cells specialized for contraction: skeletal muscle cells, heart (cardiac) muscle cells, smooth muscle cells, and myoepithelial cells (Figure 22\u201318). These differ in function, structure, and development. Although all of them generate contractile forces by using organized filament systems based on actin and myosin II, the actin and myosin molecules employed have somewhat different amino acid sequences, are bundle of smooth muscle cells differently arranged in the cell, and are associated with different sets of proteins that control contraction."
+        },
+        {
+            "id": "Histology_Ross_1515",
+            "title": "Histology_Ross",
+            "content": "The two types of myofilaments occupy the bulk of the cytoplasm, which in muscle cells is also called sarcoplasm [Gr. sarcos, flesh; plasma, thing ]. Actin and myosin are also present in most other cell types (although in considerably smaller amounts), where they play a role in cellular activities such as cytokinesis, exocytosis, and cell migration. In contrast, muscle cells contain a large number of aligned contractile filaments that the cells use for the single purpose of producing mechanical work. Muscle is classified according to the appearance of the contractile cells. Two principal types of muscle are recognized: \u0081 Striated muscle, in which the cells exhibit cross-striations at the light microscope level, and \u0081 Smooth muscle, in which the cells do not exhibit cross-striations."
+        },
+        {
+            "id": "Histology_Ross_1548",
+            "title": "Histology_Ross",
+            "content": "Accessory proteins maintain precise alignment of thin and thick filaments. To maintain efficiency and speed of muscle contraction, both thin and thick filaments in each myofibril must be aligned precisely and kept at an optimal distance from one another. Proteins known as accessory proteins are essential in regulating the spacing, attachment, and alignment of the myofilaments. These structural protein components of skeletal muscle fibrils constitute less than 25% of the total protein of the muscle fiber. They include the following (see also Fig. 11.7): \u0081 Titin, a large (2,500-kilodalton) protein, forms an elastic lattice that anchors thick filaments in the Z lines. Two springlike portions of the protein adjacent to the thin filaments help stabilize the centering of the myosincontaining thick filament, preventing excessive stretching of the sarcomere."
+        },
+        {
+            "id": "Physiology_Levy_1304",
+            "title": "Physiology_Levy",
+            "content": "In this chapter, attention is directed at the molecular mechanisms underlying contraction of skeletal muscle. Mechanisms for regulating the force of contraction are also addressed. To put this information into perspective, it is important to first examine the basic organization of skeletal muscle. Organization of Skeletal Muscle"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4600",
+            "title": "Cell_Biology_Alberts",
+            "content": "(C) A model for the contractile apparatus in a smooth muscle cell, with bundles of contractile filaments containing actin and myosin (red) oriented obliquely to the long axis of the cell. Their contraction greatly shortens the cell. Only a few of the many bundles are shown. (B, courtesy of Gwen V. Childs.) muscle: its myosin II hydrolyzes ATP about 10 times more slowly than skeletal muscle myosin, producing a slow cycle of myosin conformational changes that results in slow contraction. The heart is the most heavily worked muscle in the body, contracting about 3 billion (3 \u00d7 109) times during the course of a human lifetime (Movie 16.6). Heart cells express several specific isoforms of cardiac muscle myosin and cardiac muscle actin. Even subtle changes in these cardiac-specific contractile proteins\u2014changes that would not cause any noticeable consequences in other tissues\u2014can cause serious heart disease (Figure 16\u201338)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4613",
+            "title": "Cell_Biology_Alberts",
+            "content": "Using their neck domain as a lever arm, myosins convert ATP hydrolysis into mechanical work to move along actin filaments in a stepwise fashion. Skeletal muscle is made up of myofibrils containing thousands of sarcomeres assembled from highly ordered arrays of actin and myosin II filaments, together with many accessory proteins. Muscle contraction is stimulated by calcium, which causes the actin-filament-associated protein tropomyosin to move, uncovering myosin binding sites and allowing the filaments to slide past one another. Smooth muscle and non-muscle cells have less well-ordered contractile bundles of actin and myosin, which are regulated by myosin light-chain phosphorylation. Myosin V transports cargo by walking along actin filaments."
+        },
+        {
+            "id": "Histology_Ross_1629",
+            "title": "Histology_Ross",
+            "content": "\u0081 Thick filaments containing myosin II differ slightly from those found in skeletal muscle. They, too, are composed of two polypeptide heavy chains and four light chains. However, the structure of thick filaments in smooth muscle is different than in skeletal muscle. Rather than a bipolar arrangement, myosin II molecules are oriented in one direction on one side of the filament and in an opposite direction on the other side of the filament. In this arrangement, myosin molecules are staggered in parallel between two immediate neighbors and are also bound to an antiparallel partner via a short overlap at the very tip of their tails (Fig. 11.21). The polarity of the myosin heads is the same along the entire length of one side of the filament and the opposite on the opposite side. This side-polar myosin filament also has no central \u201cbare zone,\u201d but instead has asymmetrically tapered bare ends. This organization maximizes the interaction between thick and thin filaments, allowing the"
+        },
+        {
+            "id": "Histology_Ross_1661",
+            "title": "Histology_Ross",
+            "content": "340 Muscle tissue is classified on the basis of the appearance of its contractile cells. Two major types are recognized: striated muscle, in which the cells exhibit a cross-striation pattern when observed at the light microscope level; and smooth muscle, in which the cells lack striations. Striated muscle is further subclassified based on location namely skeletal muscle, visceral striated muscle, and cardiac muscle. Skeletal mus-cle is attached to bone and is responsible for movement of the axial and apendicular skeleton, and for maintenance of body position and pos-ture. Visceral striated muscle is morphologically identical, but is restricted to soft tissues including the tongue, pharynx, upper part of the esophagus, and the diaphragm. Cardiac muscle is a type of striated muscle found in the heart and the base of the large veins that empty into the heart. The cross-striations in striated muscle are due to the organization of the contractile elements that occur in the muscle cell,"
+        },
+        {
+            "id": "Physiology_Levy_1300",
+            "title": "Physiology_Levy",
+            "content": "3. Describe the mechanisms by which the force of skeletal muscle contraction increases. 4. Compare skeletal muscle fiber types in terms of recruitment pattern, metabolic characteristics, contractile characteristics, and thus their suitability for various types of activity. 5. Discuss the signaling pathways that contribute to the expression of the slow-twitch muscle phenotype versus the fast-twitch muscle phenotype. 6. Describe general signaling pathways that contribute to hypertrophy or atrophy. 7. Discuss mechanisms underlying the development of muscular fatigue. 8. Describe mechanisms underlying the monosynaptic reflex. 9. Discuss the length-tension curves and force-velocity curves for skeletal muscle, including the molecular bases of both curves."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4587",
+            "title": "Cell_Biology_Alberts",
+            "content": "The force-generating molecular interaction between myosin thick filaments and actin thin filaments takes place only when a signal passes to the skeletal muscle from the nerve that stimulates it. Immediately upon arrival of the signal, the muscle cell needs to be able to contract very rapidly, with all the sarcomeres shortening simultaneously. Two major features of the muscle cell make extremely rapid contraction possible. First, as previously discussed, the individual myosin motor heads in each thick filament spend only a small fraction of the ATP cycle time bound to the filament and actively generating force, so many myosin heads can act in rapid succession on the same thin filament without interfering with one another. Second, a specialized membrane system relays the incoming signal rapidly throughout the entire cell. The signal from the nerve triggers an action potential in the muscle cell plasma membrane (discussed in Chapter 11), and this electrical excitation spreads swiftly"
+        },
+        {
+            "id": "Histology_Ross_1628",
+            "title": "Histology_Ross",
+            "content": "The components of the contractile apparatus in smooth muscle cells are the following. \u0081 Thin filaments contain actin, the smooth muscle isoform of tropomyosin, and two smooth muscle\u2013specific proteins, caldesmon and calponin. No troponin is associ ated with smooth muscle tropomyosin. Actin is involved in the force-generating interaction with myosin II molecules. Research suggests that the tropomyosin position on the actin filament is regulated by phosphorylation of myosin heads. Caldesmon (120 to 150 kilodaltons) and calponin (34 kilodaltons) are actin-binding proteins that block the myosin-binding site. The action of these proteins is Ca2-dependent and is also controlled by the phosphorylation of myosin heads."
+        },
+        {
+            "id": "Physiology_Levy_1546",
+            "title": "Physiology_Levy",
+            "content": "The thick and thin filaments of smooth muscle cells are about 10,000 times longer than their diameter and are tightly packed. Therefore the probability of observing an intact filament by electron microscopy is extremely low. In contrast to skeletal muscle, which contains a transverse alignment of thick and thin filaments that results in striations, the contractile filaments in smooth muscle are not in uniform transverse alignment, and thus smooth muscle has no striations. The lack of striations in smooth muscle does not imply a lack of order. The thick and thin filaments are organized in contractile units that are analogous to sarcomeres."
+        },
+        {
+            "id": "Histology_Ross_332",
+            "title": "Histology_Ross",
+            "content": "\u0081 Actin-capping proteins block further addition of actin molecules by binding to the free end of an actin filament. An example is tropomodulin, which can be isolated from skeletal and cardiac muscle cells. Tropomodulin binds to the free end of actin myofilaments, regulating the length of the filaments in a sarcomere. \u0081 Actin cross-linking proteins are responsible for cross-linking actin filaments with each other. An example of such proteins can be found in the cytoskeleton of erythrocytes. Several proteins\u2014such as spectrin, adductin, protein 4.1,and protein 4.9\u2014are involved in cross-linking actin filaments. \u0081 Actin motor proteins belong to the myosin family, which hydrolyzes ATP to provide the energy for movement along the actin filament from the minus end to the plus end. Some cells, such as muscle cells, are characterized by the size, amount, and nature of the filaments and actin-motor discussed in Chapter 11 (Muscle Tissue)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4566",
+            "title": "Cell_Biology_Alberts",
+            "content": "Actin-Based Motor Proteins Are Members of the Myosin Superfamily The first motor protein to be identified was skeletal muscle myosin, which generates the force for muscle contraction. This protein, now called myosin II, is an elongated protein formed from two heavy chains and two copies of each of two light chains. Each heavy chain has a globular head domain at its N-terminus that contains the force-generating machinery, followed by a very long amino acid sequence that forms an extended coiled-coil that mediates heavy-chain dimerization (Figure 16\u201326). The two light chains bind close to the N-terminal head domain, while the long coiled-coil tail bundles itself with the tails of other myosin molecules. These tail\u2013tail interactions form large, bipolar \u201cthick filaments\u201d that have several hundred myosin heads, oriented in opposite directions at the two ends of the thick filament (Figure 16\u201327)."
+        },
+        {
+            "id": "Physiology_Levy_1439",
+            "title": "Physiology_Levy",
+            "content": "Biophysical Properties of Skeletal Muscle The molecular mechanisms of muscle contraction described earlier underlie and are responsible for the biophysical properties of muscle. Historically, these biophysical properties were well described before elucidation of the molecular mechanisms of contraction. They remain important ways of describing muscle function. When muscles contract, they generate force (often measured as tension or stress) and decrease in length. In examination of the biophysical properties of muscle, one of these parameters is usually held constant, and the other is measured after an experimental maneuver. Accordingly, an isometric contraction is one in which muscle length is held constant, and the force generated during the contraction is then measured. An isotonic contraction is one in which the force (or tone) is held constant, and the change in length of the muscle is then measured."
+        },
+        {
+            "id": "Physiology_Levy_1299",
+            "title": "Physiology_Levy",
+            "content": "Saper CB, Chou TC, Elmquist JK. The need to feed: homeostatic and hedonic control of eating. Neuron. 2002;36:199-211. Squire L, Berg D. Fundamental Neuroscience. 4th ed. New York: Academic Press; 2012. SECTION 3Muscle JAMES M. WATRAS Upon completion of this chapter, the student should be able to answer the following questions: 1. Describe the organization of skeletal muscle, including the structural features/proteins within the skeletal muscle fiber that link the contractile elements to the extracellular matrix and bone to effect movement. While describing the various linkages, identify congenital conditions that commonly affect particular structures and how they might contribute to a myopathy. 2. Describe the molecular mechanisms by which an action potential in the \u03b1 motor neuron in the ventral horn of the spinal column can lead to contraction of a skeletal muscle. 3. Describe the mechanisms by which the force of skeletal muscle contraction increases. 4."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6193",
+            "title": "Cell_Biology_Alberts",
+            "content": "We focus in this section on skeletal muscle cells, which are responsible for practically all movements that are under voluntary control. These cells can be very large (2\u20133 cm long and 100 \u03bcm in diameter in an adult human) and are often called muscle fibers because of their highly elongated shape. Each one is a syncytium, containing many nuclei within a common cytoplasm. In an intact muscle, they are bundled tightly together, with fibroblasts (and some fat cells) in the interstices between them and blood vessels and nerve fibers running through the tissue. The mechanisms of muscle contraction were discussed in Chapter 16. Here we consider the unusual strategy by which the multinucleate skeletal muscle cells are generated and maintained. myoblasts Fuse to Form new Skeletal muscle Fibers"
+        },
+        {
+            "id": "Histology_Ross_1524",
+            "title": "Histology_Ross",
+            "content": "FIGURE 11.3 \u2022 Cross section of skeletal muscle fibers. This cross section of muscle fibers stained with the NADH-TR reaction demonstrates two fiber types. The deeply stained, smaller muscle fibers exhibit strong oxidative enzyme activity and correspond to the type I slow oxidative fibers. The lighter-staining, larger fibers correspond to the type IIb fast glycolytic fibers. 280. Inset. Portions of the two fiber types at higher magnification. The reaction also reveals the mitochondria that contain the oxidative enzymes. The contractile components, the myofibrils, are unstained. 550. (Original slide specimen courtesy of Dr. Scott W. Ballinger.) to describe these differences is division into red, white, and intermediate fibers. Skeletal muscle fibers are characterized by speed of contraction, enzymatic velocity, and metabolic activity."
+        },
+        {
+            "id": "Physiology_Levy_1461",
+            "title": "Physiology_Levy",
+            "content": "The basic organization of thick and thin filaments in cardiac muscle cells is comparable with that in skeletal muscle (see ). Electron microscopy reveals repeating light and dark bands that represent I bands and A bands, respectively (see Fig. 13.1B Fig. 12.3 ). Thus cardiac muscle is classified as a striated muscle. The Z line transects the I band and represents the point of attachment of the thin filaments. The region between two adjacent Z lines represents the sarcomere, which is the contractile unit of the muscle cell. The thin filaments are composed of actin, tropomyosin, and troponin and extend into the A band. The A band is composed of thick filaments, along with some overlap of thin filaments. The thick filaments are composed of myosin and extend from the center of the sarcomere toward the Z lines."
+        },
+        {
+            "id": "InternalMed_Harrison_17305",
+            "title": "InternalMed_Harrison",
+            "content": "The sarcomere, the structural and functional unit of contraction, lies between adjacent Z lines, which are dark repeating bands that are apparent on transmission electron microscopy. The distance between Z lines varies with the degree of contraction or stretch of the muscle and ranges between 1.6 and 2.2 \u03bcm. Within the confines of the sarcomere are alternating light and dark bands, giving the myocardial fibers their striated appearance under the light microscope. At the center of the sarcomere is a dark band of constant length (1.5 \u03bcm), the A band, which is flanked by two lighter bands, the I bands, which are of variable length. The sarcomere of heart muscle, like that of skeletal muscle, consists of two sets of interdigitating myofilaments. Thicker filaments, composed principally of the protein myosin, traverse the A band; theyare about 10 nm (100 \u00c5) in diameter, with tapered ends. Thinner filaments, composed primarily of actin, course from the Z lines through the I band into the A"
+        },
+        {
+            "id": "Histology_Ross_1526",
+            "title": "Histology_Ross",
+            "content": "The three types of skeletal muscle fibers are type I (slow oxidative), type IIa (fast oxidative glycolytic), and type IIb (fast glycolytic) fibers. Three types of fiber are typically found in any given skeletal muscle; the proportion of each type varies according to the functional role of the muscle."
+        },
+        {
+            "id": "Physiology_Levy_1302",
+            "title": "Physiology_Levy",
+            "content": "Skeletal muscle acts on the skeleton. In limbs, for example, skeletal muscle spans a joint, thereby allowing a lever action. Skeletal muscle is under voluntary control (i.e., controlled by the central nervous system) and plays a key role in numerous activities such as maintenance of posture, locomotion, speech, and respiration. When viewed under the microscope, skeletal muscle exhibits transverse striations (at intervals of 2 to 3 \u00b5m) that result from the highly organized arrangement of actin and myosin molecules within the skeletal muscle cells. Thus skeletal muscle is classified as a striated muscle. The heart is composed of cardiac muscle, and although it is also a striated muscle, it is an involuntary muscle (i.e., controlled by an intrinsic pacemaker and modulated by the autonomic nervous system). Smooth muscle (which lacks the striations evident in skeletal and cardiac muscle) is an involuntary muscle typically found lining hollow organs such as the intestine and blood vessels."
+        },
+        {
+            "id": "Physiology_Levy_1378",
+            "title": "Physiology_Levy",
+            "content": "Slow-twitch skeletal muscles are also characterized by a high oxidative capacity (see Table 12.1 ), which in combination with the low myosin ATPase activity contribute to the fatigue resistance of slow-twitch muscle fibers. The oxidative capacity of the fast-twitch muscle fiber ranges from relatively high (in muscle fibers expressing type IIa myosin heavy chain) to low (in muscle fibers expressing type IIb myosin heavy chains). The low oxidative capacity of fast type IIb muscle fibers, coupled with the high myosin ATPase activity, increases the susceptibility of these muscle fibers to fatigue. Humans, however, rarely express the type IIb myosin heavy chain. Type IIb myosins are expressed in small animals such as rabbit and rats. Motor units are generally composed of only one type of muscle fiber ( Table 12.2"
+        },
+        {
+            "id": "Cell_Biology_Alberts_4580",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 16\u201332 Skeletal muscle myofibrils. (A) Low-magnification electron micrograph of a longitudinal section through a skeletal muscle cell of a rabbit, showing the regular pattern of cross-striations. The cell contains many myofibrils aligned in parallel (see Figure 16\u201331). (B) Detail of the skeletal muscle shown in (A), showing portions of two adjacent myofibrils and the definition of a sarcomere (black arrow). (C) Schematic diagram of a single sarcomere, showing the origin of the dark and light bands seen in the electron micrographs. The Z discs, at each end of the sarcomere, are attachment sites for the plus ends of actin filaments (thin filaments); the M line, or midline, is the location of proteins that link adjacent myosin II filaments (thick filaments) to one another. (D) When the sarcomere contracts, the actin and myosin filaments slide past one another without shortening. (A and B, courtesy of Roger Craig.)"
+        },
+        {
+            "id": "Histology_Ross_1533",
+            "title": "Histology_Ross",
+            "content": "Myofibrils are composed of bundles of myofilaments. Myofilaments are the individual filamentous polymers of myosin II (thick filaments) and actin and its associated proteins (thin filaments). Myofilaments are the actual contractile elements of striated muscle. The bundles of myofilaments that make up the myofibril are surrounded by a welldeveloped smooth-surfaced endoplasmic reticulum (sER), also called the sarcoplasmic reticulum. This reticulum forms a highly organized tubular network around the contractile elements in all striated muscle cells. Mitochondria and glycogen deposits are located between the myofibrils in association with the sER. Cross-striations are the principal histologic feature of striated muscle."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6195",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 22\u201318 The four classes of muscle cells of a mammal. (a) Schematic drawings (to scale). (b\u2013e) Scanning electron micrographs. Skeletal muscle fibers (b, from a hamster) are giant cells with many nuclei and are formed by cell fusion. the other types of muscle cells are more conventional, generally having only a single nucleus. heart muscle cells (C, from a rat) resemble skeletal muscle fibers in that their actin and myosin filaments are aligned in very orderly arrays to form a series of contractile units called sarcomeres, so that the cells have a striated (striped) appearance. the arrows in (C) point to intercalated discs\u2014end-toend junctions between the heart muscle cells; skeletal muscle cells in long muscles are joined end-to-end in a similar way. Smooth muscle cells (d, from the urinary bladder of a guinea-pig) are so named because they do not appear striated; they belong to the connective-tissue family and are closely related to fibroblasts. note that the smooth muscle is"
+        }
+    ],
+    "scores": [
+        0.03647358930377798,
+        0.03643365102854559,
+        0.03569618114649453,
+        0.0340319397950342,
+        0.03319763169761569,
+        0.030904051292101803,
+        0.028156736510096116,
+        0.028142309049942433,
+        0.027742363210736476,
+        0.02761602749548748,
+        0.025619743857527622,
+        0.024678803783281397,
+        0.023942695734124803,
+        0.02341512058341843,
+        0.023368247300311118,
+        0.022992220760983437,
+        0.022848191801706375,
+        0.022580693228431606,
+        0.022477600249117977,
+        0.022471540435612294,
+        0.022315528758124887,
+        0.0223009268279106,
+        0.02219274126008879,
+        0.02180198288260675,
+        0.02176461956122973,
+        0.021647413287575867,
+        0.021438092317459294,
+        0.020821329214806894,
+        0.02060373381511593,
+        0.020182781623872176,
+        0.0200323919425043,
+        0.01978678256050519
+    ],
+    "execution_time": 49.20220756530762
+}

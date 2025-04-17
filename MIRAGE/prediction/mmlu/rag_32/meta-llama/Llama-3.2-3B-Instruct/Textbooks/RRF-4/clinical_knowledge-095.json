@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-095",
+    "question": "When assessing a patient's breathing:",
+    "options": {
+        "A": "always remove dentures.",
+        "B": "look for chest movements and use a mirror to check for exhaled air.",
+        "C": "look for chest movements, listen for breath sounds, and feel for exhaled air on your cheek.",
+        "D": "assess for 30 seconds."
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the steps involved in assessing a patient's breathing. The correct approach involves a combination of visual inspection, auditory evaluation, and tactile assessment. Option C, which suggests looking for chest movements, listening for breath sounds, and feeling for exhaled air on your cheek, is the most comprehensive and accurate method. This approach allows the healthcare provider to evaluate the patient's respiratory status in a thorough and objective manner. Option A, removing dentures, is not a relevant step in assessing breathing. Option B, using a mirror to check for exhaled air, may not be effective in all situations, as it may not accurately detect all types of breathing abnormalities. Option D, assessing for 30 seconds, is not a specific or reliable method for evaluating breathing. Therefore, the correct answer is C, which provides a systematic and evidence-based approach to assessing a patient's breathing.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_20717",
+            "title": "InternalMed_Harrison",
+            "content": "(See also Chap. 323) Whereas a thorough understanding of the pathophysiology of respiratory failure is essential for optimal patient care, recognition of a patient\u2019s readiness to be liberated from mechanical ventilation is likewise important. Several studies have shown that daily spontaneous breathing trials can identify patients who are ready for extubation. Accordingly, all intubated, mechanically ventilated patients should undergo daily screening of respiratory function. If oxygenation is stable (i.e., PaO2/FIO2 [partial pressure of oxygen/fraction of inspired oxygen] >200 and PEEP \u22645 cmH2O), cough and airway reflexes are intact, and no vasopressor agents or sedatives are being administered, the patient has passed the screening test and should undergo a spontaneous breathing trial. This trial consists of a period of breathing through the endotracheal tube without ventilator support (both continuous positive airway pressure [CPAP] of 5 cmH2O and an open T-piece breathing system can"
+        },
+        {
+            "id": "InternalMed_Harrison_2742",
+            "title": "InternalMed_Harrison",
+            "content": "ASSESSING DYSPNEA Quality of Sensation Like pain assessment, dyspnea assessment begins with a determination of the quality of the patient\u2019s discomfort (Table 47e-1). Dyspnea questionnaires or lists of phrases commonly used TAblE 47e-1 ASSoCiATion oF QuAliTATivE DESCRiPToRS, CliniCAl CHARACTERiSTiCS, AnD PATHoPHySiologiC MECHAniSMS oF SHoRTnESS oF bREATH Chest tightness or Asthma, CHF constriction Increased work or effort COPD, asthma, neuroof breathing muscular disease, chest \u201cAir hunger,\u201d need to CHF, PE, COPD, asthma, breathe, urge to breathe pulmonary fibrosis Inability to get a deep Moderate to severe breath, unsatisfying asthma and COPD, pulbreath monary fibrosis, chest Heavy breathing, rapid Sedentary status in breathing, breathing healthy individual or more patient with cardiopul Abbreviations: CHF, congestive heart failure; COPD, chronic obstructive pulmonary disease; PE, pulmonary embolism. Bronchoconstriction, interstitial edema"
+        },
+        {
+            "id": "InternalMed_Harrison_20726",
+            "title": "InternalMed_Harrison",
+            "content": "Because respiratory failure and circulatory failure are common in critically ill patients, monitoring of the respiratory and cardiovascular systems is undertaken frequently. Evaluation of respiratory gas exchange is routine in critical illness. The \u201cgold standard\u201d remains arterial blood-gas analysis, in which pH, PaO2, partial pressure of carbon dioxide (PCO2), and O2 saturation are measured directly. With arterial blood-gas analysis, the two main functions of the lung\u2014oxygenation of arterial blood and elimination of CO2\u2014can be assessed directly. In fact, the blood pH, which has a profound effect on the drive to breathe, can be assessed only by such sampling. Although sampling of arterial blood is generally safe, it may be painful and cannot provide continuous information. In light of these limitations, noninvasive monitoring of respiratory function is often employed."
+        },
+        {
+            "id": "InternalMed_Harrison_20823",
+            "title": "InternalMed_Harrison",
+            "content": "(3) Hemodynamic variables are stable, and the patient is no longer receiving vasopressors). (4) The patient is capable of initiating spontaneous breaths. A \u201cwean screen\u201d based on these variables should be done at least daily. If the patient is deemed capable of beginning to wean, the recommendation is to perform a spontaneous breathing trial (SBT), whose value is supported by several randomized trials (Fig. 323-2). The SBT involves an integrated patient assessment during spontaneous breathing with little or no ventilatory support. The SBT is usually implemented with a T-piece using 1\u20135 cmH2O CPAP with 5\u20137 cmH2O or PSV from the ventilator to offset resistance from the endotracheal tube. Once it is determined that the patient can breathe spontaneously, a decision must be made about the removal of the artificial airway, which should be undertaken only when it is concluded that the patient has the ability to protect the airway, is able to cough and clear"
+        },
+        {
+            "id": "InternalMed_Harrison_20718",
+            "title": "InternalMed_Harrison",
+            "content": "trial consists of a period of breathing through the endotracheal tube without ventilator support (both continuous positive airway pressure [CPAP] of 5 cmH2O and an open T-piece breathing system can be used) for 30\u2013120 min. The spontaneous breathing trial is declared a failure and stopped if any of the following occur: (1) respiratory rate >35/min for >5 min, (2) O2 saturation <90%, (3) heart rate >140/min or a 20% increase or decrease from baseline, (4) systolic blood pressure <90 mmHg or >180 mmHg, or (5) increased anxiety or diaphoresis. If, at the end of the spontaneous breathing trial, none of the above events has occurred and the ratio of the respiratory rate and tidal volume in liters (f/VT) is <105, the patient can be extubated. Such protocol-driven approaches to patient care can have an important impact on the duration of mechanical ventilation and ICU stay. In spite of such a careful approach to liberation from mechanical ventilation, up to 10% of patients develop respiratory"
+        },
+        {
+            "id": "InternalMed_Harrison_20728",
+            "title": "InternalMed_Harrison",
+            "content": "Respiratory system mechanics can be measured in patients during mechanical ventilation (Chap. 323). When volume-controlled modes of mechanical ventilation are used, accompanying airway pressures can easily be measured as long as the patient is passive. The peak airway pressure is determined by two variables: airway resistance and respiratory system compliance. At the end of inspiration, inspiratory flow can be stopped transiently. This end-inspiratory pause (plateau pressure) is a static measurement, affected only by respiratory system compliance and not by airway resistance. Therefore, during volume-controlled ventilation, the difference between the peak (airway resistance + respiratory system compliance) and plateau (respiratory system compliance only) airway pressures provides a quantitative assessment of airway resistance. Accordingly, during volume-controlled ventilation, patients with increases in airway resistance typically have increased peak airway pressures as well as"
+        },
+        {
+            "id": "InternalMed_Harrison_20729",
+            "title": "InternalMed_Harrison",
+            "content": "quantitative assessment of airway resistance. Accordingly, during volume-controlled ventilation, patients with increases in airway resistance typically have increased peak airway pressures as well as abnormally high gradients between peak and plateau airway pressures (typically >15 cmH2O) at an inspiratory flow rate of 1 L/sec. The compliance of the respiratory system is defined by the change in pressure of the respiratory system per unit change in volume."
+        },
+        {
+            "id": "InternalMed_Harrison_2755",
+            "title": "InternalMed_Harrison",
+            "content": "The physical examination should begin during the interview of the patient. Inability of the patient to speak in full sentences before stopping to get a deep breath suggests a condition that leads to stimulation of the controller or impairment of the ventilatory pump with reduced vital capacity. Evidence of increased work of breathing (supraclavicular retractions; use of accessory muscles of ventilation; and the tripod position, characterized by sitting with the hands braced on the knees) is indicative of increased airway resistance or stiffness of the lungs and the chest wall. When measuring the vital signs, the physician should accurately assess the respiratory rate and measure the pulsus paradoxus (Chap. 288); if the systolic pressure decreases by >10 mmHg, the presence of COPD, acute asthma, or pericardial disease should be considered. During the general examination, signs of anemia (pale conjunctivae), cyanosis, and cirrhosis (spider angiomata, gynecomastia) should be sought."
+        },
+        {
+            "id": "InternalMed_Harrison_19938",
+            "title": "InternalMed_Harrison",
+            "content": "The first step of the physical examination is inspection. Patients with respiratory disease may be in distress, often using accessory muscles of respiration to breathe. Severe kyphoscoliosis can result in restrictive pathophysiology. Inability to complete a sentence in conversation is generally a sign of severe impairment and should result in an expedited evaluation of the patient. Percussion of the chest is used to establish diaphragm excursion and lung size. In the setting of decreased breath sounds, percussion is used to distinguish between pleural effusions (dull to percussion) and pneumothorax (hyper-resonant note). The role of palpation is limited in the respiratory examination. Palpation can demonstrate subcutaneous air in the setting of barotrauma. It can also be used as an adjunctive assessment to determine whether an area of decreased breath sounds is due to consolidation (increased tactile fremitus) or a pleural effusion (decreased tactile fremitus)."
+        },
+        {
+            "id": "InternalMed_Harrison_2743",
+            "title": "InternalMed_Harrison",
+            "content": "Abbreviations: CHF, congestive heart failure; COPD, chronic obstructive pulmonary disease; PE, pulmonary embolism. Bronchoconstriction, interstitial edema Airway obstruction, neuromuscular disease Increased drive to breathe 47e-2 by patients assist those who have difficulty describing their breathing sensations. Sensory Intensity A modified Borg scale or visual analogue scale can be utilized to measure dyspnea at rest, immediately following exercise, or on recall of a reproducible physical task, such as climbing the stairs at home. An alternative approach is to gain a sense of the patient\u2019s disability by inquiring about what activities are possible. These methods indirectly assess dyspnea and may be affected by nonrespiratory factors, such as leg arthritis or weakness. The Baseline Dyspnea Index and the Chronic Respiratory Disease Questionnaire are commonly used tools for this purpose."
+        },
+        {
+            "id": "InternalMed_Harrison_20634",
+            "title": "InternalMed_Harrison",
+            "content": "Cessation of airflow for \u226510 sec during sleep, accompanied by: respiratory effort (obstructive apneas, Fig. 319-2A), or of respiratory effort (central apneas, Fig. 319-2B) \u2022 Hypopnea: A \u226530% reduction in airflow for at least 10 sec during sleep that is accompanied by either a \u22653% desaturation or an arousal (Fig. 319-2C) effort\u2013related arousal (RERA): A partially obstructed breath that does not meet the criteria for hypopnea but provides evidence of increasing inspiratory effort (usually through pleural pressure monitoring) punctuated by an arousal (Fig. 319-2D) breath: A partially obstructed breath, typically within a hypopnea or RERA, identified by a flattened or \u201cscooped-out\u201d inspiratory flow shape (Fig. 319-3) oBStruCtiVe SLeep apnea/hypopnea SynDroMe (oSahS): QuantifiCation anD SeVerity SCaLe \u2022 Apnea-hypopnea index (AHI):a Number of apneas plus hypopneas per hour \u2022 Respiratory disturbance index (RDI): Number of apneas plus hypopneas plus RERAs per hour of sleep"
+        },
+        {
+            "id": "InternalMed_Harrison_20800",
+            "title": "InternalMed_Harrison",
+            "content": "Mode refers to the manner in which ventilator breaths are triggered, cycled, and limited. The trigger, either an inspiratory effort or a time-based signal, defines what the ventilator senses to initiate an assisted breath. Cycle refers to the factors that determine the end of inspiration. For example, in volume-cycled ventilation, inspiration ends when a specific tidal volume is delivered. Other types of cycling include pressure cycling and time cycling. The limiting factors are operator-specified values, such as airway pressure, that are monitored by transducers internal to the ventilator circuit throughout the respiratory cycle; if the specified values are exceeded, inspiratory flow is terminated, and the ventilator circuit is vented to atmospheric pressure or the specified pressure at the end of expiration (positive end-expiratory pressure, or PEEP). Most patients are ventilated with assist-control ventilation, B 0.8 Alveolar 0.6 0.4 0.2 A Pressure (cm of water)"
+        },
+        {
+            "id": "Physiology_Levy_2541",
+            "title": "Physiology_Levy",
+            "content": "Another way of measuring lung function clinically is the flow-volume curve or loop. A flow-volume curve or loop is created by displaying the instantaneous flow rate during a forced maneuver as a function of the volume of gas. This instantaneous flow rate can be displayed both during exhalation (expiratory flow-volume curve) and during inspiration (inspiratory flow-volume curve) (see"
+        },
+        {
+            "id": "Physiology_Levy_2487",
+            "title": "Physiology_Levy",
+            "content": "and play a major role in the work of breathing (see ). All lung volumes are subdivisions of total lung capacity (TLC), the total volume of air that is contained in the lung at the point of maximal inspiration. Lung volumes are reported in liters either as volumes or as capacities. A capacity is composed of two or more volumes. Many lung volumes are measured with a spirometer. The patient is asked to first breathe normally into the spirometer, and the volume of air (the tidal volume [VT]) that is moved into and out of the lungs with each quiet breath is measured. The patient then inhales maximally and exhales forcefully and completely, and the volume of exhaled air is measured. The total volume of exhaled air, from a maximal inspiration to a maximal exhalation, is the vital capacity (VC). Residual volume (RV) is the air remaining in the lungs after a complete exhalation. TLC is the sum of VC and RV; it is the total volume of air contained in the lungs at the end of maximal inspiration,"
+        },
+        {
+            "id": "InternalMed_Harrison_19937",
+            "title": "InternalMed_Harrison",
+            "content": "Physical Examination The clinician\u2019s suspicion of respiratory disease often begins with a patient\u2019s vital signs. The respiratory rate is often informative, whether elevated (tachypnea) or depressed (hypopnea). In addition, pulse oximetry should be measured, as many patients with respiratory disease have hypoxemia, either at rest or with exertion. The classic structure of the respiratory examination proceeds through inspection, percussion, palpation, and auscultation as described below. Often, however, auscultatory findings will lead the clinician to perform further percussion or palpation in order to clarify these findings."
+        },
+        {
+            "id": "InternalMed_Harrison_20613",
+            "title": "InternalMed_Harrison",
+            "content": "OBSTRUCTIVE SLEEP APNEA/HYPOPNEA SYNDROME (OSAHS) Definition OSAHS is defined on the basis of nocturnal and daytime symptoms as well as sleep study findings. Diagnosis requires the patient to have (1) either symptoms of nocturnal breathing disturbances (snoring, snorting, gasping, or breathing pauses during sleep) or daytime sleepiness or fatigue that occurs despite sufficient opportunities to sleep and is unexplained by other medical problems; and (2) five or more episodes of obstructive apnea or hypopnea per hour of sleep (the apnea-hypopnea index [AHI], calculated as the number of episodes divided by the number of hours of sleep) documented during a sleep study. OSAHS also may be diagnosed in the absence of symptoms if the AHI is above 15. Each episode of apnea or hypopnea represents a reduction in breathing for at least 10 sec. OSAHS is often identified when associated with a \u22653% drop in oxygen saturation and/ or a brain cortical arousal. OSAHS severity is based on the frequency"
+        },
+        {
+            "id": "Pediatrics_Nelson_2878",
+            "title": "Pediatrics_Nelson",
+            "content": "It is important to observe the respiratory pattern and degree of effort (work of breathing). Hyperpnea (increased depth of respiration) may be observed with fever, metabolic acidosis, pulmonary and cardiac disease, or extreme anxiety. Hyperpnea without signs of respiratory distress suggests an extrapulmonary etiology (metabolic acidosis, fever, pain). Increased work of breathing can be described as inspiratory (intercostal, supraclavicular, or substernal retractions) or CNS, Central nervous system. expiratory (use of abdominal muscles to actively exhale). In children, increased inspiratory effort is also manifested by nasal flaring. Grunting (forced expiration against a partially closed glottis) suggests respiratory distress, but it may also be a manifestation of pain."
+        },
+        {
+            "id": "Pediatrics_Nelson_1235",
+            "title": "Pediatrics_Nelson",
+            "content": "B represents breathing. If the neonate is apneic or hypoventilating and remains cyanotic, artificial ventilation should be initiated. Ventilation should be performed with a well-fitted mask attached to an anesthesia bag and a manometer to prevent extremely high pressures from being given to the newborn; 100% oxygen should be administered through the mask. Yes, stay Term gestation? Routine care Breathing or crying? Good tone? \u007f Clear airway if necessary \u007f Dry \u007f Ongoing evaluation Warm, clear airway if necessary, dry, stimulate NoHR below 100,30 sec gasping, or apnea? Yes Labored breathing or persistent cyanosis? Yes No Clear airway SpO2 monitoringPPV, Consider CPAP Postresuscitation care HR below 100? Take ventilation corrective steps SpO2 monitoring No HR below 60? Consider intubation Chest compressions Coordinate with PPV Take ventilation corrective steps Intubate if no chest rise! HR below 60? IV epinephrine"
+        },
+        {
+            "id": "InternalMed_Harrison_19930",
+            "title": "InternalMed_Harrison",
+            "content": "Specific questioning should focus on factors that incite dyspnea as well as on any intervention that helps resolve the patient\u2019s shortness of breath. Asthma is commonly exacerbated by specific triggers, although this can also be true of COPD. Many patients with lung disease report dyspnea on exertion. Determining the degree of activity that results in shortness of breath gives the clinician a gauge of the patient\u2019s degree of disability. Many patients adapt their level of activity to accommodate progressive limitation. For this reason, it is important, particularly in older patients, to delineate the activities in which they engage and how these activities have changed over time. Dyspnea on exertion is often an early symptom of underlying lung or heart disease and warrants a thorough evaluation."
+        },
+        {
+            "id": "InternalMed_Harrison_2944",
+            "title": "InternalMed_Harrison",
+            "content": "Respiration Auscultation should be performed during quiet respiration or with a modest increase in inspiratory effort, as more forceful Continuous Murmur vs. To-Fro Murmur"
+        },
+        {
+            "id": "InternalMed_Harrison_20735",
+            "title": "InternalMed_Harrison",
+            "content": "Static measurements of circulatory parameters (e.g., CVP, PCWP) do not provide reliable information on the circulatory status of critically ill patients. In contrast, dynamic assessments measuring the impact of breathing on the circulation are more reliable predictors of responsiveness to IV fluid administration. A decrease in CVP of >1 mmHg during inspiration in a spontaneously breathing patient may predict an increase in cardiac output after IV fluid administration. Similarly, a changing pulse pressure during mechanical ventilation has been shown to predict an increase in cardiac output after IV fluid administration in patients with septic shock."
+        },
+        {
+            "id": "InternalMed_Harrison_20804",
+            "title": "InternalMed_Harrison",
+            "content": "Intermittent Mandatory Ventilation (IMV) With this mode, the operator sets the number of mandatory breaths of fixed volume to be delivered by the ventilator; between those breaths, the patient can breathe spontaneously. In the most frequently used synchronized mode (SIMV), mandatory breaths are delivered in synchrony with the patient\u2019s inspiratory efforts at a frequency determined by the operator. If the patient fails to initiate a breath, the ventilator delivers a fixed-tidal-volume breath and resets the internal timer for the next inspiratory cycle. SIMV differs from ACMV in that only a preset number of breaths are ventilator-assisted. SIMV allows patients with an intact respiratory drive to exercise inspiratory muscles between assisted breaths; thus it is useful for both supporting and weaning intubated patients. SIMV may be difficult to Peak, mean, and plateau airway pressures VE ABG I/E ratio Peak, mean, and plateau airway pressures VE ABG I/E ratio"
+        },
+        {
+            "id": "InternalMed_Harrison_20006",
+            "title": "InternalMed_Harrison",
+            "content": "respirAtory muscLe strength To measure respiratory muscle strength, the patient is instructed to exhale or inhale with maximal effort against a closed shutter while pressure is monitored at the mouth. Pressures greater than \u00b160 cmH2O at FRC are considered adequate and make it unlikely that respiratory muscle weakness accounts for any other resting ventilatory dysfunction that is identified."
+        },
+        {
+            "id": "Obstentrics_Williams_6997",
+            "title": "Obstentrics_Williams",
+            "content": "he subjective severity of asthma frequently does not correlate with objective measures of airway function or ventilation. Although clinical examination can also be an inaccurate predictor, useful signs include labored breathing, tachycardia, pulsus paradoxus, prolonged expiration, and use of accessory muscles. Signs of a potentially fatal attack include central cyanosis and altered consciousness."
+        },
+        {
+            "id": "Neurology_Adams_10448",
+            "title": "Neurology_Adams",
+            "content": "Measurement of maximal inspiratory force and expiratory vital capacity usually suffices for the bedside estimation of diaphragmatic strength and respiratory function. The trend of these measurements is a guide to the likelihood of respiratory failure. As had been observed in poliomyelitis, the strength of the neck muscles and trapezii, which share the same segmental innervation as the diaphragm, tends to parallel diaphragmatic power. A rough estimate of breathing capacity may be obtained by having the patient count quickly on one deep breath. The ability to reach 20 generally corresponds to a vital capacity of greater than 1.5 L. If a downward trend in these measurements is recognized and the vital capacity diminishes to below about 10 mL/kg, endotracheal intubation and mechanical ventilation are usually necessary (see further on). However, a fairly severe impairment of ventilation may occur before the first sign of dyspnea appears and before there is elevation of arterial carbon"
+        },
+        {
+            "id": "Pediatrics_Nelson_828",
+            "title": "Pediatrics_Nelson",
+            "content": "When the endotracheal tube is in place, the adequacy of ventilation and the position of the tube must be assessed. Use of both clinical assessment and confirmatory devices is recommended. Clinical assessment may include looking for adequate chest wall movement and auscultation of the chest to detect bilateral and symmetric breath sounds. Confirmatory devices such as end-tidal carbon dioxide (CO2) monitoring devices are useful for validation of endotracheal placement, but low levels of detected CO2 may be seen secondary to lack of pulmonary circulation. If the patient\u2019s condition fails to improve or deteriorates, consider the possibilities of tube Displacement or Obstruction, Pneumothorax, or Equipment failure (mnemonic DOPE)."
+        },
+        {
+            "id": "InternalMed_Harrison_20805",
+            "title": "InternalMed_Harrison",
+            "content": "Peak, mean, and plateau airway pressures VE ABG I/E ratio Peak, mean, and plateau airway pressures VE ABG I/E ratio Mask interface may cause discomfort and facial bruising Leaks are common Hypoventilation Abbreviations: ABG, arterial blood gases; FIO2, fraction of inspired oxygen; PEEP, positive end-expiratory pressure; I/E, inspiratory to expiratory time ratio; VE, minute ventilation. use in patients with tachypnea because they may attempt to exhale during the ventilator-programmed inspiratory cycle. Consequently, the airway pressure may exceed the inspiratory pressure limit, the ventilator-assisted breath will be aborted, and minute volume may drop below that programmed by the operator. In this setting, if the tachypnea represents a response to respiratory or metabolic acidosis, a change in ACMV will increase minute ventilation and help normalize the pH while the underlying process is further evaluated and treated."
+        },
+        {
+            "id": "InternalMed_Harrison_20167",
+            "title": "InternalMed_Harrison",
+            "content": "Clinical Features Patients are aware of increasing chest tightness, wheezing, and dyspnea that are often not or poorly relieved by their usual reliever inhaler. In severe exacerbations, patients may be so breathless that they are unable to complete sentences and may become cyanotic. Examination usually shows increased ventilation, hyperinflation, and tachycardia. Pulsus paradoxus may be present, but this is rarely a useful clinical sign. There is a marked fall in spirometric values and PEF. Arterial blood gases on air show hypoxemia, and PCO2 is usually low due to hyperventilation. A normal or rising PCO2 is an indication of impending respiratory failure and requires immediate monitoring and therapy. A chest roentgenogram is not usually informative but may show pneumonia or pneumothorax."
+        },
+        {
+            "id": "InternalMed_Harrison_21216",
+            "title": "InternalMed_Harrison",
+            "content": "General principles of respiratory evaluation in patients with PNS involvement, regardless of cause, include assessment of pulmonary mechanics, such as maximal inspiratory force (MIF) and vital capacity (VC), and evaluation of strength of bulbar muscles. Regardless of the cause of weakness, endotracheal intubation should be considered when the MIF falls to <\u201325 cmH2O or the VC is <1 L. Also, patients with severe palatal weakness may require endotracheal intubation in order to prevent acute upper airway obstruction or recurrent aspiration. Arterial blood gases and oxygen saturation from pulse oximetry are used to follow patients with potential respiratory compromise from PNS dysfunction. However, intubation and mechanical ventilation should be undertaken based on clinical assessment rather than waiting until oxygen saturation drops or CO2 retention develops from hypoventilation. Noninvasive mechanical ventilation may be considered initially in lieu of endotracheal intubation but is"
+        },
+        {
+            "id": "InternalMed_Harrison_3797",
+            "title": "InternalMed_Harrison",
+            "content": "Chronic respiratory alkalosis is the most common acid-base disturbance in critically ill patients and, when severe, portends a poor prognosis. Many cardiopulmonary disorders manifest respiratory alkalosis 324 in their early to intermediate stages, and the finding of normocapnia and hypoxemia in a patient with hyperventilation may herald the onset of rapid respiratory failure and should prompt an assessment to determine if the patient is becoming fatigued. Respiratory alkalosis is common during mechanical ventilation. The hyperventilation syndrome may be disabling. Paresthesia; circumoral numbness; chest wall tightness or pain; dizziness; inability to take an adequate breath; and, rarely, tetany may be sufficiently stressful to perpetuate the disorder. Arterial blood-gas analysis demonstrates an acute or chronic respiratory alkalosis, often with hypocapnia in the range of 15\u201330 mmHg and no hypoxemia. CNS diseases or injury can produce several patterns of hyperventilation and sustained"
+        },
+        {
+            "id": "InternalMed_Harrison_21217",
+            "title": "InternalMed_Harrison",
+            "content": "than waiting until oxygen saturation drops or CO2 retention develops from hypoventilation. Noninvasive mechanical ventilation may be considered initially in lieu of endotracheal intubation but is generally insufficient in patients with severe bulbar weakness or ventilatory failure with hypercarbia. Principles of mechanical ventilation are discussed in Chap. 323."
+        },
+        {
+            "id": "Surgery_Schwartz_4735",
+            "title": "Surgery_Schwartz",
+            "content": "During both the parenteral and oral phase of pain management, a standardized regimen of stool softeners and laxatives is advisable in order to prevent severe constipation.Respiratory Care. The best respiratory care is achieved when the patient is able to deliver an effective cough to clear secre-tions and results from the commitment and proper training of all involved healthcare providers. The process begins preopera-tively, with clear instructions on using pillows (or other support techniques) over the wound and then applying pressure.Postoperatively, proper pain control without oversedation (as outlined earlier) is essential. Daily morning rounds should include a careful assessment of the patient\u2019s pulmonary status, reminders to the patient and family about the importance of coughing and deep breathing, including use of adjunctive respi-ratory equipment if ordered, and mobilization of the patient. Early transition to a chair and to ambulation is the best respira-tory therapy and"
+        }
+    ],
+    "scores": [
+        0.033655084201381524,
+        0.03352534538816745,
+        0.03131365583406902,
+        0.028964170926896612,
+        0.02711362157669047,
+        0.026017501017501016,
+        0.024876248507181134,
+        0.024366820123403188,
+        0.02384704453669971,
+        0.023383325270117723,
+        0.0226727203061977,
+        0.02233017439855768,
+        0.02155705010784622,
+        0.021357160928449925,
+        0.02031235446091096,
+        0.020114700114700113,
+        0.019310013148941176,
+        0.018315482392534912,
+        0.018205892088712344,
+        0.017216117216117217,
+        0.017125292740046837,
+        0.016986496090973704,
+        0.016876750700280115,
+        0.01654003899683991,
+        0.01641641641641642,
+        0.016373124592302675,
+        0.016160350767303475,
+        0.015873015873015872,
+        0.015802318486882246,
+        0.015794001966568338,
+        0.01579093943895577,
+        0.015675675675675675
+    ],
+    "execution_time": 7.288372039794922
+}

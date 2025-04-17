@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-049",
+    "question": "Most of the free fatty acids are transported in the blood:",
+    "options": {
+        "A": "inside the red blood cells.",
+        "B": "as lipoproteins.",
+        "C": "combined with glucose.",
+        "D": "bound to albumin."
+    },
+    "answer": "D",
+    "predict": "To answer this question, let's break down the information provided by the relevant documents and think step-by-step: 1. **Location of free fatty acids in the body:** Free fatty acids (FFA) are found in the blood, but they can also be stored in adipocytes and enter adjacent muscle cells directly. 2. **Transport of free fatty acids in the blood:** Free fatty acids in the blood are transported primarily bound to serum albumin. This is stated in Document [14] (Title: InternalMed_Harrison) and Document [10] (Title: Biochemistry_Lippinco). 3. **Free fatty acids in the blood:** Document [14] (Title: InternalMed_Harrison) states that free fatty acids enter the capillary circulation and are transported by albumin to tissues requiring this fuel source (e.g., heart and skeletal muscle). 4. **Ruling out other options:** - A. **inside the red blood cells:** Document [14] (Title: InternalMed_Harrison) does not mention free fatty acids inside red blood cells. - B. **as lipoproteins:** While free fatty acids can be transported in lipoproteins, the primary mode of transport in the blood is with albumin, not as lipoproteins. - C. **combined with glucose:** There is no mention of free fatty acids being transported combined with glucose in the blood. Given these points, the correct answer is that most free fatty acids are transported in the blood bound to albumin. ```json {\"step_by_step_thinking\": \"Free fatty acids in the blood are primarily transported by albumin. This is supported by Document [14] (Title: InternalMed_Harrison) and Document [10] (Title: Biochemistry_Lippinco). The other options do not accurately describe the primary mode of transport of free fatty acids in the blood.\", \"answer_choice\": \"D\"} ```",
+    "snippets": [
+        {
+            "id": "Biochemistry_Lippincott_623",
+            "title": "Biochemistry_Lippinco",
+            "content": "Fatty acids exist free in the body (that is, they are nonesterified) and as fatty acyl esters in more complex molecules such as triacylglycerols (TAG). Low levels of free fatty acids (FFA) occur in all tissues, but substantial amounts can sometimes be found in the plasma, particularly during fasting. Plasma FFA (transported on serum albumin) are in route from their point of origin (TAG of adipose tissue or circulating lipoproteins) to their site of consumption (most tissues). FFA can be oxidized by many tissues, particularly liver and muscle, to provide energy and, in the liver, to provide the substrate for ketone body synthesis. Fatty acids are also structural components of membrane lipids, such as phospholipids and glycolipids (see p. 201). Fatty acids attached to certain proteins enhance the ability of those proteins to associate with membranes (see p. 206). Fatty acids are also precursors of the hormone-like prostaglandins (see p. 213). Esterified fatty acids, in the form of TAG"
+        },
+        {
+            "id": "Cell_Biology_Alberts_365",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201354 How stored fats are mobilized for energy production in animals. low glucose levels in the blood trigger the hydrolysis of the triacylglycerol molecules in fat droplets to free fatty acids and glycerol. These fatty acids enter the bloodstream, where they bind to the abundant blood protein, serum albumin. special fatty acid transporters in the plasma membrane of cells that oxidize fatty acids, such as muscle cells, then pass these fatty acids into the cytosol, from which they are moved into mitochondria for energy production."
+        },
+        {
+            "id": "Biochemistry_Lippincott_614",
+            "title": "Biochemistry_Lippinco",
+            "content": "Fate of free fatty acids: The FFA derived from the hydrolysis of TAG may either directly enter adjacent muscle cells and adipocytes or be transported in the blood in association with serum albumin until they are taken up by cells. [Note: Human serum albumin is a large protein secreted by the liver. It transports a number of primarily hydrophobic compounds in the circulation, including FFA and some drugs.] Most cells can oxidize FA to produce energy (see p. 190). Adipocytes can also reesterify FFA to produce TAG molecules, which are stored until the FA are needed by the body (see p. 188). 2. Fate of glycerol: Glycerol released from TAG is taken up from the blood and phosphorylated by hepatic glycerol kinase to produce glycerol 3phosphate, which can enter either glycolysis or gluconeogenesis by oxidation to dihydroxyacetone phosphate (see p. 101) or be used in TAG synthesis (see p. 189). 3."
+        },
+        {
+            "id": "Biochemistry_Lippincott_685",
+            "title": "Biochemistry_Lippinco",
+            "content": "tricarboxylic acid; VLDL = very-low-density lipoprotein. Choose the ONE best answer. 6.1. When oleic acid, 18:1(9), is desaturated at carbon 6 and then elongated, what is the correct representation of the product? A. 19:2(7,9) B. 20:2 (\u03c9-6) C. 20:2(6,9) D. 20:2(8,11) Correct answer = D. Fatty acids are elongated in the smooth endoplasmic reticulum by adding two carbons at a time to the carboxylate end (carbon 1) of the molecule. This pushes the double bonds at carbon 6 and carbon 9 farther away from carbon 1. The 20:2(8,11) product is an \u03c9-9 (n-9) fatty acid. 6.2. A 4-month-old child is being evaluated for fasting hypoglycemia. Laboratory tests at admission reveal low levels of ketone bodies (hypoketonemia), free carnitine, and long-chain acylcarnitines in the blood. Free fatty acid levels in the blood were elevated. Deficiency of which of the following would best explain these findings? A. Adipose triglyceride lipase B. Carnitine transporter"
+        },
+        {
+            "id": "Biochemistry_Lippincott_625",
+            "title": "Biochemistry_Lippinco",
+            "content": "II. FATTY ACID STRUCTURE A fatty acid consists of a hydrophobic hydrocarbon chain with a terminal carboxyl group that has a pKa (see p. 6) of ~4.8 (Fig. 16.2). At physiologic pH, the terminal carboxyl group (\u2013COOH) ionizes, becoming \u2013COO\u2212. [Note: When the pH is above the pK, the deprotonated form predominates (see p. 7).] This anionic group has an affinity for water, giving the fatty acid its amphipathic nature (having both a hydrophilic and a hydrophobic region). However, for longchain-length fatty acids (LCFA), the hydrophobic portion is predominant. These molecules are highly water insoluble and must be transported in the circulation in association with protein. More than 90% of the fatty acids found in plasma are in the form of fatty acid esters (primarily TAG, cholesteryl esters, and phospholipids) contained in circulating lipoprotein particles (see p. 227). FFA are transported in the circulation in association with albumin, the most abundant protein in serum."
+        },
+        {
+            "id": "Biochemistry_Lippincott_654",
+            "title": "Biochemistry_Lippinco",
+            "content": "Fate of fatty acids: The FFA move through the cell membrane of the adipocyte and bind to serum albumin. They are transported to tissues such as muscle, enter cells, get activated to their CoA derivatives, and are oxidized for energy in mitochondria. Regardless of their levels, plasma FFA cannot be used for fuel by red blood cells (RBC), which have no mitochondria. The brain does not use fatty acids for energy to any appreciable extent, but the reasons are less clear. [Note: Over 50% of the fatty acids released from adipose TAG are reesterified to glycerol 3phosphate. WAT does not express glycerol kinase, and the glycerol 3phosphate is produced by glyceroneogenesis, an incomplete version of gluconeogenesis: pyruvate to OAA via pyruvate carboxylase and OAA to phosphoenolpyruvate (PEP) via phosphoenolpyruvate carboxykinase. The PEP is converted (by reactions common to glycolysis and gluconeogenesis) to DHAP, which is reduced to glycerol 3-phosphate. The process decreases plasma FFA,"
+        },
+        {
+            "id": "Biochemistry_Lippincott_852",
+            "title": "Biochemistry_Lippinco",
+            "content": "Free amino acids are present throughout the body, such as in cells, blood, and the extracellular fluids. For the purpose of this discussion, envision all of these amino acids as if they belonged to a single entity, called the amino acid pool. This pool is supplied by three sources: 1) amino acids provided by the degradation of endogenous (body) proteins, most of which are reutilized; 2) amino acids derived from exogenous (dietary) protein; and 3) nonessential amino acids synthesized from simple intermediates of metabolism (Fig. 19.2). Conversely, the amino acid pool is depleted by three routes: 1) synthesis of body protein, 2) consumption of amino acids as precursors of essential nitrogen-containing small molecules, and 3) conversion of amino acids to glucose, glycogen, fatty acids, and ketone bodies or oxidation to CO2 + H2O (see Fig. 19.2). Although the amino acid pool is small (comprising ~90\u2013100 g of amino acids) in comparison with the amount of protein in the body (~12 kg in a"
+        },
+        {
+            "id": "Biochemistry_Lippincott_621",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Dietary triacylglycerol must be completely hydrolyzed to free fatty acids and glycerol before absorption. B. The triacylglycerol carried by chylomicrons is degraded by lipoprotein lipase, producing fatty acids that are taken up by muscle and adipose tissues and glycerol that is taken up by the liver. C. Fatty acids that contain \u226412 carbon atoms are absorbed and enter the circulation primarily via the lymphatic system. D. Deficiencies in the ability to absorb fat result in excessive amounts of chylomicrons in the blood."
+        },
+        {
+            "id": "Cell_Biology_Alberts_361",
+            "title": "Cell_Biology_Alberts",
+            "content": "After a meal, most of the energy that an animal needs is derived from sugars obtained from food. Excess sugars, if any, are used to replenish depleted glycogen stores, or to synthesize fats as a food store. But soon the fat stored in adipose tissue is called into play, and by the morning after an overnight fast, fatty acid oxidation generates most of the ATP we need. Low glucose levels in the blood trigger the breakdown of fats for energy production. As illustrated in Figure 2\u201354, the triacylglycerols stored in fat droplets in adipocytes are hydrolyzed to produce fatty acids and glycerol, and the fatty acids released are transferred to cells in the body through the bloodstream. While animals readily convert sugars to fats, they cannot convert fatty acids to sugars. Instead, the fatty acids are oxidized directly. sugars and fats are Both Degraded to acetyl Coa in mitochondria"
+        },
+        {
+            "id": "InternalMed_Harrison_28142",
+            "title": "InternalMed_Harrison",
+            "content": "into the intestinal lymph and delivered via the thoracic duct directly to the systemic circulation, where they are extensively processed by peripheral tissues before reaching the liver. The particles encounter lipoprotein lipase (LPL), which is anchored to a glycosylphosphatidylinositol-anchored protein, GPIHBP1, that 2437 is attached to the endothelial surfaces of capillaries in adipose tissue, heart, and skeletal muscle (Fig. 421-2). The triglycerides of chylomicrons are hydrolyzed by LPL, and free fatty acids are released. ApoC-II, which is transferred to circulating chylomicrons from HDL, acts as a required cofactor for LPL in this reaction. The released free fatty acids are taken up by adjacent myocytes or adipocytes and either oxidized to generate energy or reesterified and stored as triglyceride. Some of the released free fatty acids bind albumin before entering cells and are transported to other tissues, especially the liver. The chylomicron particle progressively shrinks in"
+        },
+        {
+            "id": "Biochemistry_Lippincott_866",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. Amino acid and small peptide intestinal absorption Most free amino acids are taken into enterocytes via sodium-dependent secondary active transport by solute carrier (SLC) proteins of the apical membrane. At least seven different transport systems with overlapping amino acid specificities are known. Di-and tripeptides, however, are taken up by a proton-linked peptide transporter (PepT1). The peptides are then hydrolyzed to free amino acids. Regardless of their source, free amino acids are released from enterocytes into the portal system by sodium-independent transporters of the basolateral membrane. Therefore, only free amino acids are found in the portal vein after a meal containing protein. These amino acids are either metabolized by the liver or released into the general circulation. [Note: Branched-chain amino acids (BCAA) are not metabolized by the liver but, instead, are sent from the liver to muscle via the blood.] E. Absorption abnormalities"
+        },
+        {
+            "id": "Histology_Ross_1276",
+            "title": "Histology_Ross",
+            "content": "Deposition and mobilization of lipid are influenced by neural and hormonal factors. One of the major metabolic functions of adipose tissue involves the uptake of fatty acids from the blood and their conversion to triglyceride within the adipocyte. Triglyceride is then stored within the cell\u2019s lipid droplet. When adipose tissue is stimulated by neural or hormonal mechanisms, triglycerides are broken down into glycerol and fatty acids, a process called mobilization. The fatty acids pass through the adipocyte cell membrane to enter a capillary. Here they are bound to the carrier protein albumin and transported to other cells, which use fatty acids as metabolic fuel."
+        },
+        {
+            "id": "InternalMed_Harrison_28143",
+            "title": "InternalMed_Harrison",
+            "content": "as triglyceride. Some of the released free fatty acids bind albumin before entering cells and are transported to other tissues, especially the liver. The chylomicron particle progressively shrinks in size as the hydrophobic core is hydrolyzed and the hydrophilic lipids (cholesterol and phospholipids) and apolipoproteins on the particle surface are transferred to HDL, creating chylomicron remnants."
+        },
+        {
+            "id": "Physiology_Levy_3853",
+            "title": "Physiology_Levy",
+            "content": "FFAs circulate in the blood primarily bound to albumin. However, TG, free cholesterol, cholesterol esters, phospholipids and some lipid-soluble vitamins, all of which are hydrophobic and would partition into the membranes of endothelial cells instead of circulating, are transported through blood within lipid aggregations (i.e., a mix of the above) bound by specific apoproteins. These lipid-protein complexes are referred to as lipoproteins. The TG-rich lipoproteins are chylomicrons and VLDL and primarily function to deliver FFAs (as TG) to skeletal and cardiac muscle for energy and to adipocytes for storage. The cholesterol-rich lipoproteins include low-density lipoprotein (LDL) and high-density lipoprotein (HDL), which deliver cholesterol to proliferating cells, steroidogenic cells, and bile-producing hepatocytes. HDL also removes excess cholesterol (i.e., from macrophage-engulfed dead cells) from the periphery. There are also \u201cremnants\u201d of lipoproteins that have their lipid cargo"
+        },
+        {
+            "id": "Surgery_Schwartz_424",
+            "title": "Surgery_Schwartz",
+            "content": "as a source of fuel. The brain uses ketones for fuel. The kidneys become important participants in gluconeogenesis. RBC = red blood cell; WBC = white blood cell. Lipid stores within adipose tissue provide 40% or more of caloric expenditure during starvation. Energy requirements for basal enzymatic and muscular functions (e.g., gluconeogenesis, neural transmission, and cardiac contraction) are met by the mobilization of triglycerides from adipose tissue. In a resting, fasting, 70-kg person, approximately 160 g of free fatty acids and glycerol can be mobilized from adipose tissue per day. Free fatty acid release is stimulated in part by a reduction in serum insulin levels and in part by the increase in circulating glucagon and catecholamine. Such free fatty acids, like ketone bodies, are used as fuel by tissues such as the heart, kidney (renal cortex), muscle, and liver. The mobilization of lipid stores for energy importantly decreases the rate of glycolysis, gluconeogenesis, and"
+        },
+        {
+            "id": "Biochemistry_Lippincott_686",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Adipose triglyceride lipase B. Carnitine transporter C. Carnitine palmitoyltransferase-I D. Long-chain fatty acid dehydrogenase Correct answer = B. A defect in the carnitine transporter (primary carnitine deficiency) would result in low levels of carnitine in the blood (as a result of increased urinary loss) and low levels in the tissues. In the liver, this decreases fatty acid oxidation and ketogenesis. Consequently, blood levels of free fatty acids rise. Deficiencies of adipose triglyceride lipase would decrease fatty acid availability. Deficiency of carnitine palmitoyltransferase I would result in elevated blood carnitine. Defects in any of the enzymes of \u03b2-oxidation would result in secondary carnitine deficiency, with a rise in acylcarnitines."
+        },
+        {
+            "id": "Biochemistry_Lippincott_672",
+            "title": "Biochemistry_Lippinco",
+            "content": "Liver mitochondria have the capacity to convert acetyl CoA derived from fatty acid oxidation into ketone bodies. The compounds categorized as ketone bodies are acetoacetate, 3-hydroxybutyrate (also called \u03b2-hydroxybutyrate), and acetone (a nonmetabolized side product, Fig. 16.22). [Note: The two functional ketone bodies are organic acids.] Acetoacetate and 3-hydroxybutyrate are transported in the blood to the peripheral tissues. There they can be reconverted to acetyl CoA, which can be oxidized by the TCA cycle. Ketone bodies are important sources of energy for the peripheral tissues because they 1) are soluble in aqueous solution and, therefore, do not need to be incorporated into lipoproteins or carried by albumin as do the other lipids; 2) are produced in the liver during periods when the amount of acetyl CoA present exceeds the oxidative capacity of the liver; and 3) are used in proportion to their concentration in the blood by extrahepatic tissues, such as skeletal and cardiac"
+        },
+        {
+            "id": "Biochemistry_Lippincott_908",
+            "title": "Biochemistry_Lippinco",
+            "content": "9.2. Which one of the following statements about amino acids and their metabolism is correct? A. Free amino acids are taken into the enterocytes by a single proton-linked transport system. B. In healthy, well-fed individuals, the input to the amino acid pool exceeds the output. C. The liver uses ammonia to buffer protons. D. Muscle-derived glutamine is metabolized in liver and kidney tissue to ammonia + a gluconeogenic precursor. E. The first step in the catabolism of most amino acids is their oxidative deamination. F. The toxic ammonia generated from the amide nitrogen of amino acids is transported through blood as arginine."
+        },
+        {
+            "id": "InternalMed_Harrison_28148",
+            "title": "InternalMed_Harrison",
+            "content": "All nucleated cells synthesize cholesterol, but only hepatocytes and enterocytes can effectively excrete cholesterol from the body, into either the bile or the gut lumen. In the liver, cholesterol is secreted into the bile, either directly or after conversion to bile acids. Cholesterol in peripheral cells is transported from the plasma mem-FIGURE 421-2 The exogenous and endogenous lipoprotein metabolic path-branes of peripheral cells to the liver and intestine by ways. The exogenous pathway transports dietary lipids to the periphery and the a process termed \u201creverse cholesterol transport\u201d that is liver. The endogenous pathway transports hepatic lipids to the periphery. FFA, free facilitated by HDL (Fig. 421-3). fatty acid; HL, hepatic lipase; IDL, intermediate-density lipoprotein; LDL, low-density Nascent HDL particles are synthesized by the intestine lipoprotein; LDLR, low-density lipoprotein receptor; LPL, lipoprotein lipase; VLDL, and the liver. Newly secreted apoA-I rapidly"
+        },
+        {
+            "id": "Surgery_Schwartz_430",
+            "title": "Surgery_Schwartz",
+            "content": "within the duodenum to hydrolyze the triglycerides into free fatty acids and monoglycerides. The free fatty acids and monoglycerides are then readily absorbed by gut enterocytes, which resynthesize triglycerides by esterification of the mono-glycerides with fatty acyl coenzyme A (acyl-CoA) (Fig. 2-19). Long-chain triglycerides (LCTs), defined as those with 12 car-bons or more, generally undergo this process of esterification Brunicardi_Ch02_p0027-p0082.indd 6301/03/19 6:50 PM 64BASIC CONSIDERATIONSPART Iand enter the circulation through the lymphatic system as chy-lomicrons. Shorter fatty acid chains directly enter the portal circulation and are transported to the liver by albumin carriers. Hepatocytes use free fatty acids as a fuel source during stress states but also can synthesize phospholipids or triglycerides (i.e., very-low-density lipoproteins) during fed states. Systemic tissue (e.g., muscle and the heart) can use chylomicrons and triglycerides as fuel by hydrolysis with"
+        },
+        {
+            "id": "Biochemistry_Lippincott_682",
+            "title": "Biochemistry_Lippinco",
+            "content": "and peripheral tissues, where their oxidation provides energy. The glycerol backbone of the degraded TAG is carried by the blood to the liver, where it serves as a gluconeogenic precursor. Fatty acid degradation (\u03b2-oxidation) occurs in mitochondria. The carnitine shuttle is required to transport long-chain fatty acids from the cytosol to the mitochondrial matrix. A translocase and the enzymes carnitine palmitoyltransferases (CPT) I and II are required. CPT-I is inhibited by malonyl CoA, thereby preventing simultaneous synthesis and degradation of fatty acids. Mitochondrial fatty acid \u03b2-oxidation produces acetyl CoA, nicotinamide adenine dinucleotide (NADH), and flavin adenine dinucleotide (FADH2). The first step in \u03b2-oxidation is catalyzed by one of four acyl CoA dehydrogenases, each with chain-length specificity. Medium-chain fatty acyl CoA dehydrogenase (MCAD) deficiency causes a decrease in fatty acid oxidation (process stops once a medium-chain fatty acid is produced), resulting"
+        },
+        {
+            "id": "Biochemistry_Lippincott_897",
+            "title": "Biochemistry_Lippinco",
+            "content": "3. Amines: Amines obtained from the diet and monoamines that serve as hormones or neurotransmitters give rise to ammonia by the action of monoamine oxidase (see p. 286). 4. Purines and pyrimidines: In the catabolism of purines and pyrimidines, amino groups attached to the ring atoms are released as ammonia (see Fig. 22.15 on p. 300). B. Transport in the circulation Although ammonia is constantly produced in the tissues, it is present at very low levels in blood. This is due both to the rapid removal of blood ammonia by the liver and to the fact that several tissues, particularly muscle, release amino acid nitrogen in the form of glutamine and alanine, rather than as free ammonia (see Fig. 19.13). 1. Urea: Formation of urea in the liver is quantitatively the most important disposal route for ammonia. Urea travels in the blood from the liver to the kidneys, where it passes into the glomerular filtrate. 2."
+        },
+        {
+            "id": "Surgery_Schwartz_432",
+            "title": "Surgery_Schwartz",
+            "content": "fatty acids enter the capillary circulation and are transported by albumin to tissues requiring this fuel source (e.g., heart and skeletal mus-cle). Insulin inhibits lipolysis and favors triglyceride synthesis by augmenting lipoprotein lipase activity as well as intracellu-lar levels of glycerol-3-phosphate. The use of glycerol for fuel depends on the availability of tissue glycerokinase, which is abundant in the liver and kidneys.Free fatty acids absorbed by cells conjugate with acyl-CoA within the cytoplasm. The transport of fatty acyl-CoA from the outer mitochondrial membrane across the inner mito-chondrial membrane occurs via the carnitine shuttle (Fig. 2-21). Medium-chain triglycerides (MCTs), defined as those 6 to 12 carbons in length, bypass the carnitine shuttle and readily cross the mitochondrial membranes. This accounts in part for the fact that MCTs are more efficiently oxidized than LCTs. Ideally, the rapid oxidation of MCTs makes them less prone to fat deposition,"
+        },
+        {
+            "id": "InternalMed_Harrison_27804",
+            "title": "InternalMed_Harrison",
+            "content": "The obesity accompanying type 2 DM, particularly in a central or visceral location, is thought to be part of the pathogenic process (Chap. 415e). In addition to these white fat depots, humans now are recognized to have brown fat, which has much greater thermogenic capacity. Efforts are under way to increase the activity or quantity of brown fat (e.g., a myokine, irisin, may convert white to brown fat). The increased adipocyte mass leads to increased levels of circulating free fatty acids and other fat cell products. For example, adipocytes secrete a number of biologic products (nonesterified free fatty acids, retinolbinding protein 4, leptin, TNF-\u03b1, resistin, IL-6, and adiponectin). In addition to regulating body weight, appetite, and energy expenditure, adipokines also modulate insulin sensitivity. The increased production of free fatty acids and some adipokines may cause insulin resistance in skeletal muscle and liver. For example, free fatty acids impair glucose utilization in"
+        },
+        {
+            "id": "InternalMed_Harrison_28141",
+            "title": "InternalMed_Harrison",
+            "content": "One critical role of lipoproteins is the efficient transport of dietary lipids from the intestine to tissues that require fatty acids for energy or store and metabolize lipids (Fig. 421-2). Dietary triglycerides are hydrolyzed by lipases within the intestinal lumen and emulsified with bile acids to form micelles. Dietary cholesterol, fatty acids, and fat-soluble vitamins are absorbed in the proximal small intestine. Cholesterol and retinol are esterified (by the addition of a fatty acid) in the enterocyte to form cholesteryl esters and retinyl esters, respectively. Longer-chain fatty acids (>12 carbons) are incorporated into triglycerides and packaged with apoB-48, cholesteryl esters, retinyl esters, phospholipids, and cholesterol to form chylomicrons. Nascent chylomicrons are secreted into the intestinal lymph and delivered via the thoracic duct directly to the systemic circulation, where they are extensively processed by peripheral tissues before reaching the liver. The particles"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1265",
+            "title": "Biochemistry_Lippinco",
+            "content": "1. Saturated fats: TAG composed primarily of fatty acids whose hydrocarbon chains do not contain any double bonds are referred to as saturated fats. Consumption of saturated fats is positively associated with high levels of total plasma cholesterol and LDL-C and an increased risk of CHD. The main sources of saturated fatty acids are dairy and meat products and some vegetable oils, such as coconut and palm oils (a major source of fat in Latin America and Asia, although not in the United States). Many experts strongly advise limiting intake of saturated fats to <10% of total caloric intake and replacing them with unsaturated fats (and whole grains). Saturated fatty acids with carbon chain lengths of 14 (myristic) and 16 (palmitic) are most potent in increasing the plasma cholesterol level. Stearic acid (18 carbons, found in many foods including chocolate) has little effect on blood cholesterol."
+        },
+        {
+            "id": "Physiology_Levy_3754",
+            "title": "Physiology_Levy",
+            "content": "Transport of Hormones in the Circulation A significant fraction of steroid and thyroid hormones is transported in blood that is bound to plasma proteins that are produced in a regulated manner by the liver. Protein and polypeptide hormones are generally transported free in blood. The concentrations of bound hormone, free hormone, and plasma transport protein are in equilibrium. If free hormone levels drop, hormone will be released from the transport proteins. This relationship may be expressed as follows: Equation 38.1 where [H] = concentration of free hormone, [P] = concentration of plasma transport protein, [HP] = concentration of bound hormone, and K = the dissociation constant."
+        },
+        {
+            "id": "InternalMed_Harrison_31450",
+            "title": "InternalMed_Harrison",
+            "content": "Lipid is an important muscle energy source during rest and during prolonged, submaximal exercise. Fatty acids are derived from circulating very-low-density lipoprotein (VLDL) in the blood or from triglycerides stored in muscle fibers. Oxidation of fatty acids occurs in the mitochondria. To enter the mitochondria, a fatty acid must first be converted to an \u201cactivated fatty acid,\u201d acyl-CoA. The acyl-CoA must be linked with carnitine by the enzyme carnitine palmitoyltransferase (CPT) I for transport into the mitochondria. CPT I is present on the inner side of the outer mitochondrial membrane. Carnitine is removed by CPT II, an enzyme attached to the inside of the inner mitochondrial membrane, allowing transport of acyl-CoA into the mitochondrial matrix for \u03b2-oxidation."
+        },
+        {
+            "id": "Pharmacology_Katzung_3862",
+            "title": "Pharmacology_Katzung",
+            "content": "triglycerides; the asterisk denotes a functional ligand for LDL receptors; triangles indicate apo E; circles and squares represent C apolipoproteins. FFA, free fatty acid; RER, rough endoplasmic reticulum. (Adapted, with permission, from Kane J, Malloy M: Disorders of lipoproteins. In: Rosenberg RN et al [editors]: The Molecular and Genetic Basis of Neurological Disease. 2nd ed. Butterworth-Heinemann, 1997.) chylomicrons and VLDL during lipolysis. HDL also acquires cholesterol from peripheral tissues, protecting the cholesterol homeostasis of cells. Free cholesterol is chiefly exported from the cell membrane by a transporter, ABCA1, acquired by a small particle termed prebeta-1 HDL, and then esterified by lecithin:cholesterol acyltransferase (LCAT), leading to the formation of larger HDL species. Cholesterol is also exported by the ABCG1 transporter and the scavenger receptor, SR-BI, to large HDL particles. The cholesteryl esters are transferred to VLDL, IDL, LDL, and chylomicron"
+        },
+        {
+            "id": "Cell_Biology_Alberts_414",
+            "title": "Cell_Biology_Alberts",
+            "content": "Fatty acids are stored as an energy reserve (fats and oils) through an ester linkage to glycerol to form triacylglycerols, also known as triglycerides. H2COCOHCOCOH2COCOH2COHHCOHH2COHglycerol TRIACYLGLYCEROLS These are carboxylic acids with long hydrocarbon tails. COOHCH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH3COOHCH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2CH2COOHCH2CH2CH2CH2CH2CH2CH2CHCHCH2CH2CH2CH2CH2CH2CH2CH3CH3stearic acid (C18) palmitic acid (C16) oleic acid (C18) COMMON FATTY ACIDS OOCstearic acid This double bond is rigid and creates a kink in the chain. The rest of the chain is free to rotate about the other C\u2013C bonds. \u2013OCARBOXYL GROUP O_OCOOCNOCCHIf free, the carboxyl group of a fatty acid will be ionized. But more usually it is linked to other groups to form either esters or amides. PHOSPHOLIPIDS CH2CHCH2PO_OOOhydrophobic fatty acid tails general structure of a phospholipid \u2013OOColeic acid space-flling model carbon skeleton hydrophilic head choline In phospholipids, two"
+        },
+        {
+            "id": "InternalMed_Harrison_27944",
+            "title": "InternalMed_Harrison",
+            "content": "Abbreviation: UTI, urinary tract infection. release of free fatty acids. Normally, these free fatty acids are converted to triglycerides or very-low-density lipoprotein (VLDL) in the liver. However, in DKA, hyperglucagonemia alters hepatic metabolism to favor ketone body formation, through activation of the enzyme carnitine palmitoyltransferase I. This enzyme is crucial for regulating fatty acid transport into the mitochondria, where beta oxidation and conversion to ketone bodies occur. At physiologic pH, ketone bodies exist as ketoacids, which are neutralized by bicarbonate. As bicarbonate stores are depleted, metabolic acidosis ensues. Increased lactic acid production also contributes to the acidosis. The increased free fatty acids increase triglyceride and VLDL production. VLDL clearance is also reduced because the activity of insulin-sensitive lipoprotein lipase in muscle and fat is decreased. Hypertriglyceridemia may be severe enough to cause pancreatitis."
+        },
+        {
+            "id": "Physiology_Levy_1403",
+            "title": "Physiology_Levy",
+            "content": "Fatty acids represent an important source of energy for muscle cells during prolonged exercise. Muscle cells contain fatty acids but can also take up fatty acids from blood. In addition, muscle cells can store triglycerides, which can be hydrolyzed when needed to produce fatty acids. The fatty acids are subjected to \u03b2 oxidation within the mitochondria. For fatty acids to enter the mitochondria, however, they are converted to acylcarnitine in the cytosol and then transported into the mitochondria, where they are converted to acyl coenzyme A (CoA). Within the mitochondria, the acyl CoA is subjected to \u03b2 oxidation and yields acetyl CoA, which then enters the citric acid cycle and ultimately produces ATP."
+        }
+    ],
+    "scores": [
+        0.03931463963072492,
+        0.03903264276007433,
+        0.03658791928871364,
+        0.0353683512284176,
+        0.034422130013190104,
+        0.03311051693404635,
+        0.030934751409339482,
+        0.030074209202170292,
+        0.02849211601145168,
+        0.027552965052965055,
+        0.027121108217624493,
+        0.02525958324443496,
+        0.025210084033613443,
+        0.02471368592824558,
+        0.024512106287441424,
+        0.023269045654565456,
+        0.022665229718456657,
+        0.022277732836312344,
+        0.022254475084663765,
+        0.02216072932904197,
+        0.021557895188726833,
+        0.02114873306211359,
+        0.020895755305867666,
+        0.019534758639236253,
+        0.019005127330644973,
+        0.018484740394852754,
+        0.018471066001127752,
+        0.01811772421708477,
+        0.017909111122344848,
+        0.01788594441546619,
+        0.017857142857142856,
+        0.01779500158177792
+    ],
+    "execution_time": 53.00803995132446
+}

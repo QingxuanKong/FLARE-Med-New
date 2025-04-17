@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-168",
+    "question": "Which of the following is true about jaundice?",
+    "options": {
+        "A": "Pale stools and dark urine are characteristic of the jaundice of haemalytic anaemia",
+        "B": "Bilirubin is used by the liver in the synthesis of red blood cells",
+        "C": "Itching may be a sign of obstructive jaundice",
+        "D": "Putting a danger of infection sticker on blood samples from an intravenous drug user with jaundice is optional"
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze each option in relation to the provided medical documents.\\n\\nOption A: Pale stools and dark urine are characteristic of the jaundice of hemolytic anemia. This is correct, as explained in Document [7] (Title: Anatomy_Gray) and Document [9] (Title: Anatomy_Gray) which states that jaundice is usually produced by conditions where there is an excessive breakdown of red blood cells (e.g., in incompatible blood transfusion and hemolytic anemia). The complex biochemical reactions for converting fat-soluble into water-soluble bilirubin may be affected by inflammatory change within the liver (e.g., from hepatitis or chronic liver disease, such as liver cirrhosis) and poisons (e.g., paracetamol overdose). Any obstruction of the biliary tree can produce jaundice, but the two most common causes are gallstones within the bile duct and an obstructing tumor at the head of the pancreas.\\n\\nOption B: Bilirubin is used by the liver in the synthesis of red blood cells. This is incorrect, as explained in Document [9] (Title: Anatomy_Gray) which states that the iron from the hemoglobin molecule is recycled, whereas the porphyrin ring (globin) compounds are broken down to form fat-soluble bilirubin. On reaching the liver via the bloodstream, the fat-soluble bilirubin is converted to a water-soluble form of bilirubin.\\n\\nOption C: Itching may be a sign of obstructive jaundice. This is correct, as explained in Document [1] (Title: Pathology_Robbins) which states that chronic severe jaundice can lead to pruritus (itching), the intensity of which may be so profound that patients scratch their skin raw and risk repeated bouts of potentially life-threatening infection.\\n\\nOption D: Putting a danger of infection sticker on blood samples from an intravenous drug user with jaundice is optional. This is incorrect, as explained in Document [24] (Title: InternalMed_Harrison) which states that any evidence for severe disease should prompt hospitalization. This includes evidence of infection, and thus putting a sticker on blood samples from an intravenous drug user with jaundice is a standard precaution to prevent infection.\\n\\nTherefore, the correct answer is A.\", \"answer_choice\": \"A\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_3236",
+            "title": "InternalMed_Harrison",
+            "content": "APPROACH TO THE PATIENT: The goal of this chapter is not to provide an encyclopedic review of all of the conditions that can cause jaundice. Rather, the chapter is intended to offer a framework that helps a physician to evaluate the patient with jaundice in a logical way (Fig. 58-1). History (focus on medication/drug exposure) Physical examination Lab tests: Bilirubin with fractionation, ALT, AST, alkaline phosphatase, prothrombin time, and albumin"
+        },
+        {
+            "id": "Pathology_Robbins_3869",
+            "title": "Pathology_Robbins",
+            "content": "About 40% of individuals with cirrhosis are asymptomatic until the most advanced stages of the disease. Even at late stages, they present with nonspecific clinical manifestations, such as anorexia, weight loss, weakness, and, eventually signs and symptoms of liver failure discussed earlier. Jaundice, encephalopathy, and coagulopathy may result from chronic liver disease, much the same as in acute liver failure. However, there are some significant additional features: Chronic severe jaundice can lead to pruritus (itching), the intensity of which may be so profound that patients scratch their skin raw and risk repeated bouts of potentially life-threatening infection. In some patients, severe pruritus is the primary indication for liver transplantation. Pruritus also is frequently seen in other disorders associated with cholestasis, suggesting that it is somehow related to the build up of bile salts in the body, but its precise pathogenesis is unknown."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1011",
+            "title": "Biochemistry_Lippinco",
+            "content": "21.3. A patient presents with jaundice, abdominal pain, and nausea. Clinical laboratory results are shown below. What is the most likely cause of the jaundice? A. Decreased hepatic conjugation of bilirubin B. Decreased hepatic uptake of bilirubin C. Decreased secretion of bile into the intestine D. Increased hemolysis Correct answer = C. The data are consistent with an obstructive jaundice in which a block in the common bile duct decreases the secretion of bile containing conjugated bilirubin (CB) into the intestine (stool will be pale in color). The CB regurgitates into the blood (conjugated hyperbilirubinemia). The CB is excreted in the urine (which darkens) and is referred to as urinary bilirubin. Urinary urobilinogen is not present because its source is intestinal urobilinogen, which is low. The other choices do not match the data."
+        },
+        {
+            "id": "InternalMed_Harrison_23248",
+            "title": "InternalMed_Harrison",
+            "content": "Jaundice is the hallmark symptom of liver disease and perhaps the most reliable marker of severity. Patients usually report darkening of the urine before they notice scleral icterus. Jaundice is rarely detectable with a bilirubin level <43 \u03bcmol/L (2.5 mg/dL). With severe cholestasis, there will also be lightening of the color of the stools and steatorrhea. Jaundice without dark urine usually indicates indirect (unconjugated) hyperbilirubinemia and is typical of hemolytic anemia and the genetic disorders of bilirubin conjugation, the common and benign form being Gilbert\u2019s syndrome and the rare and severe form being Crigler-Najjar syndrome. Gilbert\u2019s syndrome affects up to 5% of the 1991 general population; the jaundice in this condition is more noticeable after fasting and with stress."
+        },
+        {
+            "id": "InternalMed_Harrison_23519",
+            "title": "InternalMed_Harrison",
+            "content": "Jaundice is usually visible in the sclera or skin when the serum bilirubin value is >43 \u03bcmol/L (2.5 mg/dL). When jaundice appears, the serum bilirubin typically rises to levels ranging from 85\u2013340 \u03bcmol/L (5\u201320 mg/dL). The serum bilirubin may continue to rise despite falling serum aminotransferase levels. In most instances, the total bilirubin is equally divided between the conjugated and unconjugated fractions. Bilirubin levels >340 \u03bcmol/L (20 mg/dL) extending and persisting late into the course of viral hepatitis are more likely to be associated with severe disease. In certain patients with underlying hemolytic anemia, however, such as glucose-6-phosphate dehydrogenase deficiency and sickle cell anemia, a high serum bilirubin level is common, resulting from superimposed hemolysis. In such patients, bilirubin levels >513 \u03bcmol/L (30 mg/dL) have been observed and are not necessarily associated with a poor prognosis."
+        },
+        {
+            "id": "InternalMed_Harrison_3239",
+            "title": "InternalMed_Harrison",
+            "content": "FIguRE 58-1 Evaluation of the patient with jaundice. ALT, alanine aminotransferase; AMA, antimitochondrial antibody; ANA, antinuclear antibody; AST, aspartate aminotransferase; CMV, cytomegalovirus; EBV, Epstein-Barr virus; LKM, liver-kidney microsomal antibody; MRCP, magnetic resonance cholangiopancreatography; SMA, smooth-muscle antibody; SPEP, serum protein electrophoresis. Simply stated, the initial step is to perform appropriate blood tests in order to determine whether the patient has an isolated elevation of serum bilirubin. If so, is the bilirubin elevation due to an increased unconjugated or conjugated fraction? If the hyperbilirubinemia is accompanied by other liver test abnormalities, is the disorder hepatocellular or cholestatic? If cholestatic, is it intraor extrahepatic? All of these questions can be answered with a thoughtful history, physical examination, and interpretation of laboratory and radiologic tests and procedures."
+        },
+        {
+            "id": "Pediatrics_Nelson_1416",
+            "title": "Pediatrics_Nelson",
+            "content": "Physical evidence of jaundice is observed in infants when bilirubin levels reach 5 to 10 mg/dL (versus 2 to 3 mg/dL in adults). When jaundice is observed, the laboratory evaluation for hyperbilirubinemia should include a total bilirubin measurement to determine the magnitude of hyperbilirubinemia. Bilirubin levels greater than 5 mg/dL on the first day of life or greater than 13 mg/dL thereafter in term infants should be evaluated further with measurement of indirect and direct bilirubin levels, blood typing, Coombs test, complete blood count, blood smear, and reticulocyte count. These tests must be performed before treatment of hyperbilirubinemia with phototherapy or exchange transfusion. In the absence of hemolysis or evidence for either the common or the rare causes of nonhemolytic indirect hyperbilirubinemia, the diagnosis is either physiologic or breast milk jaundice. Jaundice present after 2 weeks of age is pathologic and suggests a direct-reacting hyperbilirubinemia."
+        },
+        {
+            "id": "Anatomy_Gray_903",
+            "title": "Anatomy_Gray",
+            "content": "This type of jaundice is usually produced by conditions where there is an excessive breakdown of red blood cells (e.g., in incompatible blood transfusion and hemolytic anemia). The complex biochemical reactions for converting fat-soluble into water-soluble bilirubin may be affected by inflammatory change within the liver (e.g., from hepatitis or chronic liver disease, such as liver cirrhosis) and poisons (e.g., paracetamol overdose). Any obstruction of the biliary tree can produce jaundice, but the two most common causes are gallstones within the bile duct and an obstructing tumor at the head of the pancreas. In the clinic From a clinical point of view, there are two main categories of spleen disorders: rupture and enlargement."
+        },
+        {
+            "id": "InternalMed_Harrison_20933",
+            "title": "InternalMed_Harrison",
+            "content": "Gastrointestinal manifestations such as nausea, vomiting, diarrhea, and ileus may suggest acute gastroenteritis. Stress ulceration can lead to upper gastrointestinal bleeding. Cholestatic jaundice, with elevated levels of serum bilirubin (mostly conjugated) and alkaline phosphatase, may precede other signs of sepsis. Hepatocellular or canalicular dysfunction appears to underlie most cases, and the results of hepatic function tests return to normal with resolution of the infection. Prolonged or severe hypotension may induce acute hepatic injury or ischemic bowel necrosis."
+        },
+        {
+            "id": "Anatomy_Gray_902",
+            "title": "Anatomy_Gray",
+            "content": "Simplified explanation to understanding the types of jaundice and their anatomical causes When red blood cells are destroyed by the reticuloendothelial system, the iron from the hemoglobin molecule is recycled, whereas the porphyrin ring (globin) compounds are broken down to form fat-soluble bilirubin. On reaching the liver via the bloodstream, the fat-soluble bilirubin is converted to a water-soluble form of bilirubin. This water-soluble bilirubin is secreted into the biliary tree and then in turn into the bowel, where it forms the dark color of the stool. This type of jaundice is usually produced by conditions where there is an excessive breakdown of red blood cells (e.g., in incompatible blood transfusion and hemolytic anemia)."
+        },
+        {
+            "id": "Obstentrics_Williams_7566",
+            "title": "Obstentrics_Williams",
+            "content": "Acute infections are most often subclinical and anicteric. When they are clinically apparent, nausea and vomiting, headache, and malaise may precede jaundice by 1 to 2 weeks. Lowgrade fever is more common with hepatitis A. By the time jaundice develops, symptoms are usually improving. Serum transaminase levels vary, and their peaks do not correspond with disease severity (see Table 55-1). Peak levels that range from 400 to 4000 U/L are usually reached by the time jaundice develops. Serum bilirubin values typically continue to rise, despite falling serum transaminase levels, and peak at 5 to 20 mgl dL."
+        },
+        {
+            "id": "InternalMed_Harrison_3249",
+            "title": "InternalMed_Harrison",
+            "content": "History A complete medical history is perhaps the single most important part of the evaluation of the patient with unexplained jaundice. Important considerations include the use of or exposure to any chemical or medication, whether physician-prescribed, overthe-counter, complementary, or alternative medicines (e.g., herbal and vitamin preparations) or other drugs such as anabolic steroids. The patient should be carefully questioned about possible parenteral exposures, including transfusions, intravenous and intranasal drug use, tattooing, and sexual activity. Other important points include recent travel history; exposure to people with jaundice; exposure to possibly contaminated foods; occupational exposure to hepatotoxins; alcohol consumption; the duration of jaundice; and the presence of any accompanying signs and symptoms, such as arthralgias, myalgias, rash, anorexia, weight loss, abdominal pain, fever, pruritus, and changes in the urine and stool. While none of the latter"
+        },
+        {
+            "id": "Pediatrics_Nelson_1408",
+            "title": "Pediatrics_Nelson",
+            "content": "Etiology of Indirect Unconjugated Hyperbilirubinemia Decision-Making Algorithm Available @ StudentConsult.com Physiologic jaundice is a common cause of hyperbilirubinemia among newborns. It is a diagnosis of exclusion, made after careful evaluation has ruled out more serious causes of jaundice, such as hemolysis, infection, and metabolic diseases. Physiologic jaundice is the result of many factors that are normal physiologic characteristics of newborns: increased bilirubin production resulting from an increased RBC mass, shortened RBC life span, and hepatic immaturity of ligandin and glucuronosyltransferase. Physiologic jaundice may be exaggerated among infants of Greek and Asian ancestry."
+        },
+        {
+            "id": "InternalMed_Harrison_3253",
+            "title": "InternalMed_Harrison",
+            "content": "Laboratory Tests A battery of tests are helpful in the initial evaluation of a patient with unexplained jaundice. These include total and direct serum bilirubin measurement with fractionation; determination of serum aminotransferase, alkaline phosphatase, and albumin concentrations; and prothrombin time tests. Enzyme tests (alanine aminotransferase [ALT], aspartate aminotransferase [AST], and alkaline phosphatase [ALP]) are helpful in differentiating between a hepatocellular process and a cholestatic process (Table 358-1; Fig. 58-1)\u2014a critical step in determining what additional workup is indicated. Patients with a hepatocellular process generally have a rise in the aminotransferases that is disproportionate to that in ALP, whereas patients with a cholestatic process have a rise in ALP that is disproportionate to that of the aminotransferases. The serum bilirubin can be prominently elevated in both hepatocellular and cholestatic conditions and therefore is not necessarily helpful in"
+        },
+        {
+            "id": "Pediatrics_Nelson_1409",
+            "title": "Pediatrics_Nelson",
+            "content": "The clinical pattern of physiologic jaundice in term infantsincludes a peak indirect-reacting bilirubin level of no morethan 12 mg/dL on day 3 of life. In premature infants, the peakis higher (15 mg/dL) and occurs later (fifth day). The peak levelof indirect bilirubin during physiologic jaundice may be higherin breast milk\u2013fed infants than in formula-fed infants (15 to17 mg/dL versus 12 mg/dL). This higher level may be partly aresult of the decreased fluid intake of infants fed breast milk. Jaundice is unphysiologic or pathologic if it is clinically evidenton the first day of life, if the bilirubin level increases more than 0.5 mg/dL/hr, if the peak bilirubin is greater than 13 mg/dLin term infants, if the direct bilirubin fraction is greater than 1.5 mg/dL, or if hepatosplenomegaly and anemia are present."
+        },
+        {
+            "id": "Immunology_Janeway_3652",
+            "title": "Immunology_Janeway",
+            "content": "14.4 True or False: Like other antibodies, IgE is mainly found in body fluids. 14.5 Matching: Match the following options with the best 14.6 Which of the following statements is true? A. Connective tissue mast cells do not participate in the initiation of an anaphylactic reaction. B. Epinephrine should be avoided in patients suffering from anaphylactic shock as it may worsen the patient\u2019s condition. C. During anaphylactic shock, blood vessels lose permeability, and high blood pressure leads to death. D. Penicillin can modify self proteins, causing an immune response with IgE production in some individuals that can lead to anaphylaxis upon re-encountering the drug. 14.7 Multiple Choice: Hypersensitivity reactions can cause pathology through the deposition of immune complexes. Which of the following is a mechanism by which immune complexes can be pathogenic? (More than one may apply.) ___ A. Immune complexes deposit in blood vessel walls."
+        },
+        {
+            "id": "InternalMed_Harrison_3241",
+            "title": "InternalMed_Harrison",
+            "content": "The thoughtful interpretation of limited data permits a rational evaluation of the patient (Fig. 58-1). The following discussion will focus solely on the evaluation of the adult patient with jaundice. ISOLATED ELEVATION OF SERuM BILIRuBIN unconjugated Hyperbilirubinemia The differential diagnosis of isolated unconjugated hyperbilirubinemia is limited (Table 58-1). The critical determination is whether the patient is suffering from a hemolytic process resulting in an overproduction of bilirubin (hemolytic disorders and ineffective erythropoiesis) or from impaired hepatic uptake/conjugation of bilirubin (drug effect or genetic disorders)."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1923",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Deficiency of G6PD occurs only in RBC. B. Deficiency of G6PD results in an inability to keep glutathione in its functional, reduced form. C. The pentose phosphate pathway includes one reversible reductive reaction followed by a series of phosphorylated sugar interconversions. D. The reduced nicotinamide adenine dinucleotide phosphate (NADPH) product of the pentose phosphate pathway is utilized in processes such as fatty acid oxidation. Q2. The results of JF's CBC were consistent with a hemolytic anemia. Blood chemistry tests revealed an elevation in the bilirubin level. Which of the following statements concerning bilirubin is correct? A. Hyperbilirubinemia can cause deposition of bilirubin in the skin and sclerae resulting in jaundice. B. The solubility of bilirubin is increased by conjugating it with two molecules of ascorbic acid in the liver. C. The conjugated form of bilirubin increases in the blood with a hemolytic anemia."
+        },
+        {
+            "id": "Surgery_Schwartz_9426",
+            "title": "Surgery_Schwartz",
+            "content": "intrahepatic ducts. Type IIIa and IIIb tumors extend into the right and left secondary intrahepatic ducts, respec-tively. Type IV tumors involve both the right and left secondary intrahepatic ducts.Clinical Manifestations and Diagnosis. Painless jaundice is the most common initial presentation in patients with cholangio-carcinoma. Pruritus, mild right upper quadrant pain, anorexia, fatigue, and weight loss may also be present. Cholangitis is the presenting symptom in about 10% of patients. Except for jaundice, physical examination is usually normal in patients with cholangiocarcinoma. Occasionally, asymptomatic patients are found to have cholangiocarcinoma while being evaluated for elevated liver function tests. Tumor markers, such as CA 125 and carcinoembryonic antigen (CEA), can be elevated in cholangiocarcinoma but tend to be nonspecific because they also increase in other GI and gynecologic malignancies. The tumor marker most commonly used to aid the diagnosis of"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1924",
+            "title": "Biochemistry_Lippinco",
+            "content": "B. The solubility of bilirubin is increased by conjugating it with two molecules of ascorbic acid in the liver. C. The conjugated form of bilirubin increases in the blood with a hemolytic anemia. D. Phototherapy can increase the solubility of the excess bilirubin generated in the porphyrias. Q3. Why is urinary urobilinogen increased relative to normal in hemolytic jaundice and absent in obstructive jaundice? Case 7: Joint Pain Patient Presentation: IR is a 22-year-old male who presents for follow-up 10 days after having been treated in the Emergency Department (ED) for severe inflammation at the base of his thumb."
+        },
+        {
+            "id": "Pediatrics_Nelson_1415",
+            "title": "Pediatrics_Nelson",
+            "content": "Breast milk jaundice may be associated with unconjugated hyperbilirubinemia without evidence of hemolysis during the first to second week of life. Bilirubin levels rarely increase to more than 20 mg/dL. Interruption of breastfeeding for 1 to 2 days results in a rapid decline of bilirubin levels, which do not increase significantly after breastfeeding resumes. Breast milk may contain an inhibitor of bilirubin conjugation or may increase enterohepatic recirculation of bilirubin because of breast milk glucuronidase. Jaundice on the first day of life is always pathologic, and immediate attention is needed to establish the cause. Early onset often is a result of hemolysis, internal hemorrhage (cephalhematoma, hepatic or splenic hematoma), or infection (Table 62-1). Infection also is often associated with direct-reacting bilirubin resulting from perinatal congenital infections or from bacterial sepsis."
+        },
+        {
+            "id": "Surgery_Schwartz_11460",
+            "title": "Surgery_Schwartz",
+            "content": "bilirubin. In the newborn infant, bilirubin is conjugated through the activity of glucoronyl transferase. In the conjugated form, bilirubin is water soluble, which results in its excretion into the biliary system and then into the gastrointestinal tract. Newborns have a relatively high level of circulating hemoglobin and relative immaturity of the conjugating machinery. This results in a transient accumulation of bilirubin in the tissues, which is manifested as jaundice. Physi-ologic jaundice is evident by the second or third day of life and usually resolves within approximately 5 to 7 days. By definition, jaundice that persists beyond 2 weeks is considered pathologic.Pathologic jaundice may be due to biliary obstruction, increased hemoglobin load, or to liver dysfunction. The workup of the jaundiced infant therefore should include a search for the following possibilities: (a) obstructive disorders, including biliary atresia, choledochal cyst, and inspissated bile syndrome; (b)"
+        },
+        {
+            "id": "InternalMed_Harrison_3250",
+            "title": "InternalMed_Harrison",
+            "content": "of any accompanying signs and symptoms, such as arthralgias, myalgias, rash, anorexia, weight loss, abdominal pain, fever, pruritus, and changes in the urine and stool. While none of the latter manifestations is specific for any one condition, any of them can suggest a particular diagnosis. A history of arthralgias and myalgias predating jaundice suggests hepatitis, either viral or drug-related. Jaundice associated with the sudden onset of severe right-upper-quadrant pain and shaking chills suggests choledocholithiasis and ascending cholangitis."
+        },
+        {
+            "id": "Pathology_Robbins_1913",
+            "title": "Pathology_Robbins",
+            "content": "are not uncommon, particularly in the United Kingdom. In the United States, acetaminophen toxicity is causes about 50% of acute liver failure. Toxicity begins with nausea, vomiting, diarrhea, and sometimes shock, followed in a few days by the appearance of jaundice. Overdoses of acetaminophen can be treated in early stages by the administration of N-acetylcysteine, which restores GSH. With serious overdoses, liver failure ensues, and centrilobular necrosis may extend to involve entire lobules; such patients often require liver transplantation. Some patients also show evidence of concurrent renal damage."
+        },
+        {
+            "id": "InternalMed_Harrison_8268",
+            "title": "InternalMed_Harrison",
+            "content": "clinical features AIHA is a serious condition; without appropriate treatment, it may have a mortality of approximately 10%. The onset is often abrupt and can be dramatic. The hemoglobin level can drop, within days, to as low as 4 g/dL; the massive red cell removal will produce jaundice; and sometimes the spleen is enlarged. When this triad is present, the suspicion of AIHA must be high. When hemolysis is (in part) intravascular, the telltale sign will be hemoglobinuria, which the patient may report or about which we must enquire or test for. The diagnostic test for AIHA is the direct antiglobulin test developed in 1945 by R. R. A. Coombs and known since by this name. The beauty of this test is that it detects directly the pathogenetic mediator of the disease, i.e., the presence of antibody on the red cells themselves. When the test is positive, it clinches the diagnosis; when it is negative, the diagnosis is unlikely. However, the sensitivity of the Coombs test varies depending on the"
+        },
+        {
+            "id": "Pathology_Robbins_3984",
+            "title": "Pathology_Robbins",
+            "content": "Jaundice also may result from inborn errors of metabolism, including the following: \u2022 Gilbert syndrome is a common (7% of the population) inherited condition that manifests as fluctuating unconjugated hyperbilirubinemia of variable severity. The primary cause is mildly decreased hepatic levels of glucuronosyltransferase attributed to a mutation in the encoding gene, UGT1A1; polymorphisms in the gene may play a role in the variable expression of this disorder. Gilbert syndrome is not associated with any morbidity. By contrast, severe glucuronosyltransferase deficiency causes a rare disorder called Crigler-Najjar Syndrome Type 1 that is fatal in infancy."
+        },
+        {
+            "id": "Obstentrics_Williams_7567",
+            "title": "Obstentrics_Williams",
+            "content": "Any evidence for severe disease should prompt hospitalization. These include persistent nausea and vomiting, prolonged prothrombin time, low serum albumin level, hypoglycemia, high serum bilirubin level, or central nervous system symptoms. In most cases, however, clinical and biochemical recovery is complete within 1 to 2 months in all cases of hepatitis A, in most cases of hepatitis B, but in only a small proportion of cases of hepatitis C."
+        },
+        {
+            "id": "Pathoma_Husain_288",
+            "title": "Pathoma_Husain",
+            "content": "C. Presents as sepsis (high fever and chills), jaundice, and abdominal pain D. Increased incidence with choledocholithiasis (stone in biliary ducts) VII. GALLSTONE ILEUS A. Gallstone enters and obstructs the small bowel B. Due to cholecystitis with fistula formation between the gallbladder and small bowel VIII.GALLBLADDER CARCINOMA A. Adenocarcinoma arising from the glandular epithelium that lines the gallbladder wall (Fig. 11.4) B. Gallstones are a major risk factor, especially when complicated by porcelain gallbladder. C. Classically presents as cholecystitis in an elderly woman D. Poor prognosis I. JAUNDICE A. Yellow discoloration of the skin (Fig. 11.5); earliest sign is scleral icterus (yellow discoloration of the sclera). B. Due to t serum bilirubin, usually > 2.5 mg/dL C. Arises with disturbances in bilirubin metabolism (Table 11.1) D. Normal bilirubin metabolism 1. RBCs are consumed by macrophages of the reticuloendothelial system. 2."
+        },
+        {
+            "id": "Pathology_Robbins_3983",
+            "title": "Pathology_Robbins",
+            "content": "Because the hepatic machinery for conjugating and excreting bilirubin does not fully mature until about 2 weeks of age, almost every newborn develops transient and mild unconjugated hyperbilirubinemia, termed neonatal jaundice or physiologic jaundice of the newborn. This may be exacerbated by breastfeeding, due to the action of bilirubindeconjugating enzymes in breast milk. Nevertheless, sustained jaundice in the newborn is abnormal and is discussed later in the \u201c \u201d section."
+        },
+        {
+            "id": "InternalMed_Harrison_13926",
+            "title": "InternalMed_Harrison",
+            "content": "Renal failure, often reversible with rehydration, is caused by acute tubular necrosis in severe cases with shock. Hepatic injury with increased serum aminotransferase concentrations (38% of cases) is due to focal death of individual hepatocytes without hepatic failure. Jaundice is recognized in 9% of cases and an elevated serum bilirubin concentration in 18\u201330%. Life-threatening bleeding is rare. Anemia develops in 30% of cases and is severe enough to require transfusions in 11%. Blood is detected in the stool or vomitus of 10% of patients, and death has followed massive upper-gastrointestinal hemorrhage."
+        },
+        {
+            "id": "InternalMed_Harrison_22252",
+            "title": "InternalMed_Harrison",
+            "content": "Jaundice Jaundice results from prehepatic, intrahepatic, or post-hepatic disease. Posthepatic causes of jaundice include biliary diseases, such as choledocholithiasis, acute cholangitis, primary sclerosing cholangitis, other strictures, and neoplasm, and pancreatic disorders, such as acute and chronic pancreatitis, stricture, and malignancy."
+        },
+        {
+            "id": "Immunology_Janeway_3651",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 14.1 True or False: Only TH2 cells can initiate the chain of signals needed to induce B cells to class-switch to IgE. 14.2 Multiple Choice: Which of the following has not been associated with genetic susceptibility to both allergic asthma and atopic eczema? A. \u03b2 subunit of Fc\u03b5RI B. GM-CSF C. IL-3 D. IL-4 E. IFN-\u03b3 14.3 Different factors affect our susceptibility to allergic diseases. Which of the following is a false statement? A. Environmental factors rarely contribute to the development of allergic disease. B. The prevalence of atopy has been steadily increasing in the developed world. C. Individuals with variant alleles of GSTP1 and GSTM1 have higher susceptibility to increased airway hyperactivity. D. Children less than 6 months old who are exposed to other children in day care appear to be partially protected against asthma. 14.4 True or False: Like other antibodies, IgE is mainly found in body fluids."
+        }
+    ],
+    "scores": [
+        0.027763829014480396,
+        0.026723122556455887,
+        0.026561911608640583,
+        0.02516058296010509,
+        0.022275741436925647,
+        0.022247632803723317,
+        0.02027754763877382,
+        0.018575851393188854,
+        0.018255746411086217,
+        0.018234323432343234,
+        0.018219461697722567,
+        0.01801874595992243,
+        0.017857142857142856,
+        0.017704661182922053,
+        0.017593297791317596,
+        0.01720573032048442,
+        0.01688515246508977,
+        0.016584766584766583,
+        0.016361950185479597,
+        0.016351457840819542,
+        0.01605392156862745,
+        0.016035959424163276,
+        0.015668481548699334,
+        0.014803921568627452,
+        0.014765173804075406,
+        0.014729867482161062,
+        0.014554127725856698,
+        0.014463967405143874,
+        0.014437469821342346,
+        0.01422081769701758,
+        0.014188861985472156,
+        0.01406116844995739
+    ],
+    "execution_time": 44.49904274940491
+}

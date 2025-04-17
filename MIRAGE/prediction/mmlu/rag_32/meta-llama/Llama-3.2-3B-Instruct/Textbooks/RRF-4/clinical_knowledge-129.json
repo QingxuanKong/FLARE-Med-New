@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-129",
+    "question": "Pairs of electrons carried in the form, FADH2 and NADH+H, collectively contain enough free energy to rephosphorylate:",
+    "options": {
+        "A": "6 ATP.",
+        "B": "5 ATP.",
+        "C": "4 ATP.",
+        "D": "3 ATP."
+    },
+    "answer": "B",
+    "predict": "Here's the step-by-step thinking and the final answer in JSON format: {\"step_by_step_thinking\": \"To solve this question, we need to calculate the total number of ATP molecules that can be generated from the energy contained in FADH2 and NADH+H. According to Document [5], three pairs of electrons are transferred during one turn of the TCA cycle, reducing three NAD+ to NADH and one pair reducing FAD to FADH2. Oxidation of one NADH by the ETC leads to formation of three ATP, whereas oxidation of FADH2 produces two ATP. Therefore, the total yield of ATP from the oxidation of one acetyl CoA is 3 (from NADH) + 2 (from FADH2) = 5 ATP molecules.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_3809",
+            "title": "Cell_Biology_Alberts",
+            "content": "In an exactly analogous way, pairs of compounds such as NADH and NAD+ are called redox pairs, since NADH is converted to NAD+ by the loss of electrons in the reaction: NADH is a strong electron donor: because two of its electrons are engaged in a covalent bond which releases energy when broken, the free-energy change for passing these electrons to many other molecules is favorable. Energy is required to form this bond from NAD+, two electrons, and a proton (the same amount of energy that was released when the bond was broken). Therefore NAD+, the redox partner of NADH, is of necessity a weak electron acceptor."
+        },
+        {
+            "id": "Biochemistry_Lippincott_258",
+            "title": "Biochemistry_Lippinco",
+            "content": "F = Faraday constant (23.1 kcal/volt mol) \u2206E0 = E0 of the electron-accepting pair minus the E0 of the electron-donating pair \u2206G0 = change in the standard free energy 4. \u2206G0 of ATP: The \u2206G0 for the phosphorylation of ADP to ATP is +7.3 kcal/mol. The transport of a pair of electrons from NADH to O2 through the ETC releases 52.6 kcal. Therefore, more than sufficient energy is available to produce three ATP from three ADP and three Pi (3 \u00d7 7.3 = 21.9 kcal/mol), sometimes expressed as a P/O ratio (ATP made per O atom reduced) of 3:1. The remaining calories are used for ancillary reactions or released as heat. [Note: The P:O for FADH2 is 2:1 because Complex I is bypassed.] VI. PHOSPHORYLATION OF ADP TO ATP The transfer of electrons down the ETC is energetically favored because NADH is a strong electron donor and O2 is an avid electron acceptor. However, the flow of electrons does not directly result in ATP synthesis. A. Chemiosmotic hypothesis"
+        },
+        {
+            "id": "Biochemistry_Lippincott_272",
+            "title": "Biochemistry_Lippinco",
+            "content": "The change in free energy (\u2206G) occurring during a reaction predicts the direction in which that reaction will spontaneously proceed. If \u2206G is negative (that is, the product has a lower free energy than the substrate), then the reaction is spontaneous as written. If \u2206G is positive, then the reaction is not spontaneous. If \u2206G = 0, then the reaction is in equilibrium. The \u2206G of the forward reaction is equal in magnitude but opposite in sign to that of the back reaction. The \u2206G are additive in any sequence of consecutive reactions, as are the standard free energy changes (\u2206G0). Therefore, reactions or processes that have a large, positive \u2206G are made possible by coupling with those that have a large, negative \u2206G such as ATP hydrolysis. The reduced coenzymes nicotinamide adenine dinucleotide (NADH) and flavin adenine dinucleotide (FADH2) each donate a pair of electrons to a specialized set of electron carriers, consisting of flavin mononucleotide (FMN), iron-sulfur centers, coenzyme Q, and"
+        },
+        {
+            "id": "Biochemistry_Lippincott_257",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. Standard reduction potential: The E0 of various redox pairs can be ordered from the most negative E0 to the most positive. The more negative the E0 of a redox pair, the greater the tendency of the reductant member of that pair to lose electrons. The more positive the E0, the greater the tendency of the oxidant member of that pair to accept electrons. Therefore, electrons flow from the pair with the more negative E0 to that with the more positive E0. The E0 values for some members of the ETC are shown in Figure 6.12. [Note: The components of the chain are arranged in order of increasingly positive E0 values.] 3. Relationship of \u2206G0 to \u2206E0: The \u2206G0 is related directly to the magnitude of the change in E0: where n = number of electrons transferred (1 for a cytochrome, 2 for NADH, FADH2, and CoQ)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_320",
+            "title": "Cell_Biology_Alberts",
+            "content": "Thus, ATP transfers phosphate, NADPH transfers electrons and hydrogen, and acetyl CoA transfers two-carbon acetyl groups. FADH2 (reduced flavin adenine dinucleotide) is used like NADH in electron and proton transfers (Figure 2\u201339). The reactions of other activated carrier molecules involve the transfer of a methyl, carboxyl, or glucose group for biosyntheses (Table 2\u20133). These activated carriers Figure 2\u201338 The structure of the important activated carrier molecule acetyl Coa. a ball-and-stick model is shown above the structure. The sulfur atom (yellow) forms a thioester bond to acetate. Because this is a high-energy linkage, releasing a large amount of free energy when it is hydrolyzed, the acetate molecule can be readily transferred to other molecules. Figure 2\u201339 FaDH2 is a carrier of hydrogens and high-energy electrons, like NaDH and NaDPH. (a) structure of faDh2, with its hydrogen-carrying atoms highlighted in yellow. (B) The formation of faDh2 from faD."
+        },
+        {
+            "id": "Biochemistry_Lippincott_393",
+            "title": "Biochemistry_Lippinco",
+            "content": "III. ENERGY PRODUCED BY THE CYCLE Four pairs of electrons are transferred during one turn of the TCA cycle: three pairs reducing three NAD+ to NADH and one pair reducing FAD to FADH2. Oxidation of one NADH by the ETC leads to formation of three ATP, whereas oxidation of FADH2 produces two ATP (see p. 77). The total yield of ATP from the oxidation of one acetyl CoA is shown in Figure 9.7. Figure 9.8 summarizes the reactions of the TCA cycle. [Note: The cycle does not involve the net consumption or production of intermediates. Two carbons entering as acetyl CoA are balanced by two CO2 exiting.] dinucleotides; GDP and GTP = guanosine di-and triphosphates; Pi = inorganic phosphate. IV. CYCLE REGULATION"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3812",
+            "title": "Cell_Biology_Alberts",
+            "content": "As just discussed, those pairs of compounds that have the most negative redox potentials have the weakest affinity for electrons and therefore are useful as carriers with a strong tendency to donate electrons. Conversely, those pairs that have the most positive redox potentials have the greatest affinity for electrons and therefore are useful as carriers with a strong tendency to accept electrons. A 1:1 mixture of NADH and NAD+ has a redox potential of \u2013320 mV, indicating that NADH has a strong tendency to donate electrons; a 1:1 mixture of H2O and \u00bdO2 has a redox potential of +820 mV, indicating that O2 has a strong tendency to accept electrons. The difference in redox potential is 1140 mV, which means that the transfer of each electron from NADH to O2 under these standard conditions is enormously favorable, since \u2206G\u00b0 = \u2013109 kJ/mole, and twice this amount of energy is gained for the two electrons transferred per NADH molecule (see Panel 14\u20131). If we compare this free-energy change"
+        },
+        {
+            "id": "Cell_Biology_Alberts_312",
+            "title": "Cell_Biology_Alberts",
+            "content": "naDh and naDph are important electron Carriers Other important activated carrier molecules participate in oxidation\u2013reduction reactions and are commonly part of coupled reactions in cells. These activated carriers are specialized to carry electrons held at a high energy level (sometimes called \u201chigh-energy\u201d electrons) and hydrogen atoms. The most important of these electron carriers are NAD+ (nicotinamide adenine dinucleotide) and the closely related molecule NADP+ (nicotinamide adenine dinucleotide phosphate). Each picks up a \u201cpacket of energy\u201d corresponding to two electrons plus a proton (H+), and they are thereby converted to NADH (reduced nicotinamide adenine dinucleotide) and NADPH (reduced nicotinamide adenine dinucleotide phosphate), respectively (Figure 2\u201336). These molecules can therefore be regarded as carriers of hydride ions (the H+ plus two electrons, or H\u2013)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3813",
+            "title": "Cell_Biology_Alberts",
+            "content": "enormously favorable, since \u2206G\u00b0 = \u2013109 kJ/mole, and twice this amount of energy is gained for the two electrons transferred per NADH molecule (see Panel 14\u20131). If we compare this free-energy change with that for the formation of the phosphoanhydride bonds in ATP, where \u2206G\u00b0 = 30.6 kJ/mole (see Figure 2\u201350), we see that, under standard conditions, the oxidation of one NADH molecule releases more than enough energy to synthesize seven molecules of ATP from ADP and Pi. (In the cell, the number of ATP molecules generated will be lower because the standard conditions are far from the physiological ones; in addition, small amounts of energy are inevitably dissipated as heat along the way.)"
+        },
+        {
+            "id": "Cell_Biology_Alberts_3808",
+            "title": "Cell_Biology_Alberts",
+            "content": "Because electron transfers provide most of the energy for life, it is worth taking the time to understand them. As discussed in Chapter 2, acids donate protons and bases accept them (see Panel 2\u20132, p. 93). Acids and bases exist in conjugate acid\u2013base pairs, in which the acid is readily converted into the base by the loss of a proton. For example, acetic acid (CH3COOH) is converted into its conjugate base, the acetate ion (CH3COO\u2013), in the reaction: In an exactly analogous way, pairs of compounds such as NADH and NAD+ are called redox pairs, since NADH is converted to NAD+ by the loss of electrons in the reaction:"
+        },
+        {
+            "id": "Cell_Biology_Alberts_314",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201336 NaDPH, an important carrier of electrons. HC (a) naDph is produced in reactions of the general type shown on the left, in which two hydrogen atoms are removed from a substrate. The oxidized form of the carrier molecule, naDp+, receives one hydrogen atom plus an electron (a hydride ion); the proton (h+) from the other h atom is released into solution. Because naDph holds its hydride ion in a high-energy linkage, the hydride ion can easily be transferred to other molecules, as shown on the right. (B) and (C) The structures of naDp+ and naDph. The part of the naDp+ molecule known as the nicotinamide ring accepts the hydride ion, h\u2013, forming naDph. The molecules naD+ and naDh are identical in structure to naDp+ and naDph, respectively, except that they lack the indicated phosphate group."
+        },
+        {
+            "id": "Biochemistry_Lippincott_256",
+            "title": "Biochemistry_Lippinco",
+            "content": "Redox pairs: Oxidation (loss of electrons) of one substance is always accompanied by reduction (gain of electrons) of a second. For example, Figure 6.11 shows the oxidation of NADH to NAD+ by NADH dehydrogenase at Complex I, accompanied by the reduction of FMN, the prosthetic group, to FMNH2. Such redox reactions can be written as the sum of two separate half reactions, one an oxidation and the other a reduction (see Fig. 6.11). NAD+ and NADH form a redox pair, as do FMN and FMNH2. Redox pairs differ in their tendency to lose electrons. This tendency is a characteristic of a particular redox pair and can be quantitatively specified by a constant, E0 (the standard reduction potential), with units in volts. 2."
+        },
+        {
+            "id": "Biochemistry_Lippincott_255",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. Free energy release during electron transport The free energy released as electrons are transferred along the ETC from an electron donor (reducing agent or reductant) to an electron acceptor (oxidizing agent or oxidant) is used to pump H+ at Complexes I, III, and IV. [Note: The electrons can be transferred as hydride ions to NAD+; as hydrogen atoms to FMN, CoQ, and FAD; or as electrons to cytochromes.] 1."
+        },
+        {
+            "id": "Biochemistry_Lippincott_243",
+            "title": "Biochemistry_Lippinco",
+            "content": "Energy-rich molecules, such as glucose, are metabolized by a series of oxidation reactions ultimately yielding carbon dioxide and water (H2O), as shown in Figure 6.6. The metabolic intermediates of these reactions donate electrons to specific coenzymes, nicotinamide adenine dinucleotide (NAD+) and flavin adenine dinucleotide (FAD), to form the energy-rich reduced forms, NADH and FADH2. These reduced coenzymes can, in turn, each donate a pair of electrons to a specialized set of electron carriers, collectively called the electron transport chain (ETC), described in this section. As electrons are passed down the ETC, they lose much of their free energy. This energy is used to move H+ across the inner mitochondrial membrane, creating a H+ gradient that drives the production of ATP from ADP and inorganic phosphate (Pi), described on p. 77. The coupling of electron transport with ATP synthesis is called oxidative phosphorylation, sometimes denoted as OXPHOS. It proceeds continuously in all"
+        },
+        {
+            "id": "Biochemistry_Lippincott_250",
+            "title": "Biochemistry_Lippinco",
+            "content": "2. NADH dehydrogenase: The free H+ plus the hydride ion carried by NADH are transferred to NADH dehydrogenase, a protein complex (Complex I) embedded in the inner mitochondrial membrane. Complex I has a tightly bound molecule of flavin mononucleotide (FMN), a coenzyme structurally related to FAD (see Fig. 28.15, p. 384) that accepts the two hydrogen atoms (2 electrons + 2 H+), becoming FMNH2. NADH dehydrogenase also contains peptide subunits with Fe-S centers (Fig. 6.9). At Complex I, electrons move from NADH to FMN to the iron of the Fe-S centers and then to CoQ. As electrons flow, they lose energy. This energy is used to pump four H+ across the inner mitochondrial membrane, from the matrix to the intermembrane space. 3. Succinate dehydrogenase: At Complex II, electrons from the succinate dehydrogenase\u2013catalyzed oxidation of succinate to fumarate move from the coenzyme, FADH2, to an Fe-S protein, and then to CoQ. [Note:"
+        },
+        {
+            "id": "Cell_Biology_Alberts_369",
+            "title": "Cell_Biology_Alberts",
+            "content": "We have thus far discussed only one of the three types of activated carrier molecules that are produced by the citric acid cycle; NADH, the reduced form of the NAD+/NADH electron carrier system (see Figure 2\u201336). In addition to three molecules of NADH, each turn of the cycle also produces one molecule of FADH2 (reduced flavin adenine dinucleotide) from FAD (see Figure 2\u201339), and one molecule of the ribonucleoside triphosphate GTP from GDP. The structure of GTP is illustrated in Figure 2\u201358. GTP is a close relative of ATP, and the transfer of its terminal phosphate group to ADP produces one ATP molecule in each cycle. As we discuss shortly, the energy that is stored in the readily transferred electrons of NADH and FADH2 will be utilized subsequently for ATP production through the rest of hydrocarbon tail fatty acyl CoA shortened by two carbons"
+        },
+        {
+            "id": "Biochemistry_Lippincott_273",
+            "title": "Biochemistry_Lippinco",
+            "content": "and flavin adenine dinucleotide (FADH2) each donate a pair of electrons to a specialized set of electron carriers, consisting of flavin mononucleotide (FMN), iron-sulfur centers, coenzyme Q, and a series of heme-containing cytochromes, collectively called the electron transport chain. This pathway is present in the inner mitochondrial membrane (impermeable to most substances) and is the final common pathway by which electrons derived from different fuels of the body flow to oxygen (O2), which has a large, positive reduction potential (E0), reducing it to water. The terminal cytochrome, cytochrome c oxidase, is the only cytochrome able to bind O2. Electron transport results in the pumping of protons (H+) across the inner mitochondrial membrane from the matrix to the intermembrane space, 10 H+ per NADH oxidized. This process creates electrical and pH gradients across the inner mitochondrial membrane. After H+ have been transferred to the cytosolic side of the membrane, they reenter the"
+        },
+        {
+            "id": "Biochemistry_Lippincott_259",
+            "title": "Biochemistry_Lippinco",
+            "content": "A. Chemiosmotic hypothesis The chemiosmotic hypothesis (also known as the Mitchell hypothesis) explains how the free energy generated by the transport of electrons by the ETC is used to produce ATP from ADP + Pi. 1. Proton pump: Electron transport is coupled to ADP phosphorylation by the pumping of H+ across the inner mitochondrial membrane, from the matrix to the intermembrane space, at Complexes I, III, and IV. For each pair of electrons transferred from NADH to O2, 10 H+ are pumped. This creates an electrical gradient (with more positive charges on the cytosolic side of the membrane than on the matrix side) and a pH (chemical) gradient (the cytosolic side of the membrane is at a lower pH than the matrix side), as shown in Figure 6.13. The energy (proton-motive force) generated by these gradients is sufficient to drive ATP synthesis. Thus, the H+ gradient serves as the common intermediate that couples oxidation to phosphorylation. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3817",
+            "title": "Cell_Biology_Alberts",
+            "content": "CALCULATION OF \u02dcGo FROM REDOX POTENTIALS E0 \u00b0 E0 \u00b0 To determine the energy change for an electron transfer, the \u02dcG o of the reaction (kJ/mole) is calculated as follows: \u02dcG o = \u2013n(0.096) \u02dcE0 , where n is the number of electrons transferred across a redox potential change of \u02dcE0 millivolts (mV), and \u02dcE0 = (acceptor) \u2013 (donor) EXAMPLE: \u00b0 \u00b0 \u00b0 EFFECT OF CONCENTRATION CHANGES As explained in Chapter 2 (see p. 60), the actual free-energy change for a reaction, \u02dcG, depends on the concentration of the reactants and generally will be different from the standard free-energy change, \u02dcGo. The standard redox potentials are for a 1:1 mixture of the redox pair. For example, the standard redox potential of \u2013320 mV is for a 1:1 mixture of NADH and NAD+. But when there is an excess of NADH over NAD+, electron transfer from NADH to an electron acceptor becomes more favorable. This is refected by a more negative redox potential and a more negative \u02dcG for electron transfer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3863",
+            "title": "Cell_Biology_Alberts",
+            "content": "phosphorylation, each pair of electrons donated by the NADH produced in mitochondria can provide energy for the formation of about 2.5 molecules of ATP. Oxidative phosphorylation also produces 1.5 ATP molecules per electron pair from the FADH2 produced by succinate dehydrogenase in the mitochondrial matrix, and from the NADH molecules produced by glycolysis in the cytosol. From the product yields of glycolysis and the citric acid cycle, we can calculate that the complete oxidation of one molecule of glucose\u2014starting with glycolysis and ending with oxidative phosphorylation\u2014gives a net yield of about 30 molecules of ATP. Nearly all this ATP is produced by the mitochondrial ATP synthase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_373",
+            "title": "Cell_Biology_Alberts",
+            "content": "Most chemical energy is released in the last stage in the degradation of a food molecule. In this final process, NADH and FADH2 transfer the electrons that they gained when oxidizing food-derived organic molecules to the electron-transport chain, which is embedded in the inner membrane of the mitochondrion (see Figure 14\u201310). As the electrons pass along this long chain of specialized electron acceptor and donor molecules, they fall to successively lower energy states. The energy that the electrons release in this process pumps H+ ions (protons) across the membrane\u2014from the innermost mitochondrial compartment (the matrix) to the intermembrane space (and then to the cytosol)\u2014generating a gradient of H+ ions (Figure 2\u201360). This gradient serves as a major source of energy for cells, being tapped like a battery to drive a variety of energy-requiring reactions. The most prominent of these reactions is the generation of ATP by the phosphorylation of ADP."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3810",
+            "title": "Cell_Biology_Alberts",
+            "content": "We can measure the tendency to transfer electrons from any redox pair experimentally. All that is required is the formation of an electrical circuit linking a 1:1 (equimolar) mixture of the redox pair to a second redox pair that has been arbitrarily selected as a reference standard, so that we can measure the voltage difference between them (Panel 14\u20131). This voltage difference is defined as the redox potential; electrons move spontaneously from a redox pair like NADH/NAD+ with a lower redox potential (a lower affinity for electrons) to a redox pair like O2/H2O with a higher redox potential (a higher affinity for electrons). Thus, NADH is a good molecule for donating electrons to the respiratory chain, while O2 is well suited to act as the \u201csink\u201d for electrons at the end of the chain. As explained in Panel 14\u20131, the difference in redox potential, \u2206E\u02b90, is a direct measure of the standard free-energy change (\u2206G\u00b0) for the transfer of an electron from one molecule to another."
+        },
+        {
+            "id": "Cell_Biology_Alberts_315",
+            "title": "Cell_Biology_Alberts",
+            "content": "this phosphate group is missing in NAD+ and NADH regenerates NADP+, it is the NADPH that is oxidized and the substrate that is reduced. The NADPH is an effective donor of its hydride ion to other molecules for the same reason that ATP readily transfers a phosphate: in both cases the transfer is accompanied by a large negative free-energy change. One example of the use of NADPH in biosynthesis is shown in Figure 2\u201337. The extra phosphate group on NADPH has no effect on the electron-transfer properties of NADPH compared with NADH, being far away from the region involved in electron transfer (see Figure 2\u201336C). It does, however, give a molecule of NADPH a slightly different shape from that of NADH, making it possible for NADPH and NADH to bind as substrates to completely different sets of enzymes. Thus, the two types of carriers are used to transfer electrons (or hydride ions) between two different sets of molecules."
+        },
+        {
+            "id": "Cell_Biology_Alberts_316",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why should there be this division of labor? The answer lies in the need to regulate two sets of electron-transfer reactions independently. NADPH operates chiefly with enzymes that catalyze anabolic reactions, supplying the high-energy electrons needed to synthesize energy-rich biological molecules. NADH, by contrast, has a special role as an intermediate in the catabolic system of reactions that generate ATP through the oxidation of food molecules, as we will discuss shortly. The genesis of NADH from NAD+, and of NADPH from NADP+, occur by different pathways and are independently regulated, so that the cell can adjust the supply of electrons for these two contrasting purposes. Inside the cell the ratio of NAD+ to NADH is kept high, whereas the ratio of NADP+ to NADPH is kept low. This provides plenty of NAD+ to act as an oxidizing agent and plenty of NADPH to act as a reducing agent (Figure 2\u201337B)\u2014as required for their special roles in catabolism and anabolism, respectively."
+        },
+        {
+            "id": "Cell_Biology_Alberts_346",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201348 outlines this remarkable feat of energy harvesting. The chemical reactions are precisely guided by two enzymes to which the sugar intermediates A short-lived covalent bond is formed between glyceraldehyde 3-phosphate and the \u2013SH group of a cysteine side chain of the enzyme glyceraldehyde 3-phosphate dehydrogenase. The enzyme also binds noncovalently to NAD+. Glyceraldehyde 3-phosphate is oxidized as the enzyme removes a hydrogen atom (yellow) and transfers it, along with an electron, to NAD+, forming NADH (see Figure 2\u201337). Part of the energy + H+ released by the oxidation of the aldehyde is thus stored in NADH, and part is stored in the high- glyceraldehyde 3-phosphate to the CO enzyme. A molecule of inorganic phosphatehigh-energy inorganic displaces the high-energy thioesterphosphate phosphate bond to create 1,3-bisphospho-glycerate, which contains a high-energy phosphate bond. 1,3-bisphosphoglycerate"
+        },
+        {
+            "id": "Cell_Biology_Alberts_382",
+            "title": "Cell_Biology_Alberts",
+            "content": "Figure 2\u201361 The final stages of oxidation of food molecules. molecules of naDh and faDh2 (faDh2 is not shown) are produced by the citric acid cycle. These activated carriers donate high-energy electrons that are eventually used to reduce oxygen gas to water. a major portion of the energy released during the transfer of these electrons along an electron-transfer chain in the mitochondrial inner membrane (or in the plasma membrane of bacteria) is harnessed to drive the synthesis of aTp\u2014 hence the name oxidative phosphorylation (discussed in Chapter 14). metabolism is highly organized and Regulated One gets a sense of the intricacy of a cell as a chemical machine from the relation of glycolysis and the citric acid cycle to the other metabolic pathways sketched out in Figure 2\u201363. This chart represents only some of the enzymatic pathways in a human cell. It is obvious that our discussion of cell metabolism has dealt with only a tiny fraction of the broad field of cell chemistry."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4037",
+            "title": "Cell_Biology_Alberts",
+            "content": "Why is the mutation rate so much higher in mitochondria than in the nucleus (and chloroplasts)? Could this high rate have been useful to the cell? What mechanisms and pathways have been used during evolution to transfer genes from the mitochondrion to the nucleus? how many seconds would it take the heart to consume an amount of ATP equal to its steady-state levels? (Complete oxidation of one molecule of glucose to CO2 yields 30 ATP, 26 of which are derived by oxidative phosphorylation using the 12 pairs of electrons captured in the electron carriers NADH and FADH2.) 14\u20136 Both H+ and Ca2+ are ions that move through the cytosol. Why is the movement of H+ ions so much faster than that of Ca2+ ions? How do you suppose the speed of these two ions would be affected by freezing the solution? Would you expect them to move faster or slower? Explain your answer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3835",
+            "title": "Cell_Biology_Alberts",
+            "content": "The reduction of each quinone by the transfer of two electrons can cause four protons to be pumped out of the matrix into the crista space. In this way, NADH dehydrogenase generates roughly half of the total proton-motive force in mitochondria. Cytochrome c reductase takes Up and releases protons on the Opposite Side of the Crista Membrane, thereby pumping protons As described previously, when a quinone molecule (Q) accepts its two electrons, it also takes up two protons to form a quinol (QH2; see Figure 14\u201317). In cytochrome c oxidase complex pumps one per electron. Note that NaDh is not the only source of electrons for the respiratory chain. the flavin FaDh2, which is generated by fatty acid oxidation (see Figure 2\u201356) and by succinate dehydrogenase in the citric acid cycle (see Figure 2\u201357), also contributes. Its two electrons are passed directly to ubiquinone, bypassing NaDh dehydrogenase."
+        },
+        {
+            "id": "Cell_Biology_Alberts_3831",
+            "title": "Cell_Biology_Alberts",
+            "content": "along the mitochondrial electron _400 transport chain. the redox potential _300 (designated E\u02b90) increases as electrons flow down the respiratory chain to oxygen. the _200 standard free-energy change in kilojoules, _100 \u2206G\u00b0, for the transfer of each of the two can be obtained from the left-hand ordinate [\u2206G\u00b0 = \u2013n(0.096) \u2206E\u02b90, where n is the number of electrons transferred across a redox potential change of \u2206E\u02b90 mV]. Electrons flow through a respiratory through the multiple electron carriers in 500 each complex (blue arrows). as indicated, part of the favorable free-energy change 600 is harnessed by each enzyme complex to 700 pump h+ across the inner mitochondrial membrane (red arrows). the NaDh 800 dehydrogenase pumps up to four h+ per electron, the cytochrome c reductase complex pumps two, whereas the direction of electron fow"
+        },
+        {
+            "id": "Cell_Biology_Alberts_349",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) summary of the overall chemical change produced by reactions 6 and 7. are tightly bound. As detailed in Figure 2\u201348, the first enzyme (glyceraldehyde 3-phosphate dehydrogenase) forms a short-lived covalent bond to the aldehyde through a reactive \u2013SH group on the enzyme, and catalyzes its oxidation by NAD+ in this attached state. The reactive enzyme\u2013substrate bond is then displaced by an inorganic phosphate ion to produce a high-energy phosphate intermediate, which is released from the enzyme. This intermediate binds to the second enzyme (phosphoglycerate kinase), which catalyzes the energetically favorable transfer of the high-energy phosphate just created to ADP, forming ATP and completing the process of oxidizing an aldehyde to a carboxylic acid. Note that the C\u2013H bond oxidation energy in step 6 drives the formation of both NADH and a high-energy phosphate bond. The breakage of the high-energy bond then drives ATP formation."
+        },
+        {
+            "id": "Cell_Biology_Alberts_443",
+            "title": "Cell_Biology_Alberts",
+            "content": "In the frst of four oxidation steps in the cycle, the carbon carrying the hydroxyl group is converted to a carbonyl group. The immediate product is unstable, losing CO2 while still bound to the enzyme. The \u02dc-ketoglutarate dehydrogenase complex closely resembles the large enzyme complex that converts pyruvate to acetyl CoA, the pyruvate dehydrogenase complex in Figure 13\u201310. It likewise catalyzes an oxidation that produces NADH, CO2, and a high-energy thioester bond to coenzyme A (CoA). A phosphate molecule from solution displaces the CoA, forming a high-energy phosphate linkage to succinate. This phosphate is then passed to GDP to form GTP. (In bacteria and plants, ATP is formed instead.) In the third oxidation step in the cycle, FAD accepts two hydrogen atoms from succinate. The addition of water to fumarate places a hydroxyl group next to a carbonyl carbon. COO\u2013COO\u2013HOHHHHCCCisocitrate isocitrate dehydrogenase CO2COO\u2013COO\u2013COO\u2013HHHOCCCoxalosuccinate intermediate COO\u2013+ H+"
+        },
+        {
+            "id": "Cell_Biology_Alberts_313",
+            "title": "Cell_Biology_Alberts",
+            "content": "Like ATP, NADPH is an activated carrier that participates in many important biosynthetic reactions that would otherwise be energetically unfavorable. The NADPH is produced according to the general scheme shown in Figure 2\u201336A. During a special set of energy-yielding catabolic reactions, two hydrogen atoms are removed from a substrate molecule. Both electrons but just one proton (that is, a hydride ion, H\u2013) are added to the nicotinamide ring of NADP+ to form NADPH; the second proton (H+) is released into solution. This is a typical oxidation\u2013reduction reaction, in which the substrate is oxidized and NADP+ is reduced. NADPH readily gives up the hydride ion it carries in a subsequent oxidation\u2013reduction reaction, because the nicotinamide ring can achieve a more stable arrangement of electrons without it. In this subsequent reaction, which Figure 2\u201336 NaDPH, an important carrier of electrons."
+        }
+    ],
+    "scores": [
+        0.037792673229945485,
+        0.037752448984951545,
+        0.036898871698211995,
+        0.035801308429245234,
+        0.03530341103863063,
+        0.03518858639388973,
+        0.03411237915910813,
+        0.03372721210682761,
+        0.032264573137136064,
+        0.032260086249447956,
+        0.03222201404017342,
+        0.0318290907180359,
+        0.02957917460221175,
+        0.02951071806209747,
+        0.027804564448730314,
+        0.02736527491200388,
+        0.027220523528973077,
+        0.027025135835889613,
+        0.026729506436555566,
+        0.026482289938787942,
+        0.02584190047611352,
+        0.025430033304049054,
+        0.024719268648032814,
+        0.02411449083596005,
+        0.023566774852746723,
+        0.023106033039807874,
+        0.02247055270311084,
+        0.022357481694517446,
+        0.022293405224945134,
+        0.021969671534888924,
+        0.021529354757317185,
+        0.020930773993163763
+    ],
+    "execution_time": 50.56601691246033
+}

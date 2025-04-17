@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-066",
+    "question": "Which of the following best describes the effects of morphine?",
+    "options": {
+        "A": "Reduces pain intensity and increases alertness.",
+        "B": "Reduces pain intensity but also causes sedation.",
+        "C": "Reduces pain intensity but also causes diarrhoea.",
+        "D": "Reduces pain intensity but also causes insomnia."
+    },
+    "answer": "B",
+    "predict": "After analyzing the provided documents, I have broken down the effects of morphine into its various aspects. Here's my step-by-step thinking and the resulting JSON output: Step 1: Identify the primary effects of morphine on pain relief. - Morphine is a strong opioid agonist useful in treating severe pain, as described in Document [1] and Document [8]. Step 2: Identify the effects of morphine on sedation and alertness. - Morphine causes sedation, as mentioned in Document [1], Document [25], and Document [30]. - Morphine does not increase alertness; in fact, it induces drowsiness and clouding of mentation, as stated in Document [25]. Step 3: Identify the effects of morphine on bowel movements. - Morphine can cause constipation, which is a common side effect, as mentioned in Document [19] and Document [20]. Step 4: Identify the effects of morphine on sleep patterns. - Morphine disrupts normal sleep patterns, particularly REM and non-REM sleep, as described in Document [3]. Given the above analysis, the correct answer is: {\"step_by_step_thinking\": \"Morphine reduces pain intensity but also causes sedation, constipation, and disrupts sleep patterns. However, the option that best describes the effects of morphine is that it reduces pain intensity but also causes sedation, which matches option B.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_3460",
+            "title": "Pharmacology_Katzung",
+            "content": "Because seriously ill or hospitalized patients may require a large number of drugs, there is always a possibility of drug interactions when the opioid analgesics are administered. Table 31\u20135 lists TABLE 31\u20135 Opioid drug interactions. some of these drug interactions and the reasons for not combining the named drugs with opioids. The following section describes the most important and widely used opioid analgesics, along with features peculiar to specific agents. Data about doses approximately equivalent to 10 mg of intramuscular morphine, oral versus parenteral efficacy, duration of analgesia, and intrinsic activity (maximum efficacy) are presented in Table 31\u20132. Morphine, hydromorphone, and oxymorphone are strong agonists useful in treating severe pain. These prototypic agents have been described in detail above."
+        },
+        {
+            "id": "Pharmacology_Katzung_3461",
+            "title": "Pharmacology_Katzung",
+            "content": "Morphine, hydromorphone, and oxymorphone are strong agonists useful in treating severe pain. These prototypic agents have been described in detail above. Heroin (diamorphine, diacetylmorphine) is potent and fast-acting, but its use is prohibited in the USA and Canada. In recent years, there has been considerable agitation to revive its use. However, double-blind studies have not supported the claim that heroin is more effective than morphine in relieving severe chronic pain, at least when given by the intramuscular route. Methadone has undergone a dramatic revival as a potent and clinically useful analgesic. It can be administered by the oral, intravenous, subcutaneous, spinal, and rectal routes. It is well absorbed from the gastrointestinal tract, and its bioavailability far exceeds that of oral morphine."
+        },
+        {
+            "id": "Pharmacology_Katzung_3399",
+            "title": "Pharmacology_Katzung",
+            "content": "6. Opioid-induced hyperalgesia\u2014In addition to the development of tolerance, persistent administration of opioid analgesics can increase the sensation of pain, resulting in a state of hyperalgesia. This phenomenon can be produced with several opioid analgesics, including morphine, fentanyl, and remifentanil. Spinal dynorphin and activation of the bradykinin and NMDA receptors have emerged as important candidates for the mediation of opioid-induced hyperalgesia. This is one more reason why the use of opioids for chronic pain is controversial. B. Organ System Effects of Morphine and Its Surrogates The actions described below for morphine, the prototypic opioid agonist, can also be observed with other opioid agonists, partial agonists, and those with mixed receptor effects. Characteristics of specific members of these groups are discussed below."
+        },
+        {
+            "id": "Pharmacology_Katzung_3408",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 31\u20133 Degrees of tolerance that may develop to some of the effects of the opioids. healthy individuals. Ordinarily, the patient can be easily aroused from this sleep. However, the combination of morphine with other central depressant drugs such as the sedative-hypnotics may result in very deep sleep. Marked sedation occurs more frequently with compounds closely related to the phenanthrene derivatives and less frequently with the synthetic agents such as meperidine and fentanyl. In standard analgesic doses, morphine (a phenanthrene) disrupts normal rapid eye movement (REM) and non-REM sleep patterns. This disrupting effect is probably characteristic of all opioids. In contrast to humans, a number of other species (cats, horses, cows, pigs) may manifest excitation rather than sedation when given opioids. These paradoxical effects are at least partially dose-dependent. d."
+        },
+        {
+            "id": "InternalMed_Harrison_19276",
+            "title": "InternalMed_Harrison",
+            "content": "Morphine is a very effective analgesic for the pain associated with STEMI. However, it may reduce sympathetically mediated arteriolar and venous constriction, and the resulting venous pooling may reduce cardiac output and arterial pressure. These hemodynamic disturbances usually respond promptly to elevation of the legs, but in some patients, volume expansion with intravenous saline is required. The patient may experience diaphoresis and nausea, but these events usually pass and are replaced by a feeling of well-being associated with the relief of pain. Morphine also has a vagotonic effect and may cause bradycardia or advanced degrees of heart block, particularly in patients with inferior infarction. These side effects usually respond to atropine (0.5 mg intravenously). Morphine is routinely administered by repetitive (every 5 min) intravenous injection of small doses (2\u20134 mg), rather than by the subcutaneous administration of a larger quantity, because absorption may be unpredictable"
+        },
+        {
+            "id": "Neurology_Adams_9629",
+            "title": "Neurology_Adams",
+            "content": "The Opioid Abstinence Syndrome The intensity of the abstinence or withdrawal syndrome depends on the dose of the drug and the duration of addiction. The onset of abstinence symptoms in relation to the last exposure to the drug, however, is related to the pharmacologic half-life of the agent. With morphine, the majority of individuals receiving 240 mg daily for 30 days or more will show moderately severe abstinence symptoms following withdrawal. Mild signs of opiate abstinence can be precipitated by narcotic antagonists in persons who have taken as little as 15 mg of morphine or an equivalent dose of methadone or heroin for 3 days."
+        },
+        {
+            "id": "Neurology_Adams_9612",
+            "title": "Neurology_Adams",
+            "content": "The opiates, or opioids, strictly speaking, include all the naturally occurring alkaloids in opium, which is prepared from the seed capsules of the poppy Papaver somniferum. For clinical purposes, the term opiate refers only to the alkaloids that have a high degree of analgesic activity, that is, morphine. The terms opioid and narcotic-analgesic designate drugs with actions similar to those of morphine. Compounds that are chemical modifications of morphine include diacetylmorphine, or heroin, hydromorphone (Dilaudid), codeine, hydrocodone, oxycodone (OxyContin), and from the Victorian era and later, laudanum and paregoric. A second class of opioids comprises the purely synthetic analgesics: meperidine (Demerol) and its congeners, notably fentanyl, methadone, levorphanol, propoxyphene (Darvon), loperamide (the active ingredient in Imodium), and diphenoxylate (the main component of Lomotil). The synthetic analgesics are similar to the opiates in both their pharmacologic effects and"
+        },
+        {
+            "id": "Pharmacology_Katzung_478",
+            "title": "Pharmacology_Katzung",
+            "content": "Example: Codeine is a phenanthrene derivative prodrug opioid analgesic indicated for the management of mild to moderately severe pain (Chapter 31). Codeine, like its active metabolite morphine, binds to \u03bc-opioid receptors in the central nervous system (CNS). Morphine is 200 times more potent as an agonist than codeine, and conversion of codeine into morphine is essential for codeine\u2019s analgesic activity. The enzyme responsible for the O-demethylation conversion of codeine into morphine is CYP2D6. Patients with normal CYP2D6 activity (ie, EMs) convert sufficient codeine to morphine (\u223c5\u201310% of an administered dose) to produce the desired analgesic effect. PMs and IMs are more likely to experience insufficient pain relief, while UMs are at an increased risk for side effects, eg, drowsiness and respiratory depression, due to higher systemic concentrations of morphine. Interestingly, gastrointestinal adverse effects, eg, constipation, are decreased in PMs, whereas the central side effects,"
+        },
+        {
+            "id": "Pharmacology_Katzung_3359",
+            "title": "Pharmacology_Katzung",
+            "content": "Morphine, the prototypic opioid agonist, has long been known to relieve acute severe pain with remarkable efficacy. The opium poppy is the source of crude opium from which Sert\u00fcrner in 1803 isolated morphine, the pure alkaloid, naming it after Morpheus, the Greek god of dreams. It remains the standard against which all drugs that have strong analgesic action are compared. These drugs are collectively known as opioids and include not only the natural and semisynthetic alkaloid derivatives from opium but also synthetic surrogates, other opioid-like drugs whose actions are blocked by the nonselective antagonist naloxone, plus several endogenous peptides that interact with the different subtypes of opioid receptors."
+        },
+        {
+            "id": "Pharmacology_Katzung_3361",
+            "title": "Pharmacology_Katzung",
+            "content": "Opioid drugs include full agonists, partial agonists, and antagonists\u2013measures of intrinsic activity or efficacy. Morphine is a full agonist at the \u00b5 (mu)-opioid receptor, the major analgesic opioid receptor (Table 31\u20131). Opioids may also differ in receptor binding affinity. For example, morphine exhibits a greater binding affinity at the \u03bc-opioid receptor than does codeine. Other opioid receptor subtypes include c (delta) and j (kappa) nociception/opioidreceptor-like subtype 1 (ORL-1) receptors. Simple substitution of an allyl group on the nitrogen of the full agonist morphine plus addition of a single hydroxyl group results in naloxone, a strong \u03bc-receptor antagonist. The structures of some of these compounds are shown later in this chapter. Some opioids, eg, nalbuphine, a mixed agonist-antagonist, are capable of producing an agonist (or partial agonist) effect at one opioid receptor subtype and an antagonist effect at another. The receptor-activating properties and affinities of"
+        },
+        {
+            "id": "Pharmacology_Katzung_3381",
+            "title": "Pharmacology_Katzung",
+            "content": "Relation of physiologic effects to receptor type\u2014The majority of currently available opioid analgesics act primarily at the \u03bc-opioid receptor (Table 31\u20132). Analgesia and the euphoriant, respiratory depressant, and physical dependence properties of morphine result principally from actions at \u03bc receptors. In fact, the \u03bc receptor was originally defined using the relative potencies for clinical analgesia of a series of opioid alkaloids. However, opioid analgesic effects are complex and include interaction with \u03b4 and \u03ba receptors. This is supported in part by the study of genetic knockouts of the \u03bc, \u03b4, and \u03ba genes in mice. The development of \u03bc-receptor\u2013selective agonists could be clinically useful if their side-effect profiles (respiratory depression, risk of dependence) were more favorable than those found with current \u03bc-receptor agonists, such as morphine. Although morphine does act at \u03ba and \u03b4 receptor sites, it is unclear to what extent this contributes to its analgesic action. The"
+        },
+        {
+            "id": "Pharmacology_Katzung_3406",
+            "title": "Pharmacology_Katzung",
+            "content": "1. Central nervous system effects\u2014The principal effects of opioid analgesics with affinity for \u03bc receptors are on the CNS; the more important ones include analgesia, euphoria, sedation, and respiratory depression. With repeated use, a high degree of tolerance occurs to all of these effects (Table 31\u20133). a. Analgesia\u2014Pain consists of both sensory and affective (emotional) components. Opioid analgesics are unique in that they can reduce both aspects of the pain experience. In contrast, nonsteroidal anti-inflammatory analgesic drugs, eg, ibuprofen, have no significant effect on the emotional aspects of pain. b. Euphoria\u2014Typically, patients or intravenous drug users who receive intravenous morphine experience a pleasant floating sensation with lessened anxiety and distress. However, dysphoria, an unpleasant state characterized by restlessness and malaise, may also occur. c."
+        },
+        {
+            "id": "Neurology_Adams_9634",
+            "title": "Neurology_Adams",
+            "content": "a weak opioid, are negligible. Abstinence symptoms from methadone are less intense than those from morphine and do not become evident until 3 or 4 days after withdrawal; for these reasons methadone can be used in the treatment of morphine and heroin dependency (see further on). Meperidine addiction is of particular importance because of its high incidence among physicians and nurses. Tolerance to the drug\u2019s toxic effects is not complete, so that the addict may show tremors, twitching of muscles, confusion, hallucinations, and sometimes convulsions. Signs of abstinence appear 3 to 4 h after the last dose and reach their maximum intensity in 8 to 12 h, at which time they may be worse than those of morphine abstinence."
+        },
+        {
+            "id": "Pharmacology_Katzung_3360",
+            "title": "Pharmacology_Katzung",
+            "content": "Opium, the source of morphine, is obtained from the poppy, Papaver somniferum and P album. After incision, the poppy seed pod exudes a white substance that turns into a brown gum that is crude opium. Opium contains many alkaloids, the principal one being morphine, which is present in a concentration of about 10%. Codeine can also be found in opium and is synthesized commercially from morphine. * In memory of Walter (Skip) Way, MD. The term opioid describes all compounds that work at opioid receptors. The term opiate specifically describes the naturally occurring alkaloids: morphine, codeine, thebaine, and papaverine. In contrast, narcotic was originally used to describe sleep-inducing medications, but in the United States, its usage has shifted into a legal term."
+        },
+        {
+            "id": "Pharmacology_Katzung_3395",
+            "title": "Pharmacology_Katzung",
+            "content": "5. Tolerance and dependence\u2014With frequently repeated therapeutic doses of morphine or its surrogates, there is a gradual loss in effectiveness; this loss of effectiveness is termed tolerance. To reproduce the original response, a larger dose must be administered. Along with tolerance, physical dependence develops. Physical dependence is defined as a characteristic withdrawal or abstinence syndrome when a drug is stopped or an antagonist is administered (see also Chapter 32)."
+        },
+        {
+            "id": "Neurology_Adams_7095",
+            "title": "Neurology_Adams",
+            "content": "Narcotics such as morphine and benzodiazepines have a slightly beneficial effect but bromocriptine, which may be used in combination with sedatives or with small doses of morphine, has been most effective according to Rossitch and Bullard."
+        },
+        {
+            "id": "Pharmacology_Katzung_3445",
+            "title": "Pharmacology_Katzung",
+            "content": "A high degree of tolerance may develop to the analgesic, sedating, and respiratory depressant effects of opioid agonists (Table 31\u20133). It is possible to produce respiratory arrest in a nontolerant person with a dose of 60 mg of morphine. However, in a patient who is opioid-dependent or requires escalating opioid administration to manage intractable cancer pain, doses such as 2000 mg of morphine taken over a 2or 3-hour period may not produce significant respiratory depression. Tolerance also develops to the antidiuretic, emetic, and hypotensive effects but not to the miotic, convulsant, and constipating actions. Following discontinuation of opioids, loss of tolerance to the sedating and respiratory effects of opioids is variable, and difficult to predict. However, tolerance to the emetic effects may persist for several months after withdrawal of the drug. Therefore, opioid tolerance differs by effect, drug, time, and the individual (genetic-epigenetic factors)."
+        },
+        {
+            "id": "Neurology_Adams_9633",
+            "title": "Neurology_Adams",
+            "content": "The characteristics of addiction and of abstinence are qualitatively similar with all drugs of the opiate group as well as the related synthetic analgesics. The differences are quantitative and are related to the differences in dosage, potency, and length of action. Heroin is 2 to 3 times more potent than morphine but the heroin withdrawal syndrome encountered in hospital practice is usually mild in degree because of the low dosage of the drug in the street product. Dilaudid (hydromorphone) is more potent than morphine and has a shorter duration of action; hence the addict requires more doses per day, and the abstinence syndrome comes on and subsides more rapidly. Abstinence symptoms from codeine, while definite, are less severe than those from morphine. The addiction liabilities of propoxyphene, a weak opioid, are negligible. Abstinence symptoms from methadone are less intense than those from morphine and do not become evident until 3 or 4 days after withdrawal; for these reasons"
+        },
+        {
+            "id": "Pharmacology_Katzung_3557",
+            "title": "Pharmacology_Katzung",
+            "content": "In line with the latter observations, the rewarding effects of morphine are absent in knockout mice lacking \u03bc receptors but persist when either of the other opioid receptors are ablated. In the VTA, \u03bc opioids cause an inhibition of GABAergic inhibitory interneurons, which leads eventually to a disinhibition of dopamine neurons. The most commonly abused \u03bc opioids include morphine, heroin (diacetylmorphine, which is rapidly metabolized to morphine), codeine, and oxycodone. Meperidine abuse is common among health professionals. All of these drugs induce strong"
+        },
+        {
+            "id": "InternalMed_Harrison_1272",
+            "title": "InternalMed_Harrison",
+            "content": "Opioids are the most potent pain-relieving drugs currently available. Of all analgesics, they have the broadest range of efficacy and provide the most reliable and effective method for rapid pain relief. Although side effects are common, most are reversible: nausea, vomiting, pruritus, and constipation are the most frequent and bothersome side effects. Respiratory depression is uncommon at standard analgesic doses, but can be life-threatening. Opioid-related side effects can be reversed rapidly with the narcotic antagonist naloxone. Many physicians, nurses, and patients have a certain trepidation about using opioids that is based on an exaggerated fear of addiction. In fact, there is a vanishingly small chance of patients becoming addicted to narcotics as a result of their appropriate medical use. The physician should not hesitate to use opioid analgesics in patients with acute severe pain. Table 18-1 lists the most commonly used opioid analgesics."
+        },
+        {
+            "id": "Pharmacology_Katzung_3447",
+            "title": "Pharmacology_Katzung",
+            "content": "Cross-tolerance is an extremely important characteristic of the opioids, ie, patients tolerant to morphine often show a reduction in analgesic response to other agonist opioids. This is particularly true of those agents with primarily \u03bc-receptor agonist activity. Morphine and its congeners exhibit cross-tolerance not only with respect to their analgesic actions but also to their euphoriant, sedative, and respiratory effects. However, the cross-tolerance existing among the \u03bc-receptor agonists can often be partial or incomplete. This clinical observation has led to the concept of \u201copioid rotation,\u201d which has been used for many years in the treatment of cancer pain. A patient who is experiencing decreasing effectiveness of one opioid analgesic regimen is \u201crotated\u201d to a different opioid analgesic (eg, morphine to hydromorphone; hydromorphone to methadone) and typically experiences significantly improved analgesia at a reduced overall equivalent dosage. Another approach is to recouple"
+        },
+        {
+            "id": "Pharmacology_Katzung_315",
+            "title": "Pharmacology_Katzung",
+            "content": "The systemic bioavailability of the drug (F) can be predicted from the extent of absorption (f) and the extraction ratio (ER): A drug such as morphine is almost completely absorbed (f = 1), so that loss in the gut is negligible. However, the hepatic extraction ratio for morphine is morphine clearance (60 L/h/70 kg) divided by hepatic blood flow (90 L/h/70 kg) or 0.67. Its oral bioavailability (1 \u2013 ER) is therefore expected to be about 33%, which is close to the observed value (Table 3\u20131). Rate of Absorption"
+        },
+        {
+            "id": "Neurology_Adams_993",
+            "title": "Neurology_Adams",
+            "content": "The term \u201copiate\u201d is used describe naturally occurring exogenous substances such as morphine that resemble the endogenous \u201copioids,\u201d which are modulators of pain impulses as they are relayed through the dorsal horn and the nuclei in the medulla and midbrain. Opiates have been noted to decrease substance P; at the same time, flexor spinal reflexes, which are evoked by segmental pain, are reduced. Opioid receptors of three types are found on both presynaptic primary afferent terminals and postsynaptic dendrites of small neurons in lamina II. Moreover, lamina II neurons, when activated, release enkephalins, endorphins, and dynorphins\u2014all of which are endogenous, morphine-like peptides that bind specifically to opiate receptors and inhibit pain transmission at the dorsal horn level. The subject of pain modulation by opiates and endogenous opioid substances such is elaborated further on. The (Anterolateral or Lateral) Spinothalamic Tract"
+        },
+        {
+            "id": "InternalMed_Harrison_1279",
+            "title": "InternalMed_Harrison",
+            "content": "The availability of new routes of administration has extended the usefulness of opioid analgesics. Most important is the availability of spinal administration. Opioids can be infused through a spinal catheter placed either intrathecally or epidurally. By applying opioids directly to the spinal or epidural space adjacent to the spinal cord, regional analgesia can be obtained using relatively low total doses. Indeed, the dose required to produce effective localized analgesia when using morphine intrathecally (0.1\u20130.3 mg) is a fraction of that required to produce similar analgesia when administered intravenously (5\u201310 mg). In this way, side effects such as sedation, nausea, and respiratory depression can be minimized. This approach has been used extensively during labor and delivery and for postoperative pain relief following surgical procedures. Continuous intrathecal delivery via implanted spinal drug-delivery systems is now commonly used, particularly for the treatment of"
+        },
+        {
+            "id": "Pharmacology_Katzung_3382",
+            "title": "Pharmacology_Katzung",
+            "content": "than those found with current \u03bc-receptor agonists, such as morphine. Although morphine does act at \u03ba and \u03b4 receptor sites, it is unclear to what extent this contributes to its analgesic action. The endogenous opioid peptides differ from most of the alkaloids in their affinity for the \u03b4 and \u03ba receptors (Table 31\u20131)."
+        },
+        {
+            "id": "Pharmacology_Katzung_3407",
+            "title": "Pharmacology_Katzung",
+            "content": "c. Sedation\u2014Drowsiness and clouding of mentation are common effects of opioids. There is little or no amnesia. Sleep is induced by opioids more frequently in the elderly than in young, TABLE 31\u20133 Degrees of tolerance that may develop to some of the effects of the opioids."
+        },
+        {
+            "id": "Neurology_Adams_1094",
+            "title": "Neurology_Adams",
+            "content": "If oral medication fails to control the pain, the parenteral administration of opioids may become necessary. One may begin with morphine, dihydromorphine, or levorphanol, given at intervals of 4 to 6 h because of their relatively long duration of action (particularly in comparison to meperidine). Alternatively, one may first resort to the use of transdermal patches of drugs such as fentanyl, which provide relief for 24 to 72 h and which we have found particularly useful in the treatment of pain from brachial or lumbosacral plexus invasion by tumor and of painful neuropathies such as those caused by diabetes and systemic amyloidosis. Long-acting morphine preparations are useful alternatives."
+        },
+        {
+            "id": "Neurology_Adams_1022",
+            "title": "Neurology_Adams",
+            "content": "Soon after the discovery of specific opiate receptors in the central nervous system, several naturally occurring peptides that bind specifically to these receptors and have a potent analgesic effects were identified. These endogenous, morphine-like compounds are generically referred to as endorphins, meaning \u201cthe morphines within.\u201d The most widely studied are b-endorphin, a peptide sequence of the pituitary hormone b-lipotropin, and two other peptides, enkephalin and dynorphin. They and their receptors are found in greatest concentration in the midbrain. At the level of the spinal cord, exclusively enkephalin receptors are found. Figure 7-4 illustrates a theoretical construct of the roles of enkephalin (and substance P) at the point of entry of pain fibers into the spinal cord. Different elements of the sensory system produce and release each of these peptides. A subgroup of dorsal horn interneurons that are in contact with spinothalamic tract neurons also contains enkephalin. Much of"
+        },
+        {
+            "id": "Pharmacology_Katzung_3470",
+            "title": "Pharmacology_Katzung",
+            "content": "Levorphanol is a synthetic opioid analgesic closely resembling morphine that has \u03bc-, \u03b4-, and \u03ba-opioid agonist actions, serotoninnorepinephrine reuptake inhibition, and NMDA receptor antagonist properties. Codeine, dihydrocodeine, and hydrocodone have lower binding affinity to \u03bc-opioid receptors than morphine and often have adverse effects that limit the maximum tolerated dose when one attempts to achieve analgesia comparable to that of morphine. Oxycodone is more potent and is prescribed alone in higher doses as immediate-release or controlled-release forms for the treatment of moderate to severe pain. Combinations of hydrocodone or oxycodone with acetaminophen are the predominant formulations of orally administered analgesics in the United States for the treatment of mild to moderate pain. However, there has been a large increase in the use of controlled-release oxycodone at the highest dose range. An intravenous formulation of oxycodone is available outside the United States."
+        },
+        {
+            "id": "Pharmacology_Katzung_6598",
+            "title": "Pharmacology_Katzung",
+            "content": "At birth, the function of drug transporters may be very low; for example, P-glycoprotein, which pumps morphine from the blood-brain barrier back to the systemic circulation. Low-level function of P-glycoprotein at birth can explain why neonates are substantially more sensitive than older children to the central nervous system depressant effects of morphine."
+        },
+        {
+            "id": "Neurology_Adams_1092",
+            "title": "Neurology_Adams",
+            "content": "Should the foregoing measures prove to be ineffective, one may turn to narcotic agents. In chronic disease, methadone and related drugs are sometimes useful with which to begin because of their effectiveness by mouth and the relatively slow development of tolerance. Some pain specialists prefer the use of shorter-acting drugs such as oxycodone, hydrocodone, given more frequently through the day. Longer acting, orally administered drugs are used but may also be problematic because the doses may be more difficult to manage. The oral route should be used whenever possible, as it is more comfortable for the patient than the parenteral route. Also, the oral route is associated with fewer side effects except for nausea and vomiting. Nevertheless, should parenteral administration be necessary, one must be aware of the ratios of oral-to-parenteral dosages required to produce equivalent analgesia. The main medications used in the treatment of pain are summarized in Table 7-3."
+        },
+        {
+            "id": "Pharmacology_Katzung_3493",
+            "title": "Pharmacology_Katzung",
+            "content": "Because of its long duration of action, naltrexone has been proposed as a maintenance drug for addicts in treatment programs. A single dose given on alternate days blocks virtually all of the effects of a dose of heroin. It might be predicted that this approach to rehabilitation would not be popular with a large percentage of drug users unless they are motivated to become drug-free. A related use is in combination with morphine sulfate in a controlled-release formulation (Embeda) in which 20\u2013100 mg of morphine is slowly released over 8\u201312 hours or longer for the control of prolonged postoperative pain. Naltrexone, 0.4\u20134 mg, is sequestered in the center of the formulation pellets and is present to prevent the misuse of the morphine (by grinding and extraction of the morphine from the capsules)."
+        }
+    ],
+    "scores": [
+        0.037261840630592145,
+        0.03370897158588924,
+        0.03183210784313725,
+        0.030958994941603382,
+        0.0307147296967169,
+        0.03068218416044503,
+        0.030229539904350313,
+        0.029166017183055906,
+        0.026441199520560576,
+        0.026067740218946804,
+        0.02562855969399621,
+        0.02549862727089667,
+        0.025291987237834268,
+        0.025198192896212702,
+        0.02519632014185852,
+        0.024442031118373644,
+        0.02412264723740134,
+        0.023950836571551202,
+        0.023727708774437743,
+        0.02350184131235353,
+        0.02219052265069029,
+        0.021523391812865496,
+        0.021482105934211574,
+        0.021469133221850612,
+        0.020894923101810584,
+        0.019692736279042933,
+        0.019574965264620436,
+        0.018272186660152533,
+        0.017879280255160376,
+        0.01716769820218096,
+        0.017042606516290727,
+        0.016666666666666666
+    ],
+    "execution_time": 22.205236673355103
+}

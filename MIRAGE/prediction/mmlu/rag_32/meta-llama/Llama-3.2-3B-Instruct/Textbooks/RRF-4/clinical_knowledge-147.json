@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-147",
+    "question": "In the discharge checklist recommended by the Department of Health (2004), who should be involved in completing the form?",
+    "options": {
+        "A": "The GP, consultant, and named nurse.",
+        "B": "The nurse, patient, and ward clerk.",
+        "C": "The nurse, ward clerk, and consultant.",
+        "D": "The nurse, consultant, and GP."
+    },
+    "answer": "B",
+    "predict": "Here is the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to analyze the relevant documents and identify the recommended participants for completing the discharge checklist. According to the documents, the Department of Health (2004) discharge checklist is not explicitly mentioned, but we can infer the recommended participants from the context of the other documents. Document [0] (Title: Surgery_Schwartz) mentions the surgical safety checklist, which is similar to the discharge checklist. In this checklist, the nurse, anaesthetist, and surgeon are mentioned as the individuals involved in completing the form. Similarly, Document [4] (Title: InternalMed_Harrison) mentions that the patient, their proxy, and the healthcare provider should discuss and complete the worksheet for others. Document [14] (Title: InternalMed_Harrison) also mentions that the procedures for completing advance care planning documents should involve the patient, their proxy, and the healthcare provider. Based on these documents, it can be inferred that the nurse, consultant, and GP should be involved in completing the discharge checklist. However, the most appropriate answer is the one that includes the GP, consultant, and named nurse, as it is a more comprehensive and inclusive group.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Surgery_Schwartz_13650",
+            "title": "Surgery_Schwartz",
+            "content": "anaesthetist and surgeon)(with nurse, anaesthetist and surgeon)This checklist is not intended to be comprehensive. Additions and modifications to fit local practice are encouraged.Nurse verbally confirms: The name of the procedure Completion of instrument, sponge and needle counts Specimen labeling (read specimen labels aloud, including patient name) Whether there are any equipment problems to be addressedTo surgeon, anaesthetist and nurse: What are the key concerns for recovery and management of this patient?Based on the WHO Surgical Safety Checklisthttp://whqlibdoc.who.int/publications/2009/9789241598590_eng_Checklist.pdf\u00a9 World Health Organization 2009 All rights reservedHas the patient confirmed his/her identity,site, procedure, and consent? YesIs the site marked? Yes Not applicableIs the anaesthesia machine and medicationcheck complete? YesIs the pulse oximeter on the patient andfunctioning? YesDoes the patient have a:Known allergy? No YesDifficult airway or aspiration risk? No"
+        },
+        {
+            "id": "Gynecology_Novak_227",
+            "title": "Gynecology_Novak",
+            "content": "Another initiative developed at Rand and the University of California\u2013Los Angeles is the PREPARED checklist for informed, collaborative choice (Table 3.3) . Studies show that greater patient (and family) involvement in health care decision making results in improved satisfaction and better outcomes (55). The PREPARED checklist, using each letter in the word and a mnemonic, consists of a structured conversation that includes the Plan, Reason for the plan, Expectation of benefit, Preferences (e.g., prefer or avoid surgery), Alternatives, Risks, and Expenses, followed by an informed collaborative Decision to accept or reject the plan."
+        },
+        {
+            "id": "Gynecology_Novak_215",
+            "title": "Gynecology_Novak",
+            "content": "The traditional use of checklists resulted in dramatic increases in the safety of aviation (41). Their use in medicine is recent but is demonstrated to decrease complications significantly when used consistently to verify that procedural steps are not overlooked. A simple five-step checklist for central-line placement in the intensive care unit was shown to reduce the incidence of catheter-related sepsis almost to zero (42,43). Similarly, checklists are advocated for use in the surgical suite to ensure that critical steps for error prevention and patient safety are not overlooked. The World Health Organization (WHO) released a surgical checklist in 2009 under their \u201cSafe Surgery Saves Lives\u201d program (44). It involves items to be reviewed and documented before the induction of anesthesia, before the skin incision, and before the patient leaves the operating room. Use of the WHO checklist was shown to reduce major complications of surgery from 11% to 7% and the inpatient death rate from"
+        },
+        {
+            "id": "Surgery_Schwartz_2721",
+            "title": "Surgery_Schwartz",
+            "content": "labelling (read specimen labelsaloud, including patient name)Whether there are any equipment problemsto be addressedWhat are the key concerns for recovery andmanagement of this patient? This checklist is not intended to be comprehensive. Additions and modi\u00ffcations to \u00fft local practice are encouraged.(with at least nurse and anaesthetist)(with nurse, anaesthetist and surgeon)(with nurse, anaesthetist and surgeon)\u00a9 WHO, 2009Before induction of anaesthesiaBefore skin incisionBefore patient leaves operating roomRevised 1 / 2009To Surgeon, Anaesthetist and Nurse:Is essential imaging displayed?Not applicableIs the anaesthesia machine and medicationcheck complete? Is the pulse oximeter on the patient andfunctioning?Known allergy? Does the patient have a: Figure 12-4. World Health Organization\u2019s surgical safety checklist. (Reproduced with permission from World Health Organization Safe Surgery Saves Lives. Available at: http://www.who.int/patientsafety/safesurgery/en/. Accessed November 8,"
+        },
+        {
+            "id": "InternalMed_Harrison_672",
+            "title": "InternalMed_Harrison",
+            "content": "the patient and proxy discuss and complete the worksheet for the others. If appropriate, suggest that they involve other family members in the discussion. On a return visit, go over the patient\u2019s preferences, checking and resolving any inconsistencies. After having the patient and proxy sign the document, place it in the medical chart and be sure that copies are provided to relevant family members and care sites. Because patients\u2019 preferences can change, these documents have to be reviewed periodically."
+        },
+        {
+            "id": "InternalMed_Harrison_1007",
+            "title": "InternalMed_Harrison",
+            "content": "spend in health care facilities. Primary care plays a vital role in navigating people through the health system; when people are referred elsewhere for services, primary care providers must monitor the resulting consultations and perform follow-up. All too often, people do not receive the benefit of complex interventions undertaken in hospitals because they lose contact with the health care system once discharged. Comprehensiveness and continuity of care are best achieved by ensuring that people have an ongoing personal relationship with a care team."
+        },
+        {
+            "id": "Gynecology_Novak_4228",
+            "title": "Gynecology_Novak",
+            "content": "It is important to systematically go through a checklist of perioperative measures to effectively reduce potential complications (Table 24.2). If excessive blood loss is expected, intra-operative blood salvage techniques should be considered. All patients undergoing hysterectomy for benign disorders are at moderate risk for venous thromboembolism and require prophylaxis (18). Unfractionated heparin (5,000 U every 12 hours) or low molecular weight heparin (e.g., Table 24.2 Perioperative Checklist 1. Is the informed consent signed? 2. Is there a recent Pap test documented in the chart? 3. Has pregnancy been ruled out? 4. Are blood products available if needed? 5. Will prophylactic antibiotics be initiated within 1 hour of incision? 6. Was the appropriate antibiotic selected according to American College of Obstetricians and Gynecologists guidelines? 7. Was the appropriate prophylaxis for venous thromboembolic events chosen? 8."
+        },
+        {
+            "id": "Gynecology_Novak_782",
+            "title": "Gynecology_Novak",
+            "content": "U.S. Department of Health and Human Services provide recommendations (48). The \u201c5 As\u201d\u2014Ask, Advise, Assess, Assist, and Arrange\u2014are designed to be used with smokers who are willing to quit (49). The Assist component typically includes first-line pharmacotherapy with bupropion or nicotine replacement in the form of gum, inhaler, nasal spray, or patch. In addition, ongoing visits for counseling and support are essential and may include practical counseling and assistance with problem-solving skills and social support during and after treatment. Relapse prevention is important, with congratulations for any successes and encouragement to remain abstinent. Patients who use tobacco but are unwilling to quit at the time of the visit should be treated with the \u201c5 Rs\u201d motivational intervention: Relevance, Risks, Rewards, Roadblocks, and Repetition (48). 1."
+        },
+        {
+            "id": "Surgery_Schwartz_14125",
+            "title": "Surgery_Schwartz",
+            "content": "to ambulatory surgery centers? Health Affairs. 2008;27(3):165-174. 33. U.S. Department of Health and Human Services. Office of the Inspector General. A Roadmap for New Physicians: Fraud & Abuse Laws. Available at: oig.hhs.gov/compliance/physician-education/01laws.asp. Accessed August 27, 2018. 34. American College of Surgeons. Should your health care system invest in an ambulatory surgery center? A decision-making framework [Internet]. Bulletin of the American College of Surgeons. 2017 [cited 2018 Nov 28]; Available from: http://bulletin.facs.org/2017/11/should-your-health-care-system-invest-in-an-ambulatory-surgery-center-a-decision-making-framework/. 35. Mezei G, Chung F. Return hospital visits and hospital readmis-sions after ambulatory surgery. Ann Surg. 1999;230(5):721-727. 36. Twersky R, Fishman D, Homel P. What happens after discharge? Return hospital visits after ambulatory surgery. Anesth Analg. 1997;84:319-324. 37. Fox JP, Vashi AA, Ross JS, Gross CP. Hospital based, acute"
+        },
+        {
+            "id": "Surgery_Schwartz_13652",
+            "title": "Surgery_Schwartz",
+            "content": "(including indicator results) been confirmed? Are there equipment issues or any concerns?Is essential imaging displayed? Yes Not applicableFigure 49-20. Surgical safety checklist. (Reproduced with permission from WHO surgical safety checklist, 2009, http://whqlibdoc.who.int/publications/2009/9789241598590_eng_Checklist.pdf. \u00a9 World Health Organization 2009 All rights reserved.)Brunicardi_Ch49_p2077-p2112.indd 209313/02/19 5:54 PM 2094SPECIFIC CONSIDERATIONSPART IIStrategies for Integration of Global Surgery and Public Health. Three areas stand out as opportunities for integration of global surgery and public health: education, professional societies, and multinational health policy organizations. From an education standpoint, several universities in HICs have developed formal programs for the study of surgery and public health.108,109Diseases commonly present in very late stages in LMICs and in disadvantaged populations in developed countries. Many morbid conditions could have"
+        },
+        {
+            "id": "Gynecology_Novak_4214",
+            "title": "Gynecology_Novak",
+            "content": "The preoperative discussion should include an informed consent that documents the options, risks, benefits, outcome, and personnel involved with the procedure. The medical record should re\ufb02ect the completion of childbearing and that adequate trial of medical or nonsurgical management was offered, attempted, or refused. Health Assessment An assessment of a patient\u2019s health status is important in order to obtain an optimal outcome after hysterectomy for benign disease. There are no routinely recommended tests, although individual hospitals may have their own requirements. The patient should be evaluated for risk factors associated with venous thromboembolic events (18). Age, medical history, such as inherited or acquired thrombophilias, obesity, smoking, and hormonal medication, including contraceptives or hormone therapy, may increase the risk."
+        },
+        {
+            "id": "Surgery_Schwartz_12149",
+            "title": "Surgery_Schwartz",
+            "content": "intracranial injury and may be discharged home without a head CT scan.12,13 Head-injured patients who are discharged should be sent home with reliable family or friends who can observe the patient for the first postin-jury day. Printed discharge instructions, which describe moni-toring for confusion, persistent nausea, weakness, or speech difficulty, should be provided to the caretaker. The patient should return to the emergency department for evaluation of such symptoms.Patients with a history of altered consciousness, amne-sia, progressive headache, skull or facial fracture, vomiting, or seizure have a moderate risk for intracranial injury and should undergo a prompt head CT. If the CT is normal, and the neuro-logic examination has returned to baseline (excluding amnesia of the event), then the patient can be discharged to the care of a responsible adult, again with printed criteria for returning to the emergency room. Otherwise the patient must be admitted for a 24-hour observation"
+        },
+        {
+            "id": "Surgery_Schwartz_13640",
+            "title": "Surgery_Schwartz",
+            "content": "J Surg. 2012 Oct;36(10):2359-2370.)access to training for EESC. Adopting a health systems strengthening approach to rectify these glaring deficiencies, Mongolia implemented a nationwide EESC program involving 14 of the 21 provinces (Aimags) from 2004 to 2010 (Fig. 49-16).96 In 6 years, dramatic improvements in short-term process measures were identified using the WHO Monitoring and Process form: 57.1% increase in availability of emergency rooms; 59.1% increase in the supply of emergency tool kits; and a 73.6% increase in the recording of emergency cases (Figs. 49-17 and 49-18).96 More importantly, countrywide morbidity and mortality dropped significantly (Fig. 49-19).97Violence and Injury Prevention. The Violence and Injury Prevention (VIP) program promotes numerous activities to assist countries to prevent and mitigate the consequences of violence and injury.98 While injury prevention is paramount, VIP provides guidance for strengthening trauma systems in countries of all economic"
+        },
+        {
+            "id": "InternalMed_Harrison_675",
+            "title": "InternalMed_Harrison",
+            "content": "include guidance for end-of-life care in a color-coordinated form that follows the patient across treatment settings. The procedures for completing advance care planning documents vary according to state law."
+        },
+        {
+            "id": "InternalMed_Harrison_942",
+            "title": "InternalMed_Harrison",
+            "content": "Implementation of checklists to ensure that specific actions are carried out has had a major impact on rates of catheter-associated bloodstream infection and ventilator-associated pneumonia, two of the most serious complications occurring in intensive care units. The checklist concept is based on the premise that several specific actions can reduce the frequency of these issues; when these actions are all taken for every patient, the result has been an extreme reduction in the frequency of the associated complication. These practices have been disseminated across wide areas, in particular in the state of Michigan."
+        },
+        {
+            "id": "Surgery_Schwartz_13649",
+            "title": "Surgery_Schwartz",
+            "content": "information for the safe conduct of the operation10. Establish routine surveillance of surgical capacity, volume, and results*WHO: World Health Organization.Data from WHO Guidelines for Safe Surgery 2009.PreventiondiagnosistreatmentrehabilitationSurgeryPublichealthFigure 49-21. Overlapping priorities of surgery and public health. (Reproduced with permission from Intermountain Healthcare.)Even after Learmonth presented his landmark lecture in 1949 \u201cThe Contributions of Surgery to Preventive Medicine\u201d at the University of London\u2019s Heath Clark Lecture series, surgery has been neglected as a component of public health.106,107 DCP3 Before induction of anaesthesia Before skin incisionBefore patient leaves operating roomSurgical safety checklist(with at least nurse and anaesthetist)(with nurse, anaesthetist and surgeon)(with nurse, anaesthetist and surgeon)This checklist is not intended to be comprehensive. Additions and modifications to fit local practice are encouraged.Nurse verbally"
+        },
+        {
+            "id": "Gynecology_Novak_251",
+            "title": "Gynecology_Novak",
+            "content": "Reportable Events.aspx 38. Statement on ensuring correct patient, correct site, and correct procedure surgery. Bull Am Coll Surg 2002;87:12. 39. The Joint Commission. Universal protocol. Available online at: http://www.jointcommission.org/standards in formation/up.aspx 40. Gawande A. The checklist manifesto: how to get things right.New York: Metropolitan Books, 2009. 41. Pronovost P, Needham D, Berenholtz S, et al. An intervention to decrease catheter-related bloodstream infections in the ICU. N Engl J Med 2006;355:2725\u20132732. 42. Gawande A. The checklist. New Yorker, December 10, 2007. 43. World Health Organization. Guidelines for safe surgery. 2009. http:// whqlibdoc.who.int/publications/2009/9789241598552 eng.pdf 44. Haynes AB, Weiser TG, Berry WR, et al. Surgical safety checklist to reduce morbidity and mortality in a global population. N Engl J Med 2009;360:491\u2013499. 45."
+        },
+        {
+            "id": "Gynecology_Novak_186",
+            "title": "Gynecology_Novak",
+            "content": "Drills and rehearsals for emergency situations improve outcomes and enhance safety. Hand washing using appropriate technique before and after every patient encounter should be considered mandatory. In the operating room, a preoperative verification process, a marking of the surgical site, and the performance of a time-out should be routine. Medication safety is a high priority for quality improvement initiatives. Avoiding abbreviations that may lead to medication error increases patient safety. Disruptive behavior in the hospital setting can have adverse effects on patient safety and overall quality of care. Professional organizations endorse active disclosure to the patient when adverse events occur, including those caused by error. Effective communication with office personnel and with patients is an essential element for creating a culture of safety in the office setting. What Is Quality Care?"
+        },
+        {
+            "id": "Gynecology_Novak_206",
+            "title": "Gynecology_Novak",
+            "content": "clinical information. One such script from the TeamSTEPPS program is the mnemonic I PASS the BATON, which is essentially a checklist of clinical items to be related to the person assuming the care of the patient (Fig. 3.2) (19). The key point is that management handoffs should be a formal process that does not rely on memory to convey crucial information."
+        },
+        {
+            "id": "Pediatrics_Nelson_1803",
+            "title": "Pediatrics_Nelson",
+            "content": "control measures; and recommend close medical follow-up). \u007f Before discharge, schedule follow-up appointment with primary care provider and/or asthma specialist in 1\u20134 weeks. Key: FEV1, Forced expiratory volume in 1 second; ICS, inhaled corticosteroid; MDI, metered-dose inhaler; PCO2, partial pressure carbon dioxide; PEF, peak expiratory flow; SABA, short-acting beta2-agonist; SaO2, oxygen saturation Figure 78-4 Management of asthma exacerbations: emergency department and hospital-based care. (From National Heart Lung Blood Institute, National Asthma Education and Prevention Program: Expert panel report 3: guidelines for the diagnosis and management of asthma. Summary report 2007, NIH Publication No. 08-5846, Bethesda, MD, 2007, U.S. Department of Health and Human Services, p 55, http://www.nhlbi.nih.gov/guidelines/asthma/asthsumm.pdf"
+        },
+        {
+            "id": "Surgery_Schwartz_2753",
+            "title": "Surgery_Schwartz",
+            "content": "care. The main goal of the campaign, called Safe Surgery Saves Lives, is to reduce surgical deaths and complications through the universal adaptation of a comprehensive perioperative surgical safety checklist in ORs worldwide (Fig. 12-4). In addition to the checklist, the WHO defined a set of uniform measures for national and international surveillance of surgical care to better assess the quantity and quality of surgical care being delivered worldwide.38 At the pop-ulation level, metrics include the number of surgeon, anesthesia, and nurse providers per capita, the number of ORs per capita, and overall surgical case volumes and mortality rates. At the hospital level, metrics include safety improvement structures and a surgical \u201cApgar score,\u201d a validated method of prognos-ticating patient outcomes based on intraoperative events (i.e., hypotension, tachycardia, blood loss).39National Quality ForumThe National Quality Forum (NQF) is a coalition of health-care organizations that has"
+        },
+        {
+            "id": "Gynecology_Novak_781",
+            "title": "Gynecology_Novak",
+            "content": "Smoking Cessation Smoking is a major cause of preventable illness, and every opportunity should be taken to encourage patients who smoke to quit. Patient education about the benefits of smoking cessation, clear advice to quit smoking, and physician support improve smoking cessation rates, although 95% of smokers who successfully quit do so on their own. Self-help materials are available from the National Cancer Institute, and community-based support groups and local chapters of the American Cancer Society and the American Lung Association. The combination of counseling and medication (nicotine and nonnicotine options) is more effective than either used alone, and Clinical Practice Guidelines on treating tobacco use and dependence from the U.S. Department of Health and Human Services provide recommendations (48)."
+        },
+        {
+            "id": "Gynecology_Novak_709",
+            "title": "Gynecology_Novak",
+            "content": "The initial evaluation of a patient involves a complete history, physical examination, routine and indicated laboratory studies, evaluation and counseling, appropriate immunizations, and relevant interventions. Risk factors should be identified and arrangements should be made for continuing care or referral, as needed. The ACOG recommendations for periodic evaluation, screening, and counseling by age groups, and the leading causes of death and morbidity within different age groups are shown in Tables 8.1 through 8.4 (10). These tables include recommendations for patients who have high-risk factors that require targeted screening or treatment; patients should be made aware of any high-risk conditions that require more specific screening or treatment (Table 8.5). Recommendations for immunizations, indicated according to age group, are available from the U.S. Centers for Disease Control and Prevention (CDC). The CDC recommends HIV screening for pregnant women, adults, and adolescent"
+        },
+        {
+            "id": "InternalMed_Harrison_32015",
+            "title": "InternalMed_Harrison",
+            "content": "Specific questions related to military service (Table 471e-2) combined with screening for depression, PTSD, and alcohol use disorders (Table 471e-3) should be a routine part of care for all veterans. A positive screen for depression or PTSD should prompt follow-up questions related to these disorders (or use of a longer screening tool such as the nine-question Patient Health Questionnaire or National Center for PTSD Checklist), as well as risk assessment for suicide or homicide. It is important to assess the impact of depression or PTSD symptoms on occupational functioning and interpersonal relationships."
+        },
+        {
+            "id": "InternalMed_Harrison_953",
+            "title": "InternalMed_Harrison",
+            "content": "Another set of strategies for improving quality involves changing the systems of care. An example would be introducing reminders about which specific actions needed to be taken at a visit for a specific patient\u2014a strategy that has been demonstrated to improve performance in certain situations, such as the delivery of preventive services. Another approach that has been effective is the development of \u201cbundles\u201d or groups of quality measures that can be implemented together with a high degree of fidelity. A number of hospitals have CHAPTER 12e The Safety and Quality of Health Care implemented a bundle for ventilator-associated pneumonia in the FIguRE 12e-2 Plan-Do-Check-Act cycle. This approach can be used to improve a specific process rapidly. First, planning is undertaken, intensive care unit that includes five measures (e.g., ensuring that the head of the bed is elevated). These hospitals have been able to improve performance substantially."
+        },
+        {
+            "id": "Surgery_Schwartz_13643",
+            "title": "Surgery_Schwartz",
+            "content": "5% to 10% in developing countries. There are about 1 million deaths and 7 million disabling com-plications related to surgery worldwide, 50% of which are estimated to be preventable. The WHO Safe Surgery Saves Lives initiative targets preventable surgical injuries.100 The initiative identified 10 basic and essential objectives that can help prevent perioperative injuries (Table 49-5).101 A simple, three-stage checklist (initiated as the patient enters the operat-ing room, just before the procedure, and just prior to the patient leaving the room) implemented in eight high-, middle-, and low-income countries found a 50% reduction in the failure to meet basic safety standards resulting in a 50% decrease in mor-tality (Fig. 49-20).102Global Surgery and Public HealthSurgical care is increasingly recognized as an integral compo-nent of public health. Traditional teaching portrays sur-gery as the antithesis of public health: treating the individual instead of the community, reactionary"
+        },
+        {
+            "id": "Surgery_Schwartz_14105",
+            "title": "Surgery_Schwartz",
+            "content": "of the facili-ties and associated staff. There are strict regulations in place at both the state and federal level that ensure quality in ASCs, which have been detailed earlier. ASCs are held to the same high standard of care as all U.S. medical facilities. They have comparable rates of use of perioperative antibiotics, patient falls, wrong-site surgery, and use of safety checklists.23 Nation-wide and among all procedures, from 2014 to 2016 fewer than 2% of all visits to ASCs resulted in an unplanned hospital visit within 7 days.5 Of these hospital visits, 1.6% were emergency department or observation stays, and 0.6% were unplanned inpatient admissions.24 CMS is working to develop a new qual-ity measure that will track unplanned hospitalizations after care at an ASC. This would help create increasing data on the quality of ASCs. Due to the isolated nature of ASCs, provid-ers are often unaware when a patient goes to the emergency department or is admitted to an unaffiliated hospital"
+        },
+        {
+            "id": "Obstentrics_Williams_4473",
+            "title": "Obstentrics_Williams",
+            "content": "The Surgeon General of the u.S. Department of Health and Human Services (2011) lists some barriers to breastfeeding and suggests practical means of overcoming them. Educational initiatives that include father and peer counseling may improve these rates (Pisacane, 2005; Wolfberg, 2004). The Baby Friendy Hospital Initiative is an international program to increase rates of exclusive breastfeeding and to extend its duration. It is based on the World Health Organization (1989) Ten Steps to Successul Breaseeding (Table 36-4). Worldwide, almost 20,000 hospitals are designated as \"baby-friendly,\" however, only 10 to 15 percent of hospitals in the United States are so designated (Centers for Disease Control and Prevention, 2014; Perrine, 2015). Forrester-Knauss and coworkers (2013) described successul trends toward exclusive breastfeeding in Switzerland during 9 years in which a Baby-Friendly Hospital Initiative was implemented. In a large population-based study done in the United States,"
+        },
+        {
+            "id": "Surgery_Schwartz_12211",
+            "title": "Surgery_Schwartz",
+            "content": "Document muscle stretch reflexes, lower sacral reflexes (i.e., anal wink and bulbocavernosus), and rectal tone.American Spinal Injury Association Classification The American Spinal Injury Association provides a method of clas-sifying patients with spine injuries. The classification indicates completeness and level of the injury and the associated deficit. A form similar to that shown in Fig. 42-14 should be available in the trauma bay and completed for any spine injury patient. The association also has worked to develop recommendations and guidelines to standardize the care of SCI patients in an effort to improve the quality of care.Neurologic Syndromes. Penetrating, compressive, or isch-emic cord injury can lead to several characteristic presentations Figure 42-11. A. Lateral cervical spine X-ray of an elderly woman who struck her head during a backward fall. Arrowhead points to jumped facets at C5\u2013C6. Note the anterior displace-ment of the C5 body with respect to the C6 body. B."
+        },
+        {
+            "id": "Obstentrics_Williams_1089",
+            "title": "Obstentrics_Williams",
+            "content": "hese are traditionally scheduled at 4-week intervals until 28 weeks, then every 2 weeks until 36 weeks, and weekly thereafter. Women with complicated pregnancies-for example, with twins or diabetes-often require return visits at 1-to 2-week intervals (Luke, 2003; Power, 2013). In 1986, the Department of Health and Human Services convened an expert panel to review the content of prenatal care. his report was subsequently reevaluated and revised in 2005 (Gregory, 2006). he panel recommended, among other things, early and continuing risk assessment that is patient speciic. It also endorsed lexibility in clinical visit spacing; health promotion and education, including preconceptional care; medical and psychosocial interventions; standardized documentation; and expanded prenatal care objectives-to include family health up to 1 year after birth."
+        },
+        {
+            "id": "InternalMed_Harrison_12049",
+            "title": "InternalMed_Harrison",
+            "content": "In the United States, clinicians must report every suspected case, regardless of form, on an emergency basis to their state health department. The state health department may put the physician in contact with the 24/7 botulism consultation service at the Centers for Disease Control and Prevention (CDC) through the CDC Emergency Operations Center (770-488-7100) or a locally available service. The botulism consultant will review the case and determine whether botulism is likely. If indicated, the consultant will coordinate laboratory confirmation at appropriate testing facilities and facilitate emergency shipment of antitoxin for all adult cases and for infant cases not involving serotypes A and B. In this country, botulinum antitoxin for noninfant cases is available exclusively from the CDC. Physicians who see suspected infant botulism cases should contact the California Department of Public Health Infant Botulism Treatment and Prevention Program (510-231-7600), which provides 24-h"
+        },
+        {
+            "id": "InternalMed_Harrison_12050",
+            "title": "InternalMed_Harrison",
+            "content": "CDC. Physicians who see suspected infant botulism cases should contact the California Department of Public Health Infant Botulism Treatment and Prevention Program (510-231-7600), which provides 24-h consultation and distributes antitoxin (BabyBIG) for the treatment of infant botulism nationwide. Except in cases involving infants who reside in California, laboratory testing requests must still be authorized by the state health department where the infant is located or by the CDC."
+        }
+    ],
+    "scores": [
+        0.026925041098720126,
+        0.026595568783068783,
+        0.02579265394799375,
+        0.023231776471801215,
+        0.021194898503029642,
+        0.01951637471439452,
+        0.01743396226415094,
+        0.017427884615384616,
+        0.017412370353546824,
+        0.01739656606913244,
+        0.01691407365115615,
+        0.016351457840819542,
+        0.01605392156862745,
+        0.015842564515130886,
+        0.015659732052607105,
+        0.015060737646347496,
+        0.014951495149514951,
+        0.014689089587875011,
+        0.014644786040714583,
+        0.014272166903745852,
+        0.014174095963137333,
+        0.014160133048229984,
+        0.013981615868408322,
+        0.013844862949841507,
+        0.013559477845192132,
+        0.012940705128205127,
+        0.01248197890583504,
+        0.01205519244734931,
+        0.011645962732919254,
+        0.010128205128205128,
+        0.009900990099009901,
+        0.00980392156862745
+    ],
+    "execution_time": 27.026520252227783
+}

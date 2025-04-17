@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-163",
+    "question": "Mutations are errors in DNA that:",
+    "options": {
+        "A": "are always harmful.",
+        "B": "only occur in the presence of carcinogens.",
+        "C": "increase tumour growth.",
+        "D": "occur spontaneously at a low rate."
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze the provided documents and understand the concept of mutations in DNA. Mutations are errors in DNA that can occur spontaneously or as a result of various factors such as carcinogens, errors during DNA replication, or DNA repair mechanisms. According to Document [0], errors in DNA replication, DNA recombination, or DNA repair can lead to point mutations, large-scale genome rearrangements, or the creation of novel genes through transposition events. Document [1] states that errors can occur during DNA synthesis, including incorrect base-pairing or insertion of extra nucleotides, and that these errors can be corrected by DNA repair mechanisms. Document [10] highlights that most spontaneous changes in DNA are temporary and are corrected by DNA repair mechanisms, resulting in only a small fraction of mutations being permanent. Document [11] explains that mutations in DNA mismatch repair genes can lead to increased genomic instability and an elevated risk of cancer. Document [12] discusses the consequences of decreased DNA repair capacity, linking it to various human diseases. Document [14] states that genetic instability in cancer cells can arise from defects in DNA repair mechanisms, leading to changes in DNA sequence and rearrangements. Document [22] emphasizes the importance of mismatch repair genes in maintaining genomic stability and preventing cancer. Document [23] explains that spontaneous alterations in DNA can occur due to various factors, including environmental exposure and errors during DNA replication, and that these changes can be corrected by DNA repair mechanisms. Document [26] highlights that DNA is a complex organic molecule susceptible to spontaneous changes, but these can be corrected by DNA repair mechanisms. Document [27] discusses the importance of DNA repair in correcting mistakes during DNA replication and transcription. Given this understanding, let's evaluate the options: A. are always harmful - This is incorrect because not all mutations are harmful; some may be neutral or beneficial. B. only occur in the presence of carcinogens - This is incorrect because mutations can occur spontaneously or as a result of errors during DNA replication or DNA repair mechanisms. C. increase tumour growth - This is not a direct consequence of mutations; however, mutations can contribute to tumour growth if they occur in genes that regulate cell proliferation or survival. D. occur spontaneously at a low rate - This is incorrect because mutations occur at a relatively high rate, with estimates suggesting that tens of thousands of random changes occur in the DNA of a human cell every day. The correct answer is not explicitly stated in the provided documents, but based on the information, we can conclude that mutations are not always harmful, do not only occur in the presence of carcinogens, and do not solely increase tumour growth. However, it is accurate to say that mutations occur at a relatively high rate and can have various consequences, including the potential to contribute to tumour growth if they occur in specific genes.\", \"answer_choice\": \"D\"}}",
+    "snippets": [
+        {
+            "id": "Cell_Biology_Alberts_990",
+            "title": "Cell_Biology_Alberts",
+            "content": "Errors in DNA replication, DNA recombination, or DNA repair can lead either to simple local changes in DNA sequence\u2014so-called point mutations such as the substitution of one base pair for another\u2014or to large-scale genome rearrangements such as deletions, duplications, inversions, and translocations of DNA from one chromosome to another. In addition to these failures of the genetic machinery, genomes contain mobile DNA elements that are an important source of genomic change (see Table 5\u20133, p. 267). These transposable DNA elements (transposons) are parasitic DNA sequences that can spread within the genomes they colonize. In the process, they often disrupt the function or alter the regulation of existing genes. On occasion, they have created altogether novel genes through fusions between transposon sequences and segments of existing genes. Over long periods of evolutionary time, DNA transposition events have profoundly affected genomes, so much so that nearly half of the DNA in the human"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1481",
+            "title": "Biochemistry_Lippinco",
+            "content": "Despite the elaborate proofreading system employed during DNA synthesis, errors (including incorrect base-pairing or insertion of one to a few extra nucleotides) can occur. In addition, DNA is constantly being subjected to environmental insults that cause the alteration or removal of nucleotide bases. The damaging agents can be either chemicals (for example, nitrous acid, which can deaminate bases) or radiation (for example, nonionizing ultraviolet [UV] radiation, which can fuse two pyrimidines adjacent to each other in the DNA, and high-energy ionizing radiation, which can cause double-strand breaks). Bases are also altered or lost spontaneously from mammalian DNA at a rate of many thousands per cell per day. If the damage is not repaired, a permanent change (mutation) is introduced that can result in any of a number of deleterious effects, including loss of control over the proliferation of the mutated cell, leading to cancer. Luckily, cells are remarkably efficient at repairing"
+        },
+        {
+            "id": "Cell_Biology_Alberts_83",
+            "title": "Cell_Biology_Alberts",
+            "content": "A complete DNA sequence reveals both the genes an organism possesses and the genes it lacks. When we compare the three domains of the living world, we can begin to see which genes are common to all of them and must therefore have been present in the cell that was ancestral to all present-day living things, and which genes are peculiar to a single branch in the tree of life. To explain the findings, however, we need to consider a little more closely how new genes arise and genomes evolve. The raw material of evolution is the DNA sequence that already exists: there is no natural mechanism for making long stretches of new random sequence. In this sense, no gene is ever entirely new. Innovation can, however, occur in several ways (Figure 1\u201319): 1. Intragenic mutation: an existing gene can be randomly modified by changes in its DNA sequence, through various types of error that occur mainly in the process of DNA replication. 2."
+        },
+        {
+            "id": "Cell_Biology_Alberts_84",
+            "title": "Cell_Biology_Alberts",
+            "content": "Intragenic mutation: an existing gene can be randomly modified by changes in its DNA sequence, through various types of error that occur mainly in the process of DNA replication. 2. Gene duplication: an existing gene can be accidentally duplicated so as to create a pair of initially identical genes within a single cell; these two genes may then diverge in the course of evolution. 3. DNA segment shuffling: two or more existing genes can break and rejoin to make a hybrid gene consisting of DNA segments that originally belonged to separate genes. 4. Horizontal (intercellular) transfer: a piece of DNA can be transferred from the genome of one cell to that of another\u2014even to that of another species. This process is in contrast with the usual vertical transfer of genetic information from parent to progeny. Each of these types of change leaves a characteristic trace in the DNA sequence of the organism, and there is clear evidence that all four processes have frequently"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1127",
+            "title": "Cell_Biology_Alberts",
+            "content": "The next error-correcting reaction, known as exonucleolytic proofreading, takes place immediately after those rare instances in which an incorrect nucle otide is covalently added to the growing chain. DNA polymerase enzymes are unpaired or mispaired residues at the primer terminus, continuing until enough nucleotides have been removed to regenerate a correctly base-paired 3\u02b9-OH ter minus that can prime DNA synthesis. In this way, DNA polymerase functions as a attached to DNA polymerase \u201cself-correcting\u201d enzyme that removes its own polymerization errors as it moves chews back to create a base- along the DNA (Figure 5\u20138 and Figure 5\u20139). paired 3\u02dc-OH end on the primer"
+        },
+        {
+            "id": "InternalMed_Harrison_6018",
+            "title": "InternalMed_Harrison",
+            "content": "result in unrestrained cellular proliferation. Most of these alterations involve actual sequence changes in DNA (i.e., mutations). They may originate as a consequence of random replication errors, exposure to carcinogens (e.g., radiation), or faulty DNA repair processes. While most cancers arise sporadically, familial clustering of cancers occurs in certain families that carry a germline mutation in a cancer gene."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1158",
+            "title": "Cell_Biology_Alberts",
+            "content": "A Strand-Directed Mismatch Repair System Removes Replication Errors That Escape from the Replication Machine As stated previously, bacteria such as E. coli are capable of dividing once every 30 minutes, making it relatively easy to screen large populations to find a rare mutant cell that is altered in a specific process. One interesting class of mutants consists of those with alterations in so-called mutator genes, which greatly increase the rate of spontaneous mutation. Not surprisingly, one such mutant makes a defective form of the 3\u02b9-to-5\u02b9 proofreading exonuclease that is a part of the DNA polymerase enzyme (see Figures 5\u20138 and 5\u20139). The mutant DNA polymerase no longer proofreads effectively, and many replication errors that would otherwise have been removed accumulate in the DNA."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1380",
+            "title": "Cell_Biology_Alberts",
+            "content": "5\u20137 DNA repair enzymes preferentially repair mismatched bases on the newly synthesized DNA strand, using the old DNA strand as a template. If mismatches were instead repaired without regard for which strand served as template, would mismatch repair reduce replication errors? Would such a mismatch repair system result in fewer mutations, more mutations, or the same number of mutations as there would have been without any repair at all? Explain your answers. 5\u20138 Discuss the following statement: \u201cPrimase is a sloppy enzyme that makes many mistakes. Eventually, the RNA primers it makes are replaced with DNA made by a polymerase with higher fidelity. This is wasteful. It would be more energy-efficient if a DNA polymerase made an accurate copy in the first place.\u201d 5\u20139 If DNA polymerase requires a perfectly paired primer in order to add the next nucleotide, how is it that any mismatched nucleotides \u201cescape\u201d this requirement and become substrates for mismatch repair enzymes?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_75",
+            "title": "Cell_Biology_Alberts",
+            "content": "Both in the storage and in the copying of genetic information, random accidents and errors occur, altering the nucleotide sequence\u2014that is, creating mutations. Therefore, when a cell divides, its two daughters are often not quite identical to one another or to their parent. On rare occasions, the error may represent a change for the better; more probably, it will cause no significant difference in the cell\u2019s prospects. But in many cases, the error will cause serious damage\u2014for example, by disrupting the coding sequence for a key protein. Changes due to mistakes of the first type will tend to be perpetuated, because the altered cell has an increased likelihood of reproducing itself. Changes due to mistakes of the second type\u2014selectively neutral changes\u2014may be perpetuated or not: in the competition for limited resources, it is a matter of chance whether the altered cell or its cousins will succeed. But changes that cause serious damage lead nowhere: the cell that suffers them dies,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1159",
+            "title": "Cell_Biology_Alberts",
+            "content": "The study of other E. coli mutants exhibiting abnormally high mutation rates has uncovered a proofreading system that removes replication errors made by the polymerase that have been missed by the proofreading exonuclease. This strand-directed mismatch repair system detects the potential for distortion in the DNA helix from the misfit between noncomplementary base pairs. If the proofreading system simply recognized a mismatch in newly replicated DNA and randomly corrected one of the two mismatched nucleotides, it would mistakenly \u201ccorrect\u201d the original template strand to match the error exactly half the time, thereby failing to lower the overall error rate. To be effective, such a proofreading system must be able to distinguish and remove the mismatched nucleotide only on the newly synthesized strand, where the replication error occurred."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1241",
+            "title": "Cell_Biology_Alberts",
+            "content": "Maintaining the genetic stability that an organism needs for its survival requires not only an extremely accurate mechanism for replicating DNA, but also mechanisms for repairing the many accidental lesions that DNA continually suffers. Most such spontaneous changes in DNA are temporary because they are immediately corrected by a set of processes that are collectively called DNA repair. Of the tens of thousands of random changes created every day in the DNA of a human cell by heat, metabolic accidents, radiation of various sorts, and exposure to substances in the environment, only a few (less than 0.02%) accumulate as permanent mutations in the DNA sequence. The rest are eliminated with remarkable efficiency by DNA repair."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5633",
+            "title": "Cell_Biology_Alberts",
+            "content": "The mutations that predispose HNPCC individuals to colorectal cancer occur in one of several genes that code for central components of the DNA mismatch repair system. These genes are homologous in structure and function to the MutL and MutS genes in bacteria and yeast (see Figure 5\u201319). Only one of the two copies of the involved gene is defective, so the repair system is still able to remove the inevitable DNA replication errors that occur in the patient\u2019s cells. However, as discussed previously, these individuals are at risk, because the accidental loss or inactivation of the remaining good gene copy will immediately elevate the spontaneous mutation rate by a hundredfold or more (discussed in Chapter 5). These genetically unstable cells then can presumably speed through the standard processes of mutation and natural selection that allow clones of cells to progress to malignancy."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1243",
+            "title": "Cell_Biology_Alberts",
+            "content": "Recent studies of the consequences of a diminished capacity for DNA repair in humans have linked many human diseases with decreased repair (Table 5\u20132). Thus, we saw previously that defects in a human gene whose product normally functions to repair the mismatched base pairs resulting from DNA replication errors can lead to an inherited predisposition to cancers of the colon and some other organs, reflecting an increased mutation rate. In another human disease, xeroderma pigmentosum (XP), the afflicted individuals have an extreme sensitivity to ultraviolet radiation because they are unable to repair certain DNA photo-products. This repair defect results in an increased mutation rate that leads to serious skin lesions and an increased susceptibility to skin cancers. Finally, mutations in the Brca1 and Brca2 genes compromise a type of DNA repair known as homologous recombination and are a cause of hereditary breast and ovarian cancer."
+        },
+        {
+            "id": "Cell_Biology_Alberts_989",
+            "title": "Cell_Biology_Alberts",
+            "content": "Evolution depends on accidents and mistakes followed by nonrandom survival. Most of the genetic changes that occur result simply from failures in the normal mechanisms by which genomes are copied or repaired when damaged, although the movement of transposable DNA elements (discussed below) also plays an important part. As we will explain in Chapter 5, the mechanisms that maintain DNA sequences are remarkably precise\u2014but they are not perfect. DNA sequences are inherited with such extraordinary fidelity that typically, along a given line of descent, only about one nucleotide pair in a thousand is randomly changed in the germ line every million years. Even so, in a population of 10,000 diploid individuals, every possible nucleotide substitution will have been \u201ctried out\u201d on about 20 occasions in the course of a million years\u2014a short span of time in relation to the evolution of species."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5494",
+            "title": "Cell_Biology_Alberts",
+            "content": "The genetic instability observed in cancer cells can arise from defects in the ability to repair DNA damage or to correct replication errors of various kinds. These alterations lead to changes in DNA sequence and produce rearrangements such as DNA translocations and duplications. Also common are defects in chromosome segregation during mitosis, which provide another possible source of chromosome instability and changes in karyotype. From an evolutionary perspective, none of this should be a surprise: anything that increases the probability of random changes in gene function heritable from one cell generation to the next\u2014and that is not too deleterious\u2014is likely to speed the evolution of a clone of cells toward malignancy, thereby causing this property to be selected for during tumor progression. epithelial cells growing on accidental production basal lamina of mutant cell cell with cell with"
+        },
+        {
+            "id": "Cell_Biology_Alberts_190",
+            "title": "Cell_Biology_Alberts",
+            "content": "1\u20133 Most of the DNA sequences in a bacterial genome code for proteins, whereas most of the DNA sequences in the human genome do not. Discuss the following problems. 1\u20134 Since it was deciphered four decades ago, some have claimed that the genetic code must be a frozen acci number of codes (thousands) dent, while others have argued that it was shaped by nat susceptibility to mutation ural selection. A striking feature of the genetic code is its inherent resistance to the effects of mutation. For example, Figure Q1\u20131 susceptibility to mutation of the natural code shown a change in the third position of a codon often specifies the relative to that of millions of computer-generated alternative genetic codes (Problem 1\u20134). susceptibility measures the average change in same amino acid or one with similar chemical properties. amino acid properties caused by random mutations in a genetic code. The natural code resists mutation more effectively (is less"
+        },
+        {
+            "id": "Cell_Biology_Alberts_191",
+            "title": "Cell_Biology_Alberts",
+            "content": "amino acid properties caused by random mutations in a genetic code. The natural code resists mutation more effectively (is less A small value indicates that mutations tend to cause minor changes.susceptible to error) than most other possible versions, as (data courtesy of steve Freeland.) 1\u20135 You have begun to characterize a sample obtained from the depths of the oceans on Europa, one of Jupiter\u2019s moons. Much to your surprise, the sample contains a life-form that grows well in a rich broth. Your preliminary analysis shows that it is cellular and contains DNA, RNA, and protein. When you show your results to a colleague, she suggests that your sample was contaminated with an organism from Earth. What approaches might you try to distinguish between contamination and a novel cellular life-form based on DNA, RNA, and protein?"
+        },
+        {
+            "id": "Pediatrics_Nelson_948",
+            "title": "Pediatrics_Nelson",
+            "content": "Disease may be caused by changes or mutations in the DNA sequence, with the point mutation, a change in a single DNA base, being the most common type. A point mutation that changes a codon and the resulting amino acid thatgoes into the protein is referred to as a missense mutation. A nonsense mutation is a point mutation that changes thecodon to a \u201cstop\u201d codon so that transcription stops prematurely. A frameshift mutation often stems from the loss or addition of one or more DNA bases; this causes a shift in how the DNA is transcribed and generally leads to premature stop codons."
+        },
+        {
+            "id": "Neurology_Adams_7487",
+            "title": "Neurology_Adams",
+            "content": "The genetic error in each of the mitochondrial diseases is most often a single-point mutation that leads to the alteration of a single amino acid, but there are also single or multiple deletions or duplications of mitochondrial genes that do not conform to maternal inheritance because they are caused by nuclear DNA defects. It is important to note that approximately 85 percent of the protein components of the respiratory chain are coded in nuclear DNA and are then imported into the mitochondrion; as mentioned above, this allows for a mitochondrial disease with a mendelian pattern of inheritance rather than a maternal one. Another of the general rules of mitochondrial inheritance is exemplified by an infantile myopathy (cytochrome oxidase deficiency) that is usually fatal but may also occur in a less severe form and have a later onset. In cases of earlier onset, there is less of the normal mitochondrial DNA than in the cases of later onset."
+        },
+        {
+            "id": "InternalMed_Harrison_5022",
+            "title": "InternalMed_Harrison",
+            "content": "Limitations to the accuracy and interpretation of genetic testing exist. In addition to technical errors, genetics tests are sometimes designed to detect only the most common mutations. In addition, genetic testing has evolved over time. For example, it was not possible to obtain commercially available comprehensive large genomic rearrangement testing for BRCA1 and BRCA2 until 2006. Therefore, a negative result must be qualified by the possibility that the individual may have a mutation that was not included in the test. In addition, a negative result does not mean that there is not a mutation in some other gene that causes a similar inherited disorder. A negative result, unless there is known mutation in the family, is typically classified as uninformative."
+        },
+        {
+            "id": "InternalMed_Harrison_6994",
+            "title": "InternalMed_Harrison",
+            "content": "on chromosome 2 and hMLH1 on chromosome 3. These mutations lead to errors in DNA replication and are thought to result in DNA instability because of defective repair of DNA mismatches resulting in abnormal cell growth and tumor development. Testing tumor cells through molecular analysis of DNA or immunohistochemical staining of paraffin-fixed tissue for \u201cmicrosatellite instability\u201d (sequence changes reflecting defective mismatch repair) in patients with colorectal cancer and a positive family history for colorectal or endometrial cancer may identify probands with HNPCC."
+        },
+        {
+            "id": "InternalMed_Harrison_6055",
+            "title": "InternalMed_Harrison",
+            "content": "In contrast to patients with FAP, patients with hereditary nonpolyposis colon cancer (HNPCC, or Lynch\u2019s syndrome) do not develop multiple polyposis, but instead develop only one or a small number of adenomas that rapidly progress to cancer. Most HNPCC cases are due to mutations in one of four DNA mismatch repair genes (Table 101e-3), which are components of a repair system that is normally responsible for correcting errors in freshly replicated DNA. Germline mutations in MSH2 and MLH1 account for more than 90% of HNPCC cases, whereas mutations in MSH6 and PMS2 are much less frequent. When a somatic mutation inactivates the remaining wild-type allele of a mismatch repair gene, the cell develops a hypermutable phenotype characterized by profound genomic instability, especially for the short repeated sequences called microsatellites. This microsatellite instability (MSI) favors the development of cancer by increasing the rate of mutations in many genes, including oncogenes and"
+        },
+        {
+            "id": "Surgery_Schwartz_8523",
+            "title": "Surgery_Schwartz",
+            "content": "genes have been identified that appear to be crucial for recognizing and repairing DNA replication errors. These mismatch repair genes include MSH2, MLH1, PMS1, PMS2, and MSH6/GTBP. A mutation in one of these genes predisposes a cell to mutations, which may occur in proto-oncogenes or tumor suppressor genes. Accumulation of these errors then leads to genomic instability and ultimately to carcinogenesis.Microsatellites are regions of the genome in which short base-pair segments are repeated several times, regions that are particularly prone to replication error. Consequently, a mutation in a mismatch repair gene produces variable lengths of these repetitive sequences, a finding that has been described as MSI.Tumors associated with MSI appear to have different bio-logic characteristics than do tumors that result from the LOH pathway. Tumors with MSI are more likely to be in the right colon and possess diploid DNA and are associated with a better prognosis than tumors that arise from the"
+        },
+        {
+            "id": "InternalMed_Harrison_4812",
+            "title": "InternalMed_Harrison",
+            "content": "Chapter 82 Principles of Human Genetics A, Poly A signal. an enhanced rate of deamination to uracil, which is then replaced with thymine. This C \u2192 T transition (or G \u2192 A on the opposite strand) accounts for at least one-third of point mutations associated with polymorphisms and mutations. In addition to the fact that certain types of mutations (C \u2192 T or G \u2192 A) are relatively common, the nature of the genetic code also results in overrepresentation of certain amino acid substitutions."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1279",
+            "title": "Cell_Biology_Alberts",
+            "content": "Genetic information can be stored stably in DNA sequences only because a large set of DNA repair enzymes continuously scan the DNA and replace any damaged nucleotides. Most types of DNA repair depend on the presence of a separate copy of the genetic information in each of the two strands of the DNA double helix. An accidental lesion on one strand can therefore be cut out by a repair enzyme and a corrected strand resynthesized by reference to the information in the undamaged strand."
+        },
+        {
+            "id": "First_Aid_Step1_7",
+            "title": "First_Aid_Step1",
+            "content": "H Prokaryotes only. Degrades RNA primer; Same functions as DNA polymerase III, also replaces it with DNA. excises RNA primer with 5\u2032 \u008e 3\u2032 exonuclease. I Catalyzes the formation of a phosphodiester Joins Okazaki fragments. bond within a strand of double-stranded DNA. Ligase Links DNA. Mutations in DNA Severity of damage: silent << missense < nonsense < frameshift. Types of single nucleotide (point) mutations: \u2022 Transition\u2014purine to purine (eg, A to G) or pyrimidine to pyrimidine (eg, C to T). \u0083Transversion\u2014purine to pyrimidine (eg, A to T) or pyrimidine to purine (eg, C to G). Single nucleotide substitutions Silent mutation Nucleotide substitution codes for same (synonymous) amino acid; often base change in 3rd position of codon (tRNA wobble). Missense mutation Nucleotide substitution results in changed amino acid (called conservative if new amino acid has similar chemical structure). Examples include sickle cell disease (substitution of glutamic acid with valine)."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1244",
+            "title": "Cell_Biology_Alberts",
+            "content": "Without DNA Repair, Spontaneous DNA Damage Would Rapidly Change DNA Sequences Although DNA is a highly stable material\u2014as required for the storage of genetic information\u2014it is a complex organic molecule that is susceptible, even under normal cell conditions, to spontaneous changes that would lead to mutations if left unrepaired (Figure 5\u201337 and see Table 5\u20133). For example, the DNA of each Figure 5\u201337 A summary of spontaneous alterations that require DNA repair."
+        },
+        {
+            "id": "Cell_Biology_Alberts_1246",
+            "title": "Cell_Biology_Alberts",
+            "content": "and the high-energy methyl donor S-adenosylmethionine, or by exposure to chemicals in the environment. Likewise, ultraviolet radiation from the sun can produce a covalent linkage between two adjacent pyrimidine bases in DNA to form, for example, thymine dimers (Figure 5\u201339). If left uncorrected when the DNA is replicated, most of these changes would be expected to lead either to the deletion of one or more base pairs or to a base-pair substitution in the daughter DNA chain (Figure 5\u201340). The mutations would then be propagated throughout subsequent cell generations. Such a high rate of random changes in the DNA sequence would have disastrous consequences."
+        },
+        {
+            "id": "Pathology_Robbins_1960",
+            "title": "Pathology_Robbins",
+            "content": "repair, or the repair of lesions may be imprecise (error prone), creating mutations. If cell-cycle checkpoints are not functioning (for instance, because of mutations in TP53), cells with abnormal and unstable genomes survive"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6489",
+            "title": "Cell_Biology_Alberts",
+            "content": "In contrast to the DNA rearrangements in bacteria and parasites, viruses rely on an error-prone replication mechanism for antigenic variation. Retroviral genomes, for example, acquire on average one point mutation every replication cycle, because the viral reverse transcriptase (see Figure 5\u201362) needed to produce DNA from the viral RNA genome lacks the proofreading activity of DNA polymerases. A typical, untreated HIV infection may eventually produce HIV genomes with every possible point mutation. By a process of mutation and selection within each host, most viruses change over time\u2014from a form that is most efficient at infecting macrophages to one more efficient at infecting T cells, as described earlier (see Figure 23\u201317). Similarly, once a patient is treated with an antiviral drug, the viral genome can quickly mutate and be selected for its resistance to the drug. Remarkably, only about one-third of the nucleotide positions in the coding sequence of the viral genome are invariant,"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1740",
+            "title": "Cell_Biology_Alberts",
+            "content": "DNA appeared on the scene later, but then proved more suitable than RNA as a permanent repository of genetic information. In particular, the deoxyribose in \u2022 The information carried in genomes its sugar-phosphate backbone makes chains of DNA chemically more stable than specifies the sequences of all proteins chains of RNA, so that much greater lengths of DNA can be maintained without and RNA molecules in the cell, breakage. and it determines when and where these molecules are synthesized. The other differences between RNA and DNA\u2014the double-helical structure of DNA and the use of thymine rather than uracil\u2014further enhance DNA stability by making the many unavoidable accidents that occur to the molecule much easier discovered? to repair, as discussed in detail in Chapter 5 (pp. 271\u2013273). \u2022 Cells go to great length to correct mistakes in the processes of DNA replication, transcription, splicing, and translation. Are there analogous"
+        },
+        {
+            "id": "InternalMed_Harrison_4817",
+            "title": "InternalMed_Harrison",
+            "content": "FIGURE 82-10 A. Examples of mutations. The coding strand is shown with the encoded amino acid sequence. B. Chromatograms of sequence analyses after amplification of genomic DNA by polymerase chain reaction."
+        }
+    ],
+    "scores": [
+        0.03617590254048432,
+        0.030467175033835284,
+        0.028517464825137777,
+        0.02838651329861719,
+        0.027658051079942028,
+        0.027132980288320094,
+        0.02702569513694024,
+        0.02519793892170416,
+        0.02495765496679188,
+        0.024675324675324677,
+        0.024256350267379677,
+        0.023592452747669274,
+        0.02352921102921103,
+        0.023228452332929944,
+        0.022732142857142857,
+        0.022290557870495175,
+        0.0217687969924812,
+        0.021293290043290045,
+        0.020985979194934418,
+        0.02072652940962192,
+        0.020309810671256454,
+        0.02017641609802627,
+        0.01951265943270512,
+        0.018984052681688353,
+        0.018829561527581327,
+        0.018625481332663653,
+        0.018137254901960782,
+        0.017252918866661707,
+        0.017221320346320346,
+        0.016677089847821555,
+        0.016645064465516064,
+        0.016465494620834426
+    ],
+    "execution_time": 58.79309558868408
+}

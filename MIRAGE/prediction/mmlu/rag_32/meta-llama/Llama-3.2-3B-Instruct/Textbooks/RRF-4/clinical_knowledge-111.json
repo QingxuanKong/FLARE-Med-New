@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-111",
+    "question": "How many different types of microorganisms may colonize the mouth?",
+    "options": {
+        "A": "35",
+        "B": "100",
+        "C": "350",
+        "D": "500"
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the information provided in the relevant documents about the types of microorganisms that can colonize the mouth.\\n\\nAccording to Document [27] (Title: Cell_Biology_Alberts), the microbiota is usually confined to the skin, mouth, digestive tract, and vagina. With the exception of microbes colonizing the skin, it consists primarily of anaerobic bacteria, with distinct communities of species inhabiting each body part.\\n\\nDocument [27] (Title: Cell_Biology_Alberts) states that there are about 300 bacterial species residing within the oral cavity. However, it does not specify the exact number of different types of microorganisms that may colonize the mouth.\\n\\nDocument [28] (Title: Cell_Biology_Alberts) does not provide information about the number of different types of microorganisms that colonize the mouth.\\n\\nHowever, Document [12] (Title: InternalMed_Harrison) states that the difference among people is not subtle, even from the broad, bacterial species-level view, and that gut, skin, and oral communities can all differ by 80\u201390%.\\n\\nHowever, this information does not provide the number of different types of microorganisms that may colonize the mouth.\\n\\nBased on the provided information, we can infer that there are likely hundreds of different types of microorganisms that may colonize the mouth, but the exact number is not specified.\\n\\nHowever, considering the information from Document [27] (Title: Cell_Biology_Alberts), we can conclude that the answer is not A (35) or B (100), as it is unlikely that there are only 35 or 100 different types of microorganisms that can colonize the mouth.\\n\\nConsidering the information from Document [27] (Title: Cell_Biology_Alberts), we can eliminate answer choice D (500) as it is an overestimation.\\n\\nTherefore, the most plausible answer is C (350), as it is a reasonable estimate based on the information provided.\\n\\nHowever, we should note that the exact number of different types of microorganisms that may colonize the mouth is not specified in the provided documents.\\n\\nTherefore, the most accurate answer is not explicitly stated in the documents, but based on the information provided, C (350) is the most plausible answer.\", \"answer_choice\": \"C\"}}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_13167",
+            "title": "InternalMed_Harrison",
+            "content": "Most human mucocutaneous surfaces harbor a rich indigenous normal microbiota composed of aerobic and anaerobic bacteria. These surfaces are dominated by anaerobic bacteria, which often account for 99.0\u201399.9% of the culturable microbiota and range in concentration from 109/mL in saliva to 1012/mL in gingival scrapings and the colon. It is interesting that anaerobes inhabit many areas of the body that are exposed to air: skin, nose, mouth, and throat. Anaerobes are thought to reside in the portions of these sites that are relatively well protected from oxygen, such as gingival crevices. New technologies based on analyses of microbial DNA have expanded our knowledge of these bacterial populations. For example, in an analysis of 13,555 prokaryotic ribosomal RNA gene sequences from the colon, most bacteria identified were considered uncultivated and novel microorganisms. Two immense projects based on these new technologies, the Human Microbiome Project funded by the U.S. National"
+        },
+        {
+            "id": "Immunology_Janeway_27",
+            "title": "Immunology_Janeway",
+            "content": "Not all microbes are pathogens. Many tissues, especially the skin, oral mucosa, conjunctiva, and gastrointestinal tract, are constantly colonized by microbial communities\u2014called the microbiome\u2014that consist of archaea, bacteria, and fungi but cause no damage to the host. These are also called commensal microorganisms, since they can have a symbiotic relationship with the host. Indeed, some commensal organisms perform important functions, as in the case of the bacteria that aid in cellulose digestion in the stomachs of ruminants. The difference between commensal organisms and pathogens lies in whether they induce damage. Even enormous numbers of microbes in the intestinal microbiome normally cause no damage and are confined within the intestinal lumen by a protective layer of mucus, whereas pathogenic bacteria can penetrate this barrier, injure intestinal epithelial cells, and spread into the underlying tissues."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6356",
+            "title": "Cell_Biology_Alberts",
+            "content": "We normally think of pathogens as hostile invaders, but a pathogen, like any other organism, is simply exploiting an available niche in which to live and procreate. Living on or in a host organism is a very effective strategy, and it is possible that every organism on Earth is subject to some type of infection (Figure 23\u20131). A human host is a nutrient-rich, warm, and moist environment, which remains at a uniform temperature and constantly renews itself. It is not surprising that many microorganisms have evolved the ability to survive and reproduce in this desirable niche. In this section, we discuss some of the common features that microorganisms must have in order to colonize the human body or cause disease, and we explore the wide variety of organisms that are known to cause disease. The Human Microbiota Is a Complex Ecological System That Is Important for Our Development and Health"
+        },
+        {
+            "id": "Immunology_Janeway_2977",
+            "title": "Immunology_Janeway",
+            "content": "The surfaces of the healthy body are colonized by large numbers of microorganisms, collectively referred to as the microbiota, or microbiome, composed mostly of bacteria, but also archaea, viruses, fungi, and protozoa . The intestine is the largest source of these organisms, although all the other mucosal tissues harbor their own, distinct populations of microbes. We each harbor more than 1000 species of commensal bacteria in our intestine, and they are present in greatest numbers in the colon and lower ileum. As many of the species cannot be grown in culture, their exact numbers and identities are only now being established by high-throughput sequencing techniques. In humans, there are several major phyla of bacteria, plus the archaea\u2014in descending order, Firmicutes, Bacteroidetes, Proteobacteria, Actinobacteria, and Archaea. There are at least 1014 of these microorganisms that collectively weigh about 1 kg. The intestinal microbiota normally exists in a mutually beneficial, or"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6418",
+            "title": "Cell_Biology_Alberts",
+            "content": "Whereas many epithelial barriers such as the skin and the lining of the mouth and large intestine are densely populated by normal flora, others, including the lining of the lower lung and the bladder, are normally kept nearly sterile. How do these epithelia avoid bacterial colonization? A layer of protective mucus covers the respiratory epithelium, and the coordinated beating of cilia sweeps the mucus and trapped bacteria up and out of the lung. The epithelial lining of the bladder and the upper gastrointestinal tract also has a thick layer of mucus, and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_6355",
+            "title": "Cell_Biology_Alberts",
+            "content": "Although pathogens are understandably a focus of attention, only a relatively small fraction of the microbial species we encounter are pathogens. Much of the biomass of the Earth is made up of microbes, and they produce everything from the oxygen we breathe to the soil nutrients we use to grow food. Even those species of microbes that colonize the human body do not generally cause disease. The collective of microorganisms that reside in or on an organism is called the microbiota. Many of these microbes have a beneficial effect on the health of the organism, assisting its normal development and physiology. In this chapter, we give an overview of the different kinds of pathogens, as well as those microorganisms that colonize our body without causing trouble. We then discuss the cell biology of infection\u2014the molecular interactions between pathogens and their host. In Chapter 24, we consider how our innate and adaptive immune systems collaborate to defend us against pathogens."
+        },
+        {
+            "id": "Immunology_Janeway_217",
+            "title": "Immunology_Janeway",
+            "content": "Microorganisms that cause disease in humans and animals enter the body at different sites and produce disease symptoms by a variety of mechanisms. Microorganisms that cause disease and produce damage, or pathology, to tissues are referred to as pathogenic microorganisms, or simply pathogens. As innate immunity eliminates most microorganisms that may occasionally cross an anatomic barrier, pathogens are microorganisms that have evolved ways of overcoming the body\u2019s innate defenses more effectively than other microorganisms. Once infection is established, both innate and adaptive immune responses are typically required to eliminate pathogens from the body. Even in these cases, the innate immune system performs a valuable function by reducing pathogen numbers during the time needed for the adaptive immune system to gear up for action. In the first part of this chapter we briefly describe the different types of pathogens and their invasive strategies, and then examine the immediate innate"
+        },
+        {
+            "id": "InternalMed_Harrison_13169",
+            "title": "InternalMed_Harrison",
+            "content": "The major reservoirs of anaerobic bacteria are the mouth, lower gastrointestinal tract, skin, and female genital tract (Table 201-1). In the oral cavity, the ratio of anaerobic to aerobic bacteria ranges from 1:1 on the surface of a tooth to 1000:1 in the gingival crevices. Prevotella and Porphyromonas species comprise much of the indigenous oral anaerobic microbiota. Fusobacterium and Bacteroides (non\u2013B. fragilis group) are present in lower numbers. Anaerobic bacteria are not found in appreciable numbers in the normal stomach and upper small intestine. In the distal ileum, the microbiota begins to resemble that of the colon. In the colon, the ratio of anaerobes to facultative species is high; for example, there are 1011\u20131012 organisms/g of stool, and >99% of these organisms are anaerobic, with an anaerobe-to-aerobe ratio of ~1000:1. The predominant anaerobes in the human intestine belong to the phyla Bacteroidetes and Firmicutes and include a number of Bacteroides species (e.g.,"
+        },
+        {
+            "id": "Pathology_Robbins_2133",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 9.6 Routes of entry and dissemination of microbes. To enter the body, microbes penetrate epithelial or mucosal barriers. Infection may remain localized at the site of entry or spread to other sites in the body. Most common microbes (selected examples are shown) spread through the lymphatics or bloodstream (either freely or within inflammatory cells). However, certain viruses and bacterial toxins also may travel through nerves. (Adapted from Mims CA: The pathogenesis of infectious disease, ed 4, San Diego, 1996, Academic Press.) the magnitude of the infection, the pattern of seeding, and host factors such as immune status. Sporadic bloodstream invasion by low-virulence or nonvirulent microbes (e.g., during brushing of teeth) is common but is quickly controlled by normal host defenses. By contrast, disseminated viremia, bacteremia, fungemia, or parasitemia by virulent pathogens poses a serious danger and manifests as fever, hypotension, and multiple other systemic signs and"
+        },
+        {
+            "id": "Physiology_Levy_3086",
+            "title": "Physiology_Levy",
+            "content": "Commensal microorganisms also play a critical role in limiting the growth or invasion (or both) of pathogenic microorganisms. They fulfill this antimicrobial role via a number of different mechanisms\u2014by synthesizing and secreting compounds that inhibit the growth of competitor organisms or that are microbicidal, by functioning as a physical barrier to prevent attachment of pathogens and their subsequent entry into colonic epithelial cells, and by triggering patterns of gene expression in the epithelium that counteract the adverse effects of pathogens on epithelial function. These mechanisms provide a basis for understanding why patients who have received broad-spectrum antibiotics, which temporarily disrupt the colonic microbiota, are susceptible to overgrowth of pathogenic organisms and associated intestinal and systemic infections. They may also shed light on the efficacy of probiotics, commensal bacteria selected for their resistance to gastric acid and proteolysis that are"
+        },
+        {
+            "id": "Pathology_Robbins_2095",
+            "title": "Pathology_Robbins",
+            "content": "The microbiome is the diverse microbial population of bacteria, fungi, and viruses found in or on the human body (e.g., in the intestinal tract, skin, upper airway, and vagina). While most of these organisms do not harm the healthy host, a few cause diseases such as skin and soft-tissue infections (Staphylococcus aureus and Streptococcus pyogenes), acne (Propionibacterium acnes), and tooth decay (Streptococcus mitus). The microbiome has important roles in normal health and development. In the intestinal tract, the normal flora are responsible for absorption of digested foods, for maintaining the integrity of the epithelium and the normal functioning of the intestinal immune system, and for competitively inhibiting invasion and colonization by potentially pathogenic microbes. The gut microbiome is also emerging as a regulator of nutritional status."
+        },
+        {
+            "id": "Histology_Ross_2525",
+            "title": "Histology_Ross",
+            "content": "Oral mucosa forms an important protective barrier between the external environment of the oral cavity and internal environments of the surrounding tissues. It is resistant to the pathogenic organisms that enter the oral cavity and to indigenous microorganisms residing there as microbial \ufb02ora. Epithelial cells, migratory neutrophils, and saliva all contribute to maintaining the health of the oral cavity and protecting the oral mucosa from bacterial, fungal, and viral infections. The protective mechanisms include several salivary antimicrobial peptides, the -defensins expressed in the epithelium, the -defensins expressed in neutrophils, and the secretory immunoglobin A (sIgA). However, in individuals with immunodeficiency or undergoing antibiotic therapy, in which the balance between microorganisms and protective mechanisms is disrupted, oral infections are rather common."
+        },
+        {
+            "id": "InternalMed_Harrison_5175",
+            "title": "InternalMed_Harrison",
+            "content": "At many levels, different people are very much alike: our genomes are >99% identical, and we have similar collections of human cells. However, our microbial communities differ drastically, both between people and between habitats within a single human body. The greatest variation (beta diversity, described below) is between body sites. For example, the difference between the microbial communities residing in a person\u2019s mouth versus the same person\u2019s gut is comparable to the difference in communities residing in soil versus seawater. Even within a body site, the differences among people are not subtle: gut, skin, and oral communities can all differ by 80\u201390%, even from the broad, bacterial species\u2013level view. The English poet John Donne said that \u201cno man is an island\u201d; however, from a microbial perspective, each of us consists of not just one isolated island but rather a whole archipelago of distinct habitats that exchange microbes with one another and with the outside environment at"
+        },
+        {
+            "id": "Pathology_Robbins_3539",
+            "title": "Pathology_Robbins",
+            "content": "The specific strain of C. albicans The composition of the oral microbial flora (microbiota) Broad-spectrum antibiotics that alter the normal microbiota can promote oral candidiasis. The three major clinical forms of oral candidiasis are pseudomembranous, erythematous, and hyperplastic. The pseudomembranous form is most common and is known as thrush. This condition is characterized by a superficial, curdlike, gray to white inflammatory membrane composed of matted organisms enmeshed in a fibrinosuppurative exudate that can be readily scraped off to reveal an underlying erythematous base. In mildly immunosuppressed or debilitated individuals, such as diabetics, the infection usually remains superficial, but it may spread to deep sites in association with more severe immunosuppression, that may be seen in organ or hematopoietic stem cell transplant recipients, and in patients with neutropenia, chemotherapy-induced immunosuppression, or AIDS."
+        },
+        {
+            "id": "Physiology_Levy_2794",
+            "title": "Physiology_Levy",
+            "content": "The human microbiome, especially the gut, has received a lot of attention, and exploration into the role of these commensal microorganisms in health and disease is rapidly developing. Although much is known about the gut microbiome, the lung microbiome has been difficult to explore. Once thought to be a sterile environment, the lung remains a difficult site to sample for a variety of reasons, including subject safety during sampling (invasive procedures), complexity and variety of epithelial surfaces throughout the respiratory tract, and the simple fact that far fewer bacteria are available to sample. Furthermore, the lumen ecosystem and epithelium of the respiratory tract differ considerably along the respiratory tract, from the upper airways to the alveoli; it is likely that the density and types of bacteria residing in these various regions also differ. It is clear, however, that the lung does have a microbiome, and three primary phyla appear to be represented: Bacteroidetes"
+        },
+        {
+            "id": "InternalMed_Harrison_9547",
+            "title": "InternalMed_Harrison",
+            "content": "P. aeruginosa growing on the bronchial mucosa during chronic infection, staphylococci and other pathogens growing on implanted medical devices, and dental pathogens growing on tooth surfaces to form plaque are several examples of microbial biofilm growth associated with human disease. Many other pathogens can form biofilms during in vitro growth. It is increasingly accepted that this mode of growth contributes to microbial virulence and induction of disease and that biofilm formation can also be an important factor in microbial survival outside the host, promoting transmission to additional susceptible individuals."
+        },
+        {
+            "id": "InternalMed_Harrison_13185",
+            "title": "InternalMed_Harrison",
+            "content": "Virulence factors associated with anaerobes typically confer the ability to evade host defenses, adhere to cell surfaces, produce toxins and/or enzymes, or display surface structures such as capsular polysaccharides and lipopolysaccharide (LPS) that contribute to pathogenic potential. The ability of an organism to adhere to host tissues is important to the establishment of infection. Some oral species adhere to the epithelium in the oral cavity. P. melaninogenica actually attaches to other microorganisms. P. gingivalis, a common isolate in periodontal disease, has fimbriae that facilitate attachment. Some Bacteroides strains appear to be piliated, a characteristic that may account for their ability to adhere."
+        },
+        {
+            "id": "Pathology_Robbins_2096",
+            "title": "Pathology_Robbins",
+            "content": "New techniques of bacterial identification relying on ribosomal RNA sequencing have dramatically improved our understanding of the microbiome: In healthy individuals, the microbiome is very diverse. For example, there are estimated to be over 1000 species of bacteria in the normal intestinal flora of an individual. In a healthy person, a part of the bacterial population at various body sites is relatively stable over time, but may be altered by diet and environment. The diversity of bacteria is greatest in the oral cavity and the stool, intermediate on the skin, and least in the vagina. The bacterial microbiomes at various body sites are partially similar in different individuals. Dysbiosis refers to changes in composition of the microbiome that are associated with disease. These changes may result from therapies or various pathophysiologic conditions, including the following:"
+        },
+        {
+            "id": "Pathology_Robbins_3538",
+            "title": "Pathology_Robbins",
+            "content": "Fig. 15.8 later in the chapter) and genital herpes (Chapter 19). The infected cells become ballooned and have large eosinophilic intranuclear inclusions. Adjacent cells commonly fuse to form large multinucleated polykaryons. Fig. 15.1 Aphthousulcer.Singleulcerationwithanerythematoushalosur-roundingayellowishfibrinopurulentmembrane. http://ebooksmedicine.net Candidiasis is the most common fungal infection of the oral cavity. Candida albicans is a normal component of the oral flora and only produces disease under unusual circumstances. Predisposing factors include the following: The specific strain of C. albicans The composition of the oral microbial flora (microbiota)"
+        },
+        {
+            "id": "InternalMed_Harrison_13163",
+            "title": "InternalMed_Harrison",
+            "content": "reside on mucous membranes and predominate in many infectious processes, particularly those arising from mucosal surfaces. These organisms generally cause disease subsequent to the breakdown of mucosal barriers and the leakage of the microbiota into normally sterile sites. Infections resulting from contamination by the microbiota are usually polymicrobial and involve both aerobic and anaerobic bacteria. However, the difficulties encountered in handling specimens in which anaerobes may be important and the technical challenges entailed in cultivating and identifying these organisms in clinical microbiology laboratories continue to leave the anaerobic etiology of an infectious process unproven in many cases. Therefore, an understanding of the types of infections in which anaerobes can play a role is crucial in selecting appropriate microbiologic tools to identify the organisms in clinical specimens and in choosing the most appropriate treatment, including antibiotics and surgical"
+        },
+        {
+            "id": "InternalMed_Harrison_13178",
+            "title": "InternalMed_Harrison",
+            "content": "Severe mixed infections of the head and neck may arise from an abscessed tooth infected with commensal microbiota of the mouth. Examples of infections arising from an oral source are chronic sinusitis, chronic otitis media, Ludwig\u2019s angina, and periodontal abscesses. Brain abscesses and subdural empyema are also commonly associated with the oral microbiota. Oral anaerobes are usually responsible for pleuropulmonary diseases such as aspiration pneumonia, necrotizing pneumonia, lung abscess, and empyema."
+        },
+        {
+            "id": "InternalMed_Harrison_9469",
+            "title": "InternalMed_Harrison",
+            "content": "Normal, healthy humans are colonized with over 100 trillion bacteria as well as countless viruses, fungi, and archaea; taken together, these microorganisms outnumber human cells by 10\u2013100 times (Chap. 86e). The major reservoir of these microbes is the gastrointestinal tract, but very substantial numbers of microbes live in the female genital tract, the oral cavity, and the nasopharynx. There is increasing interest in the skin and even the lungs as sites where microbial colonization might be highly relevant to the biology and disease susceptibility of the host. These commensal organisms provide the host with myriad benefits, from aiding in metabolism to shaping the immune system. With regard to infectious diseases, the vast majority of infections are caused by organisms that are part of the normal flora (e.g., S. aureus,"
+        },
+        {
+            "id": "Histology_Ross_2640",
+            "title": "Histology_Ross",
+            "content": "Saliva performs both protective and digestive functions. The salivary glands produce about 1,200 mL of saliva a day. Saliva has numerous functions relating to metabolic and nonmetabolic activities, including these: \u0081 Moistening the oral mucosa\u0081 Moistening dry foods to aid swallowing\u0081 Providing a medium for dissolved and suspended food ma terials that chemically stimulate taste buds\u0081 Buffering the contents of the oral cavity, because of its high concentration of bicarbonate ions \u0081 Digesting carbohydrates with the digestive enzyme -amylase, which breaks one to four glycosidic bonds and continues to act in the esophagus and stomach \u0081 Controlling the bacterial flora of the oral cavity by use of lysozyme (muramidase), an enzyme that lyses the muramic acid in certain bacteria (e.g., staphylococci) The unique composition of saliva is summarized in Table 16.1. Saliva is a source of calcium and phosphate ions essential for normal tooth development and maintenance."
+        },
+        {
+            "id": "Pathology_Robbins_2115",
+            "title": "Pathology_Robbins",
+            "content": "http://ebooksmedicine.net Microbes can enter the host through several body surfaces and, once in the host, can disseminate by different routes. Microbes can enter the host through breaches in the skin, by inhalation or ingestion, or by sexual transmission. The first defenses against infection are intact skin and mucosal surfaces, which provide physical barriers and produce anti-microbial substances. In general, respiratory, gastrointestinal, or genitourinary tract infections that occur in otherwise healthy individuals are caused by relatively virulent microorganisms that are capable of damaging or penetrating intact epithelial barriers. By contrast, most skin infections in healthy individuals are caused by less virulent organisms that breach the skin through damaged sites ( Table 9.6"
+        },
+        {
+            "id": "InternalMed_Harrison_12298",
+            "title": "InternalMed_Harrison",
+            "content": "Infections Due to the HACEK Group and Miscellaneous Gram-Negative Bacteria Tamar F. Barlam, Dennis L. Kasper THE HACEK GROUP 183e HACEK organisms are a group of fastidious, slow-growing, gram-negative bacteria whose growth requires an atmosphere of carbon dioxide. Species belonging to this group include several Haemophilus species, Aggregatibacter (formerly Actinobacillus) species, Cardiobacterium hominis, Eikenella corrodens, and Kingella kingae. HACEK bacteria normally reside in the oral cavity and have been associated with local infections in the mouth. They are also known to cause severe systemic infections\u2014most often bacterial endocarditis, which can develop on either native or prosthetic valves (Chap. 155)."
+        },
+        {
+            "id": "InternalMed_Harrison_13177",
+            "title": "InternalMed_Harrison",
+            "content": "Thousands of species of anaerobic bacteria have been identified as components of the complete human microbiota, with each individual colonized by hundreds of these species. Despite the complex array of bacteria in the normal microbiota, relatively few species are isolated commonly from human infections. Anaerobic infections occur when the harmonious relationship between the host and the host\u2019s microbiota is disrupted. Any site in the body is susceptible to infection with these indigenous organisms when a mucosal barrier or the skin is compromised by surgery, trauma, tumor, ischemia, or necrosis, all of which can reduce local tissue redox potentials. Because the sites that are colonized by anaerobes contain many species of bacteria, disruption of anatomic barriers allows contamination of normally sterile sites by many organisms, resulting in mixed infections involving multiple species of anaerobes in combination with synergistically acting facultative or microaerophilic organisms."
+        },
+        {
+            "id": "InternalMed_Harrison_2685",
+            "title": "InternalMed_Harrison",
+            "content": "DISEASES OF THE ORAL MuCOSA Infections Most oral mucosal diseases involve microorganisms (Table 45-1). Pigmented Lesions See Table 45-2. Dermatologic Diseases See Tables 45-1, 45-2, and 45-3 and Chaps. 70\u201374. Diseases of the Tongue See Table 45-4. HIV Disease and AIDS See Tables 45-1, 45-2, 45-3, and 45-5; Chap. 226; and Fig. 218-3."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6358",
+            "title": "Cell_Biology_Alberts",
+            "content": "The microbiota is usually confined to the skin, mouth, digestive tract, and vagina. With the exception of microbes colonizing the skin, it consists primarily of anaerobic bacteria, with distinct communities of species inhabiting each body part. These communities vary considerably between individual humans, even between close relatives or identical twins. Although the microbiota of an individual is generally consistent over time, it is influenced by a variety of factors, including age, diet, health status, and antibiotic use."
+        },
+        {
+            "id": "Pathology_Robbins_3533",
+            "title": "Pathology_Robbins",
+            "content": "Periodontitis is an inflammatory process that affects the supporting structures of the teeth (periodontal ligaments), alveolar bone, and cementum. With progression, periodontitis may result in destruction of periodontal ligament and alveolar bone and eventual tooth loss. Periodontitis is associated with poor oral hygiene that affects the composition of gingival bacteria. Facultative Gram-positive organisms are found at healthy sites, while anaerobic and microaerophilic Gram-negative bacteria colonize plaque within areas of active periodontitis. Although about 300 bacterial species reside within the oral cavity, periodontitis is most closely associated with Aggregatibacter (Actinobacillus) actinomycetemcomitans, Porphyromonas gingivalis, and Prevotella intermedia. \u2022Cariesisthemostcommoncauseoftoothlossinindividualsyoungerthan35yearsofage.Theprimarycauseisdestructionoftoothstructurebyacidendproductsofsugarfermentationbybacteria."
+        },
+        {
+            "id": "InternalMed_Harrison_13198",
+            "title": "InternalMed_Harrison",
+            "content": "that can further perforate the alveolar bone, causing periapical abscess. Subgingival plaque is associated with periodontal infections (e.g., gingivitis, periodontitis, and periodontal abscess) that can further disseminate to adjacent structures such as the mandible, causing osteomyelitis of the maxillary sinuses. Periodontitis may also result in spreading infection that can involve adjacent bone or soft tissues. In the healthy periodontium, the sparse microbiota consists mainly of gram-positive organisms such as Streptococcus sanguinis and Actinomyces species. In the presence of gingivitis, there is a shift to a greater proportion of anaerobic gram-negative bacilli in the subgingival microbiota, with predominance of Prevotella intermedia. In well-established periodontitis, the complexity of the microbiota increases further. The predominant isolates are"
+        },
+        {
+            "id": "Pathology_Robbins_2125",
+            "title": "Pathology_Robbins",
+            "content": "A large number of microorganisms, including viruses, bacteria, and fungi, are inhaled daily by every individual. In many cases, the microbes are inhaled in dust or aerosol particles. The distance these particles travel into the respiratory system is inversely proportional to their size. Large particles are trapped in the mucociliary blanket that lines the nose and the upper respiratory tract. Microorganisms trapped in the mucus secreted by goblet cells are transported by ciliary action to the back of the throat, where they are swallowed or coughed out. Particles smaller than 5 \u00b5m travel directly to the alveoli, where they are phagocytosed by alveolar macrophages or by neutrophils recruited to the lung by cytokines."
+        },
+        {
+            "id": "Cell_Biology_Alberts_6510",
+            "title": "Cell_Biology_Alberts",
+            "content": "What are the genetic and molecular features that differ between pathogens and members of the normal human microbiota? How can our immune system distinguish between the two? To what extent are common host-cell biological pathways and molecules hijacked by diverse microbes? Can host-cell defense molecules be mobilized by drugs to fight infection? our attempts at treatment, prevention, and eradication. Which statements are true? explain why or why not. 23\u20131 Our adult bodies harbor about 10 times more microbial cells than human cells. 23\u20132 The microbiomes from healthy humans are all very similar. 23\u20133 Pathogens must enter host cells to cause disease. 23\u20134 Viruses replicate their genomes in the nucleus of the host cell. 23\u20135 You should not take antibiotics for diseases caused by viruses. Discuss the following problems. 23\u20136 In order to survive and multiply, a successful pathogen must accomplish five tasks. Name them."
+        }
+    ],
+    "scores": [
+        0.037263618787710104,
+        0.034792049497931854,
+        0.03172275440882282,
+        0.030233008495752126,
+        0.029674477401046673,
+        0.0293232571808942,
+        0.026832751150414166,
+        0.026706293706293707,
+        0.02661214695498676,
+        0.026600752804849408,
+        0.024665295292094137,
+        0.02441153617624206,
+        0.024000647629760292,
+        0.02340012803921407,
+        0.023008960573476702,
+        0.022454048683556882,
+        0.022028102995955253,
+        0.02143507747684474,
+        0.02121719953234711,
+        0.020825796515980564,
+        0.020797293660861877,
+        0.019142700128228614,
+        0.01886960391633289,
+        0.018575169589759563,
+        0.018509060408258175,
+        0.017629698664181424,
+        0.01736367666617408,
+        0.016931216931216932,
+        0.016866619618913198,
+        0.016845434543454343,
+        0.016405517610820944,
+        0.01614583333333333
+    ],
+    "execution_time": 32.54378318786621
+}

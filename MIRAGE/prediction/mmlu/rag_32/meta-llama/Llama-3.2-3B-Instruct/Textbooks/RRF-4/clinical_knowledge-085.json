@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-085",
+    "question": "Why can't a patient talk if the cuff is inflated?",
+    "options": {
+        "A": "They are unable to breathe in sufficiently.",
+        "B": "They are unable to swallow properly.",
+        "C": "It is too tiring.",
+        "D": "They are unable to pass air through their vocal cords."
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's break down the process of blood pressure measurement and how it affects breathing. Blood pressure measurement typically involves inflating a cuff around the arm to occlude the brachial artery, and then deflating it to listen for Korotkoff sounds. When the cuff is inflated, it compresses the artery and prevents blood flow. When the cuff is deflated, blood starts flowing again, and sounds can be heard through a stethoscope. If the cuff is inflated too much, it can compress the trachea and prevent air from passing through the vocal cords. This can lead to respiratory distress and make it difficult for the patient to talk. The correct answer is therefore related to the compression of the trachea and the inability to pass air through the vocal cords. The other options are not directly related to the inflation of the cuff and its effect on breathing.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_17432",
+            "title": "InternalMed_Harrison",
+            "content": "When it is measured in the supine position, the arm should be raised to bring it to the level of the mid-right atrium. The length and width of the blood pressure cuff bladder should be 80% and 40% of the arm\u2019s circumference, respectively. A common source of error in practice is to use an inappropriately small cuff, resulting in marked overestimation of true blood pressure, or an inappropriately large cuff, resulting in underestimation of true blood pressure. The cuff should be inflated to 30 mmHg above the expected systolic pressure and the pressure released at a rate of 2\u20133 mmHg/s. Systolic and diastolic pressures are defined by the first and fifth Korotkoff sounds, respectively. Very low (even 0 mmHg) diastolic blood pressures may be recorded in patients with chronic, severe AR or a large arteriovenous fistula because of enhanced diastolic \u201crun-off.\u201d In these instances, both the phase IV and phase V Korotkoff sounds should be recorded. Blood pressure is best assessed at the brachial"
+        },
+        {
+            "id": "Physiology_Levy_1938",
+            "title": "Physiology_Levy",
+            "content": "Fig. 17.20A ), a spurt of blood passes through the brachial artery under the cuff during the peak of systole, and a slight pulse is felt at the wrist. The auscultatory method is a more sensitive and therefore more precise technique for measuring systolic pressure, and it also enables diastolic pressure to be estimated. The practitioner listens with a stethoscope applied to the skin of the antecubital space over the brachial artery. While the pressure in the cuff exceeds systolic pressure, the brachial artery is occluded, and no sounds are heard (see Fig. 17.20B ). When the inflation pressure falls just below the systolic level (120 mm Hg in"
+        },
+        {
+            "id": "Physiology_Levy_1940",
+            "title": "Physiology_Levy",
+            "content": "corresponds closely to the directly measured systolic pressure. As the inflation pressure of the cuff continues to fall, more blood escapes under the cuff per beat and the sounds become louder. When the inflation pressure approaches the diastolic level, the Korotkoff sounds become muffled. When the inflation pressure falls just below the diastolic level (80 mm Hg in"
+        },
+        {
+            "id": "Surgery_Schwartz_2959",
+            "title": "Surgery_Schwartz",
+            "content": "various physiologic parameters.ARTERIAL BLOOD PRESSUREThe pressure exerted by blood in the systemic arterial system, commonly referred to simply as \u201cblood pressure,\u201d is a cardinal parameter measured as part of the hemodynamic monitoring of patients. Extremes in blood pressure are either intrinsically deleterious or are indicative of a serious perturbation in normal physiology. Arterial blood pressure is a complex function of both cardiac output and vascular input impedance. Thus, inex-perienced clinicians may assume that the presence of a normal blood pressure is evidence that cardiac output and tissue perfu-sion are adequate. This assumption is frequently incorrect and is the reason why some critically ill patients may benefit from forms of hemodynamic monitoring in addition to measurement of arterial pressure.Blood pressure can be determined directly by measuring the pressure within the arterial lumen or indirectly using a cuff around an extremity. When the equipment is properly set"
+        },
+        {
+            "id": "InternalMed_Harrison_18511",
+            "title": "InternalMed_Harrison",
+            "content": "fact that systolic sounds are frequently heard with the cuff completely deflated. However, the level of cuff pressure at the time of muffling of the Korotkoff sounds (phase IV) generally corresponds fairly closely to the true intraarterial diastolic pressure. As the disease progresses and the LV end-diastolic pressure rises, the arterial diastolic pressure may actually rise as well, because the aortic diastolic pressure cannot fall below the LV end-diastolic pressure. For the same reason, acute severe AR may also be accompanied by only a slight widening of the pulse pressure. Such patients are invariably tachycardic as the heart rate increases in an attempt to preserve the CO."
+        },
+        {
+            "id": "Physiology_Levy_1937",
+            "title": "Physiology_Levy",
+            "content": "Most commonly, blood pressure is estimated indirectly by means of a sphygmomanometer. In hospital intensive care units, needles or catheters may be introduced into the peripheral arteries of patients to measure arterial blood pressure directly by means of strain gauges. When blood pressure readings are taken from the arm, systolic pressure may be estimated by palpation of the radial artery at the wrist (palpatory method). While pressure in the cuff exceeds the systolic level, no pulse is perceived. As pressure falls just below the systolic level ( Fig. 17.20A ), a spurt of blood passes through the brachial artery under the cuff during the peak of systole, and a slight pulse is felt at the wrist."
+        },
+        {
+            "id": "Surgery_Schwartz_2963",
+            "title": "Surgery_Schwartz",
+            "content": "the inflatable bladder encircling the extremity to detect arterial pulsations as pressure in the cuff is gradually lowered from greater than systolic to less than diastolic pressure. Other automated noninvasive devices use a piezoelectric crystal positioned over the brachial artery as a pulse detector. The accuracy of these devices is variable, and often dependent on the size mismatch between the arm cir-cumference and the cuff size.1 If the cuff is too narrow (relative to the extremity), the measured pressure will be artifactually elevated. Therefore, the width of the cuff should be approxi-mately 40% of its circumference.Another noninvasive approach for measuring blood pres-sure relies on a technique called photoplethysmography. This method is capable of providing continuous information, since systolic and diastolic blood pressures are recorded on a beat-to-beat basis. Photoplethysmography uses the transmission of infrared light to estimate the amount of hemoglobin (directly related"
+        },
+        {
+            "id": "Surgery_Schwartz_2962",
+            "title": "Surgery_Schwartz",
+            "content": "of the cuff. This approach is simple, and unlike auscultation, can be performed even in a noisy environment (e.g., a busy emergency depart-ment or medical helicopter). Unfortunately, this approach is neither accurate nor reliable. Other methods, however, can be used to reliably detect the reappearance of a pulse distal to the cuff and thereby estimate systolic blood pressure. Two excellent and widely available approaches for pulse detection are use of a Doppler stethoscope (reappearance of the pulse produces an audible amplified signal) or a pulse oximeter (reappearance of the pulse is indicated by flashing of a light-emitting diode).A number of automated devices are capable of repeti-tively measuring blood pressure noninvasively. Some of these devices measure pressure oscillations in the inflatable bladder encircling the extremity to detect arterial pulsations as pressure in the cuff is gradually lowered from greater than systolic to less than diastolic pressure. Other automated"
+        },
+        {
+            "id": "Gynecology_Novak_845",
+            "title": "Gynecology_Novak",
+            "content": "The cuff size is important, and most cuffs are marked with \u201cnormal limits\u201d for the relative size they can accommodate. The most common clinical problem encountered is small cuffs used with obese patients, resulting in \u201ccuff hypertension.\u201d Phase IV Korotkoff sounds are described as the point when pulsations are muf\ufb02ed, whereas phase V is complete disappearance. Most experts in hypertension advocate the use of phase V Korotkoff sounds, but phase IV sounds may be used in special circumstances, with the reason documented."
+        },
+        {
+            "id": "Surgery_Schwartz_2964",
+            "title": "Surgery_Schwartz",
+            "content": "since systolic and diastolic blood pressures are recorded on a beat-to-beat basis. Photoplethysmography uses the transmission of infrared light to estimate the amount of hemoglobin (directly related to the volume of blood) in a finger placed under a servo-controlled inflatable cuff. A feedback loop controlled by a microprocessor continually adjusts the pressure in the cuff to maintain the blood volume of the finger constant. Under these conditions, the pressure in the cuff reflects the pressure in the digi-tal artery. The measurements obtained using photoplethysmog-raphy generally agree closely with those obtained by invasive monitoring of blood pressure.2 However, these readings may be less accurate in patients with hypotension or hypothermia.Invasive Monitoring of Arterial Blood PressureDirect and continuous monitoring of arterial pressure in criti-cally ill patients may be performed by using fluid-filled tubing to connect an intra-arterial catheter to an external strain-gauge"
+        },
+        {
+            "id": "Physiology_Levy_1939",
+            "title": "Physiology_Levy",
+            "content": "Fig. 17.20A ), a small spurt of blood escapes the occluding pressure of the cuff, and slight tapping sounds (called Korotkoff sounds) are heard with each heartbeat. The pressure at which the first sound is detected \u2022Fig. 17.19 Pulse Pressure Curves Recorded From Various Sites in the Arterial Trees of Humans at Different Ages. Inthe24-yearold,thearterialpulsedisplaysstrikingchangesinthepulsepressureamplitudeandcontourasitpassesdownthearterialtree.Thepulsepressurewaveinthe68-year-oldshowslittleamplificationandisrelativelyunchangedasthepulsetravelsbecausethereislesswavereflection.(ReproducedbypermissionofHodderEducationfromNicholsWW,O\u2019RourkeM,eds.McDonald\u2019s Blood Flow in Arteries: Theoretical, Experimental and Clinical Principles. 5thed.London:Arnold;2005.) represents systolic pressure. It usually corresponds closely to the directly measured systolic pressure. As the inflation pressure of the cuff continues to fall, more blood escapes under the cuff per beat and the sounds become louder."
+        },
+        {
+            "id": "InternalMed_Harrison_19562",
+            "title": "InternalMed_Harrison",
+            "content": "Reliable measurements of blood pressure depend on attention to the details of the technique and conditions of the measurement. Proper training of observers, positioning of the patient, and selection of cuff size are essential. Owing to recent regulations preventing the use of mercury because of concerns about its potential toxicity, most office measurements are made with aneroid sphygmomanometers or with oscillometric devices. These instruments should be calibrated periodically, and their accuracy confirmed. Before the blood pressure measurement is taken, the individual should be seated quietly in a chair (not the exam table) with feet on the floor for 5 min in a private, quiet setting with a comfortable room temperature. At least two measurements should be made. The center of the cuff should be at heart level, and the width of the bladder cuff Duration of hypertension Previous therapies: responses and side effects Family history of hypertension and cardiovascular disease"
+        },
+        {
+            "id": "Gynecology_Novak_844",
+            "title": "Gynecology_Novak",
+            "content": "Blood pressure protocols for measurement should be standardized. The patient should be allowed to rest for 5 minutes in a seated position and the right arm used for measurements (for unknown reasons, the right arm has higher readings). The cuff should be applied 2 cm above the bend of the elbow and the arm positioned parallel to the \ufb02oor. The cuff should be in\ufb02ated to 30 mm Hg above the disappearance of the brachial pulse, or 220 mm Hg. The cuff should be de\ufb02ated slowly at a rate no more than 2 mm Hg per second."
+        },
+        {
+            "id": "Physiology_Levy_1944",
+            "title": "Physiology_Levy",
+            "content": "When the cuff pressure exceeds the systolic arterial pressure (120 mm Hg), no blood progresses through the arterial segment under the cuff, and no sounds can be detected by a stethoscope bell placed on the arm distal to the cuff. When the cuff pressure falls below the diastolic arterial pressure, arterial flow past the region of the cuff is continuous, and no sounds are audible. When the cuff pressure is between 120 and 80 mm Hg, spurts of blood traverse the artery segment under the cuff with each heartbeat, and the Korotkoff sounds are heard through the stethoscope. \u2022Fig. 17.20 A toC, Measurementofarterialbloodpressurewithasphygmomanometer. peripheral veins to the heart with only small reductions in central venous pressure. Moreover, veins control filtration and absorption by adjusting postcapillary resistance (see the section \u201c \u201d) and assist in the cardiovascular adjustments that accompany changes in body position."
+        },
+        {
+            "id": "Surgery_Schwartz_2960",
+            "title": "Surgery_Schwartz",
+            "content": "of arterial pressure.Blood pressure can be determined directly by measuring the pressure within the arterial lumen or indirectly using a cuff around an extremity. When the equipment is properly set up and calibrated, direct intra-arterial monitoring of blood pressure pro-vides accurate and continuous data. Additionally, intra-arterial catheters provide a convenient way to obtain samples of blood for measurements of arterial blood gases and other laboratory studies. Despite these advantages, intra-arterial catheters are invasive devices and occasionally are associated with serious complications.Noninvasive Measurement of Arterial Blood PressureBoth manual and automated means for the noninvasive determi-nation of blood pressure use an inflatable sphygmomanometer cuff to increase pressure around an extremity and to detect the presence or absence of arterial pulsations. Several methods exist for this purpose. The time-honored approach is the auscultation of the Korotkoff sounds, which are"
+        },
+        {
+            "id": "Surgery_Schwartz_2961",
+            "title": "Surgery_Schwartz",
+            "content": "an extremity and to detect the presence or absence of arterial pulsations. Several methods exist for this purpose. The time-honored approach is the auscultation of the Korotkoff sounds, which are heard over an artery distal to the cuff as the cuff is deflated from a pressure higher than systolic pressure to one less than diastolic pressure. Systolic pressure is defined as the pressure in the cuff when tapping sounds are first audible. Diastolic pressure is the pressure in the cuff when audible pulsations first disappear.Brunicardi_Ch13_p0433-p0452.indd 43422/02/19 2:20 PM 435PHYSIOLOGIC MONITORING OF THE SURGICAL PATIENTCHAPTER 13Another means for pulse detection when measuring blood pressure noninvasively depends upon the detection of oscillations in the pressure within the bladder of the cuff. This approach is simple, and unlike auscultation, can be performed even in a noisy environment (e.g., a busy emergency depart-ment or medical helicopter). Unfortunately, this approach is"
+        },
+        {
+            "id": "Surgery_Schwartz_4511",
+            "title": "Surgery_Schwartz",
+            "content": "replacement material and enable widespread use of the technique, but early results have been contested, including three case reports called into question as containing multiple data fab-rications and omissions.Tracheal FistulasTracheoinnominate Artery Fistula. Tracheoinnominate artery fistula has two main causes: low placement of a trache-ostomy and hyperinflation of the tracheal cuff. Tracheostomy placement should be through the second to fourth tracheal rings without reference to the location of the sternal notch. When placed below the fourth tracheal ring, the inner curve of the tracheostomy cannula will be positioned to exert pressure on the posterior aspect of the innominate artery, leading to arterial ero-sion. Similarly, the tracheal cuff, when hyperinflated, will cause ischemic injury to the anterior airway and subsequent erosion into the artery. Most cuff-induced fistulas will develop within 2 weeks after placement of the tracheostomy.Clinically, tracheoinnominate artery"
+        },
+        {
+            "id": "InternalMed_Harrison_19564",
+            "title": "InternalMed_Harrison",
+            "content": "Evidence of target organ damage: history of TIA, stroke, transient blindness; angina, myocardial infarction, congestive heart failure; sexual function Abbreviation: TIA, transient ischemic attack. should equal at least 40% of the arm circumference; the length of the cuff bladder should encircle at least 80% of the arm circumference. It is important to pay attention to cuff placement, stethoscope placement, and the rate of deflation of the cuff (2 mmHg/s). Systolic blood pressure is the first of at least two regular \u201ctapping\u201d Korotkoff sounds, and diastolic blood pressure is the point at which the last regular Korotkoff sound is heard. In current practice, a diagnosis of hypertension generally is based on seated, office measurements."
+        },
+        {
+            "id": "Anatomy_Gray_1991",
+            "title": "Anatomy_Gray",
+            "content": "Most clinicians use a sphygmomanometer and a stethoscope. The sphygmomanometer is a device that inflates a cuff around the midportion of the arm to compress the brachial artery against the humerus. The cuff is inflated so it exceeds the systolic blood pressure (greater than 120 mm Hg). The clinician places a stethoscope over the brachial artery in the cubital fossa and listens (auscultates) for the pulse. As the pressure in the arm cuff of the sphygmomanometer is reduced just below the level of the systolic blood pressure, the pulse becomes audible as a regular thumping sound. As the pressure in the sphygmomanometer continues to drop, the regular thumping sound becomes clearer. When the pressure in the sphygmomanometer is less than that of the diastolic blood pressure, the audible thumping sound becomes inaudible. Using the simple scale on the sphygmomanometer, the patient\u2019s blood pressure can be determined. The normal range is 90\u2013120/60\u201380 mm Hg (systolic blood pressure/diastolic"
+        },
+        {
+            "id": "Surgery_Schwartz_4514",
+            "title": "Surgery_Schwartz",
+            "content": "tube leads to airway and esophageal injury and fistula development. Clinically, airway suctioning reveals saliva, gastric contents, or tube feedings. Gastric insuf-flation, secondary to positive pressure ventilation, can occur. Bronchoscopy is diagnostic; with the bronchoscope inserted, the endotracheal tube is withdrawn, and the fistula at the cuff site is exposed. Alternatively, esophagoscopy demonstrates the cuff of the endotracheal tube in the esophagus.Treatment, first and foremost, requires removing tubes from the esophagus and weaning the patient from the ventila-tor. The cuff of the endotracheal tube should be placed below the fistula, avoiding overinflation. To minimize aspiration, a gastrostomy tube should be placed for gastric decompression (to prevent reflux) and a jejunostomy tube for feeding. If aspira-tion persists, esophageal diversion with cervical esophagostomy can be performed. Once weaned from the ventilator, tracheal resection and primary anastomosis, repair of"
+        },
+        {
+            "id": "Surgery_Schwartz_6039",
+            "title": "Surgery_Schwartz",
+            "content": "pressure, and a toe-brachial index (TBI) <0.70 is abnormal. False-positive results with the TBI are unusual. The main limitation of this technique is that it may be impossible to measure pressures in the first and second toes due to preexisting ulceration.Pulse Volume Recording. In patients with noncompressible vessels, segmental plethysmography can be used to determine underlying arterial occlusive disease. Cuffs placed at different levels on the leg detect changes in blood volume and produce a pulse volume recording (PVR) when connected to a plethysmo-graph (Fig. 23-2). To obtain accurate PVR waveforms, the cuff is inflated to 60 to 65 mmHg, so as to detect volume changes without causing arterial occlusion. Pulse volume tracings are suggestive of proximal disease if the upstroke of the pulse is not brisk, the peak of the wave tracing is rounded, and there is disappearance of the dicrotic notch.Although isolated segmental limb pressures and PVR mea-surements are 85% accurate when"
+        },
+        {
+            "id": "Surgery_Schwartz_6717",
+            "title": "Surgery_Schwartz",
+            "content": "DUS has become the gold standard for evaluation of venous function largely supplanting venographic and plethysmographic techniques. Brunicardi_Ch24_p0981-p1008.indd 99722/02/19 3:01 PM 998SPECIFIC CONSIDERATIONSPART IIFigure 24-15. Evaluation of a patient with chronic venous insuf-ficiency with duplex ultrasonography.Figure 24-16. Multilayered dressing for treatment of chronic venous insufficiency.The principle advantage of DUS is that it can be used to evalu-ate reflux in individual venous segments targeting abnormal areas for treatment. The examination has been validated when performed with the patient in the standing position and the examined leg non-weight bearing. Pneumatic pressure cuffs of appropriate size are placed around the thigh, calf, and fore-foot. The ultrasound transducer is positioned over the venous segment to be examined, just proximal to the pneumatic cuff (Fig. 24-15). The cuff is then inflated to a standard pressure for 3 seconds and then rapidly deflated."
+        },
+        {
+            "id": "Surgery_Schwartz_8737",
+            "title": "Surgery_Schwartz",
+            "content": "for incontinence from sphincter disruption. A. The external sphincter muscle with scar at site of injury is mobilized. B. The muscle edges are aligned in an overlapping fashion. C. Mattress sutures are used to approximate the muscle. D. The completed operation.Brunicardi_Ch29_p1259-p1330.indd 132223/02/19 2:30 PM 1323COLON, RECTUM, AND ANUSCHAPTER 29chronic, low-frequency electrostimulation, have been used with some success.173 In this procedure, the gracilis muscle is mobi-lized from the thigh, detached from its insertion on the tibial tuberosity, tunneled through the perineum, and wrapped around the anal canal. Another alternative in patients who have failed other repairs is the artificial anal sphincter. This device consists of an inflatable silastic cuff, a pressure-regulating balloon, and a control pump. Patients deflate the cuff manually to open the anal canal; the cuff then reinflates spontaneously to maintain clo-sure of the anal canal. Frequent infections and erosion can"
+        },
+        {
+            "id": "Physiology_Levy_2053",
+            "title": "Physiology_Levy",
+            "content": "Certain skin vessels, particularly those in the head, neck, shoulders, and upper part of the chest, are regulated by higher centers in the brain. Blushing, in response to embarrassment or anger, and blanching, in response to fear or anxiety, are examples of cerebral inhibition and stimulation, respectively, of the sympathetic nerve fibers to the affected cutaneous regions. In contrast to AV anastomoses in the skin, the resistance vessels display autoregulation of blood flow and reactive hyperemia. If the arterial inflow to a limb is stopped briefly by inflation of a blood pressure cuff, the skin becomes bright red below the point of vascular occlusion when the cuff is subsequently deflated. The increased cutaneous blood flow (reactive hyperemia) is also manifested by distention of the superficial veins in the affected extremity. The Role of Temperature in the Regulation of Skin Blood Flow"
+        },
+        {
+            "id": "Gynecology_Novak_4308",
+            "title": "Gynecology_Novak",
+            "content": "After vital signs are assessed, attention should be directed to the amount of bleeding. A small amount of bleeding is expected after any vaginal hysterectomy. Steady bleeding 2 to 3 hours after surgery suggests lack of hemostasis. The patient should be taken promptly to the examining room, where the operative site is viewed using a large speculum and good lighting. If bleeding is not excessive, the vaginal cuff can be inspected, and in many instances, bleeding from the cuff edge will be found. Hemostasis can easily be achieved with one or two sutures placed through the mucosa. If bleeding is excessive or appears to be coming from above the cuff, or if the patient is too uncomfortable to tolerate adequate examination, she should be taken to the operating room."
+        },
+        {
+            "id": "Surgery_Schwartz_6433",
+            "title": "Surgery_Schwartz",
+            "content": "lesion, and the diameter should be equal to the adjacent normal vessel. The balloon tends to be approximately 10% to 20% oversized. The radiopaque markers of the balloon catheter are placed so that they will straddle the lesion. Then, the balloon is inflated with saline and contrast mixture to allow visualization of the insufflation process under the fluoroscopy (Fig. 23-65). The patient may experience mild pain, which is not uncommon. However, severe pain can be indicative of ves-sel rupture, dissection, or other complications. An angiography is crucial in confirming the intraluminal location of the catheter and absence of contrast extravasation. The inflation is continued until the waist of the atherosclerotic lesion is disappeared and the balloon is at the full profile. Frequently, several inflations are required to achieve a full profile of the balloon (Fig. 23-66). Occasionally, a lower profile balloon is needed to predilate the tight stenosis so that the selected balloon"
+        },
+        {
+            "id": "Surgery_Schwartz_4507",
+            "title": "Surgery_Schwartz",
+            "content": "A. A circumferential lesion at the cuff site after the use of an endotracheal tube. B. Potential lesions after the use of tracheostomy tubes. Anterolateral stenosis can be seen at the stomal level. Circumferential stenosis can be seen at the cuff level (lower than with an endotracheal tube). The segment in between is often inflamed and malacotic. C. Damage to the subglottic larynx. D. Tracheoesophageal fistula occurring at the level of the tracheostomy cuff; circumferential damage is usual at this level. E. Tracheoinnominate artery fistula. (Adapted with permission from Grillo H. Surgical treatment of postintubation tracheal injuries. J Thorac Cardiovasc Surg. 1979 Dec;78(6):860-875.)Acute Management. A comprehensive bronchoscopic evalua-tion is critical in the initial phase of evaluation. Stenosis length, location, distance between the vocal cords and proximal steno-sis, and distance from the distal aspect to the major carina must be documented. In patients with severe stenosis and"
+        },
+        {
+            "id": "Surgery_Schwartz_6069",
+            "title": "Surgery_Schwartz",
+            "content": "balloons are the mainstay for peripheral intervention. Lower profile balloons are less likely to get caught during passage through stents and are easier to pull out of sheaths. Under fluoroscopic guidance, balloon inflation is performed until the waist of the atherosclerotic lesion disappears and the balloon is at the full profile. The duration of balloon inflation and pres-sures used for the angioplasty depend on the indication for the intervention and the location and characteristics of the lesion being treated. Frequently, several inflations are required to achieve a full profile of the balloon. Occasionally, a lower pro-file balloon is needed to predilate the tight stenosis so that the selected balloon catheter can cross the lesion. After inflation, most balloons do not regain their preinflation diameter and assume a larger profile. Trackability, pushability, and cross-ability of the balloon should all be considered when choosing a particular balloon. Lastly, shoulder length is an"
+        },
+        {
+            "id": "Surgery_Schwartz_4512",
+            "title": "Surgery_Schwartz",
+            "content": "injury to the anterior airway and subsequent erosion into the artery. Most cuff-induced fistulas will develop within 2 weeks after placement of the tracheostomy.Clinically, tracheoinnominate artery fistulas present with bleeding. A premonitory hemorrhage often occurs and, although it is usually not massive, must not be ignored or simply attrib-uted to general airway irritation or wound bleeding. With sig-nificant bleeding, the tracheostomy cuff can be hyperinflated to temporarily occlude the arterial injury. If such an effort is unsuccessful, the tracheostomy incision should be immediately opened widely and a finger inserted to compress the artery Brunicardi_Ch19_p0661-p0750.indd 66401/03/19 7:00 PM"
+        },
+        {
+            "id": "Surgery_Schwartz_21",
+            "title": "Surgery_Schwartz",
+            "content": "surgeon-leader\u2019s vision remains susceptible to rejection for many of the same reasons. A leader who understands how to motivate a team towards a vision will start with \u201cwhy.\u201d Before ever discussing the checklist in detail with the team, the leader will speak of their shared mission to offer the best patient care possible, ask the team to imagine how they might want a family member treated, and emphasize that a careless error could lead to patient harm and embarrassment for the team. With these argu-ments, which constitute an emotional appeal to the team\u2019s belief system, the leader can expect this vision for better patient care via a new surgical checklist to be adapted by the team. The team will be receptive to implementing a new checklist, not because they believe in the checklist as a tool, but because they believe in the surgeon-leader\u2019s vision for optimizing patient care.There is a biological reason why this concept works. \u201cWhy,\u201d \u201chow,\u201d and \u201cwhat\u201d are correlated to the functions"
+        },
+        {
+            "id": "Surgery_Schwartz_6343",
+            "title": "Surgery_Schwartz",
+            "content": "stents, are deployed if the lesion is in the distal aorta in the proximity of the aortic bifurcation. The role of covered stents such as cuffs made for endoluminal AAA repair has not been rigorously studied. The aortic diameter should be sized with a calibrated catheter during the angiography or by preintervention CT scanning to avoid undersizing. Balloon size will range from 12 to 18 mm in most cases. A single stent is generally sufficient in most cases. Concentric aortic stenosis may encroach upon the IMA, and coverage of this vessel may be unavoidable. Care should be taken to use low inflation pres-sures (5 mmHg) to minimize the risk of aortic rupture. Patient complaints of back or abdominal pain during balloon infla-tion should be taken seriously as they may suggest impending rupture. In case of a calcified small-caliber, hypoplastic aorta (\u226412 mm, typically in female patients), it is recommended to Brunicardi_Ch23_p0897-p0980.indd 94727/02/19 4:14 PM 948SPECIFIC"
+        },
+        {
+            "id": "Neurology_Adams_11464",
+            "title": "Neurology_Adams",
+            "content": "sample is obtained. Above the elbow, a sphygmomanometer cuff is inflated to exceed arterial pressure. After 1 min of vigorous hand exercise (30 hand closures against an ergometer), blood samples are obtained at 1 and 3 min. Normal individuals show a 3to 5-fold increase in blood lactate. In patients with either McArdle or Tarui disease, the lactate fails to rise. This procedure has reportedly caused a localized rhabdomyolysis (Meinck et al), for which reason Griggs and associates recommend that the test be carried out without a blood pressure cuff. Problems with consistency in conducting the test and in processing blood samples for lactate limit its validity unless it is performed by experienced individuals and laboratories. Definitive diagnosis depends more on the histochemical stains of biopsied muscle, which reveal an absence of phosphorylase activity (in McArdle disease) or of phosphofructokinase activity (in Tarui disease). Genetic analysis, can be used to corroborate the"
+        }
+    ],
+    "scores": [
+        0.03440398796916384,
+        0.033506800092820255,
+        0.03304784347731113,
+        0.032150115592261025,
+        0.030659923950624765,
+        0.02845126964756422,
+        0.0276348256294556,
+        0.026901811948540924,
+        0.026865600609175706,
+        0.026308493534471324,
+        0.025083323755890126,
+        0.02478794584057742,
+        0.024361191892696712,
+        0.023902288188002475,
+        0.022595398518423807,
+        0.02147958256716799,
+        0.02117103996967121,
+        0.019875969831963495,
+        0.019327731092436976,
+        0.018933122616897453,
+        0.01819535191464726,
+        0.017216117216117217,
+        0.01610062893081761,
+        0.015966921119592876,
+        0.015838509316770187,
+        0.015649738156132017,
+        0.0155011655011655,
+        0.015385505234542195,
+        0.015083679778275237,
+        0.014963771920613251,
+        0.014844136566056407,
+        0.014810924369747899
+    ],
+    "execution_time": 7.725532293319702
+}

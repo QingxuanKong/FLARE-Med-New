@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-075",
+    "question": "What is the minimum time a stretch should be held for?",
+    "options": {
+        "A": "0-10 seconds.",
+        "B": "10-30 seconds.",
+        "C": "30-50 seconds.",
+        "D": "60 seconds."
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the information provided in the documents related to muscle stretch reflexes and muscle physiology. The key concept here is the stretch reflex, which is a type of reflex that helps regulate muscle length. According to Document [2], muscle stretch reflexes are typically assessed by testing the reflexes such as biceps, patellar, and Achilles reflexes, and the patient should be relaxed and the muscle positioned midway between full contraction and extension. Additionally, Document [2] mentions that reflexes may be enhanced by asking the patient to voluntarily contract other, distant muscle groups (Jendrassik maneuver). However, the exact duration of the stretch required for a stretch reflex to be elicited is not explicitly stated in the provided documents. Nevertheless, we can make an educated inference based on the information provided about the stretch reflex arc. According to Document [4], stretch reflexes can act like a negative-feedback system to control muscle length, and changes in its activity act to oppose changes in muscle length from a particular equilibrium point. Furthermore, Document [6] mentions that excessive uterine stretch can lead to early activation of the placental-fetal endocrine cascade, which may initiate events that shift the timing of uterine activation, including premature cervical ripening. This suggests that a certain duration of stretch may be necessary to elicit a significant response. However, this information is more relevant to uterine stretch than muscle stretch reflexes. Document [12] provides more relevant information. According to Document [12], a stretch is required to activate the Golgi tendon organs, which can be activated either by muscle stretch or muscle contraction. The response to stretch is the result of the spring-like nature of the muscle, as described by Hooke's law. The duration of the stretch required to activate the Golgi tendon organs is not explicitly stated in the provided documents. Nevertheless, based on the information provided, we can infer that a duration of 30-50 seconds may be sufficient to elicit a response from the Golgi tendon organs, as this duration allows for the muscle to reach a point of optimal stretch, as described in Document [8]. This duration also aligns with the range of 10-30 seconds mentioned in Document [2] for testing the reflexes. Therefore, the minimum time a stretch should be held for is likely in the range of 30-50 seconds.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Physiology_Levy_1502",
+            "title": "Physiology_Levy",
+            "content": "Stretching of the heart increases the force of contraction both in vivo and in vitro and is an intrinsic mechanism for regulating contractile force. In contrast, skeletal muscle typically exhibits maximal tension at resting length. Stretching of the heart in vivo occurs during times of increased venous return of blood to the heart (e.g., during exercise or when the heart rate is slowed, or both). The Frank-Starling law of the heart refers to this ability of the heart to increase its force of contraction when stretched, which occurs at \u2022Fig. 13.4"
+        },
+        {
+            "id": "Physiology_Levy_1440",
+            "title": "Physiology_Levy",
+            "content": "When a muscle at rest is stretched, it resists stretch by a force that increases slowly at first and then more rapidly as the extent of stretch increases ("
+        },
+        {
+            "id": "InternalMed_Harrison_29394",
+            "title": "InternalMed_Harrison",
+            "content": "\u2022 The bare minimum: Check the biceps, patellar, and Achilles reflexes. Muscle Stretch Reflexes Those that are typically assessed include the biceps (C5, C6), brachioradialis (C5, C6), and triceps (C7, C8) reflexes in the upper limbs and the patellar or quadriceps (L3, L4) and Achilles (S1, S2) reflexes in the lower limbs. The patient should be relaxed and the muscle positioned midway between full contraction and extension. Reflexes may be enhanced by asking the patient to voluntarily contract other, distant muscle groups (Jendrassik maneuver). For example, upper limb reflexes may be reinforced by voluntary teeth-clenching, and the Achilles reflex by hooking the flexed fingers of the two hands together and attempting to pull them apart. For each reflex tested, the two sides should be tested sequentially, and it is important to determine the smallest stimulus required to elicit a reflex rather than the maximum response. Reflexes are graded according to the following scale:"
+        },
+        {
+            "id": "Physiology_Levy_897",
+            "title": "Physiology_Levy",
+            "content": "a steady stretch. If only the extrafusal muscle fibers were may stop discharging and become insensitive to further to contract (this can be done experimentally by selective decreases in muscle length. However, the unloading of the stimulation of \u03b1 motor neurons; see"
+        },
+        {
+            "id": "Physiology_Levy_908",
+            "title": "Physiology_Levy",
+            "content": "The foregoing discussion suggests that stretch reflexes can act like a negative-feedback system to control muscle length. By following the stretch reflex arc, it is possible to see that changes in its activity act to oppose changes in muscle length from a particular equilibrium point. For example, if the muscle\u2019s length is increased, there will be an increase in firing by group Ia and group II fibers, which excites homonymous \u03b1 motor neurons and leads to contraction of the muscle and reversal of the stretch. Similarly, passive shortening of the muscle unloads the spindles and leads to a decrease in the excitatory drive to the motor neurons and thus relaxation of the muscle. So how are humans able to rotate their joints? It is partly because the \u03b3 motor neurons are coactivated during a movement and thereby shift the equilibrium point of the spindle and partly because the gain or strength of the reflex is low enough that other input to the motor neuron can override the stretch reflex."
+        },
+        {
+            "id": "Cell_Biology_Alberts_5311",
+            "title": "Cell_Biology_Alberts",
+            "content": "Many vertebrate tissues, such as skin, blood vessels, and lungs, need to be both strong and elastic in order to function. A network of elastic fibers in the extracellular matrix of these tissues gives them the resilience to recoil after transient stretch (Figure 19\u201344). Elastic fibers are at least five times more extensible than a rubber band of the same cross-sectional area. Long, inelastic collagen fibrils are interwoven with the elastic fibers to limit the extent of stretching and prevent the tissue from tearing."
+        },
+        {
+            "id": "Obstentrics_Williams_5631",
+            "title": "Obstentrics_Williams",
+            "content": "Excessive uterine stretch also leads to early activation of the placental-fetal endocrine cascade shown in Figure 21-10 (p. 410). The resultant early rise in maternal corticotropinreleasing hormone and estrogen levels can further enhance the expression of myometrial CAP genes (Warren, 1990; Wolfe, 1988). Finally, the influence of uterine stretch should be considered with regard to the cervix. Prematurely increased stretch and endocrine activity may initiate events that shift the timing of uterine activation, including premature cervical ripening."
+        },
+        {
+            "id": "Physiology_Levy_894",
+            "title": "Physiology_Levy",
+            "content": "Fig. 9.3 . In particular, the tap profile is what occurs when a reflex hammer is used to hit the muscle tendon and thereby cause a brief stretching of the attached muscle. The change in muscle length is too brief for significant changes in group II firing to occur, but because the magnitude of the rate of change (slopes of the tap profile) is so high with this stimulus, large dynamic responses are elicited in the group Ia fibers. Thus the functionality of reflex arcs involving group Ia afferent fibers is what is being assessed when a reflex hammer is used to tap on tendons. \u03b3 Motor Neurons Adjust the Sensitivity of the Spindle Up to this point, we have described only how muscle spindles behave when there are no changes in \u03b3 motor neuron activity. The efferent innervation of muscle spindles is extremely important, however, because it determines the sensitivity of muscle spindles to stretch. For example, in Fig. 9.4A, the activity of a muscle spindle afferent fiber is shown during"
+        },
+        {
+            "id": "Physiology_Levy_1441",
+            "title": "Physiology_Levy",
+            "content": "Fig. 12.23 ). This purely passive property is due to the elasticity of the muscle tissue. If the muscle is stimulated to contract at these various lengths, a different relationship is obtained. Specifically, contractile force increases as muscle length is increased up to a point (designated LO to indicate optimal length). As the muscle is stretched beyond LO, contractile force decreases. This length-tension curve is consistent with the sliding filament theory, described previously. At a very 0 1 201 Length (fraction of optimum) Sarcomere length (\u00b5m) \u2022Fig. 12.23. Length-Tension Relationship in Skeletal Muscle. A, Experimentalsetupinwhichmaximalisometrictetanictensionismeasuredatvariousmusclelengths.B, Howactivetensionwascalculatedatvariousmusclelengths(i.e.,bysubtractingpassivetensionfromtotaltensionateachmusclelength).C, Plotofactivetensionasafunctionofmusclelength,withthepredictedoverlapofthickandthinfilamentsatselectedpoints."
+        },
+        {
+            "id": "Physiology_Levy_892",
+            "title": "Physiology_Levy",
+            "content": "Fig. 9.3 shows the changes in activity of the afferent fibers of a muscle spindle when the muscle is stretched. It is clear that group Ia and group II fibers respond differently to stretch. Group Ia fibers are sensitive both to the amount of muscle stretch and to its rate, whereas group II fibers respond chiefly to the amount of stretch. Thus when a muscle is stretched to a new longer length, group II firing increases in proportion to the amount of stretch (see Fig. 9.3 , left), and when the muscle is allowed to shorten, its firing rate decreases proportionately (see Fig. 9.3 , right). Group Ia fibers show this same static-type response, and thus under steady-state conditions (i.e., constant muscle length), their firing rate reflects the amount of muscle stretch, similar to that of group II fibers."
+        },
+        {
+            "id": "Cell_Biology_Alberts_4795",
+            "title": "Cell_Biology_Alberts",
+            "content": "E. Is there anything in the data in Figure Q16\u20133B that tells you how many ATP molecules are hydrolyzed per step? 16\u201310 A mitochondrion 1 \u03bcm long can travel the 1 meter length of the axon from the spinal cord to the big toe in a day. The Olympic men\u2019s freestyle swimming record for 200 meters is 1.75 minutes. In terms of body lengths per day, who is moving faster: the mitochondrion or the Olympic record holder? (Assume that the swimmer is 2 meters tall.) 16\u201311 Cofilin preferentially binds to older actin filaments and promotes their disassembly. How does cofilin distinguish old filaments from new ones? 16\u201312 Why is it that intermediate filaments have identical ends and lack polarity, whereas actin filaments and microtubules have two distinct ends with a defined polarity? 16\u201313 How is the unidirectional motion of a lamellipodium maintained?"
+        },
+        {
+            "id": "Physiology_Levy_1466",
+            "title": "Physiology_Levy",
+            "content": "Although both cardiac muscle and skeletal muscle contain an abundance of connective tissue, there is more connective tissue in the heart. The abundance of connective tissue in the heart helps prevent muscle rupture (as in skeletal muscle), but it also prevents overstretching of the heart. Length-tension analysis of cardiac muscle, for example, shows a dramatic increase in passive tension as cardiac muscle is stretched beyond its resting length. Skeletal muscle, in contrast, tolerates a much greater degree of stretch before passive tension increases to a comparable level. The reason for this difference between cardiac and skeletal muscle is not known, although one possibility is that stretch of skeletal muscle is typically limited by the range of motion of the joint, which in turn is limited by the ligaments/connective tissue surrounding the joint."
+        },
+        {
+            "id": "Physiology_Levy_912",
+            "title": "Physiology_Levy",
+            "content": "*Ingeneral,gain ofasystemisdefinedasitsoutputforagiveninput.Inthiscase,theinputtothesystemistheimposedstretch,andtheoutputismovementcausedbythestretchreflex\u2013evokedcontraction. Because of their in-series relationship to the muscle, Golgi tendon organs can be activated either by muscle stretch or by muscle contraction. In both cases, however, the actual stimulus sensed by the Golgi tendon organ is the force that develops in the tendon to which it is linked. Thus the response to stretch is the result of the spring-like nature of the muscle (i.e., by Hooke\u2019s law, the force on a spring is proportional to how much it is stretched). To distinguish between the responsiveness of the muscle spindles and Golgi tendon organs, the firing patterns of group Ia and group Ib fibers can be compared when a muscle is stretched and then held at a longer length (Fig."
+        },
+        {
+            "id": "Physiology_Levy_1444",
+            "title": "Physiology_Levy",
+            "content": "Fig. 12.24 ). In the absence of any load, the shortening velocity of the muscle is maximal (denoted as V0). V0 corresponds to the maximal cycling rate of the cross-bridges (i.e., it is proportional to the maximal rate of energy turnover [ATPase activity] by myosin). Thus V0 for fast-twitch muscle is higher than that for slow-twitch muscle. Increasing the load decreases the velocity of muscle shortening until, at maximal load, the muscle cannot lift the load and hence cannot shorten (zero velocity). Further increases in load result in stretching the muscle (negative velocity). The maximal isometric tension (i.e., force at which shortening velocity is zero) is proportional to the number of active cross-bridges between actin and myosin, and it is usually greater for fast-twitch motor units (because of the larger diameter of fast-twitch muscle fibers and greater number of muscle fibers in a typical fast-twitch motor unit). In"
+        },
+        {
+            "id": "Neurology_Adams_11586",
+            "title": "Neurology_Adams",
+            "content": "This subject was introduced at the beginning of this chapter, where it is pointed out that everyone at some time or other experiences muscle cramps. Cramps often occur during the night, after a day of unusually strenuous activity; less frequently they occur during the day, either during a period of relaxation or occasionally after a strong voluntary contraction or postural adjustment. A random restless or stretching movement may induce a hard contraction of a single muscle (most frequently of the foot or leg) that cannot be voluntarily relaxed. The muscle is visibly and palpably taut and painful, and the condition is readily distinguished from an illusory cramp, in which the sensation of cramp is experienced with little or no contraction of muscle. The latter phenomenon may occur in normal persons as well as in those with peripheral nerve diseases. Massage and vigorous stretch of the cramped muscle will cause the spasm to yield, although for a time the muscle remains excitable and"
+        },
+        {
+            "id": "Physiology_Levy_1391",
+            "title": "Physiology_Levy",
+            "content": "An increase in the duration of the intracellular Ca++ transient, as occurs with tetany, provides the muscle with sufficient time to completely stretch the series elastic component and thereby results in expression of the full contractile force of the actin-myosin interactions (i.e., maximal tension). Partial stretching of the series elastic component (as might be expected during a single twitch), followed \u2022Fig. 12.17. Slow-Twitch Muscles Exhibit Tetany at a Lower Stimulation Frequency Than Do Fast-Twitch Muscles. A, Fast-twitchmotorunitinthegastrocnemiusmuscle.B, Slow-twitchmotorunitinthegastrocnemiusmuscle.C, Slow-twitchmuscleunitinthesoleusmuscle.Themotorunitswerestimulatedatthefrequenciesindicatedontheleft.Thecalibrationbarfortension(ingrams)generatedduringconcentrationisindicatedbythevertical brackets underthecurves.Notethelargeforcegeneratedbythefast-twitchmotorunit(A).(FromMontcastleV[ed].Medical Physiology. 12thed.St.Louis:Mosby:1974.) by restimulation of the muscle before"
+        },
+        {
+            "id": "Physiology_Levy_893",
+            "title": "Physiology_Levy",
+            "content": "While muscle length is changing, however, group Ia firing also reflects the rate of stretch or shortening that the muscle is undergoing. Its activity overshoots during muscle stretch and undershoots (and possibly ceases) during muscle shortening. These are called dynamic responses. This dynamic sensitivity also means that the activity of group Ia fibers is much more sensitive to transient and oscillatory stretches, such as shown in the middle diagrams of"
+        },
+        {
+            "id": "InternalMed_Harrison_17307",
+            "title": "InternalMed_Harrison",
+            "content": "The sliding filament model for muscle contraction rests on the fundamental observation that both the thick and the thin filaments are constant in overall length during both contraction and relaxation. With activation, the actin filaments are propelled farther into the A band. In the process, the A band remains constant in length, whereas the I band shortens and the Z lines move toward one another."
+        },
+        {
+            "id": "Pediatrics_Nelson_1989",
+            "title": "Pediatrics_Nelson",
+            "content": "The treatment of growing pains consists of reassurance and a regular bedtime ritual of stretching and relaxation. The pain can be relieved by massage. Some patients may benefit from a nighttime dose of acetaminophen or an analgesic dose of a nonsteroidal anti-inflammatory drug (NSAID). Occasionally nocturnal awakening has been of long duration, leading to disruptive behavior patterns. In these cases, intervention must be aimed at decreasing the secondary gain associated with nighttime parental attention and should focus on sleep hygiene. Other than the negative behavioral patterns that can occur, there are no significant complications. Growing pains are not associated with other illnesses and resolve over time. Figure 92-1 Hyperextension of the knees, an example of hypermobility."
+        },
+        {
+            "id": "InternalMed_Harrison_9915",
+            "title": "InternalMed_Harrison",
+            "content": "Heart Disease Cardiovascular events are the main cause of deaths among travelers and of in-flight emergencies on commercial aircraft. Extra supplies of all medications should be kept in carry-on luggage, along with a copy of a recent electrocardiogram and the name and telephone number of the traveler\u2019s physician at home. Pacemakers are not affected by airport security devices, although electronic telephone checks of pacemaker function cannot be transmitted by international satellites. Travelers with electronic defibrillators should carry a note to that effect and ask for hand screening. A traveler may benefit from supplemental oxygen; since oxygen delivery systems are not standard, supplementary oxygen should be ordered by the traveler\u2019s physician well before flight time. Travelers may benefit from aisle seating and should walk, perform stretching and flexing exercises, consider wearing support hose, and remain hydrated during the flight to prevent venous thrombosis and pulmonary"
+        },
+        {
+            "id": "Physiology_Levy_2494",
+            "title": "Physiology_Levy",
+            "content": "Determinants of Lung Volume What determines the volume of air in the lung at TLC or at RV? The answer lies in the properties of the lung parenchyma and in the interaction between the lungs and the chest wall. The lungs and chest wall always move together as a unit in healthy individuals. The lung contains elastic fibers that (1) stretch when stress is applied, which results in an increase in lung volume, and (2) recoil passively when this stress is released, which results in a decrease in lung volume. The elastic recoil of the lung parenchyma is very high. In the absence of external forces (such as the force generated by the chest wall), the lungs become almost airless (10% of TLC). Similarly, chest wall volume can increase when the respiratory muscles are stretched and decrease when respiratory muscle length is shortened. In the theoretical absence of the lung parenchyma, the resting volume of the chest wall increases and is approximately 60% of TLC."
+        },
+        {
+            "id": "Surgery_Schwartz_13714",
+            "title": "Surgery_Schwartz",
+            "content": "cancer screening.\u2014Peter Kingham, MD, FACSEthicsThe ethics involved in working outside one\u2019s own country are complex. While a practitioner\u2019s scope of practice is usually constrained by regulation in America and Europe, in many countries the limits of what one can do are neither regulated nor enforced. Guidelines for what should be done, where, and under what circumstances are beyond the expertise of some ministries of health. Some problems are so episodic that they are not anticipated, and few guidelines exist. For example, in natural disasters and emergencies, should any willing provider from any country be granted permission to provide care? Should specific disaster-related training be encouraged or required?187,188 In the nonacute setting, should practitioners not licensed or credentialed in their home environments be allowed to perform volunteer surgery in other countries? What entity should oversee the flow of volunteer practitioners? Can a standard set of guidelines meet the"
+        },
+        {
+            "id": "Physiology_Levy_875",
+            "title": "Physiology_Levy",
+            "content": "The first motor units to be activated in many cases, either by voluntary effort or during reflex action or just CHAPTER 9 Organization of Motor Function to maintain posture, are those with the smallest motor axons. These motor units contain slow-twitch fibers and thus generate the smallest contractile force, allowing the initial contraction to be finely graded. These units tend to be active much of the time, if not continuously, and so their lack of fatigability makes good functional sense. As more motor units are recruited for a motor act, motor neurons with progressively larger axons become involved, and these axons synapse onto the fast-twitch fibers. Thus they generate progressively larger amounts of tension. The most powerful such motor units are typically recruited only for tasks requiring large amounts of force (e.g., sprinting, jumping, and lifting a heavy weight), tasks that people can perform for only for short periods of time."
+        },
+        {
+            "id": "Neurology_Adams_11587",
+            "title": "Neurology_Adams",
+            "content": "persons as well as in those with peripheral nerve diseases. Massage and vigorous stretch of the cramped muscle will cause the spasm to yield, although for a time the muscle remains excitable and subject to recurrent cramps. Visible fasciculations may precede and follow the cramp, indicating excessive excitability of the terminal branches of motor neurons supplying the muscle. Sometimes the cramp is so intense that the muscle is injured; it remains sore to touch and painful upon use for a day or longer. Cramps of precordial chest muscles or diaphragm may arouse fear of heart or lung disease. In the EMG, the cramp is marked by bursts of high-frequency, high-voltage action potentials, and the precramp phase shows runs of activity in motor units. Why cramps should be painful is not known; probably the demands of the overactive muscle exceed metabolic supply, causing a relative ischemia and accumulation of metabolites. Overwork of muscle with or without impairment of circulation is also"
+        },
+        {
+            "id": "Neurology_Adams_408",
+            "title": "Neurology_Adams",
+            "content": "in the resistance of muscles to a passive stretch stimulus. Although a clasp-knife relaxation following peak resistance is highly characteristic of cerebral hemiplegia, it is by no means found consistently. At times, a form of velocity-independent hypertonia is found that is termed rigidity and is more characteristic of basal ganglia lesions as discussed in Chap. 4."
+        },
+        {
+            "id": "Physiology_Levy_2164",
+            "title": "Physiology_Levy",
+            "content": "Chapter 16). More recent evidence indicates that the principal mechanism involves a stretch-induced change in the sensitivity of cardiac myofilaments to Ca++ (see ). There exists an optimal fiber length, however. Excessively high filling pressures that overstretch the myocardial fibers may depress rather than enhance the pumping capacity of the ventricles (see Fig. 16.36 Starling also showed that isolated heart preparations could adapt to changes in the counterforce to the ventricular ejection of blood during systole (i.e., afterload). As the left ventricle contracts, it does not eject blood into the aorta until the ventricle has developed a pressure that just exceeds the prevailing aortic pressure (see"
+        },
+        {
+            "id": "Neurology_Adams_417",
+            "title": "Neurology_Adams",
+            "content": "The hyperreflexic state that characterizes spasticity may take the form of clonus, a series of rhythmic involuntary muscular contractions occurring at a frequency of 5 to 7 Hz in response to an abruptly applied and sustained stretch stimulus. It is usually designated in terms of the part of the limb to which the stimulus is applied (e.g., patella, ankle). The frequency is constant within 1 Hz and is not appreciably modified by altering peripheral or central nervous system activities. Clonus requires an appropriate degree of muscle relaxation, integrity of the spinal stretch reflex mechanisms, sustained hyperexcitability of alpha and gamma motor neurons (suprasegmental effects), and synchronization of the contraction\u2013relaxation cycle of muscle spindles."
+        },
+        {
+            "id": "Histology_Ross_1552",
+            "title": "Histology_Ross",
+            "content": "When a muscle contracts, each sarcomere shortens and becomes thicker, but the myofilaments remain the same length. During contraction the sarcomere and I band shorten, whereas the A band remains the same length. To maintain the myofilaments at a constant length, the shortening of the sarcomere must be caused by an increase in the overlap of the thick and thin filaments. This overlap can readily be seen by comparing electron micrographs of resting and contracted muscle. The H band narrows, and the thin filaments penetrate the H band during contraction. These observations indicate that the thin filaments slide past the thick filaments during contraction. The Contraction Cycle Shortening of a muscle involves rapid contraction cycles that move the thin filaments along the thick filament. Each contraction cycle consists of five stages: attachment, release, bending, force generation, and reattachment."
+        },
+        {
+            "id": "Pediatrics_Nelson_4223",
+            "title": "Pediatrics_Nelson",
+            "content": "Treatment of muscular torticollis is aimed at increasing the range of motion of the neck and correcting the cosmetic deformity. Stretching exercises of the neck can be very beneficial for infants. Surgical management is indicated if patients do not improve with adequate stretching exercises in physical therapy. Postoperative physical therapy is needed to decrease the risk of recurrence. Treatment in patients with underlying disorders should target the disorder."
+        },
+        {
+            "id": "Physiology_Levy_1395",
+            "title": "Physiology_Levy",
+            "content": "takes the slack out of the spindle and ensures its ability to respond to stretch at all muscle lengths. By their action, muscle spindles provide feedback to the muscle in terms of its length and thus help maintain a joint at a given angle."
+        },
+        {
+            "id": "Neurology_Adams_3520",
+            "title": "Neurology_Adams",
+            "content": "b. Time: What is the date today (day of week and of month, year)? What time of the day is it? What meals have you had? When was the last holiday? 4. Memory: a. Long term: Tell me the names of your children (or grandchildren) and their birth dates. When were you married? What was your mother\u2019s maiden name? What was the name of your first schoolteacher? What jobs have you held? These must be corroborated by a spouse or other family member. We also find it useful to quiz the patient about cultural icons of the past that are appropriate to his age. Most patients should be able to name the recent presidents in reverse order. b. Recent past: Tell me about your recent illness (compare with previous statements). What is my name (or the nurse\u2019s name)? When did you see me for the first time? What tests were done yesterday? What were the headlines of the newspaper today?"
+        },
+        {
+            "id": "Gynecology_Novak_4685",
+            "title": "Gynecology_Novak",
+            "content": "Patients with prolapse exhibit the full range of lower urinary tract symptoms. Despite the fact that some patients may not have significant symptoms, it is important to obtain objective information about bladder and urethral function. With severe POP, the urethral kinking effect of the prolapse may mask a potential urine leakage problem; therefore, basic office bladder testing with prolapse reduction should be performed to mimic bladder and urethral function if the prolapse were treated. At a minimum, the following assessments should be performed: a clean catch or catheterized urine sample to test for infection, a postvoid residual (PVR) volume, and assessment of bladder sensation, which can be performed as a part of office cystometrics. Although there is no consensus as to what constitutes an abnormal PVR volume, provided the patient has voided 150 mL or more, a PVR less than or equal to 100 mL is acceptable (27). Reduction stress testing at the time of simple office cystometrics can"
+        }
+    ],
+    "scores": [
+        0.03095267566106458,
+        0.02951071806209747,
+        0.02848158131176999,
+        0.023126845560620394,
+        0.02299914256435996,
+        0.02092749529190207,
+        0.01827436582109479,
+        0.01793758043758044,
+        0.016539092400218697,
+        0.01637840670859539,
+        0.016078164615670028,
+        0.015931068683362262,
+        0.015362511052166225,
+        0.015333818344619173,
+        0.015247283211355067,
+        0.015055629274267634,
+        0.014407901435699012,
+        0.013823857302118173,
+        0.013616357968090959,
+        0.01324786324786325,
+        0.013160093582887701,
+        0.013009358344873892,
+        0.0126290272130122,
+        0.012439792164447985,
+        0.01242141360259097,
+        0.012142703632065335,
+        0.011714480874316941,
+        0.011642073913632056,
+        0.011616585529629008,
+        0.011569648625486189,
+        0.009900990099009901,
+        0.00980392156862745
+    ],
+    "execution_time": 16.60102915763855
+}

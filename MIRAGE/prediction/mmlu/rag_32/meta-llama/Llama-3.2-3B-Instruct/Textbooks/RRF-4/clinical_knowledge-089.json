@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-089",
+    "question": "Bladder washout solution should be:",
+    "options": {
+        "A": "warm.",
+        "B": "cold.",
+        "C": "refrigerated.",
+        "D": "room temperature."
+    },
+    "answer": "D",
+    "predict": "To determine the correct answer, let's analyze the given documents. Document [3] (Title: Gynecology_Novak) mentions that bladder installations are commonly used for acute treatment of bladder pain syndrome, and one of the medications used is dimethyl sulfoxide (DMSO) for instillation into the bladder. Document [5] (Title: Surgery_Schwartz) mentions that cystoscopy under anesthesia allows distention of the bladder with water, a procedure that provides \u223c40% of patients with several months of relief. Document [24] (Title: First_Aid_Step2) mentions that bladder washout solution should be placed in the bladder at a temperature that is comfortable for the patient, but it does not specify a particular temperature. However, considering the context of the question, it seems that the correct answer is related to the treatment of bladder pain syndrome and cystoscopy under anesthesia. Document [5] (Title: Surgery_Schwartz) mentions that cystoscopy under anesthesia allows distention of the bladder with water, and Document [3] (Title: Gynecology_Novak) mentions that bladder installations are commonly used for acute treatment of bladder pain syndrome. In this context, the bladder should be distended with a solution at body temperature, which is close to room temperature. Therefore, the correct answer is: {\"step_by_step_thinking\": \"Based on the context of bladder installations and cystoscopy under anesthesia, the bladder should be distended with a solution at body temperature, which is close to room temperature.\", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "Gynecology_Novak_4610",
+            "title": "Gynecology_Novak",
+            "content": "Hydrodistention of the bladder (usually under anesthesia) is recommended as a treatment option and can result in clinical improvement in some patients. Likewise, bladder installations are commonly used for acute treatment of bladder pain syndrome. The medications used range from local anesthetics to bladder specific medications including resiniferatoxin, dimethyl sulfoxide, BCG, pentosan polysulfate, and oxybutynin. Some patients benefit from the instillation into the bladder of 50 mL of a 50% solution of dimethylsulfoxide (DMSO) for 20 to 30 minutes every other week for four or five sessions. A recent Cochran review found that evidence is limited and randomized controlled trials are needed to adequately assess outcomes. Intravesical installations of BCG and oxybutynin are reasonably well tolerated, and evidence is the most promising for these agents (157)."
+        },
+        {
+            "id": "InternalMed_Harrison_21374",
+            "title": "InternalMed_Harrison",
+            "content": "urine flow may be sufficient supportive care. If conservative management is not effective, irrigation of the bladder with a 0.37\u20130.74% formalin solution for 10 min stops the bleeding in most cases. N-Acetylcysteine may also be an effective irrigant. Prostaglandin (carboprost) can inhibit the process. In extreme cases, ligation of the hypogastric arteries, urinary diversion, or cystectomy may be necessary."
+        },
+        {
+            "id": "Gynecology_Novak_4599",
+            "title": "Gynecology_Novak",
+            "content": "Treatment The mainstay in the treatment of voiding difficulty is clean, intermittent self-catheterization (145). The most important protection against urinary tract infection is frequent and complete bladder emptying rather than avoiding the introduction of a foreign body into the bladder. Selfcatheterization allows the patient to accomplish this task using a small (14-Fr) plastic catheter that she inserts through the urethra into the bladder, draining its contents. The catheter is then removed, washed with soap and water, dried, and stored in a clean, dry place. Elaborate sterile procedures are not necessary. Bacteria are introduced into the bladder in this process, and the urine of women after self-catheterization regimens will always be colonized with bacteria; however, this condition should not be treated unless symptomatic infection occurs."
+        },
+        {
+            "id": "Neurology_Adams_4237",
+            "title": "Neurology_Adams",
+            "content": "Tests of Bladder, Gastrointestinal, and Penile Erectile Function Bladder function is best assessed by the cystometrogram, which measures intravesicular pressure as a function of the volume of saline solution permitted to flow by gravity into the bladder. The rise of pressure as 500 mL of fluid is allowed to flow gradually into the bladder, the emptying contractions of the detrusor, and the volume at which the patient reports a sensation of bladder fullness can be recorded by a manometer. (A detailed account of cystometric techniques can be found in the monograph of Krane and Siroky.) A simple way of determining bladder atony (prostatic obstruction and overdistention having been excluded) is to measure the residual urine (by catheterization of the bladder) immediately after voluntary voiding or to estimate its volume by ultrasound imaging."
+        },
+        {
+            "id": "Neurology_Adams_7382",
+            "title": "Neurology_Adams",
+            "content": "Disorders of bladder function may raise serious problems in management. Where the major disorder is one of urinary retention, bethanechol chloride is helpful. In this situation, monitoring and reducing the residual urinary volume are important means of preventing infection; volumes up to 100 mL are generally well tolerated. Some patients with severe bladder dysfunction, particularly those with urinary retention, benefit from intermittent catheterization, which they can learn to do themselves and which lessens the constant risk of infection from an indwelling catheter. More often the problem is one of urinary urgency and frequency (spastic bladder), in which case the use of propantheline (Pro-Banthine) or oxybutynin (Ditropan) may serve to relax the detrusor muscle (Chap. 25). These drugs are best used intermittently. Severe constipation is best managed with stool softeners and properly spaced enemas. Sexual dysfunction has been treated with sildenafil and similar drugs. When pain is a"
+        },
+        {
+            "id": "Surgery_Schwartz_2888",
+            "title": "Surgery_Schwartz",
+            "content": "controversial. Before treating such a patient, one should change the catheter and then repeat the cul-ture to see if the catheter was simply colonized with organisms. Cultures with more than 100,000 CFU/mL should be treated with the appropriate antibiotics and the catheter changed or removed as soon as possible. Undertreatment or misdiagnosis of a UTI can lead to urosepsis and septic shock.Recommendations are mixed on the proper way to treat Candida albicans fungal bladder infections. Continuous blad-der washings with fungicidal solution for 72 hours have been recommended, but this is not always effective. Replacement of the urinary catheter and a course of fluconazole are appropriate treatments, but some infectious disease specialists claim that C. albicans in the urine may serve as an indication of fungal infection elsewhere in the body. If this is the case, then screen-ing cultures for other sources of fungal infection should be per-formed whenever a fungal UTI is"
+        },
+        {
+            "id": "InternalMed_Harrison_10733",
+            "title": "InternalMed_Harrison",
+            "content": "In the setting of long-term catheter use, systemic antibiotics, bladder-acidifying agents, antimicrobial bladder washes, topical disinfectants, and antimicrobial drainage-bag solutions have all been ineffective at preventing the onset of bacteriuria and have been associated with the emergence of resistant organisms. The best strategy for prevention of CAUTI is to avoid insertion of unnecessary catheters and to remove catheters once they are no longer necessary. Evidence is insufficient to recommend suprapubic catheters and condom catheters as alternatives to indwelling urinary catheters as a means to prevent CAUTI. However, intermittent catheterization may be preferable to long-term indwelling urethral catheterization in certain populations (e.g., spinal cord\u2013injured persons) to prevent both infectious and anatomic complications. Antimicrobial catheters impregnated with silver or nitrofurazone have not been shown to provide significant clinical benefit in terms of reducing rates of"
+        },
+        {
+            "id": "InternalMed_Harrison_31027",
+            "title": "InternalMed_Harrison",
+            "content": "Bladder dysfunction management is best guided by urodynamic testing. Evening fluid restriction or frequent voluntary voiding may help detrusor hyperreflexia. If these methods fail, propantheline bromide (10\u201315 mg/d), oxybutynin (5\u201315 mg/d), hyoscyamine sulfate (0.5\u20130.75 mg/d), tolterodine tartrate (2\u20134 mg/d), or solifenacin (5\u201310 mg/d) may help. Coadministration of pseudoephedrine (30\u201360 mg) is sometimes beneficial. Detrusor/sphincter dyssynergia may respond to phenoxybenzamine (10\u201320 mg/d) or terazosin hydrochloride (1\u201320 mg/d). Loss of reflex bladder wall contraction may respond to bethanechol (30\u2013 150 mg/d). However, both conditions often require catheterization."
+        },
+        {
+            "id": "Surgery_Schwartz_11693",
+            "title": "Surgery_Schwartz",
+            "content": "a Council-tip catheter via Seldinger technique; or (b) place a suprapubic tube approximately two fingerbreadths above the pubic symphysis. With regard to the suprapubic tube, ultrasound-guidance or aspiration with a finder needle should be used first to localize the bladder and avoid intra-abdominal contents, although bowel injury is unlikely with a distended bladder filling the pelvis. If hematuria is the cause of retention, continuous bladder irrigation often is necessary to prevent clot formation. This is done through a large three-way catheter that has an additional port for fluid inflow. Fluid is infused by grav-ity only because the use of higher pressure may result in bladder rupture if outflow is occluded.Once the bladder is adequately drained, the cause of AUR should be addressed. For men with suspected BPH, an \u03b1-blocker such as tamsulosin should be started, and these have been shown to increase the likelihood of a successful trial without a catheter.73 Although finasteride"
+        },
+        {
+            "id": "InternalMed_Harrison_22204",
+            "title": "InternalMed_Harrison",
+            "content": "studies may be reserved for the symptomatic patient to assess the filling phase (cystometry), pressure-volume relationship of the bladder, bladder compliance, and capacity. Pressure-flow analysis evaluates bladder contractility and bladder outlet resistance during voiding. Bladder obstruction is characterized by high pressures in women, whereas in men, a diagnosis of bladder outlet obstruction is based on flow rate and voiding pressures. A voiding cystourethrogram may be useful in evaluating incomplete emptying and bladder neck and urethral pathology."
+        },
+        {
+            "id": "Gynecology_Novak_4685",
+            "title": "Gynecology_Novak",
+            "content": "Patients with prolapse exhibit the full range of lower urinary tract symptoms. Despite the fact that some patients may not have significant symptoms, it is important to obtain objective information about bladder and urethral function. With severe POP, the urethral kinking effect of the prolapse may mask a potential urine leakage problem; therefore, basic office bladder testing with prolapse reduction should be performed to mimic bladder and urethral function if the prolapse were treated. At a minimum, the following assessments should be performed: a clean catch or catheterized urine sample to test for infection, a postvoid residual (PVR) volume, and assessment of bladder sensation, which can be performed as a part of office cystometrics. Although there is no consensus as to what constitutes an abnormal PVR volume, provided the patient has voided 150 mL or more, a PVR less than or equal to 100 mL is acceptable (27). Reduction stress testing at the time of simple office cystometrics can"
+        },
+        {
+            "id": "InternalMed_Harrison_25602",
+            "title": "InternalMed_Harrison",
+            "content": "amount of fluid throughout the day in order to maintain a dilute urine can reduce the risk of bladder injury. Bladder cancer can occur several years after discontinuation of cyclophosphamide therapy; therefore, monitoring for bladder cancer should continue indefinitely in patients who have received cyclophosphamide. Bone marrow suppression is an important toxicity of cyclophosphamide and can be observed during glucocorticoid tapering or over time, even after periods of stable measurements. Monitoring of the complete bloodcountevery1\u20132weeks foraslong asthepatient receives cyclophosphamide can effectively prevent cytopenias. Maintaining the white blood cell (WBC) count at >3000/\u03bcL and the neutrophil count at >1500/\u03bcL is essential to reduce the risk of life-threatening infections."
+        },
+        {
+            "id": "InternalMed_Harrison_3343",
+            "title": "InternalMed_Harrison",
+            "content": "CHAPTER 60e Dysuria, Bladder Pain, and the Interstitial Cystitis/Bladder Pain Syndrome 60e-4 a modest benefit over placebo. Adverse reactions are uncommon and include gastrointestinal symptoms, headache, and alopecia. Pentosan polysulfate has weak anticoagulant effects and perhaps should be avoided by patients with coagulation abnormalities. Anecdotal reports suggest that successful therapy for one FSS is accompanied by diminished symptoms of other FSSs. As has been noted here, IC/BPS often is associated with one or several FSSs. Thus, it seems reasonable to hope that, to the extent that accompanying FSSs are treated successfully, the symptoms of IC/BPS will be relieved as well. If several months of these therapies in combination do not relieve symptoms adequately, the patient should be referred to a urologist or urogynecologist who has access to additional modalities. Cystoscopy under anesthesia allows distention of the bladder with water, a procedure that provides \u223c40% of patients"
+        },
+        {
+            "id": "Gynecology_Novak_4465",
+            "title": "Gynecology_Novak",
+            "content": "History A thorough medical history should be obtained from every incontinent patient. The history should include a review of symptoms, general medical history, review of past surgery, and current medications. The woman\u2019s most troubling symptoms must be ascertained\u2014how often she leaks urine, how much urine she leaks, what provokes urine loss, what improves or worsens the problem, and what treatment (if any) she had in the past. It is essential to keep the patient\u2019s chief symptom at the forefront to avoid inappropriate management. Consider, for example, a woman whose chief concern is that once a month, while leading a business seminar, she has a sudden, overwhelming urge to void followed by complete bladder emptying. She finds this leakage devastating and is considering quitting her job because of her acute embarrassment. On occasion, she leaks a few drops of urine during exercise, but this minor leakage does not bother her. During the evaluation, urodynamics reveal minimal stress"
+        },
+        {
+            "id": "Gynecology_Novak_4492",
+            "title": "Gynecology_Novak",
+            "content": "2. Infuse \ufb02uid (usually sterile water or saline, sometimes radiographic contrast dye) at a rate of 50 to 100 mL/min. Record the volume infused and the pressure measurements continuously. The patient\u2019s bladder may be filled with her lying supine, in a modified lithotomy position, sitting, or standing. When possible, do cystometry in the standing position as most patients with incontinence report this problem more when they are erect. 3. Note the point at which any leakage occurs. 4. During filling, record the first desire to void (that is, the feeling that would lead her to void at the next convenient moment, but voiding can be delayed if necessary) and the strong desire to void (that is, the persistent desire to void without the fear of leakage). The maximum cystometric capacity, in women with normal sensation, is the volume at which the woman can no longer delay micturition; filling should not be continued to the point of pain or severe discomfort."
+        },
+        {
+            "id": "Gynecology_Novak_4476",
+            "title": "Gynecology_Novak",
+            "content": "Voiding Diary A frequency/volume bladder chart (often termed a \u201cbladder diary\u201d) is an invaluable aid in the evaluation of patients with urinary incontinence. A frequency/volume chart is a voiding record kept by the patient for several days. Patients are instructed to write down the time of every void on the chart and measure the amount of urine voided. The time of any incontinent episodes, and the specific activities associated with urine loss, should be recorded. If desired, the patient can be instructed to keep a record of \ufb02uid intake. Although the type of intake may guide management suggestions, in most cases volume of intake can be estimated with some accuracy from the amount of urine produced."
+        },
+        {
+            "id": "Pharmacology_Katzung_2798",
+            "title": "Pharmacology_Katzung",
+            "content": "may interfere with bladder function, resulting in urinary retention and the need for bladder catheterization. These issues are particularly problematic in the setting of ambulatory (same-day) surgery, which represents an ever-increasing percentage of surgical caseloads."
+        },
+        {
+            "id": "Gynecology_Novak_4529",
+            "title": "Gynecology_Novak",
+            "content": "Patients should be warned of the side effects of anticholinergic agents. Patients should be particularly advised about the symptom of a dry mouth and told that this is not caused by thirst. Some patients increase their \ufb02uid intake to combat this problem, with a subsequent worsening of their incontinence. If dry mouth is a problem, patients should relieve it by chewing gum, sucking on a piece of hard candy, or eating a piece of moist fruit. Table 26.9 Commonly Used Medications for Urge Incontinence tid, three times a day; qid, four times a day; qd, every day; bid, twice a day. aAvailable as generic.bWatson Pharmaceuticals. cPfizer. dAllergan. eAstellas Pharmaceuticals. f 7.5 or 15 mg by mouth Medications that treat nocturia and nocturnal enuresis have one of three aims: (i) to reduce urine output, (ii) to increase bladder capacity and reduce unstable bladder contractions, and (iii) to act centrally on sleep and micturition centers."
+        },
+        {
+            "id": "Obstentrics_Williams_2172",
+            "title": "Obstentrics_Williams",
+            "content": "TABLE 16-4. Fetal Urinary Analyte Values with Bladder Outlet Obstruction Good or poor prognosis is based on values from serial gestation, using the last specimen obtained. Data from Mann, 2010. Shunt placement allows urine to drain from the bladder into the amnionic cavity. When successful, this often prevents pulmonary hypoplasia, however, renal function is not reliably preserved. Before shunting, amnioinfusion of warmed lactated Ringer solution is generally performed to aid catheter placement. Amnioinfusion also aids sonographic evaluation of fetal anatomy. A small trocar and cannula are then inserted into the fetal bladder under sonographic guidance. he shunt is placed as low as possible within the bladder to avoid dislodgement after bladder decompression. A double-pigtail catheter is used. The distal end lies within the fetal bladder, and the proximal end drains into the amnionic cavity."
+        },
+        {
+            "id": "Gynecology_Novak_4258",
+            "title": "Gynecology_Novak",
+            "content": "Surgical Considerations Patient Positioning When the patient is in the dorsal lithotomy position, the buttocks should be positioned just over the table\u2019s edge. Several stirrup types are available, including those that support the entire leg and those that suspend the legs in straps. To avoid nerve injury, adequate padding should be used; marked \ufb02exion of the thigh and pressure points should be avoided. Trendelenburg (10-to 15-degree) positioning aids in the intravaginal visualization needed during surgery. Vaginal Preparation A povidone-iodine solution or chlorhexideine-alcohol is applied to the vagina, the bladder is drained, and the catheter is removed. Several methods for draping are proposed, including individual or single-piece drapes; the method chosen is at the surgeon\u2019s discretion. There is usually no need to shave or clip the pubic hair. Individual drapes with an adhesive barrier should be used to hold them in place and prevent the pubic hair from compromising the field."
+        },
+        {
+            "id": "InternalMed_Harrison_3344",
+            "title": "InternalMed_Harrison",
+            "content": "referred to a urologist or urogynecologist who has access to additional modalities. Cystoscopy under anesthesia allows distention of the bladder with water, a procedure that provides \u223c40% of patients with several months of relief and can be repeated. For those few patients with a Hunner\u2019s lesion, fulguration may offer relief. Bladder instillation of solutions containing lidocaine or dimethyl sulfoxide can be administered. Physicians experienced in the care of IC/BPS patients have used anticonvulsants, narcotics, and cyclosporine as components of therapy. Pain specialists can be of assistance. Sacral neuromodulation with a temporary percutaneous electrode can be tested and, if effective, can then be performed with an implanted device. In a very small number of patients with recalcitrant symptoms, surgeries, including cystoplasty, partial or total cystectomy, and urinary diversion, may provide relief."
+        },
+        {
+            "id": "Obstentrics_Williams_401",
+            "title": "Obstentrics_Williams",
+            "content": "he 24-hour urine collection is afected by urinaty tract dilatation, which is discussed in the next section. he dilated tract may lead to errors related both to retention-hundreds of milliliters of urine remaining in the dilated tract-and to timing-the remaining urine may have formed hours before the collection. To minimize these pitfalls, the patient is irst hydrated and positioned in lateral recumbency-the deinitive nonobstructive posture-for 45 to 60 minutes. After this, she is asked to void, and this specimen is discarded. Immediately following this void, her 24-hour collection begins. During the final hour of collection, the patient is again placed in the lateral recumbent position. But, at the end of this hour, the inal collected urine is incorporated into the total collected volume (Lindheimer, 2010)."
+        },
+        {
+            "id": "Gynecology_Novak_4482",
+            "title": "Gynecology_Novak",
+            "content": "Routine urinary cytology is not helpful, but testing may be of value in women older than 50 years with irritative urinary tract symptoms, particularly if those symptoms are of sudden onset. Postvoid Residual Volume Incomplete bladder emptying may cause incontinence. Patients with a large postvoid residual (PVR) urine volume have a diminished functional bladder capacity because of the dead space occupied in the bladder by retained urine. This stagnant pool of urine is a source of urinary tract infections because the major defense of the bladder against infection is frequent, nearly complete emptying."
+        },
+        {
+            "id": "InternalMed_Harrison_21373",
+            "title": "InternalMed_Harrison",
+            "content": "Hemorrhagic cystitis can develop in patients receiving cyclophosphamide or ifosfamide. Both drugs are metabolized to acrolein, which is a strong chemical irritant that is excreted in the urine. Prolonged contact or high concentrations may lead to bladder irritation and hemorrhage. Symptoms include gross hematuria, frequency, dysuria, burning, urgency, incontinence, and nocturia. The best management is prevention. Maintaining a high rate of urine flow minimizes exposure. In addition, 2-mercaptoethanesulfonate (mesna) detoxifies the metabolites and can be coadministered with the instigating drugs. Mesna usually is given three times on the day of ifosfamide administration in doses that are each 20% of the total ifosfamide dose. If hemorrhagic cystitis develops, the maintenance of a high urine flow may be sufficient supportive care. If conservative management is not effective, irrigation of the bladder with a 0.37\u20130.74% formalin solution for 10 min stops the bleeding in most cases."
+        },
+        {
+            "id": "First_Aid_Step2_869",
+            "title": "First_Aid_Step2",
+            "content": "bladder with \u2191 intravesical pressure that just exceeds the outlet resistance, allowing a small amount of urine to dribble out. Placement of urethral catheter in acute settings. Treat underlying diseases. Timed voiding. a Etiologies include inhibited contractions, local irritation (cystitis, stone, tumor), and CNS causes. b Etiologies include physical agents (tumor, stricture), neurologic factors (lesions), and medications."
+        },
+        {
+            "id": "InternalMed_Harrison_3314",
+            "title": "InternalMed_Harrison",
+            "content": "Studies indicate that patients perceive pain as coming from the urinary bladder if it is suprapubic in location, alters with bladder filling or emptying, and/or is associated with urinary symptoms such as urgency and frequency. Bladder pain occurring acutely (i.e., over hours or a day or two) is helpful in distinguishing bacterial cystitis from urethritis, vaginitis, and other genital infections. Chronic or recurrent bladder pain may accompany lower urinary tract stones; bladder, uterine, cervical, vaginal, urethral, or prostate cancer; urethral diverticulum; cystitis induced by radiation or certain medications; tuberculous cystitis; bladder neck obstruction; neurogenic bladder; urogenital prolapse; or BPH. In the absence of these conditions, the diagnosis of interstitial cystitis/bladder pain syndrome (IC/BPS) should be considered."
+        },
+        {
+            "id": "Gynecology_Novak_4495",
+            "title": "Gynecology_Novak",
+            "content": "Voiding occurs as a result of a voluntarily initiated and sustained detrusor contraction Flow rate during voiding is >15 mL/sec with a detrusor pressure of <50 cm H2O From Wall LL, Norton P, Delancey J. Practical urogynecology. Baltimore, MD: Williams & Wilkins, 1993, with permission. Figure 26.5 Detrusor overactivity on filling cystometrography. The patient begins to sense urgency, accompanied by an unstable bladder contraction, when 88 mL of water are instilled into the bladder. The detrusor pressure rises, and when 96 mL of water are instilled, she leaks. Pabd, abdominal pressure; Pves, vesical pressure; Pdet, detrusor pressure."
+        },
+        {
+            "id": "Gynecology_Novak_4283",
+            "title": "Gynecology_Novak",
+            "content": "Injury to the urinary bladder is one of the most common intraoperative complications associated with hysterectomy. If the bladder is inadvertently entered, repair should be performed when the injury is discovered and not delayed until completion of surgery. When bladder injury is recognized, the edges of the wound should be mobilized to assess the full extent of the injury and allow repair without tension. This assessment should include visualization of the trigone to exclude injury to that area. The bladder may be repaired with a single-or double-layered closure with a small-caliber absorbable suture. Methylene blue, indigo carmine, or a dye of sterile milk formula can be instilled into the bladder to ensure that the repair is adequate."
+        },
+        {
+            "id": "First_Aid_Step2_867",
+            "title": "First_Aid_Step2",
+            "content": "First step: Obtain a UA and urine culture to exclude UTI. Next step: \u25a0Voiding diary; possible urodynamic testing. Causes of urinary incontinence without specif c urogenital pathology\u2014 Excessive urinary output (hyperglycemia, hypercalcemia, CHF) TABLE 2.12-12. Types of Incontinence"
+        },
+        {
+            "id": "Gynecology_Novak_4481",
+            "title": "Gynecology_Novak",
+            "content": "If hematuria and bacteriuria are found, the urine should be rechecked after eradication of the bacteriuria. Hematuria found in the absence of bacteriuria may need further evaluation to rule out kidney or bladder tumors; the necessity for and extent of the evaluation depends on concomitant risk factors and the clinical presentation. If malignancy is suspected, bladder biopsy should be performed by the surgeon who would treat the patient in the event a malignancy is discovered. Routine urinary cytology is not helpful, but testing may be of value in women older than 50 years with irritative urinary tract symptoms, particularly if those symptoms are of sudden onset."
+        },
+        {
+            "id": "Pharmacology_Katzung_68",
+            "title": "Pharmacology_Katzung",
+            "content": "fluids in which pH differences from blood pH may cause trapping or reabsorption are the contents of the stomach (normal pH 1.9\u20133) and small intestine (pH 7.5\u20138), breast milk (pH 6.4\u20137.6), aqueous humor (pH 6.4\u20137.5), and vaginal and prostatic secretions (pH 3.5\u20137)."
+        },
+        {
+            "id": "InternalMed_Harrison_10705",
+            "title": "InternalMed_Harrison",
+            "content": "needed Remove unnecessary catheters Consider recurrent cystitis Urine culture to establish diagnosis Consider prophylaxis or patient-initiated management Consider chronic bacterial prostatitis Meares-Stamey 4-glass test Consider urology consult"
+        }
+    ],
+    "scores": [
+        0.03701968006166936,
+        0.0315948529276763,
+        0.0294839878892368,
+        0.026551584939482883,
+        0.025613430655562916,
+        0.025317194882412276,
+        0.0239856119438926,
+        0.02275132275132275,
+        0.022542051646529258,
+        0.02249444010526943,
+        0.022353769093844435,
+        0.020966680966680966,
+        0.019987372917859063,
+        0.019761360003896347,
+        0.018750547621133797,
+        0.01869812145041503,
+        0.018404390037990714,
+        0.01819175360158967,
+        0.01811772421708477,
+        0.018089960886571055,
+        0.017837323608688758,
+        0.017698425074068297,
+        0.017400954821224134,
+        0.017193034238488784,
+        0.016902982468394216,
+        0.01686176142697882,
+        0.016817410966647822,
+        0.016807909604519774,
+        0.016608391608391608,
+        0.016579894074064256,
+        0.01639784946236559,
+        0.01615581098339719
+    ],
+    "execution_time": 50.17801547050476
+}

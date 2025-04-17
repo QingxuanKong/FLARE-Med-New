@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-041",
+    "question": "Which of the following statements is false?",
+    "options": {
+        "A": "Phosphofructokinase is the rate limiting enzyme in glycolysis.",
+        "B": "Phosphorylase activity is higher in Type II fibres than in Type I fibres.",
+        "C": "Endurance training increases the amount of TCA cycle enzymes in muscle.",
+        "D": "Oxygen is consumed in the TCA cycle."
+    },
+    "answer": "D",
+    "predict": "Here is the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To answer this question, we need to evaluate each statement in the context of muscle physiology and biochemistry. Statement A: Phosphofructokinase is the rate-limiting enzyme in glycolysis. This statement is true. Phosphofructokinase-1 (PFK-1) is a key regulatory enzyme in glycolysis, and its activity is a major determinant of the rate of glycolysis in muscle cells. Statement B: Phosphorylase activity is higher in Type II fibres than in Type I fibres. This statement is true. Type II fibres (also known as fast-twitch fibres) have a higher concentration of myophosphorylase, which is the enzyme responsible for breaking down glycogen to glucose-1-phosphate. This allows for a rapid increase in glucose availability for energy production during high-intensity, short-duration activities. Statement C: Endurance training increases the amount of TCA cycle enzymes in muscle. This statement is false. Endurance training actually decreases the amount of myophosphorylase and increases the amount of glycogen synthase in muscle. This allows for a more efficient use of glucose for energy production during prolonged, low-intensity activities. Statement D: Oxygen is consumed in the TCA cycle. This statement is true. The TCA cycle (also known as the citric acid cycle or Krebs cycle) is a key component of cellular respiration, and it takes place in the mitochondria. Oxygen is consumed during the TCA cycle as water is produced from carbon dioxide and protons. The correct answer is C.\"} {\"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_32558",
+            "title": "InternalMed_Harrison",
+            "content": "One of the most frequent reasons for performing clinical laboratory tests is to support, confirm, or refute a diagnosis of disease that is suspected on the basis of other information sources, such as history, physical examination findings, and imaging studies. The following questions need to be considered: Which clinical laboratory tests may be of value in supporting, confirming, or excluding the clinical impression? What is the most efficient test-ordering strategy? Will a positive test result confirm the clinical impression or even definitively establish the diagnosis? Will a negative result disprove the clinical suspicion, and, if so, what further testing or alternative approach will be needed? What are the known sources of false-positive and false-negative results, and how are these misleading results recognized?"
+        },
+        {
+            "id": "Immunology_Janeway_3651",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 14.1 True or False: Only TH2 cells can initiate the chain of signals needed to induce B cells to class-switch to IgE. 14.2 Multiple Choice: Which of the following has not been associated with genetic susceptibility to both allergic asthma and atopic eczema? A. \u03b2 subunit of Fc\u03b5RI B. GM-CSF C. IL-3 D. IL-4 E. IFN-\u03b3 14.3 Different factors affect our susceptibility to allergic diseases. Which of the following is a false statement? A. Environmental factors rarely contribute to the development of allergic disease. B. The prevalence of atopy has been steadily increasing in the developed world. C. Individuals with variant alleles of GSTP1 and GSTM1 have higher susceptibility to increased airway hyperactivity. D. Children less than 6 months old who are exposed to other children in day care appear to be partially protected against asthma. 14.4 True or False: Like other antibodies, IgE is mainly found in body fluids."
+        },
+        {
+            "id": "Immunology_Janeway_4238",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 16.1 Multiple Choice: Which of the following immunomodulators has a similar mechanism to azathioprine? A. Mycophenolate B. Cyclophosphamide C. Abatacept D. Rapamycin 16.2 Matching: Match the following immunomodulating antibodies with their respective mechanism of action. 16.3 True or False: Chimeric antigen receptor (CAR) T cells are cells that have been retrovirally transduced with a tumor-specific T-cell receptor in order to treat a leukemia. 16.4 Multiple Choice: Which statement is false? A. The vaccine Provenge is prepared using the patient\u2019s own antigen-loaded dendritic cells to induce therapeutic antitumor T-cell responses. B. Clinical trials of vaccines against HPV-16 and HPV18 (associated with 70% of cervical cancers) were 100% effective in preventing cervical cancers caused by these viruses."
+        },
+        {
+            "id": "Immunology_Janeway_3652",
+            "title": "Immunology_Janeway",
+            "content": "14.4 True or False: Like other antibodies, IgE is mainly found in body fluids. 14.5 Matching: Match the following options with the best 14.6 Which of the following statements is true? A. Connective tissue mast cells do not participate in the initiation of an anaphylactic reaction. B. Epinephrine should be avoided in patients suffering from anaphylactic shock as it may worsen the patient\u2019s condition. C. During anaphylactic shock, blood vessels lose permeability, and high blood pressure leads to death. D. Penicillin can modify self proteins, causing an immune response with IgE production in some individuals that can lead to anaphylaxis upon re-encountering the drug. 14.7 Multiple Choice: Hypersensitivity reactions can cause pathology through the deposition of immune complexes. Which of the following is a mechanism by which immune complexes can be pathogenic? (More than one may apply.) ___ A. Immune complexes deposit in blood vessel walls."
+        },
+        {
+            "id": "Immunology_Janeway_1653",
+            "title": "Immunology_Janeway",
+            "content": "7.7 Matching: match the small G protein (GTpase) to its function. A. _____ Ras i. WaSp; actin polymerization B. _____ cdc42 ii. mToR; cellular metabolism (Rho family) C. _____ Rap1 iii. Lfa-1 aggregation; cellular adhesion D. _____ Rheb iv. mapK pathway; cellular proliferation 7.8 Multiple Choice: Which of the follow statements is false? A. K63 polyubiquitination leads to downstream cellular signaling. B. K48 polyubiquitination leads to degradation by the proteasome. C. out of the three families of enzymes involved in ubiquitination\u2014e1 (ubiquitin-activating) enzymes, e2 (ubiquitin-conjugating) enzymes, and e3 enzymes (ubiquitin ligases)\u2014cbl is an e3 enzyme that selects its target via its Sh2 domain. D. monoor di-ubiquitination of surface receptors leads to degradation by the proteasome. 7.9 Matching: match the human disease with the gene that is"
+        },
+        {
+            "id": "InternalMed_Harrison_1196",
+            "title": "InternalMed_Harrison",
+            "content": "AVOIDING DECEPTION Health care providers sometimes consider using lies or deception to obtain benefits for patients. Lying refers to statements known to be false and intended to mislead the listener. Deception includes statements and actions intended to mislead the listener, whether or not they are literally true. For example, a physician might sign a disability form for a patient who does not meet disability criteria. Although motivated by a desire to help the patient, such deception is ethically problematic because it undermines physicians\u2019 credibility and trustworthiness."
+        },
+        {
+            "id": "Immunology_Janeway_3014",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 12.1 Multiple Choice: Which of the following is an incorrect statement? A. Microfold cells have a folded luminal surface and possess a thick layer of mucus that allows the entry of microbes to Peyer\u2019s patches. B. Microfold cells recognize several bacterial proteins by GP2 and release the material to the extracellular space by a process called transcytosis. C. Gut\u2011associated lymphoid tissues attract dendritic cells trough chemokines such as CCL20 and CCL9. D. Pathogens such as Yersinia pestis and Shigella target microfold cells to gain access to the subepithelial space. 12.2 True or False: Intraepithelial lymphocytes are mostly CD4 T cells, in contrast to the lamina propria, where CD8 T cells predominate. 12.3 Matching: Match each chemokine or chemokine receptor to its tissue homing function. A. CXCL13 i. Recruitment of lymphocytes to the colon, lactating mammary gland, and salivary glands 12.4 Multiple Choice: Which of the following is a correct statement?"
+        },
+        {
+            "id": "Biochemistry_Lippincott_1916",
+            "title": "Biochemistry_Lippinco",
+            "content": "Q1. Pheochromocytomas secrete norepinephrine (NE) and epinephrine. Which of the following statements concerning the synthesis and degradation of these two biogenic amines is correct? A. The substrate for their synthesis is tryptophan, which is hydroxylated to 3,4-dihydroxyphenylalanine (DOPA) by tetrahydrobiopterin-requiring tryptophan hydroxylase. B. The conversion of DOPA to dopamine utilizes a pyridoxal phosphate\u2013 requiring carboxylase. C. The conversion of NE to epinephrine requires vitamin C. D. Degradation involves methylation by catechol-O-methyltransferase and produces normetanephrine from NE and metanephrine from epinephrine. E. Normetanephrine and metanephrine are oxidatively deaminated to homovanillic acid by monoamine oxidase. Q2. Which of the following statements concerning the actions of epinephrine and/or NE are correct? A. NE functions as a neurotransmitter and a hormone."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1919",
+            "title": "Biochemistry_Lippinco",
+            "content": "Case-Related Questions: Choose the ONE best answer. Q1. Which of the following statements about DNA repair mechanisms is correct? DNA repair: A. is performed only by eukaryotes. B. of double-strand breaks is error free. C. of mismatched bases involves repair of the parental strand. D. of UV radiation\u2013induced pyrimidine dimers involves removal of a short oligonucleotide containing the dimer. E. of uracil produced by the deamination of cytosine requires the actions of endo-and exonucleases to remove the uracil base. Q2. Which one of the following statements about DNA synthesis (replication) is correct? Replication: A. in both eukaryotes and prokaryotes requires an RNA primer. B. in eukaryotes requires condensation of chromatin. C. in prokaryotes is accomplished by a single DNA polymerase. D. is initiated at random sites in the genome."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1168",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. 4.1. Which one of the following is elevated in plasma during the absorptive (well-fed) state as compared with the postabsorptive (fasted) state? A. Acetoacetate B. Chylomicrons C. Free fatty acids D. Glucagon Correct answer = B. Triacylglycerol-rich chylomicrons are synthesized in (and released from) the intestine following ingestion of a meal. Acetoacetate, free fatty acids, and glucagon are elevated in the fasted state, not the absorptive state. 4.2. Which one of the following statements concerning liver in the absorptive state is correct? A. Fructose 2,6-bisphosphate is elevated. B. Insulin stimulates the uptake of glucose. C. Most enzymes that are regulated by covalent modification are in the phosphorylated state. D. The oxidation of acetyl coenzyme A is increased. E. The synthesis of glucokinase is repressed."
+        },
+        {
+            "id": "Immunology_Janeway_204",
+            "title": "Immunology_Janeway",
+            "content": "B. lymph node C. Spleen D. thymus E. Appendix 1.10 Matching: match the following region, structure, or subcompartments with the numbered organ they are present in: A. lymph node __ B. Spleen __ C. mucosa of the small intestine __ 1. 2. 3. 1.11 Multiple Choice: Which of the following events do not occur during inflammation? A. Cytokine secretion B. Chemokine secretion C. recruitment of innate immune cells D. Constriction of blood vessels 1.12 Fill-in-the-Blanks: ___________ t cells are able to kill infected cells, while ________ t cells activate other cells of the immune system. 1.13 True or False: Both t-cell and B-cell receptors undergo the process of affinity maturation in order to acquire progressively higher affinity for an antigen during an immune response. 1.14 True or False: each lymphocyte carries cell-surface receptors with multiple antigen specificity."
+        },
+        {
+            "id": "First_Aid_Step2_234",
+            "title": "First_Aid_Step2",
+            "content": "Type I (\u03b1) error: Defned as the probability of saying that there is a difference in treatment effects between groups when in fact there is not (i.e., a false-conclusion). The p-value is an estimate of the probability that differences in treatment effects in a study could have happened by chance alone. Classically, differences associated with a p < 0.05 are statistically signif cant. Type II (\u03b2) error: Defned as the probability of saying that there is no difference in treatment effects (i.e., a falseconclusion) when in fact a difference exists. Power is the probability that a study will fnd a statistically signif cant difference when one is truly there. It relates directly to the number of subjects. Power (\u03b2) = 1 \u2013 type II error. The confidence interval (CI) is a way of expressing statistical signif cance (p-value) that shows the size of the effect and the statistical power. CIs are interpreted as follows:"
+        },
+        {
+            "id": "Biochemistry_Lippincott_424",
+            "title": "Biochemistry_Lippinco",
+            "content": "dioxide. Choose the ONE best answer. 0.1. Which one of the following statements concerning gluconeogenesis is correct? A. It is an energy-producing (exergonic) process. B. It is important in maintaining blood glucose during a 2-day fast. C. It is inhibited by a fall in the insulin/glucagon ratio. D. It occurs in the cytosol of muscle cells. E. It uses carbon skeletons provided by fatty acid degradation."
+        },
+        {
+            "id": "Biochemistry_Lippincott_841",
+            "title": "Biochemistry_Lippinco",
+            "content": "lipoproteins; TAG = triacylglycerol; NADPH = nicotinamide adenine dinucleotide phosphate; C = carbon. Choose the ONE best answer. 8.1. Mice were genetically engineered to contain hydroxymethylglutaryl coenzyme A reductase in which serine 871, a phosphorylation site, was replaced by alanine. Which of the following statements concerning the modified form of the enzyme is most likely to be correct? A. The enzyme is nonresponsive to ATP depletion. B. The enzyme is nonresponsive to statin drugs. C. The enzyme is nonresponsive to the sterol response element\u2013sterol response element\u2013binding protein system. D. The enzyme is unable to be degraded by the ubiquitin\u2013proteasome system."
+        },
+        {
+            "id": "First_Aid_Step2_1229",
+            "title": "First_Aid_Step2",
+            "content": "Number of deaths from 28 days to one year per 1000 live births in one year. Number of deaths from birth to one year of age per 1000 live births (neonatal + postnatal mortality) in one year. Number of deaths from 20 weeks\u2019 gestation to birth per 1000 total births in one year. Number of deaths from 20 weeks\u2019 gestation to one month of life per 1000 total births in one year. Number of deaths during pregnancy to 90 days postpartum per 100,000 live births in one year. True or false: Once patients sign a statement giving consent, they must continue treatment. A 15-year-old pregnant girl requires hospitalization for preeclampsia. Is parental consent required? A doctor refers a patient for an MRI at a facility he/she owns. Involuntary psychiatric hospitalization can be undertaken for which three reasons? True or false: Withdrawing a nonbeneficial treatment is ethically similar to withholding a nonindicated one."
+        },
+        {
+            "id": "Immunology_Janeway_3966",
+            "title": "Immunology_Janeway",
+            "content": "For each of the undesirable responses discussed here, the question is how to control the response without adversely affecting protective immunity to infection. The answer may lie in a more complete understanding of the regulation of the immune response, especially the suppressive mechanisms important in tolerance. The deliberate control of the immune response is examined further in Chapter 16. Questions. 15.1 True or False: Inflammatory bowel disease\u2014Crohn's disease and ulcerative colitis\u2014is a disease in which the adaptive immune system causes tissue damage in response to self antigens. 15.2 Matching: Match the following monogenic autoimmune diseases with the associated defective gene. 15.3 Multiple Choice: Which of the following statements is incorrect? A. The autoantibodies induced by procainamide, a drug widely used to treat abnormal heart rhythms, are similar to the autoantibodies that characterize systemic lupus erythematosus."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1912",
+            "title": "Biochemistry_Lippinco",
+            "content": "Prognosis: The prognosis for recovery is excellent. Case-Related Questions: Choose the ONE best answer. Q1. Which of the following statements about vitamin C is correct? Vitamin C is: A. a competitor of iron absorption in the intestine. B. a fat-soluble vitamin with a 3-month supply typically stored in adipose tissue. C. a coenzyme in several enzymic reactions such as the hydroxylation of proline. D. required for the cross-linking of collagen. Q2. In contrast to the microcytic anemia characteristic of iron deficiency (common in older adults), a macrocytic anemia is seen with deficiencies of vitamin B12 and/or folic acid. These vitamin deficiencies are also common in older adults. Which of the following statements concerning these vitamins is correct? A. An inability to absorb B12 results in pernicious anemia. B. Both vitamins cause changes in gene expression. C. Folic acid plays a key role in energy metabolism in most cells."
+        },
+        {
+            "id": "Biochemistry_Lippincott_372",
+            "title": "Biochemistry_Lippinco",
+            "content": ".2. Which of the following statements is true for anabolic pathways only? A. Their irreversible (nonequilibrium) reactions are regulated. B. They are called cycles if they regenerate an intermediate. C. They are convergent and generate a few simple products. D. They are synthetic and require energy. E. They typically require oxidized coenzymes. Correct answer = D. Anabolic processes are synthetic and energy requiring (endergonic). Statements A and B apply to both anabolic and catabolic processes, whereas C and E apply only to catabolic processes. .3. Compared with the resting state, vigorously contracting skeletal muscle shows: A. decreased AMP/ATP ratio. B. decreased levels of fructose 2,6-bisphosphate. C. decreased NADH/NAD+ ratio. D. increased oxygen availability. E. increased reduction of pyruvate to lactate."
+        },
+        {
+            "id": "First_Aid_Step2_1279",
+            "title": "First_Aid_Step2",
+            "content": "Hanley & Belfus, 2004, 2nd ed., 350 pages, ISBN 9781560536109 Includes 750 vignette-style questions in 15 test blocks. Pros: Questions are case based and offer a good approximation of real boards questions. Questions cover high-yield topics, and explanations are terse but adequate. Many questions also include images and associated laboratory findings. Cons: Explanations may not be adequate for those who require an in-depth review of certain topics. Summary: Excellent vignette-type questions in mock exam format. Hanley & Belfus, 2004, 2nd ed., 250 pages, ISBN 9781560536086"
+        },
+        {
+            "id": "Biochemistry_Lippincott_138",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. .1. Which one of the following statements concerning the hemoglobins is correct? A. HbA is the most abundant hemoglobin in normal adults. B. Fetal blood has a lower affinity for oxygen than does adult blood because HbF has an increased affinity for 2,3-bisphosphoglycerate. C. The globin chain composition of HbF is \u03b12\u03b42. D. HbA1c differs from HbA by a single, genetically determined amino acid substitution. E. HbA2 appears early in fetal life."
+        },
+        {
+            "id": "Immunology_Janeway_2252",
+            "title": "Immunology_Janeway",
+            "content": "A. IL-17 i. eradication of intracellular infections B. IL-4 ii. response to extracellular bacteria C. IFn-\u03b3 iii. Control of extracellular parasites D. IL-10 iv. suppression of T-cell responses 9.12 Matching: The following cytokines drive Cd4 Th subset effector differentiation. Match each with its respective subset-specific transcription factor. A. IFn-\u03b3 i. ror\u03b3t B. IL-4 ii. Foxp3 C. IL-6 and TGF-\u03b2 iii. T-bet D. TGF-\u03b2 iv. GaTa3 9.13 Multiple Choice: Which of the following statements is false? A. TCr signaling is strongest at the csMaC. B. Cb1, an e3 ligase, mediates degradation of TCrs in the csMaC. C. Cytoskeletal reorganization directs effector molecule release at the immunological synapse. D. Integrins such as LFa-1 associate in the sMaC. 9.14 Fill-in-the-Blanks: For each of the following sentences, fill in the blanks with the best word selected from the list below. not all words will be used; each word should be used only once."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1859",
+            "title": "Biochemistry_Lippinco",
+            "content": "D. ROS such as hydrogen peroxide generated by CYP2E1 can be oxidized by glutathione peroxidase. E. The pentose phosphate pathway is an important source of the nicotinamide adenine dinucleotide phosphate (NADPH) that provides the reducing equivalents needed for activity of CYP proteins and the regeneration of functional glutathione. RQ3. Alcohol is known to modulate the levels of serotonin in the central nervous system, where the monoamine functions as a neurotransmitter. Which of the following statements about serotonin is correct? Serotonin is: A. associated with anxiety and depression. B. degraded via methylation by monoamine oxidase, which also degrades the catecholamines. C. released by activated platelets. D. synthesized from tyrosine in a two-step process that utilizes a tetrahydrobiopterin-requiring hydroxylase and a pyridoxal phosphate\u2013 requiring carboxylase."
+        },
+        {
+            "id": "Immunology_Janeway_2519",
+            "title": "Immunology_Janeway",
+            "content": "A. First produced during humoral response B. Monomeric (predominantly) C. Dimeric (predominantly) D. Pentameric (predominantly) E. Contains a J chain F. Capable of eliciting complement deposition G. Most abundant in mucosal surfaces and secretions H. Low-affinity I. Bound onto mast cells J. Binds to polymeric immunoglobulin receptor (pIgR) K. Binds the neonatal Fc receptor (FcRn) 10.6 Short Answer: How is TRIM21, a novel class of Fc receptor, different from other Fc receptors? 10.7 Multiple Choice: Which of the following functions is not elicited by antibody binding to Fc\u03b3 receptors? A. Antibody-dependent cell-mediated cytotoxicity (ADCC) via NK cells B. Phagocytosis by neutrophils C. Mast-cell degranulation D. Downregulation of B-cell activity E. Ingestion of immune complexes by dendritic cells 10.8 Multiple Choice: Which of the following is a false statement?"
+        },
+        {
+            "id": "Cell_Biology_Alberts_1745",
+            "title": "Cell_Biology_Alberts",
+            "content": "(B) Splicing patterns for four \u03b1-tropomyosin mRNAs. Splicing is indicated by lines connecting the exons that are included in the mRNA. 6\u20138 The human \u03b1-tropomyosin gene is alternatively spliced to produce different forms of \u03b1-tropomyosin mRNA in different cell types (Figure Q6\u20133). For all forms of the mRNA, the protein sequences encoded by exon 1 are the same, as are the protein sequences encoded by exon 10. Exons 2 and 3 are alternative exons used in different mRNAs, as are exons 7 and 8. Which of the following statements about exons 2 and 3 is the most accurate? Is that statement also the most accurate one for exons 7 and 8? Explain your answers. A. Exons 2 and 3 must have the same number of nucleotides. b. Exons 2 and 3 must each contain an integral number of codons (that is, the number of nucleotides divided by 3 must be an integer). C. Exons 2 and 3 must each contain a number of nucleotides that when divided by 3 leaves the same remainder (that is, 0, 1, or 2)."
+        },
+        {
+            "id": "Immunology_Janeway_202",
+            "title": "Immunology_Janeway",
+            "content": "1.4 Matching: Classify the following as lymphoid or myeloid in origin: A. eosinophils B. B cells C. neutrophils D. nK cells E. mast cells F. macrophages G. red blood cells 1.5 Multiple Choice: the immunologist\u2019s \u2018dirty little secret\u2019 involves the addition of microbial constituents in order to stimulate a strong immune response against the desired protein antigen of interest. Which of the following is not a receptor or receptor family that can recognize microbial products in order to achieve a potent immune response? A. toll-like receptors (tlrs) B. t-cell antigen receptor (tCr) C. nod-like receptors (nlrs) D. Pattern recognition receptors (Prrs) 1.6 True or False: Hematopoietic stem cells can develop into any cell type in the body. 1.7 Matching: match each of the following terms to the numbered phrase that describes it best: A. Allergy __ 1. Immunological response to an antigen present on a transplanted foreign cell"
+        },
+        {
+            "id": "Immunology_Janeway_2795",
+            "title": "Immunology_Janeway",
+            "content": "11.5 Multiple Choice: Which of the following statements incorrectly describes TH1 macrophage activation? A. CD40 ligand sensitizes the macrophage to respond to IFN-\u03b3 B. LT-\u03b1 can substitute for CD40 ligand in macrophage activation C. TNFR-I activation is antagonized by activated TH1 cells D. Macrophages are sensitized to IFN-\u03b3 by small amounts of bacterial LPS 11.6 Short Answer: How do M2 macrophages stimulate collagen production in order to promote tissue repair? 11.7 Multiple Choice: Which of the following is not true concerning type 3 responses? A. The primary innate effector cells are neutrophils, which are recruited by CXCL8 and CXCL2 and have an increased output due to G-CSF and GM-CSF B. At homeostasis, TH17 cells are present almost exclusively in the intestinal mucosa C. IL-17 is the central cytokine D. IL-22 is produced to induce antimicrobial peptide production and epithelial cell proliferation and shedding of natural killer cells"
+        },
+        {
+            "id": "First_Aid_Step2_1307",
+            "title": "First_Aid_Step2",
+            "content": "explana-tions of answers. Good practice for interpreting common head CTs/ MRIs that might be tested. Cons: Some questions may be more de-tailed than needed for the boards. Summary: A good source of test questions for rapid review of neurology, but may be too detailed for boards review. $26.95 Test/500 q"
+        },
+        {
+            "id": "Surgery_Schwartz_14028",
+            "title": "Surgery_Schwartz",
+            "content": "the null hypothesis is rejected given that it is true. The error rate may also be referred to as the significance level, and often a value of 0.05, or 5%, is frequently used in the literature.Type II Error. A type II error is the failure to reject the null hypothesis when the null hypothesis is false. This error may also be referred to as a false negative. The type II error rate is denoted by the Greek letter \u03b2 (beta), and is related to the power of a study. Power can range from 0 to 1, and as power increases, there is decreasing probability of making a type II error. Power is related to three main factors: (a) the statistical significance criterion of the study, (b) the magnitude of the effect of interest, and (c) the sample size used to detect the effect. Power analysis can be used to calculate the minimum sample size required for a study so that one can be likely to detect an effect of a given size.P ValuesThe P value was an innovation most closely associated with Sir Ronald"
+        },
+        {
+            "id": "Immunology_Janeway_2792",
+            "title": "Immunology_Janeway",
+            "content": "Questions. 11.1 True or False: The immune response is a dynamic process that initiates with an antigen-independent response, which becomes more focused and powerful as it develops antigen specificity. Once the adaptive immune system develops, a single type of response is capable of eliminating any type of pathogen. 11.2 Multiple Choice: Which statement is incorrect? A. IL-12 and IL-18 production by macrophages and dendritic cells induces IFN-\u03b3 secretion by ILC1 to induce heightened killing of intracellular pathogens. B. ILC3s are activated by thymic stromal lymphopoietin (TSLP), which activates STAT5 and induces IL-17 production. C. Molecular patterns common to helminths activate IL-33 and IL-25 production, which in turn activates ILC2s to induce mucus production by goblet cells and mucosal smooth muscle contraction. D. ILC3-derived IL-22 acts on epithelial cells to induce production of antimicrobial peptides and promotes an enhanced barrier integrity."
+        },
+        {
+            "id": "Immunology_Janeway_738",
+            "title": "Immunology_Janeway",
+            "content": "E. SCID (not X-linked) v. NLRP3 F. Familial cold vi. \u03b3c inflammatory syndrome 3.3 Multiple Choice: Which of the following does not occur during an inflammatory response? A. Local blood clotting B. Tissue injury repair C. Endothelial cell activation D. Decreased vascular permeability E. Extravasation of leukocytes into inflamed tissue 3.4 Short Answer: What is the difference between conventional dendritic cells (cDCs) and plasmacytoid dendritic cells (pDCs)? 3.5 Multiple Choice: Which of the following is a G-proteincoupled receptor? A. fMLF receptor B. TLR-4 C. IL-1R D. CD14 E. STING F. B7.1 (CD80) 3.6 True or False: All forms of ubiquitination lead to proteasomal degradation. 3.7 Fill-in-the-Blanks: A. Toll-like receptors (TLRs) have a cytoplasmic signaling domain called TIR that is also shared with __________."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1315",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. 7.1. For the child shown at right, which of the statements would support a diagnosis of kwashiorkor? The child: A. appears plump due to increased deposition of fat in adipose tissue. B. displays abdominal and peripheral edema. C. has a serum albumin level above normal. D. has markedly decreased weight for height. The correct answer = B. Kwashiorkor is caused by inadequate protein intake in the presence of fair to good energy (calorie) intake. Typical findings in a patient with kwashiorkor include abdominal and peripheral edema (note the swollen belly and legs) caused largely by a decreased serum albumin concentration. Body fat stores are depleted, but weight for height can be normal because of edema. Treatment includes a diet adequate in calories and protein. 7.2. Which one of the following statements concerning dietary fat is correct? A. Coconut oil is rich in monounsaturated fats, and olive oil is rich in saturated fats."
+        },
+        {
+            "id": "Cell_Biology_Alberts_2577",
+            "title": "Cell_Biology_Alberts",
+            "content": "cells, so as to follow all of their Regulatory systems often employ network motifs that generate useful behaviors: changes in real time? a rapid negative feedback loop dampens the response to input signals; a delayed negative feedback loop creates a biochemical oscillator; positive feedback yields a models to accurately describe the systems that generate transient signal pulses or respond only to sustained inputs. enormous complexity of cellular The dynamic behavior of these network motifs can be dissected in detail with deter-networks and to predict undiscovered ministic and stochastic mathematical modeling. components and mechanisms? Which statements are true? explain why or why not. Discuss the following problems."
+        }
+    ],
+    "scores": [
+        0.022645842688220327,
+        0.019704911667637354,
+        0.019419306184012067,
+        0.019334952363160844,
+        0.01871774687308668,
+        0.017778128950695322,
+        0.017745465916197627,
+        0.017467581998474445,
+        0.01740314769975787,
+        0.01739782527184102,
+        0.017195767195767195,
+        0.016802587176602924,
+        0.016388047913650124,
+        0.016330513988288872,
+        0.016290726817042606,
+        0.016195109461016516,
+        0.015810768751945224,
+        0.01576366908707255,
+        0.015363786202024958,
+        0.014800410522335657,
+        0.014792289454695393,
+        0.014772788096130172,
+        0.014578408195429472,
+        0.014568764568764568,
+        0.014525691699604742,
+        0.014455693560171172,
+        0.014337101747173689,
+        0.01428930817610063,
+        0.014071870425461586,
+        0.013917159763313609,
+        0.01378331349024636,
+        0.013714715137851673
+    ],
+    "execution_time": 21.999133825302124
+}

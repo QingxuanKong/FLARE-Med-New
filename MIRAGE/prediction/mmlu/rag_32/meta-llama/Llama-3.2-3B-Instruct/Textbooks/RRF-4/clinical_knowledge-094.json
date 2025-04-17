@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-094",
+    "question": "If a patient is cyanosed, what might their oxygen saturation level be?",
+    "options": {
+        "A": "98% or above.",
+        "B": "94% or above.",
+        "C": "80% or below.",
+        "D": "85% or above."
+    },
+    "answer": "C",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's consider the information provided in the documents. Central cyanosis is typically defined as a reduction in Sao2 of 85% or less. However, peripheral cyanosis can occur at higher oxygen saturation levels due to decreased peripheral blood flow. Nonetheless, the question asks about cyanosis, which generally refers to central cyanosis. Therefore, we can rely on the definition of central cyanosis. According to Document [6], cyanosis usually becomes manifest in an ascent to an altitude of 4000 m (13,000 ft), but in a clinical setting, it is generally considered to be present when Sao2 is 85% or less. Thus, the correct answer can be inferred from this definition.\", \"answer_choice\": \"C\"}",
+    "snippets": [
+        {
+            "id": "Neurology_Adams_9054",
+            "title": "Neurology_Adams",
+            "content": "The product of blood oxygen content and cardiac output is the ultimate determinant of the adequacy of oxygen supply to the organs. When blood flow is stable, the most important element in the delivery of oxygen is the oxygen content of the blood. This is the product of hemoglobin concentration and the percentage of oxygen saturation of the hemoglobin molecule. At normal temperature and pH, hemoglobin is 90 percent saturated at an oxygen partial pressure of 60 mm Hg and still 75 percent saturated at 40 mm Hg; that is, as is well known, the oxygen saturation curve is not linear. Physiology of Hypoxic and Ischemic Damage"
+        },
+        {
+            "id": "InternalMed_Harrison_2826",
+            "title": "InternalMed_Harrison",
+            "content": "CAuSES OF HYPOXIA Respiratory Hypoxia When hypoxia occurs from respiratory failure, Pao2 declines, and when respiratory failure is persistent, the hemoglobin-oxygen (Hb-O2) dissociation curve (see Fig. 127-2) is displaced to the right, with greater quantities of O2 released at any level of tissue Po2. Arterial hypoxemia, i.e., a reduction of O2 saturation of arterial blood (Sao2), and consequent cyanosis are likely to be more marked when such depression of Pao2 results from pulmonary disease than when the depression occurs as the result of a decline in the fraction of oxygen in inspired air (Fio2). In this latter situation, Paco2 falls secondary to anoxia-induced hyperventilation and the Hb-O2 dissociation curve is displaced to the left, limiting the decline in Sao2 at any level of Pao2."
+        },
+        {
+            "id": "InternalMed_Harrison_2842",
+            "title": "InternalMed_Harrison",
+            "content": "Cyanosis may be subdivided into central and peripheral types. In central cyanosis, the Sao2 is reduced or an abnormal hemoglobin derivative is present, and the mucous membranes and skin are both affected. Peripheral cyanosis is due to a slowing of blood flow and abnormally great extraction of O2 from normally saturated arterial blood; it results from vasoconstriction and diminished peripheral blood flow, such as occurs in cold exposure, shock, congestive failure, and peripheral vascular disease. Often in these conditions, the mucous membranes of the oral cavity or those beneath the tongue may be spared. Clinical differentiation between central and peripheral cyanosis may not always be simple, and in conditions such as cardiogenic shock with pulmonary edema, there may be a mixture of both types."
+        },
+        {
+            "id": "Physiology_Levy_2624",
+            "title": "Physiology_Levy",
+            "content": "Carbon monoxide can be generated from a malfunctioning space heater, from car exhaust, or from a burning building. Individuals exposed to carbon monoxide experience headache, nausea, and dizziness, and if it is not recognized, such individuals may die. They often have a cherry-red appearance, and oxygen saturation as measured with an oximeter is high (approaching 100%). Even on an arterial blood gas, the PAO2 may be normal. Nevertheless, the tissues are depleted of O2. Thus it is imperative that the clinician recognize a potential case of carbon monoxide poisoning and order an oxygen saturation measurement with the use of a carbon monoxide oximeter. If a patient has carbon monoxide poisoning, there will be a marked difference between the measurement of oxygen saturation by oximetry and that measured with a carbon monoxide oximeter. A useful way to examine the relationship between ventila tion and perfusion is with the two\u2013lung unit model (Fig."
+        },
+        {
+            "id": "InternalMed_Harrison_2840",
+            "title": "InternalMed_Harrison",
+            "content": "It is the absolute, rather than the relative, quantity of reduced hemoglobin that is important in producing cyanosis. Thus, in a patient with severe anemia, the relative quantity of reduced hemoglobin in the venous blood may be very large when considered in relation to the total quantity of hemoglobin in the blood. However, since the concentration of the latter is markedly reduced, the absolute quantity of reduced hemoglobin may still be low, and, therefore, patients with severe anemia and even marked arterial desaturation may not display cyanosis. Conversely, the higher the total hemoglobin content, the greater the tendency toward cyanosis; thus, patients with marked polycythemia tend to be cyanotic at higher levels of Sao2 than patients with normal hematocrit values. Likewise, local passive congestion, which causes an increase in the total quantity of reduced hemoglobin in the vessels in a given area, may cause cyanosis. Cyanosis is also observed when nonfunctional hemoglobin, such"
+        },
+        {
+            "id": "InternalMed_Harrison_2848",
+            "title": "InternalMed_Harrison",
+            "content": "3. The presence or absence of clubbing of the digits (see below) should be ascertained. The combination of cyanosis and clubbing is frequent in patients with congenital heart disease and right-to-left shunting and is seen occasionally in patients with pulmonary disease, such as lung abscess or pulmonary arteriovenous fistulae. In contrast, peripheral cyanosis or acutely developing central cyanosis is not associated with clubbed digits. 4. Pao2 and Sao2 should be determined, and, in patients with cyanosis in whom the mechanism is obscure, spectroscopic examination of the blood should be performed to look for abnormal types of hemoglobin (critical in the differential diagnosis of cyanosis)."
+        },
+        {
+            "id": "InternalMed_Harrison_2843",
+            "title": "InternalMed_Harrison",
+            "content": "DIFFERENTIAL DIAgNOSIS Central Cyanosis (Table 49-1) Decreased Sao2 results from a marked reduction in the Pao2. This reduction may be brought about by a decline in the Fio2 without sufficient compensatory alveolar hyperventilation to maintain alveolar Po2. Cyanosis usually becomes manifest in an ascent to an altitude of 4000 m (13,000 ft). Seriously impaired pulmonary function, through perfusion of unventilated or poorly ventilated areas of the lung or alveolar hypoventilation, is a common cause of central cyanosis (Chap. 306e). Inhomogeneity in pulmonary ventilation and perfusion (perfusion of hypoventilated alveoli) Impaired oxygen diffusion Anatomic shunts Certain types of congenital heart disease Pulmonary arteriovenous fistulas Multiple small intrapulmonary shunts Hemoglobin with low affinity for oxygen Hemoglobin abnormalities Methemoglobinemia\u2014hereditary, acquired Sulfhemoglobinemia\u2014acquired Carboxyhemoglobinemia (not true cyanosis)"
+        },
+        {
+            "id": "InternalMed_Harrison_2839",
+            "title": "InternalMed_Harrison",
+            "content": "The increase in the quantity of reduced hemoglobin in the mucocutaneous vessels that produces cyanosis may be brought about either by an increase in the quantity of venous blood as a result of dilation of the venules (including precapillary venules) or by a reduction in the Sao2 in the capillary blood. In general, cyanosis becomes apparent when the concentration of reduced hemoglobin in capillary blood exceeds 40 g/L (4 g/dL)."
+        },
+        {
+            "id": "Surgery_Schwartz_3050",
+            "title": "Surgery_Schwartz",
+            "content": "at these two wavelengths can be used to calculate the fraction of oxygen saturation of hemoglobin. Under normal circumstances, the contributions of carboxyhe-moglobin and methemoglobin are minimal. However, if car-boxyhemoglobin levels are elevated, the pulse oximeter will incorrectly interpret carboxyhemoglobin as oxyhemoglobin and the arterial saturation displayed will be falsely elevated. When the concentration of methemoglobin is markedly increased, the Sao2 will be displayed as 85%, regardless of the true arterial saturation.59 The accuracy of pulse oximetry begins to decline at Sao2 values less than 92% and tends to be unreliable for values less than 85%.60Several studies have assessed the frequency of arterial oxygen desaturation in hospitalized patients and its effect on outcome. Monitoring pulse oximetry in surgical patients is asso-ciated with a reduction in unrecognized deterioration, rescue events, and transfers to the ICU.61 Because of its clinical rel-evance, ease of"
+        },
+        {
+            "id": "InternalMed_Harrison_17818",
+            "title": "InternalMed_Harrison",
+            "content": "Intracardiac Shunts In patients with congenital heart disease, detection, localization, and quantification of the intracardiac shunt should be evaluated. A shunt should be suspected when there is unexplained arterial desaturation or increased oxygen saturation of venous blood. A \u201cstep up\u201d or increase in oxygen content indicates the presence of a left-to-right shunt while a \u201cstep down\u201d indicates a right-to-left shunt. The shunt is localized by detecting a difference in oxygen saturation levels of 5\u20137% between adjacent cardiac chambers. The severity of the shunt is determined by the ratio of pulmonary blood flow (Qp) to the systemic blood flow (Qs), or Qp/Qs = ([systemic arterial oxygen content \u2212 mixed venous oxygen content]/pulmonary vein oxygen content \u2212 pulmonary artery oxygen content). For an atrial septal defect, a shunt ratio of 1.5 is considered significant and factored with other clinical variables to determine the need for intervention. When a congenital ventricular septal"
+        },
+        {
+            "id": "Pediatrics_Nelson_2903",
+            "title": "Pediatrics_Nelson",
+            "content": "The concentration of administered O2 should be high enough to relieve hypoxemia. The acceptable O2 saturation depends on the patient and clinical situation. Generally, supplemental O2 should be administered to achieve a goal saturation level above 90%. Normal oxygen saturation is greater than 95%. It is unnecessary to achieve 100% saturation, especially if this requires potentially toxic levels of inspired O2 for extended periods of time. Inspired O2 concentrations less than 40% are usually safe for long-term use. Patients requiring supplemental O2 should be monitored with pulse oximetry, either intermittently or continuously, or with arterial blood gas measurements of Po2 to allow titration to the lowest possible O2 concentration."
+        },
+        {
+            "id": "InternalMed_Harrison_8069",
+            "title": "InternalMed_Harrison",
+            "content": "Low-affinity hemoglobins (e.g., Hb Kansas [\u03b2102Asn\u2192Lys]) bind sufficient oxygen in the lungs, despite their lower oxygen affinity, to achieve nearly full saturation. At capillary oxygen tensions, they lose sufficient amounts of oxygen to maintain homeostasis at a low hematocrit (Fig. 127-2) (pseudoanemia). Capillary hemoglobin desaturation can also be sufficient to produce clinically apparent cyanosis. Despite these findings, patients usually require no specific treatment. Methemoglobin is generated by oxidation of the heme iron moieties to the ferric state, causing a characteristic bluish-brown muddy color resembling cyanosis. Methemoglobin has such high oxygen affinity that virtually no oxygen is delivered. Levels >50\u201360% are often fatal."
+        },
+        {
+            "id": "InternalMed_Harrison_20860",
+            "title": "InternalMed_Harrison",
+            "content": "Cardiac output is determined by the thermodilution technique, and high-resolution thermistors can also be used to determine right ventricular end-diastolic volume to monitor further the response of the right heart to fluid resuscitation. A PAC with an oximeter port offers the additional advantage of online monitoring of the mixed venous oxygen saturation, an important index of overall tissue perfusion. Systemic and pulmonary vascular resistances are calculated as the ratio of the pressure drop across these vascular beds to the cardiac output (Chap. 272). Determinations of oxygen content in arterial and venous blood, together with cardiac output and hemoglobin concentration, allow calculation of oxygen delivery, Approach to the Patient with Shock Cardiac index (CI) CO/BSA 2.6\u20134.2 (L/min)/m2 Left ventricular stroke SV(MAP \u2013 PCWP) \u00d7 60\u201380 g-m/beat work (LVSW) 0.0136"
+        },
+        {
+            "id": "InternalMed_Harrison_4502",
+            "title": "InternalMed_Harrison",
+            "content": "If serum EPO levels are elevated, one needs to distinguish whether the elevation is a physiologic response to hypoxia or related to autonomous EPO production. Patients with low arterial O2 saturation (<92%) should be further evaluated for the presence of heart or lung disease, if they are not living at high altitude. Patients with normal O2 saturation who are smokers may have elevated EPO levels because of CO displacement of O2. If carboxyhemoglobin (COHb) levels are high, the diagnosis is \u201csmoker\u2019s polycythemia.\u201d Such patients should be urged to stop smoking. Those who cannot stop smoking require phlebotomy to control their polycythemia. Patients with normal O2 saturation who do not smoke either have an abnormal hemoglobin that does not deliver O2 to the tissues (evaluated by finding elevated O2\u2013hemoglobin affinity) or have a source of EPO production that is not responding to the normal feedback inhibition. Further workup is dictated by the differential diagnosis of EPO-producing"
+        },
+        {
+            "id": "InternalMed_Harrison_2846",
+            "title": "InternalMed_Harrison",
+            "content": "Cyanosis can be caused by small quantities of circulating methemoglobin (Hb Fe3+) and by even smaller quantities of sulfhemoglobin (Chap. 127); both of these hemoglobin derivatives impair oxygen delivery to the tissues. Although they are uncommon causes of cyanosis, these abnormal hemoglobin species should be sought by spectroscopy when cyanosis is not readily explained by malfunction of the circulatory or respiratory systems. Generally, digital clubbing does not occur with them. Peripheral Cyanosis Probably the most common cause of peripheral cyanosis is the normal vasoconstriction resulting from exposure to cold air or water. When cardiac output is reduced, cutaneous vasoconstriction occurs as a compensatory mechanism so that blood is diverted from the skin to more vital areas such as the CNS and heart, and cyanosis of the extremities may result even though the arterial blood is normally saturated."
+        },
+        {
+            "id": "InternalMed_Harrison_32417",
+            "title": "InternalMed_Harrison",
+            "content": "FIGuRE 477e-1 A monoplace chamber. (Prince of Wales Hospital, Sydney.) FIGuRE 477e-2 A chamber designed to treat multiple patients. (Karolinska University Hospital.) arterial gas embolism. Supplemental oxygen breathing has a dose-dependent effect on oxygen transport, ranging from improvement in hemoglobin oxygen saturation when a few liters per minute are delivered by simple mask at 101.3 kPa (1 ATA) to raising the dissolved plasma oxygen sufficiently to sustain life without the need for hemoglobin at all when 100% oxygen is breathed at 303.9 kPa (3 ATA). Most HBO2T regimens involve oxygen breathing at between 202.6 kPa and 283.6 kPa (2 and 2.8 ATA), and the resultant increase in arterial oxygen tensions to >133.3 kPa (1000 mmHg) has widespread physiologic and pharmacologic consequences (Fig. 477e-3)."
+        },
+        {
+            "id": "Obstentrics_Williams_4114",
+            "title": "Obstentrics_Williams",
+            "content": "Assisted ventilation by facemask at a rate of 40 to 60 breaths per minute is recommended. Oxygen saturation is monitored by pulse oximetry. Supplemental oxygen can be given in graduated, rising percentages to maintain oxygen saturation values within a normal range per minute of life. Adequate ventilation is best indicated by an improved heart rate. Colorimetric end-tidal carbon dioxide (ETC02) monitoring placed between the positive-pressure device and facemask serves as a helpful adjunct for detection of successful gas exchange during mask ventilation (Weiner, 2016)."
+        },
+        {
+            "id": "Pharmacology_Katzung_6501",
+            "title": "Pharmacology_Katzung",
+            "content": "A. Arterial Blood Gases Hypoventilation results in an elevated Pco2 (hypercapnia) and a low Po2 (hypoxia). The Po2 may also be low in a patient with aspiration pneumonia or drug-induced pulmonary edema. Poor tissue oxygenation due to hypoxia, hypotension, or cyanide poisoning will result in metabolic acidosis. The Po2 measures only oxygen dissolved in the plasma and not total blood oxygen content or oxyhemoglobin saturation and may appear normal in patients with severe carbon monoxide poisoning. Pulse oximetry may also give falsely normal results in carbon monoxide intoxication. B. Electrolytes Sodium, potassium, chloride, and bicarbonate should be measured. The anion gap is then calculated by subtracting the measured anions from cations:"
+        },
+        {
+            "id": "InternalMed_Harrison_32152",
+            "title": "InternalMed_Harrison",
+            "content": "Signs and symptoms of hypoxemia with initial physiologic stimulation and subsequent depression (Table 473e-2); lactic acidosis; normal Po2 and calculated oxygen saturation but decreased oxygen saturation by cooximetry. (That measured by pulse oximetry is falsely elevated but is less than normal and less than the calculated value.) Headache and nausea are common with carbon monoxide. Sudden collapse may occur with cyanide and hydrogen sulfide exposure. A bitter almond breath odor may be noted with cyanide ingestion, and hydrogen sulfide smells like rotten eggs."
+        },
+        {
+            "id": "Neurology_Adams_2941",
+            "title": "Neurology_Adams",
+            "content": "1. Shallow and irregular respirations, stertorous breathing (indicating obstruction to inspiration), and cyanosis require the establishment of a clear airway and delivery of oxygen. The patient should initially be placed in a lateral position so that secretions and vomitus do not enter the tracheobronchial tree. Secretions and vomitus should be removed by suctioning as soon as they accumulate; otherwise they will lead to atelectasis and bronchopneumonia. Arterial blood gases should be measured and further observed by monitoring of oxygen saturation. A patient\u2019s inability to protect against aspiration and the presence of either hypoxia or hypoventilation dictate the use of endotracheal intubation and a positive-pressure respirator. 2. The management of shock, if present, takes precedence over all other diagnostic and therapeutic measures."
+        },
+        {
+            "id": "Pediatrics_Nelson_1326",
+            "title": "Pediatrics_Nelson",
+            "content": "Treatment of hypoxemia requires knowledge of normal values. In term infants, the arterial Pao2 level is 55 to 60 mm Hg at 30 minutes of life, 75 mm Hg at 4 hours, and 90 mm Hg at 24 hours. Preterm infants have lower values. Paco2 levels should be 35 to 40 mm Hg, and the pH should be 7.35 to 7.40. It is imperative that arterial blood gas analysis be performed in all infants with significant respiratory distress, whether or not cyanosis is perceived. Cyanosis becomes evident when there is 5 g of unsaturated hemoglobin; anemia may interfere with the perception of cyanosis. Jaundice also may interfere with the appearance of cyanosis. Capillary blood gas determinations are useful in determining blood pH and the Paco2 level but may result in falsely low blood Pao2 readings. Serial blood gas levels may be monitored by an indwelling arterial catheter placed in a peripheral artery or through the umbilical artery. Another method for monitoring blood gas levels is to combine capillary blood gas"
+        },
+        {
+            "id": "Obstentrics_Williams_6472",
+            "title": "Obstentrics_Williams",
+            "content": "he propensity of the hemoglobin molecule to release oxygen is described by the oyhemoglobin dissociation curve (Fig. 47-2). For clinical purposes, the curve can be divided into an upper oxygen association curve representing the alveolar-capillary environment and a lower oxygen dissociation portion representing the tissue-capillary environment. Shifts of the curve have their greatest efect at the steep portion because they afect oxygen delivery. A rightward shit is associated with decreased hemoglobin ainity for oxygen and hence increased tissue-capillary oxygen :0 60= :l FIGURE 47-2 Oxyhemoglobin dissociation curve. With higher oxygen tension (Pao2) in the pulmonary alveoli, adult hemoglobin is maximally saturated compared with that at the lower oxygen tension in the tissue capillaries. Note that at any given oxygen tension, fetal hemoglobin carries more oxygen than adult hemoglobin, as indicated by percent saturation."
+        },
+        {
+            "id": "InternalMed_Harrison_8075",
+            "title": "InternalMed_Harrison",
+            "content": "Low-affinity hemoglobins should be considered in patients with cyanosis or a low hematocrit with no other reason apparent after thorough evaluation. The P50 test confirms the diagnosis. Counseling and reassurance are the interventions of choice. Methemoglobin should be suspected in patients with hypoxic symptoms who appear cyanotic but have a Pao2 sufficiently high that hemoglobin should be fully saturated with oxygen. A history of nitrite or other oxidant ingestions may not always be available; some exposures may be inapparent to the patient, and others may result from suicide attempts. The characteristic muddy appearance of freshly drawn blood can be a critical clue. The best diagnostic test is methemoglobin assay, which is usually available on an emergency basis."
+        },
+        {
+            "id": "InternalMed_Harrison_20650",
+            "title": "InternalMed_Harrison",
+            "content": "Supplemental oxygen can improve oxygen saturation, but there is little evidence that it improves OSAHS symptoms or the AHI."
+        },
+        {
+            "id": "InternalMed_Harrison_2841",
+            "title": "InternalMed_Harrison",
+            "content": "congestion, which causes an increase in the total quantity of reduced hemoglobin in the vessels in a given area, may cause cyanosis. Cyanosis is also observed when nonfunctional hemoglobin, such as methemoglobin (consequential or acquired) or sulfhemoglobin (Chap. 127), is present in blood."
+        },
+        {
+            "id": "InternalMed_Harrison_20008",
+            "title": "InternalMed_Harrison",
+            "content": "ArteriAL BLooD gAses The effectiveness of gas exchange can be assessed by measuring the partial pressures of oxygen and CO2 in a sample of blood obtained by arterial puncture. The oxygen content of blood (Ca ) depends upon arterial saturation (%O Sat), which is set by Pa , pH, and PaCO2 according to the oxyhemoglobin dissociation curve. CaO2can also be measured by oximetry (see below): CaO2 (mL/dL) = 1.39 (mL/dL) \u00d7 [hemoglobin](g) \u00d7 % O2 Sat + 0.003 (mL/dL/mmHg) \u00d7 PaO2 (mmHg) If hemoglobin saturation alone needs to be determined, this task can 306e-7 be accomplished noninvasively with pulse oxymetry. The authors wish to acknowledge the contributions of Drs. Steven E. Weinberger and Irene M. Rosen to this chapter in previous editions as well as the helpful contributions of Drs. Mary Strek and Jeffrey Jacobson. CHAPTER 306e Disturbances of Respiratory Function"
+        },
+        {
+            "id": "Surgery_Schwartz_3043",
+            "title": "Surgery_Schwartz",
+            "content": "on the oxygen saturation of hemoglobin (Hgb) in arterial blood (Sao2) than on the partial pressure of oxygen in arterial blood (Pao2). DO2 also is dependent on QT and Hgb. As discussed earlier and illustrated mathematically by previous equations, the dissolved oxygen in blood makes only a negligible contribution to DO2. Sao2 in mechanically venti-lated patients depends on the mean airway pressure, the frac-tion of inspired oxygen (Fio2), and SvO2. Thus, when Sao2 is low, the clinician has only a limited number of ways to improve this parameter. The clinician can increase mean airway pres-sure by increasing positive-end expiratory pressure (PEEP) or inspiratory time. Fio2 can be increased to a maximum of 1.0 by decreasing the amount of room air mixed with the oxygen sup-plied to the ventilator. SvO2 can be increased by increasing Hgb Brunicardi_Ch13_p0433-p0452.indd 44522/02/19 2:21 PM 446BASIC CONSIDERATIONSPART Ior QT or decreasing oxygen utilization (e.g., by administering a"
+        },
+        {
+            "id": "Physiology_Levy_2623",
+            "title": "Physiology_Levy",
+            "content": "Table 23.2 . A second category is anemic hypoxia, which is caused by a decrease in the amount of functioning hemoglobin as a result of too little hemoglobin, abnormal hemoglobin, or interference with the chemical combination of oxygen and hemoglobin (e.g., carbon monoxide poisoning; see the following \u201c In the Clinic\u201d box). The third category is hypoperfusion hypoxia, which results from low CHAPTER 23 Ventilation, Perfusion, and Ventilation/Perfusion Relationships AaDO2, alveolar-arterial difference for oxygen; FiO2, fraction of inspired oxygen; PaO2, partial pressure of arterial oxygen. blood flow (e.g., decreased cardiac output) and reduced oxygen delivery to the tissues. Histotoxic hypoxia, the fourth category of hypoxia, occurs when the cellular machinery that uses oxygen to produce energy is poisoned, as in cyanide poisoning. In this situation, arterial and venous PO2 are normal or increased because oxygen is not being utilized."
+        },
+        {
+            "id": "InternalMed_Harrison_19325",
+            "title": "InternalMed_Harrison",
+            "content": "patient\u2019s ideal level (generally ~20 mmHg) is reached by cautious fluid administration during careful monitoring of oxygenation and cardiac output. Eventually, the cardiac output level plateaus, and further increases in LV filling pressure only increase congestive symptoms and decrease systemic oxygenation without raising arterial pressure."
+        },
+        {
+            "id": "InternalMed_Harrison_2838",
+            "title": "InternalMed_Harrison",
+            "content": "The degree of cyanosis is modified by the color of the cutaneous pigment and the thickness of the skin, as well as by the state of the cutaneous capillaries. The accurate clinical detection of the presence and degree of cyanosis is difficult, as proved by oximetric studies. In some instances, central cyanosis can be detected reliably when the Sao2 has fallen to 85%; in others, particularly in dark-skinned persons, it may not be detected until it has declined to 75%. In the latter case, examination of the mucous membranes in the oral cavity and the conjunctivae rather than examination of the skin is more helpful in the detection of cyanosis."
+        },
+        {
+            "id": "Surgery_Schwartz_3037",
+            "title": "Surgery_Schwartz",
+            "content": "Brunicardi_Ch13_p0433-p0452.indd 44422/02/19 2:21 PM 445PHYSIOLOGIC MONITORING OF THE SURGICAL PATIENTCHAPTER 13Figure 13-4. Calculation of pulse pressure variation as it would appear on bedside monitor. This provides a helpful and rapid assessment of fluid responsiveness in the critically ill mechanically ventilated patient.PPmax + PPmin2PPV (%) =PPmax \u2013 PPmin\u00d7 100InspirationArterial blood pressure (mmHg)ExpirationInspirationInspirationExpirationTimePPminPPmaxsolute decreases exponentially as the concentration of the sol-ute increases. In mammalian tissue, three compounds change their absorption pattern when oxygenated: cytochrome aa3, myoglobin, and hemoglobin. Because of the distinct absorption spectra of oxyhemoglobin and deoxyhemoglobin, Beer\u2019s law can be used to detect their relative concentrations within tissue. Thus, the relative concentrations of the types of hemoglobin can be determined by measuring the change in light inten-sity as it passes through the tissue. Since"
+        },
+        {
+            "id": "Surgery_Schwartz_2989",
+            "title": "Surgery_Schwartz",
+            "content": "observed on the monitor; leaving the balloon inflated can increase the risk of pulmonary infarction or perforation of the pulmonary artery. Unnecessary measurements of the pulmonary artery occlusion pressure are discouraged as rupture of the pulmonary artery may occur.HEMODYNAMIC MEASUREMENTSEven in its simplest embodiment, the PAC is capable of pro-viding clinicians with a remarkable amount of information about the hemodynamic status of patients. Additional informa-tion may be obtained if various modifications of the standard PAC are employed. By combining data obtained through use of the PAC with results obtained by other means (i.e., blood hemoglobin concentration and oxyhemoglobin saturation), derived estimates of systemic oxygen transport and utilization can be calculated. Direct and derived parameters obtainable by bedside pulmonary arterial catheterization, along with sev-eral associated approximate normal ranges, are summarized in Table 13-1.Brunicardi_Ch13_p0433-p0452.indd"
+        }
+    ],
+    "scores": [
+        0.031319698341824756,
+        0.031062435434868592,
+        0.028408975220410075,
+        0.027899375894005866,
+        0.0277449990534486,
+        0.027617283199765454,
+        0.026856104774681772,
+        0.025344530577088714,
+        0.025290292931958613,
+        0.024023415512777216,
+        0.023841286223530017,
+        0.02356940557530528,
+        0.02346385415350933,
+        0.023209232140651598,
+        0.022610626529092646,
+        0.021081662388121834,
+        0.02018887907782426,
+        0.019865161641888222,
+        0.01949260549162124,
+        0.019226021678108746,
+        0.01905453225660103,
+        0.01903926024069942,
+        0.018750547621133797,
+        0.01868410972457215,
+        0.018614718614718615,
+        0.017501673953286858,
+        0.017318608542733965,
+        0.017042606516290727,
+        0.0168928470455188,
+        0.016796928561634443,
+        0.0166459455725929,
+        0.016636998493769685
+    ],
+    "execution_time": 49.12643098831177
+}

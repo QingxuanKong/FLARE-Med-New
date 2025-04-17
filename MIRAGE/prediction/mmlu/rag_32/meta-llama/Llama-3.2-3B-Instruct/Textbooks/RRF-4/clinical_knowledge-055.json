@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-055",
+    "question": "A person weighs 62 kg. Their drug dose is 15 mg/kg. How many grams is their dose? Choose one answer from the following:",
+    "options": {
+        "A": "930",
+        "B": "93",
+        "C": "9.3",
+        "D": "0.93"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To solve this problem, we need to multiply the person's weight (in kg) by the drug dose (in mg/kg). The person weighs 62 kg and the dose is 15 mg/kg. So, the calculation would be: 62 kg * 15 mg/kg = 930 mg. To convert milligrams to grams, we divide by 1000 (since 1 gram = 1000 milligrams). Therefore, 930 mg is equal to 930 / 1000 = 0.93 grams.\", \"answer_choice\": \"A\"}",
+    "snippets": [
+        {
+            "id": "Pharmacology_Katzung_6614",
+            "title": "Pharmacology_Katzung",
+            "content": "Most drugs approved for use in children have recommended pediatric doses, generally stated as milligrams per kilogram or per pound. In the absence of explicit pediatric dose recommendations, an approximation can be made by any of several methods based on age, weight, or surface area. These rules are not precise and should not be used if the manufacturer provides a pediatric dose. When pediatric doses are calculated (either from one of the methods set forth below or from a manufacturer\u2019s dose), the pediatric dose should never exceed the adult dose. The current epidemic proportions of childhood obesity calls for a fresh and careful look at pediatric drug dosages. Studies in adults indicate that dosing based on per-kilogram body weight may constitute overdosing, because in obese subjects, drugs are distributed based on lean body weight. Surface Area, Age, & Weight"
+        },
+        {
+            "id": "Pharmacology_Katzung_7194",
+            "title": "Pharmacology_Katzung",
+            "content": "The body of the prescription contains the elements [8] to [11] that specify the medication, the strength and quantity to be dispensed, the dosage, and complete directions for use. When writing the drug name (element [8]), either the brand name (proprietary name) or the generic name (nonproprietary name) may be used. Reasons for using one or the other are discussed below. The strength of the medication [9] should be written in metric units. However, the prescriber should be familiar with both systems now in use: metric and apothecary. For practical purposes, the following approximate conversions are useful: 1 grain (gr) = 0.065 grams (g), often rounded to 60 milligrams (mg) 15 gr = 1 g 1 ounce (oz) by volume = 30 milliliters (mL) 1 teaspoonful (tsp) = 5 mL 1 tablespoonful (tbsp) = 15 mL 1 quart (qt) = 1000 mL 1 minim = 1 drop (gtt) 20 drops = 1 mL 2.2 pounds (lb) = 1 kilogram (kg)"
+        },
+        {
+            "id": "Pharmacology_Katzung_247",
+            "title": "Pharmacology_Katzung",
+            "content": "A. Graded Dose-Response Relations To choose among drugs and to determine appropriate doses of a drug, the prescriber must know the relative pharmacologic potency and maximal efficacy of the drugs in relation to the desired therapeutic effect. These two important terms, often confusing to students and clinicians, can be explained by referring to Figure 2\u201315, which depicts graded dose-response curves that relate the dose of four different drugs to the magnitude of a particular therapeutic effect. 1."
+        },
+        {
+            "id": "Pharmacology_Katzung_338",
+            "title": "Pharmacology_Katzung",
+            "content": "would be: Maintenance dose = Dosing Rate/F \u00d7 Dosing interval = 28 mg/h/0.96 \u00d7 12 h = 350 mg A tablet or capsule size close to the ideal dose of 350 mg would then be prescribed at 12-hour intervals. If an 8-hour dosing interval was used, the ideal dose would be 233 mg; and if the drug was given once a day, the dose would be 700 mg. In practice, F could be omitted from the calculation since it is so close to 1."
+        },
+        {
+            "id": "InternalMed_Harrison_9204",
+            "title": "InternalMed_Harrison",
+            "content": "(2) Drugs that hamper platelet function, such as aspirin or aspirin-containing drugs, should be avoided; to control pain, drugs such as ibuprofen or propoxyphene are preferred. FVIII and FIX are dosed in units. One unit is defined as amount of FVIII (100 ng/mL) or FIX (5 \u03bcg/mL) in 1 mL of normal plasma. One unit of FVIII per kilogram of body weight increases the plasma FVIII level by 2%. One can calculate the dose needed to increase FVIII levels to 100% in a 70-kg severe hemophilia patient (<1%) using the simple formula below. Thus, 3500 units of FVIII will raise the circulating level to 100%. FVIII dose (IU) = Target FVIII levels \u2013 FVIII baseline levels \u00d7 body weight (kg) \u00d7 0.5 unit/kg The doses for FIX replacement are different from those for FVIII, because FIX recovery after infusion is usually only 50% of the predicted value. Therefore, the formula for FIX replacement is as follows:"
+        },
+        {
+            "id": "Pharmacology_Katzung_339",
+            "title": "Pharmacology_Katzung",
+            "content": "CHAPTER 3 Pharmacokinetics & Pharmacodynamics: Rational Dosing & the Time Course of Drug Action FIGURE 3\u20136 Relationship between frequency of dosing and maximum and minimum plasma concentrations when a steady-state theophylline plasma level of 10 mg/L is desired. The smoothly rising black line shows the plasma concentration achieved with an intravenous infusion of 28 mg/h. The doses for 8-hour administration (orange line) are 224 mg; for 24-hour administration (blue line), 672 mg. In each of the three cases, the mean steady-state plasma concentration is 10 mg/L. For the theophylline example given in the box, Example: Maintenance Dose Calculations, the loading dose would be 350 mg (35 L \u00d7 10 mg/L) for a 70-kg person. For most drugs, the loading dose can be given as a single dose by the chosen route of administration."
+        },
+        {
+            "id": "Biochemistry_Lippincott_1244",
+            "title": "Biochemistry_Lippinco",
+            "content": "Choose the ONE best answer. For Questions 26.1 and 26.2, use the following scenario. A 40-year-old woman, 5 ft, 1 in (155 cm) tall and weighing 188 lb (85.5 kg), seeks your advice on how to lose weight. Her waist measured 41 in and her hips 39 in. The remainder of the physical examination and the blood laboratory data were all within the normal range. Her only child (who is age 14 years), her sister, and both of her parents are overweight. The patient recalls being overweight throughout her childhood and adolescence. Over the past 15 years, she had been on seven different diets for periods of 2 weeks to 3 months, losing from 5 to 25 lb each time. On discontinuation of the diets, she regained weight, returning to 185\u2013190 lb. 6.1. Calculate and interpret the body mass index for the patient. Body mass index (BMI) = weight in kg/(height in m)2 = 85.5/1.552 = 35.6. Because her BMI is >30, the patient is classified as obese."
+        },
+        {
+            "id": "Pharmacology_Katzung_6615",
+            "title": "Pharmacology_Katzung",
+            "content": "Surface Area, Age, & Weight Calculations of dosage based on age or weight (see below) are conservative and tend to underestimate the required dose. Doses based on surface area (Table 59\u20136) are more likely to be adequate. Age (Young\u2019s rule): Weight (somewhat more precise is Clark\u2019s rule): TABLE 59\u20136 Determination of drug dosage from surface area.1 1For example, if adult dose is 1 mg/kg, dose for 3-month-old infant would be 0.18 mg/kg or 1.1 mg total. Reproduced, with permission, from Silver HK, Kempe CH, Bruyn HB: Handbook of Pediatrics, 14th ed. Originally published by Lange Medical Publications. \u00a9 1983 by the McGraw-Hill Companies, Inc. Despite these approximations, only by conducting studies in children can safe and effective doses for a given age group and condition be determined. Briggs GG, Freeman RK, Yaffe SJ: Drugs in Pregnancy and Lactation: A Reference Guide to Fetal and Neonatal Risk, 10th ed. Wolters Kluwer/Lippincott Williams & Wilkins, 2015."
+        },
+        {
+            "id": "Pharmacology_Katzung_297",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 3\u20132 Physical volumes (in L/kg body weight) of some body compartments into which drugs may be distributed. Compartment and Volume Examples of Drugs Total body water Small water-soluble molecules: eg, ethanol Blood 0 Time (0.6 L/kg1) Extracellular water Larger water-soluble molecules: eg, (0.2 L/kg) gentamicin Plasma (0.04 L/kg) Large protein molecules: eg, antibodies Fat (0.2-0.35 L/kg) Highly lipid-soluble molecules: eg, diazepam Bone (0.07 L/kg) Certain ions: eg, lead, fluoride 1An average figure. Total body water in a young lean person might be 0.7 L/kg; in an obese person, 0.5 L/kg. Added together, these separate clearances equal total systemic clearance: \u201cOther\u201d tissues of elimination could include the lungs and additional sites of metabolism, eg, blood or muscle."
+        },
+        {
+            "id": "Pharmacology_Katzung_296",
+            "title": "Pharmacology_Katzung",
+            "content": "TABLE 3\u20131 Pharmacokinetic and pharmacodynamic parameters for selected drugs in adults. (See Holford et al, 2013, for parameters in neonates and children.) TABLE 3\u20131 Pharmacokinetic and pharmacodynamic parameters for selected drugs in adults. (See Holford et al, 2013, for parameters in neonates and children.) (Continued) 1Assuming creatinine clearance 100 mL/min/70 kg. 2Convert to mL/min by multiplying the number given by 16.6. 3Average steady-state concentration. 4Target area under the concentration-time curve after a single dose. 5Can be estimated from measured C using CL = Vmax/(Km + C); Vmax = 415 mg/d, Km = 5 mg/L. See text. 6Varies because of concentration-dependent clearance. 7Bound in whole blood (%). 8Based on whole blood standardized to hematocrit 45%. CHAPTER 3 Pharmacokinetics & Pharmacodynamics: Rational Dosing & the Time Course of Drug Action TABLE 3\u20132 Physical volumes (in L/kg body weight) of some body compartments into which drugs may be distributed."
+        },
+        {
+            "id": "Pharmacology_Katzung_6592",
+            "title": "Pharmacology_Katzung",
+            "content": "kilogram than in adults, as described previously for drug-metabolic rate. Therefore, drugs that depend on renal function for elimination are cleared from the body very slowly in the first weeks of life."
+        },
+        {
+            "id": "InternalMed_Harrison_340",
+            "title": "InternalMed_Harrison",
+            "content": "FIgURE 5-1 The concept of a therapeutic ratio. Each panel illustrates the relationship between increasing dose and cumulative probability of a desired or adverse drug effect. Top. A drug with a wide therapeutic ratio, i.e., a wide separation of the two curves. Bottom. A drug with a narrow therapeutic ratio; here, the likelihood of adverse effects at therapeutic doses is increased because the curves are not well separated. Further, a steep dose-response curve for adverse effects is especially undesirable, as it implies that even small dosage increments may sharply increase the likelihood of toxicity. When there is a definable relationship between drug concentration (usually measured in plasma) and desirable and adverse effect curves, concentration may be substituted on the abscissa. Note that not all patients necessarily demonstrate a therapeutic response (or adverse effect) at any dose, and that some effects (notably some adverse effects) may occur in a dose-independent fashion."
+        },
+        {
+            "id": "Pharmacology_Katzung_290",
+            "title": "Pharmacology_Katzung",
+            "content": "Knowing the relationship between dose, drug concentration, and effects allows the clinician to take into account the various pathologic and physiologic features of a particular patient that make him or her different from the average individual in responding to a drug. The importance of pharmacokinetics and pharmacodynamics in patient care thus rests upon the improvement in therapeutic benefit and reduction in toxicity that can be achieved by application of these principles. The \u201cstandard\u201d dose of a drug is based on trials in healthy volunteers and patients with average ability to absorb, distribute, and eliminate the drug (see Clinical Trials: The IND & NDA Drug in tissues of distribution"
+        },
+        {
+            "id": "First_Aid_Step1_242",
+            "title": "First_Aid_Step1",
+            "content": "Potency Amount of drug needed for a given effect. Represented by the x-value (EC50). Left shifting = \u2022 EC50 = \u008f potency = \u0090 drug needed. Unrelated to efficacy (ie, potent drugs can have high or low efficacy). 0.1 1.0 10 100 1000 0.1 1.0 10 100 1000 0.1 1.0 10 100 1000 Agonist dose Agonist dose Agonist dose Therapeutic index Measurement of drug safety. TD50 median toxic dose Therapeutic window\u2014dosage range that can safely and effectively treat disease. % of patients responding TITE: Therapeutic Index = TD50 / ED50. Safer drugs have higher TI values. Drugs with lower TI values frequently require monitoring (eg, Warfarin, Theophylline, Digoxin, Antiepileptic drugs, Lithium; Warning! These Drugs Are Lethal!). LD50 (lethal median dose) often replaces TD50 in animal studies. Types of drug interactions Autonomic receptors"
+        },
+        {
+            "id": "Pharmacology_Katzung_2711",
+            "title": "Pharmacology_Katzung",
+            "content": "Fospropofol is approved for sedation during monitored anesthesia care. Supplemental oxygen must be administered to all patients receiving the drug. As with propofol, airway compromise is a major concern. Hence, it is recommended that fospropofol be administered only by personnel trained in airway management. The recommended standard dosage is an initial bolus dose of 6.5 mg/kg IV followed by supplemental doses of 1.6 mg/kg IV as needed. For patients weighing more than 90 kg or less than 60 kg, 90 or 60 kg should be used to calculate the dose, respectively. The dose should be reduced by 25% in patients older than 65 years and in those with an American Society of Anesthesiologists status of 3 or 4. This section focuses on the use of thiopental and methohexital for induction of general anesthesia; however, these barbiturate hypnotics have been largely replaced as induction agents by propofol. Other barbiturates and general barbiturate pharmacology are discussed in Chapter 22."
+        },
+        {
+            "id": "Pediatrics_Nelson_2262",
+            "title": "Pediatrics_Nelson",
+            "content": "A variety of antimicrobial agents can be used to treat streptococcal pharyngitis (Table 103-2). Cephalosporins have superior pharyngeal bacterial eradication rates compared to Oral penicillin V (2\u20133 times daily for 10 days) 10 mg/kg/dose, maximum dose 250 mg/dose Intramuscular benzathine penicillin G (single dose) For children \u226427 kg: 600,000 U For larger children and adults: 1.2 million U For persons allergic to penicillin Cephalexin 20 mg/kg/dose BID, maximum dose 500 mg/dose \u00d7 10 days Cefadroxil 30 mg/kg OD maximum, maximum dose 1 g \u00d7 10 days Clindamycin 7 mg/kg/dose TID, maximum dose 300 mg/dose \u00d7 10 days For persons allergic to \u03b2-lactams Erythromycin ethyl succinate: 40\u201350 mg/kg/day (max 1 g/day) in 3\u20134 doses for 10 days Erythromycin estolate: 20\u201340 mg/kg/day in 2\u20134 doses (max 1 g/day) for 10 days Azithromycin, children: 12 mg/kg orally once daily for 5 days (to maximum adult dose); adults: 500 mg orally on day 1, then 250 mg orally on days 2\u20135"
+        },
+        {
+            "id": "Pharmacology_Katzung_345",
+            "title": "Pharmacology_Katzung",
+            "content": "Choose the target concentration, TC. 2. Predict volume of distribution (V) and clearance (CL) based on standard population values (eg, Table 3\u20131) with adjustments for factors such as weight and renal function. 3. Give a loading dose or maintenance dose calculated from TC, V, and CL. 4. Measure the patient\u2019s response and drug concentration. 5. Revise V and/or CL based on the measured concentration. 6. Repeat steps 3\u20135, adjusting the predicted dose to achieve TC."
+        },
+        {
+            "id": "Pharmacology_Katzung_309",
+            "title": "Pharmacology_Katzung",
+            "content": "Whenever drug doses are repeated, the drug will accumulate in the body until dosing stops. This is because it takes an infinite time (in theory) to eliminate all of a given dose. In practical terms, this means that if the dosing interval is shorter than four half-lives, accumulation will be detectable. Accumulation is inversely proportional to the fraction of the dose lost in each dosing interval. The fraction lost is 1 minus the fraction remaining just before the next dose. The fraction remaining can be predicted from the dosing interval and the Plasma concentration(% of steady state) CHAPTER 3 Pharmacokinetics & Pharmacodynamics: Rational Dosing & the Time Course of Drug Action half-life. A convenient index of accumulation is the accumula tion factor:"
+        },
+        {
+            "id": "InternalMed_Harrison_16081",
+            "title": "InternalMed_Harrison",
+            "content": "Note: The oral dose is usually 200 mg bid for voriconazole and itraconazole and 400 mg bid for posaconazole suspension. The IV dose of voriconazole for adults is 6 mg/kg twice at 12-h intervals (loading doses) followed by 4 mg/kg q12h; a larger dose is required for children and teenagers. Plasma monitoring is helpful in optimizing the dosage. Caspofungin is given as a single loading dose of 70 mg and then at 50 mg/d; some authorities use 70 mg/d for patients weighing >80 kg, and lower doses are required with hepatic dysfunction. Micafungin is given as 50 mg/d for prophylaxis and as at least 150 mg/d for treatment; this drug has not yet been approved by the U.S. Food and Drug Administration (FDA) for this indication. AmB deoxycholate is given at a daily dose of 1 mg/kg if tolerated. Several strategies are available for minimizing renal dysfunction. Lipid-associated AmB is given at 3 mg/kg (AmBisome) or 5 mg/kg (Abelcet). Different regimens are available for aerosolized AmB, but none is"
+        },
+        {
+            "id": "Pharmacology_Katzung_352",
+            "title": "Pharmacology_Katzung",
+            "content": "Increased sensitivity to a drug is usually signaled by exaggerated responses to small or moderate doses. The pharmacodynamic nature of this sensitivity can be confirmed by measuring drug concentrations that are low in relation to the observed effect. CHAPTER 3 Pharmacokinetics & Pharmacodynamics: Rational Dosing & the Time Course of Drug Action Clearance is the single most important factor determining drug concentrations. The interpretation of measurements of drug concentrations depends on a clear understanding of three factors that may influence clearance: the dose, the organ blood flow, and the intrinsic function of the liver or kidneys. Each of these factors should be considered when interpreting clearance estimated from a drug concentration measurement."
+        },
+        {
+            "id": "Cell_Biology_Alberts_391",
+            "title": "Cell_Biology_Alberts",
+            "content": "referred to as a blood alcohol level of 0.08) is typical. What 2\u20136 The criterion for whether a reaction proceeds is the molarity of ethanol in a person at this legal limit? spontaneously is \u0394G not \u0394G\u00b0, because \u0394G takes into C. How many 12-oz (355-mL) bottles of 5% beer could account the concentrations of the substrates and products. a 70-kg person drink and remain under the legal limit? A 70-kg person contains about 40 liters of water. Ignore the 2\u20137 The oxygen consumed during the oxidation of glu-metabolism of ethanol, and assume that the water content cose in animal cells is returned as CO2 to the atmosphere. of the person remains constant. activity (% of maximum) D. Ethanol is metabolized at a constant rate of about 120 mg per hour per kg body weight, regardless of its concentration. If a 70-kg person were at twice the legal limit (160 mg/100 mL), how long would it take for their blood alcohol level to fall below the legal limit?"
+        },
+        {
+            "id": "Pharmacology_Katzung_249",
+            "title": "Pharmacology_Katzung",
+            "content": "For therapeutic purposes, the potency of a drug should be stated in dosage units, usually in terms of a particular therapeutic end point (eg, 50 mg for mild sedation, 1 mcg/kg/min for an increase in heart rate of 25 bpm). Relative potency, the ratio of equi-effective doses (0.2, 10, etc), may be used in comparing one drug with another. 2. Maximal efficacy\u2014This parameter reflects the limit of the dose-response relation on the response axis. Drugs A, C, and D in Figure 2\u201315 have equal maximal efficacy, and all have greater maximal efficacy than drug B. The maximal efficacy (sometimes"
+        },
+        {
+            "id": "Pharmacology_Katzung_254",
+            "title": "Pharmacology_Katzung",
+            "content": "Some of these difficulties may be avoided by determining the dose of drug required to produce a specified magnitude of effect in a large number of individual patients or experimental animals and plotting the cumulative frequency distribution of responders versus the log dose (Figure 2\u201316). The specified quantal effect may be chosen on the basis of clinical relevance (eg, relief of headache) or for preservation of safety of experimental subjects (eg, using low doses of a cardiac stimulant and specifying an increase in heart rate of 20 bpm as the quantal effect), or it may be an inherently quantal event (eg, death of an experimental animal). For most drugs, the doses required to produce a specified quantal effect in individuals are lognormally distributed; that is, a frequency distribution of such responses plotted against the log of the dose produces a gaussian normal curve of variation (colored areas, Figure 2\u201316). When these responses are summated, the resulting cumulative frequency"
+        },
+        {
+            "id": "InternalMed_Harrison_13605",
+            "title": "InternalMed_Harrison",
+            "content": "Dosing The recommended daily dose for the treatment of TB in the United States is 5 mg/kg for adults and 10\u201320 mg/kg for children, with a maximal daily dose of 300 mg for both. For intermittent therapy in adults (usually twice per week), the dose is 15 mg/kg, with a maximal daily dose of 900 mg. Isoniazid does not require dosage adjustment in patients with renal disease. When the 12-dose, 3-month weekly LTBI regimen is used, the dose of isoniazid is 15 mg/kg, with a maximal dose of 900 mg, and the drug is coadministered with rifapentine."
+        },
+        {
+            "id": "Pharmacology_Katzung_6636",
+            "title": "Pharmacology_Katzung",
+            "content": "For women, the result should be multiplied by 0.85 (because of reduced muscle mass). It must be emphasized that this estimate is, at best, a population estimate and may not apply to a particular patient. If the patient has normal renal function (up to one third of elderly patients), a dose corrected on the basis of this estimate will be too low\u2014but a low dose is initially desirable if one is uncertain of the renal function in any patient. Simple online calculators using the more modern MDRD (Modification of Diet in Renal Disease) formula are available, eg, http://nkdep.nih.gov/ lab-evaluation/gfr-calculators.shtml."
+        },
+        {
+            "id": "Pharmacology_Katzung_259",
+            "title": "Pharmacology_Katzung",
+            "content": "Quantal dose-effect curves may also be used to generate information regarding the margin of safety to be expected from a particular drug used to produce a specified effect. One measure, which relates the dose of a drug required to produce a desired effect to that which produces an undesired effect, is the therapeutic index. In animal studies, the therapeutic index is usually defined as the ratio of the TD50 to the ED50 for some therapeutically relevant effect. The precision possible in animal experiments may make it useful to use such a therapeutic index to estimate the potential benefit of a drug in humans. Of course, the therapeutic index of a drug in humans is almost never known with real precision; instead, drug trials and accumulated clinical experience often reveal a range of usually effective doses and a different (but sometimes overlapping) range of possibly toxic doses. The range between the minimum toxic dose and the minimum therapeutic dose is called the therapeutic window"
+        },
+        {
+            "id": "First_Aid_Step1_238",
+            "title": "First_Aid_Step1",
+            "content": "Preparation for pharmacology questions is straightforward. Know all the mechanisms, clinical use, and important adverse effects of key drugs and their major variants. Obscure derivatives are low-yield. Learn their classic and distinguishing toxicities as well as major drug-drug interactions. Reviewing associated biochemistry, physiology, and microbiology concepts can be useful while studying pharmacology. The exam has a strong emphasis on ANS, CNS, antimicrobial, and cardiovascular agents as well as on NSAIDs, which are covered throughout the text. Specific drug dosages or trade names are generally not testable. The exam may use graphs to test various pharmacology content, so make sure you are comfortable interpreting them. Michaelis-Menten Km is inversely related to the affinity of the [S] = concentration of substrate; V = velocity. kinetics enzyme for its substrate. Vmax is directly proportional to the enzyme concentration."
+        },
+        {
+            "id": "Pharmacology_Katzung_344",
+            "title": "Pharmacology_Katzung",
+            "content": "A. Input The amount of drug that enters the body depends on the patient\u2019s adherence to the prescribed regimen and on the rate and extent of transfer from the site of administration to the blood. C. Volume of Distribution The apparent volume of distribution reflects a balance between Recognition of the essential role of concentration in linking pharmacokinetics and pharmacodynamics leads naturally to the target concentration strategy. Pharmacodynamic principles can be used to predict the concentration required to achieve a particular degree of therapeutic effect. This target concentration can then be achieved by using pharmacokinetic principles to arrive at a suitable dosing regimen (Holford, 1999). The target concentration strategy is a process for optimizing the dose in an individual on the basis of a measured surrogate response such as drug concentration: 1. Choose the target concentration, TC. 2."
+        },
+        {
+            "id": "Pharmacology_Katzung_367",
+            "title": "Pharmacology_Katzung",
+            "content": "Pharmacokinet 1981;6:429. * The Cockcroft-Gault equation is given in Chapter 60. CHAPTER 3 Pharmacokinetics & Pharmacodynamics: Rational Dosing & the Time Course of Drug Action Sixty-seven percent of total standard digoxin clearance is renal, so the standard renal clearance is 0.67 \u00d7 9 L/h = 6 L/h/70 kg with creatinine clearance of 100 mL/min and nonrenal clearance is (1 0.67) \u00d7 9 L/h = 3 L/h/70 kg (see Table 3\u20131 for standard pharmacokinetic parameters). Her predicted creatinine clearance is 22 mL/min (Cockcroft and Gault), so for digoxin, her renal clearance is 6 \u00d7 22/100 \u00d7 60/70 = 1.1 L/h, nonrenal clearance 2.7 \u00d7 60/70 = 2.6 L/h, and total clearance 3.7 L/h. The parenteral maintenance dose rate is 1 mcg/L \u00d7 3.7 L/h = 3.7 mcg/h. Once-a-day oral dosing with bioavailability of 0.7 would require a daily maintenance dose of 3.7/0.7 \u00d7 24 = 127 mcg/day. A practical dose would be two 62.5 mcg tablets per day. Maria Almira Correia, PhD"
+        },
+        {
+            "id": "Obstentrics_Williams_2548",
+            "title": "Obstentrics_Williams",
+            "content": "TABLE 19-1. Medical Treatment Protocols for Ectopic Pregnancy Sensitivity to MTX Tubal rupture Breastfeeding One dose; repeat if necessary Days 1 (baseline), 4, and 7 If seru m \ufffd-hCG level does not decline by 15% from day 4 to day 7 Less than 15% decline during Up to four doses of both drugs until serum \ufffd-hCG declines by 15% 1 mg/kg, days 1,s3,5, and 7 0.1 mg/kg days 2, 4, 6, and 8 Days 1 (baseline), 3, 5, and 7 If serum \ufffd-hCG level declines < 15%, give additional dose; repeat serum \ufffd-hCG in 48 hours and compare with previous value; maximum four doses Once 15% decline achieved, then weekly serum \ufffd-hCG levels until undetectable Intrauterine pregnancy Immunodeficiency Peptic ulcer disease Hepatic, renal, or hematologic dysfunction Active pulmonary disease BSA = body surface area; \ufffd-hCG =\ufffd-human chorionic gonadotropin; MTX = methotrexate; NA = not applicable. Data from American Society for Reproductive Medicine, 2013."
+        },
+        {
+            "id": "Pediatrics_Nelson_3554",
+            "title": "Pediatrics_Nelson",
+            "content": "the insulin sensitivity using the 1800 rule; dividing 1800 by the total daily dose of insulin to determine how many milligrams per deciliter of glucose will decrease with one unit of insulin. The insulin:carbohydrate ratio is used to calculate insulin for the carbohydrate content of food; 450 divided by the total daily dose determines the number of grams of carbohydrate that requires one unit of insulin."
+        },
+        {
+            "id": "Pharmacology_Katzung_6481",
+            "title": "Pharmacology_Katzung",
+            "content": "Volume of Distribution The volume of distribution (Vd) is defined as the apparent volume into which a substance is distributed in the body (see Chapter 3). A large Vd implies that the drug is not readily accessible to measures aimed at purifying the blood, such as hemodialysis. Examples of drugs with large volumes of distribution (>5 L/kg) include antidepressants, antipsychotics, antimalarials, opioids, propranolol, and verapamil. Drugs with a relatively small Vd (<1 L/kg) include salicylate, ethanol, phenobarbital, lithium, valproic acid, and phenytoin (see Table 3\u20131)."
+        }
+    ],
+    "scores": [
+        0.027670036534707974,
+        0.025981205085682697,
+        0.022896854666631543,
+        0.020934127909417243,
+        0.019539903003280804,
+        0.019232239660428776,
+        0.01896117900790798,
+        0.01890999910801891,
+        0.01827436582109479,
+        0.017621487346685297,
+        0.017577673271143318,
+        0.017182890855457225,
+        0.016657638136511378,
+        0.01627737709256931,
+        0.016016016016016016,
+        0.015866047911701993,
+        0.015518633898696203,
+        0.015350877192982455,
+        0.015298427063132947,
+        0.01508295625942685,
+        0.014836942992282796,
+        0.014819237867766802,
+        0.01466181506849315,
+        0.014414414414414415,
+        0.014212535154680593,
+        0.013986657464918334,
+        0.01388822374407356,
+        0.013846438825599704,
+        0.013716404077849862,
+        0.013589378007485296,
+        0.013306808134394341,
+        0.013253433645350362
+    ],
+    "execution_time": 5.183083772659302
+}

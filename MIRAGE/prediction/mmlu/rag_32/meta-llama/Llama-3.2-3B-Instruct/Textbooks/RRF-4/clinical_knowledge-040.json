@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-040",
+    "question": "A normal heart rate for an adult at rest is:",
+    "options": {
+        "A": "60-80 bpm.",
+        "B": "60-100 bpm.",
+        "C": "60-90 bpm.",
+        "D": "60-110 bpm."
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, we need to consider the information provided in the documents about the normal heart rate in adults at rest. Document [1] states that the average resting heart rate is approximately 70 beats per minute in normal adults. However, there is some variation in heart rate based on age, activity level, and other factors. Document [2] provides a range of normal heart rates for different age groups, but the question asks for a general range for adults at rest. Document [1] also mentions that the range of normal for any given age is approximately 30 beats/minute above or below the average. This suggests that the normal heart rate range for adults at rest is around 70 \\u00b1 30 beats/minute, which is approximately 40-100 beats/minute. However, this range includes values that are higher than the average, and the question asks for a range that is more conservative. Therefore, the most appropriate answer is the range 60-100 bpm, which is a more typical range for adults at rest, considering the normal range of variation.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "Physiology_Levy_2126",
+            "title": "Physiology_Levy",
+            "content": "Parasympathetic tone usually predominates in healthy, resting individuals. When a resting individual is given atropine, a muscarinic receptor antagonist that blocks parasympathetic effects, the heart rate generally increases substantially. If a resting individual is given propranolol, a \u03b2-adrenergic receptor antagonist that blocks sympathetic effects, the heart rate usually decreases only slightly ( Fig. 18.1 ). When both divisions of the autonomic nervous system are blocked, the heart rate of young adults averages approximately 100 beats per minute. The rate that prevails after complete autonomic blockade is called the intrinsic heart rate."
+        },
+        {
+            "id": "Physiology_Levy_2125",
+            "title": "Physiology_Levy",
+            "content": "The average resting heart rate is approximately 70 beats per minute in normal adults, and it is significantly faster in children. During sleep, the heart rate decreases by 10 to 20 beats per minute. It may increase during emotional excitement, and during muscular exercise, it may increase to rates well above 150 beats per minute. In well-trained athletes, the usual resting rate is only approximately 50 beats per minute. Both divisions of the autonomic nervous system tonically influence the cardiac pacemaker, which is normally the sinoatrial (SA) node. The sympathetic nervous system enhances automaticity, whereas the parasympathetic nervous system inhibits it. Changes in heart rate usually involve a reciprocal action of these two divisions of the autonomic nervous system. Thus the heart rate ordinarily increases with a combined decrease in parasympathetic activity and increase in sympathetic activity; the heart rate decreases with the opposite changes in autonomic neural activity."
+        },
+        {
+            "id": "Pediatrics_Nelson_3033",
+            "title": "Pediatrics_Nelson",
+            "content": "The examination starts with vital signs. The normal heart rate varies with age and activity. Newborn resting heart rates are approximately 120 beats/minute, slightly higher in infants 3 to 6 months of age and then gradually declining through adolescence to near 80 beats/minute. The range of normal for any given age is approximately 30 beats/minute above or below the average. Tachycardia may be a manifestation of anemia, dehydration, shock, heart failure, or dysrhythmia. Bradycardia can be a normal finding in patients with high vagal tone (athletes), but may be a manifestation of atrioventricular block. The respiratory rate of infants is best assessed while the infant is quiet. Respiratory rate may be increased when there is a left-to-right shunt or pulmonary venous congestion."
+        },
+        {
+            "id": "Neurology_Adams_4219",
+            "title": "Neurology_Adams",
+            "content": "In addition, the heart rate, after rising initially in response to upright standing posture (not with the tilt table), slows after about 15 beats to reach a stable rate by the thirtieth beat. The ratio of R-R intervals in the electrocardiogram (ECG), corresponding to the 30th and 15th beats (the 30:15 ratio), is an even more sensitive measure of the integrity of vagal inhibition of the sinus node. A ratio in adults under age 60 of less than 1.07 is usually abnormal, indicating a loss of vagal tone and the normal ratio is progressively higher for younger ages, for example, it is usually above 1.12 at age 30 and 1.1 at age 40."
+        },
+        {
+            "id": "InternalMed_Harrison_30661",
+            "title": "InternalMed_Harrison",
+            "content": "Heart Rate Variation with Deep Breathing This tests the parasympathetic component of cardiovascular reflexes via the vagus nerve. Results are influenced by multiple factors including the subject\u2019s position (recumbent, sitting, or standing), rate and depth of respiration (6 breaths per minute and a forced vital capacity [FVC] >1.5 L are optimal), age, medications, weight, and degree of hypocapnia. Interpretation of results requires comparison of test data with results from age-matched controls collected under identical test conditions. For example, the lower limit of normal heart rate variation with deep breathing in persons <20 years is >15\u201320 beats/min, but for persons over age 60 it is 5\u20138 beats/min. Heart rate variation with deep breathing (respiratory sinus arrhythmia) is abolished by the muscarinic ACh receptor antagonist atropine but is unaffected by sympathetic postganglionic blockade (e.g., propranolol)."
+        },
+        {
+            "id": "Physiology_Levy_2329",
+            "title": "Physiology_Levy",
+            "content": "Fig. 19.14 shows that over a wide range of heart rates, a change in heart rate may have little influence on cardiac output. The principal increase in cardiac output during exercise must therefore be attributed to other factors. Such ancillary factors include the pronounced reduction in peripheral vascular resistance because of the vasodilation in the active skeletal muscles and the increased contractility of cardiac muscle associated with the generalized increase in sympathetic neural activity. Nevertheless, the increase in heart rate is still an important factor. Abundant data show that if the heart rate cannot increase normally during exercise, the augmentation in cardiac output and the capacity for exercise are severely limited. Because stroke volume changes only slightly during exercise, the increase in heart rate may play an important permissive role in augmenting cardiac output during physical exercise."
+        },
+        {
+            "id": "Neurology_Adams_4220",
+            "title": "Neurology_Adams",
+            "content": "Another simple procedure for quantitating purely vagal function consists of measuring the variation in heart rate during deep breathing (respiratory sinus arrhythmia). The ECG is recorded while the patient breathes at a regular rate of 6 breaths per minute. Normally, the heart rate varies by as many as 10 beats per minute or even more between expiration and inspiration; differences of less than 7 beats per minute for ages 60 to 69 and 9 for ages 50 to 59 may be abnormal."
+        },
+        {
+            "id": "Physiology_Levy_2351",
+            "title": "Physiology_Levy",
+            "content": "Because the enhanced sympathetic drive and the reduced parasympathetic inhibition of the sinoatrial node continue during exercise, tachycardia persists. If the workload is moderate and constant, the heart rate reaches a certain level and remains there throughout the period of exercise. However, if the workload increases, the heart rate increases concomitantly until a plateau of approximately 180 beats per minute is reached during strenuous exercise. In contrast to the large increase in heart rate, the increase in stroke volume is only approximately 10% to 35%, the larger values occurring in trained individuals (see Fig. 19.17 ). In well-trained distance runners, whose cardiac output can reach six to seven times the resting level, stroke volume attains approximately twice the resting value."
+        },
+        {
+            "id": "Physiology_Levy_1948",
+            "title": "Physiology_Levy",
+            "content": "The hemodynamic effects of such venous distention (venous pooling) resemble those caused by the hemorrhage of an equivalent volume of blood from the body. When an adult shifts from a supine position to a relaxed standing position, 300 to 800 mL of blood pools in the legs. This pooling may reduce cardiac output by approximately 2 L/min. The compensatory adjustments made to assume a standing position are similar to the adjustments to blood loss (see also ): There are reflex increases in heart rate and cardiac contractility. In addition, both arterioles and veins constrict; the arterioles are affected to a greater extent than are the veins. When a recumbent person stands but remains at rest, the pressure in the veins rises in the dependent regions of the body ("
+        },
+        {
+            "id": "Physiology_Levy_2328",
+            "title": "Physiology_Levy",
+            "content": "Strong correlations between heart rate and cardiac output must be interpreted cautiously. In people who are exercising, for example, cardiac output and heart rate usually increase proportionately, and stroke volume may remain constant or increase only slightly (see the later section \u201d). It is tempting to conclude that the increase in cardiac output during exercise must be caused solely by the observed increase in heart rate. However,"
+        },
+        {
+            "id": "Physiology_Levy_2327",
+            "title": "Physiology_Levy",
+            "content": "Moreover, at excessively high pacing frequencies (above 200 beats/minute; see Fig. 19.14 ), further increases in heart rate decrease cardiac output. Therefore, the induced decrease in stroke volume must have exceeded the increase in heart rate at this high range of pacing frequencies. At such high pacing frequencies, the ventricular filling time is so severely restricted that compensation is inadequate, and cardiac output decreases sharply. Although the relationship of cardiac output to heart rate is characteristically that of an inverted U in the general population, the relationship varies quantitatively among subjects and among physiological states."
+        },
+        {
+            "id": "InternalMed_Harrison_18056",
+            "title": "InternalMed_Harrison",
+            "content": "For patients who remain in AF chronically, the goal of rate control is to alleviate and prevent symptoms and prevent deterioration of ventricular function from excessive rates. \u03b2-Adrenergic blockers, calcium channel blockers, and digoxin are used, sometimes in combination. Rate should be assessed with exertion and medications adjusted accordingly. Exertion-related symptoms are often an indication of inadequate rate control. The initial goal is a resting heart rate of less than 80 beats/min that increases to less than 100 beats/min with light exertion, such as walking. If it is difficult to slow the ventricular rate to that degree, allowing a resting rate of up to 110 beats/min is acceptable provided it does not cause symptoms and ventricular function remains normal. Periodic assessment of ventricular function is warranted because some patients develop tachycardia-induced cardiomyopathy."
+        },
+        {
+            "id": "Physiology_Levy_1864",
+            "title": "Physiology_Levy",
+            "content": "The healthy heart has a relatively constant level of ATP (\u22485\u00b5mol/g wet weight) despite an extremely high rate of ATP hydrolysis (\u22480.3\u00b5mol/g\u22121/second\u22121). The tissue content of ATP is low in relation to the rate of breakdown and production; complete turnover of the myocardial ATP content occurs approximately every 12 seconds in the heart at rest. ATP hydrolysis (see"
+        },
+        {
+            "id": "Physiology_Levy_2169",
+            "title": "Physiology_Levy",
+            "content": "The relatively rigid pericardium that encloses the heart determines the pressure-volume relationship at high levels of pressure and volume. The pericardium limits heart volume even under normal conditions, when an individual is at rest and the heart rate is slow. In patients with chronic congestive heart failure, the sustained cardiac dilation and hypertrophy may stretch the pericardium considerably. In such patients, the pericardial limitation of cardiac filling is exerted at pressures and volumes entirely different from those in normal individuals."
+        },
+        {
+            "id": "Physiology_Levy_2372",
+            "title": "Physiology_Levy",
+            "content": "VO2 varies with the level of physical conditioning. Train ing progressively increases maximal VO2, which reaches a plateau at the highest level of conditioning. Highly trained athletes have a lower resting heart rate, a greater stroke volume, and lower peripheral resistance than they had before training or after deconditioning. The low resting heart rate is caused by a higher vagal tone and a lower sympathetic tone. During exercise, the maximal heart rate of a trained individual is the same as that in an untrained person, but it is attained at a higher level of exercise. A trained person also exhibits low vascular resistance in the muscles. If an individual exercises one leg regularly over an extended period and does not exercise the other leg, vascular resistance is lower and maximal V\u02dcO2 is higher in the \u201ctrained\u201d leg than in the \u201cuntrained\u201d leg."
+        },
+        {
+            "id": "Physiology_Levy_1856",
+            "title": "Physiology_Levy",
+            "content": "Cardiac work has external and internal components. Left ventricular work per beat (stroke work) is approximately equal to the product of stroke volume and the mean aortic pressure against which the blood is ejected by the left ventricle. External cardiac work (We) may be defined as follows: Equation 16.6 That is, each small increment in volume that is pumped, (dV) is multiplied by the associated pressure (P), and the products (PdV) are integrated over the time interval of interest (t2 \u2212 t1) to calculate total work. Added to this is kinetic work due to the velocity (v) of blood flow and the density (\u03c1) of blood. The mean pressure during expulsion is used to simplify this to Equation 16.7 At resting levels of cardiac output, the kinetic energy component is negligible. However, with high cardiac output, as in strenuous exercise, the kinetic energy component can account for up to 50% of total cardiac work. The internal work (Wi) of the heart can be written as"
+        },
+        {
+            "id": "Physiology_Levy_2147",
+            "title": "Physiology_Levy",
+            "content": "Rhythmic variations in heart rate, occurring at the frequency of respiration, are detectable in most individuals and tend to be more pronounced in children. The heart rate typically accelerates during inspiration and decelerates during expiration (Fig. 18.7 *The myocytes of the ventricles secrete a related peptide in response to stretch. This peptide, termed brain natriuretic peptide (BNP) because of its initial discovery in the central nervous system, has actions similar to those of ANP (see \u2022Fig. 18.7 Respiratory Sinus Arrhythmia. Notethattheheartrateincreasesduringinspirationanddecreasesduringexpiration.(ModifiedfromWarnerMR,etal.Am J Physiol. 1986;251:H1134.)50 80 110 140 Expiration Time (sec) Inspiration 3 6 9 12 150 Heart rate(beats/min)"
+        },
+        {
+            "id": "InternalMed_Harrison_17912",
+            "title": "InternalMed_Harrison",
+            "content": "The electrocardiographic manifestations of SA node dysfunction include sinus bradycardia, sinus pauses, sinus arrest, sinus exit block, tachycardia (in SSS), and chronotropic incompetence. It is often difficult to distinguish pathologic from physiologic sinus bradycardia. By definition, sinus bradycardia is a rhythm driven by the SA node with a rate of <60 beats/min; sinus bradycardia is very common and typically benign. Resting heart rates <60 beats/min are very common in young healthy individuals and physically conditioned subjects. A sinus rate of <40 beats/min in the awake state in the absence of physical conditioning generally is considered abnormal. Sinus pauses and sinus arrest result from failure of the SA node to discharge, producing a pause without P waves visible on the ECG (Fig. 274-3). Sinus pauses of up to 3 s are common in awake athletes, and pauses of this duration or longer may be observed in asymptomatic elderly subjects. Intermittent failure of conduction from the"
+        },
+        {
+            "id": "Physiology_Levy_1740",
+            "title": "Physiology_Levy",
+            "content": "Fig. 16.16 ). At slow heart rates, the effective refractory period of the Purkinje fibers is especially prolonged. In contrast to Purkinje fibers, the effective refractory period of AV node cells does not change appreciably over the normal range of heart rates and actually increases at very rapid heart rates. Therefore, when the atrium is excited at high repetition rates, it is the AV node that normally protects the ventricles from these excessively high frequencies."
+        },
+        {
+            "id": "Physiology_Levy_1855",
+            "title": "Physiology_Levy",
+            "content": "Eq. 17.1 ). Multiplying stroke volume by the heart rate then yields a value for cardiac output in liters per minute. Consumption of O2 by the heart depends on the amount and type of activity that the heart performs. Under basal conditions, myocardial O2 consumption (V\u02dcO2) is approximately 8 to 10 mL/minute/100 g of heart. It can increase severalfold during exercise and decrease moderately in such conditions as hypotension and hypothermia. The O2 content of cardiac venous blood is normally low (\u22485 mL/ dL), and the myocardium can receive little additional O2 by further extraction of O2 from coronary blood. Therefore, increased O2 demands of the heart must be met mainly by an increase in coronary blood flow (see ). In experiments in which the heartbeat is arrested but coronary perfusion is maintained, O2 consumption falls to 2 mL/ minute/100 g or less, which is still six to seven times greater than the O2 consumption of resting skeletal muscle."
+        },
+        {
+            "id": "Obstentrics_Williams_3099",
+            "title": "Obstentrics_Williams",
+            "content": "Increased Variability. Several physiological and pathological processes can afect beat-to-beat variability. Greater variability accompanies fetal breathing and body movements (Dawes, 1981; Van Geijn, 1980). Pillai and James (1990) reported increased baseline variability with advancing gestation. Up to 30 weeks, baseline characteristics were similar during both fetal rest and activity. After 30 weeks, fetal inactivity was associated with diminished baseline variability, but fetal activity enhanced it. Last, the baseline fetal heart rate becomes more physiologically ixed (less variable) as the rate rises. This phenomenon presumably relects less cardiovascular physiological wandering as beat-to-beat intervals shorten with a higher heart rate."
+        },
+        {
+            "id": "Surgery_Schwartz_1333",
+            "title": "Surgery_Schwartz",
+            "content": "infusion (i.e., normalization of vital signs, clearing of the sensorium) and evidence of good peripheral perfusion (warm extremities with normal capillary refill) are presumed to have adequate overall perfusion. Urine output is a reliable indicator of organ perfusion but requires time to quantitate. Adequate urine output is 0.5 mL/kg per hour in an adult, 1 mL/kg per hour in a child, and 2 mL/kg per hour in an infant <1 year of age. Because measurement of this resuscitation-related vari-able is time dependent, it is generally more useful in the OR and intensive care unit (ICU) setting, than in initial evaluation in the trauma bay.There are several caveats to be considered when evaluat-ing the injured patient for shock. Tachycardia (HR >110 bpm) is often the earliest sign of ongoing blood loss, but the critical issue is change in HR over time. Individuals in good physical condition with a resting pulse rate in the 50s may manifest a relative tachycardia in the 90s; although clinically"
+        },
+        {
+            "id": "InternalMed_Harrison_19098",
+            "title": "InternalMed_Harrison",
+            "content": "A medical professional should be present throughout the exercise test. It is important to measure total duration of exercise, the times to the onset of ischemic ST-segment change and chest discomfort, the external work performed (generally expressed as the stage of exercise), and the internal cardiac work performed, i.e., by the heart rate\u2013blood pressure product. The depth of the ST-segment depression and the time needed for recovery of these ECG changes are also important. Because the risks of exercise testing are small but real\u2014estimated at one fatality and two nonfatal complications per 10,000 tests\u2014equipment for resuscitation should be available. Modified (heart rate\u2013limited rather than symptom-limited) exercise tests can be performed safely in patients as early as 6 days after uncomplicated myocardial infarction (Table 293-2). Contraindications to exercise stress testing include rest angina within 48 h, unstable rhythm, severe aortic stenosis, acute myocarditis, uncontrolled"
+        },
+        {
+            "id": "Physiology_Levy_2326",
+            "title": "Physiology_Levy",
+            "content": "Over the frequency range from approximately 100 to 200 beats/minute, however, cardiac output is not affected significantly by changes in pacing frequency (see Fig. 19.14B ). Hence, as pacing frequency is increased, the decrease in stroke volume must be approximately equal to the increase in heart rate. In addition, generalized vascular autoregulation tends to keep tissue blood flow constant (see also ). This adaptation leads to changes in preload and afterload that also keep cardiac output nearly constant. Moreover, at excessively high pacing frequencies (above 200 beats/minute; see"
+        },
+        {
+            "id": "Physiology_Levy_2367",
+            "title": "Physiology_Levy",
+            "content": "the maximal amount of exercise that a given individual can tolerate. Muscle pain, a subjective feeling of exhaustion, and loss of the will to continue determine exercise tolerance. A summary of the neural and local effects of exercise on the cardiovascular system is diagrammed in Fig. 19.19 When exercise stops, the heart rate and cardiac output quickly decrease: The sympathetic drive to the heart is essentially removed. In contrast, TPR remains low for some time after the exercise is stopped, presumably because vasodilator metabolites have accumulated in the muscles during the exercise period. As a result of the reduced cardiac output and persistence of vasodilation in the muscles, arterial pressure falls, often below preexercise levels, for brief periods. Blood pressure is then stabilized at normal levels by the baroreceptor reflexes. Limits of Exercise Performance"
+        },
+        {
+            "id": "Pediatrics_Nelson_1237",
+            "title": "Pediatrics_Nelson",
+            "content": "Consider: 2011. doi: 10.1542/peds.2011-1260.) If the infant does not revive, an endotracheal tube should be placed, attached to the anesthesia bag and manometer, and 100% oxygen should be administered. The pressure generated should begin at 20 to 25 cm H2O, with a rate of 40 to 60 breaths/minute. An adequate response to ventilation includes good chest rise, return of breath sounds, well-oxygenated color, heart rate returning to the normal range (120 to 160 beats/minute), normal end-tidal carbon dioxide, and, later, increased muscle activity and wakefulness. The usual recovery after a cardiac arrest first involves a return to a normal heart rate, followed by disappearance of cyanosis and noticeably improved perfusion. An infant may remain limp and be apneic for a prolonged time after return of cardiac output and correction of acidosis."
+        },
+        {
+            "id": "Physiology_Levy_1774",
+            "title": "Physiology_Levy",
+            "content": "those that originate from various ectopic foci. The principal disturbances in impulse propagation are reentrant rhythms and conduction blocks. Mechanisms that vary the firing frequency of cardiac pacemaker cells were described previously. Changes in the firing rate of the SA node are usually produced by cardiac autonomic nerves. When the firing rate of the SA node is decreased, the heart rate also decreases (bradycardia). Conversely, increased SA node firing results in elevation of the heart rate (tachycardia). Examples of ECGs of sinus tachycardia and sinus bradycardia are shown in Fig. 16.29 . The P, QRS, and T deflections are all normal, but duration of the cardiac cycle (the PP interval) is altered. The changes in cardiac frequency are characteristically gradual. A rhythmic variation of the PP interval at the respiratory frequency (i.e., a respiratory sinus arrhythmia) is a normal, common occurrence (see Fig. 18.7"
+        },
+        {
+            "id": "Physiology_Levy_2325",
+            "title": "Physiology_Levy",
+            "content": "The effects of changes in heart rate on cardiac output have been studied extensively, and the results are similar to those shown in Fig. 19.14 . As atrial pacing frequency is \u2022Fig. 19.14 Changesinstrokevolume(A) andcardiacoutput (B) inducedbychangesintherateofatrialpacing.(RedrawnfromKumadaM,etal.Jpn J Physiol. 1967;17:538.) gradually increased, stroke volume progressively diminishes (see Fig. 19.14A ). The decrease in stroke volume is caused by the reduced time for ventricular filling. The change in stroke volume is not inversely proportional to the change in heart rate because the direction of the change in cardiac output (Qh) is markedly influenced by the actual heart rate (see Fig. 19.14B ). For example, as pacing frequency is increased from 50 to 100 beats/minute, the increase in heart rate augments Qh. Because Qh = SV \u00d7 HR, the decrease in stroke volume (SV) over this frequency range must be proportionately less than the increase in heart rate (HR)."
+        },
+        {
+            "id": "InternalMed_Harrison_17917",
+            "title": "InternalMed_Harrison",
+            "content": "Failure to increase the heart rate with exercise is referred to as chronotropic incompetence. This is alternatively defined as failure to reach 85% of predicted maximal heart rate at peak exercise or failure to achieve a heart rate >100 beats/min with exercise or a maximal heart rate with exercise less than two standard deviations below that of an age-matched control population. Exercise testing may be useful in dis-criminating chronotropic incompetence from resting bradycardia and may aid in the identification of the mechanism of exercise intolerance."
+        },
+        {
+            "id": "Neurology_Adams_4223",
+            "title": "Neurology_Adams",
+            "content": "Computerized methods of power spectral analysis may be used to express the variance in heart rate as a function of the beat-to-beat interval. Several power peaks are appreciated: one related to the respiratory sinus arrhythmia and others that reflect baroreceptor and cardiac sympathetic activity. All of these tests of heart-rate variation are usually combined with measurement of heart rate and blood pressure during the Valsalva maneuver, as described below, and with the tilt-table test, as described in Chap. 17."
+        },
+        {
+            "id": "Gynecology_Novak_780",
+            "title": "Gynecology_Novak",
+            "content": "Cardiovascular fitness can be evaluated by measurement of heart rate during exercise. As conditioning improves, the heart rate stabilizes at a fixed level. The heart rate at which conditioning will develop is called the target heart rate (1). The traditional formula for calculating the target heart rate is 220 minus the patient\u2019s age times 0.75. A 2010 study examined the definition of a normal heart rate response to exercise stress testing in women and noted that the traditional male-based calculation of target heart rate may not be appropriate for women (47). The new formula for target heart rate, based on this research, is 206 minus the patient\u2019s age times 0.88."
+        },
+        {
+            "id": "InternalMed_Harrison_18459",
+            "title": "InternalMed_Harrison",
+            "content": "A mean systolic pressure gradient >40 mmHg with a normal CO or an effective aortic orifice area of approximately <1 cm2 (or approximately <0.6 cm2/m2 body surface area in a normal-sized adult)\u2014i.e., less than approximately one-third of the normal orifice area\u2014is generally considered to represent severe obstruction to LV outflow. The elevated LV end-diastolic pressure observed in many patients with severe AS and preserved ejection fraction (EF) signifies the presence of diminished compliance of the hypertrophied LV. Although the CO at rest is within normal limits in most patients with severe AS, it usually fails to rise normally during exercise. Loss of an appropriately timed, vigorous atrial contraction, as occurs in atrial fibrillation (AF) or atrioventricular dissociation, may cause rapid progression of symptoms. Late in the course, contractile function deteriorates because of afterload excess, the CO and LV\u2013aortic pressure gradient decline, and the mean left atrial (LA), pulmonary"
+        }
+    ],
+    "scores": [
+        0.03931463963072492,
+        0.039034527585906996,
+        0.036703801623847315,
+        0.03551963045942404,
+        0.032393414106969096,
+        0.030867514420146,
+        0.028438205844428584,
+        0.028069142586142046,
+        0.025870783935300064,
+        0.02476017630282603,
+        0.02471686282343671,
+        0.024432583714385298,
+        0.023469387755102038,
+        0.02324460006182879,
+        0.02322858572858573,
+        0.023038212008261574,
+        0.022378819077299793,
+        0.02208719710117565,
+        0.021811124495688256,
+        0.021663589054893403,
+        0.02106406531434943,
+        0.02100285784317687,
+        0.02089255030431501,
+        0.020855446790108895,
+        0.019897164092201252,
+        0.01987046429010305,
+        0.019726627812544785,
+        0.0192645094327419,
+        0.01811772421708477,
+        0.017738853503184715,
+        0.017191142191142192,
+        0.01718269354638136
+    ],
+    "execution_time": 8.352295637130737
+}

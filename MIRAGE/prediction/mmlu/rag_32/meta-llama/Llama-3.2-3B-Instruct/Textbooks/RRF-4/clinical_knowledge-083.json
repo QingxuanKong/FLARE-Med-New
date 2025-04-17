@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-083",
+    "question": "Dopamine is prescribed at a rate of 4 micrograms/kg/min. For a 65 kg person, how many milligrams will they receive in an hour?",
+    "options": {
+        "A": "156",
+        "B": "15.6",
+        "C": "1.56",
+        "D": "15600"
+    },
+    "answer": "B",
+    "predict": "{\"step_by_step_thinking\": \"To find the total milligrams of dopamine the person will receive in an hour, we need to calculate the milligrams per minute first. We know that dopamine is prescribed at a rate of 4 micrograms per kilogram per minute. The person weighs 65 kg, so we can calculate the milligrams per minute as follows: 4 micrograms/kg/min \\u0030 65 kg = 4 \\u0030 10^-6 g/kg/min \\u0030 65 kg = 0.00026 g/min \\u0030 1000 mg/g = 0.26 mg/min. Now, we can calculate the total milligrams per hour by multiplying the milligrams per minute by 60: 0.26 mg/min \\u0030 60 min = 15.6 mg/hour.\", \"answer_choice\": \"B\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_21000",
+            "title": "InternalMed_Harrison",
+            "content": "Dopamine has varying hemodynamic effects based on the dose; at low doses (\u2264 2 \u03bcg/kg per min), it dilates the renal vascular bed, although its outcome benefits at this low dose have not been demonstrated conclusively; at moderate doses (2\u201310 \u03bcg/kg per min), it has positive chronotropic and inotropic effects as a consequence of \u03b2-adrenergic receptor stimulation. At higher doses, a vasoconstrictor effect results from \u03b1-receptor stimulation. It is started at an infusion rate of 2\u20135 \u03bcg/kg per min, and the dose is increased every 2\u20135 min to a maximum of 20\u201350 \u03bcg/kg per min. Dobutamine is a synthetic sympathomimetic amine with positive inotropic action and minimal positive chronotropic activity at low doses (2.5 \u03bcg/kg per min) but moderate chronotropic activity at higher doses. Although the usual dose is up to 10 \u03bcg/kg per min, its vasodilating activity precludes its use when a vasoconstrictor effect is required."
+        },
+        {
+            "id": "Neurology_Adams_8699",
+            "title": "Neurology_Adams",
+            "content": "With progressive loss of nigral cells, there is an increasing inability to store l-dopa and periods of drug effectiveness become shorter. In some instances, the patient becomes so sensitive to l-dopa that 50 to 100 mg will precipitate dyskinesias; if the dose is lowered by the same amount, the patient may develop disabling rigidity. With the end-of-dose loss of effectiveness and the on\u2013off phenomenon, which with time become increasingly frequent and unpredictable, the patient may experience pain, respiratory distress, akathisia, depression, anxiety, and even hallucinations. Some patients function quite well in the morning and much less well in the afternoon, or vice versa. In such cases, and for end-of-dose and on\u2013off phenomena, one may titrate the dose of l-dopa and use more frequent dosing during the 24-h day; combining it with a dopamine agonist or a long-acting preparation may be helpful. Sometimes temporarily withdrawing l-dopa and at the same time substituting other medications"
+        },
+        {
+            "id": "Neurology_Adams_8675",
+            "title": "Neurology_Adams",
+            "content": "The dopamine agonists are introduced gradually. For example, the initial dose of pramipexole is 0.125 mg tid, following which the dosage is doubled weekly to a total of 3 to 4.5 mg/d if the medication is used without l-dopa. If an individual is already taking l-dopa, these drugs usually permit a gradual reduction in levodopa-carbidopa dose by approximately 50 percent. Their duration of action is slightly longer than that of l-dopa and they cause less nausea. These medications may be also useful in reducing the motor fluctuations of l-dopa."
+        },
+        {
+            "id": "Pharmacology_Katzung_3009",
+            "title": "Pharmacology_Katzung",
+            "content": "Dopamine agonists have an important role as first-line therapy for Parkinson\u2019s disease, and their use is associated with a lower incidence of the response fluctuations and dyskinesias that occur with long-term levodopa therapy. Dopaminergic therapy is therefore often initiated with a dopamine agonist, although, compared with levodopa, the agonists generally provide less symptomatic benefit and are more likely to cause mental side effects, somnolence, and edema. In other instances, a low dose of carbidopa plus levodopa (eg, Sinemet-25/100 three times daily) is introduced, and a dopamine agonist is then added. In either case, the dose of the dopamine agonist is built up gradually depending on response and tolerance. Dopamine agonists may also be given to patients with parkinsonism who are taking levodopa and who have end-of-dose akinesia or on-off phenomenon or are becoming resistant to treatment with levodopa. In such circumstances, it is generally necessary to lower the dose of"
+        },
+        {
+            "id": "Neurology_Adams_8668",
+            "title": "Neurology_Adams",
+            "content": "Each patient requires empirical adjustment of the dose and timing of medication and then generally does well by maintaining a relatively regular medication schedule, supplemented by small intercalated doses when needed. The effect of l-dopa may be virtually immediate (i.e., after absorption, which occurs over 30 to 40 min) but there is a further cumulative effect over several days of consistent dosing. The principles that guide the adjustment of dosing (end-of-dose wearing off, dyskinesias, freezing, confusion) are discussed further on."
+        },
+        {
+            "id": "Neurology_Adams_8664",
+            "title": "Neurology_Adams",
+            "content": "The levodopa, or a dopamine agonist preparation as described below, is introduced when the symptoms begin to interfere with work and social life or falling becomes a threat, and then these drugs are used at the lowest effective dose. The theoretical basis for the use of this compound rests on the observation that striatal dopamine is depleted in patients with Parkinson disease but that the remaining diseased nigral cells are still capable of producing some dopamine by taking up its precursor, l-dopa. The number of neurons in the striatum is not diminished and they remain receptive to ingested dopamine acting through the residual nigral neurons. Over time, however, the number of remaining nigral neurons becomes inadequate and the receptivity to dopamine of the striatal target neurons becomes excessive, possibly as a result of denervation hypersensitivity; this results in both a reduced response to l-dopa and to paradoxical and excessive movements (dyskinesias) with each dose."
+        },
+        {
+            "id": "Neurology_Adams_8700",
+            "title": "Neurology_Adams",
+            "content": "during the 24-h day; combining it with a dopamine agonist or a long-acting preparation may be helpful. Sometimes temporarily withdrawing l-dopa and at the same time substituting other medications may reduce the on\u2013off phenomenon."
+        },
+        {
+            "id": "Neurology_Adams_8667",
+            "title": "Neurology_Adams",
+            "content": "For patients who require very frequent but small doses of the drug because of severe motor fluctuations and dyskinesias, an oral suspension may be formulated that allows precisely measured doses to be delivered orally or through a nasogastric tube. The typical composition is 500 mg l-dopa (of carbidopa-l-dopa 10/100 or 25/100), 500 mg of ascorbic acid to stabilize the drug, and 250 mL of water, resulting in a concentration of l-dopa of 2 mg/mL, which is administered in small amounts. A gel preparation is also available for delivery through a duodenal tube."
+        },
+        {
+            "id": "InternalMed_Harrison_20996",
+            "title": "InternalMed_Harrison",
+            "content": "interventionsConsider vasopressorsArrhythmia Systolic BP Greater than 100 mmHgDopamine, 5 to 15 \u02dcg/kg per minute IV Nitroglycerin 10to 20 \u02dcg/min IVDobutamine Systolic BP 70 to 100 mmHgSystolic BP NO signs/symptoms of shocksigns/symptoms of shock* 2 to 20 \u02dcg/kg per minute IVless than 100 mmHg *Norepinephrine 0.5 to 30 \u02dcg/min IV or Administer \u2022 Furosemide IV 0.5 to 1.0 mg/kg\u2022 Morphine IV 2 to 4 mg\u2022 Oxygen/intubation as needed\u2022 Nitroglycerin SL, then 10to 20 \u02dcg/min IV if SBP greater than 100 mmHg\u2022 *Norepinephrine, 0.5 to 30 \u02dcg/min IV or Dopamine, 5 to 15 \u02dcg/kg per minute IV if SBP <100 mmHg and signs/symptoms of shock present \u2022 Dobutamine 2 to 20 \u02dcg/kg per minute IV if SBP 70to 100 mmHg and no signs/symptoms of shockFirst line of actionSecond line of actionFurther diagnostic/therapeutic considerations (should be consideredin nonhypovolemic shock)Therapeutic \u2022 Intraaortic balloon pump or othercirculatory assist device\u2022 Reperfusion/revascularization"
+        },
+        {
+            "id": "Neurology_Adams_3056",
+            "title": "Neurology_Adams",
+            "content": "In the syndrome of chronic orthostatic hypotension, from central or peripheral sympathetic failure, special mineralocorticoid preparations\u2014such as fludrocortisone acetate (Florinef) 0.05 to 0.4 mg/d in divided doses\u2014and increased salt intake to expand blood volume are helpful. The \u03b11-agonist midodrine, beginning with 2.5 mg every 4 h and slowly increasing the dose to 5 mg every 4 to 6 h, has been used successfully in several studies, but this medication has the potential to worsen the situation and must be used with care. Domperidone may be helpful in patients with parkinsonism but it may prolong the Q-T interval. Sleeping with the head posts of the bed elevated on wooden blocks 8 to 12 in high and wearing a snug elastic abdominal binder and elastic stockings are measures that often prove helpful. Tyramine and monoamine oxidase inhibitors have given limited relief in some cases of Shy-Drager syndrome, and \u03b2-blockers (propranolol or pindolol) and indomethacin (25 to 50 mg tid) in"
+        },
+        {
+            "id": "InternalMed_Harrison_30345",
+            "title": "InternalMed_Harrison",
+            "content": "Current information suggests that altered neuronal firing patterns and motor complications relate to nonphysiologic levodopa replacement. Striatal dopamine levels are normally maintained at a relatively constant level. In PD, dopamine neurons degenerate and striatal dopamine is dependent on the peripheral availability of levodopa. Intermittent doses of short-acting levodopa result in fluctuating plasma levels because of variability in transit of the drug from the stomach to the duodenum where it is absorbed and the short half-life of the drug. This variability results in exposure of dopamine receptors to pathologically high and low concentrations of dopamine. It has been hypothesized that more continuous delivery of levodopa might prevent the development of motor complications. Indeed, a recent controlled study demonstrated that continuous intraintestinal infusion of levodopa/carbidopa intestinal gel (Duodopa) is associated with significant improvement in \u201coff\u201d time and in \u201con\u201d time"
+        },
+        {
+            "id": "Pharmacology_Katzung_2968",
+            "title": "Pharmacology_Katzung",
+            "content": "A 76-year-old retired banker complains of a shuffling gait with occasional falls over the last year. He has developed a stooped posture, drags his left leg when walking, and is unsteady on turning. He remains independent in all activi-ties of daily living, but he has become more forgetful and occasionally sees his long-deceased father in his bedroom. Examination reveals hypomimia, hypophonia, a slight rest tremor of the right hand and chin, mild rigidity, and impaired rapid alternating movements in all limbs. Neuro-logic and general examinations are otherwise normal. What is the likely diagnosis and prognosis? The patient is started on a dopamine agonist, and the dose is gradually built up to the therapeutic range. Was this a good choice of medications? Six months later, the patient and his wife return for follow-up. It now becomes apparent that he is falling asleep at inappropriate times, such as at the dinner table, and when awake, he spends much of the time in arranging and"
+        },
+        {
+            "id": "Cell_Biology_Alberts_391",
+            "title": "Cell_Biology_Alberts",
+            "content": "referred to as a blood alcohol level of 0.08) is typical. What 2\u20136 The criterion for whether a reaction proceeds is the molarity of ethanol in a person at this legal limit? spontaneously is \u0394G not \u0394G\u00b0, because \u0394G takes into C. How many 12-oz (355-mL) bottles of 5% beer could account the concentrations of the substrates and products. a 70-kg person drink and remain under the legal limit? A 70-kg person contains about 40 liters of water. Ignore the 2\u20137 The oxygen consumed during the oxidation of glu-metabolism of ethanol, and assume that the water content cose in animal cells is returned as CO2 to the atmosphere. of the person remains constant. activity (% of maximum) D. Ethanol is metabolized at a constant rate of about 120 mg per hour per kg body weight, regardless of its concentration. If a 70-kg person were at twice the legal limit (160 mg/100 mL), how long would it take for their blood alcohol level to fall below the legal limit?"
+        },
+        {
+            "id": "InternalMed_Harrison_6452",
+            "title": "InternalMed_Harrison",
+            "content": "h. Metoclopramide acts on peripheral dopamine receptors to augment gastric emptying and is used in high doses for highly emetogenic regimens (1\u20132 mg/kg intravenously 30 min before chemotherapy and every 2 h for up to three additional doses as needed); intravenous doses of 10\u201320 mg every 4\u20136 h as needed or 50 mg orally 4 h before and 8 and 12 h after chemotherapy are used for moderately emetogenic regimens. 5-9-Tetrahydrocannabinol (Marinol) is a rather weak antiemetic compared to other available agents, but it may be useful for persisting nausea and is used orally at 10 mg every 3\u20134 h as needed."
+        },
+        {
+            "id": "InternalMed_Harrison_30350",
+            "title": "InternalMed_Harrison",
+            "content": "Dopamine agonist use is associated with a variety of side effects. Acute side effects are primarily dopaminergic and include nausea, vomiting, and orthostatic hypotension. As with levodopa, these can usually be avoided by slow titration. Side effects associated with chronic use include hallucinations and cognitive impairment. Sedation with sudden unintended episodes of falling asleep while driving a motor vehicle have been reported. Patients should be informed about this potential problem and should not drive when tired. Dopamine agonists can also be associated with impulse-control disorders, including pathologic gambling, hypersexuality, and compulsive eating and shopping. The precise cause of these problems, and why they appear to occur more frequently with dopamine agonists than levodopa, remains to be resolved, but reward systems associated with dopamine and alterations in the ventral striatum and orbitofrontal regions have been implicated. In general, chronic side effects are"
+        },
+        {
+            "id": "InternalMed_Harrison_30348",
+            "title": "InternalMed_Harrison",
+            "content": "Dopamine agonists are a diverse group of drugs that act directly on dopamine receptors. Unlike levodopa, they do not require metabolism to an active product and do not undergo oxidative metabolism. Initial dopamine agonists were ergot derivatives (e.g., bromocriptine, pergolide, cabergoline) and were associated with ergot-related side effects, including cardiac valvular damage. They have largely been replaced by a second generation of nonergot dopamine agonists (e.g., pramipexole, ropinirole, rotigotine). In general, dopamine agonists do not have comparable efficacy to levodopa. They were initially introduced as adjuncts to levodopa to enhance motor function and reduce \u201coff\u201d time in fluctuating patients. Subsequently, it was shown that dopamine agonists, possibly because they are relatively long-acting, are less prone than levodopa to induce dyskinesia. For this reason, many physicians initiate therapy with a dopamine agonist, although supplemental levodopa is eventually required in"
+        },
+        {
+            "id": "InternalMed_Harrison_19616",
+            "title": "InternalMed_Harrison",
+            "content": "Nitroprusside Initial 0.3 (\u03bcg/kg)/min; usual 2\u20134 (\u03bcg/kg)/min; maximum 10 (\u03bcg/kg)/min for 10 min Nicardipine Initial 5 mg/h; titrate by 2.5 mg/h at 5\u201315 min intervals; max 15 mg/h Labetalol 2 mg/min up to 300 mg or 20 mg over 2 min, then 40\u201380 mg at 10-min intervals up to 300 Enalaprilat Usual 0.625\u20131.25 mg over 5 min every 6\u20138 h; maximum 5 mg/dose Esmolol Initial 80\u2013500 \u03bcg/kg over 1 min, then 50\u2013300 (\u03bcg/kg)/min Nitroglycerin Initial 5 \u03bcg/min, then titrate by 5 \u03bcg/min at 3\u20135-min intervals; if no response is seen at 20 \u03bcg/min, incremental increases of aConstant blood pressure monitoring is required. Start with the lowest dose. Subsequent doses and intervals of administration should be adjusted according to the blood pressure response and duration of action of the specific agent."
+        },
+        {
+            "id": "Neurology_Adams_8691",
+            "title": "Neurology_Adams",
+            "content": "Side effects of dopamine treatments and their management The side effects of l-dopa are at times significant to the degree that its continuation cannot be tolerated. Some patients are at first troubled by nausea, although this can be mitigated by taking the medication with meals. Nausea usually disappears after several weeks of continued use or can be allayed by the specific dopaminergic chemoreceptor antagonist domperidone. A few have mild orthostatic hypotensive episodes."
+        },
+        {
+            "id": "Pharmacology_Katzung_3080",
+            "title": "Pharmacology_Katzung",
+            "content": "Symptoms may resolve with correction of coexisting iron-deficiency anemia and often respond to dopamine agonists, levodopa, diazepam, clonazepam, gabapentin, or opiates. Dopaminergic therapy is the preferred treatment for restless legs syndrome and should be initiated with long-acting dopamine agonists (eg, pramipexole 0.125\u20130.75 mg or ropinirole 0.25\u20134.0 mg once daily) or with the rotigotine skin patch to avoid the augmentation that may be associated especially with carbidopa-levodopa (25/100 or 50/200 taken about 1 hour before bedtime). Augmentation refers to the earlier onset or enhancement of symptoms; earlier onset of symptoms at rest; and a briefer response to medication. When augmentation occurs with levodopa, a dopamine agonist should be substituted. If it occurs in patients receiving an agonist, the daily dose should be divided, another agonist tried, or other medications substituted. Dopamine agonist therapy may be associated with development of impulse control disorders."
+        },
+        {
+            "id": "InternalMed_Harrison_31914",
+            "title": "InternalMed_Harrison",
+            "content": "Methamphetamines increase the release of monoamine neurotransmitters (dopamine, norepinephrine, and serotonin) from presynaptic neurons. It is thought that the euphoric and reinforcing effects of this class of drugs are mediated through dopamine and the mesolimbic system, whereas the cardiovascular effects are related to norepinephrine. MRS studies of the brain suggest that chronic abusers have neuronal damage in the frontal areas and basal ganglia. Treatment of acute methamphetamine overdose is largely symptomatic. Ammonium chloride may be useful to acidify the urine and enhance clearance of the drug. Hypertension may respond to sodium nitroprusside or \u03b1-adrenergic antagonists. Sedatives may reduce agitation and other signs of central nervous system hyperactivity. Treatment of chronic methamphetamine dependence may be accomplished in either an inpatient or outpatient setting using strategies similar to those described earlier for cocaine abuse."
+        },
+        {
+            "id": "Neurology_Adams_2695",
+            "title": "Neurology_Adams",
+            "content": "Valproate and levetiracetam are available as intravenous preparations, making them suitable for administration in status, but their role in this circumstance has not been extensively studied. Another dependable approach is infusion of either pentobarbital, starting with 5 mg/kg, or phenobarbital, at a rate of 100 mg/min until the seizures stop or a total dose of 20 mg/kg is reached; a long period of stupor must be anticipated after. Hypotension often limits the continued use of the barbiturates, but Parviainen and colleagues were able to manage this problem by fluid infusions, dopamine, and neosynephrine."
+        },
+        {
+            "id": "Pharmacology_Katzung_1055",
+            "title": "Pharmacology_Katzung",
+            "content": "At the low doses usually administered, reserpine produces little postural hypotension. Most of the unwanted effects of reserpine result from actions on the brain or gastrointestinal tract. High doses of reserpine characteristically produce sedation, lassitude, nightmares, and severe mental depression; occasionally, these occur even in patients receiving low doses (0.25 mg/d). Much less frequently, ordinary low doses of reserpine produce extrapyramidal effects resembling Parkinson\u2019s disease, probably as a result of dopamine depletion in the corpus striatum. Although these central effects are uncommon, it should be stressed that they may occur at any time, even after months of uneventful treatment. Patients with a history of mental depression should not receive reserpine, and the drug should be stopped if depression appears."
+        },
+        {
+            "id": "Pharmacology_Katzung_868",
+            "title": "Pharmacology_Katzung",
+            "content": "Dopamine is the immediate precursor in the synthesis of norepinephrine (see Figure 6\u20135). Its cardiovascular effects were described above. Endogenous dopamine may have more important effects in regulating sodium excretion and renal function. It is an important neurotransmitter in the CNS and is involved in the reward stimulus relevant to addiction. Its deficiency in the basal ganglia leads to Parkinson\u2019s disease, which is treated with its precursor levodopa. Dopamine receptors are also targets for antipsychotic drugs. Phenylephrine was discussed previously when describing the actions of a relatively pure \u03b11 agonist (Table 9\u20132). Because it is not a catechol derivative (Figure 9\u20135), it is not inactivated by COMT and has a longer duration of action than the catecholamines. It is an effective mydriatic and decongestant and can be used to raise the blood pressure (Figure 9\u20136)."
+        },
+        {
+            "id": "Pharmacology_Katzung_3126",
+            "title": "Pharmacology_Katzung",
+            "content": "A. Absorption and Distribution Most antipsychotic drugs are readily but incompletely absorbed. Furthermore, many undergo significant first-pass metabolism. Thus, oral doses of chlorpromazine and thioridazine have systemic availability of 25\u201335%, whereas haloperidol, which has less first-pass metabolism, has an average systemic availability of about 65%. Most antipsychotic drugs are highly lipid soluble and protein bound (92\u201399%). They tend to have large volumes of distribution (usually more than 7 L/kg). They generally have a much longer clinical duration of action than would be estimated from their plasma half-lives. This is paralleled by prolonged occupancy of D2 dopamine receptors in the brain by the typical antipsychotic drugs."
+        },
+        {
+            "id": "InternalMed_Harrison_6451",
+            "title": "InternalMed_Harrison",
+            "content": "Antidopaminergic phenothiazines act directly at the CTZ and include prochlorperazine (Compazine), 10 mg intramuscularly or intravenously, 10\u201325 mg orally, or 25 mg per rectum every 4\u20136 h for up to four doses; and thiethylperazine, 10 mg by potentially all of the above routes every 6 h. Haloperidol is a butyrophenone dopamine antagonist given at 1 mg intramuscularly or orally every 8 103e-25 h. Antihistamines such as diphenhydramine have little intrinsic anti-emetic capacity but are frequently given to prevent or treat dystonic reactions that can complicate use of the antidopaminergic agents. Lorazepam is a short-acting benzodiazepine that provides an anxiolytic effect to augment the effectiveness of a variety of agents when used at 1\u20132 mg intramuscularly, intravenously, or orally every 4\u20136 h. Metoclopramide acts on peripheral dopamine receptors to augment gastric emptying and is used in high doses for highly emetogenic regimens (1\u20132 mg/kg intravenously 30 min before chemotherapy and"
+        },
+        {
+            "id": "InternalMed_Harrison_2213",
+            "title": "InternalMed_Harrison",
+            "content": "RLS is treated by addressing the underlying cause such as iron deficiency if present. Otherwise, treatment is symptomatic, and dopamine agonists are used most frequently. Agonists of dopamine D2/3 receptors such as pramipexole (0.25\u20130.5 mg q7PM) or ropinirole (0.5\u20134 mg q7PM) are considered first-line agents. Augmentation is a worsening of RLS such that symptoms begin earlier in the day and can spread to other body regions, and it can occur in about 25% of patients taking dopamine agonists. Other possible side effects of dopamine agonists include nausea, morning sedation, and increases in rewarding behavior such as gambling and sex. Opioids, benzodiazepines, pregabalin, and gabapentin may also be of therapeutic value. Most patients with restless legs also experience periodic limb movement disorder, although the reverse is not the case."
+        },
+        {
+            "id": "InternalMed_Harrison_30349",
+            "title": "InternalMed_Harrison",
+            "content": "long-acting, are less prone than levodopa to induce dyskinesia. For this reason, many physicians initiate therapy with a dopamine agonist, although supplemental levodopa is eventually required in virtually all patients. Both ropinirole and pramipexole are available as orally administered immediate (tid) and extended-release (qd) formulations. Rotigotine is administered as a once-daily transdermal patch. Apomorphine is a dopamine agonist with efficacy comparable to levodopa, but it must be administered parenterally and has a very short half-life and duration of activity (45 min). It is generally administered by injection as a rescue agent for the treatment of severe \u201coff\u201d episodes. Apomorphine can also be administered by continuous subcutaneous infusion and has been demonstrated to reduce both \u201coff\u201d time and dyskinesia in advanced patients. However, this approach has not been approved in the United States."
+        },
+        {
+            "id": "Pharmacology_Katzung_3031",
+            "title": "Pharmacology_Katzung",
+            "content": "Subcutaneous injection of apomorphine hydrochloride (Apokyn), a potent nonergoline dopamine agonist that interacts with post-synaptic D2 receptors in the caudate nucleus and putamen, is effective for the temporary relief (\u201crescue\u201d) of off-periods of akinesia in patients on optimized dopaminergic therapy. It is rapidly taken up in the blood and then the brain, leading to clinical benefit that begins within about 10 minutes of injection and persists for up to 2 hours. The optimal dose is identified by administering increasing test doses until adequate benefit is achieved or a maximum of 0.6 mL (6 mg) is reached, with the supine and standing blood pressures monitored before injection and then every 20 minutes for an hour after it. Most patients require a dose of 0.3\u20130.6 mL (3\u20136 mg), and this should be given usually no more than about three times daily, but occasionally up to five times daily."
+        },
+        {
+            "id": "Pharmacology_Katzung_3081",
+            "title": "Pharmacology_Katzung",
+            "content": "an agonist, the daily dose should be divided, another agonist tried, or other medications substituted. Dopamine agonist therapy may be associated with development of impulse control disorders. Gabapentin is effective in reducing the severity of restless legs syndrome and is taken once or twice daily (in the evening and before sleep). The starting dose is 300 mg daily, building up depending on response and tolerance (to approximately 1800 mg daily). Oral gabapentin enacarbil (600 or 1200 mg once daily) may also be helpful. A recent study suggests that pregabalin, a related drug, is also effective at a daily total dosage of 150\u2013300 mg, taken in divided doses. Clonazepam, 1 mg daily, is also sometimes helpful, especially for those with intermittent symptoms. When opiates are required, those with long half-lives or low addictive potential should be used. Oxycodone is often effective; the dose is individualized."
+        },
+        {
+            "id": "Pharmacology_Katzung_3069",
+            "title": "Pharmacology_Katzung",
+            "content": "Treatment is with drugs that block dopamine receptors or deplete dopamine stores, such as fluphenazine, pimozide, and tetrabenazine. These drugs reduce the frequency and intensity of tics by about 60%. Pimozide, a dopamine receptor antagonist, may be helpful in patients as a first-line treatment or in those who are either unresponsive to or intolerant of the other agents mentioned. Treatment is started at 1 mg/d, and the dosage is increased by 1 mg every 5 days; most patients require 7\u201316 mg/d. It has similar side effects to haloperidol but may cause irregularities of cardiac rhythm. Haloperidol has been used for many years to treat tic disorders. Patients are better able to tolerate this drug if treatment is started with a small dosage (eg, 0.25 or 0.5 mg daily) and then increased gradually (eg, by 0.25 mg every 4 or 5 days) over the following weeks depending on response and tolerance. Most patients ultimately require a total daily dose of 3\u20138 mg. Adverse effects include"
+        },
+        {
+            "id": "Neurology_Adams_8698",
+            "title": "Neurology_Adams",
+            "content": "Anticholinergic agents or l-dopa should not generally be discontinued abruptly in advanced Parkinson disease. If abruptly discontinued, the patient may become totally immobilized by a sudden and severe increase of tremor and rigidity; rarely, a neuroleptic syndrome, sometimes fatal, has been induced by such withdrawal. Reducing the medication dose over a week or so is usually adequate."
+        },
+        {
+            "id": "Pharmacology_Katzung_2999",
+            "title": "Pharmacology_Katzung",
+            "content": "The dopamine dysregulation syndrome is characterized by compulsive overuse of dopaminergic medication as well as by other impulsive behaviors; such impulse control disorders are more common with dopamine agonists than levodopa and are discussed later. Management involves the close regulation of dopaminergic intake. Punding designates the performance of stereotyped, complex, but purposeless motor activity, such as sorting or lining up various objects or repetitive grooming behavior. It responds to reduction in dose of dopaminergic agents or to atypical antipsychotic agents. D. Dyskinesias and Response Fluctuations"
+        }
+    ],
+    "scores": [
+        0.029508833236264805,
+        0.02807127155680004,
+        0.027327643637804065,
+        0.026335973389525355,
+        0.025026207265993358,
+        0.02262683456091092,
+        0.022450009706853038,
+        0.022263953683778467,
+        0.01878969654199012,
+        0.018436703483432453,
+        0.017927170868347338,
+        0.017078071182548796,
+        0.01665774685576666,
+        0.016312244089288074,
+        0.016207349081364827,
+        0.01605126253013577,
+        0.015867066466766618,
+        0.01573283424961984,
+        0.015698872590617044,
+        0.015649738156132017,
+        0.015419265419265419,
+        0.0152992700729927,
+        0.015159345391903532,
+        0.014683676126008852,
+        0.014493514677309248,
+        0.014453748006379585,
+        0.01444672131147541,
+        0.013970409895707008,
+        0.013939057145503381,
+        0.013937451437451436,
+        0.013844862949841507,
+        0.013435374149659864
+    ],
+    "execution_time": 36.37108874320984
+}

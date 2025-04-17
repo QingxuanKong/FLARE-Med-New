@@ -113,12 +113,12 @@ for idx, qa in enumerate(qa_list):
         this_time = time.time()
         loop_time = this_time - last_time
         last_time = this_time
-        print(f"Time elapsed: {int(loop_time // 60)}m {int(loop_time % 60)}s")
 
         elapsed = this_time - start_time
         avg_time = elapsed / (idx + 1)
         remaining = (len(qa_list) - (idx + 1)) * avg_time
-        print(f"ETA: {int(remaining // 60)}m {int(remaining % 60)}s remaining")
+        
+        print(f"Time elapsed: {int(loop_time // 60)}m {int(loop_time % 60)}s, ETA: {int(remaining // 60)}m {int(remaining % 60)}s remaining")
 
     if qa["id"] + ".json" in existing_files:
         print(f"Skipping {qa['id']}, already exists")
@@ -132,6 +132,7 @@ for idx, qa in enumerate(qa_list):
     qa["predict"] = answer
     qa["snippets"] = snippets
     qa["scores"] = scores
+    qa["execution_time"] = time.time() - this_time
 
     with open(os.path.join(save_dir, qa["id"] + ".json"), "w") as f:
         json.dump(qa, f, indent=4)

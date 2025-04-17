@@ -1,0 +1,209 @@
+{
+    "id": "clinical_knowledge-150",
+    "question": "Which one of the following groups of patients should be assessed using an Early Warning Score (EWS)?",
+    "options": {
+        "A": "Only patients over 60 years of age.",
+        "B": "Only patients admitted to the Emergency Department.",
+        "C": "Only patients who have been on an Intensive care/High dependency unit.",
+        "D": "Any patient who is acutely unwell pre-operatively or post-operatively and those who have undergone major surgery."
+    },
+    "answer": "D",
+    "predict": "Here is the step-by-step thinking and the answer in JSON format: {\"step_by_step_thinking\": \"To determine which group of patients should be assessed using an Early Warning Score (EWS), we need to consider the purpose of EWS and the context in which it is used. EWS is a tool used to identify patients who are at risk of deteriorating and require close monitoring and intervention. According to the documents, EWS is often used in the Emergency Department to alert medical teams to clinical deterioration that precedes cardiac or pulmonary arrest events. It is also used in the ICU to identify patients who are at risk of deterioration. However, the documents do not specify that EWS is only used for patients over 60 years of age, admitted to the ICU, or those who have undergone major surgery. Therefore, the correct answer is the one that encompasses the broadest range of patients who may benefit from EWS. \", \"answer_choice\": \"D\"}",
+    "snippets": [
+        {
+            "id": "InternalMed_Harrison_10136",
+            "title": "InternalMed_Harrison",
+            "content": "To determine the PSI, points are given for 20 variables, including age, coexisting illness, and abnormal physical and laboratory findings. On the basis of the resulting score, patients are assigned to one of five classes with the following mortality rates: class 1, 0.1%; class 2, 0.6%; class 3, 2.8%; class 4, 8.2%; and class 5, 29.2%. Determination of the PSI is often impractical in a busy emergency-department setting because of the number of variables that must be assessed. However, clinical trials demonstrate that routine use of the PSI results in lower admission rates for class 1 and class 2 patients. Patients in class 3 could ideally be admitted to an observation unit until a further decision can be made."
+        },
+        {
+            "id": "Surgery_Schwartz_2975",
+            "title": "Surgery_Schwartz",
+            "content": "physiologic abnormalities that may precede hemodynamic instability.8 This subsequently was demonstrated to reduce the amount of overall patient instability by facilitating earlier iden-tification and appropriate intervention by the medical team.9The large expansion of the electronic medical record (EMR) is also driving the development of new algorithmic assessment tools for inpatient monitoring. The Rothman Index (RI) is a proprietary data analysis toolkit encompassing a total of 26 variables including vital signs, nursing assessments, laboratory test values, and cardiac rhythms and was developed to make use of the vast amount of data input into the EMR on a real-time basis to help provide a global assessment of patient status. In the initial derivation, Rothman and colleagues dem-onstrated concordance of the RI with the Modified Early Warning Score (MEWS) system, which is designed to alert medical teams to clinical deterioration that precedes cardiac or pulmonary arrest events.10"
+        },
+        {
+            "id": "Surgery_Schwartz_2976",
+            "title": "Surgery_Schwartz",
+            "content": "concordance of the RI with the Modified Early Warning Score (MEWS) system, which is designed to alert medical teams to clinical deterioration that precedes cardiac or pulmonary arrest events.10 Subsequent publications evaluated performance of the RI in predicting both readmission to surgical ICUs in the postoperative setting as well as for rapid response team activations.11-13 Although more work is required to evalu-ate the broad applicability of the RI and similar measures, the evidence to date is compelling. Furthermore, as EMR interfaces become more sophisticated, other real-time data analysis soft-ware packages will likely be developed that provide further insight into the care of postsurgical patients.CARDIAC OUTPUT AND RELATED PARAMETERSBedside catheterization of the pulmonary artery was introduced into clinical practice in the 1970s. Although the pulmonary artery catheter initially was used primarily to manage patients with cardiogenic shock and other acute cardiac diseases,"
+        },
+        {
+            "id": "InternalMed_Harrison_20702",
+            "title": "InternalMed_Harrison",
+            "content": "The initial assessment of a patient in shock should take only a few minutes. It is important that aggressive resuscitation is instituted on the basis of the initial assessment, particularly since early resuscitation from septic and cardiogenic shock may improve survival (see below). If the initial bedside assessment yields equivocal or confounding data, more objective assessments such as echocardiography and/or invasive vascular monitoring may be useful. The goal of early resuscitation is to reestablish adequate tissue perfusion and thus to prevent or minimize 5-9 15-19 25-29 35+ end-organ injury. APACHE II Score"
+        },
+        {
+            "id": "InternalMed_Harrison_8438",
+            "title": "InternalMed_Harrison",
+            "content": "Number of Risk Factors aThe corresponding survival curves for each risk category can be found in the references cited in the footnotes of Table 131-4. Abbreviations: DIPSS, Dynamic International Prognostic Scoring System; IPSS, International Prognostic Scoring System."
+        },
+        {
+            "id": "InternalMed_Harrison_20690",
+            "title": "InternalMed_Harrison",
+            "content": "In the ICU, illnesses are frequently categorized by degree of severity. Numerous severity-of-illness (SOI) scoring systems have been developed and validated over the past three decades. Although these scoring systems have been validated as tools to assess populations of critically ill patients, their utility in predicting individual patient outcomes is not clear. SOI scoring systems are important for defining populations of critically ill patients. Such systematic scoring allows effective comparison of groups of patients enrolled in clinical trials. In verifying a purported benefit of therapy, investigators must be confident that different groups involved in a clinical trial have similar illness severities. SOI scores are also useful in guiding hospital administrative policies, directing the allocation of resources such as nursing and ancillary care and assisting in assessments of quality of ICU care over time. Scoring system validations are based on the premise that age, chronic"
+        },
+        {
+            "id": "Surgery_Schwartz_1588",
+            "title": "Surgery_Schwartz",
+            "content": "or contractions, abdominal tenderness, vaginal bleeding, or blood pressure instability, should be monitored in the hospital for at least 24 hours. In addition, patients at high risk for fetal loss (those experiencing vehicle ejection or involved in motorcycle or pedestrian collisions and those with maternal tachycardia, Injury Severity Score of >9, gestational period of >35 weeks, or history of prior assault) also warrant careful monitoring.151 Patients without these risk factors who are asymptomatic can be monitored for 6 hours in the ED and sent home if no problems develop. They should be counseled regarding warning signs that mandate prompt return to the ED.Geriatric PatientsElderly trauma patients (>65 years of age) are hospitalized twice as often as those in any other age group, and this population accounts for one quarter of all trauma admissions. Although the physiology of aging separates older trauma patients from the younger generation (Table 7-14), treatment must remain"
+        },
+        {
+            "id": "InternalMed_Harrison_12161",
+            "title": "InternalMed_Harrison",
+            "content": "Several prognostic scoring systems have been developed to identify patients with meningococcal disease who are least likely to survive. Factors associated with a poorer prognosis are shock; young age (infancy), old age, and adolescence; coma; purpura fulminans; disseminated intravascular coagulation; thrombocytopenia; leukopenia; absence of meningitis; metabolic acidosis; low plasma concentrations of antithrombin and proteins S and C; high blood levels of PAI-1; and a low erythrocyte sedimentation rate or C-reactive protein level. The Glasgow Meningococcal Septicaemia Prognostic Score (GMSPS) is probably the best-performing scoring system studied so far and may be clinically useful for severity assessment in meningococcal disease. However, scoring systems do not direct the clinician to specific interventions, and the priority in management should be recognition of compromised airways, breathing, or circulation and direct, urgent intervention. Most patients improve rapidly with"
+        },
+        {
+            "id": "Obstentrics_Williams_6492",
+            "title": "Obstentrics_Williams",
+            "content": "In 2004, an international consensus efort was launched as the Surviving Sepsis Campaign (Dellinger, 2013). he cornerstone of management is eary goal-directed management, and it stresses prompt recognition of serious bacterial infection and close monitoring of vital signs and urine flow. It remains controversial if institution of this protocol has improved survival rates (ARISE Investigators, 2014; Mouncey, 2015; ProCESS Investigators, 2014). Similar conclusions were reached with sets of early warning systems in obstetrics (Edwards, 2015; Mhyre, 2014). Albright and associates (2017) have validated the Sepsis in Obstetrics Score to identiy the risk ofICU admission for sepsis."
+        },
+        {
+            "id": "InternalMed_Harrison_20692",
+            "title": "InternalMed_Harrison",
+            "content": "SOI scoring systems cannot be used to predict survival in individual patients. No established scoring systems that purport to direct clinicians\u2019 decision-making regarding criteria for admission to an ICU are available, although such models are being developed. Thus the use of SOI scoring systems to direct therapy and clinical decision-making cannot be recommended at present. Instead, these tools should be used as a source of important data to complement clinical bedside decision-making. The most commonly utilized scoring systems are the APACHE (Acute Physiology and Chronic Health Evaluation) and the SAPS (Simplified Acute Physiology Score) systems."
+        },
+        {
+            "id": "Surgery_Schwartz_2973",
+            "title": "Surgery_Schwartz",
+            "content": "14 of the 17 identified patients, demonstrating value of this modality as a warning tool.5 Thus, continuous 12-lead ECG monitoring may provide greater sensitivity than 3-lead ECG for the detection of perioperative myocardial ischemia, and may become standard for monitoring high-risk surgical patients.Currently, there is considerable interest in using comput-erized approaches to analyze ECG waveforms and patterns to uncover hidden information that can be used to predict sudden cardiac death or the development of serious dysrhythmias. ECG patterns of interest include repetitive changes in the morphol-ogy of the T-wave (T-wave alternans; TWA)6 and heart rate variability.7ALGORITHMIC INTEGRATIVE MONITORINGIntegrated monitoring systems employ software that integrates vital signs to produce a single-parameter index that allows early detection of physiologic perturbations. The input variables include noninvasive measurements of heart rate, respiratory rate, blood pressure, SpO2, and"
+        },
+        {
+            "id": "InternalMed_Harrison_1374",
+            "title": "InternalMed_Harrison",
+            "content": "Clinicians should differentiate between the algorithms discussed above and risk scores derived for stratification of prognosis (e.g., the TIMI and GRACE risk scores, Chap. 295) in patients who already have an established diagnosis of ACS. The latter risk scores were not designed to be used for diagnostic assessment."
+        },
+        {
+            "id": "InternalMed_Harrison_21051",
+            "title": "InternalMed_Harrison",
+            "content": "risk. Patients in this subgroup are now considered candidates for ICDs (see below). Risk falls off sharply with EFs >35% and the absence of ambient arrhythmias after MI, and conversely is high with EFs <30% even without the ambient arrhythmia markers."
+        },
+        {
+            "id": "InternalMed_Harrison_8435",
+            "title": "InternalMed_Harrison",
+            "content": "Note: The Dynamic International Prognostic Scoring System (DIPSS) was developed to determine if the International Prognostic Scoring System (IPSS) risk factors identified as important for survival at the time of primary myelofibrosis (PMF) diagnosis could also be used for risk stratification following their acquisition during the course of the disease. One point is assigned to each risk factor for IPSS scoring. For DIPSS, the same is true, but age >65 years, anemia, blood blasts, and constitutional symptoms are assigned 2 points each. The DIPSS Plus scoring system represents recognition that the addition of unfavorable karyotype, thrombocytopenia, and transfusion dependence improved the DIPSS risk stratification system for which additional points are assigned (Table 131-5). More recent studies suggest that mutational analysis of the ASXL1, EZH2, SRSF2, and IDH1/2 genes further improves risk stratification for survival and leukemic transformation (Leukemia 27:1861, 2013)."
+        },
+        {
+            "id": "InternalMed_Harrison_30907",
+            "title": "InternalMed_Harrison",
+            "content": "In severe head injury, the clinical features of eye opening, motor responses of the limbs, and verbal output have been found to be generally predictive of outcome. These three responses are assessed by the Glasgow Coma Scale; a score between 3 and 15 is assigned (Table 457e-1). Over 85% of patients with aggregate scores of <5 die within 24 h. However, a number of patients with slightly higher scores, including a few without pupillary light responses, survive, suggesting that an initially aggressive approach is justified in most patients. Patients <20 years old, particularly children, may make remarkable recoveries after having grave early neurologic signs. In one large study of severe head injury, 55% of children had a good outcome at 1 year, compared with 21% of adults. Older age, increased ICP, early hypoxia or hypotension, compression of the brainstem on CT or MRI, and a delay in the evacuation of large intracranial hemorrhages are indicators of a poor prognosis."
+        },
+        {
+            "id": "InternalMed_Harrison_24389",
+            "title": "InternalMed_Harrison",
+            "content": "Assessment of Severity and Hospital Triage Severity of acute pancreatitis should be determined in the emergency ward to assist in patient triage to a regular hospital ward or step-down unit or direct admission to an intensive care unit. The Bedside Index of Severity in Acute Pancreatitis (BISAP) incorporates five clinical and laboratory parameters obtained within the first 24 h of hospitalization (Table 371-3)\u2014BUN >25 mg/dL, impaired mental status (Glasgow coma score <15), SIRS, age >60 years, and pleural effusion on radiography\u2014that can be useful in assessing severity. Presence of three or more of these factors was associated with substantially increased risk for in-hospital mortality among patients with acute pancreatitis. In addition, an elevated hematocrit >44% and admission BUN >22 mg/dL are also associated with more severe acute pancreatitis. Incorporating these indices with the overall patient response to initial fluid resuscitation in the emergency ward can be useful at"
+        },
+        {
+            "id": "InternalMed_Harrison_23291",
+            "title": "InternalMed_Harrison",
+            "content": "criterion standard in the evalu-Patients without advanced fibrosis need not undergo screening. ation of patients with liver disease, particularly chronic liver disease. Cirrhosis can also be staged clinically. A reliable staging system Liver biopsy is necessary for diagnosis in selected instances but is more is the modified Child-Pugh classification, with a scoring system of often useful for assessment of the severity (grade) and stage of liver 5\u201315: scores of 5 and 6 represent Child-Pugh class A (consistent damage, prediction of prognosis, and monitoring of the response to with \u201ccompensated cirrhosis\u201d), scores of 7\u20139 represent class B, and treatment. The size of the liver biopsy sample is an important deter-scores of 10\u201315 represent class C (Table 357-4). This scoring system minant of reliability; a length of 1.5\u20132 cm is necessary for accurate was initially devised to stratify patients into risk groups before portal mg/dL <2.0 2.0\u20133.0 >3.0 g/dL >3.5 3.0\u20133.5 <3.0"
+        },
+        {
+            "id": "Surgery_Schwartz_6686",
+            "title": "Surgery_Schwartz",
+            "content": "in the prophylaxis guidelines for nonorthopedic sur-gery (Tables 24-5 and 24-6). A composite score is created using assigned values for each risk factor. The cumulative score for each patient is then used to predict thrombosis risk and provide recommendations regarding VTE prophylaxis.Patients at very low risk (<0.5%; Rogers score <7; Caprini score 0) who undergo general or abdominopelvic procedures do not require pharmacologic or mechanical pro-phylaxis; however, early ambulation is required. Patients at low risk (<1.5%; Rogers score 7\u201310; Caprini score 1\u20132) should receive mechanical prophylaxis. Patients at moderate risk (3%; Rogers score >10; Caprini score 3\u20134) should receive LMWH at recommended doses, low-dose UFH, or mechanical pro-phylaxis. Patients at high risk (6%; Caprini score \u22655) should receive LMWH at recommended doses or low-dose UFH and mechanical prophylaxis. Thromboprophylaxis should con-tinue until discharge, except in select high-risk patients with malignancy in whom"
+        },
+        {
+            "id": "InternalMed_Harrison_10138",
+            "title": "InternalMed_Harrison",
+            "content": "Neither PSI nor CURB-65 is accurate in determining the need for ICU admission. Septic shock or respiratory failure in the emergency department is an obvious indication for ICU care. However, mortality rates are higher among less ill patients who are admitted to the floor and then deteriorate than among equally ill patients monitored in the ICU. A variety of scores have been proposed to identify patients most likely to have early deterioration (Table 153-4). Most factors in these scores are similar to the minor severity criteria proposed by the Infectious Diseases Society of America (IDSA) and the American Thoracic Society (ATS) in their guidelines for the management of CAP."
+        },
+        {
+            "id": "Gynecology_Novak_7757",
+            "title": "Gynecology_Novak",
+            "content": "When the prognostic score is higher than 6, the patient is categorized as high risk and requires multimodal therapy, which includes intensive combination chemotherapy, and may also include surgery and radiation to achieve remission. Patients with stage I disease usually have a low-risk score, and those with stage IV disease have a high-risk score. The distinction between low and high risk applies mainly to patients with stage II or III disease. Diagnostic Evaluation Optimal management of persistent GTN requires a thorough assessment of the extent of the disease before the initiation of treatment. All patients with persistent GTN should undergo a careful pretreatment evaluation, including the following: 1. 2. Measurement of the serum hCG level 3. Hepatic, thyroid, and renal function tests 4. Determination of baseline peripheral white blood cell and platelet counts The metastatic workup should include the following: 1. 2. Ultrasonography or CT scan of the abdomen and pelvis 3."
+        },
+        {
+            "id": "InternalMed_Harrison_20693",
+            "title": "InternalMed_Harrison",
+            "content": "The most commonly utilized scoring systems are the APACHE (Acute Physiology and Chronic Health Evaluation) and the SAPS (Simplified Acute Physiology Score) systems. The APACHE II system is the most commonly used SOI scoring system in North America. Age, type of ICU admission (after elective surgery vs. nonsurgical or after emergency surgery), chronic health problems, and 12 physiologic variables (the worst values for each in the first 24 h after ICU admission) are used to derive a score. The predicted hospital mortality rate is derived from a formula that takes into account the APACHE II score, the need for emergency surgery, and a weighted, disease-specific diagnostic category (Table 321\u20131). The relationship between APACHE II score and mortality risk is illustrated in Fig. 321-1. Updated versions of the APACHE scoring system (APACHE III and APACHE IV) have been published."
+        },
+        {
+            "id": "InternalMed_Harrison_623",
+            "title": "InternalMed_Harrison",
+            "content": "index (RCRI) (Table 9-3) is favored. The RCRI relies on the presence or absence of six identifiable predictive factors: high-risk surgery, ischemic heart disease, congestive heart failure, cerebrovascular disease, diabetes mellitus, and renal dysfunction. Each of these predictors is assigned one point. The risk of major cardiac events\u2014defined as myocardial infarction, pulmonary edema, ventricular fibrillation or primary cardiac arrest, and complete heart block\u2014can then be predicted. Based on the presence of none, one, two, three, or more of these clinical predictors, the rate of development of one of these four major cardiac events is estimated to be 0.4, 0.9, 7, and 11%, respectively (Fig. 9-2). An RCRI score of 0 signifies a 0.4\u20130.5% risk of cardiac events; RCRI 1, 0.9\u20131.3%; RCRI 2, 4\u20137%; and RCRI \u22653, 9\u201311%. The clinical utility of the RCRI is to identify patients with three or more predictors who are at very high risk (\u226511%) for cardiac complications and who may benefit from"
+        },
+        {
+            "id": "InternalMed_Harrison_21057",
+            "title": "InternalMed_Harrison",
+            "content": "influenced by the patient\u2019s preceding clinical status. The immediate outcome is good for cardiac arrest occurring in the intensive care unit in the presence of an acute cardiac event or transient metabolic disturbance, but survival among patients with far-advanced chronic cardiac disease or advanced noncardiac diseases (e.g., renal failure, pneumonia, sepsis, diabetes, cancer) is low and not much better in the in-hospital setting. Survival rates after unexpected cardiac arrest in unmonitored areas in a hospital do not differ from witnessed out-of-hospital arrests. Since implementation of community response systems, survival from out-of-hospital cardiac arrest has improved, although it still remains low, under most circumstances. Survival probabilities in public sites exceed those in the home environment, where the majority of cardiac arrests occur."
+        },
+        {
+            "id": "InternalMed_Harrison_10137",
+            "title": "InternalMed_Harrison",
+            "content": "The CURB-65 criteria include five variables: confusion (C); urea >7 mmol/L (U); respiratory rate \u226530/min (R); blood pressure, systolic \u226490 mmHg or diastolic \u226460 mmHg (B); and age \u226565 years. Patients with a score of 0, among whom the 30-day mortality rate is 1.5%, can be treated outside the hospital. With a score of 2, the 30-day mortality rate is 9.2%, and patients should be admitted to the hospital. Thrombocytopenia Severe acidosis (pH <7.30) Among patients with scores of \u22653, mortality rates are 22% overall; these patients may require ICU admission. It is not clear which assessment tool is superior. Whichever system is used, these objective criteria must always be tempered by careful consideration of factors relevant to individual patients, including the ability to comply reliably with an oral antibiotic regimen and the resources available to the patient outside the hospital."
+        },
+        {
+            "id": "InternalMed_Harrison_29375",
+            "title": "InternalMed_Harrison",
+            "content": "The Folstein mini-mental status examination (MMSE) is a standardized screening examination of cognitive function that is extremely easy to administer and takes <10 min to complete. Using age-adjusted values for defining normal performance, the test is ~85% sensitive and 85% specific for making the diagnosis of dementia that is moderate or severe, especially in educated patients. When there is sufficient time available, the MMSE is one of the best methods for documenting the current mental status of the patient, and this is especially useful as a baseline assessment to which future scores of the MMSE can be compared. Individual elements of the mental status examination can be subdivided into level of consciousness, orientation, speech and language, memory, fund of information, insight and judgment, abstract thought, and calculations."
+        },
+        {
+            "id": "Surgery_Schwartz_12146",
+            "title": "Surgery_Schwartz",
+            "content": "initial evaluation of a trauma patient remains the same whether or not the primary surveyor suspects head injury. The first three elements of the ABCDs of resus-citation\u2014airway, breathing, and circulation\u2014must be assessed and stabilized. Hypoxia and hypotension are known to worsen outcome in TBI (due to secondary injury), making cardiopul-monary stabilization critical. Patients who cannot follow com-mands require intubation for airway protection and ventilatory control. The fourth element, assessment of \u201cD,\u201d for disability, is undertaken next. Motor activity, speech, and eye opening can be assessed in a few seconds and a GCS score assigned.The following is an example of how a primary surveyor may efficiently assess disability and GCS: Approach the patient and enter his or her field of view. Observe whether the patient is visually attentive. Clearly command: \u201cTell me your name.\u201d Then ask the patient to lift up two fingers on each side sequen-tially, and wiggle the toes. A visually or"
+        },
+        {
+            "id": "Surgery_Schwartz_14236",
+            "title": "Surgery_Schwartz",
+            "content": "at a second, and no intervention at the third hospital, which Brunicardi_Ch53_p2163-p2186.indd 217822/02/19 4:39 PM 2179SKILLS AND SIMULATIONCHAPTER 53served as the study control.178,179 The simulation interventions were designed to involve triage, labor and delivery, and OR components of care. Perinatal outcomes were assessed using the Weighted Adverse Outcomes Score (WAOS). Simulation train-ing resulted in improved clinical results with a 37.4% decrease in WAOS observed in the simulation intervention group, while similar benefit was not observed in either the didactic-trained or control groups.TeamSTEPPS with supplemental simulation training was also studied by Capella and colleagues for team performance and patient outcomes in trauma care.180 Trauma resuscitations for successive 2-month periods separated by didactic and scenario-based simulation training to subjectively-defined proficiency levels (33 before training, 40 after training) were assessed in multiple teamwork domains"
+        },
+        {
+            "id": "InternalMed_Harrison_1372",
+            "title": "InternalMed_Harrison",
+            "content": "Multiple clinical algorithms have been developed to aid in decision-making during the evaluation and disposition of patients with acute nontraumatic chest pain. Such decision-aids have been derived on the basis of their capacity to estimate either of two closely related but not identical probabilities: (1) the probability of a final diagnosis of ACS and (2) the probability of major cardiac events during short-term follow-up. Such decision-aids are used most commonly to identify patients with a low clinical probability of ACS who are candidates either for early provocative testing for ischemia or for discharge from the ED. Goldman and Lee developed one of the first such decision-aids, using only the ECG and risk indicators\u2014hypotension, pulmonary rales, and known ischemic heart disease\u2014to categorize patients into four risk categories ranging from a <1% to a >16% probability of a major cardiovascular complication. The Acute Cardiac Ischemia Time-Insensitive Predictive Instrument"
+        },
+        {
+            "id": "Surgery_Schwartz_12607",
+            "title": "Surgery_Schwartz",
+            "content": "tests determine the level of cellular turnover (lactate dehydrogenase [LDH]) or of bone destruction (calcium, alkaline phosphatase). Elevated prostate-specific antigen (PSA) suggests prostate cancer.Imaging. Radiographic studies are critical in the diagnosis of bony tumors. Radiographs can help assess the aggressive-ness of the tumor. Four questions should be addressed when assessing radiographs: (a) Where is the tumor\u2014in which bone (Table 43-1) and in which part of the bone is the lesion? (Table 43-2) (b) What is the tumor doing to the bone (clinical behavior)? (c) What is the bone doing to the tumor (biologic response)? and (d) What is the matrix pattern? Matrix is the acellular interstitial substance produced by tumor cells. Particu-lar attention should be paid to the junction between the tumor and the host bone since this margin can also indicate the aggres-siveness of the tumor. Ewing\u2019s sarcoma has a characteristic \u201conion skin\u201d periosteal reaction pattern. This reaction pattern"
+        },
+        {
+            "id": "Surgery_Schwartz_834",
+            "title": "Surgery_Schwartz",
+            "content": "scores, or calculated values that are not readily available or feasible to obtain in the urgent setting of bleeding. The Assessment of Blood Consumption (ABC) score is a sim-plified score to predict massive transfusion after trauma using immediately available data (heart rate, blood pressure, FAST exam, mechanism of injury).132 The ABC score has been vali-dated across multiple trauma centers; however, it may be limited in some centers by the variable use of and operator-dependent FAST examination. In using the ABC score as it was intended, less than 5% of patients who will require massive transfusion will be missed; and 85% of all major trauma patients will be correctly identified.Prehospital TransfusionIn bleeding patients, earlier initiation of appropriate therapy improves outcomes. For example, decreased overall blood product use and increased 30-day survival was observed after moving four units of universal donor, ready-to-transfuse plasma from the blood bank to the emergency"
+        },
+        {
+            "id": "InternalMed_Harrison_226",
+            "title": "InternalMed_Harrison",
+            "content": "Therapeutic decision making, therefore, should be based on the best available evidence from clinical trials and well-done outcome studies. Authoritative, well-done clinical practice guidelines that synthesize such evidence offer readily available, reliable, and trustworthy information relevant to many treatment decisions clinicians face. However, all guidelines recognize that their \u201cone size fits all\u201d recommendations may not apply to individual patients. Increased attention is now being paid to understand how best to adjust group-level clinical evidence of treatment harms and benefits to account for the absolute level of risks faced by subgroups and even individual patients, using, for example, validated clinical risk scores."
+        },
+        {
+            "id": "InternalMed_Harrison_5984",
+            "title": "InternalMed_Harrison",
+            "content": "test has a better cause-specific mortality rate than the control group. Studies showing a reduction in the incidence of advanced-stage disease, improved survival, or a stage shift are weaker (and possibly misleading) evidence of benefit. These latter criteria are early indicators but not sufficient to establish the value of a screening test."
+        }
+    ],
+    "scores": [
+        0.03258619461534404,
+        0.029605901766647253,
+        0.028084304234274014,
+        0.02663870767319043,
+        0.025165047103330618,
+        0.0243138771572163,
+        0.02376793909812778,
+        0.019625012301278437,
+        0.01905453225660103,
+        0.017048327674637,
+        0.016666666666666666,
+        0.01656215921483097,
+        0.015822388993120703,
+        0.01575757575757576,
+        0.015671870217324763,
+        0.015115780445969125,
+        0.0150997150997151,
+        0.01499011640676477,
+        0.014581396486764202,
+        0.014004713560551123,
+        0.013968283238060115,
+        0.013928223222990853,
+        0.013654362568840745,
+        0.013308798356727148,
+        0.013306808134394341,
+        0.012873654842566761,
+        0.012868255544521682,
+        0.012868091972569586,
+        0.012093533065400073,
+        0.011884669479606189,
+        0.011752946853243261,
+        0.011463671002496387
+    ],
+    "execution_time": 7.377450704574585
+}
