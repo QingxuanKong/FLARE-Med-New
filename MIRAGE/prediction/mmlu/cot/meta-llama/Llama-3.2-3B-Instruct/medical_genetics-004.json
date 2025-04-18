@@ -1,0 +1,15 @@
+{
+    "id": "medical_genetics-004",
+    "question": "The pattern of inheritance shown by malignant hyperthermia (hyperpyrexia) is:",
+    "options": {
+        "A": "autosomal dominant.",
+        "B": "autosomal recessive.",
+        "C": "X-linked dominant.",
+        "D": "X-linked recessive."
+    },
+    "answer": "A",
+    "predict": "To solve this, let's break down the pattern of inheritance for malignant hyperthermia (hyperpyrexia). Malignant hyperthermia is a rare but potentially life-threatening medical condition that can be triggered by certain volatile anesthetics and succinylcholine. It is known to be caused by mutations in the RYR1 gene, which is located on the X chromosome. Here's the step-by-step thinking: 1. The RYR1 gene is located on the X chromosome. 2. Since the gene is located on the X chromosome, the inheritance pattern is likely to be linked to the X chromosome. 3. Considering the X chromosome has more genes than the Y chromosome, the inheritance pattern is more likely to be X-linked rather than autosomal. 4. The condition is not typically seen in males (who have one X and one Y chromosome), suggesting that the condition is recessive, as a single copy of the mutated gene would be sufficient to cause the condition. 5. The fact that it can be inherited from a carrier mother who is not affected herself suggests that the condition is recessive, as the mother would need to be a carrier to pass the mutated gene to her offspring. Given these points, the most likely inheritance pattern for malignant hyperthermia is X-linked recessive. Here is the output in JSON format: {\"step_by_step_thinking\": \"Malignant hyperthermia is caused by mutations in the RYR1 gene located on the X chromosome, which suggests an X-linked inheritance pattern. The condition is not typically seen in males, suggesting it is recessive. A carrier mother can pass the mutated gene to her offspring, further supporting the recessive pattern.\", \"answer_choice\": \"D\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 16.331594467163086
+}

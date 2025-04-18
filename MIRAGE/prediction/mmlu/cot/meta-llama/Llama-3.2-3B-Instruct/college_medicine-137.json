@@ -1,0 +1,15 @@
+{
+    "id": "college_medicine-137",
+    "question": "The conversion of one molecule of glucose to two molecules of pyruvate results in the net formation of:",
+    "options": {
+        "A": "six molecules of water.",
+        "B": "two molecules of ATP.",
+        "C": "three molecules of ATP.",
+        "D": "thirty-eight molecules of ATP."
+    },
+    "answer": "B",
+    "predict": "To answer this question, let's break down the process of glucose conversion to pyruvate. Glucose is converted to pyruvate through cellular respiration, a multi-step process involving glycolysis and the citric acid cycle, followed by oxidative phosphorylation. Here's a simplified overview of the key steps: 1. **Glycolysis**: Glucose is converted to pyruvate, releasing 2 ATP and 2 NADH molecules in the process. This is a net gain of 2 ATP and 2 NADH. 2. **Citric acid cycle (Krebs cycle)**: Pyruvate is converted to acetyl-CoA, which enters the citric acid cycle. The citric acid cycle produces 2 ATP (through substrate-level phosphorylation), 6 NADH, and 2 FADH2 molecules. 3. **Oxidative phosphorylation**: The electrons from the NADH and FADH2 molecules are passed through the electron transport chain, producing a proton gradient. This gradient is used to produce ATP through chemiosmosis. Each NADH produces 2.5 ATP and each FADH2 produces 1.5 ATP. Now, let's calculate the net ATP yield: - From glycolysis: 2 ATP - From citric acid cycle: 2 ATP - From NADH in oxidative phosphorylation: 2 NADH * 2.5 ATP/NADH = 5 ATP - From FADH2 in oxidative phosphorylation: 2 FADH2 * 1.5 ATP/FADH2 = 3 ATP Total ATP yield: 2 (glycolysis) + 2 (citric acid cycle) + 5 (NADH) + 3 (FADH2) = 12 ATP However, the question asks for the conversion of one molecule of glucose to two molecules of pyruvate. Since glycolysis produces 2 pyruvate molecules from one glucose molecule, we need to consider the energy yield for this step as well. In glycolysis, 2 ATP are used and 2 pyruvate are produced, so we need to add the energy yield from the remaining 2 pyruvate molecules to the total ATP yield. Since each pyruvate molecule produces 1 ATP (from substrate-level phosphorylation in the citric acid cycle), 2 pyruvate molecules produce 2 ATP. So, the total ATP yield for the conversion of 2 pyruvate molecules (from glucose) is: 12 ATP (from the citric acid cycle and oxidative phosphorylation) + 2 ATP (from the remaining pyruvate molecules) = 14 ATP. Now, considering the options provided: A. Six molecules of water are not directly involved in the conversion of glucose to pyruvate. B. Two molecules of ATP is not correct. C. Three molecules of ATP is not correct. D. Thirty-eight molecules of ATP is not correct. However, given the choices, none directly match the calculated total of 14 ATP.",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 24.9861581325531
+}

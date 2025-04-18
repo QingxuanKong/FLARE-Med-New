@@ -1,0 +1,15 @@
+{
+    "id": "clinical_knowledge-010",
+    "question": "Which of the answers below best indicates the compatible blood types that can be given to a person with a blood group B (rhesus negative)?",
+    "options": {
+        "A": "Blood type AB (rhesus negative), blood type B, and blood type O (rhesus negative).",
+        "B": "Blood type B (rhesus positive) and blood type O (rhesus positive).",
+        "C": "Blood type B (rhesus negative) and blood type O (rhesus negative).",
+        "D": "Blood type B (rhesus negative) only."
+    },
+    "answer": "C",
+    "predict": "To determine the compatible blood types that can be given to a person with a blood group B (rhesus negative), let's break it down step by step: 1. **Understanding Blood Types**: Blood types are determined by the presence or absence of specific antigens on the surface of red blood cells. The main blood groups are A, B, AB, and O. The \"rhesus\" part refers to the rhesus factor, which is a different antigen that can also be present or absent. 2. **ABO Blood Group System**: - Type A blood has A antigens on the surface of red blood cells. - Type B blood has B antigens on the surface of red blood cells. - Type AB blood has both A and B antigens. - Type O blood has neither A nor B antigens. 3. **Rhesus Blood Group System**: - The rhesus factor (Rh) can be either positive (+) or negative (-). - A person with Rh negative blood has no Rh antigens on their red blood cells. 4. **Determining Compatibility**: - For transfusions, blood types are matched based on the ABO blood group and the Rh blood group. - A person with B (rhesus negative) blood can receive blood from: - Type B (rhesus negative) because they have the same ABO blood type and Rh negative status. - Type O (rhesus negative) because they do not have the B antigen and do not have Rh antigens, making it safe to receive blood without an immune reaction. Given these considerations, the correct answer is: {\"step_by_step_thinking\": \"A person with B (rhesus negative) blood can receive blood from either Type B (rhesus negative) or Type O (rhesus negative) due to their lack of the B antigen and absence of Rh antigens, respectively. This ensures there is no risk of an immune reaction.\", \"answer_choice\": \"C\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 11.839492321014404
+}

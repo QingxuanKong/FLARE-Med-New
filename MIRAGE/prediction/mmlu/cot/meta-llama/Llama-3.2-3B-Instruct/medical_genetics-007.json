@@ -1,0 +1,15 @@
+{
+    "id": "medical_genetics-007",
+    "question": "Asp235Phe in a molecular report indicates that:",
+    "options": {
+        "A": "asparagine has been replaced by phenylalanine.",
+        "B": "phenylalanine has been replaced by asparagine.",
+        "C": "aspartic acid has been replaced by phenylalanine.",
+        "D": "phenylalanine has been replaced by aspartic acid."
+    },
+    "answer": "C",
+    "predict": "To determine the correct answer, let's break down the amino acid nomenclature and understand what \"Asp235Phe\" represents. 1. The \"Asp\" in Asp235Phe indicates that the amino acid at position 235 is aspartic acid. 2. The \"235\" is the position of the amino acid in the sequence. 3. The \"Phe\" at the end indicates that phenylalanine is the amino acid at position 235. Given this information, we can conclude that the correct answer is the one that states phenylalanine has replaced aspartic acid at position 235. Here's the output in JSON format: ```json { \"step_by_step_thinking\": \"The 'Asp' at the beginning of the sequence indicates that aspartic acid is the original amino acid, and the '235' indicates the position of the mutation, which is replaced by phenylalanine. Therefore, the correct answer is the one that states phenylalanine has replaced aspartic acid.\", \"answer_choice\": \"D\" } ```",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 42.696552991867065
+}

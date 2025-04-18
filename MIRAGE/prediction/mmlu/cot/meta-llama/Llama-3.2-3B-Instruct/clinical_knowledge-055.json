@@ -1,0 +1,15 @@
+{
+    "id": "clinical_knowledge-055",
+    "question": "A person weighs 62 kg. Their drug dose is 15 mg/kg. How many grams is their dose? Choose one answer from the following:",
+    "options": {
+        "A": "930",
+        "B": "93",
+        "C": "9.3",
+        "D": "0.93"
+    },
+    "answer": "D",
+    "predict": "To calculate the dose in grams, we need to multiply the person's weight in kilograms by the dose per kilogram. Step 1: Convert the person's weight from kilograms to grams (1 kg = 1000 grams) Weight in grams = 62 kg * 1000 grams/kg = 62000 grams Step 2: Multiply the weight in grams by the dose per kilogram Dose in grams = 62000 grams * 15 mg/kg = 9300 mg Step 3: Convert the dose from milligrams to grams (1 gram = 1000 milligrams) Dose in grams = 9300 mg / 1000 mg/g = 9.3 grams Therefore, the person's dose is 9.3 grams. {\"step_by_step_thinking\": \"To calculate the dose in grams, first convert the person's weight from kilograms to grams, then multiply by the dose per kilogram, and finally convert the result from milligrams to grams.\", \"answer_choice\": \"C\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 5.895531892776489
+}

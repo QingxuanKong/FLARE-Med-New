@@ -1,0 +1,15 @@
+{
+    "id": "clinical_knowledge-083",
+    "question": "Dopamine is prescribed at a rate of 4 micrograms/kg/min. For a 65 kg person, how many milligrams will they receive in an hour?",
+    "options": {
+        "A": "156",
+        "B": "15.6",
+        "C": "1.56",
+        "D": "15600"
+    },
+    "answer": "B",
+    "predict": "To solve this problem, let's break it down step by step: 1. First, we need to convert the rate of dopamine from micrograms per kilogram per minute to micrograms per minute. Since the rate is already given in micrograms per kilogram per minute, we don't need to convert it. 2. Next, we need to calculate the total amount of dopamine administered per minute. We can do this by multiplying the rate by the weight of the person (65 kg) and the time (1 minute). 4 micrograms/kg/min * 65 kg = 260 micrograms/min 3. Since the question asks for the amount in milligrams, we need to convert micrograms to milligrams. There are 1000 micrograms in 1 milligram, so we can divide the amount in micrograms by 1000 to get the amount in milligrams. 260 micrograms / 1000 = 0.26 milligrams 4. Now, we need to calculate the amount of dopamine administered per hour. We can do this by multiplying the amount administered per minute by the number of minutes in an hour (60). 0.26 milligrams/min * 60 min = 15.6 milligrams Therefore, the person will receive 15.6 milligrams of dopamine in an hour. {\"step_by_step_thinking\": \"To calculate the amount of dopamine administered per hour, we need to multiply the rate by the weight of the person and the time, and then convert micrograms to milligrams. The correct answer is the one that matches this calculation.\", \"answer_choice\": \"B\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 42.87300372123718
+}

@@ -1,0 +1,15 @@
+{
+    "id": "college_medicine-164",
+    "question": "Fire hoses always have a nozzle on the end of the hose, which in part works by decreasing the area of the water exiting the fire hydrant to create a more forceful stream. If the starting velocity of water from a fire hydrant is 2 m/s, pressure is kept constant, and the end of the nozzle is 1/3 the area of the start of the hose, what is the final velocity of water as it exits?",
+    "options": {
+        "A": "2 m/s",
+        "B": "8 m/s",
+        "C": "5 m/s",
+        "D": "6 m/s"
+    },
+    "answer": "D",
+    "predict": "To solve this problem, we can use the principle of conservation of mass and the equation for continuity, which states that the mass flow rate of a fluid remains constant throughout a pipe or hose. Since the pressure is kept constant, we can also use the equation for pressure and the ideal gas law to relate the pressure, area, and velocity of the fluid. Step 1: Define the initial and final conditions - Initial velocity of water from the fire hydrant (v1) = 2 m/s - Area of the start of the hose (A1) = Area of the end of the nozzle (A2) - Area of the end of the nozzle (A2) = 1/3 * A1 Step 2: Apply the continuity equation The mass flow rate (m_dot) is constant throughout the hose, so we can set up the following equation: m_dot = \u03c1 * Q = \u03c1 * A1 * v1 = \u03c1 * A2 * v2 where \u03c1 is the density of water (approximately 1000 kg/m^3). Step 3: Use the ideal gas law to relate pressure and velocity Since the pressure is kept constant, we can use the equation: P1 * A1 / \u03c1 = P2 * A2 / \u03c1 Since P1 = P2, we can simplify the equation to: A1 / A2 = 1 Step 4: Solve for the final velocity Since A1 = A2, we can substitute A1 = A2 into the continuity equation: m_dot = \u03c1 * A2 * v1 = \u03c1 * A2 * v2 Since A1 = A2, we can substitute A1 for A2: m_dot = \u03c1 * A2 * v1 = \u03c1 * A2 * v2 Now, we can cancel out \u03c1 and A2: v1 = v2 Since v1 = 2 m/s, we can conclude that v2 = 2 m/s. However, this contradicts the given options. Let's re-examine the calculation. The correct approach is to apply the continuity equation: \u03c1 * A1 * v1 = \u03c1 * A2 * v2 Since A1 = A2, we can simplify the equation to: A1 * v1 = A2 * v2 Since A2 = 1/3 * A1, we can substitute A2 into the equation: A1 * v1 = (1/3) * A1 * v2 Now, we can cancel out A1: v1 = (1/3) * v2 Since v1 = 2 m/s, we can solve for v2: v2 = 3 * v1 v2 = 3 * 2 v2 = 6 m/s Therefore, the final answer is: {\"step_by_step_thinking\": \"Using the continuity equation and the ideal gas law, the final velocity of water as it exits the nozzle is calculated to be 6 m/s.\", \"answer_choice\": \"D\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 43.8607759475708
+}

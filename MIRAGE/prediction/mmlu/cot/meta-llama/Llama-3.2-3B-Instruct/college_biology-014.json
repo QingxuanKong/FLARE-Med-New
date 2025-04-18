@@ -1,0 +1,15 @@
+{
+    "id": "college_biology-014",
+    "question": "In one taxonomic classification, Archaea, Eukarya, and Bacteria represent the three major domains of life. Eukarya utilize the general transcription factors TBP (TATA-binding protein) and TFIIB in transcription, whereas Bacteria do not. At least one member of Archaea has a protein similar to TBP and a protein similar to TFIIB. Based on this observation, which of the following scenarios is most likely?",
+    "options": {
+        "A": "Archaea and Eukarya diverged after their common ancestor diverged from Bacteria.",
+        "B": "Archaea and Bacteria diverged after their common ancestor diverged from Eukarya.",
+        "C": "Bacteria and Eukarya diverged after their common ancestor diverged from Archaea.",
+        "D": "Archaea, Eukarya, and Bacteria diverged simultaneously from a common ancestor."
+    },
+    "answer": "A",
+    "predict": "To answer this question, let's analyze the information provided step by step: 1. **Understanding the question**: The question asks us to determine the order in which the three domains of life (Archaea, Eukarya, and Bacteria) diverged from a common ancestor based on the presence or absence of specific proteins (TBP and TFIIB) in their transcription processes. 2. **Identifying the key proteins**: - Eukarya use TBP and TFIIB for transcription. - Bacteria do not use these proteins. - At least one member of Archaea has a protein similar to TBP and a protein similar to TFIIB. 3. **Analyzing the implications**: - The presence of proteins similar to TBP and TFIIB in Archaea suggests that Archaea have a common ancestor with Eukarya, as these proteins are specific to Eukarya. - The absence of these proteins in Bacteria suggests that Bacteria diverged from the common ancestor before the divergence of Eukarya and Archaea, as Bacteria do not share these proteins. 4. **Determining the order of divergence**: - Since Bacteria do not use TBP and TFIIB, they must have diverged before the divergence of Eukarya and Archaea. - The presence of proteins similar to TBP and TFIIB in Archaea indicates a closer relationship to Eukarya, suggesting that Archaea diverged after Bacteria. 5. **Conclusion**: - The most likely scenario is that Bacteria diverged first, followed by the divergence of Archaea and then Eukarya. Therefore, the answer is: ```json {\"step_by_step_thinking\": \"Analyzing the presence and absence of TBP and TFIIB proteins in Archaea, Bacteria, and Eukarya suggests that Bacteria diverged first, followed by the divergence of Archaea and then Eukarya. This is because Bacteria do not use these proteins, indicating they diverged before Eukarya, and the presence of similar proteins in Archaea indicates a closer relationship to Eukarya, which diverged after Bacteria.\", \"answer_choice\": \"B\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 53.79675912857056
+}

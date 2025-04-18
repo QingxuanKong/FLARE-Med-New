@@ -1,0 +1,15 @@
+{
+    "id": "clinical_knowledge-016",
+    "question": "Which of the following is true about a thyroid swelling?",
+    "options": {
+        "A": "It always elevates on swallowing",
+        "B": "Lymph node enlargement is a good prognostic sign",
+        "C": "An ultrasound of the swelling is the best test to determine whether the nodule is actively secreting hormone",
+        "D": "A functioning nodule on isotope scanning is unlikely to be due to cancer"
+    },
+    "answer": "D",
+    "predict": "{\"step_by_step_thinking\": \"To answer this question, let's analyze each option step by step:\\n\\nOption A: It always elevates on swallowing. This is a characteristic feature of a thyroid goiter, which is a non-cancerous enlargement of the thyroid gland. However, not all thyroid swellings are goiters, and not all goiters elevate on swallowing. Therefore, this option is not universally true.\\n\\nOption B: Lymph node enlargement is a good prognostic sign. In the context of thyroid cancer, lymph node enlargement is actually a concerning sign, indicating possible metastasis. Therefore, this option is false.\\n\\nOption C: An ultrasound of the swelling is the best test to determine whether the nodule is actively secreting hormone. While ultrasound is a useful diagnostic tool for evaluating thyroid nodules, fine-needle aspiration cytology (FNAC) or radioactive iodine uptake scan is typically used to determine if a nodule is actively secreting hormone. Ultrasound can help identify the characteristics of the nodule, but it is not the best test for hormonal function. Therefore, this option is not entirely accurate.\\n\\nOption D: A functioning nodule on isotope scanning is unlikely to be due to cancer. This is true. A functioning nodule on radioactive iodine uptake scan indicates that the nodule is actively secreting thyroid hormone, which is more consistent with a benign condition such as a toxic multinodular goiter or a hyperfunctioning nodule, rather than a cancer. Therefore, this option is correct.\\n\\nanswer_choice\": \"D\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 21.474461317062378
+}

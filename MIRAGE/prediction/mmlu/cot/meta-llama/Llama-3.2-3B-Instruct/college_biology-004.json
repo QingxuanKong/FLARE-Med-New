@@ -1,0 +1,15 @@
+{
+    "id": "college_biology-004",
+    "question": "Synthesis of an RNA/DNA hybrid from a single-stranded RNA template requires",
+    "options": {
+        "A": "a DNA or RNA primer and reverse transcriptase",
+        "B": "a DNA or RNA primer and DNA polymerase",
+        "C": "RNase only",
+        "D": "reverse transcriptase only"
+    },
+    "answer": "A",
+    "predict": "To synthesize an RNA/DNA hybrid from a single-stranded RNA template, we need to break down the process step by step: 1. **Understanding the process**: The synthesis of an RNA/DNA hybrid, also known as a chimeric RNA-DNA molecule or a reverse transcriptase reaction, involves the creation of a DNA copy from an RNA template. This process is typically used in molecular biology to study gene expression, create gene probes, or generate DNA libraries. 2. **Key components**: The reaction requires a template, a primer, and an enzyme that can synthesize DNA from the RNA template. The most commonly used enzyme for this purpose is reverse transcriptase. 3. **Reverse transcriptase**: This enzyme is capable of reading the RNA template and adding nucleotides to create a complementary DNA strand. It is derived from retroviruses, such as HIV, but can also be obtained from bacterial sources. 4. **Primer**: A primer is required to initiate the synthesis of the DNA strand. This can be either a DNA primer or an RNA primer. However, in the context of creating an RNA/DNA hybrid, an RNA primer is more suitable because it will be complementary to the RNA template. 5. **Eliminating incorrect options**: - Option C (RNase only) is incorrect because RNase (ribonuclease) breaks down RNA, whereas we need an enzyme that can synthesize DNA. - Option D (reverse transcriptase only) is also incorrect because, although reverse transcriptase is necessary, a primer is also required to initiate the synthesis. 6. **Choosing the correct answer**: - Option A (a DNA or RNA primer and reverse transcriptase) is the correct choice because it includes both a primer (either DNA or RNA) and the enzyme necessary for synthesizing DNA from the RNA template, which is reverse transcriptase. Therefore, the answer is: ```json {\"step_by_step_thinking\": \"To synthesize an RNA/DNA hybrid, we need a primer and reverse transcriptase. The primer can be either DNA or RNA, but the key enzyme is reverse transcriptase, which synthesizes DNA from the RNA template.\", \"answer_choice\": \"A\"} ```",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 54.54185771942139
+}

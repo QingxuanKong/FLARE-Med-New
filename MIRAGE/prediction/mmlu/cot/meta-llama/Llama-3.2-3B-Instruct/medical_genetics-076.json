@@ -1,0 +1,15 @@
+{
+    "id": "medical_genetics-076",
+    "question": "Which of the following conditions is caused by a trinucleotide (triplet) repeat expansion?",
+    "options": {
+        "A": "Cystic fibrosis",
+        "B": "Duchenne muscular dystrophy",
+        "C": "Huntington disease",
+        "D": "Osteogenesis imperfecta"
+    },
+    "answer": "C",
+    "predict": "To answer this question, let's break it down step by step: 1. **Understanding Trinucleotide Repeat Expansion**: A trinucleotide repeat expansion refers to a type of genetic mutation where a sequence of three nucleotides (triplets) is repeated abnormally, often leading to a change in gene function or expression. This type of mutation is commonly associated with certain genetic disorders. 2. **Analyzing the Options**: - **A. Cystic Fibrosis**: This condition is primarily caused by a mutation in the CFTR gene, which is a missense mutation (a point mutation where a single nucleotide is changed) rather than a trinucleotide repeat expansion. - **B. Duchenne Muscular Dystrophy**: This condition is caused by a point mutation (a missense mutation) in the dystrophin gene, not a trinucleotide repeat expansion. - **C. Huntington Disease**: This condition is indeed caused by an expansion of a CAG repeat in the HTT gene, which is a classic example of a trinucleotide repeat expansion. - **D. Osteogenesis Imperfecta**: This condition is caused by mutations in genes that affect the production of collagen, such as COL1A1 and COL1A2. These mutations are typically point mutations or deletions, not trinucleotide repeats. 3. **Conclusion**: Based on the information above, the condition caused by a trinucleotide (triplet) repeat expansion is Huntington disease. **Answer in JSON format:** ```json { \"step_by_step_thinking\": \"The correct answer can be determined by understanding the nature of the genetic mutations causing each condition. Cystic fibrosis and Duchenne muscular dystrophy are caused by point mutations, while osteogenesis imperfecta is caused by mutations in collagen genes. Huntington disease, however, is caused by an expansion of a CAG repeat, making it the correct answer.\", \"answer_choice\": \"C\" } ```",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 31.459238052368164
+}

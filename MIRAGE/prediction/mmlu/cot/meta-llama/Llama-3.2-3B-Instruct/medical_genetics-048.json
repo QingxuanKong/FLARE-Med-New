@@ -1,0 +1,15 @@
+{
+    "id": "medical_genetics-048",
+    "question": "The proportion of genes shared by first cousins is on average ___.",
+    "options": {
+        "A": "1.0/2",
+        "B": "1.0/4",
+        "C": "1.0/8",
+        "D": "1.0/16"
+    },
+    "answer": "C",
+    "predict": "To determine the proportion of genes shared by first cousins, we need to understand the genetic relationship between them. First cousins share a set of great-grandparents but not parents. This means they share 1/2 of their DNA on average, but not the entire genome. Here's the step-by-step thinking: 1. First cousins share a set of great-grandparents, so they inherit 1/2 of their DNA from each of their great-grandparents. 2. Since they don't share parents, they don't inherit the same DNA from their grandparents. 3. Therefore, the proportion of genes shared by first cousins is half of the total number of genes they could potentially inherit from their great-grandparents. Given these considerations, the correct answer is B. 1.0/4. {\"step_by_step_thinking\": \"First cousins share 1/2 of their DNA on average from each of their great-grandparents, but not the entire genome. Therefore, the proportion of genes shared by first cousins is half of the total number of genes they could potentially inherit from their great-grandparents, which is 1/2 * 2 = 1/4.\", \"answer_choice\": \"B\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 6.94616436958313
+}

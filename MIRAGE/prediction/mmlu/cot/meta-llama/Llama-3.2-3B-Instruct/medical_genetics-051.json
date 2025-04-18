@@ -1,0 +1,15 @@
+{
+    "id": "medical_genetics-051",
+    "question": "On average, how many fragments would a restriction enzyme which recognizes a specific 4 base sequence in DNA be expected to cleave a double-stranded bacteriophage with a genome size of 5,000 bp into?",
+    "options": {
+        "A": "about 2",
+        "B": "about 4",
+        "C": "about 20",
+        "D": "about 50"
+    },
+    "answer": "C",
+    "predict": "To solve this problem, let's break it down step by step: 1. **Understanding the problem**: We have a restriction enzyme that recognizes a specific 4-base sequence in DNA. This means the enzyme will cut the DNA at every occurrence of this sequence. 2. **Identifying the genome size**: The bacteriophage has a genome size of 5,000 base pairs (bp). 3. **Calculating the number of fragments**: Since the restriction enzyme recognizes a 4-base sequence, we can assume it will cut the DNA at every 4th base pair. To find the number of fragments, we can divide the genome size by the length of the recognition sequence. 4. **Performing the calculation**: 5,000 bp / 4 bp = 1,250 fragments. However, since the DNA is double-stranded, the number of fragments will be twice the number of cuts because each cut can be made from either the top or the bottom strand. Therefore, we need to multiply the result by 2. 5. **Calculating the final number of fragments**: 1,250 * 2 = 2,500 fragments. Since the number of fragments must be a whole number, we can round down to the nearest whole number. However, given the options provided, the closest answer is not exactly 2,500, but we can see that 2,500 is roughly equivalent to 2,500/2 = 1,250, which is closest to option B (about 4) considering the rounding down to the nearest whole number isn't an option. Therefore, the answer is: {\"step_by_step_thinking\": \"To calculate the number of fragments, we divide the genome size by the recognition sequence length and multiply by 2 to account for double-stranded DNA. The calculation yields 2,500 fragments, which is closest to option B (about 4) when rounding down to the nearest whole number.\", \"answer_choice\": \"B\"}",
+    "snippets": [],
+    "scores": [],
+    "execution_time": 39.07820796966553
+}
