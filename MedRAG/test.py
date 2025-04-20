@@ -13,7 +13,7 @@ options = {
 
 # Initialize MedRAG with LLaMA + BM25 + MedCorp corpus
 current_dir = os.path.dirname(os.path.abspath(__file__))
-db_dir = os.path.join(current_dir, "src/data/corpus")
+db_dir = os.path.join(current_dir, "src/corpus")
 
 medrag = MedRAG(
     # llm_name="axiong/PMC_LLaMA_13B",  # or path to local model
@@ -51,7 +51,7 @@ print(scores[:3])
 # retriever = RetrievalSystem(
 #     retriever_name="MedCPT",  # or "MedCPT"
 #     corpus_name="MedText",  # make sure this matches your folder name
-#     db_dir="src/data/corpus",  # or absolute path to your corpus folder
+#     db_dir="src/corpus",  # or absolute path to your corpus folder
 #     cache=True,
 # )
 
