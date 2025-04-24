@@ -3,6 +3,11 @@ import json
 import tqdm
 import xml.etree.ElementTree as ET
 
+# Get the absolute path to the MedRAG directory
+script_dir = os.path.dirname(os.path.abspath(__file__))
+medrag_dir = os.path.dirname(os.path.dirname(script_dir))
+corpus_dir = os.path.join(os.path.dirname(script_dir), "corpus")
+
 def ends_with_ending_punctuation(s):
     ending_punctuation = ('.', '?', '!')
     return any(s.endswith(char) for char in ending_punctuation)
@@ -34,7 +39,7 @@ def is_subtitle(element):
     return True
 
 def extract(fpath):
-    fname = fpath.split("/")[-1].replace(".nxml", "")
+    fname = os.path.basename(fpath).replace(".nxml", "")
     tree = ET.parse(fpath)
     title = tree.getroot().find(".//title").text
     sections = tree.getroot().findall(".//sec")
@@ -93,12 +98,32 @@ def extract(fpath):
     return saved_text
 
 if __name__ == "__main__":
-    fnames = sorted([fname for fname in os.listdir("corpus/statpearls/statpearls_NBK430685") if fname.endswith("nxml")])
-    if not os.path.exists("corpus/statpearls/chunk"):
-        os.makedirs("corpus/statpearls/chunk")
+    input_dir = os.path.join(corpus_dir, "statpearls", "statpearls_NBK430685")
+    output_dir = os.path.join(corpus_dir, "statpearls", "chunk")
+    
+    print(f"Looking for files in: {input_dir}")
+    print(f"Input directory exists: {os.path.exists(input_dir)}")
+    
+    if not os.path.exists(input_dir):
+        print("Error: Input directory does not exist")
+        print(f"Current script path: {script_dir}")
+        print(f"MedRAG directory: {medrag_dir}")
+        print(f"Corpus directory: {corpus_dir}")
+        exit(1)
+    
+    fnames = sorted([fname for fname in os.listdir(input_dir) if fname.endswith("nxml")])
+    print(f"Found {len(fnames)} NXML files")
+    
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+        print(f"Created output directory: {output_dir}")
+    
     for fname in tqdm.tqdm(fnames):
-        fpath = os.path.join("corpus/statpearls/statpearls_NBK430685", fname)
+        fpath = os.path.join(input_dir, fname)
         saved_text = extract(fpath)
         if len(saved_text) > 0:
-            with open("corpus/statpearls/chunk/{:s}".format(fname.replace(".nxml", ".jsonl")), 'w') as f:
+            output_file = os.path.join(output_dir, fname.replace(".nxml", ".jsonl"))
+            with open(output_file, 'w') as f:
                 f.write('\n'.join(saved_text))
+    
+    print(f"Processing complete. Check {output_dir} for output files.")

@@ -17,10 +17,10 @@ db_dir = os.path.join(current_dir, "src/corpus")
 
 medrag = MedRAG(
     # llm_name="axiong/PMC_LLaMA_13B",  # or path to local model
-    llm_name="meta-llama/Llama-3.1-8B-Instruct",  # or path to local model
+    llm_name="meta-llama/Llama-3.2-3B-Instruct",  # or path to local model
     rag=True,
     retriever_name="RRF-4",
-    corpus_name="Textbooks",  # Must match folder in corpus/
+    corpus_name="StatPearls",  # Must match folder in corpus/
     db_dir=db_dir,  # Parent directory containing MedCorp/
     corpus_cache=False,  # Optional: speed up repeated runs
     cache_dir="src/llm/cache",  # Optional: cache directory for LLM
