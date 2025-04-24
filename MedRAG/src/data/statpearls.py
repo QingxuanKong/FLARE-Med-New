@@ -6,7 +6,7 @@ import xml.etree.ElementTree as ET
 # Get the absolute path to the MedRAG directory
 script_dir = os.path.dirname(os.path.abspath(__file__))
 medrag_dir = os.path.dirname(os.path.dirname(script_dir))
-corpus_dir = os.path.join(os.path.dirname(script_dir), "corpus")
+corpus_dir = os.path.join(script_dir, "corpus")
 
 def ends_with_ending_punctuation(s):
     ending_punctuation = ('.', '?', '!')

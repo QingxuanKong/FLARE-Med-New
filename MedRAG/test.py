@@ -1,19 +1,19 @@
-# from src.medrag import MedRAG
-# import os
-# import torch, gc
+from src.medrag import MedRAG
+import os
+import torch, gc
 
-# # Example question (from MMLU-style prompt)
-# question = "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral"
-# options = {
-#     "A": "paralysis of the facial muscles.",
-#     "B": "paralysis of the facial muscles and loss of taste.",
-#     "C": "paralysis of the facial muscles, loss of taste and lacrimation.",
-#     "D": "paralysis of the facial muscles, loss of taste, lacrimation and decreased salivation.",
-# }
+# Example question (from MMLU-style prompt)
+question = "A lesion causing compression of the facial nerve at the stylomastoid foramen will cause ipsilateral"
+options = {
+    "A": "paralysis of the facial muscles.",
+    "B": "paralysis of the facial muscles and loss of taste.",
+    "C": "paralysis of the facial muscles, loss of taste and lacrimation.",
+    "D": "paralysis of the facial muscles, loss of taste, lacrimation and decreased salivation.",
+}
 
-# # Initialize MedRAG with LLaMA + BM25 + MedCorp corpus
-# current_dir = os.path.dirname(os.path.abspath(__file__))
-# db_dir = os.path.join(current_dir, "./src/data/corpus")
+# Initialize MedRAG with LLaMA + BM25 + MedCorp corpus
+current_dir = os.path.dirname(os.path.abspath(__file__))
+db_dir = os.path.join(current_dir, "src/data/corpus")
 
 medrag = MedRAG(
     # llm_name="axiong/PMC_LLaMA_13B",  # or path to local model
@@ -26,19 +26,19 @@ medrag = MedRAG(
     cache_dir="src/llm/cache",  # Optional: cache directory for LLM
 )
 
-# # Generate answer using retrieval
-# answer, snippets, scores = medrag.answer(question=question, options=options, k=32)
+# Generate answer using retrieval
+answer, snippets, scores = medrag.answer(question=question, options=options, k=32)
 
-# # Output results
-# print("===== Final Answer =====")
-# print(answer)
+# Output results
+print("===== Final Answer =====")
+print(answer)
 
-# print("\n===== Top Retrieved Snippets =====")
-# for i, snippet in enumerate(snippets[:3]):
-#     print(f"[{i+1}] {snippet['title']}:\n{snippet['content'][:300]}...\n")
+print("\n===== Top Retrieved Snippets =====")
+for i, snippet in enumerate(snippets[:3]):
+    print(f"[{i+1}] {snippet['title']}:\n{snippet['content'][:300]}...\n")
 
-# print("\n===== Retrieval Scores =====")
-# print(scores[:3])
+print("\n===== Retrieval Scores =====")
+print(scores[:3])
 
 
 # # ----------------------------------------------------
@@ -67,7 +67,7 @@ medrag = MedRAG(
 # --------------test the llama flare agent------------
 # ----------------------------------------------------
 
-from src.utils import RetrievalSystem
+""" from src.utils import RetrievalSystem
 from src.isla_llama_flare_agent import LlamaFlareAgent
 
 # Set the corpus name and path you used when chunking
@@ -76,10 +76,10 @@ retriever = RetrievalSystem(
     corpus_name="Textbooks",  # make sure this matches your folder name
     db_dir="./src/data/corpus",  # or absolute path to your corpus folder
     cache=True,
-)
+) """
 
-agent = LlamaFlareAgent(
-    model_name_or_path="meta-llama/Llama-3.1-8B-Instruct",  # or path to local model
+""" agent = LlamaFlareAgent(
+    model_name_or_path="meta-llama/Llama-3.2-3B-Instruct",  # or path to local model
     retriever=retriever,
     # --- FLARE Control Parameters ---
     uncertainty_threshold=0.6,
@@ -92,9 +92,9 @@ agent = LlamaFlareAgent(
     top_p=1.0,
     max_total_tokens=1024,
     debug=True,
-)
+) """
 
-question = "What are the main treatments for type 2 diabetes?"
+""" question = "What are the main treatments for type 2 diabetes?"
 base_prompt = "You are a medical assistant. Answer the following question accurately based on the provided context, thinking step-by-step."
 
 final_answer, history = agent.generate_answer(
@@ -104,5 +104,5 @@ final_answer, history = agent.generate_answer(
 )
 
 print("\n--- Final Answer ---")
-print(final_answer)
+print(final_answer) """
 
