@@ -71,11 +71,11 @@ class MedRAG:
 
     def __init__(
         self,
-        llm_name="OpenAI/gpt-3.5-turbo-16k",
+        llm_name="OpenAI/gpt-4.1-nano",
         rag=True,
         follow_up=False,
         retriever_name="MedCPT",
-        corpus_name="Textbooks",
+        corpus_name="MedText",
         db_dir="./corpus",
         cache_dir=None,
         corpus_cache=False,

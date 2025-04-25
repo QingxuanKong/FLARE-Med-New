@@ -1,8 +1,8 @@
 {
-    "corpus_name": "Textbooks",
+    "corpus_name": "MedText",
     "retriever_name": "RRF-4",
-    "llm_name": "OpenAI/gpt-4.1",
-    "rag": false,
+    "llm_name": "OpenAI/gpt-4.1-nano",
+    "rag": true,
     "k": 32,
     "results_dir": "./prediction",
     "dataset_name": "mmlu"
