@@ -7,6 +7,10 @@ import argparse
 from datasets import Dataset
 import torch, gc
 import time
+import concurrent.futures
+from concurrent.futures import ThreadPoolExecutor
+import threading
+from tqdm import tqdm
 
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
@@ -28,6 +32,8 @@ parser.add_argument("--max_query_length", type=int, default=300)
 parser.add_argument("--follow_up", action=argparse.BooleanOptionalAction)
 parser.add_argument("--n_rounds", type=int, default=3)
 parser.add_argument("--n_queries", type=int, default=2)
+# Threading parameters
+parser.add_argument("--threads", type=int, default=4, help="Number of concurrent threads to use")
 
 args = parser.parse_args()
 
@@ -62,6 +68,7 @@ for key in [
     "follow_up",
     "n_rounds",
     "n_queries",
+    "threads",
 ]:
     print(f"{key}: {getattr(args, key)}")
 
@@ -86,7 +93,8 @@ for qid, qdata in dataset.items():
 print(f"Total {len(qa_list)} questions in {task_key} dataset\n")
 
 
-# Initialize MedRAG
+# Initialize MedRAG with thread lock for thread safety
+medrag_lock = threading.RLock()
 medrag = MedRAG(
     llm_name=args.llm_name,  # or path to local model
     rag=args.rag,
@@ -127,66 +135,96 @@ print(f"Results will be saved to {save_dir}\n")
 existing_files = set(os.listdir(save_dir))
 print(f"Found {len(existing_files)} existing files in {save_dir}\n")
 
-start_time = time.time()
-last_time = start_time
+# For thread safety when writing to console
+print_lock = threading.Lock()
 
-# Generate answer using retrieval
-for idx, qa in enumerate(qa_list):
-    if idx % 5 == 0:
-        print(f"Processing question {idx + 1}/{len(qa_list)} ...")
-
-        this_time = time.time()
-        loop_time = this_time - last_time
-        last_time = this_time
-
-        elapsed = this_time - start_time
-        avg_time = elapsed / (idx + 1)
-        remaining = (len(qa_list) - (idx + 1)) * avg_time
-        
-        print(f"Time elapsed: {int(loop_time // 60)}m {int(loop_time % 60)}s, ETA: {int(remaining // 60)}m {int(remaining % 60)}s remaining")
-
+# Function to process a single question
+def process_question(qa):
+    # Skip if already processed
     if qa["id"] + ".json" in existing_files:
-        print(f"Skipping {qa['id']}, already exists")
-        continue
-
+        with print_lock:
+            print(f"Skipping {qa['id']}, already exists")
+        return None
+    
+    start_time = time.time()
     question = qa["question"]
     options = qa["options"]
     
-    # Handle different answer methods based on follow-up setting
-    if args.follow_up:
-        answer, messages = medrag.answer(
-            question=question, 
-            options=options, 
-            k=args.k,
-            n_rounds=args.n_rounds,
-            n_queries=args.n_queries
-        )
-        # Extract snippets from messages
-        all_snippets = []
-        for msg in messages:
-            if isinstance(msg, dict) and msg.get("role") == "system" and msg.get("snippets"):
-                all_snippets.extend(msg.get("snippets", []))
-            elif hasattr(msg, "role") and msg.role == "system" and hasattr(msg, "snippets"):
-                all_snippets.extend(getattr(msg, "snippets", []))
+    try:
+        # Handle different answer methods based on follow-up setting
+        if args.follow_up:
+            with medrag_lock:  # Ensure thread safety for MedRAG
+                answer, messages = medrag.answer(
+                    question=question, 
+                    options=options, 
+                    k=args.k,
+                    n_rounds=args.n_rounds,
+                    n_queries=args.n_queries
+                )
+            # Extract snippets from messages
+            all_snippets = []
+            for msg in messages:
+                if isinstance(msg, dict) and msg.get("role") == "system" and msg.get("snippets"):
+                    all_snippets.extend(msg.get("snippets", []))
+                elif hasattr(msg, "role") and msg.role == "system" and hasattr(msg, "snippets"):
+                    all_snippets.extend(getattr(msg, "snippets", []))
+            
+            snippets = all_snippets
+            scores = None  # Scores might not be available in this format
+            qa["messages"] = [m if isinstance(m, dict) else m.model_dump() for m in messages]
+        else:
+            with medrag_lock:  # Ensure thread safety for MedRAG
+                answer, snippets, scores = medrag.answer(
+                    question=question, 
+                    options=options, 
+                    k=args.k
+                )
         
-        snippets = all_snippets
-        scores = None  # Scores might not be available in this format
-        qa["messages"] = [m if isinstance(m, dict) else m.model_dump() for m in messages]
-    else:
-        answer, snippets, scores = medrag.answer(
-            question=question, 
-            options=options, 
-            k=args.k
-        )
+        qa["predict"] = answer
+        qa["snippets"] = snippets
+        if scores is not None:
+            qa["scores"] = scores
+        qa["execution_time"] = time.time() - start_time
+        
+        # Save the result
+        with open(os.path.join(save_dir, qa["id"] + ".json"), "w") as f:
+            json.dump(qa, f, indent=4)
+        
+        # Clean up
+        gc.collect()
+        try:
+            torch.cuda.empty_cache()
+        except:
+            pass  # In case CUDA is not available
+            
+        return qa["id"]
+    except Exception as e:
+        with print_lock:
+            print(f"Error processing question {qa['id']}: {str(e)}")
+        return None
+
+# Calculate how many questions need to be processed
+questions_to_process = [qa for qa in qa_list if qa["id"] + ".json" not in existing_files]
+print(f"Processing {len(questions_to_process)} out of {len(qa_list)} questions with {args.threads} threads\n")
+
+# Process questions using thread pool
+start_time = time.time()
+with ThreadPoolExecutor(max_workers=args.threads) as executor:
+    futures = {executor.submit(process_question, qa): qa["id"] for qa in questions_to_process}
     
-    qa["predict"] = answer
-    qa["snippets"] = snippets
-    if scores is not None:
-        qa["scores"] = scores
-    qa["execution_time"] = time.time() - last_time  # Changed from this_time to last_time to match the timing variable
+    # Setup progress bar
+    pbar = tqdm(total=len(questions_to_process), desc="Processing questions")
+    
+    for future in concurrent.futures.as_completed(futures):
+        result = future.result()
+        if result:
+            pbar.update(1)
+    
+    pbar.close()
 
-    with open(os.path.join(save_dir, qa["id"] + ".json"), "w") as f:
-        json.dump(qa, f, indent=4)
-
-    gc.collect()
-    torch.cuda.empty_cache()
+# Final summary
+total_time = time.time() - start_time
+print(f"\nBenchmark completed in {int(total_time // 60)}m {int(total_time % 60)}s")
+print(f"Processed {len(questions_to_process)} questions using {args.threads} threads")
+print(f"Average time per question: {total_time / max(1, len(questions_to_process)):.2f}s")
+print(f"Results saved to {save_dir}")
