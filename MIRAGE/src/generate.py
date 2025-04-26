@@ -19,6 +19,15 @@ parser.add_argument("--rag", action=argparse.BooleanOptionalAction)
 parser.add_argument("--k", type=int, default=32)
 parser.add_argument("--results_dir", type=str, default="./prediction")
 parser.add_argument("--dataset_name", type=str, default="bioasq")
+# FLARE parameters
+parser.add_argument("--enable_flare", action=argparse.BooleanOptionalAction)
+parser.add_argument("--look_ahead_steps", type=int, default=50)
+parser.add_argument("--look_ahead_truncate_at_boundary", type=str, default=".,?,!")
+parser.add_argument("--max_query_length", type=int, default=300)
+# Follow-up parameters
+parser.add_argument("--follow_up", action=argparse.BooleanOptionalAction)
+parser.add_argument("--n_rounds", type=int, default=3)
+parser.add_argument("--n_queries", type=int, default=2)
 
 args = parser.parse_args()
 
@@ -46,6 +55,13 @@ for key in [
     "k",
     "results_dir",
     "dataset_name",
+    "enable_flare",
+    "look_ahead_steps",
+    "look_ahead_truncate_at_boundary",
+    "max_query_length",
+    "follow_up",
+    "n_rounds",
+    "n_queries",
 ]:
     print(f"{key}: {getattr(args, key)}")
 
@@ -79,15 +95,24 @@ medrag = MedRAG(
     db_dir="../MedRAG/src/data/corpus",  # Parent directory containing MedCorp/
     corpus_cache=True,  # Optional: speed up repeated runs
     cache_dir="../MedRAG/src/llm/cache",  # Optional: cache directory for LLM
+    # FLARE parameters
+    enable_flare=args.enable_flare,
+    look_ahead_steps=args.look_ahead_steps,
+    look_ahead_truncate_at_boundary=list(args.look_ahead_truncate_at_boundary),
+    max_query_length=args.max_query_length,
+    # Follow-up parameters
+    follow_up=args.follow_up,
 )
 
 
 # Output results
 if args.rag:
+    flare_part = "_flare" if args.enable_flare else ""
+    followup_part = "_followup" if args.follow_up else ""
     save_dir = os.path.join(
         args.results_dir,
         args.dataset_name,
-        "rag_" + str(args.k),
+        f"rag{flare_part}{followup_part}_{args.k}",
         args.llm_name,
         args.corpus_name,
         args.retriever_name,
@@ -126,13 +151,39 @@ for idx, qa in enumerate(qa_list):
 
     question = qa["question"]
     options = qa["options"]
-    answer, snippets, scores = medrag.answer(
-        question=question, options=options, k=args.k
-    )
+    
+    # Handle different answer methods based on follow-up setting
+    if args.follow_up:
+        answer, messages = medrag.answer(
+            question=question, 
+            options=options, 
+            k=args.k,
+            n_rounds=args.n_rounds,
+            n_queries=args.n_queries
+        )
+        # Extract snippets from messages
+        all_snippets = []
+        for msg in messages:
+            if isinstance(msg, dict) and msg.get("role") == "system" and msg.get("snippets"):
+                all_snippets.extend(msg.get("snippets", []))
+            elif hasattr(msg, "role") and msg.role == "system" and hasattr(msg, "snippets"):
+                all_snippets.extend(getattr(msg, "snippets", []))
+        
+        snippets = all_snippets
+        scores = None  # Scores might not be available in this format
+        qa["messages"] = [m if isinstance(m, dict) else m.model_dump() for m in messages]
+    else:
+        answer, snippets, scores = medrag.answer(
+            question=question, 
+            options=options, 
+            k=args.k
+        )
+    
     qa["predict"] = answer
     qa["snippets"] = snippets
-    qa["scores"] = scores
-    qa["execution_time"] = time.time() - this_time
+    if scores is not None:
+        qa["scores"] = scores
+    qa["execution_time"] = time.time() - last_time  # Changed from this_time to last_time to match the timing variable
 
     with open(os.path.join(save_dir, qa["id"] + ".json"), "w") as f:
         json.dump(qa, f, indent=4)

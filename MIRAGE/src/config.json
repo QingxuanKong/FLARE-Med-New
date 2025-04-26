@@ -5,6 +5,13 @@
     "rag": true,
     "k": 32,
     "results_dir": "./prediction",
-    "dataset_name": "mmlu"
+    "dataset_name": "mmlu",
+    "enable_flare": true,
+    "look_ahead_steps": 50,
+    "look_ahead_truncate_at_boundary": ".,?,!",
+    "max_query_length": 300,
+    "follow_up": true,
+    "n_rounds": 3,
+    "n_queries": 2
   }
   
