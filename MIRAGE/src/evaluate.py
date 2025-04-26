@@ -53,6 +53,14 @@ if __name__ == "__main__":
     parser.add_argument("--k", type=int, default=32)
     parser.add_argument("--results_dir", type=str, default="./prediction")
     parser.add_argument("--dataset_name", type=str, default=None)
+    parser.add_argument("--enable_flare", action=argparse.BooleanOptionalAction)
+    parser.add_argument("--look_ahead_steps", type=int, default=50)
+    parser.add_argument("--look_ahead_truncate_at_boundary", type=str, default=".,?,!")
+    parser.add_argument("--max_query_length", type=int, default=300)
+    parser.add_argument("--follow_up", action=argparse.BooleanOptionalAction)
+    parser.add_argument("--n_rounds", type=int, default=3)
+    parser.add_argument("--n_queries", type=int, default=2)
+    parser.add_argument("--threads", type=int, default=8)
 
     args = parser.parse_args()
 
@@ -78,6 +86,14 @@ if __name__ == "__main__":
         "k",
         "results_dir",
         "dataset_name",
+        "enable_flare",
+        "look_ahead_steps",
+        "look_ahead_truncate_at_boundary",
+        "max_query_length",
+        "follow_up",
+        "n_rounds",
+        "n_queries",
+        "threads",
     ]:
         print(f"{key}: {getattr(args, key)}")
     print()
@@ -89,6 +105,8 @@ if __name__ == "__main__":
     rag = args.rag
     k = args.k
     results_dir = args.results_dir
+    enable_flare = args.enable_flare
+    follow_up = args.follow_up
     
     # Config dataset and benchmark
     if args.dataset_name is not None:
@@ -107,7 +125,17 @@ if __name__ == "__main__":
         if dataset_name == "medmcqa":
             split = "dev"
         if rag:
-            save_dir = os.path.join(results_dir, dataset_name, "rag_"+str(k), llm_name, corpus_name, retriever_name)
+            # Use the exact same directory structure as in generate.py
+            flare_part = "_flare" if enable_flare else ""
+            followup_part = "_followup" if follow_up else ""
+            save_dir = os.path.join(
+                results_dir,
+                dataset_name,
+                f"rag{flare_part}{followup_part}_{k}",
+                llm_name,
+                corpus_name,
+                retriever_name,
+            )
         else:
             save_dir = os.path.join(results_dir, dataset_name, "cot", llm_name)
 

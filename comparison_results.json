@@ -1,0 +1,25 @@
+{
+  "question": "What is the primary mechanism of SGLT2 inhibitors in the treatment of diabetes?",
+  "options": {
+    "A": "Increasing insulin secretion from pancreatic beta cells",
+    "B": "Blocking carbohydrate absorption in the intestines",
+    "C": "Reducing glucose reabsorption in the kidney proximal tubule",
+    "D": "Enhancing peripheral insulin sensitivity in muscle tissue"
+  },
+  "standard_medrag": {
+    "answer": "{ \"step_by_step_thinking\": \"SGLT2 inhibitors, such as canagliflozin and empagliflozin, primarily target the sodium-glucose co-transporter 2 (SGLT2) located in the proximal tubules of the kidneys. Their main action is to inhibit glucose reabsorption in this part of the nephron, leading to increased urinary glucose excretion. This mechanism is independent of insulin secretion and does not involve carbohydrate absorption in the intestines or direct effects on insulin sensitivity in peripheral tissues. The documents consistently describe the primary effect of SGLT2 inhibitors as reducing renal glucose reabsorption, which results in glucosuria and lowered blood glucose levels.\", \"answer_choice\": \"C\" }",
+    "num_snippets": 10
+  },
+  "flare_medrag": {
+    "answer": "{ \"step_by_step_thinking\": \"SGLT2 inhibitors work by targeting the sodium-glucose co-transporter 2 (SGLT2) in the kidneys, which is responsible for reabsorbing the majority of glucose filtered through the renal glomerulus. By inhibiting SGLT2, these drugs reduce renal glucose reabsorption, leading to increased urinary glucose excretion and consequently lowering blood glucose levels. The documents consistently describe this mechanism, emphasizing the reduction of glucose reabsorption in the proximal tubules of the kidney as the primary action. Other options, such as increasing insulin secretion, blocking intestinal carbohydrate absorption, or enhancing insulin sensitivity in muscles, are not the main mechanisms of SGLT2 inhibitors.\", \"answer_choice\": \"C\" }",
+    "num_snippets": 10
+  },
+  "followup_medrag": {
+    "answer": "{\"answer\": \"C\"}",
+    "conversation_turns": 5
+  },
+  "flare_with_followup": {
+    "answer": "{\"answer\": \"C\"}",
+    "conversation_turns": 5
+  }
+}

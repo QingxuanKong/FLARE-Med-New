@@ -92,6 +92,7 @@ class MedRAG:
         use_full_input_as_query=False,
         max_query_length=None,
         final_stop_sym="\n\n",
+        verbose=False,
     ):
         self.llm_name = llm_name
         self.rag = rag
@@ -100,7 +101,14 @@ class MedRAG:
         self.db_dir = db_dir
         self.cache_dir = cache_dir
         self.docExt = None
+        self.verbose = verbose
+        
+        if self.verbose:
+            print(f"[VERBOSE] Initializing MedRAG with {llm_name}")
+            
         if rag:
+            if self.verbose:
+                print(f"[VERBOSE] Setting up retrieval system: {retriever_name}, {corpus_name}")
             self.retrieval_system = RetrievalSystem(
                 self.retriever_name,
                 self.corpus_name,
@@ -248,15 +256,28 @@ class MedRAG:
         """
         generate response given messages
         """
+        if self.verbose:
+            print(f"[VERBOSE] Making API call to {self.llm_name}")
+            print(f"[VERBOSE] Messages: {json.dumps(messages, indent=2)}")
+            print(f"[VERBOSE] Parameters: {json.dumps(kwargs, indent=2)}")
+            
         if "openai" in self.llm_name.lower():
+            start_time = time.time()
             ans = openai_client(
                 model=self.model, messages=messages, temperature=0.0, **kwargs
             )
+            if self.verbose:
+                print(f"[VERBOSE] API call completed in {time.time() - start_time:.2f} seconds")
+                print(f"[VERBOSE] Response: {ans[:100]}...")
         elif "gemini" in self.llm_name.lower():
+            start_time = time.time()
             response = self.model.generate_content(
                 messages[0]["content"] + "\n\n" + messages[1]["content"], **kwargs
             )
             ans = response.candidates[0].content.parts[0].text
+            if self.verbose:
+                print(f"[VERBOSE] API call completed in {time.time() - start_time:.2f} seconds")
+                print(f"[VERBOSE] Response: {ans[:100]}...")
         else:
             stopping_criteria = None
             prompt = self.tokenizer.apply_chat_template(
@@ -270,6 +291,10 @@ class MedRAG:
                         self.tokenizer.encode(prompt, add_special_tokens=True)
                     ),
                 )
+            if self.verbose:
+                print(f"[VERBOSE] Processing prompt with length: {len(prompt)}")
+                
+            start_time = time.time()
             if "llama-3" in self.llm_name.lower():
                 response = self.model(
                     prompt,
@@ -299,6 +324,10 @@ class MedRAG:
                 )
             # ans = response[0]["generated_text"]
             ans = response[0]["generated_text"][len(prompt) :]
+            if self.verbose:
+                print(f"[VERBOSE] Generation completed in {time.time() - start_time:.2f} seconds")
+                print(f"[VERBOSE] Response: {ans[:100]}...")
+                
         return ans
 
     def medrag_answer(
@@ -321,6 +350,10 @@ class MedRAG:
         snippets (List[Dict]): list of snippets to be used
         snippets_ids (List[Dict]): list of snippet ids to be used
         """
+        if self.verbose:
+            print(f"[VERBOSE] medrag_answer called with question: {question[:50]}...")
+            print(f"[VERBOSE] Options: {options}")
+            print(f"[VERBOSE] k={k}, rrf_k={rrf_k}")
 
         if options is not None:
             options = "\n".join(
@@ -332,9 +365,13 @@ class MedRAG:
         # retrieve relevant snippets
         if self.rag:
             if snippets is not None:
+                if self.verbose:
+                    print(f"[VERBOSE] Using provided snippets: {len(snippets)}")
                 retrieved_snippets = snippets[:k]
                 scores = []
             elif snippets_ids is not None:
+                if self.verbose:
+                    print(f"[VERBOSE] Using provided snippet IDs: {len(snippets_ids)}")
                 if self.docExt is None:
                     self.docExt = DocExtracter(
                         db_dir=self.db_dir, cache=True, corpus_name=self.corpus_name
@@ -342,10 +379,16 @@ class MedRAG:
                 retrieved_snippets = self.docExt.extract(snippets_ids[:k])
                 scores = []
             else:
+                if self.verbose:
+                    print(f"[VERBOSE] Retrieving snippets for question: {question[:50]}...")
                 assert self.retrieval_system is not None
+                start_time = time.time()
                 retrieved_snippets, scores = self.retrieval_system.retrieve(
                     question, k=k, rrf_k=rrf_k
                 )
+                if self.verbose:
+                    print(f"[VERBOSE] Retrieval completed in {time.time() - start_time:.2f} seconds")
+                    print(f"[VERBOSE] Retrieved {len(retrieved_snippets)} snippets")
 
             contexts = [
                 "Document [{:d}] (Title: {:s}) {:s}".format(
@@ -357,6 +400,8 @@ class MedRAG:
             ]
             if len(contexts) == 0:
                 contexts = [""]
+            if self.verbose:
+                print(f"[VERBOSE] Tokenizing and truncating contexts")
             if "openai" in self.llm_name.lower():
                 contexts = [
                     self.tokenizer.decode(
@@ -382,6 +427,8 @@ class MedRAG:
                     )
                 ]
         else:
+            if self.verbose:
+                print(f"[VERBOSE] RAG disabled, proceeding without retrieval")
             retrieved_snippets = []
             scores = []
             contexts = []
@@ -392,6 +439,8 @@ class MedRAG:
         # generate answers
         answers = []
         if not self.rag:
+            if self.verbose:
+                print(f"[VERBOSE] Generating CoT answer without RAG")
             prompt_cot = self.templates["cot_prompt"].render(
                 question=question, options=options
             )
@@ -402,7 +451,11 @@ class MedRAG:
             ans = self.generate(messages, **kwargs)
             answers.append(re.sub("\s+", " ", ans))
         else:
-            for context in contexts:
+            if self.verbose:
+                print(f"[VERBOSE] Generating RAG-enhanced answers")
+            for i, context in enumerate(contexts):
+                if self.verbose:
+                    print(f"[VERBOSE] Processing context {i+1}/{len(contexts)}")
                 prompt_medrag = self.templates["medrag_prompt"].render(
                     context=context, question=question, options=options
                 )
@@ -414,6 +467,8 @@ class MedRAG:
                 answers.append(re.sub("\s+", " ", ans))
 
         if save_dir is not None:
+            if self.verbose:
+                print(f"[VERBOSE] Saving results to {save_dir}")
             with open(os.path.join(save_dir, "snippets.json"), "w") as f:
                 json.dump(retrieved_snippets, f, indent=4)
             with open(os.path.join(save_dir, "response.json"), "w") as f:
@@ -692,11 +747,19 @@ class MedRAG:
         """
         Implements basic FLARE look ahead capability for standard RAG
         """
+        if self.verbose:
+            print(f"[VERBOSE] _flare_without_follow_up called with question: {question[:50]}...")
+            print(f"[VERBOSE] FLARE parameters: steps={self.look_ahead_steps}, boundary={self.look_ahead_boundary}")
+            
         # Initial retrieval (standard approach)
         if snippets is not None:
+            if self.verbose:
+                print(f"[VERBOSE] Using provided snippets: {len(snippets)}")
             retrieved_snippets = snippets[:k]
             scores = []
         elif snippets_ids is not None:
+            if self.verbose:
+                print(f"[VERBOSE] Using provided snippet IDs: {len(snippets_ids)}")
             if self.docExt is None:
                 self.docExt = DocExtracter(
                     db_dir=self.db_dir, cache=True, corpus_name=self.corpus_name
@@ -704,10 +767,16 @@ class MedRAG:
             retrieved_snippets = self.docExt.extract(snippets_ids[:k])
             scores = []
         else:
+            if self.verbose:
+                print(f"[VERBOSE] Initial retrieval for question: {question[:50]}...")
             assert self.retrieval_system is not None
+            start_time = time.time()
             retrieved_snippets, scores = self.retrieval_system.retrieve(
                 question, k=k, rrf_k=rrf_k
             )
+            if self.verbose:
+                print(f"[VERBOSE] Initial retrieval completed in {time.time() - start_time:.2f} seconds")
+                print(f"[VERBOSE] Retrieved {len(retrieved_snippets)} snippets")
         
         # Format initial context
         initial_contexts = [

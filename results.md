@@ -118,3 +118,33 @@ dataset_name: bioasq
 [Average] mean acc: 0.7136
 ```
 
+## pubmedqa
+```
+
+Benchmark completed in 1m 51s
+Processed 500 questions using 8 threads
+Average time per question: 0.22s
+Results saved to ./prediction/pubmedqa/cot/OpenAI/gpt-4.1-nano
+Loaded configuration from src/config.json
+
+Final arguments:
+corpus_name: MedText
+retriever_name: RRF-4
+llm_name: OpenAI/gpt-4.1-nano
+rag: False
+k: 32
+results_dir: ./prediction
+dataset_name: pubmedqa
+enable_flare: False
+look_ahead_steps: 50
+look_ahead_truncate_at_boundary: .,?,!
+max_query_length: 300
+follow_up: False
+n_rounds: 3
+n_queries: 2
+threads: 8
+
+[pubmedqa] mean acc: 0.4900; proportion std: 0.0224
+[Average] mean acc: 0.4900
+```
+

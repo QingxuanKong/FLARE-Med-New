@@ -14,7 +14,7 @@ def display_documents(snippets, scores=None):
         print(f"Content: {doc}")
         print("-" * 80)
 
-def test_standard_medrag(question, options):
+def test_standard_medrag(question, options, verbose=False):
     """Test standard MedRAG without FLARE or follow-up functionality"""
     print("\n=== Testing Standard MedRAG ===")
     model = MedRAG(
@@ -23,7 +23,8 @@ def test_standard_medrag(question, options):
         follow_up=False,
         retriever_name="MedCPT",
         corpus_name="MedText",
-        db_dir="./MedRAG/src/data/corpus"
+        db_dir="./MedRAG/src/data/corpus",
+        verbose=verbose
     )
     
     answer, snippets, scores = model.answer(question, options=options, k=10)
@@ -37,7 +38,7 @@ def test_standard_medrag(question, options):
     
     return answer, snippets, scores
 
-def test_flare_medrag(question, options):
+def test_flare_medrag(question, options, verbose=False):
     """Test MedRAG with FLARE's look ahead capability"""
     print("\n=== Testing FLARE-enhanced MedRAG ===")
     model = MedRAG(
@@ -50,7 +51,8 @@ def test_flare_medrag(question, options):
         enable_flare=True,
         look_ahead_steps=50,
         look_ahead_truncate_at_boundary=['.', '?', '!'],
-        max_query_length=300
+        max_query_length=300,
+        verbose=verbose
     )
     
     answer, snippets, scores = model.answer(question, options=options, k=10)
@@ -64,7 +66,7 @@ def test_flare_medrag(question, options):
     
     return answer, snippets, scores
 
-def test_followup_medrag(question, options):
+def test_followup_medrag(question, options, verbose=False):
     """Test MedRAG with follow-up questions ability"""
     print("\n=== Testing MedRAG with Follow-up Questions ===")
     model = MedRAG(
@@ -73,7 +75,8 @@ def test_followup_medrag(question, options):
         follow_up=True,
         retriever_name="MedCPT",
         corpus_name="MedText",
-        db_dir="./MedRAG/src/data/corpus"
+        db_dir="./MedRAG/src/data/corpus",
+        verbose=verbose
     )
     
     answer, messages = model.answer(
@@ -114,7 +117,7 @@ def test_followup_medrag(question, options):
     
     return answer, messages
 
-def test_flare_with_followup(question, options):
+def test_flare_with_followup(question, options, verbose=False):
     """Test MedRAG with both FLARE's look ahead and follow-up questions"""
     print("\n=== Testing FLARE-enhanced MedRAG with Follow-up Questions ===")
     model = MedRAG(
@@ -127,7 +130,8 @@ def test_flare_with_followup(question, options):
         enable_flare=True,
         look_ahead_steps=50,
         look_ahead_truncate_at_boundary=['.', '?', '!'],
-        max_query_length=300
+        max_query_length=300,
+        verbose=verbose
     )
     
     answer, messages = model.answer(
@@ -172,15 +176,15 @@ def test_flare_with_followup(question, options):
     
     return answer, messages
 
-def compare_results(question, options):
+def compare_results(question, options, verbose=False):
     """Compare results from all four approaches"""
     print("\n=== Running Comparison Tests ===")
     
     # Run all four test cases
-    std_answer, std_snippets, std_scores = test_standard_medrag(question, options)
-    flare_answer, flare_snippets, flare_scores = test_flare_medrag(question, options)
-    followup_answer, followup_messages = test_followup_medrag(question, options)
-    combined_answer, combined_messages = test_flare_with_followup(question, options)
+    std_answer, std_snippets, std_scores = test_standard_medrag(question, options, verbose)
+    flare_answer, flare_snippets, flare_scores = test_flare_medrag(question, options, verbose)
+    followup_answer, followup_messages = test_followup_medrag(question, options, verbose)
+    combined_answer, combined_messages = test_flare_with_followup(question, options, verbose)
     
     # Save comparison results
     comparison = {
@@ -217,6 +221,8 @@ if __name__ == "__main__":
     parser.add_argument("--question", type=str, 
                       default="What is the primary mechanism of SGLT2 inhibitors in the treatment of diabetes?",
                       help="Medical question to test")
+    parser.add_argument("--verbose", action="store_true", 
+                      help="Display all API calls during execution")
     
     args = parser.parse_args()
     
@@ -229,12 +235,12 @@ if __name__ == "__main__":
     }
     
     if args.mode == "standard":
-        test_standard_medrag(args.question, options)
+        test_standard_medrag(args.question, options, args.verbose)
     elif args.mode == "flare":
-        test_flare_medrag(args.question, options)
+        test_flare_medrag(args.question, options, args.verbose)
     elif args.mode == "followup":
-        test_followup_medrag(args.question, options)
+        test_followup_medrag(args.question, options, args.verbose)
     elif args.mode == "combined":
-        test_flare_with_followup(args.question, options)
+        test_flare_with_followup(args.question, options, args.verbose)
     else:  # comparison
-        compare_results(args.question, options) 
+        compare_results(args.question, options, args.verbose) 

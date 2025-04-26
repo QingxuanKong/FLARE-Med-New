@@ -1,4 +1,3 @@
-
 from sentence_transformers.models import Transformer, Pooling
 from sentence_transformers import SentenceTransformer
 import os
@@ -128,9 +127,10 @@ def construct_index(index_dir, model_name, h_dim=768, HNSW=False, M=32):
 
 class Retriever: 
 
-    def __init__(self, retriever_name="ncbi/MedCPT-Query-Encoder", corpus_name="textbooks", db_dir="./corpus", HNSW=False, **kwarg):
+    def __init__(self, retriever_name="ncbi/MedCPT-Query-Encoder", corpus_name="textbooks", db_dir="./corpus", HNSW=False, embedding_function=None, **kwarg):
         self.retriever_name = retriever_name
         self.corpus_name = corpus_name
+        self.embedding_function = embedding_function
 
         self.db_dir = db_dir
         if not os.path.exists(self.db_dir):
@@ -161,44 +161,43 @@ class Retriever:
                 self.metadatas = [json.loads(line) for line in open(os.path.join(self.index_dir, "metadatas.jsonl")).read().strip().split('\n')]
             else:
                 print("[In progress] Embedding the {:s} corpus with the {:s} retriever...".format(self.corpus_name, self.retriever_name.replace("Query-Encoder", "Article-Encoder")))
-                if self.corpus_name in ["textbooks", "pubmed", "wikipedia"] and self.retriever_name in ["allenai/specter", "facebook/contriever", "ncbi/MedCPT-Query-Encoder"] and not os.path.exists(os.path.join(self.index_dir, "embedding")):
-                    print("[In progress] Downloading the {:s} embeddings given by the {:s} model...".format(self.corpus_name, self.retriever_name.replace("Query-Encoder", "Article-Encoder")))
+                article_encoder_name = self.retriever_name.replace("Query-Encoder", "Article-Encoder")
+                if self.corpus_name in ["textbooks", "pubmed", "wikipedia"] and article_encoder_name in ["allenai/specter", "facebook/contriever", "ncbi/MedCPT-Article-Encoder"] and not os.path.exists(os.path.join(self.index_dir, "embedding")):
+                    print("[In progress] Downloading the {:s} embeddings given by the {:s} model...".format(self.corpus_name, article_encoder_name))
                     os.makedirs(self.index_dir, exist_ok=True)
                     if self.corpus_name == "textbooks":
-                        if self.retriever_name == "allenai/specter":
+                        if article_encoder_name == "allenai/specter":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/EYRRpJbNDyBOmfzCOqfQzrsBwUX0_UT8-j_geDPcVXFnig?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
-                        elif self.retriever_name == "facebook/contriever":
+                        elif article_encoder_name == "facebook/contriever":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/EQqzldVMCCVIpiFV4goC7qEBSkl8kj5lQHtNq8DvHJdAfw?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
-                        elif self.retriever_name == "ncbi/MedCPT-Query-Encoder":
+                        elif article_encoder_name == "ncbi/MedCPT-Article-Encoder":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/EQ8uXe4RiqJJm0Tmnx7fUUkBKKvTwhu9AqecPA3ULUxUqQ?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
                     elif self.corpus_name == "pubmed":
-                        if self.retriever_name == "allenai/specter":
+                        if article_encoder_name == "allenai/specter":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/Ebz8ySXt815FotxC1KkDbuABNycudBCoirTWkKfl8SEswA?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
-                        elif self.retriever_name == "facebook/contriever":
+                        elif article_encoder_name == "facebook/contriever":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/EWecRNfTxbRMnM0ByGMdiAsBJbGJOX_bpnUoyXY9Bj4_jQ?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
-                        elif self.retriever_name == "ncbi/MedCPT-Query-Encoder":
+                        elif article_encoder_name == "ncbi/MedCPT-Article-Encoder":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/EVCuryzOqy5Am5xzRu6KJz4B6dho7Tv7OuTeHSh3zyrOAw?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
                     elif self.corpus_name == "wikipedia":
-                        if self.retriever_name == "allenai/specter":
+                        if article_encoder_name == "allenai/specter":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/Ed7zG3_ce-JOmGTbgof3IK0BdD40XcuZ7AGZRcV_5D2jkA?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
-                        elif self.retriever_name == "facebook/contriever":
+                        elif article_encoder_name == "facebook/contriever":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/ETKHGV9_KNBPmDM60MWjEdsBXR4P4c7zZk1HLLc0KVaTJw?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
-                        elif self.retriever_name == "ncbi/MedCPT-Query-Encoder":
+                        elif article_encoder_name == "ncbi/MedCPT-Article-Encoder":
                             os.system("wget -O {:s} https://myuva-my.sharepoint.com/:u:/g/personal/hhu4zu_virginia_edu/EXoxEANb_xBFm6fa2VLRmAcBIfCuTL-5VH6vl4GxJ06oCQ?download=1".format(os.path.join(self.index_dir, "embedding.zip")))
                     os.system("unzip {:s} -d {:s}".format(os.path.join(self.index_dir, "embedding.zip"), self.index_dir))
                     os.system("rm {:s}".format(os.path.join(self.index_dir, "embedding.zip")))
                     h_dim = 768
                 else:
-                    h_dim = embed(chunk_dir=self.chunk_dir, index_dir=self.index_dir, model_name=self.retriever_name.replace("Query-Encoder", "Article-Encoder"), **kwarg)
+                    h_dim = embed(chunk_dir=self.chunk_dir, index_dir=self.index_dir, model_name=article_encoder_name, **kwarg)
 
                 print("[In progress] Embedding finished! The dimension of the embeddings is {:d}.".format(h_dim))
-                self.index = construct_index(index_dir=self.index_dir, model_name=self.retriever_name.replace("Query-Encoder", "Article-Encoder"), h_dim=h_dim, HNSW=HNSW)
+                self.index = construct_index(index_dir=self.index_dir, model_name=article_encoder_name, h_dim=h_dim, HNSW=HNSW)
                 print("[Finished] Corpus indexing finished!")
                 self.metadatas = [json.loads(line) for line in open(os.path.join(self.index_dir, "metadatas.jsonl")).read().strip().split('\n')]            
-            if "contriever" in self.retriever_name.lower():
-                self.embedding_function = SentenceTransformer(self.retriever_name, device="cuda" if torch.cuda.is_available() else "cpu")
-            else:
-                self.embedding_function = CustomizeSentenceTransformer(self.retriever_name, device="cuda" if torch.cuda.is_available() else "cpu")
+            if self.embedding_function is None:
+                raise ValueError("Embedding function not provided for dense retriever")
             self.embedding_function.eval()
 
     def get_relevant_documents(self, question, k=32, id_only=False, **kwarg):
@@ -212,6 +211,8 @@ class Retriever:
             ids = [h.docid for h in hits]
             indices = [{"source": '_'.join(h.docid.split('_')[:-1]), "index": eval(h.docid.split('_')[-1])} for h in hits]
         else:
+            if self.embedding_function is None:
+                raise RuntimeError(f"Retriever {self.retriever_name} needs an embedding function but it's None.")
             with torch.no_grad():
                 query_embed = self.embedding_function.encode(question, **kwarg)
             res_ = self.index.search(query_embed, k=k)
@@ -239,11 +240,32 @@ class RetrievalSystem:
         self.corpus_name = corpus_name
         assert self.corpus_name in corpus_names
         assert self.retriever_name in retriever_names
+        
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        
+        self.loaded_models = {}
+        print(f"Loading models for {self.retriever_name} onto device: {self.device}")
+        for model_name in retriever_names[self.retriever_name]:
+            if "bm25" not in model_name.lower() and model_name not in self.loaded_models:
+                print(f"  Loading {model_name}...")
+                if "contriever" in model_name.lower():
+                    self.loaded_models[model_name] = SentenceTransformer(model_name, device=self.device)
+                else:
+                    self.loaded_models[model_name] = CustomizeSentenceTransformer(model_name, device=self.device)
+                self.loaded_models[model_name].eval()
+                print(f"  Finished loading {model_name}.")
+
         self.retrievers = []
-        for retriever in retriever_names[self.retriever_name]:
-            self.retrievers.append([])
+        for retriever_model_name in retriever_names[self.retriever_name]:
+            retriever_list_for_model = []
+            model_instance = self.loaded_models.get(retriever_model_name)
             for corpus in corpus_names[self.corpus_name]:
-                self.retrievers[-1].append(Retriever(retriever, corpus, db_dir, HNSW=HNSW))
+                print(f"  Instantiating Retriever for model: {retriever_model_name}, corpus: {corpus}")
+                retriever_list_for_model.append(
+                    Retriever(retriever_model_name, corpus, db_dir, HNSW=HNSW, embedding_function=model_instance)
+                )
+            self.retrievers.append(retriever_list_for_model)
+
         self.cache = cache
         if self.cache:
             self.docExt = DocExtracter(cache=True, corpus_name=self.corpus_name, db_dir=db_dir)

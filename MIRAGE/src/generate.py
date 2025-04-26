@@ -93,26 +93,6 @@ for qid, qdata in dataset.items():
 print(f"Total {len(qa_list)} questions in {task_key} dataset\n")
 
 
-# Initialize MedRAG with thread lock for thread safety
-medrag_lock = threading.RLock()
-medrag = MedRAG(
-    llm_name=args.llm_name,  # or path to local model
-    rag=args.rag,
-    retriever_name=args.retriever_name,
-    corpus_name=args.corpus_name,  # Must match folder in corpus/
-    db_dir="../MedRAG/src/data/corpus",  # Parent directory containing MedCorp/
-    corpus_cache=True,  # Optional: speed up repeated runs
-    cache_dir="../MedRAG/src/llm/cache",  # Optional: cache directory for LLM
-    # FLARE parameters
-    enable_flare=args.enable_flare,
-    look_ahead_steps=args.look_ahead_steps,
-    look_ahead_truncate_at_boundary=list(args.look_ahead_truncate_at_boundary),
-    max_query_length=args.max_query_length,
-    # Follow-up parameters
-    follow_up=args.follow_up,
-)
-
-
 # Output results
 if args.rag:
     flare_part = "_flare" if args.enable_flare else ""
@@ -135,11 +115,30 @@ print(f"Results will be saved to {save_dir}\n")
 existing_files = set(os.listdir(save_dir))
 print(f"Found {len(existing_files)} existing files in {save_dir}\n")
 
+# Create ONE MedRAG instance to be shared across threads
+print("Initializing shared MedRAG instance...")
+shared_medrag_instance = MedRAG(
+    llm_name=args.llm_name,
+    rag=args.rag,
+    retriever_name=args.retriever_name,
+    corpus_name=args.corpus_name,
+    db_dir="../MedRAG/src/data/corpus",
+    corpus_cache=True,
+    cache_dir="../MedRAG/src/llm/cache",
+    enable_flare=args.enable_flare,
+    look_ahead_steps=args.look_ahead_steps,
+    look_ahead_truncate_at_boundary=list(args.look_ahead_truncate_at_boundary),
+    max_query_length=args.max_query_length,
+    follow_up=args.follow_up,
+)
+print("Shared MedRAG instance initialized.")
+
+
 # For thread safety when writing to console
 print_lock = threading.Lock()
 
-# Function to process a single question
-def process_question(qa):
+# Modify process_question to accept the shared medrag instance
+def process_question(qa, medrag_instance):
     # Skip if already processed
     if qa["id"] + ".json" in existing_files:
         with print_lock:
@@ -151,16 +150,18 @@ def process_question(qa):
     options = qa["options"]
     
     try:
+        # Use the passed MedRAG instance directly
+        medrag = medrag_instance
+        
         # Handle different answer methods based on follow-up setting
         if args.follow_up:
-            with medrag_lock:  # Ensure thread safety for MedRAG
-                answer, messages = medrag.answer(
-                    question=question, 
-                    options=options, 
-                    k=args.k,
-                    n_rounds=args.n_rounds,
-                    n_queries=args.n_queries
-                )
+            answer, messages = medrag.answer(
+                question=question, 
+                options=options, 
+                k=args.k,
+                n_rounds=args.n_rounds,
+                n_queries=args.n_queries
+            )
             # Extract snippets from messages
             all_snippets = []
             for msg in messages:
@@ -173,12 +174,11 @@ def process_question(qa):
             scores = None  # Scores might not be available in this format
             qa["messages"] = [m if isinstance(m, dict) else m.model_dump() for m in messages]
         else:
-            with medrag_lock:  # Ensure thread safety for MedRAG
-                answer, snippets, scores = medrag.answer(
-                    question=question, 
-                    options=options, 
-                    k=args.k
-                )
+            answer, snippets, scores = medrag.answer(
+                question=question, 
+                options=options, 
+                k=args.k
+            )
         
         qa["predict"] = answer
         qa["snippets"] = snippets
@@ -210,7 +210,8 @@ print(f"Processing {len(questions_to_process)} out of {len(qa_list)} questions w
 # Process questions using thread pool
 start_time = time.time()
 with ThreadPoolExecutor(max_workers=args.threads) as executor:
-    futures = {executor.submit(process_question, qa): qa["id"] for qa in questions_to_process}
+    # Pass the shared medrag instance to each task
+    futures = {executor.submit(process_question, qa, shared_medrag_instance): qa["id"] for qa in questions_to_process}
     
     # Setup progress bar
     pbar = tqdm(total=len(questions_to_process), desc="Processing questions")
