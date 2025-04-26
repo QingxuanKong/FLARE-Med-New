@@ -8,10 +8,12 @@ import argparse
 import transformers
 from transformers import AutoTokenizer
 import openai
+from openai import RateLimitError
 from transformers import StoppingCriteria, StoppingCriteriaList
 import tiktoken
 import sys
 import gc
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 sys.path.append("src")
 from .utils import RetrievalSystem, DocExtracter
@@ -252,6 +254,12 @@ class MedRAG:
         )
         return stopping_criteria
 
+    # Add retry decorator for rate limiting
+    @retry(
+        stop=stop_after_attempt(5),  # Retry up to 5 times
+        wait=wait_exponential(multiplier=1, min=2, max=60),  # Wait 2s, 4s, 8s, 16s, 32s(max capped at 60s)
+        retry=retry_if_exception_type(RateLimitError) # Only retry on RateLimitError
+    )
     def generate(self, messages, **kwargs):
         """
         generate response given messages

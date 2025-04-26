@@ -99,6 +99,34 @@ dataset_name: bioasq
 ```
 
 ```
+Benchmark completed in 3m 30s
+Processed 275 questions using 4 threads
+Average time per question: 0.77s
+Results saved to ./prediction/bioasq/rag_16/OpenAI/gpt-4.1-nano/MedText/RRF-4
+Loaded configuration from src/config.json
+
+Final arguments:
+corpus_name: MedText
+retriever_name: RRF-4
+llm_name: OpenAI/gpt-4.1-nano
+rag: True
+k: 16
+results_dir: ./prediction
+dataset_name: bioasq
+enable_flare: False
+look_ahead_steps: 50
+look_ahead_truncate_at_boundary: .,?,!
+max_query_length: 300
+follow_up: False
+n_rounds: 3
+n_queries: 2
+threads: 4
+
+[bioasq] mean acc: 0.7120; proportion std: 0.0182
+[Average] mean acc: 0.7120
+```
+
+```
 Benchmark completed in 23m 18s
 Processed 618 questions using 8 threads
 Average time per question: 2.26s
