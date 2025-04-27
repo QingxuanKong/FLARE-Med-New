@@ -26,7 +26,7 @@ def evaluate(dataset, save_dir, split="test", locate_fun=locate_answer):
             medrag_data = json.load(f)
 
         predict_str = medrag_data.get("predict", "")
-        answer_match = re.search(r'"answer_choice":\s*"([A-Z])"', predict_str)
+        answer_match = re.search(r'"(?:answer_choice|answer)":\s*"([A-Z])"', predict_str)
         ans = answer_match.group(1) if answer_match else None
         if ans in answer_list:
             pred.append(answer_list.index(ans))

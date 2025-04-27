@@ -1,11 +1,11 @@
 {
     "corpus_name": "MedText",
-    "retriever_name": "RRF-4",
+    "retriever_name": "MedCPT",
     "llm_name": "OpenAI/gpt-4.1-nano",
     "rag": true,
     "k": 8,
     "results_dir": "./prediction",
-    "dataset_name": "bioasq",
+    "dataset_name": "medqa",
     "enable_flare": true,
     "look_ahead_steps": 50,
     "look_ahead_truncate_at_boundary": ".,?,!",
@@ -13,6 +13,6 @@
     "follow_up": true,
     "n_rounds": 3,
     "n_queries": 2,
-    "threads": 4
+    "threads": 8
   }
   
