@@ -38,6 +38,36 @@ dataset_name: medqa
 [medqa] mean acc: 0.7675; proportion std: 0.0118
 [Average] mean acc: 0.7675
 ```
+
+```
+Benchmark completed in 0m 48s
+Processed 3 questions using 8 threads
+Average time per question: 16.24s
+Results saved to ./prediction/medqa/rag_flare_followup_8/OpenAI/gpt-4.1-nano/MedText/MedCPT
+Loaded configuration from src/config.json
+
+Final arguments:
+corpus_name: MedText
+retriever_name: MedCPT
+llm_name: OpenAI/gpt-4.1-nano
+rag: True
+k: 8
+results_dir: ./prediction
+dataset_name: medqa
+enable_flare: True
+look_ahead_steps: 50
+look_ahead_truncate_at_boundary: .,?,!
+max_query_length: 300
+follow_up: True
+n_rounds: 3
+n_queries: 2
+threads: 8
+
+[medqa] mean acc: 0.8303; proportion std: 0.0105
+[Average] mean acc: 0.8303
+run_benchmark.sh completed successfully.
+Wrapper script finished successfully.
+```
 ## mmlu
 ```
 Benchmark completed in 30m 27s
