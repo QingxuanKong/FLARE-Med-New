@@ -68,6 +68,36 @@ threads: 8
 run_benchmark.sh completed successfully.
 Wrapper script finished successfully.
 ```
+
+```
+Benchmark completed in 0m 14s
+Processed 34 questions using 8 threads
+Average time per question: 0.43s
+Results saved to ./prediction/medqa/rag_8/OpenAI/gpt-4.1-nano/MedText/MedCPT
+Loaded configuration from src/config.json
+
+Final arguments:
+corpus_name: MedText
+retriever_name: MedCPT
+llm_name: OpenAI/gpt-4.1-nano
+rag: True
+k: 8
+results_dir: ./prediction
+dataset_name: medqa
+enable_flare: False
+look_ahead_steps: 50
+look_ahead_truncate_at_boundary: .,?,!
+max_query_length: 300
+follow_up: False
+n_rounds: 3
+n_queries: 2
+threads: 8
+
+[medqa] mean acc: 0.7730; proportion std: 0.0117
+[Average] mean acc: 0.7730
+run_benchmark.sh completed successfully.
+Wrapper script finished successfully.
+```
 ## mmlu
 ```
 Benchmark completed in 30m 27s
@@ -105,6 +135,36 @@ dataset_name: mmlu
 
 [mmlu] mean acc: 0.8476; proportion std: 0.0109
 [Average] mean acc: 0.8476
+```
+
+```
+Benchmark completed in 0m 12s
+Processed 25 questions using 8 threads
+Average time per question: 0.48s
+Results saved to ./prediction/mmlu/rag_8/OpenAI/gpt-4.1-nano/MedText/MedCPT
+Loaded configuration from src/config.json
+
+Final arguments:
+corpus_name: MedText
+retriever_name: MedCPT
+llm_name: OpenAI/gpt-4.1-nano
+rag: True
+k: 8
+results_dir: ./prediction
+dataset_name: mmlu
+enable_flare: False
+look_ahead_steps: 50
+look_ahead_truncate_at_boundary: .,?,!
+max_query_length: 300
+follow_up: False
+n_rounds: 3
+n_queries: 2
+threads: 8
+
+[mmlu] mean acc: 0.8512; proportion std: 0.0108
+[Average] mean acc: 0.8512
+run_benchmark.sh completed successfully.
+Wrapper script finished successfully.
 ```
 
 ```

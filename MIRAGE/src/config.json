@@ -6,11 +6,11 @@
     "k": 8,
     "results_dir": "./prediction",
     "dataset_name": "medqa",
-    "enable_flare": true,
+    "enable_flare": false,
     "look_ahead_steps": 50,
     "look_ahead_truncate_at_boundary": ".,?,!",
     "max_query_length": 300,
-    "follow_up": true,
+    "follow_up": false,
     "n_rounds": 3,
     "n_queries": 2,
     "threads": 8
