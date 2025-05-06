@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import argparse
+from pathlib import Path
 from MedRAG.src.medrag import MedRAG
 
 def display_documents(snippets, scores=None):
@@ -171,7 +172,9 @@ def test_flare_with_followup(question, options, verbose=False):
     display_documents(all_snippets)
     
     # Save the conversation for analysis
-    with open("flare_with_followup_conversation.json", "w") as f:
+    out_file = Path("Test/flare_with_followup_conversation.json")
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    with out_file.open("w") as f:
         json.dump([m if isinstance(m, dict) else m.model_dump() for m in messages], f, indent=2)
     
     return answer, messages
@@ -208,7 +211,9 @@ def compare_results(question, options, verbose=False):
         }
     }
     
-    with open("comparison_results.json", "w") as f:
+    out_file = Path("Test/comparison_results.json")
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+    with out_file.open("w") as f:
         json.dump(comparison, f, indent=2)
     
     print("\n=== Comparison Saved to comparison_results.json ===")

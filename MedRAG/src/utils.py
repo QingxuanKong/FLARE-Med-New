@@ -136,6 +136,7 @@ class Retriever:
         if not os.path.exists(self.db_dir):
             os.makedirs(self.db_dir)
         self.chunk_dir = os.path.join(self.db_dir, self.corpus_name, "chunk")
+        print(f"chunk_dir: {self.chunk_dir}")
         if not os.path.exists(self.chunk_dir):
             print("Cloning the {:s} corpus from Huggingface...".format(self.corpus_name))
             os.system("git clone https://huggingface.co/datasets/MedRAG/{:s} {:s}".format(corpus_name, os.path.join(self.db_dir, self.corpus_name)))
@@ -144,7 +145,7 @@ class Retriever:
                 os.system("wget https://ftp.ncbi.nlm.nih.gov/pub/litarch/3d/12/statpearls_NBK430685.tar.gz -P {:s}".format(os.path.join(self.db_dir, self.corpus_name)))
                 os.system("tar -xzvf {:s} -C {:s}".format(os.path.join(db_dir, self.corpus_name, "statpearls_NBK430685.tar.gz"), os.path.join(self.db_dir, self.corpus_name)))
                 print("Chunking the statpearls corpus...")
-                os.system("python src/data/statpearls.py")
+                os.system("python MedRAG/src/data/statpearls.py")
         self.index_dir = os.path.join(self.db_dir, self.corpus_name, "index", self.retriever_name.replace("Query-Encoder", "Article-Encoder"))
         if "bm25" in self.retriever_name.lower():
             from pyserini.search.lucene import LuceneSearcher
@@ -358,7 +359,7 @@ class DocExtracter:
                     os.system("wget https://ftp.ncbi.nlm.nih.gov/pub/litarch/3d/12/statpearls_NBK430685.tar.gz -P {:s}".format(os.path.join(self.db_dir, corpus)))
                     os.system("tar -xzvf {:s} -C {:s}".format(os.path.join(self.db_dir, corpus, "statpearls_NBK430685.tar.gz"), os.path.join(self.db_dir, corpus)))
                     print("Chunking the statpearls corpus...")
-                    os.system("python src/data/statpearls.py")
+                    os.system("python MedRAG/src/data/statpearls.py")
         if self.cache:
             if os.path.exists(os.path.join(self.db_dir, "_".join([corpus_name, "id2text.json"]))):
                 self.dict = json.load(open(os.path.join(self.db_dir, "_".join([corpus_name, "id2text.json"]))))
