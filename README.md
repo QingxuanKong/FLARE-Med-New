@@ -1,171 +1,45 @@
-# MedRAG Pipeline Setup Guide & Script
+# FLARE-Med
 
-This document provides a step-by-step guide to configure the MedRAG pipeline and its associated components like MIRAGE. It includes system setup, data handling, indexing, generation, and evaluation.
+**FLARE‑MedRAG** is a retrieval‑augmented generation (RAG) framework for medical question answering that combines an **iterative follow‑up loop** with **look‑ahead retrieval** to strengthen LLM reasoning. In our experiments, FLARE‑MedRAG boosts answer accuracy from 72-85% with a vanilla RAG baseline to 75-87%.
 
-**Assumptions:**
+## Baseline
 
-- You are running on a AWS Ubuntu 22.04 instance.
-- You have `sudo` privileges.
-- The project is structured with a root directory (e.g., `~/project/`) containing `MedRAG` and `MIRAGE` subdirectories. Adjust paths throughout this guide if your structure differs.
-- You have sufficient disk space for datasets (PubMed and Wikipedia is very large) and indices.
+FLARE‑Med builds on **MedRAG**—a domain‑specific RAG pipeline that supports multiple corpora, retrievers, and LLM back‑ends:
 
----
+<img src="MedRAG/figs/MedRAG.png" alt="MedRAG" width="375"/>
 
-## 1. System Prerequisites & Setup
+## Innovations
 
-```bash
-sudo apt update
-sudo apt install -y lftp git python3.10 python3.10-venv python3.10-dev build-essential unzip awscli openjdk-17-jdk
-```
+FLARE-Med introduces two additional ideas:
 
-## 2. Setting up Python virtual environment
+1. **Iterative RAG**: The system runs for a fixed number of rounds. In each round, the LLM proposes several follow‑up queries, generates answers for them, and appends every Q‑A pair to the growing context.
+2. **Look‑ahead retrieval**: Before answering each follow‑up query, the LLM generates a short “peek” of reasoning. That text is merged into the query, and a second retrieval pass fetches higher‑quality snippets.
 
-```bash
-# Navigate to your main project directory (IMPORTANT: ADJUST IF NEEDED)
-cd ~/project/
+<img src="figs/MedRagFlare with followup question.png" alt="Iterative RAG" width="330"/>
+<img src="figs/MedRagFlare.png" alt="Look-Ahead Retrieval" width="330"/>
 
-# Create the virtual environment in the current directory
-python3.10 -m venv .venv
+## Effectiveness
 
-# Activate the virtual environment
-source .venv/bin/activate
+Our FLARE-Med system, which incorporates both iterative RAG and look-ahead retrieval, consistently outperforms MedRAG. This demonstrates the effectiveness of our multi-hop retrieval augmentation strategy in expanding relevant context and supporting complex reasoning.
 
-# Upgrade pip and install base Python packages
-pip install --upgrade pip
-pip install -r MedRAG/requirements.txt
-```
+| Method                 | MMLU‑Med         | MedQA‑US         | BioASQ‑Y/N       |
+| ---------------------- | ---------------- | ---------------- | ---------------- |
+| Chain‑of‑Thought (CoT) | 86.87 ± 1.02     | 77.14 ± 1.18     | 83.01 ± 1.51     |
+| MedRAG                 | 85.12 ± 1.08     | 77.30 ± 1.17     | 72.49 ± 1.80     |
+| **FLARE‑Med**          | **87.88 ± 0.99** | **83.03 ± 1.05** | **75.24 ± 1.74** |
 
-## 3. MedRAG Configuration
+## Installation
 
 ```bash
-# Navigate to the MedRAG directory (IMPORTANT: ADJUST PATH IF NEEDED)
-cd MedRAG
-```
+# 1. Set your OpenAI key in MedRAG/src/config.py
 
-### 3.1. Download Corpus Data
+# 2. Run the example script to test baseline, iterative, look-ahead, and FLARE-Med. The test result is stored in the folder Test/
+python test_flaremed_example.py
 
-```bash
-# PubMed Baseline
-mkdir -p src/corpus/pubmed/baseline
-cd src/corpus/pubmed/baseline
-# Use lftp to download all PubMed baseline XML files
-lftp -c "open ftp.ncbi.nlm.nih.gov; cd pubmed/baseline; mget *.xml.gz"
-cd ../../../.. # Back to MedRAG root
+# 3. Config the MedRAG variant in MIRAGE/src/config.json
 
-# StatPearls
-mkdir -p src/corpus/statpearls
-cd src/corpus/statpearls
-wget https://ftp.ncbi.nlm.nih.gov/pub/litarch/3d/12/statpearls_NBK430685.tar.gz
-tar -xzf statpearls_NBK430685.tar.gz
-rm statpearls_NBK430685.tar.gz
-cd ../../.. # Back to MedRAG root
+# 4. Generate the answers on a MedRAG variant and evaluate the result
+bash robust_run_benchmark.sh
 
-# Textbooks
-mkdir -p src/corpus/textbooks
-# MANUAL ACTION REQUIRED: Download textbook data from
-https://drive.google.com/file/d/1ImYUSLk9JbgHXOemfvyiDiirluZHPeQw/view
-
-# Wikipedia (Placeholder)
-# Data will be downloaded and chunked in the next step when running src/data/wikipedia.py
-```
-
-### 3.2. Construct Data Chunks
-
-The chunk construction of pubmed and wikipedia takes a while.
-
-```bash
-python src/data/pubmed.py
-python src/data/statpearls.py
-python src/data/textbooks.py
-python src/data/wikipedia.py
-```
-
-### 3.3. Index Corpus using Pyserini
-
-```bash
-# Setup Java Environment
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64 >> ~/.bashrc
-export PATH=$JAVA_HOME/bin:$PATH >> ~/.bashrc
-source ~/.bashrc
-
-# Checking Java version
-java -version
-
-# Run Indexing (Background Processes)
-
-echo ">>> Starting indexing processes in the background. Monitor log files."
-
-# Ensure virtual environment is active
-
-source ../.venv/bin/activate
-
-# Index PubMed
-INDEX_INPUT_PUBMED="src/corpus/pubmed/chunk"
-INDEX_OUTPUT_PUBMED="src/corpus/pubmed/index/bm25"
-python -m pyserini.index.lucene \
-    --collection JsonCollection \
-    --input "$INDEX_INPUT_PUBMED" \
- --index "$INDEX_OUTPUT_PUBMED" \
- --generator DefaultLuceneDocumentGenerator \
- --threads 5 \
- --storePositions --storeDocvectors --storeRaw > pubmed_index.log 2>&1 &
-
-# Replace with statpearls, textbooks and wikipedia to index the rest corpus
-```
-
-### 3.4. Test MedRAG Run
-
-```bash
-python test.py
-```
-
-## 4. MIRAGE Configuration and Execution
-
-```bash
-# Navigate to the MIRAGE directory (IMPORTANT: ADJUST PATH IF NEEDED)
-cd MIRAGE
-```
-
-### 4.1. (Optional) Download Pre-Retrieved Snippets
-
-```bash
-wget -O retrieved_snippets_10k.zip https://virginia.box.com/shared/static/cxq17th6eisl2pn04vp0x723zczlvlzc.zip
-unzip retrieved_snippets_10k.zip -d retrieved_snippets_10k
-```
-
-### 4.2. Generate Answers
-
-```bash
-# Logging into Hugging Face Hub..."
-huggingface-cli login
-
-# Adapt log file name if needed based on config
-python src/generate.py --config config.json > log_generate_bioasq.txt 2>&1
-
-# Config the json file to generate answer of different datasets
-```
-
-### 4.3. Evaluate Accuracy
-
-```bash
-# Adapt log file name if needed based on config
-python src/evaluation.py --config config.json > log_evaluate_bioasq.txt 2>&1
-
-# Config the json file to evaluate answer of different datasets
-```
-
-## 5. Optional: AWS S3 Data Management Commands
-
-```bash
-# --- Configure AWS CLI (Run once manually if needed) ---
-aws configure
-
-# --- Example: Upload MedRAG corpus data TO S3 ---
-aws s3 cp ~/project/MedRAG/src/corpus s3://medrag-isla/corpus --recursive
-
-# --- Example: Check S3 contents ---
-aws s3 ls s3://medrag-isla/corpus/ --recursive --human-readable --summarize
-
-# --- Example: Download/Sync MedRAG corpus FROM S3 ---
-aws s3 sync s3://medrag-isla/corpus/ ~/project/MedRAG/src/corpus/
+# 5. Our experiment result is in results.md
 ```

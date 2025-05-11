@@ -13,7 +13,12 @@ from transformers import StoppingCriteria, StoppingCriteriaList
 import tiktoken
 import sys
 import gc
-from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+)
 
 sys.path.append("src")
 from .utils import RetrievalSystem, DocExtracter
@@ -104,13 +109,15 @@ class MedRAG:
         self.cache_dir = cache_dir
         self.docExt = None
         self.verbose = verbose
-        
+
         if self.verbose:
             print(f"[VERBOSE] Initializing MedRAG with {llm_name}")
-            
+
         if rag:
             if self.verbose:
-                print(f"[VERBOSE] Setting up retrieval system: {retriever_name}, {corpus_name}")
+                print(
+                    f"[VERBOSE] Setting up retrieval system: {retriever_name}, {corpus_name}"
+                )
             self.retrieval_system = RetrievalSystem(
                 self.retriever_name,
                 self.corpus_name,
@@ -197,7 +204,7 @@ class MedRAG:
                 )
                 self.max_length = 2048
                 self.context_length = 1024
-            
+
             gc.collect()
             torch.cuda.empty_cache()
 
@@ -257,8 +264,10 @@ class MedRAG:
     # Add retry decorator for rate limiting
     @retry(
         stop=stop_after_attempt(5),  # Retry up to 5 times
-        wait=wait_exponential(multiplier=1, min=2, max=60),  # Wait 2s, 4s, 8s, 16s, 32s(max capped at 60s)
-        retry=retry_if_exception_type(RateLimitError) # Only retry on RateLimitError
+        wait=wait_exponential(
+            multiplier=1, min=2, max=60
+        ),  # Wait 2s, 4s, 8s, 16s, 32s(max capped at 60s)
+        retry=retry_if_exception_type(RateLimitError),  # Only retry on RateLimitError
     )
     def generate(self, messages, **kwargs):
         """
@@ -268,14 +277,16 @@ class MedRAG:
             print(f"[VERBOSE] Making API call to {self.llm_name}")
             print(f"[VERBOSE] Messages: {json.dumps(messages, indent=2)}")
             print(f"[VERBOSE] Parameters: {json.dumps(kwargs, indent=2)}")
-            
+
         if "openai" in self.llm_name.lower():
             start_time = time.time()
             ans = openai_client(
                 model=self.model, messages=messages, temperature=0.0, **kwargs
             )
             if self.verbose:
-                print(f"[VERBOSE] API call completed in {time.time() - start_time:.2f} seconds")
+                print(
+                    f"[VERBOSE] API call completed in {time.time() - start_time:.2f} seconds"
+                )
                 print(f"[VERBOSE] Response: {ans[:100]}...")
         elif "gemini" in self.llm_name.lower():
             start_time = time.time()
@@ -284,7 +295,9 @@ class MedRAG:
             )
             ans = response.candidates[0].content.parts[0].text
             if self.verbose:
-                print(f"[VERBOSE] API call completed in {time.time() - start_time:.2f} seconds")
+                print(
+                    f"[VERBOSE] API call completed in {time.time() - start_time:.2f} seconds"
+                )
                 print(f"[VERBOSE] Response: {ans[:100]}...")
         else:
             stopping_criteria = None
@@ -301,7 +314,7 @@ class MedRAG:
                 )
             if self.verbose:
                 print(f"[VERBOSE] Processing prompt with length: {len(prompt)}")
-                
+
             start_time = time.time()
             if "llama-3" in self.llm_name.lower():
                 response = self.model(
@@ -333,9 +346,11 @@ class MedRAG:
             # ans = response[0]["generated_text"]
             ans = response[0]["generated_text"][len(prompt) :]
             if self.verbose:
-                print(f"[VERBOSE] Generation completed in {time.time() - start_time:.2f} seconds")
+                print(
+                    f"[VERBOSE] Generation completed in {time.time() - start_time:.2f} seconds"
+                )
                 print(f"[VERBOSE] Response: {ans[:100]}...")
-                
+
         return ans
 
     def medrag_answer(
@@ -388,14 +403,18 @@ class MedRAG:
                 scores = []
             else:
                 if self.verbose:
-                    print(f"[VERBOSE] Retrieving snippets for question: {question[:50]}...")
+                    print(
+                        f"[VERBOSE] Retrieving snippets for question: {question[:50]}..."
+                    )
                 assert self.retrieval_system is not None
                 start_time = time.time()
                 retrieved_snippets, scores = self.retrieval_system.retrieve(
                     question, k=k, rrf_k=rrf_k
                 )
                 if self.verbose:
-                    print(f"[VERBOSE] Retrieval completed in {time.time() - start_time:.2f} seconds")
+                    print(
+                        f"[VERBOSE] Retrieval completed in {time.time() - start_time:.2f} seconds"
+                    )
                     print(f"[VERBOSE] Retrieved {len(retrieved_snippets)} snippets")
 
             contexts = [
@@ -693,7 +712,7 @@ class MedRAG:
         """
         Implements FLARE's look ahead capability for retrieval augmented generation
         while supporting follow-up questions when enabled.
-        
+
         Parameters:
         -----------
         question (str): question to be answered
@@ -718,29 +737,22 @@ class MedRAG:
         # Handle follow-up questions functionality if enabled
         if self.follow_up:
             return self._flare_with_follow_up(
-                question, 
-                options, 
-                k, 
-                rrf_k, 
+                question,
+                options,
+                k,
+                rrf_k,
                 save_dir,
-                n_rounds, 
-                n_queries, 
-                qa_cache_path, 
-                **kwargs
+                n_rounds,
+                n_queries,
+                qa_cache_path,
+                **kwargs,
             )
-        
+
         # Process with FLARE's look ahead retrieval without follow-up
         return self._flare_without_follow_up(
-            question, 
-            options, 
-            k, 
-            rrf_k, 
-            save_dir, 
-            snippets, 
-            snippets_ids, 
-            **kwargs
+            question, options, k, rrf_k, save_dir, snippets, snippets_ids, **kwargs
         )
-    
+
     def _flare_without_follow_up(
         self,
         question,
@@ -756,9 +768,13 @@ class MedRAG:
         Implements basic FLARE look ahead capability for standard RAG
         """
         if self.verbose:
-            print(f"[VERBOSE] _flare_without_follow_up called with question: {question[:50]}...")
-            print(f"[VERBOSE] FLARE parameters: steps={self.look_ahead_steps}, boundary={self.look_ahead_boundary}")
-            
+            print(
+                f"[VERBOSE] _flare_without_follow_up called with question: {question[:50]}..."
+            )
+            print(
+                f"[VERBOSE] FLARE parameters: steps={self.look_ahead_steps}, boundary={self.look_ahead_boundary}"
+            )
+
         # Initial retrieval (standard approach)
         if snippets is not None:
             if self.verbose:
@@ -783,9 +799,11 @@ class MedRAG:
                 question, k=k, rrf_k=rrf_k
             )
             if self.verbose:
-                print(f"[VERBOSE] Initial retrieval completed in {time.time() - start_time:.2f} seconds")
+                print(
+                    f"[VERBOSE] Initial retrieval completed in {time.time() - start_time:.2f} seconds"
+                )
                 print(f"[VERBOSE] Retrieved {len(retrieved_snippets)} snippets")
-        
+
         # Format initial context
         initial_contexts = [
             "Document [{:d}] (Title: {:s}) {:s}".format(
@@ -795,10 +813,10 @@ class MedRAG:
             )
             for idx in range(len(retrieved_snippets))
         ]
-        
+
         if len(initial_contexts) == 0:
             initial_contexts = [""]
-            
+
         # Tokenize and truncate initial context
         if "openai" in self.llm_name.lower() or "gemini" in self.llm_name.lower():
             contexts = [
@@ -816,7 +834,7 @@ class MedRAG:
                     )[: self.context_length]
                 )
             ]
-        
+
         # FLARE look ahead approach: generate partial answer to inform retrieval
         if self.look_ahead_steps > 0 or self.look_ahead_boundary:
             # Create initial prompt for look ahead
@@ -827,10 +845,13 @@ class MedRAG:
                 {"role": "system", "content": self.templates["medrag_system"]},
                 {"role": "user", "content": prompt_medrag},
             ]
-            
+
             # Generate look ahead content using specified parameters
             if self.look_ahead_steps > 0:
-                look_ahead_params = {'max_tokens': self.look_ahead_steps, 'stop': self.final_stop_sym}
+                look_ahead_params = {
+                    "max_tokens": self.look_ahead_steps,
+                    "stop": self.final_stop_sym,
+                }
                 look_ahead_response = self.generate(messages, **look_ahead_params)
                 # Truncate if needed
                 if self.look_ahead_truncate_at_boundary:
@@ -838,9 +859,12 @@ class MedRAG:
                         if boundary in look_ahead_response:
                             look_ahead_response = look_ahead_response.split(boundary)[0]
             elif self.look_ahead_boundary:
-                look_ahead_params = {'max_tokens': self.max_length, 'stop': self.look_ahead_boundary}
+                look_ahead_params = {
+                    "max_tokens": self.max_length,
+                    "stop": self.look_ahead_boundary,
+                }
                 look_ahead_response = self.generate(messages, **look_ahead_params)
-            
+
             # Filter low-probability tokens if configured
             if self.look_ahead_filter_prob > 0:
                 # Simple filtering - in a real implementation, we would need token probabilities
@@ -848,19 +872,23 @@ class MedRAG:
                 look_ahead_query = look_ahead_response
             else:
                 look_ahead_query = look_ahead_response
-            
+
             # Combine original question with look ahead content for better retrieval
-            combined_query = question if self.only_use_look_ahead else question + " " + look_ahead_query
-            
+            combined_query = (
+                question
+                if self.only_use_look_ahead
+                else question + " " + look_ahead_query
+            )
+
             # Limit query length if specified
             if self.max_query_length and not self.use_full_input_as_query:
-                combined_query = combined_query[:self.max_query_length]
-            
+                combined_query = combined_query[: self.max_query_length]
+
             # Second retrieval with enhanced query
             enhanced_snippets, enhanced_scores = self.retrieval_system.retrieve(
                 combined_query, k=k, rrf_k=rrf_k
             )
-            
+
             # Format enhanced context
             enhanced_contexts = [
                 "Document [{:d}] (Title: {:s}) {:s}".format(
@@ -870,10 +898,10 @@ class MedRAG:
                 )
                 for idx in range(len(enhanced_snippets))
             ]
-            
+
             if len(enhanced_contexts) == 0:
                 enhanced_contexts = [""]
-                
+
             # Tokenize and truncate enhanced context
             if "openai" in self.llm_name.lower() or "gemini" in self.llm_name.lower():
                 contexts = [
@@ -891,11 +919,11 @@ class MedRAG:
                         )[: self.context_length]
                     )
                 ]
-            
+
             # Use enhanced snippets for return
             retrieved_snippets = enhanced_snippets
             scores = enhanced_scores
-        
+
         # Generate final answer with best context
         answers = []
         for context in contexts:
@@ -908,14 +936,14 @@ class MedRAG:
             ]
             ans = self.generate(messages, **kwargs)
             answers.append(re.sub("\s+", " ", ans))
-        
+
         if save_dir is not None:
             os.makedirs(save_dir, exist_ok=True)
             with open(os.path.join(save_dir, "snippets.json"), "w") as f:
                 json.dump(retrieved_snippets, f, indent=4)
             with open(os.path.join(save_dir, "response.json"), "w") as f:
                 json.dump(answers, f, indent=4)
-        
+
         return answers[0] if len(answers) == 1 else answers, retrieved_snippets, scores
 
     def _flare_with_follow_up(
@@ -996,7 +1024,7 @@ class MedRAG:
                         "content": f"{context}\n\n{QUESTION_PROMPT}\n\n{self.templates['follow_up_answer']}",
                     },
                 ]
-            
+
             saved_messages.append(messages[-1])
             if save_path:
                 with open(save_path, "w") as f:
@@ -1008,12 +1036,12 @@ class MedRAG:
                         f,
                         indent=4,
                     )
-            
+
             last_context = context
             last_content = self.generate(messages, **kwargs)
             response_message = {"role": "assistant", "content": last_content}
             saved_messages.append(response_message)
-            
+
             if save_path:
                 with open(save_path, "w") as f:
                     json.dump(
@@ -1024,7 +1052,7 @@ class MedRAG:
                         f,
                         indent=4,
                     )
-            
+
             if i >= n_rounds and (
                 "## Answer" in last_content or "answer is" in last_content.lower()
             ):
@@ -1044,7 +1072,7 @@ class MedRAG:
                 answer_message = {"role": "assistant", "content": answer_content}
                 messages.append(answer_message)
                 saved_messages.append(messages[-1])
-                
+
                 if save_path:
                     with open(save_path, "w") as f:
                         json.dump(
@@ -1055,15 +1083,15 @@ class MedRAG:
                             f,
                             indent=4,
                         )
-                
+
                 return messages[-1]["content"], messages
-            
+
             elif "## Queries" in last_content:
                 messages = messages[:-1]
                 if last_content.split("## Queries")[-1].strip() == "":
                     print("Empty queries. Continue with next iteration.")
                     continue
-                
+
                 try:
                     action_str = self.generate(
                         [
@@ -1089,34 +1117,56 @@ class MedRAG:
                         with open(save_path + ".error", "a") as f:
                             f.write(f"{error}\n")
                     continue
-                
+
                 for question in action_list:
                     if question.strip() == "":
                         continue
-                    
+
                     try:
                         # Use FLARE's look ahead capability for each follow-up question
                         if self.look_ahead_steps > 0 or self.look_ahead_boundary:
                             # First generate a partial answer to the follow-up question
                             look_ahead_messages = [
-                                {"role": "system", "content": self.templates["cot_system"]},
+                                {
+                                    "role": "system",
+                                    "content": self.templates["cot_system"],
+                                },
                                 {"role": "user", "content": f"Question: {question}"},
                             ]
-                            
+
                             if self.look_ahead_steps > 0:
-                                look_ahead_params = {'max_tokens': self.look_ahead_steps, 'stop': None}
-                                look_ahead_response = self.generate(look_ahead_messages, **look_ahead_params)
+                                look_ahead_params = {
+                                    "max_tokens": self.look_ahead_steps,
+                                    "stop": None,
+                                }
+                                look_ahead_response = self.generate(
+                                    look_ahead_messages, **look_ahead_params
+                                )
                             else:
-                                look_ahead_params = {'max_tokens': self.max_length, 'stop': self.look_ahead_boundary}
-                                look_ahead_response = self.generate(look_ahead_messages, **look_ahead_params)
-                            
+                                look_ahead_params = {
+                                    "max_tokens": self.max_length,
+                                    "stop": self.look_ahead_boundary,
+                                }
+                                look_ahead_response = self.generate(
+                                    look_ahead_messages, **look_ahead_params
+                                )
+
                             # Enhance the query with the look ahead content
-                            enhanced_question = question if self.only_use_look_ahead else question + " " + look_ahead_response
-                            
+                            enhanced_question = (
+                                question
+                                if self.only_use_look_ahead
+                                else question + " " + look_ahead_response
+                            )
+
                             # Limit query length if specified
-                            if self.max_query_length and not self.use_full_input_as_query:
-                                enhanced_question = enhanced_question[:self.max_query_length]
-                            
+                            if (
+                                self.max_query_length
+                                and not self.use_full_input_as_query
+                            ):
+                                enhanced_question = enhanced_question[
+                                    : self.max_query_length
+                                ]
+
                             # Use enhanced query for retrieval
                             rag_result = self._flare_without_follow_up(
                                 enhanced_question, None, k=k, rrf_k=rrf_k, **kwargs
@@ -1126,7 +1176,7 @@ class MedRAG:
                             rag_result = self.medrag_answer(
                                 question, k=k, rrf_k=rrf_k, **kwargs
                             )[0]
-                        
+
                         context += f"\n\nQuery: {question}\nAnswer: {rag_result}"
                         context = context.strip()
                     except Exception as E:
@@ -1136,7 +1186,7 @@ class MedRAG:
                         if save_path:
                             with open(save_path + ".error", "a") as f:
                                 f.write(f"{error}\n")
-                
+
                 qa_cache.append(context)
                 if qa_cache_path:
                     with open(qa_cache_path, "w") as f:
@@ -1145,7 +1195,7 @@ class MedRAG:
                 messages.append(response_message)
                 print("No queries or answer. Continue with next iteration.")
                 continue
-                
+
         return messages[-1]["content"], messages
 
 

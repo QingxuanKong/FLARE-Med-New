@@ -1,18 +1,17 @@
 {
-    "corpus_name": "MedText",
-    "retriever_name": "MedCPT",
-    "llm_name": "OpenAI/gpt-4.1-nano",
-    "rag": true,
-    "k": 8,
-    "results_dir": "./prediction",
-    "dataset_name": "medqa",
-    "enable_flare": false,
-    "look_ahead_steps": 50,
-    "look_ahead_truncate_at_boundary": ".,?,!",
-    "max_query_length": 300,
-    "follow_up": false,
-    "n_rounds": 3,
-    "n_queries": 2,
-    "threads": 8
-  }
-  
+  "corpus_name": "MedText",
+  "retriever_name": "MedCPT",
+  "llm_name": "OpenAI/gpt-4.1-nano",
+  "rag": true,
+  "k": 8,
+  "results_dir": "./prediction",
+  "dataset_name": "medqa",
+  "enable_flare": false,
+  "look_ahead_steps": 50,
+  "look_ahead_truncate_at_boundary": ".,?,!",
+  "max_query_length": 300,
+  "follow_up": false,
+  "n_rounds": 3,
+  "n_queries": 2,
+  "threads": 8
+}
